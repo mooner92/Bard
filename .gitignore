@@ -4,3 +4,17 @@ ComfyUI/
 logs/
 output/
 __pycache__/
+
+# 자격증명 — 공개 저장소이므로 절대 커밋 금지
+.env
+.env.*
+!.env.example
+*.key
+data/
+
+# 영상 원본은 저장소에 넣지 않는다. VIDEOS.md 인덱스로만 관리하고 scp로 가져간다.
+deliverables/
+samples/*.mp4
+
+# 모델 가중치 63GB+ — git add가 여기서 멈춘다
+models/
