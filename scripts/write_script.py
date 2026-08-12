@@ -37,7 +37,11 @@ def parse_sentences(text, n):
     """S1: / **S1:** / S1. / 1. 등 형식 편차를 허용해 파싱한다."""
     out = {}
     for m in re.finditer(r"^\**\s*S?([1-9])\s*[:.)\]]\**\s*(.+)$", text, flags=re.M):
-        out[int(m.group(1))] = m.group(2).strip().strip('"*')
+        s = m.group(2).strip().strip('"*')
+        # 꺾쇠·서명 괄호는 문장에서 원천 제거: SSML(XML)에 <변신> 이 들어가면
+        # 태그로 해석돼 TTS 합성이 깨진다.
+        s = re.sub(r"[<>《》〈〉「」『』]", "", s)
+        out[int(m.group(1))] = s
     return [out.get(i, "") for i in range(1, n + 1)]
 
 
@@ -57,6 +61,10 @@ def ending_class(s):
         return "구어체"
     if t.endswith("다"):
         return "한다체"
+    # ~노라/~도다/~구나/~로다: 고어체 서술 어미. 명사종결로 오분류되면
+    # ("바라보았노라" 실측) 낭독 톤이 깨진 채 통과된다.
+    if re.search(r"(노라|도다|구나|로다)$", t):
+        return "고어체"
     return "명사종결"
 
 
@@ -99,7 +107,11 @@ def validate(sents, ending_phrase, banned, plan=None):
         if s and (re.search(r"[A-Za-z]", s) or
                   len(re.findall(r"[가-힣]", s)) < len(s) * 0.4):
             issues.append((i, "한국어 문장이 아님(라틴 문자/한글 비율)"))
-    if ending_phrase and not sents[-1].rstrip(".!? ").endswith(ending_phrase.rstrip(".")):
+    # 모델이 작품명에 꺾쇠·괄호를 붙이는 버릇(<변신>, 《모비딕》 실측)이 있어
+    # 비교 전에 양쪽 모두 제거한다.
+    def norm(x):
+        return re.sub(r"[<>《》〈〉「」『』()\[\]]", "", x).rstrip(".!? ")
+    if ending_phrase and not norm(sents[-1]).endswith(norm(ending_phrase)):
         issues.append((len(sents) - 1, f"마지막 문장이 '{ending_phrase}'로 끝나지 않음"))
     return issues
 
