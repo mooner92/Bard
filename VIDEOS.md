@@ -38,3 +38,15 @@ scp -P 764 mooner92@192.168.1.103:'/home/mooner92/aivideo/deliverables/mobydick/
 | 05_720x1280_121f_29분11초_부분로드 | 720×1280 | 5.0s | 1.5MB | `deliverables/benchmark/05_720x1280_121f_29분11초_부분로드.mp4` |
 | 06_악어떼_480x848_피사체검증 | 480×848 | 5.0s | 1.9MB | `deliverables/benchmark/06_악어떼_480x848_피사체검증.mp4` |
 | 07_딥타임_캄브리아기_480x848 | 480×848 | 5.0s | 1.5MB | `deliverables/benchmark/07_딥타임_캄브리아기_480x848.mp4` |
+
+## 모비딕 v3 (이미지 우선 파이프라인 — 확정 구조)
+
+| 제목 | 해상도 | 길이 | 용량 | 경로 |
+|---|---|---|---|---|
+| 모비딕 v3 (Qwen-Image 키프레임 + Wan I2V) | 1080×1920 | 30.5s | 26.6MB | `deliverables/mobydick/10_모비딕_v3_이미지우선_30.5s_1080x1920.mp4` |
+| 모비딕 v3 압축본 | 1080×1920 | 30.5s | 12.0MB | `deliverables/mobydick/10_모비딕_v3_압축본_12MB.mp4` |
+| 카프카 변신 v1 (T2V) | 1080×1920 | 29.6s | 12.3MB | `deliverables/kafka_변신_v1_29.6s.mp4` |
+
+파이프라인: 대본(qwen3.6) → TTS 길이측정(Azure) → 키프레임(Qwen-Image Q4, 스타일블록 고정, CFG 2.5)
+→ 선별·재생성 → 캡션 크롭 → Wan 2.2 I2V 81프레임 → 문장 길이에 맞춘 감속 → 조립.
+키프레임 2~3분/장, I2V 7~9분/클립. T2V 대비 스타일·피사체·일관성 문제 해결.
