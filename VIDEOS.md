@@ -19,6 +19,7 @@ deliverables/
 
 | 제목 | 해상도 | 길이 | 용량 | 경로 |
 |---|---|---|---|---|
+| 모비딕 v3.1 (하네스 내레이션) | 1080×1920 | 31.0s | 26.9MB | `deliverables/mobydick/11_모비딕_v3.1_하네스내레이션_31s.mp4` |
 | 모비딕 v3 (Qwen-Image 키프레임 + Wan I2V) | 1080×1920 | 30.5s | 26.6MB | `deliverables/mobydick/10_모비딕_v3_이미지우선_30.5s_1080x1920.mp4` |
 | 모비딕 v3 압축본 | 1080×1920 | 30.5s | 12.0MB | `deliverables/mobydick/10_모비딕_v3_압축본_12MB.mp4` |
 | 카프카 변신 v1 | 1080×1920 | 29.6s | 12.3MB | `deliverables/kafka/kafka_변신_v1_29.6s.mp4` |
