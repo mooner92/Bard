@@ -5,27 +5,30 @@
 scp -P 764 -r mooner92@192.168.1.103:/home/mooner92/aivideo/deliverables/ ./
 ```
 
-## 디렉터리 구조
-```
-deliverables/
-├── mobydick/     현행 완성본 (v3, 이미지 우선 파이프라인)
-├── kafka/        카프카 변신 v1 (T2V — v3 파이프라인 재제작 예정)
-└── _old/
-    ├── benchmark/     하드웨어 벤치마크 클립 7개 (해상도·속도 실측)
-    └── mobydick_v1/   T2V 시절 모비딕 (무음 프리뷰 + 장면 클립)
-```
+## 현행 완성본
 
-## 현행
+| 제목 | 길이 | 용량 | 경로 |
+|---|---|---|---|
+| 모비딕 v3.2 (고래 종 통일, 하네스 내레이션) | 31.0s | 24.7MB | `deliverables/mobydick/12_모비딕_v3.2_고래통일_31s.mp4` |
+| 모비딕 v3.2 압축본 | 31.0s | 11.1MB | `deliverables/mobydick/12_모비딕_v3.2_압축본.mp4` |
+| 변신 v2 (표현주의, 대사 포함 내레이션) | 31.7s | 13.3MB | `deliverables/kafka/20_변신_v2_이미지우선_32s.mp4` |
+| 변신 v2 압축본 | 31.7s | 6.0MB | `deliverables/kafka/20_변신_v2_압축본.mp4` |
 
-| 제목 | 해상도 | 길이 | 용량 | 경로 |
-|---|---|---|---|---|
-| 모비딕 v3.1 (하네스 내레이션) | 1080×1920 | 31.0s | 26.9MB | `deliverables/mobydick/11_모비딕_v3.1_하네스내레이션_31s.mp4` |
-| 모비딕 v3 (Qwen-Image 키프레임 + Wan I2V) | 1080×1920 | 30.5s | 26.6MB | `deliverables/mobydick/10_모비딕_v3_이미지우선_30.5s_1080x1920.mp4` |
-| 모비딕 v3 압축본 | 1080×1920 | 30.5s | 12.0MB | `deliverables/mobydick/10_모비딕_v3_압축본_12MB.mp4` |
-| 카프카 변신 v1 | 1080×1920 | 29.6s | 12.3MB | `deliverables/kafka/kafka_변신_v1_29.6s.mp4` |
+전부 1080×1920, h264+aac, 이미지 우선 파이프라인(README 참조) 산출물.
 
-## 파이프라인 (v3 확정 구조)
-대본(qwen3.6) → TTS 길이측정(Azure) → 키프레임(Qwen-Image Q4, 스타일블록 고정, CFG 2.5)
-→ 선별·재생성 → 캡션 크롭 → Wan 2.2 I2V 81프레임 → 문장 길이 감속 동기화 → 조립(ffmpeg)
+## 진행 중
 
-실측: 키프레임 5~9분/장, I2V 7~9분/클립, 완성본 1편(6장면) GPU 약 2시간(교정 포함).
+- 톨스토이 『사람은 무엇으로 사는가』 — 내레이션 완료, 키프레임부터 남음 (HANDOFF.md)
+
+## 구버전 (`deliverables/_old/`)
+
+- `mobydick_v3/` — v3(첫 이미지 우선판)·v3.1(하네스 내레이션판, 고래 미통일)
+- `mobydick_v1/` — T2V 시절 무음 프리뷰 + 장면 클립
+- `benchmark/` — 하드웨어 실측 클립 7개
+- `kafka_변신_v1_29.6s.mp4` — T2V 시절 1차본
+
+## 파이프라인 요약
+
+대본 하네스(qwen3.6) → TTS 길이측정(Azure) → 키프레임(Qwen-Image, 스타일블록 고정)
+→ 참조 편집(피사체 통일) → 크롭 → Wan 2.2 I2V 81프레임 → 문장 길이 감속 동기화 → 조립.
+상세: [docs/PIPELINE.md](docs/PIPELINE.md) · 인수인계: [HANDOFF.md](HANDOFF.md)
