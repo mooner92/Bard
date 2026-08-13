@@ -36,7 +36,7 @@ GPU 확인 후 `curl -s localhost:8188/queue` 로 ComfyUI 응답 확인.
 
 ## 환경 요점
 
-- 저장소: `/home/mooner92/aivideo` = https://github.com/mooner92/wan22-shorts-pipeline (public)
+- 저장소: `/home/mooner92/aivideo` = https://github.com/mooner92/bard (public)
   - git push는 SSH 별칭 `github-sub` (ssh.github.com:443 — **이 서버는 22번 아웃바운드 차단**)
 - venv: `venv/` (torch 2.11 cu128, sm_75 포함). HF 로그인 완료(mooner92)
 - Azure Speech 키: `.env` (gitignore됨). 음성 ko-KR-SunHiNeural, F0 무료 티어

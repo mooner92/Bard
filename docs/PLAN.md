@@ -50,7 +50,7 @@
 | 소스 | 역할 | 상태 |
 |---|---|---|
 | **도서관 정보나루** (data4library.kr) | 인기대출도서 목록 (전국/월별/연령별, ISBN 포함) | HTTP 200 확인. **무료 인증키 필요 — 회원가입 후 발급 (사용자 액션)** |
-| **연구원 도서관** (library.kei.re.kr) | 소장 여부 확인 | JS 렌더링이라 직접 스크랩 불가. **① 브라우저 Network 탭의 실제 API URL(최선) ② Playwright 헤드리스 ③ 사서에게 소장목록 export 요청** 중 택1 |
+| **연구원 도서관** (library.kei.re.kr) | 소장 여부 확인 | ✅ **연동 완료.** 화면이 쓰는 Pyxis JSON API가 비로그인 개방(컬렉션 1=소장자료, 10=eBook) — `scripts/kei_holdings.py` + `GET /api/books/holdings` (24h 캐시, 제목·저자 정규화 매칭으로 출판사명 오탐 제거) |
 | 알라딘 TTB / 네이버 책 | 표지·소개·평점 메타데이터 보강 | HTTP 200 확인. 키 발급 필요(선택) |
 | Wikipedia action API | 고전 라인 사실 수집 | 정책 확인 완료 (UA 필수, maxlag=5, 작품당 1회 캐시) |
 
@@ -77,8 +77,8 @@
 ### 사용자 액션 필요
 
 1. **정보나루 인증키**: data4library.kr 회원가입 → 인증키 신청 (무료, 즉시~1일)
-2. **KEI 도서관 API URL**: 브라우저 F12 → Network → Fetch/XHR → 목록 페이지 새로고침 →
-   도서 데이터 요청 URL 복사 (실패 시 Playwright로 대체 — 승인만 주시면 됨)
+2. ~~KEI 도서관 API URL~~ ✅ 해결 — 번들 분석으로 Pyxis API 직접 확인, Playwright 불필요.
+   실측: `GET /pyxis-api/1/collections/{1|10}/search?all=k|a|검색어`. 인기대출 톱10 중 7권 KEI 소장 확인.
 3. (선택) 알라딘 TTB 키
 
 ---

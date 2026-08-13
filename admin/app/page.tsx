@@ -5,6 +5,15 @@ import { API, Book, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib
 
 type Item = { work: string; title: string; cover?: string; video?: Video }
 
+/** KEI 도서관 소장 판정 → 뱃지. unknown 은 백그라운드 조회 중이라는 뜻. */
+function HoldPill({ h }: { h: string }) {
+  const label: Record<string, string> = {
+    paper: 'KEI 종이책', ebook: 'KEI 전자책', both: 'KEI 종이책·전자책', none: '미소장',
+  }
+  if (!label[h]) return <span className="pill wait">확인 중</span>
+  return <span className={h === 'none' ? 'pill no' : 'pill ok'}>{label[h]}</span>
+}
+
 export default function Home() {
   const [items, setItems] = useState<Item[]>([])
   const [books, setBooks] = useState<Book[]>([])
@@ -116,7 +125,7 @@ export default function Home() {
                   <span className="btitle">{b.title}</span>
                   <span className="fine">{b.author} · 대출 {b.loans.toLocaleString()}</span>
                 </span>
-                <span className="pill wait">소장 확인 예정</span>
+                <HoldPill h={b.holding} />
               </li>
             ))}
             {!books.length && <p className="fine">도서 정보를 불러오지 못했습니다.</p>}

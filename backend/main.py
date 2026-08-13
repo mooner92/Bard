@@ -11,6 +11,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
@@ -278,9 +279,75 @@ def popular_books(start: str = "", end: str = "", limit: int = 20, refresh: bool
             "publisher": b.get("publisher", ""),
             "isbn": b.get("isbn13", ""),
             "loans": int(b.get("loan_count") or 0),
-            # KEI 소장 확인은 후속 단계(Playwright). 지금은 미확인으로 표시한다.
             "holding": "unknown",
         })
+
+    # KEI 소장: 캐시된 것은 즉시 채우고, 나머지는 백그라운드로 조회해
+    # 같은 dict 를 갱신한다(_BOOK_CACHE 가 참조를 들고 있어 다음 조회에 반영).
+    sys.path.insert(0, str(BASE / "scripts"))
+    from kei_holdings import first_author
+    _hold_load()
+    pending = []
+    for b in books:
+        hit = _HOLD_CACHE.get(f"{b['title']}|{first_author(b['author'])}")
+        if hit and time.time() - hit["ts"] < _HOLD_TTL:
+            b["holding"] = hit["res"]["holding"]
+        else:
+            pending.append(b)
+    if pending:
+        import threading
+
+        def _fill():
+            for b in pending:
+                try:
+                    b["holding"] = _kei_lookup(b["title"], first_author(b["author"]))["holding"]
+                except Exception:
+                    pass  # 도서관 서버 장애 — unknown 으로 두고 다음 기회에
+
+        threading.Thread(target=_fill, daemon=True).start()
+
     out = {"period": {"start": start, "end": end}, "books": books}
     _BOOK_CACHE[ck] = out
     return out
+
+
+# ---------- KEI 도서관 소장 확인 ----------
+# scripts/kei_holdings.py (Pyxis JSON API) 를 24시간 파일 캐시로 감싼다.
+
+_HOLD_CACHE: dict = {}
+_HOLD_FILE = BASE / "data" / "kei_holdings.json"
+_HOLD_TTL = 24 * 3600
+
+
+def _hold_load():
+    if not _HOLD_CACHE and _HOLD_FILE.exists():
+        try:
+            _HOLD_CACHE.update(json.loads(_HOLD_FILE.read_text(encoding="utf-8")))
+        except Exception:
+            pass  # 캐시 파일 손상 — 새로 조회하며 다시 쌓는다
+
+
+def _kei_lookup(title: str, author: str = "") -> dict:
+    _hold_load()
+    k = f"{title}|{author}"
+    hit = _HOLD_CACHE.get(k)
+    if hit and time.time() - hit["ts"] < _HOLD_TTL:
+        return hit["res"]
+    sys.path.insert(0, str(BASE / "scripts"))
+    from kei_holdings import lookup
+    res = lookup(title, author)
+    _HOLD_CACHE[k] = {"ts": time.time(), "res": res}
+    _HOLD_FILE.parent.mkdir(exist_ok=True)
+    _HOLD_FILE.write_text(json.dumps(_HOLD_CACHE, ensure_ascii=False), encoding="utf-8")
+    return res
+
+
+@app.get("/api/books/holdings")
+def book_holdings(title: str, author: str = ""):
+    """KEI 소장 확인: holding = paper | ebook | both | none (24h 캐시)."""
+    sys.path.insert(0, str(BASE / "scripts"))
+    from kei_holdings import first_author
+    try:
+        return _kei_lookup(title.strip(), first_author(author))
+    except Exception as e:
+        raise HTTPException(502, f"KEI 조회 실패: {type(e).__name__}")
