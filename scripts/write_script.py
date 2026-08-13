@@ -170,6 +170,20 @@ def narrative_issues(sents, persons=None):
 # ---------- /서사 검증층 ----------
 
 
+# 말의 온도. scripts/tts_render.py 의 TONES 와 이름을 맞춰 쓴다 —
+# 같은 값 하나로 문장 어휘(여기)와 발화 속도·음높이(거기)가 함께 움직인다.
+TONE_RULES = {
+    "담담": "감정을 누르고 사실만 놓아라. 감탄사·과장 금지. 짧은 단정문 위주.",
+    "따뜻": "체온이 느껴지는 말로 써라. 손·숨·불빛 같은 감각어를 쓰고 단정 대신 여운을 남겨라.",
+    "서늘": "거리를 두고 관찰하듯 써라. 형용사를 줄이고 사물의 질감·온도만 남겨라.",
+    "긴장": "짧게 끊어 몰아쳐라. 동사로 문장을 끝내고, 한 문장에 사건 하나만 담아라.",
+    "속삭임": "바로 옆에서 털어놓듯 낮게 써라. 2인칭 호흡을 쓰되 설명하지 마라.",
+    "생동": "말끝을 올리고 리듬을 타라. 질문과 감탄을 섞고, 구체적인 숫자·이름을 앞세워라.",
+}
+# 강세로 읽을 구절 표시. tts_render 가 *별표*를 emphasis 로 바꾼다.
+EMPHASIS_RULE = ("각 문장에서 가장 중요한 낱말 하나만 *별표*로 감싸라 "
+                 "(예: *벌거벗은 청년*). 문장당 한 번을 넘기지 마라.")
+
 NARRATIVE_RULES = """[서사 규칙 — 지루한 줄거리 나열을 막는다]
 - 첫 문장: 지금 눈앞에서 벌어지는 구체적 동작 하나. 주인공 이름을 쓰지 말고
   "한 선원이", "어떤 남자가" 처럼 감춰라. "~있습니다/서 있습니다" 같은 정지 서술 금지.
@@ -192,6 +206,7 @@ INTRO_RULES = """[소개 규칙 — 줄거리 각색 금지]
 - 첫 문장은 독자의 일상에서 출발하는 구체적 장면 하나로 연다(책 이야기부터 꺼내지 마라).
 - 중간에 질문 형태의 문장을 두 개 이상 넣어라. 답은 주지 마라.
 - 자료에 없는 인물·사건·수치를 지어내지 마라. 확실하지 않으면 쓰지 마라.
+- 표지·삽화·글씨체의 생김새를 묘사하지 마라. 본 적 없는 것을 본 것처럼 쓰면 실패다.
 - 추상어(운명·본질·불가해) 금지. 눈에 보이는 사물과 상황으로 말하라.
 - 마지막 문장은 지정 문구로 끝나되, 첫 문장에 나온 단어를 하나 다시 써라."""
 
@@ -252,6 +267,11 @@ def main():
     # 수리 1회는 27B 몇 초짜리라, 클립 한 편 7분에 비하면 훨씬 싸다.
     p.add_argument("--max-repair", type=int, default=8)
     p.add_argument("--persons", default="", help="쉼표 구분 인물명 목록 (2명 초과 검출용)")
+    p.add_argument("--tone", default="담담", choices=list(TONE_RULES),
+                   help="말의 온도. 문장 어휘와 TTS prosody 를 같은 값으로 맞춘다")
+    # 강세 표시(*낱말*)는 tts_render.py 로 합성할 때만 켠다. 별표를 처리하지 않는
+    # 합성 경로에 넘기면 문장에 별표가 그대로 남는다.
+    p.add_argument("--emphasis", action="store_true", help="강세 낱말을 *별표*로 표시")
     p.add_argument("--minlen", type=int, default=22)
     p.add_argument("--maxlen", type=int, default=42)
     a = p.parse_args()
@@ -282,7 +302,10 @@ def main():
 - 마지막 {n}번 문장은 반드시 "{a.ending}"로 끝난다.
 - 금지어: {', '.join(banned)}
 
-{INTRO_RULES if intro else NARRATIVE_RULES}"""
+{INTRO_RULES if intro else NARRATIVE_RULES}
+
+[말의 온도 — {a.tone}]
+- {TONE_RULES[a.tone]}{chr(10) + '- ' + EMPHASIS_RULE if a.emphasis else ''}"""
 
     draft = ask(base_rules + f"""
 
@@ -344,7 +367,7 @@ def main():
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
     if not intro:
         issues += narrative_issues(sents, persons)
-    result = {"title": a.title, "sentences": sents,
+    result = {"title": a.title, "sentences": sents, "tone": a.tone,
               "endings": [ending_of(s) for s in sents],
               "passed": not issues, "issues": [f"S{i+1}: {m}" for i, m in issues]}
     with open(a.out, "w", encoding="utf-8") as f:
