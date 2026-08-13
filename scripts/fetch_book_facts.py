@@ -79,6 +79,43 @@ def data4library_detail(isbn13: str) -> dict:
     return detail.get("book", {}) or {}
 
 
+def usage_analysis(isbn13: str) -> dict:
+    """정보나루 이용분석: 키워드·독자층·함께 빌린 책·대출 추이.
+
+    출판사 소개문은 100자 남짓이라 8문장을 쓰기엔 얇다(실측: 그 얇음이
+    "수상작의 빛이 되네요" 같은 빈 문장을 만들었다). 여기서 나오는 숫자와
+    목록은 전부 검증 가능한 사실이라 환각 없이 살을 붙일 수 있다.
+    """
+    key = _env("DATA4LIBRARY_KEY")
+    if not key or not isbn13:
+        return {}
+    q = urllib.parse.urlencode({"authKey": key, "isbn13": isbn13, "format": "json"})
+    try:
+        d = json.loads(_get(f"https://data4library.kr/api/usageAnalysisList?{q}"))["response"]
+    except Exception as e:
+        print(f"  ! 정보나루 이용분석 실패 {isbn13}: {type(e).__name__}: {e}", file=sys.stderr)
+        return {}
+    out = {}
+    kw = [k["keyword"]["word"] for k in (d.get("keywords") or [])][:6]
+    if kw:
+        out["keywords"] = kw
+    grps = [g["loanGrp"] for g in (d.get("loanGrps") or [])][:3]
+    if grps:
+        out["readers"] = [f"{g['age']} {g['gender']}" for g in grps]
+    # coLoanBooks 는 책에 따라 {"books":[...]} 이기도 하고 그냥 [...] 이기도 하다.
+    raw_co = d.get("coLoanBooks") or []
+    raw_co = raw_co.get("books", []) if isinstance(raw_co, dict) else raw_co
+    co = [(b.get("book") or {}).get("bookname", "").split(":")[0].strip()
+          for b in raw_co if isinstance(b, dict)][:4]
+    if any(co):
+        out["together"] = [c for c in co if c]
+    hist = [h["loan"] for h in (d.get("loanHistory") or [])]
+    if hist:
+        top = max(hist, key=lambda h: int(h.get("loanCnt") or 0))
+        out["peak"] = f"{top['month']} 전국 {int(top['loanCnt']):,}회 대출"
+    return out
+
+
 def wikipedia_summary(title: str) -> str:
     """한국어 위키백과 첫 문단. 없으면 빈 문자열 — 없다고 실패시키지 않는다."""
     try:
@@ -127,6 +164,16 @@ def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tupl
         lines += ["[출판사 소개]", book["description"].strip()]
     if wiki:
         lines += ["[백과 설명]", wiki]
+    if use := usage_analysis(isbn13):
+        lines.append("[독자 반응 — 전국 공공도서관 대출 데이터]")
+        if use.get("peak"):
+            lines.append(f"가장 많이 빌린 달: {use['peak']}")
+        if use.get("readers"):
+            lines.append(f"가장 많이 빌린 독자층: {', '.join(use['readers'])}")
+        if use.get("together"):
+            lines.append(f"이 책을 빌린 사람이 함께 빌린 책: {', '.join(use['together'])}")
+        if use.get("keywords"):
+            lines.append(f"연관 키워드: {', '.join(use['keywords'])}")
     if fmt == "intro":
         lines += [
             "[집필 지침] 위 자료에 적힌 사실만 쓴다. 줄거리를 재구성하거나 결말을 밝히지 않는다.",

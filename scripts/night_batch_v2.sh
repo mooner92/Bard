@@ -122,10 +122,12 @@ print(json.load(open('$NAR'))['sentences'][$i-1].replace('*',''))")
     ffmpeg -y -i "$src" -vf "crop=iw:ih*0.88:0:ih*0.06,crop='min(iw,ih*480/848)':'min(ih,iw*848/480)',scale=480:848:flags=lanczos" \
       "ComfyUI/input/night_${work}_${i}.png" >/dev/null 2>&1
     d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "output/tts/${work}_night_s${i}.wav")
-    # 감속 1.5배 상한을 지키는 최소 프레임 수, 4n+1 로 내림
+    # 감속 1.5배 상한을 지키는 최소 프레임 수를 4n+1 로 **올림**한다.
+    # 내림하면 프레임이 모자라 감속이 1.5배를 살짝 넘는다(실측 1.52~1.54).
     fr=$(python3 -c "
-d=$d; f=max(81, int(round(d*24/1.5)))
-print(f - (f-1) % 4)")
+import math
+d=$d; f=max(81, math.ceil(d*24/1.5))
+print(f + (4 - (f-1) % 4) % 4)")
     venv/bin/python scripts/gen_i2v.py --image "night_${work}_${i}.png" \
       --prefix "${work}_i2v/night_s${i}" --length "$fr" --seed 42 \
       --prompt "gentle continuous motion in the scene, slow camera drift" \

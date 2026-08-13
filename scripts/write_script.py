@@ -211,6 +211,29 @@ INTRO_RULES = """[소개 규칙 — 줄거리 각색 금지]
 - 마지막 문장은 지정 문구로 끝나되, 첫 문장에 나온 단어를 하나 다시 써라."""
 
 
+# 다섯 이상의 수량어만 본다. '한 권/두 가지'는 관형사로 흔히 쓰여 오탐이 된다.
+NUM_WORD = "다섯|여섯|일곱|여덟|아홉|열|스물|서른|마흔|쉰|예순|일흔|여든|아흔|백|천|만|억"
+NUM_UNIT = "년|해|권|편|회|명|판|쇄|위|개월|주년"
+
+
+def fact_issues(sents, facts):
+    """자료에 없는 수치를 잡는다.
+
+    검증을 통과했는데도 "나무옆의자가 스물아홉 년 만에"(실측) 같은 숫자가
+    나온다. 어미·길이만 재는 기존 검증기로는 안 잡히는 부류라 따로 본다.
+    """
+    f = re.sub(r"[,\s]", "", facts)
+    out = []
+    for i, s in enumerate(sents):
+        for m in re.finditer(r"\d[\d,]*", s):
+            if re.sub(r"[,\s]", "", m.group(0)) not in f:
+                out.append((i, f"자료에 없는 수치 '{m.group(0)}' — 자료의 표현으로 바꾸거나 빼라"))
+        for m in re.finditer(rf"((?:{NUM_WORD})+)\s*({NUM_UNIT})", s):
+            if m.group(0).replace(" ", "") not in f and m.group(1) not in f:
+                out.append((i, f"자료에 없는 수량 '{m.group(0)}' — 자료의 표현으로 바꾸거나 빼라"))
+    return out
+
+
 def validate(sents, ending_phrase, banned, plan=None):
     """문제 목록 반환. 비어 있으면 합격."""
     issues = []
@@ -336,6 +359,7 @@ def main():
         # 서사 검증층(반전·대사·루프백)은 각색형 전용이다. 소개형에 걸면
         # 있지도 않은 줄거리를 만들어내라고 모델을 떠미는 꼴이 된다.
         issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+        issues += fact_issues(sents, facts)
         if not intro:
             issues += narrative_issues(sents, persons)
         if not issues:
@@ -372,6 +396,7 @@ def main():
             sents[i] = cand[i]
 
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+    issues += fact_issues(sents, facts)
     if not intro:
         issues += narrative_issues(sents, persons)
     result = {"title": a.title, "sentences": sents, "tone": a.tone,
