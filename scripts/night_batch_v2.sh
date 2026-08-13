@@ -45,6 +45,17 @@ NEG="text, letters, hangul, korean characters, handwriting, printed words, signb
 MOTION_NEG="static, still, motionless, frozen, jittery, flickering, warping, morphing, text, watermark, blurry, distorted, deformed"
 
 produced=0; failed=0
+
+# 08:00 정지 타이머는 SIGTERM 으로 끝낸다. 트랩이 없으면 마지막 요약 줄이
+# 기록되지 않아 "몇 편 만들었나"가 남지 않는다(실측: 첫날 요약 누락).
+finish() {
+  local left; left=$(grep -cvE '^[[:space:]]*(#|$)' "$Q")
+  say "=== 끝($1) · 완성 ${produced}편 · 실패 ${failed}건 · 큐 잔여 ${left} ==="
+  printf '%s\t%s\tproduced=%s\tfailed=%s\tqueue=%s\n' \
+    "$(date +%F)" "$1" "$produced" "$failed" "$left" >> "$LOGDIR/summary.tsv"
+}
+trap 'finish 정지신호; exit 0' TERM INT
+
 say "=== 야간 배치 v2 시작 (큐 $(grep -cvE '^[[:space:]]*(#|$)' "$Q") 건) ==="
 
 while work_window; do
@@ -173,6 +184,4 @@ print(f + (4 - (f-1) % 4) % 4)")
   rm -rf "$ASM"
 done
 
-say "=== 끝 · 완성 ${produced}편 · 실패 ${failed}건 · 큐 잔여 $(grep -cvE '^[[:space:]]*(#|$)' "$Q") ==="
-printf '%s\tproduced=%s\tfailed=%s\tqueue=%s\n' \
-  "$(date +%F)" "$produced" "$failed" "$(grep -cvE '^[[:space:]]*(#|$)' "$Q")" >> "$LOGDIR/summary.tsv"
+finish 정상종료
