@@ -309,6 +309,7 @@ def main():
     # 저작권이 살아 있는 현대서는 줄거리 각색 금지 (docs/PLAN.md).
     # 사실파일이 스스로 포맷을 선언한다 — 야간 배치 호출부를 건드리지 않기 위해서다.
     intro = "[포맷] 소개형" in facts
+    keep_star = " *별표* 강세 표시는 지우지 말고 그대로 두어라." if a.emphasis else ""
     # 같은 이유로 길이·톤도 사실파일이 덮어쓸 수 있게 한다. 배치가 도는 중에는
     # night_batch.sh 를 수정할 수 없다(bash 가 스크립트를 이어 읽는다).
     if m := re.search(r"\[길이\]\s*(\d+)\s*[-~]\s*(\d+)", facts):
@@ -347,7 +348,7 @@ def main():
 
     # 스타일 패스: 리듬 관점 재작성 (길이 규칙을 반드시 포함 -- 빼면 문장이 부풀어 오른다)
     styled = ask(f"""아래 낭독 대본을 리듬 관점에서 고쳐 써라. 내용과 장면 순서는 유지하고,
-종결어미 반복을 없애고, 문장 길이에 강약을 만들어라. 마지막 문장의 "{a.ending}" 마무리는 유지.
+종결어미 반복을 없애고, 문장 길이에 강약을 만들어라. 마지막 문장의 "{a.ending}" 마무리는 유지.{keep_star}
 각 문장은 공백 포함 {LEN_MIN}~{LEN_MAX}자를 절대 넘기지 마라. {LEN_MAX}자를 넘으면 실패다.
 1) ~ {n}) 번호 형식만 출력.
 
@@ -376,7 +377,7 @@ def main():
         for i, msgs in bad.items():
             tail = f' 반드시 "{a.ending}"로 끝나야 한다.' if i == n - 1 else ""
             fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {'; '.join(msgs)}.
-규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 내용 유지.{tail}
+규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 내용 유지.{keep_star}{tail}
 고친 문장 한 줄만 출력하라. 번호나 설명 금지.
 
 {sents[i]}""", temperature=0.9)
