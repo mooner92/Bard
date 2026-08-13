@@ -215,8 +215,13 @@ def validate(sents, ending_phrase, banned, plan=None):
     for i, s in enumerate(sents):
         if not s:
             issues.append((i, "누락")); continue
-        if not (LEN_MIN <= len(s) <= LEN_MAX):
-            issues.append((i, f"길이 {len(s)}자 ({LEN_MIN}~{LEN_MAX} 벗어남)"))
+        # 마지막 문장은 지정 마무리 문구를 통째로 담아야 한다. 문구가 27자인데
+        # 상한이 33자면 앞에 무슨 말을 붙여도 초과라 수리 루프가 헛돈다.
+        lmax = LEN_MAX
+        if ending_phrase and i == len(sents) - 1:
+            lmax = max(LEN_MAX, len(ending_phrase) + 12)
+        if not (LEN_MIN <= len(s) <= lmax):
+            issues.append((i, f"길이 {len(s)}자 ({LEN_MIN}~{lmax} 벗어남)"))
         for b in banned:
             if b in s:
                 issues.append((i, f"금지어 '{b}'"))
@@ -243,7 +248,9 @@ def main():
     p.add_argument("--ending", required=True, help="마지막 문장의 필수 마무리 문구")
     p.add_argument("--banned", default="목검", help="쉼표 구분 금지어")
     p.add_argument("--out", required=True)
-    p.add_argument("--max-repair", type=int, default=4)
+    # 8문장 자동 생성은 4회로 수렴하지 않는다(실측: 톨스토이 야간 배치 11건 잔존).
+    # 수리 1회는 27B 몇 초짜리라, 클립 한 편 7분에 비하면 훨씬 싸다.
+    p.add_argument("--max-repair", type=int, default=8)
     p.add_argument("--persons", default="", help="쉼표 구분 인물명 목록 (2명 초과 검출용)")
     p.add_argument("--minlen", type=int, default=22)
     p.add_argument("--maxlen", type=int, default=42)
