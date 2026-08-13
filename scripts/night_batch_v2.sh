@@ -41,7 +41,7 @@ svc_ok() {
 
 STYLE_DEFAULT="19th century copperplate engraving illustration, hand-etched crosshatching lines, aged yellowed paper texture, muted indigo and faded amber ink palette, antique book plate aesthetic. "
 # 글자류를 앞쪽에 몰아 둔다. 생성물에 가짜 한글이 적히는 사례가 잦다(실측).
-NEG="text, letters, hangul, korean characters, handwriting, printed words, caption, subtitle, inscription, signature, watermark, rectangular box head, slab, eraser, photorealistic, photograph, 3d render, cgi, glossy, vibrant saturated colors, bright blue sky, modern clothing, anime, smooth digital art, blurry, deformed"
+NEG="text, letters, hangul, korean characters, handwriting, printed words, signboard, shop sign, poster, framed notice, product label, book spine with title, caption, subtitle, inscription, signature, watermark, rectangular box head, slab, eraser, photorealistic, photograph, 3d render, cgi, glossy, vibrant saturated colors, bright blue sky, modern clothing, anime, smooth digital art, blurry, deformed"
 MOTION_NEG="static, still, motionless, frozen, jittery, flickering, warping, morphing, text, watermark, blurry, distorted, deformed"
 
 produced=0; failed=0
