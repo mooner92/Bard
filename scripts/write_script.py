@@ -434,16 +434,28 @@ def main():
     # 검증 루프 밖에 두는 이유는 모델 호출이 한 번 더 들기 때문이다.
     for i, msg in source_issues(sents, facts):
         print(f"[대조 S{i+1}] {msg}", file=sys.stderr)
+        m_term = re.search(r"'([^']+)'", msg)
+        bad_term = m_term.group(1) if m_term else ""
         tail = f' 반드시 "{a.ending}"로 끝나야 한다.' if i == n - 1 else ""
-        fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {msg}
-규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 자료에 있는 사실만.{keep_star}{tail}
+        # 어미 계열까지 맞기를 요구하면 재작성이 거의 통과하지 못해(실측) 거짓이 그대로 남는다.
+        # 사실 오류 제거가 문체보다 우선이므로, 지적 어구가 사라지고 길이만 맞으면 받는다.
+        for attempt in range(2):
+            fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {msg}
+규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 자료에 있는 사실만 쓴다.
+지적된 표현은 반드시 빼라.{keep_star}{tail}
 고친 문장 한 줄만 출력하라. 번호나 설명 금지.
 
-{sents[i]}""", temperature=0.7)
-        line = next((x for x in fixed.strip().splitlines() if re.search(r"[가-힣]", x)), "").strip().strip('"')
-        line = re.sub(r"^\**\s*S?[1-9]\s*[:.)\]]\**\s*", "", line)
-        if line and not validate([line], "", banned, plan=[ENDING_PLAN[i]]):
-            sents[i] = line
+{sents[i]}""", temperature=0.7 + 0.2 * attempt)
+            line = next((x for x in fixed.strip().splitlines() if re.search(r"[가-힣]", x)), "").strip().strip('"')
+            line = re.sub(r"^\**\s*S?[1-9]\s*[:.)\]]\**\s*", "", line)
+            if not line or (bad_term and bad_term in line):
+                continue
+            if LEN_MIN <= len(line) <= LEN_MAX and not fact_issues([line], facts):
+                sents[i] = line
+                print(f"[대조 S{i+1}] 교체됨: {line[:40]}", file=sys.stderr)
+                break
+        else:
+            print(f"[대조 S{i+1}] 재작성 실패 — 원문 유지(아침 검수 대상)", file=sys.stderr)
 
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
     issues += fact_issues(sents, facts)
