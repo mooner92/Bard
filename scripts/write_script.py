@@ -236,6 +236,38 @@ def fact_issues(sents, facts):
     return out
 
 
+def source_issues(sents, facts):
+    """자료에 근거 없는 고유명사·사건을 모델에게 대조시킨다.
+
+    수치는 fact_issues() 가 정규식으로 잡지만, 지어낸 이름("블랙시즈의 깊은
+    바다" 실측)은 한국어에서 정규식으로 골라내기 어렵다. 판정만 시키고
+    글쓰기는 시키지 않으므로 환각 여지가 작다.
+    """
+    body = "\n".join(f"{i+1}) {s}" for i, s in enumerate(sents) if s)
+    ans = ask(f"""아래 [자료]와 [대본]을 대조하는 검사만 하라. 새 문장을 쓰지 마라.
+
+[자료]
+{facts}
+
+[대본]
+{body}
+
+대본 문장 중 [자료]에 근거가 없는 고유명사(지명·작품명·인물명·상호)나
+일어나지 않은 사건이 있으면 그 문장 번호와 문제 어구만 아래 형식으로 한 줄씩 출력하라.
+형식: 번호|문제어구
+근거 없는 것이 하나도 없으면 '없음' 한 줄만 출력하라.""", temperature=0.2)
+    out = []
+    for line in ans.splitlines():
+        m = re.match(r"^\s*\**\s*([1-9])\s*[|｜]\s*(.+?)\s*\**\s*$", line)
+        if not m:
+            continue
+        i, term = int(m.group(1)) - 1, m.group(2).strip().strip('"')
+        # 모델이 자료에 있는 말을 지목하는 오탐을 걸러낸다
+        if 0 <= i < len(sents) and term and term not in facts and term in sents[i]:
+            out.append((i, f"자료에 근거 없는 표현 '{term}' — 자료에 있는 말로 바꾸거나 빼라"))
+    return out
+
+
 def validate(sents, ending_phrase, banned, plan=None):
     """문제 목록 반환. 비어 있으면 합격."""
     issues = []
@@ -397,6 +429,21 @@ def main():
     for i in range(n):
         if cand[i] and not validate([cand[i]], "", banned, plan=[ENDING_PLAN[i]]):
             sents[i] = cand[i]
+
+    # 자료 대조 패스: 지어낸 고유명사를 잡아 해당 문장만 다시 쓴다.
+    # 검증 루프 밖에 두는 이유는 모델 호출이 한 번 더 들기 때문이다.
+    for i, msg in source_issues(sents, facts):
+        print(f"[대조 S{i+1}] {msg}", file=sys.stderr)
+        tail = f' 반드시 "{a.ending}"로 끝나야 한다.' if i == n - 1 else ""
+        fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {msg}
+규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 자료에 있는 사실만.{keep_star}{tail}
+고친 문장 한 줄만 출력하라. 번호나 설명 금지.
+
+{sents[i]}""", temperature=0.7)
+        line = next((x for x in fixed.strip().splitlines() if re.search(r"[가-힣]", x)), "").strip().strip('"')
+        line = re.sub(r"^\**\s*S?[1-9]\s*[:.)\]]\**\s*", "", line)
+        if line and not validate([line], "", banned, plan=[ENDING_PLAN[i]]):
+            sents[i] = line
 
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
     issues += fact_issues(sents, facts)
