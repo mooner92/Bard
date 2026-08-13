@@ -1,4 +1,7 @@
-# wan22-shorts-pipeline · 로컬 GPU 문학 쇼츠 생산 라인
+# Bard · 로컬 GPU 문학 쇼츠 생산 라인
+
+<img src="admin/public/brand/bard-lockup.svg" alt="Bard" height="40">
+
 
 퍼블릭 도메인 고전을 **30~45초 한국어 내레이션 세로 영상**으로 만드는 온프레미스 파이프라인.
 대본·이미지·영상·음성·조립이 전부 이 서버 안에서 돌고, 외부로 나가는 것은 TTS 합성 요청뿐이다.

@@ -1,12 +1,12 @@
 :root {
-  --blue: #3e6ae1;
-  --ink: #171a20;
-  --graphite: #393c41;
-  --pewter: #5c5e62;
-  --silver: #8e8e8e;
-  --line: #eeeeee;
-  --ash: #f7f7f8;
-  --canvas: #ffffff;
+  --blue: #c58a3a;
+  --ink: #191512;
+  --graphite: #3d362e;
+  --pewter: #6b6257;
+  --silver: #99907f;
+  --line: #ece4d6;
+  --ash: #f6f1e8;
+  --canvas: #fffdf9;
   --r-md: 16px;
   --r-lg: 22px;
   --ease: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -26,7 +26,7 @@ a { color: inherit; text-decoration: none; }
 .gnav {
   height: 60px; display: flex; align-items: center; gap: 24px;
   padding: 0 28px; border-bottom: 1px solid var(--line);
-  position: sticky; top: 0; background: rgba(255,255,255,0.92);
+  position: sticky; top: 0; background: rgba(255,253,249,0.92);
   backdrop-filter: saturate(180%) blur(12px); z-index: 30;
 }
 .brand { font-size: 17px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; }
@@ -68,13 +68,13 @@ a { color: inherit; text-decoration: none; }
 .play {
   position: absolute; right: 28px; bottom: 24px;
   width: 56px; height: 56px; border-radius: 50%;
-  background: rgba(255,255,255,0.92); color: var(--ink);
+  background: rgba(255,253,249,0.92); color: var(--ink);
   display: grid; place-items: center; transition: transform var(--ease);
 }
 .slide:hover .play, .vcard:hover .play { transform: scale(1.06); }
 .play.sm { width: 38px; height: 38px; right: 10px; bottom: 10px; font-size: 13px; }
 .dots { display: flex; gap: 7px; justify-content: center; margin-top: 16px; }
-.dot { width: 7px; height: 7px; border-radius: 50%; background: #dcdcde; transition: width var(--ease), background var(--ease); }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: #ddd4c4; transition: width var(--ease), background var(--ease); }
 .dot.on { width: 22px; border-radius: 9999px; background: var(--blue); }
 
 /* 카드 */
@@ -97,7 +97,7 @@ a { color: inherit; text-decoration: none; }
 .btext { display: flex; flex-direction: column; line-height: 1.42; min-width: 0; }
 .btitle { font-size: 15px; font-weight: 600; color: var(--ink); }
 .pill { font-size: 12px; padding: 4px 11px; border-radius: 9999px; margin-left: auto; flex: none; }
-.pill.ok { background: rgba(62,106,225,0.1); color: var(--blue); }
+.pill.ok { background: rgba(197,138,58,0.14); color: var(--blue); }
 .pill.no { background: var(--ash); color: var(--pewter); }
 .pill.wait { background: var(--ash); color: var(--silver); }
 
@@ -115,7 +115,7 @@ a { color: inherit; text-decoration: none; }
 .vname { font-size: 14px; font-weight: 600; color: var(--ink); }
 .vmeta { font-size: 12px; color: var(--silver); }
 .dot.ok { background: var(--blue); width: 8px; height: 8px; }
-.dot.no { background: #dcdcde; width: 8px; height: 8px; }
+.dot.no { background: #ddd4c4; width: 8px; height: 8px; }
 
 .work { display: flex; flex-direction: column; min-width: 0; }
 .empty { display: grid; place-items: center; height: 100%; }

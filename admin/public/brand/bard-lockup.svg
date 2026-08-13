@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 76">
+<g transform="translate(-16 -12)"><path fill="#C58A3A" fill-rule="evenodd" d="M16 12 88 50 16 88Z M47 42A8 8 0 1 0 47 58L82 50Z"></path></g>
+<g transform="translate(102 12) scale(0.52)"><g fill="none" stroke="#191512" stroke-width="11" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8">
+<path d="M5.5 0V100"></path><path d="M5.5 0H36A24 24 0 0 1 36 48H5.5"></path><path d="M5.5 48H39A26 26 0 0 1 39 100H5.5"></path>
+<path d="M102 100 136.5 16 171 100"></path><path d="M113 68H160"></path>
+<path d="M208.3 0V100"></path><path d="M208.3 0H240A25 25 0 0 1 240 50H208.3"></path><path d="M234 50 272 100"></path>
+<path d="M310 0V100"></path><path d="M310 0H333A50 50 0 0 1 333 100H310"></path></g></g>
+</svg>

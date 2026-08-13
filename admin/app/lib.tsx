@@ -45,7 +45,7 @@ export function TopNav({ items, tab, onTab, right }: {
 }) {
   return (
     <nav className="gnav">
-      <a className="brand" href="/">aivideo</a>
+      <a className="brand" href="/"><img src="/brand/bard-lockup.svg" alt="Bard" style={{ height: 26, display: 'block' }} /></a>
       <div className="gmenu">
         {items.map(it => (
           <button key={it.id} className={tab === it.id ? 'gm on' : 'gm'} onClick={() => onTab(it.id)}>
