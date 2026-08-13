@@ -2,7 +2,7 @@
 
 원본 파일은 저장소에 포함하지 않습니다. scp로 가져가세요:
 ```
-scp -P 764 -r mooner92@192.168.1.103:/home/mooner92/aivideo/deliverables/ ./
+scp -P <SSH_PORT> -r <USER>@<SERVER>:/home/mooner92/aivideo/deliverables/ ./
 ```
 
 ## 현행 완성본

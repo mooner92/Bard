@@ -71,12 +71,96 @@ def ending_class(s):
 # 문장별 목표 어미 계열. 모델에게 다양성을 맡기면 한 계열로 쏠리므로
 # (한다체 금지 -> 전부 합니다체가 된 실측) 계열을 미리 배정해 강제한다.
 # 마지막 문장은 마무리 문구("~있습니다") 때문에 합니다체 고정.
-ENDING_PLAN = ["합니다체", "구어체", "명사종결", "합니다체", "구어체", "합니다체"]
+LEN_MIN, LEN_MAX = 22, 42
+ENDING_PLAN = ["합니다체", "구어체", "명사종결", "합니다체", "구어체", "명사종결", "구어체", "합니다체"]
 CLASS_HINT = {
     "합니다체": "~습니다 / ~었습니다 로 끝내라",
     "구어체": "~었죠 / ~인데요 / ~네요 로 끝내라",
     "명사종결": "서술어 없이 명사로 끝내라 (예: '...만이 남은 검은 바다.')",
 }
+
+
+
+# ---------- 서사 검증층 (docs/NARRATIVE.md 의 H1~X2 규칙) ----------
+CAUSAL = ["그래서", "그러자", "따라서", "결국", "탓에", "때문에", "덕분에"]
+ADVERS = ["그런데", "하지만", "그러나", "사실", "정작", "오히려", "그렇지만", "반면", "그때"]
+ADDITIVE = ["그리고", "그러고는", "이윽고", "그런 다음", "또한", "며칠 뒤"]
+STATIVE_END = ["있습니다", "있죠", "섭니다", "보입니다", "디딥니다", "놓입니다",
+               "펼쳐집니다", "나타납니다", "있었죠", "보이죠"]
+ABSTRACT = ["집착", "불가해", "운명", "본질", "진리", "실존", "소외", "숙명", "고독",
+            "인간의", "자연의", "인간성"]
+CONCRETE = ["관", "작살", "갑판", "고래", "다리", "의족", "금화", "돛대", "피", "뼈", "손",
+            "눈", "불", "바다", "밤", "사과", "빵", "문", "침대", "눈보라", "벌레", "그림자",
+            "촛불", "날개", "구두", "접시", "배", "돛", "칼", "종이", "편지"]
+META = ["상징한", "그리는 ", "보여주", "담고 있", "명작", "걸작", "작품이", "이야기다", "묘사하"]
+GAPWORD = ["왜", "무엇", "누구", "어떤", "한 ", "단 하나", "까닭", "이유", "무언가", "누군가"]
+
+
+def narrative_issues(sents, persons=None):
+    """서사 규칙 위반 목록 [(문장idx, 메시지)]. 전역 위반은 대표 문장에 귀속."""
+    I = []
+    n = len(sents)
+    body = " ".join(sents)
+    # C1: 인과/역접 전환 >=2, 나열 <=1
+    tr = [any(m in x for m in CAUSAL + ADVERS) for x in sents[1:]]
+    if sum(tr) < 2:
+        I.append((3 if n > 3 else n - 1, "C1 인과/역접 접속(그래서/결국/그런데...)이 2개 미만 — 문장을 앞 문장의 결과나 반전으로 다시 써라"))
+    if sum(any(m in x for m in ADDITIVE) for x in sents[1:]) > 1:
+        I.append((1, "C1 나열 접속(그리고...) 과다 — 인과나 반전으로 바꿔라"))
+    # A6: 중반 반전
+    if not any(m in x for x in sents[2:n - 1] for m in ADVERS):
+        I.append((2, "A6 중반(S3~)에 반전 표지(그런데/하지만/사실/오히려)가 없다"))
+    # H1: S1 정지 서술 금지 + 구체 명사
+    if any(sents[0].rstrip(".!?").endswith(v) for v in STATIVE_END):
+        I.append((0, "H1 첫 문장이 정지 서술로 끝난다 — 지금 벌어지는 동작으로 바꿔라"))
+    if not any(c in sents[0] for c in CONCRETE):
+        I.append((0, "H1 첫 문장에 눈에 보이는 구체 사물이 없다"))
+    # A8: 정보격차 장치
+    if not any(g in sents[0] or g in sents[1] for g in GAPWORD):
+        I.append((0, "A8 S1~S2에 유보 장치(한/어떤/왜/누군가...)가 없다"))
+    # E1/A3: 추상어
+    half = n // 2 + 1
+    for i, x in enumerate(sents[:half]):
+        if any(a in x for a in ABSTRACT):
+            I.append((i, "A3 전반부에 추상어 — 구체 이미지로 바꿔라"))
+    for i in range(half, n):
+        x = sents[i]
+        if any(a in x for a in ABSTRACT) and not any(c in x for c in CONCRETE):
+            I.append((i, "A3 추상어에 구체 명사 미동반"))
+    # A7: 메타 요약 어휘
+    for i, x in enumerate(sents):
+        if any(m in x for m in META):
+            I.append((i, "A7 메타 요약 어휘(상징/그리는/명작...) 금지"))
+    # C2: 리듬
+    L = [len(x) for x in sents if x]
+    if L:
+        mu = sum(L) / len(L)
+        sd = (sum((v - mu) ** 2 for v in L) / len(L)) ** 0.5
+        if sd < 4.0:
+            I.append((L.index(max(L)), f"C2 문장 길이가 균일(편차 {sd:.1f}) — 이 문장을 짧게 쪼개라"))
+        if min(L) > 24:
+            I.append((L.index(min(L)), "C2 24자 이하 펀치라인이 없다 — 이 문장을 압축하라"))
+    # Q1: 인용 1개, 중간에
+    q = body.count('"') + body.count("\u201c") + body.count("\u201d")
+    if q != 2:
+        I.append((1, "Q1 인용 대사가 정확히 1쌍이어야 한다 (짧은 구어 한 줄)"))
+    elif '"' in sents[0] or '"' in sents[-1]:
+        I.append((0 if '"' in sents[0] else n - 1, "Q1 인용은 중간 문장에만"))
+    # A2: 인물 상한
+    if persons:
+        named = {p for p in persons if p in " ".join(sents[:n - 1])}
+        if len(named) > 2:
+            I.append((2, f"A2 인물 {len(named)}명({', '.join(sorted(named))}) — 2명 이하로 줄여라"))
+    # X1: 마지막 문장 미해결 질문형
+    if not re.search(r"(는지|이유|까닭|무엇|누구|왜)", sents[-1]):
+        I.append((n - 1, "X1 마지막 문장이 미해결 질문형이 아니다 — '~한 이유는/누구인지는' 형태로"))
+    # X2: 루프백
+    t1 = set(re.findall(r"[가-힣]{2,}", sents[0]))
+    tn = set(re.findall(r"[가-힣]{2,}", sents[-1]))
+    if not (t1 & tn):
+        I.append((n - 1, "X2 마지막 문장이 첫 문장과 공유하는 단어가 없다 (루프백)"))
+    return I
+# ---------- /서사 검증층 ----------
 
 
 def validate(sents, ending_phrase, banned, plan=None):
@@ -98,8 +182,8 @@ def validate(sents, ending_phrase, banned, plan=None):
     for i, s in enumerate(sents):
         if not s:
             issues.append((i, "누락")); continue
-        if not (22 <= len(s) <= 42):
-            issues.append((i, f"길이 {len(s)}자 (22~42 벗어남)"))
+        if not (LEN_MIN <= len(s) <= LEN_MAX):
+            issues.append((i, f"길이 {len(s)}자 ({LEN_MIN}~{LEN_MAX} 벗어남)"))
         for b in banned:
             if b in s:
                 issues.append((i, f"금지어 '{b}'"))
@@ -125,7 +209,13 @@ def main():
     p.add_argument("--banned", default="목검", help="쉼표 구분 금지어")
     p.add_argument("--out", required=True)
     p.add_argument("--max-repair", type=int, default=4)
+    p.add_argument("--persons", default="", help="쉼표 구분 인물명 목록 (2명 초과 검출용)")
+    p.add_argument("--minlen", type=int, default=22)
+    p.add_argument("--maxlen", type=int, default=42)
     a = p.parse_args()
+    global LEN_MIN, LEN_MAX
+    LEN_MIN, LEN_MAX = a.minlen, a.maxlen
+    persons = [x for x in a.persons.split(",") if x]
     facts = open(a.facts, encoding="utf-8").read()
     banned = [b for b in a.banned.split(",") if b]
     n = a.scenes
@@ -166,7 +256,7 @@ S1:~S{n}: 형식만 출력.
 
     # 검증 -> 문장 단위 재수정 루프 (전체 재작성은 파싱이 불안정해 문장별로 처리)
     for attempt in range(a.max_repair):
-        issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+        issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n]) + narrative_issues(sents, persons)
         if not issues:
             break
         print(f"[검증 {attempt+1}] 불합격 {len(issues)}건: {issues}", file=sys.stderr)
@@ -200,7 +290,7 @@ S1:~S{n}: 형식만 출력.
         if cand[i] and not validate([cand[i]], "", banned, plan=[ENDING_PLAN[i]]):
             sents[i] = cand[i]
 
-    issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+    issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n]) + narrative_issues(sents, persons)
     result = {"title": a.title, "sentences": sents,
               "endings": [ending_of(s) for s in sents],
               "passed": not issues, "issues": [f"S{i+1}: {m}" for i, m in issues]}

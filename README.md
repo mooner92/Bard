@@ -77,7 +77,7 @@ LLM에게 "다양하게 써라"는 지시는 강제되지 않는다. 코드가 �
 | `scripts/download_models.sh` | 모델 일괄 다운로드 |
 | `backend/db.py` | SQLite 작업 큐 (UI·cron·에이전트 공용) |
 
-상세 파라미터와 실행 예시는 [docs/PIPELINE.md](docs/PIPELINE.md).
+상세 파라미터와 실행 예시는 [docs/PIPELINE.md](docs/PIPELINE.md), 서사 설계 근거는 [docs/NARRATIVE.md](docs/NARRATIVE.md), 로드맵·스펙은 [docs/PLAN.md](docs/PLAN.md).
 
 ## 모델과 라이선스
 

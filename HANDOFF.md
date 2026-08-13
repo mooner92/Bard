@@ -60,7 +60,7 @@ GPU 확인 후 `curl -s localhost:8188/queue` 로 ComfyUI 응답 확인.
 
 1. **톨스토이 완성** — 위 참조. 소요 약 1.5~2시간 GPU
 2. **prepare_work.py** — Wikipedia action API로 사실 파일 자동화. 설계 확정됨:
-   ko 우선/en 폴백, UA `aivideo-pipeline/0.1 (contact: mooner92@kakao.com)`, maxlag=5,
+   ko 우선/en 폴백, UA `aivideo-pipeline/0.1 (contact: <YOUR_EMAIL>)`, maxlag=5,
    작품당 1회 호출 후 SQLite 캐시(backend/db.py에 works 테이블 추가)
 3. **검수 UI** — Next.js :3001 (Node 20 설치됨), FastAPI :8000 + backend/db.py 큐 연동.
    대본 의미 왜곡("던진→남기신" 실측)은 기계 검증 불가 → 사람 승인 게이트가 필수인 근거
@@ -72,6 +72,6 @@ GPU 확인 후 `curl -s localhost:8188/queue` 로 ComfyUI 응답 확인.
 ## 영상 받기
 
 ```bash
-scp -P 764 -r mooner92@192.168.1.103:/home/mooner92/aivideo/deliverables/ ./
+scp -P <SSH_PORT> -r <USER>@<SERVER>:/home/mooner92/aivideo/deliverables/ ./
 ```
 인덱스: [VIDEOS.md](VIDEOS.md). 구버전은 `deliverables/_old/`.
