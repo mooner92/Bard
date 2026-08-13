@@ -116,8 +116,7 @@ def usage_analysis(isbn13: str) -> dict:
     return out
 
 
-def wikipedia_summary(title: str) -> str:
-    """한국어 위키백과 첫 문단. 없으면 빈 문자열 — 없다고 실패시키지 않는다."""
+def _wiki_extract(title: str) -> str:
     try:
         u = "https://ko.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
             "action": "query", "format": "json", "prop": "extracts",
@@ -134,6 +133,25 @@ def wikipedia_summary(title: str) -> str:
     return ""
 
 
+def wikipedia_summary(title: str, author: str = "") -> str:
+    """한국어 위키백과 첫 문단. 없거나 **다른 주제면** 빈 문자열을 준다.
+
+    제목이 일반명사면 엉뚱한 문서가 잡힌다. 실측: '모순' -> 논리학 개념 문서가
+    와서 대본에 "진리값", "논리적 비약"이 소설 내용인 양 실렸다. 그래서
+    저자 이름이 본문에 있는지 확인하고, 없으면 자료로 쓰지 않는다.
+    """
+    for t in ([f"{title} (소설)", title] if author else [title]):
+        txt = _wiki_extract(t)
+        if not txt:
+            continue
+        if not author:
+            return txt
+        names = [author, author.replace(" ", "")] + author.split()
+        if any(n and n in txt for n in names):
+            return txt
+    return ""
+
+
 def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tuple:
     """사실 텍스트와 KEI 소장 판정을 만든다. 반환: (facts_text, holding_dict)."""
     import sys
@@ -142,7 +160,7 @@ def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tupl
 
     a1 = first_author(author)
     book = data4library_detail(isbn13)
-    wiki = wikipedia_summary(title)
+    wiki = wikipedia_summary(title, a1)
     try:
         hold = lookup(title, a1)
     except Exception:
@@ -170,8 +188,6 @@ def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tupl
             lines.append(f"가장 많이 빌린 달: {use['peak']}")
         if use.get("readers"):
             lines.append(f"가장 많이 빌린 독자층: {', '.join(use['readers'])}")
-        if use.get("together"):
-            lines.append(f"이 책을 빌린 사람이 함께 빌린 책: {', '.join(use['together'])}")
         if use.get("keywords"):
             lines.append(f"연관 키워드: {', '.join(use['keywords'])}")
     if fmt == "intro":
