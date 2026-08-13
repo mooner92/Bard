@@ -18,3 +18,9 @@ samples/*.mp4
 
 # 모델 가중치 63GB+ — git add가 여기서 멈춘다
 models/
+
+# Next.js 빌드 산출물
+admin/node_modules/
+admin/.next/
+admin/next-env.d.ts
+admin/tsconfig.tsbuildinfo
