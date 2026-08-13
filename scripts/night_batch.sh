@@ -10,6 +10,8 @@
 #  4) 산출물은 output/ 까지만. deliverables/ 승격과 업로드는 사람이 승인한다.
 set -uo pipefail
 cd /home/mooner92/aivideo
+# 서버 시계는 UTC. 작업창(20~08시)·로그 날짜는 전부 한국시간 기준으로 판정한다.
+export TZ=Asia/Seoul
 
 LOCK=/tmp/aivideo-night.lock
 LOGDIR=logs/night; mkdir -p "$LOGDIR" works output/tts
