@@ -170,6 +170,32 @@ def narrative_issues(sents, persons=None):
 # ---------- /서사 검증층 ----------
 
 
+NARRATIVE_RULES = """[서사 규칙 — 지루한 줄거리 나열을 막는다]
+- 첫 문장: 지금 눈앞에서 벌어지는 구체적 동작 하나. 주인공 이름을 쓰지 말고
+  "한 선원이", "어떤 남자가" 처럼 감춰라. "~있습니다/서 있습니다" 같은 정지 서술 금지.
+- 문장끼리 "그리고 다음엔"으로 잇지 마라. 최소 두 곳은 "그래서/결국" (결과) 또는
+  "그런데/하지만/사실" (반전) 으로 이어라.
+- 중반에 반드시 반전이 한 번 있어야 한다.
+- 짧은 문장(22~24자) 하나를 반드시 섞어 리듬을 만들어라.
+- 큰따옴표 대사는 정확히 한 번, 중간 문장에. 14자 이내의 짧은 구어로.
+- 이름 있는 인물은 2명까지만.
+- 추상어(집착·운명·본질·불가해) 금지. 눈에 보이는 사물로 말하라.
+- 마지막 문장은 답을 주지 말고 질문을 남겨라: "~한 이유는", "~가 누구인지는".
+  그리고 첫 문장에 나온 단어를 하나 다시 써서 처음으로 되돌아오게 하라."""
+
+# 저작권 살아 있는 현대서용. 줄거리·결말을 재구성하지 않고 "이 책이 던지는 질문"만 다룬다.
+INTRO_RULES = """[소개 규칙 — 줄거리 각색 금지]
+- 이 책은 저작권이 살아 있다. 줄거리를 순서대로 옮기거나 결말·반전을 밝히면 실패다.
+- 등장인물의 행동을 장면으로 재연하지 마라. 본문을 인용하지 마라.
+- 대신 이렇게 쓴다: 이 책이 독자에게 던지는 질문, 책이 놓인 시대와 장소,
+  읽기 전에 알아두면 좋은 배경, 이 책을 지금 읽는 의미.
+- 첫 문장은 독자의 일상에서 출발하는 구체적 장면 하나로 연다(책 이야기부터 꺼내지 마라).
+- 중간에 질문 형태의 문장을 두 개 이상 넣어라. 답은 주지 마라.
+- 자료에 없는 인물·사건·수치를 지어내지 마라. 확실하지 않으면 쓰지 마라.
+- 추상어(운명·본질·불가해) 금지. 눈에 보이는 사물과 상황으로 말하라.
+- 마지막 문장은 지정 문구로 끝나되, 첫 문장에 나온 단어를 하나 다시 써라."""
+
+
 def validate(sents, ending_phrase, banned, plan=None):
     """문제 목록 반환. 비어 있으면 합격."""
     issues = []
@@ -194,9 +220,11 @@ def validate(sents, ending_phrase, banned, plan=None):
         for b in banned:
             if b in s:
                 issues.append((i, f"금지어 '{b}'"))
-        # 한글 본문 검사: 사고 텍스트("Here's a thinking...") 오염 차단
-        if s and (re.search(r"[A-Za-z]", s) or
-                  len(re.findall(r"[가-힣]", s)) < len(s) * 0.4):
+        # 한글 본문 검사: 사고 텍스트("Here's a thinking...") 오염 차단.
+        # KEI·ESG 같은 두문자어는 정상 한국어 문장에 섞이므로 검사 전에 뺀다.
+        core = re.sub(r"\b[A-Z]{2,5}\b", "", s)
+        if core and (re.search(r"[A-Za-z]", core) or
+                     len(re.findall(r"[가-힣]", core)) < len(core) * 0.4):
             issues.append((i, "한국어 문장이 아님(라틴 문자/한글 비율)"))
     # 모델이 작품명에 꺾쇠·괄호를 붙이는 버릇(<변신>, 《모비딕》 실측)이 있어
     # 비교 전에 양쪽 모두 제거한다.
@@ -226,6 +254,9 @@ def main():
     facts = open(a.facts, encoding="utf-8").read()
     banned = [b for b in a.banned.split(",") if b]
     n = a.scenes
+    # 저작권이 살아 있는 현대서는 줄거리 각색 금지 (docs/PLAN.md).
+    # 사실파일이 스스로 포맷을 선언한다 — 야간 배치 호출부를 건드리지 않기 위해서다.
+    intro = "[포맷] 소개형" in facts
 
     base_rules = f"""너는 한국어 낭독 대본 작가다. 아래 [원작 사실]의 내용만 사용하라. 없는 내용을 지어내지 마라.
 
@@ -244,18 +275,7 @@ def main():
 - 마지막 {n}번 문장은 반드시 "{a.ending}"로 끝난다.
 - 금지어: {', '.join(banned)}
 
-[서사 규칙 — 지루한 줄거리 나열을 막는다]
-- 첫 문장: 지금 눈앞에서 벌어지는 구체적 동작 하나. 주인공 이름을 쓰지 말고
-  "한 선원이", "어떤 남자가" 처럼 감춰라. "~있습니다/서 있습니다" 같은 정지 서술 금지.
-- 문장끼리 "그리고 다음엔"으로 잇지 마라. 최소 두 곳은 "그래서/결국" (결과) 또는
-  "그런데/하지만/사실" (반전) 으로 이어라.
-- 중반에 반드시 반전이 한 번 있어야 한다.
-- 짧은 문장(22~24자) 하나를 반드시 섞어 리듬을 만들어라.
-- 큰따옴표 대사는 정확히 한 번, 중간 문장에. 14자 이내의 짧은 구어로.
-- 이름 있는 인물은 2명까지만.
-- 추상어(집착·운명·본질·불가해) 금지. 눈에 보이는 사물로 말하라.
-- 마지막 문장은 답을 주지 말고 질문을 남겨라: "~한 이유는", "~가 누구인지는".
-  그리고 첫 문장에 나온 단어를 하나 다시 써서 처음으로 되돌아오게 하라."""
+{INTRO_RULES if intro else NARRATIVE_RULES}"""
 
     draft = ask(base_rules + f"""
 
@@ -276,7 +296,11 @@ def main():
 
     # 검증 -> 문장 단위 재수정 루프 (전체 재작성은 파싱이 불안정해 문장별로 처리)
     for attempt in range(a.max_repair):
-        issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n]) + narrative_issues(sents, persons)
+        # 서사 검증층(반전·대사·루프백)은 각색형 전용이다. 소개형에 걸면
+        # 있지도 않은 줄거리를 만들어내라고 모델을 떠미는 꼴이 된다.
+        issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+        if not intro:
+            issues += narrative_issues(sents, persons)
         if not issues:
             break
         print(f"[검증 {attempt+1}] 불합격 {len(issues)}건: {issues}", file=sys.stderr)
@@ -310,7 +334,9 @@ def main():
         if cand[i] and not validate([cand[i]], "", banned, plan=[ENDING_PLAN[i]]):
             sents[i] = cand[i]
 
-    issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n]) + narrative_issues(sents, persons)
+    issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+    if not intro:
+        issues += narrative_issues(sents, persons)
     result = {"title": a.title, "sentences": sents,
               "endings": [ending_of(s) for s in sents],
               "passed": not issues, "issues": [f"S{i+1}: {m}" for i, m in issues]}
