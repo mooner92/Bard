@@ -69,7 +69,8 @@ def _shift(value: str, delta: int) -> str:
     return f"{n:+d}%"
 
 
-def build_ssml(sentence: str, tone: str, delta: int = 0, voice: str = VOICE_DEFAULT) -> str:
+def build_ssml(sentence: str, tone: str, delta: int = 0, voice: str = VOICE_DEFAULT,
+               rate_delta: int = 0) -> str:
     t = TONES[tone]
     body = html.escape(sentence.strip())
     # *강조* -> emphasis. escape 이후에 치환해야 태그가 깨지지 않는다.
@@ -80,7 +81,8 @@ def build_ssml(sentence: str, tone: str, delta: int = 0, voice: str = VOICE_DEFA
     return (
         "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='ko-KR'>"
         f"<voice name='{voice}'>"
-        f"<prosody rate='{_shift(t['rate'], delta)}' pitch='{_shift(t['pitch'], delta)}' "
+        f"<prosody rate='{_shift(t['rate'], delta + rate_delta)}' "
+        f"pitch='{_shift(t['pitch'], delta)}' "
         f"volume='{t['volume']}'>{lead}{body}</prosody>"
         "</voice></speak>"
     )
@@ -112,13 +114,19 @@ def main():
     p.add_argument("--tone", default="담담", choices=list(TONES))
     p.add_argument("--arc", default="산형", choices=list(ARCS))
     p.add_argument("--voice", default=VOICE_DEFAULT)
+    # 낭독 길이는 글자 수로 맞출 수 없다. 문장마다 도입 호흡·끝 여운이 고정으로 붙어
+    # 시간 = 고정분 + 글자수x기울기 꼴이고, 기울기도 톤마다 다르다(실측: 담담 0.14,
+    # 생동 0.103초/자). 글자를 고쳐 쓰는 대신 발화 속도로 맞춘다 — 산문은 그대로 둔다.
+    p.add_argument("--rate-delta", type=int, default=0,
+                   help="톤 기본 속도에 더할 백분율 포인트(음수면 느리게)")
     p.add_argument("--prefix", default="", help="출력 접두사 (예: output/tts/work_v2_s)")
     p.add_argument("--out", default="", help="--text 용 단일 출력 경로")
     a = p.parse_args()
 
     if a.text:
         dst = Path(a.out or "/tmp/tone.wav")
-        sec = synth(build_ssml(a.text, a.tone, voice=a.voice), dst)
+        sec = synth(build_ssml(a.text, a.tone, voice=a.voice,
+                               rate_delta=a.rate_delta), dst)
         print(json.dumps({"out": str(dst), "sec": sec}, ensure_ascii=False))
         return
 
@@ -134,7 +142,7 @@ def main():
     for i, s in enumerate(sents):
         delta = arc[i] if i < len(arc) else 0
         out = Path(f"{a.prefix}{i+1}.wav")
-        durs.append(synth(build_ssml(s, a.tone, delta, a.voice), out))
+        durs.append(synth(build_ssml(s, a.tone, delta, a.voice, a.rate_delta), out))
         files.append(str(out))
         print(f"  s{i+1} {a.tone}{delta:+d} {durs[-1]:>5.2f}초  {s[:28]}")
     print(json.dumps({"files": files, "durations": durs,

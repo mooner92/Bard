@@ -106,6 +106,7 @@ while grace_ok; do
   style=$(echo "$line" | cut -f4); [ -z "$style" ] && style="$STYLE_DEFAULT"
   tone=$(echo "$line" | cut -f5); [ -z "$tone" ] && tone="담담"
   NAR="output/$work/narration_night.json"
+  RATE_DELTA=0                      # 사람이 쓴 대본은 이 값으로 길이를 맞춘다
   TRE="output/$work/treatment.json"
   # 대본이 있으면 이미 착수한 작품이다 — 시각과 무관하게 마무리한다.
   if [ ! -s "$NAR" ] && ! start_ok; then
@@ -191,6 +192,7 @@ print(re.sub(r'\s+',' ',' '.join(body))[:200])")
   for tts_try in 1 2 3; do
     if [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -ne "$N" ]; then
       venv/bin/python scripts/tts_render.py --narration "$NAR" --tone "$tone" --arc 산형 \
+        --rate-delta "$RATE_DELTA" \
         --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
     fi
     got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)
@@ -215,7 +217,22 @@ print(f'{d:.1f} {max(20,min(t-1,36))} 38')   # 모델이 범위 아래쪽으로 
     # 사람이 쓴 대본은 덮어쓰지 않는다. 길이 몇 초를 맞추자고 모델에게 다시 시키면
     # 문장이 무너진다(실측: "돼지들의 통 이동이 우유를 구해" 같은 문장이 관문을 통과했다).
     if grep -q '"author": "hand"' "$NAR" 2>/dev/null; then
-      say "  ② 길이 ${total}초 — 사람이 쓴 대본이라 그대로 간다"; break
+      # 산문은 고치지 않고 **발화 속도**로 맞춘다. 낭독 시간은 글자 수에 비례하지 않는다 —
+      # 문장마다 도입 호흡·끝 여운이 고정으로 붙어 시간 = 고정분 + 글자수x기울기 이고,
+      # 기울기도 톤마다 다르다(실측: 담담 0.14, 생동 0.103초/자. 같은 320자가 50.6초와
+      # 46.8초로 갈렸다). 속도는 1%p 당 약 1.07% 늘어난다(실측).
+      # 겨냥은 55 가 아니라 52초다. 55 로 늘리면 문장이 7.3초를 넘어 117프레임 안에서
+      # 감속 1.5배를 못 지킨다(실측: 54.6초로 맞췄더니 S8 이 7.74초, 감속 1.59배).
+      # SSML 의 rate 는 **양수가 빠름**이다. 낭독을 늘리려면 음수를 줘야 한다
+      # (실측: 부호를 반대로 줬다가 46.8초짜리가 42.7초로 더 짧아졌다).
+      rd=$(python3 -c "print(max(-15, min(10, $RATE_DELTA - round((52/$total - 1)/0.0107))))")
+      if [ "$tts_try" = 3 ] || [ "$rd" = "$RATE_DELTA" ]; then
+        say "  ② 길이 ${total}초 — 속도 조정 한계(${RATE_DELTA}%p), 그대로 진행"; break
+      fi
+      say "  ② 길이 ${total}초 — 발화 속도 ${rd}%p 로 다시 합성"
+      RATE_DELTA=$rd
+      rm -f output/tts/${work}_night_s*.wav
+      continue
     fi
     say "  ② 길이 ${total}초 — 목표 밖. 문장 ${newmin}~${newmax}자로 대본 다시 씀"
     echo "$newmax" > "$LENF"; cur_max=$newmax; cur_min=$newmin
