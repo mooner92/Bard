@@ -16,6 +16,24 @@ scp -P <SSH_PORT> -r <USER>@<SERVER>:/home/mooner92/aivideo/deliverables/ ./
 
 전부 1080×1920, h264+aac, 이미지 우선 파이프라인(README 참조) 산출물.
 
+## 야간 자동 생산분 (2026-08-13 밤, v0.9)
+
+승인 전이라 `deliverables/` 로 승격하지 않았고 `output/<작품>/final_night.mp4` 에 있다.
+**이 7편은 v0.9 규칙으로 만들어졌다** — 현대서 소개형이 작품 세계 대신 도서관 정보를
+말하는 결함이 있다(v1 에서 바로잡음, [SPEC](docs/SPEC.md) §1 참조). 파이프라인 검증용으로만 본다.
+
+| 작품 | 길이 | 용량 | 대본 검증 |
+|---|---|---|---|
+| tolstoy (사람은 무엇으로 사는가) | 36.8초 | 20.3MB | 11건 |
+| annyeongira_geuraeteo (안녕이라 그랬어) | 38.7초 | 8.5MB | 4건 |
+| bulpyeonhan_pyeonuijeom (불편한 편의점) | 44.9초 | 7.3MB | 통과 |
+| mosun (모순) | 50.3초 | 8.3MB | 4건 |
+| honghakui_jari (홍학의 자리) | 44.4초 | 8.2MB | 2건 |
+| goeteneun_modeun_geoteul (괴테는 모든 것을 말했다) | 40.5초 | 7.3MB | 통과 |
+| naui_wanbyeokhan_jangrye (나의 완벽한 장례식) | 39.5초 | 7.0MB | 1건 |
+
+작품별 기계 점검(길이·감속·음량·리듬)은 `logs/review/<작품>.md`.
+
 ## 진행 중
 
 - 톨스토이 『사람은 무엇으로 사는가』 — 내레이션 완료, 키프레임부터 남음 (HANDOFF.md)
