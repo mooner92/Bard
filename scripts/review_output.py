@@ -24,7 +24,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent
 OUT = BASE / "output"
 REVIEW = BASE / "logs" / "review"
-SPEC_SEC, SPEC_TOL, MAX_SLOWDOWN = 45.0, 3.0, 1.5
+SPEC_SEC, SPEC_TOL, MAX_SLOWDOWN = 55.0, 5.0, 1.5   # 쇼츠 상한 60초 미만
 
 
 def probe(path: Path, entries: str) -> str:
@@ -101,6 +101,8 @@ def review(work: str) -> dict:
                       "streams": streams, "res": wh[0] if wh else "?"}
         if abs(d - SPEC_SEC) > SPEC_TOL:
             w["flags"].append(f"길이 {d:.1f}초 — 명세 {SPEC_SEC:.0f}±{SPEC_TOL:.0f}초 이탈")
+        if d >= 60.0:
+            w["flags"].append(f"길이 {d:.1f}초 — 쇼츠 60초 상한 초과(차단 사유)")
         if "video" not in streams or "audio" not in streams:
             w["flags"].append("트랙 누락 — 영상/음성 확인 필요")
         ld = loudness(final)

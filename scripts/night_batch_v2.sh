@@ -39,12 +39,15 @@ DISK_MIN_GB=50
 #   START_BY=1930 FINISH_BY=1930 scripts/night_batch_v2.sh
 START_BY=${START_BY:-800}    # 이 시각 이후에는 새 작품을 시작하지 않는다
 FINISH_BY=${FINISH_BY:-940}  # 이 시각 이후에는 새 클립·새 장면도 시작하지 않는다
+# 개발 기간 24시간 가동 (사용자 지정 2026-08-14: CPU 위주 서버라 GPU 는 풀로 쓴다).
+# 운영 전환 시 DEV_247=0 으로 내리면 위 시간 정책이 다시 산다.
+DEV_247=${DEV_247:-1}
 hhmm() { echo $((10#$(date +%H%M))); }
 # 주말(토·일)은 24시간 가동한다 — 금 20:00 부터 월 08:00(마무리 09:40)까지 연속.
 # 평일 낮에만 서버를 다른 이용자에게 돌려준다. (사용자 지정, 2026-08-14)
 weekend() { local d; d=$(date +%u); [ "$d" -ge 6 ]; }
-start_ok() { weekend && return 0; local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$START_BY" ]; }
-grace_ok() { weekend && return 0; local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$FINISH_BY" ]; }
+start_ok() { [ "$DEV_247" = 1 ] && return 0; weekend && return 0; local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$START_BY" ]; }
+grace_ok() { [ "$DEV_247" = 1 ] && return 0; weekend && return 0; local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$FINISH_BY" ]; }
 disk_ok() {
   local free; free=$(df -BG --output=avail . | tail -1 | tr -dc '0-9')
   [ "${free:-0}" -ge "$DISK_MIN_GB" ] || { say "디스크 여유 ${free}GB < ${DISK_MIN_GB}GB — 중단"; return 1; }
@@ -116,7 +119,7 @@ while grace_ok; do
     say "  ① 사실파일 없음($facts) — 영구 실패"; ok=0
   else
     venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-      --scenes 8 --minlen 30 --maxlen 42 --tone "$tone" --emphasis $TRE_ARG \
+      --scenes 8 --minlen 31 --maxlen 43 --tone "$tone" --emphasis $TRE_ARG \
       --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
     if [ -s "$NAR" ]; then
       say "  ① 대본 준비됨"   # 검증 미통과여도 진행하고 아침에 사람이 검수한다
@@ -178,7 +181,10 @@ print(re.sub(r'\s+',' ',' '.join(body))[:200])")
     fr=$(python3 -c "
 import math
 d=$d; f=max(81, math.ceil(d*24/1.5))
-print(f + (4 - (f-1) % 4) % 4)")
+f = f + (4 - (f-1) % 4) % 4
+# 121프레임에서 첫 프레임 번짐 실측 — 117(4n+1)로 상한. 최장 문장은 감속이
+# 1.5를 살짝 넘을 수 있으나 번짐보다 낫다.
+print(min(f, 117))")
     venv/bin/python scripts/gen_i2v.py --image "night_${work}_${i}.png" \
       --prefix "${work}_i2v/night_s${i}" --length "$fr" --seed 42 \
       --prompt "gentle continuous motion in the scene, slow camera drift" \
@@ -218,6 +224,9 @@ print(f + (4 - (f-1) % 4) % 4)")
     # ── ⑥ 자가점검 ──
     venv/bin/python scripts/review_output.py --work "$work" --fix-loudness >>"$LOG" 2>&1
     say "  ⑥ 자가점검 → logs/review/${work}.md"
+    # ⑦ 보기 좋은 카테고리 발행 — /data/bard/video/<고전|현대>/<제목>/ (하드링크)
+    venv/bin/python scripts/publish_final.py --work "$work" >>"$LOG" 2>&1 \
+      && say "  ⑦ 발행 → /data/bard/video" || say "  ⑦ 발행 실패(수동 확인)"
   else
     say "  ⑤ 조립 검증 실패 — 큐 유지"
   fi

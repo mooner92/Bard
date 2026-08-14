@@ -560,6 +560,13 @@ def main():
     sents = [one_emphasis(x).strip() for x in sents]
 
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
+    # 전체 분량 예산: 55±5초 = 285~330자(톤 프로소디 호흡 포함 0.176초/자 실측).
+    # 문장별 상한만으로는 총합이 60초를 넘을 수 있다.
+    if n == 8:
+        total = sum(len(x) for x in sents)
+        if not 285 <= total <= 330:
+            longest = max(range(n), key=lambda i: len(sents[i]))
+            issues.append((longest, f"전체 {total}자 — 285~330자(55초 예산) 벗어남"))
     issues += fact_issues(sents, facts) + leak_issues(sents)
     issues += meta_issues(sents, a.ending) if intro else narrative_issues(sents, persons)
     result = {"title": a.title, "sentences": sents, "tone": a.tone,

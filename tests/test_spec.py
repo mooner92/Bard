@@ -68,7 +68,7 @@ check("메타 어휘 마지막 문장 예외",
 section("영상 규격 (SPEC §3)")
 import review_output as R  # noqa: E402
 
-check("길이 명세 45±3", (R.SPEC_SEC, R.SPEC_TOL) == (45.0, 3.0), f"{R.SPEC_SEC}±{R.SPEC_TOL}")
+check("길이 명세 55±5", (R.SPEC_SEC, R.SPEC_TOL) == (55.0, 5.0), f"{R.SPEC_SEC}±{R.SPEC_TOL}")
 check("감속 상한 1.5", R.MAX_SLOWDOWN == 1.5, str(R.MAX_SLOWDOWN))
 
 
@@ -120,7 +120,8 @@ check("Asia/Seoul 고정", "export TZ=Asia/Seoul" in nb)
 check("착수 08:00 기본값", "START_BY=${START_BY:-800}" in nb)
 check("마무리 09:40 기본값", "FINISH_BY=${FINISH_BY:-940}" in nb)
 check("주말 24시간 게이트", "weekend() { local d; d=$(date +%u); [ \"$d\" -ge 6 ]; }" in nb)
-check("start_ok 가 주말을 우선한다", "start_ok() { weekend && return 0;" in nb)
+check("개발 24시간 게이트", "DEV_247=${DEV_247:-1}" in nb)
+check("start_ok 가 DEV/주말을 우선한다", 'start_ok() { [ "$DEV_247" = 1 ] && return 0; weekend && return 0;' in nb)
 stop_t = Path("/etc/systemd/system/aivideo-night-stop.timer")
 if stop_t.exists():
     check("정지 타이머는 평일만", "Mon..Fri" in stop_t.read_text())
@@ -129,6 +130,7 @@ check("정지 시 자식 프로세스 정리", "pkill -P $$" in nb)
 check("완료 판정은 스트림 확인", "stream=codec_type" in nb)
 check("음량 정규화 인코딩", "loudnorm=I=-14" in nb)
 check("자가점검 단계", "review_output.py" in nb)
+check("카테고리 발행 단계", "publish_final.py" in nb)
 check("그림 프롬프트를 영어로 변환", "scene_prompt.py" in nb)
 check("적응형 크롭 사용", "crop_keyframe.py" in nb)
 import scene_prompt as SP  # noqa: E402
