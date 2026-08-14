@@ -1,4 +1,3 @@
-nalgae	facts/auto_nalgae.txt	소설 날개에서 만날 수 있습니다	1930s Gyeongseong ink wash illustration, tin roofs and narrow alleys, dim room with paper windows, muted sepia and cold grey palette, grainy paper texture. 	서늘
 unsu_joteun_nal	facts/auto_unsu_joteun_nal.txt	소설 운수 좋은 날에서 만날 수 있습니다	1920s Seoul rainy street illustration, rickshaw and wet cobblestones, gaslight reflections, muted charcoal and ochre palette, worn paper texture. 	서늘
 memilkkot_pil_muryeop	facts/auto_memilkkot_pil_muryeop.txt	소설 메밀꽃 필 무렵에서 만날 수 있습니다	moonlit buckwheat field illustration, white blossoms under blue night, mountain pass and donkey path, soft indigo and silver palette, hanji paper texture. 	따뜻
 widaehan_gaecheubi	facts/auto_widaehan_gaecheubi.txt	소설 위대한 개츠비에서 만날 수 있습니다	1920s art deco illustration, long island mansion and green dock light, vintage cars, muted gold and teal palette, aged print texture. 	담담
