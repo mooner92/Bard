@@ -166,13 +166,39 @@ body=[l for l in t.splitlines() if l and not l.startswith('[')]
 print(re.sub(r'\s+',' ',' '.join(body))[:200])")
 
   # ── ② TTS (톤·텐션 곡선·강세) ──
-  if [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -ne "$N" ]; then
-    venv/bin/python scripts/tts_render.py --narration "$NAR" --tone "$tone" --arc 산형 \
-      --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
-  fi
-  got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)
-  [ "$got" -eq "$N" ] || { say "  ② TTS $got/$N — 일시 실패, 큐 유지"; sleep 30; continue; }
-  say "  ② TTS $N개"
+  # 길이는 글자 수로 예측할 수 없다. 쉼표마다 호흡이 붙어 같은 글자 수라도 크게 달라진다
+  # (실측 0.168~0.219초/자). 그래서 **합성해서 재고**, 벗어나면 목표를 고쳐 다시 쓴다.
+  for tts_try in 1 2 3; do
+    if [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -ne "$N" ]; then
+      venv/bin/python scripts/tts_render.py --narration "$NAR" --tone "$tone" --arc 산형 \
+        --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
+    fi
+    got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)
+    [ "$got" -eq "$N" ] || { say "  ② TTS $got/$N — 일시 실패, 큐 유지"; break; }
+
+    read -r total newmin newmax <<<"$(python3 -c "
+import glob, json, subprocess
+fs = sorted(glob.glob('output/tts/${work}_night_s*.wav'),
+            key=lambda p: int(p.rsplit('_s',1)[1].split('.')[0]))
+d = sum(float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration',
+        '-of','csv=p=0',f], capture_output=True, text=True).stdout or 0) for f in fs)
+ch = sum(len(x) for x in json.load(open('$NAR'))['sentences'])
+rate = d/ch if ch else 0.2
+t = int(55/rate/8)                      # 55초를 8문장으로 나눈 목표 글자 수
+print(f'{d:.1f} {max(20,t-5)} {min(48,t+5)}')")"
+    say "  ② TTS $N개 · 낭독 ${total}초"
+    ok_len=$(python3 -c "print(1 if 50 <= $total <= 59 else 0)")
+    [ "$ok_len" = 1 ] && break
+    [ "$tts_try" = 3 ] && { say "  ② 길이 ${total}초 — 3회 조정 실패, 그대로 진행"; break; }
+    say "  ② 길이 ${total}초 — 목표 밖. 문장 ${newmin}~${newmax}자로 대본 다시 씀"
+    mv "$NAR" "${NAR%.json}.len${tts_try}.json" 2>/dev/null
+    rm -f output/tts/${work}_night_s*.wav
+    venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
+      --scenes 8 --minlen "$newmin" --maxlen "$newmax" --tone "$tone" --emphasis $TRE_ARG \
+      --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
+    [ -s "$NAR" ] || { say "  ② 대본 재작성 실패"; break; }
+  done
+  [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -eq "$N" ] || { sleep 30; continue; }
 
   # ── ③ 키프레임 ──
   for i in $(seq 1 "$N"); do
