@@ -14,3 +14,4 @@ pokpungui_eondeok	facts/auto_pokpungui_eondeok.txt	소설 폭풍의 언덕에서
 dorieon_geureiui_chosang	facts/auto_dorieon_geureiui_chosang.txt	소설 도리언 그레이의 초상에서 만날 수 있습니다	victorian london salon illustration, velvet curtains and gilt frames, candlelit interior, jade and gold palette, oil painting texture. 	서늘
 memilkkot_pil_muryeop	facts/auto_memilkkot_pil_muryeop.txt	소설 메밀꽃 필 무렵에서 만날 수 있습니다	moonlit buckwheat field illustration, white blossoms under blue night, mountain pass and donkey path, soft indigo and silver palette, hanji paper texture. 	따뜻
 widaehan_gaecheubi	facts/auto_widaehan_gaecheubi.txt	소설 위대한 개츠비에서 만날 수 있습니다	1920s art deco illustration, long island mansion and green dock light, vintage cars, muted gold and teal palette, aged print texture. 	담담
+unsu_joteun_nal	facts/auto_unsu_joteun_nal.txt	소설 운수 좋은 날에서 만날 수 있습니다	1920s Seoul rainy street illustration, rickshaw and wet cobblestones, gaslight reflections, muted charcoal and ochre palette, worn paper texture. 	서늘

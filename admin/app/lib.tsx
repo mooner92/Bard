@@ -4,11 +4,9 @@ import { useEffect } from 'react'
 
 // 브라우저가 접속한 호스트를 그대로 쓴다. 127.0.0.1 로 고정하면
 // 원격에서 열었을 때 브라우저가 자기 자신을 가리켜 fetch 가 실패한다.
-export const API =
-  process.env.NEXT_PUBLIC_API ??
-  (typeof window !== 'undefined'
-    ? `${window.location.protocol}//${window.location.hostname}:8010`
-    : 'http://127.0.0.1:8010')
+// 빈 문자열 = 같은 출처. next.config.js 의 rewrites 가 /api 를 :8010 으로 넘긴다.
+// 호스트를 직접 조립하면 터널 도메인에서 포트가 없어 전부 실패한다(실측).
+export const API = process.env.NEXT_PUBLIC_API ?? ''
 
 export type Work = {
   work: string; version: string; title: string
