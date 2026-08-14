@@ -310,6 +310,18 @@ PROMPT_LEAK = ["별표", "강세 표기", "종결어미", "문장 길이", "자�
                "반전 표지", "유보 장치", "확인이 필요", "구체적 수치"]
 
 
+def plain(msg: str) -> str:
+    """수리 지시에서 규칙 코드를 뺀다.
+
+    "A8 S1~S2에 유보 장치가 없다" 를 그대로 주면 모델이 코드를 소재로 삼는다
+    (실측: "A8구역의 철조망", "A8 S1~S2의 안전 밸브를 확인하세요").
+    코드는 로그·검수용이고 모델에게 줄 말이 아니다.
+    """
+    m = re.sub(r"^[A-Z]\d+\s*", "", msg.strip())
+    m = re.sub(r"S\d\s*~\s*S?\d?", "앞부분", m)
+    return re.sub(r"\bS(\d)\b", r"\1번 문장", m)
+
+
 def leak_issues(sents):
     """지시어 누출 검출. 어느 포맷이든 적용한다."""
     out = []
@@ -491,7 +503,7 @@ def main():
             break
         for i, msgs in bad.items():
             tail = f' 반드시 "{a.ending}"로 끝나야 한다.' if i == n - 1 else ""
-            fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {'; '.join(msgs)}.
+            fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {'; '.join(plain(m) for m in msgs)}.
 규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 내용 유지.{keep_star}{tail}
 고친 문장 한 줄만 출력하라. 번호나 설명 금지.
 
@@ -523,7 +535,7 @@ def main():
         # 어미 계열까지 맞기를 요구하면 재작성이 거의 통과하지 못해(실측) 거짓이 그대로 남는다.
         # 사실 오류 제거가 문체보다 우선이므로, 지적 어구가 사라지고 길이만 맞으면 받는다.
         for attempt in range(2):
-            fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {msg}
+            fixed = ask(f"""다음 한 문장을 고쳐라. 문제: {plain(msg)}
 규칙: 공백 포함 {LEN_MIN}~{LEN_MAX}자, 차분한 낭독체, 자료에 있는 사실만 쓴다.
 지적된 표현은 반드시 빼라.{keep_star}{tail}
 고친 문장 한 줄만 출력하라. 번호나 설명 금지.
