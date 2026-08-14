@@ -30,6 +30,11 @@ sys.path.insert(0, str(BASE / "scripts"))
 from write_script import leak_issues  # noqa: E402
 
 BUDGET_MIN, BUDGET_MAX = 245, 275     # write_script 의 예산과 같은 값
+# 예산은 글자 수로 적혀 있지만 재려는 것은 **길이**다. 245~275 는 0.206초/자를
+# 전제로 잡은 값이고, 그건 쉼표가 잦은 모델 문장의 속도다. 사람이 쓴 문장은
+# 호흡이 적어 0.169초/자로 읽힌다(실측: 동물농장 268자가 45.4초). 같은 55초를
+# 채우려면 글자가 더 필요하므로 문체별로 예산을 나눈다.
+HAND_MIN, HAND_MAX = 300, 340
 
 
 def spoiler_words(work_dir: Path) -> set:
@@ -66,9 +71,11 @@ def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:
     if over:
         bad.append("길이 초과 " + ", ".join(f"S{i}({n}자)" for i, n in over))
 
+    lo, hi = ((HAND_MIN, HAND_MAX) if nar.get("author") == "hand"
+              else (BUDGET_MIN, BUDGET_MAX))
     total = sum(len(s) for s in sents)
-    if not BUDGET_MIN - 15 <= total <= BUDGET_MAX + 15:
-        bad.append(f"전체 {total}자 (예산 {BUDGET_MIN}~{BUDGET_MAX})")
+    if not lo - 15 <= total <= hi + 15:
+        bad.append(f"전체 {total}자 (예산 {lo}~{hi})")
 
     if ending:
         norm = re.sub(r"[<>《》〈〉「」『』()\[\]]", "", sents[-1]).rstrip(".!? ")

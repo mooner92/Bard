@@ -141,6 +141,10 @@ while grace_ok; do
   LENF="output/$work/.lenmax"
   cur_max=$( [ -s "$LENF" ] && cat "$LENF" || echo 38 )
   cur_min=$(( cur_max - 11 )); [ "$cur_min" -lt 20 ] && cur_min=20
+  # 38자 상한은 0.206초/자(쉼표 잦은 모델 문장) 기준이다. 사람이 쓴 문장은
+  # 0.156초/자로 읽혀 44자라도 6.8초 — 117프레임 안에 들어온다. 상한이 문체와
+  # 어긋나면 멀쩡한 대본이 반려된다. 실제 제약(오디오 7.3초)에 맞춰 올린다.
+  if grep -q '"author": "hand"' "$NAR" 2>/dev/null; then cur_max=41; cur_min=30; fi
 
   # ── ① 대본 (관문 통과할 때까지 다시 쓴다) ──
   # 하네스가 문제를 찾아도 수리에 실패하면 대본을 그대로 남긴다. 그 대본으로 그림을
