@@ -125,6 +125,11 @@ while grace_ok; do
       || say "  ①-0 트리트먼트 실패 — 줄기 없이 진행"
   fi
   TRE_ARG=""; [ -s "$TRE" ] && TRE_ARG="--treatment $TRE"
+  # 문장 길이 목표. 되먹임 루프가 바꾸면 관문도 같은 값을 봐야 한다 — 값이 갈리면
+  # 생성과 검증이 서로 싸운다(실측: 46자로 쓰라 해놓고 38자 기준으로 반려).
+  LENF="output/$work/.lenmax"
+  cur_max=$( [ -s "$LENF" ] && cat "$LENF" || echo 38 )
+  cur_min=$(( cur_max - 11 )); [ "$cur_min" -lt 20 ] && cur_min=20
 
   # ── ① 대본 (관문 통과할 때까지 다시 쓴다) ──
   # 하네스가 문제를 찾아도 수리에 실패하면 대본을 그대로 남긴다. 그 대본으로 그림을
@@ -136,7 +141,7 @@ while grace_ok; do
     for try in 1 2 3; do
       if [ -s "$NAR" ]; then
         gate=$(venv/bin/python scripts/gate_script.py --narration "$NAR" \
-                 --ending "$ending" --maxlen 38 2>&1)
+                 --ending "$ending" --maxlen "$cur_max" 2>&1)
         if [ $? -eq 0 ]; then
           say "  ① 대본 $( [ "$try" = 1 ] && echo 준비됨 || echo "재작성 $((try-1))회 후 통과" )"
           break
@@ -146,7 +151,7 @@ while grace_ok; do
       fi
       [ "$try" = 3 ] && { say "  ① 관문 3회 불합격 — 큐에서 내림"; ok=0; break; }
       venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-        --scenes 8 --minlen 27 --maxlen 38 --tone "$tone" --emphasis $TRE_ARG \
+        --scenes 8 --minlen "$cur_min" --maxlen "$cur_max" --tone "$tone" --emphasis $TRE_ARG \
         --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
       [ -s "$NAR" ] || { say "  ① 대본 생성 실패"; ok=0; break; }
     done
@@ -191,6 +196,7 @@ print(f'{d:.1f} {max(20,t-5)} {min(48,t+5)}')")"
     [ "$ok_len" = 1 ] && break
     [ "$tts_try" = 3 ] && { say "  ② 길이 ${total}초 — 3회 조정 실패, 그대로 진행"; break; }
     say "  ② 길이 ${total}초 — 목표 밖. 문장 ${newmin}~${newmax}자로 대본 다시 씀"
+    echo "$newmax" > "$LENF"; cur_max=$newmax; cur_min=$newmin
     mv "$NAR" "${NAR%.json}.len${tts_try}.json" 2>/dev/null
     rm -f output/tts/${work}_night_s*.wav
     venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
