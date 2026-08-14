@@ -87,6 +87,20 @@ while grace_ok; do
   [ -z "${line:-}" ] && { say "큐 비어 있음 — 종료"; break; }
 
   work=$(echo "$line" | cut -f1)
+  # 같은 작품이 진척 없이 반복되면 큐에서 내린다. 무한 재시도로 밤을 통째로
+  # 날린 사고가 있었다(실측: 클립 9/8 불일치로 초당 수십 회 재시도).
+  if [ "$work" = "${last_work:-}" ]; then
+    stuck=$((${stuck:-0} + 1))
+  else
+    stuck=0
+  fi
+  last_work="$work"
+  if [ "$stuck" -ge 5 ]; then
+    say "  !! $work 이 5회 연속 진척 없음 — 큐에서 내리고 다음 작품으로"
+    printf '%s\t%s\tstuck\n' "$(date +%FT%T)" "$line" >>"$FAIL"
+    grep -vxF "$line" "$Q" >"$Q.t" && mv "$Q.t" "$Q"
+    failed=$((failed+1)); stuck=0; continue
+  fi
   facts=$(echo "$line" | cut -f2)
   ending=$(echo "$line" | cut -f3)
   style=$(echo "$line" | cut -f4); [ -z "$style" ] && style="$STYLE_DEFAULT"
@@ -147,7 +161,7 @@ print(re.sub(r'\s+',' ',' '.join(body))[:200])")
       --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
   fi
   got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)
-  [ "$got" -eq "$N" ] || { say "  ② TTS $got/$N — 일시 실패, 큐 유지"; continue; }
+  [ "$got" -eq "$N" ] || { say "  ② TTS $got/$N — 일시 실패, 큐 유지"; sleep 30; continue; }
   say "  ② TTS $N개"
 
   # ── ③ 키프레임 ──
@@ -162,8 +176,8 @@ print(re.sub(r'\s+',' ',' '.join(body))[:200])")
       --prefix "${work}_kf/night_s${i}" --prompt "${style}${desc}" --negative "$NEG" >>"$LOG" 2>&1 \
       || say "  ③ s${i} 키프레임 실패"
   done
-  kf=$(ls output/${work}_kf/night_s*.png 2>/dev/null | wc -l)
-  [ "$kf" -eq "$N" ] || { say "  ③ 키프레임 $kf/$N — 큐 유지(다음 밤 이어감)"; continue; }
+  kf=$(ls output/${work}_kf/night_s*.png 2>/dev/null | sed -E 's/.*night_s([0-9]+)_.*/\1/' | sort -u | wc -l)
+  [ "$kf" -eq "$N" ] || { say "  ③ 키프레임 $kf/$N — 큐 유지(다음 밤 이어감)"; sleep 30; continue; }
   say "  ③ 키프레임 $N장"
 
   # ── ④ 크롭 → I2V ──
@@ -190,8 +204,8 @@ print(min(f, 117))")
       --prompt "gentle continuous motion in the scene, slow camera drift" \
       --negative "$MOTION_NEG" >>"$LOG" 2>&1 || say "  ④ s${i} I2V 실패"
   done
-  cl=$(ls output/${work}_i2v/night_s*.mp4 2>/dev/null | wc -l)
-  [ "$cl" -eq "$N" ] || { say "  ④ 클립 $cl/$N — 큐 유지(다음 밤 이어감)"; continue; }
+  cl=$(ls output/${work}_i2v/night_s*.mp4 2>/dev/null | sed -E 's/.*night_s([0-9]+)_.*/\1/' | sort -u | wc -l)
+  [ "$cl" -eq "$N" ] || { say "  ④ 클립 $cl/$N — 큐 유지(다음 밤 이어감)"; sleep 30; continue; }
   say "  ④ 클립 $N개"
 
   # ── ⑤ 조립 (음량 -14 LUFS 로 정규화) ──
