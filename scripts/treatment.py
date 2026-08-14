@@ -89,6 +89,39 @@ SCHEMA_HINT = """{
 }"""
 
 
+def reveals_ending(t: dict) -> bool:
+    """박자가 감춰야 할 결말을 드러내는지 모델에게 묻는다.
+
+    규칙만으로는 안 막힌다(실측: withheld 가 "개츠비가 살해되는 결말"인데
+    박자 6~8이 총을 꺼내고 겨누고 물에 가라앉는 장면이었다). 판정만 시킨다.
+    """
+    withheld = (t.get("withheld") or "").strip()
+    if not withheld:
+        return False
+    # 박자 텍스트는 문턱에서 멈춰도 그림 묘사가 결말을 그대로 그리는 일이 있다
+    # (실측: 박자는 "눈을 감는다"인데 visual 은 "the gun points directly at his...").
+    # 두 필드를 함께 보여준다.
+    beats = "\n".join(f"{b['n']}) {b['beat']}  [그림: {b.get('visual','')}]"
+                      for b in t.get("beats", []))
+    ans = ask(f"""아래 [감출 것]이 [박자]에 드러나 있는지 판정만 하라.
+
+[감출 것]
+{withheld}
+
+[박자]
+{beats}
+
+판정 기준: 시청자가 이 박자와 그림만 보고 [감출 것]의 사건을 알아차릴 수 있으면 '노출'이다.
+인물 이름을 안 썼어도, 그 사건이 일어나는 장면을 그리면 노출이다.
+특히 그림에 흉기가 사람을 겨누거나, 죽음·시신·피가 보이면 노출이다.
+'노출' 또는 '안전' 한 낱말만 출력하라.""", temperature=0.1)
+    verdict = ans.strip().splitlines()[0] if ans.strip() else ""
+    if "노출" in verdict:
+        print(f"  ! 결말 노출 판정 — 재작성", file=sys.stderr)
+        return True
+    return False
+
+
 def build(facts: str, extra: str) -> dict:
     prompt = f"""너는 문학 작품을 짧은 영상으로 옮기는 구성작가다.
 아래 자료에서 **이야기 하나**를 골라 여덟 박자짜리 트리트먼트를 만들어라.
@@ -110,6 +143,8 @@ def build(facts: str, extra: str) -> dict:
 - 8번 박자는 답이 아니라 **질문**으로 닫는다.
 - 자료에 없는 사건·인물·지명을 지어내지 마라.
 - visual 은 영어로, 카메라가 보는 것만. 글자·간판·책·종이를 넣지 마라.
+- **그림도 결말을 그리면 안 된다.** 흉기가 사람을 겨누는 구도, 죽음·시신·피는 금지다.
+  박자 텍스트가 문턱에서 멈췄어도 그림이 다 보여주면 같은 위반이다.
 - anchor 와 palette 는 모든 장면에 그대로 붙일 문장이다. 인물 생김새와 빛을 고정한다.
 
 [출력] 아래 JSON 하나만. 설명·코드펜스 금지. beats 는 정확히 {BEATS}개.
@@ -133,6 +168,8 @@ def build(facts: str, extra: str) -> dict:
                 b.get("beat") and b.get("visual") and _ko_ok(b["beat"]) for b in beats):
             for i, b in enumerate(beats, 1):
                 b["n"] = i
+            if reveals_ending(d):
+                continue
             return d
         print(f"  ! 트리트먼트 불량(박자 {len(beats)}개 또는 외국어 혼입) — 재시도", file=sys.stderr)
     return {}

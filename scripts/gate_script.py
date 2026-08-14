@@ -32,7 +32,20 @@ from write_script import leak_issues  # noqa: E402
 BUDGET_MIN, BUDGET_MAX = 245, 275     # write_script 의 예산과 같은 값
 
 
-def gate(nar: dict, ending: str, maxlen: int) -> list:
+def spoiler_words(work_dir: Path) -> set:
+    """트리트먼트가 감추기로 한 것에서 핵심 낱말을 뽑는다."""
+    f = work_dir / "treatment.json"
+    if not f.exists():
+        return set()
+    try:
+        w = json.loads(f.read_text(encoding="utf-8")).get("withheld", "")
+    except (json.JSONDecodeError, OSError):
+        return set()
+    stop = {"결말", "사실", "이야기", "장면", "인물", "작품", "내용", "부분"}
+    return {x for x in re.findall(r"[가-힣]{2,}", w) if x not in stop}
+
+
+def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:
     """치명 결함 목록. 비어 있으면 통과."""
     sents = nar.get("sentences") or []
     bad = []
@@ -62,6 +75,12 @@ def gate(nar: dict, ending: str, maxlen: int) -> list:
         core = re.sub(r"\b[A-Z]{2,5}\b", "", s)
         if core and len(re.findall(r"[가-힣]", core)) < len(core) * 0.4:
             bad.append(f"S{i+1} 한국어 문장 아님")
+
+    # 감추기로 한 결말이 대본에 새어 나왔는지 (트리트먼트 withheld 와 낱말 대조)
+    body = " ".join(sents)
+    hit = sorted(w for w in spoil if w in body)
+    if len(hit) >= 2:
+        bad.append(f"결말 노출 '{', '.join(hit[:3])}'")
     return bad
 
 
@@ -75,7 +94,8 @@ def main():
     if not f.exists():
         print("대본 없음")
         sys.exit(1)
-    bad = gate(json.loads(f.read_text(encoding="utf-8")), a.ending, a.maxlen)
+    bad = gate(json.loads(f.read_text(encoding="utf-8")), a.ending, a.maxlen,
+               spoiler_words(f.parent))
     if bad:
         print("관문 불합격: " + " / ".join(bad))
         sys.exit(1)
