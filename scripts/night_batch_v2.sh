@@ -126,23 +126,33 @@ while grace_ok; do
   fi
   TRE_ARG=""; [ -s "$TRE" ] && TRE_ARG="--treatment $TRE"
 
-  # ── ① 대본 ──
-  if [ -s "$NAR" ] && python3 -c "import json,sys; sys.exit(0 if json.load(open('$NAR'))['sentences'] else 1)" 2>/dev/null; then
-    say "  ① 대본 있음 — 건너뜀"
-  elif [ ! -f "$facts" ]; then
+  # ── ① 대본 (관문 통과할 때까지 다시 쓴다) ──
+  # 하네스가 문제를 찾아도 수리에 실패하면 대본을 그대로 남긴다. 그 대본으로 그림을
+  # 그리면 두 시간이 버려지므로(실측: 규칙 코드가 1번 문장에 박힌 채 진행될 뻔했다)
+  # 여기서 막고 다시 쓴다.
+  if [ ! -f "$facts" ]; then
     say "  ① 사실파일 없음($facts) — 영구 실패"; ok=0
   else
-    venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-      --scenes 8 --minlen 27 --maxlen 38 --tone "$tone" --emphasis $TRE_ARG \
-      --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
-    if [ -s "$NAR" ]; then
-      say "  ① 대본 준비됨"   # 검증 미통과여도 진행하고 아침에 사람이 검수한다
-    else
-      say "  ① 대본 실패"; ok=0
-    fi
+    for try in 1 2 3; do
+      if [ -s "$NAR" ]; then
+        gate=$(venv/bin/python scripts/gate_script.py --narration "$NAR" \
+                 --ending "$ending" --maxlen 38 2>&1)
+        if [ $? -eq 0 ]; then
+          say "  ① 대본 $( [ "$try" = 1 ] && echo 준비됨 || echo "재작성 $((try-1))회 후 통과" )"
+          break
+        fi
+        say "  ① $gate"
+        mv "$NAR" "${NAR%.json}.rej${try}.json" 2>/dev/null
+      fi
+      [ "$try" = 3 ] && { say "  ① 관문 3회 불합격 — 큐에서 내림"; ok=0; break; }
+      venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
+        --scenes 8 --minlen 27 --maxlen 38 --tone "$tone" --emphasis $TRE_ARG \
+        --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
+      [ -s "$NAR" ] || { say "  ① 대본 생성 실패"; ok=0; break; }
+    done
   fi
   if [ "$ok" != 1 ]; then
-    printf '%s\t%s\tscript\n' "$(date +%FT%T)" "$line" >>"$FAIL"
+    printf '%s\t%s\tscript-gate\n' "$(date +%FT%T)" "$line" >>"$FAIL"
     grep -vxF "$line" "$Q" >"$Q.t" && mv "$Q.t" "$Q"
     failed=$((failed+1)); continue
   fi
