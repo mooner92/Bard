@@ -213,6 +213,20 @@ def get_file(kind: str, work: str, name: str):
     return FileResponse(p)
 
 
+@app.get("/api/works/{work}/review")
+def work_review(work: str):
+    """완성본 자가점검 결과. scripts/review_output.py 의 판정을 그대로 쓴다 —
+    UI 가 따로 기준을 갖게 하면 배치와 화면이 서로 다른 말을 하게 된다."""
+    if not re.fullmatch(r"[\w.\-]+", work):
+        raise HTTPException(400, "bad work")
+    sys.path.insert(0, str(BASE / "scripts"))
+    from review_output import review
+    try:
+        return review(work)
+    except Exception as e:
+        raise HTTPException(500, f"점검 실패: {type(e).__name__}")
+
+
 @app.get("/api/health")
 def health():
     return {"ok": True, "jobs": len(db.list_jobs(1000)), "works": len(_works())}

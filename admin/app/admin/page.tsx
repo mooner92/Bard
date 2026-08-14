@@ -3,7 +3,17 @@
 import { useEffect, useMemo, useState } from 'react'
 import { API, Player, TopNav, Video, Work, fmtDate, vLabel, vOrder } from '../lib'
 
-type Tab = 'script' | 'keyframes' | 'videos'
+type Tab = 'script' | 'keyframes' | 'videos' | 'review'
+
+/** scripts/review_output.py 의 판정 결과. 기준은 서버가 갖고 화면은 표시만 한다. */
+type Review = {
+  ok: boolean; flags: string[]
+  script?: { passed: boolean | null; issues: number; tone: string; sentences: number
+             len_min: number; len_max: number; len_sd: number }
+  clips?: { count: number; slowdown_max: number; slowdown: number[] }
+  keyframes?: number
+  final?: { sec: number; size_mb: number; res: string; lufs?: number; peak?: number }
+}
 
 export default function Admin() {
   const [works, setWorks] = useState<Work[]>([])
@@ -16,6 +26,7 @@ export default function Admin() {
   const [tab, setTab] = useState<Tab>('script')
   const [showScenes, setShowScenes] = useState(false)
   const [playing, setPlaying] = useState<Video | null>(null)
+  const [review, setReview] = useState<Review | null>(null)
   const [saving, setSaving] = useState(false)
 
   useEffect(() => {
@@ -45,6 +56,8 @@ export default function Admin() {
     setVideos([]); setKeyframes([])
     fetch(`${API}/api/works/${w.work}/videos`).then(r => r.json()).then(d => setVideos(d.videos)).catch(() => {})
     fetch(`${API}/api/works/${w.work}/keyframes`).then(r => r.json()).then(d => setKeyframes(d.images)).catch(() => {})
+    setReview(null)
+    fetch(`${API}/api/works/${w.work}/review`).then(r => r.json()).then(setReview).catch(() => {})
   }
 
   // 저장하면 서버가 하네스 검증기를 그대로 재실행해 issues 를 돌려준다
@@ -134,11 +147,12 @@ export default function Admin() {
                   </div>
                   <div className="hright">
                     <div className="tabs">
-                      {(['script', 'keyframes', 'videos'] as Tab[]).map(t => (
+                      {(['script', 'keyframes', 'videos', 'review'] as Tab[]).map(t => (
                         <button key={t} className={tab === t ? 'tab on' : 'tab'} onClick={() => setTab(t)}>
                           {t === 'script' ? '대본'
                             : t === 'keyframes' ? `키프레임${keyframes.length ? ` ${keyframes.length}` : ''}`
-                              : `완성본${finals.length ? ` ${finals.length}` : ''}`}
+                              : t === 'videos' ? `완성본${finals.length ? ` ${finals.length}` : ''}`
+                                : `점검${review ? (review.ok ? ' ✓' : ` ${review.flags.length}`) : ''}`}
                         </button>
                       ))}
                     </div>
@@ -182,6 +196,41 @@ export default function Admin() {
                       ))}
                     </div>
                   ) : <p className="fine">키프레임이 아직 없습니다.</p>)}
+
+                  {tab === 'review' && (!review ? <p className="fine">점검 결과를 불러오는 중입니다.</p> : (
+                    <div className="cols">
+                      <div>
+                        <ul className="books">
+                          <li><span className="btext"><span className="btitle">완성본 길이</span>
+                            <span className="fine">명세 45±3초</span></span>
+                            <span className={review.final && Math.abs(review.final.sec - 45) <= 3 ? 'pill ok' : 'pill no'}>
+                              {review.final ? `${review.final.sec}초` : '없음'}</span></li>
+                          <li><span className="btext"><span className="btitle">클립 감속</span>
+                            <span className="fine">상한 1.5배 · 넘으면 화면이 늘어진다</span></span>
+                            <span className={review.clips && review.clips.slowdown_max <= 1.5 ? 'pill ok' : 'pill no'}>
+                              {review.clips ? `${review.clips.slowdown_max}배` : '없음'}</span></li>
+                          <li><span className="btext"><span className="btitle">음량</span>
+                            <span className="fine">유튜브 기준 −14 LUFS</span></span>
+                            <span className={review.final?.lufs != null && review.final.lufs >= -16 && review.final.lufs <= -12 ? 'pill ok' : 'pill no'}>
+                              {review.final?.lufs != null ? `${review.final.lufs.toFixed(1)} LUFS` : '미측정'}</span></li>
+                          <li><span className="btext"><span className="btitle">문장 리듬</span>
+                            <span className="fine">길이 편차 4자 이상 · 낭독의 강약</span></span>
+                            <span className={review.script && review.script.len_sd >= 4 ? 'pill ok' : 'pill no'}>
+                              {review.script ? `편차 ${review.script.len_sd}` : '없음'}</span></li>
+                          <li><span className="btext"><span className="btitle">대본 검증</span>
+                            <span className="fine">어미·길이·사실 대조 · 톤 {review.script?.tone ?? '-'}</span></span>
+                            <span className={review.script?.passed ? 'pill ok' : 'pill no'}>
+                              {review.script?.passed ? '통과' : `${review.script?.issues ?? 0}건`}</span></li>
+                        </ul>
+                      </div>
+                      <div className="panel">
+                        <p className="plabel">판정</p>
+                        {review.ok
+                          ? <p className="fine">기계 점검에서 걸린 항목이 없습니다.</p>
+                          : <ul className="issues">{review.flags.map((f, i) => <li key={i}>{f}</li>)}</ul>}
+                      </div>
+                    </div>
+                  ))}
 
                   {tab === 'videos' && (
                     <>
