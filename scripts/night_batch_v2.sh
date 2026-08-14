@@ -150,7 +150,9 @@ print(json.load(open('$NAR'))['sentences'][$i-1].replace('*',''))")
     [ -s "output/${work}_i2v/night_s${i}_00001_.mp4" ] && continue
     src=$(ls output/${work}_kf/night_s${i}_*.png 2>/dev/null | head -1)
     [ -z "$src" ] && continue
-    ffmpeg -y -i "$src" -vf "crop=iw:ih*0.88:0:ih*0.06,crop='min(iw,ih*480/848)':'min(ih,iw*848/480)',scale=480:848:flags=lanczos" \
+    # 상단 16% / 하단 6% 를 버린다. 모델이 만들어 넣는 가짜 자막이 상단 9~15% 에
+    # 앉는 사례가 있어(실측) 6% 로는 화면에 그대로 남았다.
+    ffmpeg -y -i "$src" -vf "crop=iw:ih*0.78:0:ih*0.16,crop='min(iw,ih*480/848)':'min(ih,iw*848/480)',scale=480:848:flags=lanczos" \
       "ComfyUI/input/night_${work}_${i}.png" >/dev/null 2>&1
     d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "output/tts/${work}_night_s${i}.wav")
     # 감속 1.5배 상한을 지키는 최소 프레임 수를 4n+1 로 **올림**한다.
