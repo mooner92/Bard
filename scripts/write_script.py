@@ -265,6 +265,16 @@ def fact_issues(sents, facts):
     return out
 
 
+# 고유명사가 아닌 보통명사·대명사. 이것들은 자료에 없어도 정상적인 서술이다.
+COMMON_NOUNS = [
+    "사람", "여자", "남자", "아이", "노인", "청년", "소년", "소녀", "그녀", "그들", "우리",
+    "자신", "누구", "무엇", "이것", "그것", "병원", "학교", "집", "방", "문", "창", "거리",
+    "마을", "도시", "골목", "시장", "바다", "산", "강", "하늘", "밤", "낮", "아침", "저녁",
+    "새벽", "봄", "여름", "가을", "겨울", "눈", "비", "바람", "빛", "그림자", "소리", "냄새",
+    "손", "발", "얼굴", "눈빛", "목소리", "마음", "기억", "시간", "하루", "순간",
+]
+
+
 def source_issues(sents, facts):
     """자료에 근거 없는 고유명사·사건을 모델에게 대조시킨다.
 
@@ -291,9 +301,18 @@ def source_issues(sents, facts):
         if not m:
             continue
         i, term = int(m.group(1)) - 1, m.group(2).strip().strip('"')
-        # 모델이 자료에 있는 말을 지목하는 오탐을 걸러낸다
-        if 0 <= i < len(sents) and term and term not in facts and term in sents[i]:
-            out.append((i, f"자료에 근거 없는 표현 '{term}' — 자료에 있는 말로 바꾸거나 빼라"))
+        # 오탐을 세 겹으로 거른다.
+        #  - 자료에 있는 말이면 무시
+        #  - 그 문장에 없는 말이면 무시(모델이 헛짚은 것)
+        #  - 보통명사·대명사면 무시. 실측: '여자','병원','그녀'를 "지어낸 표현"으로
+        #    지목해 재작성이 절반씩 헛돌았다. 잡아야 할 것은 고유명사다.
+        if not (0 <= i < len(sents)) or not term:
+            continue
+        if term in facts or term not in sents[i]:
+            continue
+        if any(w in term for w in COMMON_NOUNS) or len(term) < 2:
+            continue
+        out.append((i, f"자료에 근거 없는 표현 '{term}' — 자료에 있는 말로 바꾸거나 빼라"))
     return out
 
 
