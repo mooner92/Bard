@@ -50,6 +50,25 @@ a { color: inherit; text-decoration: none; }
 .sec { font-size: 19px; font-weight: 600; color: var(--ink); margin: 48px 0 18px; }
 .fine { font-size: 13px; color: var(--silver); margin: 0; }
 
+/* 홈 탭: 100% 배율에서 스크롤이 없도록 뷰포트에 맞춰 히어로가 남는 높이를 채운다 */
+.homefit {
+  height: calc(100vh - 60px); max-width: 1080px; margin: 0 auto;
+  padding: 16px 28px 20px; display: flex; flex-direction: column; overflow: hidden;
+}
+.tagline { font-size: 15px; color: var(--pewter); margin: 0 0 14px; flex: none; }
+.homefit .hero { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
+.homefit .viewport { flex: 1; min-height: 0; }
+.homefit .track { height: 100%; }
+.homefit .slide { aspect-ratio: auto; height: 100%; }
+.homefit .dots { margin-top: 10px; flex: none; }
+.homefit .sec { margin: 14px 0 12px; font-size: 17px; flex: none; }
+.homefit .grid4 { flex: none; }
+.homefit .grid4 .thumb { aspect-ratio: 16 / 9; }
+.homefit .vtitle { font-size: 14px; }
+.homefit .vcard .fine { font-size: 12px; }
+/* 세로가 아주 좁은 화면에서는 억지로 구겨 넣지 않고 스크롤을 허용한다 */
+@media (max-height: 640px) { .homefit { height: auto; overflow: visible; } }
+
 /* 캐러셀 */
 .hero { margin-bottom: 8px; }
 .viewport { overflow: hidden; border-radius: var(--r-lg); }

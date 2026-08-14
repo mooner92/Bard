@@ -105,11 +105,8 @@ export default function Home() {
       />
 
       {tab === 'home' && (
-        <main className="wrap">
-          <header className="phead">
-            <h1>책 속 세계를, 1분 안에.</h1>
-            <p>문학 작품을 짧은 세로 영상으로 다시 읽습니다.</p>
-          </header>
+        <main className="homefit">
+          <p className="tagline">책 속 세계를, 1분 안에 — 문학을 짧은 영상으로 다시 읽습니다.</p>
 
           {hero.length > 0 && (
             <section className="hero">
