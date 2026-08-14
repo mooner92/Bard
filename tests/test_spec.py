@@ -124,7 +124,12 @@ check("정지 시 자식 프로세스 정리", "pkill -P $$" in nb)
 check("완료 판정은 스트림 확인", "stream=codec_type" in nb)
 check("음량 정규화 인코딩", "loudnorm=I=-14" in nb)
 check("자가점검 단계", "review_output.py" in nb)
-check("가짜 자막 크롭(상단 16%)", "crop=iw:ih*0.78:0:ih*0.16" in nb)
+check("그림 프롬프트를 영어로 변환", "scene_prompt.py" in nb)
+check("적응형 크롭 사용", "crop_keyframe.py" in nb)
+import scene_prompt as SP  # noqa: E402
+check("장면 묘사에 한글이 남으면 버린다", SP.to_scene.__doc__ is not None and
+      SP.HANGUL.search("방") is not None)
+check("장면 묘사 실패 시 한글 없는 기본 프롬프트", not SP.HANGUL.search(SP.FALLBACK))
 svc = Path("/etc/systemd/system/aivideo-night.service")
 if svc.exists():
     t = svc.read_text()

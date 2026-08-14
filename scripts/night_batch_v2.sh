@@ -118,6 +118,12 @@ while grace_ok; do
   fi
 
   N=$(python3 -c "import json;print(len(json.load(open('$NAR'))['sentences']))")
+  # 장면 묘사에 넘길 작품 세계 한 줄 (사실파일 본문 앞부분)
+  ctx=$(python3 -c "
+import re,sys
+t=open('$facts',encoding='utf-8').read()
+body=[l for l in t.splitlines() if l and not l.startswith('[')]
+print(re.sub(r'\s+',' ',' '.join(body))[:200])")
 
   # ── ② TTS (톤·텐션 곡선·강세) ──
   if [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -ne "$N" ]; then
@@ -132,10 +138,10 @@ while grace_ok; do
   for i in $(seq 1 "$N"); do
     grace_ok || break
     ls output/${work}_kf/night_s${i}_*.png >/dev/null 2>&1 && continue
-    # 강세 표시(*낱말*)는 그림 프롬프트에 들어가면 안 된다
-    desc=$(python3 -c "
-import json
-print(json.load(open('$NAR'))['sentences'][$i-1].replace('*',''))")
+    # 그림 프롬프트는 **영어로만** 만든다. 한글을 넣으면 Qwen-Image 가 그 글자를
+    # 그림 안에 써 넣는다(실측: 화면 상단에 뭉개진 한글 자막).
+    desc=$(venv/bin/python scripts/scene_prompt.py --narration "$NAR" --index "$i" \
+             --context "$ctx" 2>>"$LOG")
     venv/bin/python scripts/gen_keyframe.py --seed $((200+i)) \
       --prefix "${work}_kf/night_s${i}" --prompt "${style}${desc}" --negative "$NEG" >>"$LOG" 2>&1 \
       || say "  ③ s${i} 키프레임 실패"
@@ -150,10 +156,9 @@ print(json.load(open('$NAR'))['sentences'][$i-1].replace('*',''))")
     [ -s "output/${work}_i2v/night_s${i}_00001_.mp4" ] && continue
     src=$(ls output/${work}_kf/night_s${i}_*.png 2>/dev/null | head -1)
     [ -z "$src" ] && continue
-    # 상단 16% / 하단 6% 를 버린다. 모델이 만들어 넣는 가짜 자막이 상단 9~15% 에
-    # 앉는 사례가 있어(실측) 6% 로는 화면에 그대로 남았다.
-    ffmpeg -y -i "$src" -vf "crop=iw:ih*0.78:0:ih*0.16,crop='min(iw,ih*480/848)':'min(ih,iw*848/480)',scale=480:848:flags=lanczos" \
-      "ComfyUI/input/night_${work}_${i}.png" >/dev/null 2>&1
+    # 크롭은 scripts/crop_keyframe.py 가 한다 — 여백을 재서 자막을 잘라낸다.
+    venv/bin/python scripts/crop_keyframe.py --src "$src" \
+      --dst "ComfyUI/input/night_${work}_${i}.png" >>"$LOG" 2>&1
     d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "output/tts/${work}_night_s${i}.wav")
     # 감속 1.5배 상한을 지키는 최소 프레임 수를 4n+1 로 **올림**한다.
     # 내림하면 프레임이 모자라 감속이 1.5배를 살짝 넘는다(실측 1.52~1.54).
