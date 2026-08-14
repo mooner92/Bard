@@ -50,8 +50,9 @@ ARCS = {
     "산형": [-2, 0, 3, 5, 3, 0, -2, -4],
     "하강": [4, 3, 1, 0, -1, -2, -3, -5],
 }
-# 고전 낭독 기본값: 차분한 남성 저음. 여성 음성(SunHi)은 --voice 로 계속 쓸 수 있다.
-VOICE_DEFAULT = "ko-KR-InJoonNeural"
+# 고전 낭독 기본값: 차분한 남성 저음(듣고 고른 값). 다른 음성은 --voice 로 쓸 수 있다.
+# 실측 발화 속도 0.206초/자 — 길이 예산(write_script)이 이 값에 묶여 있다.
+VOICE_DEFAULT = "ko-KR-GookMinNeural"
 
 
 def _env(key: str) -> str:

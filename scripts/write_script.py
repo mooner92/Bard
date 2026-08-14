@@ -560,13 +560,14 @@ def main():
     sents = [one_emphasis(x).strip() for x in sents]
 
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
-    # 전체 분량 예산. 기본 음성이 남성 저음(InJoon)이라 **0.219초/자** 로 느리다
-    # (여성 SunHi 는 0.185). 55초=251자, 60초=274자 → 235~265자(51.5~58.0초)로 잡는다.
+    # 전체 분량 예산. 기본 음성 GookMin(남성 저음) 실측 **0.206초/자**
+    # (InJoon 0.219, 여성 SunHi 0.185). 55초=266자, 60초=288자.
+    # 245~275자(50.5~56.7초)로 잡아 60초 경계에 여유를 둔다.
     if n == 8:
         total = sum(len(x) for x in sents)
-        if not 235 <= total <= 265:
+        if not 245 <= total <= 275:
             longest = max(range(n), key=lambda i: len(sents[i]))
-            issues.append((longest, f"전체 {total}자 — 235~265자(55초 예산) 벗어남"))
+            issues.append((longest, f"전체 {total}자 — 245~275자(55초 예산) 벗어남"))
     issues += fact_issues(sents, facts) + leak_issues(sents)
     issues += meta_issues(sents, a.ending) if intro else narrative_issues(sents, persons)
     result = {"title": a.title, "sentences": sents, "tone": a.tone,
