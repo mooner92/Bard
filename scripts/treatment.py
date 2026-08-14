@@ -34,6 +34,7 @@ OLLAMA = "http://127.0.0.1:11434/api/generate"
 MODEL = "qwen3.6:27b"
 UA = "bard-treatment/1.0 (internal literary shorts pipeline)"
 BEATS = 8
+EXAMPLES_FILE = Path(__file__).resolve().parent.parent / "works" / "plot_examples.json"
 
 
 def ask(prompt: str, temperature: float = 0.7, ctx: int = 8192) -> str:
@@ -77,6 +78,7 @@ def research(title: str, author: str, facts: str) -> str:
 
 SCHEMA_HINT = """{
  "logline": "이 이야기를 한 문장으로 (스포일러 없이)",
+ "destination": "여덟 박자가 향하는 한 지점 (예: 집 문 앞 — 하루 종일 미뤄온 귀가)",
  "protagonist": "이름 없이 부르는 말 (예: 골방에 사는 젊은 남자)",
  "setting": "장소와 시대 (예: 1930년대 경성의 셋방과 그 골목)",
  "anchor": "English visual anchor for the person and place, 10-18 words",
@@ -87,6 +89,28 @@ SCHEMA_HINT = """{
  ],
  "withheld": "결말에서 밝혀지는 것 — 대본에 절대 쓰지 않는다"
 }"""
+
+
+def examples() -> str:
+    """정답셋(works/plot_examples.json)을 프롬프트에 넣을 형태로 읽는다.
+
+    규칙 문장만 주면 모델은 '증상의 나열'을 쓴다 (실측: 채식주의자 — 고기 밀어냄 /
+    남편이 화냄 / 침대에 누움 / 병원 채혈… 박자끼리 인과가 없고 도착점도 없었다).
+    잘 짜인 줄기를 **보여주면** 그 구조를 흉내 낸다. 파일이 없으면 규칙만으로 간다.
+    """
+    if not EXAMPLES_FILE.exists():
+        return ""
+    try:
+        ex = json.loads(EXAMPLES_FILE.read_text(encoding="utf-8")).get("examples", [])
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"  ! 정답셋을 읽지 못했다 ({e}) — 규칙만으로 진행", file=sys.stderr)
+        return ""
+    out = []
+    for e in ex:
+        beats = "\n".join(f"  {i}) {b}" for i, b in enumerate(e.get("beats", []), 1))
+        out.append(f"《{e['title']}》\n  도착점: {e['destination']}\n"
+                   f"  이게 좋은 이유: {e['why']}\n{beats}")
+    return "\n\n".join(out)
 
 
 def reveals_ending(t: dict) -> bool:
@@ -122,16 +146,47 @@ def reveals_ending(t: dict) -> bool:
     return False
 
 
+def drifts(t: dict) -> bool:
+    """박자들이 도착점 하나로 모이는지 모델에게 묻는다.
+
+    흩어짐은 문장 하나의 결함이 아니라 **배열 전체**의 결함이라 규칙·정규식으로는
+    안 걸린다(실측: 채식주의자 — 박자 여덟 개가 각각은 규칙을 다 지켰는데
+    서로 무관한 증상들이라 무슨 이야기인지 알 수 없었다). 모이는지만 판정시킨다.
+    """
+    dest = (t.get("destination") or "").strip()
+    if not dest:
+        return True
+    beats = "\n".join(f"{b['n']}) {b['beat']}" for b in t.get("beats", []))
+    verdict = ask(f"""아래는 짧은 영상의 여덟 박자와 그것들이 향하는 도착점이다.
+
+[도착점] {dest}
+
+[박자]
+{beats}
+
+각 박자가 앞 박자의 결과로 일어나면서 도착점에 가까워지는가?
+서로 무관한 장면이 나열돼 있거나 도착점과 상관없는 박자가 둘 이상이면 '흩어짐'이다.
+'모임' 또는 '흩어짐', 한 단어로만 답하라.""", temperature=0.2)
+    return "흩어" in verdict
+
+
 def build(facts: str, extra: str) -> dict:
+    good = examples()
     prompt = f"""너는 문학 작품을 짧은 영상으로 옮기는 구성작가다.
 아래 자료에서 **이야기 하나**를 골라 여덟 박자짜리 트리트먼트를 만들어라.
 
 [자료]
 {facts}
 {("[검색 자료]" + chr(10) + extra) if extra else ""}
+{("[잘 짜인 예 — 이 구조를 그대로 따라라]" + chr(10) + good) if good else ""}
 
 [규칙]
 - 작품 전체를 요약하지 마라. 인물 한 명이 겪는 **하나의 사건 줄기**를 고른다.
+- 먼저 **도착점**을 하나 정하라. 여덟 박자는 전부 그 한 지점을 향해 밀려가야 한다.
+  도착점이 없으면 장면들이 따로 놀고, 보는 사람은 무슨 이야기인지 알 수 없다.
+- 박자와 박자는 **'그래서' 또는 '그런데'** 로 이어져야 한다. 앞 박자가 뒤 박자의
+  원인이 되어야 한다. '그리고 다음엔' 으로 이어붙인 나열은 실패다.
+  (나쁜 예: 고기를 밀어낸다 / 침대에 눕는다 / 병원에서 피를 뽑힌다 — 서로 무관한 증상들)
 - 아무 대목이나 고르지 마라. **그 작품이 기억되는 결정적 사건**을 골라야 한다.
   독자가 그 작품을 떠올릴 때 가장 먼저 생각나는 장면, 제목이 가리키는 사건,
   마지막에 뒤집히는 것 — 그 줄기를 따라간다. 곁가지 일화는 안 된다.
@@ -169,14 +224,18 @@ def build(facts: str, extra: str) -> dict:
         import re as _re
         def _ko_ok(t):
             return not _re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", t)
-        if len(beats) == BEATS and all(
+        if len(beats) == BEATS and d.get("destination") and all(
                 b.get("beat") and b.get("visual") and _ko_ok(b["beat"]) for b in beats):
             for i, b in enumerate(beats, 1):
                 b["n"] = i
             if reveals_ending(d):
                 continue
+            if drifts(d):
+                print("  ! 박자가 도착점으로 모이지 않는다 — 재시도", file=sys.stderr)
+                continue
             return d
-        print(f"  ! 트리트먼트 불량(박자 {len(beats)}개 또는 외국어 혼입) — 재시도", file=sys.stderr)
+        print(f"  ! 트리트먼트 불량(박자 {len(beats)}개 / 도착점 누락 / 외국어 혼입) — 재시도",
+              file=sys.stderr)
     return {}
 
 
