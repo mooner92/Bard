@@ -299,7 +299,10 @@ def source_issues(sents, facts):
 # 프롬프트 지시어가 대본으로 새어 나오는 사고를 잡는다(실측: "*별표*는 강조를 나타내며",
 # "자료의 핵심 사실을 차분하게 전달한다"). 낭독될 문장이 아니다.
 PROMPT_LEAK = ["별표", "강세 표기", "종결어미", "문장 길이", "자료의 핵심", "집필 지침",
-               "낭독체", "대본", "프롬프트", "규칙에 따라"]
+               "낭독체", "대본", "프롬프트", "규칙에 따라",
+               # 수리 지시에 모델이 해명으로 답한 것이 문장이 된 사고(실측:
+               # "자료에 근거 없는 표현이므로 해당 문장을 삭제합니다")
+               "해당 문장", "삭제합니다", "수정하겠", "다시 쓰겠", "근거 없는", "자료에 없"]
 
 
 def leak_issues(sents):
@@ -515,7 +518,7 @@ def main():
             return x.replace("*", "")
         return (x[:first.start()].replace("*", "") + first.group(0)
                 + x[first.end():].replace("*", ""))
-    sents = [one_emphasis(x) for x in sents]
+    sents = [one_emphasis(x).strip() for x in sents]
 
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
     issues += fact_issues(sents, facts) + leak_issues(sents)

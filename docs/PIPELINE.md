@@ -5,9 +5,19 @@ ComfyUI(:8188)와 Ollama(:11434)가 떠 있어야 한다. 실측 시간은 Quadr
 
 ## 0. 사실 파일
 
-원작의 핵심 사실과 장면 순서(S1~S6)를 담은 텍스트. LLM 환각 방지의 근거가 되므로
-**여기 없는 내용은 대본에 못 들어간다**는 전제로 쓴다. 현재는 수동 작성,
-`prepare_work.py`(Wikipedia 자동 수집)로 대체 예정.
+원작의 핵심 사실과 배경을 담은 텍스트. LLM 환각 방지의 근거가 되므로
+**여기 없는 내용은 대본에 못 들어간다**는 전제로 쓴다.
+
+`scripts/fetch_book_facts.py` 가 자동 수집한다 — 고전은 위키백과의 줄거리·배경 절
+(`--format narrative`), 현대서는 정보나루 출판사 소개문 + 위키 첫 문단. 어느 쪽이든
+**세계 단서**(장소·계절·사물 단어)를 세어 고전 4개·현대 5개 미만이면 만들지 않는다.
+얇은 재료를 도서관 통계로 채웠다가 영상이 책 소개가 된 사고가 있었다 — 아래 실패 사례 참조.
+
+```bash
+venv/bin/python scripts/fetch_book_facts.py --title 날개 --author 이상 --format narrative
+venv/bin/python scripts/refill_queue.py --classics --max-add 4    # 고전 원장에서 큐로
+venv/bin/python scripts/refill_queue.py --limit 40 --max-add 4    # 인기대출 ∩ KEI 소장
+```
 
 ```
 허먼 멜빌 『모비딕』(1851). 화자는 선원 이슈메일. 포경선 피쿼드호의 선장 에이해브는
@@ -106,3 +116,13 @@ venv/bin/python scripts/gen_i2v.py --image kf1.png --prefix "mobydick_i2v/s1" \
 | 720p T2V 29분 | Turing 무FA → VRAM 선점 → 부분 로드 | 480×848 유지 |
 | `git add -A` 멈춤 | models/ 63GB 해싱 | models/ .gitignore + 명시 경로 add |
 | 업로드/다운로드 간헐 실패 | 서버 아웃바운드 불안정 | 재시도 + scp/deliverables 우회 |
+| **영상이 책 소개가 됨** | 얇은 재료를 도서관 통계로 채움 | 통계 제거 + `meta_issues` + `world_material` 하한 |
+| **"별표는 강조를 나타내며"** | 프롬프트 지시어의 낱말을 소재로 삼음 | 지시문에 기호만 쓰고 이름 금지 + `leak_issues` |
+| 위키 '모순' → 논리학 문서 | 제목이 일반명사 | 본문에 저자명 있는지 확인 후 채택 |
+| 다른 책 제목이 내용으로 섞임 | 함께 빌린 책 목록을 사실파일에 넣음 | 사실파일에서 제외 |
+| 마무리 문구가 사라짐 | 자료 대조 수리가 마지막 문장을 다시 씀 | 수리 수용 조건에 마무리 문구 확인 추가 |
+| 정지 후 재기동이 "이미 실행 중" | 부모만 죽여 자식이 flock 보유 | 트랩에서 `pkill -P $$` |
+| 감속이 1.5배를 살짝 초과 | 프레임을 4n+1 로 내림 | 올림으로 변경 |
+| 완성본 −17 LUFS | 조립에 정규화 없음 | 인코딩에 `loudnorm=I=-14` |
+| 20:00 타이머가 새벽 5시에 동작 | 서버 시계 UTC | 타이머·스크립트에 `Asia/Seoul` 명시 |
+| 강제 종료된 밤의 생산 요약 없음 | 정상 경로에만 기록 | `SIGTERM` 트랩에서 기록 |
