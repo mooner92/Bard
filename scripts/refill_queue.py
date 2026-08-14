@@ -32,6 +32,7 @@ CLASSICS = BASE / "works" / "classics.txt"
 # 도서관 안내가 된다.
 WORLD_MIN_MODERN = 5
 WORLD_MIN_CLASSIC = 4
+FACTS_MIN_CLASSIC = 600   # 각색형 자료 본문 하한
 DONE = BASE / "works" / "done.txt"
 API = "http://127.0.0.1:8010/api/books/popular"
 
@@ -104,6 +105,12 @@ def add_classics(max_add: int, dry: bool) -> list:
         import time as _time
         _time.sleep(2)   # 위키·KEI 를 연사하지 않는다 (일괄 적재 시 실패 다발 — 실측)
         text, hold = build(title, author, "", "narrative")
+        # 위키에 줄거리가 토막만 있는 작품이 있다(실측: 투명인간 348자). 그 정도면
+        # 모델이 여덟 박자를 채우려고 없는 사건을 지어낸다. 세계 단서가 하한을 넘어도
+        # 본문 자체가 얇으면 들이지 않는다.
+        if len(text) < FACTS_MIN_CLASSIC:
+            print(f"– {title[:16]:18} 건너뜀: 자료 {len(text)}자 "
+                  f"(하한 {FACTS_MIN_CLASSIC}) — 줄거리가 토막뿐"); continue
         w = world_material(text)
         if w < WORLD_MIN_CLASSIC:
             print(f"– {title[:16]:18} 건너뜀: 세계 단서 {w}개 (하한 {WORLD_MIN_CLASSIC})"); continue
@@ -122,11 +129,14 @@ def main():
     p.add_argument("--limit", type=int, default=20, help="인기대출 상위 N권 조회")
     p.add_argument("--max-add", type=int, default=6, help="이번에 추가할 최대 편수")
     p.add_argument("--dry-run", action="store_true")
-    p.add_argument("--classics", action="store_true",
-                   help="works/classics.txt 의 퍼블릭 도메인 고전을 각색형으로 넣는다")
+    # 기본은 고전이다. 저작권 보호작(소개형)은 줄거리를 쓸 수 없어 이야기가 안 나온다 —
+    # 자료에 "줄거리를 재구성하지 않는다"가 박혀 있고, 그래도 시키면 모델이 지어낸다
+    # (실측: 채식주의자에서 소설상 아버지가 한 일을 남편이 한 것으로 만든 장면).
+    p.add_argument("--modern", action="store_true",
+                   help="인기대출 현대서를 소개형으로 넣는다. 줄거리는 쓸 수 없다")
     a = p.parse_args()
 
-    if a.classics:
+    if not a.modern:
         rows = add_classics(a.max_add, a.dry_run)
         if not a.dry_run:
             for path, text, _ in rows:
