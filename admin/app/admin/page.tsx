@@ -27,6 +27,8 @@ export default function Admin() {
   const [showScenes, setShowScenes] = useState(false)
   const [playing, setPlaying] = useState<Video | null>(null)
   const [review, setReview] = useState<Review | null>(null)
+  const [featured, setFeatured] = useState<string[]>([])
+  const [savingFeat, setSavingFeat] = useState(false)
   const [saving, setSaving] = useState(false)
 
   useEffect(() => {
@@ -38,7 +40,28 @@ export default function Admin() {
           .catch(() => {})
       }
     }).catch(() => {})
+    fetch(`${API}/api/featured`).then(r => r.json())
+      .then(d => setFeatured(d.works ?? [])).catch(() => {})
   }, [])
+
+  // 공개 페이지 캐러셀에 올릴 작품과 그 순서. 저장하면 서버가 실재 작품만 남긴다.
+  async function saveFeatured(next: string[]) {
+    setFeatured(next)
+    setSavingFeat(true)
+    const r = await fetch(`${API}/api/featured`, {
+      method: 'PUT', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ works: next }),
+    }).then(r => r.json()).catch(() => null)
+    if (r?.works) setFeatured(r.works)
+    setSavingFeat(false)
+  }
+  const move = (i: number, d: number) => {
+    const n = [...featured]
+    const j = i + d
+    if (j < 0 || j >= n.length) return
+    ;[n[i], n[j]] = [n[j], n[i]]
+    saveFeatured(n)
+  }
 
   // 작품별로 묶고 생성순 내림차순 — 맨 앞이 현행
   const byWork = useMemo(() => {
@@ -105,6 +128,42 @@ export default function Admin() {
             <h1>어떤 작품을 다듬을까요.</h1>
             <p>카드를 눌러 버전을 확인합니다.</p>
           </header>
+          <section className="featbox">
+            <div className="feathead">
+              <h2 className="sec" style={{ margin: 0 }}>인기 작품</h2>
+              <span className="fine">
+                공개 페이지 캐러셀에 이 순서대로 나옵니다{savingFeat ? ' · 저장 중' : ''}
+              </span>
+            </div>
+            {featured.length > 0 ? (
+              <ol className="featlist">
+                {featured.map((w, i) => (
+                  <li key={w}>
+                    <span className="rank">{i + 1}</span>
+                    <span className="btext">
+                      <span className="btitle">
+                        {byWork.find(([n]) => n === w)?.[1][0]?.title ?? w}
+                      </span>
+                    </span>
+                    <button className="ghost" onClick={() => move(i, -1)} disabled={i === 0}>↑</button>
+                    <button className="ghost" onClick={() => move(i, 1)}
+                      disabled={i === featured.length - 1}>↓</button>
+                    <button className="ghost"
+                      onClick={() => saveFeatured(featured.filter(x => x !== w))}>빼기</button>
+                  </li>
+                ))}
+              </ol>
+            ) : <p className="fine">아직 없습니다. 아래에서 추가하세요 — 비어 있으면 승인본이 자동으로 올라갑니다.</p>}
+            <div className="featadd">
+              {byWork.filter(([n]) => !featured.includes(n)).map(([n, items]) => (
+                <button key={n} className="ghost" onClick={() => saveFeatured([...featured, n])}>
+                  + {items[0]?.title ?? n}
+                </button>
+              ))}
+            </div>
+          </section>
+
+          <h2 className="sec">모든 작품</h2>
           <div className="grid">
             {byWork.map(([name, items]) => (
               <button key={name} className="vcard" onClick={() => { setOpenWork(name); setSel(null) }}>

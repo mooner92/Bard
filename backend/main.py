@@ -247,6 +247,38 @@ def work_review(work: str):
         raise HTTPException(500, f"점검 실패: {type(e).__name__}")
 
 
+# ---------- 인기 작품 (공개 페이지 캐러셀) ----------
+# 조회수 지표가 아직 없으므로 사람이 고른 순서를 파일로 둔다.
+# 순서가 곧 노출 순서다. 없으면 공개 페이지가 승인본 최신순으로 대체한다.
+
+FEATURED = BASE / "works" / "featured.json"
+
+
+class FeaturedIn(BaseModel):
+    works: list[str]
+
+
+@app.get("/api/featured")
+def get_featured():
+    if not FEATURED.exists():
+        return {"works": []}
+    try:
+        return {"works": json.loads(FEATURED.read_text(encoding="utf-8")).get("works", [])}
+    except (json.JSONDecodeError, OSError):
+        return {"works": []}
+
+
+@app.put("/api/featured")
+def put_featured(body: FeaturedIn):
+    """작품 ID 목록. 실제 존재하는 작품만 남긴다 — 지워진 작품이 캐러셀에 남지 않게."""
+    known = {w["work"] for w in _works()}
+    picked = [w for w in body.works if w in known]
+    FEATURED.parent.mkdir(exist_ok=True)
+    FEATURED.write_text(json.dumps({"works": picked}, ensure_ascii=False, indent=1),
+                        encoding="utf-8")
+    return {"works": picked}
+
+
 @app.get("/api/health")
 def health():
     return {"ok": True, "jobs": len(db.list_jobs(1000)), "works": len(_works())}

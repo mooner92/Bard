@@ -49,6 +49,7 @@ export default function Home() {
   const [tab, setTab] = useState('home')
   const [playing, setPlaying] = useState<Item | null>(null)
   const [slide, setSlide] = useState(0)
+  const [featured, setFeatured] = useState<string[]>([])
 
   useEffect(() => {
     fetch(`${API}/api/works`).then(r => r.json()).then(async (d: { works: Work[] }) => {
@@ -68,6 +69,9 @@ export default function Home() {
       setItems(rows.filter(r => r.video))
     }).catch(() => {})
 
+    fetch(`${API}/api/featured`).then(r => r.json())
+      .then(d => setFeatured(d.works ?? [])).catch(() => {})
+
     fetch(`${API}/api/books/popular?limit=30`).then(r => r.json())
       .then(d => {
         setBooks(dedupeBooks(d.books ?? []).slice(0, 20))
@@ -76,11 +80,15 @@ export default function Home() {
       .catch(() => {})
   }, [])
 
-  // 통상의 미디어 홈 구성: 히어로(대표작) → 신규 섹션, 전체 목록은 상단 네비 별도 탭.
-  // 대표 = 사람이 승인한 완성본(kind final). 없으면 최신작으로 채운다.
+  // 통상의 미디어 홈 구성: 인기 작품(히어로) → 신규 작품, 전체 목록은 상단 네비 별도 탭.
+  // 인기 작품은 관리자가 정한 순서를 그대로 따른다. 비어 있으면 승인본, 그것도 없으면 최신순.
   const byNew = (a: Item, b: Item) => (a.video!.updated < b.video!.updated ? 1 : -1)
-  const featured = items.filter(it => it.video?.kind === 'final')
-  const hero = (featured.length ? featured : items.slice().sort(byNew)).slice(0, 5)
+  const picked = featured
+    .map(w => items.find(it => it.work === w))
+    .filter((x): x is Item => !!x)
+  const approved = items.filter(it => it.video?.kind === 'final')
+  const hero = (picked.length ? picked
+    : approved.length ? approved : items.slice().sort(byNew)).slice(0, 5)
   const heroSet = new Set(hero.map(h => h.work))
   const fresh = items.filter(it => !heroSet.has(it.work)).sort(byNew).slice(0, 4)
 
@@ -110,6 +118,7 @@ export default function Home() {
 
           {hero.length > 0 && (
             <section className="hero">
+              <h2 className="sec hero-sec">인기 작품</h2>
               <div className="viewport">
                 <div className="track" style={{ transform: `translateX(-${cur * 100}%)` }}>
                   {hero.map(it => (

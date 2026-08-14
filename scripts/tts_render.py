@@ -32,11 +32,11 @@ TONES = {
              "desc": "차분한 다큐 내레이션. 기본값."},
     "따뜻": {"rate": "-6%", "pitch": "+2%", "volume": "-4%", "lead": 200,
              "desc": "낮고 부드럽게. 위로·회상 장면."},
-    "서늘": {"rate": "-8%", "pitch": "-6%", "volume": "-2%", "lead": 260,
+    "서늘": {"rate": "-8%", "pitch": "-3%", "volume": "-2%", "lead": 260,
              "desc": "느리고 낮게. 불길함·거리감."},
     "긴장": {"rate": "+8%", "pitch": "+4%", "volume": "+3%", "lead": 60,
              "desc": "빠르고 높게. 추격·위기."},
-    "속삭임": {"rate": "-10%", "pitch": "-3%", "volume": "-28%", "lead": 300,
+    "속삭임": {"rate": "-10%", "pitch": "-2%", "volume": "-28%", "lead": 300,
                "desc": "작고 느리게. 비밀·고백."},
     "생동": {"rate": "+3%", "pitch": "+5%", "volume": "+4%", "lead": 90,
              "desc": "밝고 탄력 있게. 소개·추천."},
@@ -50,7 +50,8 @@ ARCS = {
     "산형": [-2, 0, 3, 5, 3, 0, -2, -4],
     "하강": [4, 3, 1, 0, -1, -2, -3, -5],
 }
-VOICE_DEFAULT = "ko-KR-SunHiNeural"
+# 고전 낭독 기본값: 차분한 남성 저음. 여성 음성(SunHi)은 --voice 로 계속 쓸 수 있다.
+VOICE_DEFAULT = "ko-KR-InJoonNeural"
 
 
 def _env(key: str) -> str:

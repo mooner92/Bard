@@ -119,7 +119,7 @@ while grace_ok; do
     say "  ① 사실파일 없음($facts) — 영구 실패"; ok=0
   else
     venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-      --scenes 8 --minlen 31 --maxlen 41 --tone "$tone" --emphasis $TRE_ARG \
+      --scenes 8 --minlen 26 --maxlen 36 --tone "$tone" --emphasis $TRE_ARG \
       --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
     if [ -s "$NAR" ]; then
       say "  ① 대본 준비됨"   # 검증 미통과여도 진행하고 아침에 사람이 검수한다
