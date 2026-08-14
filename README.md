@@ -3,12 +3,20 @@
 <img src="admin/public/brand/bard-lockup.svg" alt="Bard" height="40">
 
 
-퍼블릭 도메인 고전을 **30~45초 한국어 내레이션 세로 영상**으로 만드는 온프레미스 파이프라인.
+문학 작품의 **세계**를 30~45초 한국어 내레이션 세로 영상으로 만드는 온프레미스 파이프라인.
 대본·이미지·영상·음성·조립이 전부 이 서버 안에서 돌고, 외부로 나가는 것은 TTS 합성 요청뿐이다.
 GPU는 **Quadro RTX 6000 24GB ×2 (Turing, sm_75)** — 이 하드웨어의 제약이 설계 전반을 결정했다.
 
+> **핵심 원칙: 책 '에 대한' 이야기가 아니라 책 '속' 세계를 그린다.**
+> 출판사·수상 이력·대출 통계를 낭독하기 시작하면 영상은 도서관 안내가 된다. 실제로 그렇게 무너진
+> 적이 있고(v0.9), 그 뒤로 메타 어휘를 기계가 잡아낸다.
+
+**두 라인** — 퍼블릭 도메인 **고전은 각색형**(위키백과 줄거리·배경으로 세계를 재구성),
+저작권이 살아 있는 **현대서는 소개형**(줄거리를 옮기지 않고 배경과 공기만). 어느 쪽이든
+세계를 그릴 재료(`world_material`)가 기준 미만이면 제작하지 않는다.
+
 > [!IMPORTANT]
-> 권위 순서는 **[`docs/PLAN.md`](./docs/PLAN.md)(로드맵·스펙) → [`docs/NARRATIVE.md`](./docs/NARRATIVE.md)(서사 규칙의 근거) → [`docs/PIPELINE.md`](./docs/PIPELINE.md)(실행 절차)** 이다.
+> 권위 순서는 **[`docs/SPEC.md`](./docs/SPEC.md)(v1 합격 기준) → [`docs/PLAN.md`](./docs/PLAN.md)(로드맵·의사결정) → [`docs/NARRATIVE.md`](./docs/NARRATIVE.md)(서사 규칙의 근거) → [`docs/PIPELINE.md`](./docs/PIPELINE.md)(실행 절차)** 이다.
 > 이 README는 **지도**일 뿐 진실원천이 아니다. 세션 인수인계는 [`HANDOFF.md`](./HANDOFF.md).
 
 **바로 가기** — 운영자: [지금 상태](#지금-상태) · [문제가 생겼을 때](#문제가-생겼을-때--실제로-겪은-것들) · [무엇이 되고 무엇이 안 되나](#무엇이-되고-무엇이-안-되나) / 개발자·에이전트: [시작하기](#시작하기) · [검증 게이트](#검증-게이트) · [문서 지도](#문서-지도)
@@ -33,7 +41,8 @@ GPU는 **Quadro RTX 6000 24GB ×2 (Turing, sm_75)** — 이 하드웨어의 제�
 | 한국어 TTS 속도 | **6.67자/초** (rate 0%) — 30자 ≈ 4.5초 | `ffprobe -show_entries format=duration output/tts/*.wav` |
 | 완성본 1편 | **GPU 약 1.5~2시간** (8장면, 교정 반복 포함) | 아래 단계별 합산 |
 | 도서 API | 정보나루 **승인 완료** · 7월 인기대출 5,000건 | `curl -s "localhost:8010/api/books/popular?limit=5"` |
-| 완성본 | 모비딕 v3.2 · 카프카 변신 v2 (각 ~31초) | [`VIDEOS.md`](./VIDEOS.md) |
+| 완성본 | 수동 3편(모비딕·카프카·톨스토이) + **야간 자동 6편** | `ls output/*/final_night.mp4` |
+| 명세 대조 | `tests/test_spec.py` 58항목 통과 | `venv/bin/python tests/test_spec.py` |
 
 > [!IMPORTANT] Turing이 만든 임계선 — 이 프로젝트의 가장 비싼 교훈
 > sm_75에는 **FlashAttention이 없다.** latent이 커지면 ComfyUI가 추론용 VRAM을 선점해
@@ -91,7 +100,10 @@ GPU는 **Quadro RTX 6000 24GB ×2 (Turing, sm_75)** — 이 하드웨어의 제�
 
 ```mermaid
 flowchart LR
-  F["원작 사실 파일<br/>(환각 방지 근거)"] --> H["대본 하네스<br/>qwen3.6:27b · 검증 15종"]
+  S1["works/classics.txt<br/>퍼블릭 도메인 고전"] --> FB["사실 수집<br/>위키 줄거리·배경"]
+  S2["정보나루 인기대출<br/>∩ KEI 소장"] --> FB
+  FB -->|"세계 단서 4~5개 미만이면 제외"| F
+  F["원작 사실 파일<br/>(환각 방지 근거)"] --> H["대본 하네스<br/>qwen3.6:27b · 검증 3중"]
   H --> T["Azure TTS<br/>문장별 wav · 길이 실측"]
   H --> K["키프레임<br/>Qwen-Image Q4 · CFG 2.5"]
   K --> E["참조 편집<br/>Qwen-Image-Edit<br/>(피사체 통일)"]
@@ -100,7 +112,8 @@ flowchart LR
   C --> V["Wan 2.2 I2V<br/>81프레임 · 8스텝"]
   T -->|"문장 길이가 감속 배율을 정한다"| A
   V --> A["ffmpeg 조립<br/>1080×1920 · h264+aac"]
-  A --> D[("deliverables/<br/>scp 수령")]
+  A --> R["자가점검<br/>길이·감속·음량·리듬"]
+  R --> D[("deliverables/<br/>사람 승인 후 승격")]
   H -.-> UI["관리자 :3001<br/>대본 검수 게이트"]
   V -.-> UI
   A -.-> UI
@@ -109,6 +122,10 @@ flowchart LR
 
 **내레이션이 시계다.** 문장별 TTS 실측 길이에 맞춰 각 클립을 감속하므로 장면 전환이 문장 시작과 정확히 일치한다.
 대본이 바뀌어도 **영상 재생성 없이 재조립**된다.
+
+**사실은 세 겹으로 막는다.** 자료에 없는 수치는 정규식(`fact_issues`), 지어낸 고유명사는 모델 대조
+(`source_issues`), 동음이의 문서 오염은 저자명 확인으로 잡는다. 수리에 실패하면 조용히 넘기지 않고
+`재작성 실패 — 아침 검수 대상`을 로그에 남긴다.
 
 ---
 
@@ -153,13 +170,32 @@ setsid nohup venv/bin/uvicorn backend.main:app \
 cd admin && npm run dev                                         # :3001
 ```
 
+### 작품 고르고 재료 모으기
+
+```bash
+# 퍼블릭 도메인 고전 — 위키 줄거리·배경을 받아 각색형으로 큐에 넣는다
+venv/bin/python scripts/refill_queue.py --classics --max-add 4 --dry-run
+
+# 현대 인기대출도서 — KEI 소장본만, 세계 단서 5개 이상만
+venv/bin/python scripts/refill_queue.py --limit 40 --max-add 4 --dry-run
+
+# 한 권만 확인
+venv/bin/python scripts/fetch_book_facts.py --title 날개 --author 이상 --format narrative
+venv/bin/python scripts/kei_holdings.py --title 모비딕 --author 멜빌
+```
+
 ### 한 편 만들기
 
 ```bash
 # ① 대본 (하네스가 검증하고 불합격 문장만 재작성)
 venv/bin/python scripts/write_script.py --title 모비딕 --facts facts/mobydick.txt \
-  --scenes 8 --minlen 22 --maxlen 33 --persons "에이해브,퀴퀘그,이슈메일" \
+  --scenes 8 --minlen 29 --maxlen 40 --tone 서늘 --emphasis \
+  --persons "에이해브,퀴퀘그,이슈메일" \
   --ending "소설 모비딕에서 만날 수 있습니다" --out output/mobydick/narration_v4.json
+
+# ①-2 톤·텐션 곡선을 실은 음성 (담담/따뜻/서늘/긴장/속삭임/생동)
+venv/bin/python scripts/tts_render.py --narration output/mobydick/narration_v4.json \
+  --tone 서늘 --arc 산형 --prefix output/tts/mobydick_v4_s
 
 # ② 키프레임 (스타일 블록을 모든 장면에 바이트 동일하게)
 venv/bin/python scripts/gen_keyframe.py --seed 202 --prefix "mobydick_kf/v4_s1" \
@@ -168,6 +204,17 @@ venv/bin/python scripts/gen_keyframe.py --seed 202 --prefix "mobydick_kf/v4_s1" 
 # ③ I2V (스타일은 이미지가 결정 — 프롬프트에는 모션·카메라만)
 venv/bin/python scripts/gen_i2v.py --image kf1.png --prefix "mobydick_i2v/s1" \
   --length 81 --seed 42 --prompt "mist drifts across the deck, slow dolly in"
+
+# ④ 자가점검 (길이·감속·음량·리듬·대본) — 음량이 벗어나면 --fix-loudness 로 교정
+venv/bin/python scripts/review_output.py --work mobydick --fix-loudness
+```
+
+### 밤새 돌리기
+
+```bash
+sudo systemctl start aivideo-night.service      # 20:00 자동 기동, 08:00 착수 중단, 09:40 마무리
+START_BY=1930 FINISH_BY=1930 ./scripts/night_batch_v2.sh   # 개발 중 수동 실행
+tail -f logs/night/$(TZ=Asia/Seoul date +%F).log
 ```
 
 절차 전체와 파라미터 근거는 [`docs/PIPELINE.md`](./docs/PIPELINE.md).
@@ -175,14 +222,13 @@ venv/bin/python scripts/gen_i2v.py --image kf1.png --prefix "mobydick_i2v/s1" \
 ### 검증 게이트
 
 ```bash
-python3 -c "import ast; ast.parse(open('scripts/write_script.py').read())"   # 구문
-venv/bin/python -c "                                                         # 검증기 자가 테스트
-import sys; sys.path.insert(0,'scripts')
-from write_script import narrative_issues
-print(narrative_issues(['...문장 리스트...']))"
-curl -s localhost:8010/api/health                                            # API
-cd admin && npx tsc --noEmit                                                 # 프론트 타입
+venv/bin/python tests/test_spec.py          # 명세 대조 (docs/SPEC.md 의 값과 구현이 같은지)
+curl -s localhost:8010/api/health           # API
+cd admin && npx tsc --noEmit                # 프론트 타입
 ```
+
+`tests/test_spec.py` 는 GPU·외부 API 없이 수초 안에 끝난다. 대본 규격·사실 검증 3중·영상 규격·
+톤·제작 대상 판정·야간 시간 정책·큐 형식·구문을 전부 대조하며, **명세와 구현이 어긋나면 여기서 걸린다.**
 
 > [!NOTE] `git add -A`를 쓰지 않는다
 > `models/`에 63GB가 있어 해싱에서 멈춘다. `.gitignore`에 들어 있지만 **명시 경로만 add**하는 습관이 안전하다.

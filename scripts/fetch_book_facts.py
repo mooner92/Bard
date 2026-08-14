@@ -152,6 +152,40 @@ def wikipedia_summary(title: str, author: str = "") -> str:
     return ""
 
 
+def wikipedia_plot(title: str, author: str = "") -> str:
+    """퍼블릭 도메인 고전용: 위키백과의 줄거리·배경 절을 통째로 가져온다.
+
+    고전은 저작권이 만료돼 각색이 자유롭고, 위키백과에 세계를 그릴 재료가
+    충분하다(장소·계절·사물). 현대서의 홍보문 소개와 질이 다르다.
+    """
+    for t in ([f"{title} (소설)", title] if author else [title]):
+        try:
+            u = "https://ko.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
+                "action": "query", "format": "json", "prop": "extracts",
+                "explaintext": 1, "redirects": 1, "maxlag": 5, "titles": t,
+            })
+            pages = json.loads(_get(u, 30)).get("query", {}).get("pages", {})
+        except Exception as e:
+            print(f"  ! 위키 본문 실패 {t}: {type(e).__name__}", file=sys.stderr)
+            continue
+        for p in pages.values():
+            txt = (p.get("extract") or "").strip()
+            if len(txt) < 200:
+                continue
+            if author and not any(n and n in txt for n in [author] + author.split()):
+                continue
+            # "== 줄거리 ==" 같은 절 표제로 잘라 필요한 절만 남긴다
+            parts = re.split(r"\n==+\s*([^=\n]+?)\s*==+\n", "\n" + txt)
+            head = parts[0].strip()
+            want, out = ("줄거리", "내용", "배경", "설정", "등장인물"), []
+            for i in range(1, len(parts) - 1, 2):
+                if any(w in parts[i] for w in want):
+                    out.append(f"[{parts[i].strip()}]\n{parts[i+1].strip()}")
+            body = "\n".join([head] + out) if out else head
+            return re.sub(r"\n{2,}", "\n", body)[:2500]
+    return ""
+
+
 def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tuple:
     """사실 텍스트와 KEI 소장 판정을 만든다. 반환: (facts_text, holding_dict)."""
     import sys
@@ -160,7 +194,8 @@ def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tupl
 
     a1 = first_author(author)
     book = data4library_detail(isbn13)
-    wiki = wikipedia_summary(title, a1)
+    # 고전(각색형)은 줄거리·배경 절까지 가져온다. 현대서(소개형)는 첫 문단만.
+    wiki = wikipedia_plot(title, a1) if fmt == "narrative" else wikipedia_summary(title, a1)
     try:
         hold = lookup(title, a1)
     except Exception:
@@ -181,21 +216,53 @@ def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tupl
     if book.get("description"):
         lines += ["[출판사 소개]", book["description"].strip()]
     if wiki:
-        lines += ["[백과 설명]", wiki]
-    if use := usage_analysis(isbn13):
-        lines.append("[독자 반응 — 전국 공공도서관 대출 데이터]")
-        if use.get("peak"):
-            lines.append(f"가장 많이 빌린 달: {use['peak']}")
-        if use.get("readers"):
-            lines.append(f"가장 많이 빌린 독자층: {', '.join(use['readers'])}")
-        if use.get("keywords"):
-            lines.append(f"연관 키워드: {', '.join(use['keywords'])}")
+        lines += ["[줄거리와 배경]" if fmt == "narrative" else "[백과 설명]", wiki]
+    # 대출 통계·독자층·키워드는 사실파일에 넣지 않는다.
+    # 재료가 얇을 때 이걸로 채웠더니 모델이 작품 내용으로 착각해
+    # "대출 241회", "30대 여성 독자가 꾸준히" 를 낭독했다(실측). 영상이
+    # 책 속 세계가 아니라 도서관 통계 소개가 돼 버린다. 재료가 얇은 책은
+    # 통계로 때우지 말고 큐에서 빼는 것이 맞다(refill_queue.py 의 자료 하한).
+    if fmt == "narrative":
+        lines += [
+            "[집필 지침] 위 줄거리에 있는 사건과 사물만 쓴다. 여덟 장면으로 나누되",
+            "설명하지 말고 보여줘라. 결말은 밝히지 말고 질문으로 닫는다.",
+        ]
     if fmt == "intro":
         lines += [
-            "[집필 지침] 위 자료에 적힌 사실만 쓴다. 줄거리를 재구성하거나 결말을 밝히지 않는다.",
-            "책이 독자에게 던지는 질문과, 읽기 전에 알아두면 좋은 배경만 다룬다.",
+            "[집필 지침] 위 자료에 적힌 배경만 쓴다. 줄거리를 순서대로 옮기거나 결말을 밝히지 않는다.",
+            "책·작가·출판 이야기가 아니라, 작품이 놓인 장소와 시간, 그 안의 사물과 공기를 그린다.",
         ]
     return "\n".join(lines), hold
+
+
+# 작품 '속 세계'를 그릴 수 있는지 판별하는 단서. 출판사 소개문이 작가 홍보문
+# ("젊은 거장의 신작", "베일에 가려져 있던")뿐이면 그릴 세계가 없다 — 실측:
+# 그런 책에서 대본이 도서관 통계 낭독으로 흘렀다.
+WORLD_CUES = [
+    "시", "구", "동", "읍", "면", "리", "마을", "거리", "골목", "도시", "섬", "바다", "산",
+    "강", "숲", "들판", "학교", "병원", "편의점", "서점", "카페", "식당", "공장", "역",
+    "아파트", "하숙", "집", "방", "복도", "계단", "옥상", "지하", "정원", "시장",
+    "봄", "여름", "가을", "겨울", "새벽", "아침", "저녁", "밤", "눈", "비", "바람",
+    "년대", "세기", "전쟁", "식민", "조선", "고향",
+]
+
+
+def world_material(text: str) -> int:
+    """사실 텍스트에 세계를 그릴 단서가 몇 개나 있는지 센다.
+
+    [출판사 소개]·[백과 설명] 본문만 본다. 서지 줄의 출판지("파주")가
+    장소 단서로 잘못 잡히면 홍보문뿐인 책이 통과해 버린다.
+    """
+    body = []
+    keep = False
+    for line in text.splitlines():
+        if line.startswith("["):
+            keep = line.startswith(("[출판사 소개]", "[백과 설명]", "[줄거리와 배경]", "[줄거리]"))
+            continue
+        if keep:
+            body.append(line)
+    joined = " ".join(body)
+    return sum(1 for c in WORLD_CUES if c in joined)
 
 
 def main():

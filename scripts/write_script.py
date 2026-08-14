@@ -181,8 +181,11 @@ TONE_RULES = {
     "생동": "말끝을 올리고 리듬을 타라. 질문과 감탄을 섞고, 구체적인 숫자·이름을 앞세워라.",
 }
 # 강세로 읽을 구절 표시. tts_render 가 *별표*를 emphasis 로 바꾼다.
-EMPHASIS_RULE = ("각 문장에서 가장 중요한 낱말 하나만 *별표*로 감싸라 "
-                 "(예: *벌거벗은 청년*). 문장당 한 번을 넘기지 마라.")
+# 지시문에 그 낱말을 쓰면 모델이 그것을 대본 소재로 삼는다(실측:
+# "*별표*는 강조를 나타내며"). 기호만 보여주고 이름은 부르지 않는다.
+EMPHASIS_RULE = ("각 문장에서 가장 중요한 낱말 하나를 * 기호로 감싸라 "
+                 "(예: *벌거벗은 청년*). 문장당 한 번을 넘기지 마라. "
+                 "기호 자체를 문장의 소재로 삼지 마라.")
 
 NARRATIVE_RULES = """[서사 규칙 — 지루한 줄거리 나열을 막는다]
 - 첫 문장: 지금 눈앞에서 벌어지는 구체적 동작 하나. 주인공 이름을 쓰지 말고
@@ -197,25 +200,45 @@ NARRATIVE_RULES = """[서사 규칙 — 지루한 줄거리 나열을 막는다]
 - 마지막 문장은 답을 주지 말고 질문을 남겨라: "~한 이유는", "~가 누구인지는".
   그리고 첫 문장에 나온 단어를 하나 다시 써서 처음으로 되돌아오게 하라."""
 
-# 저작권 살아 있는 현대서용. 줄거리·결말을 재구성하지 않고 "이 책이 던지는 질문"만 다룬다.
-INTRO_RULES = """[소개 규칙 — 줄거리 각색 금지]
-- 이 책은 저작권이 살아 있다. 줄거리를 순서대로 옮기거나 결말·반전을 밝히면 실패다.
-- 등장인물의 행동을 장면으로 재연하지 마라. 본문을 인용하지 마라.
-- 대신 이렇게 쓴다: 이 책이 독자에게 던지는 질문, 책이 놓인 시대와 장소,
-  읽기 전에 알아두면 좋은 배경, 이 책을 지금 읽는 의미.
-- 첫 문장은 독자의 일상에서 출발하는 구체적 장면 하나로 연다(책 이야기부터 꺼내지 마라).
-- 중간에 질문 형태의 문장을 두 개 이상 넣어라. 답은 주지 마라.
-- 자료에 없는 인물·사건·수치를 지어내지 마라. 확실하지 않으면 쓰지 마라.
-- 고유명사는 자료에 적힌 것만 쓴다. 지명·작품명·인물명을 새로 만들지 마라
+# 저작권 살아 있는 현대서용. **책에 대한 소개가 아니라 책 속 세계**를 그린다.
+# 줄거리를 순서대로 옮기지 않되(2차적저작물 회피), 그 세계의 공기는 그린다.
+INTRO_RULES = """[세계 규칙 — 책 '에 대한' 이야기가 아니라 책 '속' 세계를 그린다]
+- 시청자를 그 책의 세계 안에 세워라. 배경이 되는 장소·계절·시간대, 그 안의 사물과
+  빛과 소리를 눈앞에 보이듯 써라. 자료에 적힌 배경만 쓴다.
+- 책·작가·출판을 화제로 삼지 마라. 다음 어휘는 마지막 문장을 빼고 금지다:
+  책, 소설, 작품, 장편, 소설집, 단편, 작가, 출판사, 문학동네, 창비, 수상, 문학상,
+  베스트셀러, 독자, 대출, 도서관, 신작, 출간, 페이지, 표지, 챕터.
+- 줄거리를 순서대로 옮기거나 결말·반전을 밝히면 실패다. 사건을 나열하지 말고
+  세계의 한 순간에 머물러라(그 방의 공기, 그 거리의 냄새, 그 계절의 온도).
+- 인물은 이름 없이 "한 남자", "어떤 아이" 로 부른다. 인물의 행동을 재연하지 말고
+  그가 놓인 자리만 보여줘라.
+- 중간에 질문 형태의 문장을 하나 이상 넣어라. 답은 주지 마라.
+- 자료에 없는 인물·사건·수치·지명을 지어내지 마라. 확실하지 않으면 쓰지 마라
   (실측 위반: 자료에 없는 "블랙시즈의 깊은 바다"를 지어냈다).
-- 표지·삽화·글씨체의 생김새를 묘사하지 마라. 본 적 없는 것을 본 것처럼 쓰면 실패다.
+- 대출 횟수·독자 연령대·청구기호·ISBN 같은 도서관 정보는 한 번도 쓰지 마라.
+  듣는 사람은 서가 정보를 들으려고 보는 것이 아니다.
 - 추상어(운명·본질·불가해) 금지. 눈에 보이는 사물과 상황으로 말하라.
 - 문장 길이에 강약을 만들어라. 가장 짧은 문장은 하한 가까이 압축하고, 가장 긴 문장은
   상한 가까이 늘려라. 여덟 문장이 다 비슷한 길이면 낭독이 평평해져 실패다.
-- 대출 횟수·독자 연령대 같은 도서관 수치는 **최대 한 문장**에만 쓴다. 그 문장도
-  숫자만 읊지 말고 "왜 그 사람들이 이 책을 집어 들었을까"로 이어라.
-- 청구기호·ISBN·분류기호·출판사 주소는 절대 쓰지 마라. 듣는 사람에게 쓸모가 없다.
 - 마지막 문장은 지정 문구로 끝나되, 첫 문장에 나온 단어를 하나 다시 써라."""
+
+# 소개형에서 금지되는 메타 어휘. 규칙만으로는 새어 나와(실측: "문학동네 김애란의 소설",
+# "대출 241회") 영상이 도서관 안내가 됐다. 기계가 잡아 문장 단위로 되돌린다.
+META_INTRO = ["책", "소설", "작품", "장편", "단편", "작가", "출판사", "수상", "문학상",
+              "베스트셀러", "독자", "대출", "도서관", "신작", "출간", "페이지", "표지",
+              "챕터", "청구기호", "ISBN", "문학동네", "창비", "민음사", "김영사"]
+
+
+def meta_issues(sents, ending_phrase=""):
+    """소개형 전용: 책 '에 대한' 어휘를 잡는다. 마지막 문장은 마무리 문구라 제외."""
+    out = []
+    body = sents[:-1] if ending_phrase else sents
+    for i, s in enumerate(body):
+        hit = [w for w in META_INTRO if w in s]
+        if hit:
+            out.append((i, f"메타 어휘 '{', '.join(hit[:3])}' — 책 소개 말고 "
+                           f"작품 속 장소·사물·공기를 그려라"))
+    return out
 
 
 # 다섯 이상의 수량어만 본다. '한 권/두 가지'는 관형사로 흔히 쓰여 오탐이 된다.
@@ -270,6 +293,22 @@ def source_issues(sents, facts):
         # 모델이 자료에 있는 말을 지목하는 오탐을 걸러낸다
         if 0 <= i < len(sents) and term and term not in facts and term in sents[i]:
             out.append((i, f"자료에 근거 없는 표현 '{term}' — 자료에 있는 말로 바꾸거나 빼라"))
+    return out
+
+
+# 프롬프트 지시어가 대본으로 새어 나오는 사고를 잡는다(실측: "*별표*는 강조를 나타내며",
+# "자료의 핵심 사실을 차분하게 전달한다"). 낭독될 문장이 아니다.
+PROMPT_LEAK = ["별표", "강세 표기", "종결어미", "문장 길이", "자료의 핵심", "집필 지침",
+               "낭독체", "대본", "프롬프트", "규칙에 따라"]
+
+
+def leak_issues(sents):
+    """지시어 누출 검출. 어느 포맷이든 적용한다."""
+    out = []
+    for i, s in enumerate(sents):
+        hit = [w for w in PROMPT_LEAK if w in s]
+        if hit:
+            out.append((i, f"지시어 누출 '{hit[0]}' — 작품 내용으로 다시 써라"))
     return out
 
 
@@ -346,7 +385,7 @@ def main():
     # 저작권이 살아 있는 현대서는 줄거리 각색 금지 (docs/PLAN.md).
     # 사실파일이 스스로 포맷을 선언한다 — 야간 배치 호출부를 건드리지 않기 위해서다.
     intro = "[포맷] 소개형" in facts
-    keep_star = " *별표* 강세 표시는 지우지 말고 그대로 두어라." if a.emphasis else ""
+    keep_star = " 문장에 붙어 있는 * 기호는 지우지 말고 그대로 두어라." if a.emphasis else ""
     # 같은 이유로 길이·톤도 사실파일이 덮어쓸 수 있게 한다. 배치가 도는 중에는
     # night_batch.sh 를 수정할 수 없다(bash 가 스크립트를 이어 읽는다).
     if m := re.search(r"\[길이\]\s*(\d+)\s*[-~]\s*(\d+)", facts):
@@ -400,9 +439,8 @@ def main():
         # 서사 검증층(반전·대사·루프백)은 각색형 전용이다. 소개형에 걸면
         # 있지도 않은 줄거리를 만들어내라고 모델을 떠미는 꼴이 된다.
         issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
-        issues += fact_issues(sents, facts)
-        if not intro:
-            issues += narrative_issues(sents, persons)
+        issues += fact_issues(sents, facts) + leak_issues(sents)
+        issues += meta_issues(sents, a.ending) if intro else narrative_issues(sents, persons)
         if not issues:
             break
         print(f"[검증 {attempt+1}] 불합격 {len(issues)}건: {issues}", file=sys.stderr)
@@ -456,6 +494,10 @@ def main():
             line = re.sub(r"^\**\s*S?[1-9]\s*[:.)\]]\**\s*", "", line)
             if not line or (bad_term and bad_term in line):
                 continue
+            # 마지막 문장을 고칠 때 마무리 문구가 날아가면 안 된다(실측: 자료 대조
+            # 수리가 "소설 날개에서 만날 수 있습니다"를 "확인할 수 있으니"로 바꿨다).
+            if i == n - 1 and a.ending and not line.rstrip(".!? ").endswith(a.ending.rstrip(".!? ")):
+                continue
             if LEN_MIN <= len(line) <= LEN_MAX and not fact_issues([line], facts):
                 sents[i] = line
                 print(f"[대조 S{i+1}] 교체됨: {line[:40]}", file=sys.stderr)
@@ -463,10 +505,21 @@ def main():
         else:
             print(f"[대조 S{i+1}] 재작성 실패 — 원문 유지(아침 검수 대상)", file=sys.stderr)
 
+    # 강세 표시 정리: 문장당 한 쌍만 남긴다. 모델이 서너 개씩 붙이거나 짝을 안 맞추면
+    # ("황혼*을 맞은 그의 *마음*은") SSML 의 emphasis 범위가 엉뚱하게 잡힌다.
+    def one_emphasis(x):
+        if x.count("*") < 2:
+            return x.replace("*", "")
+        first = re.search(r"\*([^*]{1,20})\*", x)
+        if not first:
+            return x.replace("*", "")
+        return (x[:first.start()].replace("*", "") + first.group(0)
+                + x[first.end():].replace("*", ""))
+    sents = [one_emphasis(x) for x in sents]
+
     issues = validate(sents, a.ending, banned, plan=ENDING_PLAN[:n])
-    issues += fact_issues(sents, facts)
-    if not intro:
-        issues += narrative_issues(sents, persons)
+    issues += fact_issues(sents, facts) + leak_issues(sents)
+    issues += meta_issues(sents, a.ending) if intro else narrative_issues(sents, persons)
     result = {"title": a.title, "sentences": sents, "tone": a.tone,
               "endings": [ending_of(s) for s in sents],
               "passed": not issues, "issues": [f"S{i+1}: {m}" for i, m in issues]}

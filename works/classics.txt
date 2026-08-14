@@ -1,0 +1,17 @@
+# 퍼블릭 도메인 고전 원장 — 각색형(책 속 세계) 라인의 재료.
+# 형식: 제목<TAB>저자<TAB>화풍블록<TAB>톤
+#
+# 저작권: 저자 사후 70년이 지난 작품만 넣는다(한국 저작권법 기준).
+#   넣어도 되는 예 — 카프카(1924), 톨스토이(1910), 멜빌(1891), 이상(1937),
+#   현진건(1943), 이효석(1942), 오웰(1950), 피츠제럴드(1940).
+#   넣으면 안 되는 예 — 헤밍웨이(1961 → 2031), 카뮈(1960 → 2030), 헤세(1962 → 2032).
+# 세계 단서: 위키백과 줄거리·배경 절에서 장소·계절·사물 단서가 4개 이상이어야
+#   영상으로 만들 만하다(scripts/fetch_book_facts.py 의 world_material).
+날개	이상	1930s Gyeongseong ink wash illustration, tin roofs and narrow alleys, dim room with paper windows, muted sepia and cold grey palette, grainy paper texture.	서늘
+운수 좋은 날	현진건	1920s Seoul rainy street illustration, rickshaw and wet cobblestones, gaslight reflections, muted charcoal and ochre palette, worn paper texture.	서늘
+메밀꽃 필 무렵	이효석	moonlit buckwheat field illustration, white blossoms under blue night, mountain pass and donkey path, soft indigo and silver palette, hanji paper texture.	따뜻
+위대한 개츠비	스콧 피츠제럴드	1920s art deco illustration, long island mansion and green dock light, vintage cars, muted gold and teal palette, aged print texture.	담담
+프랑켄슈타인	메리 셸리	19th century romantic engraving, arctic ice and stormy alps, candlelit laboratory, cold blue and bone white palette, etched line texture.	긴장
+지킬 박사와 하이드	로버트 루이스 스티븐슨	victorian london fog illustration, gas lamps and narrow lanes, laboratory glassware, muted green and soot black palette, engraved texture.	긴장
+동물농장	조지 오웰	english farmyard woodcut illustration, barn and windmill on a hill, muted earth tones with faded red, rough print texture.	담담
+오만과 편견	제인 오스틴	regency english countryside watercolor, country manor and hedgerow lanes, candlelit drawing room, soft rose and sage palette, aged paper texture.	따뜻

@@ -23,9 +23,15 @@ from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE / "scripts"))
-from fetch_book_facts import build, slug  # noqa: E402
+from fetch_book_facts import build, slug, world_material  # noqa: E402
 
 QUEUE = BASE / "works" / "queue.txt"
+CLASSICS = BASE / "works" / "classics.txt"
+# 작품 '속 세계'를 그릴 단서 하한. 사람이 쓴 고전 사실파일이 5~8, 위키 줄거리를 받은
+# 고전이 10~14, 홍보문뿐인 현대서가 1~3 이었다(실측). 이 아래는 만들어도 영상이
+# 도서관 안내가 된다.
+WORLD_MIN_MODERN = 5
+WORLD_MIN_CLASSIC = 4
 DONE = BASE / "works" / "done.txt"
 API = "http://127.0.0.1:8010/api/books/popular"
 
@@ -78,12 +84,57 @@ def reason_to_skip(b: dict, have: set) -> str:
     return ""
 
 
+def add_classics(max_add: int, dry: bool) -> list:
+    """퍼블릭 도메인 고전을 각색형으로 큐에 넣는다.
+
+    현대서와 달리 저작권이 만료돼 줄거리 각색이 자유롭고, 위키백과에
+    장소·계절·사물이 충분히 적혀 있어 '책 속 세계'를 그릴 수 있다.
+    """
+    have, rows, added = existing_ids(), [], 0
+    for line in CLASSICS.read_text(encoding="utf-8").splitlines():
+        if added >= max_add or not line.strip() or line.startswith("#"):
+            continue
+        c = line.split("\t")
+        title, author = c[0].strip(), (c[1].strip() if len(c) > 1 else "")
+        style = c[2].strip() + " " if len(c) > 2 and c[2].strip() else ""
+        tone = c[3].strip() if len(c) > 3 and c[3].strip() else "담담"
+        wid = slug(title)
+        if wid in have:
+            print(f"– {title[:16]:18} 건너뜀: 이미 큐/완료됨"); continue
+        text, hold = build(title, author, "", "narrative")
+        w = world_material(text)
+        if w < WORLD_MIN_CLASSIC:
+            print(f"– {title[:16]:18} 건너뜀: 세계 단서 {w}개 (하한 {WORLD_MIN_CLASSIC})"); continue
+        ending = (ENDING_KEI if hold["holding"] in ("paper", "ebook", "both")
+                  else f"소설 {title}에서 만날 수 있습니다")
+        text += "\n[길이] 29-40\n[톤] " + tone
+        rows.append((BASE / "facts" / f"auto_{wid}.txt", text,
+                     "\t".join([wid, f"facts/auto_{wid}.txt", ending, style, tone])))
+        have.add(wid); added += 1
+        print(f"+ {title[:16]:18} → {wid} ({hold['holding']}, {len(text)}자, 세계 {w}, 톤 {tone})")
+    return rows
+
+
 def main():
     p = argparse.ArgumentParser(description="인기대출도서를 야간 큐에 적재")
     p.add_argument("--limit", type=int, default=20, help="인기대출 상위 N권 조회")
     p.add_argument("--max-add", type=int, default=6, help="이번에 추가할 최대 편수")
     p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--classics", action="store_true",
+                   help="works/classics.txt 의 퍼블릭 도메인 고전을 각색형으로 넣는다")
     a = p.parse_args()
+
+    if a.classics:
+        rows = add_classics(a.max_add, a.dry_run)
+        if not a.dry_run:
+            for path, text, _ in rows:
+                path.write_text(text + "\n", encoding="utf-8")
+            if rows:
+                with QUEUE.open("a", encoding="utf-8") as f:
+                    for _, _, row in rows:
+                        f.write(row + "\n")
+        print(f"\n고전 적재 {len(rows)}건" + (" [dry-run]" if a.dry_run else ""))
+        return
 
     have = existing_ids()
     added, rows = 0, []
@@ -102,11 +153,17 @@ def main():
         if len(text) < 220:  # 소개문·백과 둘 다 빈약하면 환각 위험이 크다
             print(f"– {b['rank']:>2} {b['title'][:18]:20} 건너뜀: 자료 부족({len(text)}자)")
             continue
+        w = world_material(text)
+        if w < WORLD_MIN_MODERN:
+            print(f"– {b['rank']:>2} {b['title'][:18]:20} 건너뜀: 세계 단서 {w}개 "
+                  f"(하한 {WORLD_MIN_MODERN}) — 책 소개만 있는 자료")
+            continue
         rows.append((BASE / "facts" / f"auto_{wid}.txt", text,
-                     "\t".join([wid, f"facts/auto_{wid}.txt", ENDING_KEI, STYLE_MODERN])))
+                     "\t".join([wid, f"facts/auto_{wid}.txt", ENDING_KEI, STYLE_MODERN, "생동"])))
         have.add(wid)
         added += 1
-        print(f"+ {b['rank']:>2} {b['title'][:18]:20} → {wid} ({hold['holding']}, {len(text)}자)")
+        print(f"+ {b['rank']:>2} {b['title'][:18]:20} → {wid} "
+              f"({hold['holding']}, {len(text)}자, 세계 {w})")
 
     if a.dry_run:
         print(f"\n[dry-run] {len(rows)}건 추가 예정 — 파일은 쓰지 않았다")

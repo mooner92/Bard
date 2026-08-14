@@ -66,7 +66,10 @@ finish() {
   printf '%s\t%s\tproduced=%s\tfailed=%s\tqueue=%s\n' \
     "$(date +%F)" "$1" "$produced" "$failed" "$left" >> "$LOGDIR/summary.tsv"
 }
-trap 'finish 정지신호; exit 0' TERM INT
+# 정지 신호를 받으면 자식(gen_keyframe/gen_i2v)까지 함께 내린다.
+# 부모만 죽이면 자식이 flock 을 물고 남아 다음 기동이 "이미 실행 중"으로 죽는다(실측).
+cleanup() { pkill -P $$ 2>/dev/null; finish "$1"; }
+trap 'cleanup 정지신호; exit 0' TERM INT
 
 say "=== 야간 배치 v2 시작 (큐 $(grep -cvE '^[[:space:]]*(#|$)' "$Q") 건) ==="
 
