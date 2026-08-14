@@ -426,11 +426,14 @@ def main():
     p.add_argument("--treatment", default="",
                    help="scripts/treatment.py 가 만든 이야기 줄기 JSON. "
                         "있으면 문장 하나가 박자 하나를 맡는다")
-    p.add_argument("--minlen", type=int, default=22)
-    p.add_argument("--maxlen", type=int, default=42)
+    # 0 은 "지정 안 함" — 이때만 사실파일의 [길이] 줄을 쓴다. 두 곳이 서로
+    # 우선권을 다투면 되먹임 조정이 먹히지 않는다(실측: 루프가 46자를 요구해도
+    # 사실파일의 38자가 이겨 길이가 44.7→47.9→42.2 로 진동했다).
+    p.add_argument("--minlen", type=int, default=0)
+    p.add_argument("--maxlen", type=int, default=0)
     a = p.parse_args()
     global LEN_MIN, LEN_MAX
-    LEN_MIN, LEN_MAX = a.minlen, a.maxlen
+    LEN_MIN, LEN_MAX = (a.minlen or 22), (a.maxlen or 42)
     persons = [x for x in a.persons.split(",") if x]
     facts = open(a.facts, encoding="utf-8").read()
     banned = [b for b in a.banned.split(",") if b]
@@ -456,8 +459,10 @@ def main():
     keep_star = " 문장에 붙어 있는 * 기호는 지우지 말고 그대로 두어라." if a.emphasis else ""
     # 같은 이유로 길이·톤도 사실파일이 덮어쓸 수 있게 한다. 배치가 도는 중에는
     # night_batch.sh 를 수정할 수 없다(bash 가 스크립트를 이어 읽는다).
-    if m := re.search(r"\[길이\]\s*(\d+)\s*[-~]\s*(\d+)", facts):
-        LEN_MIN, LEN_MAX = int(m.group(1)), int(m.group(2))
+    # 사실파일의 [길이] 는 CLI 로 지정하지 않았을 때만 쓰는 기본값이다.
+    if not (a.minlen and a.maxlen):
+        if m := re.search(r"\[길이\]\s*(\d+)\s*[-~]\s*(\d+)", facts):
+            LEN_MIN, LEN_MAX = int(m.group(1)), int(m.group(2))
     if m := re.search(r"\[톤\]\s*(\S+)", facts):
         if m.group(1) in TONE_RULES:
             a.tone = m.group(1)
