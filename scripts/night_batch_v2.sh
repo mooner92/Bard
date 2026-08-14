@@ -190,7 +190,9 @@ d = sum(float(subprocess.run(['ffprobe','-v','error','-show_entries','format=dur
 ch = sum(len(x) for x in json.load(open('$NAR'))['sentences'])
 rate = d/ch if ch else 0.2
 t = int(55/rate/8)                      # 55초를 8문장으로 나눈 목표 글자 수
-print(f'{d:.1f} {max(20,t-5)} {min(48,t+5)}')")"
+# 문장 상한은 38자에 묶는다. 그 이상이면 음성이 7.3초를 넘어 클립 프레임 상한(117)
+# 안에서 감속 1.5배를 지킬 수 없다(실측: 48자 문장에서 1.53배). 하한만 올려 총 길이를 맞춘다.
+print(f'{d:.1f} {max(20,min(t-3,34))} 38')")"
     say "  ② TTS $N개 · 낭독 ${total}초"
     ok_len=$(python3 -c "print(1 if 50 <= $total <= 59 else 0)")
     [ "$ok_len" = 1 ] && break
