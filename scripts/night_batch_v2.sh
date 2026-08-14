@@ -86,6 +86,7 @@ while grace_ok; do
   style=$(echo "$line" | cut -f4); [ -z "$style" ] && style="$STYLE_DEFAULT"
   tone=$(echo "$line" | cut -f5); [ -z "$tone" ] && tone="담담"
   NAR="output/$work/narration_night.json"
+  TRE="output/$work/treatment.json"
   # 대본이 있으면 이미 착수한 작품이다 — 시각과 무관하게 마무리한다.
   if [ ! -s "$NAR" ] && ! start_ok; then
     say "08:00 이후 — 새 작품($work)은 시작하지 않는다. 오늘 밤 이어감"
@@ -96,6 +97,15 @@ while grace_ok; do
   mkdir -p "output/$work" "output/${work}_kf" "output/${work}_i2v"
   ok=1
 
+  # ── ①-0 트리트먼트 (이야기 줄기) ──
+  # 이 단계가 없으면 여덟 문장이 서로 무관한 파편이 된다(실측: 방·거리·옥상이 따로 놀았다).
+  if [ ! -s "$TRE" ] && [ -f "$facts" ]; then
+    venv/bin/python scripts/treatment.py --title "$work" --facts "$facts" \
+      --out "$TRE" >>"$LOG" 2>&1 && say "  ①-0 이야기 줄기 준비됨" \
+      || say "  ①-0 트리트먼트 실패 — 줄기 없이 진행"
+  fi
+  TRE_ARG=""; [ -s "$TRE" ] && TRE_ARG="--treatment $TRE"
+
   # ── ① 대본 ──
   if [ -s "$NAR" ] && python3 -c "import json,sys; sys.exit(0 if json.load(open('$NAR'))['sentences'] else 1)" 2>/dev/null; then
     say "  ① 대본 있음 — 건너뜀"
@@ -103,7 +113,7 @@ while grace_ok; do
     say "  ① 사실파일 없음($facts) — 영구 실패"; ok=0
   else
     venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-      --scenes 8 --minlen 30 --maxlen 42 --tone "$tone" --emphasis \
+      --scenes 8 --minlen 30 --maxlen 42 --tone "$tone" --emphasis $TRE_ARG \
       --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
     if [ -s "$NAR" ]; then
       say "  ① 대본 준비됨"   # 검증 미통과여도 진행하고 아침에 사람이 검수한다
@@ -141,7 +151,7 @@ print(re.sub(r'\s+',' ',' '.join(body))[:200])")
     # 그림 프롬프트는 **영어로만** 만든다. 한글을 넣으면 Qwen-Image 가 그 글자를
     # 그림 안에 써 넣는다(실측: 화면 상단에 뭉개진 한글 자막).
     desc=$(venv/bin/python scripts/scene_prompt.py --narration "$NAR" --index "$i" \
-             --context "$ctx" 2>>"$LOG")
+             --context "$ctx" $TRE_ARG 2>>"$LOG")
     venv/bin/python scripts/gen_keyframe.py --seed $((200+i)) \
       --prefix "${work}_kf/night_s${i}" --prompt "${style}${desc}" --negative "$NEG" >>"$LOG" 2>&1 \
       || say "  ③ s${i} 키프레임 실패"

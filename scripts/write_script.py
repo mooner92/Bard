@@ -17,6 +17,7 @@ LLM에게 "다양하게 써라"는 지시만으로는 강제가 안 되므로,
       --ending "소설 모비딕에서 만날 수 있습니다" --out narration.json
 """
 import argparse, json, re, sys, urllib.request
+from pathlib import Path
 
 OLLAMA = "http://127.0.0.1:11434/api/generate"
 MODEL = "qwen3.6:27b"
@@ -376,6 +377,9 @@ def main():
     # 강세 표시(*낱말*)는 tts_render.py 로 합성할 때만 켠다. 별표를 처리하지 않는
     # 합성 경로에 넘기면 문장에 별표가 그대로 남는다.
     p.add_argument("--emphasis", action="store_true", help="강세 낱말을 *별표*로 표시")
+    p.add_argument("--treatment", default="",
+                   help="scripts/treatment.py 가 만든 이야기 줄기 JSON. "
+                        "있으면 문장 하나가 박자 하나를 맡는다")
     p.add_argument("--minlen", type=int, default=22)
     p.add_argument("--maxlen", type=int, default=42)
     a = p.parse_args()
@@ -388,6 +392,21 @@ def main():
     # 저작권이 살아 있는 현대서는 줄거리 각색 금지 (docs/PLAN.md).
     # 사실파일이 스스로 포맷을 선언한다 — 야간 배치 호출부를 건드리지 않기 위해서다.
     intro = "[포맷] 소개형" in facts
+    # 트리트먼트가 있으면 문장이 이야기 줄기를 따라간다. 없으면 예전처럼 자료에서 바로 쓴다
+    # (자료 요약에서 장면만 뽑으면 여덟 문장이 서로 무관한 파편이 됐다 — 실측).
+    beat_block = ""
+    if a.treatment and Path(a.treatment).exists():
+        t = json.loads(Path(a.treatment).read_text(encoding="utf-8"))
+        lines = "\n".join(f"  {b['n']}) {b['beat']}" for b in t.get("beats", []))
+        beat_block = f"""
+
+[이야기 줄기 — 문장 하나가 박자 하나를 맡는다]
+따라갈 인물: {t.get('protagonist', '')}
+배경: {t.get('setting', '')}
+{lines}
+- 박자 순서를 바꾸지 마라. 문장 번호와 박자 번호가 같다.
+- 처음부터 끝까지 같은 인물을 따라간다. '우리'로 시점을 바꾸지 마라.
+- 다음은 절대 쓰지 마라(결말): {t.get('withheld', '')}"""
     keep_star = " 문장에 붙어 있는 * 기호는 지우지 말고 그대로 두어라." if a.emphasis else ""
     # 같은 이유로 길이·톤도 사실파일이 덮어쓸 수 있게 한다. 배치가 도는 중에는
     # night_batch.sh 를 수정할 수 없다(bash 가 스크립트를 이어 읽는다).
@@ -414,6 +433,8 @@ def main():
 - 각 문장은 장면 하나를 그린다. 요약하지 말고 보여줘라.
 - 마지막 {n}번 문장은 반드시 "{a.ending}"로 끝난다.
 - 금지어: {', '.join(banned)}
+
+{beat_block}
 
 {INTRO_RULES if intro else NARRATIVE_RULES}
 

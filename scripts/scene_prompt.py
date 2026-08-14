@@ -35,6 +35,22 @@ def ask(prompt: str, temperature: float = 0.4) -> str:
     return re.sub(r"<think>.*?</think>", "", t, flags=re.S).strip()
 
 
+def from_treatment(tre: dict, index: int) -> str:
+    """트리트먼트가 있으면 그 박자의 영어 묘사를 쓴다.
+
+    장면마다 모델에게 새로 묘사를 시키면 인물 생김새와 빛이 매번 달라진다(실측:
+    다락방·잠든 남자·책 읽는 노인). 앵커와 팔레트를 모든 장면에 그대로 붙여 고정한다.
+    """
+    beats = tre.get("beats") or []
+    if not 1 <= index <= len(beats):
+        return ""
+    shot = (beats[index - 1].get("visual") or "").strip()
+    if not shot or HANGUL.search(shot):
+        return ""
+    parts = [shot, (tre.get("anchor") or "").strip(), (tre.get("palette") or "").strip()]
+    return ", ".join(x.rstrip(".") for x in parts if x)[:400]
+
+
 def to_scene(sentence: str, context: str = "") -> str:
     """문장에서 그릴 수 있는 것만 영어로 뽑는다. 실패하면 빈 문자열."""
     s = sentence.replace("*", "").strip()
@@ -63,11 +79,16 @@ def main():
     p.add_argument("--narration", required=True)
     p.add_argument("--index", type=int, required=True, help="1부터")
     p.add_argument("--context", default="", help="작품 세계 한 줄 (선택)")
+    p.add_argument("--treatment", default="", help="이야기 줄기 JSON (있으면 우선)")
     a = p.parse_args()
     sents = json.loads(Path(a.narration).read_text(encoding="utf-8"))["sentences"]
     if not 1 <= a.index <= len(sents):
         sys.exit(f"index 범위 초과: {a.index}")
-    scene = to_scene(sents[a.index - 1], a.context)
+    scene = ""
+    if a.treatment and Path(a.treatment).exists():
+        scene = from_treatment(json.loads(Path(a.treatment).read_text(encoding="utf-8")), a.index)
+    if not scene:
+        scene = to_scene(sents[a.index - 1], a.context)
     if not scene:
         # 실패해도 배치를 멈추지 않는다. 한글 없는 최소 프롬프트로 대체한다.
         print("  ! 장면 묘사 실패 — 기본 프롬프트 사용", file=sys.stderr)
