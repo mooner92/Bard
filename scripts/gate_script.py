@@ -38,11 +38,18 @@ def spoiler_words(work_dir: Path) -> set:
     if not f.exists():
         return set()
     try:
-        w = json.loads(f.read_text(encoding="utf-8")).get("withheld", "")
+        t = json.loads(f.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return set()
+    w = t.get("withheld", "")
     stop = {"결말", "사실", "이야기", "장면", "인물", "작품", "내용", "부분"}
-    return {x for x in re.findall(r"[가-힣]{2,}", w) if x not in stop}
+    # 박자에 이미 나온 낱말은 감춰야 할 것이 아니다. 이걸 빼지 않으면 "그가",
+    # "그림을" 같은 흔한 말이 스포일러로 잡혀 멀쩡한 대본이 반려된다(실측:
+    # 폭풍의 언덕이 "그가, 돌아온" 두 낱말로 불합격했다).
+    shown = set()
+    for b in t.get("beats", []):
+        shown |= set(re.findall(r"[가-힣]{2,}", b.get("beat", "")))
+    return {x for x in re.findall(r"[가-힣]{2,}", w) if x not in stop and x not in shown}
 
 
 def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:

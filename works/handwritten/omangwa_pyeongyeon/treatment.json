@@ -1,0 +1,59 @@
+{
+ "logline": "한 번 내린 판단이 옳았다고 믿는 젊은 여자가, 그 판단을 뒤집을 자리로 걸어 들어간다.",
+ "destination": "낯선 대저택의 정문 — 다시는 볼 일 없다고 여겼던 사람의 집",
+ "protagonist": "말이 빠르고 눈이 밝은 시골 지주의 둘째 딸",
+ "setting": "19세기 초 영국 시골, 무도회장과 정원과 대저택",
+ "anchor": "a slim young woman in a high-waisted pale muslin gown, dark curls pinned up, Regency English countryside",
+ "palette": "candlelit warm amber indoors, cool green daylight outdoors, soft chalky tones",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "시골 무도회장 벽 쪽에 젊은 여자가 홀로 선다.",
+   "visual": "a young woman standing at the edge of a crowded country assembly room, dancers blurred behind her",
+   "motion": "couples sweep past in the background, her fan opens, candle flames bend"
+  },
+  {
+   "n": 2,
+   "beat": "낯선 신사가 그녀를 흘깃 보고 그대로 지나친다.",
+   "visual": "a tall man in a dark tailcoat turning away from a young woman, his shoulder passing close to hers",
+   "motion": "he turns on his heel, her chin lifts, the crowd shifts between them"
+  },
+  {
+   "n": 3,
+   "beat": "그녀는 들은 말을 곱씹으며 정원 길을 걷는다.",
+   "visual": "a young woman walking a gravel garden path alone, hedgerows tall on both sides, morning mist low",
+   "motion": "gravel crunches under her step, mist drifts across the hedge, her skirt sways"
+  },
+  {
+   "n": 4,
+   "beat": "비 오는 응접실에서 그 신사가 갑자기 말을 꺼낸다.",
+   "visual": "a man standing rigid in a small parlour facing a seated young woman, rain running down tall windows",
+   "motion": "rain streams down the glass, his hand clenches, she rises from the chair"
+  },
+  {
+   "n": 5,
+   "beat": "그녀는 대답 대신 문을 닫아 버린다.",
+   "visual": "a young woman closing a heavy panelled door from inside, her back against it, empty hall beyond",
+   "motion": "the door swings shut, her shoulders drop, a curtain lifts in the draught"
+  },
+  {
+   "n": 6,
+   "beat": "이튿날 아침 문틈으로 무언가가 밀려 들어온다.",
+   "visual": "a folded paper pushed under a door onto a wooden floor, a woman's slippered feet approaching",
+   "motion": "the paper slides across the boards, her feet stop, dust motes turn in the light"
+  },
+  {
+   "n": 7,
+   "beat": "여름, 그녀는 낯선 저택의 정문을 지난다.",
+   "visual": "a young woman walking under a great stone gateway toward a vast country house across a lake",
+   "motion": "she walks forward, water ripples on the lake, leaves stir over the gate"
+  },
+  {
+   "n": 8,
+   "beat": "그 집 주인과 마주친다면 그녀는 무슨 말을 할까?",
+   "visual": "a young woman halted on a wide lawn, a man's figure appearing at the far corner of the great house",
+   "motion": "she stops mid-step, his figure emerges, long grass bends in the wind"
+  }
+ ],
+ "withheld": "두 사람이 오해를 풀고 맺어지는 결말과 그 사이 동생이 일으키는 소동"
+}

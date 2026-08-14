@@ -1,0 +1,59 @@
+{
+ "logline": "극장 어딘가에서 노랫소리를 듣던 젊은 가수가, 거울 뒤로 이어진 계단을 내려간다.",
+ "destination": "극장 지하의 검은 호수 — 목소리의 주인이 사는 자리",
+ "protagonist": "합창단에서 갑자기 주역이 된 젊은 소프라노",
+ "setting": "1880년대 파리 오페라 극장, 무대와 분장실과 지하",
+ "anchor": "a slight young soprano in a pale stage gown with loose chestnut hair, gilded Paris opera house",
+ "palette": "gilt gold and crimson velvet, candle flame, black water, deep stage shadow",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "젊은 가수가 극장 지붕 위로 올라온다.",
+   "visual": "a young soprano stepping onto a vast opera house roof among bronze statues, city rooftops beyond",
+   "motion": "wind lifts her gown, cloud shadow crosses the bronze, her hair whips back"
+  },
+  {
+   "n": 2,
+   "beat": "분장실 거울 뒤에서 노랫소리가 들려온다.",
+   "visual": "a young soprano turning toward a tall dressing room mirror, candles doubled in its surface",
+   "motion": "candle flames double and waver in the glass, she turns, a comb slips off the table"
+  },
+  {
+   "n": 3,
+   "beat": "무대 위 거대한 샹들리에가 크게 흔들린다.",
+   "visual": "an enormous crystal chandelier swaying above a packed auditorium, faces turning up toward it",
+   "motion": "the chandelier swings wide, crystals chime, hundreds of heads tilt back"
+  },
+  {
+   "n": 4,
+   "beat": "오번 특별석은 늘 비워 두라는 지시가 온다.",
+   "visual": "an empty velvet box seat in a full opera house, red curtain half drawn across it",
+   "motion": "the box curtain stirs, the audience settles below, gaslight steadies"
+  },
+  {
+   "n": 5,
+   "beat": "거울이 문처럼 열리고 어둠이 드러난다.",
+   "visual": "a tall mirror swung inward like a door revealing a black stone passage, a young soprano before it",
+   "motion": "the mirror swings inward, cold air pushes her gown, candle flames bend"
+  },
+  {
+   "n": 6,
+   "beat": "그녀는 촛불을 든 형체를 따라 계단을 내려간다.",
+   "visual": "a masked figure in black holding a candle leading a young woman down a spiral stone stair",
+   "motion": "the candle descends ahead of her, shadows wheel on the wall, her hem drags"
+  },
+  {
+   "n": 7,
+   "beat": "지하 호수 위로 작은 배 하나가 미끄러진다.",
+   "visual": "a small boat crossing a still black underground lake lit by scattered candles on stone ledges",
+   "motion": "the boat glides forward, ripples spread wide, candle reflections break apart"
+  },
+  {
+   "n": 8,
+   "beat": "그 가면 아래에는 무엇이 있을까?",
+   "visual": "a white half mask turned toward a young woman across a candlelit underground chamber",
+   "motion": "her hand rises toward the mask, candles gutter together, water laps stone"
+  }
+ ],
+ "withheld": "가면 아래의 얼굴과, 그가 그녀를 놓아주며 맞는 결말"
+}

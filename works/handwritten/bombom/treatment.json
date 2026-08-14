@@ -1,0 +1,59 @@
+{
+ "logline": "혼인을 약속받고 삼 년째 일하는 젊은 머슴이, 올해도 같은 대답을 듣고 무엇을 하기로 하는가.",
+ "destination": "마당의 말뚝 — 키를 재는 자리이자 약속이 미뤄지는 자리",
+ "protagonist": "장인 집에서 새경 없이 일하는 스무 살 머슴",
+ "setting": "1930년대 강원도 산골 마을, 논둑과 초가 마당",
+ "anchor": "a stocky young farmhand in patched hemp trousers and straw sandals, cropped hair, Korean mountain village",
+ "palette": "spring midday sun, warm straw yellow, wet paddy green, soft dust haze",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "새벽 마당에서 젊은 머슴이 지게를 지고 나선다.",
+   "visual": "a young farmhand shouldering a wooden A-frame carrier in a thatched courtyard at first light",
+   "motion": "he heaves the frame onto his back, chickens scatter, straw dust lifts"
+  },
+  {
+   "n": 2,
+   "beat": "논둑에 선 장인이 담뱃대를 물고 그를 본다.",
+   "visual": "an older man with a long bamboo pipe standing on a paddy bank, a young farmhand working below him",
+   "motion": "pipe smoke curls sideways, rice shoots ripple, the young man bends lower"
+  },
+  {
+   "n": 3,
+   "beat": "그는 혼인 이야기를 꺼내려다 그대로 삼킨다.",
+   "visual": "a young farmhand standing mid-field with his mouth half open, hands hanging, older man walking away",
+   "motion": "his jaw closes, the older man's back recedes, heat shimmers over the paddy"
+  },
+  {
+   "n": 4,
+   "beat": "점순이가 밥그릇을 놓고 홱 돌아서 버린다.",
+   "visual": "a girl setting a brass rice bowl on a low wooden floor and spinning away, braid swinging",
+   "motion": "her braid whips around, the bowl rocks once, her skirt flares"
+  },
+  {
+   "n": 5,
+   "beat": "밤마다 그는 마당 말뚝에 그녀의 키를 맞춰 본다.",
+   "visual": "a young farmhand crouching by a wooden stake in a moonlit yard, hand flat at its notched top",
+   "motion": "his palm slides along the stake, moon shadow shifts, moths cross the light"
+  },
+  {
+   "n": 6,
+   "beat": "장인은 올해도 키가 작다며 고개를 젓는다.",
+   "visual": "an older man shaking his head beside a wooden stake, a young farmhand standing rigid behind him",
+   "motion": "the head turns side to side, the young man's fists tighten, dust settles"
+  },
+  {
+   "n": 7,
+   "beat": "점순이가 그를 흘겨보며 무어라 쏘아붙인다.",
+   "visual": "a girl glaring over her shoulder at a young farmhand across a sunlit yard, laundry lines between them",
+   "motion": "laundry snaps in the wind, her head turns sharply, he steps back"
+  },
+  {
+   "n": 8,
+   "beat": "그는 내일 아침 장인 앞에 설 수 있을까?",
+   "visual": "a young farmhand sitting alone on a doorsill at dusk, the older man's silhouette in the lit room behind",
+   "motion": "lamplight brightens behind him, his knee bounces, evening insects streak past"
+  }
+ ],
+ "withheld": "이듬해 봄까지도 성례가 미뤄지고 장인과 한바탕 붙게 되는 결말"
+}

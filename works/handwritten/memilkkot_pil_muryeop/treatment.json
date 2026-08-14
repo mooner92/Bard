@@ -1,0 +1,59 @@
+{
+ "logline": "평생 장을 돌아온 늙은 장돌뱅이가 달밤 산길에서 젊은 동행에게 옛일을 꺼낸다.",
+ "destination": "밤 개울 — 그가 젊은이의 등에 업히게 되는 자리",
+ "protagonist": "왼쪽 눈이 어두운 늙은 장돌뱅이",
+ "setting": "1930년대 강원도 봉평 장터와 대화 가는 밤 산길",
+ "anchor": "an elderly peddler with a wispy beard in worn hemp jacket leading a small pack donkey, Korean mountain road",
+ "palette": "full-moon silver, buckwheat white, deep night blue, warm lantern speck",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "장이 파하자 두 장돌뱅이가 짐을 꾸린다.",
+   "visual": "two peddlers tying bundles onto a small donkey in an emptying market at dusk, stalls folding behind",
+   "motion": "rope is pulled tight, the donkey shifts weight, stall cloth flaps down"
+  },
+  {
+   "n": 2,
+   "beat": "늙은 장돌뱅이가 젊은 동행과 밤길에 오른다.",
+   "visual": "an elderly peddler and a young man walking a narrow mountain path at night, donkey between them",
+   "motion": "the donkey's hooves find the path, lantern light bobs, their breath clouds"
+  },
+  {
+   "n": 3,
+   "beat": "달빛에 메밀밭이 소금을 뿌린 듯 희다.",
+   "visual": "a vast buckwheat field in full white bloom under a huge moon, a thin path cutting through it",
+   "motion": "the whole field ripples in one slow wave, petals lift, the moon holds still"
+  },
+  {
+   "n": 4,
+   "beat": "그는 젊은 시절 물방앗간 이야기를 꺼낸다.",
+   "visual": "an elderly peddler talking as he walks, an old timber water mill glimpsed far below the path",
+   "motion": "his hand gestures as he speaks, the mill wheel turns far below, grass sways"
+  },
+  {
+   "n": 5,
+   "beat": "젊은이가 제 어머니 이야기를 꺼내 놓는다.",
+   "visual": "a young peddler walking with his head down, the elderly man turning to look at him, moonlit path",
+   "motion": "the old man's head turns sharply, the young man keeps walking, dust rises"
+  },
+  {
+   "n": 6,
+   "beat": "개울을 건너던 늙은이가 물에 빠진다.",
+   "visual": "an elderly peddler stumbling into a shallow moonlit stream, water splashing up around his knees",
+   "motion": "water bursts upward, he pitches sideways, the donkey rears back"
+  },
+  {
+   "n": 7,
+   "beat": "젊은이가 그를 업고 개울을 건넌다.",
+   "visual": "a young man carrying an elderly peddler on his back across a shallow stream, water at his shins",
+   "motion": "water ripples around his legs, the old man's arms tighten, the stream glitters"
+  },
+  {
+   "n": 8,
+   "beat": "그가 젊은이의 왼손을 본다면 무엇을 알게 될까?",
+   "visual": "a young man's left hand gripping a rein in moonlight, an elderly face turned toward it behind",
+   "motion": "the rein shifts in the left hand, the old man's eyes widen, moonlight steadies"
+  }
+ ],
+ "withheld": "젊은이가 그날 밤 이야기 속 여인의 아들일 수 있다는 것"
+}

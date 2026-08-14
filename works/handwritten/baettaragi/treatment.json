@@ -1,0 +1,59 @@
+{
+ "logline": "아우와 아내를 함께 아끼던 뱃사람이, 어느 날 닫힌 방문 앞에 선다.",
+ "destination": "닫힌 안방 문 — 그가 열게 되는 자리",
+ "protagonist": "영유 바닷가에서 배를 부리는 서른 살 사내",
+ "setting": "20세기 초 평안도 바닷가 어촌, 배와 초가와 장터",
+ "anchor": "a weathered fisherman in coarse hemp jacket and headband, thick shoulders, Korean coastal village",
+ "palette": "sea grey-green, salt-bleached wood, low amber lamplight, cold sky",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "뱃사람이 아우와 함께 그물을 걷어 올린다.",
+   "visual": "two men hauling a dripping net over the side of a wooden boat, open grey sea around them",
+   "motion": "the net rises streaming water, the boat rocks, gulls cut across"
+  },
+  {
+   "n": 2,
+   "beat": "아내가 아우에게 웃으며 밥상을 내온다.",
+   "visual": "a woman setting a low meal table before a younger man in a thatched room, older man in the doorway",
+   "motion": "steam lifts off the bowls, she laughs, the doorway figure goes still"
+  },
+  {
+   "n": 3,
+   "beat": "그는 두 사람의 웃음소리에 노를 멈춘다.",
+   "visual": "a fisherman motionless at the oars of a moored boat, head turned toward a lit house on the shore",
+   "motion": "the oar drips, water laps the hull, his head stays turned"
+  },
+  {
+   "n": 4,
+   "beat": "장터에서 그는 아내에게 줄 거울을 산다.",
+   "visual": "a fisherman holding a small round hand mirror at a crowded market stall, coins in his other palm",
+   "motion": "the mirror catches light and flashes, the crowd jostles, his thumb rubs the rim"
+  },
+  {
+   "n": 5,
+   "beat": "집에 돌아오니 안방 문이 닫혀 있다.",
+   "visual": "a fisherman standing in a courtyard facing a closed paper door with lamplight behind it",
+   "motion": "lamplight flickers behind the paper, his hand rises, wind stirs the yard"
+  },
+  {
+   "n": 6,
+   "beat": "문을 열자 두 사람이 옷매무새를 고친다.",
+   "visual": "a woman and a younger man straightening their clothes inside a small room, a man frozen in the doorway",
+   "motion": "their hands move quickly to their collars, the door swings wide, lamp gutters"
+  },
+  {
+   "n": 7,
+   "beat": "그 순간 궤짝 밑에서 쥐 한 마리가 튀어나온다.",
+   "visual": "a rat darting out from under a wooden chest across a floor, three pairs of feet in the room",
+   "motion": "the rat streaks across the floor, feet shift back, dust rises"
+  },
+  {
+   "n": 8,
+   "beat": "그가 본 것은 정말 그가 생각한 것일까?",
+   "visual": "a fisherman standing alone on a night shore looking back at a small lit house, boat dark beside him",
+   "motion": "waves push at the hull, his fists open and close, the house light dims"
+  }
+ ],
+ "withheld": "그가 아내와 아우를 내쫓은 뒤 아내가 돌아오지 못하게 되는 결말"
+}

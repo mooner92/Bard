@@ -1,0 +1,59 @@
+{
+ "logline": "기숙사의 모든 편지를 막아 온 사감의 방에서, 밤마다 두 사람 목소리가 새어 나온다.",
+ "destination": "사감 방문 — 학생들이 끝내 열어 보는 자리",
+ "protagonist": "여학교 기숙사를 홀로 다스리는 마흔 살 사감",
+ "setting": "1920년대 경성 여학교 기숙사, 긴 복도와 잠긴 방",
+ "anchor": "a gaunt middle-aged woman in a black skirt and white blouse, hair pulled tight, 1920s dormitory corridor",
+ "palette": "dim corridor amber, cold white plaster, deep doorway shadow, thin moonlight",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "사감이 복도를 돌며 문을 하나씩 확인한다.",
+   "visual": "a severe middle-aged woman walking a long dormitory corridor testing door handles one by one",
+   "motion": "her hand turns each handle, her heels click, the corridor lamp sways"
+  },
+  {
+   "n": 2,
+   "beat": "그녀는 학생 손에서 무언가를 빼앗아 서랍에 넣는다.",
+   "visual": "a woman's hand dropping a folded pink slip into a desk drawer, a girl standing rigid nearby",
+   "motion": "the drawer slides shut, the girl's head drops, the key turns"
+  },
+  {
+   "n": 3,
+   "beat": "밤이면 그 방에서 두 사람 목소리가 난다.",
+   "visual": "a closed door at the end of a dark corridor with warm light leaking under it, empty hallway",
+   "motion": "the light under the door flickers, dust turns in the beam, the corridor stays still"
+  },
+  {
+   "n": 4,
+   "beat": "학생 셋이 발소리를 죽이고 복도를 지난다.",
+   "visual": "three girls in white nightclothes creeping barefoot along a dark corridor toward a lit door",
+   "motion": "bare feet lift and settle, one girl grabs another's sleeve, shadows stretch"
+  },
+  {
+   "n": 5,
+   "beat": "문틈으로 새어 나오는 불빛이 흔들린다.",
+   "visual": "a thin band of lamplight under a wooden door wavering, three pairs of bare feet stopped before it",
+   "motion": "the band of light wavers and narrows, feet shuffle back, a floorboard bends"
+  },
+  {
+   "n": 6,
+   "beat": "안에서 웃음소리와 속삭임이 번갈아 난다.",
+   "visual": "three girls pressing their ears against a closed door, eyes wide, corridor dark behind them",
+   "motion": "their heads press closer, one clamps a hand over her mouth, the lamp dims"
+  },
+  {
+   "n": 7,
+   "beat": "세 사람이 서로를 보다 문고리를 잡는다.",
+   "visual": "a girl's hand closing on a brass door handle, two other girls frozen behind her shoulder",
+   "motion": "her fingers tighten on the handle, the others lean in, light widens at the seam"
+  },
+  {
+   "n": 8,
+   "beat": "그 문이 열리면 무엇이 보일까?",
+   "visual": "a door standing ajar with warm lamplight spilling into a dark corridor, three girls silhouetted",
+   "motion": "the door swings inward, light floods the corridor, their shadows leap back"
+  }
+ ],
+ "withheld": "그 방에 혼자 있었다는 것과, 빼앗은 편지로 벌이던 연인 놀이"
+}

@@ -1,0 +1,59 @@
+{
+ "logline": "매주 수백 명을 불러 모으는 남자가, 정작 밤마다 혼자 잔디밭 끝에 서 있다.",
+ "destination": "만 건너편의 초록 불빛 — 그가 밤마다 손을 뻗는 자리",
+ "protagonist": "이름을 바꾸고 대저택을 산 삼십 대 남자",
+ "setting": "1922년 여름 롱아일랜드의 대저택과 만 건너 부두",
+ "anchor": "a trim man in a pale summer suit and slicked dark hair standing on a wide lawn, 1920s Long Island mansion",
+ "palette": "night indigo, single green point of light, champagne gold, hazy summer heat",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "밤마다 한 남자가 잔디밭 끝에 홀로 선다.",
+   "visual": "a man in a pale suit standing alone at the edge of a vast dark lawn facing black water",
+   "motion": "his coat tail lifts in the breeze, water glints, crickets shake the grass"
+  },
+  {
+   "n": 2,
+   "beat": "그는 만 건너 작은 초록 불빛으로 손을 뻗는다.",
+   "visual": "a man reaching one arm toward a tiny green light far across dark water, dock silhouetted beyond",
+   "motion": "his arm extends and holds, the green light pulses once, waves shift below"
+  },
+  {
+   "n": 3,
+   "beat": "주말이면 그 집에 수백 명이 몰려든다.",
+   "visual": "a huge lit mansion terrace packed with dancing guests, a band on the steps, cars along the drive",
+   "motion": "dancers spin across the terrace, lanterns swing, headlights sweep the drive"
+  },
+  {
+   "n": 4,
+   "beat": "정작 그는 사람들 틈에 섞이지 않는다.",
+   "visual": "a man in a pale suit standing apart on a marble stair above a crowded party, glass untouched",
+   "motion": "the crowd surges below him, his glass stays level, light flickers over his face"
+  },
+  {
+   "n": 5,
+   "beat": "오후의 응접실에서 그가 시계를 넘어뜨린다.",
+   "visual": "a mantel clock tipping at the edge of a shelf, a man's hands snatching at it, tea table beyond",
+   "motion": "the clock topples and is caught, his hands fumble, rain streaks the window"
+  },
+  {
+   "n": 6,
+   "beat": "그녀가 그의 셔츠 더미에 얼굴을 묻는다.",
+   "visual": "a woman bending over a heap of soft coloured shirts on a bed, a man watching from the wardrobe",
+   "motion": "shirts tumble down in waves, she sinks into them, curtains billow"
+  },
+  {
+   "n": 7,
+   "beat": "여름 끝, 호텔 방에서 목소리가 높아진다.",
+   "visual": "three figures standing apart in a stifling hotel suite, fan turning, city heat outside the window",
+   "motion": "the ceiling fan turns hard, a curtain snaps, one figure steps forward"
+  },
+  {
+   "n": 8,
+   "beat": "그 초록 불빛은 그에게 무엇을 약속했을까?",
+   "visual": "a small green dock light burning across empty black water at dawn, lawn deserted in the foreground",
+   "motion": "the green light dims as dawn spreads, mist crosses the water, grass stills"
+  }
+ ],
+ "withheld": "그가 뒤집어쓴 누명과 수영장에서 맞는 최후, 장례식에 아무도 오지 않는 결말"
+}

@@ -1,0 +1,59 @@
+{
+ "logline": "생명의 경계를 넘어 보려는 젊은 학생이, 밤새 붙들고 있던 것이 눈을 뜨자 방을 뛰쳐나간다.",
+ "destination": "다락 실험대 — 그가 다시 돌아와 확인해야 하는 자리",
+ "protagonist": "잉골슈타트에서 홀로 연구하는 스무 살 학생",
+ "setting": "18세기 말 독일 대학 도시의 다락 실험실과 묘지",
+ "anchor": "a hollow-eyed young student in a stained linen shirt and dark waistcoat, unkempt hair, candlelit attic laboratory",
+ "palette": "sickly candle yellow, storm-lightning white, deep bottle green, cold stone grey",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "젊은 학생이 밤마다 다락 등불을 켠다.",
+   "visual": "a young student lighting an oil lamp in a cluttered attic laboratory of glass jars and copper coils",
+   "motion": "the wick catches and flares, glass jars glint, shadows swing across the beams"
+  },
+  {
+   "n": 2,
+   "beat": "그는 묘지와 도살장을 돌며 재료를 모은다.",
+   "visual": "a young student with a covered basket walking between leaning gravestones under a low moon",
+   "motion": "his lantern swings low, fog rolls between stones, the basket cloth lifts"
+  },
+  {
+   "n": 3,
+   "beat": "다락 실험대 위에 거대한 형체가 눕혀진다.",
+   "visual": "a very tall covered figure laid out on a long workbench, copper wires running to jars around it",
+   "motion": "the sheet settles over the shape, wires hum, lamplight crawls along the bench"
+  },
+  {
+   "n": 4,
+   "beat": "폭풍우 치는 밤 그가 마지막 손잡이를 당긴다.",
+   "visual": "a young student pulling a brass lever as lightning fills an attic window, apparatus sparking",
+   "motion": "lightning floods the window, sparks leap along the coils, his hair lifts"
+  },
+  {
+   "n": 5,
+   "beat": "형체의 손가락이 처음으로 꿈틀거린다.",
+   "visual": "a very large hand on a workbench with fingers beginning to curl, sheet slipping from the wrist",
+   "motion": "the fingers curl one by one, the sheet slides off, lamplight shivers"
+  },
+  {
+   "n": 6,
+   "beat": "그는 그것을 보고 방을 뛰쳐나간다.",
+   "visual": "a young student bolting through an attic doorway, overturned stool behind him, bench in deep shadow",
+   "motion": "the stool topples, his coat flies back, the door bangs against the wall"
+  },
+  {
+   "n": 7,
+   "beat": "날이 밝아 돌아오니 실험대가 비어 있다.",
+   "visual": "an empty workbench with a crumpled sheet in morning light, attic window standing wide open",
+   "motion": "the open window swings, the sheet lifts at one corner, dust turns in daylight"
+  },
+  {
+   "n": 8,
+   "beat": "그것이 그를 다시 찾아온다면 무엇을 요구할까?",
+   "visual": "a huge shadow stretching across a snowy mountain slope toward a small distant figure below",
+   "motion": "the shadow lengthens across the snow, wind scours the ridge, the figure turns"
+  }
+ ],
+ "withheld": "피조물이 그의 가족을 하나씩 앗아 가고 두 사람이 북극까지 쫓고 쫓기는 결말"
+}

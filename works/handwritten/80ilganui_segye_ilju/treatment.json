@@ -1,0 +1,59 @@
+{
+ "logline": "시계처럼 사는 신사가 클럽에서 내기 하나를 걸고, 그날 저녁 짐도 없이 기차에 오른다.",
+ "destination": "런던 클럽의 문 — 여든 날째 저녁 그가 돌아와야 하는 자리",
+ "protagonist": "하루 일과를 분 단위로 지키는 런던 신사",
+ "setting": "1872년 런던 클럽과 인도·중국·태평양을 잇는 기차와 배",
+ "anchor": "a composed gentleman in a grey frock coat with trimmed side whiskers holding a pocket watch, Victorian travel",
+ "palette": "London soot grey, brass and steam white, tropical green, lamp gold",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "신사가 클럽 난롯가에서 회중시계를 연다.",
+   "visual": "a gentleman opening a pocket watch beside a club fireplace, other members in deep leather chairs",
+   "motion": "the watch lid springs open, firelight jumps, a newspaper lowers across the room"
+  },
+  {
+   "n": 2,
+   "beat": "그는 여든 날이면 충분하다고 잘라 말한다.",
+   "visual": "a gentleman standing at a card table facing seated men, one hand flat on the green baize",
+   "motion": "his palm presses the baize, chairs push back, cigar smoke swirls up"
+  },
+  {
+   "n": 3,
+   "beat": "그날 저녁 그가 짐도 없이 기차에 오른다.",
+   "visual": "a gentleman stepping onto a station platform into a steam-wreathed carriage, no luggage in hand",
+   "motion": "steam billows across the platform, the carriage door swings, a whistle blast shakes the air"
+  },
+  {
+   "n": 4,
+   "beat": "인도의 철길이 밀림 한가운데서 끊겨 있다.",
+   "visual": "a railway line ending abruptly in dense jungle, passengers standing on the last sleepers",
+   "motion": "vines sway over the broken line, passengers mill about, birds burst from the canopy"
+  },
+  {
+   "n": 5,
+   "beat": "그는 코끼리를 사서 밀림을 가로지른다.",
+   "visual": "an elephant carrying two men through thick jungle at dawn, mist between enormous trees",
+   "motion": "the elephant strides forward, branches sweep past, mist parts around it"
+  },
+  {
+   "n": 6,
+   "beat": "홍콩 부두에서 배가 이미 떠나 버린다.",
+   "visual": "a steamer pulling away from a crowded Hong Kong quay, a gentleman halted at the water's edge",
+   "motion": "the steamer slides out, hawsers splash into the water, crowds surge behind him"
+  },
+  {
+   "n": 7,
+   "beat": "태평양 위에서 그가 배의 목재를 태운다.",
+   "visual": "crewmen feeding cabin timbers into a ship's furnace, a gentleman watching the flames",
+   "motion": "timbers are shoved into the fire, sparks rush up the stack, the deck shudders"
+  },
+  {
+   "n": 8,
+   "beat": "그가 클럽 문을 여든 날째에 열 수 있을까?",
+   "visual": "a gentleman running up wide stone club steps at dusk, doorway lit above him",
+   "motion": "his feet pound the steps, the door swings ahead, gaslight flares along the street"
+  }
+ ],
+ "withheld": "동쪽으로 돌아 하루를 벌었다는 사실과 그가 내기를 이기는 결말"
+}

@@ -1,0 +1,59 @@
+{
+ "logline": "농장을 스스로 다스리기로 한 짐말이 가장 성실하게 일할수록, 그가 세운 것은 누구의 것이 되어 가는가.",
+ "destination": "농장 본채의 창문 — 그가 끝내 들여다보게 될 자리",
+ "protagonist": "누구보다 힘이 세고 말수가 적은 늙은 짐말",
+ "setting": "20세기 초 영국의 작은 농장, 헛간과 언덕과 본채",
+ "anchor": "a huge broad-chested chestnut cart horse with a white blaze, worn leather harness, English farmyard",
+ "palette": "overcast northern daylight, wet slate grey, straw ochre, cold green fields",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "헛간에 모인 짐승들 사이에서 짐말의 귀가 곧추선다.",
+   "visual": "a cart horse standing among sheep and hens in a lamplit barn, ears pricked toward a raised platform",
+   "motion": "the horse's ears twitch upright, lantern flame wavers, dust drifts through the beam"
+  },
+  {
+   "n": 2,
+   "beat": "사람이 떠난 마당을 짐말이 가로질러 달린다.",
+   "visual": "a cart horse trotting across an empty muddy farmyard at dawn, an open farmhouse door swinging behind",
+   "motion": "the horse trots forward, the door swings on its hinge, mud sprays from hooves"
+  },
+  {
+   "n": 3,
+   "beat": "새벽마다 그는 혼자 나와 밭고랑을 갈아엎는다.",
+   "visual": "a cart horse dragging a plough alone through a wide field before sunrise, breath steaming in cold air",
+   "motion": "breath steams in bursts, the plough cuts forward, furrow soil folds over"
+  },
+  {
+   "n": 4,
+   "beat": "돼지들이 우유통을 헛간 뒤로 옮기는 것을 본다.",
+   "visual": "a cart horse pausing at a fence, pigs pushing a metal milk pail behind a barn wall in background",
+   "motion": "the pail rocks as it is pushed, the horse turns its head to follow"
+  },
+  {
+   "n": 5,
+   "beat": "그는 풍차에 쓸 돌덩이를 언덕 위로 끌어 올린다.",
+   "visual": "a cart horse straining uphill with a stone block on a sledge, half-built stone tower on the ridge",
+   "motion": "muscles bunch and release, the sledge scrapes gravel, rope snaps taut"
+  },
+  {
+   "n": 6,
+   "beat": "겨울 폭풍이 하룻밤 사이 풍차를 무너뜨린다.",
+   "visual": "a collapsed stone tower scattered across a snowy ridge at dawn, a cart horse standing among the rubble",
+   "motion": "snow gusts sideways across the rubble, the horse's mane whips, clouds race"
+  },
+  {
+   "n": 7,
+   "beat": "그는 더 일찍 일어나 무너진 돌을 다시 나른다.",
+   "visual": "a cart horse hauling stones in darkness before dawn, head low, frost whitening his flanks",
+   "motion": "the horse leans into the harness, frost breath billows, stones shift on the sledge"
+  },
+  {
+   "n": 8,
+   "beat": "그가 본채 창을 들여다본다면 무엇이 보일까?",
+   "visual": "a cart horse standing outside a lit farmhouse window at night, warm light spilling onto wet stone",
+   "motion": "the horse steps closer to the glass, light flickers, rain streaks the pane"
+  }
+ ],
+ "withheld": "도축장으로 향하는 마차와, 마지막 연회의 정체"
+}

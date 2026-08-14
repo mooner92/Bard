@@ -1,0 +1,59 @@
+{
+ "logline": "언덕 위 외딴집에 하룻밤 묵은 나그네가, 창밖에서 나는 소리에 그 집의 오래된 일을 듣게 된다.",
+ "destination": "이층 방의 창문 — 밤마다 무언가 두드리는 자리",
+ "protagonist": "폭설에 갇혀 낯선 집에 묵게 된 도시 신사",
+ "setting": "18세기 말 잉글랜드 요크셔 황무지, 언덕 위 돌집",
+ "anchor": "a lean gentleman in a dark travelling coat and high collar, damp hair, bleak Yorkshire moorland house",
+ "palette": "storm-grey moor, peat brown, cold candle amber, black window glass",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "눈보라 속 나그네가 낯선 집 문을 두드린다.",
+   "visual": "a traveller in a soaked coat hammering at a heavy stone-framed door in driving snow",
+   "motion": "snow drives sideways, his fist strikes the wood, the door shudders"
+  },
+  {
+   "n": 2,
+   "beat": "그는 낡은 벽장 침대에서 하룻밤을 청한다.",
+   "visual": "a traveller lying in a narrow wooden box bed in a cold upstairs room, single candle beside him",
+   "motion": "the candle flame bends, his breath fogs, the bed panel creaks"
+  },
+  {
+   "n": 3,
+   "beat": "한밤중 창유리를 두드리는 소리에 깬다.",
+   "visual": "a traveller sitting bolt upright in a box bed, staring at a black window streaked with snow",
+   "motion": "snow rattles the pane, he jerks upright, the candle gutters low"
+  },
+  {
+   "n": 4,
+   "beat": "창밖에서 가느다란 손이 유리를 긁는다.",
+   "visual": "a thin pale hand pressed against the outside of a dark window pane, frost spreading around it",
+   "motion": "the hand drags down the glass, frost blooms outward, the frame rattles"
+  },
+  {
+   "n": 5,
+   "beat": "집주인이 창을 열고 어둠에 대고 부른다.",
+   "visual": "a dark-haired man throwing a window wide onto black moorland night, snow blasting into the room",
+   "motion": "the window bangs open, snow blows into the room, his coat whips back"
+  },
+  {
+   "n": 6,
+   "beat": "오래전 두 아이가 그 언덕을 함께 달렸다.",
+   "visual": "two children running across an open heather moor under fast clouds, stone house small behind them",
+   "motion": "heather bends in waves, the children run, cloud shadows race the ground"
+  },
+  {
+   "n": 7,
+   "beat": "여자가 다른 집으로 떠나던 날 그가 사라진다.",
+   "visual": "a young woman in fine clothes stepping into a carriage, a dark figure walking away over the moor",
+   "motion": "the carriage lurches forward, the figure recedes, wind flattens the grass"
+  },
+  {
+   "n": 8,
+   "beat": "그가 돌아온다면 이 집은 어떻게 될까?",
+   "visual": "a stone farmhouse on a bare ridge at dusk, one lit window, a figure standing at the gate below",
+   "motion": "the figure steps toward the gate, the window light steadies, clouds close overhead"
+  }
+ ],
+ "withheld": "돌아온 그가 두 집안을 대를 이어 무너뜨리고 마지막에 그녀 곁에 묻히는 결말"
+}

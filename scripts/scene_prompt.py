@@ -51,6 +51,20 @@ def from_treatment(tre: dict, index: int) -> str:
     return ", ".join(x.rstrip(".") for x in parts if x)[:400]
 
 
+# 모든 장면에 같은 문장을 넣으면 여덟 컷이 똑같이 흔들린다. 박자마다 무엇이
+# 움직이는지 적어야 화면이 산다. 트리트먼트에 없으면 이 값으로 돌아간다.
+MOTION_DEFAULT = "gentle continuous motion in the scene, slow camera drift"
+
+
+def motion_from_treatment(tre: dict, index: int) -> str:
+    """그 박자의 움직임 지시. 없으면 빈 문자열."""
+    beats = tre.get("beats") or []
+    if not 1 <= index <= len(beats):
+        return ""
+    m = (beats[index - 1].get("motion") or "").strip()
+    return "" if HANGUL.search(m) else m[:200]
+
+
 def to_scene(sentence: str, context: str = "") -> str:
     """문장에서 그릴 수 있는 것만 영어로 뽑는다. 실패하면 빈 문자열."""
     s = sentence.replace("*", "").strip()
@@ -76,11 +90,20 @@ Output the prompt only.""")
 
 def main():
     p = argparse.ArgumentParser(description="문장 -> 영어 장면 묘사")
-    p.add_argument("--narration", required=True)
+    p.add_argument("--narration", default="")
     p.add_argument("--index", type=int, required=True, help="1부터")
+    p.add_argument("--motion", action="store_true",
+                   help="장면 묘사 대신 그 박자의 움직임 지시를 낸다 (I2V 용)")
     p.add_argument("--context", default="", help="작품 세계 한 줄 (선택)")
     p.add_argument("--treatment", default="", help="이야기 줄기 JSON (있으면 우선)")
     a = p.parse_args()
+    if a.motion:
+        tre = (json.loads(Path(a.treatment).read_text(encoding="utf-8"))
+               if a.treatment and Path(a.treatment).exists() else {})
+        print(motion_from_treatment(tre, a.index) or MOTION_DEFAULT)
+        return
+    if not a.narration:
+        sys.exit("--narration 이 필요하다")
     sents = json.loads(Path(a.narration).read_text(encoding="utf-8"))["sentences"]
     if not 1 <= a.index <= len(sents):
         sys.exit(f"index 범위 초과: {a.index}")

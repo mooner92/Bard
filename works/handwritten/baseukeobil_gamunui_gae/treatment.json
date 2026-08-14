@@ -1,0 +1,59 @@
+{
+ "logline": "황무지 저택의 주인이 문 앞에서 죽은 채 발견되고, 그 곁에 남은 자국이 사람의 것이 아니다.",
+ "destination": "황무지 한복판의 늪 — 밤마다 울음소리가 나는 자리",
+ "protagonist": "런던에서 내려온 의사이자 기록자",
+ "setting": "19세기 말 잉글랜드 데번 황무지, 저택과 늪과 돌무더기",
+ "anchor": "a solid middle-aged doctor in a tweed travelling suit and bowler, moustached, bleak Dartmoor moorland",
+ "palette": "fog white-grey, peat black, heather purple, thin lantern yellow",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "의사가 안개 낀 황무지 역에 내려선다.",
+   "visual": "a middle-aged doctor stepping from a small station platform into rolling moorland fog, cart waiting",
+   "motion": "fog rolls across the platform, the cart pony stamps, his hat brim drips"
+  },
+  {
+   "n": 2,
+   "beat": "저택 문 앞에서 그는 낯선 자국을 발견한다.",
+   "visual": "a doctor crouching with a lantern over large paw prints in wet earth before a stone gateway",
+   "motion": "his lantern lowers over the prints, mud glistens, mist creeps across the ground"
+  },
+  {
+   "n": 3,
+   "beat": "밤마다 황무지에서 긴 울음소리가 들려온다.",
+   "visual": "a doctor standing at a lit window looking out over black moorland, curtains pulled wide",
+   "motion": "the curtain lifts in the draught, his hand flattens on the glass, fog moves outside"
+  },
+  {
+   "n": 4,
+   "beat": "탈옥수 하나가 바위 뒤로 사라진다.",
+   "visual": "a ragged man scrambling behind granite boulders on a moonlit ridge, candle stub falling from his hand",
+   "motion": "he scrambles over the rock, the candle drops and rolls, wind scours the ridge"
+  },
+  {
+   "n": 5,
+   "beat": "의사는 돌무더기 오두막에서 인기척을 찾는다.",
+   "visual": "a doctor stooping into a low stone hut on the open moor, ash and a folded blanket inside",
+   "motion": "ash lifts from the cold fire, the blanket shifts, light enters behind him"
+  },
+  {
+   "n": 6,
+   "beat": "늪가에서 조랑말 한 마리가 가라앉는다.",
+   "visual": "a moor pony sinking into black bog water, reeds parting around it, two men running from a ridge",
+   "motion": "bog water closes over the reeds, the men run downhill, birds burst upward"
+  },
+  {
+   "n": 7,
+   "beat": "안개 속에서 커다란 형체가 달려 나온다.",
+   "visual": "a huge dark hound shape bursting out of thick fog across the moor, faint glow along its jaws",
+   "motion": "the shape charges out of the fog, heather flattens, lantern beams jerk sideways"
+  },
+  {
+   "n": 8,
+   "beat": "그 짐승은 정말 이 세상의 것일까?",
+   "visual": "a doctor standing with a raised lantern in swirling fog, a low shape circling at the light's edge",
+   "motion": "the lantern arm rises, fog wheels around him, the shape crosses the beam"
+  }
+ ],
+ "withheld": "그 개의 정체와 그것을 부린 사람이 늪에서 맞는 결말"
+}

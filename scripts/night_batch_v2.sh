@@ -115,6 +115,12 @@ while grace_ok; do
   say "▶ $work (톤 $tone)"
 
   mkdir -p "output/$work" "output/${work}_kf" "output/${work}_i2v"
+  # 사람이 쓴 원고는 works/handwritten 이 원본이다(output 은 git 이 무시한다).
+  # 작업 디렉터리에 없을 때만 채워 넣는다 — 진행 중인 산출물을 덮어쓰지 않는다.
+  for f in treatment.json narration_night.json; do
+    [ -s "works/handwritten/$work/$f" ] && [ ! -s "output/$work/$f" ] \
+      && cp "works/handwritten/$work/$f" "output/$work/$f"
+  done
   ok=1
 
   # ── ①-0 트리트먼트 (이야기 줄기) ──
@@ -202,6 +208,11 @@ print(f'{d:.1f} {max(20,min(t-1,36))} 38')   # 모델이 범위 아래쪽으로 
     ok_len=$(python3 -c "print(1 if 50 <= $total <= 59 else 0)")
     [ "$ok_len" = 1 ] && break
     [ "$tts_try" = 3 ] && { say "  ② 길이 ${total}초 — 3회 조정 실패, 그대로 진행"; break; }
+    # 사람이 쓴 대본은 덮어쓰지 않는다. 길이 몇 초를 맞추자고 모델에게 다시 시키면
+    # 문장이 무너진다(실측: "돼지들의 통 이동이 우유를 구해" 같은 문장이 관문을 통과했다).
+    if grep -q '"author": "hand"' "$NAR" 2>/dev/null; then
+      say "  ② 길이 ${total}초 — 사람이 쓴 대본이라 그대로 간다"; break
+    fi
     say "  ② 길이 ${total}초 — 목표 밖. 문장 ${newmin}~${newmax}자로 대본 다시 씀"
     echo "$newmax" > "$LENF"; cur_max=$newmax; cur_min=$newmin
     mv "$NAR" "${NAR%.json}.len${tts_try}.json" 2>/dev/null
@@ -248,9 +259,13 @@ f = f + (4 - (f-1) % 4) % 4
 # 121프레임에서 첫 프레임 번짐 실측 — 117(4n+1)로 상한. 최장 문장은 감속이
 # 1.5를 살짝 넘을 수 있으나 번짐보다 낫다.
 print(min(f, 117))")
+    # 여덟 컷이 같은 문장으로 움직이면 전부 똑같이 흔들린다. 트리트먼트가 박자마다
+    # 무엇이 움직이는지 들고 있으면 그걸 쓴다 (없으면 같은 기본값으로 돌아간다).
+    mot=$(venv/bin/python scripts/scene_prompt.py --motion --index "$i" $TRE_ARG 2>>"$LOG")
+    [ -z "$mot" ] && mot="gentle continuous motion in the scene, slow camera drift"
     venv/bin/python scripts/gen_i2v.py --image "night_${work}_${i}.png" \
       --prefix "${work}_i2v/night_s${i}" --length "$fr" --seed 42 \
-      --prompt "gentle continuous motion in the scene, slow camera drift" \
+      --prompt "$mot" \
       --negative "$MOTION_NEG" >>"$LOG" 2>&1 || say "  ④ s${i} I2V 실패"
   done
   cl=$(ls output/${work}_i2v/night_s*.mp4 2>/dev/null | sed -E 's/.*night_s([0-9]+)_.*/\1/' | sort -u | wc -l)

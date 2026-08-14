@@ -1,0 +1,59 @@
+{
+ "logline": "가난이 한 겹씩 벗겨 낸 자리에서, 한 여자가 처음으로 제 손에 돈을 쥔다.",
+ "destination": "왕서방 집 문턱 — 그녀가 밤마다 되돌아오게 되는 자리",
+ "protagonist": "칠성문 밖 빈민굴로 밀려난 젊은 여자",
+ "setting": "1920년대 평양 성 밖 빈민굴과 채마밭",
+ "anchor": "a young woman in a faded white hanbok jacket and dark skirt, hair in a low bun, 1920s Pyongyang slum",
+ "palette": "dusty ochre earth, washed grey cotton, thin autumn light, cold blue dusk",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "가난한 집 딸이 혼례 가마에 오른다.",
+   "visual": "a young woman stepping into a small covered palanquin outside a mud-walled house, villagers watching",
+   "motion": "the palanquin tilts as she boards, curtains swing, bearers shift their grip"
+  },
+  {
+   "n": 2,
+   "beat": "게으른 남편 탓에 살림이 한 칸씩 줄어든다.",
+   "visual": "a young woman carrying a bundle out of a bare room, a man lying idle on the floor behind her",
+   "motion": "she hoists the bundle, he rolls over, dust drifts through the empty room"
+  },
+  {
+   "n": 3,
+   "beat": "그녀는 성 밖 빈민굴 한 칸에 짐을 푼다.",
+   "visual": "a young woman setting a bundle down inside a cramped shack of mud and straw, gap-toothed roof above",
+   "motion": "the bundle drops, straw dust falls from the roof, her shoulders sag"
+  },
+  {
+   "n": 4,
+   "beat": "감자밭 고랑에서 그녀가 자루를 채워 나간다.",
+   "visual": "a young woman crouching low between potato furrows at dusk, filling a burlap sack from the soil",
+   "motion": "her hands work fast into the soil, the sack swells, leaves rustle nearby"
+  },
+  {
+   "n": 5,
+   "beat": "밭 주인이 어둠 속에서 그녀를 불러 세운다.",
+   "visual": "a broad man standing at the edge of a field with a lantern, a crouching woman caught in its light",
+   "motion": "the lantern swings toward her, her body freezes, moths cross the beam"
+  },
+  {
+   "n": 6,
+   "beat": "그녀는 손에 쥔 지폐를 보고 처음 웃는다.",
+   "visual": "a young woman looking down at folded banknotes in her palm outside a shack, faint smile forming",
+   "motion": "her fingers close over the notes, her mouth curves, wind lifts her hem"
+  },
+  {
+   "n": 7,
+   "beat": "겨울이 오자 그녀의 그림자가 그 집 앞에 길어진다.",
+   "visual": "a young woman standing outside a brick-walled house at night, her shadow stretched across frozen ground",
+   "motion": "her shadow lengthens as a lamp passes, frost breath rises, a gate creaks"
+  },
+  {
+   "n": 8,
+   "beat": "그 문이 열리면 그녀는 무엇을 하게 될까?",
+   "visual": "a young woman facing a heavy wooden gate opening a crack, warm light falling on her still face",
+   "motion": "the gate opens a hand's width, light spills over her, her jaw sets"
+  }
+ ],
+ "withheld": "왕서방이 새 색시를 들이는 날 그녀가 낫을 들고 찾아가 벌어지는 결말"
+}

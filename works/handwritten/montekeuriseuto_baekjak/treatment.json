@@ -1,0 +1,59 @@
+{
+ "logline": "결혼식 날 아무 이유도 모른 채 끌려간 젊은 항해사가, 바다 위 감옥에서 벽을 긁는 소리를 듣는다.",
+ "destination": "바다 위 감옥의 성벽 — 그가 밖으로 나가게 되는 자리",
+ "protagonist": "스무 살에 선장 자리를 앞둔 젊은 항해사",
+ "setting": "1815년 마르세유 항구와 이프 섬의 바위 감옥",
+ "anchor": "a young sailor with sun-darkened face in a coarse linen shirt and neckerchief, Mediterranean harbour town",
+ "palette": "harbour blue and white, torch orange, wet black rock, thin dungeon light",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "젊은 항해사가 배를 이끌고 항구로 들어온다.",
+   "visual": "a young sailor at the rail of a tall merchant ship gliding into a sunlit stone harbour",
+   "motion": "the hull slides past the mole, sails fall slack, gulls wheel overhead"
+  },
+  {
+   "n": 2,
+   "beat": "약혼 잔치 자리에서 그가 병사들에게 불려 나간다.",
+   "visual": "a young sailor turning from a long feast table as uniformed men appear in the doorway behind",
+   "motion": "chairs scrape back, the men step in, a glass tips over on the cloth"
+  },
+  {
+   "n": 3,
+   "beat": "그는 바다 위 바위섬 독방에 갇힌다.",
+   "visual": "a young sailor alone in a low stone cell with one barred slit high above, sea light on wet walls",
+   "motion": "water drips down the wall, his head lifts to the slit, the sea booms outside"
+  },
+  {
+   "n": 4,
+   "beat": "어느 밤 벽 너머에서 긁는 소리가 들려온다.",
+   "visual": "a young sailor pressing his ear to a damp stone wall, loose grit falling near the floor",
+   "motion": "grit trickles from the seam, his ear presses harder, the torch flame stills"
+  },
+  {
+   "n": 5,
+   "beat": "늙은 신부가 그에게 글과 검술을 가르친다.",
+   "visual": "an old bearded prisoner drawing on a cell floor with chalk stub, a young sailor kneeling opposite",
+   "motion": "the chalk scratches across stone, the young man leans in, dust clouds the light"
+  },
+  {
+   "n": 6,
+   "beat": "신부는 어느 섬에 묻힌 것을 그에게 알려 준다.",
+   "visual": "an old prisoner gripping a young sailor's forearm in a dim cell, both faces lit from one high slit",
+   "motion": "his grip tightens then loosens, the light shifts, dust hangs still"
+  },
+  {
+   "n": 7,
+   "beat": "그는 자루 속에 들어가 바다로 던져진다.",
+   "visual": "a canvas sack falling from a high fortress wall toward black night water, torches on the rampart",
+   "motion": "the sack drops fast, water bursts white, torches shrink above"
+  },
+  {
+   "n": 8,
+   "beat": "그가 살아 돌아온다면 누구를 먼저 찾을까?",
+   "visual": "a soaked figure hauling himself onto a moonlit rock below a fortress, harbour lights far off",
+   "motion": "his arms drag him up the rock, water streams off, distant lights flicker"
+  }
+ ],
+ "withheld": "그가 보물을 찾아 백작으로 돌아와 자신을 무너뜨린 자들에게 갚는 결말"
+}

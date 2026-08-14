@@ -1,0 +1,59 @@
+{
+ "logline": "비 오는 날 손님이 끊이지 않는 인력거꾼이, 벌수록 집으로 가는 걸음을 미룬다.",
+ "destination": "집 문 앞 — 하루 종일 미뤄온 귀가",
+ "protagonist": "동소문 안 셋방에 사는 인력거꾼",
+ "setting": "1920년대 경성의 비 내리는 거리와 셋방",
+ "anchor": "a wiry rickshaw puller in soaked hemp clothes and a headband, bare calves, 1920s Seoul rainy street",
+ "palette": "rain grey, gaslight ochre, wet cobble sheen, cold blue dusk",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "침상에 누웠던 인력거꾼이 일어나 신을 조인다.",
+   "visual": "a wiry man rising from a floor mat in a dim room, tightening straw sandals at the doorsill",
+   "motion": "he pushes off the floor, straps pull tight, rain drums on the roof"
+  },
+  {
+   "n": 2,
+   "beat": "그는 인력거를 끌고 인파 속으로 들어선다.",
+   "visual": "a man pulling a two-wheeled rickshaw into a crowded rainy street, umbrellas pressing around him",
+   "motion": "the wheels roll into the crowd, umbrellas jostle, rain sheets across the road"
+  },
+  {
+   "n": 3,
+   "beat": "손님이 끊이지 않아 그는 헐떡이며 달린다.",
+   "visual": "a rickshaw puller running hard through rain, a seated passenger behind, wet road stretching ahead",
+   "motion": "his legs pump fast, water sprays from the wheels, his shoulders heave"
+  },
+  {
+   "n": 4,
+   "beat": "노을 무렵 그는 주머니를 자꾸 만져 본다.",
+   "visual": "a man halted between the shafts of a rickshaw, one hand pressed flat against his waist pouch",
+   "motion": "his hand presses and releases, the shafts tilt, evening light reddens the puddles"
+  },
+  {
+   "n": 5,
+   "beat": "술집 문 앞에서 친구와 부딪혀 안으로 들어간다.",
+   "visual": "two men in wet clothes pushing through a low tavern doorway, steam and lamplight spilling out",
+   "motion": "the door cloth swings aside, steam rolls out, both men duck through"
+  },
+  {
+   "n": 6,
+   "beat": "설렁탕 그릇을 들고 그는 어두운 계단을 오른다.",
+   "visual": "a man carrying a covered soup bowl with both hands up a narrow dark stair, one bare bulb above",
+   "motion": "the bowl trembles in his hands, his feet find each step, the bulb sways"
+  },
+  {
+   "n": 7,
+   "beat": "방 안이 너무 고요해 그는 문을 밀어 본다.",
+   "visual": "a man pushing a paper door open a hand's width, dark still room beyond, bowl held at his chest",
+   "motion": "the door slides open a crack, nothing moves inside, his breath stops"
+  },
+  {
+   "n": 8,
+   "beat": "그가 들고 있던 그릇은 어떻게 될까?",
+   "visual": "a covered soup bowl tilting in a man's hands at a dark doorway, faint light on the floor mat",
+   "motion": "the bowl tips forward, lid slides, his knees begin to give"
+  }
+ ],
+ "withheld": "방 안에서 아내가 이미 숨져 있다는 것"
+}

@@ -1,0 +1,59 @@
+{
+ "logline": "계약을 마치러 산 위 성에 든 젊은 변호사가, 자신이 손님이 아님을 하나씩 알아 간다.",
+ "destination": "성의 잠긴 대문 — 그가 손님인지 아닌지 확인하게 되는 자리",
+ "protagonist": "런던에서 파견된 스물다섯 살 변리사",
+ "setting": "19세기 말 트란실바니아 카르파티아 산중의 고성",
+ "anchor": "a young clerk in a dark travelling suit and high collar, neat side-parted hair, vast Carpathian stone castle",
+ "palette": "candle amber against black stone, cold moon silver, deep blood red accent, dust haze",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "젊은 변호사가 마차에서 내려 산길을 오른다.",
+   "visual": "a young clerk stepping down from a coach onto a mountain road at dusk, dark pine ridges above",
+   "motion": "the coach lurches away, wolves' shapes shift in the treeline, his coat flares"
+  },
+  {
+   "n": 2,
+   "beat": "거대한 성문이 아무도 없이 저절로 열린다.",
+   "visual": "an enormous iron-studded castle door swinging inward on its own, a small figure waiting outside",
+   "motion": "the huge door swings inward, dust pours from the hinge, his lamp gutters"
+  },
+  {
+   "n": 3,
+   "beat": "백작이 촛불을 들고 그를 맞아들인다.",
+   "visual": "a tall thin nobleman in black holding a candelabrum in a vast stone hall, young clerk in the doorway",
+   "motion": "candle flames lean toward the door, the tall figure bows, shadows climb the walls"
+  },
+  {
+   "n": 4,
+   "beat": "이튿날 아침 거울에 백작이 비치지 않는다.",
+   "visual": "a small shaving mirror showing only a young clerk's reflection, a tall figure standing right behind him",
+   "motion": "the razor stops mid-stroke, the mirror trembles, a hand enters the frame"
+  },
+  {
+   "n": 5,
+   "beat": "그는 성의 모든 문이 잠겨 있음을 알아챈다.",
+   "visual": "a young clerk pulling at heavy locked doors along a torchlit stone corridor, keyholes dark",
+   "motion": "each handle jerks and holds, torches gutter in sequence, dust drifts down"
+  },
+  {
+   "n": 6,
+   "beat": "창밖 성벽을 무언가가 거꾸로 기어 내려간다.",
+   "visual": "a tall figure crawling head-first down a sheer castle wall in moonlight, cloak spread like wings",
+   "motion": "the figure crawls downward, the cloak ripples, moonlight slides over the stone"
+  },
+  {
+   "n": 7,
+   "beat": "지하 예배당에서 흙 담긴 궤짝들을 발견한다.",
+   "visual": "rows of long wooden crates filled with dark earth in a vaulted crypt, a young clerk with a lamp",
+   "motion": "his lamp swings over the crates, earth crumbles at one edge, rats scatter"
+  },
+  {
+   "n": 8,
+   "beat": "그 궤짝들이 런던으로 실려 간다면 어떻게 될까?",
+   "visual": "long crates being hoisted onto a cargo ship at a foggy quay, a young clerk watching from a high window",
+   "motion": "a crate swings on the crane rope, fog rolls across the quay, gulls scatter"
+  }
+ ],
+ "withheld": "백작이 런던에 상륙해 벌이는 일과 마지막에 그를 뒤쫓아 벌어지는 결말"
+}

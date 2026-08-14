@@ -1,0 +1,59 @@
+{
+ "logline": "바다 괴물을 잡으러 나선 학자가, 괴물의 등에 올라섰다가 그 안으로 들어간다.",
+ "destination": "강철 배의 큰 창 — 바다 밑을 내다보는 자리",
+ "protagonist": "박물관에서 나온 프랑스인 자연학자",
+ "setting": "1867년 태평양과 대서양의 바다 밑, 강철 잠수함 내부",
+ "anchor": "a bearded naturalist in a dark buttoned coat with round spectacles, brass-lit steel submarine interior",
+ "palette": "deep ocean blue-green, brass and rivet gold, cold lamp white, black water",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "학자가 갑판에서 밤바다를 살핀다.",
+   "visual": "a bearded naturalist at a warship rail scanning black night sea, lanterns along the deck",
+   "motion": "lantern light rocks with the swell, spray bursts over the rail, his coat flaps"
+  },
+  {
+   "n": 2,
+   "beat": "거대한 무언가가 배를 들이받고 지나간다.",
+   "visual": "a huge dark shape sliding beneath a warship hull, phosphorescent wake spreading behind it",
+   "motion": "the shape rushes past, the hull lurches, glowing water streams off"
+  },
+  {
+   "n": 3,
+   "beat": "바다에 빠진 그가 강철 등판 위로 올라선다.",
+   "visual": "a soaked man kneeling on a curved steel surface rising from the sea, rivets under his hands",
+   "motion": "water pours off the steel plates, his hands slip, the surface tilts"
+  },
+  {
+   "n": 4,
+   "beat": "강철 문이 열리고 그는 안으로 내려간다.",
+   "visual": "an open hatch in a steel deck with a ladder into brass-lit interior, a man climbing down",
+   "motion": "the hatch swings up, his boots find the rungs, warm light rises through the opening"
+  },
+  {
+   "n": 5,
+   "beat": "선장이 그를 큰 창 앞으로 데려간다.",
+   "visual": "a tall captain and a naturalist standing before a huge round viewport onto lit ocean depths",
+   "motion": "fish stream past the glass, the captain's hand lifts, lamp reflections slide"
+  },
+  {
+   "n": 6,
+   "beat": "두 사람이 바다 밑 숲을 걸어 지나간다.",
+   "visual": "two figures in heavy diving suits walking through a forest of underwater plants, lamps at their belts",
+   "motion": "kelp bends around them, silt puffs up from their steps, light beams sweep"
+  },
+  {
+   "n": 7,
+   "beat": "거대한 오징어가 창유리에 팔을 붙인다.",
+   "visual": "an enormous squid arm pressed flat across a round viewport, suckers on the glass, men recoiling",
+   "motion": "the arm slides across the glass, suckers grip and release, lamps swing wildly"
+  },
+  {
+   "n": 8,
+   "beat": "그 배는 어디로 향하고 있는 것일까?",
+   "visual": "a steel submarine silhouette descending into deep blue darkness, one lit porthole shrinking",
+   "motion": "the hull sinks downward, the porthole light dims, bubbles trail upward"
+  }
+ ],
+ "withheld": "선장의 정체와 그가 바다로 사라지는 결말"
+}

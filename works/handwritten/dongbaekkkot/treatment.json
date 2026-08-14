@@ -1,0 +1,59 @@
+{
+ "logline": "이웃집 소녀가 내민 것을 받지 않은 소년이, 그 뒤로 매일 같은 자리에서 그녀와 마주친다.",
+ "destination": "산비탈의 노란 동백꽃 덤불 — 두 아이가 끝내 함께 굴러떨어지는 자리",
+ "protagonist": "소작농의 아들인 열일곱 살 소년",
+ "setting": "1930년대 강원도 산골, 울타리와 감자밭과 산비탈",
+ "anchor": "a lean teenage boy in patched cotton jacket and straw sandals, sunburnt face, Korean mountain hamlet",
+ "palette": "late spring sun, yellow blossom, wet earth brown, hazy blue ridgeline",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "소년이 울타리 옆에서 닭에게 모이를 뿌린다.",
+   "visual": "a teenage boy scattering grain to hens beside a low brushwood fence, mountain slope behind",
+   "motion": "grain scatters in an arc, hens dart forward, dust puffs up"
+  },
+  {
+   "n": 2,
+   "beat": "이웃 소녀가 감자 세 알을 불쑥 내민다.",
+   "visual": "a girl thrusting three potatoes forward in cupped hands toward a teenage boy at a fence",
+   "motion": "her hands push forward, the potatoes wobble, his shoulders stiffen"
+  },
+  {
+   "n": 3,
+   "beat": "소년은 고개를 돌리고 그것을 받지 않는다.",
+   "visual": "a teenage boy turning his face away with hands behind his back, a girl standing still in front",
+   "motion": "his head turns aside, her arms lower, wind lifts the fence grass"
+  },
+  {
+   "n": 4,
+   "beat": "이튿날 소녀의 닭이 그의 닭을 쪼아 댄다.",
+   "visual": "two roosters clashing in a dirt yard, feathers in the air, a teenage boy running toward them",
+   "motion": "feathers burst upward, the roosters lunge, the boy sprints in"
+  },
+  {
+   "n": 5,
+   "beat": "소년은 제 닭을 안고 뒤로 물러선다.",
+   "visual": "a teenage boy clutching a battered rooster against his chest, backing toward a fence, girl watching",
+   "motion": "the rooster flaps against his chest, he steps backward, her chin lifts"
+  },
+  {
+   "n": 6,
+   "beat": "소녀는 날마다 그 자리에서 그를 기다린다.",
+   "visual": "a girl sitting on a stone at a hillside path in evening light, an empty trail winding below",
+   "motion": "her heel taps the stone, grass sways, long shadows stretch"
+  },
+  {
+   "n": 7,
+   "beat": "노란 동백꽃 덤불이 산길을 온통 덮는다.",
+   "visual": "a hillside path swallowed by dense yellow blossom thickets, two small figures approaching along it",
+   "motion": "blossoms shiver along the whole slope, petals drop, the path narrows ahead"
+  },
+  {
+   "n": 8,
+   "beat": "그 덤불 속에서 두 아이는 어떻게 될까?",
+   "visual": "a teenage boy and a girl standing very close at the edge of a yellow blossom thicket, slope falling away",
+   "motion": "the thicket sways around them, her hand rises, petals scatter between"
+  }
+ ],
+ "withheld": "두 아이가 함께 넘어지며 마음이 맞닿는 마지막 대목"
+}

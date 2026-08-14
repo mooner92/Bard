@@ -1,0 +1,59 @@
+{
+ "logline": "말을 못 하는 하인이 그 집에서 유일하게 지키고 싶은 것을 갖게 되고, 그 때문에 쫓겨난다.",
+ "destination": "주인집 담장 — 쫓겨난 그가 밤마다 돌아와 서는 자리",
+ "protagonist": "오생원 집에서 자란 말 못 하는 하인",
+ "setting": "1920년대 서울 근교 기와집과 그 담장 밖 길",
+ "anchor": "a short thickset mute servant in coarse hemp work clothes, close-cropped head, Korean tiled-roof house",
+ "palette": "deep tile grey, warm oil-lamp amber, cold night blue, dry courtyard dust",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "하인이 물지게를 지고 마당을 가로지른다.",
+   "visual": "a thickset servant carrying two water buckets on a shoulder yoke across a tiled-roof courtyard",
+   "motion": "water sloshes over the rims, the yoke bends, his stride quickens"
+  },
+  {
+   "n": 2,
+   "beat": "주인집 아들이 손짓으로 그를 불러 세운다.",
+   "visual": "a young man in silk beckoning sharply at a servant across a courtyard, servant halting mid-step",
+   "motion": "the silk sleeve snaps as he beckons, the servant stops, dust settles"
+  },
+  {
+   "n": 3,
+   "beat": "새 색시가 가마에서 내려 마루에 오른다.",
+   "visual": "a bride in bright wedding silks stepping from a palanquin onto a wooden veranda, servant watching from a corner",
+   "motion": "her skirt spills over the step, the palanquin sways empty, a servant's head turns"
+  },
+  {
+   "n": 4,
+   "beat": "그는 색시의 신발을 말없이 닦아 놓는다.",
+   "visual": "a servant kneeling alone at a veranda edge polishing a pair of small embroidered shoes",
+   "motion": "his cloth circles on the leather, lamplight shifts, his head stays down"
+  },
+  {
+   "n": 5,
+   "beat": "밤마다 우는 소리를 그는 문밖에서 듣는다.",
+   "visual": "a servant standing motionless outside a lit paper door at night, head tilted toward it",
+   "motion": "the paper door glows and dims, his fists tighten, night wind crosses the yard"
+  },
+  {
+   "n": 6,
+   "beat": "그는 부시쌈지를 만들어 색시에게 건넨다.",
+   "visual": "a servant holding out a small hand-sewn cloth pouch on his palm, a woman's hand reaching for it",
+   "motion": "his palm opens, her fingers close on the pouch, both hands tremble slightly"
+  },
+  {
+   "n": 7,
+   "beat": "그 일로 그는 대문 밖으로 내쫓긴다.",
+   "visual": "a servant standing outside a closed wooden gate at night, his bundle at his feet, high wall above",
+   "motion": "the gate bar drops into place, he does not move, dust blows past his ankles"
+  },
+  {
+   "n": 8,
+   "beat": "그는 그 담을 다시 넘게 될까?",
+   "visual": "a servant looking up at a high tiled wall from the dark lane, faint glow rising beyond the roofline",
+   "motion": "the glow beyond the roof brightens, his head lifts, embers drift across the sky"
+  }
+ ],
+ "withheld": "그 집에 불이 나던 밤 그가 색시를 안고 지붕 위로 올라가는 결말"
+}

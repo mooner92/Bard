@@ -1,0 +1,59 @@
+{
+ "logline": "제 얼굴이 늙지 않기를 바란 청년이, 대신 늙어 가는 것을 다락에 감춘다.",
+ "destination": "다락방의 천 씌운 그림 — 아무도 못 보게 잠가 둔 자리",
+ "protagonist": "런던 사교계에서 가장 얼굴이 고운 젊은 남자",
+ "setting": "19세기 말 런던, 화실과 대저택과 잠긴 다락",
+ "anchor": "a slender young man with smooth pale skin in a fitted velvet frock coat, dark wavy hair, late Victorian London",
+ "palette": "gaslight gold, deep wine red, cool grey daylight, dusty attic gloom",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "화가가 젊은 남자의 초상을 마지막으로 손본다.",
+   "visual": "a painter touching a brush to a large framed portrait of a young man in a skylit studio",
+   "motion": "the brush touches the canvas, dust turns in the skylight beam, the sitter shifts"
+  },
+  {
+   "n": 2,
+   "beat": "청년이 제 그림 앞에서 소원 하나를 말한다.",
+   "visual": "a young man standing face to face with his own painted portrait, one hand raised toward it",
+   "motion": "his hand rises toward the canvas, gaslight flares, his reflection wavers in glass"
+  },
+  {
+   "n": 3,
+   "beat": "몇 해가 흘러도 그의 얼굴은 그대로다.",
+   "visual": "a young man among older guests at a lit drawing room party, his face unlined beside theirs",
+   "motion": "guests turn and murmur around him, chandelier crystals sway, his smile holds"
+  },
+  {
+   "n": 4,
+   "beat": "그림 속 입가에 처음 보는 주름이 잡힌다.",
+   "visual": "a close view of a painted mouth on a canvas, a hard new line at its corner, lamplight across it",
+   "motion": "lamplight slides over the paint, the line deepens, shadow creeps inward"
+  },
+  {
+   "n": 5,
+   "beat": "그는 그림을 천으로 덮어 다락으로 올린다.",
+   "visual": "a young man dragging a cloth-covered rectangular frame up a narrow attic stair by candlelight",
+   "motion": "the frame scrapes each step, the cloth slips, candle shadow lurches"
+  },
+  {
+   "n": 6,
+   "beat": "밤마다 그는 다락 문을 잠그고 내려온다.",
+   "visual": "a young man turning a key in a low attic door, his shoulders against the wood, dark stairwell below",
+   "motion": "the key turns twice, his forehead touches the door, the stair below darkens"
+  },
+  {
+   "n": 7,
+   "beat": "오랜 친구가 그 다락으로 올라간다.",
+   "visual": "an older man climbing a narrow attic stair with a lamp, a cloth-draped frame waiting in the gloom",
+   "motion": "his lamp swings up the stairwell, the draped cloth stirs, dust lifts"
+  },
+  {
+   "n": 8,
+   "beat": "그 천을 걷으면 무엇이 나타날까?",
+   "visual": "a hand gripping the edge of a dust sheet over a tall frame, lamp glow behind, attic dark around",
+   "motion": "the sheet begins to lift, lamplight swings, dust pours off the fabric"
+  }
+ ],
+ "withheld": "그림이 그의 죄를 대신 늙어 왔다는 것과, 그가 그림을 찢으려다 맞는 최후"
+}
