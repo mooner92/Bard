@@ -175,9 +175,9 @@ def build(title: str, author: str, isbn13: str = "", fmt: str = "intro") -> tupl
     ]
     if hold["holding"] in ("paper", "ebook", "both"):
         kind = {"paper": "종이책", "ebook": "전자책", "both": "종이책·전자책"}[hold["holding"]]
-        lines.append(f"[소장] KEI 도서관 {kind}"
-                     + (f" (청구기호 {held.get('callno')}, {held.get('status')})"
-                        if held.get("callno") else ""))
+        # 청구기호·대출상태는 넣지 않는다. 모델이 "KEI 도서관 CB 1999" 처럼
+        # 그대로 낭독해 버린다(실측). 서가 위치는 영상에 쓸 정보가 아니다.
+        lines.append(f"[소장] KEI 도서관 {kind}")
     if book.get("description"):
         lines += ["[출판사 소개]", book["description"].strip()]
     if wiki:
