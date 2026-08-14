@@ -85,6 +85,20 @@ def patch_job(jid: str, body: JobPatch):
 
 # ---------- 작품 / 대본 검수 ----------
 
+def _display_title(work: str, fallback: str) -> str:
+    """narration 의 title 이 ASCII 작업ID 그대로면(야간 배치가 --title $work 로 넘긴 실측:
+    kafka·nalgae) 사실파일 [서지]·구작 표에서 한글 제목을 찾는다."""
+    if re.search(r"[가-힣]", fallback):
+        return fallback
+    sys.path.insert(0, str(BASE / "scripts"))
+    try:
+        from publish_final import work_meta
+        t = work_meta(work)[1]
+        return t if t else fallback
+    except Exception:
+        return fallback
+
+
 def _works():
     """output/<작품>/narration*.json 을 훑어 작품 목록을 만든다.
     별도 테이블 없이 파일시스템을 진실로 쓴다 -- 파이프라인이 파일로 돌기 때문."""
@@ -104,7 +118,7 @@ def _works():
                 "updated": _dt.datetime.fromtimestamp(
                     f.stat().st_mtime, _dt.timezone.utc
                 ).isoformat(timespec="seconds").replace("+00:00", "Z"),
-                "title": data.get("title", d.name),
+                "title": _display_title(d.name, data.get("title", d.name)),
                 "sentences": data.get("sentences", []),
                 "passed": data.get("passed"),
                 "issues": data.get("issues", []),
