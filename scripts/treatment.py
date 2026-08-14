@@ -124,11 +124,17 @@ def build(facts: str, extra: str) -> dict:
         except json.JSONDecodeError:
             continue
         beats = d.get("beats") or []
-        if len(beats) == BEATS and all(b.get("beat") and b.get("visual") for b in beats):
+        # qwen3.6 이 한국어 박자에 중국어를 흘린다(실측: "거리로走出去"). 낭독·대본의
+        # 근거가 되는 문장이므로 한글·기본 문장부호 외 문자가 섞이면 그 시도를 버린다.
+        import re as _re
+        def _ko_ok(t):
+            return not _re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", t)
+        if len(beats) == BEATS and all(
+                b.get("beat") and b.get("visual") and _ko_ok(b["beat"]) for b in beats):
             for i, b in enumerate(beats, 1):
                 b["n"] = i
             return d
-        print(f"  ! 트리트먼트 형식 불량({len(beats)}박자) — 재시도", file=sys.stderr)
+        print(f"  ! 트리트먼트 불량(박자 {len(beats)}개 또는 외국어 혼입) — 재시도", file=sys.stderr)
     return {}
 
 

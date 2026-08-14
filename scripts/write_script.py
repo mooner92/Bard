@@ -303,7 +303,10 @@ PROMPT_LEAK = ["별표", "강세 표기", "종결어미", "문장 길이", "자�
                "낭독체", "대본", "프롬프트", "규칙에 따라",
                # 수리 지시에 모델이 해명으로 답한 것이 문장이 된 사고(실측:
                # "자료에 근거 없는 표현이므로 해당 문장을 삭제합니다")
-               "해당 문장", "삭제합니다", "수정하겠", "다시 쓰겠", "근거 없는", "자료에 없"]
+               "해당 문장", "삭제합니다", "수정하겠", "다시 쓰겠", "근거 없는", "자료에 없",
+               # 검증기 지적 메시지가 그대로 문장이 된 사고(실측: "어미 계열이 맞지 않고
+               # 서술어가 없이 명사로 끝남" — 명사로 끝나서 계열 검사를 통과했다)
+               "어미 계열", "서술어", "명사로 끝", "계열이 맞지", "미해결 이유"]
 
 
 def leak_issues(sents):
@@ -357,6 +360,13 @@ def validate(sents, ending_phrase, banned, plan=None):
         return re.sub(r"[<>《》〈〉「」『』()\[\]]", "", x).rstrip(".!? ")
     if ending_phrase and not norm(sents[-1]).endswith(norm(ending_phrase)):
         issues.append((len(sents) - 1, f"마지막 문장이 '{ending_phrase}'로 끝나지 않음"))
+    # 마무리 문구가 두 번 들어간 사고(실측: "…소설 날개에서 만나보세요. 소설 날개에서
+    # 만날 수 있습니다" — 꼬리가 아니라 머리가 중복됐다). 머리·꼬리 둘 다 센다.
+    if ending_phrase:
+        last = norm(sents[-1])
+        head, tail = norm(ending_phrase)[:8], norm(ending_phrase)[-8:]
+        if (head and last.count(head) > 1) or (tail and last.count(tail) > 1):
+            issues.append((len(sents) - 1, "마무리 문구가 중복됨 — 문구는 정확히 한 번만"))
     return issues
 
 
