@@ -35,6 +35,12 @@ MODEL = "qwen3.6:27b"
 UA = "bard-treatment/1.0 (internal literary shorts pipeline)"
 BEATS = 8
 EXAMPLES_FILE = Path(__file__).resolve().parent.parent / "works" / "plot_examples.json"
+# 사람이 사람에게 가하는 물리적 강제. 규칙만으로는 안 걸린다(실측: 채식주의자에서
+# "남편이 어깨를 잡고 억지로 몸을 돌려" 가 결정적 사건으로 뽑혔다 — 그림으로 그리면
+# 남자가 여자를 붙잡는 장면이 된다). 박자 텍스트에 이게 있으면 그 시도를 버린다.
+COERCION = re.compile(
+    r"억지로|강제로|때리|후려|붙잡아|움켜|밀치|끌고 가|끌어당|목을 조"
+    r"|입에 (?:넣|밀어)|입으로 가져|입 앞에|먹이려|먹이는|폭력")
 
 
 def ask(prompt: str, temperature: float = 0.7, ctx: int = 8192) -> str:
@@ -171,6 +177,13 @@ def drifts(t: dict) -> bool:
 
 
 def build(facts: str, extra: str) -> dict:
+    # 소개형(저작권 보호작)은 자료에 줄거리가 없고 "재구성 금지"가 적혀 있다. 그런데도
+    # 여덟 박자를 만들라고 하면 모델은 장면을 **지어낸다**(실측: 채식주의자에서 소설상
+    # 아버지가 한 행동을 남편이 한 것으로 만든 식탁 폭력 장면이 나왔다). 줄기를 만들지
+    # 않고 물러난다 — 대본 단계가 줄거리 대신 작품의 세계를 쓰는 길로 간다.
+    if re.search(r"\[포맷\]\s*소개형", facts):
+        print("  · 소개형 — 줄거리 재구성 금지. 트리트먼트 없이 진행한다.", file=sys.stderr)
+        return {}
     good = examples()
     prompt = f"""너는 문학 작품을 짧은 영상으로 옮기는 구성작가다.
 아래 자료에서 **이야기 하나**를 골라 여덟 박자짜리 트리트먼트를 만들어라.
@@ -201,7 +214,10 @@ def build(facts: str, extra: str) -> dict:
 - 1번 박자는 눈앞의 동작 하나로 연다. 설명하지 마라.
 - 중반(4~5번)에 판이 뒤집히는 순간을 하나 둔다.
 - 8번 박자는 답이 아니라 **질문**으로 닫는다.
-- 자료에 없는 사건·인물·지명을 지어내지 마라.
+- 자료에 없는 사건·인물·지명을 지어내지 마라. 누가 그 행동을 했는지 자료대로 써라.
+- **사람이 사람에게 물리적으로 강제하거나 해치는 장면은 고르지 마라** — 때리기,
+  붙잡아 끌기, 억지로 먹이기, 밀치기. 그 작품의 결정적 사건이 폭력이라면 폭력 자체가
+  아니라 **그 직전의 결심** 이나 **그 뒤에 남은 정적** 을 도착점으로 삼아라.
 - visual 은 영어로, 카메라가 보는 것만. 글자·간판·책·종이를 넣지 마라.
 - **그림도 결말을 그리면 안 된다.** 흉기가 사람을 겨누는 구도, 죽음·시신·피는 금지다.
   박자 텍스트가 문턱에서 멈췄어도 그림이 다 보여주면 같은 위반이다.
@@ -219,19 +235,32 @@ def build(facts: str, extra: str) -> dict:
         except json.JSONDecodeError:
             continue
         beats = d.get("beats") or []
-        # qwen3.6 이 한국어 박자에 중국어를 흘린다(실측: "거리로走出去"). 낭독·대본의
-        # 근거가 되는 문장이므로 한글·기본 문장부호 외 문자가 섞이면 그 시도를 버린다.
-        import re as _re
-        def _ko_ok(t):
-            return not _re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", t)
-        if len(beats) == BEATS and d.get("destination") and all(
-                b.get("beat") and b.get("visual") and _ko_ok(b["beat"]) for b in beats):
+        # qwen3.6 이 한국어에 중국어를 흘린다. 박자만 검사하다 로그라인으로 샜다
+        # (실측: 박자 "거리로走出去", 로그라인 "가족의餐桌을 무너뜨리고").
+        # 낭독·대본의 근거가 되는 한국어 필드를 전부 본다.
+        ko_fields = [d.get(k) or "" for k in
+                     ("logline", "destination", "protagonist", "setting", "withheld")]
+        ko_fields += [b.get("beat") or "" for b in beats]
+        ko_ok = not any(re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", t) for t in ko_fields)
+        if len(beats) == BEATS and d.get("destination") and ko_ok and all(
+                b.get("beat") and b.get("visual") for b in beats):
             for i, b in enumerate(beats, 1):
                 b["n"] = i
             if reveals_ending(d):
                 continue
             if drifts(d):
                 print("  ! 박자가 도착점으로 모이지 않는다 — 재시도", file=sys.stderr)
+                continue
+            # 박자를 막았더니 도착점 쪽으로 샜다(실측: 도착점 "거절이 폭력으로
+            # 전환되는 문턱"). 줄기 전체가 폭력을 향하면 그림도 그리 간다.
+            if any(COERCION.search(t) for t in
+                   [b["beat"] for b in beats] + [d.get("destination") or ""]):
+                print("  ! 물리적 강제를 향하는 줄기 — 재시도", file=sys.stderr)
+                continue
+            # 8번은 질문으로 닫으라는 규칙을 모델이 자주 흘린다(실측: "침묵이
+            # 식탁을 짓누르며 남편의 표정이 굳어진다"). 여운이 질문이어야 다음이 궁금해진다.
+            if not beats[-1]["beat"].rstrip().endswith("?"):
+                print("  ! 마지막 박자가 질문이 아니다 — 재시도", file=sys.stderr)
                 continue
             return d
         print(f"  ! 트리트먼트 불량(박자 {len(beats)}개 / 도착점 누락 / 외국어 혼입) — 재시도",
@@ -249,6 +278,11 @@ def main():
     a = p.parse_args()
 
     facts = Path(a.facts).read_text(encoding="utf-8")
+    # 소개형은 여기서 끝낸다. build() 도 같은 판정을 하지만, 그 전에 도는 웹 검색이
+    # 쓸데없이 붙고 배치 로그에는 "실패"로 남아 없는 고장을 쫓게 된다.
+    if re.search(r"\[포맷\]\s*소개형", facts):
+        print("소개형 — 줄거리 재구성 금지. 줄기 없이 진행한다.")
+        sys.exit(3)
     extra = "" if a.no_web else research(a.title, a.author, facts)
     t = build(facts, extra)
     if not t:

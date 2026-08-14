@@ -121,8 +121,13 @@ while grace_ok; do
   # 이 단계가 없으면 여덟 문장이 서로 무관한 파편이 된다(실측: 방·거리·옥상이 따로 놀았다).
   if [ ! -s "$TRE" ] && [ -f "$facts" ]; then
     venv/bin/python scripts/treatment.py --title "$work" --facts "$facts" \
-      --out "$TRE" >>"$LOG" 2>&1 && say "  ①-0 이야기 줄기 준비됨" \
-      || say "  ①-0 트리트먼트 실패 — 줄기 없이 진행"
+      --out "$TRE" >>"$LOG" 2>&1
+    # 3 = 소개형(저작권 보호작). 고장이 아니라 설계다 — 줄거리를 지어내지 않는다.
+    case $? in
+      0) say "  ①-0 이야기 줄기 준비됨" ;;
+      3) say "  ①-0 소개형 — 줄거리 없이 작품의 세계로 쓴다" ;;
+      *) say "  ①-0 트리트먼트 실패 — 줄기 없이 진행" ;;
+    esac
   fi
   TRE_ARG=""; [ -s "$TRE" ] && TRE_ARG="--treatment $TRE"
   # 문장 길이 목표. 되먹임 루프가 바꾸면 관문도 같은 값을 봐야 한다 — 값이 갈리면
