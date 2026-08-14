@@ -34,6 +34,7 @@ OLLAMA = "http://127.0.0.1:11434/api/generate"
 MODEL = "qwen3.6:27b"
 UA = "bard-treatment/1.0 (internal literary shorts pipeline)"
 BEATS = 8
+ATTEMPTS = 6      # 검사가 여섯 겹이다. 시도가 적으면 고전이 줄기 없이 넘어간다
 EXAMPLES_FILE = Path(__file__).resolve().parent.parent / "works" / "plot_examples.json"
 # 사람이 사람에게 가하는 물리적 강제. 규칙만으로는 안 걸린다(실측: 채식주의자에서
 # "남편이 어깨를 잡고 억지로 몸을 돌려" 가 결정적 사건으로 뽑혔다 — 그림으로 그리면
@@ -225,8 +226,8 @@ def build(facts: str, extra: str) -> dict:
 
 [출력] 아래 JSON 하나만. 설명·코드펜스 금지. beats 는 정확히 {BEATS}개.
 {SCHEMA_HINT}"""
-    for attempt in range(3):
-        raw = ask(prompt, temperature=0.7 + 0.1 * attempt)
+    for attempt in range(ATTEMPTS):
+        raw = ask(prompt, temperature=0.7 + 0.08 * attempt)
         m = re.search(r"\{.*\}", raw, re.S)
         if not m:
             continue
@@ -263,8 +264,16 @@ def build(facts: str, extra: str) -> dict:
                 print("  ! 마지막 박자가 질문이 아니다 — 재시도", file=sys.stderr)
                 continue
             return d
-        print(f"  ! 트리트먼트 불량(박자 {len(beats)}개 / 도착점 누락 / 외국어 혼입) — 재시도",
-              file=sys.stderr)
+        why = []
+        if len(beats) != BEATS:
+            why.append(f"박자 {len(beats)}개")
+        if not d.get("destination"):
+            why.append("도착점 없음")
+        if not ko_ok:
+            why.append("외국어 혼입")
+        if not all(b.get("beat") and b.get("visual") for b in beats):
+            why.append("빈 박자/그림")
+        print(f"  ! 트리트먼트 불량({', '.join(why) or '알 수 없음'}) — 재시도", file=sys.stderr)
     return {}
 
 
