@@ -101,6 +101,8 @@ def add_classics(max_add: int, dry: bool) -> list:
         wid = slug(title)
         if wid in have:
             print(f"– {title[:16]:18} 건너뜀: 이미 큐/완료됨"); continue
+        import time as _time
+        _time.sleep(2)   # 위키·KEI 를 연사하지 않는다 (일괄 적재 시 실패 다발 — 실측)
         text, hold = build(title, author, "", "narrative")
         w = world_material(text)
         if w < WORLD_MIN_CLASSIC:

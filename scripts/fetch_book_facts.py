@@ -158,15 +158,23 @@ def wikipedia_plot(title: str, author: str = "") -> str:
     고전은 저작권이 만료돼 각색이 자유롭고, 위키백과에 세계를 그릴 재료가
     충분하다(장소·계절·사물). 현대서의 홍보문 소개와 질이 다르다.
     """
+    import time as _time
     for t in ([f"{title} (소설)", title] if author else [title]):
-        try:
-            u = "https://ko.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
-                "action": "query", "format": "json", "prop": "extracts",
-                "explaintext": 1, "redirects": 1, "maxlag": 5, "titles": t,
-            })
-            pages = json.loads(_get(u, 30)).get("query", {}).get("pages", {})
-        except Exception as e:
-            print(f"  ! 위키 본문 실패 {t}: {type(e).__name__}", file=sys.stderr)
+        pages = {}
+        # 연속 조회에서 maxlag·타임아웃이 잦다(실측: 12작품 일괄 적재 시 다수 실패).
+        # 한 번 쉬고 재시도하면 대부분 살아난다.
+        for attempt in range(3):
+            try:
+                u = "https://ko.wikipedia.org/w/api.php?" + urllib.parse.urlencode({
+                    "action": "query", "format": "json", "prop": "extracts",
+                    "explaintext": 1, "redirects": 1, "maxlag": 5, "titles": t,
+                })
+                pages = json.loads(_get(u, 60)).get("query", {}).get("pages", {})
+                break
+            except Exception as e:
+                print(f"  ! 위키 본문 실패 {t} ({attempt+1}/3): {type(e).__name__}", file=sys.stderr)
+                _time.sleep(3 * (attempt + 1))
+        if not pages:
             continue
         for p in pages.values():
             txt = (p.get("extract") or "").strip()

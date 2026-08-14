@@ -40,8 +40,11 @@ DISK_MIN_GB=50
 START_BY=${START_BY:-800}    # 이 시각 이후에는 새 작품을 시작하지 않는다
 FINISH_BY=${FINISH_BY:-940}  # 이 시각 이후에는 새 클립·새 장면도 시작하지 않는다
 hhmm() { echo $((10#$(date +%H%M))); }
-start_ok() { local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$START_BY" ]; }
-grace_ok() { local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$FINISH_BY" ]; }
+# 주말(토·일)은 24시간 가동한다 — 금 20:00 부터 월 08:00(마무리 09:40)까지 연속.
+# 평일 낮에만 서버를 다른 이용자에게 돌려준다. (사용자 지정, 2026-08-14)
+weekend() { local d; d=$(date +%u); [ "$d" -ge 6 ]; }
+start_ok() { weekend && return 0; local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$START_BY" ]; }
+grace_ok() { weekend && return 0; local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$FINISH_BY" ]; }
 disk_ok() {
   local free; free=$(df -BG --output=avail . | tail -1 | tr -dc '0-9')
   [ "${free:-0}" -ge "$DISK_MIN_GB" ] || { say "디스크 여유 ${free}GB < ${DISK_MIN_GB}GB — 중단"; return 1; }
