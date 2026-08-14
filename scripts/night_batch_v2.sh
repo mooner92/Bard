@@ -12,7 +12,8 @@
 # 설계 원칙(v1 유지)
 #  - 재개 가능: 각 단계는 산출물이 있으면 건너뛴다.
 #  - 큐에서 줄을 지우는 시점은 "완성" 또는 "영구 실패" 뿐이다.
-#  - 08:00 이후에는 새 작품·새 클립을 시작하지 않는다.
+#  - 08:00 이후에는 새 작품을 시작하지 않되, 이미 시작한 작품은 끝까지 마친다.
+#    다른 이용자가 10시쯤 서버를 쓰므로 09:40 이 최종 한계다.
 #  - 산출물은 output/ 까지만. deliverables/ 승격과 업로드는 사람이 승인한다.
 set -uo pipefail
 cd /home/mooner92/aivideo
@@ -29,7 +30,18 @@ exec 9>"$LOCK"
 flock -n 9 || { say "이미 실행 중 — 종료"; exit 0; }
 
 DISK_MIN_GB=50
-work_window() { local h; h=$(date +%-H); [ "$h" -ge 20 ] || [ "$h" -lt 8 ]; }
+# 시간 정책 (사용자 지정)
+#  - 새 작품 착수: 20:00~08:00 만.
+#  - 이미 시작한 작품: 08:00 이 지나도 끊지 않고 마무리한다.
+#  - 다만 다른 이용자가 10시쯤 서버를 쓰기 시작하므로 09:40 을 넘기지 않는다.
+#    09:40 이후에는 진행 중인 클립만 끝내고 멈춘다(산출물은 남아 다음 밤에 이어감).
+# 기본값은 야간 자동화용. 개발 중 수동 실행은 환경변수로 풀어 쓴다.
+#   START_BY=1930 FINISH_BY=1930 scripts/night_batch_v2.sh
+START_BY=${START_BY:-800}    # 이 시각 이후에는 새 작품을 시작하지 않는다
+FINISH_BY=${FINISH_BY:-940}  # 이 시각 이후에는 새 클립·새 장면도 시작하지 않는다
+hhmm() { echo $((10#$(date +%H%M))); }
+start_ok() { local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$START_BY" ]; }
+grace_ok() { local t; t=$(hhmm); [ "$t" -ge 2000 ] || [ "$t" -lt "$FINISH_BY" ]; }
 disk_ok() {
   local free; free=$(df -BG --output=avail . | tail -1 | tr -dc '0-9')
   [ "${free:-0}" -ge "$DISK_MIN_GB" ] || { say "디스크 여유 ${free}GB < ${DISK_MIN_GB}GB — 중단"; return 1; }
@@ -58,7 +70,7 @@ trap 'finish 정지신호; exit 0' TERM INT
 
 say "=== 야간 배치 v2 시작 (큐 $(grep -cvE '^[[:space:]]*(#|$)' "$Q") 건) ==="
 
-while work_window; do
+while grace_ok; do
   disk_ok || break
   svc_ok  || { say "서비스 이상 — 60초 후 재확인"; sleep 60; continue; }
 
@@ -70,9 +82,14 @@ while work_window; do
   ending=$(echo "$line" | cut -f3)
   style=$(echo "$line" | cut -f4); [ -z "$style" ] && style="$STYLE_DEFAULT"
   tone=$(echo "$line" | cut -f5); [ -z "$tone" ] && tone="담담"
+  NAR="output/$work/narration_night.json"
+  # 대본이 있으면 이미 착수한 작품이다 — 시각과 무관하게 마무리한다.
+  if [ ! -s "$NAR" ] && ! start_ok; then
+    say "08:00 이후 — 새 작품($work)은 시작하지 않는다. 오늘 밤 이어감"
+    break
+  fi
   say "▶ $work (톤 $tone)"
 
-  NAR="output/$work/narration_night.json"
   mkdir -p "output/$work" "output/${work}_kf" "output/${work}_i2v"
   ok=1
 
@@ -110,7 +127,7 @@ while work_window; do
 
   # ── ③ 키프레임 ──
   for i in $(seq 1 "$N"); do
-    work_window || break
+    grace_ok || break
     ls output/${work}_kf/night_s${i}_*.png >/dev/null 2>&1 && continue
     # 강세 표시(*낱말*)는 그림 프롬프트에 들어가면 안 된다
     desc=$(python3 -c "
@@ -126,7 +143,7 @@ print(json.load(open('$NAR'))['sentences'][$i-1].replace('*',''))")
 
   # ── ④ 크롭 → I2V ──
   for i in $(seq 1 "$N"); do
-    work_window || break
+    grace_ok || break
     [ -s "output/${work}_i2v/night_s${i}_00001_.mp4" ] && continue
     src=$(ls output/${work}_kf/night_s${i}_*.png 2>/dev/null | head -1)
     [ -z "$src" ] && continue
