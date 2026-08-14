@@ -224,7 +224,7 @@ tail -f logs/night/$(TZ=Asia/Seoul date +%F).log
 
 ```bash
 venv/bin/python tests/test_spec.py          # 명세 대조 (docs/SPEC.md 의 값과 구현이 같은지)
-curl -s localhost:8010/api/health           # API
+venv/bin/python tests/test_api.py           # 인터페이스 확인 (백엔드 :8010 필요)
 cd admin && npx tsc --noEmit                # 프론트 타입
 ```
 
