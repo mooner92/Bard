@@ -306,7 +306,8 @@ PROMPT_LEAK = ["별표", "강세 표기", "종결어미", "문장 길이", "자�
                "해당 문장", "삭제합니다", "수정하겠", "다시 쓰겠", "근거 없는", "자료에 없",
                # 검증기 지적 메시지가 그대로 문장이 된 사고(실측: "어미 계열이 맞지 않고
                # 서술어가 없이 명사로 끝남" — 명사로 끝나서 계열 검사를 통과했다)
-               "어미 계열", "서술어", "명사로 끝", "계열이 맞지", "미해결 이유"]
+               "어미 계열", "서술어", "명사로 끝", "계열이 맞지", "미해결 이유",
+               "반전 표지", "유보 장치", "확인이 필요", "구체적 수치"]
 
 
 def leak_issues(sents):
@@ -314,6 +315,10 @@ def leak_issues(sents):
     out = []
     for i, s in enumerate(sents):
         hit = [w for w in PROMPT_LEAK if w in s]
+        # 검증 규칙 코드가 문장에 남은 사고(실측: "A8 S1~S2 어느 정도인지",
+        # "그런데 A6 중반에는 반전 표지가 없다")
+        if not hit and re.search(r"[ACHQX]\d|S\d\s*~", s):
+            hit = ["규칙 코드"]
         if hit:
             out.append((i, f"지시어 누출 '{hit[0]}' — 작품 내용으로 다시 써라"))
     return out
@@ -532,7 +537,10 @@ def main():
             # 수리가 "소설 날개에서 만날 수 있습니다"를 "확인할 수 있으니"로 바꿨다).
             if i == n - 1 and a.ending and not line.rstrip(".!? ").endswith(a.ending.rstrip(".!? ")):
                 continue
-            if LEN_MIN <= len(line) <= LEN_MAX and not fact_issues([line], facts):
+            # 길이·사실만 보면 검증기 메시지 되뇌임이 통과한다(실측). 누출·한국어·어미까지 본다.
+            if (LEN_MIN <= len(line) <= LEN_MAX and not fact_issues([line], facts)
+                    and not leak_issues([line])
+                    and not validate([line], "", banned, plan=[ENDING_PLAN[i]])):
                 sents[i] = line
                 print(f"[대조 S{i+1}] 교체됨: {line[:40]}", file=sys.stderr)
                 break
