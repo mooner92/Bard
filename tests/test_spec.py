@@ -130,6 +130,15 @@ if svc.exists():
     check("서비스가 v2 를 가리킴", "night_batch_v2.sh" in t)
     check("SIGTERM 을 정상 종료로", "SuccessExitStatus=SIGTERM" in t)
 
+section("공개 게이트 (SPEC §4)")
+sys.path.insert(0, str(BASE))
+from backend.main import _classify  # noqa: E402
+
+check("야간 산출물은 final 이 아니다", _classify("final_night.mp4")[0] == "night",
+      _classify("final_night.mp4")[0])
+check("승인본은 final", _classify("final_v3_2.mp4")[0] == "final")
+check("장면 클립은 scene", _classify("s3_00001_.mp4")[0] == "scene")
+
 # ---------- 5. 큐 형식 ----------
 section("큐 형식 (SPEC §6)")
 rows = [r.split("\t") for r in

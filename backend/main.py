@@ -177,6 +177,10 @@ def _classify(name: str) -> tuple[str, str]:
     ver = "v" + v.group(1).replace("_", ".") if v else "\ucd08\ud310"
     if "compressed" in name:
         ver += " (\uc555\ucd95)"
+    # 야간 배치 산출물은 사람이 승인하기 전이라 공개 페이지에 내보내지 않는다
+    # (SPEC §4). 관리자 화면에서는 "야간(승인 전)"으로 따로 보인다.
+    if name.startswith("final_night"):
+        return "night", ver
     return ("final" if name.startswith("final") else "other"), ver
 
 
@@ -196,7 +200,9 @@ def videos(work: str):
                 st.st_mtime, _dt.timezone.utc
             ).isoformat(timespec="seconds").replace("+00:00", "Z"),
         })
-    out.sort(key=lambda x: (x["kind"] != "final", x["updated"]))
+    # 승인본(final) → 야간 산출물(night) → 나머지 순
+    order = {"final": 0, "night": 1, "other": 2, "scene": 3}
+    out.sort(key=lambda x: (order.get(x["kind"], 9), x["updated"]))
     return {"videos": out}
 
 

@@ -76,7 +76,8 @@ export default function Admin() {
 
   const chars = draft.reduce((a, s) => a + s.length, 0)
   const dirty = !!sel && draft.join('') !== sel.sentences.join('')
-  const finals = videos.filter(v => v.kind === 'final')
+  // 야간 산출물(night)은 승인 전이지만 관리자에게는 보여야 한다
+  const finals = videos.filter(v => v.kind === 'final' || v.kind === 'night')
   const scenes = videos.filter(v => v.kind === 'scene')
 
   const Row = ({ w, big }: { w: Work; big?: boolean }) => (
@@ -241,7 +242,9 @@ export default function Admin() {
                               <span className="ph dark" /><span className="play sm">▶</span>
                             </button>
                             <figcaption>
-                              <span className="vname">{v.version}</span>
+                              <span className="vname">
+                                {v.version}{v.kind === 'night' ? ' · 야간(승인 전)' : ''}
+                              </span>
                               <span className="fine">{v.duration ?? '?'}초 · {(v.size / 1048576).toFixed(1)}MB</span>
                               <span className="fine">{fmtDate(v.updated)}</span>
                             </figcaption>

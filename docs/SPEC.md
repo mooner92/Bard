@@ -89,6 +89,9 @@
 | 야간 로그·요약 | `logs/night/<날짜>.log`, `logs/night/summary.tsv` |
 
 **자동 공개하지 않는다.** `deliverables/` 승격과 업로드는 사람이 승인한다.
+API 는 파일명으로 이를 구분한다 — `final_night*` 는 `kind: "night"`(승인 전),
+그 밖의 `final*` 은 `kind: "final"`(승인본). 공개 페이지(`/`)는 `final` 만 보여주고,
+관리자 페이지는 둘 다 보여주되 야간분에 "야간(승인 전)" 라벨을 붙인다.
 
 ## 5. 야간 자동화 시간 정책
 

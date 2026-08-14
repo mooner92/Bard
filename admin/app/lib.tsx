@@ -16,7 +16,7 @@ export type Work = {
 }
 export type Video = {
   name: string; size: number; duration: number | null
-  kind: 'final' | 'scene' | 'other'; version: string; updated: string
+  kind: 'final' | 'night' | 'scene' | 'other'; version: string; updated: string
 }
 export type Book = {
   rank: number; title: string; author: string; isbn: string; loans: number; holding: string
