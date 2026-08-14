@@ -17,6 +17,7 @@ GPU는 **Quadro RTX 6000 24GB ×2 (Turing, sm_75)** — 이 하드웨어의 제�
 
 > [!IMPORTANT]
 > 권위 순서는 **[`docs/SPEC.md`](./docs/SPEC.md)(v1 합격 기준) → [`docs/PLAN.md`](./docs/PLAN.md)(로드맵·의사결정) → [`docs/NARRATIVE.md`](./docs/NARRATIVE.md)(서사 규칙의 근거) → [`docs/PIPELINE.md`](./docs/PIPELINE.md)(실행 절차)** 이다.
+> 릴리스 단위 변경은 [`CHANGELOG.md`](./CHANGELOG.md).
 > 이 README는 **지도**일 뿐 진실원천이 아니다. 세션 인수인계는 [`HANDOFF.md`](./HANDOFF.md).
 
 **바로 가기** — 운영자: [지금 상태](#지금-상태) · [문제가 생겼을 때](#문제가-생겼을-때--실제로-겪은-것들) · [무엇이 되고 무엇이 안 되나](#무엇이-되고-무엇이-안-되나) / 개발자·에이전트: [시작하기](#시작하기) · [검증 게이트](#검증-게이트) · [문서 지도](#문서-지도)
