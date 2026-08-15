@@ -1,0 +1,59 @@
+{
+ "logline": "어느 아침 몸이 달라진 채 깨어난 외판원이, 닫힌 방문 하나를 사이에 두고 가족과 멀어져 간다.",
+ "destination": "거실로 통하는 방문 — 그가 마지막으로 넘어서게 되는 자리",
+ "protagonist": "가족을 먹여 살리던 스물다섯 살 외판원",
+ "setting": "1910년대 프라하의 낡은 아파트, 좁은 방과 긴 복도",
+ "anchor": "a cramped 1910s Prague bedroom with heavy dark furniture, a narrow bed and one tall shuttered window",
+ "palette": "muted olive and ash grey, weak grey daylight, deep furniture shadow",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "외판원이 아침 햇살에 눈을 뜬다.",
+   "visual": "morning light falling across a rumpled bed in a dim cramped bedroom, blanket pushed aside",
+   "motion": "light creeps across the blanket, dust turns in the beam, the sheet slides"
+  },
+  {
+   "n": 2,
+   "beat": "그는 제 몸을 일으키지 못하고 버둥거린다.",
+   "visual": "an overturned blanket heaving on a bed, bedframe rattling, slippers knocked over on the floor",
+   "motion": "the blanket heaves and drops, the bedframe shudders, a slipper tips over"
+  },
+  {
+   "n": 3,
+   "beat": "문밖에서 가족들이 그의 이름을 부른다.",
+   "visual": "three shadowed figures standing in a corridor outside a closed bedroom door, hands raised to knock",
+   "motion": "a hand raps the panel, shadows shift under the door, the handle turns and stops"
+  },
+  {
+   "n": 4,
+   "beat": "회사에서 온 지배인이 문을 두드린다.",
+   "visual": "a stout man in a bowler hat and overcoat waiting stiffly in a narrow hallway, hat brim low",
+   "motion": "he shifts his weight, his hat brim dips, hallway lamp flickers"
+  },
+  {
+   "n": 5,
+   "beat": "문이 열리자 사람들이 뒤로 물러선다.",
+   "visual": "a bedroom door swung open onto darkness, figures backing away down the corridor, chairs knocked aside",
+   "motion": "the door swings wide, figures stumble backward, a chair topples"
+  },
+  {
+   "n": 6,
+   "beat": "여동생이 거실에서 바이올린을 켠다.",
+   "visual": "a young woman playing a violin in a lamplit sitting room, three seated lodgers watching",
+   "motion": "the bow draws across the strings, lamplight wavers, curtains stir"
+  },
+  {
+   "n": 7,
+   "beat": "그는 그 소리에 이끌려 방을 나선다.",
+   "visual": "a low dark shape edging out of a bedroom doorway into a lit sitting room, long shadow ahead of it",
+   "motion": "the shadow creeps forward across the floor, lamplight tilts, the music continues"
+  },
+  {
+   "n": 8,
+   "beat": "그를 본 가족은 어떤 얼굴을 하게 될까?",
+   "visual": "a violin lowered mid-note, three faces turned toward an open doorway, sitting room lamp bright",
+   "motion": "the bow stops, heads turn together, the lamp flame steadies"
+  }
+ ],
+ "withheld": "그가 방에서 홀로 맞는 마지막과, 그 뒤 가족이 나들이를 떠나는 대목"
+}

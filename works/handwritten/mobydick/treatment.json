@@ -1,0 +1,59 @@
+{
+ "logline": "고래를 잡으러 배에 오른 젊은 선원이, 선장이 마스트에 박은 금화 하나에서 이 항해의 진짜 목적을 본다.",
+ "destination": "마스트에 박힌 금화 — 흰 고래를 먼저 본 자에게 주어지는 것",
+ "protagonist": "처음 포경선에 오른 젊은 선원",
+ "setting": "19세기 중반 낸터킷 항구와 태평양 한복판의 포경선",
+ "anchor": "a young sailor in a rough wool coat and knit cap aboard a wooden whaling ship, weathered deck planks",
+ "palette": "deep indigo sea, bone white sail, oil-lamp amber below deck, cold sky grey",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "젊은 선원이 항구에서 배 위로 올라선다.",
+   "visual": "a young sailor climbing a gangplank onto a whaling ship, barrels and coiled rope on the quay",
+   "motion": "the gangplank flexes under him, gulls scatter, rigging sways"
+  },
+  {
+   "n": 2,
+   "beat": "선장이 갑판에 나와 금화 한 닢을 못박는다.",
+   "visual": "a tall grim captain hammering a gold coin into a ship's mast, crew ringed around him",
+   "motion": "the hammer strikes twice, the coin flashes, the crew leans in"
+  },
+  {
+   "n": 3,
+   "beat": "선원들이 그 금화를 말없이 올려다본다.",
+   "visual": "a ring of weathered faces tilted upward toward a coin nailed high on a mast, sails above",
+   "motion": "heads tilt back together, the coin glints as the ship rolls, sails snap"
+  },
+  {
+   "n": 4,
+   "beat": "배는 뭍이 보이지 않는 바다로 나아간다.",
+   "visual": "a whaling ship under full sail on open ocean, no land in sight, long swell running",
+   "motion": "the hull rides over a swell, spray bursts at the bow, sails fill"
+  },
+  {
+   "n": 5,
+   "beat": "수평선에서 거대한 물기둥이 솟구친다.",
+   "visual": "a tall white spout rising from a dark sea at the horizon, a lookout pointing from the masthead",
+   "motion": "the spout climbs and drifts sideways, the lookout's arm shoots out, waves chop"
+  },
+  {
+   "n": 6,
+   "beat": "선장은 밤마다 해도를 펼쳐 놓고 앉는다.",
+   "visual": "a grim captain bent over charts by a swinging oil lamp in a cramped cabin, dividers in hand",
+   "motion": "the lamp swings with the swell, dividers step across the chart, shadows sweep"
+  },
+  {
+   "n": 7,
+   "beat": "세 척의 보트가 바다 위로 내려진다.",
+   "visual": "three whaleboats being lowered on ropes from a ship's side into heavy sea, oars ready",
+   "motion": "boats drop jerkily on the falls, water surges up, oars swing out"
+  },
+  {
+   "n": 8,
+   "beat": "그 흰 등을 마주하면 무엇이 남게 될까?",
+   "visual": "a vast pale back breaking the surface far ahead of a small boat, spray hanging in cold air",
+   "motion": "the pale mass rolls up through the water, spray drifts, the boat pitches"
+  }
+ ],
+ "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막"
+}

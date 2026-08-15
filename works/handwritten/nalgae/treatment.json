@@ -1,0 +1,59 @@
+{
+ "logline": "아내가 준 은화를 만지작거리며 방에만 있던 남자가, 어느 날 층계를 올라 도시의 지붕 위에 선다.",
+ "destination": "백화점 옥상 — 그가 처음으로 도시를 내려다보는 자리",
+ "protagonist": "아내에게 얹혀 사는 무기력한 젊은 지식인",
+ "setting": "1930년대 경성의 셋방 골목과 백화점, 종일 어두운 아랫방",
+ "anchor": "a gaunt young man in a rumpled white shirt and worn trousers, unkempt hair, 1930s Gyeongseong back room",
+ "palette": "sepia gloom indoors, cold paper-window light, hazy city grey outside",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "젊은 남자가 어두운 아랫방에서 눈을 뜬다.",
+   "visual": "a young man lying awake on a floor mat in a dim windowless back room, paper door faintly lit",
+   "motion": "the paper door glows and dims, his hand shifts, dust hangs in the air"
+  },
+  {
+   "n": 2,
+   "beat": "윗방에서 낯선 웃음소리가 건너온다.",
+   "visual": "a lit paper partition seen from a dark room, two silhouettes moving behind it",
+   "motion": "silhouettes shift behind the paper, lamplight wavers, the partition rattles"
+  },
+  {
+   "n": 3,
+   "beat": "그는 손바닥의 은화를 오래 만지작거린다.",
+   "visual": "a thin hand turning small silver coins over on a floor mat in weak light",
+   "motion": "coins turn between fingers and clink, light slides over them"
+  },
+  {
+   "n": 4,
+   "beat": "밤이 되자 그는 골목으로 걸어 나간다.",
+   "visual": "a gaunt young man walking a narrow alley of tin roofs at night, single bare bulb overhead",
+   "motion": "the bulb swings, his shadow stretches and shrinks, dust lifts"
+  },
+  {
+   "n": 5,
+   "beat": "비를 맞고 돌아와 그는 약을 삼킨다.",
+   "visual": "a soaked young man sitting on a floor mat holding a small paper packet, water pooling around him",
+   "motion": "water drips from his hair, the packet unfolds, his shoulders shake"
+  },
+  {
+   "n": 6,
+   "beat": "그는 낮이고 밤이고 잠에서 깨지 못한다.",
+   "visual": "a young man asleep face down on a floor mat, sunlight and lamplight alternating on the wall",
+   "motion": "light on the wall brightens then dims, his breathing lifts his back"
+  },
+  {
+   "n": 7,
+   "beat": "어느 날 그는 층계를 올라 옥상에 선다.",
+   "visual": "a young man standing at a department store rooftop parapet above a hazy city, wind in his shirt",
+   "motion": "his shirt snaps in the wind, city haze drifts, his hands grip the parapet"
+  },
+  {
+   "n": 8,
+   "beat": "겨드랑이가 근질거리면 그는 어떻게 될까?",
+   "visual": "a young man on a rooftop with both arms half raised against a wide pale sky, city small below",
+   "motion": "his arms rise, wind pushes his sleeves back, clouds race past behind him"
+  }
+ ],
+ "withheld": "그가 날개를 펴 보고 싶다고 외치며 끝나는 마지막 대목"
+}

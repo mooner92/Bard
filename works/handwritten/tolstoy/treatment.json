@@ -1,0 +1,59 @@
+{
+ "logline": "빈손으로 돌아오던 가난한 구두장이가 길가에서 벌거벗은 사람을 보고, 외투를 벗어 덮어 준다.",
+ "destination": "구두장이의 집 문턱 — 낯선 이가 세 번째로 웃게 되는 자리",
+ "protagonist": "외투 한 벌을 나눠 입는 가난한 시골 구두장이",
+ "setting": "19세기 러시아의 눈 덮인 시골 마을과 낮은 흙집 작업방",
+ "anchor": "a stooped bearded cobbler in a patched sheepskin coat and felt boots, snowbound Russian village",
+ "palette": "snow blue-white, ember orange from a small stove, weathered timber brown",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "구두장이가 빈손으로 눈길을 걸어 돌아온다.",
+   "visual": "a stooped cobbler walking an empty snow road at dusk, low cottages far behind him",
+   "motion": "snow crunches under his boots, breath clouds, wind lifts loose snow"
+  },
+  {
+   "n": 2,
+   "beat": "교회 담 뒤에서 벌거벗은 남자를 발견한다.",
+   "visual": "a bare-shouldered figure huddled against a stone chapel wall in snow, cobbler halted before him",
+   "motion": "the huddled figure shivers, the cobbler stops mid-step, snow drifts past"
+  },
+  {
+   "n": 3,
+   "beat": "그는 제 외투를 벗어 그에게 덮어 준다.",
+   "visual": "a cobbler draping a heavy sheepskin coat over a seated stranger's shoulders in deep snow",
+   "motion": "the coat settles over the shoulders, snow slides off it, both breaths steam"
+  },
+  {
+   "n": 4,
+   "beat": "문 앞에서 아내가 언성을 높인다.",
+   "visual": "a woman standing in a lit cottage doorway with arms folded, two men waiting in the snow outside",
+   "motion": "lamplight spills past her, her arm gestures sharply, snow blows across the sill"
+  },
+  {
+   "n": 5,
+   "beat": "낯선 남자가 처음으로 살며시 웃는다.",
+   "visual": "a quiet stranger seated by a small iron stove, faint smile forming, firelight on his face",
+   "motion": "firelight jumps across his face, his mouth curves, steam rises from a cup"
+  },
+  {
+   "n": 6,
+   "beat": "그는 하루 만에 구두 짓는 법을 익힌다.",
+   "visual": "a stranger stitching a boot at a low workbench with practiced hands, cobbler watching astonished",
+   "motion": "the awl pushes through leather, thread pulls tight, the cobbler leans closer"
+  },
+  {
+   "n": 7,
+   "beat": "부자가 와서 일 년 신을 장화를 주문한다.",
+   "visual": "a fur-coated gentleman filling a low doorway, leather held out, two workmen looking up from a bench",
+   "motion": "the fur coat brushes the doorframe, leather is tossed onto the bench, dust lifts"
+  },
+  {
+   "n": 8,
+   "beat": "그가 세 번째로 웃을 때 무엇을 알게 될까?",
+   "visual": "a stranger looking up from a workbench toward a woman holding two small children in a doorway",
+   "motion": "his head lifts, the children shift in her arms, lamplight steadies"
+  }
+ ],
+ "withheld": "낯선 이의 정체와 그가 배워야 했던 세 가지 진리"
+}
