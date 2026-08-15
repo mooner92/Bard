@@ -24,6 +24,7 @@ import re
 import subprocess
 import sys
 from datetime import datetime
+import pathlib
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
@@ -74,6 +75,14 @@ def publish(work: str) -> str:
     d = DEST / cat / title
     d.mkdir(parents=True, exist_ok=True)
     dst = d / f"{title}_{sec}초_{day}.mp4"
+    # 다시 만든 작품은 길이·날짜가 달라 새 이름으로 붙는다. 그대로 두면 같은 작품이
+    # 공개 목록에 두 번 뜬다(실측: 사람은 무엇으로 사는가 36초·52초가 나란히 남았다).
+    # 지우지는 않고 보류함으로 물린다 — 사람이 되돌릴 수 있어야 한다.
+    hold = pathlib.Path("/data/bard/video/_보류")
+    for old_file in d.glob(f"{title}_*초_*.mp4"):
+        if old_file.name != dst.name:
+            hold.mkdir(parents=True, exist_ok=True)
+            old_file.rename(hold / old_file.name)
     if dst.exists():
         dst.unlink()
     try:
