@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "어느 날 그는 층계를 올라 옥상에 선다.",
-   "visual": "a young man standing at a department store rooftop parapet above a hazy city, wind in his shirt",
-   "motion": "his shirt snaps in the wind, city haze drifts, his hands grip the parapet"
-  },
-  {
-   "n": 8,
    "beat": "겨드랑이가 근질거리면 그는 어떻게 될까?",
    "visual": "a young man on a rooftop with both arms half raised against a wide pale sky, city small below",
    "motion": "his arms rise, wind pushes his sleeves back, clouds race past behind him"
+  },
+  {
+   "n": 8,
+   "beat": "옥상 난간 위로 새 그림자가 지나간다.",
+   "visual": "a bird's shadow crossing an empty rooftop parapet above a hazy city, sky wide and pale",
+   "motion": "the shadow sweeps across the concrete, haze drifts, light widens"
   }
  ],
  "withheld": "그가 날개를 펴 보고 싶다고 외치며 끝나는 마지막 대목"

@@ -38,21 +38,21 @@
   },
   {
    "n": 6,
-   "beat": "여동생이 거실에서 바이올린을 켠다.",
-   "visual": "a young woman playing a violin in a lamplit sitting room, three seated lodgers watching",
-   "motion": "the bow draws across the strings, lamplight wavers, curtains stir"
+   "beat": "그는 방에 갇힌 채 문틈으로 거실을 내다본다.",
+   "visual": "a narrow band of lamplight through a barely open bedroom door, dark shape watching from inside",
+   "motion": "the band of light narrows, the shape shifts in the dark, dust turns"
   },
   {
    "n": 7,
-   "beat": "그는 그 소리에 이끌려 방을 나선다.",
-   "visual": "a low dark shape edging out of a bedroom doorway into a lit sitting room, long shadow ahead of it",
-   "motion": "the shadow creeps forward across the floor, lamplight tilts, the music continues"
-  },
-  {
-   "n": 8,
    "beat": "그를 본 가족은 어떤 얼굴을 하게 될까?",
    "visual": "a violin lowered mid-note, three faces turned toward an open doorway, sitting room lamp bright",
    "motion": "the bow stops, heads turn together, the lamp flame steadies"
+  },
+  {
+   "n": 8,
+   "beat": "빈 방에 창문이 열려 있다.",
+   "visual": "an empty bedroom with the window standing wide open, curtain lifting, bed stripped bare",
+   "motion": "the curtain billows inward, light spreads across the floor, dust turns"
   }
  ],
  "withheld": "그가 방에서 홀로 맞는 마지막과, 그 뒤 가족이 나들이를 떠나는 대목"

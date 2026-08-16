@@ -32,27 +32,27 @@
   },
   {
    "n": 5,
-   "beat": "사슬을 끌고 온 형상이 침대 곁에 선다.",
-   "visual": "a translucent figure wrapped in heavy chains standing beside a curtained canopy bed at night",
-   "motion": "chains drag and rattle, bed curtains billow, candle flame flattens"
+   "beat": "어둠 속에서 사슬 끄는 소리가 다가온다.",
+   "visual": "heavy chains dragging along a dark townhouse corridor, candle guttering on a side table",
+   "motion": "chains drag and rattle closer, the candle gutters, shadows swing"
   },
   {
    "n": 6,
-   "beat": "첫 손님이 그의 어린 시절 교실을 보여 준다.",
-   "visual": "an elderly man watching a small boy alone at a desk in a cold empty schoolroom, snow at the window",
-   "motion": "the boy's shoulders shake, the old man steps closer, snow drifts past the pane"
+   "beat": "형상이 침대 곁에서 지난날을 펼쳐 보인다.",
+   "visual": "a translucent chained figure beside a curtained bed, a faint scene glowing in the air before it",
+   "motion": "the faint scene brightens and wavers, bed curtains billow, chains shift"
   },
   {
    "n": 7,
-   "beat": "두 번째 손님이 가난한 식탁의 김을 걷어 준다.",
-   "visual": "a poor family gathered around a small steaming dish on a bare table, an elderly man watching from shadow",
-   "motion": "steam rises off the dish, a child leans in, firelight jumps"
-  },
-  {
-   "n": 8,
    "beat": "세 번째 손님이 가리키는 곳엔 무엇이 있을까?",
    "visual": "a hooded silhouette raising one arm toward an iron churchyard gate at night, elderly man frozen behind",
    "motion": "the hooded arm lifts, fog rolls across the gate, the old man's coat flaps"
+  },
+  {
+   "n": 8,
+   "beat": "눈 내리는 창가에 촛불 하나가 켜진다.",
+   "visual": "a single candle burning in a frosted window as snow falls outside a dark townhouse",
+   "motion": "the candle steadies and brightens, snow drifts past the pane, frost creeps"
   }
  ],
  "withheld": "그가 무덤에서 자기 이름을 확인하고 사람이 달라지는 결말"

@@ -32,27 +32,27 @@
   },
   {
    "n": 5,
-   "beat": "의사는 돌무더기 오두막에서 인기척을 찾는다.",
-   "visual": "a doctor stooping into a low stone hut on the open moor, ash and a folded blanket inside",
-   "motion": "ash lifts from the cold fire, the blanket shifts, light enters behind him"
+   "beat": "늪가에서 조랑말 한 마리가 가라앉는다.",
+   "visual": "a moor pony sinking into black bog water, reeds parting around it, empty ridge beyond",
+   "motion": "bog water closes over the reeds, birds burst upward, mist creeps in"
   },
   {
    "n": 6,
-   "beat": "늪가에서 조랑말 한 마리가 가라앉는다.",
-   "visual": "a moor pony sinking into black bog water, reeds parting around it, two men running from a ridge",
-   "motion": "bog water closes over the reeds, the men run downhill, birds burst upward"
+   "beat": "의사가 돌무더기 오두막에서 인기척을 찾는다.",
+   "visual": "a doctor stooping into a low stone hut on the open moor, cold ash and a folded blanket inside",
+   "motion": "ash lifts from the dead fire, the blanket shifts, light enters behind him"
   },
   {
    "n": 7,
-   "beat": "안개 속에서 커다란 형체가 달려 나온다.",
-   "visual": "a huge dark hound shape bursting out of thick fog across the moor, faint glow along its jaws",
-   "motion": "the shape charges out of the fog, heather flattens, lantern beams jerk sideways"
-  },
-  {
-   "n": 8,
    "beat": "그 짐승은 정말 이 세상의 것일까?",
    "visual": "a doctor standing with a raised lantern in swirling fog, a low shape circling at the light's edge",
    "motion": "the lantern arm rises, fog wheels around him, the shape crosses the beam"
+  },
+  {
+   "n": 8,
+   "beat": "안개가 걷힌 황무지에 돌무더기만 남는다.",
+   "visual": "bare granite tors standing on an empty moor as fog lifts at dawn, heather stretching to the horizon",
+   "motion": "fog thins and pulls apart, heather bends in one slow wave, light spreads"
   }
  ],
  "withheld": "짐승의 정체와 부린 자가 늪에서 맞는 마지막"

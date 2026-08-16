@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "그는 더 일찍 일어나 무너진 돌을 다시 나른다.",
-   "visual": "a cart horse hauling stones in darkness before dawn, head low, frost whitening his flanks",
-   "motion": "the horse leans into the harness, frost breath billows, stones shift on the sledge"
-  },
-  {
-   "n": 8,
    "beat": "그가 본채 창을 들여다본다면 무엇이 보일까?",
    "visual": "a cart horse standing outside a lit farmhouse window at night, warm light spilling onto wet stone",
    "motion": "the horse steps closer to the glass, light flickers, rain streaks the pane"
+  },
+  {
+   "n": 8,
+   "beat": "빈 마당에 풍차 그림자가 길게 눕는다.",
+   "visual": "the long shadow of a half-built stone tower falling across an empty farmyard at dusk",
+   "motion": "the shadow creeps across the mud, a gate swings once, clouds move"
   }
  ],
  "withheld": "도축장으로 향하는 마차와, 마지막 연회의 정체"

@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "세 사람이 서로를 보다 문고리를 잡는다.",
-   "visual": "a girl's hand closing on a brass door handle, two other girls frozen behind her shoulder",
-   "motion": "her fingers tighten on the handle, the others lean in, light widens at the seam"
-  },
-  {
-   "n": 8,
    "beat": "그 문이 열리면 무엇이 보일까?",
    "visual": "a door standing ajar with warm lamplight spilling into a dark corridor, three girls silhouetted",
    "motion": "the door swings inward, light floods the corridor, their shadows leap back"
+  },
+  {
+   "n": 8,
+   "beat": "새벽 복도 끝에 문 하나가 열려 있다.",
+   "visual": "a single door standing ajar at the end of an empty dormitory corridor at dawn, pale light beyond",
+   "motion": "the door drifts a hand's width, dawn light widens on the floor, dust turns"
   }
  ],
  "withheld": "혼자였다는 것과 빼앗은 편지로 벌이던 연인 놀이"

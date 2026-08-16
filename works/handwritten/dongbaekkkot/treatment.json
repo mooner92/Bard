@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "노란 동백꽃 덤불이 산길을 온통 덮는다.",
-   "visual": "a hillside path swallowed by dense yellow blossom thickets, two small figures approaching along it",
-   "motion": "blossoms shiver along the whole slope, petals drop, the path narrows ahead"
-  },
-  {
-   "n": 8,
    "beat": "그 덤불 속에서 두 아이는 어떻게 될까?",
    "visual": "a teenage boy and a girl standing very close at the edge of a yellow blossom thicket, slope falling away",
    "motion": "the thicket sways around them, her hand rises, petals scatter between"
+  },
+  {
+   "n": 8,
+   "beat": "노란 꽃 덤불만 산길에 남아 흔들린다.",
+   "visual": "a hillside path swallowed by yellow blossom thickets with no one on it, late spring light",
+   "motion": "the whole thicket sways in one slow wave, petals drop, the path stays empty"
   }
  ],
  "withheld": "두 아이가 함께 넘어지며 마음이 맞닿는 마지막 대목"

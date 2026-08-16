@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "여름 끝, 호텔 방에서 목소리가 높아진다.",
-   "visual": "three figures standing apart in a stifling hotel suite, fan turning, city heat outside the window",
-   "motion": "the ceiling fan turns hard, a curtain snaps, one figure steps forward"
-  },
-  {
-   "n": 8,
    "beat": "그 초록 불빛은 그에게 무엇을 약속했을까?",
    "visual": "a small green dock light burning across empty black water at dawn, lawn deserted in the foreground",
    "motion": "the green light dims as dawn spreads, mist crosses the water, grass stills"
+  },
+  {
+   "n": 8,
+   "beat": "새벽 물 위로 초록 불빛이 꺼져 간다.",
+   "visual": "a small green dock light dimming across grey water at dawn, the far lawn empty",
+   "motion": "the green light fades as dawn spreads, mist crosses the water, grass stills"
   }
  ],
  "withheld": "누명과 수영장에서 맞는 최후, 텅 빈 장례식"

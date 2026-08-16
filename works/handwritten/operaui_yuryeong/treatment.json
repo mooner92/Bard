@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "지하 호수 위로 작은 배 하나가 미끄러진다.",
-   "visual": "a small boat crossing a still black underground lake lit by scattered candles on stone ledges",
-   "motion": "the boat glides forward, ripples spread wide, candle reflections break apart"
-  },
-  {
-   "n": 8,
    "beat": "그 가면 아래에는 무엇이 있을까?",
    "visual": "a white half mask turned toward a young woman across a candlelit underground chamber",
    "motion": "her hand rises toward the mask, candles gutter together, water laps stone"
+  },
+  {
+   "n": 8,
+   "beat": "지하 호수에 촛불 하나가 흔들린다.",
+   "visual": "a single candle guttering on a stone ledge above still black underground water, boat gone",
+   "motion": "the flame leans and recovers, reflections break apart, water laps stone"
   }
  ],
  "withheld": "가면 아래 얼굴과, 놓아주며 맞는 마지막"

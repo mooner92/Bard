@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "부자가 와서 일 년 신을 장화를 주문한다.",
-   "visual": "a fur-coated gentleman filling a low doorway, leather held out, two workmen looking up from a bench",
-   "motion": "the fur coat brushes the doorframe, leather is tossed onto the bench, dust lifts"
-  },
-  {
-   "n": 8,
    "beat": "그가 세 번째로 웃을 때 무엇을 알게 될까?",
    "visual": "a stranger looking up from a workbench toward a woman holding two small children in a doorway",
    "motion": "his head lifts, the children shift in her arms, lamplight steadies"
+  },
+  {
+   "n": 8,
+   "beat": "눈 덮인 마을에 창불 하나가 켜져 있다.",
+   "visual": "one lit cottage window in a snowbound village at night, snow deep on the low roofs",
+   "motion": "snow falls steadily, the window glow warms, smoke rises from the chimney"
   }
  ],
  "withheld": "낯선 이의 정체와 그가 배워야 했던 세 가지 진리"

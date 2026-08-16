@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "젊은이가 그를 업고 개울을 건넌다.",
-   "visual": "a young man carrying an elderly peddler on his back across a shallow stream, water at his shins",
-   "motion": "water ripples around his legs, the old man's arms tighten, the stream glitters"
-  },
-  {
-   "n": 8,
    "beat": "그가 젊은이의 왼손을 본다면 무엇을 알게 될까?",
    "visual": "a young man's left hand gripping a rein in moonlight, an elderly face turned toward it behind",
    "motion": "the rein shifts in the left hand, the old man's eyes widen, moonlight steadies"
+  },
+  {
+   "n": 8,
+   "beat": "달빛 아래 메밀밭만 하얗게 남는다.",
+   "visual": "a vast buckwheat field white under a full moon, the narrow path through it empty",
+   "motion": "the field ripples in one slow wave, petals lift, the moon holds still"
   }
  ],
  "withheld": "동행이 물방앗간 여인의 아들일 수 있다는 암시"

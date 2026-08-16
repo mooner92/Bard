@@ -38,21 +38,21 @@
   },
   {
    "n": 6,
-   "beat": "오래전 두 아이가 그 언덕을 함께 달렸다.",
-   "visual": "two children running across an open heather moor under fast clouds, stone house small behind them",
-   "motion": "heather bends in waves, the children run, cloud shadows race the ground"
+   "beat": "그가 어둠에 대고 누군가의 이름을 부른다.",
+   "visual": "a dark-haired man leaning far out of an open window into black moorland night, snow blasting past",
+   "motion": "snow drives past him, his coat whips, his shoulders heave with each shout"
   },
   {
    "n": 7,
-   "beat": "여자가 다른 집으로 떠나던 날 그가 사라진다.",
-   "visual": "a young woman in fine clothes stepping into a carriage, a dark figure walking away over the moor",
-   "motion": "the carriage lurches forward, the figure recedes, wind flattens the grass"
-  },
-  {
-   "n": 8,
    "beat": "그가 돌아온다면 이 집은 어떻게 될까?",
    "visual": "a stone farmhouse on a bare ridge at dusk, one lit window, a figure standing at the gate below",
    "motion": "the figure steps toward the gate, the window light steadies, clouds close overhead"
+  },
+  {
+   "n": 8,
+   "beat": "언덕 위 돌집 창에 불이 하나 남는다.",
+   "visual": "one lit window in a stone farmhouse on a bare ridge at night, moorland black around it",
+   "motion": "the window light steadies, heather bends in the wind, clouds race"
   }
  ],
  "withheld": "두 집안을 대를 이어 무너뜨리고 언덕에 나란히 묻히는 마지막"

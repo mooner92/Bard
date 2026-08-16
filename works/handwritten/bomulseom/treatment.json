@@ -38,21 +38,21 @@
   },
   {
    "n": 6,
-   "beat": "외다리 요리사가 소년의 어깨에 손을 얹는다.",
-   "visual": "a one-legged cook with a crutch resting a broad hand on a boy's shoulder at a ship's rail",
-   "motion": "the hand settles heavily, the crutch shifts, the boy goes still"
+   "beat": "소년이 사과통 안에서 선원들 말을 엿듣는다.",
+   "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' boots passing through the gap",
+   "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
   },
   {
    "n": 7,
-   "beat": "섬에 오른 그들이 표시된 자리를 파 내려간다.",
-   "visual": "sailors digging a wide pit in pale sand under palms, a boy standing at the rim watching",
-   "motion": "sand flies from the shovels, the pit deepens, palm fronds thrash overhead"
-  },
-  {
-   "n": 8,
    "beat": "그 구덩이 안에는 무엇이 있을까?",
    "visual": "an open sandy pit with a broken plank at the bottom, sailors' faces ringed above it",
    "motion": "sand slides down the pit wall, faces lean in together, shadows drop inside"
+  },
+  {
+   "n": 8,
+   "beat": "모래 위에 빈 궤짝 하나가 열려 있다.",
+   "visual": "an empty wooden chest lying open on pale sand, palm shadows falling across it, sea beyond",
+   "motion": "palm shadows sway over the chest, sand trickles from its rim, surf rolls in"
   }
  ],
  "withheld": "구덩이가 이미 비어 있다는 것과 요리사의 도주"

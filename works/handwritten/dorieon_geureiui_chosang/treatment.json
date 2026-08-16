@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "오랜 친구가 그 다락으로 올라간다.",
-   "visual": "an older man climbing a narrow attic stair with a lamp, a cloth-draped frame waiting in the gloom",
-   "motion": "his lamp swings up the stairwell, the draped cloth stirs, dust lifts"
-  },
-  {
-   "n": 8,
    "beat": "그 천을 걷으면 무엇이 나타날까?",
    "visual": "a hand gripping the edge of a dust sheet over a tall frame, lamp glow behind, attic dark around",
    "motion": "the sheet begins to lift, lamplight swings, dust pours off the fabric"
+  },
+  {
+   "n": 8,
+   "beat": "다락 문틈으로 빛 한 줄기가 새어 나온다.",
+   "visual": "a thin line of light escaping under a locked attic door in a dark stairwell, dust in the air",
+   "motion": "the light under the door flickers once, dust turns in it, the stair stays black"
   }
  ],
  "withheld": "캔버스가 죄를 대신 늙어 왔다는 것과 칼을 든 마지막 대목"

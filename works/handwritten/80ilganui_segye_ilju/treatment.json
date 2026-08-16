@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "태평양 위에서 그가 배의 목재를 태운다.",
-   "visual": "crewmen feeding cabin timbers into a ship's furnace, a gentleman watching the flames",
-   "motion": "timbers are shoved into the fire, sparks rush up the stack, the deck shudders"
-  },
-  {
-   "n": 8,
    "beat": "그가 클럽 문을 여든 날째에 열 수 있을까?",
    "visual": "a gentleman running up wide stone club steps at dusk, doorway lit above him",
    "motion": "his feet pound the steps, the door swings ahead, gaslight flares along the street"
+  },
+  {
+   "n": 8,
+   "beat": "런던 클럽 난롯가에 빈 안락의자가 놓여 있다.",
+   "visual": "an empty leather club armchair beside a dying fire, a pocket watch left open on the side table",
+   "motion": "embers settle in the grate, the watch hand ticks, firelight dims"
   }
  ],
  "withheld": "동쪽으로 돌아 하루를 벌었다는 것과 내기의 승리"

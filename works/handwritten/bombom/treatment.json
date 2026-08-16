@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "점순이가 그를 흘겨보며 무어라 쏘아붙인다.",
-   "visual": "a girl glaring over her shoulder at a young farmhand across a sunlit yard, laundry lines between them",
-   "motion": "laundry snaps in the wind, her head turns sharply, he steps back"
-  },
-  {
-   "n": 8,
    "beat": "그는 내일 아침 장인 앞에 설 수 있을까?",
    "visual": "a young farmhand sitting alone on a doorsill at dusk, the older man's silhouette in the lit room behind",
    "motion": "lamplight brightens behind him, his knee bounces, evening insects streak past"
+  },
+  {
+   "n": 8,
+   "beat": "빈 마당의 말뚝 위로 아침 볕이 든다.",
+   "visual": "morning sunlight falling on a wooden stake in an empty farm yard, chickens gone, straw scattered",
+   "motion": "sunlight creeps up the stake, straw lifts in a breeze, shadow shortens"
   }
  ],
  "withheld": "이듬해 봄까지도 성례가 미뤄지고 장인과 한바탕 붙게 되는 결말"

@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "방 안이 너무 고요해 그는 문을 밀어 본다.",
-   "visual": "a man pushing a paper door open a hand's width, dark still room beyond, bowl held at his chest",
-   "motion": "the door slides open a crack, nothing moves inside, his breath stops"
-  },
-  {
-   "n": 8,
    "beat": "그가 들고 있던 그릇은 어떻게 될까?",
    "visual": "a covered soup bowl tilting in a man's hands at a dark doorway, faint light on the floor mat",
    "motion": "the bowl tips forward, lid slides, his knees begin to give"
+  },
+  {
+   "n": 8,
+   "beat": "빗속 골목에 인력거 한 대가 서 있다.",
+   "visual": "an empty two-wheeled rickshaw standing in a rainy alley under a gaslight, shafts down",
+   "motion": "rain streaks past the lamp, a wheel turns once, puddles ripple"
   }
  ],
  "withheld": "방 안에서 기다리던 사람이 이미 숨을 거두었다는 것"

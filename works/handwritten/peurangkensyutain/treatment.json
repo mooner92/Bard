@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "날이 밝아 돌아오니 실험대가 비어 있다.",
-   "visual": "an empty workbench with a crumpled sheet in morning light, attic window standing wide open",
-   "motion": "the open window swings, the sheet lifts at one corner, dust turns in daylight"
-  },
-  {
-   "n": 8,
    "beat": "그것이 그를 다시 찾아온다면 무엇을 요구할까?",
    "visual": "a huge shadow stretching across a snowy mountain slope toward a small distant figure below",
    "motion": "the shadow lengthens across the snow, wind scours the ridge, the figure turns"
+  },
+  {
+   "n": 8,
+   "beat": "눈벌판에 발자국 두 줄이 이어진다.",
+   "visual": "two lines of footprints crossing an empty snowfield toward a pale horizon, wind-scoured drifts",
+   "motion": "wind lifts snow across the tracks, the far horizon whitens, drifts shift"
   }
  ],
  "withheld": "피조물이 가족을 앗아 가고 북극까지 쫓고 쫓기는 마지막"

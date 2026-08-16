@@ -20,39 +20,39 @@
   },
   {
    "n": 3,
-   "beat": "선원들이 그 금화를 말없이 올려다본다.",
-   "visual": "a ring of weathered faces tilted upward toward a coin nailed high on a mast, sails above",
-   "motion": "heads tilt back together, the coin glints as the ship rolls, sails snap"
+   "beat": "선장이 선원들 앞에서 목소리를 높여 선언한다.",
+   "visual": "a grim captain on deck with one arm raised addressing a ring of sailors, mast towering behind",
+   "motion": "his arm cuts the air, the crew shifts closer, sails snap overhead"
   },
   {
    "n": 4,
+   "beat": "선원들이 그 금화를 말없이 오래 올려다본다.",
+   "visual": "a ring of weathered faces tilted upward toward a coin nailed high on a mast, sails above",
+   "motion": "heads tilt back together, the coin glints as the ship rolls, ropes sway"
+  },
+  {
+   "n": 5,
    "beat": "배는 뭍이 보이지 않는 바다로 나아간다.",
    "visual": "a whaling ship under full sail on open ocean, no land in sight, long swell running",
    "motion": "the hull rides over a swell, spray bursts at the bow, sails fill"
   },
   {
-   "n": 5,
-   "beat": "수평선에서 거대한 물기둥이 솟구친다.",
-   "visual": "a tall white spout rising from a dark sea at the horizon, a lookout pointing from the masthead",
-   "motion": "the spout climbs and drifts sideways, the lookout's arm shoots out, waves chop"
-  },
-  {
    "n": 6,
-   "beat": "선장은 밤마다 해도를 펼쳐 놓고 앉는다.",
-   "visual": "a grim captain bent over charts by a swinging oil lamp in a cramped cabin, dividers in hand",
-   "motion": "the lamp swings with the swell, dividers step across the chart, shadows sweep"
+   "beat": "물기둥이 솟고 세 척의 보트가 내려진다.",
+   "visual": "three whaleboats dropping on ropes from a ship's side, a tall white spout rising far beyond",
+   "motion": "boats drop jerkily on the falls, the distant spout climbs, water surges up"
   },
   {
    "n": 7,
-   "beat": "세 척의 보트가 바다 위로 내려진다.",
-   "visual": "three whaleboats being lowered on ropes from a ship's side into heavy sea, oars ready",
-   "motion": "boats drop jerkily on the falls, water surges up, oars swing out"
+   "beat": "창백한 등을 마주한 그들에게 무엇이 남을까?",
+   "visual": "three small boats halted on open water facing a vast pale shape breaking the surface ahead",
+   "motion": "the pale mass rolls up through the water, oars lift and hold, spray drifts"
   },
   {
    "n": 8,
-   "beat": "그 흰 등을 마주하면 무엇이 남게 될까?",
-   "visual": "a vast pale back breaking the surface far ahead of a small boat, spray hanging in cold air",
-   "motion": "the pale mass rolls up through the water, spray drifts, the boat pitches"
+   "beat": "텅 빈 갑판에 금화만 남아 반짝인다.",
+   "visual": "an empty ship deck at dusk, a single gold coin still nailed to the bare mast, long shadows",
+   "motion": "the coin turns slightly as the ship rolls, light fades, rigging creaks"
   }
  ],
  "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막"

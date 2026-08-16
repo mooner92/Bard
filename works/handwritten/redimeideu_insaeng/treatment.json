@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "인쇄소 문 앞에서 그가 걸음을 멈춘다.",
-   "visual": "a man and a small boy halted before an open workshop doorway, presses and inked rollers inside",
-   "motion": "presses thump inside, the boy leans forward, the man's grip tightens"
-  },
-  {
-   "n": 8,
    "beat": "그는 아들을 그 안으로 들여보낼까?",
    "visual": "a small boy's shoulder framed in a workshop doorway, a man's hand hovering behind him, dark interior",
    "motion": "the hand hovers and withdraws, machinery shudders inside, light narrows"
+  },
+  {
+   "n": 8,
+   "beat": "인쇄소 문이 닫히고 거리에 먼지가 인다.",
+   "visual": "a workshop door swinging shut on a grey street, dust lifting in the road, tram rails empty",
+   "motion": "the door closes, dust rolls down the street, a tram wire hums"
   }
  ],
  "withheld": "아들을 맡기고 돌아서며 스스로를 비웃는 마지막 대목"

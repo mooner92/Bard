@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "그는 자루 속에 들어가 바다로 던져진다.",
-   "visual": "a canvas sack falling from a high fortress wall toward black night water, torches on the rampart",
-   "motion": "the sack drops fast, water bursts white, torches shrink above"
-  },
-  {
-   "n": 8,
    "beat": "그가 살아 돌아온다면 누구를 먼저 찾을까?",
    "visual": "a soaked figure hauling himself onto a moonlit rock below a fortress, harbour lights far off",
    "motion": "his arms drag him up the rock, water streams off, distant lights flicker"
+  },
+  {
+   "n": 8,
+   "beat": "파도가 바위섬 아래에서 부서진다.",
+   "visual": "waves breaking against black rocks below a distant island fortress at dawn, no one in sight",
+   "motion": "waves burst white on the rock, spray drifts, gulls cross the light"
   }
  ],
  "withheld": "보물을 찾아 백작으로 돌아와 갚아 나가는 마지막"

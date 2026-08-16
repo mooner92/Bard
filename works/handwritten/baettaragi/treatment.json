@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "그 순간 궤짝 밑에서 쥐 한 마리가 튀어나온다.",
-   "visual": "a rat darting out from under a wooden chest across a floor, three pairs of feet in the room",
-   "motion": "the rat streaks across the floor, feet shift back, dust rises"
-  },
-  {
-   "n": 8,
    "beat": "그가 본 것은 정말 그가 생각한 것일까?",
    "visual": "a fisherman standing alone on a night shore looking back at a small lit house, boat dark beside him",
    "motion": "waves push at the hull, his fists open and close, the house light dims"
+  },
+  {
+   "n": 8,
+   "beat": "빈 배 한 척이 달빛 바다에 떠 있다.",
+   "visual": "an empty wooden boat drifting on a moonlit sea, oars shipped, shoreline dark and far away",
+   "motion": "the boat rocks on the swell, moonlight breaks on the water, a rope trails"
   }
  ],
  "withheld": "그가 아내와 아우를 내쫓은 뒤 아내가 돌아오지 못하게 되는 결말"

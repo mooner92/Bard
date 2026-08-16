@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "숲에서 그녀가 그에게 오래 감춘 것을 말한다.",
-   "visual": "a woman and a clergyman standing close beside a forest brook, her hand raised mid-sentence",
-   "motion": "the brook runs fast between them, her hand moves, branches sway overhead"
-  },
-  {
-   "n": 8,
    "beat": "그가 그 처형대에 오른다면 무슨 말을 할까?",
    "visual": "a wooden platform empty above a gathering crowd, a pale clergyman approaching its steps",
    "motion": "the crowd presses inward, his foot finds the first step, banners of cloud move fast"
+  },
+  {
+   "n": 8,
+   "beat": "빈 처형대 위로 저녁 빛이 내린다.",
+   "visual": "evening light falling on an empty raised wooden platform in a deserted village square",
+   "motion": "light slides across the boards, dust lifts, a rope sways at the post"
   }
  ],
  "withheld": "목사가 스스로 가슴을 드러내는 마지막 대목과 추적자의 정체"

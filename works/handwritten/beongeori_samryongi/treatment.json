@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "그 일로 그는 대문 밖으로 내쫓긴다.",
-   "visual": "a servant standing outside a closed wooden gate at night, his bundle at his feet, high wall above",
-   "motion": "the gate bar drops into place, he does not move, dust blows past his ankles"
-  },
-  {
-   "n": 8,
    "beat": "그는 그 담을 다시 넘게 될까?",
    "visual": "a servant looking up at a high tiled wall from the dark lane, faint glow rising beyond the roofline",
    "motion": "the glow beyond the roof brightens, his head lifts, embers drift across the sky"
+  },
+  {
+   "n": 8,
+   "beat": "담장 아래 부시쌈지 하나가 놓여 있다.",
+   "visual": "a small hand-sewn cloth pouch lying on frosted ground beneath a high tiled wall at dawn",
+   "motion": "frost glitters as light touches it, a thread stirs, dust drifts along the wall"
   }
  ],
  "withheld": "불길 속에서 색시를 안고 지붕에 오르는 마지막 대목"

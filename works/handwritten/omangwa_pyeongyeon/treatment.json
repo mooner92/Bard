@@ -44,15 +44,15 @@
   },
   {
    "n": 7,
-   "beat": "여름, 그녀는 낯선 저택의 정문을 지난다.",
-   "visual": "a young woman walking under a great stone gateway toward a vast country house across a lake",
-   "motion": "she walks forward, water ripples on the lake, leaves stir over the gate"
-  },
-  {
-   "n": 8,
    "beat": "그 집 주인과 마주친다면 그녀는 무슨 말을 할까?",
    "visual": "a young woman halted on a wide lawn, a man's figure appearing at the far corner of the great house",
    "motion": "she stops mid-step, his figure emerges, long grass bends in the wind"
+  },
+  {
+   "n": 8,
+   "beat": "저택 앞 잔디에 오후 빛이 길게 눕는다.",
+   "visual": "long afternoon light lying across the empty lawn before a great country house, lake still",
+   "motion": "grass bends in a slow gust, water ripples once, shadows lengthen"
   }
  ],
  "withheld": "두 사람이 오해를 풀고 맺어지는 결말과 그 사이 동생이 일으키는 소동"

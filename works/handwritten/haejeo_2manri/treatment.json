@@ -32,27 +32,27 @@
   },
   {
    "n": 5,
-   "beat": "선장이 그를 큰 창 앞으로 데려간다.",
-   "visual": "a tall captain and a naturalist standing before a huge round viewport onto lit ocean depths",
-   "motion": "fish stream past the glass, the captain's hand lifts, lamp reflections slide"
+   "beat": "커다랗고 둥근 창 하나가 어둠 속에 있다.",
+   "visual": "a huge round brass-rimmed viewport set in a steel wall, dark water pressing against the glass",
+   "motion": "water shifts beyond the glass, lamp reflections slide, rivets gleam"
   },
   {
    "n": 6,
-   "beat": "두 사람이 바다 밑 숲을 걸어 지나간다.",
-   "visual": "two figures in heavy diving suits walking through a forest of underwater plants, lamps at their belts",
-   "motion": "kelp bends around them, silt puffs up from their steps, light beams sweep"
+   "beat": "선장이 그를 그 창 앞으로 데려가 세운다.",
+   "visual": "a tall captain and a bearded naturalist standing together before a huge round viewport, fish beyond",
+   "motion": "fish stream past the glass, the captain's hand lifts, both figures lean in"
   },
   {
    "n": 7,
-   "beat": "거대한 오징어가 창유리에 팔을 붙인다.",
-   "visual": "an enormous squid arm pressed flat across a round viewport, suckers on the glass, men recoiling",
-   "motion": "the arm slides across the glass, suckers grip and release, lamps swing wildly"
-  },
-  {
-   "n": 8,
    "beat": "그 배는 어디로 향하고 있는 것일까?",
    "visual": "a steel submarine silhouette descending into deep blue darkness, one lit porthole shrinking",
    "motion": "the hull sinks downward, the porthole light dims, bubbles trail upward"
+  },
+  {
+   "n": 8,
+   "beat": "깊은 바다에 잔물결만 남는다.",
+   "visual": "still deep blue water with a faint trail of bubbles rising, nothing else in the frame",
+   "motion": "bubbles rise and scatter, light shafts waver, the blue darkens below"
   }
  ],
  "withheld": "선장의 내력과 소용돌이 속으로 사라지는 마지막"
