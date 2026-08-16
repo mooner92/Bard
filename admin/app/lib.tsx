@@ -18,6 +18,10 @@ export type Video = {
 }
 export type Book = {
   rank: number; title: string; author: string; isbn: string; loans: number; holding: string
+  callno?: string        // KEI 청구기호 — 서가에서 찾을 때 쓴다
+  status?: string        // 대출 상태
+  delta?: number | null  // 지난달 대비 순위 변화. null = 지난달에 없던 책
+  bridge?: { work: string; title: string; why: string }   // 이어지는 우리 고전
 }
 
 /** ISO 8601 UTC -> 'MM/DD HH:mm' (로컬) */

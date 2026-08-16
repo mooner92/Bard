@@ -302,7 +302,8 @@ def _env(key: str) -> str:
 
 
 @app.get("/api/books/popular")
-def popular_books(start: str = "", end: str = "", limit: int = 20, refresh: bool = False):
+def popular_books(start: str = "", end: str = "", limit: int = 20,
+                  kdc: str = "", refresh: bool = False):
     """인기대출도서. 하루 호출 상한이 있으므로 메모리에 캐시한다."""
     import datetime as _dt
     import urllib.parse
@@ -312,7 +313,7 @@ def popular_books(start: str = "", end: str = "", limit: int = 20, refresh: bool
         end = _dt.date.today().replace(day=1) - _dt.timedelta(days=1)
         start = end.replace(day=1).isoformat()
         end = end.isoformat()
-    ck = f"{start}:{end}:{limit}"
+    ck = f"{start}:{end}:{limit}:{kdc}"
     if not refresh and ck in _BOOK_CACHE:
         return _BOOK_CACHE[ck]
 
@@ -322,6 +323,7 @@ def popular_books(start: str = "", end: str = "", limit: int = 20, refresh: bool
     q = urllib.parse.urlencode({
         "authKey": key, "startDt": start, "endDt": end,
         "pageNo": 1, "pageSize": limit, "format": "json",
+        **({"kdc": kdc} if kdc else {}),
     })
     try:
         with urllib.request.urlopen(
@@ -357,7 +359,7 @@ def popular_books(start: str = "", end: str = "", limit: int = 20, refresh: bool
     for b in books:
         hit = _HOLD_CACHE.get(f"{b['title']}|{first_author(b['author'])}")
         if hit and time.time() - hit["ts"] < _HOLD_TTL:
-            b["holding"] = hit["res"]["holding"]
+            _hold_fields(b, hit["res"])
         else:
             pending.append(b)
     if pending:
@@ -366,15 +368,93 @@ def popular_books(start: str = "", end: str = "", limit: int = 20, refresh: bool
         def _fill():
             for b in pending:
                 try:
-                    b["holding"] = _kei_lookup(b["title"], first_author(b["author"]))["holding"]
+                    _hold_fields(b, _kei_lookup(b["title"], first_author(b["author"])))
                 except Exception:
                     pass  # 도서관 서버 장애 — unknown 으로 두고 다음 기회에
 
         threading.Thread(target=_fill, daemon=True).start()
 
-    out = {"period": {"start": start, "end": end}, "books": books}
+    books = _dedupe_rank(books)
+    _bridge_attach(books)
+    _rank_delta(books, start)
+    out = {"period": {"start": start, "end": end}, "kdc": kdc, "books": books}
     _BOOK_CACHE[ck] = out
     return out
+
+
+def _hold_fields(b: dict, res: dict) -> None:
+    """소장 여부에서 멈추지 말고 실제로 빌릴 수 있는지까지 알려 준다.
+    청구기호와 대출 상태는 Pyxis 조회에 이미 들어 있는데 버리고 있었다."""
+    b["holding"] = res.get("holding", "unknown")
+    item = (res.get("paper") or res.get("ebook") or [{}])[0]
+    b["callno"] = item.get("callno", "")
+    b["status"] = item.get("status", "")
+
+
+def _dedupe_rank(books: list) -> list:
+    """같은 책이 권별 ISBN 으로 여러 줄 나온다(흔한남매 실측). 접고 번호를 다시 매긴다 —
+    접기만 하고 두면 1,2,3…9,11,13,19 처럼 튀어 고장으로 보인다."""
+    seen, out = set(), []
+    for b in books:
+        k = b["title"].replace(" ", "")
+        if k in seen:
+            continue
+        seen.add(k)
+        b["rank"] = len(out) + 1
+        out.append(b)
+    return out
+
+
+_BRIDGE_FILE = BASE / "works" / "bridge.json"
+
+
+def _bridge_attach(books: list) -> None:
+    """인기 도서를 우리가 가진 고전 한 편으로 잇는다.
+
+    목록의 책은 전부 저작권 보호작이라 영상으로 만들 수 없다. 이어 주지 않으면
+    방문자는 볼 수 없는 책만 보고 나간다 — 목록에서 나갈 길이 없다.
+    """
+    if not _BRIDGE_FILE.exists():
+        return
+    try:
+        table = json.loads(_BRIDGE_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return
+    for b in books:
+        hit = table.get(b["title"].replace(" ", ""))
+        if hit:
+            b["bridge"] = hit
+
+
+_LOAN_DIR = BASE / "data" / "loans"
+
+
+def _rank_delta(books: list, start: str) -> None:
+    """이번 달 순위를 저장하고 지난달과 비교한다.
+
+    순위 스냅샷만으로는 읽을 것이 없다. 오르내림이 있어야 이야기가 된다.
+    첫 달에는 비교 대상이 없으므로 delta 가 붙지 않는다 — 다음 달부터 보인다.
+    """
+    import datetime as _dt
+    _LOAN_DIR.mkdir(parents=True, exist_ok=True)
+    cur = {b["title"]: b["rank"] for b in books}
+    (_LOAN_DIR / f"{start}.json").write_text(
+        json.dumps(cur, ensure_ascii=False), encoding="utf-8")
+    try:
+        d = _dt.date.fromisoformat(start)
+        prev = (d - _dt.timedelta(days=1)).replace(day=1).isoformat()
+    except ValueError:
+        return
+    f = _LOAN_DIR / f"{prev}.json"
+    if not f.exists():
+        return
+    try:
+        before = json.loads(f.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return
+    for b in books:
+        was = before.get(b["title"])
+        b["delta"] = (was - b["rank"]) if was else None   # None = 지난달에 없던 책
 
 
 # ---------- KEI 도서관 소장 확인 ----------

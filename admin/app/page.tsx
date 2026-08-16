@@ -178,16 +178,43 @@ export default function Home() {
             <p>{period || '불러오는 중'} · 전국 도서관 대출 기준 · 같은 책의 권별 중복은 접었습니다</p>
           </header>
           <ol className="books">
-            {books.map(b => (
-              <li key={b.isbn || b.rank}>
-                <span className="rank">{b.rank}</span>
-                <span className="btext">
-                  <span className="btitle">{b.title}</span>
-                  <span className="fine">{b.author} · 대출 {b.loans.toLocaleString()}</span>
-                </span>
-                <HoldPill h={b.holding} />
-              </li>
-            ))}
+            {books.map(b => {
+              // 이어지는 고전에 영상이 있으면 눌러서 바로 볼 수 있게 한다.
+              const dest = b.bridge ? items.find(it => it.work === b.bridge!.work) : undefined
+              return (
+                <li key={b.isbn || b.rank}>
+                  <span className="rank">{b.rank}</span>
+                  <span className="btext">
+                    <span className="btitle">
+                      {b.title}
+                      {b.delta != null && b.delta !== 0 && (
+                        <em className={b.delta > 0 ? 'up' : 'down'}>
+                          {b.delta > 0 ? `▲${b.delta}` : `▼${-b.delta}`}
+                        </em>
+                      )}
+                      {b.delta === null && <em className="new">NEW</em>}
+                    </span>
+                    <span className="fine">
+                      {b.author} · 대출 {b.loans.toLocaleString()}
+                      {b.callno && ` · 청구기호 ${b.callno}`}
+                      {b.status && ` · ${b.status}`}
+                    </span>
+                    {b.bridge && (
+                      <span className="bridge">
+                        이 책을 읽으셨다면{' '}
+                        {dest
+                          ? <button className="blink" onClick={() => setPlaying(dest)}>
+                              {b.bridge.title}
+                            </button>
+                          : <strong>{b.bridge.title}</strong>}
+                        <small>{b.bridge.why}</small>
+                      </span>
+                    )}
+                  </span>
+                  <HoldPill h={b.holding} />
+                </li>
+              )
+            })}
             {!books.length && <p className="fine">도서 정보를 불러오지 못했습니다.</p>}
           </ol>
         </main>

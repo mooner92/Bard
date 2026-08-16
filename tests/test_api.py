@@ -86,6 +86,34 @@ try:
 except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as e:
     warn("KEI 소장 조회", str(e)[:80])
 
+# ---------- 인기대출도서 고도화 ----------
+try:
+    pop = get("/api/books/popular?limit=10", 120)
+    bs = pop.get("books", [])
+    check("인기대출 목록 있음", len(bs) > 0, f"{len(bs)}권")
+    # 중복을 접고 번호를 다시 매긴다 — 1,2,3…9,11,13 처럼 튀면 고장으로 보인다
+    check("순위가 연속", [b["rank"] for b in bs] == list(range(1, len(bs) + 1)),
+          str([b["rank"] for b in bs][:6]))
+    titles = [b["title"].replace(" ", "") for b in bs]
+    check("제목 중복 없음", len(titles) == len(set(titles)))
+    # 목록의 책은 전부 저작권 보호작이라 영상이 없다. 다리가 없으면 나갈 길이 없다.
+    bridged = [b for b in bs if b.get("bridge")]
+    check("우리 고전으로 이어짐", len(bridged) >= len(bs) // 2,
+          f"{len(bridged)}/{len(bs)}권")
+    if bridged:
+        br = bridged[0]["bridge"]
+        check("다리 구조", all(br.get(k) for k in ("work", "title", "why")))
+        works = {w["work"] for w in get("/api/works").get("works", [])}
+        missing = [b["bridge"]["work"] for b in bridged if b["bridge"]["work"] not in works]
+        check("이어진 작품이 실재", not missing, str(missing[:3]))
+    # 첫 달에는 비교 대상이 없어 delta 가 없다. 있으면 정수여야 한다.
+    ds = [b.get("delta") for b in bs if "delta" in b]
+    check("순위 변화 형식", all(d is None or isinstance(d, int) for d in ds),
+          f"{len(ds)}건")
+except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as e:
+    warn("인기대출 고도화", str(e)[:80])
+
+
 print("\n" + "=" * 60)
 if WARN:
     print(f"경고 {len(WARN)}건(외부 API): {', '.join(WARN)}")
