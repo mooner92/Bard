@@ -55,5 +55,6 @@
    "motion": "rain streaks past the lamp, a wheel turns once, puddles ripple"
   }
  ],
- "withheld": "방 안에서 기다리던 사람이 이미 숨을 거두었다는 것"
+ "withheld": "방 안에서 기다리던 사람이 이미 숨을 거두었다는 것",
+ "voice": "ko-KR-HyunsuMultilingualNeural"
 }

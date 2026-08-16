@@ -55,5 +55,6 @@
    "motion": "the coin turns slightly as the ship rolls, light fades, rigging creaks"
   }
  ],
- "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막"
+ "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막",
+ "voice": "ko-KR-BongJinNeural"
 }

@@ -191,8 +191,16 @@ print(re.sub(r'\s+',' ',' '.join(body))[:200])")
   # (실측 0.168~0.219초/자). 그래서 **합성해서 재고**, 벗어나면 목표를 고쳐 다시 쓴다.
   for tts_try in 1 2 3; do
     if [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -ne "$N" ]; then
+      # 한국어 음성은 감정 스타일을 하나도 지원하지 않는다(실측: 10개 전부 StyleList 비어
+      # 있다). 그래서 다양성은 prosody 가 아니라 **목소리 선택**에서 나온다. 작품이
+      # 트리트먼트에 voice 를 들고 있으면 그걸 쓰고, 없으면 tts_render 기본값으로 간다.
+      vc=$(venv/bin/python -c "
+import json
+try: print(json.load(open('$TRE')).get('voice','') or '')
+except Exception: print('')" 2>/dev/null)
+      VOICE_ARG=""; [ -n "$vc" ] && VOICE_ARG="--voice $vc"
       venv/bin/python scripts/tts_render.py --narration "$NAR" --tone "$tone" --arc 산형 \
-        --rate-delta "$RATE_DELTA" \
+        --rate-delta "$RATE_DELTA" $VOICE_ARG \
         --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
     fi
     got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)
