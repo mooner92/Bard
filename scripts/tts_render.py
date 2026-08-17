@@ -22,6 +22,7 @@ import json
 import re
 import subprocess
 import urllib.request
+import wave
 from pathlib import Path
 
 BASE = Path(__file__).resolve().parent.parent
@@ -88,6 +89,36 @@ def build_ssml(sentence: str, tone: str, delta: int = 0, voice: str = VOICE_DEFA
     )
 
 
+def trim(path: Path, tail_keep: float) -> float:
+    """조각 앞뒤의 무음을 깎는다. 반환값은 깎은 뒤 길이(초).
+
+    Azure 는 발화 앞에 0.4초, 뒤에 1.0초쯤 여백을 붙인다(실측). 문장 하나를 통째로
+    합성할 때는 그게 문장 사이 쉼이 되지만, 한 문장을 여러 조각으로 나눠 이어 붙이면
+    조각마다 1.4초씩 끼어들어 낭독이 뚝뚝 끊긴다. 이어지는 조각은 바짝 깎고
+    문장을 끝내는 조각만 여운을 남긴다.
+    """
+    with wave.open(str(path)) as w:
+        sr, sw, ch, n = w.getframerate(), w.getsampwidth(), w.getnchannels(), w.getnframes()
+        raw = w.readframes(n)
+    if sw != 2 or ch != 1:
+        return round(n / sr, 2)          # 예상 밖 포맷 — 건드리지 않는다
+    import array
+    a = array.array("h", raw)
+    thr = int(0.008 * 32768)
+    lo, hi = 0, len(a) - 1
+    while lo < hi and abs(a[lo]) < thr:
+        lo += 1
+    while hi > lo and abs(a[hi]) < thr:
+        hi -= 1
+    head = max(0, lo - int(0.05 * sr))
+    tail = min(len(a), hi + int(tail_keep * sr))
+    cut = a[head:tail]
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
+        w.writeframes(cut.tobytes())
+    return round(len(cut) / sr, 2)
+
+
 def synth(ssml: str, out: Path) -> float:
     """SSML -> wav. 반환값은 초 단위 길이(내레이션이 영상 길이의 기준이다)."""
     region, key = _env("AZURE_SPEECH_REGION"), _env("AZURE_SPEECH_KEY")
@@ -142,7 +173,9 @@ def main():
     for i, s in enumerate(sents):
         delta = arc[i] if i < len(arc) else 0
         out = Path(f"{a.prefix}{i+1}.wav")
-        durs.append(synth(build_ssml(s, a.tone, delta, a.voice, a.rate_delta), out))
+        synth(build_ssml(s, a.tone, delta, a.voice, a.rate_delta), out)
+        # 문장을 끝내는 조각만 여운을 남기고, 이어지는 조각은 바짝 붙인다.
+        durs.append(trim(out, 0.34 if s.rstrip()[-1:] in ".?!…" else 0.06))
         files.append(str(out))
         print(f"  s{i+1} {a.tone}{delta:+d} {durs[-1]:>5.2f}초  {s[:28]}")
     print(json.dumps({"files": files, "durations": durs,
