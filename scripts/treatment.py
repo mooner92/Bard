@@ -23,6 +23,7 @@
 """
 import argparse
 import html
+import os
 import json
 import re
 import sys
@@ -31,7 +32,9 @@ import urllib.request
 from pathlib import Path
 
 OLLAMA = "http://127.0.0.1:11434/api/generate"
-MODEL = "qwen3.6:27b"
+MODEL = "qwen3.6:27b"                     # 이 서버 ollama (대체 경로)
+VLLM = os.environ.get("BARD_VLLM", "http://192.168.1.105:8003/v1/chat/completions")
+VLLM_MODEL = os.environ.get("BARD_VLLM_MODEL", "qwen3.8-27b")
 UA = "bard-treatment/1.0 (internal literary shorts pipeline)"
 BEATS = 8
 ATTEMPTS = 6      # 검사가 여섯 겹이다. 시도가 적으면 고전이 줄기 없이 넘어간다
@@ -45,6 +48,27 @@ COERCION = re.compile(
 
 
 def ask(prompt: str, temperature: float = 0.7, ctx: int = 8192) -> str:
+    """사내망 105 서버(qwen3.8)를 먼저 쓰고, 닿지 않으면 이 서버 ollama 로 돌아간다.
+
+    105 쪽이 한 번에 43초로 훨씬 빠르고 형식 지시를 잘 지킨다(실측: 방향 규칙을
+    여덟 컷 모두 지켰다). 다만 창작 규칙은 여전히 어긴다 — 감자에서 도착점을
+    "목에서 흐르는 피"로 잡고 시신까지 그렸다. 모델을 바꿔도 하네스는 그대로 쓴다.
+    """
+    if VLLM:
+        try:
+            body = json.dumps({
+                "model": VLLM_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": temperature, "max_tokens": 2400,
+                "chat_template_kwargs": {"enable_thinking": False},
+            }).encode()
+            req = urllib.request.Request(VLLM, data=body,
+                                         headers={"Content-Type": "application/json"})
+            t = json.load(urllib.request.urlopen(req, timeout=300))
+            t = t["choices"][0]["message"]["content"]
+            return re.sub(r"<think>.*?</think>", "", t, flags=re.S).strip()
+        except Exception as e:      # 사내망 단절·모델 교체 — 로컬로 이어 간다
+            print(f"  · 105 호출 실패({type(e).__name__}) — 로컬 모델로 대체", file=sys.stderr)
     body = json.dumps({"model": MODEL, "prompt": prompt, "stream": False, "think": False,
                        "options": {"temperature": temperature, "num_ctx": ctx}}).encode()
     req = urllib.request.Request(OLLAMA, data=body, headers={"Content-Type": "application/json"})

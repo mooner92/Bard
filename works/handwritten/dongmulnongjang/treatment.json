@@ -33,8 +33,8 @@
   {
    "n": 5,
    "beat": "그는 풍차에 쓸 돌덩이를 언덕 위로 끌어 올린다.",
-   "visual": "a cart horse straining uphill with a stone block on a sledge, half-built stone tower on the ridge",
-   "motion": "muscles bunch and release, the sledge scrapes gravel, rope snaps taut"
+   "visual": "a cart horse straining uphill with a stone block on a sledge, half-built stone tower on the ridge above",
+   "motion": "the horse hauls upward step by step, the sledge grinds up the slope behind it, rope snaps taut"
   },
   {
    "n": 6,
