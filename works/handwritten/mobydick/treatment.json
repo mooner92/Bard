@@ -3,7 +3,7 @@
  "destination": "마스트에 박힌 금화 — 흰 고래를 먼저 본 자에게 주어지는 것",
  "protagonist": "처음 포경선에 오른 젊은 선원",
  "setting": "19세기 중반 낸터킷 항구와 태평양 한복판의 포경선",
- "anchor": "a young sailor in a rough wool coat and knit cap aboard a wooden whaling ship, weathered deck planks",
+ "anchor": "a young sailor in a rough wool coat and knit cap, wind-burned face",
  "palette": "deep indigo sea, bone white sail, whale-oil lamp amber, cold sky grey",
  "beats": [
   {
@@ -81,8 +81,8 @@
   {
    "n": 13,
    "beat": "창백한 등을 마주한 그들에게 무엇이 남을까?",
-   "visual": "a vast pale back breaking the surface ahead of a small boat, men frozen at the oars",
-   "motion": "the pale mass rolls up through the water, the boat pitches, spray hangs"
+   "visual": "a sperm whale's blunt square white head and scarred back rising ahead of a small boat, men frozen at the oars",
+   "motion": "the blunt head pushes upward through the water toward the boat, the boat pitches back, spray hangs"
   },
   {
    "n": 14,

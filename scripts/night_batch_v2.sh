@@ -264,6 +264,15 @@ print(f'{d:.1f} {max(20,min(t-1,36))} 38')   # 모델이 범위 아래쪽으로 
     # 그림 안에 써 넣는다(실측: 화면 상단에 뭉개진 한글 자막).
     desc=$(venv/bin/python scripts/scene_prompt.py --narration "$NAR" --index "$i" \
              --context "$ctx" $TRE_ARG 2>>"$LOG")
+    # 무엇이 들어갔는지 남긴다. 남기지 않으면 이상한 그림이 나와도 원인을 재구성해야
+    # 한다(실측: 모비딕에서 앵커가 모든 장면에 갑판을 밀어 넣은 것을 뒤늦게 찾았다).
+    venv/bin/python -c "
+import json, pathlib, sys
+f = pathlib.Path('output/${work}_kf/prompts.json')
+d = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
+d[sys.argv[1]] = {'image': sys.argv[2], 'motion': ''}
+f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
+" "$i" "${style}${desc}" 2>/dev/null
     venv/bin/python scripts/gen_keyframe.py --seed $((200+i)) \
       --prefix "${work}_kf/night_s${i}" --prompt "${style}${desc}" --negative "$NEG" >>"$LOG" 2>&1 \
       || say "  ③ s${i} 키프레임 실패"
@@ -295,6 +304,13 @@ print(min(f, 117))")
     # 무엇이 움직이는지 들고 있으면 그걸 쓴다 (없으면 같은 기본값으로 돌아간다).
     mot=$(venv/bin/python scripts/scene_prompt.py --motion --index "$i" $TRE_ARG 2>>"$LOG")
     [ -z "$mot" ] && mot="gentle continuous motion in the scene, slow camera drift"
+    venv/bin/python -c "
+import json, pathlib, sys
+f = pathlib.Path('output/${work}_kf/prompts.json')
+d = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
+d.setdefault(sys.argv[1], {})['motion'] = sys.argv[2]
+f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
+" "$i" "$mot" 2>/dev/null
     venv/bin/python scripts/gen_i2v.py --image "night_${work}_${i}.png" \
       --prefix "${work}_i2v/night_s${i}" --length "$fr" --seed 42 \
       --prompt "$mot" \

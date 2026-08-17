@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { API, Player, TopNav, Video, Work, fmtDate, vLabel, vOrder } from '../lib'
 
-type Tab = 'script' | 'keyframes' | 'videos' | 'review'
+type Tab = 'script' | 'keyframes' | 'prompts' | 'videos' | 'review'
 
 /** scripts/review_output.py 의 판정 결과. 기준은 서버가 갖고 화면은 표시만 한다. */
 type Review = {
@@ -23,6 +23,8 @@ export default function Admin() {
   const [draft, setDraft] = useState<string[]>([])
   const [videos, setVideos] = useState<Video[]>([])
   const [keyframes, setKeyframes] = useState<string[]>([])
+  // 장면에 실제로 들어간 프롬프트. 남기지 않으면 이상한 그림의 원인을 재구성해야 한다.
+  const [prompts, setPrompts] = useState<Record<string, { image: string; motion: string }>>({})
   const [tab, setTab] = useState<Tab>('script')
   const [showScenes, setShowScenes] = useState(false)
   const [playing, setPlaying] = useState<Video | null>(null)
@@ -76,9 +78,10 @@ export default function Admin() {
 
   function openVersion(w: Work) {
     setSel(w); setDraft([...w.sentences]); setTab('script')
-    setVideos([]); setKeyframes([])
+    setVideos([]); setKeyframes([]); setPrompts({})
     fetch(`${API}/api/works/${w.work}/videos`).then(r => r.json()).then(d => setVideos(d.videos)).catch(() => {})
     fetch(`${API}/api/works/${w.work}/keyframes`).then(r => r.json()).then(d => setKeyframes(d.images)).catch(() => {})
+    fetch(`${API}/api/works/${w.work}/prompts`).then(r => r.json()).then(d => setPrompts(d.prompts ?? {})).catch(() => {})
     setReview(null)
     fetch(`${API}/api/works/${w.work}/review`).then(r => r.json()).then(setReview).catch(() => {})
   }
@@ -207,9 +210,10 @@ export default function Admin() {
                   </div>
                   <div className="hright">
                     <div className="tabs">
-                      {(['script', 'keyframes', 'videos', 'review'] as Tab[]).map(t => (
+                      {(['script', 'keyframes', 'prompts', 'videos', 'review'] as Tab[]).map(t => (
                         <button key={t} className={tab === t ? 'tab on' : 'tab'} onClick={() => setTab(t)}>
                           {t === 'script' ? '대본'
+                            : t === 'prompts' ? '프롬프트'
                             : t === 'keyframes' ? `키프레임${keyframes.length ? ` ${keyframes.length}` : ''}`
                               : t === 'videos' ? `완성본${finals.length ? ` ${finals.length}` : ''}`
                                 : `점검${review ? (review.ok ? ' ✓' : ` ${review.flags.length}`) : ''}`}
@@ -256,6 +260,20 @@ export default function Admin() {
                       ))}
                     </div>
                   ) : <p className="fine">키프레임이 아직 없습니다.</p>)}
+
+                  {tab === 'prompts' && (Object.keys(prompts).length ? (
+                    <div className="prompts">
+                      {Object.entries(prompts)
+                        .sort((a, b) => Number(a[0]) - Number(b[0]))
+                        .map(([n, p]) => (
+                          <div key={n} className="pblock">
+                            <span className="pnum">장면 {n}</span>
+                            <p><b>그림</b> {p.image}</p>
+                            {p.motion && <p><b>움직임</b> {p.motion}</p>}
+                          </div>
+                        ))}
+                    </div>
+                  ) : <p className="fine">이 작품은 프롬프트 기록이 없습니다.</p>)}
 
                   {tab === 'review' && (!review ? <p className="fine">점검 결과를 불러오는 중입니다.</p> : (
                     <div className="cols">

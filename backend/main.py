@@ -164,6 +164,19 @@ def update_narration(work: str, version: str, body: NarrationPatch):
 
 # ---------- 산출물 ----------
 
+@app.get("/api/works/{work}/prompts")
+def prompts(work: str):
+    """장면마다 실제로 들어간 그림·움직임 프롬프트. 이상한 그림이 나왔을 때
+    무엇이 들어갔는지 바로 볼 수 있어야 원인을 재구성하지 않는다."""
+    f = OUTPUT / f"{work}_kf" / "prompts.json"
+    if not f.exists():
+        return {"prompts": {}}
+    try:
+        return {"prompts": json.loads(f.read_text(encoding="utf-8"))}
+    except (json.JSONDecodeError, OSError):
+        return {"prompts": {}}
+
+
 @app.get("/api/works/{work}/keyframes")
 def keyframes(work: str):
     d = OUTPUT / f"{work}_kf"
