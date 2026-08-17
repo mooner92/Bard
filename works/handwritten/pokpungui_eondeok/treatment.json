@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "언덕 위 돌집 창에 불이 하나 남는다.",
    "visual": "one lit window in a stone farmhouse on a bare ridge at night, moorland black around it",
-   "motion": "the window light steadies, heather bends in the wind, clouds race"
+   "motion": "the window light steadies, heather bends in the wind, clouds race",
+   "anchor": false
   }
  ],
  "withheld": "두 집안을 대를 이어 무너뜨리고 언덕에 나란히 묻히는 마지막",

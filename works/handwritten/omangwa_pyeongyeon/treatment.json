@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "저택 앞 잔디에 오후 빛이 길게 눕는다.",
    "visual": "long afternoon light lying across the empty lawn before a great country house, lake still",
-   "motion": "grass bends in a slow gust, water ripples once, shadows lengthen"
+   "motion": "grass bends in a slow gust, water ripples once, shadows lengthen",
+   "anchor": false
   }
  ],
  "withheld": "두 사람이 오해를 풀고 맺어지는 결말과 그 사이 동생이 일으키는 소동",

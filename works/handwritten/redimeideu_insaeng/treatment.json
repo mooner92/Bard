@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "인쇄소 문이 닫히고 거리에 먼지가 인다.",
    "visual": "a workshop door swinging shut on a grey street, dust lifting in the road, tram rails empty",
-   "motion": "the door closes, dust rolls down the street, a tram wire hums"
+   "motion": "the door closes, dust rolls down the street, a tram wire hums",
+   "anchor": false
   }
  ],
  "withheld": "아들을 맡기고 돌아서며 스스로를 비웃는 마지막 대목",

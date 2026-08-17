@@ -46,13 +46,15 @@
    "n": 7,
    "beat": "그 초록 불빛은 그에게 무엇을 약속했을까?",
    "visual": "a small green dock light burning across empty black water at dawn, lawn deserted in the foreground",
-   "motion": "the green light dims as dawn spreads, mist crosses the water, grass stills"
+   "motion": "the green light dims as dawn spreads, mist crosses the water, grass stills",
+   "anchor": false
   },
   {
    "n": 8,
    "beat": "새벽 물 위로 초록 불빛이 꺼져 간다.",
    "visual": "a small green dock light dimming across grey water at dawn, the far lawn empty",
-   "motion": "the green light fades as dawn spreads, mist crosses the water, grass stills"
+   "motion": "the green light fades as dawn spreads, mist crosses the water, grass stills",
+   "anchor": false
   }
  ],
  "withheld": "누명과 수영장에서 맞는 최후, 텅 빈 장례식",

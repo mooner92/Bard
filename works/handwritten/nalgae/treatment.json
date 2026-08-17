@@ -16,7 +16,8 @@
    "n": 2,
    "beat": "윗방에서 낯선 웃음소리가 건너온다.",
    "visual": "a lit paper partition seen from a dark room, two silhouettes moving behind it",
-   "motion": "silhouettes shift behind the paper, lamplight wavers, the partition rattles"
+   "motion": "silhouettes shift behind the paper, lamplight wavers, the partition rattles",
+   "anchor": false
   },
   {
    "n": 3,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "옥상 난간 위로 새 그림자가 지나간다.",
    "visual": "a bird's shadow crossing an empty rooftop parapet above a hazy city, sky wide and pale",
-   "motion": "the shadow sweeps across the concrete, haze drifts, light widens"
+   "motion": "the shadow sweeps across the concrete, haze drifts, light widens",
+   "anchor": false
   }
  ],
  "withheld": "그가 날개를 펴 보고 싶다고 외치며 끝나는 마지막 대목",

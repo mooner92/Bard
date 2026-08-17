@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "빈 마당에 풍차 그림자가 길게 눕는다.",
    "visual": "the long shadow of a half-built stone tower falling across an empty farmyard at dusk",
-   "motion": "the shadow creeps across the mud, a gate swings once, clouds move"
+   "motion": "the shadow creeps across the mud, a gate swings once, clouds move",
+   "anchor": false
   }
  ],
  "withheld": "도축장으로 향하는 마차와, 마지막 연회의 정체",

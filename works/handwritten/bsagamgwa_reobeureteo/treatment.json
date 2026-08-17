@@ -22,7 +22,8 @@
    "n": 3,
    "beat": "밤이면 그 방에서 두 사람 목소리가 난다.",
    "visual": "a closed door at the end of a dark corridor with warm light leaking under it, empty hallway",
-   "motion": "the light under the door flickers, dust turns in the beam, the corridor stays still"
+   "motion": "the light under the door flickers, dust turns in the beam, the corridor stays still",
+   "anchor": false
   },
   {
    "n": 4,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "새벽 복도 끝에 문 하나가 열려 있다.",
    "visual": "a single door standing ajar at the end of an empty dormitory corridor at dawn, pale light beyond",
-   "motion": "the door drifts a hand's width, dawn light widens on the floor, dust turns"
+   "motion": "the door drifts a hand's width, dawn light widens on the floor, dust turns",
+   "anchor": false
   }
  ],
  "withheld": "혼자였다는 것과 빼앗은 편지로 벌이던 연인 놀이",

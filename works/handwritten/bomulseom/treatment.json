@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "모래 위에 빈 궤짝 하나가 열려 있다.",
    "visual": "an empty wooden chest lying open on pale sand, palm shadows falling across it, sea beyond",
-   "motion": "palm shadows sway over the chest, sand trickles from its rim, surf rolls in"
+   "motion": "palm shadows sway over the chest, sand trickles from its rim, surf rolls in",
+   "anchor": false
   }
  ],
  "withheld": "구덩이가 이미 비어 있다는 것과 요리사의 도주",

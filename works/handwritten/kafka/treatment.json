@@ -10,13 +10,15 @@
    "n": 1,
    "beat": "외판원이 아침 햇살에 눈을 뜬다.",
    "visual": "morning light falling across a rumpled bed in a dim cramped bedroom, blanket pushed aside",
-   "motion": "light creeps across the blanket, dust turns in the beam, the sheet slides"
+   "motion": "light creeps across the blanket, dust turns in the beam, the sheet slides",
+   "anchor": false
   },
   {
    "n": 2,
    "beat": "그는 제 몸을 일으키지 못하고 버둥거린다.",
    "visual": "an overturned blanket heaving on a bed, bedframe rattling, slippers knocked over on the floor",
-   "motion": "the blanket heaves and drops, the bedframe shudders, a slipper tips over"
+   "motion": "the blanket heaves and drops, the bedframe shudders, a slipper tips over",
+   "anchor": false
   },
   {
    "n": 3,
@@ -52,7 +54,8 @@
    "n": 8,
    "beat": "빈 방에 창문이 열려 있다.",
    "visual": "an empty bedroom with the window standing wide open, curtain lifting, bed stripped bare",
-   "motion": "the curtain billows inward, light spreads across the floor, dust turns"
+   "motion": "the curtain billows inward, light spreads across the floor, dust turns",
+   "anchor": false
   }
  ],
  "withheld": "그가 방에서 홀로 맞는 마지막과, 그 뒤 가족이 나들이를 떠나는 대목",

@@ -22,7 +22,8 @@
    "n": 3,
    "beat": "달빛에 메밀밭이 소금을 뿌린 듯 희다.",
    "visual": "a vast buckwheat field in full white bloom under a huge moon, a thin path cutting through it",
-   "motion": "the whole field ripples in one slow wave, petals lift, the moon holds still"
+   "motion": "the whole field ripples in one slow wave, petals lift, the moon holds still",
+   "anchor": false
   },
   {
    "n": 4,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "달빛 아래 메밀밭만 하얗게 남는다.",
    "visual": "a vast buckwheat field white under a full moon, the narrow path through it empty",
-   "motion": "the field ripples in one slow wave, petals lift, the moon holds still"
+   "motion": "the field ripples in one slow wave, petals lift, the moon holds still",
+   "anchor": false
   }
  ],
  "withheld": "동행이 물방앗간 여인의 아들일 수 있다는 암시",

@@ -34,7 +34,8 @@
    "n": 5,
    "beat": "어둠 속에서 사슬 끄는 소리가 다가온다.",
    "visual": "heavy chains dragging along a dark townhouse corridor, candle guttering on a side table",
-   "motion": "chains drag and rattle closer, the candle gutters, shadows swing"
+   "motion": "chains drag and rattle closer, the candle gutters, shadows swing",
+   "anchor": false
   },
   {
    "n": 6,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "눈 내리는 창가에 촛불 하나가 켜진다.",
    "visual": "a single candle burning in a frosted window as snow falls outside a dark townhouse",
-   "motion": "the candle steadies and brightens, snow drifts past the pane, frost creeps"
+   "motion": "the candle steadies and brightens, snow drifts past the pane, frost creeps",
+   "anchor": false
   }
  ],
  "withheld": "그가 무덤에서 자기 이름을 확인하고 사람이 달라지는 결말",

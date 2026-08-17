@@ -28,7 +28,8 @@
    "n": 4,
    "beat": "그림 속 입가에 처음 보는 주름이 잡힌다.",
    "visual": "a close view of a painted mouth on a canvas, a hard new line at its corner, lamplight across it",
-   "motion": "lamplight slides over the paint, the line deepens, shadow creeps inward"
+   "motion": "lamplight slides over the paint, the line deepens, shadow creeps inward",
+   "anchor": false
   },
   {
    "n": 5,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "다락 문틈으로 빛 한 줄기가 새어 나온다.",
    "visual": "a thin line of light escaping under a locked attic door in a dark stairwell, dust in the air",
-   "motion": "the light under the door flickers once, dust turns in it, the stair stays black"
+   "motion": "the light under the door flickers once, dust turns in it, the stair stays black",
+   "anchor": false
   }
  ],
  "withheld": "캔버스가 죄를 대신 늙어 왔다는 것과 칼을 든 마지막 대목",

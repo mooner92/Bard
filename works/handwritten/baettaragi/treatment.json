@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "빈 배 한 척이 달빛 바다에 떠 있다.",
    "visual": "an empty wooden boat drifting on a moonlit sea, oars shipped, shoreline dark and far away",
-   "motion": "the boat rocks on the swell, moonlight breaks on the water, a rope trails"
+   "motion": "the boat rocks on the swell, moonlight breaks on the water, a rope trails",
+   "anchor": false
   }
  ],
  "withheld": "그가 아내와 아우를 내쫓은 뒤 아내가 돌아오지 못하게 되는 결말",

@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "빈민굴 골목에 눈이 소복이 쌓인다.",
    "visual": "snow settling over an empty slum alley at night, one lit window far off behind mud walls",
-   "motion": "snow falls thickly and settles, the far window dims, wind moves the drifts"
+   "motion": "snow falls thickly and settles, the far window dims, wind moves the drifts",
+   "anchor": false
   }
  ],
  "withheld": "왕서방이 새 색시를 들이는 날 그녀가 낫을 들고 찾아가 벌어지는 결말",

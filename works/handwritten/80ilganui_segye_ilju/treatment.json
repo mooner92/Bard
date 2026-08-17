@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "런던 클럽 난롯가에 빈 안락의자가 놓여 있다.",
    "visual": "an empty leather club armchair beside a dying fire, a pocket watch left open on the side table",
-   "motion": "embers settle in the grate, the watch hand ticks, firelight dims"
+   "motion": "embers settle in the grate, the watch hand ticks, firelight dims",
+   "anchor": false
   }
  ],
  "withheld": "동쪽으로 돌아 하루를 벌었다는 것과 내기의 승리",

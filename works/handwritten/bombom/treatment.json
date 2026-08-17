@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "빈 마당의 말뚝 위로 아침 볕이 든다.",
    "visual": "morning sunlight falling on a wooden stake in an empty farm yard, chickens gone, straw scattered",
-   "motion": "sunlight creeps up the stake, straw lifts in a breeze, shadow shortens"
+   "motion": "sunlight creeps up the stake, straw lifts in a breeze, shadow shortens",
+   "anchor": false
   }
  ],
  "withheld": "이듬해 봄까지도 성례가 미뤄지고 장인과 한바탕 붙게 되는 결말",

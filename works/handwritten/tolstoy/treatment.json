@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "눈 덮인 마을에 창불 하나가 켜져 있다.",
    "visual": "one lit cottage window in a snowbound village at night, snow deep on the low roofs",
-   "motion": "snow falls steadily, the window glow warms, smoke rises from the chimney"
+   "motion": "snow falls steadily, the window glow warms, smoke rises from the chimney",
+   "anchor": false
   }
  ],
  "withheld": "낯선 이의 정체와 그가 배워야 했던 세 가지 진리",

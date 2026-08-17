@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "빗속 골목에 인력거 한 대가 서 있다.",
    "visual": "an empty two-wheeled rickshaw standing in a rainy alley under a gaslight, shafts down",
-   "motion": "rain streaks past the lamp, a wheel turns once, puddles ripple"
+   "motion": "rain streaks past the lamp, a wheel turns once, puddles ripple",
+   "anchor": false
   }
  ],
  "withheld": "방 안에서 기다리던 사람이 이미 숨을 거두었다는 것",

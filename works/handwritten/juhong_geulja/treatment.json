@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "빈 처형대 위로 저녁 빛이 내린다.",
    "visual": "evening light falling on an empty raised wooden platform in a deserted village square",
-   "motion": "light slides across the boards, dust lifts, a rope sways at the post"
+   "motion": "light slides across the boards, dust lifts, a rope sways at the post",
+   "anchor": false
   }
  ],
  "withheld": "목사가 스스로 가슴을 드러내는 마지막 대목과 추적자의 정체",

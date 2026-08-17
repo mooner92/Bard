@@ -47,7 +47,12 @@ def from_treatment(tre: dict, index: int) -> str:
     shot = (beats[index - 1].get("visual") or "").strip()
     if not shot or HANGUL.search(shot):
         return ""
-    parts = [shot, (tre.get("anchor") or "").strip(), (tre.get("palette") or "").strip()]
+    # 사람이 없어야 할 컷에까지 앵커를 붙이면 모델이 사람을 밀어 넣는다
+    # (실측: "텅 빈 갑판"에 선원이 서 있었다). 그런 박자는 anchor: false 로 끈다.
+    use_anchor = beats[index - 1].get("anchor", True)
+    parts = [shot,
+             (tre.get("anchor") or "").strip() if use_anchor else "",
+             (tre.get("palette") or "").strip()]
     return ", ".join(x.rstrip(".") for x in parts if x)[:400]
 
 

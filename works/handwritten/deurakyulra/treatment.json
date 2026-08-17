@@ -52,7 +52,8 @@
    "n": 8,
    "beat": "안개 낀 부두에 궤짝 그림자가 길게 눕는다.",
    "visual": "long crate shadows stretching across an empty foggy quay at dawn, mooring ropes slack",
-   "motion": "fog rolls across the stone, a rope sways, the shadows lengthen"
+   "motion": "fog rolls across the stone, a rope sways, the shadows lengthen",
+   "anchor": false
   }
  ],
  "withheld": "런던 상륙 이후 벌어지는 일과 추격 끝의 마지막",

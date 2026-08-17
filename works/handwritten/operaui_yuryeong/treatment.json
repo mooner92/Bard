@@ -28,7 +28,8 @@
    "n": 4,
    "beat": "오번 특별석은 늘 비워 두라는 지시가 온다.",
    "visual": "an empty velvet box seat in a full opera house, red curtain half drawn across it",
-   "motion": "the box curtain stirs, the audience settles below, gaslight steadies"
+   "motion": "the box curtain stirs, the audience settles below, gaslight steadies",
+   "anchor": false
   },
   {
    "n": 5,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "지하 호수에 촛불 하나가 흔들린다.",
    "visual": "a single candle guttering on a stone ledge above still black underground water, boat gone",
-   "motion": "the flame leans and recovers, reflections break apart, water laps stone"
+   "motion": "the flame leans and recovers, reflections break apart, water laps stone",
+   "anchor": false
   }
  ],
  "withheld": "가면 아래 얼굴과, 놓아주며 맞는 마지막",

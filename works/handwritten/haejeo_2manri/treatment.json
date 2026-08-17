@@ -34,7 +34,8 @@
    "n": 5,
    "beat": "커다랗고 둥근 창 하나가 어둠 속에 있다.",
    "visual": "a huge round brass-rimmed viewport set in a steel wall, dark water pressing against the glass",
-   "motion": "water shifts beyond the glass, lamp reflections slide, rivets gleam"
+   "motion": "water shifts beyond the glass, lamp reflections slide, rivets gleam",
+   "anchor": false
   },
   {
    "n": 6,
@@ -52,7 +53,8 @@
    "n": 8,
    "beat": "깊은 바다에 잔물결만 남는다.",
    "visual": "still deep blue water with a faint trail of bubbles rising, nothing else in the frame",
-   "motion": "bubbles rise and scatter, light shafts waver, the blue darkens below"
+   "motion": "bubbles rise and scatter, light shafts waver, the blue darkens below",
+   "anchor": false
   }
  ],
  "withheld": "선장의 내력과 소용돌이 속으로 사라지는 마지막",
