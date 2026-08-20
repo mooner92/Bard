@@ -116,7 +116,8 @@ SCHEMA_HINT = """{
  "palette": "English palette and light, 8-14 words",
  "beats": [
    {"n": 1, "beat": "그 장면에서 눈에 보이는 사건 하나 (한국어, 40자 이내)",
-    "visual": "English shot description, 12-22 words"}
+    "visual": "English shot description, 12-22 words",
+    "motion": "English, 6-14 words. one moving thing + its direction (up the slope, toward the camera)"}
  ],
  "withheld": "결말에서 밝혀지는 것 — 대본에 절대 쓰지 않는다"
 }"""
@@ -289,8 +290,20 @@ def build(facts: str, extra: str) -> dict:
                 continue
             # 8번은 질문으로 닫으라는 규칙을 모델이 자주 흘린다(실측: "침묵이
             # 식탁을 짓누르며 남편의 표정이 굳어진다"). 여운이 질문이어야 다음이 궁금해진다.
-            if not beats[-1]["beat"].rstrip().endswith("?"):
-                print("  ! 마지막 박자가 질문이 아니다 — 재시도", file=sys.stderr)
+            # 질문은 **끝에서 두 번째**다. 마지막은 여운의 정물 — 프롬프트와 이 검사가
+            # 어긋나 있으면 모델이 뭘 내놔도 반려된다(실측: 여섯 번 다 떨어졌다).
+            if not all((b.get("motion") or "").strip() for b in beats):
+                print("  ! motion 이 빠진 박자가 있다 — 재시도", file=sys.stderr)
+                continue
+            if re.search(r"\b(moving|walking|through|aboard|inside|holding|carrying|landscape|street|room)\b",
+                         d.get("anchor", ""), re.I):
+                print("  ! 앵커에 장소·동작이 들었다 — 재시도", file=sys.stderr)
+                continue
+            if not beats[-2]["beat"].rstrip().endswith("?"):
+                print("  ! 끝에서 두 번째가 질문이 아니다 — 재시도", file=sys.stderr)
+                continue
+            if beats[-1]["beat"].rstrip().endswith("?"):
+                print("  ! 마지막 박자는 여운이어야 한다 — 재시도", file=sys.stderr)
                 continue
             return d
         why = []
