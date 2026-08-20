@@ -89,6 +89,12 @@ def build_ssml(sentence: str, tone: str, delta: int = 0, voice: str = VOICE_DEFA
     )
 
 
+def _dur(path: Path) -> float:
+    """깎지 않고 길이만 잰다 (문장 방식)."""
+    with wave.open(str(path)) as w:
+        return round(w.getnframes() / w.getframerate(), 2)
+
+
 def trim(path: Path, tail_keep: float) -> float:
     """조각 앞뒤의 무음을 깎는다. 반환값은 깎은 뒤 길이(초).
 
@@ -174,8 +180,17 @@ def main():
         delta = arc[i] if i < len(arc) else 0
         out = Path(f"{a.prefix}{i+1}.wav")
         synth(build_ssml(s, a.tone, delta, a.voice, a.rate_delta), out)
-        # 문장을 끝내는 조각만 여운을 남기고, 이어지는 조각은 바짝 붙인다.
-        durs.append(trim(out, 0.34 if s.rstrip()[-1:] in ".?!…" else 0.06))
+        # 문장 방식(8개 이하)에서는 문장 사이 쉼이 낭독의 일부다 — 깎아 내면 전체가
+        # 5초쯤 짧아져 속도 보정 한계로도 못 채운다(실측: 벙어리 삼룡이 51.1→48.9초).
+        # 조각 방식(9개 이상)에서만 바짝 붙인다.
+        # 문장 방식(8개 이하)은 **아예 깎지 않는다**. 길이 예산과 속도 보정 한계가
+        # 전부 "안 깎은 음성" 기준으로 잡혀 있어 조금만 깎아도 50초를 못 채운다
+        # (실측: 0.78초로 줄여 남겼더니 B사감이 49초). 조각 방식에서만 깎는다.
+        if len(sents) <= 8:
+            durs.append(_dur(out))
+        else:
+            ends = s.rstrip()[-1:] in ".?!…"
+            durs.append(trim(out, 0.34 if ends else 0.06))
         files.append(str(out))
         print(f"  s{i+1} {a.tone}{delta:+d} {durs[-1]:>5.2f}초  {s[:28]}")
     print(json.dumps({"files": files, "durations": durs,
