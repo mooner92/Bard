@@ -81,6 +81,14 @@ def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:
     if not lo - 15 <= total <= hi + 15:
         bad.append(f"전체 {total}자 (예산 {lo}~{hi})")
 
+    # 끝에서 두 번째는 질문, 마지막은 안내만. 트리트먼트에는 이 검사가 있는데
+    # 대본 관문에 없어서 모델이 어겨도 통과했다(실측: 노트르담 끝-1 이
+    # "저 손이 내미는 것 같았죠" — 질문 없이 발행됐다).
+    if len(sents) >= 2 and not sents[-2].rstrip().rstrip('."').endswith("?"):
+        bad.append("끝에서 두 번째가 질문이 아님")
+    if len(sents) >= 1 and "?" in sents[-1]:
+        bad.append("마지막 문장에 질문이 있음 — 안내만")
+
     if ending:
         norm = re.sub(r"[<>《》〈〉「」『』()\[\]]", "", sents[-1]).rstrip(".!? ")
         e = ending.rstrip(".!? ")
