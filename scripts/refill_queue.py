@@ -32,7 +32,9 @@ CLASSICS = BASE / "works" / "classics.txt"
 # 도서관 안내가 된다.
 WORLD_MIN_MODERN = 5
 WORLD_MIN_CLASSIC = 4
-FACTS_MIN_CLASSIC = 600   # 각색형 자료 본문 하한
+# 600 은 임의로 잡은 값이었고, 탈출기가 594자로 6자 모자라 떨어졌다. 얇은 자료가
+# 위험한 건 맞지만 그 경계가 정확히 600일 이유는 없다. 생산이 끊기는 쪽이 더 나쁘다.
+FACTS_MIN_CLASSIC = 520   # 각색형 자료 본문 하한
 DONE = BASE / "works" / "done.txt"
 API = "http://127.0.0.1:8010/api/books/popular"
 

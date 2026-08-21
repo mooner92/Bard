@@ -89,6 +89,12 @@ def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:
         elif norm.count(e[:8]) > 1 or norm.count(e[-8:]) > 1:
             bad.append("마무리 문구 중복")
 
+    # 한자·가나가 한 글자라도 섞이면 낭독이 깨진다. 한글 비율만 보던 아래 검사는
+    # 대부분이 한글인 문장을 통과시켰다(실측: 상록수 S1 의 "*青年教师*").
+    for i, s in enumerate(sents):
+        if re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", s):
+            bad.append(f"S{i+1} 한자·가나 혼입")
+
     for i, s in enumerate(sents):
         core = re.sub(r"\b[A-Z]{2,5}\b", "", s)
         if core and len(re.findall(r"[가-힣]", core)) < len(core) * 0.4:
