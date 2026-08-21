@@ -1,5 +1,3 @@
-ingan_munje	facts/auto_ingan_munje.txt	소설 인간문제에서 만날 수 있습니다	1930s Korean factory town illustration, brick chimney and dormitory window, oil lamps, muted indigo and rust palette, grainy texture.	서늘
-hyeolui_nu	facts/auto_hyeolui_nu.txt	소설 혈의 누에서 만날 수 있습니다	1900s Pyongyang illustration: tiled gates and smoke on the hills, oil lamps, white hanbok, muted ash and ember palette, ink wash texture. 	서늘
 geumsuhoeuirok	facts/auto_geumsuhoeuirok.txt	소설 금수회의록에서 만날 수 있습니다	satirical animal-assembly woodcut illustration: crow, fox, frog and bees at a torchlit forest meeting, warm lantern palette, folk print texture. 	생동
 manmubang	facts/auto_manmubang.txt	소설 만무방에서 만날 수 있습니다	1930s Korean rice-field illustration: autumn paddies and straw stacks, night lanterns, hemp clothes, ochre and deep green palette, grainy texture. 	생동
 sangol_nageune	facts/auto_sangol_nageune.txt	소설 산골 나그네에서 만날 수 있습니다	1930s Korean mountain inn illustration: thatched tavern by a stream, oil lamps, patched hanbok, cool night blue and amber palette, ink wash texture. 	서늘
@@ -9,3 +7,5 @@ geolribeo_yeohaenggi	facts/auto_geolribeo_yeohaenggi.txt	소설 걸리버 여행
 olribeo_teuwiseuteu	facts/auto_olribeo_teuwiseuteu.txt	소설 올리버 트위스트에서 만날 수 있습니다	Victorian London illustration: workhouse brick, gas lamps, ragged coats and top hats, fog and soot palette, steel engraving texture. 	긴장
 heokeulberi_pinui_moheom	facts/auto_heokeulberi_pinui_moheom.txt	소설 허클베리 핀의 모험에서 만날 수 있습니다	1840s Mississippi river illustration: log raft and wide brown river, lantern at night, patched clothes, dusk gold palette, pen and wash texture. 	생동
 noteureudam_de_pari	facts/auto_noteureudam_de_pari.txt	소설 노트르담 드 파리에서 만날 수 있습니다	15th century Paris illustration, cathedral towers and crowded square, bell chamber light, stone grey and ember palette, woodcut texture.	서늘
+ingan_munje	facts/auto_ingan_munje.txt	소설 인간문제에서 만날 수 있습니다	1930s Korean factory town illustration, brick chimney and dormitory window, oil lamps, muted indigo and rust palette, grainy texture.	서늘
+hyeolui_nu	facts/auto_hyeolui_nu.txt	소설 혈의 누에서 만날 수 있습니다	1900s Pyongyang illustration: tiled gates and smoke on the hills, oil lamps, white hanbok, muted ash and ember palette, ink wash texture. 	서늘

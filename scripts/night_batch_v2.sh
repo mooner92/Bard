@@ -158,7 +158,9 @@ while grace_ok; do
   if [ ! -f "$facts" ]; then
     say "  ① 사실파일 없음($facts) — 영구 실패"; ok=0
   else
-    for try in 1 2 3; do
+    # 모델 초안이 새 구조(질문 위치)를 시도당 절반쯤 놓친다. 3회면 작품이 통째로
+    # 내려간다(실측: 인간 문제·혈의 누가 10분 간격으로 탈락). 6회면 대부분 통과한다.
+    for try in 1 2 3 4 5 6; do
       if [ -s "$NAR" ]; then
         gate=$(venv/bin/python scripts/gate_script.py --narration "$NAR" \
                  --ending "$ending" --maxlen "$cur_max" 2>&1)
@@ -169,7 +171,7 @@ while grace_ok; do
         say "  ① $gate"
         mv "$NAR" "${NAR%.json}.rej${try}.json" 2>/dev/null
       fi
-      [ "$try" = 3 ] && { say "  ① 관문 3회 불합격 — 큐에서 내림"; ok=0; break; }
+      [ "$try" = 6 ] && { say "  ① 관문 6회 불합격 — 큐에서 내림"; ok=0; break; }
       venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
         --scenes 8 --minlen "$cur_min" --maxlen "$cur_max" --tone "$tone" --emphasis $TRE_ARG \
         --ending "$ending" --out "$NAR" >>"$LOG" 2>&1

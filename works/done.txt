@@ -543,3 +543,5 @@
 2026-08-21T13:03:59	joewa_beol	facts/auto_joewa_beol.txt	소설 죄와 벌에서 만날 수 있습니다	1860s Petersburg illustration, tenement stairwells and summer haze, canal stone, sallow yellow and grey palette, worn paper texture. 	긴장	50s
 2026-08-21T13:05:23	joewa_beol	facts/auto_joewa_beol.txt	소설 죄와 벌에서 만날 수 있습니다	1860s Petersburg illustration, tenement stairwells and summer haze, canal stone, sallow yellow and grey palette, worn paper texture. 	긴장	50s
 2026-08-21T15:39:41	talchulgi	facts/auto_talchulgi.txt	소설 탈출기에서 만날 수 있습니다	1920s Manchurian frontier illustration, snow road and mud hut, cold blue and ash palette, coarse paper texture. 	서늘	51s
+2026-08-21T18:15:58	tumyeongingan	facts/auto_tumyeongingan.txt	소설 투명인간에서 만날 수 있습니다	English village illustration in winter, snow-lit inn and bandaged figure, oil lamps, muted grey and lamplight palette, grainy plate texture.	긴장	51s
+2026-08-21T21:00:09	noteureudam_de_pari	facts/auto_noteureudam_de_pari.txt	소설 노트르담 드 파리에서 만날 수 있습니다	15th century Paris illustration, cathedral towers and crowded square, bell chamber light, stone grey and ember palette, woodcut texture.	서늘	52s
