@@ -315,12 +315,10 @@ def build(facts: str, extra: str) -> dict:
                 else:
                     print("  ! 앵커가 장소·동작뿐이다 — 재시도", file=sys.stderr)
                     continue
-            if not beats[-2]["beat"].rstrip().endswith("?"):
-                print("  ! 끝에서 두 번째가 질문이 아니다 — 재시도", file=sys.stderr)
-                continue
-            if beats[-1]["beat"].rstrip().endswith("?"):
-                print("  ! 마지막 박자는 여운이어야 한다 — 재시도", file=sys.stderr)
-                continue
+            # 박자 문장이 의문형인지는 검사하지 않는다. 박자는 **그림 재료**일 뿐이고,
+            # 시청자가 듣는 질문은 낭독에 있으며 그쪽은 대본 관문이 강제한다.
+            # 질문이 아예 없는 초안까지 반려하니 통과율이 무너졌다(실측: 만무방이
+            # 이 사유만으로 바퀴를 다 태웠다). 위의 맞바꿈 교정만 남긴다.
             return d
         why = []
         if len(beats) != BEATS:
