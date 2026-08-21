@@ -303,10 +303,18 @@ def build(facts: str, extra: str) -> dict:
             if not all((b.get("motion") or "").strip() for b in beats):
                 print("  ! motion 이 빠진 박자가 있다 — 재시도", file=sys.stderr)
                 continue
-            if re.search(r"\b(moving|walking|through|aboard|inside|holding|carrying|landscape|street|room)\b",
-                         d.get("anchor", ""), re.I):
-                print("  ! 앵커에 장소·동작이 들었다 — 재시도", file=sys.stderr)
-                continue
+            # 앵커의 장소·동작도 반려 대신 교정한다 — 문제 단어부터 뒤를 잘라
+            # 생김새만 남긴다(실측: 여섯 번 중 다섯 번이 이 사유로 다 버려졌다).
+            m = re.search(r"[,;]?\s*\b(moving|walking|standing|sitting|through|aboard|inside|"
+                          r"holding|carrying|landscape|street|room|field|village|house)\b",
+                          d.get("anchor", ""), re.I)
+            if m:
+                trimmed = d["anchor"][:m.start()].rstrip(" ,;")
+                if len(trimmed.split()) >= 4:
+                    d["anchor"] = trimmed
+                else:
+                    print("  ! 앵커가 장소·동작뿐이다 — 재시도", file=sys.stderr)
+                    continue
             if not beats[-2]["beat"].rstrip().endswith("?"):
                 print("  ! 끝에서 두 번째가 질문이 아니다 — 재시도", file=sys.stderr)
                 continue
