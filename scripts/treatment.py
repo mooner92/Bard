@@ -292,6 +292,14 @@ def build(facts: str, extra: str) -> dict:
             # 식탁을 짓누르며 남편의 표정이 굳어진다"). 여운이 질문이어야 다음이 궁금해진다.
             # 질문은 **끝에서 두 번째**다. 마지막은 여운의 정물 — 프롬프트와 이 검사가
             # 어긋나 있으면 모델이 뭘 내놔도 반려된다(실측: 여섯 번 다 떨어졌다).
+            # 모델이 옛 버릇대로 질문을 마지막에 두는 일이 가장 잦다. 반려하지 말고
+            # 끝 두 박자를 맞바꾸면 원하는 모양(질문 -2, 여운 -1)이 된다 — 반려 여섯 번의
+            # 대부분이 이 하나였다(실측: 만무방·금수회의록·인간 문제).
+            if (beats[-1]["beat"].rstrip().endswith("?")
+                    and not beats[-2]["beat"].rstrip().endswith("?")):
+                beats[-1], beats[-2] = beats[-2], beats[-1]
+                for i, b in enumerate(beats, 1):
+                    b["n"] = i
             if not all((b.get("motion") or "").strip() for b in beats):
                 print("  ! motion 이 빠진 박자가 있다 — 재시도", file=sys.stderr)
                 continue
