@@ -1,0 +1,59 @@
+{
+ "logline": "도망친 소녀가 공장 기숙사 창문 앞에서 자신의 마지막 숨을 붙잡고 있다.",
+ "destination": "인천 방직공장 기숙사 창문 — 병든 몸이 더 이상 버티지 못하는 문턱",
+ "protagonist": "어머니를 잃고 주인의 집에 들어간 순진한 소녀",
+ "setting": "1934년 황해도 장연과 인천의 일본계 방직공장",
+ "anchor": "Thin, pale young Korean woman with dark hair, wearing a worn gray factory uniform.",
+ "palette": "Cold blue-gray shadows, dim industrial lighting, stark contrast, desaturated tones.",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "안개 낀 못가에 어린 소녀가 홀로 서 있다.",
+   "visual": "a young girl standing alone at the edge of a misty village pond, low thatched roofs behind",
+   "motion": "mist drifts across the water, her skirt stirs, ripples spread from the reeds"
+  },
+  {
+   "n": 2,
+   "beat": "지주의 집 마루에서 소녀가 고개를 숙이고 있다.",
+   "visual": "a girl standing on a wooden veranda of a tiled-roof house, head bowed, master's shadow near",
+   "motion": "her head sinks toward the floor, the shadow leans in, a door panel rattles"
+  },
+  {
+   "n": 3,
+   "beat": "소녀가 짐을 싸서 마당 문을 나선다.",
+   "visual": "Girl carrying a small bundle walking away from a large traditional house gate.",
+   "motion": "Figure moving away from the gate, toward the road."
+  },
+  {
+   "n": 4,
+   "beat": "기차 창문 밖으로 흐르는 황량한 논밭을 바라본다.",
+   "visual": "View from a moving train window, blurred fields and trees rushing past quickly.",
+   "motion": "Landscape sliding horizontally to the left, past the glass."
+  },
+  {
+   "n": 5,
+   "beat": "공장 기숙사 침대에서 기침을 참으며 몸을 웅크린다.",
+   "visual": "Girl curled up in a narrow bunk bed, clutching chest, breathing heavily.",
+   "motion": "Body hunching inward, shoulders rising and falling sharply."
+  },
+  {
+   "n": 6,
+   "beat": "창문 밖으로 쏟아지는 흐린 하늘을 멍하니 바라본다.",
+   "visual": "Girl staring out a dirty factory window at a gray, overcast sky, reflection faint.",
+   "motion": "Gaze fixed outward, head tilting slightly up."
+  },
+  {
+   "n": 7,
+   "beat": "그녀가 창틀을 잡은 채 더 이상 버틸 수 있을까?",
+   "visual": "Hand gripping the wooden window frame tightly, knuckles white, posture rigid.",
+   "motion": "Fingers tightening on the frame, holding still."
+  },
+  {
+   "n": 8,
+   "beat": "기숙사 복도에 텅 빈 침상 하나만 남아 있다.",
+   "visual": "an empty iron cot in a dim dormitory corridor, folded blanket, one high window",
+   "motion": "dust turns in the window beam, the blanket edge lifts, the corridor stays still"
+  }
+ ],
+ "withheld": "선비는 폐병으로 사망하고, 첫째는 이미 싸늘하게 식어 시커먼 뭉치처럼 변해버린 시신을 보며 인간문제임을 깨닫는다."
+}

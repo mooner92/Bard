@@ -1,0 +1,59 @@
+{
+ "logline": "수난을 겪은 지식인 조카의 시선으로, 그의 '어리석음'이 실은 생존을 위한 기회주의였음을 드러내는 순간.",
+ "destination": "고모부의 손 — 조카의 판단이 뒤집히는 그 손의 움직임",
+ "protagonist": "일본 상점 점원인 조카",
+ "setting": "1938년 일제강점기, 일본인 상점과 조카의 집",
+ "anchor": "Young Korean clerk in a short dark jacket",
+ "palette": "Cold blue shadows, harsh single light source, dust motes in air, muted earth tones.",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "조카가 계산대를 치우며 고모부를 향해 코웃음친다.",
+   "visual": "Close up of hands wiping a wooden counter, then panning up to a smirking young face.",
+   "motion": "Hands wiping left to right, face tilting up."
+  },
+  {
+   "n": 2,
+   "beat": "5년 만에 나온 고모부가 낡은 옷으로 상점 문턱을 넘는다.",
+   "visual": "A frail man in tattered clothes stepping over a shop threshold, dust rising from his feet.",
+   "motion": "Man stepping forward, dust rising."
+  },
+  {
+   "n": 3,
+   "beat": "조카는 고모부의 멍한 표정을 보며 혀를 차며 고개를 돌린다.",
+   "visual": "Profile of the clerk rolling his eyes, turning his back to the entrance.",
+   "motion": "Head turning away, body shifting back."
+  },
+  {
+   "n": 4,
+   "beat": "고모부가 일본인 상인의 손에 이끌려 무언가를 받아들고 고개를 숙인다.",
+   "visual": "A Japanese man extending a hand, the frail man bowing deeply to receive an unseen item.",
+   "motion": "Hand extending forward, head bowing down."
+  },
+  {
+   "n": 5,
+   "beat": "조카는 그 모습을 보며 비웃음을 참지 못하고 소리를 내뱉는다.",
+   "visual": "The clerk's mouth opening in a sneer, eyes wide with contempt, body leaning forward.",
+   "motion": "Body leaning forward, mouth opening."
+  },
+  {
+   "n": 6,
+   "beat": "고모부가 조카에게 조용히 다가와 그의 손등을 톡 치며 미소 짓는다.",
+   "visual": "The frail man approaching silently, tapping the clerk's hand, a subtle smile forming.",
+   "motion": "Man moving closer, finger tapping hand."
+  },
+  {
+   "n": 7,
+   "beat": "조카의 비웃음이 굳으며, 그의 눈이 고모부의 손에 고정된다.",
+   "visual": "Close up of the clerk's frozen expression, eyes locked on the older man's hand.",
+   "motion": "Eyes narrowing, face freezing."
+  },
+  {
+   "n": 8,
+   "beat": "상점 바닥에 떨어진 작은 종이 조각이 바람에 날려 사라진다.",
+   "visual": "A small piece of paper lying on the wooden floor, blown away by a draft.",
+   "motion": "Paper sliding across floor, disappearing."
+  }
+ ],
+ "withheld": "고모부가 받은 것이 생존을 위한 굴복의 대가임을, 그리고 조카가 자신의 기회주의적 생존 방식을 비웃고 있었다는 사실을 깨달은 것."
+}

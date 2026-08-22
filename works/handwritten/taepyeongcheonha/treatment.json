@@ -1,0 +1,59 @@
+{
+ "logline": "태평천하라 믿는 지주의 안락함이, 전쟁의 그림자가 드리우며 흔들리는 순간의 긴장",
+ "destination": "서재 책상 위 — '태평천하'라 적힌 글씨를 바라보는 시선",
+ "protagonist": "안락한 서재에 앉아 있는 지주",
+ "setting": "1937년 중일전쟁 발발 당일, 전라도 군산의 지주 집안 서재",
+ "anchor": "Well-dressed middle-aged Korean man in a dimly lit traditional study",
+ "palette": "Warm yellow lantern light contrasting with cold blue dusk shadows",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "지주가 붉은 술잔을 들어 한 모금 마신다.",
+   "visual": "a silk-robed old master lifting a red-lacquered cup in a warm study, brazier glowing",
+   "motion": "the cup rises to his lips, steam curls off the brazier, his sleeve settles"
+  },
+  {
+   "n": 2,
+   "beat": "창밖으로 검은 구름이 몰려와 햇살을 가린다.",
+   "visual": "Wide shot of a window where dark storm clouds obscure the fading sunlight outside.",
+   "motion": "Clouds drifting rapidly across the sky"
+  },
+  {
+   "n": 3,
+   "beat": "아들이 들고 온 신문지를 책상 위에 툭 던진다.",
+   "visual": "A young man's hand tosses a folded newspaper onto a wooden desk with force.",
+   "motion": "Newspaper flying from left to right onto the desk"
+  },
+  {
+   "n": 4,
+   "beat": "지주는 신문을 펼치며 얼굴에 미소를 짓는다.",
+   "visual": "The man unfolds the newspaper, his face illuminated by a smug, satisfied smile.",
+   "motion": "Man's hands unfolding the paper outward"
+  },
+  {
+   "n": 5,
+   "beat": "갑자기 밖에서 큰 폭발음이 울려 창문이 흔들린다.",
+   "visual": "The window frame vibrates violently as a loud explosion sound echoes from outside.",
+   "motion": "Window frame shaking horizontally"
+  },
+  {
+   "n": 6,
+   "beat": "지주는 손을 멈추고 굳은 표정으로 창밖을 본다.",
+   "visual": "The man freezes, his smile vanishing as he stares intently at the dark window.",
+   "motion": "Man's head turning sharply toward the window"
+  },
+  {
+   "n": 7,
+   "beat": "그는 여전히 '태평천하'라 믿고 있을까?",
+   "visual": "Close-up of the man's eyes reflecting the darkening window, his expression unreadable.",
+   "motion": "Eyes shifting slightly in the darkness"
+  },
+  {
+   "n": 8,
+   "beat": "서재 책상 위에 열린 신문과 빈 술잔만 놓여 있다.",
+   "visual": "Static shot of the wooden desk with an open newspaper and an empty wine cup.",
+   "motion": "Stillness in the dimly lit room"
+  }
+ ],
+ "withheld": "전쟁의 참상이 지주의 안락한 삶을 어떻게 파괴하는지, 혹은 그가 그 진실 앞에서 어떤 행동을 취하는지는 드러내지 않는다."
+}

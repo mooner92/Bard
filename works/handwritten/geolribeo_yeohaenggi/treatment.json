@@ -1,0 +1,59 @@
+{
+ "logline": "거대한 바다에서 작은 섬으로 떨어진 선원이, 그곳의 거인들에게 둘러싸이며 자신의 처지를 직시해야 한다.",
+ "destination": "릴리퍼트의 성문 앞 — 작아진 자의 운명을 결정짓는 순간",
+ "protagonist": "바다에 떠다니다 작은 섬에 발을 내디딘 선원",
+ "setting": "18세기, 릴리퍼트 왕국의 광장과 성문 앞",
+ "anchor": "Disheveled sailor in tattered blue coat, pale face",
+ "palette": "Bright midday sun, high contrast, saturated greens and blues, sharp shadows.",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "선원이 모래사장 위에 엎드린 채 천천히 몸을 일으킨다.",
+   "visual": "Low angle shot of a man pushing himself up from the sand, looking disoriented.",
+   "motion": "Man rising slowly from the sand toward the horizon."
+  },
+  {
+   "n": 2,
+   "beat": "그의 발끝을 향해 수많은 손이 줄지어 다가온다.",
+   "visual": "Extreme close-up of tiny hands reaching out and touching the man's massive boot toe.",
+   "motion": "Tiny hands moving forward toward the stationary boot."
+  },
+  {
+   "n": 3,
+   "beat": "그는 발을 움직이자마자 다수의 작은 인파가 넘어진다.",
+   "visual": "Wide shot of the man shifting his foot, causing a wave of tiny figures to fall backward.",
+   "motion": "Tiny figures falling backward away from the moving foot."
+  },
+  {
+   "n": 4,
+   "beat": "그가 무릎을 꿇자 소나무만한 작은 군중이 그의 무릎에 올라탄다.",
+   "visual": "Medium shot of the man kneeling, with tiny soldiers climbing up his knee like a tree.",
+   "motion": "Tiny figures climbing upward onto the man's knee."
+  },
+  {
+   "n": 5,
+   "beat": "그가 팔을 뻗어 작은 군중을 감싸 안으려 한다.",
+   "visual": "Close-up of the man extending his arm, trying to cradle a group of tiny people.",
+   "motion": "Arm extending forward and downward to embrace the tiny group."
+  },
+  {
+   "n": 6,
+   "beat": "그의 손바닥 위에 작은 깃발과 무기들이 정렬되어 놓인다.",
+   "visual": "Top-down view of the man's open palm, filled with neatly arranged tiny flags and spears.",
+   "motion": "Tiny objects being placed and aligned on the open palm."
+  },
+  {
+   "n": 7,
+   "beat": "그가 성문을 향해 걸어갈 수 있을까?",
+   "visual": "Low angle tracking shot of the man's feet walking toward a massive stone gate.",
+   "motion": "Man's feet moving forward toward the distant stone gate."
+  },
+  {
+   "n": 8,
+   "beat": "성문 앞 잔디에 선원의 신발 한 짝이 놓여 있다.",
+   "visual": "Static shot of a single large boot lying on the grass near the base of the gate.",
+   "motion": "Stillness of the boot on the grass near the gate."
+  }
+ ],
+ "withheld": "선원이 릴리퍼트 사람들에게 사로잡혀 묶인 채로 감금되고, 이후 정치적 갈등에 휘말리며 결국 탈출해야 하는 운명"
+}

@@ -1,0 +1,59 @@
+{
+ "logline": "부모를 잃고 타국에 팔려간 소녀가, 익숙해진 일상의 문 앞에서 돌아갈 길을 잃고 서 있다.",
+ "destination": "부인의 집 현관문 — 떠나야 하는지, 남을지 결정되는 순간",
+ "protagonist": "일본에서 학교를 다니는 일곱 살 소녀",
+ "setting": "1900년대 초, 일본인 군의관의 가정과 평양의 혼란",
+ "anchor": "Seven-year-old girl in a white kimono, dark hair, standing still",
+ "palette": "Cold blue shadows, dim indoor lighting, muted earth tones, soft focus",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "소녀가 신발 끈을 조이며 현관 앞에 선다.",
+   "visual": "Close up of small hands tying shoes on a wooden floor mat.",
+   "motion": "Hands tightening laces slowly inward"
+  },
+  {
+   "n": 2,
+   "beat": "뒤에서 여성의 목소리가 차갑게 그를 부른다.",
+   "visual": "Silhouette of a woman blocking the doorway from the dim hallway.",
+   "motion": "Shadow lengthening towards the child"
+  },
+  {
+   "n": 3,
+   "beat": "소녀가 고개를 들지 못한 채 발을 멈춘다.",
+   "visual": "Child's profile in profile, eyes downcast, holding a small bag.",
+   "motion": "Head lowering slightly further down"
+  },
+  {
+   "n": 4,
+   "beat": "창밖으로 낯선 도시의 스모그가 흘러들어온다.",
+   "visual": "Grey smoke drifting through the open window pane behind the girl.",
+   "motion": "Smoke drifting left to right across the frame"
+  },
+  {
+   "n": 5,
+   "beat": "소녀가 주머니에서 낡은 사진을 꺼낸다.",
+   "visual": "Fingers holding a faded photograph against the white kimono sleeve.",
+   "motion": "Hand bringing object up to eye level"
+  },
+  {
+   "n": 6,
+   "beat": "사진 속 평양의 모습이 흐려져 보이기 시작한다.",
+   "visual": "Blurred faces in the photo becoming indistinct as the hand trembles.",
+   "motion": "Hand shaking slightly forward and back"
+  },
+  {
+   "n": 7,
+   "beat": "그녀는 문을 열고 나가야 할까?",
+   "visual": "Girl standing frozen at the threshold, one foot hovering over the step.",
+   "motion": "Foot lifting slightly off the ground"
+  },
+  {
+   "n": 8,
+   "beat": "현관 바닥에 신발 한 짝이 비어 있다.",
+   "visual": "A single small shoe lying abandoned on the cold wooden floor.",
+   "motion": "Camera static, shoe remains still"
+  }
+ ],
+ "withheld": "소녀가 실제로 집을 나서는지, 혹은 일본인 군의관 이노우에가 전사했다는 소식을 듣고 어떻게 반응하는지."
+}
