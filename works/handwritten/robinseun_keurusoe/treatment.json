@@ -1,0 +1,61 @@
+{
+ "logline": "난파로 무인도에 홀로 남겨진 남자가, 아무것도 없는 곳에서 살림을 하나씩 세운다.",
+ "destination": "섬의 모래밭 — 그가 혼자가 아님을 알게 되는 자리",
+ "protagonist": "덥수룩한 수염에 염소 가죽 옷을 걸친 중년 남자",
+ "setting": "17세기 대서양의 무인도, 해변과 동굴과 밀림",
+ "anchor": "a bearded middle-aged man in rough goatskin clothes and a tall goatskin cap",
+ "palette": "bleached sand, turquoise shallows, deep jungle green, driftwood grey",
+ "voice": "ko-KR-BongJinNeural",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "남자가 부서진 배의 널판을 붙잡고 파도에 밀린다.",
+   "visual": "a man clinging to a broken ship plank as surf drives him toward a wide empty beach",
+   "motion": "the wave carries him forward onto the sand, foam boils past, the plank pitches"
+  },
+  {
+   "n": 2,
+   "beat": "남자가 난파선에서 궤짝을 뗏목에 옮겨 싣는다.",
+   "visual": "a man loading crates from a wrecked ship's deck onto a makeshift raft in shallow water",
+   "motion": "a crate swings down onto the raft, ropes strain, the hull groans and settles"
+  },
+  {
+   "n": 3,
+   "beat": "남자가 절벽 아래 울타리를 둘러 세운다.",
+   "visual": "a man driving sharpened stakes into sand below a limestone cliff, tent and cave mouth behind",
+   "motion": "the stake is hammered down into the sand, sand sprays out, the tent canvas snaps"
+  },
+  {
+   "n": 4,
+   "beat": "남자가 염소 떼를 울타리 안으로 몬다.",
+   "visual": "a goatskin-clad man herding wild goats through a gap in a stake fence, sea beyond",
+   "motion": "the goats push forward through the gap, dust lifts, his staff swings behind them"
+  },
+  {
+   "n": 5,
+   "beat": "남자가 통나무를 파내 배를 만든다.",
+   "visual": "a bearded man hollowing a felled tree trunk with an adze at the jungle edge",
+   "motion": "the adze bites down into the trunk, chips fly outward, palm fronds toss overhead"
+  },
+  {
+   "n": 6,
+   "beat": "남자가 모래밭에서 발자국 하나를 발견한다.",
+   "visual": "a lone bare human footprint pressed into wet sand, a bearded man halted above it",
+   "motion": "he stops short above the print, his shadow falls across it, foam slides up the sand"
+  },
+  {
+   "n": 7,
+   "beat": "남자가 절벽 위에서 먼바다의 연기를 본다.",
+   "visual": "a bearded man on a cliff edge staring at a thread of smoke rising from a far shore",
+   "motion": "smoke climbs from the far shore, wind drives his cap brim back, grass flattens"
+  },
+  {
+   "n": 8,
+   "beat": "텅 빈 모래밭에 발자국과 파도만 남는다.",
+   "anchor": false,
+   "visual": "an empty stretch of wet beach with a single footprint, surf running up the sand at dusk",
+   "motion": "surf runs up over the sand toward the print, foam recedes, light fades on the water"
+  }
+ ],
+ "withheld": "발자국의 주인과, 남자가 섬을 떠나게 되는 마지막"
+}

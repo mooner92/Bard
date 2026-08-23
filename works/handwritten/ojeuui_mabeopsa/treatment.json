@@ -1,0 +1,61 @@
+{
+ "logline": "회오리에 실려 낯선 나라에 떨어진 소녀가, 집으로 돌아가려고 노란 벽돌길을 따라간다.",
+ "destination": "에메랄드 도시 — 소원을 들어준다는 마법사가 있는 곳",
+ "protagonist": "양 갈래로 땋은 머리에 파란 체크 원피스를 입은 소녀",
+ "setting": "회오리가 지나간 오즈의 나라, 들판과 숲과 에메랄드 도시",
+ "anchor": "a young girl with brown braided pigtails, blue gingham dress and red shoes",
+ "palette": "emerald green, poppy red, cornflower blue, wide prairie gold",
+ "voice": "ko-KR-SunHiNeural",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "소녀가 회오리에 실린 집 창밖을 내다본다.",
+   "visual": "a girl at the window of a small wooden house spinning inside a towering tornado, debris circling",
+   "motion": "the house turns inside the funnel, fences and cows whirl past the window, curtains snap"
+  },
+  {
+   "n": 2,
+   "beat": "소녀가 낯선 들판에 내려선 집 문을 연다.",
+   "visual": "a girl stepping out of a tilted farmhouse door into a bright land of oversized flowers",
+   "motion": "the door swings open outward, she steps down into the flowers, petals shake loose"
+  },
+  {
+   "n": 3,
+   "beat": "소녀가 노란 벽돌길 위에 발을 올린다.",
+   "visual": "a girl setting her red shoe on the first yellow brick of a road curving into hills",
+   "motion": "her shoe presses down onto the brick, dust puffs up, the road sways with poppies"
+  },
+  {
+   "n": 4,
+   "beat": "밀짚 허수아비가 장대에서 몸을 비튼다.",
+   "visual": "a straw scarecrow twisting himself off a wooden pole above a cornfield",
+   "motion": "he wrenches free downward off the pole, straw scatters, crows burst upward"
+  },
+  {
+   "n": 5,
+   "beat": "녹슨 나무꾼이 도끼를 든 채 굳어 있다.",
+   "visual": "a rusted tin woodman frozen mid-swing with an axe in a dripping forest clearing",
+   "motion": "rain drips down his rusted joints, the axe head trembles, leaves shake overhead"
+  },
+  {
+   "n": 6,
+   "beat": "덤불에서 커다란 사자가 뛰쳐나온다.",
+   "visual": "a huge lion bursting out of roadside bushes onto a yellow brick road, mane flying",
+   "motion": "the lion leaps out toward the road, bushes whip back, dust bursts under his paws"
+  },
+  {
+   "n": 7,
+   "beat": "에메랄드 도시의 큰 문이 눈앞에서 열린다.",
+   "visual": "towering green city gates parting before four small travellers, spires glittering beyond",
+   "motion": "the gates swing inward toward the city, green light spills out, banners flap"
+  },
+  {
+   "n": 8,
+   "beat": "빈 벽돌길에 붉은 구두 자국만 남는다.",
+   "anchor": false,
+   "visual": "an empty yellow brick road at dusk with small shoe prints in the dust, poppies at the verge",
+   "motion": "dust drifts across the prints, poppies nod at the verge, the road darkens ahead"
+  }
+ ],
+ "withheld": "마법사의 정체와, 소녀가 집으로 돌아가는 방법"
+}

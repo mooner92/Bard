@@ -1,6 +1,7 @@
-chuwolsaek	facts/auto_chuwolsaek.txt	소설 추월색에서 만날 수 있습니다	turn-of-century Korean moonlit romance illustration: harbor steamships and lantern-lit night park, cool blue and amber. 	서늘
-du_dosi_iyagi	facts/auto_du_dosi_iyagi.txt	소설 두 도시 이야기에서 만날 수 있습니다	18th-century European engraving style: candlelit garrets, courtrooms and torchlit crowds, cold grey with torch red. 	긴장
-tom_soyeoui_moheom	facts/auto_tom_soyeoui_moheom.txt	소설 톰 소여의 모험에서 만날 수 있습니다	1840s American riverside storybook illustration: whitewashed fences, summer green, candlelit limestone caves. 	생동
-jigu_sok_yeohaeng	facts/auto_jigu_sok_yeohaeng.txt	소설 지구 속 여행에서 만날 수 있습니다	Victorian scientific-romance plate: volcanic craters and glowing underground seas, torch orange on black basalt. 	생동
-juhongsaek_yeongu	facts/auto_juhongsaek_yeongu.txt	소설 주홍색 연구에서 만날 수 있습니다	1880s London detective illustration: gaslit fog, laboratory glassware, wet cobbles, grey and amber. 	긴장
 sangroksu	facts/auto_sangroksu.txt	소설 상록수에서 만날 수 있습니다	1930s Korean rural realist illustration: thatched village, chapel and children, warm ochre and deep green, muted period palette. 	서늘
+honggildongjeon	facts/auto_honggildongjeon.txt	소설 홍길동전에서 만날 수 있습니다	Korean ink-wash folk painting style: pine ridges in mist, tiled-roof estates, hanji cream and indigo. 	생동
+chunhyangjeon	facts/auto_chunhyangjeon.txt	소설 춘향전에서 만날 수 있습니다	Korean minhwa folk-painting style: willow pavilions, crimson and green hanbok, lantern amber. 	서늘
+isanghan_naraui_aelriseu	facts/auto_isanghan_naraui_aelriseu.txt	소설 이상한 나라의 앨리스에서 만날 수 있습니다	Victorian storybook illustration: jewel tones, ink linework, whimsical scale shifts, playing-card red. 	생동
+ojeuui_mabeopsa	facts/auto_ojeuui_mabeopsa.txt	소설 오즈의 마법사에서 만날 수 있습니다	American storybook illustration: prairie gold, emerald green city, poppy red fields, warm outlines. 	생동
+robinseun_keurusoe	facts/auto_robinseun_keurusoe.txt	소설 로빈슨 크루소에서 만날 수 있습니다	18th-century adventure engraving style: bleached sand, turquoise shallows, jungle green, driftwood grey. 	생동
+samchongsa	facts/auto_samchongsa.txt	소설 삼총사에서 만날 수 있습니다	17th-century French romance illustration: Paris slate and candle amber, wine red cloaks, steel glint. 	긴장

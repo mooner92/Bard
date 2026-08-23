@@ -561,3 +561,8 @@
 2026-08-23T10:24:31	geolribeo_yeohaenggi	facts/auto_geolribeo_yeohaenggi.txt	소설 걸리버 여행기에서 만날 수 있습니다	18th century voyage engraving illustration: tall ships, tiny and giant figures, rope and canvas, sepia and teal palette, copperplate texture. 	생동	52s
 2026-08-23T12:58:35	geumsuhoeuirok	facts/auto_geumsuhoeuirok.txt	소설 금수회의록에서 만날 수 있습니다	satirical animal-assembly woodcut illustration: crow, fox, frog and bees at a torchlit forest meeting, warm lantern palette, folk print texture. 	생동	53s
 2026-08-23T13:00:44	sangroksu	facts/auto_sangroksu.txt	소설 상록수에서 만날 수 있습니다	1930s Korean rural realist illustration: thatched village, chapel and children, warm ochre and deep green, muted period palette. 	서늘	52s
+2026-08-23T15:34:59	chuwolsaek	facts/auto_chuwolsaek.txt	소설 추월색에서 만날 수 있습니다	turn-of-century Korean moonlit romance illustration: harbor steamships and lantern-lit night park, cool blue and amber. 	서늘	53s
+2026-08-23T17:55:07	du_dosi_iyagi	facts/auto_du_dosi_iyagi.txt	소설 두 도시 이야기에서 만날 수 있습니다	18th-century European engraving style: candlelit garrets, courtrooms and torchlit crowds, cold grey with torch red. 	긴장	51s
+2026-08-23T20:10:40	tom_soyeoui_moheom	facts/auto_tom_soyeoui_moheom.txt	소설 톰 소여의 모험에서 만날 수 있습니다	1840s American riverside storybook illustration: whitewashed fences, summer green, candlelit limestone caves. 	생동	52s
+2026-08-23T22:32:54	jigu_sok_yeohaeng	facts/auto_jigu_sok_yeohaeng.txt	소설 지구 속 여행에서 만날 수 있습니다	Victorian scientific-romance plate: volcanic craters and glowing underground seas, torch orange on black basalt. 	생동	51s
+2026-08-24T00:54:56	juhongsaek_yeongu	facts/auto_juhongsaek_yeongu.txt	소설 주홍색 연구에서 만날 수 있습니다	1880s London detective illustration: gaslit fog, laboratory glassware, wet cobbles, grey and amber. 	긴장	50s

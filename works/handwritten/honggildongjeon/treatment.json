@@ -1,0 +1,61 @@
+{
+  "logline": "서자로 태어나 아버지를 아버지라 부르지 못한 소년이, 집을 떠나 도술을 익히고 무리를 이끈다.",
+  "destination": "산속 활빈당의 본거지 — 그가 세운 새로운 자리",
+  "protagonist": "상투를 튼 열여섯 소년, 무명 저고리에 짚신",
+  "setting": "조선 시대, 사대부 저택과 깊은 산중",
+  "anchor": "a sixteen-year-old Korean boy with a topknot, plain hemp jeogori and straw sandals",
+  "palette": "ink-wash mountains, hanji cream, deep indigo night, lantern amber",
+  "voice": "ko-KR-InJoonNeural",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "소년이 마당에서 아버지를 향해 큰절을 올린다.",
+      "visual": "a boy in hemp clothes bowing to the ground before a stern robed nobleman in a tiled-roof courtyard",
+      "motion": "he lowers into the bow toward the man, the nobleman turns away, sleeves swing"
+    },
+    {
+      "n": 2,
+      "beat": "소년이 밤중에 봇짐을 지고 대문을 나선다.",
+      "visual": "a boy with a bundle on his back stepping out through a heavy gate into a moonlit lane",
+      "motion": "the gate swings shut behind him, he strides forward down the lane, his bundle rocks"
+    },
+    {
+      "n": 3,
+      "beat": "산속 바위 위에서 소년이 손을 펼친다.",
+      "visual": "a boy standing on a mist-wrapped mountain boulder with both palms opened before him",
+      "motion": "mist coils up around him toward his hands, pine tops sway, his sleeves lift"
+    },
+    {
+      "n": 4,
+      "beat": "허공에 소년의 모습이 여럿으로 늘어난다.",
+      "visual": "several identical boy figures standing across a misty ridge, pine silhouettes between them",
+      "motion": "the duplicate figures fan outward across the ridge, mist streams between them"
+    },
+    {
+      "n": 5,
+      "beat": "관아 곳간 문이 저절로 활짝 열린다.",
+      "visual": "the heavy doors of a government storehouse swinging open at night, grain sacks stacked inside",
+      "motion": "the doors swing outward, a lantern gutters, dust rolls out over the threshold"
+    },
+    {
+      "n": 6,
+      "beat": "굶주린 마을 사람들이 쌀자루를 받아 든다.",
+      "visual": "villagers in worn hanbok receiving rice sacks at dawn in a mountain hamlet, breath steaming",
+      "motion": "the sacks pass forward into their arms, breath clouds rise, straw scatters"
+    },
+    {
+      "n": 7,
+      "beat": "관군의 창끝이 산길을 가득 메우고 올라온다.",
+      "visual": "a line of helmeted soldiers with spears climbing a narrow mountain path toward a ridge",
+      "motion": "the soldiers climb up the path toward the ridge, spear tips sway, dust rises behind"
+    },
+    {
+      "n": 8,
+      "beat": "텅 빈 산마루에 안개와 짚신 자국만 남는다.",
+      "anchor": false,
+      "visual": "an empty mountain ridge in morning mist, straw sandal prints in the wet earth, pines beyond",
+      "motion": "mist rolls across the ridge, the prints fill with water, pine branches stir"
+    }
+  ],
+  "withheld": "홍길동이 바다 건너 율도국을 세워 임금이 된다는 결말"
+}

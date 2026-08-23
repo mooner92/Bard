@@ -1,0 +1,61 @@
+{
+ "logline": "토끼를 쫓아 굴로 뛰어든 소녀가, 규칙이 전부 뒤집힌 나라를 지나간다.",
+ "destination": "하트 여왕의 정원 — 모든 길이 모이는 곳",
+ "protagonist": "금발에 파란 원피스, 흰 앞치마를 두른 일곱 살 소녀",
+ "setting": "빅토리아 시대 영국의 들판과 그 아래 이상한 나라",
+ "anchor": "a seven-year-old girl with long blonde hair, blue dress and white pinafore",
+ "palette": "storybook jewel tones, teal shadow, warm gold light, playing-card red",
+ "voice": "ko-KR-SunHiNeural",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "소녀가 조끼 입은 토끼를 따라 달린다.",
+   "visual": "a girl in a blue dress running after a waistcoated white rabbit across a summer meadow",
+   "motion": "she runs after the rabbit toward the hedgerow, grass whips past, the rabbit bounds ahead"
+  },
+  {
+   "n": 2,
+   "beat": "소녀가 나무 밑 굴로 굴러 떨어진다.",
+   "visual": "a girl tumbling down a deep earthen shaft lined with floating cupboards and hanging lamps",
+   "motion": "she falls downward past the shelves, her skirt balloons up, jars turn around her"
+  },
+  {
+   "n": 3,
+   "beat": "소녀가 아주 작은 문 앞에 웅크린다.",
+   "visual": "a girl crouched before a tiny brass-handled door in a hall of many locked doors",
+   "motion": "she bends down toward the little door, curtains lift, keys swing on the wall"
+  },
+  {
+   "n": 4,
+   "beat": "소녀의 키가 방 천장까지 커진다.",
+   "visual": "a girl grown enormous, head pressed to a ceiling, one arm out a window of a small hall",
+   "motion": "she stretches upward against the ceiling, furniture skids away, plaster dust falls"
+  },
+  {
+   "n": 5,
+   "beat": "버섯 위 애벌레가 소녀를 내려다본다.",
+   "visual": "a large blue caterpillar on a spotted mushroom cap looking down at a small girl below",
+   "motion": "smoke rings drift up off the caterpillar, the mushroom sways, the girl tips her head back"
+  },
+  {
+   "n": 6,
+   "beat": "긴 탁자에서 모자 장수가 찻잔을 밀어 놓는다.",
+   "visual": "a wild-haired hatter at a long outdoor tea table shoving a teacup toward an empty chair",
+   "motion": "the cup skids down the table toward the chair, tea slops out, a dormouse tips over"
+  },
+  {
+   "n": 7,
+   "beat": "카드 병정들이 붉은 장미를 칠하다 멈춘다.",
+   "visual": "playing-card soldiers with paint buckets halted before a white rose bush, brushes dripping",
+   "motion": "the brushes stop mid-stroke, red paint drips down the petals, the cards straighten up"
+  },
+  {
+   "n": 8,
+   "beat": "빈 정원에 젖은 붓과 장미만 남는다.",
+   "anchor": false,
+   "visual": "an empty garden path with a dropped dripping brush beside half-painted roses, hedges beyond",
+   "motion": "paint drips off the brush into the gravel, rose heads nod, hedge shadows swing"
+  }
+ ],
+ "withheld": "여왕의 재판에서 벌어지는 소동과, 소녀가 눈을 뜨는 마지막"
+}

@@ -1,0 +1,61 @@
+{
+ "logline": "시골에서 올라온 젊은이가 하루 만에 세 사람과 결투를 약속하고, 그 셋과 한편이 된다.",
+ "destination": "왕비의 목걸이가 걸린 영국행 — 넷이 함께 달려야 하는 길",
+ "protagonist": "낡은 가죽조끼에 깃털 모자를 쓴 열여덟 시골 청년",
+ "setting": "17세기 파리, 골목과 수도원 뒤뜰과 왕궁",
+ "anchor": "an eighteen-year-old lean youth with a feathered hat, worn leather jerkin and high boots",
+ "palette": "Paris slate grey, candle amber, wine red, steel glint",
+ "voice": "ko-KR-InJoonNeural",
+ "beats": [
+  {
+   "n": 1,
+   "beat": "청년이 여윈 말을 끌고 파리 골목에 들어선다.",
+   "visual": "a young man leading a bony yellow horse into a crowded narrow Paris street, shutters above",
+   "motion": "he leads the horse forward down the street, laundry flaps overhead, crowds part"
+  },
+  {
+   "n": 2,
+   "beat": "청년이 어깨를 부딪친 사내와 마주 선다.",
+   "visual": "a young man squared off against a tall musketeer in a doorway after a collision",
+   "motion": "the two turn toward each other, a cloak swings back, a hat brim tips up"
+  },
+  {
+   "n": 3,
+   "beat": "수도원 뒤뜰에 네 사람이 모여 선다.",
+   "visual": "four men gathered in a walled convent yard, three musketeers facing one young stranger",
+   "motion": "they step into a loose ring, cloaks swing off shoulders, dust lifts underfoot"
+  },
+  {
+   "n": 4,
+   "beat": "붉은 옷의 병사들이 뜰로 들이닥친다.",
+   "visual": "red-cloaked guards striding through a convent gate toward four waiting men",
+   "motion": "the guards push in through the gate toward them, cloaks stream back, gravel scatters"
+  },
+  {
+   "n": 5,
+   "beat": "네 자루의 칼이 한꺼번에 뽑혀 나온다.",
+   "visual": "four rapiers drawn together in a walled yard, blades caught in slanting light",
+   "motion": "the blades come up together toward the guards, sunlight runs along the steel"
+  },
+  {
+   "n": 6,
+   "beat": "네 사람이 밤길을 나란히 말을 몰아 달린다.",
+   "visual": "four riders galloping abreast down a moonlit country road, cloaks streaming behind",
+   "motion": "the horses drive forward toward the camera, cloaks stream back, dust boils up"
+  },
+  {
+   "n": 7,
+   "beat": "청년이 항구에서 배의 밧줄을 붙잡는다.",
+   "visual": "a young man seizing a mooring rope at a windy night harbor, a ship straining beyond",
+   "motion": "the rope snaps taut in his hands, the ship pulls away from the quay, spray flies"
+  },
+  {
+   "n": 8,
+   "beat": "빈 부두에 깃털 모자 하나만 뒹군다.",
+   "anchor": false,
+   "visual": "an empty stone quay at dawn with a fallen feathered hat, mooring ropes trailing in water",
+   "motion": "wind rolls the hat along the quay, ropes drag in the water, gulls wheel overhead"
+  }
+ ],
+ "withheld": "목걸이를 둘러싼 계략의 결말과, 네 사람이 치르게 되는 대가"
+}
