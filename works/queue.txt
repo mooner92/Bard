@@ -1,11 +1,7 @@
-olribeo_teuwiseuteu	facts/auto_olribeo_teuwiseuteu.txt	소설 올리버 트위스트에서 만날 수 있습니다	Victorian London illustration: workhouse brick, gas lamps, ragged coats and top hats, fog and soot palette, steel engraving texture. 	긴장
-noteureudam_de_pari	facts/auto_noteureudam_de_pari.txt	소설 노트르담 드 파리에서 만날 수 있습니다	15th century Paris illustration, cathedral towers and crowded square, bell chamber light, stone grey and ember palette, woodcut texture.	서늘
-heokeulberi_pinui_moheom	facts/auto_heokeulberi_pinui_moheom.txt	소설 허클베리 핀의 모험에서 만날 수 있습니다	1840s Mississippi river illustration: log raft and wide brown river, lantern at night, patched clothes, dusk gold palette, pen and wash texture. 	생동
-ingan_munje	facts/auto_ingan_munje.txt	소설 인간문제에서 만날 수 있습니다	1930s Korean factory town illustration, brick chimney and dormitory window, oil lamps, muted indigo and rust palette, grainy texture.	서늘
-hyeolui_nu	facts/auto_hyeolui_nu.txt	소설 혈의 누에서 만날 수 있습니다	1900s Pyongyang illustration: tiled gates and smoke on the hills, oil lamps, white hanbok, muted ash and ember palette, ink wash texture. 	서늘
-manmubang	facts/auto_manmubang.txt	소설 만무방에서 만날 수 있습니다	1930s Korean rice-field illustration: autumn paddies and straw stacks, night lanterns, hemp clothes, ochre and deep green palette, grainy texture. 	생동
-sangol_nageune	facts/auto_sangol_nageune.txt	소설 산골 나그네에서 만날 수 있습니다	1930s Korean mountain inn illustration: thatched tavern by a stream, oil lamps, patched hanbok, cool night blue and amber palette, ink wash texture. 	서늘
-chisuk	facts/auto_chisuk.txt	소설 치숙에서 만날 수 있습니다	1930s Gyeongseong alley illustration: tin roofs and shop awnings, worn suits and hanbok, streetcar wires, sooty grey and ochre palette, grainy texture. 	생동
-taepyeongcheonha	facts/auto_taepyeongcheonha.txt	소설 태평천하에서 만날 수 있습니다	1930s wealthy Korean courtyard illustration: tiled roofs, silk robes, brass braziers, phonograph, warm amber and jade palette, fine ink texture. 	생동
-geolribeo_yeohaenggi	facts/auto_geolribeo_yeohaenggi.txt	소설 걸리버 여행기에서 만날 수 있습니다	18th century voyage engraving illustration: tall ships, tiny and giant figures, rope and canvas, sepia and teal palette, copperplate texture. 	생동
 geumsuhoeuirok	facts/auto_geumsuhoeuirok.txt	소설 금수회의록에서 만날 수 있습니다	satirical animal-assembly woodcut illustration: crow, fox, frog and bees at a torchlit forest meeting, warm lantern palette, folk print texture. 	생동
+sangroksu	facts/auto_sangroksu.txt	소설 상록수에서 만날 수 있습니다	1930s Korean rural realist illustration: thatched village, chapel and children, warm ochre and deep green, muted period palette. 	서늘
+chuwolsaek	facts/auto_chuwolsaek.txt	소설 추월색에서 만날 수 있습니다	turn-of-century Korean moonlit romance illustration: harbor steamships and lantern-lit night park, cool blue and amber. 	서늘
+du_dosi_iyagi	facts/auto_du_dosi_iyagi.txt	소설 두 도시 이야기에서 만날 수 있습니다	18th-century European engraving style: candlelit garrets, courtrooms and torchlit crowds, cold grey with torch red. 	긴장
+tom_soyeoui_moheom	facts/auto_tom_soyeoui_moheom.txt	소설 톰 소여의 모험에서 만날 수 있습니다	1840s American riverside storybook illustration: whitewashed fences, summer green, candlelit limestone caves. 	생동
+jigu_sok_yeohaeng	facts/auto_jigu_sok_yeohaeng.txt	소설 지구 속 여행에서 만날 수 있습니다	Victorian scientific-romance plate: volcanic craters and glowing underground seas, torch orange on black basalt. 	생동
+juhongsaek_yeongu	facts/auto_juhongsaek_yeongu.txt	소설 주홍색 연구에서 만날 수 있습니다	1880s London detective illustration: gaslit fog, laboratory glassware, wet cobbles, grey and amber. 	긴장
