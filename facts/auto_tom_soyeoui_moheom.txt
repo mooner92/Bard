@@ -1,1 +1,7 @@
-[출처] 손으로 작성한 원고 — 줄거리는 works/handwritten/tom_soyeoui_moheom/treatment.json 에 있다.
+[포맷] 각색형
+[서지] 톰 소여의 모험 / 마크 트웨인 /   /
+[줄거리와 배경]
+1876년 마크 트웨인의 소설. 미시시피 강가 마을의 개구쟁이 소년이 울타리 칠하기부터 동굴 탐험까지 크고 작은 모험을 벌인다.
+[줄거리]
+줄거리와 인물은 works/handwritten/tom_soyeoui_moheom/treatment.json 에 여덟 박자로 적어 두었다.
+낭독 원고도 사람이 직접 썼다 — 이 파일은 제목·분류를 알리는 용도다.

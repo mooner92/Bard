@@ -1,1 +1,7 @@
-[출처] 손으로 작성한 원고 — 줄거리는 works/handwritten/juhongsaek_yeongu/treatment.json 에 있다.
+[포맷] 각색형
+[서지] 주홍색 연구 / 코난 도일 /   /
+[줄거리와 배경]
+1887년 코난 도일의 소설. 셜록 홈즈가 처음 등장하는 작품으로, 하숙집을 함께 쓰게 된 홈즈와 왓슨이 첫 사건을 맡는다.
+[줄거리]
+줄거리와 인물은 works/handwritten/juhongsaek_yeongu/treatment.json 에 여덟 박자로 적어 두었다.
+낭독 원고도 사람이 직접 썼다 — 이 파일은 제목·분류를 알리는 용도다.
