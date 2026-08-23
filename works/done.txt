@@ -559,3 +559,5 @@
 2026-08-23T05:16:38	chisuk	facts/auto_chisuk.txt	소설 치숙에서 만날 수 있습니다	1930s Gyeongseong alley illustration: tin roofs and shop awnings, worn suits and hanbok, streetcar wires, sooty grey and ochre palette, grainy texture. 	생동	53s
 2026-08-23T07:50:00	taepyeongcheonha	facts/auto_taepyeongcheonha.txt	소설 태평천하에서 만날 수 있습니다	1930s wealthy Korean courtyard illustration: tiled roofs, silk robes, brass braziers, phonograph, warm amber and jade palette, fine ink texture. 	생동	52s
 2026-08-23T10:24:31	geolribeo_yeohaenggi	facts/auto_geolribeo_yeohaenggi.txt	소설 걸리버 여행기에서 만날 수 있습니다	18th century voyage engraving illustration: tall ships, tiny and giant figures, rope and canvas, sepia and teal palette, copperplate texture. 	생동	52s
+2026-08-23T12:58:35	geumsuhoeuirok	facts/auto_geumsuhoeuirok.txt	소설 금수회의록에서 만날 수 있습니다	satirical animal-assembly woodcut illustration: crow, fox, frog and bees at a torchlit forest meeting, warm lantern palette, folk print texture. 	생동	53s
+2026-08-23T13:00:44	sangroksu	facts/auto_sangroksu.txt	소설 상록수에서 만날 수 있습니다	1930s Korean rural realist illustration: thatched village, chapel and children, warm ochre and deep green, muted period palette. 	서늘	52s
