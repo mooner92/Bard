@@ -11,6 +11,8 @@ export const API = process.env.NEXT_PUBLIC_API ?? ''
 export type Work = {
   work: string; version: string; title: string
   sentences: string[]; passed: boolean | null; issues: string[]; updated?: string
+  region?: string   // 어디 이야기 — works/categories.json 이 정한다
+  genre?: string    // 어떤 이야기
 }
 export type Video = {
   name: string; size: number; duration: number | null

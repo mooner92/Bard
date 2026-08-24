@@ -30,6 +30,7 @@ export default function Admin() {
   const [playing, setPlaying] = useState<Video | null>(null)
   const [review, setReview] = useState<Review | null>(null)
   const [featured, setFeatured] = useState<string[]>([])
+  const [featQ, setFeatQ] = useState('')
   const [savingFeat, setSavingFeat] = useState(false)
   const [saving, setSaving] = useState(false)
 
@@ -72,6 +73,16 @@ export default function Admin() {
     return [...m.entries()].map(([k, v]) =>
       [k, v.sort((a, b) => vOrder(b.version) - vOrder(a.version))] as const)
   }, [works])
+
+  // 인기 작품에 아직 안 올라간 것 중 검색어에 걸리는 것만. 제목·작업ID 양쪽을 본다.
+  const featAdd = useMemo(() => {
+    const q = featQ.trim().toLowerCase()
+    return byWork
+      .filter(([n]) => !featured.includes(n))
+      .filter(([n, items]) => !q
+        || n.toLowerCase().includes(q)
+        || (items[0]?.title ?? '').toLowerCase().includes(q))
+  }, [byWork, featured, featQ])
 
   const group = openWork ? byWork.find(([n]) => n === openWork)?.[1] ?? [] : []
   const [current, ...olds] = group
@@ -157,12 +168,30 @@ export default function Admin() {
                 ))}
               </ol>
             ) : <p className="fine">아직 없습니다. 아래에서 추가하세요 — 비어 있으면 승인본이 자동으로 올라갑니다.</p>}
+            {/* 작품이 쉰 편을 넘으면서 칩이 여섯 줄로 깔려 눈으로 찾기 어려워졌다.
+                제목과 작업ID 양쪽으로 걸러 준다 — 관리자는 둘 다 쓴다. */}
+            <div className="featsearch">
+              <input
+                value={featQ}
+                onChange={e => setFeatQ(e.target.value)}
+                placeholder="작품 검색 (제목 또는 작업ID)"
+                aria-label="인기 작품에 추가할 작품 검색"
+              />
+              {featQ && (
+                <button className="ghost" onClick={() => setFeatQ('')} aria-label="검색어 지우기">✕</button>
+              )}
+            </div>
             <div className="featadd">
-              {byWork.filter(([n]) => !featured.includes(n)).map(([n, items]) => (
+              {featAdd.map(([n, items]) => (
                 <button key={n} className="ghost" onClick={() => saveFeatured([...featured, n])}>
                   + {items[0]?.title ?? n}
                 </button>
               ))}
+              {!featAdd.length && (
+                <p className="fine">
+                  {featQ ? `'${featQ}'에 맞는 작품이 없습니다.` : '추가할 작품이 없습니다.'}
+                </p>
+              )}
             </div>
           </section>
 

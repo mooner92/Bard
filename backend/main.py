@@ -99,10 +99,23 @@ def _display_title(work: str, fallback: str) -> str:
         return fallback
 
 
+def _categories() -> dict:
+    """작품별 권역·갈래. 전체보기 화면 왼쪽 필터가 쓴다.
+
+    발행 분류(고전/현대)는 발행작이 사실상 전부 '고전'이라 필터가 되지 못하고,
+    작가 이름은 한글로 음차되어 있어 국적을 자동으로 가를 수 없다. 그래서
+    works/categories.json 에 사람이 적어 둔다."""
+    try:
+        return json.loads((BASE / "works" / "categories.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def _works():
     """output/<작품>/narration*.json 을 훑어 작품 목록을 만든다.
     별도 테이블 없이 파일시스템을 진실로 쓴다 -- 파이프라인이 파일로 돌기 때문."""
     out = []
+    cats = _categories()
     if not OUTPUT.exists():
         return out
     for d in sorted(p for p in OUTPUT.iterdir() if p.is_dir()):
@@ -122,6 +135,8 @@ def _works():
                 "sentences": data.get("sentences", []),
                 "passed": data.get("passed"),
                 "issues": data.get("issues", []),
+                "region": (cats.get(d.name) or {}).get("region", "기타"),
+                "genre": (cats.get(d.name) or {}).get("genre", "기타"),
             })
     return out
 

@@ -3,7 +3,17 @@
 import { useEffect, useState } from 'react'
 import { API, Book, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib'
 
-type Item = { work: string; title: string; cover?: string; video?: Video }
+type Item = {
+  work: string; title: string; cover?: string; video?: Video
+  region: string; genre: string
+}
+
+/** 전체보기 왼쪽 필터의 축. 값은 works/categories.json 이 정한다. */
+type FacetKey = 'region' | 'genre'
+const FACETS: { key: FacetKey; label: string }[] = [
+  { key: 'region', label: '어디 이야기' },
+  { key: 'genre', label: '어떤 이야기' },
+]
 
 /** KEI 도서관 소장 판정 → 뱃지. unknown 은 백그라운드 조회 중이라는 뜻. */
 function HoldPill({ h }: { h: string }) {
@@ -50,6 +60,8 @@ export default function Home() {
   const [playing, setPlaying] = useState<Item | null>(null)
   const [slide, setSlide] = useState(0)
   const [featured, setFeatured] = useState<string[]>([])
+  const [picks, setPicks] = useState<Record<FacetKey, string[]>>({ region: [], genre: [] })
+  const [q, setQ] = useState('')
 
   useEffect(() => {
     fetch(`${API}/api/works`).then(r => r.json()).then(async (d: { works: Work[] }) => {
@@ -64,7 +76,11 @@ export default function Home() {
         const finals = (vid.videos as Video[]).filter(
           v => (v.kind === 'final' || v.kind === 'night') && !v.name.includes('compressed'))
         const latest = finals.sort((a, b) => (a.updated < b.updated ? 1 : -1))[0]
-        return { work: name, title, cover: kf.images?.[0], video: latest }
+        const row = d.works.find(w => w.work === name)
+        return {
+          work: name, title, cover: kf.images?.[0], video: latest,
+          region: row?.region ?? '기타', genre: row?.genre ?? '기타',
+        }
       }))
       setItems(rows.filter(r => r.video))
     }).catch(() => {})
@@ -91,6 +107,27 @@ export default function Home() {
     : approved.length ? approved : items.slice().sort(byNew)).slice(0, 5)
   const heroSet = new Set(hero.map(h => h.work))
   const fresh = items.filter(it => !heroSet.has(it.work)).sort(byNew).slice(0, 4)
+
+  // 전체보기 필터. 같은 축 안에서는 OR(한국이거나 영국), 축끼리는 AND(한국이면서 모험).
+  const toggle = (k: FacetKey, name: string) => setPicks(p => ({
+    ...p,
+    [k]: p[k].includes(name) ? p[k].filter(x => x !== name) : [...p[k], name],
+  }))
+  const hit = (it: Item) =>
+    FACETS.every(f => !picks[f.key].length || picks[f.key].includes(it[f.key]))
+    && (!q.trim() || it.title.toLowerCase().includes(q.trim().toLowerCase()))
+  const shown = items.filter(hit).sort(byNew)
+
+  // 칸마다 몇 편인지. 고르기 전에 결과 크기를 보여 준다 — 0편짜리를 누르는 헛수고를 막는다.
+  // 자기 축의 선택은 빼고 센다(한국을 고른 상태에서도 영국이 몇 편인지 보여야 한다).
+  const counts = Object.fromEntries(FACETS.map(f => {
+    const others = (it: Item) =>
+      FACETS.every(g => g.key === f.key || !picks[g.key].length || picks[g.key].includes(it[g.key]))
+      && (!q.trim() || it.title.toLowerCase().includes(q.trim().toLowerCase()))
+    const m = new Map<string, number>()
+    for (const it of items.filter(others)) m.set(it[f.key], (m.get(it[f.key]) ?? 0) + 1)
+    return [f.key, [...m.entries()].sort((a, b) => b[1] - a[1])]
+  })) as Record<FacetKey, [string, number][]>
 
   // 캐러셀 자동 회전 — 재생 중에는 멈춘다
   useEffect(() => {
@@ -160,13 +197,50 @@ export default function Home() {
         <main className="wrap">
           <header className="phead">
             <h1>모든 작품.</h1>
-            <p>{items.length}편 · 최신순</p>
+            <p>
+              {shown.length}편
+              {shown.length !== items.length && ` (전체 ${items.length}편)`} · 최신순
+            </p>
           </header>
-          <div className="grid">
-            {items.slice().sort(byNew).map(it => (
-              <Card key={it.work} it={it} onPlay={() => setPlaying(it)} />
-            ))}
-            {!items.length && <p className="fine">아직 공개된 영상이 없습니다.</p>}
+          <div className="browse">
+            <aside className="facets">
+              <div className="facethead">
+                <h2>분류</h2>
+                {(picks.region.length > 0 || picks.genre.length > 0 || q) && (
+                  <button className="ghost" onClick={() => {
+                    setPicks({ region: [], genre: [] }); setQ('')
+                  }}>초기화</button>
+                )}
+              </div>
+              <input
+                className="facetq" value={q} onChange={e => setQ(e.target.value)}
+                placeholder="제목 검색" aria-label="작품 제목 검색"
+              />
+              {FACETS.map(f => (
+                <section key={f.key} className="facet">
+                  <h3>{f.label}</h3>
+                  {counts[f.key].map(([name, n]) => (
+                    <label key={name} className="facetrow">
+                      <input
+                        type="checkbox"
+                        checked={picks[f.key].includes(name)}
+                        onChange={() => toggle(f.key, name)}
+                      />
+                      <span>{name}</span>
+                      <em>{n}</em>
+                    </label>
+                  ))}
+                </section>
+              ))}
+            </aside>
+            <div className="grid browsegrid">
+              {shown.map(it => (
+                <Card key={it.work} it={it} onPlay={() => setPlaying(it)} />
+              ))}
+              {!items.length && <p className="fine">아직 공개된 영상이 없습니다.</p>}
+              {!!items.length && !shown.length &&
+                <p className="fine">고른 조건에 맞는 작품이 없습니다.</p>}
+            </div>
           </div>
         </main>
       )}
