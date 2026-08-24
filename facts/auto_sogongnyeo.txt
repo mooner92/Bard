@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 소공녀 / 프랜시스 호지슨 버넷 /   /
+[줄거리와 배경]
+1905년 버넷의 소설. 부유하게 자란 세라가 아버지의 죽음으로 하루아침에 하녀가 되어 다락방으로 쫓겨난다.
+[줄거리]
+줄거리와 인물은 works/handwritten/sogongnyeo/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

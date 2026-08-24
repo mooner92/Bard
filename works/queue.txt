@@ -1,3 +1,4 @@
-chunhyangjeon	facts/auto_chunhyangjeon.txt	소설 춘향전에서 만날 수 있습니다	Korean minhwa folk-painting style: willow pavilions, crimson and green hanbok, lantern amber. 	서늘
-simcheongjeon	facts/auto_simcheongjeon.txt	소설 심청전에서 만날 수 있습니다	Korean minhwa folk-painting style: ink-wash sea and thatched huts, lotus pink, hanji cream, muted period palette. 	서늘
 heungbujeon	facts/auto_heungbujeon.txt	소설 흥부전에서 만날 수 있습니다	Korean minhwa folk-painting style: straw-gold thatch, swallows, giant gourds, autumn ochre, warm folk humour. 	생동
+simcheongjeon	facts/auto_simcheongjeon.txt	소설 심청전에서 만날 수 있습니다	Korean minhwa folk-painting style: ink-wash sea and thatched huts, lotus pink, hanji cream, muted period palette. 	서늘
+sogongnyeo	facts/auto_sogongnyeo.txt	소설 소공녀에서 만날 수 있습니다	Victorian storybook illustration: coal-smoke London greys, gaslit halls, deep green velvet, cold attic blue. 	서늘
+15sonyeon_pyoryugi	facts/auto_15sonyeon_pyoryugi.txt	소설 십오 소년 표류기에서 만날 수 있습니다	19th-century adventure illustration: storm grey-green seas, canvas sails, jungle green, driftwood firelight. 	생동

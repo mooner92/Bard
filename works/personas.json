@@ -14,6 +14,8 @@
     "- 성별을 반드시 박는다(man / woman / boy / girl). 빠지면 앞 인물을 따라간다.",
     "- 신분 표식은 모양까지 적는다(사각 흉배인가 원형 보인가).",
     "- 그 인물이 흔히 어떻게 그려지는지를 따르되, 널리 퍼진 오류는 배제한다.",
+    "- 개념어를 쓰지 않는다. 'blind' 라고 적었더니 모델이 검은 안대를 그렸다(실측:",
+    "  심청전 심봉사). 보이는 것으로 바꿔 적는다 — 'pale unfocused eyes'.",
     "- 영어로만. 한글이 들어가면 그림에 글자가 박힌다.",
     "- 사람은 16~20단어, 장소는 10~12단어. 한 컷에 둘 이상 겹치면 480자 상한에서 뒤가 잘린다.",
     "- avoid 는 사람이 읽는 메모다. 프롬프트에는 들어가지 않는다 —",
@@ -21,7 +23,7 @@
   ],
   "joseon_sato": {
     "label": "사또 · 고을 수령",
-    "desc": "a stout middle-aged Korean man, thin chin beard, black winged samo cap, indigo official robe with a square chest rank badge",
+    "desc": "a stout middle-aged Korean man, thin chin beard, black winged samo cap, indigo official robe with a square chest badge embroidered with a white crane",
     "avoid": "임금이 아니다 — 붉은 곤룡포, 원형 금색 용무늬 보, 익선관은 임금 전용"
   },
   "joseon_doryeong": {

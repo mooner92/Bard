@@ -62,3 +62,5 @@
 2026-08-24T13:02:45	ojeuui_mabeopsa	facts/auto_ojeuui_mabeopsa.txt	소설 오즈의 마법사에서 만날 수 있습니다	American storybook illustration: prairie gold, emerald green city, poppy red fields, warm outlines. 	생동	52s
 2026-08-24T15:30:19	robinseun_keurusoe	facts/auto_robinseun_keurusoe.txt	소설 로빈슨 크루소에서 만날 수 있습니다	18th-century adventure engraving style: bleached sand, turquoise shallows, jungle green, driftwood grey. 	생동	53s
 2026-08-24T18:07:12	samchongsa	facts/auto_samchongsa.txt	소설 삼총사에서 만날 수 있습니다	17th-century French romance illustration: Paris slate and candle amber, wine red cloaks, steel glint. 	긴장	52s
+2026-08-24T20:45:55	chunhyangjeon	facts/auto_chunhyangjeon.txt	소설 춘향전에서 만날 수 있습니다	Korean minhwa folk-painting style: willow pavilions, crimson and green hanbok, lantern amber. 	서늘	53s
+2026-08-24T23:14:22	simcheongjeon	facts/auto_simcheongjeon.txt	소설 심청전에서 만날 수 있습니다	Korean minhwa folk-painting style: ink-wash sea and thatched huts, lotus pink, hanji cream, muted period palette. 	서늘	53s

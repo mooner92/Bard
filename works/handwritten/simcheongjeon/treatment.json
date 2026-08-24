@@ -9,8 +9,8 @@
   "personas": {
     "blind_father": {
       "label": "심봉사",
-      "desc": "a thin blind Korean man in his fifties, clouded eyes, sparse grey beard, patched hemp coat, bamboo cane",
-      "avoid": "검은 안대는 쓰지 않는다 — 눈은 뜨고 있으되 흐리다"
+      "desc": "a thin Korean man in his fifties, pale unfocused eyes turned slightly upward, sparse grey beard, patched hemp coat, bamboo cane",
+      "avoid": "안대·천으로 눈을 가리지 않는다. 'blind' 같은 개념어를 묘사에 쓰면 모델이 안대를 그린다"
     },
     "sailors": {
       "label": "뱃사람들",

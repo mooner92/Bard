@@ -10,69 +10,248 @@
     "region 은 작품이 태어난 곳, genre 는 무엇을 보러 오는가로 나눈다.",
     "새 작품을 만들면 여기에도 한 줄 적는다 — 빠지면 '기타'로 묶인다."
   ],
-
-  "unsu_joteun_nal":          { "region": "한국", "genre": "사회·풍자" },
-  "gamja":                    { "region": "한국", "genre": "사회·풍자" },
-  "nalgae":                   { "region": "한국", "genre": "사회·풍자" },
-  "redimeideu_insaeng":       { "region": "한국", "genre": "사회·풍자" },
-  "taepyeongcheonha":         { "region": "한국", "genre": "사회·풍자" },
-  "chisuk":                   { "region": "한국", "genre": "사회·풍자" },
-  "geumsuhoeuirok":           { "region": "한국", "genre": "사회·풍자" },
-  "manmubang":                { "region": "한국", "genre": "사회·풍자" },
-  "ingan_munje":              { "region": "한국", "genre": "사회·풍자" },
-  "talchulgi":                { "region": "한국", "genre": "사회·풍자" },
-  "sangroksu":                { "region": "한국", "genre": "사회·풍자" },
-  "hyeolui_nu":               { "region": "한국", "genre": "사회·풍자" },
-
-  "dongbaekkkot":             { "region": "한국", "genre": "사랑·가족" },
-  "bombom":                   { "region": "한국", "genre": "사랑·가족" },
-  "memilkkot_pil_muryeop":    { "region": "한국", "genre": "사랑·가족" },
-  "beongeori_samryongi":      { "region": "한국", "genre": "사랑·가족" },
-  "baettaragi":               { "region": "한국", "genre": "사랑·가족" },
-  "sangol_nageune":           { "region": "한국", "genre": "사랑·가족" },
-  "bsagamgwa_reobeureteo":    { "region": "한국", "genre": "사랑·가족" },
-  "chunhyangjeon":            { "region": "한국", "genre": "사랑·가족" },
-  "simcheongjeon":            { "region": "한국", "genre": "사랑·가족" },
-  "heungbujeon":              { "region": "한국", "genre": "사랑·가족" },
-  "chuwolsaek":               { "region": "한국", "genre": "사랑·가족" },
-  "honggildongjeon":          { "region": "한국", "genre": "모험" },
-
-  "mobydick":                 { "region": "미국", "genre": "모험" },
-  "tom_soyeoui_moheom":       { "region": "미국", "genre": "모험" },
-  "heokeulberi_pinui_moheom": { "region": "미국", "genre": "모험" },
-  "ojeuui_mabeopsa":          { "region": "미국", "genre": "환상" },
-  "widaehan_gaecheubi":       { "region": "미국", "genre": "사회·풍자" },
-  "juhong_geulja":            { "region": "미국", "genre": "사회·풍자" },
-  "geomeun_goyangi":          { "region": "미국", "genre": "추리·공포" },
-
-  "bomulseom":                { "region": "영국", "genre": "모험" },
-  "geolribeo_yeohaenggi":     { "region": "영국", "genre": "모험" },
-  "robinseun_keurusoe":       { "region": "영국", "genre": "모험" },
-  "isanghan_naraui_aelriseu": { "region": "영국", "genre": "환상" },
-  "taimmeosin":               { "region": "영국", "genre": "환상" },
-  "tumyeongingan":            { "region": "영국", "genre": "환상" },
-  "peurangkensyutain":        { "region": "영국", "genre": "추리·공포" },
-  "deurakyulra":              { "region": "영국", "genre": "추리·공포" },
-  "jikil_baksawa_haideu":     { "region": "영국", "genre": "추리·공포" },
-  "baseukeobil_gamunui_gae":  { "region": "영국", "genre": "추리·공포" },
-  "juhongsaek_yeongu":        { "region": "영국", "genre": "추리·공포" },
-  "dorieon_geureiui_chosang": { "region": "영국", "genre": "추리·공포" },
-  "omangwa_pyeongyeon":       { "region": "영국", "genre": "사랑·가족" },
-  "pokpungui_eondeok":        { "region": "영국", "genre": "사랑·가족" },
-  "keuriseumaseu_kaereol":    { "region": "영국", "genre": "사랑·가족" },
-  "olribeo_teuwiseuteu":      { "region": "영국", "genre": "사회·풍자" },
-  "du_dosi_iyagi":            { "region": "영국", "genre": "사회·풍자" },
-  "dongmulnongjang":          { "region": "영국", "genre": "사회·풍자" },
-
-  "samchongsa":               { "region": "프랑스", "genre": "모험" },
-  "montekeuriseuto_baekjak":  { "region": "프랑스", "genre": "모험" },
-  "haejeo_2manri":            { "region": "프랑스", "genre": "모험" },
-  "80ilganui_segye_ilju":     { "region": "프랑스", "genre": "모험" },
-  "jigu_sok_yeohaeng":        { "region": "프랑스", "genre": "모험" },
-  "noteureudam_de_pari":      { "region": "프랑스", "genre": "사랑·가족" },
-  "operaui_yuryeong":         { "region": "프랑스", "genre": "추리·공포" },
-
-  "joewa_beol":               { "region": "기타 유럽", "genre": "사회·풍자" },
-  "tolstoy":                  { "region": "기타 유럽", "genre": "사랑·가족" },
-  "kafka":                    { "region": "기타 유럽", "genre": "환상" }
+  "unsu_joteun_nal": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "gamja": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "nalgae": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "redimeideu_insaeng": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "taepyeongcheonha": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "chisuk": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "geumsuhoeuirok": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "manmubang": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "ingan_munje": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "talchulgi": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "sangroksu": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "hyeolui_nu": {
+    "region": "한국",
+    "genre": "사회·풍자"
+  },
+  "dongbaekkkot": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "bombom": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "memilkkot_pil_muryeop": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "beongeori_samryongi": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "baettaragi": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "sangol_nageune": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "bsagamgwa_reobeureteo": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "chunhyangjeon": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "simcheongjeon": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "heungbujeon": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "chuwolsaek": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "honggildongjeon": {
+    "region": "한국",
+    "genre": "모험"
+  },
+  "mobydick": {
+    "region": "미국",
+    "genre": "모험"
+  },
+  "tom_soyeoui_moheom": {
+    "region": "미국",
+    "genre": "모험"
+  },
+  "heokeulberi_pinui_moheom": {
+    "region": "미국",
+    "genre": "모험"
+  },
+  "ojeuui_mabeopsa": {
+    "region": "미국",
+    "genre": "환상"
+  },
+  "widaehan_gaecheubi": {
+    "region": "미국",
+    "genre": "사회·풍자"
+  },
+  "juhong_geulja": {
+    "region": "미국",
+    "genre": "사회·풍자"
+  },
+  "geomeun_goyangi": {
+    "region": "미국",
+    "genre": "추리·공포"
+  },
+  "bomulseom": {
+    "region": "영국",
+    "genre": "모험"
+  },
+  "geolribeo_yeohaenggi": {
+    "region": "영국",
+    "genre": "모험"
+  },
+  "robinseun_keurusoe": {
+    "region": "영국",
+    "genre": "모험"
+  },
+  "isanghan_naraui_aelriseu": {
+    "region": "영국",
+    "genre": "환상"
+  },
+  "taimmeosin": {
+    "region": "영국",
+    "genre": "환상"
+  },
+  "tumyeongingan": {
+    "region": "영국",
+    "genre": "환상"
+  },
+  "peurangkensyutain": {
+    "region": "영국",
+    "genre": "추리·공포"
+  },
+  "deurakyulra": {
+    "region": "영국",
+    "genre": "추리·공포"
+  },
+  "jikil_baksawa_haideu": {
+    "region": "영국",
+    "genre": "추리·공포"
+  },
+  "baseukeobil_gamunui_gae": {
+    "region": "영국",
+    "genre": "추리·공포"
+  },
+  "juhongsaek_yeongu": {
+    "region": "영국",
+    "genre": "추리·공포"
+  },
+  "dorieon_geureiui_chosang": {
+    "region": "영국",
+    "genre": "추리·공포"
+  },
+  "omangwa_pyeongyeon": {
+    "region": "영국",
+    "genre": "사랑·가족"
+  },
+  "pokpungui_eondeok": {
+    "region": "영국",
+    "genre": "사랑·가족"
+  },
+  "keuriseumaseu_kaereol": {
+    "region": "영국",
+    "genre": "사랑·가족"
+  },
+  "olribeo_teuwiseuteu": {
+    "region": "영국",
+    "genre": "사회·풍자"
+  },
+  "du_dosi_iyagi": {
+    "region": "영국",
+    "genre": "사회·풍자"
+  },
+  "dongmulnongjang": {
+    "region": "영국",
+    "genre": "사회·풍자"
+  },
+  "samchongsa": {
+    "region": "프랑스",
+    "genre": "모험"
+  },
+  "montekeuriseuto_baekjak": {
+    "region": "프랑스",
+    "genre": "모험"
+  },
+  "haejeo_2manri": {
+    "region": "프랑스",
+    "genre": "모험"
+  },
+  "80ilganui_segye_ilju": {
+    "region": "프랑스",
+    "genre": "모험"
+  },
+  "jigu_sok_yeohaeng": {
+    "region": "프랑스",
+    "genre": "모험"
+  },
+  "noteureudam_de_pari": {
+    "region": "프랑스",
+    "genre": "사랑·가족"
+  },
+  "operaui_yuryeong": {
+    "region": "프랑스",
+    "genre": "추리·공포"
+  },
+  "joewa_beol": {
+    "region": "기타 유럽",
+    "genre": "사회·풍자"
+  },
+  "tolstoy": {
+    "region": "기타 유럽",
+    "genre": "사랑·가족"
+  },
+  "kafka": {
+    "region": "기타 유럽",
+    "genre": "환상"
+  },
+  "sogongnyeo": {
+    "region": "영국",
+    "genre": "사랑·가족"
+  },
+  "15sonyeon_pyoryugi": {
+    "region": "프랑스",
+    "genre": "모험"
+  }
 }
