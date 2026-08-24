@@ -1,7 +1,0 @@
-sangroksu	facts/auto_sangroksu.txt	소설 상록수에서 만날 수 있습니다	1930s Korean rural realist illustration: thatched village, chapel and children, warm ochre and deep green, muted period palette. 	서늘
-honggildongjeon	facts/auto_honggildongjeon.txt	소설 홍길동전에서 만날 수 있습니다	Korean ink-wash folk painting style: pine ridges in mist, tiled-roof estates, hanji cream and indigo. 	생동
-chunhyangjeon	facts/auto_chunhyangjeon.txt	소설 춘향전에서 만날 수 있습니다	Korean minhwa folk-painting style: willow pavilions, crimson and green hanbok, lantern amber. 	서늘
-isanghan_naraui_aelriseu	facts/auto_isanghan_naraui_aelriseu.txt	소설 이상한 나라의 앨리스에서 만날 수 있습니다	Victorian storybook illustration: jewel tones, ink linework, whimsical scale shifts, playing-card red. 	생동
-ojeuui_mabeopsa	facts/auto_ojeuui_mabeopsa.txt	소설 오즈의 마법사에서 만날 수 있습니다	American storybook illustration: prairie gold, emerald green city, poppy red fields, warm outlines. 	생동
-robinseun_keurusoe	facts/auto_robinseun_keurusoe.txt	소설 로빈슨 크루소에서 만날 수 있습니다	18th-century adventure engraving style: bleached sand, turquoise shallows, jungle green, driftwood grey. 	생동
-samchongsa	facts/auto_samchongsa.txt	소설 삼총사에서 만날 수 있습니다	17th-century French romance illustration: Paris slate and candle amber, wine red cloaks, steel glint. 	긴장

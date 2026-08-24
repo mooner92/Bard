@@ -24,6 +24,18 @@ LOGDIR=logs/night; mkdir -p "$LOGDIR" works output/tts logs/review
 LOG="$LOGDIR/$(date +%F).log"
 Q=works/queue.txt; DONE=works/done.txt; FAIL=works/failed.txt
 touch "$Q" "$DONE" "$FAIL"
+
+# 큐에서 한 줄을 지운다.
+#
+# 예전 코드는 grep -vxF ... && mv 였는데, 큐에 지울 그 한 줄만 남으면 grep 이
+# 아무것도 못 골라 종료코드 1 을 낸다. 그러면 && 뒤의 mv 가 건너뛰어지고 큐가
+# 그대로 남는다 — 마지막 작품이 완성·발행을 끝없이 되풀이한다(실측: 삼총사가
+# 2분마다 같은 영상을 여덟 번 재발행했고, "5회 연속 진척 없음" 안전장치마저
+# 같은 코드라 함께 무력화됐다). 큐가 비는 것은 정상이므로 실패로 보지 않는다.
+dequeue() {
+  grep -vxF "$1" "$Q" >"$Q.t" || true
+  mv "$Q.t" "$Q"
+}
 say() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$LOG"; }
 
 exec 9>"$LOCK"
@@ -98,7 +110,7 @@ while grace_ok; do
   if [ "$stuck" -ge 5 ]; then
     say "  !! $work 이 5회 연속 진척 없음 — 큐에서 내리고 다음 작품으로"
     printf '%s\t%s\tstuck\n' "$(date +%FT%T)" "$line" >>"$FAIL"
-    grep -vxF "$line" "$Q" >"$Q.t" && mv "$Q.t" "$Q"
+    dequeue "$line"
     failed=$((failed+1)); stuck=0; continue
   fi
   facts=$(echo "$line" | cut -f2)
@@ -189,7 +201,7 @@ while grace_ok; do
   fi
   if [ "$ok" != 1 ]; then
     printf '%s\t%s\tscript-gate\n' "$(date +%FT%T)" "$line" >>"$FAIL"
-    grep -vxF "$line" "$Q" >"$Q.t" && mv "$Q.t" "$Q"
+    dequeue "$line"
     failed=$((failed+1)); continue
   fi
 
@@ -362,7 +374,7 @@ f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
   if echo "$types" | grep -q video && echo "$types" | grep -q audio; then
     dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT")
     say "  ⑤ 완성 ${dur%.*}초 → $OUT"
-    grep -vxF "$line" "$Q" >"$Q.t" && mv "$Q.t" "$Q"
+    dequeue "$line"
     printf '%s\t%s\t%ss\n' "$(date +%FT%T)" "$line" "${dur%.*}" >> "$DONE"
     produced=$((produced+1))
     # ── ⑥ 자가점검 ──
