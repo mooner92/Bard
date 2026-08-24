@@ -1,0 +1,102 @@
+{
+  "_note": [
+    "인물·장소·사물의 생김새 사전. 트리트먼트 박자의 cast 가 여기 열쇠를 가리키면",
+    "scene_prompt.py 가 그 묘사를 프롬프트에 붙인다.",
+    "",
+    "왜 필요한가(실측). 앵커는 주인공 한 사람만 적는 자리다. 두 번째 인물을 적을 칸이",
+    "없으니 모델이 앵커를 그 사람에게도 입혔다 — 춘향전 S3 에서 이도령이 댕기머리",
+    "처녀로 나와 여자 둘이 마주 앉았다. 사또는 아예 묘사가 없어서 '조선 관리'로 가장",
+    "흔한 그림, 곧 임금을 그렸다(붉은 곤룡포에 원형 금색 보). 원형 보는 임금 전용이고",
+    "고을 수령은 사각 흉배를 단다.",
+    "",
+    "작성 규칙:",
+    "- 카메라가 보는 것만. 신분·성격·감정은 빼고 나이·성별·인종·머리·수염·옷·소품.",
+    "- 성별을 반드시 박는다(man / woman / boy / girl). 빠지면 앞 인물을 따라간다.",
+    "- 신분 표식은 모양까지 적는다(사각 흉배인가 원형 보인가).",
+    "- 그 인물이 흔히 어떻게 그려지는지를 따르되, 널리 퍼진 오류는 배제한다.",
+    "- 영어로만. 한글이 들어가면 그림에 글자가 박힌다.",
+    "- 사람은 16~20단어, 장소는 10~12단어. 한 컷에 둘 이상 겹치면 480자 상한에서 뒤가 잘린다.",
+    "- avoid 는 사람이 읽는 메모다. 프롬프트에는 들어가지 않는다 —",
+    "  '~를 그리지 마라'라고 쓰면 모델이 오히려 그것을 그린다."
+  ],
+  "joseon_sato": {
+    "label": "사또 · 고을 수령",
+    "desc": "a stout middle-aged Korean man, thin chin beard, black winged samo cap, indigo official robe with a square chest rank badge",
+    "avoid": "임금이 아니다 — 붉은 곤룡포, 원형 금색 용무늬 보, 익선관은 임금 전용"
+  },
+  "joseon_doryeong": {
+    "label": "도령 · 양반집 젊은 아들",
+    "desc": "a slender young Korean man in his late teens, topknot under a wide black horsehair gat, pale blue silk durumagi",
+    "avoid": "여자가 아니다 — 댕기머리·치마·연지는 이 인물의 것이 아니다"
+  },
+  "joseon_cheonyeo": {
+    "label": "처녀 · 혼인 전 딸",
+    "desc": "a Korean girl of sixteen, one long braid with a red daenggi ribbon, green jeogori over a crimson chima skirt",
+    "avoid": "쪽진 머리와 비녀는 혼인한 여자의 것"
+  },
+  "joseon_nobleman": {
+    "label": "양반 · 사대부 가장",
+    "desc": "a stern Korean man in his fifties, grey chin beard, black horsehair gat, wide-sleeved grey silk durumagi",
+    "avoid": ""
+  },
+  "joseon_peasant": {
+    "label": "상민 · 농사꾼",
+    "desc": "a weathered Korean farmer, undyed hemp jacket, ankle-tied trousers, white head cloth, straw sandals",
+    "avoid": "갓은 양반의 것 — 씌우지 않는다"
+  },
+  "joseon_soldier": {
+    "label": "관군 · 포졸",
+    "desc": "Korean guards in dark blue quilted tunics with red sashes, black conical felt hats, long wooden staves",
+    "avoid": "일본 갑옷·투구, 중국식 갑옷이 아니다"
+  },
+  "joseon_gisaeng": {
+    "label": "기생",
+    "desc": "a Korean woman in her twenties, hair coiled in a braided crown, lilac jeogori over a wide indigo chima",
+    "avoid": "일본 게이샤의 흰 분칠·기모노가 아니다"
+  },
+  "joseon_gwana": {
+    "label": "관아 · 고을 관청",
+    "desc": "a small Korean government hall, raised wooden platform, red pillars, bare earth courtyard",
+    "avoid": "궁궐이 아니다 — 규모는 작고 단청은 수수하다"
+  },
+  "joseon_gwanghallu": {
+    "label": "광한루 · 누각",
+    "desc": "an open Korean pavilion on stone piers above a lotus pond, curved tiled roof, willows",
+    "avoid": ""
+  },
+  "joseon_ok": {
+    "label": "옥 · 고을 감옥",
+    "desc": "a dim Korean village jail, thick vertical wooden bars, straw on packed earth",
+    "avoid": "서양식 철창이 아니다"
+  },
+  "joseon_hanok_room": {
+    "label": "한옥 방 안",
+    "desc": "a small Korean room, paper sliding doors, low lacquered table, one oil lamp",
+    "avoid": "의자·침대·서양식 창문은 없다 — 바닥에 앉는다"
+  },
+  "joseon_jumak": {
+    "label": "주막",
+    "desc": "a thatched Korean roadside tavern, earthen floor, low benches, a steaming brass kettle",
+    "avoid": "중국식 붉은 등롱이 아니다"
+  },
+  "victorian_gentleman": {
+    "label": "빅토리아 시대 신사",
+    "desc": "a clean-shaven English man in his thirties, side-parted hair, high collar, dark frock coat and waistcoat",
+    "avoid": ""
+  },
+  "victorian_constable": {
+    "label": "런던 순경",
+    "desc": "a stocky English policeman, dark blue high-collared tunic, tall custodian helmet, belt lantern",
+    "avoid": "현대 경찰복이 아니다"
+  },
+  "musketeer": {
+    "label": "총사 · 17세기 프랑스",
+    "desc": "a French swordsman in his thirties, shoulder-length hair, pointed moustache, plumed felt hat, leather doublet, rapier",
+    "avoid": "18세기 흰 가발·삼각모가 아니다"
+  },
+  "cardinal_guard": {
+    "label": "추기경 근위병",
+    "desc": "French guards in scarlet cloaks over dark doublets, wide plumed hats, long boots",
+    "avoid": ""
+  }
+}

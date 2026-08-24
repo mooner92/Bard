@@ -35,25 +35,76 @@ def ask(prompt: str, temperature: float = 0.4) -> str:
     return re.sub(r"<think>.*?</think>", "", t, flags=re.S).strip()
 
 
+PERSONAS_FILE = Path(__file__).resolve().parent.parent / "works" / "personas.json"
+
+
+def personas() -> dict:
+    """인물·장소 생김새 사전. 없으면 빈 사전으로 돌아간다."""
+    try:
+        return json.loads(PERSONAS_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _fit(parts, limit=480) -> str:
+    """쉼표 경계에서 자른다. 낱말 중간이 잘리면 모델이 엉뚱하게 읽는다."""
+    out = ""
+    for p in parts:
+        p = (p or "").rstrip(".").strip()
+        if not p:
+            continue
+        nxt = p if not out else f"{out}, {p}"
+        if len(nxt) > limit:
+            break
+        out = nxt
+    return out
+
+
 def from_treatment(tre: dict, index: int) -> str:
     """트리트먼트가 있으면 그 박자의 영어 묘사를 쓴다.
 
     장면마다 모델에게 새로 묘사를 시키면 인물 생김새와 빛이 매번 달라진다(실측:
     다락방·잠든 남자·책 읽는 노인). 앵커와 팔레트를 모든 장면에 그대로 붙여 고정한다.
+
+    앵커는 주인공 **한 사람**을 적는 자리다. 두 번째 인물이 나오는 컷에서는 그를
+    적을 칸이 없어 모델이 앵커를 그 사람에게도 입혔다 — 춘향전에서 이도령이
+    댕기머리 처녀로 나와 여자 둘이 마주 앉았고, 묘사가 아예 없던 사또는 '조선
+    관리'의 가장 흔한 그림인 임금이 되었다(붉은 곤룡포에 원형 금색 보).
+
+    그래서 박자마다 cast 로 그 컷에 나오는 인물·장소를 열거하고 생김새는
+    works/personas.json 에서 가져온다. cast 가 있으면 앵커 대신 그것을 쓴다 —
+    cast 에는 주인공도 함께 적기 때문이다. cast 가 없는 옛 작품은 그대로 앵커로 간다.
     """
     beats = tre.get("beats") or []
     if not 1 <= index <= len(beats):
         return ""
-    shot = (beats[index - 1].get("visual") or "").strip()
+    beat = beats[index - 1]
+    shot = (beat.get("visual") or "").strip()
     if not shot or HANGUL.search(shot):
         return ""
-    # 사람이 없어야 할 컷에까지 앵커를 붙이면 모델이 사람을 밀어 넣는다
-    # (실측: "텅 빈 갑판"에 선원이 서 있었다). 그런 박자는 anchor: false 로 끈다.
-    use_anchor = beats[index - 1].get("anchor", True)
-    parts = [shot,
-             (tre.get("anchor") or "").strip() if use_anchor else "",
-             (tre.get("palette") or "").strip()]
-    return ", ".join(x.rstrip(".") for x in parts if x)[:400]
+
+    cast = beat.get("cast") or []
+    if cast:
+        # 작품 전용 배역은 트리트먼트에 personas 로 적는다. 같은 열쇠면 그쪽이 이긴다.
+        book = {**personas(), **(tre.get("personas") or {})}
+        who = []
+        for key in cast:
+            entry = book.get(key)
+            if not entry:
+                print(f"  ! 사전에 없는 배역: {key}", file=sys.stderr)
+                continue
+            d = (entry.get("desc") if isinstance(entry, dict) else str(entry)).strip()
+            if d and not HANGUL.search(d):
+                who.append(d)
+        parts = [shot, *who, (tre.get("palette") or "").strip()]
+    else:
+        # 사람이 없어야 할 컷에까지 앵커를 붙이면 모델이 사람을 밀어 넣는다
+        # (실측: "텅 빈 갑판"에 선원이 서 있었다). 그런 박자는 anchor: false 로 끈다.
+        use_anchor = beat.get("anchor", True)
+        parts = [shot,
+                 (tre.get("anchor") or "").strip() if use_anchor else "",
+                 (tre.get("palette") or "").strip()]
+    return _fit(parts)
 
 
 # 모든 장면에 같은 문장을 넣으면 여덟 컷이 똑같이 흔들린다. 박자마다 무엇이

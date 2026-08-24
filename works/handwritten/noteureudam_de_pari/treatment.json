@@ -1,59 +1,60 @@
 {
- "logline": "기형의 종지기가 성당 탑 위에서 내려다보는 처형대의 그림자",
- "destination": "성당 탑 꼭대기 — 처형대의 그림자를 내려다보는 자리",
- "protagonist": "곱추인 종지기",
- "setting": "1482년, 노트르담 성당과 그레브 광장",
- "anchor": "Deformed bell ringer in dark robes, standing on high stone tower ledge, Paris 1482.",
- "palette": "Cold blue-grey shadows, stark contrast, dim torchlight, heavy stone textures.",
- "beats": [
-  {
-   "n": 1,
-   "beat": "종탑 계단에서 숨 가쁘게 뛰어 올라온다.",
-   "visual": "Deformed figure climbs steep stone stairs rapidly, breathing heavily, hands gripping railings.",
-   "motion": "Up the stone spiral stairs"
-  },
-  {
-   "n": 2,
-   "beat": "탑 꼭대기에 서서 광장을 내려다본다.",
-   "visual": "Wide shot from tower top looking down at the square, crowd gathered around the scaffold.",
-   "motion": "Downward gaze toward the square"
-  },
-  {
-   "n": 3,
-   "beat": "검은 옷의 남자가 탑 아래를 지나는 것을 본다.",
-   "visual": "A figure in black robes walks past the tower base, moving away from the crowd.",
-   "motion": "Across the square, away from camera"
-  },
-  {
-   "n": 4,
-   "beat": "그 남자가 처형대 쪽으로 멈춰 선다.",
-   "visual": "The black-robed figure stops near the scaffold, looking up at the tower.",
-   "motion": "Stopping near the wooden scaffold"
-  },
-  {
-   "n": 5,
-   "beat": "종지기가 발을 떼어 탑 가장자리로 나선다.",
-   "visual": "Bell ringer steps onto the narrow ledge, wind blowing his robes, looking down.",
-   "motion": "Forward onto the narrow stone ledge"
-  },
-  {
-   "n": 6,
-   "beat": "광장에서 처형대의 그림자가 탑으로 올라온다.",
-   "visual": "Shadow of the scaffold stretches across the ground toward the tower base.",
-   "motion": "Shadow extending toward the tower"
-  },
-  {
-   "n": 7,
-   "beat": "그가 손을 뻗어 탑 아래를 가리킬까?",
-   "visual": "Close up on the bell ringer's hand hovering over the edge, trembling slightly.",
-   "motion": "Hand extending over the edge"
-  },
-  {
-   "n": 8,
-   "beat": "탑 꼭대기에 바람 소리만 들린다.",
-   "visual": "Empty stone ledge with wind-blown dust, no person present, cold light.",
-   "motion": "Dust blowing across the stone"
-  }
- ],
- "withheld": "프롤로를 탑 아래로 밀어 떨어뜨려 죽이고, 2년 후 에스메랄다의 해골을 껴안고 죽은 모습"
+  "logline": "기형의 종지기가 성당 탑 위에서 내려다보는 처형대의 그림자",
+  "destination": "성당 탑 꼭대기 — 처형대의 그림자를 내려다보는 자리",
+  "protagonist": "곱추인 종지기",
+  "setting": "1482년, 노트르담 성당과 그레브 광장",
+  "anchor": "Deformed bell ringer in dark robes, standing on high stone tower ledge, Paris 1482.",
+  "palette": "Cold blue-grey shadows, stark contrast, dim torchlight, heavy stone textures.",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "종탑 계단에서 숨 가쁘게 뛰어 올라온다.",
+      "visual": "Deformed figure climbs steep stone stairs rapidly, breathing heavily, hands gripping railings.",
+      "motion": "Up the stone spiral stairs"
+    },
+    {
+      "n": 2,
+      "beat": "탑 꼭대기에 서서 광장을 내려다본다.",
+      "visual": "Wide shot from tower top looking down at the square, crowd gathered around the scaffold.",
+      "motion": "Downward gaze toward the square"
+    },
+    {
+      "n": 3,
+      "beat": "검은 옷의 남자가 탑 아래를 지나는 것을 본다.",
+      "visual": "A figure in black robes walks past the tower base, moving away from the crowd.",
+      "motion": "Across the square, away from camera"
+    },
+    {
+      "n": 4,
+      "beat": "그 남자가 처형대 쪽으로 멈춰 선다.",
+      "visual": "The black-robed figure stops near the scaffold, looking up at the tower.",
+      "motion": "Stopping near the wooden scaffold"
+    },
+    {
+      "n": 5,
+      "beat": "종지기가 발을 떼어 탑 가장자리로 나선다.",
+      "visual": "Bell ringer steps onto the narrow ledge, wind blowing his robes, looking down.",
+      "motion": "Forward onto the narrow stone ledge"
+    },
+    {
+      "n": 6,
+      "beat": "광장에서 처형대의 그림자가 탑으로 올라온다.",
+      "visual": "Shadow of the scaffold stretches across the ground toward the tower base.",
+      "motion": "Shadow extending toward the tower"
+    },
+    {
+      "n": 7,
+      "beat": "그가 손을 뻗어 탑 아래를 가리킬까?",
+      "visual": "Close up on the bell ringer's hand hovering over the edge, trembling slightly.",
+      "motion": "Hand extending over the edge"
+    },
+    {
+      "n": 8,
+      "beat": "탑 꼭대기에 바람 소리만 들린다.",
+      "visual": "Empty stone ledge with wind-blown dust, no person present, cold light.",
+      "motion": "Dust blowing across the stone",
+      "anchor": false
+    }
+  ],
+  "withheld": "프롤로를 탑 아래로 밀어 떨어뜨려 죽이고, 2년 후 에스메랄다의 해골을 껴안고 죽은 모습"
 }

@@ -1,59 +1,60 @@
 {
- "logline": "꿈속 회의장에서 인간의 죄악을 들은 남자가, 구원의 말을 듣는 순간을 향해 긴장감을 높인다.",
- "destination": "예수님의 말씀이 울려 퍼지는 순간 — 구원을 들을지 여부를 모르는 문턱",
- "protagonist": "꿈속 회의장에 참석한 남자",
- "setting": "1908년, 꿈속의 금수회의소",
- "anchor": "A man in a dark hanbok, standing alone in a dim circular hall.",
- "palette": "Dim amber light, deep shadows, muted earth tones, atmospheric fog.",
- "beats": [
-  {
-   "n": 1,
-   "beat": "남자가 꿈속 회의장 문 앞에서 발을 멈춘다.",
-   "visual": "A man in dark hanbok stands before a heavy wooden door, hesitating to step inside.",
-   "motion": "Man's foot hovering just above the threshold, facing the door."
-  },
-  {
-   "n": 2,
-   "beat": "문을 열자 까마귀가 날아오르며 날개 소리가 울린다.",
-   "visual": "The door creaks open; a crow takes flight upward, wings beating loudly in the dark.",
-   "motion": "Crow flying up and away from the camera, into the shadows."
-  },
-  {
-   "n": 3,
-   "beat": "호랑이가 남자의 정면을 지나치며 저으르르 울음소리가 난다.",
-   "visual": "A tiger walks past the man's face, its snarl audible, creating a sense of looming threat.",
-   "motion": "Tiger moving left to right across the foreground, passing close."
-  },
-  {
-   "n": 4,
-   "beat": "여우가 남자의 귀에 대고 속삭이는 듯한 자세를 취한다.",
-   "visual": "A fox leans in close to the man's ear, its eyes glinting with a deceptive shine.",
-   "motion": "Fox head moving closer to the man's ear, intimate and intrusive."
-  },
-  {
-   "n": 5,
-   "beat": "남자의 손이 떨리며 주먹을 쥐었다 폈다 한다.",
-   "visual": "Close-up of the man's trembling hands clenching and unclenching, sweat forming on his palms.",
-   "motion": "Hands trembling and tightening in the lower frame."
-  },
-  {
-   "n": 6,
-   "beat": "회의장 중앙에서 빛이 스며들기 시작한다.",
-   "visual": "A soft, divine light begins to pierce through the darkness at the center of the hall.",
-   "motion": "Light beam expanding outward from the center of the room."
-  },
-  {
-   "n": 7,
-   "beat": "남자가 그 빛을 향해 한 발 내디딘다. 구원을 들을 수 있을까?",
-   "visual": "The man steps forward toward the light, his face half-illuminated, expression unreadable.",
-   "motion": "Man stepping forward into the growing light, away from the shadows."
-  },
-  {
-   "n": 8,
-   "beat": "회의장 의자 위에 놓인 빈 갓만 남는다.",
-   "visual": "An empty traditional hat rests on a wooden chair in the now-quiet, dim hall.",
-   "motion": "Static shot of the hat, slight dust particles floating in the light."
-  }
- ],
- "withheld": "남자가 실제로 예수님의 말씀을 듣고 구원을 얻었는지, 아니면 여전히 회개의 문턱에서 망설이고 있는지"
+  "logline": "꿈속 회의장에서 인간의 죄악을 들은 남자가, 구원의 말을 듣는 순간을 향해 긴장감을 높인다.",
+  "destination": "예수님의 말씀이 울려 퍼지는 순간 — 구원을 들을지 여부를 모르는 문턱",
+  "protagonist": "꿈속 회의장에 참석한 남자",
+  "setting": "1908년, 꿈속의 금수회의소",
+  "anchor": "A man in a dark hanbok, standing alone in a dim circular hall.",
+  "palette": "Dim amber light, deep shadows, muted earth tones, atmospheric fog.",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "남자가 꿈속 회의장 문 앞에서 발을 멈춘다.",
+      "visual": "A man in dark hanbok stands before a heavy wooden door, hesitating to step inside.",
+      "motion": "Man's foot hovering just above the threshold, facing the door."
+    },
+    {
+      "n": 2,
+      "beat": "문을 열자 까마귀가 날아오르며 날개 소리가 울린다.",
+      "visual": "The door creaks open; a crow takes flight upward, wings beating loudly in the dark.",
+      "motion": "Crow flying up and away from the camera, into the shadows."
+    },
+    {
+      "n": 3,
+      "beat": "호랑이가 남자의 정면을 지나치며 저으르르 울음소리가 난다.",
+      "visual": "A tiger walks past the man's face, its snarl audible, creating a sense of looming threat.",
+      "motion": "Tiger moving left to right across the foreground, passing close."
+    },
+    {
+      "n": 4,
+      "beat": "여우가 남자의 귀에 대고 속삭이는 듯한 자세를 취한다.",
+      "visual": "A fox leans in close to the man's ear, its eyes glinting with a deceptive shine.",
+      "motion": "Fox head moving closer to the man's ear, intimate and intrusive."
+    },
+    {
+      "n": 5,
+      "beat": "남자의 손이 떨리며 주먹을 쥐었다 폈다 한다.",
+      "visual": "Close-up of the man's trembling hands clenching and unclenching, sweat forming on his palms.",
+      "motion": "Hands trembling and tightening in the lower frame."
+    },
+    {
+      "n": 6,
+      "beat": "회의장 중앙에서 빛이 스며들기 시작한다.",
+      "visual": "A soft, divine light begins to pierce through the darkness at the center of the hall.",
+      "motion": "Light beam expanding outward from the center of the room."
+    },
+    {
+      "n": 7,
+      "beat": "남자가 그 빛을 향해 한 발 내디딘다. 구원을 들을 수 있을까?",
+      "visual": "The man steps forward toward the light, his face half-illuminated, expression unreadable.",
+      "motion": "Man stepping forward into the growing light, away from the shadows."
+    },
+    {
+      "n": 8,
+      "beat": "회의장 의자 위에 놓인 빈 갓만 남는다.",
+      "visual": "An empty traditional hat rests on a wooden chair in the now-quiet, dim hall.",
+      "motion": "Static shot of the hat, slight dust particles floating in the light.",
+      "anchor": false
+    }
+  ],
+  "withheld": "남자가 실제로 예수님의 말씀을 듣고 구원을 얻었는지, 아니면 여전히 회개의 문턱에서 망설이고 있는지"
 }

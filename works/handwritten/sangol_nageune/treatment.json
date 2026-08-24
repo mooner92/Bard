@@ -1,59 +1,60 @@
 {
- "logline": "홀어미가 낯선 여인을 아들의 아내로 맞이했으나, 새벽에 남긴 물건 하나를 보며 사건의 본질을 의심하게 된다.",
- "destination": "베개 밑에 남은 은비녀 — 도둑질을 넘어선 사연의 증거",
- "protagonist": "홀어미",
- "setting": "1930년대 산골의 술집 안방과 마당",
- "anchor": "A middle-aged Korean woman with a weary face, wearing a simple dark hanbok, in a rustic wooden",
- "palette": "Cold blue moonlight, dim yellow oil lamp glow, high contrast shadows, muted earth tones.",
- "beats": [
-  {
-   "n": 1,
-   "beat": "홀어미가 마당에 떨어진 나그네의 부채를 주워 안으로 들어간다.",
-   "visual": "An elderly woman picks up a dropped folding fan from the dirt courtyard and steps into the dark doorway.",
-   "motion": "Hand reaches down, fan moves up toward the camera."
-  },
-  {
-   "n": 2,
-   "beat": "술집 안주인 자리에서 홀어미가 나그네에게 술잔을 채워준다.",
-   "visual": "The woman pours rice wine into a small bowl held by a young stranger at the low wooden table.",
-   "motion": "Sake bottle tilts, liquid flows down into the bowl."
-  },
-  {
-   "n": 3,
-   "beat": "홀어미가 아들 덕돌과 나그네를 마주 보게 하며 고개를 끄덕인다.",
-   "visual": "The woman gestures for her son to look at the stranger, nudging the two together in the dim light.",
-   "motion": "Head nods affirmatively, eyes shift from left to right."
-  },
-  {
-   "n": 4,
-   "beat": "새벽, 홀어미가 소리를 듣고 안방 문을 열며 안으로 들어선다.",
-   "visual": "The woman bursts open the heavy wooden door of the bedroom, holding a lantern, her face tense.",
-   "motion": "Door swings inward, woman moves forward into the room."
-  },
-  {
-   "n": 5,
-   "beat": "홀어미가 이불만 남은 빈 자리를 확인한다.",
-   "visual": "an older woman at a doorway staring at an empty sleeping mat, blanket thrown aside, lamp low",
-   "motion": "the blanket edge settles, her hand grips the doorframe, the lamp flame dips"
-  },
-  {
-   "n": 6,
-   "beat": "홀어미가 베개 아래에서 은비녀 하나를 꺼내 손에 쥔다.",
-   "visual": "The woman's hand digs into the pillow and pulls out a single silver hairpin, gripping it tightly.",
-   "motion": "Hand moves under pillow, silver object rises into the light."
-  },
-  {
-   "n": 7,
-   "beat": "홀어미가 비녀를 보며, 그 여인이 정말 도둑이었을까를 묻는다.",
-   "visual": "Close up on the woman's eyes staring at the silver pin, her expression shifting from anger to confusion.",
-   "motion": "Eyes narrow, gaze fixed on the object in hand."
-  },
-  {
-   "n": 8,
-   "beat": "안방 마루 한가운데에 은비녀 하나만 놓여 있다.",
-   "visual": "A single silver hairpin lies on the polished wooden floor of the empty room, illuminated by faint moonlight.",
-   "motion": "Static shot, dust particles drift in the air."
-  }
- ],
- "withheld": "나그네는 원래 남편이 있었고, 옷을 가져다주기 위해 도둑질을 했으나 자신의 비녀는 훔치지 않았다."
+  "logline": "홀어미가 낯선 여인을 아들의 아내로 맞이했으나, 새벽에 남긴 물건 하나를 보며 사건의 본질을 의심하게 된다.",
+  "destination": "베개 밑에 남은 은비녀 — 도둑질을 넘어선 사연의 증거",
+  "protagonist": "홀어미",
+  "setting": "1930년대 산골의 술집 안방과 마당",
+  "anchor": "A middle-aged Korean woman with a weary face, wearing a simple dark hanbok, in a rustic wooden",
+  "palette": "Cold blue moonlight, dim yellow oil lamp glow, high contrast shadows, muted earth tones.",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "홀어미가 마당에 떨어진 나그네의 부채를 주워 안으로 들어간다.",
+      "visual": "An elderly woman picks up a dropped folding fan from the dirt courtyard and steps into the dark doorway.",
+      "motion": "Hand reaches down, fan moves up toward the camera."
+    },
+    {
+      "n": 2,
+      "beat": "술집 안주인 자리에서 홀어미가 나그네에게 술잔을 채워준다.",
+      "visual": "The woman pours rice wine into a small bowl held by a young stranger at the low wooden table.",
+      "motion": "Sake bottle tilts, liquid flows down into the bowl."
+    },
+    {
+      "n": 3,
+      "beat": "홀어미가 아들 덕돌과 나그네를 마주 보게 하며 고개를 끄덕인다.",
+      "visual": "The woman gestures for her son to look at the stranger, nudging the two together in the dim light.",
+      "motion": "Head nods affirmatively, eyes shift from left to right."
+    },
+    {
+      "n": 4,
+      "beat": "새벽, 홀어미가 소리를 듣고 안방 문을 열며 안으로 들어선다.",
+      "visual": "The woman bursts open the heavy wooden door of the bedroom, holding a lantern, her face tense.",
+      "motion": "Door swings inward, woman moves forward into the room."
+    },
+    {
+      "n": 5,
+      "beat": "홀어미가 이불만 남은 빈 자리를 확인한다.",
+      "visual": "an older woman at a doorway staring at an empty sleeping mat, blanket thrown aside, lamp low",
+      "motion": "the blanket edge settles, her hand grips the doorframe, the lamp flame dips"
+    },
+    {
+      "n": 6,
+      "beat": "홀어미가 베개 아래에서 은비녀 하나를 꺼내 손에 쥔다.",
+      "visual": "The woman's hand digs into the pillow and pulls out a single silver hairpin, gripping it tightly.",
+      "motion": "Hand moves under pillow, silver object rises into the light."
+    },
+    {
+      "n": 7,
+      "beat": "홀어미가 비녀를 보며, 그 여인이 정말 도둑이었을까를 묻는다.",
+      "visual": "Close up on the woman's eyes staring at the silver pin, her expression shifting from anger to confusion.",
+      "motion": "Eyes narrow, gaze fixed on the object in hand."
+    },
+    {
+      "n": 8,
+      "beat": "안방 마루 한가운데에 은비녀 하나만 놓여 있다.",
+      "visual": "A single silver hairpin lies on the polished wooden floor of the empty room, illuminated by faint moonlight.",
+      "motion": "Static shot, dust particles drift in the air.",
+      "anchor": false
+    }
+  ],
+  "withheld": "나그네는 원래 남편이 있었고, 옷을 가져다주기 위해 도둑질을 했으나 자신의 비녀는 훔치지 않았다."
 }

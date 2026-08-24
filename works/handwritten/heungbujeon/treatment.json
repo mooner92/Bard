@@ -1,0 +1,101 @@
+{
+  "logline": "형에게 쫓겨난 아우가 다친 제비를 고쳐 주고, 그 제비가 박씨 하나를 물어다 준다.",
+  "destination": "초가 지붕 위에 열린 커다란 박 — 톱질 끝에 무엇이 나올지",
+  "protagonist": "누더기 무명옷에 상투를 튼 마흔 살 가난한 사내",
+  "setting": "조선 시대의 가난한 초가와 형의 기와집",
+  "anchor": "a poor Korean man of forty, topknot, patched undyed hemp jacket and trousers, bare feet",
+  "palette": "straw gold, hanji cream, swallow blue-black, autumn ochre",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "rich_brother": {
+      "label": "놀부",
+      "desc": "a fat scowling Korean man in his forties, oiled topknot, glossy dark silk vest over a fine jacket, thick belt",
+      "avoid": "갓 쓴 양반이 아니다 — 부농이다"
+    },
+    "poor_family": {
+      "label": "흥부네 아이들",
+      "desc": "a cluster of thin Korean children in ragged hemp clothes, bare feet, tangled hair",
+      "avoid": ""
+    },
+    "heungbu_man": {
+      "label": "흥부",
+      "desc": "a thin Korean man of forty, worn topknot, patched undyed hemp jacket and rolled trousers, bare feet",
+      "avoid": "갓·비단은 형의 것"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "rich_brother",
+        "heungbu_man"
+      ],
+      "beat": "형이 대문 앞에서 아우를 내쫓는다.",
+      "visual": "a fat man barring a tiled gate against a thin ragged man on the road outside",
+      "motion": "the gate is shoved closed toward the road, the thin man staggers back, dust lifts"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "heungbu_man",
+        "poor_family"
+      ],
+      "beat": "아우가 다 쓰러져 가는 초가에 짐을 푼다.",
+      "visual": "a ragged man and thin children before a collapsing thatched hut in a bare field",
+      "motion": "straw slides off the roof, the children crowd toward him, wind flattens the grass"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "heungbu_man"
+      ],
+      "beat": "아우가 처마에서 떨어진 제비를 두 손에 받는다.",
+      "visual": "a ragged man cupping a small injured swallow in both hands beneath a thatched eave",
+      "motion": "the swallow flutters in his palms, straw dust drifts down, his sleeves shake"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "heungbu_man"
+      ],
+      "beat": "아우가 제비 다리를 헝겊으로 감아 준다.",
+      "visual": "a man winding a strip of cloth around a swallow's leg, seated on a worn wooden step",
+      "motion": "the cloth wraps around the tiny leg, the bird's wings twitch, light shifts"
+    },
+    {
+      "n": 5,
+      "cast": [],
+      "beat": "이듬해 봄 제비가 씨앗 하나를 떨어뜨린다.",
+      "visual": "a swallow in flight releasing a single seed above a thatched roof, spring sky",
+      "motion": "the seed drops down toward the roof, the swallow banks away, clouds slide"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "heungbu_man",
+        "poor_family"
+      ],
+      "beat": "지붕 위에 커다란 박이 여럿 열린다.",
+      "visual": "enormous pale gourds swelling across a thatched roof, a ragged family staring up",
+      "motion": "the gourds sway on their vines, the family tips their heads back, leaves rustle"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "heungbu_man",
+        "poor_family"
+      ],
+      "beat": "온 식구가 톱을 잡고 박을 켜기 시작한다.",
+      "visual": "a ragged family drawing a long two-handled saw across a giant gourd in a yard",
+      "motion": "the saw drags back and forth across the gourd, dust falls, the family leans in"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "마당에 톱과 반쯤 켠 박만 남는다.",
+      "visual": "an abandoned two-handled saw resting in a half-cut giant gourd, empty yard at dusk",
+      "motion": "the saw settles into the cut, gourd dust drifts, evening light fades on the yard"
+    }
+  ],
+  "withheld": "박에서 쏟아진 보물과, 이를 흉내 낸 형이 맞는 결말"
+}

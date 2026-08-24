@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 심청전 / 미상 /   /
+[줄거리와 배경]
+조선 시대의 고전소설. 눈먼 아버지의 눈을 뜨게 하려고 심청이 공양미 삼백 석에 몸을 팔아 인당수에 몸을 던진다.
+[줄거리]
+줄거리와 인물은 works/handwritten/simcheongjeon/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

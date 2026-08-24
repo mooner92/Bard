@@ -1,0 +1,100 @@
+{
+  "logline": "눈먼 아버지의 눈을 뜨게 하려고, 딸이 뱃사람들에게 제 몸을 판다.",
+  "destination": "인당수 — 뱃길이 갈라진다는 거친 바다",
+  "protagonist": "댕기머리에 무명 치마저고리를 입은 열다섯 소녀",
+  "setting": "조선 시대, 가난한 초가와 포구와 바다",
+  "anchor": "a Korean girl of fifteen, one long braid, plain undyed hemp jeogori and skirt",
+  "palette": "ink-wash sea, hanji cream, lotus pink, lantern amber, cold grey spray",
+  "voice": "ko-KR-JiMinNeural",
+  "personas": {
+    "blind_father": {
+      "label": "심봉사",
+      "desc": "a thin blind Korean man in his fifties, clouded eyes, sparse grey beard, patched hemp coat, bamboo cane",
+      "avoid": "검은 안대는 쓰지 않는다 — 눈은 뜨고 있으되 흐리다"
+    },
+    "sailors": {
+      "label": "뱃사람들",
+      "desc": "Korean sailors in short hemp jackets and rolled trousers, white head cloths, bare feet, ropes coiled",
+      "avoid": "서양식 선원복이 아니다"
+    },
+    "simcheong_girl": {
+      "label": "심청",
+      "desc": "a Korean girl of fifteen, one long black braid with a plain cord, undyed hemp jeogori and skirt, bare feet",
+      "avoid": "화려한 비단·노리개는 아직 아니다"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "blind_father",
+        "simcheong_girl"
+      ],
+      "beat": "소녀가 눈먼 아버지의 손을 잡아 이끈다.",
+      "visual": "a girl leading a blind old man by the hand along a village path past a thatched hut",
+      "motion": "they walk forward along the path, his cane taps ahead, her sleeve tugs his hand"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "blind_father"
+      ],
+      "beat": "아버지가 개울에 빠져 허우적거린다.",
+      "visual": "a blind old man floundering waist-deep in a cold village stream, cane floating away",
+      "motion": "he flails in the water toward the bank, the cane drifts off, reeds whip"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "sailors",
+        "simcheong_girl"
+      ],
+      "beat": "뱃사람들이 포구에서 소녀와 마주 선다.",
+      "visual": "weathered sailors facing a young girl on a stone quay, a heavy junk moored behind them",
+      "motion": "the sailors step toward her, ropes swing off the quay, the hull rocks"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "simcheong_girl"
+      ],
+      "beat": "소녀가 아버지의 밥상을 마지막으로 차린다.",
+      "visual": "a girl setting a small rice table beside a sleeping old man in a dim thatched room",
+      "motion": "she sets the bowl down on the table, steam rises, the lamp flame dips"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "sailors",
+        "simcheong_girl"
+      ],
+      "beat": "소녀가 배에 올라 뭍을 돌아본다.",
+      "visual": "a girl at a junk's rail looking back at a receding shore, sailors hauling ropes",
+      "motion": "the ship pulls away from the shore, the sail fills, her braid whips back"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "simcheong_girl"
+      ],
+      "beat": "거친 바다 위에서 소녀가 두 손을 모은다.",
+      "visual": "a girl standing at a ship's rail with hands clasped above heaving black waves",
+      "motion": "waves heave up against the hull, spray bursts over the rail, her skirt snaps"
+    },
+    {
+      "n": 7,
+      "cast": [],
+      "beat": "바다 한가운데 커다란 연꽃 한 송이가 떠오른다.",
+      "visual": "an enormous pink lotus blossom rising on open sea, closed petals, mist on the water",
+      "motion": "the lotus rises up through the surface, water sheets off the petals, mist parts"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "빈 갑판에 밧줄과 물자국만 남는다.",
+      "visual": "an empty wooden ship deck at dawn, coiled ropes, wet planks, grey open sea beyond",
+      "motion": "water runs across the planks, the ropes shift, the sail slackens overhead"
+    }
+  ],
+  "withheld": "연꽃에서 나온 심청이 왕비가 되고, 잔치에서 아버지가 눈을 뜨는 결말"
+}

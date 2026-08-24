@@ -120,3 +120,4 @@
 2026-08-21T21:32:11	hyeolui_nu	facts/auto_hyeolui_nu.txt	소설 혈의 누에서 만날 수 있습니다	1900s Pyongyang illustration: tiled gates and smoke on the hills, oil lamps, white hanbok, muted ash and ember palette, ink wash texture. 	서늘	script-gate
 2026-08-21T22:25:20	geumsuhoeuirok	facts/auto_geumsuhoeuirok.txt	소설 금수회의록에서 만날 수 있습니다	satirical animal-assembly woodcut illustration: crow, fox, frog and bees at a torchlit forest meeting, warm lantern palette, folk print texture. 	생동	script-gate
 2026-08-21T23:24:21	manmubang	facts/auto_manmubang.txt	소설 만무방에서 만날 수 있습니다	1930s Korean rice-field illustration: autumn paddies and straw stacks, night lanterns, hemp clothes, ochre and deep green palette, grainy texture. 	생동	script-gate
+2026-08-24T18:01:51	samchongsa	facts/auto_samchongsa.txt	소설 삼총사에서 만날 수 있습니다	17th-century French romance illustration: Paris slate and candle amber, wine red cloaks, steel glint. 	긴장	stuck

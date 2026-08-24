@@ -1,59 +1,60 @@
 {
- "logline": "전과자 형은 동생의 논에서 도둑을 잡으려 밤을 새운다.",
- "destination": "응고개 논둑의 소나무 — 도둑을 잡아야 하는 긴박한 순간",
- "protagonist": "송이를 캐며 떠도는 전과자 형",
- "setting": "1935년, 가난한 농촌 마을의 산과 논둑",
- "anchor": "Gaunt man with wild hair and tattered clothes",
- "palette": "Cold blue twilight, wet earth tones, dim firelight flickering in shadows.",
- "beats": [
-  {
-   "n": 1,
-   "beat": "농사꾼이 남의 닭을 안고 산그늘로 숨어든다.",
-   "visual": "a lean farmer clutching a hen under his arm slipping into pine shade below a hill grave mound",
-   "motion": "he ducks into the shade, the hen flaps once under his arm, pine branches sway"
-  },
-  {
-   "n": 2,
-   "beat": "산에서 내려오며 대장장이 성팔의 의심을 느낀다.",
-   "visual": "Man descends slope, avoiding eye contact with a blacksmith watching him.",
-   "motion": "Moving down the hill toward the village"
-  },
-  {
-   "n": 3,
-   "beat": "주막에서 막걸리를 마시고 동생 집으로 향한다.",
-   "visual": "Man drinks from a clay cup, then walks past a dark, sickly house.",
-   "motion": "Walking past the sick wife's house"
-  },
-  {
-   "n": 4,
-   "beat": "밤 산길에서 화투 소리를 듣고 재성에게 돈을 준다.",
-   "visual": "Man hands coins to a crying man emerging from a rocky cave.",
-   "motion": "Handing money to the other man"
-  },
-  {
-   "n": 5,
-   "beat": "서낭당 뒤에서 논둑의 희끄무레한 형상을 발견한다.",
-   "visual": "Man peers from a shrine, spotting a blurred figure in the paddy field.",
-   "motion": "Leaning out from the shrine toward the field"
-  },
-  {
-   "n": 6,
-   "beat": "소나무에 기대어 도둑의 귀환을 기다린다.",
-   "visual": "Man waits rigidly against a pine tree, listening to wind and rain.",
-   "motion": "Standing still against the tree trunk"
-  },
-  {
-   "n": 7,
-   "beat": "봇짐을 짊어진 도둑이 몸을 일으킨다.",
-   "visual": "a pale bundled figure rising from a moonlit paddy bank, a farmer tensed behind a pine",
-   "motion": "the figure straightens up with the bundle, the farmer leans forward, moonlight shifts"
-  },
-  {
-   "n": 8,
-   "beat": "소나무 아래 논둑길에 새벽빛이 내린다.",
-   "visual": "an empty paddy bank path under a lone pine at first light, mist over the stubble field",
-   "motion": "dawn light spreads along the bank, mist thins over the stubble, the pine stirs"
-  }
- ],
- "withheld": "도둑은 동생 응오였다는 사실과, 형이 동생을 때렸다는 사실"
+  "logline": "전과자 형은 동생의 논에서 도둑을 잡으려 밤을 새운다.",
+  "destination": "응고개 논둑의 소나무 — 도둑을 잡아야 하는 긴박한 순간",
+  "protagonist": "송이를 캐며 떠도는 전과자 형",
+  "setting": "1935년, 가난한 농촌 마을의 산과 논둑",
+  "anchor": "Gaunt man with wild hair and tattered clothes",
+  "palette": "Cold blue twilight, wet earth tones, dim firelight flickering in shadows.",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "농사꾼이 남의 닭을 안고 산그늘로 숨어든다.",
+      "visual": "a lean farmer clutching a hen under his arm slipping into pine shade below a hill grave mound",
+      "motion": "he ducks into the shade, the hen flaps once under his arm, pine branches sway"
+    },
+    {
+      "n": 2,
+      "beat": "산에서 내려오며 대장장이 성팔의 의심을 느낀다.",
+      "visual": "Man descends slope, avoiding eye contact with a blacksmith watching him.",
+      "motion": "Moving down the hill toward the village"
+    },
+    {
+      "n": 3,
+      "beat": "주막에서 막걸리를 마시고 동생 집으로 향한다.",
+      "visual": "Man drinks from a clay cup, then walks past a dark, sickly house.",
+      "motion": "Walking past the sick wife's house"
+    },
+    {
+      "n": 4,
+      "beat": "밤 산길에서 화투 소리를 듣고 재성에게 돈을 준다.",
+      "visual": "Man hands coins to a crying man emerging from a rocky cave.",
+      "motion": "Handing money to the other man"
+    },
+    {
+      "n": 5,
+      "beat": "서낭당 뒤에서 논둑의 희끄무레한 형상을 발견한다.",
+      "visual": "Man peers from a shrine, spotting a blurred figure in the paddy field.",
+      "motion": "Leaning out from the shrine toward the field"
+    },
+    {
+      "n": 6,
+      "beat": "소나무에 기대어 도둑의 귀환을 기다린다.",
+      "visual": "Man waits rigidly against a pine tree, listening to wind and rain.",
+      "motion": "Standing still against the tree trunk"
+    },
+    {
+      "n": 7,
+      "beat": "봇짐을 짊어진 도둑이 몸을 일으킨다.",
+      "visual": "a pale bundled figure rising from a moonlit paddy bank, a farmer tensed behind a pine",
+      "motion": "the figure straightens up with the bundle, the farmer leans forward, moonlight shifts"
+    },
+    {
+      "n": 8,
+      "beat": "소나무 아래 논둑길에 새벽빛이 내린다.",
+      "visual": "an empty paddy bank path under a lone pine at first light, mist over the stubble field",
+      "motion": "dawn light spreads along the bank, mist thins over the stubble, the pine stirs",
+      "anchor": false
+    }
+  ],
+  "withheld": "도둑은 동생 응오였다는 사실과, 형이 동생을 때렸다는 사실"
 }

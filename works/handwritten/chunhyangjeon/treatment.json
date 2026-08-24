@@ -1,61 +1,98 @@
 {
- "logline": "그네 뛰던 처녀와 사또의 아들이 백년가약을 맺지만, 새로 온 사또가 그 약속을 짓밟으려 한다.",
- "destination": "남원 관아의 옥 — 약속을 지킬 수 있는지 시험받는 자리",
- "protagonist": "댕기머리에 다홍치마를 입은 열여섯 처녀",
- "setting": "조선 후기 남원, 광한루와 관아",
- "anchor": "a sixteen-year-old Korean girl with a long braided daenggi, crimson chima and green jeogori",
- "palette": "spring green and crimson, hanji cream, lantern amber, cold stone grey",
- "voice": "ko-KR-JiMinNeural",
- "beats": [
-  {
-   "n": 1,
-   "beat": "처녀가 버드나무 아래 그네를 힘껏 굴린다.",
-   "visual": "a girl in crimson skirt on a swing under willow branches, pavilion roof beyond a stream",
-   "motion": "the swing arcs upward toward the willows, her skirt billows, blossoms shake loose"
-  },
-  {
-   "n": 2,
-   "beat": "누각의 젊은 도령이 그 모습을 바라본다.",
-   "visual": "a young nobleman in a blue durumagi at a pavilion rail watching across a stream",
-   "motion": "he leans forward on the rail toward the stream, his sleeve catches the wind, willows sway"
-  },
-  {
-   "n": 3,
-   "beat": "두 사람이 촛불 앞에서 잔을 나눈다.",
-   "visual": "a young couple facing each other over a low table with two cups, one candle between them",
-   "motion": "the cups rise toward each other, the candle flame leans, shadows swing on paper doors"
-  },
-  {
-   "n": 4,
-   "beat": "도령이 말에 올라 고갯길로 떠난다.",
-   "visual": "a young nobleman mounted on a horse on a hill road, a girl standing small at the roadside",
-   "motion": "the horse carries him away up the hill road, dust trails back, her hand lifts"
-  },
-  {
-   "n": 5,
-   "beat": "새 사또가 마루에 앉아 처녀를 내려다본다.",
-   "visual": "a heavyset official seated on a magistrate's platform looking down at a kneeling girl",
-   "motion": "he leans down toward her from the platform, a fan snaps open, banners flap"
-  },
-  {
-   "n": 6,
-   "beat": "처녀가 옥 안에서 고개를 꼿꼿이 든다.",
-   "visual": "a girl seated behind thick wooden prison bars, straw on the floor, chin lifted",
-   "motion": "her chin lifts toward the bars, torchlight crosses her face, straw stirs"
-  },
-  {
-   "n": 7,
-   "beat": "누더기 차림의 사내가 잔칫상 앞에 나선다.",
-   "visual": "a man in beggar's rags stepping before a lavish official banquet under lanterns",
-   "motion": "he steps forward into the banquet, guests turn toward him, lanterns swing overhead"
-  },
-  {
-   "n": 8,
-   "beat": "빈 잔칫상에 엎어진 술잔만 남는다.",
-   "anchor": false,
-   "visual": "an abandoned banquet table with an overturned cup and scattered dishes, lanterns guttering",
-   "motion": "a lantern swings over the table, the cup rocks and settles, petals drift down"
+  "logline": "그네 뛰던 처녀와 사또의 아들이 백년가약을 맺지만, 새로 온 사또가 그 약속을 짓밟으려 한다.",
+  "destination": "남원 관아의 옥 — 약속을 지킬 수 있는지 시험받는 자리",
+  "protagonist": "댕기머리에 다홍치마를 입은 열여섯 처녀",
+  "setting": "조선 후기 남원, 광한루와 관아",
+  "anchor": "a sixteen-year-old Korean girl with a long braided daenggi, crimson chima and green jeogori",
+  "palette": "spring green and crimson, hanji cream, lantern amber, cold stone grey",
+  "voice": "ko-KR-JiMinNeural",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "처녀가 버드나무 아래 그네를 힘껏 굴린다.",
+      "visual": "a girl in crimson skirt on a swing under willow branches, pavilion roof beyond a stream",
+      "motion": "the swing arcs upward toward the willows, her skirt billows, blossoms shake loose",
+      "cast": [
+        "joseon_cheonyeo",
+        "joseon_gwanghallu"
+      ]
+    },
+    {
+      "n": 2,
+      "beat": "누각의 젊은 도령이 그 모습을 바라본다.",
+      "visual": "a young nobleman in a blue durumagi at a pavilion rail watching across a stream",
+      "motion": "he leans forward on the rail toward the stream, his sleeve catches the wind, willows sway",
+      "cast": [
+        "joseon_doryeong",
+        "joseon_gwanghallu"
+      ]
+    },
+    {
+      "n": 3,
+      "beat": "두 사람이 촛불 앞에서 잔을 나눈다.",
+      "visual": "a young couple facing each other over a low table with two cups, one candle between them",
+      "motion": "the cups rise toward each other, the candle flame leans, shadows swing on paper doors",
+      "cast": [
+        "joseon_doryeong",
+        "joseon_cheonyeo",
+        "joseon_hanok_room"
+      ]
+    },
+    {
+      "n": 4,
+      "beat": "도령이 말에 올라 고갯길로 떠난다.",
+      "visual": "a young nobleman mounted on a horse on a hill road, a girl standing small at the roadside",
+      "motion": "the horse carries him away up the hill road, dust trails back, her hand lifts",
+      "cast": [
+        "joseon_doryeong",
+        "joseon_cheonyeo"
+      ]
+    },
+    {
+      "n": 5,
+      "beat": "새 사또가 마루에 앉아 처녀를 내려다본다.",
+      "visual": "a heavyset official seated on a magistrate's platform looking down at a kneeling girl",
+      "motion": "he leans down toward her from the platform, a fan snaps open, banners flap",
+      "cast": [
+        "joseon_sato",
+        "joseon_cheonyeo",
+        "joseon_gwana"
+      ]
+    },
+    {
+      "n": 6,
+      "beat": "처녀가 옥 안에서 고개를 꼿꼿이 든다.",
+      "visual": "a girl seated behind thick wooden prison bars, straw on the floor, chin lifted",
+      "motion": "her chin lifts toward the bars, torchlight crosses her face, straw stirs",
+      "cast": [
+        "joseon_cheonyeo",
+        "joseon_ok"
+      ]
+    },
+    {
+      "n": 7,
+      "beat": "누더기 차림의 사내가 잔칫상 앞에 나선다.",
+      "visual": "a man in beggar's rags stepping before a lavish official banquet under lanterns",
+      "motion": "he steps forward into the banquet, guests turn toward him, lanterns swing overhead",
+      "cast": [
+        "beggar_man",
+        "joseon_gwana"
+      ]
+    },
+    {
+      "n": 8,
+      "beat": "빈 잔칫상에 엎어진 술잔만 남는다.",
+      "anchor": false,
+      "visual": "an abandoned banquet table with an overturned cup and scattered dishes, lanterns guttering",
+      "motion": "a lantern swings over the table, the cup rocks and settles, petals drift down"
+    }
+  ],
+  "withheld": "누더기 사내가 암행어사가 된 이몽룡이라는 것과 사또가 맞는 최후",
+  "personas": {
+    "beggar_man": {
+      "label": "누더기 차림의 사내",
+      "desc": "a Korean man in his twenties, torn hemp rags, battered straw hat, unkempt topknot, bare dusty feet",
+      "avoid": "암행어사 신분을 드러내는 마패·관복은 아직 보이지 않는다"
+    }
   }
- ],
- "withheld": "누더기 사내가 암행어사가 된 이몽룡이라는 것과 사또가 맞는 최후"
 }
