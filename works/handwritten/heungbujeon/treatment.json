@@ -4,7 +4,7 @@
   "protagonist": "누더기 무명옷에 상투를 튼 마흔 살 가난한 사내",
   "setting": "조선 시대의 가난한 초가와 형의 기와집",
   "anchor": "a poor Korean man of forty, topknot, patched undyed hemp jacket and trousers, bare feet",
-  "palette": "straw gold, hanji cream, swallow blue-black, autumn ochre",
+  "palette": "straw gold, hanji cream, blue-black, autumn ochre",
   "voice": "ko-KR-InJoonNeural",
   "personas": {
     "rich_brother": {
@@ -31,7 +31,7 @@
         "heungbu_man"
       ],
       "beat": "형이 대문 앞에서 아우를 내쫓는다.",
-      "visual": "a fat man barring a tiled gate against a thin ragged man on the road outside",
+      "visual": "a fat man in fine silk barring a tiled-roof gate against a thin ragged man on the road outside",
       "motion": "the gate is shoved closed toward the road, the thin man staggers back, dust lifts"
     },
     {

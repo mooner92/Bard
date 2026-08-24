@@ -1,102 +1,102 @@
 {
- "logline": "어른 없이 배에 오른 소년들이 폭풍에 떠밀려 무인도에 닿는다.",
- "destination": "이름 없는 섬 — 소년들만의 나라가 될 곳",
- "protagonist": "곱슬머리에 낡은 교복 재킷을 입은 열네 살 소년",
- "setting": "1860년대 남태평양, 범선과 무인도",
- "anchor": "a fourteen-year-old boy with curly hair in a worn school jacket",
- "palette": "storm grey-green, sail canvas white, jungle green, driftwood fire amber",
- "voice": "ko-KR-InJoonNeural",
- "personas": {
-  "boys_older": {
-   "label": "큰 소년들",
-   "desc": "three teenage boys in worn school jackets and rolled trousers, wind-tangled hair, bare feet",
-   "avoid": "어른은 없다 — 전부 아이다"
+  "logline": "어른 없이 배에 오른 소년들이 폭풍에 떠밀려 무인도에 닿는다.",
+  "destination": "이름 없는 섬 — 소년들만의 나라가 될 곳",
+  "protagonist": "곱슬머리에 낡은 교복 재킷을 입은 열네 살 소년",
+  "setting": "1860년대 남태평양, 범선과 무인도",
+  "anchor": "a fourteen-year-old boy with curly hair in a worn school jacket",
+  "palette": "storm grey-green, bleached white, jungle green, firelight amber",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "boys_older": {
+      "label": "큰 소년들",
+      "desc": "three teenage boys in worn school jackets and rolled trousers, wind-tangled hair, bare feet",
+      "avoid": "어른은 없다 — 전부 아이다"
+    },
+    "boys_small": {
+      "label": "어린 소년들",
+      "desc": "a huddle of small boys aged eight to ten in oversized coats, soaked hair, clinging together",
+      "avoid": ""
+    },
+    "island_shore": {
+      "label": "섬 해변",
+      "desc": "a wide unmarked beach backed by dense jungle, driftwood, pale sand, no buildings"
+    }
   },
-  "boys_small": {
-   "label": "어린 소년들",
-   "desc": "a huddle of small boys aged eight to ten in oversized coats, soaked hair, clinging together",
-   "avoid": ""
-  },
-  "island_shore": {
-   "label": "섬 해변",
-   "desc": "a wide unmarked beach backed by dense jungle, driftwood, pale sand, no buildings"
-  }
- },
- "beats": [
-  {
-   "n": 1,
-   "cast": [
-    "boys_older",
-    "boys_small"
-   ],
-   "beat": "소년들이 갑판에서 밧줄을 붙잡고 버틴다.",
-   "visual": "boys clinging to rigging on a pitching schooner deck in a storm, no adults aboard",
-   "motion": "the deck heaves under them, spray bursts over the rail, the sail rips loose"
-  },
-  {
-   "n": 2,
-   "cast": [
-    "boys_older"
-   ],
-   "beat": "큰 소년이 키를 두 손으로 붙든다.",
-   "visual": "a teenage boy gripping a ship's wheel with both hands in driving rain, dark water ahead",
-   "motion": "the wheel wrenches against his hands, rain drives across the deck, lightning flares"
-  },
-  {
-   "n": 3,
-   "cast": [
-    "island_shore"
-   ],
-   "beat": "새벽 안개 속에 배가 모래톱에 얹혀 있다.",
-   "visual": "a schooner run aground on a pale sandbar at dawn, jungle beyond, mist on the water",
-   "motion": "surf breaks along the hull, mist lifts off the sand, a torn sail flaps"
-  },
-  {
-   "n": 4,
-   "cast": [
-    "boys_older",
-    "boys_small",
-    "island_shore"
-   ],
-   "beat": "소년들이 물건을 뭍으로 나른다.",
-   "visual": "boys carrying crates and barrels from a stranded ship up a wide empty beach",
-   "motion": "they haul the crates up the sand away from the surf, gulls scatter, sand sprays"
-  },
-  {
-   "n": 5,
-   "cast": [
-    "boys_older"
-   ],
-   "beat": "소년들이 모닥불 둘레에 둘러앉는다.",
-   "visual": "teenage boys seated around a driftwood fire on a beach at dusk, jungle dark behind",
-   "motion": "the fire snaps and throws sparks upward, their shadows swing across the sand"
-  },
-  {
-   "n": 6,
-   "cast": [
-    "boys_older"
-   ],
-   "beat": "소년이 나무에 올라 섬 안쪽을 살핀다.",
-   "visual": "a boy high in a palm crown scanning inland over dense jungle toward distant hills",
-   "motion": "he climbs higher up the trunk, fronds thrash, birds burst out below him"
-  },
-  {
-   "n": 7,
-   "cast": [
-    "boys_older",
-    "boys_small"
-   ],
-   "beat": "소년들이 젖은 모래의 발자국 앞에 모여 선다.",
-   "visual": "a group of boys halted around fresh unfamiliar footprints in wet beach sand",
-   "motion": "they crowd in around the prints, one points ahead, foam slides up the sand"
-  },
-  {
-   "n": 8,
-   "cast": [],
-   "beat": "빈 해변에 꺼져 가는 모닥불만 남는다.",
-   "visual": "an empty beach at dawn with a dying driftwood fire, scattered crates, calm sea",
-   "motion": "the last embers pulse and fade, smoke bends along the sand, surf runs up"
-  }
- ],
- "withheld": "발자국의 주인과, 소년들이 섬을 떠나게 되는 마지막"
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "boys_older",
+        "boys_small"
+      ],
+      "beat": "소년들이 갑판에서 밧줄을 붙잡고 버틴다.",
+      "visual": "boys clinging to rigging on a pitching schooner deck in a storm, no adults aboard",
+      "motion": "the deck heaves under them, spray bursts over the rail, the sail rips loose"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "boys_older"
+      ],
+      "beat": "큰 소년이 키를 두 손으로 붙든다.",
+      "visual": "a teenage boy gripping a ship's wheel with both hands in driving rain, dark water ahead",
+      "motion": "the wheel wrenches against his hands, rain drives across the deck, lightning flares"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "island_shore"
+      ],
+      "beat": "새벽 안개 속에 배가 모래톱에 얹혀 있다.",
+      "visual": "a schooner run aground on a pale sandbar at dawn, jungle beyond, mist on the water",
+      "motion": "surf breaks along the hull, mist lifts off the sand, a torn sail flaps"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "boys_older",
+        "boys_small",
+        "island_shore"
+      ],
+      "beat": "소년들이 물건을 뭍으로 나른다.",
+      "visual": "boys carrying crates and barrels from a stranded ship up a wide empty beach",
+      "motion": "they haul the crates up the sand away from the surf, gulls scatter, sand sprays"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "boys_older"
+      ],
+      "beat": "소년들이 모닥불 둘레에 둘러앉는다.",
+      "visual": "teenage boys seated around a driftwood fire on a beach at dusk, jungle dark behind",
+      "motion": "the fire snaps and throws sparks upward, their shadows swing across the sand"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "boys_older"
+      ],
+      "beat": "소년이 나무에 올라 섬 안쪽을 살핀다.",
+      "visual": "a boy high in a palm crown scanning inland over dense jungle toward distant hills",
+      "motion": "he climbs higher up the trunk, fronds thrash, birds burst out below him"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "boys_older",
+        "boys_small"
+      ],
+      "beat": "소년들이 젖은 모래의 발자국 앞에 모여 선다.",
+      "visual": "a group of boys halted around fresh unfamiliar footprints in wet beach sand",
+      "motion": "they crowd in around the prints, one points ahead, foam slides up the sand"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "빈 해변에 꺼져 가는 모닥불만 남는다.",
+      "visual": "an empty beach at dawn with a dying driftwood fire, scattered crates, calm sea",
+      "motion": "the last embers pulse and fade, smoke bends along the sand, surf runs up"
+    }
+  ],
+  "withheld": "발자국의 주인과, 소년들이 섬을 떠나게 되는 마지막"
 }

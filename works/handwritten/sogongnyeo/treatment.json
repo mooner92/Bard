@@ -1,111 +1,111 @@
 {
- "logline": "부유하게 자란 소녀가 하루아침에 하녀가 되어 다락방으로 쫓겨난다.",
- "destination": "런던 기숙학교의 차가운 다락방 — 모든 것을 잃은 자리",
- "protagonist": "검은 곱슬머리에 초록 눈, 단정한 원피스를 입은 열한 살 소녀",
- "setting": "1880년대 런던의 여학교와 안개 낀 거리",
- "anchor": "an eleven-year-old girl with dark curly hair and green eyes, neat wool dress",
- "palette": "coal-smoke grey, candle amber, deep green velvet, cold attic blue",
- "voice": "ko-KR-SunHiNeural",
- "personas": {
-  "sara_girl": {
-   "label": "소녀(부유할 때)",
-   "desc": "an eleven-year-old English girl, dark curly hair, green eyes, deep green velvet dress with lace collar",
-   "avoid": ""
+  "logline": "부유하게 자란 소녀가 하루아침에 하녀가 되어 다락방으로 쫓겨난다.",
+  "destination": "런던 기숙학교의 차가운 다락방 — 모든 것을 잃은 자리",
+  "protagonist": "검은 곱슬머리에 초록 눈, 단정한 원피스를 입은 열한 살 소녀",
+  "setting": "1880년대 런던의 여학교와 안개 낀 거리",
+  "anchor": "an eleven-year-old girl with dark curly hair and green eyes, neat wool dress",
+  "palette": "coal-smoke grey, candle amber, deep green, cold blue shadow",
+  "voice": "ko-KR-SunHiNeural",
+  "personas": {
+    "sara_girl": {
+      "label": "소녀(부유할 때)",
+      "desc": "an eleven-year-old English girl, dark curly hair, green eyes, deep green velvet dress with lace collar",
+      "avoid": ""
+    },
+    "sara_ragged": {
+      "label": "소녀(하녀가 된 뒤)",
+      "desc": "a thin eleven-year-old English girl, tangled dark curls, patched grey servant's dress, worn apron",
+      "avoid": "같은 아이다 — 머리색과 눈은 그대로"
+    },
+    "headmistress": {
+      "label": "교장",
+      "desc": "a gaunt Englishwoman in her fifties, hair scraped into a tight bun, stiff black bombazine dress, thin mouth",
+      "avoid": ""
+    },
+    "school_hall": {
+      "label": "기숙학교 홀",
+      "desc": "a formal Victorian school hall, dark panelling, gas brackets, a wide staircase"
+    },
+    "attic_room": {
+      "label": "다락방",
+      "desc": "a bare cold attic, sloping rafters, one small skylight, an iron bedstead, no fire"
+    }
   },
-  "sara_ragged": {
-   "label": "소녀(하녀가 된 뒤)",
-   "desc": "a thin eleven-year-old English girl, tangled dark curls, patched grey servant's dress, worn apron",
-   "avoid": "같은 아이다 — 머리색과 눈은 그대로"
-  },
-  "headmistress": {
-   "label": "교장",
-   "desc": "a gaunt Englishwoman in her fifties, hair scraped into a tight bun, stiff black bombazine dress, thin mouth",
-   "avoid": ""
-  },
-  "school_hall": {
-   "label": "기숙학교 홀",
-   "desc": "a formal Victorian school hall, dark panelling, gas brackets, a wide staircase"
-  },
-  "attic_room": {
-   "label": "다락방",
-   "desc": "a bare cold attic, sloping rafters, one small skylight, an iron bedstead, no fire"
-  }
- },
- "beats": [
-  {
-   "n": 1,
-   "cast": [
-    "sara_girl",
-    "school_hall"
-   ],
-   "beat": "소녀가 값진 옷차림으로 학교 홀에 들어선다.",
-   "visual": "a well-dressed girl entering a formal Victorian school hall, trunk carried behind her",
-   "motion": "she walks forward into the hall, gaslight flares on the panelling, girls turn to look"
-  },
-  {
-   "n": 2,
-   "cast": [
-    "sara_girl"
-   ],
-   "beat": "소녀가 아이들에게 이야기를 들려준다.",
-   "visual": "a girl seated on a rug telling a story to other girls gathered close, firelight",
-   "motion": "her hands rise as she speaks, the fire jumps, the listeners lean in"
-  },
-  {
-   "n": 3,
-   "cast": [
-    "headmistress",
-    "school_hall"
-   ],
-   "beat": "교장이 편지 한 장을 손에 쥐고 굳어 선다.",
-   "visual": "a gaunt woman standing rigid in a school hall gripping a folded paper, girls hushed behind",
-   "motion": "her fist tightens on the paper, her chin lifts, the hall goes still"
-  },
-  {
-   "n": 4,
-   "cast": [
-    "sara_ragged",
-    "headmistress"
-   ],
-   "beat": "소녀가 낡은 회색 옷으로 갈아입고 선다.",
-   "visual": "a thin girl in a patched grey servant's dress standing before a stern woman, hallway",
-   "motion": "the woman turns away from her, the girl's shoulders drop, a door swings shut"
-  },
-  {
-   "n": 5,
-   "cast": [
-    "sara_ragged"
-   ],
-   "beat": "소녀가 무거운 석탄 통을 계단으로 나른다.",
-   "visual": "a thin girl in servant's clothes hauling a coal scuttle up a narrow back staircase",
-   "motion": "she climbs up the stairs with the scuttle, coal dust drifts, her arm strains"
-  },
-  {
-   "n": 6,
-   "cast": [
-    "sara_ragged",
-    "attic_room"
-   ],
-   "beat": "소녀가 추운 다락방에서 몸을 웅크린다.",
-   "visual": "a thin girl huddled on an iron bedstead in a bare cold attic under a small skylight",
-   "motion": "her breath clouds in the cold, snow slides past the skylight, the blanket edge lifts"
-  },
-  {
-   "n": 7,
-   "cast": [
-    "attic_room"
-   ],
-   "beat": "빈 다락방에 따뜻한 불과 음식이 차려져 있다.",
-   "visual": "a bare attic transformed with a lit fire, thick rugs and a laid supper table, no one there",
-   "motion": "flames climb in the grate, steam rises off the dishes, rug fringe stirs"
-  },
-  {
-   "n": 8,
-   "cast": [],
-   "beat": "눈 내리는 다락 창에 불빛만 어린다.",
-   "visual": "a small attic skylight from outside at night, snow falling, warm light glowing through",
-   "motion": "snow drifts down across the glass, the light flickers behind it, frost creeps in"
-  }
- ],
- "withheld": "다락방을 바꿔 놓은 사람의 정체와, 소녀가 되찾게 되는 것"
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "sara_girl",
+        "school_hall"
+      ],
+      "beat": "소녀가 값진 옷차림으로 학교 홀에 들어선다.",
+      "visual": "a well-dressed girl entering a formal Victorian school hall, trunk carried behind her",
+      "motion": "she walks forward into the hall, gaslight flares on the panelling, girls turn to look"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "sara_girl"
+      ],
+      "beat": "소녀가 아이들에게 이야기를 들려준다.",
+      "visual": "a girl seated on a rug telling a story to other girls gathered close, firelight",
+      "motion": "her hands rise as she speaks, the fire jumps, the listeners lean in"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "headmistress",
+        "school_hall"
+      ],
+      "beat": "교장이 편지 한 장을 손에 쥐고 굳어 선다.",
+      "visual": "a gaunt woman standing rigid in a school hall gripping a folded paper, girls hushed behind",
+      "motion": "her fist tightens on the paper, her chin lifts, the hall goes still"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "sara_ragged",
+        "headmistress"
+      ],
+      "beat": "소녀가 낡은 회색 옷으로 갈아입고 선다.",
+      "visual": "a thin girl in a patched grey servant's dress standing before a stern woman, hallway",
+      "motion": "the woman turns away from her, the girl's shoulders drop, a door swings shut"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "sara_ragged"
+      ],
+      "beat": "소녀가 무거운 석탄 통을 계단으로 나른다.",
+      "visual": "a thin girl in servant's clothes hauling a coal scuttle up a narrow back staircase",
+      "motion": "she climbs up the stairs with the scuttle, coal dust drifts, her arm strains"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "sara_ragged",
+        "attic_room"
+      ],
+      "beat": "소녀가 추운 다락방에서 몸을 웅크린다.",
+      "visual": "a thin girl huddled on an iron bedstead in a bare cold attic under a small skylight",
+      "motion": "her breath clouds in the cold, snow slides past the skylight, the blanket edge lifts"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "attic_room"
+      ],
+      "beat": "빈 다락방에 따뜻한 불과 음식이 차려져 있다.",
+      "visual": "a bare attic transformed with a lit fire, thick rugs and a laid supper table, no one there",
+      "motion": "flames climb in the grate, steam rises off the dishes, rug fringe stirs"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "눈 내리는 다락 창에 불빛만 어린다.",
+      "visual": "a small attic skylight from outside at night, snow falling, warm light glowing through",
+      "motion": "snow drifts down across the glass, the light flickers behind it, frost creeps in"
+    }
+  ],
+  "withheld": "다락방을 바꿔 놓은 사람의 정체와, 소녀가 되찾게 되는 것"
 }
