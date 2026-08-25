@@ -1,102 +1,102 @@
 {
- "logline": "고래를 잡으러 배에 오른 젊은 선원이, 선장이 마스트에 박은 금화 하나에서 이 항해의 진짜 목적을 본다.",
- "destination": "마스트에 박힌 금화 — 흰 고래를 먼저 본 자에게 주어지는 것",
- "protagonist": "처음 포경선에 오른 젊은 선원",
- "setting": "19세기 중반 낸터킷 항구와 태평양 한복판의 포경선",
- "anchor": "a young sailor in a rough wool coat and knit cap, wind-burned face",
- "palette": "deep indigo sea, bone white sail, whale-oil lamp amber, cold sky grey",
- "beats": [
-  {
-   "n": 1,
-   "beat": "낸터킷 항구의 새벽, 젊은 선원이 부두에 선다.",
-   "visual": "a young sailor standing on a stone quay at dawn, tall masts crowded behind him, breath steaming",
-   "motion": "mist drifts off the water, ropes sway on the masts, gulls cut across"
-  },
-  {
-   "n": 2,
-   "beat": "밧줄과 기름통이 쌓인 부두를 지나간다.",
-   "visual": "coiled tarred rope and stacked oil casks along a wet quay, a sailor threading between them",
-   "motion": "he squeezes past the casks, a rope coil shifts, water drips from the stack"
-  },
-  {
-   "n": 3,
-   "beat": "낡은 포경선 갑판 위로 올라선다.",
-   "visual": "a young sailor stepping off a gangplank onto a scarred wooden deck, harpoons racked along the rail",
-   "motion": "the gangplank flexes under him, harpoon shafts rattle, the deck tilts"
-  },
-  {
-   "n": 4,
-   "beat": "선장이 못과 망치를 들고 나온다.",
-   "visual": "a tall grim captain crossing the deck with a hammer and a long nail, crew turning to watch",
-   "motion": "his coat snaps in the wind, the hammer swings at his side, heads turn"
-  },
-  {
-   "n": 5,
-   "beat": "금화 한 닢이 마스트에 박힌다.",
-   "visual": "a gold coin held against a mast as a hammer strikes it, splinters flying from the wood",
-   "motion": "the hammer strikes twice, splinters fly, the coin bites into the grain",
-   "anchor": false
-  },
-  {
-   "n": 6,
-   "beat": "선장이 선원들 앞에서 무언가를 선언한다.",
-   "visual": "a captain with one arm raised addressing a ring of sailors on deck, mast towering behind",
-   "motion": "his arm cuts the air, the ring of men presses inward, sails snap above"
-  },
-  {
-   "n": 7,
-   "beat": "선원들의 고개가 일제히 젖혀진다.",
-   "visual": "a ring of weathered faces tilted upward toward a coin nailed high on a mast, sails beyond",
-   "motion": "heads tilt back together, the coin glints as the ship rolls, ropes creak"
-  },
-  {
-   "n": 8,
-   "beat": "돛이 부풀며 배가 뭍을 떠난다.",
-   "visual": "canvas sails filling as a whaling ship pulls away from a low grey coastline, wake spreading",
-   "motion": "sails fill and snap taut, the wake widens, the coast shrinks behind",
-   "anchor": false
-  },
-  {
-   "n": 9,
-   "beat": "배는 몇 달이고 남쪽 바다를 지난다.",
-   "visual": "a whaling ship alone on vast open ocean under a huge sky, no land in any direction",
-   "motion": "the hull rides a long swell, spray bursts at the bow, clouds slide past",
-   "anchor": false
-  },
-  {
-   "n": 10,
-   "beat": "수평선에서 흰 물기둥이 솟구친다.",
-   "visual": "a tall white spout rising from dark sea at the horizon, a lookout pointing from the masthead",
-   "motion": "the spout climbs and drifts sideways, the lookout's arm shoots out, waves chop"
-  },
-  {
-   "n": 11,
-   "beat": "보트 세 척이 바다로 떨어진다.",
-   "visual": "three whaleboats dropping on ropes down a ship's side into heavy sea, oars swung out",
-   "motion": "boats drop jerkily on the falls, water surges up, oars swing outward",
-   "anchor": false
-  },
-  {
-   "n": 12,
-   "beat": "노가 멈추고 앞의 물살이 갈라진다.",
-   "visual": "oars held still above the water as a wide swell parts ahead of three small boats",
-   "motion": "oars lift and hold, the water parts in a long line, spray drifts",
-   "anchor": false
-  },
-  {
-   "n": 13,
-   "beat": "창백한 등을 마주한 그들에게 무엇이 남을까?",
-   "visual": "a sperm whale's blunt square white head and scarred back rising ahead of a small boat, men frozen at the oars",
-   "motion": "the blunt head pushes upward through the water toward the boat, the boat pitches back, spray hangs"
-  },
-  {
-   "n": 14,
-   "beat": "텅 빈 갑판에 금화만 남아 반짝인다.",
-   "visual": "an empty ship deck at dusk, a single gold coin still nailed to the bare mast, long shadows",
-   "motion": "the coin turns slightly as the ship rolls, light fades, rigging creaks",
-   "anchor": false
-  }
- ],
- "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막",
- "voice": "ko-KR-BongJinNeural"
+  "logline": "고래를 잡으러 배에 오른 젊은 선원이, 선장이 마스트에 박은 금화 하나에서 이 항해의 진짜 목적을 본다.",
+  "destination": "마스트에 박힌 금화 — 흰 고래를 먼저 본 자에게 주어지는 것",
+  "protagonist": "처음 포경선에 오른 젊은 선원",
+  "setting": "19세기 중반 낸터킷 항구와 태평양 한복판의 포경선",
+  "anchor": "a young sailor in a rough wool coat and knit cap, wind-burned face",
+  "palette": "deep indigo sea, bone white, oil-lamp amber, cold sky grey",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "낸터킷 항구의 새벽, 젊은 선원이 부두에 선다.",
+      "visual": "a young sailor standing on a stone quay at dawn, tall masts crowded behind him, breath steaming",
+      "motion": "mist drifts off the water, ropes sway on the masts, gulls cut across"
+    },
+    {
+      "n": 2,
+      "beat": "밧줄과 기름통이 쌓인 부두를 지나간다.",
+      "visual": "coiled tarred rope and stacked oil casks along a wet quay, a sailor threading between them",
+      "motion": "he squeezes past the casks, a rope coil shifts, water drips from the stack"
+    },
+    {
+      "n": 3,
+      "beat": "낡은 포경선 갑판 위로 올라선다.",
+      "visual": "a young sailor stepping off a gangplank onto a scarred wooden deck, harpoons racked along the rail",
+      "motion": "the gangplank flexes under him, harpoon shafts rattle, the deck tilts"
+    },
+    {
+      "n": 4,
+      "beat": "선장이 못과 망치를 들고 나온다.",
+      "visual": "a tall grim captain crossing the deck with a hammer and a long nail, crew turning to watch",
+      "motion": "his coat snaps in the wind, the hammer swings at his side, heads turn"
+    },
+    {
+      "n": 5,
+      "beat": "금화 한 닢이 마스트에 박힌다.",
+      "visual": "a gold coin held against a mast as a hammer strikes it, splinters flying from the wood",
+      "motion": "the hammer strikes twice, splinters fly, the coin bites into the grain",
+      "anchor": false
+    },
+    {
+      "n": 6,
+      "beat": "선장이 선원들 앞에서 무언가를 선언한다.",
+      "visual": "a captain with one arm raised addressing a ring of sailors on deck, mast towering behind",
+      "motion": "his arm cuts the air, the ring of men presses inward, sails snap above"
+    },
+    {
+      "n": 7,
+      "beat": "선원들의 고개가 일제히 젖혀진다.",
+      "visual": "a ring of weathered faces tilted upward toward a coin nailed high on a mast, sails beyond",
+      "motion": "heads tilt back together, the coin glints as the ship rolls, ropes creak"
+    },
+    {
+      "n": 8,
+      "beat": "돛이 부풀며 배가 뭍을 떠난다.",
+      "visual": "canvas sails filling as a whaling ship pulls away from a low grey coastline, wake spreading",
+      "motion": "sails fill and snap taut, the wake widens, the coast shrinks behind",
+      "anchor": false
+    },
+    {
+      "n": 9,
+      "beat": "배는 몇 달이고 남쪽 바다를 지난다.",
+      "visual": "a whaling ship alone on vast open ocean under a huge sky, no land in any direction",
+      "motion": "the hull rides a long swell, spray bursts at the bow, clouds slide past",
+      "anchor": false
+    },
+    {
+      "n": 10,
+      "beat": "수평선에서 흰 물기둥이 솟구친다.",
+      "visual": "a tall white spout rising from dark sea at the horizon, a lookout pointing from the masthead",
+      "motion": "the spout climbs and drifts sideways, the lookout's arm shoots out, waves chop"
+    },
+    {
+      "n": 11,
+      "beat": "보트 세 척이 바다로 떨어진다.",
+      "visual": "three whaleboats dropping on ropes down a ship's side into heavy sea, oars swung out",
+      "motion": "boats drop jerkily on the falls, water surges up, oars swing outward",
+      "anchor": false
+    },
+    {
+      "n": 12,
+      "beat": "노가 멈추고 앞의 물살이 갈라진다.",
+      "visual": "oars held still above the water as a wide swell parts ahead of three small boats",
+      "motion": "oars lift and hold, the water parts in a long line, spray drifts",
+      "anchor": false
+    },
+    {
+      "n": 13,
+      "beat": "창백한 등을 마주한 그들에게 무엇이 남을까?",
+      "visual": "a sperm whale's blunt square white head and scarred back rising ahead of a small boat, men frozen at the oars",
+      "motion": "the blunt head pushes upward through the water toward the boat, the boat pitches back, spray hangs"
+    },
+    {
+      "n": 14,
+      "beat": "텅 빈 갑판에 금화만 남아 반짝인다.",
+      "visual": "an empty ship deck at dusk, a single gold coin still nailed to the bare mast, long shadows",
+      "motion": "the coin turns slightly as the ship rolls, light fades, rigging creaks",
+      "anchor": false
+    }
+  ],
+  "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막",
+  "voice": "ko-KR-BongJinNeural"
 }
