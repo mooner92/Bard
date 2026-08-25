@@ -1,0 +1,117 @@
+{
+  "logline": "늑대 무리가 사람의 아기를 거두어 정글의 규칙 속에서 길러낸다.",
+  "destination": "달빛 내린 폐허 신전 — 아무도 함부로 들어가지 않는 곳",
+  "protagonist": "헝클어진 검은 머리에 허리끈만 두른 열 살 남짓 소년",
+  "setting": "인도의 깊은 정글, 늑대굴과 폐허가 된 옛 신전",
+  "anchor": "a boy of about ten with tangled black hair, bare brown skin, a simple waist cord",
+  "palette": "deep jungle green, warm amber, dry earth ochre, cool pale silver",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "mowgli": {
+      "label": "모글리",
+      "desc": "a lean boy of about ten, tangled black hair, bare brown skin, a simple woven waist cord, bare feet",
+      "avoid": "옷·신발은 이 인물의 것이 아니다"
+    },
+    "wolves": {
+      "label": "늑대 무리",
+      "desc": "a pack of grey Indian wolves, lean flanks, yellow eyes, ears pricked forward",
+      "avoid": "북방 흰늑대가 아니다"
+    },
+    "panther": {
+      "label": "검은 표범",
+      "desc": "a black panther with a sleek coat and amber eyes, muscles moving under the fur",
+      "avoid": ""
+    },
+    "bear": {
+      "label": "곰",
+      "desc": "a big shaggy brown sloth bear with a pale muzzle and blunt claws",
+      "avoid": ""
+    },
+    "monkeys": {
+      "label": "원숭이 떼",
+      "desc": "a swarm of grey langur monkeys with long tails and black faces",
+      "avoid": ""
+    },
+    "ruined_temple": {
+      "label": "폐허 신전",
+      "desc": "a vine-swallowed stone temple, toppled pillars, cracked flagstones, roots through the walls"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "wolves"
+      ],
+      "beat": "늑대굴 입구로 아기가 기어 들어온다.",
+      "visual": "a small infant crawling into the mouth of a rocky wolf den at dusk, jungle behind",
+      "motion": "the infant crawls forward into the den, dust puffs under its hands, ferns shake"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "wolves"
+      ],
+      "beat": "늑대들이 아기를 둥글게 둘러싼다.",
+      "visual": "grey wolves closing in a ring around a small infant on the den floor, low light",
+      "motion": "the wolves draw in around the child, ears flick forward, dust settles"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "mowgli",
+        "wolves"
+      ],
+      "beat": "소년이 늑대들과 나란히 달린다.",
+      "visual": "a bare-skinned boy running low beside grey wolves through tall jungle grass",
+      "motion": "they run forward through the grass toward the camera, stalks whip aside, dust streams"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "panther"
+      ],
+      "beat": "검은 표범이 나뭇가지에서 내려다본다.",
+      "visual": "a black panther stretched along a thick branch looking down through jungle leaves",
+      "motion": "its tail sweeps along the branch, leaves shift, amber eyes track downward"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "mowgli",
+        "bear"
+      ],
+      "beat": "곰이 소년에게 나무 타기를 보여 준다.",
+      "visual": "a big shaggy bear hauling itself up a tree trunk while a boy watches from below",
+      "motion": "the bear climbs up the trunk, bark flakes fall, the boy tips his head back"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "mowgli",
+        "monkeys"
+      ],
+      "beat": "원숭이 떼가 소년을 채어 올린다.",
+      "visual": "grey langur monkeys carrying a struggling boy up through the jungle canopy",
+      "motion": "they haul him upward through the branches, leaves burst outward, tails whip"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "mowgli",
+        "ruined_temple"
+      ],
+      "beat": "소년이 폐허 신전 한가운데 내려앉는다.",
+      "visual": "a boy set down among toppled pillars of a vine-swallowed stone temple in moonlight",
+      "motion": "he lands on the flagstones, vines swing overhead, dust lifts around his feet"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "빈 신전 바닥에 달빛만 흐른다.",
+      "visual": "empty moonlit flagstones between toppled temple pillars, vines hanging still",
+      "motion": "moonlight slides across the flagstones, vines sway, dust settles in the still air"
+    }
+  ],
+  "withheld": "폐허에서 소년을 기다리던 것이 무엇인지와, 호랑이 시어 칸과의 마지막"
+}

@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 레미제라블 / 빅토르 위고 /   /
+[줄거리와 배경]
+1862년 위고의 장편소설. 빵 한 조각을 훔쳐 십구 년을 복역한 장발장이 한 주교를 만나 삶이 뒤바뀐다.
+[줄거리]
+줄거리와 인물은 works/handwritten/jangbaljang/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

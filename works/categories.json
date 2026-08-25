@@ -253,5 +253,13 @@
   "15sonyeon_pyoryugi": {
     "region": "프랑스",
     "genre": "모험"
+  },
+  "jangbaljang": {
+    "region": "프랑스",
+    "genre": "사회·풍자"
+  },
+  "jeonggeulbuk": {
+    "region": "영국",
+    "genre": "모험"
   }
 }

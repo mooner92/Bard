@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 정글북 / 러디어드 키플링 /   /
+[줄거리와 배경]
+1894년 키플링의 소설. 인도의 정글에서 늑대 무리에게 길러진 소년 모글리가 짐승들의 규칙 속에서 자란다.
+[줄거리]
+줄거리와 인물은 works/handwritten/jeonggeulbuk/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

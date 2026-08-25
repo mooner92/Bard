@@ -1,0 +1,108 @@
+{
+ "logline": "빵 한 조각으로 십구 년을 살고 나온 남자가, 하룻밤 재워 준 집의 은그릇을 훔친다.",
+ "destination": "주교의 식탁 — 그가 다시 붙들려 오는 자리",
+ "protagonist": "짧게 깎은 머리에 누런 죄수 옷을 걸친 마흔 살 사내",
+ "setting": "1810년대 프랑스 시골 마을과 주교의 검소한 집",
+ "anchor": "a hard-faced man of forty, cropped hair, coarse yellow prison coat, heavy boots",
+ "palette": "cold stone grey, warm amber, road dust ochre, deep night blue",
+ "voice": "ko-KR-BongJinNeural",
+ "personas": {
+  "valjean": {
+   "label": "장발장",
+   "desc": "a hard-faced French man of forty, cropped grey-flecked hair, coarse yellow coat, worn boots, canvas sack",
+   "avoid": ""
+  },
+  "bishop": {
+   "label": "주교",
+   "desc": "a slight white-haired French priest in his seventies, simple black cassock, small pectoral cross, calm face",
+   "avoid": "화려한 주교관·금란 예복은 이 인물의 것이 아니다"
+  },
+  "gendarmes": {
+   "label": "헌병들",
+   "desc": "two French gendarmes in dark blue coats with white cross-belts, black bicorne hats, sabres at the hip",
+   "avoid": ""
+  },
+  "bishop_house": {
+   "label": "주교의 집",
+   "desc": "a plain whitewashed room, bare table, two wooden chairs, low ceiling beams"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "valjean"
+   ],
+   "beat": "사내가 감옥 문을 나서 흙길에 선다.",
+   "visual": "a hard-faced man in a yellow coat stepping out of a studded prison door onto a dusty road",
+   "motion": "the door swings shut behind him, he walks forward down the road, dust lifts at his boots"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "valjean"
+   ],
+   "beat": "여관 문이 그의 눈앞에서 닫힌다.",
+   "visual": "an inn door shut in the face of a man in a yellow coat, shutters closing above him",
+   "motion": "the door slams toward him, a shutter bangs closed overhead, he steps back"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "bishop",
+    "valjean",
+    "bishop_house"
+   ],
+   "beat": "주교가 그를 식탁 앞에 앉힌다.",
+   "visual": "a white-haired priest seating a rough man at a bare table in a plain whitewashed room",
+   "motion": "the priest draws the chair out toward him, soup steams on the table, the lamp flame dips"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "valjean",
+    "bishop_house"
+   ],
+   "beat": "사내가 밤중에 은그릇을 자루에 담는다.",
+   "visual": "a man in a yellow coat sweeping silver plates into a canvas sack in a dark room",
+   "motion": "the plates slide into the sack, his shadow swings across the wall, a shutter creaks"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "gendarmes",
+    "valjean"
+   ],
+   "beat": "헌병들이 그를 붙들어 끌고 온다.",
+   "visual": "two gendarmes marching a bound man in a yellow coat up a village lane at dawn",
+   "motion": "they push him forward up the lane, his sack swings from a gendarme's fist, dust rises"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "bishop",
+    "gendarmes"
+   ],
+   "beat": "주교가 은촛대를 들어 그에게 내민다.",
+   "visual": "a white-haired priest holding out two tall silver candlesticks toward a doorway of soldiers",
+   "motion": "the candlesticks come forward into the light, the gendarmes' hands fall open, dust turns"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "valjean"
+   ],
+   "beat": "사내가 두 손으로 촛대를 받아 든다.",
+   "visual": "a rough man in a yellow coat cupping two silver candlesticks in both hands, doorway light behind",
+   "motion": "his hands close around them, his head lowers, morning light widens behind him"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 식탁에 아침 빛만 든다.",
+   "visual": "a bare wooden table in an empty whitewashed room, two chairs pushed back, morning light",
+   "motion": "morning light creeps across the table, dust turns in the beam, a shutter stirs"
+  }
+ ],
+ "withheld": "장발장이 이름을 바꾸고 시장이 되는 것과, 그를 끝까지 쫓는 자베르와의 결말"
+}
