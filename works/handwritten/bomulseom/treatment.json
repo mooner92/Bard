@@ -1,61 +1,61 @@
 {
- "logline": "바닷가 여관에서 자란 소년이 늙은 뱃사람의 궤짝을 열면서, 배 한 척을 가득 채운 사람들과 바다로 나선다.",
- "destination": "섬의 표시된 자리 — 모두가 파 내려가는 구덩이",
- "protagonist": "여관집 아들인 열두 살 소년",
- "setting": "18세기 잉글랜드 바닷가 여관과 범선, 남쪽 바다의 섬",
- "anchor": "a small boy in a rough wool coat and buckled shoes with tousled hair, 18th century seaside inn and tall ship",
- "palette": "sea teal, weathered oak brown, lantern amber, pale tropical sand",
- "beats": [
-  {
-   "n": 1,
-   "beat": "바닷가 여관에 늙은 뱃사람이 궤짝을 부린다.",
-   "visual": "a scarred old sailor dropping a heavy sea chest on the floor of a low beam inn, boy watching",
-   "motion": "the chest thuds down, dust jumps from the boards, the boy steps back"
-  },
-  {
-   "n": 2,
-   "beat": "소년이 그 궤짝에서 접힌 가죽을 꺼낸다.",
-   "visual": "a boy lifting a folded leather square from an open sea chest of coins and pistols, lamp beside",
-   "motion": "the leather unfolds in his hands, coins slide, lamplight swings"
-  },
-  {
-   "n": 3,
-   "beat": "눈먼 사내가 지팡이를 짚고 마을에 나타난다.",
-   "visual": "a blind man in a ragged cloak tapping a stick along a foggy village lane toward an inn",
-   "motion": "the stick taps and drags, fog rolls past him, shutters close ahead"
-  },
-  {
-   "n": 4,
-   "beat": "배가 돛을 올리고 항구를 빠져나간다.",
-   "visual": "a tall ship under filling canvas leaving a stone harbour, crew swarming the rigging",
-   "motion": "sails fill and snap taut, ropes run through blocks, the hull heels over"
-  },
-  {
-   "n": 5,
-   "beat": "소년이 사과통 속에서 선원들 말을 엿듣는다.",
-   "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' legs visible through the gap",
-   "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
-  },
-  {
-   "n": 6,
-   "beat": "소년이 사과통 안에서 선원들 말을 엿듣는다.",
-   "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' boots passing through the gap",
-   "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
-  },
-  {
-   "n": 7,
-   "beat": "그 구덩이 안에는 무엇이 있을까?",
-   "visual": "an open sandy pit with a broken plank at the bottom, sailors' faces ringed above it",
-   "motion": "sand slides down the pit wall, faces lean in together, shadows drop inside"
-  },
-  {
-   "n": 8,
-   "beat": "모래 위에 빈 궤짝 하나가 열려 있다.",
-   "visual": "an empty wooden chest lying open on pale sand, palm shadows falling across it, sea beyond",
-   "motion": "palm shadows sway over the chest, sand trickles from its rim, surf rolls in",
-   "anchor": false
-  }
- ],
- "withheld": "구덩이가 이미 비어 있다는 것과 요리사의 도주",
- "voice": "ko-KR-InJoonNeural"
+  "logline": "바닷가 여관에서 자란 소년이 늙은 뱃사람의 궤짝을 열면서, 배 한 척을 가득 채운 사람들과 바다로 나선다.",
+  "destination": "섬의 표시된 자리 — 모두가 파 내려가는 구덩이",
+  "protagonist": "여관집 아들인 열두 살 소년",
+  "setting": "18세기 잉글랜드 바닷가 여관과 범선, 남쪽 바다의 섬",
+  "anchor": "a small boy in a rough wool coat and buckled shoes with tousled hair, 18th century seaside inn and tall ship",
+  "palette": "sea teal, weathered oak brown, lantern amber, pale tropical sand",
+  "beats": [
+    {
+      "n": 1,
+      "beat": "바닷가 여관에 늙은 뱃사람이 궤짝을 부린다.",
+      "visual": "a scarred old sailor dropping a heavy sea chest on the floor of a low beam inn, boy watching",
+      "motion": "the chest thuds down, dust jumps from the boards, the boy steps back"
+    },
+    {
+      "n": 2,
+      "beat": "소년이 그 궤짝에서 접힌 가죽을 꺼낸다.",
+      "visual": "a boy lifting a folded leather square from an open sea chest of coins and pistols, lamp beside",
+      "motion": "the leather unfolds in his hands, coins slide, lamplight swings"
+    },
+    {
+      "n": 3,
+      "beat": "눈먼 사내가 지팡이를 짚고 마을에 나타난다.",
+      "visual": "a man in a ragged cloak with clouded eyes tapping a stick along a foggy village lane",
+      "motion": "the stick taps and drags, fog rolls past him, shutters close ahead"
+    },
+    {
+      "n": 4,
+      "beat": "배가 돛을 올리고 항구를 빠져나간다.",
+      "visual": "a tall ship under filling canvas leaving a stone harbour, crew swarming the rigging",
+      "motion": "sails fill and snap taut, ropes run through blocks, the hull heels over"
+    },
+    {
+      "n": 5,
+      "beat": "소년이 사과통 속에서 선원들 말을 엿듣는다.",
+      "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' legs visible through the gap",
+      "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
+    },
+    {
+      "n": 6,
+      "beat": "소년이 사과통 안에서 선원들 말을 엿듣는다.",
+      "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' boots passing through the gap",
+      "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
+    },
+    {
+      "n": 7,
+      "beat": "그 구덩이 안에는 무엇이 있을까?",
+      "visual": "an open sandy pit with a broken plank at the bottom, sailors' faces ringed above it",
+      "motion": "sand slides down the pit wall, faces lean in together, shadows drop inside"
+    },
+    {
+      "n": 8,
+      "beat": "모래 위에 빈 궤짝 하나가 열려 있다.",
+      "visual": "an empty wooden chest lying open on pale sand, palm shadows falling across it, sea beyond",
+      "motion": "palm shadows sway over the chest, sand trickles from its rim, surf rolls in",
+      "anchor": false
+    }
+  ],
+  "withheld": "구덩이가 이미 비어 있다는 것과 요리사의 도주",
+  "voice": "ko-KR-InJoonNeural"
 }

@@ -23,6 +23,11 @@ hazy stark dim faint rich clear sharp heavy contrast shadow shadows shade tone
 tones glow linework wash washes texture textures saturated overcast
 """.split())
 
+# 카메라가 볼 수 없는 사람의 상태. 모델은 이것을 그릴 수 있는 물건으로 바꾼다
+# (실측: blind 라고 적었더니 눈에 검은 안대와 흰 천을 둘렀다). 보이는 것으로 적는다.
+STATE = re.compile(r'\b(blind|deaf|mute|dumb|drunken|insane|grieving|'
+                   r'lonely|anxious|frightened)\b', re.I)
+
 EPISODIC = re.compile(r'\b(firelight|bonfire|campfire|torchlight|torch|fire)\b', re.I)
 
 def _words(s): return set(re.findall(r"[가-힣]{2,}", s))
@@ -64,6 +69,16 @@ def check(work: str) -> list:
     for k, v in (T.get("personas") or {}).items():
         if NEG.search(v.get("desc", "")):
             bad.append(f"{k} 묘사에 부정어")
+        if STATE.search(v.get("desc", "")):
+            bad.append(f"{k} 묘사에 개념어: {STATE.search(v['desc']).group()}")
+
+    # 배역만 고치고 박자를 놓치면 소용이 없다 — 심봉사의 안대는 배역 묘사를 고친
+    # 뒤에도 돌아왔다. visual 에 'a blind old man' 이 그대로 남아 있었기 때문이다.
+    for b in beats:
+        for key in ("visual", "motion"):
+            m = STATE.search(b.get(key, ""))
+            if m:
+                bad.append(f"S{b['n']} {key} 에 개념어: {m.group()}")
 
     n = d/"narration_night.json"
     if n.exists():

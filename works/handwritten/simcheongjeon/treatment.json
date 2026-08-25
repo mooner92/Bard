@@ -31,7 +31,7 @@
         "simcheong_girl"
       ],
       "beat": "소녀가 눈먼 아버지의 손을 잡아 이끈다.",
-      "visual": "a girl leading a blind old man by the hand along a village path past a thatched hut",
+      "visual": "a girl leading a stooped old man by the hand along a village path past a thatched hut",
       "motion": "they walk forward along the path, his cane taps ahead, her sleeve tugs his hand"
     },
     {
@@ -40,7 +40,7 @@
         "blind_father"
       ],
       "beat": "아버지가 개울에 빠져 허우적거린다.",
-      "visual": "a blind old man floundering waist-deep in a cold village stream, cane floating away",
+      "visual": "a stooped old man floundering waist-deep in a cold village stream, cane drifting away",
       "motion": "he flails in the water toward the bank, the cane drifts off, reeds whip"
     },
     {
