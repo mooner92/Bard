@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 피노키오 / 카를로 콜로디 /   /
+[줄거리와 배경]
+1883년 콜로디의 동화. 목수 제페토가 깎은 나무 인형이 살아 움직이며 진짜 아이가 되기까지 겪는 일들.
+[줄거리]
+줄거리와 인물은 works/handwritten/pinokio/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

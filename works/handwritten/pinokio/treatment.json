@@ -1,0 +1,109 @@
+{
+ "logline": "가난한 목수가 깎은 나무 인형이 어느 날 저 혼자 움직이기 시작한다.",
+ "destination": "학교로 가는 길 — 인형이 처음으로 스스로 고르는 갈림길",
+ "protagonist": "뾰족한 코에 뾰족 모자를 쓴 나무 인형 소년",
+ "setting": "19세기 이탈리아의 작은 마을과 목수의 방",
+ "anchor": "a carved wooden puppet boy with a pointed nose, jointed limbs and a paper cone hat",
+ "palette": "warm pine gold, workshop brown, cool street grey, soft amber",
+ "voice": "ko-KR-SunHiNeural",
+ "personas": {
+  "puppet": {
+   "label": "나무 인형",
+   "desc": "a carved wooden puppet boy, visible joints at knees and elbows, a long pointed nose, paper cone hat, short trousers",
+   "avoid": "살아 있는 사람 아이가 아니다 — 나뭇결과 이음매가 보인다"
+  },
+  "carpenter": {
+   "label": "목수 할아버지",
+   "desc": "a small round-shouldered Italian man in his sixties, white moustache, leather apron over a patched shirt, spectacles",
+   "avoid": ""
+  },
+  "cat_fox": {
+   "label": "길에서 만난 둘",
+   "desc": "a lanky fox in a torn frock coat and a scruffy cat in a battered hat, both walking upright",
+   "avoid": ""
+  },
+  "workshop": {
+   "label": "목수의 방",
+   "desc": "a cramped carpenter's room, wood shavings on the floor, hand tools on pegs, a small stove"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "carpenter",
+    "workshop"
+   ],
+   "beat": "목수가 통나무를 깎아 인형을 만든다.",
+   "visual": "an old carpenter carving a puppet from a log at a cluttered workbench, shavings falling",
+   "motion": "his chisel bites into the wood, shavings curl off and drop, the stove glow flickers"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "puppet",
+    "workshop"
+   ],
+   "beat": "인형이 작업대 위에서 혼자 일어선다.",
+   "visual": "a wooden puppet standing up by itself on a workbench among tools and shavings",
+   "motion": "the puppet pushes itself upright on the bench, shavings scatter, a tool rocks over"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "puppet",
+    "carpenter"
+   ],
+   "beat": "인형이 문밖으로 달아나고 목수가 뒤쫓는다.",
+   "visual": "a wooden puppet bolting through a doorway into a street, an old carpenter behind it",
+   "motion": "the puppet runs out through the door away from him, his apron flaps, dust lifts"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "puppet",
+    "carpenter"
+   ],
+   "beat": "목수가 제 외투를 팔아 책 한 권을 쥐여 준다.",
+   "visual": "an old man in shirtsleeves pressing a book into a wooden puppet's hands on a cold street",
+   "motion": "the book passes into the puppet's hands, the man's breath clouds, wind pulls his shirt"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "puppet",
+    "cat_fox"
+   ],
+   "beat": "길에서 여우와 고양이가 앞을 막아선다.",
+   "visual": "an upright fox in a frock coat and a cat in a battered hat blocking a puppet on a lane",
+   "motion": "the two step into the puppet's path toward it, the fox's tail sweeps, dust rises"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "puppet",
+    "cat_fox"
+   ],
+   "beat": "인형이 책을 내주고 반짝이는 것을 받는다.",
+   "visual": "a wooden puppet handing over a book and taking coins from a fox's paw on a lane",
+   "motion": "the book leaves its hands, coins drop into its palm, the cat leans in closer"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "puppet"
+   ],
+   "beat": "인형의 코가 조금씩 길어진다.",
+   "visual": "a wooden puppet alone on a road, its pointed nose noticeably longer, hands half raised",
+   "motion": "the nose grows outward a little further, its hands lift toward its face, dust drifts"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 길바닥에 책 한 권이 떨어져 있다.",
+   "visual": "a dropped book lying open on an empty dirt road at dusk, pages stirring, hedgerow beyond",
+   "motion": "the pages lift and turn in the wind, dust blows across the road, light fades"
+  }
+ ],
+ "withheld": "인형이 진짜 아이가 되는 과정과, 고래 뱃속에서 목수를 다시 만나는 결말"
+}

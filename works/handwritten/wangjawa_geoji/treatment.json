@@ -1,0 +1,110 @@
+{
+  "logline": "똑같이 생긴 왕자와 거지 아이가 옷을 바꿔 입었다가 서로의 자리에 갇힌다.",
+  "destination": "런던 거리 — 왕자가 처음으로 밖에서 맞는 밤",
+  "protagonist": "단정하게 자른 금발에 비단옷을 입은 열두 살 소년",
+  "setting": "16세기 런던, 궁전과 뒷골목",
+  "anchor": "a twelve-year-old English boy with neatly cut fair hair and fine silk clothes",
+  "palette": "palace gold and crimson, alley grey, cold river blue, warm amber",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "prince": {
+      "label": "왕자",
+      "desc": "a twelve-year-old English boy, neatly cut fair hair, crimson silk doublet with gold braid, white hose",
+      "avoid": "왕관은 쓰지 않는다"
+    },
+    "pauper": {
+      "label": "거지 아이",
+      "desc": "a twelve-year-old English boy with the same face, matted fair hair, ragged brown smock, bare dirty feet",
+      "avoid": "얼굴은 왕자와 같다 — 머리와 옷만 다르다"
+    },
+    "guards": {
+      "label": "궁전 위병",
+      "desc": "Tudor palace guards in scarlet tunics with black hats, holding tall halberds",
+      "avoid": ""
+    },
+    "palace_room": {
+      "label": "궁전 방",
+      "desc": "a Tudor palace chamber, linenfold panelling, leaded window, heavy carved chest"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "pauper",
+        "guards"
+      ],
+      "beat": "누더기 아이가 궁전 담장에 매달린다.",
+      "visual": "a ragged boy clinging to palace railings while guards move to push him back",
+      "motion": "a guard's halberd swings toward him, he grips the railings, dust kicks up"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "prince",
+        "pauper"
+      ],
+      "beat": "안에서 나온 소년이 그를 데리고 들어간다.",
+      "visual": "a boy in crimson silk leading a ragged boy in through a palace gateway",
+      "motion": "the two walk forward through the gateway, the silk sleeve lifts, guards step aside"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "prince",
+        "pauper",
+        "palace_room"
+      ],
+      "beat": "둘이 거울 앞에 나란히 선다.",
+      "visual": "two boys with identical faces standing side by side before a tall mirror in a panelled room",
+      "motion": "they turn toward the mirror together, candle flames lean, the glass catches both faces"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "pauper",
+        "palace_room"
+      ],
+      "beat": "누더기 아이가 비단옷을 걸쳐 본다.",
+      "visual": "a boy pulling a crimson silk doublet over his ragged smock in a panelled chamber",
+      "motion": "the doublet slides down over his shoulders, the smock falls to the floor, light shifts"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "prince",
+        "guards"
+      ],
+      "beat": "누더기 차림의 소년이 문밖으로 떠밀린다.",
+      "visual": "guards shoving a boy in a ragged smock out through a palace door into an alley",
+      "motion": "they push him forward out the door, the door swings shut, refuse scatters"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "prince"
+      ],
+      "beat": "소년이 낯선 뒷골목에서 걸음을 멈춘다.",
+      "visual": "a boy in a ragged smock halted in a narrow sooty London alley at dusk, washing overhead",
+      "motion": "washing flaps above him, he turns on the spot, smoke drifts along the alley"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "pauper",
+        "palace_room"
+      ],
+      "beat": "비단옷 입은 아이가 큰 의자 앞에 선다.",
+      "visual": "a boy in crimson silk standing before a tall carved chair in an empty panelled chamber",
+      "motion": "he steps toward the chair, candle flames bend, his hand rises to the carved arm"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "빈 방에 누더기 한 벌만 떨어져 있다.",
+      "visual": "a ragged brown smock lying on the floor of an empty panelled chamber, window light",
+      "motion": "window light creeps across the floor, the cloth stirs, dust turns in the beam"
+    }
+  ],
+  "withheld": "두 아이가 제자리를 되찾는 과정과, 왕자가 왕이 되어 내리는 결정"
+}

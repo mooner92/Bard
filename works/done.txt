@@ -76,3 +76,5 @@
 2026-08-25T21:14:05	15sonyeon_pyoryugi	facts/auto_15sonyeon_pyoryugi.txt	소설 십오 소년 표류기에서 만날 수 있습니다	19th-century adventure illustration: storm grey-green, bleached white, deep jungle green, warm amber, engraved linework. 	생동	52s
 2026-08-25T23:25:58	simcheongjeon	facts/auto_simcheongjeon.txt	소설 심청전에서 만날 수 있습니다	Korean minhwa folk-painting style: ink-wash greys, pale rose, hanji cream, muted period palette, soft flat washes. 	서늘	54s
 2026-08-26T01:32:47	jangbaljang	facts/auto_jangbaljang.txt	소설 레미제라블에서 만날 수 있습니다	19th-century French engraving style: cold stone greys, warm amber, road dust ochre, fine hatching. 	서늘	51s
+2026-08-26T03:39:17	jeonggeulbuk	facts/auto_jeonggeulbuk.txt	소설 정글북에서 만날 수 있습니다	Victorian storybook illustration: deep jungle green, warm amber, earth ochre, fine ink linework. 	생동	53s
+2026-08-26T05:49:34	simcheongjeon	facts/auto_simcheongjeon.txt	소설 심청전에서 만날 수 있습니다	Korean minhwa folk-painting style: ink-wash greys, pale rose, hanji cream, muted period palette, soft flat washes. 	서늘	54s

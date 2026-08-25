@@ -261,5 +261,13 @@
   "jeonggeulbuk": {
     "region": "영국",
     "genre": "모험"
+  },
+  "pinokio": {
+    "region": "기타 유럽",
+    "genre": "환상"
+  },
+  "wangjawa_geoji": {
+    "region": "미국",
+    "genre": "모험"
   }
 }
