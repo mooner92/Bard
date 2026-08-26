@@ -293,5 +293,13 @@
   "sindeubadeu": {
     "region": "기타 유럽",
     "genre": "모험"
+  },
+  "jaekgwa_kongnamu": {
+    "region": "영국",
+    "genre": "환상"
+  },
+  "gyeonu_jingnyeo": {
+    "region": "한국",
+    "genre": "사랑·가족"
   }
 }

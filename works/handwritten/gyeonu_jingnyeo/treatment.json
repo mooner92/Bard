@@ -1,0 +1,105 @@
+{
+ "logline": "하늘의 베 짜는 처녀와 소 치는 총각이 서로에게 빠져 제 일을 놓아 버린다.",
+ "destination": "은하수 — 두 사람 사이를 가르는 강",
+ "protagonist": "긴 머리를 늘어뜨린 하늘의 젊은 여인",
+ "setting": "옛이야기 속 하늘 나라, 베틀과 은하수",
+ "anchor": "a young woman of the sky with long dark hair, flowing pale silk robes",
+ "palette": "night indigo, star silver, pale rose, warm amber, cloud grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "weaver": {
+   "label": "직녀",
+   "desc": "a young woman with long dark hair, flowing pale silk robes with wide sleeves, bare feet",
+   "avoid": ""
+  },
+  "herder": {
+   "label": "견우",
+   "desc": "a young man with hair in a topknot, plain hemp jacket and trousers, a rope over his shoulder",
+   "avoid": ""
+  },
+  "loom": {
+   "label": "하늘의 베틀",
+   "desc": "a wooden loom threaded with shimmering cloth, spools and shuttle, star-lit floor"
+  },
+  "magpies": {
+   "label": "까치 떼",
+   "desc": "a dense flock of black and white magpies, wings spread, packed wing to wing"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "weaver",
+    "loom"
+   ],
+   "beat": "직녀가 베틀 앞에서 북을 던진다.",
+   "visual": "a young woman at a wooden loom throwing a shuttle through shimmering cloth, stars beyond",
+   "motion": "the shuttle flies across the warp, threads tighten, starlight shifts on the cloth"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "herder"
+   ],
+   "beat": "견우가 소를 몰고 그 앞을 지난다.",
+   "visual": "a young man in hemp clothes leading an ox past a lit doorway on a starlit slope",
+   "motion": "he walks forward across the slope, the ox's head swings, dust glitters underfoot"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "weaver",
+    "herder"
+   ],
+   "beat": "둘이 마주 서서 서로를 바라본다.",
+   "visual": "a woman in silk and a man in hemp facing each other on a starlit slope, loom lit behind",
+   "motion": "they turn toward each other, her sleeves lift, the ox's rope slackens and falls"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "loom"
+   ],
+   "beat": "베틀에 실이 엉킨 채 멈춰 있다.",
+   "visual": "an abandoned loom with tangled threads and a dropped shuttle, cloth half woven",
+   "motion": "loose threads sway across the warp, the shuttle rocks and stops, dust settles"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "weaver",
+    "herder"
+   ],
+   "beat": "둘 사이로 은하수가 갈라진다.",
+   "visual": "a broad river of stars opening between a woman in silk and a man in hemp, both pulled apart",
+   "motion": "the star river widens between them, their hands stretch across it, light streams"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "weaver"
+   ],
+   "beat": "직녀가 강가에서 건너편을 바라본다.",
+   "visual": "a woman in pale silk at the edge of a river of stars, a far figure on the other bank",
+   "motion": "star current flows past her feet, her sleeves drift, the far bank shimmers"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "magpies"
+   ],
+   "beat": "까치들이 강 위로 모여 몸을 잇는다.",
+   "visual": "a dense flock of magpies packing wing to wing across a river of stars, forming a span",
+   "motion": "the birds crowd inward across the gap, wings lock together, starlight breaks on them"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 강 위에 깃털 하나가 떠 있다.",
+   "visual": "a single black and white feather drifting above a wide river of stars, both banks empty",
+   "motion": "the feather turns in the star current, light drifts past, the banks fade"
+  }
+ ],
+ "withheld": "두 사람이 한 해에 하루 만나게 되는 사연과, 그날 내리는 비의 뜻"
+}

@@ -1,0 +1,103 @@
+{
+ "logline": "소를 팔러 간 소년이 콩 몇 알을 얻어 오고, 그 콩이 하룻밤 새 구름까지 자란다.",
+ "destination": "구름 위 거인의 성 — 줄기를 끝까지 오른 자리",
+ "protagonist": "헝클어진 금발에 기운 조끼를 걸친 열두 살 소년",
+ "setting": "옛 잉글랜드의 가난한 농가와 구름 위의 성",
+ "anchor": "a twelve-year-old English boy with tousled fair hair, patched waistcoat and rolled trousers",
+ "palette": "meadow green, cloud white, cottage brown, cold sky blue, warm amber",
+ "voice": "ko-KR-InJoonNeural",
+ "personas": {
+  "jack": {
+   "label": "소년",
+   "desc": "a twelve-year-old English boy, tousled fair hair, patched waistcoat, rolled trousers, bare feet",
+   "avoid": ""
+  },
+  "mother": {
+   "label": "어머니",
+   "desc": "a worn Englishwoman in her forties, hair under a linen cap, patched apron over a grey dress",
+   "avoid": ""
+  },
+  "cottage": {
+   "label": "오두막 마당",
+   "desc": "a small thatched cottage with a bare kitchen garden, low stone wall, wooden gate"
+  },
+  "giant_hall": {
+   "label": "거인의 성",
+   "desc": "an enormous stone hall with a table and chair many times human size, cloud beyond the window"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "jack",
+    "mother",
+    "cottage"
+   ],
+   "beat": "소년이 콩 몇 알을 어머니에게 내민다.",
+   "visual": "a boy holding out a few beans on his palm to a worn woman before a thatched cottage",
+   "motion": "his palm opens toward her, her hand strikes it aside, the beans scatter and bounce"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "cottage"
+   ],
+   "beat": "밤사이 마당에 굵은 줄기가 솟는다.",
+   "visual": "an enormous green beanstalk risen through a cottage garden at dawn, dwarfing the roof",
+   "motion": "the stalk sways upward into the cloud, leaves unfurl, dew shakes off the coils"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "jack"
+   ],
+   "beat": "소년이 줄기를 붙잡고 오른다.",
+   "visual": "a boy climbing a vast beanstalk high above patchwork fields, cloud close overhead",
+   "motion": "he pulls himself upward along the stalk, leaves bend under him, wind tears past"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "jack",
+    "giant_hall"
+   ],
+   "beat": "소년이 거대한 성의 문턱을 넘는다.",
+   "visual": "a small boy stepping over the threshold of a stone hall built many times his size",
+   "motion": "he walks forward into the hall, dust lifts around his feet, the doorway looms"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "giant_hall"
+   ],
+   "beat": "탁자 위에서 황금알이 굴러떨어진다.",
+   "visual": "a golden egg rolling off the edge of an enormous wooden table onto a stone floor",
+   "motion": "the egg rolls off the table and drops, it strikes the stone and spins away"
+  },
+  {
+   "n": 6,
+   "cast": [],
+   "beat": "멀리서 무거운 발소리가 다가온다.",
+   "visual": "an enormous stone hall with dust shivering off the beams, a doorway dark beyond",
+   "motion": "dust shakes down from the beams, the floor trembles, the far doorway darkens"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "jack"
+   ],
+   "beat": "소년이 줄기를 타고 미끄러져 내려온다.",
+   "visual": "a boy sliding down a vast beanstalk toward distant fields, something clutched to his chest",
+   "motion": "he slides downward fast along the stalk, leaves whip past, wind drags at him"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "마당에 잘린 줄기 밑동만 남는다.",
+   "visual": "a huge severed beanstalk stump in a cottage garden, coils of vine collapsed around it",
+   "motion": "the cut vine settles across the garden, leaves drift down, dust lifts and clears"
+  }
+ ],
+ "withheld": "거인이 소년을 쫓아 내려오는 대목과, 줄기를 벤 뒤에 벌어지는 일"
+}
