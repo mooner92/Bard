@@ -1,0 +1,113 @@
+{
+  "logline": "숲으로 달아난 활잡이가, 지나는 부자들의 짐을 가난한 마을로 돌린다.",
+  "destination": "셔우드 숲 한복판 — 관군도 함부로 들어오지 못하는 곳",
+  "protagonist": "초록 두건을 쓴 서른 살 활잡이",
+  "setting": "12세기 잉글랜드의 셔우드 숲과 노팅엄 장터",
+  "anchor": "a lean archer of thirty in a green hood and leather jerkin, longbow across his back",
+  "palette": "forest green, oak brown, autumn ochre, warm amber, cold pale grey",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "robin": {
+      "label": "활잡이",
+      "desc": "a lean English archer of thirty, short beard, green hood and leather jerkin, longbow, quiver at his hip",
+      "avoid": "쇠갑옷은 입지 않는다"
+    },
+    "sheriff_men": {
+      "label": "관군",
+      "desc": "English soldiers in mail coats and flat helmets, red surcoats, spears and kite shields",
+      "avoid": ""
+    },
+    "villagers": {
+      "label": "마을 사람들",
+      "desc": "English peasants in undyed wool tunics and hoods, worn boots, weathered faces",
+      "avoid": ""
+    },
+    "forest": {
+      "label": "셔우드 숲",
+      "desc": "a dense oak forest, huge mossy trunks, ferns underfoot, low green light"
+    },
+    "market": {
+      "label": "노팅엄 장터",
+      "desc": "a crowded medieval market square, timber stalls, canvas awnings, castle wall behind"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "robin",
+        "forest"
+      ],
+      "beat": "활잡이가 숲으로 몸을 숨긴다.",
+      "visual": "a green-hooded archer slipping between huge mossy oak trunks into deep forest",
+      "motion": "he moves forward into the trees away from the road, ferns close behind him"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "robin",
+        "market"
+      ],
+      "beat": "활잡이가 장터 과녁에 화살을 먹인다.",
+      "visual": "a green-hooded archer drawing a longbow toward a straw target in a crowded market square",
+      "motion": "the bowstring draws back to his cheek, the crowd leans in, awnings flap overhead"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "sheriff_men",
+        "market"
+      ],
+      "beat": "관군이 장터 사이로 밀고 들어온다.",
+      "visual": "mailed soldiers in red surcoats pushing through market stalls, spears above the crowd",
+      "motion": "they push forward through the stalls, a stall topples, produce rolls across the stones"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "robin",
+        "forest"
+      ],
+      "beat": "활잡이가 나뭇가지 사이로 달아난다.",
+      "visual": "a green-hooded archer running between oak trunks, branches whipping past him",
+      "motion": "he runs deeper into the forest away from the camera, branches whip back, leaves burst"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "robin",
+        "forest"
+      ],
+      "beat": "활잡이가 굵은 가지 위에 웅크린다.",
+      "visual": "a green-hooded archer crouched on a thick oak branch above a forest track, bow ready",
+      "motion": "he settles low on the branch, leaves shift around him, light dapples the track"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "sheriff_men",
+        "forest"
+      ],
+      "beat": "짐수레가 숲길로 들어선다.",
+      "visual": "a laden cart with mounted escorts entering a narrow forest track between oaks",
+      "motion": "the cart rolls forward down the track, harness jingles, ferns bend at the wheels"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "villagers"
+      ],
+      "beat": "마을 사람들이 자루를 받아 든다.",
+      "visual": "peasants in wool tunics taking heavy sacks at a forest edge at dawn, breath steaming",
+      "motion": "the sacks pass forward into their arms, breath clouds rise, dew shakes off the grass"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "빈 숲길에 바퀴 자국만 남는다.",
+      "visual": "an empty forest track with deep cart ruts filling with morning mist, oaks above",
+      "motion": "mist settles into the ruts, oak leaves turn overhead, light spreads down the track"
+    }
+  ],
+  "withheld": "활잡이의 본디 이름과 신분, 그리고 왕이 돌아와 내리는 결정"
+}

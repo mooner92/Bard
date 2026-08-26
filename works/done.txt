@@ -78,3 +78,5 @@
 2026-08-26T01:32:47	jangbaljang	facts/auto_jangbaljang.txt	소설 레미제라블에서 만날 수 있습니다	19th-century French engraving style: cold stone greys, warm amber, road dust ochre, fine hatching. 	서늘	51s
 2026-08-26T03:39:17	jeonggeulbuk	facts/auto_jeonggeulbuk.txt	소설 정글북에서 만날 수 있습니다	Victorian storybook illustration: deep jungle green, warm amber, earth ochre, fine ink linework. 	생동	53s
 2026-08-26T05:49:34	simcheongjeon	facts/auto_simcheongjeon.txt	소설 심청전에서 만날 수 있습니다	Korean minhwa folk-painting style: ink-wash greys, pale rose, hanji cream, muted period palette, soft flat washes. 	서늘	54s
+2026-08-26T07:56:36	jangbaljang	facts/auto_jangbaljang.txt	소설 레미제라블에서 만날 수 있습니다	19th-century French illustration: cold stone greys, warm amber, road dust ochre, fine hatching. 	서늘	51s
+2026-08-26T09:59:01	pinokio	facts/auto_pinokio.txt	소설 피노키오에서 만날 수 있습니다	Italian storybook illustration: warm pine gold, workshop brown, cool street grey, soft flat washes. 	생동	49s

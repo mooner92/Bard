@@ -269,5 +269,13 @@
   "wangjawa_geoji": {
     "region": "미국",
     "genre": "모험"
+  },
+  "byeoljubujeon": {
+    "region": "한국",
+    "genre": "환상"
+  },
+  "robinhudeu": {
+    "region": "영국",
+    "genre": "모험"
   }
 }

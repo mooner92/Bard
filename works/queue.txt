@@ -1,3 +1,3 @@
-jangbaljang	facts/auto_jangbaljang.txt	소설 레미제라블에서 만날 수 있습니다	19th-century French illustration: cold stone greys, warm amber, road dust ochre, fine hatching. 	서늘
-pinokio	facts/auto_pinokio.txt	소설 피노키오에서 만날 수 있습니다	Italian storybook illustration: warm pine gold, workshop brown, cool street grey, soft flat washes. 	생동
 wangjawa_geoji	facts/auto_wangjawa_geoji.txt	소설 왕자와 거지에서 만날 수 있습니다	Tudor-era storybook illustration: palace gold and crimson, alley grey, cold blue, fine ink linework. 	생동
+byeoljubujeon	facts/auto_byeoljubujeon.txt	소설 별주부전에서 만날 수 있습니다	Korean minhwa folk-painting style: deep sea blue-green, coral red, hanji cream, soft flat washes. 	생동
+robinhudeu	facts/auto_robinhudeu.txt	소설 로빈 후드에서 만날 수 있습니다	medieval English storybook illustration: forest green, oak brown, autumn ochre, fine ink linework. 	생동

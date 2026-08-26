@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 별주부전 / 미상 /   /
+[줄거리와 배경]
+조선 시대의 판소리계 소설. 병든 용왕을 위해 자라가 뭍으로 올라가 토끼를 용궁으로 데려온다.
+[줄거리]
+줄거리와 인물은 works/handwritten/byeoljubujeon/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

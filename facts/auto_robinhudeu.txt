@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 로빈 후드 / 미상 /   /
+[줄거리와 배경]
+중세 잉글랜드의 전설. 셔우드 숲에 숨어 사는 활잡이가 지나는 부자들의 재물을 가난한 이들에게 돌린다.
+[줄거리]
+줄거리와 인물은 works/handwritten/robinhudeu/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

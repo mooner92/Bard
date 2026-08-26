@@ -1,0 +1,115 @@
+{
+ "logline": "용왕의 병을 고칠 토끼의 간을 구하러, 자라가 뭍으로 올라간다.",
+ "destination": "물속 용궁 — 토끼가 제 발로 따라 들어가는 곳",
+ "protagonist": "등딱지가 두꺼운 늙은 자라",
+ "setting": "조선의 옛이야기 속 바닷속 용궁과 산기슭",
+ "anchor": "an old soft-shelled turtle with a thick ridged shell and a long wrinkled neck",
+ "palette": "deep sea blue-green, coral red, hanji cream, warm amber, mountain green",
+ "voice": "ko-KR-BongJinNeural",
+ "personas": {
+  "turtle": {
+   "label": "자라",
+   "desc": "an old soft-shelled turtle with a thick ridged shell, long wrinkled neck, small dark eyes, clawed feet",
+   "avoid": "바다거북이 아니다 — 민물 자라의 납작한 등딱지"
+  },
+  "rabbit": {
+   "label": "토끼",
+   "desc": "a lean brown hare with long upright ears, bright round eyes, twitching nose, strong hind legs",
+   "avoid": "흰 애완토끼가 아니다"
+  },
+  "dragon_king": {
+   "label": "용왕",
+   "desc": "a stout crowned figure in flowing sea-green robes with pearl ornaments, long white beard, seated",
+   "avoid": "서양식 용이 아니다 — 사람의 모습을 한 왕이다"
+  },
+  "sea_palace": {
+   "label": "용궁",
+   "desc": "an undersea palace of coral pillars and pearl inlay, drifting kelp, shafts of blue light"
+  },
+  "hillside": {
+   "label": "산기슭",
+   "desc": "a Korean pine hillside above a shore, low scrub, grey rocks, distant water"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "dragon_king",
+    "sea_palace"
+   ],
+   "beat": "용왕이 산호 기둥 사이에 몸져누워 있다.",
+   "visual": "a crowned figure in sea-green robes lying on a coral dais in an undersea palace",
+   "motion": "kelp drifts across the dais, blue light shifts over him, pearls sway on their strings"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "turtle",
+    "sea_palace"
+   ],
+   "beat": "자라가 용왕 앞에 나아가 목을 뺀다.",
+   "visual": "an old turtle stretching its long neck up before a coral throne in an undersea palace",
+   "motion": "its neck stretches upward toward the throne, silt lifts off the floor, kelp bends"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "turtle",
+    "hillside"
+   ],
+   "beat": "자라가 바위 뭍으로 기어 올라온다.",
+   "visual": "an old turtle hauling itself out of the shallows onto grey shore rocks below a pine hill",
+   "motion": "it drags forward up the rocks away from the water, water sheets off its shell"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "turtle",
+    "rabbit",
+    "hillside"
+   ],
+   "beat": "자라가 토끼에게 바다 쪽을 가리킨다.",
+   "visual": "an old turtle facing a brown hare on a pine hillside, one clawed foot lifted toward the water",
+   "motion": "its foot lifts toward the water, the hare's ears swing forward, grass bends"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "turtle",
+    "rabbit"
+   ],
+   "beat": "토끼가 자라 등에 올라탄다.",
+   "visual": "a brown hare perched on an old turtle's ridged shell moving out through shallow water",
+   "motion": "they move forward into the water away from shore, ripples spread, the hare's ears flatten"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "rabbit",
+    "sea_palace"
+   ],
+   "beat": "토끼가 용궁 한가운데 내려선다.",
+   "visual": "a brown hare standing among coral pillars in an undersea palace, kelp drifting overhead",
+   "motion": "the hare turns on the spot among the pillars, kelp sways, blue light ripples"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "rabbit",
+    "dragon_king"
+   ],
+   "beat": "토끼가 용왕 앞에서 두 발을 들어 보인다.",
+   "visual": "a brown hare on its hind legs before a crowned figure on a coral throne, forepaws raised",
+   "motion": "its forepaws lift and spread, the crowned figure leans forward, pearls swing"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 산기슭 바위에 물자국만 남는다.",
+   "visual": "empty grey shore rocks below a pine hill, a wet trail drying on the stone, water beyond",
+   "motion": "the wet trail shrinks on the rock, pine tops sway, waves slide up the stones"
+  }
+ ],
+ "withheld": "토끼가 간을 두고 왔다고 둘러대어 살아 돌아오는 결말"
+}
