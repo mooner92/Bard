@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 미녀와 야수 / 잔마리 르프랭스 드 보몽 /   /
+[줄거리와 배경]
+1756년 보몽 부인의 동화. 장미 한 송이를 꺾은 아버지 대신 막내딸이 성의 주인 곁에 남는다.
+[줄거리]
+줄거리와 인물은 works/handwritten/minyeowa_yasu/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

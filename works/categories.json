@@ -301,5 +301,13 @@
   "gyeonu_jingnyeo": {
     "region": "한국",
     "genre": "사랑·가족"
+  },
+  "piteopaen": {
+    "region": "영국",
+    "genre": "환상"
+  },
+  "minyeowa_yasu": {
+    "region": "프랑스",
+    "genre": "사랑·가족"
   }
 }

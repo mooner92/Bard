@@ -1,0 +1,107 @@
+{
+  "logline": "장미 한 송이를 꺾은 값으로, 상인의 막내딸이 성에 홀로 남는다.",
+  "destination": "성 안쪽의 잠긴 서쪽 방 — 들어가지 말라 이른 곳",
+  "protagonist": "짙은 갈색 머리를 땋아 내린 열여덟 살 처녀",
+  "setting": "18세기 프랑스의 눈 덮인 숲과 낡은 성",
+  "anchor": "a young woman of eighteen with dark brown hair in a braid, plain travelling dress",
+  "palette": "snow white, forest green, warm amber, deep rose red, cold pale grey",
+  "voice": "ko-KR-JiMinNeural",
+  "personas": {
+    "belle": {
+      "label": "막내딸",
+      "desc": "a young woman of eighteen, dark brown hair in a braid, plain grey travelling dress, wool cloak",
+      "avoid": ""
+    },
+    "merchant": {
+      "label": "상인 아버지",
+      "desc": "a tired man in his fifties, grey stubble, worn brown coat and riding boots, gloved hands",
+      "avoid": ""
+    },
+    "beast": {
+      "label": "성의 주인",
+      "desc": "a huge shaggy figure in a torn velvet coat, broad clawed hands, heavy horned head, amber eyes",
+      "avoid": "피나 상처는 그리지 않는다"
+    },
+    "castle_hall": {
+      "label": "성의 홀",
+      "desc": "a vast cold stone hall with a long laid table, candelabra burning, tall dark doors"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "merchant"
+      ],
+      "beat": "상인이 눈 덮인 정원에서 장미를 꺾는다.",
+      "visual": "a tired man in a worn coat snapping a red rose from a snow-covered garden bush",
+      "motion": "the stem breaks in his glove, snow shakes off the bush, petals drop to the white ground"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "beast",
+        "merchant"
+      ],
+      "beat": "성의 주인이 어둠 속에서 걸어 나온다.",
+      "visual": "a huge shaggy figure in a torn velvet coat stepping from dark arches toward a small man",
+      "motion": "he strides forward out of the arches, snow blows past him, the man staggers back"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "belle",
+        "merchant"
+      ],
+      "beat": "막내딸이 아버지 대신 말에 오른다.",
+      "visual": "a young woman in a cloak mounting a horse before a snowbound cottage, her father held back",
+      "motion": "she swings up onto the horse, her cloak sweeps out, the father's hand falls"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "belle",
+        "castle_hall"
+      ],
+      "beat": "처녀가 텅 빈 홀의 긴 상 앞에 앉는다.",
+      "visual": "a young woman seated alone at one end of a long laid table in a vast candlelit hall",
+      "motion": "candle flames lean along the table, her chair draws itself in, steam rises off the dishes"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "beast",
+        "belle"
+      ],
+      "beat": "성의 주인이 맞은편 끝에 앉는다.",
+      "visual": "a huge shaggy figure seated at the far end of a long table facing a young woman",
+      "motion": "he lowers himself into the chair, candles gutter down the table, his coat settles"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "belle"
+      ],
+      "beat": "처녀가 잠긴 서쪽 문 앞에 선다.",
+      "visual": "a young woman before a tall locked door in a dim stone corridor, one candle in her hand",
+      "motion": "her hand rises toward the handle, the candle flame bends, shadows swing on the stone"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "belle"
+      ],
+      "beat": "처녀가 유리 덮개 속 장미를 들여다본다.",
+      "visual": "a young woman leaning over a red rose under a glass dome, few petals left on the stem",
+      "motion": "a petal loosens and falls inside the glass, her breath fogs it, candlelight shifts"
+    },
+    {
+      "n": 8,
+      "cast": [],
+      "beat": "빈 홀의 긴 상에 촛불만 사위어 간다.",
+      "visual": "a long empty banquet table in a vast stone hall, candles burned low, chairs pushed back",
+      "motion": "the last candles sink and gutter, wax runs down, cold light spreads from the windows"
+    }
+  ],
+  "withheld": "장미의 마지막 꽃잎이 지면 벌어지는 일과, 성 주인의 본디 모습"
+}

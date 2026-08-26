@@ -1,0 +1,107 @@
+{
+ "logline": "창밖에서 그림자를 잃어버린 소년이 나타나, 아이들을 데리고 밤하늘로 날아오른다.",
+ "destination": "두 번째 별 너머의 섬 — 어른이 없는 곳",
+ "protagonist": "나뭇잎을 엮어 입은 열두 살 남짓의 소년",
+ "setting": "1900년대 런던의 아이 방과 밤하늘",
+ "anchor": "a boy of about twelve in a tunic of stitched leaves, tousled reddish hair, bare feet",
+ "palette": "night indigo, nursery cream, warm amber, star silver, deep window blue",
+ "voice": "ko-KR-InJoonNeural",
+ "personas": {
+  "pan": {
+   "label": "소년",
+   "desc": "a boy of about twelve in a tunic of stitched leaves, tousled reddish hair, bare feet, a small belt pouch",
+   "avoid": ""
+  },
+  "wendy": {
+   "label": "맏이 소녀",
+   "desc": "a girl of about thirteen in a long white nightgown, dark hair in a loose braid, bare feet",
+   "avoid": ""
+  },
+  "nursery": {
+   "label": "아이 방",
+   "desc": "a Victorian nursery with three small beds, a tall sash window, a nightlight burning low"
+  },
+  "rooftops": {
+   "label": "런던 지붕 위",
+   "desc": "chimney pots and slate rooftops under a starry night sky, a river bend far below"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "nursery"
+   ],
+   "beat": "밤중에 아이 방 창문이 저절로 열린다.",
+   "visual": "a tall sash window swinging open by itself in a dark Victorian nursery, curtains blowing in",
+   "motion": "the window swings inward, curtains billow into the room, the nightlight gutters"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "pan",
+    "nursery"
+   ],
+   "beat": "소년이 마루에서 제 그림자를 붙잡으려 한다.",
+   "visual": "a leaf-clad boy grabbing at a shadow sliding across a nursery floor, beds behind him",
+   "motion": "the shadow slips away across the boards, he lunges after it, dust lifts"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "wendy",
+    "pan"
+   ],
+   "beat": "소녀가 바늘로 그림자를 꿰매 준다.",
+   "visual": "a girl in a nightgown stitching a shadow to a seated boy's bare heel by lamplight",
+   "motion": "the needle draws through, the shadow settles at his heel, lamplight sways"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "pan",
+    "wendy"
+   ],
+   "beat": "소년이 소녀의 손을 잡고 바닥에서 뜬다.",
+   "visual": "a leaf-clad boy and a girl in a nightgown rising a foot above a nursery floor, hands joined",
+   "motion": "they lift upward off the floor, her nightgown hem drifts, the curtains rise with them"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "pan",
+    "wendy",
+    "rooftops"
+   ],
+   "beat": "둘이 지붕 위로 날아오른다.",
+   "visual": "two children flying above slate rooftops and chimney pots under a starry sky",
+   "motion": "they climb upward over the roofs, smoke streams past them, stars wheel overhead"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "pan"
+   ],
+   "beat": "소년이 별 하나를 손으로 가리킨다.",
+   "visual": "a leaf-clad boy hanging in the night sky pointing toward one bright star, city lights below",
+   "motion": "his arm swings up toward the star, his tunic flutters, cloud streams past below"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "rooftops"
+   ],
+   "beat": "열린 창에서 커튼만 바깥으로 나부낀다.",
+   "visual": "an open nursery window seen from outside, curtains streaming out into the night, room empty",
+   "motion": "the curtains stream outward into the dark, the nightlight fades, frost creeps in"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 아이 방 마루에 바늘 하나가 놓여 있다.",
+   "visual": "a single needle and a length of thread on an empty nursery floor, three beds unmade",
+   "motion": "the thread stirs in the draught, dust turns in the moonlight, a bed sheet lifts"
+  }
+ ],
+ "withheld": "그 섬에서 기다리는 것과, 아이들이 돌아오게 되는 사연"
+}

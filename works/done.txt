@@ -87,3 +87,5 @@
 2026-08-26T22:30:22	kongjwipatjwi	facts/auto_kongjwipatjwi.txt	소설 콩쥐팥쥐에서 만날 수 있습니다	Korean minhwa folk-painting style: hanji cream, ink-wash grey, persimmon orange, soft flat washes. 	생동	48s
 2026-08-27T00:33:52	aladin	facts/auto_aladin.txt	소설 알라딘과 요술 램프에서 만날 수 있습니다	Persian miniature storybook style: desert ochre, turquoise, brass gold, deep indigo, fine ink linework. 	생동	47s
 2026-08-27T02:32:40	majimak_ipsae	facts/auto_majimak_ipsae.txt	소설 마지막 잎새에서 만날 수 있습니다	early 1900s American storybook illustration: grey rain light, brick red, worn ochre, fine ink linework. 	서늘	45s
+2026-08-27T04:32:31	sindeubadeu	facts/auto_sindeubadeu.txt	소설 신드바드의 모험에서 만날 수 있습니다	Persian miniature storybook style: sea turquoise, sail white, desert ochre, brass gold, fine ink linework. 	생동	46s
+2026-08-27T06:31:48	jaekgwa_kongnamu	facts/auto_jaekgwa_kongnamu.txt	소설 잭과 콩나무에서 만날 수 있습니다	English storybook illustration: meadow green, cloud white, cottage brown, cold sky blue, fine ink linework. 	생동	45s

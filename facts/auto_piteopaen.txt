@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 피터팬 / 제임스 매슈 배리 /   /
+[줄거리와 배경]
+1911년 배리의 소설. 그림자를 잃어버린 소년 피터팬이 아이 방 창문으로 들어와 아이들을 밤하늘로 데려간다.
+[줄거리]
+줄거리와 인물은 works/handwritten/piteopaen/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.
