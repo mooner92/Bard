@@ -231,8 +231,12 @@ import json
 try: print(json.load(open('$TRE')).get('voice','') or '')
 except Exception: print('')" 2>/dev/null)
       VOICE_ARG=""; [ -n "$vc" ] && VOICE_ARG="--voice $vc"
-      venv/bin/python scripts/tts_render.py --narration "$NAR" --tone "$tone" --arc 산형 \
-        --rate-delta "$RATE_DELTA" $VOICE_ARG \
+      # 낭독은 Qwen3-TTS 로 낸다(고정 화자 소희 + 두 가지 톤). Azure 한국어
+      # 음성은 감정 스타일이 하나도 없어 어조를 손댈 방법이 없었다.
+      # venv-tts 로 부른다 — 본 venv 에 qwen-tts 를 넣으면 transformers 가
+      # 갈리면서 파이프라인이 깨진다. GPU1 을 쓴다(GPU0 은 클립이 쓴다).
+      venv-tts/bin/python scripts/qwen_voice.py --narration "$NAR" --tone "$tone" \
+        --device cuda:1 \
         --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
     fi
     got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)
