@@ -1,3 +1,3 @@
-wangjawa_geoji	facts/auto_wangjawa_geoji.txt	소설 왕자와 거지에서 만날 수 있습니다	Tudor-era storybook illustration: palace gold and crimson, alley grey, cold blue, fine ink linework. 	생동
-kongjwipatjwi	facts/auto_kongjwipatjwi.txt	소설 콩쥐팥쥐에서 만날 수 있습니다	Korean minhwa folk-painting style: hanji cream, ink-wash grey, persimmon orange, soft flat washes. 	생동
 aladin	facts/auto_aladin.txt	소설 알라딘과 요술 램프에서 만날 수 있습니다	Persian miniature storybook style: desert ochre, turquoise, brass gold, deep indigo, fine ink linework. 	생동
+majimak_ipsae	facts/auto_majimak_ipsae.txt	소설 마지막 잎새에서 만날 수 있습니다	early 1900s American storybook illustration: grey rain light, brick red, worn ochre, fine ink linework. 	서늘
+sindeubadeu	facts/auto_sindeubadeu.txt	소설 신드바드의 모험에서 만날 수 있습니다	Persian miniature storybook style: sea turquoise, sail white, desert ochre, brass gold, fine ink linework. 	생동

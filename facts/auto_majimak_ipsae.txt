@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 마지막 잎새 / 오 헨리 /   /
+[줄거리와 배경]
+1907년 오 헨리의 단편. 폐렴으로 누운 화가 지망생이 창밖 담쟁이 잎을 세며 마지막 잎이 지면 자기도 간다고 말한다.
+[줄거리]
+줄거리와 인물은 works/handwritten/majimak_ipsae/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

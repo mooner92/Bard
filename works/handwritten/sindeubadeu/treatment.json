@@ -1,0 +1,106 @@
+{
+ "logline": "바그다드의 뱃사람이 재물을 좇아 바다로 나가고, 딛고 선 섬이 움직이기 시작한다.",
+ "destination": "지도에 없는 섬 — 딛는 순간 움직이기 시작하는 땅",
+ "protagonist": "붉은 허리띠를 두른 서른 살의 바그다드 뱃사람",
+ "setting": "옛 아라비아의 항구와 낯선 바다",
+ "anchor": "a sturdy Arab sailor of thirty with a short black beard, striped robe and red sash",
+ "palette": "sea turquoise, sail white, desert ochre, brass gold, deep indigo shadow",
+ "voice": "ko-KR-InJoonNeural",
+ "personas": {
+  "sinbad": {
+   "label": "뱃사람",
+   "desc": "a sturdy Arab sailor of thirty, short black beard, striped robe, red sash, bare feet",
+   "avoid": ""
+  },
+  "crew": {
+   "label": "선원들",
+   "desc": "Arab sailors in loose tunics and head cloths, sun-darkened faces, ropes in hand",
+   "avoid": ""
+  },
+  "harbour": {
+   "label": "바그다드 항구",
+   "desc": "a crowded Arabian quay, wooden dhows, stacked bales and jars, striped awnings"
+  },
+  "island": {
+   "label": "섬",
+   "desc": "a low bare island of dark ridged ground, open sea all around"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "sinbad",
+    "harbour"
+   ],
+   "beat": "뱃사람이 항구에서 짐을 배에 싣는다.",
+   "visual": "a bearded sailor loading bales onto a wooden dhow at a crowded Arabian quay",
+   "motion": "a bale swings up onto the deck, ropes strain, awnings flap along the quay"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "sinbad",
+    "crew"
+   ],
+   "beat": "배가 먼바다로 나아간다.",
+   "visual": "a wooden dhow under full sail on open turquoise sea, sailors at the ropes",
+   "motion": "the dhow drives forward across the swell, the sail bellies out, spray bursts"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "crew",
+    "island"
+   ],
+   "beat": "선원들이 낮은 섬에 내려선다.",
+   "visual": "sailors stepping onto a low bare island of dark ridged ground, their dhow anchored beyond",
+   "motion": "they walk forward onto the ridged ground, water sheets off it, gulls scatter"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "crew",
+    "island"
+   ],
+   "beat": "선원들이 섬 위에 불을 피운다.",
+   "visual": "sailors crouched around a small cook fire on dark ridged ground, sea all around",
+   "motion": "the fire catches and smoke lifts, the ground shudders, the men look down"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "island"
+   ],
+   "beat": "섬이 천천히 기울기 시작한다.",
+   "visual": "a low dark island tilting under a scattered cook fire, water rushing up over the ridges",
+   "motion": "the ground heaves upward, water pours across it, the fire scatters and hisses"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "sinbad"
+   ],
+   "beat": "뱃사람이 나무통을 붙들고 물에 뜬다.",
+   "visual": "a bearded sailor clinging to a wooden cask in open sea, his dhow small and far off",
+   "motion": "the swell lifts him and the cask, the distant sail shrinks, foam slides past"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "sinbad"
+   ],
+   "beat": "뱃사람이 낯선 모래밭에 밀려 올라온다.",
+   "visual": "a soaked sailor washed up on a pale unknown beach, palms and cliffs behind him",
+   "motion": "surf pushes him up the sand, water runs off his robe, palm tops toss"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 바다에 나무통 하나가 떠 있다.",
+   "visual": "an empty wooden cask drifting on wide calm sea at dusk, no land in sight",
+   "motion": "the cask rocks on the swell, light fades on the water, ripples spread"
+  }
+ ],
+ "withheld": "그 섬의 정체와, 뱃사람이 마지막 항해에서 얻게 되는 것"
+}

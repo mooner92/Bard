@@ -1,0 +1,109 @@
+{
+ "logline": "폐렴으로 누운 처녀가 창밖 담쟁이 잎을 세며 마지막 잎이 지면 자기도 간다고 말한다.",
+ "destination": "창밖 벽돌담의 마지막 잎 하나 — 밤새 비바람이 몰아치는 자리",
+ "protagonist": "창백한 얼굴에 긴 갈색 머리를 늘어뜨린 스물세 살 처녀",
+ "setting": "1900년대 뉴욕의 낡은 화가촌 다락",
+ "anchor": "a pale young woman of twenty-three with long brown hair, in a white nightgown",
+ "palette": "grey rain light, brick red, worn ochre, warm lamp glow, cold window blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "sick_girl": {
+   "label": "병든 처녀",
+   "desc": "a pale young woman of twenty-three, long brown hair loose on the pillow, white nightgown, thin hands",
+   "avoid": ""
+  },
+  "friend": {
+   "label": "친구 화가",
+   "desc": "a young woman of twenty-five, dark hair pinned up, paint-stained smock over a plain blouse",
+   "avoid": ""
+  },
+  "old_painter": {
+   "label": "늙은 화가",
+   "desc": "a stooped man in his sixties, shaggy white beard, paint-spattered shirt, heavy boots",
+   "avoid": ""
+  },
+  "attic_room": {
+   "label": "다락방",
+   "desc": "a cramped studio attic, iron bed by a window, easel and paint jars, bare board floor"
+  },
+  "brick_wall": {
+   "label": "창밖 벽돌담",
+   "desc": "a bare brick wall across a narrow yard, an old ivy vine climbing it, few leaves left"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "sick_girl",
+    "attic_room"
+   ],
+   "beat": "처녀가 침대에서 창밖을 세고 있다.",
+   "visual": "a pale young woman propped in an iron bed counting something beyond a rain-streaked window",
+   "motion": "her lips move as she counts, rain runs down the glass, the lamp flame wavers"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "brick_wall"
+   ],
+   "beat": "창밖 담쟁이에 잎이 몇 남지 않았다.",
+   "visual": "an old ivy vine on a bare brick wall with only a handful of leaves left, grey rain",
+   "motion": "the remaining leaves shake in the rain, one tears loose and drops away"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "friend",
+    "sick_girl"
+   ],
+   "beat": "친구가 침대맡에서 그 말을 듣는다.",
+   "visual": "a young woman in a paint-stained smock leaning over an iron bed toward a pale patient",
+   "motion": "she bends closer to the bed, her hand closes on the blanket, lamplight shifts"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "friend",
+    "old_painter"
+   ],
+   "beat": "친구가 아래층 늙은 화가에게 이야기한다.",
+   "visual": "a young woman speaking to a bearded old man in a cluttered downstairs studio, canvases stacked",
+   "motion": "her hands lift as she speaks, he turns toward her, dust drifts in the lamplight"
+  },
+  {
+   "n": 5,
+   "cast": [],
+   "beat": "밤새 비바람이 벽돌담을 때린다.",
+   "visual": "a brick wall lashed by night rain and wind, ivy thrashing, one lit window across the yard",
+   "motion": "wind drives the rain across the wall, the vine whips, the window light flickers"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "sick_girl",
+    "attic_room"
+   ],
+   "beat": "아침에 처녀가 커튼을 걷어 달라 한다.",
+   "visual": "a pale young woman raised on one elbow as a curtain is drawn back from a morning window",
+   "motion": "the curtain slides open, grey light spreads across the bed, she lifts her head"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "brick_wall"
+   ],
+   "beat": "담벼락에 잎 하나가 그대로 붙어 있다.",
+   "visual": "a single ivy leaf still clinging to a wet brick wall after a storm, everything else bare",
+   "motion": "the last leaf holds against the wind, water runs down the bricks, mist lifts"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 다락 창가에 아침 빛만 든다.",
+   "visual": "an empty attic window seat in morning light, a folded blanket, an easel in shadow",
+   "motion": "morning light creeps across the floor, dust turns in the beam, the curtain stirs"
+  }
+ ],
+ "withheld": "마지막 잎의 정체와, 그것을 그린 사람에게 일어난 일"
+}

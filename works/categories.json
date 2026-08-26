@@ -285,5 +285,13 @@
   "aladin": {
     "region": "기타 유럽",
     "genre": "환상"
+  },
+  "majimak_ipsae": {
+    "region": "미국",
+    "genre": "사랑·가족"
+  },
+  "sindeubadeu": {
+    "region": "기타 유럽",
+    "genre": "모험"
   }
 }

@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 신드바드의 모험 / 미상 /   /
+[줄거리와 배경]
+아라비안나이트에 실린 이야기. 바그다드의 뱃사람 신드바드가 일곱 번의 항해에서 겪는 기이한 일들.
+[줄거리]
+줄거리와 인물은 works/handwritten/sindeubadeu/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.
