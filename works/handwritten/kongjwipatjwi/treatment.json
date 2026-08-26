@@ -1,0 +1,112 @@
+{
+ "logline": "계모 밑에서 궂은일만 하던 딸이, 잔치에 가는 길에 꽃신 한 짝을 잃는다.",
+ "destination": "고을 잔치 — 잃어버린 신 한 짝이 되돌아오는 자리",
+ "protagonist": "댕기머리에 무명 저고리를 입은 열여섯 처녀",
+ "setting": "조선 시대의 시골 마을과 고을 잔칫집",
+ "anchor": "a Korean girl of sixteen, one long braid, plain undyed hemp jeogori and skirt",
+ "palette": "hanji cream, ink-wash grey, persimmon orange, spring green, warm amber",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "kongjwi": {
+   "label": "콩쥐",
+   "desc": "a Korean girl of sixteen, one long black braid with a plain cord, patched hemp jeogori and skirt, bare feet",
+   "avoid": ""
+  },
+  "stepmother": {
+   "label": "계모",
+   "desc": "a sharp-faced Korean woman in her forties, hair in a tight coiled bun, dark silk jeogori, jade ring",
+   "avoid": ""
+  },
+  "ox": {
+   "label": "검은 소",
+   "desc": "a large black ox with wide curved horns and a broad wet muzzle",
+   "avoid": ""
+  },
+  "yard": {
+   "label": "초가 마당",
+   "desc": "a beaten-earth yard before a thatched house, a stone jar row, a low wooden gate"
+  },
+  "feast_house": {
+   "label": "잔칫집",
+   "desc": "a tiled-roof house yard set with low tables, hanging cloth banners, crowded guests"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "kongjwi",
+    "stepmother",
+    "yard"
+   ],
+   "beat": "계모가 마당에 깨진 물독을 가리킨다.",
+   "visual": "a sharp-faced woman pointing at a cracked water jar in a beaten-earth yard, a girl beside it",
+   "motion": "her finger jabs toward the jar, water runs out through the crack, dust darkens"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "kongjwi",
+    "yard"
+   ],
+   "beat": "처녀가 깨진 독에 물을 붓는다.",
+   "visual": "a girl pouring water into a cracked stone jar in a yard, a puddle spreading at her feet",
+   "motion": "water pours down into the jar and runs out below, the puddle widens, dust darkens"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "ox",
+    "yard"
+   ],
+   "beat": "검은 소가 마당으로 들어선다.",
+   "visual": "a large black ox stepping through a low wooden gate into a beaten-earth yard",
+   "motion": "the ox walks forward through the gate, its head swings, dust lifts under its hooves"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "kongjwi",
+    "ox"
+   ],
+   "beat": "처녀가 소가 물어다 준 것을 받아 든다.",
+   "visual": "a girl taking a bundle of cloth and small shoes from a black ox's mouth in a yard",
+   "motion": "the bundle passes into her hands, the ox's muzzle lifts away, dust settles"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "kongjwi"
+   ],
+   "beat": "처녀가 꽃신을 신고 길을 나선다.",
+   "visual": "a girl in a fresh skirt and embroidered shoes walking a village path toward tiled roofs",
+   "motion": "she walks forward along the path, her skirt lifts at each step, dust rises behind"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "kongjwi"
+   ],
+   "beat": "개울을 건너다 신 한 짝이 벗겨진다.",
+   "visual": "a girl mid-stride in a shallow stream, one embroidered shoe floating away downstream",
+   "motion": "the shoe slips off and drifts downstream, water rings spread, her hand reaches after it"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "feast_house"
+   ],
+   "beat": "잔칫집 마당에 신 한 짝이 놓인다.",
+   "visual": "a single embroidered shoe set on a low table in a crowded tiled-roof house yard",
+   "motion": "the shoe is set down on the table, banners flap overhead, the crowd presses in"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 개울가에 물무늬만 번진다.",
+   "visual": "an empty shallow stream over smooth stones at dusk, ripples spreading, reeds at the bank",
+   "motion": "ripples spread and fade across the water, reeds bend, evening light dims"
+  }
+ ],
+ "withheld": "신 한 짝의 임자를 찾는 과정과, 계모와 팥쥐가 맞는 결말"
+}

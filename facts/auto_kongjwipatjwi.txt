@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 콩쥐팥쥐 / 미상 /   /
+[줄거리와 배경]
+조선 시대의 고전소설. 계모 밑에서 궂은일을 도맡던 콩쥐가 잔치에 가는 길에 꽃신 한 짝을 잃는다.
+[줄거리]
+줄거리와 인물은 works/handwritten/kongjwipatjwi/treatment.json 에 여덟 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

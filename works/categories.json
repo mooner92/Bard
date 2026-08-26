@@ -277,5 +277,13 @@
   "robinhudeu": {
     "region": "영국",
     "genre": "모험"
+  },
+  "kongjwipatjwi": {
+    "region": "한국",
+    "genre": "사랑·가족"
+  },
+  "aladin": {
+    "region": "기타 유럽",
+    "genre": "환상"
   }
 }

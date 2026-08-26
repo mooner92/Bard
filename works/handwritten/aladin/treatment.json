@@ -1,0 +1,108 @@
+{
+ "logline": "낡은 등잔 하나를 손에 넣은 저잣거리 소년이, 그 안에 든 것을 깨운다.",
+ "destination": "사막 아래 보물 동굴 — 한 번 들어가면 문이 닫히는 곳",
+ "protagonist": "헝클어진 검은 머리에 낡은 조끼를 걸친 열다섯 소년",
+ "setting": "옛 아라비아의 저잣거리와 사막 아래 동굴",
+ "anchor": "a fifteen-year-old Arab boy with tousled black hair, a worn open vest and baggy trousers",
+ "palette": "desert ochre, turquoise tile, brass gold, deep indigo shadow, warm amber",
+ "voice": "ko-KR-InJoonNeural",
+ "personas": {
+  "aladdin": {
+   "label": "소년",
+   "desc": "a fifteen-year-old Arab boy, tousled black hair, dark eyes, a worn open vest, baggy trousers, bare feet",
+   "avoid": "터번은 쓰지 않는다"
+  },
+  "sorcerer": {
+   "label": "낯선 사내",
+   "desc": "a tall gaunt man in a long black robe and dark turban, hooked nose, heavy silver rings",
+   "avoid": ""
+  },
+  "bazaar": {
+   "label": "저잣거리",
+   "desc": "a crowded Arabian market lane, striped awnings, brass wares stacked, dust in slanting light"
+  },
+  "cave": {
+   "label": "보물 동굴",
+   "desc": "a vast underground cavern of heaped coins and vessels, stone steps, shafts of pale light"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "aladdin",
+    "bazaar"
+   ],
+   "beat": "소년이 저잣거리를 헤집고 달린다.",
+   "visual": "a barefoot boy running between striped market awnings, brass wares stacked around him",
+   "motion": "he runs forward down the lane, an awning snaps, dust streams behind him"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "aladdin",
+    "sorcerer",
+    "bazaar"
+   ],
+   "beat": "검은 옷의 사내가 소년을 불러 세운다.",
+   "visual": "a gaunt man in a black robe halting a barefoot boy in a market lane, hand raised",
+   "motion": "his hand lifts toward the boy, the boy stops short, dust drifts between them"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "aladdin",
+    "sorcerer"
+   ],
+   "beat": "둘이 사막의 갈라진 바위 앞에 선다.",
+   "visual": "a man in black and a barefoot boy before a split boulder in open desert, sand blowing",
+   "motion": "sand streams past the boulder, the man's robe snaps, the crack widens"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "aladdin",
+    "cave"
+   ],
+   "beat": "소년이 동굴 계단을 내려선다.",
+   "visual": "a barefoot boy descending worn stone steps into a cavern heaped with coins and vessels",
+   "motion": "he steps down the stairs into the cavern, coins slide, pale light shifts"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "aladdin",
+    "cave"
+   ],
+   "beat": "소년이 낡은 등잔 하나를 집어 든다.",
+   "visual": "a boy lifting a small tarnished brass lamp from among heaped treasure in a cavern",
+   "motion": "the lamp lifts out of the pile, coins slide down after it, dust turns in the light"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "cave"
+   ],
+   "beat": "동굴 입구의 바위가 닫힌다.",
+   "visual": "a great split boulder grinding shut over stone steps, only a seam of light left",
+   "motion": "the boulder grinds closed over the steps, dust bursts outward, the light narrows"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "aladdin"
+   ],
+   "beat": "소년이 소매로 등잔을 문지른다.",
+   "visual": "a boy in the dark rubbing a tarnished brass lamp with his sleeve, faint glow on his face",
+   "motion": "his sleeve rubs across the lamp, a glow spreads over his face, smoke curls from the spout"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 동굴 바닥에 금화만 흩어져 있다.",
+   "visual": "scattered gold coins on a dark cavern floor, a thin shaft of light, dust in the air",
+   "motion": "dust turns in the shaft of light, a coin rocks and settles, the light narrows"
+  }
+ ],
+ "withheld": "등잔에서 나온 것의 정체와, 소년이 낯선 사내에게서 벗어나는 결말"
+}
