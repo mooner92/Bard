@@ -239,7 +239,7 @@ except Exception: print('')" 2>/dev/null)
       # venv-tts 로 부른다 — 본 venv 에 qwen-tts 를 넣으면 transformers 가
       # 갈리면서 파이프라인이 깨진다. GPU1 을 쓴다(GPU0 은 클립이 쓴다).
       venv-tts/bin/python scripts/qwen_voice.py --narration "$NAR" --tone "$tone" \
-        --device cuda:1 \
+        --device auto \
         --prefix "output/tts/${work}_night_s" >>"$LOG" 2>&1
     fi
     got=$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)

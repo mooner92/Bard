@@ -150,7 +150,7 @@ def main():
     p.add_argument("--skip-queued", action="store_true",
                    help="큐에 있는 작품은 건드리지 않는다(밤 배치와 충돌 방지)")
     p.add_argument("--no-publish", action="store_true")
-    p.add_argument("--device", default="cuda:1")
+    p.add_argument("--device", default="auto")
     a = p.parse_args()
 
     works = list(a.works)

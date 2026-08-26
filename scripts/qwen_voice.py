@@ -77,9 +77,24 @@ def voice_plan(n: int) -> list:
     return ["A"] * half + ["B"] * (n - half)
 
 
-def load_model(device: str = "cuda:1"):
+def pick_device() -> str:
+    """여유가 가장 큰 카드를 고른다.
+
+    카드를 못 박아 두면 두 작업이 같은 카드를 다툰다 — 기존작 음성을 교체하는
+    동안 밤 배치의 TTS 가 GPU1 여유 2GB 앞에서 0/8 로 실패했다(실측).
+    """
+    import torch
+    if not torch.cuda.is_available():
+        return "cpu"
+    free = [(torch.cuda.mem_get_info(i)[0], i) for i in range(torch.cuda.device_count())]
+    return f"cuda:{max(free)[1]}"
+
+
+def load_model(device: str = "auto"):
     import torch
     from qwen_tts import Qwen3TTSModel
+    if device in ("", "auto"):
+        device = pick_device()
     return Qwen3TTSModel.from_pretrained(
         MODEL_DIR, device_map=device,
         dtype=torch.float16,           # Turing 에는 bf16 텐서코어가 없다
@@ -158,7 +173,7 @@ def main():
     p.add_argument("--tone", default="담담")
     p.add_argument("--target", type=float, default=0.0,
                    help="맞출 전체 길이(초). 0 이면 있는 그대로 둔다")
-    p.add_argument("--device", default="cuda:1")
+    p.add_argument("--device", default="auto")
     a = p.parse_args()
 
     sents = json.loads(Path(a.narration).read_text(encoding="utf-8"))["sentences"]
