@@ -9,13 +9,13 @@
   "personas": {
     "prince": {
       "label": "왕자",
-      "desc": "a twelve-year-old English boy, neatly cut fair hair, crimson silk doublet with gold braid, white hose",
+      "desc": "a twelve-year-old English boy, straight fair hair, grey eyes, a narrow face with a small chin, hair neatly cut, crimson silk doublet with gold braid, white hose",
       "avoid": "왕관은 쓰지 않는다"
     },
     "pauper": {
       "label": "거지 아이",
-      "desc": "a twelve-year-old English boy with the same face, matted fair hair, ragged brown smock, bare dirty feet",
-      "avoid": "얼굴은 왕자와 같다 — 머리와 옷만 다르다"
+      "desc": "a twelve-year-old English boy, straight fair hair, grey eyes, a narrow face with a small chin, hair matted and uncut, ragged brown smock, bare dirty feet",
+      "avoid": "머리색·눈색·얼굴형은 왕자와 글자 그대로 같게 적는다"
     },
     "guards": {
       "label": "궁전 위병",
@@ -56,8 +56,8 @@
         "palace_room"
       ],
       "beat": "둘이 거울 앞에 나란히 선다.",
-      "visual": "two boys with identical faces standing side by side before a tall mirror in a panelled room",
-      "motion": "they turn toward the mirror together, candle flames lean, the glass catches both faces"
+      "visual": "two boys of the same age turned toward a tall mirror in a panelled chamber, both faces reflected side by side in the glass",
+      "motion": "they lean toward the mirror together, candle flames bend, the glass catches both faces"
     },
     {
       "n": 4,

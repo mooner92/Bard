@@ -28,6 +28,12 @@ tones glow linework wash washes texture textures saturated overcast
 STATE = re.compile(r'\b(blind|deaf|mute|dumb|drunken|insane|grieving|'
                    r'lonely|anxious|frightened)\b', re.I)
 
+# 관계를 말하는 표현. 모델은 '누구와 같다'를 실행할 수 없어 그냥 딴 사람을 그린다
+# (실측: 거지 아이를 'with the same face' 로 적었더니 머리색부터 갈렸다).
+# 닮게 하려면 두 배역에 같은 이목구비를 각각 적는다.
+RELATIVE = re.compile(r'\b(same (?:face|hair|features)|identical|like the (?:other|first)|'
+                      r'as (?:him|her|above))\b', re.I)
+
 EPISODIC = re.compile(r'\b(firelight|bonfire|campfire|torchlight|torch|fire)\b', re.I)
 
 def _words(s): return set(re.findall(r"[가-힣]{2,}", s))
@@ -71,6 +77,8 @@ def check(work: str) -> list:
             bad.append(f"{k} 묘사에 부정어")
         if STATE.search(v.get("desc", "")):
             bad.append(f"{k} 묘사에 개념어: {STATE.search(v['desc']).group()}")
+        if RELATIVE.search(v.get("desc", "")):
+            bad.append(f"{k} 묘사에 관계 표현: {RELATIVE.search(v['desc']).group()}")
 
     # 배역만 고치고 박자를 놓치면 소용이 없다 — 심봉사의 안대는 배역 묘사를 고친
     # 뒤에도 돌아왔다. visual 에 'a blind old man' 이 그대로 남아 있었기 때문이다.
@@ -79,6 +87,9 @@ def check(work: str) -> list:
             m = STATE.search(b.get(key, ""))
             if m:
                 bad.append(f"S{b['n']} {key} 에 개념어: {m.group()}")
+            r = RELATIVE.search(b.get(key, ""))
+            if r:
+                bad.append(f"S{b['n']} {key} 에 관계 표현: {r.group()}")
 
     n = d/"narration_night.json"
     if n.exists():
