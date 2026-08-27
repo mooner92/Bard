@@ -1,0 +1,181 @@
+{
+  "logline": "잿더미 곁에서 일하던 소녀가 하룻밤 무도회에 가고, 열두 시에 뛰쳐나온다.",
+  "destination": "궁의 무도회장 — 열두 시 종이 울리는 자리",
+  "protagonist": "잿빛 옷을 입고 부엌에서 일하는 열여덟 소녀",
+  "setting": "17세기 유럽의 저택 부엌과 궁의 무도회장",
+  "anchor": "a girl of eighteen in a patched grey dress, ash on her hands",
+  "palette": "ash grey, warm amber, pale silver, deep blue, hearth orange",
+  "voice": "ko-KR-JiMinNeural",
+  "personas": {
+    "cinder": {
+      "label": "소녀",
+      "desc": "a girl of eighteen, fair hair tied back, patched grey dress, ash on her hands and apron",
+      "avoid": ""
+    },
+    "sisters": {
+      "label": "언니들",
+      "desc": "two young women in wide silk gowns with piled hair and fans, painted faces",
+      "avoid": ""
+    },
+    "fairy": {
+      "label": "낯선 부인",
+      "desc": "an old woman in a pale grey cloak, white hair, a thin stick in one hand",
+      "avoid": "날개는 그리지 않는다"
+    },
+    "prince": {
+      "label": "왕자",
+      "desc": "a young man in his twenties, dark hair, braided blue coat, white gloves",
+      "avoid": ""
+    },
+    "kitchen": {
+      "label": "저택 부엌",
+      "desc": "a stone kitchen with a wide hearth, hanging pots, a long scrubbed table"
+    },
+    "yard": {
+      "label": "달빛 마당",
+      "desc": "a cobbled yard at night, a vegetable patch, a low wall, moon overhead"
+    },
+    "ballroom": {
+      "label": "무도회장",
+      "desc": "a candlelit hall with a broad staircase, mirrors, dancers in wide gowns"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "cinder",
+        "kitchen"
+      ],
+      "beat": "소녀가 부엌 잿더미 곁에서 불을 헤집는다.",
+      "visual": "a girl in a patched grey dress crouched by a hearth of ashes, poker in hand",
+      "motion": "ash lifts steadily around the poker"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "sisters",
+        "cinder"
+      ],
+      "beat": "언니들이 초대장을 흔들며 지나간다.",
+      "visual": "two young women in fine gowns waving a card, passing a girl in a grey dress",
+      "motion": "the card waves steadily above them"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "sisters",
+        "kitchen"
+      ],
+      "beat": "언니들이 소녀에게 옷을 다리게 시킨다.",
+      "visual": "two women in gowns standing over a girl pressing cloth at a kitchen table",
+      "motion": "her iron moves steadily across the cloth"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "cinder",
+        "kitchen"
+      ],
+      "beat": "소녀가 홀로 남아 잿더미를 내려다본다.",
+      "visual": "a girl alone by a cold hearth, the house dark and empty around her",
+      "motion": "embers dim steadily in the grate"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "fairy",
+        "cinder"
+      ],
+      "beat": "부엌에 낯선 부인이 나타난다.",
+      "visual": "an old woman in a pale cloak standing in a dim kitchen before a startled girl",
+      "motion": "her cloak settles steadily around her"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "fairy",
+        "yard"
+      ],
+      "beat": "부인이 마당의 호박을 가리킨다.",
+      "visual": "an old woman in a cloak pointing at a large pumpkin in a moonlit yard",
+      "motion": "her hand holds steadily toward the pumpkin"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "yard"
+      ],
+      "beat": "호박이 마차로 바뀌어 간다.",
+      "visual": "a pumpkin swelling into the shape of a coach in a moonlit yard, light around it",
+      "motion": "the shape swells steadily into a coach"
+    },
+    {
+      "n": 8,
+      "cast": [
+        "cinder",
+        "yard"
+      ],
+      "beat": "소녀가 은빛 옷을 입고 마차에 오른다.",
+      "visual": "a girl in a silver gown stepping up into a coach, a cloaked woman watching",
+      "motion": "she rises steadily into the coach"
+    },
+    {
+      "n": 9,
+      "cast": [
+        "cinder",
+        "ballroom"
+      ],
+      "beat": "소녀가 무도회장 계단을 내려온다.",
+      "visual": "a girl in a silver gown descending a broad staircase into a candlelit ballroom",
+      "motion": "she descends steadily into the light"
+    },
+    {
+      "n": 10,
+      "cast": [
+        "prince",
+        "cinder"
+      ],
+      "beat": "젊은 왕자가 그 앞에 손을 내민다.",
+      "visual": "a young man in a braided coat holding out his hand to a girl in a silver gown",
+      "motion": "his hand reaches steadily toward her"
+    },
+    {
+      "n": 11,
+      "cast": [
+        "ballroom"
+      ],
+      "beat": "큰 시계가 열두 시를 가리킨다.",
+      "visual": "a tall clock face in a ballroom with both hands nearing the top, dancers beyond",
+      "motion": "the hands climb steadily toward twelve"
+    },
+    {
+      "n": 12,
+      "cast": [
+        "cinder",
+        "ballroom"
+      ],
+      "beat": "소녀가 계단을 뛰어 내려간다.",
+      "visual": "a girl in a silver gown running down a broad staircase, skirts gathered in her hands",
+      "motion": "she runs steadily down the steps"
+    },
+    {
+      "n": 13,
+      "cast": [
+        "prince",
+        "ballroom"
+      ],
+      "beat": "왕자가 계단에서 유리 구두를 집어 든다.",
+      "visual": "a young man lifting a small glass slipper from a stone step, hall empty behind",
+      "motion": "the slipper rises steadily in his hand"
+    },
+    {
+      "n": 14,
+      "cast": [],
+      "beat": "빈 계단에 새벽빛이 번진다.",
+      "visual": "an empty stone staircase at dawn, one faint mark on a step, hall dark beyond",
+      "motion": "grey light spreads steadily up the steps"
+    }
+  ],
+  "withheld": "유리 구두의 임자를 찾는 과정과, 언니들이 맞는 결말"
+}
