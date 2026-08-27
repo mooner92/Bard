@@ -66,7 +66,9 @@ SPEAKER = "sohee"   # CustomVoice 의 유일한 한국어 여성 화자
 SEED = 99
 # 감정을 얹는 말은 넣지 않는다. "부드럽게 이어 가듯" 한 마디에 걱정하는 어조가
 # 실렸다(실측). 한 톤으로 눌러 두면 이야기는 그림과 문장이 낸다.
-VOICE = "처음부터 끝까지 한 톤으로, 감정을 싣지 말고 낮고 담담하게 책을 읽어 내려가듯"
+# 승인된 문구다. 손대지 말 것 — "차분히"를 빼고 "낮고 담담하게"로 바꿨더니
+# 오히려 급하고 높아졌다(실측). 미세 조정도 이 문장 구조 안에서만 한다.
+VOICE = "처음부터 끝까지 한 톤으로, 감정을 싣지 말고 책을 차분히 읽어 내려가듯"
 
 
 def pick_device() -> str:
@@ -123,6 +125,23 @@ def dur(path) -> float:
         return 0.0
 
 
+def trim_silence(wav, sr, keep: float = 0.12):
+    """말 앞뒤의 무음을 깎는다. 양 끝에 keep 초만 남긴다.
+
+    Qwen 은 문장마다 앞뒤에 무음을 붙여 내놓는다(실측: 미녀와 야수 51.3초 중
+    8.5초가 무음이었다). 문장을 이어 붙이면 앞 문장의 뒤 무음과 다음 문장의 앞
+    무음이 겹쳐 1.5초씩 침묵이 생긴다 — 말하다 멈춘 것처럼 들린다.
+    Azure 파이프라인에는 이걸 깎는 코드가 있었는데 갈아타면서 빠뜨렸다.
+    """
+    import numpy as np
+    loud = np.abs(wav) > 0.02
+    if not loud.any():
+        return wav
+    i = max(0, int(loud.argmax()) - int(sr * keep))
+    j = min(len(wav), len(wav) - int(loud[::-1].argmax()) + int(sr * keep))
+    return wav[i:j]
+
+
 def write_wavs(pairs, prefix: str, speed: float = 1.0, pad: float = 0.0) -> list:
     """prefix{i}.wav 로 쓴다. speed<1 이면 느리게 늘리고, pad 초만큼 뒤에 숨을 둔다.
 
@@ -141,6 +160,7 @@ def write_wavs(pairs, prefix: str, speed: float = 1.0, pad: float = 0.0) -> list
         if pair is None:
             continue
         wav, sr = pair
+        wav = trim_silence(wav, sr)
         if pad > 0:
             wav = np.concatenate([wav, np.zeros(int(sr * pad), dtype=wav.dtype)])
         out = Path(f"{prefix}{i}.wav")

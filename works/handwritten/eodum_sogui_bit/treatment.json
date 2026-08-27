@@ -1,0 +1,154 @@
+{
+ "logline": "성냥팔이 소녀가 눈 내리는 섣달그믐 거리에서 성냥을 한 개비씩 켠다.",
+ "destination": "성냥불 속에 비치는 따뜻한 방 — 켤 때마다 보이는 자리",
+ "protagonist": "낡은 숄을 두르고 맨발로 선 열 살 남짓 소녀",
+ "setting": "19세기 덴마크의 눈 내리는 섣달그믐 거리",
+ "anchor": "a girl of about ten in a threadbare shawl, bare feet, a bundle of matches in her apron",
+ "palette": "snow blue-white, window amber, deep night indigo, warm orange",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "match_girl": {
+   "label": "성냥팔이 소녀",
+   "desc": "a girl of about ten, thin face, threadbare grey shawl over a patched dress, bare feet, apron of matches",
+   "avoid": ""
+  },
+  "street": {
+   "label": "눈 내리는 거리",
+   "desc": "a snowy street at night, tall shuttered houses, one lit window, drifting snow"
+  },
+  "warm_room": {
+   "label": "성냥불 속의 방",
+   "desc": "a warm room glimpsed as if through glass, laid table and lit stove, everything golden"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "beat": "소녀가 눈 쌓인 거리 모퉁이에 서 있다.",
+   "visual": "a thin girl in a shawl standing barefoot at a snowy street corner, shuttered houses above",
+   "motion": "snow drifts steadily past her"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "beat": "소녀가 지나가는 사람들에게 성냥을 내민다.",
+   "visual": "a girl holding out matchboxes toward passing coats on a snowy street, nobody looking down",
+   "motion": "the coats stream steadily past her outstretched hand"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "street"
+   ],
+   "beat": "불 켜진 창 안으로 차려진 상이 보인다.",
+   "visual": "a lit window seen from a dark street, a laid table and moving figures inside",
+   "motion": "warm light spills steadily from the window onto the snow"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "match_girl"
+   ],
+   "beat": "소녀가 담벼락 구석에 웅크려 앉는다.",
+   "visual": "a girl in a shawl huddled into a corner between two walls, snow piling at her bare feet",
+   "motion": "snow gathers steadily against her feet"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "match_girl"
+   ],
+   "beat": "소녀가 앞치마에서 성냥 한 개비를 꺼낸다.",
+   "visual": "a girl drawing a single match from an apron of matchboxes, cupped hands shielding it",
+   "motion": "her cupped hands close steadily around the match"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "match_girl"
+   ],
+   "beat": "성냥에 작은 불이 붙는다.",
+   "visual": "a small flame on a match cupped in a child's hands, her face lit from below",
+   "motion": "the flame wavers steadily against her palms"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "warm_room"
+   ],
+   "beat": "불빛 속에 따뜻한 난로가 비친다.",
+   "visual": "a warm iron stove glowing in golden light seen as if through frosted glass",
+   "motion": "the golden light swells steadily around the stove"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "beat": "불이 사그라들고 거리가 돌아온다.",
+   "visual": "a girl in a shawl on a dark snowy street, a spent match between her fingers",
+   "motion": "the last glow thins away from the match"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "match_girl"
+   ],
+   "beat": "소녀가 두 번째 성냥을 그어 든다.",
+   "visual": "a girl striking a second match, her thin face turned toward the new flame",
+   "motion": "the second flame climbs steadily in her hand"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "warm_room"
+   ],
+   "beat": "불빛 속에 상 위의 음식이 비친다.",
+   "visual": "a laid table of steaming dishes in golden light seen as if through frosted glass",
+   "motion": "steam rises steadily from the dishes"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "match_girl"
+   ],
+   "beat": "소녀가 남은 성냥을 한꺼번에 그어 댄다.",
+   "visual": "a girl holding a whole handful of lit matches, her face and shawl bathed in orange",
+   "motion": "the massed flames climb steadily higher in her hands"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "warm_room"
+   ],
+   "beat": "불빛 속의 방이 점점 환해진다.",
+   "visual": "a golden room growing brighter beyond the flame, a figure standing with arms open",
+   "motion": "the light widens steadily toward the figure"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "match_girl"
+   ],
+   "beat": "소녀가 그 빛을 향해 손을 뻗는다.",
+   "visual": "a girl in a shawl reaching one thin hand toward a widening golden light",
+   "motion": "her hand reaches steadily toward the light"
+  },
+  {
+   "n": 14,
+   "cast": [],
+   "beat": "눈 덮인 모퉁이에 성냥개비만 흩어져 있다.",
+   "visual": "spent matchsticks scattered on fresh snow at a cobbled street corner, dawn light",
+   "motion": "snow settles steadily over the matchsticks"
+  }
+ ],
+ "withheld": "마지막 불빛 속에서 소녀가 만나는 사람과, 이튿날 아침의 일"
+}

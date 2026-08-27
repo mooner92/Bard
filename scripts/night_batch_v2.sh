@@ -178,7 +178,8 @@ while grace_ok; do
   # 소희(Qwen3-TTS)가 0.161초/자로 읽으면서 같은 대본이 54초에서 42초가 됐다.
   # 50초를 채우려면 여덟 문장 합이 310자쯤 되어야 한다 — 문장당 한도를 올린다.
   # 총량만 올리고 이 줄을 두었더니 47자 문장이 "30~41 벗어남"으로 반려됐다(실측).
-  if grep -q '"author": "hand"' "$NAR" 2>/dev/null; then cur_max=52; cur_min=36; fi
+  # 14컷이므로 문장은 짧다. 31자면 4.9초로 프레임 상한에 맞아 감속이 사라진다.
+  if grep -q '"author": "hand"' "$NAR" 2>/dev/null; then cur_max=36; cur_min=24; fi
 
   # ── ① 대본 (관문 통과할 때까지 다시 쓴다) ──
   # 하네스가 문제를 찾아도 수리에 실패하면 대본을 그대로 남긴다. 그 대본으로 그림을
@@ -202,7 +203,7 @@ while grace_ok; do
       fi
       [ "$try" = 6 ] && { say "  ① 관문 6회 불합격 — 큐에서 내림"; ok=0; break; }
       venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-        --scenes 8 --minlen "$cur_min" --maxlen "$cur_max" --tone "$tone" --emphasis $TRE_ARG \
+        --scenes 14 --minlen "$cur_min" --maxlen "$cur_max" --tone "$tone" --emphasis $TRE_ARG \
         --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
       [ -s "$NAR" ] || { say "  ① 대본 생성 실패"; ok=0; break; }
     done
@@ -298,7 +299,7 @@ print(f'{d:.1f} {max(20,min(t-1,36))} 38')   # 모델이 범위 아래쪽으로 
     mv "$NAR" "${NAR%.json}.len${tts_try}.json" 2>/dev/null
     rm -f output/tts/${work}_night_s*.wav
     venv/bin/python scripts/write_script.py --title "$work" --facts "$facts" \
-      --scenes 8 --minlen "$newmin" --maxlen "$newmax" --tone "$tone" --emphasis $TRE_ARG \
+      --scenes 14 --minlen "$newmin" --maxlen "$newmax" --tone "$tone" --emphasis $TRE_ARG \
       --ending "$ending" --out "$NAR" >>"$LOG" 2>&1
     [ -s "$NAR" ] || { say "  ② 대본 재작성 실패"; break; }
   done

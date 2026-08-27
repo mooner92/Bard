@@ -1,0 +1,107 @@
+{
+ "logline": "사막에 불시착한 비행사 앞에, 별에서 왔다는 아이가 나타나 양을 그려 달라고 한다.",
+ "destination": "아이가 떠나온 작은 별 — 장미 한 송이가 있는 곳",
+ "protagonist": "금발이 바람에 헝클어진 예닐곱 살 아이",
+ "setting": "사하라 사막과 별들",
+ "anchor": "a small child of six or seven with wind-tousled golden hair, a long green coat and scarf",
+ "palette": "desert ochre, night indigo, star silver, warm gold, pale dawn rose",
+ "voice": "ko-KR-SunHiNeural",
+ "personas": {
+  "prince": {
+   "label": "아이",
+   "desc": "a small child of six or seven, wind-tousled golden hair, long green coat, a trailing yellow scarf",
+   "avoid": ""
+  },
+  "pilot": {
+   "label": "비행사",
+   "desc": "a man in his thirties in a leather flight jacket and goggles pushed up, oil on his hands",
+   "avoid": ""
+  },
+  "desert": {
+   "label": "사막",
+   "desc": "an endless dune field under a huge sky, a broken biplane half buried in sand"
+  },
+  "fox": {
+   "label": "여우",
+   "desc": "a small sand-coloured fox with oversized ears and a white-tipped tail"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "pilot",
+    "desert"
+   ],
+   "beat": "비행사가 부서진 비행기 옆에 앉아 있다.",
+   "visual": "a man in a flight jacket seated against a half-buried broken biplane in endless dunes",
+   "motion": "sand streams steadily across the dune crest"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "prince",
+    "desert"
+   ],
+   "beat": "아이가 모래 언덕 위에 서 있다.",
+   "visual": "a small child in a long green coat standing on a dune crest against a huge empty sky",
+   "motion": "his yellow scarf streams steadily behind him"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "prince",
+    "pilot"
+   ],
+   "beat": "아이가 비행사에게 종이를 내민다.",
+   "visual": "a child holding out a sheet of paper to a seated pilot, both small against the dunes",
+   "motion": "the paper trembles steadily in the wind between them"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "pilot"
+   ],
+   "beat": "비행사가 상자 하나를 그려 준다.",
+   "visual": "a pilot's oil-stained hand drawing a simple box on paper, pencil held loosely",
+   "motion": "the pencil moves steadily along the paper"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "prince",
+    "fox"
+   ],
+   "beat": "아이가 모래 위에서 여우와 마주 앉는다.",
+   "visual": "a child in a green coat sitting facing a small sand-coloured fox among low dunes",
+   "motion": "the fox's ears turn steadily toward the child"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "prince"
+   ],
+   "beat": "아이가 밤하늘의 별을 올려다본다.",
+   "visual": "a small child lying back on cooling sand looking up at a sky thick with stars",
+   "motion": "the stars wheel steadily overhead"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "prince",
+    "desert"
+   ],
+   "beat": "아이가 달빛 어린 모래를 걸어간다.",
+   "visual": "a small child in a green coat walking away across moonlit sand toward a low rock",
+   "motion": "his scarf trails steadily behind him"
+  },
+  {
+   "n": 8,
+   "cast": [],
+   "beat": "빈 모래밭에 발자국만 이어져 있다.",
+   "visual": "a line of small footprints across pale dawn sand, a broken biplane far behind",
+   "motion": "wind smooths the footprints steadily away"
+  }
+ ],
+ "withheld": "아이가 제 별로 돌아가는 방법과, 비행사가 그 뒤에 알게 되는 것"
+}
