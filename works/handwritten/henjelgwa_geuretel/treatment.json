@@ -1,0 +1,178 @@
+{
+  "logline": "숲에 버려진 오누이가 조약돌로 길을 찾고, 두 번째에는 빵조각을 뿌린다.",
+  "destination": "숲 한가운데의 과자로 지은 집",
+  "protagonist": "낡은 외투를 걸친 열 살 남짓 소년",
+  "setting": "중세 독일의 가난한 오두막과 깊은 숲",
+  "anchor": "a boy of about ten in a worn coat, a girl slightly younger beside him",
+  "palette": "dark green, moonlit silver, crust brown, pale white, warm amber",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "hansel": {
+      "label": "오빠",
+      "desc": "a boy of about ten, straw-blond hair, worn brown coat with deep pockets, scuffed boots",
+      "avoid": ""
+    },
+    "gretel": {
+      "label": "여동생",
+      "desc": "a girl of about eight, straw-blond hair under a kerchief, patched grey dress and apron",
+      "avoid": ""
+    },
+    "witch_old": {
+      "label": "노파",
+      "desc": "a stooped old woman in dark shawls, thin hands, small round spectacles",
+      "avoid": "흉하게 그리지 않는다 — 아이들이 본다"
+    },
+    "cottage": {
+      "label": "오두막",
+      "desc": "a poor timber cottage at the forest edge, low door, one shuttered window"
+    },
+    "forest": {
+      "label": "깊은 숲",
+      "desc": "towering dark trunks, ferns underfoot, little light reaching the ground"
+    },
+    "candy_house": {
+      "label": "과자 집",
+      "desc": "a cottage of iced cake with sugar window panes and biscuit tiles, in a clearing"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "hansel",
+        "gretel",
+        "cottage"
+      ],
+      "beat": "오누이가 오두막 문가에서 이야기를 엿듣는다.",
+      "visual": "a boy and a girl crouched at a cottage door listening, firelight beyond",
+      "motion": "their heads lean steadily toward the gap"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "hansel"
+      ],
+      "beat": "소년이 주머니에 하얀 조약돌을 채운다.",
+      "visual": "a boy filling his coat pocket with white pebbles by moonlight outside a cottage",
+      "motion": "pebbles gather steadily in his palm"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "hansel",
+        "gretel",
+        "forest"
+      ],
+      "beat": "오누이가 숲길을 따라 끌려 들어간다.",
+      "visual": "a boy and a girl walking between dark trunks behind two adults, deep forest",
+      "motion": "they move steadily deeper along the path"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "hansel"
+      ],
+      "beat": "소년이 조약돌을 하나씩 떨어뜨린다.",
+      "visual": "a boy's hand letting a white pebble fall onto dark forest floor behind him",
+      "motion": "pebbles slip steadily from his fingers"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "hansel",
+        "gretel",
+        "forest"
+      ],
+      "beat": "오누이가 어두운 숲에 남겨진다.",
+      "visual": "a boy and a girl alone among towering trunks, no path visible around them",
+      "motion": "mist thickens steadily between the trees"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "forest"
+      ],
+      "beat": "달빛에 조약돌이 하얗게 빛난다.",
+      "visual": "a line of white pebbles glowing on the dark forest floor under moonlight",
+      "motion": "moonlight brightens steadily along the pebbles"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "hansel",
+        "gretel",
+        "forest"
+      ],
+      "beat": "이튿날 오누이가 다시 숲으로 들어간다.",
+      "visual": "a boy and a girl walking deeper into denser woods, empty hands at their sides",
+      "motion": "they walk steadily into thicker trees"
+    },
+    {
+      "n": 8,
+      "cast": [
+        "hansel"
+      ],
+      "beat": "소년이 빵조각을 부수어 뿌린다.",
+      "visual": "a boy crumbling bread and scattering it on the forest floor behind him",
+      "motion": "crumbs trail steadily behind him"
+    },
+    {
+      "n": 9,
+      "cast": [
+        "forest"
+      ],
+      "beat": "새들이 빵조각을 쪼아 먹는다.",
+      "visual": "small birds crowding on a forest floor where crumbs lay, bare earth showing",
+      "motion": "the birds press steadily inward"
+    },
+    {
+      "n": 10,
+      "cast": [
+        "hansel",
+        "gretel",
+        "forest"
+      ],
+      "beat": "오누이가 길을 찾지 못하고 헤맨다.",
+      "visual": "a boy and a girl turning about among close-set dark trunks, ferns to their knees",
+      "motion": "they turn steadily among the trees"
+    },
+    {
+      "n": 11,
+      "cast": [
+        "candy_house"
+      ],
+      "beat": "숲 한가운데 이상한 집이 나타난다.",
+      "visual": "a cottage of iced cake and sugar panes standing in a small forest clearing",
+      "motion": "sugar glitters steadily on the walls"
+    },
+    {
+      "n": 12,
+      "cast": [
+        "hansel",
+        "gretel",
+        "candy_house"
+      ],
+      "beat": "오누이가 그 벽을 떼어 먹는다.",
+      "visual": "a boy and a girl breaking pieces from a cake wall and eating, clearing around them",
+      "motion": "pieces come steadily away in their hands"
+    },
+    {
+      "n": 13,
+      "cast": [
+        "witch_old",
+        "candy_house"
+      ],
+      "beat": "문이 열리고 노파가 걸어 나온다.",
+      "visual": "a stooped old woman stepping out of a sugar-paned cottage door toward two children",
+      "motion": "she comes steadily forward from the door"
+    },
+    {
+      "n": 14,
+      "cast": [],
+      "beat": "빈 마당에 빵조각만 흩어져 있다.",
+      "visual": "scattered bread crumbs on bare earth before a sugar cottage, no one there",
+      "motion": "wind moves the crumbs steadily across the ground"
+    }
+  ],
+  "withheld": "과자 집 안에서 벌어지는 일과, 오누이가 집으로 돌아가는 방법"
+}

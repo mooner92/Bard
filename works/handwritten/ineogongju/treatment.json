@@ -1,0 +1,180 @@
+{
+  "logline": "바다 밑 인어가 물에 빠진 젊은이를 구하고, 뭍으로 오르려 목소리를 내준다.",
+  "destination": "뭍의 궁 — 두 다리로 서게 된 자리",
+  "protagonist": "긴 은빛 머리에 비늘 꼬리를 가진 어린 인어",
+  "setting": "북유럽의 바다와 바닷가 궁",
+  "anchor": "a young mermaid with long silver hair and a pale scaled tail",
+  "palette": "deep blue-green, pale white, warm amber, cold grey, pearl silver",
+  "voice": "ko-KR-JiMinNeural",
+  "personas": {
+    "mermaid": {
+      "label": "인어",
+      "desc": "a young mermaid with long silver hair, pale skin, a scaled blue-green tail, shell ornaments",
+      "avoid": ""
+    },
+    "prince": {
+      "label": "젊은이",
+      "desc": "a young man in his twenties, dark wavy hair, embroidered coat, high boots",
+      "avoid": ""
+    },
+    "witch": {
+      "label": "바다 마녀",
+      "desc": "a pale gaunt woman with white drifting hair and long thin arms, dark robes trailing",
+      "avoid": "문어 다리는 그리지 않는다"
+    },
+    "seabed": {
+      "label": "바다 밑",
+      "desc": "an undersea garden of coral and swaying weed, shafts of blue light from above"
+    },
+    "storm_sea": {
+      "label": "폭풍 바다",
+      "desc": "black waves under torn clouds, spray blowing off the crests"
+    },
+    "shore": {
+      "label": "바닷가",
+      "desc": "a pale empty beach at dawn, low cliffs behind, foam along the sand"
+    },
+    "palace": {
+      "label": "궁",
+      "desc": "a candlelit stone hall with tall windows and polished floor"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "mermaid",
+        "seabed"
+      ],
+      "beat": "인어가 바닷속 정원에서 물 위를 올려다본다.",
+      "visual": "a young mermaid among coral in an undersea garden looking up toward the bright surface",
+      "motion": "her hair drifts steadily upward"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "storm_sea"
+      ],
+      "beat": "바다 위에서 배가 파도에 기울어진다.",
+      "visual": "a wooden sailing ship heeling over on black storm waves under torn clouds",
+      "motion": "the hull leans steadily further over"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "mermaid",
+        "prince"
+      ],
+      "beat": "인어가 물에 빠진 젊은이를 붙든다.",
+      "visual": "a mermaid holding a limp young man above the waves, both small against the swell",
+      "motion": "she holds him steadily above the water"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "mermaid",
+        "shore"
+      ],
+      "beat": "인어가 모래밭에 젊은이를 눕히고 물러난다.",
+      "visual": "a mermaid slipping back into shallow water from a pale beach, a young man lying on the sand",
+      "motion": "she draws steadily back into the shallows"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "prince",
+        "shore"
+      ],
+      "beat": "젊은이가 눈을 뜨고 몸을 일으킨다.",
+      "visual": "a young man in soaked clothes rising on one elbow on a pale beach at dawn",
+      "motion": "he lifts steadily onto one elbow"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "mermaid",
+        "seabed"
+      ],
+      "beat": "인어가 바다 밑 깊은 굴로 헤엄쳐 간다.",
+      "visual": "a mermaid swimming toward a dark cave mouth on the sea floor, weed streaming past",
+      "motion": "she swims steadily toward the cave"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "witch",
+        "mermaid"
+      ],
+      "beat": "굴 안의 마녀가 잔 하나를 내민다.",
+      "visual": "a pale sea witch holding out a small cup to a mermaid in a glowing cave",
+      "motion": "the cup moves steadily toward the mermaid"
+    },
+    {
+      "n": 8,
+      "cast": [
+        "mermaid",
+        "shore"
+      ],
+      "beat": "인어가 모래밭에 두 다리로 누워 있다.",
+      "visual": "a young woman lying on wet sand with bare human legs, sea foam around her",
+      "motion": "foam slides steadily around her"
+    },
+    {
+      "n": 9,
+      "cast": [
+        "prince",
+        "mermaid"
+      ],
+      "beat": "젊은이가 그 여자를 궁으로 데려간다.",
+      "visual": "a young man leading a barefoot young woman up a stone path toward a palace",
+      "motion": "they move steadily up the path"
+    },
+    {
+      "n": 10,
+      "cast": [
+        "mermaid",
+        "palace"
+      ],
+      "beat": "여자가 궁의 홀에서 춤을 춘다.",
+      "visual": "a barefoot young woman turning in a candlelit palace hall, courtiers watching",
+      "motion": "she turns steadily across the floor"
+    },
+    {
+      "n": 11,
+      "cast": [
+        "mermaid"
+      ],
+      "beat": "여자가 발밑을 내려다본다.",
+      "visual": "a young woman looking down at her own bare feet on cold palace stone",
+      "motion": "her head lowers steadily toward her feet"
+    },
+    {
+      "n": 12,
+      "cast": [
+        "prince",
+        "palace"
+      ],
+      "beat": "젊은이가 다른 여인의 손을 잡는다.",
+      "visual": "a young man taking another woman's hand before a palace altar, guests behind",
+      "motion": "their joined hands lift steadily"
+    },
+    {
+      "n": 13,
+      "cast": [
+        "mermaid",
+        "storm_sea"
+      ],
+      "beat": "여자가 새벽 뱃전에 홀로 서 있다.",
+      "visual": "a young woman alone at a ship's rail at first light, wide grey sea beyond",
+      "motion": "her hair streams steadily in the wind"
+    },
+    {
+      "n": 14,
+      "cast": [],
+      "beat": "빈 뱃전에 바닷물만 부딪친다.",
+      "visual": "an empty ship's rail at sunrise, spray on the wood, wide open sea",
+      "motion": "spray runs steadily down the rail"
+    }
+  ],
+  "withheld": "인어가 목소리를 대신 내준 것과, 마지막에 인어가 맞는 새벽"
+}

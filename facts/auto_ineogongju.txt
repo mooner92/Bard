@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 인어공주 / 한스 크리스티안 안데르센 /   /
+[줄거리와 배경]
+1837년 안데르센의 동화. 바다 밑 인어가 물에 빠진 젊은이를 구하고, 뭍으로 오르기 위해 목소리를 내준다.
+[줄거리]
+줄거리와 인물은 works/handwritten/ineogongju/treatment.json 에 열네 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

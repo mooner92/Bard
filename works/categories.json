@@ -317,5 +317,13 @@
   "baekseolgongju": {
     "region": "기타 유럽",
     "genre": "환상"
+  },
+  "ineogongju": {
+    "region": "기타 유럽",
+    "genre": "사랑·가족"
+  },
+  "henjelgwa_geuretel": {
+    "region": "기타 유럽",
+    "genre": "환상"
   }
 }

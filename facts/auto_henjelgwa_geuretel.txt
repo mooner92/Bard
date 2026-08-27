@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 헨젤과 그레텔 / 그림 형제 /   /
+[줄거리와 배경]
+1812년 그림 형제의 동화. 숲에 버려진 오누이가 조약돌로 길을 찾고, 두 번째에는 빵조각을 뿌렸다가 길을 잃는다.
+[줄거리]
+줄거리와 인물은 works/handwritten/henjelgwa_geuretel/treatment.json 에 열네 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.
