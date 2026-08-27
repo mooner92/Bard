@@ -34,6 +34,14 @@ STATE = re.compile(r'\b(blind|deaf|mute|dumb|drunken|insane|grieving|'
 RELATIVE = re.compile(r'\b(same (?:face|hair|features)|identical|like the (?:other|first)|'
                       r'as (?:him|her|above))\b', re.I)
 
+# 한 번에 끝나는 동작. 클립은 5~7초인데 모델은 지시한 동작을 대개 첫 1~2초에
+# 해 버린다. 그런데 낭독은 그 말을 문장 중반에 한다 — 그림이 먼저, 말이 나중이
+# 되어 어긋난다(실측: 잭과 콩나무에서 황금알이 구른 뒤에 그 문장이 나왔다).
+# 지속되는 동작으로 적으면 어느 시점에 들어도 맞는다.
+#   the egg rolls off and drops   →   the egg teeters at the edge, tipping
+ONESHOT = re.compile(r'\b(drops?|slams?|strikes?|shuts?|lands?|bursts?|snaps?|'
+                     r'topples?|scatters?|falls?|breaks?|catches?)\b', re.I)
+
 EPISODIC = re.compile(r'\b(firelight|bonfire|campfire|torchlight|torch|fire)\b', re.I)
 
 def _words(s): return set(re.findall(r"[가-힣]{2,}", s))
@@ -63,6 +71,16 @@ def check(work: str) -> list:
             continue          # 색말은 뒤쪽 박자에 나와도 사물이 아니다
         if stem in reveal and stem not in early:
             bad.append(f"팔레트의 '{w}' 가 뒤쪽 박자에만 나온다 — 반전이면 첫 컷부터 새어 나간다")
+
+    # 움직임은 하나만 적는다. 셋을 적으면 셋 다 움직여 화면이 산만해진다
+    # (실측: "구르고, 부딪히고, 튕겨 나간다"를 적었더니 전부 일어났다).
+    for b in beats:
+        mot = b.get("motion", "")
+        if mot.count(",") >= 2:
+            bad.append(f"S{b['n']} 움직임이 {mot.count(',')+1}가지 — 하나만 적는다")
+        m = ONESHOT.search(mot)
+        if m:
+            bad.append(f"S{b['n']} 움직임이 한 번에 끝난다: {m.group()} — 지속형으로")
 
     # 한 장면에서만 나는 불도 같은 이유로 옮겨붙는다(십오 소년의 야자수가 탔다).
     m = EPISODIC.search(T.get("palette", ""))

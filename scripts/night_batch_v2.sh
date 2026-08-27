@@ -339,11 +339,16 @@ f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
     venv/bin/python scripts/crop_keyframe.py --src "$src" \
       --dst "ComfyUI/input/night_${work}_${i}.png" >>"$LOG" 2>&1
     d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "output/tts/${work}_night_s${i}.wav")
-    # 감속 1.5배 상한을 지키는 최소 프레임 수를 4n+1 로 **올림**한다.
-    # 내림하면 프레임이 모자라 감속이 1.5배를 살짝 넘는다(실측 1.52~1.54).
+    # 음성 길이를 **그대로** 덮는 프레임 수를 4n+1 로 올림한다.
+    #
+    # 예전에는 d*24/1.5 로 잡았다 — 1.5배 감속을 상한이 아니라 목표로 삼은 셈이라
+    # 일부러 짧게 뽑아 늘여 채웠고, 화면이 늘 2/3 속도로 흘러 움직임이 붕 떴다
+    # (실측: 잭과 콩나무 평균 1.48배, 최대 1.94배). 상한(117)까지 채워 뽑으면
+    # 짧은 문장은 감속이 사라지고 긴 문장도 크게 준다(같은 작품 평균 1.27배).
+    # 대가는 클립 생성 시간이 30%쯤 느는 것이다.
     fr=$(python3 -c "
 import math
-d=$d; f=max(81, math.ceil(d*24/1.5))
+d=$d; f=max(81, math.ceil(d*24))
 f = f + (4 - (f-1) % 4) % 4
 # 121프레임에서 첫 프레임 번짐 실측 — 117(4n+1)로 상한. 최장 문장은 감속이
 # 1.5를 살짝 넘을 수 있으나 번짐보다 낫다.

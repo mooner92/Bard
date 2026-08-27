@@ -51,30 +51,22 @@ def instruct_for(tone: str) -> str:
     return INSTRUCT_BASE + TONE_HINT.get((tone or "").strip(), "")
 
 
-# ── 고정 화자와 두 가지 톤 ────────────────────────────────────────────────
+# ── 목소리 하나로 고정한다 ────────────────────────────────────────────────
 #
 # VoiceDesign 은 부를 때마다 목소리를 **새로 만든다**. 그래서 여덟 문장이 조금씩
 # 다른 화자가 되고 그중 몇은 늘어졌다(실측: 춘향전에서 몇 문장이 처졌다).
-# 복제로 고정하려 했으나 VoiceDesign·CustomVoice 어느 쪽도 generate_voice_clone
-# 을 지원하지 않는다. 대신 CustomVoice 에는 **이름이 정해진 화자**가 있고,
-# 그중 Sohee 가 유일한 한국어 여성 화자다("따뜻하고 감정이 풍부한").
 #
-# 화자를 고정하면 목소리가 흔들릴 자리가 없고, 톤은 그 위에 지시문으로 얹는다.
-SPEAKER = "sohee"
-VOICES = {
-    "A": "차분하고 낮은 목소리로, 감정을 절제하고 담담하게 읽어 내려가듯",
-    "B": "조금 더 부드럽고 나직하게, 곁에서 이야기를 이어 가듯",
-}
-
-
-def voice_plan(n: int) -> list:
-    """문장마다 어느 기준 음성을 쓸지. 한 편에 **한 번만** 갈아탄다.
-
-    문장마다 목소리가 바뀌면 듣기 산만하다. 앞 절반은 A, 뒤 절반은 B 로 두어
-    이야기가 질문으로 꺾이는 대목에서 한 번만 결이 달라지게 한다.
-    """
-    half = (n + 1) // 2
-    return ["A"] * half + ["B"] * (n - half)
+# 한동안 CustomVoice 의 이름 있는 화자(sohee)로 피했는데, 그러면 흔들림은 잡히나
+# **고른 목소리 자체가 달라진다** — 지시문만 옮기고 성대를 바꾼 셈이었다.
+# 씨앗을 고정하면 VoiceDesign 이 같은 목소리를 재현한다(실측: 같은 씨앗·같은
+# 문장에서 파형이 일치했다). 고른 목소리를 지키면서 흔들림도 없앤다.
+# 씨앗마다 성대가 다르다. 고른 목소리를 낸 씨앗을 음색 유사도로 되찾았다
+# (실측: 99 가 0.966, 31337 이 0.971, 처음 쓰던 20260827 은 0.877 로 딴사람이었다).
+SPEAKER = "sohee"   # CustomVoice 의 유일한 한국어 여성 화자
+SEED = 99
+# 감정을 얹는 말은 넣지 않는다. "부드럽게 이어 가듯" 한 마디에 걱정하는 어조가
+# 실렸다(실측). 한 톤으로 눌러 두면 이야기는 그림과 문장이 낸다.
+VOICE = "처음부터 끝까지 한 톤으로, 감정을 싣지 말고 낮고 담담하게 책을 읽어 내려가듯"
 
 
 def pick_device() -> str:
@@ -108,16 +100,16 @@ def synth(model, sentences, tone: str = ""):
     기준 음성을 복제해서 만든다 — 톤 인자는 남겨 두었으나 쓰지 않는다.
     목소리는 works/voices 의 둘로 고정하고, 작품 성격은 그림과 문장이 낸다.
     """
-    plan = voice_plan(len(sentences))
+    import torch
     out = []
-    for s, key in zip(sentences, plan):
+    for s in sentences:
         try:
+            torch.manual_seed(SEED)       # 문장마다 같은 자리에서 시작해야 같은 목소리다
             wavs, sr = model.generate_custom_voice(
-                text=s.strip(), speaker=SPEAKER, language="Korean",
-                instruct=VOICES[key])
+                text=s.strip(), speaker=SPEAKER, language="Korean", instruct=VOICE)
             out.append((wavs[0], sr))
         except Exception as e:            # 한 문장 때문에 편 전체를 버리지 않는다
-            print(f"  ! 합성 실패({key}): {s[:20]}… {e}", file=sys.stderr)
+            print(f"  ! 합성 실패: {s[:20]}… {e}", file=sys.stderr)
             out.append(None)
     return out
 
