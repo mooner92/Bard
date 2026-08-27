@@ -92,3 +92,4 @@
 2026-08-27T08:26:27	gyeonu_jingnyeo	facts/auto_gyeonu_jingnyeo.txt	설화 견우직녀에서 만날 수 있습니다	Korean minhwa folk-painting style: night indigo, star silver, pale rose, soft flat washes. 	서늘	45s
 2026-08-27T10:39:01	piteopaen	facts/auto_piteopaen.txt	소설 피터팬에서 만날 수 있습니다	Edwardian storybook illustration: night indigo, nursery cream, star silver, warm amber, fine ink linework. 	생동	53s
 2026-08-27T13:03:34	minyeowa_yasu	facts/auto_minyeowa_yasu.txt	소설 미녀와 야수에서 만날 수 있습니다	18th-century French storybook illustration: snow white, forest green, deep rose red, warm amber, fine hatching. 	서늘	51s
+2026-08-27T18:59:32	eodum_sogui_bit	facts/auto_eodum_sogui_bit.txt	소설 성냥팔이 소녀에서 만날 수 있습니다	19th-century Danish storybook illustration: snow blue-white, window amber, night indigo, fine ink linework. 	서늘	69s

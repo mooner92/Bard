@@ -1,0 +1,185 @@
+{
+  "logline": "왕비의 거울이 다른 이름을 부르자, 어린 공주가 숲으로 보내진다.",
+  "destination": "숲속 일곱 사람의 오두막 — 공주가 숨어든 자리",
+  "protagonist": "검은 머리에 흰 살결의 어린 공주",
+  "setting": "중세 유럽의 성과 깊은 숲",
+  "anchor": "a young girl with black hair and very pale skin, plain patched dress",
+  "palette": "deep green, cold stone grey, deep velvet red, warm amber, snow white",
+  "voice": "ko-KR-JiMinNeural",
+  "personas": {
+    "snow": {
+      "label": "공주",
+      "desc": "a girl of about fourteen, straight black hair, very pale skin, plain patched grey dress",
+      "avoid": ""
+    },
+    "queen": {
+      "label": "왕비",
+      "desc": "a tall woman in her forties, dark hair coiled under a thin crown, deep red velvet gown",
+      "avoid": ""
+    },
+    "huntsman": {
+      "label": "사냥꾼",
+      "desc": "a broad bearded man in a leather jerkin and fur cloak, hunting knife at his belt",
+      "avoid": ""
+    },
+    "dwarfs": {
+      "label": "일곱 사람",
+      "desc": "seven short bearded men in rough woollen coats and caps, pickaxes over their shoulders",
+      "avoid": ""
+    },
+    "peddler": {
+      "label": "낡은 숄의 노파",
+      "desc": "a stooped old woman in a ragged brown shawl, basket on her arm, face half hidden",
+      "avoid": "왕비와 같은 사람으로 보이지 않게 한다"
+    },
+    "castle": {
+      "label": "성 안",
+      "desc": "a cold stone castle chamber, narrow windows, heavy tapestries"
+    },
+    "forest": {
+      "label": "깊은 숲",
+      "desc": "towering mossy trunks, ferns underfoot, little light reaching the ground"
+    },
+    "cottage": {
+      "label": "오두막",
+      "desc": "a tiny forest cottage with seven small windows, low door, smoke from the chimney"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "queen",
+        "castle"
+      ],
+      "beat": "왕비가 거울 앞에 서서 제 모습을 본다.",
+      "visual": "a crowned woman in dark velvet before a tall ornate mirror in a stone chamber",
+      "motion": "her reflection steadies in the glass"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "queen"
+      ],
+      "beat": "거울이 다른 이름을 비춘다.",
+      "visual": "a tall mirror clouding over before a crowned woman, a faint pale face forming in it",
+      "motion": "the clouded surface brightens steadily"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "snow",
+        "castle"
+      ],
+      "beat": "어린 공주가 부엌 바닥을 닦고 있다.",
+      "visual": "a black-haired girl in a patched dress scrubbing flagstones in a castle kitchen",
+      "motion": "her cloth moves steadily across the stone"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "queen",
+        "huntsman"
+      ],
+      "beat": "왕비가 사냥꾼을 불러 무언가 이른다.",
+      "visual": "a crowned woman leaning close to a bearded huntsman in a dim corridor",
+      "motion": "her hand tightens steadily on his sleeve"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "huntsman",
+        "snow",
+        "forest"
+      ],
+      "beat": "사냥꾼이 공주를 숲으로 데려간다.",
+      "visual": "a bearded huntsman walking a black-haired girl deep between mossy trees",
+      "motion": "they move steadily deeper along the path"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "huntsman"
+      ],
+      "beat": "사냥꾼이 칼을 내려놓고 돌아선다.",
+      "visual": "a bearded huntsman lowering a knife, his back turning toward the dark trees",
+      "motion": "his shoulders sink steadily as he turns"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "snow",
+        "forest"
+      ],
+      "beat": "공주가 홀로 나무 사이를 달린다.",
+      "visual": "a black-haired girl running between towering mossy trunks, branches closing behind",
+      "motion": "she runs steadily deeper into the trees"
+    },
+    {
+      "n": 8,
+      "cast": [
+        "cottage"
+      ],
+      "beat": "작은 오두막에 불이 켜져 있다.",
+      "visual": "a tiny cottage with seven small windows glowing in a forest clearing at dusk",
+      "motion": "the window light warms steadily"
+    },
+    {
+      "n": 9,
+      "cast": [
+        "snow",
+        "cottage"
+      ],
+      "beat": "공주가 작은 식탁 앞에 앉는다.",
+      "visual": "a black-haired girl seated at a very small table with seven little bowls",
+      "motion": "steam rises steadily from the bowls"
+    },
+    {
+      "n": 10,
+      "cast": [
+        "dwarfs",
+        "snow"
+      ],
+      "beat": "작은 사람들이 문간에 모여 선다.",
+      "visual": "seven short bearded men crowded in a cottage doorway looking at a seated girl",
+      "motion": "they press steadily forward in the doorway"
+    },
+    {
+      "n": 11,
+      "cast": [
+        "queen"
+      ],
+      "beat": "왕비가 낡은 숄을 두른다.",
+      "visual": "a crowned woman pulling a ragged shawl over her velvet gown before a mirror",
+      "motion": "the shawl settles steadily over her shoulders"
+    },
+    {
+      "n": 12,
+      "cast": [
+        "peddler",
+        "cottage"
+      ],
+      "beat": "낯선 노파가 오두막 문을 두드린다.",
+      "visual": "a stooped woman in a ragged shawl at a cottage door, a basket on her arm",
+      "motion": "her knuckles rap steadily at the door"
+    },
+    {
+      "n": 13,
+      "cast": [
+        "snow",
+        "peddler"
+      ],
+      "beat": "노파가 붉은 사과 하나를 건넨다.",
+      "visual": "a stooped woman holding out a red apple to a black-haired girl in a doorway",
+      "motion": "the apple moves steadily toward the girl"
+    },
+    {
+      "n": 14,
+      "cast": [],
+      "beat": "빈 오두막 앞에 사과 하나가 놓여 있다.",
+      "visual": "a single red apple lying on a cottage doorstep, seven small windows dark behind",
+      "motion": "shadow creeps steadily across the doorstep"
+    }
+  ],
+  "withheld": "사과를 베어 문 뒤에 벌어지는 일과, 공주를 깨우는 것"
+}

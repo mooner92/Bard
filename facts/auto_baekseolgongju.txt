@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 백설공주 / 그림 형제 /   /
+[줄거리와 배경]
+1812년 그림 형제의 동화. 거울이 다른 이름을 부르자 왕비가 어린 공주를 숲으로 보내고, 공주는 일곱 사람의 오두막에 숨어든다.
+[줄거리]
+줄거리와 인물은 works/handwritten/baekseolgongju/treatment.json 에 열네 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.
