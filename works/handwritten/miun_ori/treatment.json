@@ -1,0 +1,181 @@
+{
+ "logline": "잿빛이라 미움받던 새끼 오리가 제 모습을 찾아가는 사계절",
+ "destination": "동화 미운 오리 새끼에서 만날 수 있습니다",
+ "protagonist": "duckling",
+ "setting": "19세기 덴마크 시골 — 장원 해자, 오리 마당, 늪, 정원",
+ "prompt_style": "detail",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "reed green, pale gold, soft ash grey, warm blush pink, cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "duckling": {
+   "desc": "an oversized grey cygnet everyone takes for a duckling: a body already half again as large as their yellow young, covered in dull slate-grey down with brownish mottling along the back; a longish neck he keeps folded low against his shoulders, wide-set dark eyes, a broad dark bill with a pale nail at its tip, dusky olive webbed feet too big for his stance, and stubby wings that sit low on his sides; he carries himself hunched with his head drawn in, walks with a rolling tip-heavy waddle, paddles with more power than grace so his wake runs deeper than the other birds', and when the yard turns on him he flattens his neck along his back and makes himself small; alone on open water he forgets the habit and rides tall for a moment before folding down again"
+  },
+  "young_swan": {
+   "desc": "a young swan in his first full white: plumage snow white with a faint ivory warmth, a long supple neck carried in a shallow curve, black legs and broad black-webbed feet, a bill of soft lead grey warming toward dull orange at the base, dark eyes set in a fine bare line to the bill; broad wings whose flight feathers stack in clean white blades above the tail; he still holds his head a little low out of old farmyard habit, so his grace looks borrowed until the water carries him and the long neck rises into its natural arc"
+  },
+  "mother_duck": {
+   "desc": "a plump white farm duck with an orange bill and orange webbed feet, breast feathers loosened from long sitting, small patient dark eyes; she tends a nest of down and dry straw with her bill, rolling each egg beneath her with slow care, and settles over the clutch with a shuffling side-to-side rock until the whole nest disappears under her"
+  },
+  "swans": {
+   "desc": "three grown white swans, snow white from crown to tail, wings held in soft raised arcs over their backs, necks in tall even curves, orange-red bills edged black at the base with a low black knob above the nostrils; their glide spends its effort below the waterline so they seem simply carried, wakes drawing out behind them like folds of silk, and they greet by dipping their heads in slow unison"
+  },
+  "canal_bank": {
+   "desc": "the bank of a winding moat-canal below an old Danish manor, the water dark green and still, duckweed gathered at the margins; great burdock leaves stand taller than a child all along the bank, layered like green parasols, and beneath them sits a nest of down and dry straw; summer light falls through the leaves in soft green window-panes, and the manor's steep red roofs show far off through the stems"
+  },
+  "duckyard": {
+   "desc": "a farm duckyard fenced with weathered grey planks, packed bare dirt, a long wooden feed trough, straw drifted into the corners; white ducks and brown hens crowd the ground, among them one stout matron duck with a scrap of red rag tied about her leg; low afternoon sun puts long shadows and hanging dust in the air, and a narrow gap opens between two fence planks near the nettle patch"
+  },
+  "marsh": {
+   "desc": "a wide open marsh far from any farm: flat dark water ringed by grey-green reed beds, a low northern sky pressing down to the horizon, wild ducks keeping always to the far side; in autumn the reed heads brown and lean, and in winter snow bends them over black open water that glassy new ice narrows ring by ring"
+  },
+  "garden": {
+   "desc": "an old garden in earliest May: apple trees in full white bloom, lilac bushes heavy with scent hanging long green branches down over a winding canal of clear water, a mown lawn sloping to the stone-edged bank; loose petals drift off the trees and ride the surface, and the still water holds the blossom and the sky in one clean mirror"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "mother_duck",
+    "canal_bank"
+   ],
+   "beat": "어미 오리가 우엉 잎 그늘 둥지에서 알을 품는다",
+   "visual": "high summer on the bank of the winding moat-canal below the old manor: great burdock leaves arch overhead like layered green parasols, the light coming through them in soft green window-panes; in their shade the plump white farm duck sits her nest of down and dry straw, breast feathers loosened, small dark eyes half closed; around her rim of the nest lie several smooth pale eggs, and at its edge one egg plainly larger than the rest, dull greenish and heavy-looking, tipped against the straw; beyond the leaf shade the canal lies dark green and still with duckweed gathered along the margin, dragonflies hanging over the water, the manor's steep red roofs far off through the burdock stems; the whole bank drowses in afternoon warmth, and the big egg sits in the one spot of full shade like something set apart",
+   "motion": "the mother duck works her orange bill down under the big egg and rolls it beneath her in one slow careful turn, the straw creaking softly as the weight comes over, her body following with a shuffling side-to-side rock until the egg disappears under her loosened breast feathers; the burdock leaves sway a finger's width on their stems, the canal beyond keeps its dark stillness, and the camera pushes in slowly beneath the leaves"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "duckling",
+    "mother_duck",
+    "canal_bank"
+   ],
+   "beat": "가장 큰 알에서 잿빛 새끼가 나온다",
+   "visual": "close under the burdock canopy, the nest filling the frame: a clutch of tiny yellow ducklings already dry and bright, crowded to one side, and in the middle the big greenish egg tipped over with its halves shouldered apart; half out of it leans a newborn utterly unlike the rest — half again their size, wet slate-grey down darkened along the back, a broad dark bill, wide-set dark eyes still blinking at the light, one oversized olive webbed foot braced against the shell rim; the mother duck stands over the nest with her head tilted, orange bill parted, looking from the grey newcomer to her yellow brood and back; green filtered light moves over them as the leaves stir, straw and down scattered bright at the nest rim, the dark canal a soft band beyond",
+   "motion": "the grey hatchling shoulders the last of the shell apart in one slow heaving push, the two halves tipping wide as he levers himself up on trembling legs, wet down lifting from his back in drying tufts, his head rising and wobbling on the long neck while the yellow ducklings shuffle a step back in a small crowding wave; the mother's tilted head follows his rise, the burdock light plays over the straw, and the camera holds close at nest height"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "duckling",
+    "duckyard"
+   ],
+   "beat": "오리 마당의 오리들이 잿빛 새끼를 밀어내고 쪼려 든다",
+   "visual": "the farm duckyard in low afternoon sun: packed bare dirt, the long wooden feed trough, weathered grey plank fence, straw drifted in the corners and dust hanging gold in the light; at the center the grey duckling stands hunched with his neck flattened along his back, head drawn in, one foot half lifted, twice the size of the yellow ducklings peeking from behind the trough yet folded down small; around him a ring of white ducks presses close with bills open and wings half raised, the stout matron duck with the red rag on her leg foremost, her bill aimed at his back; brown hens crane from the trough edge, feathers and chaff turning in the stirred air, long shadows striping the dirt between the birds; over the fence the quiet green of the fields shows in one narrow band",
+   "motion": "the ring of white ducks tightens step by shuffling step, open bills jabbing the air just short of the grey duckling's back while their half-raised wings beat up slow curls of dust, the matron's red rag swinging at her leg with each stamp; the duckling folds lower and lower, his flattened neck pressing along his back, his lifted foot easing down as he shrinks; the hens at the trough crane and freeze, and the camera circles the ring slowly at bird height"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "duckling",
+    "duckyard"
+   ],
+   "beat": "새끼가 울타리 틈으로 마당을 빠져나간다",
+   "visual": "evening at the duckyard fence: the narrow gap between two weathered planks near the nettle patch glows with the last amber light from the open fields beyond; the grey duckling is halfway through it, body wedged low, grey down catching and combing against the plank edges, one olive webbed foot reaching ahead into the grass while his tail and folded wings still hang inside the yard; behind him the yard has gone to long blue shadow — trough, straw heaps and the pale shapes of dozing ducks blurred in the dusk — while ahead the field falls away toward the dark reed line of the marsh under a thin orange sky; nettle leaves lean over the gap, a moth hangs in the warm band of light, and the duckling's wide dark eye is fixed on the open ground ahead; overhead the first pale star stands in the thin orange sky, and swallows cut high above the field",
+   "motion": "the duckling pushes through the gap in one long steady wriggle, plank edges combing waves through his down from shoulder to tail as his reaching foot finds the grass and drags the rest of him out; free of the boards he gathers himself and waddles fast down the darkening slope, wings paddling the air for balance, nettles nodding closed behind him over the gap; the yard stays still in its blue shadow, and the camera tracks low beside him into the field"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "duckling",
+    "marsh"
+   ],
+   "beat": "잿빛 새끼가 갈대 늪에서 혼자 헤엄친다",
+   "visual": "the wide marsh under a low grey-green sky: flat dark water opening between reed beds that ring the frame, their green heads just starting to brown at the tips; in the middle distance the grey duckling swims alone, small against all that water, neck folded low, his wake running deeper and longer than so small a bird should draw; far across on the other side a raft of wild ducks keeps to the reed shadow, heads up, plainly apart from him; the sky presses flat to the horizon with one pale seam of light, single reeds stand out of the water like set brush-strokes, and rings from his paddling spread wide and die away into stillness around him; the whole scene is grey, green and very quiet, the one grey bird the loneliest mark in it; a lone heron stands hunched far off at the reed corner like one more grey post in the water",
+   "motion": "the duckling paddles in a slow steady beat, his deep wake unrolling behind him and the spreading rings lapping faintly against the reed stems as he passes; midway he pauses, rides tall on the water for one unguarded moment with his neck at full height, then folds himself low again and paddles on; the wild ducks across the water hold their line in the reed shadow, the sky keeps its flat light, and the camera looks down the length of his wake from high and slowly sinks"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "duckling",
+    "marsh"
+   ],
+   "beat": "새끼가 하늘을 나는 눈처럼 흰 새들을 본다",
+   "visual": "autumn evening over the marsh, the sky gone to deep gold and rose with long violet cloud-bars: high across it moves a wedge of great white birds, snow-bright against the colour, long supple necks stretched straight ahead, broad wings rising and falling in slow unison, their line drawn from one corner of the sky toward the warm south; below on the darkening water the grey duckling has risen tall, breast lifted clear, neck craned to its full length after them, one stubby wing half opened, his black silhouette rimmed in gold; the browned reed heads lean all one way in the evening air, the water carries broken bars of the sunset between them, and the distance between the small dark bird on the water and the white line in the sky fills the whole frame",
+   "motion": "the white wedge glides across the sky in one slow unbroken diagonal, wingbeats rolling along the line bird by bird, while below the duckling's neck stretches higher and higher and his body turns in the water to follow them, his half-opened wing trembling, the turn drawing a slow circle of ripples around him; the reeds lean quietly, the gold light deepens by one shade, and the camera holds the little silhouette low in the frame under the crossing birds"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "duckling",
+    "marsh"
+   ],
+   "beat": "새끼가 얼어붙는 웅덩이를 밤새 맴돈다",
+   "visual": "deep winter night on the marsh: snow has bent the reeds into white hoops, and in the middle of the ice sheet one small circle of black open water remains, its rim of new glassy ice catching the moon; the grey duckling paddles round and round inside it, breast pushing a low bow-wave, breath steaming in short clouds, down puffed thick against the cold, his wake striking tiny sparks of moonlight off the ripples; around the hole the ice lies pale and patterned with frozen bubbles, the snowbanks blue-white under a high small moon, the reed hoops throwing thin curved shadows; the open circle is plainly smaller than the track his circling has worn, its edge creeping inward, and his dark eye shows wide and fixed as he swims against the narrowing rim",
+   "motion": "the duckling circles the shrinking hole in a steady laboured rhythm, each paddle stroke churning the black water while the glassy rim creeps inward behind his tail, his breath puffing in time with the strokes and frost feathering across the new ice in slow blooms; the moon holds still over the snowbanks, the bent reeds keep their hoops of shadow, and the camera looks down on the small circling bird from just above the ice"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "duckling",
+    "marsh"
+   ],
+   "beat": "웅덩이 곁 눈 덮인 갈대밭에서 웅크린 밤",
+   "visual": "the last hour of a winter night: beside the frozen-over pool the grey duckling sits tucked into a ball in the lee of the snow-bent reeds, down puffed until he is nearly round, bill buried back under one stubby wing, half sunk in a scooped hollow of snow; the reed hoops arch over him weighted white, and past them the marsh runs out flat and blue-dark to the horizon under thinning stars; snow lies in a fine dry dust over his back and does not melt; the black pool beside him has closed to a seam of grey ice, and the only warmth in the whole frame is the one dark eye showing above the wing, open a slit toward the east where the sky holds the first watery band of paling light; a fox's line of prints crosses the far snowbank and disappears into the reeds, old and half filled with new snow",
+   "motion": "almost nothing moves: the round grey body swells and sinks with slow breathing under its dusting of snow, single dry flakes drifting down through the reed hoops, one bent reed nodding under its load, the pale band in the east brightening by the smallest degree; the marsh, the ice seam and the stars hold still, and the camera creeps forward at snow height toward the tucked bird through the whole shot"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "young_swan",
+    "marsh"
+   ],
+   "beat": "봄이 온 갈대밭에서 날개에 힘이 차오른다",
+   "visual": "the marsh unlocked by early spring, ice gone to bright open water between green-shooting reeds under a tall washed-blue sky: the young bird climbs from the water mid-takeoff, and he is changed — body long and pale, first white driving through the last grey of the down, neck stretched far ahead, and his wings, suddenly broad and long-feathered, caught at the top of a full powerful beat; water streams from his black webbed feet in bright ropes, his wake runs torn and glittering behind him, and the down-wash of the wingbeat flattens a fan of shivering rings on the surface below; the reed line drops away beneath his climb, high small clouds stand in the blue, and the light through his spread flight feathers shows them clean white to the tips; below him his own hurrying shadow crosses the bright water and ripples over the reed tops",
+   "motion": "the great wings drive down and sweep up in deep continuous beats, each stroke lifting him higher off the water while the bright ropes of water from his trailing feet thin and shear away, the flattened fan of rings racing outward beneath every down-stroke; his neck reaches steadily forward, the reed line sinks in the frame, and the camera rises with him, keeping the beating wings large against the washed-blue sky"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "young_swan",
+    "garden"
+   ],
+   "beat": "힘찬 날개로 사과꽃 핀 정원 물길에 내려앉는다",
+   "visual": "the old garden in earliest May seen along its winding canal: apple trees in full white bloom lean from the lawn on both sides, lilac bushes hang their long green branches down over the clear water, and loose petals ride the surface in slow drifts; down the middle of this the young white bird comes in low on set wings, neck reaching, black feet lowered and skimming, a bright furrow of spray opening behind them as he brakes along the water in one long hissing glide; petals scatter aside along his line, the mirror surface folds into rolling glassy waves that run out under the lilac shade, and the blossom, the green bank and his own white shape all sway together in the broken reflection; sunlight falls warm and clean over the lawn, and the garden closes around the canal like a room made of flowers",
+   "motion": "the glide runs its whole length in one continuous braking slide, feet ploughing a narrowing furrow of spray, set wings tilting in small corrections and folding by degrees as his speed dies, breast settling lower until he rides the water; the rolling waves of his arrival widen away under the lilacs carrying petals with them, the blossom overhead holds still, and the camera tracks beside him at water level the whole way down the canal"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "young_swan",
+    "swans",
+    "garden"
+   ],
+   "beat": "물길 위로 흰 백조 세 마리가 다가온다",
+   "visual": "the canal under the hanging lilacs: out of their green shade three grown swans come gliding toward the young bird, snow white, wings held in soft raised arcs over their backs, necks in tall even curves, orange-red bills edged black at the base; their three wakes draw out behind them like folds of silk and merge into one broadening vee on the petal-strewn water; the young swan floats low and still in the near ground, white now but holding his head down in the old farmyard habit, his half-turned eye on the approaching three; the clear water carries all four birds doubled in reflection among the drifting petals, the apple bloom banks the scene in white, and the space of open water between the three and the one narrows down the middle of the frame",
+   "motion": "the three swans glide steadily nearer without one visible stroke, their merged wake widening behind them while the petals rock gently aside along their breasts, and as they come they dip their heads in slow unison in greeting; the young bird holds his place on the water, his low-held head lifting by small degrees as the space between them closes; the lilac shade and the mirrored blossom hold still, and the camera watches down the narrowing lane of water between them"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "young_swan",
+    "swans",
+    "garden"
+   ],
+   "beat": "잿빛 새는 백조 앞에 고개를 숙이고 물을 본다",
+   "visual": "close on the young swan at the middle of the canal, the three grown swans standing off around him in a loose white crescent, their necks tall and their reflections framing his; he is bowing — the long neck curving down and forward in a deep arc, head sinking toward the mirror-calm water between his folded wings, dark eye half closed, the lead-grey bill nearly touching its own rising image; the water here lies utterly smooth, holding the white crescent of swans, the hanging lilac, the apple bloom and the pale sky in one unbroken reflection around the descending head; single petals rest on the surface like set stars, the light is soft and full, and everything in the frame — birds, garden and mirrored garden — waits on the small closing distance between the bill and the water",
+   "motion": "the neck curves downward in one slow continuous bow, the head sinking evenly toward the still water while the reflection rises to meet it, the gap thinning to a hand's width, a finger's width; the three swans hold their crescent without a stroke, the petals rest where they lie, the lilac shade keeps its stillness, and the camera closes gently on the narrowing space between the dark eye and its risen double"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "young_swan",
+    "garden"
+   ],
+   "beat": "물에 비친 눈부신 흰 새",
+   "visual": "the water itself fills the frame, mirror-calm and lit from within by the pale sky: centered in it the reflection stands sharp and whole — a snow-white bird with a long supple neck in a clean arc, broad white wings folded in soft blades, dark eyes set in a fine line to a lead-grey bill, every feather rimmed with morning light; around the image the reflected apple bloom and hanging lilac make a white and green wreath, single petals resting on the surface between; at the top edge of the frame the real bill and the real dark eye lean into view, close and large, a bead of water hanging from the bill tip above its own mirrored twin; the reflection is brighter than the bird dares to be, whole where he is hunched, and it holds the middle of the water like a lamp",
+   "motion": "the last fine ripples smooth themselves outward and away, the reflected white bird sharpening and steadying in the glassy water as they go, the bead of water at the bill tip trembling, stretching and joining its mirrored twin in one soft ring that widens over the image and lets it settle clearer than before; the petals drift by a petal's width, nothing else stirs in the wreathed reflection, and the camera holds locked on the bright image the whole shot"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "garden"
+   ],
+   "beat": "꽃잎 내린 정원 물길",
+   "visual": "the garden canal in full morning, wide and still: apple petals lie scattered down the whole length of the bright water, lilac branches hang low over their own reflections, and in the middle distance four white swans ride together in a loose calm group, necks in tall curves, wakes faded to nothing; the lawn slopes mown and green to the stone-edged bank, blossom banks the water in white on both sides, and the clear surface gives back swans, flowers and washed-blue sky in one unbroken mirror; a single petal rests on the stone edge in the near ground, the light lies warm across everything, and the whole frame holds the quiet of a story that has just found its ending place; a blackbird sits singing in the apple bloom, throat trembling, small and dark among all the white",
+   "motion": "only the gentlest life moves: petals turning slowly on the bright water, one lilac branch swaying a leaf's width over its reflection, the four distant swans drifting closer together by a breast's width in the calm; the mirror surface, the blossom and the sloping lawn hold their stillness, and the camera keeps one long motionless frame while the morning light very slowly warms"
+  }
+ ],
+ "withheld": "정원의 아이들이 새로 온 백조를 보고 외친 말"
+}
