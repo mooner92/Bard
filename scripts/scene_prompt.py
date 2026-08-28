@@ -46,8 +46,13 @@ def personas() -> dict:
         return {}
 
 
-def _fit(parts, limit=2600) -> str:
-    """쉼표 경계에서 자른다. 낱말 중간이 잘리면 모델이 엉뚱하게 읽는다."""
+def _fit(parts, limit=1900) -> str:
+    """쉼표 경계에서 자른다. 낱말 중간이 잘리면 모델이 엉뚱하게 읽는다.
+
+    한도 1900: 영상 모델의 텍스트 창은 UMT5 512토큰(영문 약 2000자)이다.
+    2600자로 조립하던 동안 두 번째 인물의 묘사가 반쯤 잘리고 화풍 접미가
+    창 밖으로 밀려났다(실측: 빨간 모자 — 늑대의 귀가 소녀 머리에, 호박색
+    눈이 베개의 털뭉치에 붙었다). 1900자 + 화풍 접미 ≈ 500토큰으로 창 안에 든다."""
     out = ""
     for p in parts:
         p = (p or "").rstrip(".").strip()
@@ -95,7 +100,9 @@ def from_treatment(tre: dict, index: int) -> str:
                 continue
             d = (entry.get("desc") if isinstance(entry, dict) else str(entry)).strip()
             if d and not HANGUL.search(d):
-                who.append(d)
+                # 전문은 사전용이다. 컷에는 앞 340자(쉼표 경계)만 싣는다 —
+                # 배역의 첫 340자에 실루엣·복색 핵심을 몰아 쓰는 이유.
+                who.append(_fit(d.split(", "), 340))
         parts = [shot, *who, (tre.get("palette") or "").strip()]
     else:
         # 사람이 없어야 할 컷에까지 앵커를 붙이면 모델이 사람을 밀어 넣는다
