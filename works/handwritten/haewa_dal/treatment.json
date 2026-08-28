@@ -3,32 +3,33 @@
   "destination": "우물가 큰 나무 꼭대기 — 하늘로 이어지는 자리",
   "protagonist": "무명 저고리를 입은 열 살 남짓 오빠",
   "setting": "옛 조선의 산속 오두막과 우물가",
+  "prompt_style": "detail",
   "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
   "palette": "deep indigo, pale silver, hanji cream, deep green, warm amber",
   "voice": "ko-KR-JiMinNeural",
   "personas": {
     "brother": {
       "label": "오빠",
-      "desc": "a Korean boy of about ten, short topknot, undyed hemp jeogori and trousers, straw shoes",
+      "desc": "a Korean boy of about ten years old from a late Joseon mountain village, slight build with thin wrists and sun-browned skin, a round face with full cheeks, alert dark brown eyes under straight brows, a small flat nose and lips pressed together in worry, black hair drawn back into a short braided queue with fine loose strands at the temples, wearing an undyed hemp jeogori jacket the colour of pale oatmeal with a visibly coarse weave, tied at the right of the chest with a flat cloth knot and patched at the left elbow with a darker square of cloth, wide hemp trousers gathered at the ankles with narrow cloth ties, woven straw sandals over bare feet, small hands with earth under the fingernails from farm work, he stands about a head taller than his sister and keeps himself between her and whatever he watches, shoulders squared forward, chin slightly lowered, the stance of a child doing a grown man's guarding",
       "avoid": ""
     },
     "sister": {
       "label": "여동생",
-      "desc": "a Korean girl of about six, twin braids, patched hemp dress, bare feet",
+      "desc": "a Korean girl of about six from the same Joseon farm household, very small and light, a round soft face with wide dark eyes and short lashes, cheeks flushed from running, a small mouth open a little as she breathes, black hair parted cleanly down the middle and woven into two short braids tied with plain red thread, the braids resting in front of her shoulders, wearing a patched knee-length hemp dress in undyed pale cloth over short trousers, the hem fraying softly, bare feet with small toes gripping the ground, one fist always closed on her brother's sleeve, her body half hidden behind his, her movements quick and birdlike, head turning in small darting motions toward every sound",
       "avoid": ""
     },
     "tiger": {
       "label": "호랑이",
-      "desc": "a huge orange tiger with bold black stripes and heavy paws, minhwa folk-painting style",
+      "desc": "a huge Korean tiger painted in the bold flat manner of minhwa folk art, the body long and heavy with thick forelegs and wide paws the size of iron pots, a coat of warm persimmon orange crossed by broad soot-black stripes that curve like single brush strokes, a ruff of pale cream fur framing the jaw and chest, round golden eyes with small pupils set wide apart giving the face the staring, slightly comic quality of old folk paintings, long white whiskers spread like the ribs of a fan, small rounded ears edged in black, heavy white teeth behind dark lips, a thick banded tail carried low with a hook at the tip, it moves with muscular slowness, shoulder blades rising and sinking alternately under the striped coat, huge and weighty rather than sleek, closer to a mountain spirit than to a zoo animal",
       "avoid": "피·상처는 그리지 않는다"
     },
     "hut": {
       "label": "산속 오두막",
-      "desc": "a small thatched hut on a dark mountainside, one paper window glowing"
+      "desc": "a small one-room thatched hut on a dark mountainside, clay-plastered walls over woven lath showing the sweep of hand smoothing, a low door of rough pine planks with a wooden latch, one small window papered with hanji and glowing faint amber from an oil lamp inside, a thick shaggy thatch roof with a mossy ridge line, a flat stone step before the door, split firewood stacked under the eave, and close behind the hut a wall of dark pine rising into the night"
     },
     "big_tree": {
       "label": "우물가 큰 나무",
-      "desc": "a huge old tree beside a round stone well, moonlit clearing"
+      "desc": "a huge old zelkova tree beside a round stone well in a moonlit clearing, the trunk as wide as a doorway with deeply fissured grey bark and moss seated in the cracks, the first branches beginning at twice a man's height and opening into a broad layered crown, roots surfacing around the base like knuckles under the packed earth, the well ringed with flat stacked stones, a wooden bucket resting on the rim with its rope coiled, pale moonlight pooling on the clearing floor"
     }
   },
   "beats": [
@@ -40,8 +41,8 @@
         "hut"
       ],
       "beat": "오누이가 산속 오두막에서 어머니를 기다린다.",
-      "visual": "a young boy and his little sister at a hut door looking down a dusk mountain path",
-      "motion": "their eyes follow the path steadily downhill"
+      "visual": "wide establishing shot at blue dusk on a Joseon mountainside, the thatched hut sits in the left third of the frame with its hanji window glowing warm amber from the lamp inside, the boy and his small sister stand together on the flat stone step at the open door, the boy in front with one hand resting on the doorframe and his weight on his forward foot, the girl close behind him with her fist wound into his sleeve, both faces turned toward the narrow footpath that switchbacks down the right of the frame and dissolves between dark pine trunks, thin grey woodsmoke rising from the roof ridge in one ribbon, the sky holding the last cold blue of evening above black layered ridgelines, a low crescent moon, pale stones and dry winter grass along the path edge in the foreground, the palette restrained to hanji cream, deep indigo and one warm window accent, flat folk-painting depth with soft edges",
+      "motion": "the children keep their place on the step while their heads turn slowly together, tracking along the empty path from the near stones out to where it vanishes in the pines, the girl's braids swing gently with the turn of her head, the ribbon of woodsmoke climbs and leans as one piece in the evening air, the lamp glow behind the hanji window breathes very slightly, and the camera holds a quiet fixed wide view"
     },
     {
       "n": 2,
@@ -50,18 +51,19 @@
         "hut"
       ],
       "beat": "문밖에서 낯선 목소리가 어머니 흉내를 낸다.",
-      "visual": "a huge striped tiger crouched at a hut door, one paw raised to the wood",
-      "motion": "its paw rests steadily against the door"
+      "visual": "night has settled, a medium-wide shot along the front wall of the hut, the huge minhwa tiger fills the right half of the frame crouched low before the plank door, its striped body compressed like a loaded spring, one enormous forepaw lifted and resting flat against the pine boards at the height where a mother would knock, its head tilted toward the door seam, golden staring eyes narrowed, whiskers brushed forward against the wood grain, the cream ruff at its chest catching faint amber that leaks from the papered window at frame left, its banded tail lying along the ground behind it with the hooked tip raised, the stone step and stacked firewood between tiger and lamp light, deep indigo darkness swallowing the pine wall behind, moonlight rimming the ridge of its back in pale silver, the composition heavy on the right and glowing softly on the left",
+      "motion": "the lifted forepaw stays pressed to the boards while the tiger's head rolls slowly from the door seam toward the glowing window and back, throat working as it mimics a call, the whisker tips dragging faint arcs against the wood, its ribs swelling and sinking in a long patient rhythm, the tail tip hooking and unhooking slowly, everything else in the night holding still, camera fixed"
     },
     {
       "n": 3,
       "cast": [
         "brother",
-        "sister"
+        "sister",
+        "hut"
       ],
       "beat": "문틈으로 내다본 오누이가 숨을 삼킨다.",
-      "visual": "two children peering through a door crack, eyes wide in lamplight",
-      "motion": "their eyes widen steadily at the crack"
+      "visual": "tight interior shot inside the dim hut, lit by a single oil lamp on the floor behind the children so their faces carry warm rim light against deep shadow, the boy kneels at the plank door with one eye set to the vertical gap between boards, his hands braced flat either side of the crack, the girl pressed against his back with both fists in his jacket and her cheek between his shoulder blades, through the door crack a thin bright sliver of moonlit yard is visible and within it a band of persimmon orange and black stripe, the interior walls of smoothed clay holding faint lamp warmth, a folded sleeping mat and a low shelf with two bowls in the background shadow, the children's wide eyes the brightest points of the frame, hanji cream and deep umber palette, close and airless framing that keeps the door crack just off centre",
+      "motion": "the boy's eye stays fixed to the crack while his hands slide a little wider on the boards, pressing his cheek closer to the wood, the girl's grip twists deeper into the back of his jacket as she pulls herself in, the lamp flame behind them leans once and rights itself, sending their shadows swaying across the clay wall, and the sliver of stripe beyond the crack drifts slowly across the gap"
     },
     {
       "n": 4,
@@ -70,8 +72,8 @@
         "sister"
       ],
       "beat": "오누이가 뒷문으로 빠져나와 내달린다.",
-      "visual": "a boy pulling his sister by the hand out a back door into moonlit brush",
-      "motion": "they run steadily into the brush"
+      "visual": "medium tracking composition at the rear of the hut under full night, the small back door hangs open behind the children as they run toward the camera through waist-high dry brush silvered by moonlight, the boy ahead by half a stride gripping his sister's wrist, his queue of braided hair flying behind his neck, jacket ties streaming, the girl's twin braids lifted level with her shoulders by the speed, her free arm swinging wide for balance, bare and straw-shod feet caught mid-stride above the pale grass, stalks bending away from their knees, the hut and its faint window shrinking at frame top left, black pine mass rising to either side like walls, a scatter of moonlit stones marking the path they are cutting, cold indigo and silver palette with the two small warm figures at centre, energy angled diagonally from upper left to lower right",
+      "motion": "the children drive forward through the brush in one continuous flight toward the lower right of the frame, knees lifting high, the boy hauling his sister's wrist so she swings a half step sideways at each stride, both braids and jacket ties streaming and bouncing with the rhythm of running, dry grass heads whipping back along their wake, the camera drifting slowly backward just ahead of them"
     },
     {
       "n": 5,
@@ -81,8 +83,8 @@
         "big_tree"
       ],
       "beat": "오누이가 우물가 큰 나무로 기어오른다.",
-      "visual": "two children climbing the trunk of a huge tree beside a stone well, moonlight",
-      "motion": "they climb steadily up the trunk"
+      "visual": "wide night shot of the moonlit clearing, the great zelkova rising through the centre of frame with its fissured grey trunk lit silver on the moon side and black on the other, the round stone well at its foot with the bucket rope coiled on the rim, the boy already at the first great branch fork straddling it and reaching both arms down, the girl halfway up the trunk beneath him, her bare toes set into a bark fissure, one hand in her brother's grip and the other flat against the moss, her dress hem swinging clear of the roots below, the surfaced roots spreading from the base like knuckles over the packed earth, deep pine darkness ringing the clearing beyond, a few dry leaves resting on the well stones, palette of pale silver, bark grey and hanji cream, the two small figures bright against the monumental trunk, composition vertical and ladder-like",
+      "motion": "the girl walks her feet up the fissured bark one toehold at a time while her brother, anchored in the branch fork, draws her steadily upward by the wrist, her free hand sliding from hold to hold, her dress hem swaying with each push, the bucket rope on the well rim trembling faintly where her foot brushed it in passing, moon shadow of the climbing pair creeping slowly up the trunk beside them"
     },
     {
       "n": 6,
@@ -91,17 +93,18 @@
         "big_tree"
       ],
       "beat": "호랑이가 나무 밑까지 쫓아온다.",
-      "visual": "a striped tiger circling the base of a huge tree, head craned upward",
-      "motion": "it circles the trunk steadily"
+      "visual": "low ground-level shot at the foot of the zelkova, the tiger enormous in frame circling the trunk with its body wrapped a third of the way around it, head craned vertically upward so the pale throat and the underside of its jaw show, golden eyes locked on the dark crown overhead, whiskers spread wide, one forepaw planted on a surfaced root with the toes spread and claw tips just showing, the striped flank compressed against the bark, tail sweeping low across the packed earth, high above in the branch shadow two small pale faces just visible looking down, the stone well cut off at frame left, moonlight dropping through gaps in the crown and printing leaf shapes across the tiger's back, the clearing beyond fading to pine black, palette of persimmon orange against silver and deep grey, the composition pressing all its weight around the base of the trunk",
+      "motion": "the tiger flows around the trunk in one slow continuous circle, shoulder blades rising and sinking under the striped coat, its craned head staying fixed on the children so the neck rotates against the direction of the body, the planted forepaw kneading the root with spreading toes, leaf-shaped moon spots gliding across its back as it moves, its low tail drawing a smooth arc in the dust behind"
     },
     {
       "n": 7,
       "cast": [
-        "tiger"
+        "tiger",
+        "big_tree"
       ],
       "beat": "호랑이가 참기름을 바르고 미끄러진다.",
-      "visual": "a tiger sliding back down a glistening tree trunk, claws leaving long marks",
-      "motion": "it slides steadily back down the trunk"
+      "visual": "mid shot up the lower trunk, the tiger caught in the act of losing its climb, forelegs stretched high on bark that glistens with a sheen of sesame oil, wet highlights running in vertical streaks where its paws have already slipped, its body braced at a steep diagonal across the frame with hindquarters bunched against a root, the great head thrown back in a comic minhwa grimace, eyes wide and crossed with effort, whiskers bent upward, long pale claw marks scored down the oily bark above its paws, flakes of moss dislodged and resting on its shoulders, the children's perch high above out of frame so the tiger's failure owns the composition, moonlight catching the oil sheen in cold sparkles against the warm orange coat, the well rim edging into frame bottom left, palette contrast pushed between wet silver and persimmon",
+      "motion": "the tiger slides slowly and helplessly back down the glistening trunk in one long defeated descent, forepaws dragging twin streaks through the oil sheen, claws raking without purchase, hindquarters folding onto the root as its weight settles downward, moss flakes riding its shoulders down, its thrown-back head shaking slowly with the effort, the oiled bark gleaming steadily above"
     },
     {
       "n": 8,
@@ -110,8 +113,8 @@
         "big_tree"
       ],
       "beat": "호랑이가 도끼로 발판을 찍으며 오른다.",
-      "visual": "a tiger hauling itself up a tree trunk notch by notch, children high above",
-      "motion": "it hauls itself steadily higher"
+      "visual": "dramatic low-angle shot up the trunk against the moonlit crown, the tiger now climbing with grim method, gripping a small hand axe absurdly in one forepaw in the manner of folk-tale beasts, a ladder of fresh pale notches climbing the grey bark beneath it where blade has bitten wood, its hind feet set on the lowest notches and its striped body stretched to full terrible length up the trunk, head craned back to sight the next hold, teeth showing white, the children visible now as two small huddled shapes at the top of the frame clinging to a swaying branch fork, their pale clothes bright against the black crown, chips of pale wood resting on the roots far below, the moon framed between branches, palette of silver, bark grey and burning orange, vertical composition strung tight between hunter below and children above",
+      "motion": "the tiger hauls itself upward one notch at a time in a slow relentless rhythm, hind feet stepping up into each fresh foothold as the axe paw reaches and sets the next, its stretched body bunching and lengthening like a spring with every gain, the branch fork above trembling harder as the distance closes, wood chips drifting down past its flank, the children's huddled shapes pressing tighter together"
     },
     {
       "n": 9,
@@ -121,8 +124,8 @@
         "big_tree"
       ],
       "beat": "오누이가 하늘을 향해 빌기 시작한다.",
-      "visual": "two children at the top of a tree with hands pressed together toward the night sky",
-      "motion": "their joined hands lift steadily skyward"
+      "visual": "close framing at the very top of the zelkova crown, the two children wedged into the last safe fork with the thin upper branches bowing around them, both kneeling on the bough face to face with the night sky, four small hands pressed together and raised overhead so their joined fingertips form the apex of the frame, the boy's jaw set and eyes squeezed shut, the girl's face tipped fully upward with tears bright on her cheeks in the moonlight, their hemp clothes and braids stirred by the height wind, leaves streaming off the twigs around them, far below and out of focus the pale ladder of axe notches and a hint of striped orange rising, above them a deep indigo sky thick with stars and one great luminous cloud bank directly overhead beginning to glow at its underside, palette of indigo, star silver and cream, the composition an arrow pointing straight up through their joined hands",
+      "motion": "their joined hands push slowly higher overhead as both children straighten their backs in prayer, the girl's lips moving in a continuous whisper, the height wind streaming their braids and jacket ties sideways in one direction, leaves pouring steadily off the bowing twigs around them, and the glow inside the cloud bank overhead deepening gradually as if answering, camera fixed and reverent"
     },
     {
       "n": 10,
@@ -130,8 +133,8 @@
         "big_tree"
       ],
       "beat": "하늘에서 튼튼한 동아줄이 내려온다.",
-      "visual": "a thick golden rope descending from clouds toward a treetop where children wait",
-      "motion": "the rope lowers steadily through the clouds"
+      "visual": "vertical composition from mid-height beside the tree, a thick golden rope of tightly wound straw descending from a luminous rift in the cloud bank at frame top, the rope catching moonlight along every twist of its braid so it reads as a shaft of light with texture, its lowered end swaying gently just above the crown of the zelkova where the two small figures kneel with their hands still joined, the cloud underside around the rift glowing pale gold and rolling slowly outward in soft rings, stars sharp in the indigo beyond the glow, the dark crown of the tree filling the lower frame with the children's pale clothes at its centre, far below at the base a suggestion of orange stripe still climbing, the palette pivoting on the single warm gold line cutting the cold night, composition an unbroken vertical thread from cloud rift to treetop",
+      "motion": "the golden rope pays out from the cloud rift in one smooth continuous descent, its braided length turning slowly about its own axis as it comes so the moonlight travels around the twist, the lowered end swinging in a small settling pendulum above the crown, the glowing rings in the cloud underside widening at the same patient rate, the kneeling children lifting their faces to follow it down"
     },
     {
       "n": 11,
@@ -140,8 +143,8 @@
         "sister"
       ],
       "beat": "오누이가 동아줄을 잡고 오른다.",
-      "visual": "two children climbing a golden rope high above dark mountains, clouds near",
-      "motion": "they rise steadily along the rope"
+      "visual": "soaring wide shot with the mountain ridges already far below, the two children climbing the golden rope against a field of stars, the boy above with the rope locked between his knees and his sister's wrist gripped over the strand between them, the girl clinging with both arms and her cheek pressed to the braid, their clothes and four braids streaming downwind, the rope running from the glowing cloud rift at frame top to disappear toward the shrunken moonlit clearing far beneath, where the great tree has become a coin of silver and the well a pale dot, ribbons of thin cloud sliding past between the children and the ground, the night wind drawn as long fine minhwa lines around them, palette of deep indigo, star silver and the warm gold rope, scale vast and vertical with the children tiny but central",
+      "motion": "the pair rise along the rope in a steady alternating rhythm, the boy's hand walking up a grip at a time while the rope pays upward through his knees, the girl swaying gently below him with each pull, their braids and jacket ties streaming in long lines beneath them, thin cloud ribbons sliding downward past their bodies to mark the ascent, the clearing shrinking imperceptibly far below"
     },
     {
       "n": 12,
@@ -149,8 +152,8 @@
         "tiger"
       ],
       "beat": "호랑이도 제 줄을 붙잡고 따라온다.",
-      "visual": "a tiger gripping a frayed rope over dark ridges, strands beginning to part",
-      "motion": "the strands part steadily under its weight"
+      "visual": "hard cut of tone, a second rope hanging in the same starfield but visibly wrong, its straw braid dull and grey-brown, whiskered with loose broken strands along its length, the huge tiger gripping it with all four paws bunched together, its striped body sagging in a heavy arc, golden eyes bulging upward at the receding gold thread of the children's rope far above in frame corner, its ears flat, jaw set around a low effort, the frayed section just above its forepaws visibly thinning, single fibres standing out from the braid and glinting, dark ridgelines small and far beneath its dangling hindquarters and hooked tail, wisps of cloud dragging past, the palette cooled to grey and indigo around the dull rope with the tiger's orange the only heat, composition centred on the thinning stretch of braid carrying all that weight",
+      "motion": "the tiger hitches itself up its dull rope in laboured surges, all four paws bunching and re-gripping together, and at each surge the frayed section above its forepaws twists and thins a little further, loose fibres springing outward one by one and trembling in the wind, its hooked tail lashing slowly beneath for balance, the gold thread of the other rope drawing steadily away far overhead"
     },
     {
       "n": 13,
@@ -159,15 +162,15 @@
         "sister"
       ],
       "beat": "구름 위에서 오누이가 아래를 내려다본다.",
-      "visual": "two children on moonlit clouds looking down through a gap at dark mountains",
-      "motion": "clouds drift steadily beneath them"
+      "visual": "serene wide shot on the upper surface of the cloud bank, a rolling moonlit floor of silver wool stretching to the frame edges under a dome of dense stars, the two children kneeling side by side at the broken edge of a cloud gap in the foreground, their climb ended, the golden rope lying slack across the cloud floor behind them in a long gleaming line, both leaning carefully over the gap with the boy's arm barred protectively across his sister's chest, their faces lit from below by the pale earthlight of the mountain world visible through the opening, far down in that gap the dark ridges, the silver coin of the clearing and a thread-thin dull rope with a speck of orange upon it, the children's hemp clothes silvered and still now, braids hanging forward over their shoulders, palette of moon silver, indigo and soft gold, composition calm and horizontal after the vertical climb",
+      "motion": "the cloud floor drifts in slow silver rolls around the kneeling children while they lean a careful degree further over the gap, the boy's protective arm pressing across his sister, both braids hanging and swaying gently over the opening, the slack golden rope behind them sliding a hand's width across the cloud as the bank moves, the earthlight from below pulsing softly on their faces"
     },
     {
       "n": 14,
       "cast": [],
       "beat": "빈 우물가에 동아줄 그림자만 남는다.",
-      "visual": "a stone well and a huge tree at dawn, a long rope shadow fading on the ground",
-      "motion": "the shadow fades steadily in the growing light"
+      "visual": "still dawn shot of the empty clearing, the great zelkova and the round stone well standing in flat grey-rose first light, the packed earth printed with the night's story, a long straight shadow of a rope falling from open sky across the well rim and the roots though the sky above holds only fading stars, the ladder of pale axe notches climbing the trunk into the quiet crown, streaks of dried oil sheen catching the light lower down, the wooden bucket on the well rim with its coiled rope undisturbed, a few golden straw fibres resting on the stones, mist lying in ankle-deep drifts among the pines at the clearing edge, the hut path descending at frame right with no one on it, palette of hanji cream, rose grey and one faint gold accent, composition centred on the inexplicable rope shadow as the light slowly strengthens",
+      "motion": "the rope shadow across the well and roots thins gradually as the dawn light strengthens, its edge softening from the far end inward, mist drifting in low slow banks between the pine trunks and curling around the surfaced roots, the golden straw fibres on the well stones stirring faintly in the first morning air, the camera holding the fixed frame while the light rises"
     }
   ],
   "withheld": "하늘에 남은 두 아이의 정체와, 썩은 동아줄을 잡은 짐승의 마지막"

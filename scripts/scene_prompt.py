@@ -46,7 +46,7 @@ def personas() -> dict:
         return {}
 
 
-def _fit(parts, limit=480) -> str:
+def _fit(parts, limit=2600) -> str:
     """쉼표 경계에서 자른다. 낱말 중간이 잘리면 모델이 엉뚱하게 읽는다."""
     out = ""
     for p in parts:
@@ -118,7 +118,8 @@ def motion_from_treatment(tre: dict, index: int) -> str:
     if not 1 <= index <= len(beats):
         return ""
     m = (beats[index - 1].get("motion") or "").strip()
-    return "" if HANGUL.search(m) else m[:200]
+    # 상세 작법(300자 안팎)이 잘리지 않게 여유를 둔다
+    return "" if HANGUL.search(m) else m[:450]
 
 
 def to_scene(sentence: str, context: str = "") -> str:

@@ -76,7 +76,9 @@ def check(work: str) -> list:
     # (실측: "구르고, 부딪히고, 튕겨 나간다"를 적었더니 전부 일어났다).
     for b in beats:
         mot = b.get("motion", "")
-        if mot.count(",") >= 2:
+        # 상세 작법(150자 이상)은 한 동작의 시작→끝을 여러 절로 잇는다 — 쉼표가
+        # 많아도 동작은 하나다. 짧은 움직임에서만 나열을 잡는다.
+        if len(mot) < 150 and mot.count(",") >= 2:
             bad.append(f"S{b['n']} 움직임이 {mot.count(',')+1}가지 — 하나만 적는다")
         m = ONESHOT.search(mot)
         if m:

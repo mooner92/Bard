@@ -125,7 +125,7 @@ def dur(path) -> float:
         return 0.0
 
 
-def trim_silence(wav, sr, keep: float = 0.12):
+def trim_silence(wav, sr, keep: float = 0.15):
     """말 앞뒤의 무음을 깎는다. 양 끝에 keep 초만 남긴다.
 
     Qwen 은 문장마다 앞뒤에 무음을 붙여 내놓는다(실측: 미녀와 야수 51.3초 중
@@ -185,6 +185,10 @@ def main():
     p.add_argument("--tone", default="담담")
     p.add_argument("--target", type=float, default=0.0,
                    help="맞출 전체 길이(초). 0 이면 있는 그대로 둔다")
+    # 침묵을 0.12초까지 깎았더니 문장이 꼬리를 물고 이어져 쫓기듯 들렸다(실측:
+    # "긴급한 듯한 목소리"). 낭독의 차분함은 어조만큼 **문장 사이 호흡**이 만든다.
+    p.add_argument("--pad", type=float, default=0.35,
+                   help="문장 뒤 호흡(초)")
     p.add_argument("--device", default="auto")
     a = p.parse_args()
 
@@ -199,7 +203,7 @@ def main():
     speed = 1.0
     if a.target > 0:
         speed = max(0.85, min(1.15, total / a.target))
-    write_wavs(pairs, a.prefix, speed)
+    write_wavs(pairs, a.prefix, speed, a.pad)
     print(json.dumps({"sentences": len(ok), "raw_sec": round(total, 1),
                       "speed": round(speed, 3),
                       "final_sec": round(total / speed, 1)}, ensure_ascii=False))
