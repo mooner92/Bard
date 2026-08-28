@@ -44,51 +44,57 @@ a { color: inherit; text-decoration: none; }
 }
 .ghost:hover { background: #ececee; }
 
-.wrap { max-width: 1080px; margin: 0 auto; padding: 48px 28px 96px; }
-.phead h1 { font-size: 34px; font-weight: 700; color: var(--ink); margin: 0 0 8px; line-height: 1.28; letter-spacing: -0.02em; }
-.phead p { font-size: 16px; color: var(--pewter); margin: 0 0 36px; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 40px 20px 88px; }
+@media (max-width: 560px) { .wrap { padding: 24px 14px 64px; } }
+.phead h1 { font-size: 30px; font-weight: 700; color: var(--ink); margin: 0 0 8px; line-height: 1.28; letter-spacing: -0.02em; }
+.phead p { font-size: 15px; color: var(--pewter); margin: 0 0 26px; }
 .sec { font-size: 19px; font-weight: 600; color: var(--ink); margin: 48px 0 18px; }
 .fine { font-size: 13px; color: var(--silver); margin: 0; }
 
-/* 홈 탭: 100% 배율에서 스크롤이 없도록 뷰포트에 맞춰 히어로가 남는 높이를 채운다 */
+/* 홈 탭. 예전에는 100vh 에 가둬 스크롤을 없앴는데, 세로 히어로로 바꾸니 그
+   높이에 9:16 이 들어가지 않는다. 숏츠를 보는 사람은 원래 세로로 스크롤한다 —
+   화면에 이야기를 구겨 넣지 말고 흐르게 둔다. */
 .homefit {
-  height: calc(100vh - 60px); max-width: 1080px; margin: 0 auto;
-  padding: 16px 28px 20px; display: flex; flex-direction: column; overflow: hidden;
+  max-width: 1180px; margin: 0 auto;
+  padding: 20px 20px 72px; display: flex; flex-direction: column;
 }
+@media (max-width: 560px) { .homefit { padding: 14px 14px 56px; } }
 .tagline { font-size: 15px; color: var(--pewter); margin: 0 0 10px; flex: none; }
 .hero-sec { margin: 0 0 8px !important; flex: none; }
-.homefit .hero { flex: 1; min-height: 0; display: flex; flex-direction: column; margin-bottom: 0; }
-.homefit .viewport { flex: 1; min-height: 0; }
-.homefit .track { height: 100%; }
-.homefit .slide { aspect-ratio: auto; height: 100%; }
+.homefit .hero { display: flex; flex-direction: column; margin-bottom: 0; }
+
+
+
 .homefit .dots { margin-top: 10px; flex: none; }
 .homefit .sec { margin: 12px 0 10px; font-size: 17px; flex: none; }
 .homefit .grid4 { flex: none; }
-.homefit .grid4 .thumb { aspect-ratio: 16 / 9; }
+.homefit .grid4 .thumb { aspect-ratio: 9 / 16; }
 .homefit .vtitle { font-size: 14px; }
 .homefit .vcard .fine { font-size: 12px; }
 /* 세로가 아주 좁은 화면에서는 억지로 구겨 넣지 않고 스크롤을 허용한다 */
-@media (max-height: 640px) { .homefit { height: auto; overflow: visible; } }
+
 
 /* 캐러셀 */
 .hero { margin-bottom: 8px; }
-.viewport { overflow: hidden; border-radius: var(--r-lg); }
+.viewport { overflow: hidden; border-radius: var(--r-lg); max-width: 420px; margin: 0 auto; width: 100%; }
 .track { display: flex; transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
+/* 히어로도 세로다. 21:9 는 숏츠의 위아래를 통째로 잘라 냈다. 한 장을 크게
+   띄우는 대신 세로 판을 가운데 두고 좌우를 비워, 모바일에서 그대로 꽉 찬다. */
 .slide {
   /* 21:9 — 히어로가 화면을 다 먹으면 아래 '신규 작품'이 접혀서 스크롤 없이는 안 보인다 */
-  position: relative; flex: 0 0 100%; aspect-ratio: 21 / 9;
+  position: relative; flex: 0 0 100%; aspect-ratio: 9 / 16; max-height: 74vh;
   display: block; background: var(--ash); overflow: hidden;
 }
-.slide img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.slide img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 32%; display: block; }
 .ph { display: block; width: 100%; height: 100%; background: var(--ash); }
 .ph.dark { background: #1b1c1e; }
 .scrim { position: absolute; inset: 0; background: linear-gradient(to top, rgba(23,26,32,0.66), rgba(23,26,32,0) 58%); }
-.slabel { position: absolute; left: 28px; bottom: 24px; display: flex; flex-direction: column; text-align: left; color: #fff; }
-.slabel strong { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; }
+.slabel { position: absolute; left: 20px; bottom: 20px; right: 88px; display: flex; flex-direction: column; text-align: left; color: #fff; }
+.slabel strong { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
 .slabel small { font-size: 14px; opacity: 0.86; }
 .play {
-  position: absolute; right: 28px; bottom: 24px;
-  width: 56px; height: 56px; border-radius: 50%;
+  position: absolute; right: 18px; bottom: 18px;
+  width: 50px; height: 50px; border-radius: 50%;
   background: rgba(255,253,249,0.92); color: var(--ink);
   display: grid; place-items: center; transition: transform var(--ease);
 }
@@ -99,19 +105,33 @@ a { color: inherit; text-decoration: none; }
 .dot.on { width: 22px; border-radius: 9999px; background: var(--blue); }
 
 /* 카드 */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 22px; }
-.grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
-@media (max-width: 900px) { .grid4 { grid-template-columns: repeat(2, 1fr); } }
-.vcard { display: flex; flex-direction: column; gap: 8px; text-align: left; }
+/* 세로 카드는 폭이 좁아도 된다. 160px 부터 채우면 창을 반만 써도 두세 줄,
+   넓히면 대여섯 줄로 저절로 흐른다 — 분기를 따로 두지 않아도 되는 구조다. */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); gap: 18px 14px; }
+.grid4 { display: grid; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); gap: 18px 14px; }
+@media (min-width: 1200px) { .grid, .grid4 { gap: 22px 16px; } }
+@media (max-width: 420px) { .grid, .grid4 { grid-template-columns: repeat(2, 1fr); gap: 14px 10px; } }
+/* 카드는 **세로**다. 만드는 것이 9:16 숏츠인데 틀이 16:10 이라 가운데만 잘려
+   보였다. 화면을 콘텐츠에 맞춘다 — 세로 영상에는 세로 카드다. */
+.vcard { display: flex; flex-direction: column; gap: 9px; text-align: left; }
 .thumb {
-  position: relative; display: block; width: 100%; aspect-ratio: 16 / 10;
+  position: relative; display: block; width: 100%; aspect-ratio: 9 / 16;
   border-radius: var(--r-md); overflow: hidden; background: var(--ash);
-  transition: transform var(--ease);
+  transition: transform var(--ease), box-shadow var(--ease);
 }
+.vcard:hover .thumb { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(25,21,18,0.16); }
 .vcard:active .thumb { transform: scale(0.985); }
 .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.thumb.vid { aspect-ratio: 9 / 14; max-width: 150px; }
-.vtitle { font-size: 15px; font-weight: 600; color: var(--ink); }
+.thumb.vid { aspect-ratio: 9 / 16; max-width: 150px; }
+/* 카드가 길어진 만큼 아래 글이 멀어진다. 손을 올리면 그림 아래가 어두워지며
+   재생 표시가 뜨게 해 어디를 누르는지 눈에 잡히게 한다. */
+.thumb::after {
+  content: ""; position: absolute; inset: auto 0 0 0; height: 45%;
+  background: linear-gradient(to top, rgba(20,16,12,0.62), transparent);
+  opacity: 0; transition: opacity var(--ease); pointer-events: none;
+}
+.vcard:hover .thumb::after { opacity: 1; }
+.vtitle { font-size: 14.5px; font-weight: 600; color: var(--ink); line-height: 1.35; }
 
 /* 인기대출도서 */
 .books { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
