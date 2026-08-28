@@ -6,6 +6,20 @@ import { API, Book, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib
 type Item = {
   work: string; title: string; cover?: string; video?: Video
   region: string; genre: string; blurb: string; mood: string
+  season: string; seasonNote: string
+}
+
+/* 오늘 날짜로 계절을 정한다. 3~5월 봄, 6~8월 여름, 9~11월 가을, 나머지 겨울. */
+const SEASONS = ['봄', '여름', '가을', '겨울'] as const
+function currentSeason(): string {
+  const m = new Date().getMonth() + 1
+  return m >= 3 && m <= 5 ? '봄' : m >= 6 && m <= 8 ? '여름' : m >= 9 && m <= 11 ? '가을' : '겨울'
+}
+const SEASON_HEAD: Record<string, string> = {
+  '봄': '봄바람 불 때 꺼내 읽는 소설.',
+  '여름': '뜨거운 여름, 그때가 생각나는 소설.',
+  '가을': '깊어가는 가을에 어울리는 소설.',
+  '겨울': '긴 겨울밤에 읽기 좋은 소설.',
 }
 
 /** 전체보기 왼쪽 필터의 축. 값은 works/categories.json 이 정한다. */
@@ -85,7 +99,9 @@ function dedupeBooks(books: Book[]): Book[] {
   return out
 }
 
-function Card({ it, onPlay, views }: { it: Item; onPlay: () => void; views?: number }) {
+function Card({ it, onPlay, views, note }: {
+  it: Item; onPlay: () => void; views?: number; note?: string
+}) {
   return (
     <button className="vcard" onClick={onPlay}>
       <span className="thumb shimmer">
@@ -96,6 +112,7 @@ function Card({ it, onPlay, views }: { it: Item; onPlay: () => void; views?: num
         <span className="play sm"><PlayIcon size={18} /></span>
       </span>
       <span className="vtitle">{it.title}</span>
+      {note && <span className="snote">{note}</span>}
       {it.blurb && <span className="blurb" data-mood={it.mood}>{it.blurb}</span>}
       <span className="fine">
         {it.video?.duration ?? '?'}초 · {fmtDate(it.video?.updated)}
@@ -119,6 +136,7 @@ export default function Home() {
     monthly_top: { work: string; views: number }[] } | null>(null)
   const [pageSize, setPageSize] = useState(30)
   const [page, setPage] = useState(0)
+  const [season, setSeason] = useState(currentSeason())
 
   useEffect(() => {
     fetch(`${API}/api/works`).then(r => r.json()).then(async (d: { works: Work[] }) => {
@@ -138,6 +156,7 @@ export default function Home() {
           work: name, title, cover: kf.images?.[0], video: latest,
           region: row?.region ?? '기타', genre: row?.genre ?? '기타',
           blurb: row?.blurb ?? '', mood: row?.mood ?? '',
+          season: row?.season ?? '', seasonNote: row?.season_note ?? '',
         }
       }))
       setItems(rows.filter(r => r.video))
@@ -211,6 +230,7 @@ export default function Home() {
         items={[
           { id: 'home', label: '홈' },
           { id: 'all', label: '모든 작품' },
+          { id: 'season', label: '계절 추천' },
           { id: 'books', label: '인기대출도서' },
         ]}
         right={<a className="ghost" href="/admin">관리자</a>}
@@ -378,6 +398,33 @@ export default function Home() {
                   <p className="fine">고른 조건에 맞는 작품이 없습니다.</p>}
               </div>
             </div>
+          </div>
+        </main>
+      )}
+
+      {tab === 'season' && (
+        <main className="wrap">
+          <header className="phead">
+            <h1>{SEASON_HEAD[season]}</h1>
+            <p>
+              오늘 기준 {currentSeason()}의 서가입니다 · 책 속 계절이 지금과 닿아 있는 작품을 골랐습니다
+            </p>
+          </header>
+          <div className="seasonchips">
+            {SEASONS.map(sn => (
+              <button key={sn} className={season === sn ? 'psz on' : 'psz'}
+                onClick={() => setSeason(sn)}>
+                {sn}{sn === currentSeason() ? ' · 지금' : ''}
+              </button>
+            ))}
+          </div>
+          <div className="grid browsegrid">
+            {items.filter(it => it.season === season).map(it => (
+              <Card key={it.work} it={it} note={it.seasonNote}
+                views={stats?.total?.[it.work]} onPlay={() => play(it)} />
+            ))}
+            {!items.filter(it => it.season === season).length &&
+              <p className="fine">이 계절에 배정된 작품이 아직 없습니다.</p>}
           </div>
         </main>
       )}

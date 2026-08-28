@@ -15,6 +15,8 @@ export type Work = {
   genre?: string    // 어떤 이야기
   blurb?: string    // 카드에 얹는 한 줄 미끼 — works/blurbs.json
   mood?: string     // 폰트 묶음(동양·서정 등 여섯)
+  season?: string        // 계절 추천관 — works/seasons.json
+  season_note?: string   // 왜 이 계절인가 한 줄
 }
 export type Video = {
   name: string; size: number; duration: number | null

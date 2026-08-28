@@ -119,12 +119,21 @@ def _blurbs() -> dict:
         return {}
 
 
+def _seasons() -> dict:
+    """작품별 계절과 추천 한 줄. 계절 추천관이 쓴다 — 뚜렷한 작품만 실려 있다."""
+    try:
+        return json.loads((BASE / "works" / "seasons.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def _works():
     """output/<작품>/narration*.json 을 훑어 작품 목록을 만든다.
     별도 테이블 없이 파일시스템을 진실로 쓴다 -- 파이프라인이 파일로 돌기 때문."""
     out = []
     cats = _categories()
     blurbs = _blurbs()
+    seasons = _seasons()
     if not OUTPUT.exists():
         return out
     for d in sorted(p for p in OUTPUT.iterdir() if p.is_dir()):
@@ -148,6 +157,8 @@ def _works():
                 "genre": (cats.get(d.name) or {}).get("genre", "기타"),
                 "blurb": (blurbs.get(d.name) or {}).get("blurb", ""),
                 "mood": (blurbs.get(d.name) or {}).get("mood", ""),
+                "season": (seasons.get(d.name) or {}).get("season", ""),
+                "season_note": (seasons.get(d.name) or {}).get("note", ""),
             })
     return out
 
