@@ -31,6 +31,7 @@ export default function Admin() {
   const [review, setReview] = useState<Review | null>(null)
   const [featured, setFeatured] = useState<string[]>([])
   const [featQ, setFeatQ] = useState('')
+  const [drag, setDrag] = useState<number | null>(null)
   const [savingFeat, setSavingFeat] = useState(false)
   const [saving, setSaving] = useState(false)
 
@@ -152,16 +153,34 @@ export default function Admin() {
             {featured.length > 0 ? (
               <ol className="featlist">
                 {featured.map((w, i) => (
-                  <li key={w}>
+                  <li key={w}
+                    className={drag === i ? 'dragging' : ''}
+                    draggable
+                    onDragStart={() => setDrag(i)}
+                    onDragEnd={() => setDrag(null)}
+                    onDragOver={e => e.preventDefault()}
+                    onDrop={() => {
+                      if (drag === null || drag === i) return
+                      const n = [...featured]
+                      const [x] = n.splice(drag, 1)
+                      n.splice(i, 0, x)
+                      setDrag(null); saveFeatured(n)
+                    }}>
+                    <span className="grip" aria-hidden>⠿</span>
                     <span className="rank">{i + 1}</span>
+                    {covers[w] && (
+                      <img className="fthumb" alt=""
+                        src={`${API}/api/files/keyframe/${w}/${covers[w]}`} />
+                    )}
                     <span className="btext">
                       <span className="btitle">
                         {byWork.find(([n]) => n === w)?.[1][0]?.title ?? w}
                       </span>
                     </span>
-                    <button className="ghost" onClick={() => move(i, -1)} disabled={i === 0}>↑</button>
+                    <button className="ghost" onClick={() => move(i, -1)} disabled={i === 0}
+                      aria-label="위로">↑</button>
                     <button className="ghost" onClick={() => move(i, 1)}
-                      disabled={i === featured.length - 1}>↓</button>
+                      disabled={i === featured.length - 1} aria-label="아래로">↓</button>
                     <button className="ghost"
                       onClick={() => saveFeatured(featured.filter(x => x !== w))}>빼기</button>
                   </li>
@@ -181,10 +200,16 @@ export default function Admin() {
                 <button className="ghost" onClick={() => setFeatQ('')} aria-label="검색어 지우기">✕</button>
               )}
             </div>
-            <div className="featadd">
-              {featAdd.map(([n, items]) => (
-                <button key={n} className="ghost" onClick={() => saveFeatured([...featured, n])}>
-                  + {items[0]?.title ?? n}
+            <div className="featpick">
+              {featAdd
+                .slice()
+                .sort((a, b) => (a[1][0]?.title ?? a[0]).localeCompare(b[1][0]?.title ?? b[0], 'ko'))
+                .map(([n, items]) => (
+                <button key={n} className="pick" onClick={() => saveFeatured([...featured, n])}>
+                  {covers[n]
+                    ? <img alt="" src={`${API}/api/files/keyframe/${n}/${covers[n]}`} />
+                    : <span className="ph" />}
+                  <span className="pickt">{items[0]?.title ?? n}</span>
                 </button>
               ))}
               {!featAdd.length && (

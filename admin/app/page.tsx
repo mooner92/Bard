@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { API, Book, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib'
 
 type Item = {
@@ -14,6 +14,41 @@ const FACETS: { key: FacetKey; label: string }[] = [
   { key: 'region', label: '어디 이야기' },
   { key: 'genre', label: '어떤 이야기' },
 ]
+
+/** 스크롤로 화면에 들어올 때 한 번 떠오르는 틀. 지나치면 다시 접지 않는다. */
+function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const [on, setOn] = useState(false)
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const io = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) { setOn(true); io.disconnect() }
+    }, { threshold: 0.15 })
+    io.observe(el)
+    return () => io.disconnect()
+  }, [])
+  return (
+    <div ref={ref} className={on ? 'reveal in' : 'reveal'}
+      style={{ transitionDelay: `${delay}ms` }}>
+      {children}
+    </div>
+  )
+}
+
+/* 마우스를 따라 살짝 기우는 효과. ±5° 안쪽 — 난잡해지지 않게 마일드하게만. */
+function tiltMove(e: React.MouseEvent<HTMLElement>) {
+  const el = e.currentTarget
+  const r = el.getBoundingClientRect()
+  const x = (e.clientX - r.left) / r.width - 0.5
+  const y = (e.clientY - r.top) / r.height - 0.5
+  el.style.setProperty('--tx', `${(-y * 4).toFixed(2)}deg`)
+  el.style.setProperty('--ty', `${(x * 5).toFixed(2)}deg`)
+}
+function tiltLeave(e: React.MouseEvent<HTMLElement>) {
+  e.currentTarget.style.setProperty('--tx', '0deg')
+  e.currentTarget.style.setProperty('--ty', '0deg')
+}
 
 /** KEI 도서관 소장 판정 → 뱃지. unknown 은 백그라운드 조회 중이라는 뜻. */
 function HoldPill({ h }: { h: string }) {
@@ -196,39 +231,37 @@ export default function Home() {
 
           {/* 사이트 소개 — 캐러셀 아래에 이 서비스가 무엇인지 한 호흡으로. */}
           <section className="intro">
-            <p className="intro-lead">
-              밤마다 서가에서 한 편씩.<br />
-              고전문학을 <em>1분 남짓한 세로 영상</em>으로 다시 읽습니다.
-            </p>
+            <Reveal>
+              <p className="intro-lead">
+                밤마다 서가에서 한 편씩.<br />
+                고전문학을 <em>1분 남짓한 세로 영상</em>으로 다시 읽습니다.
+              </p>
+            </Reveal>
             <div className="intro-cards">
-              <div className="icard">
-                <h3>문턱까지만</h3>
-                <p>열네 장면의 짜임새로 이야기의 가장 궁금한 자리까지 데려다 드립니다. 결말은 책에 있습니다.</p>
-              </div>
-              <div className="icard">
-                <h3>밤사이 만들어집니다</h3>
-                <p>대본과 그림, 낭독과 영상이 연구원 서버에서 매일 밤 자동으로 지어집니다.</p>
-              </div>
-              <div className="icard">
-                <h3>서가로 잇습니다</h3>
-                <p>지금 많이 빌려 읽는 책에서 닿아 있는 고전을 골라, KEI 서가의 청구기호까지 안내합니다.</p>
-              </div>
+              {[
+                ['문턱까지만', '열네 장면의 짜임새로 이야기의 가장 궁금한 자리까지 데려다 드립니다. 결말은 책에 있습니다.'],
+                ['밤사이 만들어집니다', '대본과 그림, 낭독과 영상이 연구원 서버에서 매일 밤 자동으로 지어집니다.'],
+                ['서가로 잇습니다', '지금 많이 빌려 읽는 책에서 닿아 있는 고전을 골라, KEI 서가의 청구기호까지 안내합니다.'],
+              ].map(([h, b], i) => (
+                <Reveal key={h} delay={i * 120}>
+                  <div className="icard" onMouseMove={tiltMove} onMouseLeave={tiltLeave}>
+                    <h3>{h}</h3>
+                    <p>{b}</p>
+                  </div>
+                </Reveal>
+              ))}
             </div>
-            <div className="intro-nums">
-              <span><strong>{items.length || '–'}</strong>편의 고전</span>
-              <span><strong>6</strong>가지 분위기</span>
-              <span><strong>1</strong>분 남짓</span>
-            </div>
+            <Reveal delay={160}>
+              <div className="intro-nums">
+                <span><strong>{items.length || '–'}</strong>편의 고전</span>
+                <span><strong>6</strong>가지 분위기</span>
+                <span><strong>1</strong>분 남짓</span>
+              </div>
+            </Reveal>
           </section>
 
-          {fresh.length > 0 && (
-            <>
-              <h2 className="sec">신규 작품</h2>
-              <div className="grid4">
-                {fresh.map(it => <Card key={it.work} it={it} onPlay={() => setPlaying(it)} />)}
-              </div>
-            </>
-          )}
+          {/* 신규 작품 줄은 뺐다 — 랜딩은 캐러셀과 소개에 집중하고,
+              목록 탐색은 '모든 작품' 탭이 맡는다. */}
         </main>
       )}
 
@@ -287,8 +320,11 @@ export default function Home() {
       {tab === 'books' && (
         <main className="wrap">
           <header className="phead">
-            <h1>지금 많이 읽는 책.</h1>
-            <p>{period || '불러오는 중'} · 전국 도서관 대출 기준 · 같은 책의 권별 중복은 접었습니다</p>
+            <h1>지금 많이 읽는 책, 이어지는 고전.</h1>
+            <p>
+              전국 도서관 대출 순위에서 출발해 닿아 있는 우리 고전 영상까지 —
+              KEI 소장 여부와 청구기호를 함께 안내합니다. ({period || '불러오는 중'})
+            </p>
           </header>
           <ol className="books">
             {books.map(b => {
@@ -324,6 +360,13 @@ export default function Home() {
                       </span>
                     )}
                   </span>
+                  {dest?.cover && (
+                    <button className="bjump" onClick={() => setPlaying(dest)}
+                      aria-label={`${b.bridge!.title} 영상 재생`}>
+                      <img alt="" src={`${API}/api/files/keyframe/${dest.work}/${dest.cover}`} />
+                      <span className="bplay"><PlayIcon size={13} /></span>
+                    </button>
+                  )}
                   <HoldPill h={b.holding} />
                 </li>
               )
