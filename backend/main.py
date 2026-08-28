@@ -152,6 +152,28 @@ def _works():
     return out
 
 
+class ViewIn(BaseModel):
+    work: str
+
+
+@app.post("/api/stats/view")
+def add_view(body: ViewIn):
+    """재생 1회 기록. 실재하는 작품만 센다 — 아무 문자열이나 쌓이면 통계가 오염된다."""
+    d = OUTPUT / body.work
+    if not d.is_dir() or not list(d.glob("final*.mp4")):
+        raise HTTPException(404, "없는 작품")
+    db.add_view(body.work)
+    return {"ok": True}
+
+
+@app.get("/api/stats/summary")
+def stats_summary():
+    """작품별 누적·이달 조회수와 이달의 순위. 홈의 '이달의 인기작'과 관리자 통계가 쓴다."""
+    st = db.view_stats()
+    top = sorted(st["month"].items(), key=lambda x: -x[1])[:12]
+    return {**st, "monthly_top": [{"work": w, "views": n} for w, n in top]}
+
+
 @app.get("/api/works")
 def list_works():
     return {"works": _works()}

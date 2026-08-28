@@ -15,6 +15,19 @@ const FACETS: { key: FacetKey; label: string }[] = [
   { key: 'genre', label: '어떤 이야기' },
 ]
 
+/** 재생 1회 기록. 같은 세션의 반복 클릭은 세지 않는다 — 새로고침 연타로 부풀지 않게. */
+function countView(work: string) {
+  try {
+    const k = `bard_v_${work}`
+    if (sessionStorage.getItem(k)) return
+    sessionStorage.setItem(k, '1')
+  } catch {}
+  fetch(`${API}/api/stats/view`, {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ work }),
+  }).catch(() => {})
+}
+
 /** 스크롤로 화면에 들어올 때 한 번 떠오르는 틀. 지나치면 다시 접지 않는다. */
 function Reveal({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
   const ref = useRef<HTMLDivElement>(null)
@@ -72,7 +85,7 @@ function dedupeBooks(books: Book[]): Book[] {
   return out
 }
 
-function Card({ it, onPlay }: { it: Item; onPlay: () => void }) {
+function Card({ it, onPlay, views }: { it: Item; onPlay: () => void; views?: number }) {
   return (
     <button className="vcard" onClick={onPlay}>
       <span className="thumb shimmer">
@@ -84,7 +97,10 @@ function Card({ it, onPlay }: { it: Item; onPlay: () => void }) {
       </span>
       <span className="vtitle">{it.title}</span>
       {it.blurb && <span className="blurb" data-mood={it.mood}>{it.blurb}</span>}
-      <span className="fine">{it.video?.duration ?? '?'}초 · {fmtDate(it.video?.updated)}</span>
+      <span className="fine">
+        {it.video?.duration ?? '?'}초 · {fmtDate(it.video?.updated)}
+        {views ? ` · 조회 ${views.toLocaleString()}` : ''}
+      </span>
     </button>
   )
 }
@@ -99,6 +115,10 @@ export default function Home() {
   const [featured, setFeatured] = useState<string[]>([])
   const [picks, setPicks] = useState<Record<FacetKey, string[]>>({ region: [], genre: [] })
   const [q, setQ] = useState('')
+  const [stats, setStats] = useState<{ total: Record<string, number>; month: Record<string, number>;
+    monthly_top: { work: string; views: number }[] } | null>(null)
+  const [pageSize, setPageSize] = useState(30)
+  const [page, setPage] = useState(0)
 
   useEffect(() => {
     fetch(`${API}/api/works`).then(r => r.json()).then(async (d: { works: Work[] }) => {
@@ -126,6 +146,9 @@ export default function Home() {
     fetch(`${API}/api/featured`).then(r => r.json())
       .then(d => setFeatured(d.works ?? [])).catch(() => {})
 
+    fetch(`${API}/api/stats/summary`).then(r => r.json())
+      .then(setStats).catch(() => {})
+
     fetch(`${API}/api/books/popular?limit=30`).then(r => r.json())
       .then(d => {
         setBooks(dedupeBooks(d.books ?? []).slice(0, 20))
@@ -133,6 +156,8 @@ export default function Home() {
       })
       .catch(() => {})
   }, [])
+
+  const play = (it: Item) => { countView(it.work); setPlaying(it) }
 
   // 통상의 미디어 홈 구성: 인기 작품(히어로) → 신규 작품, 전체 목록은 상단 네비 별도 탭.
   // 인기 작품은 관리자가 정한 순서를 그대로 따른다. 비어 있으면 승인본, 그것도 없으면 최신순.
@@ -147,14 +172,18 @@ export default function Home() {
   const fresh = items.filter(it => !heroSet.has(it.work)).sort(byNew).slice(0, 8)
 
   // 전체보기 필터. 같은 축 안에서는 OR(한국이거나 영국), 축끼리는 AND(한국이면서 모험).
-  const toggle = (k: FacetKey, name: string) => setPicks(p => ({
+  const toggle = (k: FacetKey, name: string) => { setPage(0); setPicks(p => ({
     ...p,
     [k]: p[k].includes(name) ? p[k].filter(x => x !== name) : [...p[k], name],
-  }))
+  })) }
   const hit = (it: Item) =>
     FACETS.every(f => !picks[f.key].length || picks[f.key].includes(it[f.key]))
     && (!q.trim() || it.title.toLowerCase().includes(q.trim().toLowerCase()))
   const shown = items.filter(hit).sort(byNew)
+  // 페이지는 조건이 바뀌면 처음으로 돌아간다. 남은 쪽수 밖에 서 있지 않게.
+  const pages = Math.max(1, Math.ceil(shown.length / pageSize))
+  const safePage = Math.min(page, pages - 1)
+  const paged = shown.slice(safePage * pageSize, (safePage + 1) * pageSize)
 
   // 칸마다 몇 편인지. 고르기 전에 결과 크기를 보여 준다 — 0편짜리를 누르는 헛수고를 막는다.
   // 자기 축의 선택은 빼고 센다(한국을 고른 상태에서도 영국이 몇 편인지 보여야 한다).
@@ -210,7 +239,7 @@ export default function Home() {
                     <button key={it.work} className="cell shimmer" data-off={o}
                       tabIndex={o === 0 ? 0 : -1}
                       aria-label={o === 0 ? `${it.title} 재생` : `${it.title}(으)로 이동`}
-                      onClick={() => o === 0 ? setPlaying(it) : setSlide((cur + o + n) % n)}>
+                      onClick={() => o === 0 ? play(it) : setSlide((cur + o + n) % n)}>
                       {it.cover
                         ? <img src={`${API}/api/files/keyframe/${it.work}/${it.cover}`} alt=""
                             onLoad={e => e.currentTarget.classList.add('ld')} />
@@ -265,8 +294,21 @@ export default function Home() {
             </Reveal>
           </section>
 
-          {/* 신규 작품 줄은 뺐다 — 랜딩은 캐러셀과 소개에 집중하고,
-              목록 탐색은 '모든 작품' 탭이 맡는다. */}
+          {/* 이달의 인기작 — 달력 기준 이번 달 조회수 순. 아직 조회가 없으면 숨긴다. */}
+          {(stats?.monthly_top?.length ?? 0) > 0 && (
+            <Reveal>
+              <h2 className="sec">이달의 인기작</h2>
+              <div className="grid4">
+                {stats!.monthly_top
+                  .map(t => ({ t, it: items.find(x => x.work === t.work) }))
+                  .filter((x): x is { t: { work: string; views: number }; it: Item } => !!x.it)
+                  .slice(0, 6)
+                  .map(({ t, it }) => (
+                    <Card key={it.work} it={it} views={t.views} onPlay={() => play(it)} />
+                  ))}
+              </div>
+            </Reveal>
+          )}
         </main>
       )}
 
@@ -310,13 +352,31 @@ export default function Home() {
                 </section>
               ))}
             </aside>
-            <div className="grid browsegrid">
-              {shown.map(it => (
-                <Card key={it.work} it={it} onPlay={() => setPlaying(it)} />
-              ))}
-              {!items.length && <p className="fine">아직 공개된 영상이 없습니다.</p>}
-              {!!items.length && !shown.length &&
-                <p className="fine">고른 조건에 맞는 작품이 없습니다.</p>}
+            <div className="browsemain">
+              <div className="pagebar">
+                <span className="fine">{shown.length}편 중 {shown.length ? safePage * pageSize + 1 : 0}–{Math.min((safePage + 1) * pageSize, shown.length)}</span>
+                <span className="pagesizes">
+                  {[10, 30, 50].map(n => (
+                    <button key={n} className={pageSize === n ? 'psz on' : 'psz'}
+                      onClick={() => { setPageSize(n); setPage(0) }}>{n}개씩</button>
+                  ))}
+                </span>
+                <span className="pagenav">
+                  <button className="ghost" disabled={safePage === 0}
+                    onClick={() => setPage(safePage - 1)} aria-label="이전 페이지">‹</button>
+                  <span className="fine">{safePage + 1} / {pages}</span>
+                  <button className="ghost" disabled={safePage >= pages - 1}
+                    onClick={() => setPage(safePage + 1)} aria-label="다음 페이지">›</button>
+                </span>
+              </div>
+              <div className="grid browsegrid">
+                {paged.map(it => (
+                  <Card key={it.work} it={it} views={stats?.total?.[it.work]} onPlay={() => play(it)} />
+                ))}
+                {!items.length && <p className="fine">아직 공개된 영상이 없습니다.</p>}
+                {!!items.length && !shown.length &&
+                  <p className="fine">고른 조건에 맞는 작품이 없습니다.</p>}
+              </div>
             </div>
           </div>
         </main>
@@ -357,7 +417,7 @@ export default function Home() {
                       <span className="bridge">
                         이 책을 읽으셨다면{' '}
                         {dest
-                          ? <button className="blink" onClick={() => setPlaying(dest)}>
+                          ? <button className="blink" onClick={() => play(dest)}>
                               {b.bridge.title}
                             </button>
                           : <strong>{b.bridge.title}</strong>}
@@ -366,7 +426,7 @@ export default function Home() {
                     )}
                   </span>
                   {dest?.cover && (
-                    <button className="bjump" onClick={() => setPlaying(dest)}
+                    <button className="bjump" onClick={() => play(dest)}
                       aria-label={`${b.bridge!.title} 영상 재생`}>
                       <img alt="" src={`${API}/api/files/keyframe/${dest.work}/${dest.cover}`} />
                       <span className="bplay"><PlayIcon size={13} /></span>

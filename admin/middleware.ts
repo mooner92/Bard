@@ -20,8 +20,10 @@ async function expected(pass: string): Promise<string> {
 export async function middleware(req: NextRequest) {
   const path = req.nextUrl.pathname
   const isLogin = path === '/admin/login' || path === '/api/admin/login'
+  // 조회수 기록은 방문자가 보내는 유일한 쓰기다 — 잠그면 통계가 안 쌓인다.
+  const isPublicWrite = path === '/api/stats/view'
   const needsGuard =
-    (path.startsWith('/admin') || WRITE.has(req.method)) && !isLogin
+    (path.startsWith('/admin') || WRITE.has(req.method)) && !isLogin && !isPublicWrite
   if (!needsGuard) return NextResponse.next()
 
   const pass = process.env.ADMIN_PASS

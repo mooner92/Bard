@@ -30,6 +30,7 @@ export default function Admin() {
   const [playing, setPlaying] = useState<Video | null>(null)
   const [review, setReview] = useState<Review | null>(null)
   const [featured, setFeatured] = useState<string[]>([])
+  const [stats, setStats] = useState<{ total: Record<string, number>; month: Record<string, number> } | null>(null)
   const [featQ, setFeatQ] = useState('')
   const [drag, setDrag] = useState<number | null>(null)
   const [savingFeat, setSavingFeat] = useState(false)
@@ -46,6 +47,8 @@ export default function Admin() {
     }).catch(() => {})
     fetch(`${API}/api/featured`).then(r => r.json())
       .then(d => setFeatured(d.works ?? [])).catch(() => {})
+    fetch(`${API}/api/stats/summary`).then(r => r.json())
+      .then(setStats).catch(() => {})
   }, [])
 
   // 공개 페이지 캐러셀에 올릴 작품과 그 순서. 저장하면 서버가 실재 작품만 남긴다.
@@ -208,6 +211,32 @@ export default function Admin() {
               )}
             </div>
           </section>
+
+          {/* 이달의 통계 — 조회수가 쌓이는 대로 순위가 선다 */}
+          {stats && Object.keys(stats.month).length > 0 && (
+            <section className="statbox">
+              <div className="feathead">
+                <h2 className="sec" style={{ margin: 0 }}>이달의 통계</h2>
+                <span className="fine">
+                  이달 {Object.values(stats.month).reduce((a, b) => a + b, 0).toLocaleString()}회
+                  · 누적 {Object.values(stats.total).reduce((a, b) => a + b, 0).toLocaleString()}회
+                </span>
+              </div>
+              <table className="stattbl">
+                <thead><tr><th>#</th><th>작품</th><th style={{ textAlign: 'right' }}>이달</th><th style={{ textAlign: 'right' }}>누적</th></tr></thead>
+                <tbody>
+                  {Object.entries(stats.month).sort((a, b) => b[1] - a[1]).slice(0, 15).map(([w, n], i) => (
+                    <tr key={w}>
+                      <td>{i + 1}</td>
+                      <td>{byWork.find(([k]) => k === w)?.[1][0]?.title ?? w}</td>
+                      <td className="num">{n.toLocaleString()}</td>
+                      <td className="num">{(stats.total[w] ?? 0).toLocaleString()}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </section>
+          )}
 
           <h2 className="sec">모든 작품</h2>
           <div className="grid">

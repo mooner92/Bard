@@ -137,3 +137,30 @@ def reset_stuck():
             " WHERE status='running'",
             (now(),),
         )
+
+
+# ── 조회수 ────────────────────────────────────────────────────────
+# 재생 단추를 누른 횟수를 그대로 쌓는다. 같은 잡스 DB 를 쓴다 — WAL 이라
+# 워커와 경합하지 않고, 백업·이동도 파일 하나로 끝난다.
+
+def _ensure_views(c):
+    c.execute("CREATE TABLE IF NOT EXISTS views(work TEXT NOT NULL, ts TEXT NOT NULL)")
+    c.execute("CREATE INDEX IF NOT EXISTS iv_views ON views(work, ts)")
+
+
+def add_view(work: str):
+    with conn() as c:
+        _ensure_views(c)
+        c.execute("INSERT INTO views VALUES(?, ?)", (work, now()))
+
+
+def view_stats() -> dict:
+    """작품별 누적·이달 조회수. 이달 = 달력의 이번 달(UTC)."""
+    month_start = datetime.now(timezone.utc).strftime("%Y-%m-01")
+    with conn() as c:
+        _ensure_views(c)
+        total = {r[0]: r[1] for r in c.execute(
+            "SELECT work, COUNT(*) FROM views GROUP BY work")}
+        month = {r[0]: r[1] for r in c.execute(
+            "SELECT work, COUNT(*) FROM views WHERE ts >= ? GROUP BY work", (month_start,))}
+    return {"total": total, "month": month}
