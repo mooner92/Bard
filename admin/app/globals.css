@@ -319,3 +319,60 @@ a { color: inherit; text-decoration: none; }
 .pblock p { margin: 4px 0 0; font-size: 12.5px; line-height: 1.55; color: var(--pewter);
             word-break: break-word; }
 .pblock b { color: var(--ink); font-weight: 600; margin-right: 6px; }
+
+
+/* ── 커버플로우 히어로 ──────────────────────────────────────────────
+   가운데 큰 셀, 양옆은 작게 바깥으로 기운 셀(색상환 픽커의 부채꼴처럼).
+   transform 의 % 는 제 셀 폭 기준이라 폭이 달라져도 간격이 함께 는다.
+   옆 셀을 누르면 그쪽으로 한 칸, 셋이 함께 돈다. */
+.cflow {
+  position: relative; height: min(66vh, 600px);
+  perspective: 1400px; overflow: hidden;
+}
+.cflow .cell {
+  position: absolute; left: 50%; top: 50%; height: 94%; aspect-ratio: 9 / 16;
+  border-radius: var(--r-lg); overflow: hidden; background: var(--ash);
+  box-shadow: 0 18px 48px rgba(25,21,18,0.16);
+  transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.55s, filter 0.55s;
+}
+.cflow .cell img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cell[data-off="0"]  { transform: translate(-50%, -50%) scale(1); z-index: 3; cursor: pointer; }
+.cell[data-off="1"]  { transform: translate(calc(-50% + 78%), -50%) rotateY(-18deg) scale(0.74);
+                       z-index: 2; opacity: 0.92; filter: brightness(0.93); }
+.cell[data-off="-1"] { transform: translate(calc(-50% - 78%), -50%) rotateY(18deg) scale(0.74);
+                       z-index: 2; opacity: 0.92; filter: brightness(0.93); }
+.cell[data-off="2"]  { transform: translate(calc(-50% + 130%), -50%) rotateY(-26deg) scale(0.58);
+                       z-index: 1; opacity: 0; pointer-events: none; }
+.cell[data-off="-2"] { transform: translate(calc(-50% - 130%), -50%) rotateY(26deg) scale(0.58);
+                       z-index: 1; opacity: 0; pointer-events: none; }
+/* 제목·재생 단추는 가운데 셀에만 */
+.cell .slabel, .cell .play { transition: opacity 0.4s; }
+.cell:not([data-off="0"]) .slabel, .cell:not([data-off="0"]) .play { opacity: 0; }
+.hblurb { display: block; font-size: 13px; opacity: 0.92; margin-top: 5px; }
+
+/* ── 사이트 소개 (AICR 소개 페이지풍: 선언문 → 3카드 → 숫자띠) ── */
+.intro { max-width: 880px; margin: 72px auto 12px; text-align: center; }
+.intro-lead {
+  font-size: clamp(20px, 3vw, 28px); line-height: 1.55; font-weight: 650;
+  color: var(--ink); letter-spacing: -0.015em; margin: 0 0 40px;
+}
+.intro-lead em { font-style: normal; color: var(--blue); }
+.intro-cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px; text-align: left;
+}
+.icard {
+  background: var(--ash); border-radius: var(--r-lg); padding: 24px 24px 26px;
+  transition: transform var(--ease), box-shadow var(--ease);
+}
+.icard:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(25,21,18,0.10); }
+.icard h3 { margin: 0 0 9px; font-size: 16.5px; color: var(--ink); letter-spacing: -0.01em; }
+.icard p { margin: 0; font-size: 13.5px; color: var(--pewter); line-height: 1.65; }
+.intro-nums {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 48px;
+  margin: 44px 0 8px; color: var(--pewter); font-size: 14px;
+}
+.intro-nums strong {
+  font-size: 30px; font-weight: 700; color: var(--ink);
+  letter-spacing: -0.02em; margin-right: 5px;
+}

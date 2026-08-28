@@ -108,7 +108,7 @@ export default function Home() {
   const hero = (picked.length ? picked
     : approved.length ? approved : items.slice().sort(byNew)).slice(0, 5)
   const heroSet = new Set(hero.map(h => h.work))
-  const fresh = items.filter(it => !heroSet.has(it.work)).sort(byNew).slice(0, 4)
+  const fresh = items.filter(it => !heroSet.has(it.work)).sort(byNew).slice(0, 8)
 
   // 전체보기 필터. 같은 축 안에서는 OR(한국이거나 영국), 축끼리는 AND(한국이면서 모험).
   const toggle = (k: FacetKey, name: string) => setPicks(p => ({
@@ -158,22 +158,32 @@ export default function Home() {
           {hero.length > 0 && (
             <section className="hero">
               <h2 className="sec hero-sec">인기 작품</h2>
-              <div className="viewport">
-                <div className="track" style={{ transform: `translateX(-${cur * 100}%)` }}>
-                  {hero.map(it => (
-                    <button key={it.work} className="slide" onClick={() => setPlaying(it)}>
+              {/* 커버플로우: 가운데 큰 셀 + 양옆이 바깥으로 기운 작은 셀.
+                  옆 셀을 누르면 그쪽으로 한 칸 돌고, 가운데를 누르면 재생한다. */}
+              <div className="cflow">
+                {hero.map((it, i) => {
+                  const n = hero.length
+                  let off = i - cur
+                  if (off > n / 2) off -= n
+                  if (off < -n / 2) off += n
+                  const o = Math.max(-2, Math.min(2, off))
+                  return (
+                    <button key={it.work} className="cell" data-off={o}
+                      tabIndex={o === 0 ? 0 : -1}
+                      aria-label={o === 0 ? `${it.title} 재생` : `${it.title}(으)로 이동`}
+                      onClick={() => o === 0 ? setPlaying(it) : setSlide((cur + o + n) % n)}>
                       {it.cover
                         ? <img src={`${API}/api/files/keyframe/${it.work}/${it.cover}`} alt="" />
                         : <span className="ph" />}
                       <span className="scrim" />
                       <span className="slabel">
                         <strong>{it.title}</strong>
-                        <small>{it.video?.duration ?? '?'}초</small>
+                        {it.blurb && <small className="hblurb" data-mood={it.mood}>{it.blurb}</small>}
                       </span>
                       <span className="play"><PlayIcon size={26} /></span>
                     </button>
-                  ))}
-                </div>
+                  )
+                })}
               </div>
               <div className="dots">
                 {hero.map((_, i) => (
@@ -183,6 +193,33 @@ export default function Home() {
               </div>
             </section>
           )}
+
+          {/* 사이트 소개 — 캐러셀 아래에 이 서비스가 무엇인지 한 호흡으로. */}
+          <section className="intro">
+            <p className="intro-lead">
+              밤마다 서가에서 한 편씩.<br />
+              고전문학을 <em>1분 남짓한 세로 영상</em>으로 다시 읽습니다.
+            </p>
+            <div className="intro-cards">
+              <div className="icard">
+                <h3>문턱까지만</h3>
+                <p>열네 장면의 짜임새로 이야기의 가장 궁금한 자리까지 데려다 드립니다. 결말은 책에 있습니다.</p>
+              </div>
+              <div className="icard">
+                <h3>밤사이 만들어집니다</h3>
+                <p>대본과 그림, 낭독과 영상이 연구원 서버에서 매일 밤 자동으로 지어집니다.</p>
+              </div>
+              <div className="icard">
+                <h3>서가로 잇습니다</h3>
+                <p>지금 많이 빌려 읽는 책에서 닿아 있는 고전을 골라, KEI 서가의 청구기호까지 안내합니다.</p>
+              </div>
+            </div>
+            <div className="intro-nums">
+              <span><strong>{items.length || '–'}</strong>편의 고전</span>
+              <span><strong>6</strong>가지 분위기</span>
+              <span><strong>1</strong>분 남짓</span>
+            </div>
+          </section>
 
           {fresh.length > 0 && (
             <>
