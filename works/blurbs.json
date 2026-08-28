@@ -5,91 +5,336 @@
     "mood 는 폰트를 고르는 여섯 묶음: 동양·서정 / 동양·현실 / 서양·모험 /",
     "서양·서정 / 서양·환상 / 서양·긴장. 카드가 mood 별 폰트 클래스를 입는다."
   ],
-
-  "unsu_joteun_nal":          { "blurb": "비 오는 날, 이상하게 벌이가 좋은 인력거꾼", "mood": "동양·현실" },
-  "gamja":                    { "blurb": "가난이 한 여자를 밀어붙인 마지막 자리", "mood": "동양·현실" },
-  "nalgae":                   { "blurb": "아내의 방을 지나야 나갈 수 있는 남자", "mood": "동양·현실" },
-  "redimeideu_insaeng":       { "blurb": "배운 것이 죄가 된 시대의 실직자", "mood": "동양·현실" },
-  "taepyeongcheonha":         { "blurb": "포성 속에서도 술잔이 넘치는 지주의 집", "mood": "동양·현실" },
-  "chisuk":                   { "blurb": "오 년 만에 나온 고모부를 비웃던 조카", "mood": "동양·현실" },
-  "geumsuhoeuirok":           { "blurb": "짐승들이 사람을 심판하는 꿈속 회의장", "mood": "동양·현실" },
-  "manmubang":                { "blurb": "제 논의 도둑을 기다리는 형의 몽둥이", "mood": "동양·현실" },
-  "ingan_munje":              { "blurb": "눈물이 고여 만들어졌다는 못의 전설", "mood": "동양·현실" },
-  "talchulgi":                { "blurb": "고향을 버리고 간도로 떠난 한 가족", "mood": "동양·현실" },
-  "sangroksu":                { "blurb": "마루에 그어진 금, 쫓겨나는 아이들", "mood": "동양·현실" },
-  "hyeolui_nu":               { "blurb": "돌아갈 고향이 없는 소녀의 신발 끈", "mood": "동양·현실" },
-
-  "dongbaekkkot":             { "blurb": "닭싸움 뒤에 숨은 점순이의 마음", "mood": "동양·서정" },
-  "bombom":                   { "blurb": "키가 안 자라서 장가를 못 간다는 말", "mood": "동양·서정" },
-  "memilkkot_pil_muryeop":    { "blurb": "달빛 메밀밭에서 꺼낸 스무 해 전 하룻밤", "mood": "동양·서정" },
-  "beongeori_samryongi":      { "blurb": "말 못하는 머슴이 불길 속으로 뛰어든 밤", "mood": "동양·서정" },
-  "baettaragi":               { "blurb": "쥐 한 마리가 갈라놓은 형제의 이십 년", "mood": "동양·서정" },
-  "sangol_nageune":           { "blurb": "며느리로 맞은 나그네가 사라진 새벽", "mood": "동양·서정" },
-  "bsagamgwa_reobeureteo":    { "blurb": "연애편지를 읽어 주던 사감의 한밤중", "mood": "동양·서정" },
-  "chunhyangjeon":            { "blurb": "그네 한 번에 뒤바뀐 처녀의 앞날", "mood": "동양·서정" },
-  "simcheongjeon":            { "blurb": "아버지의 눈값으로 바다에 선 딸", "mood": "동양·서정" },
-  "heungbujeon":              { "blurb": "다친 제비가 물어다 준 박씨 하나", "mood": "동양·서정" },
-  "chuwolsaek":               { "blurb": "달빛 공원에서 마주친 옛 정혼자", "mood": "동양·서정" },
-  "gyeonu_jingnyeo":          { "blurb": "은하수를 사이에 둔 두 사람의 일 년", "mood": "동양·서정" },
-  "kongjwipatjwi":            { "blurb": "개울에 흘려보낸 꽃신 한 짝의 행방", "mood": "동양·서정" },
-  "honggildongjeon":          { "blurb": "아버지를 아버지라 못 부른 소년의 길", "mood": "동양·서정" },
-  "byeoljubujeon":            { "blurb": "간을 두고 왔다는 토끼의 한마디", "mood": "동양·서정" },
-
-  "bomulseom":                { "blurb": "지도 한 장에 걸린 소년의 목숨과 금화", "mood": "서양·모험" },
-  "15sonyeon_pyoryugi":       { "blurb": "어른 없는 배가 닿은 이름 없는 섬", "mood": "서양·모험" },
-  "80ilganui_segye_ilju":     { "blurb": "전 재산을 건 80일의 지구 한 바퀴", "mood": "서양·모험" },
-  "haejeo_2manri":            { "blurb": "바다 밑 2만 리를 달리는 검은 배", "mood": "서양·모험" },
-  "jigu_sok_yeohaeng":        { "blurb": "화산 분화구 아래에 펼쳐진 지하 바다", "mood": "서양·모험" },
-  "geolribeo_yeohaenggi":     { "blurb": "손가락만 한 사람들에게 묶인 거인", "mood": "서양·모험" },
-  "robinseun_keurusoe":       { "blurb": "무인도 모래밭에 찍힌 남의 발자국", "mood": "서양·모험" },
-  "heokeulberi_pinui_moheom": { "blurb": "뗏목 하나로 강을 내려가는 두 도망자", "mood": "서양·모험" },
-  "tom_soyeoui_moheom":       { "blurb": "동굴 바위 틈에 걸린 낡은 궤짝", "mood": "서양·모험" },
-  "mobydick":                 { "blurb": "흰 고래에 금화를 건 외다리 선장", "mood": "서양·모험" },
-  "montekeuriseuto_baekjak":  { "blurb": "감옥 벽을 뚫고 나온 사내의 복수", "mood": "서양·모험" },
-  "samchongsa":               { "blurb": "하루에 결투 세 번을 약속한 시골 청년", "mood": "서양·모험" },
-  "sindeubadeu":              { "blurb": "딛고 선 섬이 움직이기 시작했다", "mood": "서양·모험" },
-  "robinhudeu":               { "blurb": "부자의 짐수레를 기다리는 숲의 활잡이", "mood": "서양·모험" },
-  "jeonggeulbuk":             { "blurb": "늑대가 기른 아이가 마주한 정글의 법", "mood": "서양·모험" },
-  "wangjawa_geoji":           { "blurb": "옷을 바꿔 입은 두 아이의 뒤바뀐 자리", "mood": "서양·모험" },
-
-  "majimak_ipsae":            { "blurb": "저 잎이 지면 나도 간다는 병상의 말", "mood": "서양·서정" },
-  "minyeowa_yasu":            { "blurb": "장미 한 송이 값으로 성에 남은 딸", "mood": "서양·서정" },
-  "ineogongju":               { "blurb": "목소리를 내주고 두 다리를 얻은 인어", "mood": "서양·서정" },
-  "eodum_sogui_bit":          { "blurb": "성냥불 속에만 보이는 따뜻한 방", "mood": "서양·서정" },
-  "sogongnyeo":               { "blurb": "하루아침에 다락방으로 쫓겨난 소녀", "mood": "서양·서정" },
-  "omangwa_pyeongyeon":       { "blurb": "첫인상을 서로 잘못 읽은 두 사람", "mood": "서양·서정" },
-  "pokpungui_eondeok":        { "blurb": "죽어서도 창밖을 떠도는 사랑", "mood": "서양·서정" },
-  "keuriseumaseu_kaereol":    { "blurb": "제 장례식을 미리 보고 온 구두쇠", "mood": "서양·서정" },
-  "tolstoy":                  { "blurb": "맨몸으로 온 천사가 배운 세 가지", "mood": "서양·서정" },
-  "widaehan_gaecheubi":       { "blurb": "강 건너 초록 불빛만 바라본 남자", "mood": "서양·서정" },
-  "jangbaljang":              { "blurb": "은그릇을 훔친 손에 쥐어진 은촛대", "mood": "서양·서정" },
-  "noteureudam_de_pari":      { "blurb": "종탑 위에서 광장을 내려다본 종지기", "mood": "서양·서정" },
-
-  "isanghan_naraui_aelriseu": { "blurb": "조끼 입은 토끼를 쫓다 떨어진 굴", "mood": "서양·환상" },
-  "ojeuui_mabeopsa":          { "blurb": "회오리에 실려 간 소녀의 노란 벽돌길", "mood": "서양·환상" },
-  "piteopaen":                { "blurb": "그림자를 잃어버린 소년이 온 밤", "mood": "서양·환상" },
-  "taimmeosin":               { "blurb": "팔십만 년 뒤로 간 남자가 본 것", "mood": "서양·환상" },
-  "tumyeongingan":            { "blurb": "붕대를 풀면 아무것도 없는 남자", "mood": "서양·환상" },
-  "pinokio":                  { "blurb": "거짓말할 때마다 길어지는 나무 코", "mood": "서양·환상" },
-  "jaekgwa_kongnamu":         { "blurb": "하룻밤 새 구름까지 자란 콩 한 알", "mood": "서양·환상" },
-  "baekseolgongju":           { "blurb": "거울이 부른 다른 이름, 숲으로 간 공주", "mood": "서양·환상" },
-  "henjelgwa_geuretel":       { "blurb": "새들이 먹어 버린 빵조각 길", "mood": "서양·환상" },
-  "sindellera":               { "blurb": "열두 시 계단에 남겨진 유리 구두", "mood": "서양·환상" },
-  "aladin":                   { "blurb": "닫힌 동굴 속에서 문지른 낡은 등잔", "mood": "서양·환상" },
-  "eorin_wangja":             { "blurb": "사막에서 양을 그려 달라는 아이", "mood": "서양·환상" },
-
-  "deurakyulra":              { "blurb": "초대받아야만 들어올 수 있는 손님", "mood": "서양·긴장" },
-  "jikil_baksawa_haideu":     { "blurb": "밤마다 딴사람이 되는 신사의 약병", "mood": "서양·긴장" },
-  "peurangkensyutain":        { "blurb": "제가 만든 것에 쫓기는 과학자", "mood": "서양·긴장" },
-  "baseukeobil_gamunui_gae":  { "blurb": "안개 낀 황야를 울리는 개 짖는 소리", "mood": "서양·긴장" },
-  "juhongsaek_yeongu":        { "blurb": "첫 만남에 과거를 맞힌 하숙집 남자", "mood": "서양·긴장" },
-  "geomeun_goyangi":          { "blurb": "벽 속에서 들려온 울음소리", "mood": "서양·긴장" },
-  "operaui_yuryeong":         { "blurb": "오페라 극장 지하에 사는 목소리", "mood": "서양·긴장" },
-  "dorieon_geureiui_chosang": { "blurb": "주인 대신 늙어 가는 초상화", "mood": "서양·긴장" },
-  "dongmulnongjang":          { "blurb": "주인을 쫓아낸 농장의 새 규칙", "mood": "서양·긴장" },
-  "olribeo_teuwiseuteu":      { "blurb": "죽 한 그릇 더 달라고 말한 값", "mood": "서양·긴장" },
-  "du_dosi_iyagi":            { "blurb": "감옥 앞에 선 똑같은 얼굴의 남자", "mood": "서양·긴장" },
-  "juhong_geulja":            { "blurb": "가슴에 붉은 글자를 단 여자의 침묵", "mood": "서양·긴장" },
-  "joewa_beol":               { "blurb": "완전범죄를 계획한 가난한 대학생", "mood": "서양·긴장" },
-  "kafka":                    { "blurb": "벌레로 깨어난 아침, 잠긴 방문", "mood": "서양·긴장" }
+  "unsu_joteun_nal": {
+    "blurb": "비 오는 날, 이상하게 벌이가 좋은 인력거꾼",
+    "mood": "동양·현실"
+  },
+  "gamja": {
+    "blurb": "가난이 한 여자를 밀어붙인 마지막 자리",
+    "mood": "동양·현실"
+  },
+  "nalgae": {
+    "blurb": "아내의 방을 지나야 나갈 수 있는 남자",
+    "mood": "동양·현실"
+  },
+  "redimeideu_insaeng": {
+    "blurb": "배운 것이 죄가 된 시대의 실직자",
+    "mood": "동양·현실"
+  },
+  "taepyeongcheonha": {
+    "blurb": "포성 속에서도 술잔이 넘치는 지주의 집",
+    "mood": "동양·현실"
+  },
+  "chisuk": {
+    "blurb": "오 년 만에 나온 고모부를 비웃던 조카",
+    "mood": "동양·현실"
+  },
+  "geumsuhoeuirok": {
+    "blurb": "짐승들이 사람을 심판하는 꿈속 회의장",
+    "mood": "동양·현실"
+  },
+  "manmubang": {
+    "blurb": "제 논의 도둑을 기다리는 형의 몽둥이",
+    "mood": "동양·현실"
+  },
+  "ingan_munje": {
+    "blurb": "눈물이 고여 만들어졌다는 못의 전설",
+    "mood": "동양·현실"
+  },
+  "talchulgi": {
+    "blurb": "고향을 버리고 간도로 떠난 한 가족",
+    "mood": "동양·현실"
+  },
+  "sangroksu": {
+    "blurb": "마루에 그어진 금, 쫓겨나는 아이들",
+    "mood": "동양·현실"
+  },
+  "hyeolui_nu": {
+    "blurb": "돌아갈 고향이 없는 소녀의 신발 끈",
+    "mood": "동양·현실"
+  },
+  "dongbaekkkot": {
+    "blurb": "닭싸움 뒤에 숨은 점순이의 마음",
+    "mood": "동양·서정"
+  },
+  "bombom": {
+    "blurb": "키가 안 자라서 장가를 못 간다는 말",
+    "mood": "동양·서정"
+  },
+  "memilkkot_pil_muryeop": {
+    "blurb": "달빛 메밀밭에서 꺼낸 스무 해 전 하룻밤",
+    "mood": "동양·서정"
+  },
+  "beongeori_samryongi": {
+    "blurb": "말 못하는 머슴이 불길 속으로 뛰어든 밤",
+    "mood": "동양·서정"
+  },
+  "baettaragi": {
+    "blurb": "쥐 한 마리가 갈라놓은 형제의 이십 년",
+    "mood": "동양·서정"
+  },
+  "sangol_nageune": {
+    "blurb": "며느리로 맞은 나그네가 사라진 새벽",
+    "mood": "동양·서정"
+  },
+  "bsagamgwa_reobeureteo": {
+    "blurb": "연애편지를 읽어 주던 사감의 한밤중",
+    "mood": "동양·서정"
+  },
+  "chunhyangjeon": {
+    "blurb": "그네 한 번에 뒤바뀐 처녀의 앞날",
+    "mood": "동양·서정"
+  },
+  "simcheongjeon": {
+    "blurb": "아버지의 눈값으로 바다에 선 딸",
+    "mood": "동양·서정"
+  },
+  "heungbujeon": {
+    "blurb": "다친 제비가 물어다 준 박씨 하나",
+    "mood": "동양·서정"
+  },
+  "chuwolsaek": {
+    "blurb": "달빛 공원에서 마주친 옛 정혼자",
+    "mood": "동양·서정"
+  },
+  "gyeonu_jingnyeo": {
+    "blurb": "은하수를 사이에 둔 두 사람의 일 년",
+    "mood": "동양·서정"
+  },
+  "kongjwipatjwi": {
+    "blurb": "개울에 흘려보낸 꽃신 한 짝의 행방",
+    "mood": "동양·서정"
+  },
+  "honggildongjeon": {
+    "blurb": "아버지를 아버지라 못 부른 소년의 길",
+    "mood": "동양·서정"
+  },
+  "byeoljubujeon": {
+    "blurb": "간을 두고 왔다는 토끼의 한마디",
+    "mood": "동양·서정"
+  },
+  "bomulseom": {
+    "blurb": "지도 한 장에 걸린 소년의 목숨과 금화",
+    "mood": "서양·모험"
+  },
+  "15sonyeon_pyoryugi": {
+    "blurb": "어른 없는 배가 닿은 이름 없는 섬",
+    "mood": "서양·모험"
+  },
+  "80ilganui_segye_ilju": {
+    "blurb": "전 재산을 건 80일의 지구 한 바퀴",
+    "mood": "서양·모험"
+  },
+  "haejeo_2manri": {
+    "blurb": "바다 밑 2만 리를 달리는 검은 배",
+    "mood": "서양·모험"
+  },
+  "jigu_sok_yeohaeng": {
+    "blurb": "화산 분화구 아래에 펼쳐진 지하 바다",
+    "mood": "서양·모험"
+  },
+  "geolribeo_yeohaenggi": {
+    "blurb": "손가락만 한 사람들에게 묶인 거인",
+    "mood": "서양·모험"
+  },
+  "robinseun_keurusoe": {
+    "blurb": "무인도 모래밭에 찍힌 남의 발자국",
+    "mood": "서양·모험"
+  },
+  "heokeulberi_pinui_moheom": {
+    "blurb": "뗏목 하나로 강을 내려가는 두 도망자",
+    "mood": "서양·모험"
+  },
+  "tom_soyeoui_moheom": {
+    "blurb": "동굴 바위 틈에 걸린 낡은 궤짝",
+    "mood": "서양·모험"
+  },
+  "mobydick": {
+    "blurb": "흰 고래에 금화를 건 외다리 선장",
+    "mood": "서양·모험"
+  },
+  "montekeuriseuto_baekjak": {
+    "blurb": "감옥 벽을 뚫고 나온 사내의 복수",
+    "mood": "서양·모험"
+  },
+  "samchongsa": {
+    "blurb": "하루에 결투 세 번을 약속한 시골 청년",
+    "mood": "서양·모험"
+  },
+  "sindeubadeu": {
+    "blurb": "딛고 선 섬이 움직이기 시작했다",
+    "mood": "서양·모험"
+  },
+  "robinhudeu": {
+    "blurb": "부자의 짐수레를 기다리는 숲의 활잡이",
+    "mood": "서양·모험"
+  },
+  "jeonggeulbuk": {
+    "blurb": "늑대가 기른 아이가 마주한 정글의 법",
+    "mood": "서양·모험"
+  },
+  "wangjawa_geoji": {
+    "blurb": "옷을 바꿔 입은 두 아이의 뒤바뀐 자리",
+    "mood": "서양·모험"
+  },
+  "majimak_ipsae": {
+    "blurb": "저 잎이 지면 나도 간다는 병상의 말",
+    "mood": "서양·서정"
+  },
+  "minyeowa_yasu": {
+    "blurb": "장미 한 송이 값으로 성에 남은 딸",
+    "mood": "서양·서정"
+  },
+  "ineogongju": {
+    "blurb": "목소리를 내주고 두 다리를 얻은 인어",
+    "mood": "서양·서정"
+  },
+  "eodum_sogui_bit": {
+    "blurb": "성냥불 속에만 보이는 따뜻한 방",
+    "mood": "서양·서정"
+  },
+  "sogongnyeo": {
+    "blurb": "하루아침에 다락방으로 쫓겨난 소녀",
+    "mood": "서양·서정"
+  },
+  "omangwa_pyeongyeon": {
+    "blurb": "첫인상을 서로 잘못 읽은 두 사람",
+    "mood": "서양·서정"
+  },
+  "pokpungui_eondeok": {
+    "blurb": "죽어서도 창밖을 떠도는 사랑",
+    "mood": "서양·서정"
+  },
+  "keuriseumaseu_kaereol": {
+    "blurb": "제 장례식을 미리 보고 온 구두쇠",
+    "mood": "서양·서정"
+  },
+  "tolstoy": {
+    "blurb": "맨몸으로 온 천사가 배운 세 가지",
+    "mood": "서양·서정"
+  },
+  "widaehan_gaecheubi": {
+    "blurb": "강 건너 초록 불빛만 바라본 남자",
+    "mood": "서양·서정"
+  },
+  "jangbaljang": {
+    "blurb": "은그릇을 훔친 손에 쥐어진 은촛대",
+    "mood": "서양·서정"
+  },
+  "noteureudam_de_pari": {
+    "blurb": "종탑 위에서 광장을 내려다본 종지기",
+    "mood": "서양·서정"
+  },
+  "isanghan_naraui_aelriseu": {
+    "blurb": "조끼 입은 토끼를 쫓다 떨어진 굴",
+    "mood": "서양·환상"
+  },
+  "ojeuui_mabeopsa": {
+    "blurb": "회오리에 실려 간 소녀의 노란 벽돌길",
+    "mood": "서양·환상"
+  },
+  "piteopaen": {
+    "blurb": "그림자를 잃어버린 소년이 온 밤",
+    "mood": "서양·환상"
+  },
+  "taimmeosin": {
+    "blurb": "팔십만 년 뒤로 간 남자가 본 것",
+    "mood": "서양·환상"
+  },
+  "tumyeongingan": {
+    "blurb": "붕대를 풀면 아무것도 없는 남자",
+    "mood": "서양·환상"
+  },
+  "pinokio": {
+    "blurb": "거짓말할 때마다 길어지는 나무 코",
+    "mood": "서양·환상"
+  },
+  "jaekgwa_kongnamu": {
+    "blurb": "하룻밤 새 구름까지 자란 콩 한 알",
+    "mood": "서양·환상"
+  },
+  "baekseolgongju": {
+    "blurb": "거울이 부른 다른 이름, 숲으로 간 공주",
+    "mood": "서양·환상"
+  },
+  "henjelgwa_geuretel": {
+    "blurb": "새들이 먹어 버린 빵조각 길",
+    "mood": "서양·환상"
+  },
+  "sindellera": {
+    "blurb": "열두 시 계단에 남겨진 유리 구두",
+    "mood": "서양·환상"
+  },
+  "aladin": {
+    "blurb": "닫힌 동굴 속에서 문지른 낡은 등잔",
+    "mood": "서양·환상"
+  },
+  "eorin_wangja": {
+    "blurb": "사막에서 양을 그려 달라는 아이",
+    "mood": "서양·환상"
+  },
+  "deurakyulra": {
+    "blurb": "초대받아야만 들어올 수 있는 손님",
+    "mood": "서양·긴장"
+  },
+  "jikil_baksawa_haideu": {
+    "blurb": "밤마다 딴사람이 되는 신사의 약병",
+    "mood": "서양·긴장"
+  },
+  "peurangkensyutain": {
+    "blurb": "제가 만든 것에 쫓기는 과학자",
+    "mood": "서양·긴장"
+  },
+  "baseukeobil_gamunui_gae": {
+    "blurb": "안개 낀 황야를 울리는 개 짖는 소리",
+    "mood": "서양·긴장"
+  },
+  "juhongsaek_yeongu": {
+    "blurb": "첫 만남에 과거를 맞힌 하숙집 남자",
+    "mood": "서양·긴장"
+  },
+  "geomeun_goyangi": {
+    "blurb": "벽 속에서 들려온 울음소리",
+    "mood": "서양·긴장"
+  },
+  "operaui_yuryeong": {
+    "blurb": "오페라 극장 지하에 사는 목소리",
+    "mood": "서양·긴장"
+  },
+  "dorieon_geureiui_chosang": {
+    "blurb": "주인 대신 늙어 가는 초상화",
+    "mood": "서양·긴장"
+  },
+  "dongmulnongjang": {
+    "blurb": "주인을 쫓아낸 농장의 새 규칙",
+    "mood": "서양·긴장"
+  },
+  "olribeo_teuwiseuteu": {
+    "blurb": "죽 한 그릇 더 달라고 말한 값",
+    "mood": "서양·긴장"
+  },
+  "du_dosi_iyagi": {
+    "blurb": "감옥 앞에 선 똑같은 얼굴의 남자",
+    "mood": "서양·긴장"
+  },
+  "juhong_geulja": {
+    "blurb": "가슴에 붉은 글자를 단 여자의 침묵",
+    "mood": "서양·긴장"
+  },
+  "joewa_beol": {
+    "blurb": "완전범죄를 계획한 가난한 대학생",
+    "mood": "서양·긴장"
+  },
+  "kafka": {
+    "blurb": "벌레로 깨어난 아침, 잠긴 방문",
+    "mood": "서양·긴장"
+  },
+  "beuremen_eumakdae": {
+    "blurb": "버려진 짐승 넷이 만든 한밤의 합창",
+    "mood": "서양·환상"
+  },
+  "haewa_dal": {
+    "blurb": "하늘에서 내려온 두 갈래의 동아줄",
+    "mood": "동양·서정"
+  }
 }

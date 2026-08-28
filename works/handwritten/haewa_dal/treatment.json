@@ -1,0 +1,174 @@
+{
+  "logline": "호랑이를 피해 나무 위로 오른 오누이가 하늘에서 내려온 동아줄을 잡는다.",
+  "destination": "우물가 큰 나무 꼭대기 — 하늘로 이어지는 자리",
+  "protagonist": "무명 저고리를 입은 열 살 남짓 오빠",
+  "setting": "옛 조선의 산속 오두막과 우물가",
+  "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+  "palette": "deep indigo, pale silver, hanji cream, deep green, warm amber",
+  "voice": "ko-KR-JiMinNeural",
+  "personas": {
+    "brother": {
+      "label": "오빠",
+      "desc": "a Korean boy of about ten, short topknot, undyed hemp jeogori and trousers, straw shoes",
+      "avoid": ""
+    },
+    "sister": {
+      "label": "여동생",
+      "desc": "a Korean girl of about six, twin braids, patched hemp dress, bare feet",
+      "avoid": ""
+    },
+    "tiger": {
+      "label": "호랑이",
+      "desc": "a huge orange tiger with bold black stripes and heavy paws, minhwa folk-painting style",
+      "avoid": "피·상처는 그리지 않는다"
+    },
+    "hut": {
+      "label": "산속 오두막",
+      "desc": "a small thatched hut on a dark mountainside, one paper window glowing"
+    },
+    "big_tree": {
+      "label": "우물가 큰 나무",
+      "desc": "a huge old tree beside a round stone well, moonlit clearing"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "brother",
+        "sister",
+        "hut"
+      ],
+      "beat": "오누이가 산속 오두막에서 어머니를 기다린다.",
+      "visual": "a young boy and his little sister at a hut door looking down a dusk mountain path",
+      "motion": "their eyes follow the path steadily downhill"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "tiger",
+        "hut"
+      ],
+      "beat": "문밖에서 낯선 목소리가 어머니 흉내를 낸다.",
+      "visual": "a huge striped tiger crouched at a hut door, one paw raised to the wood",
+      "motion": "its paw rests steadily against the door"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "brother",
+        "sister"
+      ],
+      "beat": "문틈으로 내다본 오누이가 숨을 삼킨다.",
+      "visual": "two children peering through a door crack, eyes wide in lamplight",
+      "motion": "their eyes widen steadily at the crack"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "brother",
+        "sister"
+      ],
+      "beat": "오누이가 뒷문으로 빠져나와 내달린다.",
+      "visual": "a boy pulling his sister by the hand out a back door into moonlit brush",
+      "motion": "they run steadily into the brush"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "brother",
+        "sister",
+        "big_tree"
+      ],
+      "beat": "오누이가 우물가 큰 나무로 기어오른다.",
+      "visual": "two children climbing the trunk of a huge tree beside a stone well, moonlight",
+      "motion": "they climb steadily up the trunk"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "tiger",
+        "big_tree"
+      ],
+      "beat": "호랑이가 나무 밑까지 쫓아온다.",
+      "visual": "a striped tiger circling the base of a huge tree, head craned upward",
+      "motion": "it circles the trunk steadily"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "tiger"
+      ],
+      "beat": "호랑이가 참기름을 바르고 미끄러진다.",
+      "visual": "a tiger sliding back down a glistening tree trunk, claws leaving long marks",
+      "motion": "it slides steadily back down the trunk"
+    },
+    {
+      "n": 8,
+      "cast": [
+        "tiger",
+        "big_tree"
+      ],
+      "beat": "호랑이가 도끼로 발판을 찍으며 오른다.",
+      "visual": "a tiger hauling itself up a tree trunk notch by notch, children high above",
+      "motion": "it hauls itself steadily higher"
+    },
+    {
+      "n": 9,
+      "cast": [
+        "brother",
+        "sister",
+        "big_tree"
+      ],
+      "beat": "오누이가 하늘을 향해 빌기 시작한다.",
+      "visual": "two children at the top of a tree with hands pressed together toward the night sky",
+      "motion": "their joined hands lift steadily skyward"
+    },
+    {
+      "n": 10,
+      "cast": [
+        "big_tree"
+      ],
+      "beat": "하늘에서 튼튼한 동아줄이 내려온다.",
+      "visual": "a thick golden rope descending from clouds toward a treetop where children wait",
+      "motion": "the rope lowers steadily through the clouds"
+    },
+    {
+      "n": 11,
+      "cast": [
+        "brother",
+        "sister"
+      ],
+      "beat": "오누이가 동아줄을 잡고 오른다.",
+      "visual": "two children climbing a golden rope high above dark mountains, clouds near",
+      "motion": "they rise steadily along the rope"
+    },
+    {
+      "n": 12,
+      "cast": [
+        "tiger"
+      ],
+      "beat": "호랑이도 제 줄을 붙잡고 따라온다.",
+      "visual": "a tiger gripping a frayed rope over dark ridges, strands beginning to part",
+      "motion": "the strands part steadily under its weight"
+    },
+    {
+      "n": 13,
+      "cast": [
+        "brother",
+        "sister"
+      ],
+      "beat": "구름 위에서 오누이가 아래를 내려다본다.",
+      "visual": "two children on moonlit clouds looking down through a gap at dark mountains",
+      "motion": "clouds drift steadily beneath them"
+    },
+    {
+      "n": 14,
+      "cast": [],
+      "beat": "빈 우물가에 동아줄 그림자만 남는다.",
+      "visual": "a stone well and a huge tree at dawn, a long rope shadow fading on the ground",
+      "motion": "the shadow fades steadily in the growing light"
+    }
+  ],
+  "withheld": "하늘에 남은 두 아이의 정체와, 썩은 동아줄을 잡은 짐승의 마지막"
+}

@@ -329,5 +329,13 @@
   "sindellera": {
     "region": "프랑스",
     "genre": "환상"
+  },
+  "beuremen_eumakdae": {
+    "region": "기타 유럽",
+    "genre": "환상"
+  },
+  "haewa_dal": {
+    "region": "한국",
+    "genre": "환상"
   }
 }

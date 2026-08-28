@@ -1,0 +1,7 @@
+[포맷] 각색형
+[서지] 브레멘 음악대 / 그림 형제 /   /
+[줄거리와 배경]
+1819년 그림 형제의 동화. 쓸모없다며 버려진 당나귀·개·고양이·수탉이 음악대가 되겠다며 길을 나서고, 숲속 도둑들의 집을 만난다.
+[줄거리]
+줄거리와 인물은 works/handwritten/beuremen_eumakdae/treatment.json 에 열네 박자로 적어 두었다.
+인물 생김새는 그 안의 personas 와 works/personas.json 에 있다.

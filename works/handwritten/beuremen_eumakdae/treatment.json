@@ -1,0 +1,196 @@
+{
+  "logline": "쓸모없다며 버려진 짐승 넷이 음악대가 되겠다고 길을 나선다.",
+  "destination": "숲속 불 켜진 집 — 도둑들의 상이 차려진 곳",
+  "protagonist": "짐을 지던 늙은 회색 당나귀",
+  "setting": "옛 독일의 시골길과 숲",
+  "anchor": "an old grey donkey with a worn back and patient eyes",
+  "palette": "road ochre, deep blue, warm amber, deep green, pale silver",
+  "voice": "ko-KR-InJoonNeural",
+  "personas": {
+    "donkey": {
+      "label": "당나귀",
+      "desc": "an old grey donkey, worn back, long ears, patient dark eyes",
+      "avoid": ""
+    },
+    "dog": {
+      "label": "개",
+      "desc": "an old brown hound with drooping ears and grey muzzle",
+      "avoid": ""
+    },
+    "cat": {
+      "label": "고양이",
+      "desc": "a thin grey tabby cat with sharp green eyes",
+      "avoid": ""
+    },
+    "rooster": {
+      "label": "수탉",
+      "desc": "a rooster with a scarlet comb and glossy dark tail feathers",
+      "avoid": ""
+    },
+    "robbers": {
+      "label": "도둑들",
+      "desc": "rough unshaven men in patched coats and slouch hats",
+      "avoid": "무기는 그리지 않는다"
+    },
+    "road": {
+      "label": "시골길",
+      "desc": "a rutted country road between hedges and far farm fields"
+    },
+    "forest": {
+      "label": "숲",
+      "desc": "dark close-set trunks over a narrow road, dusk light"
+    },
+    "cottage_far": {
+      "label": "숲속 집",
+      "desc": "a small cottage deep in trees, one lit window, chimney smoke"
+    }
+  },
+  "beats": [
+    {
+      "n": 1,
+      "cast": [
+        "donkey",
+        "road"
+      ],
+      "beat": "늙은 당나귀가 홀로 흙길을 걷는다.",
+      "visual": "an old grey donkey walking alone down a rutted country road, farm far behind",
+      "motion": "it plods steadily down the road"
+    },
+    {
+      "n": 2,
+      "cast": [
+        "donkey",
+        "dog"
+      ],
+      "beat": "길가에 엎드린 늙은 개를 만난다.",
+      "visual": "an old hound lying at the roadside lifting its head toward a passing donkey",
+      "motion": "the dog's head lifts steadily toward the donkey"
+    },
+    {
+      "n": 3,
+      "cast": [
+        "donkey",
+        "dog",
+        "cat"
+      ],
+      "beat": "담장 위의 고양이가 둘을 내려다본다.",
+      "visual": "a thin cat on a stone wall looking down at a donkey and a hound on the road",
+      "motion": "the cat's tail sweeps steadily along the wall"
+    },
+    {
+      "n": 4,
+      "cast": [
+        "rooster"
+      ],
+      "beat": "울타리 위 수탉이 목청껏 운다.",
+      "visual": "a rooster on a fence post crowing with its beak wide open, wings half spread",
+      "motion": "its wings beat steadily as it crows"
+    },
+    {
+      "n": 5,
+      "cast": [
+        "donkey",
+        "dog",
+        "cat",
+        "rooster",
+        "road"
+      ],
+      "beat": "넷이 나란히 길을 나선다.",
+      "visual": "a donkey, hound, cat and rooster walking together down a road toward dark woods",
+      "motion": "the four move steadily toward the woods"
+    },
+    {
+      "n": 6,
+      "cast": [
+        "forest"
+      ],
+      "beat": "해가 지고 숲이 어두워진다.",
+      "visual": "a dark forest road at dusk, tree shadows stretching long across the ruts",
+      "motion": "shadows lengthen steadily across the road"
+    },
+    {
+      "n": 7,
+      "cast": [
+        "cottage_far"
+      ],
+      "beat": "나무 사이로 불 켜진 집이 보인다.",
+      "visual": "a lit cottage window glowing between dark tree trunks, smoke from the chimney",
+      "motion": "the window light glows steadily through the trees"
+    },
+    {
+      "n": 8,
+      "cast": [
+        "donkey",
+        "dog",
+        "cat",
+        "rooster",
+        "cottage_far"
+      ],
+      "beat": "넷이 창가로 살금살금 다가간다.",
+      "visual": "four animals creeping toward a lit cottage window, low to the ground",
+      "motion": "they edge steadily closer to the window"
+    },
+    {
+      "n": 9,
+      "cast": [
+        "robbers"
+      ],
+      "beat": "집 안에서는 도둑들이 상을 벌여 놓았다.",
+      "visual": "rough men around a table heaped with food and candles inside a cottage",
+      "motion": "candle flames sway steadily over the table"
+    },
+    {
+      "n": 10,
+      "cast": [
+        "donkey",
+        "dog",
+        "cat",
+        "rooster"
+      ],
+      "beat": "넷이 창밑에서 탑처럼 포개어 선다.",
+      "visual": "a hound on a donkey's back, a cat on the hound, a rooster on top, under a window",
+      "motion": "the tower sways steadily as they balance"
+    },
+    {
+      "n": 11,
+      "cast": [
+        "donkey",
+        "dog",
+        "cat",
+        "rooster"
+      ],
+      "beat": "넷이 한꺼번에 소리를 지른다.",
+      "visual": "four stacked animals with mouths and beak wide open at a lit window",
+      "motion": "their heads strain steadily toward the glass"
+    },
+    {
+      "n": 12,
+      "cast": [
+        "robbers"
+      ],
+      "beat": "도둑들이 혼비백산해 숲으로 달아난다.",
+      "visual": "rough men scattering out of a cottage door into dark trees, hats flying",
+      "motion": "they flee steadily into the trees"
+    },
+    {
+      "n": 13,
+      "cast": [
+        "donkey",
+        "dog",
+        "cat",
+        "rooster"
+      ],
+      "beat": "넷이 따뜻한 상 앞에 둘러앉는다.",
+      "visual": "four animals gathered around a heaped table in warm candlelight, at ease",
+      "motion": "steam rises steadily from the dishes"
+    },
+    {
+      "n": 14,
+      "cast": [],
+      "beat": "불 꺼진 창가에 달빛만 남는다.",
+      "visual": "a quiet cottage window under moonlight, four silhouettes resting inside",
+      "motion": "moonlight settles steadily on the sill"
+    }
+  ],
+  "withheld": "짐승들이 그 집을 차지하고 눌러앉게 되는 결말"
+}
