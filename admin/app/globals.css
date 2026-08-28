@@ -13,8 +13,12 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; }
+/* 마스터 폰트: 조선100년체 하나로 전 화면을 통일한다(사용자 지정 — "비 오는
+   날…" 미끼에 쓰인 그 폰트). 이 가족은 굵기가 하나라 제목의 굵음은 브라우저
+   합성 볼드로 나온다. @font-face 선언이 body 보다 앞에 있어야 첫 화면부터 잡힌다. */
+@font-face { font-family: 'BardMaster'; src: url('/fonts/dong-real.woff2') format('woff2'); font-display: swap; }
 body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'BardMaster', 'Noto Serif KR', serif;
   font-size: 15px; line-height: 1.6; color: var(--graphite); background: var(--canvas);
   -webkit-font-smoothing: antialiased;
 }
@@ -157,12 +161,6 @@ a { color: inherit; text-decoration: none; }
   font-size: 13.5px; color: var(--pewter); line-height: 1.45;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
-.blurb[data-mood="동양·서정"] { font-family: var(--f-dong-lyric); }
-.blurb[data-mood="동양·현실"] { font-family: var(--f-dong-real); }
-.blurb[data-mood="서양·모험"] { font-family: var(--f-west-adv); }
-.blurb[data-mood="서양·서정"] { font-family: var(--f-west-lyric); }
-.blurb[data-mood="서양·환상"] { font-family: var(--f-west-fant); }
-.blurb[data-mood="서양·긴장"] { font-family: var(--f-west-dark); letter-spacing: 0.02em; }
 
 /* 인기대출도서 */
 .books { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
@@ -355,7 +353,11 @@ a { color: inherit; text-decoration: none; }
                        z-index: 1; opacity: 0; pointer-events: none; }
 /* 제목·재생 단추는 가운데 셀에만 */
 .cell .slabel, .cell .play { transition: opacity 0.4s; }
-.cell:not([data-off="0"]) .slabel, .cell:not([data-off="0"]) .play { opacity: 0; }
+.cell:not([data-off="0"]) .play { opacity: 0; }
+/* 옆 셀은 축소된 만큼 글이 작아진다 — 살짝만 눌러 줘도 읽힌다 */
+.cell:not([data-off="0"]) .slabel { opacity: 0.95; }
+/* 라벨이 그림 위에 얹히려면 어둠막이 늘 필요하다 */
+.cell .scrim { opacity: 0.9; }
 .hblurb { display: block; font-size: 13px; opacity: 0.92; margin-top: 5px; }
 
 /* ── 사이트 소개 (AICR 소개 페이지풍: 선언문 → 3카드 → 숫자띠) ── */
