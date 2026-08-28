@@ -437,3 +437,19 @@ a { color: inherit; text-decoration: none; }
   background: var(--ink); color: var(--canvas); transition: opacity var(--ease);
 }
 .loginbtn:disabled { opacity: 0.45; cursor: default; }
+
+/* ── 로딩 반짝임(shimmer) ──────────────────────────────────────────
+   생성형 이미지 로딩에 쓰는 그 빛 쓸림. 밝은 띠가 왼쪽에서 오른쪽으로
+   반복해 지나가며 "만들어지는 중"을 직관적으로 보인다.
+   이미지는 다 받아진 순간(.ld) 부드럽게 나타나 반짝임을 덮는다. */
+.shimmer { position: relative; background: var(--ash); overflow: hidden; }
+.shimmer::before {
+  content: ""; position: absolute; inset: 0; z-index: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(100deg, transparent 30%, rgba(255,255,255,0.55) 50%, transparent 70%);
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+@keyframes shimmer { 100% { transform: translateX(100%); } }
+@media (prefers-reduced-motion: reduce) { .shimmer::before { animation: none; } }
+.cell img, .thumb img { opacity: 0; transition: opacity 0.45s ease; position: relative; z-index: 1; }
+.cell img.ld, .thumb img.ld { opacity: 1; }

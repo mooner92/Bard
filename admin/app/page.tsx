@@ -75,9 +75,10 @@ function dedupeBooks(books: Book[]): Book[] {
 function Card({ it, onPlay }: { it: Item; onPlay: () => void }) {
   return (
     <button className="vcard" onClick={onPlay}>
-      <span className="thumb">
+      <span className="thumb shimmer">
         {it.cover
-          ? <img src={`${API}/api/files/keyframe/${it.work}/${it.cover}`} alt="" />
+          ? <img src={`${API}/api/files/keyframe/${it.work}/${it.cover}`} alt=""
+              onLoad={e => e.currentTarget.classList.add('ld')} />
           : <span className="ph" />}
         <span className="play sm"><PlayIcon size={18} /></span>
       </span>
@@ -190,12 +191,15 @@ export default function Home() {
         <main className="homefit">
           <p className="tagline">책 속 세계를, 1분 안에 — 문학을 짧은 영상으로 다시 읽습니다.</p>
 
-          {hero.length > 0 && (
-            <section className="hero">
+          <section className="hero">
               <h2 className="sec hero-sec">인기 작품</h2>
               {/* 커버플로우: 가운데 큰 셀 + 양옆이 바깥으로 기운 작은 셀.
                   옆 셀을 누르면 그쪽으로 한 칸 돌고, 가운데를 누르면 재생한다. */}
               <div className="cflow">
+                {hero.length === 0 && [-1, 0, 1].map(o => (
+                  /* 데이터가 오기 전의 자리 지킴 — 반짝 쓸림으로 로딩 중임을 보인다 */
+                  <div key={o} className="cell shimmer" data-off={o} aria-hidden />
+                ))}
                 {hero.map((it, i) => {
                   const n = hero.length
                   let off = i - cur
@@ -203,12 +207,13 @@ export default function Home() {
                   if (off < -n / 2) off += n
                   const o = Math.max(-2, Math.min(2, off))
                   return (
-                    <button key={it.work} className="cell" data-off={o}
+                    <button key={it.work} className="cell shimmer" data-off={o}
                       tabIndex={o === 0 ? 0 : -1}
                       aria-label={o === 0 ? `${it.title} 재생` : `${it.title}(으)로 이동`}
                       onClick={() => o === 0 ? setPlaying(it) : setSlide((cur + o + n) % n)}>
                       {it.cover
-                        ? <img src={`${API}/api/files/keyframe/${it.work}/${it.cover}`} alt="" />
+                        ? <img src={`${API}/api/files/keyframe/${it.work}/${it.cover}`} alt=""
+                            onLoad={e => e.currentTarget.classList.add('ld')} />
                         : <span className="ph" />}
                       <span className="scrim" />
                       <span className="slabel">
@@ -225,9 +230,9 @@ export default function Home() {
                   <button key={i} className={i === cur ? 'dot on' : 'dot'}
                     onClick={() => setSlide(i)} aria-label={`${i + 1}번 슬라이드`} />
                 ))}
+                {hero.length === 0 && <span className="dot" aria-hidden />}
               </div>
             </section>
-          )}
 
           {/* 사이트 소개 — 캐러셀 아래에 이 서비스가 무엇인지 한 호흡으로. */}
           <section className="intro">
