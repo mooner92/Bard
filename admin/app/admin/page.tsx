@@ -59,13 +59,6 @@ export default function Admin() {
     if (r?.works) setFeatured(r.works)
     setSavingFeat(false)
   }
-  const move = (i: number, d: number) => {
-    const n = [...featured]
-    const j = i + d
-    if (j < 0 || j >= n.length) return
-    ;[n[i], n[j]] = [n[j], n[i]]
-    saveFeatured(n)
-  }
 
   // 작품별로 묶고 생성순 내림차순 — 맨 앞이 현행
   const byWork = useMemo(() => {
@@ -177,10 +170,6 @@ export default function Admin() {
                         {byWork.find(([n]) => n === w)?.[1][0]?.title ?? w}
                       </span>
                     </span>
-                    <button className="ghost" onClick={() => move(i, -1)} disabled={i === 0}
-                      aria-label="위로">↑</button>
-                    <button className="ghost" onClick={() => move(i, 1)}
-                      disabled={i === featured.length - 1} aria-label="아래로">↓</button>
                     <button className="ghost"
                       onClick={() => saveFeatured(featured.filter(x => x !== w))}>빼기</button>
                   </li>
