@@ -111,11 +111,20 @@ def _categories() -> dict:
         return {}
 
 
+def _blurbs() -> dict:
+    """작품별 한 줄 설명과 분위기 묶음. 카드가 미끼 문장과 폰트 클래스를 얻는다."""
+    try:
+        return json.loads((BASE / "works" / "blurbs.json").read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def _works():
     """output/<작품>/narration*.json 을 훑어 작품 목록을 만든다.
     별도 테이블 없이 파일시스템을 진실로 쓴다 -- 파이프라인이 파일로 돌기 때문."""
     out = []
     cats = _categories()
+    blurbs = _blurbs()
     if not OUTPUT.exists():
         return out
     for d in sorted(p for p in OUTPUT.iterdir() if p.is_dir()):
@@ -137,6 +146,8 @@ def _works():
                 "issues": data.get("issues", []),
                 "region": (cats.get(d.name) or {}).get("region", "기타"),
                 "genre": (cats.get(d.name) or {}).get("genre", "기타"),
+                "blurb": (blurbs.get(d.name) or {}).get("blurb", ""),
+                "mood": (blurbs.get(d.name) or {}).get("mood", ""),
             })
     return out
 

@@ -133,6 +133,29 @@ a { color: inherit; text-decoration: none; }
 .vcard:hover .thumb::after { opacity: 1; }
 .vtitle { font-size: 14.5px; font-weight: 600; color: var(--ink); line-height: 1.35; }
 
+/* 한 줄 미끼. 줄거리 요약이 아니라 궁금하게 만드는 한 장면이다(works/blurbs.json).
+   분위기 여섯 묶음(data-mood)마다 폰트를 달리 입힌다 — 파일이 오기 전까지는
+   계열이 비슷한 기본 글꼴로 견딘다. 폰트가 오면 @font-face 를 선언하고
+   아래 변수만 바꾸면 전 카드에 한 번에 적용된다. */
+:root {
+  --f-dong-lyric: 'Nanum Myeongjo', 'Noto Serif KR', serif;      /* 동양·서정: 붓 흘림 */
+  --f-dong-real:  'Noto Serif KR', serif;                        /* 동양·현실: 지면 명조 */
+  --f-west-adv:   Georgia, 'Noto Serif KR', serif;               /* 서양·모험: 굵은 세리프 */
+  --f-west-lyric: Georgia, 'Noto Serif KR', serif;               /* 서양·서정: 가는 세리프 */
+  --f-west-fant:  'Comic Sans MS', 'Noto Serif KR', serif;       /* 서양·환상: 동화체 */
+  --f-west-dark:  'Noto Serif KR', serif;                        /* 서양·긴장: 대비 세리프 */
+}
+.blurb {
+  font-size: 12.5px; color: var(--pewter); line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.blurb[data-mood="동양·서정"] { font-family: var(--f-dong-lyric); }
+.blurb[data-mood="동양·현실"] { font-family: var(--f-dong-real); }
+.blurb[data-mood="서양·모험"] { font-family: var(--f-west-adv); font-weight: 600; }
+.blurb[data-mood="서양·서정"] { font-family: var(--f-west-lyric); font-style: italic; }
+.blurb[data-mood="서양·환상"] { font-family: var(--f-west-fant); }
+.blurb[data-mood="서양·긴장"] { font-family: var(--f-west-dark); letter-spacing: 0.02em; }
+
 /* 인기대출도서 */
 .books { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .books li { display: flex; align-items: center; gap: 16px; padding: 15px 4px; border-bottom: 1px solid var(--line); }

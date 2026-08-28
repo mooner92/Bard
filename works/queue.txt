@@ -1,2 +1,1 @@
-henjelgwa_geuretel	facts/auto_henjelgwa_geuretel.txt	소설 헨젤과 그레텔에서 만날 수 있습니다	German storybook illustration: dark green, moonlit silver, crust brown, warm amber, fine ink linework. 	서늘
 sindellera	facts/auto_sindellera.txt	소설 신데렐라에서 만날 수 있습니다	17th-century French storybook illustration: ash grey, warm amber, pale silver, deep blue, fine ink linework. 	서늘

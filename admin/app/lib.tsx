@@ -13,6 +13,8 @@ export type Work = {
   sentences: string[]; passed: boolean | null; issues: string[]; updated?: string
   region?: string   // 어디 이야기 — works/categories.json 이 정한다
   genre?: string    // 어떤 이야기
+  blurb?: string    // 카드에 얹는 한 줄 미끼 — works/blurbs.json
+  mood?: string     // 폰트 묶음(동양·서정 등 여섯)
 }
 export type Video = {
   name: string; size: number; duration: number | null

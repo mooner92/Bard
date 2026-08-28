@@ -5,7 +5,7 @@ import { API, Book, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib
 
 type Item = {
   work: string; title: string; cover?: string; video?: Video
-  region: string; genre: string
+  region: string; genre: string; blurb: string; mood: string
 }
 
 /** 전체보기 왼쪽 필터의 축. 값은 works/categories.json 이 정한다. */
@@ -47,6 +47,7 @@ function Card({ it, onPlay }: { it: Item; onPlay: () => void }) {
         <span className="play sm"><PlayIcon size={18} /></span>
       </span>
       <span className="vtitle">{it.title}</span>
+      {it.blurb && <span className="blurb" data-mood={it.mood}>{it.blurb}</span>}
       <span className="fine">{it.video?.duration ?? '?'}초 · {fmtDate(it.video?.updated)}</span>
     </button>
   )
@@ -80,6 +81,7 @@ export default function Home() {
         return {
           work: name, title, cover: kf.images?.[0], video: latest,
           region: row?.region ?? '기타', genre: row?.genre ?? '기타',
+          blurb: row?.blurb ?? '', mood: row?.mood ?? '',
         }
       }))
       setItems(rows.filter(r => r.video))
