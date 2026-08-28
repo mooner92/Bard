@@ -137,22 +137,30 @@ a { color: inherit; text-decoration: none; }
    분위기 여섯 묶음(data-mood)마다 폰트를 달리 입힌다 — 파일이 오기 전까지는
    계열이 비슷한 기본 글꼴로 견딘다. 폰트가 오면 @font-face 를 선언하고
    아래 변수만 바꾸면 전 카드에 한 번에 적용된다. */
+/* 사용자가 고른 실제 폰트(OTF → woff2 압축, admin/public/fonts).
+   display: swap — 폰트가 늦어도 글이 먼저 보이게. */
+@font-face { font-family: 'BardDongLyric'; src: url('/fonts/dong-lyric.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'BardDongReal';  src: url('/fonts/dong-real.woff2')  format('woff2'); font-display: swap; }
+@font-face { font-family: 'BardWestAdv';   src: url('/fonts/west-adv.woff2')   format('woff2'); font-display: swap; }
+@font-face { font-family: 'BardWestLyric'; src: url('/fonts/west-lyric.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'BardWestFant';  src: url('/fonts/west-fant.woff2')  format('woff2'); font-display: swap; }
+@font-face { font-family: 'BardWestDark';  src: url('/fonts/west-dark.woff2')  format('woff2'); font-display: swap; }
 :root {
-  --f-dong-lyric: 'Nanum Myeongjo', 'Noto Serif KR', serif;      /* 동양·서정: 붓 흘림 */
-  --f-dong-real:  'Noto Serif KR', serif;                        /* 동양·현실: 지면 명조 */
-  --f-west-adv:   Georgia, 'Noto Serif KR', serif;               /* 서양·모험: 굵은 세리프 */
-  --f-west-lyric: Georgia, 'Noto Serif KR', serif;               /* 서양·서정: 가는 세리프 */
-  --f-west-fant:  'Comic Sans MS', 'Noto Serif KR', serif;       /* 서양·환상: 동화체 */
-  --f-west-dark:  'Noto Serif KR', serif;                        /* 서양·긴장: 대비 세리프 */
+  --f-dong-lyric: 'BardDongLyric', 'Noto Serif KR', serif;   /* 동양·서정: 가평한석봉 */
+  --f-dong-real:  'BardDongReal', 'Noto Serif KR', serif;    /* 동양·현실: 조선100년체 */
+  --f-west-adv:   'BardWestAdv', 'Noto Serif KR', serif;     /* 서양·모험: 김정철고딕B */
+  --f-west-lyric: 'BardWestLyric', 'Noto Serif KR', serif;   /* 서양·서정: 김정철명조L */
+  --f-west-fant:  'BardWestFant', 'Noto Serif KR', serif;    /* 서양·환상: 가평웨이브 */
+  --f-west-dark:  'BardWestDark', 'Noto Serif KR', serif;    /* 서양·긴장: 김정철명조 */
 }
 .blurb {
-  font-size: 12.5px; color: var(--pewter); line-height: 1.45;
+  font-size: 13.5px; color: var(--pewter); line-height: 1.45;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
 .blurb[data-mood="동양·서정"] { font-family: var(--f-dong-lyric); }
 .blurb[data-mood="동양·현실"] { font-family: var(--f-dong-real); }
-.blurb[data-mood="서양·모험"] { font-family: var(--f-west-adv); font-weight: 600; }
-.blurb[data-mood="서양·서정"] { font-family: var(--f-west-lyric); font-style: italic; }
+.blurb[data-mood="서양·모험"] { font-family: var(--f-west-adv); }
+.blurb[data-mood="서양·서정"] { font-family: var(--f-west-lyric); }
 .blurb[data-mood="서양·환상"] { font-family: var(--f-west-fant); }
 .blurb[data-mood="서양·긴장"] { font-family: var(--f-west-dark); letter-spacing: 0.02em; }
 
@@ -410,3 +418,22 @@ a { color: inherit; text-decoration: none; }
   border-radius: 50%; background: rgba(255,253,249,0.92); color: var(--ink);
   display: grid; place-items: center;
 }
+
+/* ── 관리자 로그인 ── */
+.login { min-height: calc(100vh - 60px); display: grid; place-items: center; padding: 24px; }
+.loginbox {
+  width: min(360px, 92vw); background: var(--ash); border-radius: var(--r-lg);
+  padding: 34px 30px 30px; display: flex; flex-direction: column; gap: 12px;
+}
+.loginbox h1 { margin: 0; font-size: 22px; color: var(--ink); letter-spacing: -0.01em; }
+.loginbox input {
+  padding: 11px 14px; font: inherit; border: 1px solid var(--line);
+  border-radius: 12px; background: var(--canvas); color: inherit;
+}
+.loginbox input:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.loginerr { margin: 0; font-size: 13px; color: #b3452f; }
+.loginbtn {
+  margin-top: 4px; padding: 11px; border-radius: 12px; font-weight: 600;
+  background: var(--ink); color: var(--canvas); transition: opacity var(--ease);
+}
+.loginbtn:disabled { opacity: 0.45; cursor: default; }
