@@ -97,3 +97,5 @@
 2026-08-28T03:48:46	ineogongju	facts/auto_ineogongju.txt	소설 인어공주에서 만날 수 있습니다	Nordic storybook illustration: deep blue-green, pale white, pearl silver, warm amber, fine ink linework. 	서늘	64s
 2026-08-28T07:44:15	henjelgwa_geuretel	facts/auto_henjelgwa_geuretel.txt	소설 헨젤과 그레텔에서 만날 수 있습니다	German storybook illustration: dark green, moonlit silver, crust brown, warm amber, fine ink linework. 	서늘	66s
 2026-08-28T11:41:29	sindellera	facts/auto_sindellera.txt	소설 신데렐라에서 만날 수 있습니다	17th-century French storybook illustration: ash grey, warm amber, pale silver, deep blue, fine ink linework. 	서늘	66s
+2026-08-28T15:26:09	beuremen_eumakdae	facts/auto_beuremen_eumakdae.txt	소설 브레멘 음악대에서 만날 수 있습니다	German storybook illustration: road ochre, deep blue, deep green, warm amber, fine ink linework. 	생동	61s
+2026-08-28T19:24:48	haewa_dal	facts/auto_haewa_dal.txt	설화 해와 달이 된 오누이에서 만날 수 있습니다	Korean minhwa folk-painting style: deep indigo, pale silver, hanji cream, soft flat washes. 	서늘	67s

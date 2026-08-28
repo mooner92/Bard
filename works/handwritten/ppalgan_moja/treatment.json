@@ -1,0 +1,173 @@
+{
+ "logline": "심부름 가던 빨간 모자 소녀가 숲에서 낯선 늑대를 만난다",
+ "destination": "동화 빨간 모자에서 만날 수 있습니다",
+ "protagonist": "girl",
+ "setting": "19세기 초 독일 시골 마을과 숲",
+ "prompt_style": "detail",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "deep forest green, warm scarlet, pale gold, soft umber, linen cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "girl": {
+   "desc": "a village girl of about seven with round soft cheeks flushed from walking, wide hazel eyes under fair brows, a small straight nose and a mouth quick to open in wonder; honey-brown hair parted in the middle and woven into two short braids tied off with plain linen thread; on her head, always, the close-fitting cap of deep red velvet her grandmother sewed for her, a short rounded hood-flap shading her ears and a nape ribbon tied loose under her chin; she wears a white linen blouse with gathered sleeves, a madder-red laced bodice, an ankle-length skirt of undyed grey-brown wool, a small linen apron with one pocket, knitted wool stockings and black leather strap shoes; on her left arm she carries a woven wicker basket, a folded white cloth over its top covering a seed cake and a corked green glass bottle of wine; she walks with a light half-skipping step, tilts her whole head to one side when she listens, and grips the basket with both hands in front of her apron whenever the world turns strange"
+  },
+  "wolf": {
+   "desc": "a big timber wolf standing tall enough that his back reaches the girl's shoulder, rangy and long-legged; coarse pelt of iron grey washed with rusty brown along the spine and saddle, paler ash-grey at chest and belly, a line of black guard hairs down the ridge of his back; a thick brushy tail usually carried low, big splayed paws with dark claws, tall mobile ears that swivel toward every sound; a long muzzle with black lips resting in a loose sly grin over a thin rim of white teeth, and pale amber eyes with round black pupils that hold very still while the rest of him keeps moving; he moves at a soft padded walk with shoulders rolling under the pelt and head slung level with his spine, and when he wants something he sits back on his haunches, sweeps his tail slowly, dips his head in small courteous bows and lets his voice go warm, playing the part of a well-mannered stranger"
+  },
+  "mother": {
+   "desc": "a village woman in her thirties with honey-brown hair pinned back in a low knot, a work-worn face with kind creases at the corners of her eyes; she wears a plain blue wool skirt, a grey laced bodice over a white blouse with the sleeves rolled to the elbow, and a wide kitchen apron dusted with flour; her hands are strong and reddened from the oven, and she has a habit of pressing whatever she gives into the receiver's hands with both of her own, holding on a moment before she lets go"
+  },
+  "cottage": {
+   "desc": "the grandmother's cottage, half an hour deep in the forest, standing in a small clearing beneath three great oak trees with thick hazel-nut hedges grown up below them; low whitewashed clay walls over a dark timber frame, a steep shingle roof furred with moss, two small windows with milky glass panes and open wooden shutters, a plank door with a black iron latch above a worn stone step, a water butt and a neat cord of stacked firewood under the eave; inside, one dim room: a box bed with turned posts and a feather quilt in a faded floral cover, a white ruffled nightcap on the pillow, a spinning wheel beside a cold hearth, dried herbs hanging from the beam, a shut wardrobe, floorboards scrubbed pale"
+  },
+  "forest": {
+   "desc": "an old beech and oak forest at mid-morning, high closed canopy with slanted shafts of sun breaking through onto a soft dirt path stitched with roots; drifts of fern and wood sorrel, mossed boulders shouldering the path, layered blue-green shadow in every distance; a little way off the track a sunlit glade opens under a gap in the leaves, deep in drifts of bluebells, white wood anemones and yellow archangel, butterflies hanging in the bright column of light; the air cool, still and very quiet"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "girl",
+    "mother"
+   ],
+   "beat": "빨간 모자 소녀가 어머니에게서 바구니를 받는다",
+   "visual": "inside a low half-timbered village kitchen in morning light, smoke-darkened beams overhead hung with drying sage and strings of onions, a clay bread oven glowing warm orange at the back wall, pewter plates on a shelf, a scrubbed pine table dusted with flour; at the center the village mother in her plain blue wool skirt, grey bodice, rolled linen sleeves and wide flour-dusted apron bends toward her small daughter, pressing the handle of a wicker basket into the girl's arms with both work-worn hands; the girl wears her close-fitting cap of deep red velvet, honey-brown braids tied with thread, white linen blouse, madder-red laced bodice and small apron, and looks up at her mother with wide hazel eyes; under the basket's folded white cloth sit a seed cake and a corked green glass bottle of wine; low morning sun through the small window lays one warm band of light across both figures and the floury table between them",
+   "motion": "the mother's two hands guide the basket handle down onto the girl's bent forearm in one slow careful transfer, the wicker creaking faintly as the weight settles, the folded cloth shifting a finger's width, the girl's small fingers curling around the rim until she holds it firm, the mother's thumbs smoothing the handle once before her hands withdraw; both figures otherwise stay in place, and the camera pushes in slowly at table height"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "girl",
+    "forest"
+   ],
+   "beat": "소녀가 케이크와 포도주를 들고 숲길 심부름을 나선다",
+   "visual": "a wide morning meadow at the edge of the village, dew still silver on the grass, a soft dirt path running from the last timber-framed houses toward a tall wall of beech and oak forest; the small girl walks the path alone, her deep red velvet cap the one bright point in all the green, wicker basket on her left arm with the white cloth tucked over it, madder-red bodice and undyed wool skirt swaying with her light step, wool stockings and strap shoes dark with dew at the toes; village roofs with thin threads of chimney smoke shrink small behind her, a leaning wayside shrine post marks the fork of the path, crows walk in the stubble field; ahead the forest edge stands in deep green shadow with sunlit trunks at its rim, the path narrowing into it like a low doorway; high thin clouds and cool clear light lie over the whole field",
+   "motion": "the girl walks steadily away along the path with her light half-skipping step, skirt and apron swinging in small counter-arcs, the basket swaying gently on her arm, her braids bouncing at each stride, dew flicking from the grass heads she brushes past; the village behind her and the forest ahead hold perfectly still, and the camera keeps a fixed wide frame letting her figure grow smaller toward the trees"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "girl",
+    "wolf",
+    "forest"
+   ],
+   "beat": "잿빛 늑대가 숲에서 소녀에게 말을 건다",
+   "visual": "deep inside the old beech and oak forest, slanted shafts of late-morning sun breaking through the high canopy onto a root-stitched dirt path, drifts of fern and wood sorrel glowing where the light lands, mossed boulders shouldering the way; at the path's edge the big timber wolf sits back on his haunches, iron-grey pelt brushed with rusty brown along the spine, paler ash-grey chest, thick tail curled around his forepaws, tall mobile ears tipped forward, long muzzle held low in a loose courteous grin that shows a thin rim of white teeth, pale amber eyes fixed on the girl; the girl stands one step away, both hands gripping the basket in front of her apron, head tilted to one side the way she listens, red velvet cap glowing against the green shade; between them the path runs on empty into layered blue-green depth",
+   "motion": "the wolf's brushy tail sweeps slowly left and right across the leaf litter behind him, his lower jaw working in unhurried speech, head dipping through a shallow courteous bow and rising again, one tall ear swiveling toward the girl; the girl's head tilts gradually further as she listens, her fingers kneading the basket handle; everything else in the forest holds still, and the camera drifts in a slow half-circle around the pair"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "girl",
+    "wolf",
+    "forest"
+   ],
+   "beat": "늑대가 꽃밭을 가리키며 소녀를 부추긴다",
+   "visual": "the same forest path, the view opening sideways into a sunlit glade a little way off the track: a broad shaft of light through a gap in the canopy onto drifts of bluebells, white wood anemones and yellow archangel, butterflies hanging in the bright column; the big grey wolf stands beside the girl with one foreleg lifted and extended toward the glade, toes loosely pointed, his head turned back to her with the sly courteous grin, amber eyes narrowed warmly, the rusty-brown saddle of his pelt holding one stray fleck of sun; the girl has turned to follow the gesture, lips parted, wide hazel eyes reflecting the bright flowers, both hands still on the basket, her red cap vivid against the dark trunks; the dirt path itself runs straight on toward the deep woods, root-ribbed and shadowed, plainly the way she was told to go",
+   "motion": "the wolf's foreleg rises from the ground in one smooth arc and stretches out level toward the sunlit flowers, holding the point steady while his head turns from the glade to the girl and back in slow invitation, his tail swaying once behind him; the girl's gaze travels along the pointing leg into the light, her chin lifting by degrees, trees, path and light hold still, and the camera eases sideways to let the glade fill more of the frame"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "girl",
+    "forest"
+   ],
+   "beat": "소녀가 길을 벗어나 꽃을 꺾는다",
+   "visual": "inside the sunlit glade off the path, the girl stoops among knee-high drifts of bluebells and white wood anemones, her wicker basket set on a mossed root at her feet with the cloth still folded over the cake and wine; she holds a thickening bouquet in her left fist, stems ragged, petals nodding, while her right hand reaches deep into the flowers, red velvet cap blazing in the full light shaft, braids swung forward over her shoulders, a sprig of green already tucked in her apron pocket; around her the glade climbs into brightness — floating seed fluff, a silvered fallen log furred with moss, foxglove spires at the rim — while beyond its edge the forest drops away into layered blue-green shadow where the empty path curves off; high overhead one small piece of sky shows through the leaf gap, the whole scene warm, soft and slow",
+   "motion": "the girl bends from the waist and gathers stem after stem in an unbroken rhythm, each pluck bowing the surrounding flowerheads which sway gently upright again, the bouquet in her left fist thickening and spreading as blossoms join it, her braids swinging softly with every stoop and rise; seed fluff drifts through the light shaft, the basket and the shadowed forest behind her keep still, and the camera lowers gradually to flower height"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "wolf",
+    "forest"
+   ],
+   "beat": "늑대가 지름길로 숲을 내달린다",
+   "visual": "a ridge-line deer trail cutting through the forest, bare packed earth between old oak trunks, low ferns whipped at its edges; the big timber wolf is stretched in full gallop along it, body long and low, iron-grey pelt rippling, the rusty saddle catching bars of sun as he crosses the light shafts, ears pinned flat, amber eyes narrowed to slits, tail streaming level behind him, big splayed paws reaching far past his nose with dark claws bared for grip; loose leaves and forest duff hang in the air behind his hindquarters, ferns lean away from his wake; the trail dips ahead toward a paler opening in the trees where three great oak crowns rise above the canopy in the distance, marking the way down to the grandmother's clearing; the surrounding forest is a cool green blur of trunks and layered shadow",
+   "motion": "the wolf gallops in a continuous rolling stride, spine coiling deep and stretching flat with each bound, shoulder and haunch muscles surging under the pelt, paws reaching and shoving the packed earth away behind him, breath pumping in visible rhythm; ferns bow along his wake and leaves spin lazily where he has passed, the trees themselves stand still, and the camera tracks sideways at his shoulder keeping his eye level locked in frame"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "wolf",
+    "cottage"
+   ],
+   "beat": "늑대가 참나무 세 그루 아래 할머니 집 문을 두드린다",
+   "visual": "a small clearing where the grandmother's cottage stands beneath three great oak trees, thick hazel-nut hedges grown up below them; the cottage low and whitewashed over a dark timber frame, its steep shingle roof furred with moss, two small windows with milky panes and open shutters, a worn stone step before a plank door with a black iron latch; the big grey wolf stands upright against the door on his hindlegs, one forepaw raised to the planks at knocking height, claws curled back so only the knuckles touch the wood, tall ears aimed at the latch, the sly grin softened into something meek and small, tail hanging low along his haunch; midday light falls flat and quiet on the clearing, a water butt and a neat cord of stacked firewood wait under the eave, hens dust-bathe by the hedge, and the three oak crowns layer deep green shade over the roof",
+   "motion": "the wolf's raised forepaw raps the door planks in a soft slow knuckle-knock, pauses, and raps again in the same gentle measure, his ears cupping forward for any sound from inside, his head cocking by small degrees toward the latch, his tail giving one low sweep behind his hocks; the hens go still mid-scratch and watch, everything else in the clearing holds its stillness, and the camera pushes in slowly toward the door"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wolf",
+    "cottage"
+   ],
+   "beat": "늑대가 잠옷 모자를 쓰고 이불 속에 숨는다",
+   "visual": "the cottage's single room in curtained half-light: a box bed with turned posts against the wall, its straw mattress deep under a feather quilt in a faded floral cover; on the pillow lies the wolf's long grey head wearing the grandmother's white ruffled nightcap, the frill shadowing his brow, the quilt drawn up to the line of his muzzle so only pale amber eyes and grey cheek fur show, both aimed at the door; his bulk rounds the quilt into one long hill, a grey forepaw resting over the hem; around the bed the room keeps its order — the spinning wheel beside the cold hearth, dried herbs hanging from the beam, the wardrobe shut tight, a green glass jar on the sill — and the milky window lets through a single soft slab of light that ends across the floorboards well short of the bed; the plank door stands a hand's width ajar",
+   "motion": "the wolf's forepaw draws the quilt hem upward in one slow continuous pull until the floral cover rides just beneath his eyes, the nightcap frill settling lower over his brow as his head burrows a little deeper into the pillow, his amber gaze pinned on the ajar door, dust motes turn in the single slab of window light, the herbs and the spinning wheel hold still, and the camera creeps forward at floor height toward the bedside"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "girl",
+    "cottage"
+   ],
+   "beat": "꽃다발을 안은 소녀가 집 앞에 도착한다",
+   "visual": "the forest clearing in early afternoon, the whitewashed cottage under its three great oaks, hazel hedges bright at their feet; the girl comes up the last of the path with a big wildflower bouquet cradled high in one arm — bluebells, anemones, one foxglove spire nodding over her shoulder — and the wicker basket on the other, its cloth still folded over the cake and wine; her red velvet cap is the strongest colour in the clearing, her stockings dusty to the knee, a stray petal riding on one braid; ahead of her the plank door stands a hand's width ajar into darkness, the iron latch hanging loose, the stone step in shade; the hens have drawn together in a tight row along the hedge with their heads high; the oak crowns hang heavy and still, and the cottage windows give back only milky light with the room invisible behind them",
+   "motion": "the girl walks toward the door with her step gradually losing its skip, each stride a little shorter than the last until she is drifting to a stop before the stone step, the bouquet sinking slowly in her arm, her free fingers finding and worrying the basket rim, her head tilting toward the dark gap of the ajar door as she listens; the hens edge closer together along the hedge, and the camera holds one long fixed frame as she nears"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "girl",
+    "cottage"
+   ],
+   "beat": "소녀가 열린 문 앞에서 멈칫한다",
+   "visual": "from inside the dim single room, looking past the shadowed foot of the box bed toward the doorway: the plank door swung half open and the girl small and bright in the opening, backlit by the afternoon clearing so her red velvet cap burns at the top of her silhouette, bouquet in one arm, basket on the other, one strap shoe already on the worn threshold stone; the room between her and the camera lies in brown half-dark — floorboard grain, the cold hearth, the spinning wheel's rim catching a single thread of window light, herb bundles hanging like slow shadows from the beam; at the frame's edge the quilted hill of the occupied bed rises, the white nightcap frill just visible against the turned bedpost; the girl leans forward peering into the gloom, her eyes still full of the clearing's brightness, dust hanging in the doorway light around her shoulders",
+   "motion": "the girl leans slowly in through the doorway, her flat palm pressing the plank door wider in one long creaking swing, her weight rolling onto the shoe on the threshold stone while the other stays outside, her head turning in a gradual sweep toward the bed while her eyes adjust to the dark; the doorway dust stirs around her shoulders, the quilted hill on the bed keeps its slow breathing swell, and the camera holds still deep inside the room"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "girl",
+    "wolf",
+    "cottage"
+   ],
+   "beat": "침대 위 모자 밑으로 커다란 귀가 나와 있다",
+   "visual": "close beside the box bed: the white ruffled nightcap fills a third of the frame, and through its frill two tall grey furred ears stand upright, their pink inner skin veined in the window light, utterly wrong above the small lace border; below the frill the quilt is drawn to the muzzle line so only grey cheek fur and one half-lidded amber eye show against the pillow; the girl's face is large in the near foreground at the bed's edge, lit down one side by the milky window, hazel eyes wide, lips parted on a question, the red cap pushed back on her crown, the bouquet crushed up against her bodice while her arms tighten around it; behind the two faces the wardrobe and the hanging herbs dissolve into brown shadow, and one thin thread of light draws the turned bedpost between them",
+   "motion": "one tall grey ear rotates slowly toward the girl through the nightcap frill, its tip trembling with the small effort, while the visible amber eye slides sideways beneath its half-closed lid to follow her; the girl's arms tighten by degrees around the crushed bouquet, one bluebell nodding loose from the bunch, her breath moving a stray hair at her cheek; quilt, pillow and room hold still, and the camera creeps a hand's width closer"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "girl",
+    "wolf",
+    "cottage"
+   ],
+   "beat": "모자 그늘 속 눈이 노랗게 빛난다",
+   "visual": "closer still, the frame shared by two faces a forearm apart: under the nightcap frill both amber eyes now stand fully open, round and huge, their black pupils spread wide in the dim room, each carrying one bright milky window reflected in miniature; the grey fur around them lies in fine combed rays, the lace border of the cap throwing thin curved shadows across the brow; opposite, the girl's face in profile is rimmed with window light, hazel eye enormous, small straight nose, lips barely apart, the red velvet of her cap a deep ember red in the gloom; between the faces the quilt's floral pattern climbs the muzzle line like a printed hedge; the rest of the room dissolves into soft brown darkness, leaving only the two faces, the cap frill, and the slow dust turning in the light between them",
+   "motion": "the wolf's eyelids widen in one continuous slow reveal, the amber irises thinning as the black pupils swell to drink the dim room, the girl's own eye answers, widening in the same slow measure, her lashes lifting, the light rim on her profile brightening as she leans a fingerwidth nearer; the dust between the two faces keeps its lazy drift, the quilt and the cap frill hold still, and the camera locks unmoving on the paired gaze"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "wolf",
+    "cottage"
+   ],
+   "beat": "이불 밖으로 커다란 입이 드러난다",
+   "visual": "the tightest frame of all: the wolf's long muzzle in near profile against the pillow, the quilt hem slid low so the whole jaw shows — black lips, grey chin fur, and a rim of white teeth bared in a wide gradual grin that runs far back toward the ear, farther than any grandmother's smile could reach; the nightcap frill rides high on the brow above one blazing amber eye, wet highlights on the teeth picking up the milky window, his breath stirring a downy feather that has escaped the quilt; of the girl only a soft red blur of cap and one bright eye remain at the frame's edge, very close, reflected light trembling on her cheek; the floral quilt below the jaw lies in deep folds like plowed ground, and the whole room beyond has gone to darkness, holding the grin in a single band of pale light",
+   "motion": "the black lip corner draws back slowly and steadily along the jaw, the grin widening tooth by tooth as the quilt hem slides down the chin fur in one unbroken glide, the escaped feather trembling in his quickening breath; the red blur of the girl's cap at the frame edge sways back by the smallest degree; the pillow, the cap frill and the darkened room hold utterly still, and the camera stays locked as the grin fills the frame"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "cottage"
+   ],
+   "beat": "빈 오두막 앞에 꽃다발이 놓여 있다",
+   "visual": "outside the cottage in flat late-afternoon light: the plank door stands wide open into darkness, and across the worn stone threshold lies the wildflower bouquet, bluebells and anemones loose and fanned, the foxglove spire bent over the step; beside it the wicker basket sits upright with its white cloth still folded neatly over the cake and the green glass bottle; the clearing beyond is empty and quiet — the hens gone from the hedge, the water butt's surface glassy, the stacked firewood exact under the eave — while the three great oaks layer their deep green shade over the moss-furred roof; on the stone beside the bouquet rests the small cap of red velvet, its colour the only warmth in the frame; high thin clouds close over the sky, and the forest wall behind the clearing keeps its layered silence",
+   "motion": "only the smallest life moves: loose petals shivering on the threshold stone, one bluebell head nodding at the door's dark edge, the white cloth on the basket lifting and settling at one corner in the faint breeze, a single oak leaf turning slowly down through the frame to rest beside the red cap; door, cottage and forest hold their stillness, and the camera keeps one long motionless frame as the light very slowly cools"
+  }
+ ],
+ "withheld": "초록 사냥옷의 남자가 오두막을 찾아온 뒤의 일"
+}
