@@ -65,6 +65,28 @@ def _fit(parts, limit=1900) -> str:
     return out
 
 
+KIND_CAP = {"인물": 340, "소품": 180, "장소": 250, "지면": 220, "물": 220, "배경": 160}
+
+def load_assets(d) -> dict:
+    """작품 전용 자산(md) 사전. 서식은 docs/PROMPTCRAFT.md §8."""
+    import pathlib, re as _re
+    out = {}
+    root = pathlib.Path(d)
+    if not root.is_dir():
+        return out
+    for f in sorted(root.glob("*.md")):
+        t = f.read_text(encoding="utf-8")
+        m = _re.match(r"---\n(.*?)\n---\n?(.*)", t, _re.S)
+        if not m:
+            continue
+        head, body = m.groups()
+        meta = dict(_re.findall(r"^(\w+):\s*(.+)$", head, _re.M))
+        meta.setdefault("name", f.stem)
+        meta["detail"] = " ".join(body.split())
+        out[meta["name"]] = meta
+    return out
+
+
 def from_treatment(tre: dict, index: int) -> str:
     """트리트먼트가 있으면 그 박자의 영어 묘사를 쓴다.
 
@@ -92,8 +114,16 @@ def from_treatment(tre: dict, index: int) -> str:
     if cast:
         # 작품 전용 배역은 트리트먼트에 personas 로 적는다. 같은 열쇠면 그쪽이 이긴다.
         book = {**personas(), **(tre.get("personas") or {})}
+        assets = load_assets(tre.get("assets_dir", ""))
         who = []
         for key in cast:
+            a = assets.get(key)
+            if a:
+                cap = KIND_CAP.get(a.get("kind", ""), 250)
+                spec = (a.get("spec") or "").strip().rstrip(".")
+                det = _fit((a.get("detail") or "").split(", "), max(cap - len(spec) - 2, 0))
+                who.append(f"{spec}, {det}" if det else spec)
+                continue
             entry = book.get(key)
             if not entry:
                 print(f"  ! 사전에 없는 배역: {key}", file=sys.stderr)

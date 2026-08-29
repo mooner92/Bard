@@ -1,0 +1,164 @@
+{
+ "logline": "곶감이 무서워 도망친 호랑이와 호랑이를 소로 안 도둑의 하룻밤",
+ "destination": "전래동화 호랑이와 곶감에서 만날 수 있습니다",
+ "protagonist": "tiger",
+ "setting": "조선의 겨울 산촌 — 눈 덮인 마당과 외양간",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/horangi_gotgam/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "deep indigo, snow white, warm persimmon orange, lamplight amber, hanji cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "tiger",
+    "night_bg"
+   ],
+   "beat": "눈 내린 겨울밤, 굶주린 호랑이가 마을로 내려온다",
+   "visual": "a snow-bound ridge above a sleeping village at night: the tiger descends the slope in a low hungry slink, belly brushing the snow crust, each broad paw pressing a deep print into the blue-white surface, golden eyes fixed downhill on the far amber specks of village windows; its breath steams in long ragged flags, the persimmon-orange coat burning as the one warm colour in the whole frozen frame; bare oaks stand black and thin along the ridge, the snow rolls away in long moon-blued drifts, and far below the thatched roofs lie like loaves under their white caps with one thin thread of chimney smoke standing straight up in the still cold air",
+   "motion": "the tiger flows downhill in one continuous low slink, shoulders rolling under the striped coat, paws pressing print after deep print while its breath streams back in torn flags; its golden eyes stay locked on the village lights the whole way and its banded tail rides low, sweeping small corrections; the drifts, the black oaks and the far smoke thread hold still, and the camera tracks alongside at shoulder height, sinking slowly with the slope"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "tiger",
+    "yard",
+    "night_bg"
+   ],
+   "beat": "호랑이가 낮은 돌담을 넘어 초가 마당으로 숨어든다",
+   "visual": "the cottage yard at night, seen from just inside the low stone wall: the tiger is caught mid-crossing, forepaws already planted silently in the yard snow while its hindquarters still ride the top of the stacked dark stones, body poured over the wall like syrup, head low and level, ears flat, golden eyes reading the dark yard; before it the swept earth and snow patches stretch to the glowing papered window and the snow-capped soy jars, the bare persimmon tree throwing thin moon shadows across the ground; every line of the tiger is stealth and appetite, and one loose stone at its hind paw is a breath away from rocking",
+   "motion": "the tiger pours itself over the wall in one slow continuous crossing, hindquarters following the forepaws down until the whole body comes down crouched with the faintest crunch, ears swiveling once around the yard, tail tip curling for balance; the amber window glow and the moon shadows of the bare tree hold still across the snow, and the camera stays low behind the wall stones, letting the long body slide through the frame"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "tiger",
+    "barn",
+    "yard"
+   ],
+   "beat": "호랑이가 외양간 그늘에 숨어 방 안의 소리를 엿듣는다",
+   "visual": "the open mouth of the byre beside the cottage: the tiger has folded its great body into the black shadow of the back wall, only the front half reaching into the pale slab of moonlight on the straw — one broad paw, the cream ruff, the striped face with both round ears cupped hard toward the papered wall of the room where warm lamplight bleeds through the cracks; straw pokes up around its folded legs, the wooden manger stands at its shoulder, and its golden eyes are narrowed sideways in pure eavesdropping concentration; beyond the byre mouth the snowy yard glitters faintly under the moon, and from the amber-lit paper wall comes what the picture itself seems to hold its breath around — the thin sound of a baby crying inside",
+   "motion": "the tiger's cupped ears track in small precise swivels against the lamplit wall while the rest of the crouched body holds hunting-still, only the ribs swelling and sinking with slow controlled breath and the tail tip ticking against the straw; the slab of moonlight creeps a finger's width across the byre floor, straw wisps hang motionless from the beam, and the camera pushes in slowly along the wall toward the listening striped face"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "mother_baby",
+    "room"
+   ],
+   "beat": "방 안 — 아기가 울고 엄마가 달랜다",
+   "visual": "inside the small papered room in full warm lamplight: the young mother kneels on the quilted floor rocking the swaddled baby against her shoulder, the baby's small red crying face crumpled and shining over the wrap, tiny fists escaped and waving; her braided bun is loosening at the end of a long night, her shadow swaying huge and soft on the low papered wall behind her; folded quilts, the small lacquered chest and the shut papered door panels stand homely around the lamp's circle, steam curling from a bowl of barley water set by her knee; every line of the room is warmth and weariness — and on the outer edge of the papered wall, faint as a watermark, lies the long horned shadow of the winter night pressing in from outside",
+   "motion": "the mother rocks the crying bundle in a steady side-to-side rhythm, patting the swaddle in time, her loosened braid swinging softly and her huge wall-shadow swaying with her; the baby's little fists wave and its crumpled face works through the cry, the lamp flame nodding at each pass; the steam thread from the bowl curls and re-forms, the closed door panels hold still, and the camera drifts slowly around the rocking pair at floor height"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "tiger",
+    "barn"
+   ],
+   "beat": "'호랑이 왔다'는 말에도 울음이 그치지 않는다",
+   "visual": "tight on the tiger's face in the byre shadow, moonlight edging the cream ruff and one golden eye huge with self-importance: this is the moment its own name comes through the papered wall — the tiger has risen a hand's breadth out of its crouch, chest swelling, whiskers fanned wide, ears cupped at their fullest stretch, the very picture of a monster savoring its reputation; but past its raised head, through the byre mouth, the amber-lit paper wall goes on trembling with the thin unbroken wail of the baby, crying straight through the fearsome word; the tiger's proud face is caught at the exact tipping point between vanity and bafflement, one ear already beginning a doubtful backward fold, straw wisps drifting where its rising stirred them",
+   "motion": "the tiger's chest swells and its head rises slowly to full proud height while the whiskers fan wider — and then, as the wailing runs on unbroken through the wall, the raised head cocks by small confused degrees to one side, one ear folding slowly backward, the golden eye blinking twice; the swelled chest deflates in one long visible breath, straw wisps settling around its forepaws, and the camera holds locked on the tipping face"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "tiger",
+    "barn",
+    "gotgam"
+   ],
+   "beat": "'곶감이다' 한마디에 울음이 뚝 그친다",
+   "visual": "the byre in ringing sudden silence: the tiger stands frozen mid-step in the moonlight slab, one forepaw lifted, whole body a held breath — the wailing has stopped dead on a single word from beyond the wall; both ears are aimed at the papered glow like drawn bows, golden eyes enormous, pupils shrunk to points, whiskers trembling with attention; above the byre mouth, under the cottage eave, hangs the string of dried persimmons the word named — wrinkled amber-orange discs dusted with white bloom on their straw cord, swaying very slightly, moon-touched — and the composition draws one clean line from the tiger's stunned stare past the silent amber wall up to those innocent hanging discs; the night behind is huge, still and blue",
+   "motion": "the lifted forepaw hangs unfinished in the air while both ears strain harder toward the wall, whiskers trembling, pupils shrinking to points in the wide golden eyes; the silence itself seems to press the tiger slowly lower, its lifted paw easing down without a sound, its head turning by degrees up toward the hanging string of persimmons swaying gently on their cord under the eave; and the camera climbs slowly along the tiger's stare to the swaying discs"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "tiger",
+    "barn"
+   ],
+   "beat": "호랑이가 곶감을 저보다 무서운 짐승으로 여겨 몸을 낮춘다",
+   "visual": "the great tiger making itself small: pressed flat into the byre's black corner with straw heaped around its flanks, chin on the floor between its forepaws, ears pinned back along the skull, the banded tail wrapped tight around its haunch, wide golden eyes rolled up white-edged toward the eave where the terrible unseen thing called gotgam must live; its brows are knotted in plain animal dread, whiskers drooping, a straw stalk trembling where it leans against one quivering flank; the moonlight slab lies empty at the byre mouth where a fearsome beast crouched a minute ago, the manger looms homely and huge over the cowering striped bulk, and the mightiest animal on the mountain is now the smallest shape in the picture",
+   "motion": "the tiger presses itself lower and lower into the corner in one continuous cowering shrink, ears pinning flat, tail wrapping tighter around the haunch, breath coming in quick shallow flutters that stir the straw dust before its nose; the straw stalk against its flank trembles in time with the quivering coat, and the camera slowly widens to show the huge empty byre around the small heap of trembling tiger"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "thief",
+    "tiger",
+    "barn"
+   ],
+   "beat": "소도둑이 떨고 있는 호랑이 곁으로 숨어든다",
+   "visual": "the byre mouth with two intruders now: the thief slips in over the straw with quick bow-legged steps, felt cap low, cloth over nose and mouth, the coiled empty rope halter swinging from one hand, his darting eyes still dazzled from the moon glare outside; a step away in the black corner the tiger stays pressed flat in its terror, striped bulk reading as nothing more than a big warm shadow in the dark; the thief's free hand is already reaching out through the blackness toward that shadow, palm open, feeling for the flank of the fat ox he came for; between the reaching fingers and the trembling striped coat the byre holds one comic breath of distance, moonlight slab behind them, manger above, and neither creature knowing what the other is",
+   "motion": "the thief's open palm gropes forward through the dark in one slow reaching sweep until it settles on the tiger's warm striped flank and gives it two approving pats, under the pats the tiger's coat shivers in little waves and its rolled eyes go even wider in the shadow, its whole body stiffening board-flat; the rope halter sways from the thief's other hand, and the camera holds tight on the patting hand and the trembling stripes"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "thief",
+    "tiger",
+    "barn"
+   ],
+   "beat": "도둑이 호랑이를 살진 소로 알고 등에 올라탄다",
+   "visual": "the mounting, caught at its silliest instant: the thief has swung one leg over the tiger's back and settles astride the striped coat, halter rope thrown loose around the great neck, his masked face smug with the easy catch of so plump an ox; beneath him the tiger stands bolt upright on all fours, every leg rigid as a house post, back sagging under the man's weight, ears pinned, golden eyes stretched to their absolute widest with the pupils tiny — the face of a beast that believes the gotgam itself has just seized it by the back; straw scatters around the planted paws, the moon slab lights the pair like a stage, and the manger, the tools and the hanging straw wisps look on from the shadows at the mountain's terror saddled by a cattle thief",
+   "motion": "the thief settles his seat and flicks the loose halter once like a man starting a placid ox, heels giving a lazy nudge; under him the tiger's rigid legs begin to shudder from paw to shoulder, the shudder climbing its body in visible waves until the whole striped frame is vibrating like a struck post, the man's smug posture and the beast's mounting terror hold together one long beat, and the camera circles them slowly at knee height"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "tiger",
+    "thief",
+    "yard",
+    "night_bg"
+   ],
+   "beat": "호랑이가 마당을 박차고 내달린다",
+   "visual": "the yard exploding into motion: the tiger bursts from the byre mouth in a flat-out terror gallop, body stretched long and low over the snow, paws hurling white sprays at every reach, ears pinned flat and golden eyes white-rimmed, the thief flattened along its back with the halter rope wrenched in both fists, his felt cap torn back off his head by the wind of it and hanging by its string, mask cloth ballooning off his yell; behind them the byre, the glowing window and the snow-capped jars streak with speed lines of snow-dust, the low stone wall races up ahead, and the bare persimmon tree flings past at the frame's edge; every line in the picture runs the same direction, and the little yard has never held this much velocity in its life",
+   "motion": "the tiger's gallop stretches and gathers in huge terrified bounds, snow spraying wide at each reach while the yard streaks past behind; on its back the thief bounces and jolts with every bound, both fists wrenched into the halter rope, the stone wall races up and the tiger rises over it in one long flat leap with the man flattening into the striped back, and the camera whips sideways to follow them over"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "tiger",
+    "thief",
+    "night_bg"
+   ],
+   "beat": "눈 덮인 산길 — 호랑이는 밤새 내달리고 도둑은 매달린다",
+   "visual": "a moonlit mountain road in deep snow, the village long gone: the tiger runs stretched to its utmost down the pale ribbon between black pines, a streak of persimmon orange through the blue night, breath flags tearing back past its pinned ears; the thief lies plastered along the galloping back, arms locked full around the great striped neck, legs clamped at the flanks, cap gone, cloth mask slid down to show a face scoured blank by wind and terror; snow bursts glitter from every paw strike and hang in the moonlight behind them, pine shadows bar the road in racing stripes, the mountain folds roll past blue-grey layer on layer under the small high moon, and the two figures — the terror of the mountain and the terror on its back — flee each other at full speed while glued together",
+   "motion": "the gallop pounds on in unbroken flying rhythm, each paw-beat bursting snow into hanging glitter, the pine-shadow bars sweeping over cat and man in racing stripes; the thief's locked arms cinch tighter around the striped neck with every bound and his wind-scoured face burrows into the ruff; breath flags tear back along the tiger's cheeks, the moon rides fixed above the streaming trees, and the camera tracks alongside in one long flowing pan"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "thief",
+    "tiger",
+    "night_bg"
+   ],
+   "beat": "새벽, 도둑이 나뭇가지를 붙잡고 등에서 벗어난다",
+   "visual": "first grey dawn on the mountain road, the sky thinning to rose over the snow: the road passes under a great pine whose lowest branch reaches across it like an offered arm, snow-laden and stout, and the thief has made his desperate grab — caught mid-swing, both hands locked over the branch, snow cascading loose around his shoulders, legs already hauled up out of reach while the tiger shoots on beneath him riderless, a stretched orange streak vanishing down the pale road without one backward glance; the empty halter rope trails from the tiger's neck, whipping; the thief's cloth mask hangs at his throat and his upturned face is all round eyes and open mouth between terror and disbelieving relief; snow dust hangs in the dawn air where the gallop tore through",
+   "motion": "the thief's swing carries his legs up and over the stout branch in one scrambling continuous heave, loosened snow cascading past him while his locked hands hold; beneath his dangling coat-tail the tiger streams away riderless down the road, the empty halter whipping at its neck, its shape shrinking fast between the pine shadows; the branch bobs slowly under his weight, and the camera holds on the hanging man watching the orange streak vanish"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "tiger",
+    "night_bg"
+   ],
+   "beat": "호랑이는 뒤도 안 보고 산으로 달아난다",
+   "visual": "full rose-and-gold dawn over the high snowfields: the tiger climbing away up the far slope in exhausted lunging bounds, small now against the enormous folded mountain, the empty halter rope still trailing from its neck and drawing a thin wandering line in the snow behind it; its ears stay pinned and its head stays low, throwing not one glance back down the valley where the village smoke rises tiny and peaceful into the brightening sky; the deep-blue night is draining out of the snow, pines stand up gold-edged along the ridgeline, the tiger's own long night of prints stitches the slope below it, and the mightiest beast of the mountain flees uphill from a dried persimmon with the whole gorgeous morning breaking behind it",
+   "motion": "the tiger lunges uphill bound after weary bound, the trailing halter drawing its thin wandering line in the snow, breath flags shorter now and its head hanging lower with each rise; the rose light spreads across the snowfield and the gold rims the pines while the small striped figure climbs steadily away toward the ridge, and the camera pulls slowly back and up until the tiger is one warm fleck on the vast brightening mountain"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "gotgam",
+    "yard"
+   ],
+   "beat": "아침 마당, 처마의 곶감 타래",
+   "visual": "the cottage yard in clear morning sun, the night's madness written and mended: the string of dried persimmons hangs under the eave in full warm light, wrinkled amber-orange discs glowing translucent, white sugar bloom sparkling, swaying the smallest sway on their straw cord; below and behind, the yard tells the story to anyone who can read it — a churned double track of huge paw prints and scattered straw tearing across the snow patches and over the low stone wall, one felt cap lying in the middle of the yard, the byre mouth breathing out a little straw dust into the sunbeam; the papered window stands quiet, a thread of breakfast smoke rises from the chimney, and the fearsome gotgam ripens peacefully in the sun, utterly innocent of its night of conquest",
+   "motion": "almost everything rests: the persimmon string sways its smallest sway in the morning air, a last pinch of straw dust drifts out of the byre mouth through the sunbeam, the breakfast smoke thread leans and rights itself; light creeps slowly down the stacked stones of the wall toward the fallen felt cap, the churned tracks glitter as the snow softens, and the camera holds one long warm motionless frame under the eave"
+  }
+ ],
+ "withheld": "산으로 돌아간 호랑이가 곶감을 어떻게 기억했는지"
+}
