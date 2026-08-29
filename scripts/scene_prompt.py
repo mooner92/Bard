@@ -119,8 +119,8 @@ def from_treatment(tre: dict, index: int, v3: bool = False) -> str:
         # 어떤 인물을 참조로 보낼지는 박자의 refs 가 정한다. 없으면 인물 전원.
         # 실측: 2인 참조는 확률적으로 한 명이 탈락한다(5컷 중 2컷 — 도둑이
         # 넥타이 차림 현대인으로) — 연약한 정체성은 참조 1장 + 텍스트가 안전.
-        ref_set = set(beat.get("refs") or
-                      [k for k in cast if (assets.get(k) or {}).get("kind") == "인물"])
+        ref_set = (set(beat["refs"]) if "refs" in beat else
+                   {k for k in cast if (assets.get(k) or {}).get("kind") == "인물"})
         people_ref = False
         for key in cast:
             a = assets.get(key)
@@ -219,9 +219,9 @@ def main():
         out = []
         if 1 <= a.index <= len(beats):
             beat = beats[a.index - 1]
-            ref_set = set(beat.get("refs") or
-                          [k for k in (beat.get("cast") or [])
-                           if (assets.get(k) or {}).get("kind") == "인물"])
+            ref_set = (set(beat["refs"]) if "refs" in beat else
+                       {k for k in (beat.get("cast") or [])
+                        if (assets.get(k) or {}).get("kind") == "인물"})
             for key in beat.get("cast") or []:
                 aa = assets.get(key)
                 if aa and aa.get("kind") == "인물" and key in ref_set:

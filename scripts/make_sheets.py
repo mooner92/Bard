@@ -27,9 +27,10 @@ def main():
         if list(outdir.glob(f"{name}_*.png")):
             print(f"시트 있음 -> {name}"); continue
         desc = ", ".join(x for x in [v.get("spec", ""), v.get("detail", "")] if x)
-        prompt = (f"{a.style}a character sheet of exactly one subject on a plain "
-                  f"warm cream background, full body in side view, natural "
-                  f"stance, the whole subject clearly visible: {desc}")
+        head = v.get("sheet") or ("a character sheet of exactly one subject on a "
+                                  "plain warm cream background, full body in side "
+                                  "view, natural stance, the whole subject clearly visible")
+        prompt = f"{a.style}{head}: {desc}"
         r = subprocess.run([PY, str(ROOT / "scripts" / "gen_keyframe.py"),
                             "--seed", str(300 + i),
                             "--prefix", f"{pathlib.Path(a.out).name}/{name}",

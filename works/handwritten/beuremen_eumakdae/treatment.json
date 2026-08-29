@@ -1,196 +1,231 @@
 {
-  "logline": "쓸모없다며 버려진 짐승 넷이 음악대가 되겠다고 길을 나선다.",
-  "destination": "숲속 불 켜진 집 — 도둑들의 상이 차려진 곳",
-  "protagonist": "짐을 지던 늙은 회색 당나귀",
-  "setting": "옛 독일의 시골길과 숲",
-  "anchor": "an old grey donkey with a worn back and patient eyes",
-  "palette": "road ochre, deep blue, warm amber, deep green, pale silver",
-  "voice": "ko-KR-InJoonNeural",
-  "personas": {
-    "donkey": {
-      "label": "당나귀",
-      "desc": "an old grey donkey, worn back, long ears, patient dark eyes",
-      "avoid": ""
-    },
-    "dog": {
-      "label": "개",
-      "desc": "an old brown hound with drooping ears and grey muzzle",
-      "avoid": ""
-    },
-    "cat": {
-      "label": "고양이",
-      "desc": "a thin grey tabby cat with sharp green eyes",
-      "avoid": ""
-    },
-    "rooster": {
-      "label": "수탉",
-      "desc": "a rooster with a scarlet comb and glossy dark tail feathers",
-      "avoid": ""
-    },
-    "robbers": {
-      "label": "도둑들",
-      "desc": "rough unshaven men in patched coats and slouch hats",
-      "avoid": "무기는 그리지 않는다"
-    },
-    "road": {
-      "label": "시골길",
-      "desc": "a rutted country road between hedges and far farm fields"
-    },
-    "forest": {
-      "label": "숲",
-      "desc": "dark close-set trunks over a narrow road, dusk light"
-    },
-    "cottage_far": {
-      "label": "숲속 집",
-      "desc": "a small cottage deep in trees, one lit window, chimney smoke"
-    }
+ "logline": "쫓겨난 네 마리 동물이 브레멘 대신 숲속 도둑 집에서 제 집을 찾는다",
+ "destination": "동화 브레멘 음악대에서 만날 수 있습니다",
+ "protagonist": "donkey",
+ "setting": "독일 시골길과 깊은 숲의 도둑 집",
+ "prompt_style": "detail",
+ "pipeline": "v3",
+ "assets_dir": "works/handwritten/beuremen_eumakdae/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "road ochre, deep blue, deep green, warm amber, lamplight gold",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "group",
+    "road"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "늙은 당나귀가 방앗간에서 쫓겨난다",
+   "visual": "of the four reference animals only the donkey appears in this shot: the old dust-grey donkey stands outside a shut mill-yard gate in early morning, its dark spine-cross plain in the flat light, long ears fallen sideways, patient dark eyes looking back once at the tall wooden gate; on the gatepost hangs its old harness, retired for good; behind the fence the mill's sails stand still against a pale sky and full sacks lean in a row it will never carry again; before it the rutted country road runs away between hedgerows and stubble fields toward the wide low farmland, the leaning milestone at the verge pointing the long way; dew silvers the wayside grass and one sparrow watches from the hedge as the biggest and saddest figure on the road decides something",
+   "motion": "the donkey's fallen ears rise slowly upright as its gaze turns from the closed gate to the open road, its whole body pivoting after them one deliberate hoof at a time until the mill lies behind and the road ahead; its tail gives one flick, the sparrow tilts its head, dew glinting as the light broadens, and the camera swings slowly around the turning donkey from gate to road"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "donkey",
-        "road"
-      ],
-      "beat": "늙은 당나귀가 홀로 흙길을 걷는다.",
-      "visual": "an old grey donkey walking alone down a rutted country road, farm far behind",
-      "motion": "it plods steadily down the road"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "donkey",
-        "dog"
-      ],
-      "beat": "길가에 엎드린 늙은 개를 만난다.",
-      "visual": "an old hound lying at the roadside lifting its head toward a passing donkey",
-      "motion": "the dog's head lifts steadily toward the donkey"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "donkey",
-        "dog",
-        "cat"
-      ],
-      "beat": "담장 위의 고양이가 둘을 내려다본다.",
-      "visual": "a thin cat on a stone wall looking down at a donkey and a hound on the road",
-      "motion": "the cat's tail sweeps steadily along the wall"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "rooster"
-      ],
-      "beat": "울타리 위 수탉이 목청껏 운다.",
-      "visual": "a rooster on a fence post crowing with its beak wide open, wings half spread",
-      "motion": "its wings beat steadily as it crows"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "donkey",
-        "dog",
-        "cat",
-        "rooster",
-        "road"
-      ],
-      "beat": "넷이 나란히 길을 나선다.",
-      "visual": "a donkey, hound, cat and rooster walking together down a road toward dark woods",
-      "motion": "the four move steadily toward the woods"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "forest"
-      ],
-      "beat": "해가 지고 숲이 어두워진다.",
-      "visual": "a dark forest road at dusk, tree shadows stretching long across the ruts",
-      "motion": "shadows lengthen steadily across the road"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "cottage_far"
-      ],
-      "beat": "나무 사이로 불 켜진 집이 보인다.",
-      "visual": "a lit cottage window glowing between dark tree trunks, smoke from the chimney",
-      "motion": "the window light glows steadily through the trees"
-    },
-    {
-      "n": 8,
-      "cast": [
-        "donkey",
-        "dog",
-        "cat",
-        "rooster",
-        "cottage_far"
-      ],
-      "beat": "넷이 창가로 살금살금 다가간다.",
-      "visual": "four animals creeping toward a lit cottage window, low to the ground",
-      "motion": "they edge steadily closer to the window"
-    },
-    {
-      "n": 9,
-      "cast": [
-        "robbers"
-      ],
-      "beat": "집 안에서는 도둑들이 상을 벌여 놓았다.",
-      "visual": "rough men around a table heaped with food and candles inside a cottage",
-      "motion": "candle flames sway steadily over the table"
-    },
-    {
-      "n": 10,
-      "cast": [
-        "donkey",
-        "dog",
-        "cat",
-        "rooster"
-      ],
-      "beat": "넷이 창밑에서 탑처럼 포개어 선다.",
-      "visual": "a hound on a donkey's back, a cat on the hound, a rooster on top, under a window",
-      "motion": "the tower sways steadily as they balance"
-    },
-    {
-      "n": 11,
-      "cast": [
-        "donkey",
-        "dog",
-        "cat",
-        "rooster"
-      ],
-      "beat": "넷이 한꺼번에 소리를 지른다.",
-      "visual": "four stacked animals with mouths and beak wide open at a lit window",
-      "motion": "their heads strain steadily toward the glass"
-    },
-    {
-      "n": 12,
-      "cast": [
-        "robbers"
-      ],
-      "beat": "도둑들이 혼비백산해 숲으로 달아난다.",
-      "visual": "rough men scattering out of a cottage door into dark trees, hats flying",
-      "motion": "they flee steadily into the trees"
-    },
-    {
-      "n": 13,
-      "cast": [
-        "donkey",
-        "dog",
-        "cat",
-        "rooster"
-      ],
-      "beat": "넷이 따뜻한 상 앞에 둘러앉는다.",
-      "visual": "four animals gathered around a heaped table in warm candlelight, at ease",
-      "motion": "steam rises steadily from the dishes"
-    },
-    {
-      "n": 14,
-      "cast": [],
-      "beat": "불 꺼진 창가에 달빛만 남는다.",
-      "visual": "a quiet cottage window under moonlight, four silhouettes resting inside",
-      "motion": "moonlight settles steadily on the sill"
-    }
-  ],
-  "withheld": "짐승들이 그 집을 차지하고 눌러앉게 되는 결말"
+  {
+   "n": 2,
+   "cast": [
+    "group",
+    "road"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "당나귀가 브레멘 길에 나선다",
+   "visual": "only the donkey from the reference animals, now mid-journey on the rutted road: it walks the crown of the road with its steady deliberate dignity, knobby knees lifting, black-tasseled tail swinging in time, ears pricked forward toward whatever the road might hold; morning has warmed into gold, the hedgerows run long on either side, stubble fields striped with light roll away to low hills, and the leaning milestone slides past at the verge; the donkey's shadow walks long and thin beside it like a companion it has not yet met, and the empty road ahead bends gently out of sight behind the hedges, promising somewhere better than the shut gate it left",
+   "motion": "the donkey walks on in an even unhurried four-beat rhythm, ears swiveling at hedge sounds, tail swinging its tassel, its long thin shadow flowing over the ruts beside it; the hedgerows drift past and the road's bend approaches by slow degrees, dust rising warm behind each hoof-step, and the camera tracks alongside at the donkey's shoulder letting the farmland roll by"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "group",
+    "road"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "헐떡이는 사냥개가 길동무가 된다",
+   "visual": "two of the reference animals — the donkey and the hound — meet on the road: the old brown hunting dog sits collapsed on the wayside grass, floppy ears pooled, grizzled muzzle open and panting hard, ribs moving under the dull chestnut coat, the white chest blaze heaving; the donkey has stopped over it, big head lowered all the way down to the dog's level, long ears tipped forward in question, dark patient eyes meeting the hound's tired ones; the road runs empty and bright behind them, hedge shadow dappling the pair, a dragonfly hanging in the warm air between the big grey head and the small brown one; every line of the two bodies says the question and the answer — where are you going, then take me along",
+   "motion": "the hound's heavy panting slows breath by breath as the donkey's lowered muzzle hovers near, the dog's tail beginning a small hopeful wag in the grass that grows wider and wider until its whole hindquarters rock, and it gathers its old legs under itself and rises stiffly to stand beside the donkey; the dragonfly drifts off, hedge shadow trembling, and the camera holds low at dog height through the whole meeting"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "group",
+    "road"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "담벼락의 고양이가 길에 오른다",
+   "visual": "three reference animals now: on a crumbling field wall beside the road sits the grey tabby cat, hunched into a miserable loaf, dark stripes drawn tight, whiskers drooping, round green-gold eyes dull with a face as long as three rainy days; below on the road the donkey and the hound have stopped shoulder to shoulder, both heads turned up to the wall, the dog's tail already wagging an invitation, the donkey's ears making their gentle forward question; late-morning light warms the wall stones, wild oats nod along its base, and the cat's ringed tail hangs down the stones like a bell-pull nobody has rung in years; the road runs on behind them toward the low hills, wide enough for one more pair of paws",
+   "motion": "the cat's drooping whiskers lift a little as it looks down at the two upturned faces, the ringed tail giving one slow interested swing against the stones, and then it flows down the wall in a single poured motion, wall to road, tucking itself into place beside the hound's foreleg; the dog's wag doubles, the donkey's ears settle content, wild oats nodding where the tail brushed them, and the camera eases back to hold all three on the road"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "group",
+    "road"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "대문 위 수탉이 합류한다",
+   "visual": "all four reference animals meet at last: on the high crossbar of a farm gate stands the rooster, scarlet comb thrown back, beak wide in a long desperate crow, golden hackles flared, the dark-green sickle tail streaming — a singer giving the performance of his life to an empty barnyard; below at the roadside the donkey, the hound and the tabby cat stand in a row looking up, three faces of frank appraisal, the cat's ears flat at the volume, the dog's head cocked, the donkey nodding slowly like a bandmaster who has found his tenor; the gate's shadow bars the road, hens peer indifferent through the fence, and the low sun of afternoon gilds comb and hackle and sickle until the loud little figure burns like a torch on the crossbar",
+   "motion": "the rooster's crow runs on and on, comb shaking, throat feathers rippling, while below the three listeners exchange their slow looks — the cat's flat ears easing upright, the dog's cocked head straightening, the donkey's nod deepening into decision; then the rooster half-spreads its wings and comes down from the crossbar in one long flapping glide to the road before them, and the camera sinks with it from gate to road"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "group",
+    "road",
+    "night_bg"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "네 친구가 나란히 길을 걷는다",
+   "visual": "the four reference animals walk the road together in the iconic row, all four heads pointed the same way down the long ruts: the grey donkey on the outside setting the pace, the brown hound trotting at its shoulder, the tabby cat stepping neat and springy beside the dog, the rooster marching last with high proud steps, comb bobbing; dusk has come down amber and rose, their four shadows stretch long and mingled across the road behind them, and the first thin moon stands pale over the darkening hedgerows; stubble fields fade into blue distance, one farm light pricks on far away, and the road runs straight ahead into the gathering evening as if it had been waiting all day for exactly these four sets of feet",
+   "motion": "the four walk on in their mismatched rhythms woven into one — the donkey's even plod, the hound's loose trot, the cat's neat gliding steps, the rooster's high bobbing march — their long mingled shadows flowing over the ruts behind them; the amber light deepens toward blue, the far farm light strengthens, moths beginning to stitch the air, and the camera pulls slowly back ahead of them letting the row of four fill the road"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "group",
+    "house",
+    "night_bg"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "날이 저물고 숲속 불 켜진 창을 본다",
+   "visual": "full night in the deep forest, the four reference animals seen from behind, all four with the backs of their heads to the camera and every face aimed straight ahead at what they have found: down a dark aisle of oaks and firs stands the timbered robbers' house, moss on its shingle roof, and its one large leaded window burning warm yellow into the blue-black night, laying a soft golden path of light up the forest floor almost to their feet; the donkey's tall ears stand in silhouette against the glow, the rooster has fluttered up to sit between them on the donkey's neck for a better look, the dog and cat lean forward at the donkey's legs; cold mist lies low between the trunks, the thin moon is lost above the canopy, and the window's warmth in all that darkness looks exactly like supper and trouble in one",
+   "motion": "nothing moves but hunger and light: the golden window path flickers gently as figures shift somewhere inside the house, mist creeping in slow ribbons across it, while the four silhouettes lean forward by degrees, the rooster's comb tilting, the donkey's ears cupping toward a faint sound of laughter within; an owl crosses the dark high up, and the camera pushes slowly up the path of light toward the burning window past their still shoulders"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "robbers",
+    "room",
+    "feast"
+   ],
+   "refs": [
+    "robbers"
+   ],
+   "beat": "창 안 도둑들의 잔치",
+   "visual": "inside the robbers' house, the big room in full riot of candlelight: the three robbers of the reference sit at the long wooden table around their feast — the golden roast bird, round loaves, the wheel of cheese, sausages, clay jugs, coins glinting between the plates — the stout one carving with a knife too big for the job, the lanky one leaning back mid-laugh with a jug, the small quick one biting a sausage with his hat still on; the stone fireplace glows behind them, hams and lanterns hang from the low beams, benches are shoved anyhow, and grease shines on all three unshaven faces; beyond them the big leaded window holds only flat black night, and no one at the table so much as glances at it",
+   "motion": "the feast rolls on in its greasy rhythm — the stout one's knife sawing at the roast, the lanky one's jug tipping high, the small one chewing round-cheeked — candle flames leaning as laughter gusts across them, the fire settles with a soft flare behind, and past all of it, unnoticed in the black window, four faint pale shapes drift slowly into place, and the camera creeps in over the robbers' shoulders toward that window"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "group",
+    "house",
+    "night_bg"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "창밖에 당나귀부터 탑을 쌓는다",
+   "visual": "under the glowing window the four reference animals build their tower, each in its named place: the donkey stands at the base, braced square with its forehooves on the sill-stones, the hound stands balanced on the donkey's back with its paws spread wide, the tabby cat stands on the hound's shoulders arched and careful, and at the very top the rooster grips the cat's back, wings half open for balance, comb just clearing the window light; the tower sways gently as one body, silhouetted against the warm yellow glass, their stacked shadows thrown huge and strange up the timbered wall and mossy shingles; mist curls around the donkey's legs, the forest holds its breath behind, and inside the glass the feast burns bright and oblivious an arm's length from four pressed noses",
+   "motion": "the tower finds its balance in slow corrections — the donkey's legs setting stone-still, the hound's spread paws adjusting, the cat's arch easing, the rooster's half-open wings trembling and settling — until the sway narrows to nothing and four silhouettes hold one shape against the glass; mist curling on, and the camera circles slowly from the forest dark around to the window's glow with the tower rising through the frame"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "group",
+    "house",
+    "night_bg"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "탑에서 네 목소리가 터져 나온다",
+   "visual": "the exact instant of the concert: all four reference animals in their tower with every mouth and beak flung open at the glowing window — the donkey's head thrown up in a full bray, lips peeled, teeth bare; the hound's muzzle aimed high in a howl; the cat's back arched, jaws wide in a yowl; the rooster at the top with comb shaking in a full-throated crow — and the window itself answering: the leaded panes rattling visibly in their cames, candlelight inside juddering, the warm glow strobing on four straining throats; their shadows on the wall leap twice their size, mist recoils from around the donkey's legs, and every dark tree behind seems to lean away from the loudest thing this forest has ever held",
+   "motion": "the four voices pour out in one endless overlapping blast, the donkey's jaw working the bray, the hound's throat pumping the howl, the cat's whole body vibrating, the rooster's comb whipping with the crow, while the leaded panes rattle faster and the candle glow inside staggers and swims; the tower itself never wavers, only the world around it shaking, and the camera rushes slowly in past their open mouths toward the juddering glass"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "robbers",
+    "house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "도둑들이 어둠 속으로 달아난다",
+   "visual": "the robbers' door burst wide and the night full of flying men: the three robbers scatter from the house into the dark forest at full terrified sprint — the stout one first with his coat-tails straight out behind, the lanky one vaulting the rain barrel with his slouch hat lifting off, the small quick one already far between the trunks, all three lit from behind by the doorway's warm spill so they run from their own golden shadows; the house glows cheerful behind them, window and open door pouring light into the mist, and above the sill the tips of two tall grey ears and one scarlet comb rise just into view; fir trunks stripe the fleeing figures smaller and smaller into the blue-black depth, and the forest swallows the last hat with perfect indifference",
+   "motion": "the three figures pelt away in one continuous flight, arms pumping, the lanky one's hat sailing off and tumbling along the mist, coat-tails streaming through the bars of trunk-shadow as the men shrink into the dark; behind them the doorway light wavers with their passing wind, the ear-tips and comb above the sill turning slowly to watch them go, and the camera holds at the doorway looking down the golden path as the forest closes over them"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "group",
+    "room",
+    "feast"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "넷이 잔칫상을 차지한다",
+   "visual": "the four reference animals installed at the robbers' table in candle-warm glory: the donkey stands at the table's end lipping happily at a round loaf, the hound sits up on a bench with the roast bird between its paws, tail sweeping the boards, the tabby cat crouches over the cheese wheel dainty and thorough, and the rooster struts the length of the tabletop between plates pecking grains and scattered crumbs, comb bright in the candlelight; jugs and coins glint around them, the fireplace glows soft, hams and lanterns swing faintly overhead where the running left the air stirred; the big window behind holds the quiet blue night, and four old animals nobody wanted eat like four kings somebody feared",
+   "motion": "the feast runs in four happy rhythms — the donkey's lips working the loaf, the hound's jaws at the roast, the cat's neat pulls at the cheese, the rooster's strut-and-peck along the boards — candle flames breathing, a hanging lantern swaying its shadows in slow arcs across the table; the fire settles warm behind, and the camera drifts once around the whole table taking in each eater in turn"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "group",
+    "room"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "불을 끄고 저마다 잠자리에 든다",
+   "visual": "the big room sunk into ember-dark, the candles out, and each reference animal in its chosen bed: the donkey lies folded by the door on spread straw, big head sinking; the hound stretches full length across the doormat behind it, chin on paws; the tabby cat curls tight on the warm hearthstones where the embers breathe a faint orange over its striped back; and the rooster perches high on a roof beam, a black silhouette with one glinting eye, head already turning back into its wing; the table still holds the wrecked feast in shadow, the window is a pale blue ghost, and the ember-light maps the room in soft reds — four shapes of sleep arranged like notes on a stave, the house finally quiet around them",
+   "motion": "sleep settles in slow layers — the donkey's head nodding lower and lower to the straw, the hound's ribs falling into a deep even swell, the cat's curl tightening as the embers pulse faint orange across it, the rooster's head vanishing by degrees into its wing feathers; the ember glow breathes on the hearth, and the camera pulls back slowly through the dark room holding all four sleepers in the frame"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "robbers",
+    "cat",
+    "room"
+   ],
+   "refs": [
+    "robbers"
+   ],
+   "beat": "돌아온 도둑이 숯불로 다가간다",
+   "visual": "the room in full dark, hours later: the small quick robber from the reference has crept back in, bent double, hat crushed in one hand, feeling along the cold table edge with the other, his face a pale smear of dread in the blackness; ahead of him at the hearth two round green-gold points burn low in the dark — the tabby cat's eyes catching the last ember-light, exactly like two live coals waiting on the hearthstones — and toward those two patient coals the robber leans with a stub of candle held out, meaning to take a light from them; the darkness hides the striped body, the white paws, everything but the two glowing rounds and the faint red map of the hearth; the window glimmers far and pale behind him, and the whole black room holds its breath around the shrinking distance between candle stub and coal-bright eyes",
+   "motion": "the robber's candle stub inches forward through the dark in one slow trembling reach, his bent body following it step by silent step while the two green-gold points hold perfectly still, wide and round and waiting; the ember map pulses faintly beneath them, his breath loud in the black quiet, the stub's tip closing the last hand's width toward the nearer glowing eye, and the camera tightens slowly on the meeting point"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "group",
+    "robbers",
+    "room"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "어둠 속 대소동",
+   "visual": "the dark room exploding around the small robber, caught mid-catastrophe in ember-red half-light: the tabby cat is at his face, a spitting star-shaped blur of claws raking air, his hat flying loose; below, the hound's jaws grip his trouser leg, hauling backward with braced forepaws; behind him the donkey's hindquarters are swung round, one mighty hoof extended full stretch into his rear mid-launch; and high on the beam the rooster beats its wings wide, comb shaking, beak split in an ear-splitting crow that showers dust from the rafters; the robber himself is a flailing diagonal across all of it, arms windmilling, mouth a black O, candle stub spinning away still lit; benches tip, a jug rolls, the ember glow smears every motion into red streaks, and the whole room is one clockwork of comic vengeance going off at once",
+   "motion": "the chaos runs as one connected chain — the cat's claws raking and raking at his face, the hound hauling steadily backward on the trouser leg, the donkey's extended hoof driving the man's whole diagonal body doorward, the rooster's beating wings raining rafter dust through the ember light — while the robber's windmilling arms and kicking legs carry him in one continuous headlong stumble across the room and out into the night; and the camera shakes and swings after the tumbling man to the door"
+  },
+  {
+   "n": 16,
+   "cast": [
+    "group",
+    "house"
+   ],
+   "refs": [
+    "group"
+   ],
+   "beat": "아침, 네 친구의 집",
+   "visual": "clear morning on the forest house, the fright of the night rinsed away: the four reference animals at ease around their new home — the donkey grazing the dewy clearing by the door, the hound sprawled on the warm doorstep in a bar of sun, the tabby cat washing a white paw on the window sill, and the rooster on the rooftop ridge with his comb blazing, head back mid-crow to a sky full of birdsong; the big window stands open and the mossy shingles steam faintly as the sun takes them, the rain barrel mirrors the blue, fir tops sway gently behind the roof, and the road to Bremen runs on past the clearing, unwalked, unneeded — four musicians who found their hall a day short of the city and never once looked back",
+   "motion": "morning idles in small motions — the donkey's muzzle working across the dewy grass, the hound's sun-warmed ribs rising in sleep, the cat's paw curling over one ear again and again, the rooster's crow rolling out from the ridge with a shake of comb — steam breathing off the shingles, the barrel's mirror trembling with birdsong, and the camera pulls up slowly and warmly over the roof until the little house sits snug in the endless green forest"
+  }
+ ],
+ "withheld": "도둑이 두목에게 늘어놓은 그 집 괴물들 이야기"
 }
