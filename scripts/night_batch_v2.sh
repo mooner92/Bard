@@ -135,9 +135,14 @@ while grace_ok; do
   mkdir -p "output/$work" "output/${work}_kf" "output/${work}_i2v"
   # 사람이 쓴 원고는 works/handwritten 이 원본이다(output 은 git 이 무시한다).
   # 작업 디렉터리에 없을 때만 채워 넣는다 — 진행 중인 산출물을 덮어쓰지 않는다.
+  # "없을 때만" 복사하던 시절, 사본이 첫 렌더 시점에 얼어붙어 이후의 원고
+  # 수정이 한 번도 렌더에 들어가지 못했다(실측: 빨간 모자 2·3차가 같은 시드
+  # + 같은 옛 프롬프트로 픽셀까지 같은 그림을 다시 만들었다). 원본이 더
+  # 새로우면 사본을 갱신한다 — works/handwritten 이 언제나 원본이다.
   for f in treatment.json narration_night.json; do
-    [ -s "works/handwritten/$work/$f" ] && [ ! -s "output/$work/$f" ] \
-      && cp "works/handwritten/$work/$f" "output/$work/$f"
+    src="works/handwritten/$work/$f"
+    [ -s "$src" ] && { [ ! -s "output/$work/$f" ] || [ "$src" -nt "output/$work/$f" ]; } \
+      && cp "$src" "output/$work/$f"
   done
   # 원고를 다시 쓴 작품은 옛 그림이 남아 있으면 그걸 그대로 재사용해 버린다
   # (실측: 상록수가 새 낭독 + 8월 20일 폐기본 그림으로 2분 만에 "완성"됐다).
