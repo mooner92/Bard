@@ -237,6 +237,11 @@ motionless … for the whole shot 으로 못박고, 그 컷에서 움직이는 �
 화면에 불러온다(실측: 한낮 컷에 초승달이 떴다 — 'a pale moonish sheen').
 빛은 비유 대신 성질로 적는다 — a pale cold sheen like winter light.
 
+**수는 위치로 배분한다.** 숫자만 적으면 수가 흐른다(실측: '두 아이'가
+셋이 되었다 — 하나는 안기고 둘은 바닥에 서 있었다). 명수가 중요한 컷은
+자리를 하나씩 배정한다 — the boy seated on her left arm, the girl on her
+right arm — 그리고 나머지 공간이 비어 있음을 한 절로 적는다.
+
 **자리 못박기.** '침대 속 A 와 곁에 선 B' 구도는 뒤집힌다(실측: 이불 속에
 소녀가 눕고 늑대가 곁에 앉았다). 구도의 첫 절에서 두 인물의 자리를 각각
 못박고(A is the one lying inside the bed / B stands on the floor), 이불·모자
