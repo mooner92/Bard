@@ -1,151 +1,155 @@
 {
-  "_note": [
-    "계절 추천관의 배정표. backend 가 읽어 season·season_note 를 작품에 싣는다.",
-    "계절이 뚜렷한 작품만 싣는다 — 억지로 채우면 추천이 흐려진다.",
-    "note 는 '왜 이 계절인가' 한 줄. 카드 위에 강조로 얹힌다."
-  ],
-  "mobydick": {
-    "season": "여름",
-    "note": "뙤약볕 갑판 위, 흰 고래를 쫓는 항해"
-  },
-  "haejeo_2manri": {
-    "season": "여름",
-    "note": "무더위를 식히는 바다 밑 2만 리"
-  },
-  "15sonyeon_pyoryugi": {
-    "season": "여름",
-    "note": "여름 폭풍이 데려다 놓은 무인도"
-  },
-  "bomulseom": {
-    "season": "여름",
-    "note": "소금기 어린 바람과 열대의 섬"
-  },
-  "robinseun_keurusoe": {
-    "season": "여름",
-    "note": "한여름 모래밭에 찍힌 발자국"
-  },
-  "sindeubadeu": {
-    "season": "여름",
-    "note": "터키석 빛 바다로 떠나는 항해"
-  },
-  "tom_soyeoui_moheom": {
-    "season": "여름",
-    "note": "방학의 냄새가 나는 강가의 모험"
-  },
-  "heokeulberi_pinui_moheom": {
-    "season": "여름",
-    "note": "여름밤 강물 위 뗏목 여행"
-  },
-  "ineogongju": {
-    "season": "여름",
-    "note": "파도 거품처럼 여름에 녹는 이야기"
-  },
-  "geolribeo_yeohaenggi": {
-    "season": "여름",
-    "note": "난파가 데려다 준 이상한 여름 나라"
-  },
-  "gyeonu_jingnyeo": {
-    "season": "여름",
-    "note": "칠월 칠석, 여름 밤하늘의 은하수"
-  },
-  "baettaragi": {
-    "season": "여름",
-    "note": "뱃노래가 실려 오는 여름 바다"
-  },
-  "bombom": {
-    "season": "봄",
-    "note": "장가 못 간 데릴사위의 봄날 소동"
-  },
-  "dongbaekkkot": {
-    "season": "봄",
-    "note": "노란 동백꽃 아래 닭싸움과 첫 마음"
-  },
-  "chunhyangjeon": {
-    "season": "봄",
-    "note": "단오 그네가 바꾼 봄날의 인연"
-  },
-  "omangwa_pyeongyeon": {
-    "season": "봄",
-    "note": "무도회의 계절, 어긋난 첫인상"
-  },
-  "byeoljubujeon": {
-    "season": "봄",
-    "note": "봄볕 산기슭에서 시작되는 꾐"
-  },
-  "piteopaen": {
-    "season": "봄",
-    "note": "창문이 열리는 계절의 밤 손님"
-  },
-  "manmubang": {
-    "season": "가을",
-    "note": "추수 끝난 논둑의 서늘한 하루"
-  },
-  "memilkkot_pil_muryeop": {
-    "season": "가을",
-    "note": "소금 뿌린 듯한 메밀꽃 달밤"
-  },
-  "majimak_ipsae": {
-    "season": "가을",
-    "note": "마지막 잎이 버티는 늦가을 벽"
-  },
-  "pokpungui_eondeok": {
-    "season": "가을",
-    "note": "바람 우는 황야의 스산한 계절"
-  },
-  "heungbujeon": {
-    "season": "가을",
-    "note": "박이 여무는 가을 지붕"
-  },
-  "widaehan_gaecheubi": {
-    "season": "가을",
-    "note": "여름 파티가 끝난 뒤의 쓸쓸함"
-  },
-  "gamja": {
-    "season": "가을",
-    "note": "수확철 뒷골목의 서글픈 셈"
-  },
-  "talchulgi": {
-    "season": "가을",
-    "note": "찬바람 불기 전 국경을 넘는 가족"
-  },
-  "sangol_nageune": {
-    "season": "가을",
-    "note": "찬 이슬 내린 주막의 하룻밤"
-  },
-  "eodum_sogui_bit": {
-    "season": "겨울",
-    "note": "섣달그믐 눈길 위 성냥 한 개비"
-  },
-  "keuriseumaseu_kaereol": {
-    "season": "겨울",
-    "note": "크리스마스 전야의 세 유령"
-  },
-  "minyeowa_yasu": {
-    "season": "겨울",
-    "note": "눈 덮인 성의 장미 한 송이"
-  },
-  "baekseolgongju": {
-    "season": "겨울",
-    "note": "눈처럼 흰 살결의 공주 이야기"
-  },
-  "sogongnyeo": {
-    "season": "겨울",
-    "note": "눈 내리는 다락방의 하룻밤 기적"
-  },
-  "unsu_joteun_nal": {
-    "season": "겨울",
-    "note": "진눈깨비 내리는 날의 설렁탕 한 그릇"
-  },
-  "jangbaljang": {
-    "season": "겨울",
-    "note": "흙길에 눈 밟히는 계절의 은촛대"
-  },
-  "haewa_dal": {
-    "season": "겨울",
-    "note": "긴긴 겨울밤 화롯가 옛이야기"
-  },
-  "henjelgwa_geuretel": {
-    "season": "겨울",
-    "note": "배고픈 계절의 과자로 지은 집"
-  }
+ "_note": [
+  "계절 추천관의 배정표. backend 가 읽어 season·season_note 를 작품에 싣는다.",
+  "계절이 뚜렷한 작품만 싣는다 — 억지로 채우면 추천이 흐려진다.",
+  "note 는 '왜 이 계절인가' 한 줄. 카드 위에 강조로 얹힌다."
+ ],
+ "mobydick": {
+  "season": "여름",
+  "note": "뙤약볕 갑판 위, 흰 고래를 쫓는 항해"
+ },
+ "haejeo_2manri": {
+  "season": "여름",
+  "note": "무더위를 식히는 바다 밑 2만 리"
+ },
+ "15sonyeon_pyoryugi": {
+  "season": "여름",
+  "note": "여름 폭풍이 데려다 놓은 무인도"
+ },
+ "bomulseom": {
+  "season": "여름",
+  "note": "소금기 어린 바람과 열대의 섬"
+ },
+ "robinseun_keurusoe": {
+  "season": "여름",
+  "note": "한여름 모래밭에 찍힌 발자국"
+ },
+ "sindeubadeu": {
+  "season": "여름",
+  "note": "터키석 빛 바다로 떠나는 항해"
+ },
+ "tom_soyeoui_moheom": {
+  "season": "여름",
+  "note": "방학의 냄새가 나는 강가의 모험"
+ },
+ "heokeulberi_pinui_moheom": {
+  "season": "여름",
+  "note": "여름밤 강물 위 뗏목 여행"
+ },
+ "ineogongju": {
+  "season": "여름",
+  "note": "파도 거품처럼 여름에 녹는 이야기"
+ },
+ "geolribeo_yeohaenggi": {
+  "season": "여름",
+  "note": "난파가 데려다 준 이상한 여름 나라"
+ },
+ "gyeonu_jingnyeo": {
+  "season": "여름",
+  "note": "칠월 칠석, 여름 밤하늘의 은하수"
+ },
+ "baettaragi": {
+  "season": "여름",
+  "note": "뱃노래가 실려 오는 여름 바다"
+ },
+ "bombom": {
+  "season": "봄",
+  "note": "장가 못 간 데릴사위의 봄날 소동"
+ },
+ "dongbaekkkot": {
+  "season": "봄",
+  "note": "노란 동백꽃 아래 닭싸움과 첫 마음"
+ },
+ "chunhyangjeon": {
+  "season": "봄",
+  "note": "단오 그네가 바꾼 봄날의 인연"
+ },
+ "omangwa_pyeongyeon": {
+  "season": "봄",
+  "note": "무도회의 계절, 어긋난 첫인상"
+ },
+ "byeoljubujeon": {
+  "season": "봄",
+  "note": "봄볕 산기슭에서 시작되는 꾐"
+ },
+ "piteopaen": {
+  "season": "봄",
+  "note": "창문이 열리는 계절의 밤 손님"
+ },
+ "manmubang": {
+  "season": "가을",
+  "note": "추수 끝난 논둑의 서늘한 하루"
+ },
+ "memilkkot_pil_muryeop": {
+  "season": "가을",
+  "note": "소금 뿌린 듯한 메밀꽃 달밤"
+ },
+ "majimak_ipsae": {
+  "season": "가을",
+  "note": "마지막 잎이 버티는 늦가을 벽"
+ },
+ "pokpungui_eondeok": {
+  "season": "가을",
+  "note": "바람 우는 황야의 스산한 계절"
+ },
+ "heungbujeon": {
+  "season": "가을",
+  "note": "박이 여무는 가을 지붕"
+ },
+ "widaehan_gaecheubi": {
+  "season": "가을",
+  "note": "여름 파티가 끝난 뒤의 쓸쓸함"
+ },
+ "gamja": {
+  "season": "가을",
+  "note": "수확철 뒷골목의 서글픈 셈"
+ },
+ "talchulgi": {
+  "season": "가을",
+  "note": "찬바람 불기 전 국경을 넘는 가족"
+ },
+ "sangol_nageune": {
+  "season": "가을",
+  "note": "찬 이슬 내린 주막의 하룻밤"
+ },
+ "eodum_sogui_bit": {
+  "season": "겨울",
+  "note": "섣달그믐 눈길 위 성냥 한 개비"
+ },
+ "keuriseumaseu_kaereol": {
+  "season": "겨울",
+  "note": "크리스마스 전야의 세 유령"
+ },
+ "minyeowa_yasu": {
+  "season": "겨울",
+  "note": "눈 덮인 성의 장미 한 송이"
+ },
+ "baekseolgongju": {
+  "season": "겨울",
+  "note": "눈처럼 흰 살결의 공주 이야기"
+ },
+ "sogongnyeo": {
+  "season": "겨울",
+  "note": "눈 내리는 다락방의 하룻밤 기적"
+ },
+ "unsu_joteun_nal": {
+  "season": "겨울",
+  "note": "진눈깨비 내리는 날의 설렁탕 한 그릇"
+ },
+ "jangbaljang": {
+  "season": "겨울",
+  "note": "흙길에 눈 밟히는 계절의 은촛대"
+ },
+ "haewa_dal": {
+  "season": "겨울",
+  "note": "긴긴 겨울밤 화롯가 옛이야기"
+ },
+ "henjelgwa_geuretel": {
+  "season": "겨울",
+  "note": "배고픈 계절의 과자로 지은 집"
+ },
+ "seonnyeo_namukkun": {
+  "season": "여름",
+  "note": "달밤 연못의 서늘한 물안개가 여름밤을 닮았습니다"
+ }
 }

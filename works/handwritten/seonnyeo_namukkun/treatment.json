@@ -1,0 +1,183 @@
+{
+ "logline": "사슴을 구한 나무꾼이 날개옷을 감춰 선녀와 살지만, 옷을 꺼낸 밤 하늘이 그녀를 데려간다",
+ "destination": "전래설화 선녀와 나무꾼에서 만날 수 있습니다",
+ "protagonist": "woodcutter",
+ "setting": "조선의 산과 달밤의 연못, 산기슭 초가",
+ "prompt_style": "detail",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "deep pine green, moon silver white, soft indigo, warm amber, hanji cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {
+  "woodcutter": {
+   "desc": "a young Joseon woodcutter with a warm open sun-browned face, gentle dark eyes and a soft mouth quick to smile, an undyed cotton head-cloth knotted over his topknot; he wears a patched jeogori jacket of coarse hemp, trousers bound at the knee with cloth leggings, straw sandals, and carries a wooden A-frame carrier of cut brushwood; his hands are calloused and careful, the kind that lift small things gently; he gives his warmth away easily — draping his own jacket over cold shoulders, bowing thanks to animals, working the same slope year after year with steady patience"
+  },
+  "maiden": {
+   "desc": "a heavenly maiden with black hair drawn into a low smooth knot fixed by a slender jade pin, a pale luminous face with fine crescent brows, calm grey-black eyes and a small composed mouth; she wears layered under-robes of plain white ramie tied with a long trailing goreum ribbon; her true garment is the winged robe: white silk thin as mist with long sleeve-trains like folded crane wings, embroidered faintly with cloud spirals, a cloth that stirs and floats of its own accord as if it remembers the sky; grief and longing pass over her stillness like wind over deep water"
+  },
+  "deer": {
+   "desc": "a mountain roe deer with a coat of warm chestnut dappled faintly along the spine, velvet antlers of three tines, large wet black eyes with long lashes, a white chin patch and flicking round ears; small sharp hooves leave heart-shaped prints; when the deer speaks its jaw works slowly and its breath clouds, and its whole body points with the stillness of a listening wild thing"
+  },
+  "hunter": {
+   "desc": "a mountain hunter in a fur-brimmed felt cap with ear flaps, a quilted grey jacket crossed with a leather strap, fur-wrapped shin guards and heavy boots; a horn bow rides his back beside a quiver of iron-tipped arrows; his beard is rough, his eyes narrow and scanning, and he moves through the pines with the impatient hunger of a man who has tracked all day and found only cold prints"
+  },
+  "moon_pond": {
+   "desc": "a mountain pond under a full moon: dark mirror water ringed by old red pines whose low branches reach over the surface, white mist lying in slow banks across the middle water, moonlight laying one long silver road from shore to shore; smooth pale stones at the near bank, ferns silvered with dew, and the whole basin so quiet that a single drip rings like a bell"
+  },
+  "yard": {
+   "desc": "the yard of a small thatched cottage at the mountain's foot: a low wall of stacked stone, a persimmon tree leaning over rows of dark glazed jars on the jangdokdae, a wooden maru porch under the deep eave, firewood ricked against the wall, a bamboo gate standing open to the path; evening smoke rises soft from the chimney and the mountains fold away in blue layers behind the roofline"
+  },
+  "room": {
+   "desc": "the single papered room of the cottage at night, walls and floor glowing warm with the small flame of an oil lamp: a low wooden wardrobe with brass butterfly fittings against the wall, folded quilts stacked on its top, a sewing basket in the corner, the papered door panels drawn shut so the room holds its own small circle of lamplight"
+  },
+  "children": {
+   "desc": "two small children, a boy and a girl of about four and five, in bright saekdong jackets of striped sleeves over little white trousers and skirts, both with round cheeks, bowl-cut black hair and their mother's calm grey-black eyes; they cling with both fists when they are held, and their small faces stay wide-eyed and trusting"
+  }
+ },
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "woodcutter",
+    "deer"
+   ],
+   "beat": "나무꾼이 산에서 쫓기는 사슴을 만난다",
+   "visual": "a pine slope in late afternoon, long amber light barred between red trunks, dry needles and grey stone underfoot; the woodcutter has set down his A-frame carrier of brushwood and stands half turned, axe resting head-down against a stump, his cotton head-cloth pushed back; up the slope toward him comes the deer at a desperate stretched run, chestnut coat dark with sweat, black eyes huge, breath tearing in clouds, its small hooves flinging needles at every bound; far below through the trunks a thin shape and the glint of a bow show where the pursuit climbs; between man and deer the slope is open and bright, and the deer is running straight into that brightness toward the one human figure in it, choosing him; the woodcutter's face is already turning from surprise toward decision, one hand lifting from the carrier rope",
+   "motion": "the deer pounds up the slope in long straining bounds, needles spraying from its hooves, flanks heaving, while the woodcutter's lifted hand opens and beckons it in toward the stacked brushwood, his body turning to make a shelter of himself, his eyes going once down the slope toward the far glint of the bow; the amber light bars hold still between the trunks, and the camera tracks the running deer up the slope into his shadow"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "woodcutter",
+    "deer",
+    "hunter"
+   ],
+   "beat": "나무꾼이 사슴을 나뭇단 뒤에 숨겨 목숨을 구한다",
+   "visual": "the same slope minutes later: the deer is folded down small and trembling behind the tall rick of cut brushwood on the A-frame carrier, one wet black eye showing between the bundled sticks; in front of it the woodcutter has taken up his axe and works at a log with elaborate unconcern, chips flying, his back a wall between the hidden animal and the path; up that path the hunter arrives at a heavy trot — fur-brimmed cap, quilted grey jacket, horn bow already half drawn, narrow eyes raking the slope — and slows to question, one arm sweeping wide toward the thickets; the woodcutter straightens and points his whole arm calmly toward the ridge on the wrong side, face open and helpful; low sun makes the two men long shadows that cross on the needles, and one small chestnut ear stays pressed flat behind the brushwood a hand's breadth from the hunter's boot",
+   "motion": "the woodcutter's arm extends in one slow steady point toward the far ridge and holds there while his other hand rests easy on the axe head, his face keeping its mild helpfulness; the hunter's narrow eyes rake once more across the slope, his bow arm easing down by degrees, behind the brushwood the deer's flat ear trembles and its breath comes in small held clouds; the crossed shadows shorten as he departs, and the camera holds low beside the hidden deer's eye"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "woodcutter",
+    "deer"
+   ],
+   "beat": "사슴이 은혜로 달밤 연못의 비밀을 알려 준다",
+   "visual": "dusk settling blue over the slope, the hunter long gone: the deer stands free now, facing the woodcutter almost muzzle to chest, its velvet three-tined antlers catching the last warm light, breath calm; its jaw works slowly as it speaks, the white chin patch moving, long-lashed black eyes fixed up at the man with grave animal courtesy; the woodcutter has gone down on one knee to hear, axe forgotten on the stump, head-cloth in his hand, his open face caught between wonder and doubt; around them the pines darken and a first pale star stands over the ridge, and away between two shoulders of the mountain a small silver gleam shows where a pond lies waiting under the rising night — the very direction the deer's antlers tilt as it speaks; the brushwood rick and the carrier wait loaded behind them, the day's work still unfinished and utterly forgotten",
+   "motion": "the deer's jaw moves in slow deliberate speech, breath clouding faintly between them, its antlered head tilting by degrees toward the far silver gleam between the mountain shoulders; the kneeling woodcutter leans in closer and closer, the head-cloth twisting slowly in his hands, his eyes going once from the deer's eyes to the distant gleam and back; the pines settle into darkness, and the camera circles slowly behind the deer's antlers to frame the far pond between the tines"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "moon_pond"
+   ],
+   "beat": "보름달 밤 연못가 소나무에 흰 날개옷이 여럿 걸려 있다",
+   "visual": "the mountain pond at full moon: dark mirror water ringed by old red pines, white mist lying in slow banks across the middle, the moon laying one long silver road over the surface; on the lowest pine branch at the near bank hang several winged robes — white silk thin as mist, long sleeve-trains like folded crane wings hanging almost to the stones, faint cloud spirals in the weave silvered by the moon — swaying although the night air is still; below them smooth pale stones and silvered ferns, a trail of small wet footprints crossing the stones toward the water; far out in the mist banks a few distant white shapes, wrapped head to knee in pale bathing cloth, stand waist-deep and blurred like reflections of the moon itself, their soft laughter carried as rings on the water; the robes on the branch are the nearest, clearest, brightest things in the whole frame, and they stir as if they can hear",
+   "motion": "the hanging winged robes sway gently on the low branch though the pines hold still, their long sleeve-trains lifting and settling like slow breathing, cloud spirals glinting as the silk turns in the moonlight; out in the mist the distant wrapped shapes move in soft blurred gestures and rings spread from them across the silver road; a single bead of dew from a fern rings the near water once, and the camera pushes in slowly along the branch toward the nearest robe"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "woodcutter",
+    "moon_pond"
+   ],
+   "beat": "나무꾼이 날개옷 한 벌을 거두어 품에 안는다",
+   "visual": "the near bank in deep pine shadow: the woodcutter stands pressed against the trunk of the lowest pine, half hidden, head-cloth clutched at his chest, and reaches one careful arm along the branch to the nearest winged robe; his calloused fingers close on the mist-thin silk as if lifting a sleeping bird, and he draws it down fold by fold into the crook of his arm, where it settles glowing faintly against his patched hemp jacket like a piece of moonlight brought indoors; his face is turned over his shoulder toward the water, awed and ashamed at once, eyes wide; beyond him the mist banks and the far wrapped shapes stay undisturbed, the silver road unbroken, the remaining robes swaying softly on the branch; at his feet the ferns are dark and his own shadow pools around his sandals like spilled ink",
+   "motion": "the woodcutter's arm draws the robe down from the branch in one slow continuous gathering, the silk pouring fold over fold into his bent arm and settling there with a faint glow, its sleeve-train sliding last across the bark like water; his other hand presses the bundle to his chest and his body eases back deeper into the pine shadow one careful step at a time, his face never leaving the misted water; the remaining robes sway on undisturbed, and the camera holds tight on the pouring silk"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "maiden",
+    "moon_pond"
+   ],
+   "beat": "새벽, 선녀들은 하늘로 돌아가고 한 선녀만 물가에 남는다",
+   "visual": "first grey-rose dawn over the pond, the moon gone pale and low: high above the water a scatter of white points climbs the brightening sky in a slow drifting line, small as petals carried up a stream, trailing threads of mist behind them toward heaven; below at the water's edge the maiden alone remains — barefoot on the pale stones in her plain white ramie under-robes, the long goreum ribbon trailing, black hair loosened from its knot down her back, her jade pin held forgotten in one hand; she is turned up toward the climbing white points, one arm half raised after them, her luminous face undone with loss, tears bright on it in the dawn light; the lowest pine branch behind her hangs empty, the mist has thinned to rags on the water, and the first birds are beginning far off in the dark pines",
+   "motion": "the line of white points climbs the dawn sky in one slow drifting line, growing smaller and fainter as the mist threads stretch and thin behind them; below, the maiden's half-raised arm reaches higher by degrees and then sinks, her fingers closing on air, the jade pin trembling in her other hand, the goreum ribbon stirring against the stones; the empty branch sways once behind her, and the camera rises gently past her lifted face toward the vanishing points of white"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "woodcutter",
+    "maiden",
+    "moon_pond"
+   ],
+   "beat": "나무꾼이 제 겉옷을 선녀의 어깨에 걸쳐 준다",
+   "visual": "full soft dawn on the pale stones: the maiden sits folded small at the waterline, white under-robes gathered around her, wet hair down her back, face bowed; behind her the woodcutter approaches with his patched hemp jacket already off and held wide in both hands, his cotton head-cloth crooked, his sun-browned face all awkward tenderness; he lays the coarse warm jacket around her narrow shoulders from behind, careful as a man covering a sleeping child, his rough hands hovering without touching her; she lifts her face a little at the warmth, eyes still bright with tears, and the first true sunlight comes level through the pines and lights the two of them and the rag-ends of mist on the water; the empty pine branch, the pale stones, the quiet pond all stand witness around this one small human kindness at the edge of a magic gone wrong",
+   "motion": "the jacket settles around the maiden's shoulders in one slow careful laying-on, the woodcutter's hands smoothing the coarse cloth down her arms and then retreating to hover, uncertain; her bowed head lifts by small degrees toward the warmth, a tear sliding and drying on her lit cheek, her fingers rising to draw the lapel closed; the level sunlight strengthens across the stones, mist rags thinning off the water, and the camera holds close on the settling jacket and her lifting face"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "woodcutter",
+    "maiden",
+    "children",
+    "yard"
+   ],
+   "beat": "초가 마당의 저녁 — 두 아이와 함께 사는 세월",
+   "visual": "the cottage yard in amber evening years later: smoke soft from the chimney, the persimmon tree hung with ripening fruit over the dark jars of the jangdokdae, firewood ricked neat against the stone wall; in the middle of the yard the woodcutter crouches with the two small children — the boy riding his bent back and laughing, the girl in her striped saekdong jacket tugging his hand toward the maru porch; the maiden sits on the maru edge in her white ramie robes with the jade pin neat in her hair again, a sewing basket beside her, watching the three of them with a smile that is real and yet sits over stillness, the way lamplight sits over deep water; the mountains fold away in blue layers behind the thatched roofline and the first thin moon stands small and white above them, and her calm eyes go once from the laughing children up to that moon",
+   "motion": "the boy bounces on the crouched woodcutter's back as he walks his hands forward in the dust playing ox, the girl tugging the man's hand with both small fists, all three rocking with laughter; on the maru the maiden's smile holds while her needle rests, and her calm eyes travel slowly from the children up to the small white moon and stay there a breath too long; and the camera drifts slowly from the laughing three to her lifted gaze"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "maiden",
+    "yard"
+   ],
+   "beat": "선녀는 달밤마다 하늘을 오래 올려다본다",
+   "visual": "deep night in the yard, the household asleep: the maiden stands alone in the middle of the swept ground in her white under-robes, a full moon riding high and small over the folded blue mountains, frost-pale light laying her long shadow across the yard; her face is lifted full to the sky, lips parted, grey-black eyes wide and swimming with moonlight, the jade pin glinting in her smooth hair; her hands are folded over her breastbone pressing something that is only memory; around her the yard sleeps — jars shouldered with moonlight on the jangdokdae, the persimmon tree inked black against the stars, the papered door of the cottage glowing faintly where the lamp burns low inside — and the longing on her lifted face is as plain and cold and beautiful as the moon it answers; a night bird crosses high, its thin cry falling",
+   "motion": "the maiden's lifted face tracks slowly across the star field as if reading a road there, moonlight welling in her eyes until it brims and slides bright down one cheek, her folded hands pressing tighter over her breastbone; her long shadow lies still across the swept ground, the lamp glow breathes faintly behind the papered door, and the camera creeps toward her upturned face through the whole shot"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "woodcutter",
+    "maiden",
+    "room"
+   ],
+   "beat": "나무꾼이 장롱 깊이 감춰 둔 날개옷을 꺼내 보인다",
+   "visual": "the papered room in warm lamplight: the low wooden wardrobe stands open, quilts pushed aside, and the woodcutter kneels before it drawing out the winged robe from its deepest place — the white silk spilling up out of the dark like caught moonlight, cloud spirals shimmering, sleeve-trains pouring over his forearms; his face is turned up to the maiden, guilty and hopeful at once, offering the robe like a confession; the maiden stands very still in the middle of the small warm room, lamp flame doubled in her widening eyes, one hand risen to her mouth, the jade pin trembling a point of light in her hair; between them the robe seems to lift a little of itself, sleeves stirring in air that is not moving, and the lamp flame leans; folded bedding, the sewing basket, the brass butterfly fittings all sit homely and still around the one impossible shining thing",
+   "motion": "the robe pours upward out of the wardrobe's dark over the woodcutter's forearms in one continuous silken rising, sleeve-trains unfolding of themselves, the cloth swelling faintly as if taking breath; the maiden's risen hand presses harder against her mouth, her eyes widening lamp-bright, one step drawing her toward it without her seeming to walk; the lamp flame leans and steadies, and the camera closes slowly on the shining silk between them"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "maiden",
+    "room"
+   ],
+   "beat": "날개옷을 걸치자 옷자락이 저절로 떠오른다",
+   "visual": "the small room transfigured: the maiden stands with the winged robe now over her white under-robes, and the garment has remembered the sky — sleeve-trains risen and hovering wide like a crane's opened wings, hem floating clear of the floor, cloud spirals running with lamplight, loose threads of her black hair lifting from the jade pin as if underwater; her feet in their white socks rest on the floorboards by only a toe's weight; her face is caught between rapture and grief, eyes closed, brows drawn — a woman being answered by something she can no longer refuse; the lamp flame streams sideways, the papered door panels tremble in their frame, quilts stir on the wardrobe top, and every homely thing in the room leans toward the floating figure at its center as the small human lamplight and the great cold moonlight meet on her lifted sleeves",
+   "motion": "the sleeve-trains rise and spread wider in one slow continuous opening, the hem lifting clear of the floor, her heels peeling gently from the boards until only her toes touch, hair threads streaming upward from the jade pin; her closed eyes tighten and her drawn brows tremble between joy and grief; the lamp flame streams sideways and the door panels shiver in their frame, and the camera sinks slowly to floor level to watch her feet leave the boards"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "maiden",
+    "children",
+    "yard"
+   ],
+   "beat": "선녀가 두 아이를 안은 채 지붕 위로 떠오른다",
+   "visual": "night air over the yard, close and vertiginous: the maiden rises past the thatched eave with the two children gathered one on each arm — the boy's fists knotted in her winged robe, the girl's face pressed to her neck, both saekdong jackets bright against the streaming white silk; the great sleeve-trains beat once wide across the frame like crane wings, her hair loosening in a black banner, her face over her children's heads already turned up toward the small high moon; below, the yard tilts away — jars, persimmon tree, swept ground and the woodcutter's toppled water pail — shrinking with terrible gentleness; the composition holds the three of them large and close, faces filling the heart of the frame, the roofline slipping downward past them, sparks from the chimney wheeling wide around the rising silk",
+   "motion": "the maiden rises in one slow unbroken ascent past the eave, sleeve-trains beating wide and gathering, the children's fists knotting tighter in the silk as the roofline slides down out of the frame; the girl's eyes stay open wide over the falling world, and the mother's gaze locks upward on the moon; chimney sparks wheel slowly around them and the yard tilts away beneath, the camera rising with the three faces held large and close"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "woodcutter",
+    "yard"
+   ],
+   "beat": "마당의 나무꾼과 하늘의 세 점 흰 빛",
+   "visual": "the yard from the woodcutter's height, the night enormous: he stands beneath the eave with both arms reached full length into the empty air, head thrown back, the cotton head-cloth fallen behind him, his open face broken wide with a cry the frame cannot hear; high above the thatched roofline, far past the persimmon branches, three small white points of light climb the star field in a drifting line, already no bigger than petals, a thin thread of shining mist unraveling behind them; the toppled water pail rolls a dark arc at his feet, the papered door stands open spilling forgotten lamplight across the maru, the jars on the jangdokdae hold their moonlit shoulders utterly still; the whole yard, the mountains folded blue behind it and the vast sifted sky above are arranged around the one reaching man and the three departing lights he cannot follow",
+   "motion": "the three white points climb the star field in one slow drifting line, their mist thread stretching and thinning, while the woodcutter's reached arms strain higher and then sink by degrees to his sides, his thrown-back head bowing forward until his chin meets his chest; the toppled pail rocks itself still at his feet, and the camera pulls slowly up and away from the small standing man as the lights go out among the stars"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "yard"
+   ],
+   "beat": "새벽 안개가 내린 빈 마당",
+   "visual": "the yard at first light, empty of every figure: pale dawn mist lies waist-deep across the swept ground, softening the stone wall and the bamboo gate, beading the dark jars of the jangdokdae; the persimmon tree drips slow silver from its leaves, the papered door of the cottage stands ajar on a dark and silent room, and the woodcutter's cotton head-cloth lies where it fell near the toppled pail, grey with dew; over the thatched roofline the last star dissolves in a sky going rose and pearl above the folded blue mountains; the mist stirs in one place near the maru as if something warm had passed, then smooths; the whole frame is quiet, tender and unresolved — a house with its door open, a sky with its door shut — and the light goes on rising because it always does",
+   "motion": "almost nothing: the dawn mist drifts in slow waist-deep banks across the yard, thinning at the stone wall, one persimmon leaf letting go a bright bead that rings on a jar shoulder, the fallen head-cloth darkening slowly with dew; the ajar door and the empty maru hold still, the last star melts into the rose sky, and the camera keeps one long motionless frame while the light rises by a single slow degree"
+  }
+ ],
+ "withheld": "사슴의 당부를 어긴 대가와 두레박, 그 뒤의 이야기"
+}
