@@ -50,7 +50,10 @@
    ],
    "beat": "방 안 — 아기가 울고 엄마가 달랜다",
    "visual": "inside the small papered room in full warm lamplight: the young mother kneels on the quilted floor rocking the swaddled baby against her shoulder, the baby's small red crying face crumpled and shining over the wrap, tiny fists escaped and waving; her braided bun is loosening at the end of a long night, her shadow swaying huge and soft on the low papered wall behind her; folded quilts, the small lacquered chest and the shut papered door panels stand homely around the lamp's circle, steam curling from a bowl of barley water set by her knee; every line of the room is warmth and weariness — and on the outer edge of the papered wall, faint as a watermark, lies the long horned shadow of the winter night pressing in from outside",
-   "motion": "the mother rocks the crying bundle in a steady side-to-side rhythm, patting the swaddle in time, her loosened braid swinging softly and her huge wall-shadow swaying with her; the baby's little fists wave and its crumpled face works through the cry, the lamp flame nodding at each pass; the steam thread from the bowl curls and re-forms, the closed door panels hold still, and the camera drifts slowly around the rocking pair at floor height"
+   "motion": "the mother rocks the crying bundle in a steady side-to-side rhythm, patting the swaddle in time, her loosened braid swinging softly and her huge wall-shadow swaying with her; the baby's little fists wave and its crumpled face works through the cry, the lamp flame nodding at each pass; the steam thread from the bowl curls and re-forms, the closed door panels hold still, and the camera drifts slowly around the rocking pair at floor height",
+   "refs": [
+    "mother_baby"
+   ]
   },
   {
    "n": 5,
@@ -71,7 +74,10 @@
    ],
    "beat": "'곶감이다' 한마디에 울음이 뚝 그친다",
    "visual": "the byre in ringing sudden silence: the tiger stands frozen mid-step in the moonlight slab, one forepaw lifted, whole body a held breath — the wailing has stopped dead on a single word from beyond the wall; both ears are aimed at the papered glow like drawn bows, golden eyes enormous, pupils shrunk to points, whiskers trembling with attention; above the byre mouth, under the cottage eave, hangs the string of dried persimmons the word named — wrinkled amber-orange discs dusted with white bloom on their straw cord, swaying very slightly, moon-touched — and the composition draws one clean line from the tiger's stunned stare past the silent amber wall up to those innocent hanging discs; the night behind is huge, still and blue",
-   "motion": "the lifted forepaw hangs unfinished in the air while both ears strain harder toward the wall, pupils shrinking to points in the wide golden eyes; the silence itself seems to press the tiger slowly lower, its lifted paw easing down without a sound, its head turning by degrees up toward the hanging string of persimmons swaying gently on their cord under the eave; and the camera climbs slowly along the tiger's stare to the swaying discs"
+   "motion": "the lifted forepaw hangs unfinished in the air while both ears strain harder toward the wall, pupils shrinking to points in the wide golden eyes; the silence itself seems to press the tiger slowly lower, its lifted paw easing down without a sound, its head turning by degrees up toward the hanging string of persimmons swaying gently on their cord under the eave; and the camera climbs slowly along the tiger's stare to the swaying discs",
+   "refs": [
+    "tiger"
+   ]
   },
   {
    "n": 7,
@@ -91,8 +97,11 @@
     "barn"
    ],
    "beat": "소도둑이 떨고 있는 호랑이 곁으로 숨어든다",
-   "visual": "the byre mouth with two intruders now: the thief slips in over the straw with quick bow-legged steps, felt cap low, cloth over nose and mouth, the coiled empty rope halter swinging from one hand, his darting eyes still dazzled from the moon glare outside; a step away in the black corner the tiger stays pressed flat in its terror, striped bulk reading as nothing more than a big warm shadow in the dark; the thief's free hand is already reaching out through the blackness toward that shadow, palm open, feeling for the flank of the fat ox he came for; between the reaching fingers and the trembling striped coat the byre holds one comic breath of distance, moonlight slab behind them, manger above, and neither creature knowing what the other is",
-   "motion": "the thief's open palm gropes forward through the dark in one slow reaching sweep until it settles on the tiger's warm striped flank and gives it two approving pats, under the pats the tiger's coat shivers in little waves and its rolled eyes go even wider in the shadow, its whole body stiffening board-flat; the rope halter sways from the thief's other hand, and the camera holds tight on the patting hand and the trembling stripes"
+   "visual": "the byre mouth with two intruders now: the thief slips in over the straw with quick bow-legged steps, felt cap low, cloth over nose and mouth, the coiled empty rope halter swinging from one hand, his darting eyes still dazzled from the moon glare outside; a step away in the black corner the tiger stays pressed flat in its terror, striped bulk reading as nothing more than a big warm shadow in the dark; the thief, his whole figure in view from cap to sandals, edges a step closer with his open palm settling toward the warm striped flank he takes for the animal he came to steal; between the reaching fingers and the trembling striped coat the byre holds one comic breath of distance, moonlight slab behind them, manger above, and neither creature knowing what the other is",
+   "motion": "the thief's open palm gropes forward through the dark in one slow reaching sweep until it settles on the tiger's warm striped flank and gives it two approving pats, under the pats the tiger's coat shivers in little waves and its rolled eyes go even wider in the shadow, its whole body stiffening board-flat; the rope halter sways from the thief's other hand, and the camera holds tight on the patting hand and the trembling stripes",
+   "refs": [
+    "tiger"
+   ]
   },
   {
    "n": 9,
@@ -103,7 +112,10 @@
    ],
    "beat": "도둑이 호랑이를 살진 소로 알고 등에 올라탄다",
    "visual": "the mounting, caught at its silliest instant: the thief has swung one leg over the tiger's back and settles astride the striped coat, halter rope thrown loose around the great neck, his masked face smug with the easy catch of so plump an ox; beneath him the tiger stands bolt upright on all fours, every leg rigid as a house post, back sagging under the man's weight, ears pinned, golden eyes stretched to their absolute widest with the pupils tiny — the face of a beast that believes the gotgam itself has just seized it by the back; straw scatters around the planted paws, the moon slab lights the pair like a stage, and the manger, the tools and the hanging straw wisps look on from the shadows at the mountain's terror saddled by a cattle thief",
-   "motion": "the thief settles his seat and flicks the loose halter once like a man starting a placid ox, heels giving a lazy nudge; under him the tiger's rigid legs begin to shudder from paw to shoulder, the shudder climbing its body in visible waves until the whole striped frame is vibrating like a struck post, the man's smug posture and the beast's mounting terror hold together one long beat, and the camera circles them slowly at knee height"
+   "motion": "the thief settles his seat and flicks the loose halter once like a man starting a placid ox, heels giving a lazy nudge; under him the tiger's rigid legs begin to shudder from paw to shoulder, the shudder climbing its body in visible waves until the whole striped frame is vibrating like a struck post, the man's smug posture and the beast's mounting terror hold together one long beat, and the camera circles them slowly at knee height",
+   "refs": [
+    "tiger"
+   ]
   },
   {
    "n": 10,
@@ -115,7 +127,10 @@
    ],
    "beat": "호랑이가 마당을 박차고 내달린다",
    "visual": "the yard exploding into motion: the tiger bursts from the byre mouth in a flat-out terror gallop, body stretched long and low over the snow, paws hurling white sprays at every reach, ears pinned flat and golden eyes white-rimmed, the thief flattened along its back with the halter rope wrenched in both fists, his felt cap torn back off his head by the wind of it and hanging by its string, mask cloth ballooning off his yell; behind them the byre, the glowing window and the snow-capped jars streak with speed lines of snow-dust, the low stone wall races up ahead, and the bare persimmon tree flings past at the frame's edge; every line in the picture runs the same direction, and the little yard has never held this much velocity in its life",
-   "motion": "the tiger's gallop stretches and gathers in huge terrified bounds, snow spraying wide at each reach while the yard streaks past behind; on its back the thief bounces and jolts with every bound, both fists wrenched into the halter rope, the stone wall races up and the tiger rises over it in one long flat leap with the man flattening into the striped back, and the camera whips sideways to follow them over"
+   "motion": "the tiger's gallop stretches and gathers in huge terrified bounds, snow spraying wide at each reach while the yard streaks past behind; on its back the thief bounces and jolts with every bound, both fists wrenched into the halter rope, the stone wall races up and the tiger rises over it in one long flat leap with the man flattening into the striped back, and the camera whips sideways to follow them over",
+   "refs": [
+    "tiger"
+   ]
   },
   {
    "n": 11,

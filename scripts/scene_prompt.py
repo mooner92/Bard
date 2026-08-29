@@ -116,12 +116,17 @@ def from_treatment(tre: dict, index: int, v3: bool = False) -> str:
         book = {**personas(), **(tre.get("personas") or {})}
         assets = load_assets(tre.get("assets_dir", ""))
         who = []
+        # 어떤 인물을 참조로 보낼지는 박자의 refs 가 정한다. 없으면 인물 전원.
+        # 실측: 2인 참조는 확률적으로 한 명이 탈락한다(5컷 중 2컷 — 도둑이
+        # 넥타이 차림 현대인으로) — 연약한 정체성은 참조 1장 + 텍스트가 안전.
+        ref_set = set(beat.get("refs") or
+                      [k for k in cast if (assets.get(k) or {}).get("kind") == "인물"])
         people_ref = False
         for key in cast:
             a = assets.get(key)
             if a:
-                if v3 and a.get("kind") == "인물":
-                    # 인물은 캐릭터 시트(참조 이미지)가 진다 — 글에서는 뺀다(§9)
+                if v3 and a.get("kind") == "인물" and key in ref_set:
+                    # 참조로 가는 인물만 글에서 뺀다(§9)
                     people_ref = True
                     continue
                 cap = KIND_CAP.get(a.get("kind", ""), 250)
@@ -140,9 +145,11 @@ def from_treatment(tre: dict, index: int, v3: bool = False) -> str:
                 who.append(_fit(d.split(", "), 340))
         parts = [shot, *who, (tre.get("palette") or "").strip()]
         if v3 and people_ref:
-            parts.insert(1, "the characters keep exactly the appearance of the people "
-                            "shown in the reference images — same face, same fur or "
-                            "clothes, same colours")
+            # 실측: 근접 컷에서 시트의 크림색 무지 배경이 장면을 밀어냈다 —
+            # 배경 우선 절을 앞세워 참조에서는 인물 생김새만 가져오게 한다.
+            parts.insert(1, "repaint the entire background and setting exactly as "
+                            "described in this prompt — take from the reference images "
+                            "only the characters' appearance, never their plain background")
     else:
         # 사람이 없어야 할 컷에까지 앵커를 붙이면 모델이 사람을 밀어 넣는다
         # (실측: "텅 빈 갑판"에 선원이 서 있었다). 그런 박자는 anchor: false 로 끈다.
@@ -211,9 +218,13 @@ def main():
         beats = tre.get("beats") or []
         out = []
         if 1 <= a.index <= len(beats):
-            for key in beats[a.index - 1].get("cast") or []:
+            beat = beats[a.index - 1]
+            ref_set = set(beat.get("refs") or
+                          [k for k in (beat.get("cast") or [])
+                           if (assets.get(k) or {}).get("kind") == "인물"])
+            for key in beat.get("cast") or []:
                 aa = assets.get(key)
-                if aa and aa.get("kind") == "인물":
+                if aa and aa.get("kind") == "인물" and key in ref_set:
                     f = Path(a.sheets) / f"{key}_00001_.png"
                     if f.exists():
                         out += ["--ref", str(f)]
