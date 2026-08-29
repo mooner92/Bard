@@ -143,7 +143,11 @@ while grace_ok; do
   # (실측: 상록수가 새 낭독 + 8월 20일 폐기본 그림으로 2분 만에 "완성"됐다).
   # 낭독이 키프레임보다 새것이면 옛 산출물을 지우고 처음부터 만든다.
   newest_kf=$(ls -t "output/${work}_kf"/night_s*.png 2>/dev/null | head -1)
-  if [ -n "$newest_kf" ] && [ "output/$work/narration_night.json" -nt "$newest_kf" ]; then
+  # 원고는 narration 만이 아니다 — treatment(배역·박자·프롬프트)를 고쳐도
+  # 키프레임은 낡는다(실측: 침대 컷을 고쳐 재큐잉했더니 1분 만에 옛 클립을
+  # 그대로 재조립해 결함째 재발행했다). 둘 중 무엇이든 키프레임보다 새로우면 굽는다.
+  hand_tre="works/handwritten/$work/treatment.json"
+  if [ -n "$newest_kf" ] && { [ "output/$work/narration_night.json" -nt "$newest_kf" ]        || { [ -f "$hand_tre" ] && [ "$hand_tre" -nt "$newest_kf" ]; }; }; then
     say "  원고가 그림보다 새것 — 옛 산출물을 버리고 다시 만든다"
     rm -f "output/${work}_kf"/*.png "output/${work}_i2v"/*.mp4 \
           output/tts/"${work}"_night_s*.wav "output/$work/final_night.mp4"
