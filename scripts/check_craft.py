@@ -61,10 +61,11 @@ def check(work: str) -> list:
     #
     # 박자에 한 번도 안 나오는 낱말은 그릴 사물이 아니라 색·질감이므로 넘어간다
     # (hanji, bleached, storm grey…). 이 구분이 목록을 관리하는 것보다 정확했다.
+    k = max(4, round(len(beats) * 5 / 14))   # 컷 수가 늘면 경계도 비례
     reveal = " ".join((b.get("visual", "") + " " + b.get("motion", ""))
-                      for b in beats[5:]).lower()
+                      for b in beats[k:]).lower()
     early = " ".join((b.get("visual", "") + " " + b.get("motion", ""))
-                     for b in beats[:5]).lower()
+                     for b in beats[:k]).lower()
     for w in re.findall(r"[a-z]{4,}", T.get("palette", "").lower()):
         stem = w.rstrip("s")
         if stem in COLOUR:

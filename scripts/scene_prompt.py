@@ -87,7 +87,7 @@ def load_assets(d) -> dict:
     return out
 
 
-def from_treatment(tre: dict, index: int) -> str:
+def from_treatment(tre: dict, index: int, v3: bool = False) -> str:
     """트리트먼트가 있으면 그 박자의 영어 묘사를 쓴다.
 
     장면마다 모델에게 새로 묘사를 시키면 인물 생김새와 빛이 매번 달라진다(실측:
@@ -116,9 +116,14 @@ def from_treatment(tre: dict, index: int) -> str:
         book = {**personas(), **(tre.get("personas") or {})}
         assets = load_assets(tre.get("assets_dir", ""))
         who = []
+        people_ref = False
         for key in cast:
             a = assets.get(key)
             if a:
+                if v3 and a.get("kind") == "인물":
+                    # 인물은 캐릭터 시트(참조 이미지)가 진다 — 글에서는 뺀다(§9)
+                    people_ref = True
+                    continue
                 cap = KIND_CAP.get(a.get("kind", ""), 250)
                 spec = (a.get("spec") or "").strip().rstrip(".")
                 det = _fit((a.get("detail") or "").split(", "), max(cap - len(spec) - 2, 0))
@@ -134,6 +139,10 @@ def from_treatment(tre: dict, index: int) -> str:
                 # 배역의 첫 340자에 실루엣·복색 핵심을 몰아 쓰는 이유.
                 who.append(_fit(d.split(", "), 340))
         parts = [shot, *who, (tre.get("palette") or "").strip()]
+        if v3 and people_ref:
+            parts.insert(1, "the characters keep exactly the appearance of the people "
+                            "shown in the reference images — same face, same fur or "
+                            "clothes, same colours")
     else:
         # 사람이 없어야 할 컷에까지 앵커를 붙이면 모델이 사람을 밀어 넣는다
         # (실측: "텅 빈 갑판"에 선원이 서 있었다). 그런 박자는 anchor: false 로 끈다.
@@ -190,7 +199,26 @@ def main():
                    help="장면 묘사 대신 그 박자의 움직임 지시를 낸다 (I2V 용)")
     p.add_argument("--context", default="", help="작품 세계 한 줄 (선택)")
     p.add_argument("--treatment", default="", help="이야기 줄기 JSON (있으면 우선)")
+    p.add_argument("--v3", action="store_true",
+                   help="인물은 참조 이미지가 진다 — 글에서 인물 묘사를 뺀다(§9)")
+    p.add_argument("--list-refs", action="store_true",
+                   help="그 박자 cast 의 인물 시트 경로를 --ref 인자 형태로 낸다")
+    p.add_argument("--sheets", default="", help="--list-refs 용 시트 폴더")
     a = p.parse_args()
+    if a.list_refs:
+        tre = json.loads(Path(a.treatment).read_text(encoding="utf-8"))
+        assets = load_assets(tre.get("assets_dir", ""))
+        beats = tre.get("beats") or []
+        out = []
+        if 1 <= a.index <= len(beats):
+            for key in beats[a.index - 1].get("cast") or []:
+                aa = assets.get(key)
+                if aa and aa.get("kind") == "인물":
+                    f = Path(a.sheets) / f"{key}_00001_.png"
+                    if f.exists():
+                        out += ["--ref", str(f)]
+        print(" ".join(out))
+        return
     if a.motion:
         tre = (json.loads(Path(a.treatment).read_text(encoding="utf-8"))
                if a.treatment and Path(a.treatment).exists() else {})
@@ -203,7 +231,8 @@ def main():
         sys.exit(f"index 범위 초과: {a.index}")
     scene = ""
     if a.treatment and Path(a.treatment).exists():
-        scene = from_treatment(json.loads(Path(a.treatment).read_text(encoding="utf-8")), a.index)
+        scene = from_treatment(json.loads(Path(a.treatment).read_text(encoding="utf-8")),
+                               a.index, v3=a.v3)
     if not scene:
         scene = to_scene(sents[a.index - 1], a.context)
     if not scene:

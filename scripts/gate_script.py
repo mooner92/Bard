@@ -71,7 +71,7 @@ def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:
     # 8문장 고정에서 가변 조각으로 바뀌었다. 한 문장을 여러 컷에 나눠 실으면
     # 조각 수가 곧 컷 수가 된다 — 3~6초짜리 컷 12~14개를 겨눈다.
     if not 8 <= len(sents) <= 16 or not all(s.strip() for s in sents):
-        return [f"조각 {len([s for s in sents if s.strip()])}개 (8~16)"]
+        return [f"조각 {len([s for s in sents if s.strip()])}개 (8~20)"]
 
     for i, m in leak_issues(sents):
         bad.append(f"S{i+1} {m.split('—')[0].strip()}")

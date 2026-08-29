@@ -314,6 +314,18 @@ print(f'{d:.1f} {max(20,min(t-1,36))} 38')   # 모델이 범위 아래쪽으로 
   done
   [ "$(ls output/tts/${work}_night_s*.wav 2>/dev/null | wc -l)" -eq "$N" ] || { sleep 30; continue; }
 
+  # ── ②.7 캐릭터 시트 (v3 참조 체인, 작법 §9) ──
+  # 인물 자산마다 시트 1장을 먼저 굽고, 키프레임은 시트를 참조로 물려
+  # Edit-2509 가 정체성을 픽셀로 이어받는다. 글에는 구도·행동·빛만 남는다.
+  PIPE=""; [ -s "$TRE" ] && PIPE=$(python3 -c "import json;print(json.load(open('$TRE')).get('pipeline',''))" 2>/dev/null)
+  V3ARG=""
+  if [ "$PIPE" = "v3" ]; then
+    V3ARG="--v3"
+    venv/bin/python scripts/make_sheets.py --treatment "$TRE" --style "$style" \
+      --out "output/${work}_sheets" >>"$LOG" 2>&1 \
+      || { say "  ②.7 캐릭터 시트 실패"; sleep 30; continue; }
+  fi
+
   # ── ③ 키프레임 ──
   for i in $(seq 1 "$N"); do
     grace_ok || break
@@ -321,7 +333,10 @@ print(f'{d:.1f} {max(20,min(t-1,36))} 38')   # 모델이 범위 아래쪽으로 
     # 그림 프롬프트는 **영어로만** 만든다. 한글을 넣으면 Qwen-Image 가 그 글자를
     # 그림 안에 써 넣는다(실측: 화면 상단에 뭉개진 한글 자막).
     desc=$(venv/bin/python scripts/scene_prompt.py --narration "$NAR" --index "$i" \
-             --context "$ctx" $TRE_ARG 2>>"$LOG")
+             --context "$ctx" $TRE_ARG $V3ARG 2>>"$LOG")
+    REFS=""
+    [ "$PIPE" = "v3" ] && REFS=$(venv/bin/python scripts/scene_prompt.py --index "$i" $TRE_ARG \
+        --list-refs --sheets "output/${work}_sheets" 2>>"$LOG")
     # 무엇이 들어갔는지 남긴다. 남기지 않으면 이상한 그림이 나와도 원인을 재구성해야
     # 한다(실측: 모비딕에서 앵커가 모든 장면에 갑판을 밀어 넣은 것을 뒤늦게 찾았다).
     venv/bin/python -c "
@@ -331,7 +346,7 @@ d = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
 d[sys.argv[1]] = {'image': sys.argv[2], 'motion': ''}
 f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
 " "$i" "${style}${desc}" 2>/dev/null
-    venv/bin/python scripts/gen_keyframe.py --seed $((200+i)) \
+    venv/bin/python scripts/gen_keyframe.py --seed $((200+i)) $REFS \
       --prefix "${work}_kf/night_s${i}" --prompt "${style}${desc}" --negative "$NEG" >>"$LOG" 2>&1 \
       || say "  ③ s${i} 키프레임 실패"
   done

@@ -10,12 +10,13 @@ GPU 배분: unet은 cuda:0, 텍스트 인코더는 cuda:1 (MultiGPU 로더).
 사용:
   python gen_keyframe.py --prompt "..." --prefix "mobydick_kf/s1" [--seed 7]
 """
-import argparse, json, sys, time, urllib.error, urllib.request, uuid
+import argparse, json, os, shutil, sys, time, urllib.error, urllib.request, uuid
 
 SERVER = "127.0.0.1:8188"
 
 
 def build(prompt, negative, width, height, steps, cfg, shift, seed, prefix):
+    """기본 그래프(순수 t2i). 참조가 있으면 with_refs 가 Edit-2509 로 바꾼다."""
     return {
         "1": {"class_type": "UnetLoaderGGUFMultiGPU",
               "inputs": {"unet_name": "qwen-image-Q4_K_M.gguf", "device": "cuda:0"}},
@@ -63,6 +64,25 @@ def run(graph):
     raise TimeoutError
 
 
+def with_refs(g, refs, prompt):
+    """정체성을 글이 아니라 픽셀로 전달한다(작법 §9).
+
+    캐릭터 시트를 참조로 물리면 시트의 인물이 그대로 새 구도에 들어가므로,
+    프롬프트에는 구도·행동·빛만 남는다. 340자 인물 묘사가 토큰 0이 된다."""
+    g["1"]["inputs"]["unet_name"] = "qwen-image-edit-2509-Q4_K_M.gguf"
+    pos = {"class_type": "TextEncodeQwenImageEditPlus",
+           "inputs": {"clip": ["3", 0], "prompt": prompt, "vae": ["8", 0]}}
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        "..", "ComfyUI", "input")
+    for j, r in enumerate(refs[:3]):
+        name = os.path.basename(r)
+        shutil.copy(r, os.path.join(root, name))
+        g[str(20 + j)] = {"class_type": "LoadImage", "inputs": {"image": name}}
+        pos["inputs"][f"image{j + 1}"] = [str(20 + j), 0]
+    g["4"] = pos
+    return g
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--prompt", required=True)
@@ -75,9 +95,13 @@ def main():
     p.add_argument("--shift", type=float, default=3.1)
     p.add_argument("--seed", type=int, default=7)
     p.add_argument("--prefix", default="keyframes/kf")
+    p.add_argument("--ref", action="append", default=[],
+                   help="참조 이미지(캐릭터 시트) 경로, 최대 3장")
     a = p.parse_args()
     g = build(a.prompt, a.negative, a.width, a.height, a.steps, a.cfg, a.shift,
               a.seed, a.prefix)
+    if a.ref:
+        g = with_refs(g, a.ref, a.prompt)
     el, entry = run(g)
     st = entry.get("status", {})
     if st.get("status_str") == "error":
