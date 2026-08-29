@@ -1,2 +1,2 @@
-ppalgan_moja	facts/auto_ppalgan_moja.txt	동화 빨간 모자에서 만날 수 있습니다	German storybook illustration: deep forest green, warm scarlet, pale gold, soft umber, fine ink linework. 	서늘
 seonnyeo_namukkun	facts/auto_seonnyeo_namukkun.txt	전래설화 선녀와 나무꾼에서 만날 수 있습니다	Korean minhwa folk-painting style: deep pine green, moon silver white, soft indigo, warm amber, soft flat washes. 	담담
+geumdokki	facts/auto_geumdokki.txt	전래동화 금도끼 은도끼에서 만날 수 있습니다	Korean minhwa folk-painting style: deep pine green, misty white, warm gold, iron grey, soft flat washes. 	담담
