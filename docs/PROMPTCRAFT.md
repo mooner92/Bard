@@ -219,6 +219,24 @@ straight ahead 를 시각·움직임 양쪽에 적는다.
 방 안에 숲이 자랐다). cottage/room 처럼 두 배역으로 나눠 컷마다 맞는 쪽을
 cast 에 넣는다.
 
+**중요 소품에는 규격 문장을 준다.** 배역만 사전에 두고 소품을 컷마다 다르게
+부르면 형태가 매번 달라진다(실측: 금도끼가 자루 긴 미늘창이 되었다 — 'a
+golden axe, broad and mirror-bright' 에는 자루 길이가 없다). 반복 등장
+소품은 배역처럼 한 문장 규격을 정하고 **모든 컷에 같은 말로** 넣는다:
+"a Korean woodcutter's axe of solid gold, its short thick wooden haft no
+longer than a forearm and its head a broad heavy wedge".
+
+**들어 보이는 동작은 '이미 들려 정지'로 적는다.** arc·turning·sweeping·
+wheeling 같은 궤적어는 궤적을 그리라는 지시로 읽힌다(실측: 신령이 도끼를
+머리 위로 휘둘렀다 — 원문은 'lifts in one slow steady arc… holds it there
+turning slightly'). 보여 주는 물건은 already raised, stays completely
+motionless … for the whole shot 으로 못박고, 그 컷에서 움직이는 것은
+사람뿐임을 한 절로 밝힌다(only the man moves).
+
+**빛의 비유어도 사물을 소환한다.** moonish·sunlit 같은 말은 그 천체를
+화면에 불러온다(실측: 한낮 컷에 초승달이 떴다 — 'a pale moonish sheen').
+빛은 비유 대신 성질로 적는다 — a pale cold sheen like winter light.
+
 **자리 못박기.** '침대 속 A 와 곁에 선 B' 구도는 뒤집힌다(실측: 이불 속에
 소녀가 눕고 늑대가 곁에 앉았다). 구도의 첫 절에서 두 인물의 자리를 각각
 못박고(A is the one lying inside the bed / B stands on the floor), 이불·모자
