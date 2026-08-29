@@ -101,3 +101,7 @@
 2026-08-28T19:24:48	haewa_dal	facts/auto_haewa_dal.txt	설화 해와 달이 된 오누이에서 만날 수 있습니다	Korean minhwa folk-painting style: deep indigo, pale silver, hanji cream, soft flat washes. 	서늘	67s
 2026-08-29T00:05:25	ppalgan_moja	facts/auto_ppalgan_moja.txt	동화 빨간 모자에서 만날 수 있습니다	German storybook illustration: deep forest green, warm scarlet, pale gold, soft umber, fine ink linework. 	서늘	65s
 2026-08-29T04:11:33	miun_ori	facts/auto_miun_ori.txt	동화 미운 오리 새끼에서 만날 수 있습니다	Danish storybook illustration: reed green, pale gold, soft ash grey, warm blush pink, fine ink linework. 	담담	67s
+2026-08-29T09:07:45	geumdokki	facts/auto_geumdokki.txt	전래동화 금도끼 은도끼에서 만날 수 있습니다	Korean minhwa folk-painting style: deep pine green, misty white, warm gold, iron grey, soft flat washes. 	담담	68s
+2026-08-29T09:08:58	ppalgan_moja	facts/auto_ppalgan_moja.txt	동화 빨간 모자에서 만날 수 있습니다	German storybook illustration: deep forest green, warm scarlet, pale gold, soft umber, fine ink linework. 	서늘	65s
+2026-08-29T09:10:10	miun_ori	facts/auto_miun_ori.txt	동화 미운 오리 새끼에서 만날 수 있습니다	Danish storybook illustration: reed green, pale gold, soft ash grey, warm blush pink, fine ink linework. 	담담	67s
+2026-08-29T10:35:21	ppalgan_moja	facts/auto_ppalgan_moja.txt	동화 빨간 모자에서 만날 수 있습니다	German storybook illustration: deep forest green, warm scarlet, pale gold, soft umber, fine ink linework. 	서늘	65s

@@ -12,7 +12,7 @@
    "desc": "a village girl of about seven wearing, always, a close-fitting cap of deep red velvet with a short rounded hood-flap, sewn by her grandmother; honey-brown hair in two short braids, round soft cheeks, wide hazel eyes under fair brows; white linen blouse with gathered sleeves, madder-red laced bodice, ankle-length grey-brown wool skirt, small linen apron, wool stockings and black strap shoes; on her left arm a woven wicker basket, a folded white cloth covering a seed cake and a corked green glass bottle of wine; she walks with a light half-skipping step, tilts her whole head to one side when she listens, and grips the basket with both hands in front of her apron whenever the world turns strange"
   },
   "wolf": {
-   "desc": "a big timber wolf standing tall enough that his back reaches the girl's shoulder, rangy and long-legged; coarse pelt of iron grey washed with rusty brown along the spine and saddle, paler ash-grey at chest and belly, a line of black guard hairs down the ridge of his back; a thick brushy tail usually carried low, big splayed paws with dark claws, tall mobile ears that swivel toward every sound; a long muzzle with black lips resting in a loose sly grin over a thin rim of white teeth, and pale amber eyes with round black pupils that hold very still while the rest of him keeps moving; he moves at a soft padded walk with shoulders rolling under the pelt and head slung level with his spine, and when he wants something he sits back on his haunches, sweeps his tail slowly, dips his head in small courteous bows and lets his voice go warm, playing the part of a well-mannered stranger"
+   "desc": "a big timber wolf, rangy and long-legged, his back as high as the girl's shoulder; coarse pelt of iron grey washed with rusty brown along the spine and saddle, paler ash-grey at chest and belly, a line of black guard hairs down the ridge of his back; a thick brushy tail usually carried low, big splayed paws with dark claws, tall mobile ears that swivel toward every sound; a long muzzle with black lips resting in a loose sly grin over a thin rim of white teeth, and pale amber eyes with round black pupils that hold very still while the rest of him keeps moving; he moves at a soft padded walk with shoulders rolling under the pelt and head slung level with his spine, and when he wants something he sits back on his haunches, sweeps his tail slowly, dips his head in small courteous bows and lets his voice go warm, playing the part of a well-mannered stranger"
   },
   "mother": {
    "desc": "a village woman in her thirties with honey-brown hair pinned back in a low knot under a plain white linen kerchief tied at her nape, a work-worn face with kind creases at the corners of her eyes; she wears a plain blue wool skirt, a grey laced bodice over a white blouse with the sleeves rolled to the elbow, and a wide kitchen apron dusted with flour; her hands are strong and reddened from the oven, and she has a habit of pressing whatever she gives into the receiver's hands with both of her own, holding on a moment before she lets go"
@@ -22,6 +22,9 @@
   },
   "forest": {
    "desc": "an old beech and oak forest at mid-morning, high closed canopy with slanted shafts of sun breaking through onto a soft dirt path stitched with roots; drifts of fern and wood sorrel, mossed boulders shouldering the path, layered blue-green shadow in every distance; a little way off the track a sunlit glade opens under a gap in the leaves, deep in drifts of bluebells, white wood anemones and yellow archangel, butterflies hanging in the bright column of light; the air cool, still and very quiet"
+  },
+  "room": {
+   "desc": "the single dim room inside the cottage, four walls and a plank floor with the forest entirely outside: a box bed with turned posts against the wall under a feather quilt in a faded floral cover, a spinning wheel beside the cold hearth, dried herbs hanging from the beam, a shut wardrobe, a green glass jar on the sill, one milky window letting a single soft slab of light across the scrubbed floorboards, a plank door in its frame"
   }
  },
  "beats": [
@@ -32,7 +35,7 @@
     "mother"
    ],
    "beat": "빨간 모자 소녀가 어머니에게서 바구니를 받는다",
-   "visual": "inside a low half-timbered village kitchen in morning light, smoke-darkened beams overhead hung with drying sage and strings of onions, a clay bread oven glowing warm orange at the back wall, pewter plates on a shelf, a scrubbed pine table dusted with flour; at the center the village mother in her plain blue wool skirt, grey bodice, rolled linen sleeves and wide flour-dusted apron bends toward her small daughter, pressing the handle of a wicker basket into the girl's arms with both work-worn hands; the girl wears her close-fitting cap of deep red velvet, honey-brown braids tied with thread, white linen blouse, madder-red laced bodice and small apron, and looks up at her mother with wide hazel eyes; under the basket's folded white cloth sit a seed cake and a corked green glass bottle of wine; low morning sun through the small window lays one warm band of light across both figures and the floury table between them",
+   "visual": "inside a low half-timbered village kitchen in morning light, smoke-darkened beams overhead hung with drying sage and strings of onions, a clay bread oven glowing warm orange at the back wall, pewter plates on a shelf, a scrubbed pine table dusted with flour; at the center the village mother in her plain blue wool skirt, grey bodice, rolled linen sleeves and wide flour-dusted apron bends toward her small daughter, pressing the handle of a wicker basket into the girl's arms with both work-worn hands, the mother's head wrapped in a plain white linen kerchief knotted at the nape while the only red cap in the kitchen sits on the girl's head; the girl wears her close-fitting cap of deep red velvet, honey-brown braids tied with thread, white linen blouse, madder-red laced bodice and small apron, and looks up at her mother with wide hazel eyes; under the basket's folded white cloth sit a seed cake and a corked green glass bottle of wine; low morning sun through the small window lays one warm band of light across both figures and the floury table between them",
    "motion": "the mother's two hands guide the basket handle down onto the girl's bent forearm in one slow careful transfer, the wicker creaking faintly as the weight settles, the folded cloth shifting a finger's width, the girl's small fingers curling around the rim until she holds it firm, the mother's thumbs smoothing the handle once before her hands withdraw; both figures otherwise stay in place, and the camera pushes in slowly at table height"
   },
   {
@@ -101,10 +104,10 @@
    "n": 8,
    "cast": [
     "wolf",
-    "cottage"
+    "room"
    ],
    "beat": "늑대가 잠옷 모자를 쓰고 이불 속에 숨는다",
-   "visual": "the cottage's single room in curtained half-light: a box bed with turned posts against the wall, its straw mattress deep under a feather quilt in a faded floral cover; on the pillow lies the wolf's long grey head wearing the grandmother's white ruffled nightcap, the frill shadowing his brow, the quilt drawn up to the line of his muzzle so only pale amber eyes and grey cheek fur show, both aimed at the door; his bulk rounds the quilt into one long hill, a grey forepaw resting over the hem; around the bed the room keeps its order — the spinning wheel beside the cold hearth, dried herbs hanging from the beam, the wardrobe shut tight, a green glass jar on the sill — and the milky window lets through a single soft slab of light that ends across the floorboards well short of the bed; the plank door stands a hand's width ajar",
+   "visual": "the single room in curtained half-light, the wolf himself the only living thing in it: he lies deep inside the box bed on the straw mattress under the feather quilt in its faded floral cover, and on the pillow his long grey head wears a white ruffled lace nightcap, the frill shadowing his brow, the quilt drawn up to the line of his muzzle so only pale amber eyes and grey cheek fur show, both aimed at the door; his bulk rounds the quilt into one long hill, a grey forepaw resting over the hem; around the bed the room keeps its order — the spinning wheel beside the cold hearth, dried herbs hanging from the beam, the wardrobe shut tight, a green glass jar on the sill — and the milky window lets through a single soft slab of light that ends across the floorboards well short of the bed; the plank door stands a hand's width ajar",
    "motion": "the wolf's forepaw draws the quilt hem upward in one slow continuous pull until the floral cover rides just beneath his eyes, the nightcap frill settling lower over his brow as his head burrows a little deeper into the pillow, his amber gaze pinned on the ajar door, dust motes turn in the single slab of window light, the herbs and the spinning wheel hold still, and the camera creeps forward at floor height toward the bedside"
   },
   {
@@ -121,7 +124,7 @@
    "n": 10,
    "cast": [
     "girl",
-    "cottage"
+    "room"
    ],
    "beat": "소녀가 열린 문 앞에서 멈칫한다",
    "visual": "from inside the dim single room, looking past the shadowed foot of the box bed toward the doorway: the plank door swung half open and the girl small and bright in the opening, backlit by the afternoon clearing so her red velvet cap burns at the top of her silhouette, bouquet in one arm, basket on the other, one strap shoe already on the worn threshold stone; the room between her and the camera lies in brown half-dark — floorboard grain, the cold hearth, the spinning wheel's rim catching a single thread of window light, herb bundles hanging like slow shadows from the beam; at the frame's edge the quilted hill of the occupied bed rises, the white nightcap frill just visible against the turned bedpost; the girl leans forward peering into the gloom, her eyes still full of the clearing's brightness, dust hanging in the doorway light around her shoulders",
@@ -132,10 +135,10 @@
    "cast": [
     "girl",
     "wolf",
-    "cottage"
+    "room"
    ],
    "beat": "침대 위 모자 밑으로 커다란 귀가 나와 있다",
-   "visual": "beside the box bed: the wolf lies inside the bed wearing the grandmother's white ruffled nightcap, his grey furred head deep in the pillow with the floral quilt drawn up to his muzzle, and his own two tall grey ears stand upright through the cap's frill, pink inner skin veined in the window light, utterly wrong above the small lace border; below the frill only the wolf's grey cheek fur and one of his half-lidded amber eyes show against the pillow; the girl stands upright on the floor at the bedside, her whole figure from red velvet cap to apron in the frame, leaning in with wide hazel eyes and lips parted on a question, the crushed bouquet held tight against her bodice; behind the two of them the wardrobe and the hanging herbs dissolve into brown shadow, and one thin thread of light draws the turned bedpost between the standing girl and the bedded wolf",
+   "visual": "beside the box bed: the wolf lies inside the bed wearing a white ruffled lace nightcap, his grey furred head deep in the pillow with the floral quilt drawn up to his muzzle, and his own two tall grey ears stand upright through the cap's frill, pink inner skin veined in the window light, utterly wrong above the small lace border; below the frill only the wolf's grey cheek fur and one of his half-lidded amber eyes show against the pillow; the girl stands upright on the floor at the bedside, her whole figure from red velvet cap to apron in the frame, leaning in with wide hazel eyes and lips parted on a question, the crushed bouquet held tight against her bodice; behind the two of them the wardrobe and the hanging herbs dissolve into brown shadow, and one thin thread of light draws the turned bedpost between the standing girl and the bedded wolf",
    "motion": "one of the wolf's tall grey ears rotates slowly toward the girl through the nightcap frill, its tip trembling with the small effort, while his visible amber eye slides sideways beneath its half-closed lid to follow her; the standing girl's arms tighten by degrees around the crushed bouquet, one bluebell nodding loose from the bunch, her breath moving a stray hair at her cheek; quilt, pillow and room hold still, and the camera creeps a hand's width closer to the bed"
   },
   {
@@ -143,7 +146,7 @@
    "cast": [
     "girl",
     "wolf",
-    "cottage"
+    "room"
    ],
    "beat": "모자 그늘 속 눈이 노랗게 빛난다",
    "visual": "closer at the bedside: the wolf lies in the box bed in the white nightcap with the quilt to his muzzle, and under the cap's frill the wolf's two amber eyes now stand fully open, round and huge, black pupils spread wide in the dim room, each carrying one bright milky window reflected in miniature; the grey fur around his eyes lies in fine combed rays, the lace border throwing thin curved shadows across his brow; the girl stands on the floor beside the bed leaning over him, her face in profile rimmed with window light, her hazel eye enormous, her red velvet cap a deep ember red in the gloom, her hands still clutching the bouquet at her chest; between the bedded wolf and the standing girl the quilt's floral pattern climbs like a printed hedge, and the rest of the room dissolves into soft brown darkness around their two lit faces",
@@ -153,7 +156,7 @@
    "n": 13,
    "cast": [
     "wolf",
-    "cottage"
+    "room"
    ],
    "beat": "이불 밖으로 커다란 입이 드러난다",
    "visual": "the wolf lying in the bed fills the frame: his long muzzle in near profile against the pillow, the white nightcap still on his head, the quilt hem slid low so his whole jaw shows — the wolf's black lips, his grey chin fur, and a rim of his white teeth bared in a wide gradual grin that runs far back toward his ear, farther than any grandmother's smile could reach; the nightcap frill rides high on his brow above one blazing amber eye, wet highlights on the teeth picking up the milky window, his breath stirring a downy feather that has escaped the quilt; the floral quilt below his jaw lies in deep folds like plowed ground, and the darkened room beyond holds the grinning bedded wolf in a single band of pale light",
