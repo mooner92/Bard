@@ -115,3 +115,4 @@
 2026-08-30T06:17:26	horangi_gotgam	facts/auto_horangi_gotgam.txt	전래동화 호랑이와 곶감에서 만날 수 있습니다	Korean minhwa folk-painting style: deep indigo, snow white, warm persimmon orange, lamplight amber, soft flat washes. 	생동	69s
 2026-08-30T07:29:24	horangi_gotgam	facts/auto_horangi_gotgam.txt	전래동화 호랑이와 곶감에서 만날 수 있습니다	Korean minhwa folk-painting style: deep indigo, snow white, warm persimmon orange, lamplight amber, soft flat washes. 	생동	69s
 2026-08-30T12:48:34	beuremen_eumakdae	facts/auto_beuremen_eumakdae.txt	동화 브레멘 음악대에서 만날 수 있습니다	German storybook illustration: road ochre, deep blue, deep green, warm amber, fine ink linework. 	생동	73s
+2026-08-30T13:53:43	beuremen_eumakdae	facts/auto_beuremen_eumakdae.txt	동화 브레멘 음악대에서 만날 수 있습니다	German storybook illustration: road ochre, deep blue, deep green, warm amber, fine ink linework. 	생동	73s
