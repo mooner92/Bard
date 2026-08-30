@@ -7,7 +7,7 @@
  "pipeline": "v3",
  "assets_dir": "works/handwritten/beuremen_eumakdae/assets",
  "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
- "palette": "road ochre, deep blue, deep green, warm amber, lamplight gold",
+ "palette": "road ochre, deep blue, deep green, warm amber, pale gold",
  "voice": "ko-KR-JiMinNeural",
  "personas": {},
  "beats": [
