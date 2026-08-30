@@ -12,7 +12,11 @@
   --ease: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
 }
 * { box-sizing: border-box; }
-html, body { margin: 0; }
+html, body {
+  /* 한국어는 기본값에서 글자 사이 어디서나 꺾여, 좁은 상자에서 한 글자씩
+     세로로 쌓인다(실측: 모바일 뷰). 낱말 단위로만 꺾는다. */
+  word-break: keep-all;
+  overflow-wrap: break-word; margin: 0; }
 /* 마스터 폰트: 조선100년체 하나로 전 화면을 통일한다(사용자 지정 — "비 오는
    날…" 미끼에 쓰인 그 폰트). 이 가족은 굵기가 하나라 제목의 굵음은 브라우저
    합성 볼드로 나온다. @font-face 선언이 body 보다 앞에 있어야 첫 화면부터 잡힌다. */
@@ -490,3 +494,17 @@ a { color: inherit; text-decoration: none; }
 /* ── 계절 추천 ── */
 .seasonchips { display: flex; gap: 6px; margin: -10px 0 22px; }
 .snote { font-size: 12.5px; color: var(--blue); line-height: 1.4; }
+
+
+/* ── 모바일: 캐러셀을 낮고 좁게, 라벨은 여백 축소 ── */
+@media (max-width: 560px) {
+  .cflow { height: min(48vh, 400px); }
+  .cell[data-off="1"]  { transform: translate(calc(-50% + 70%), -50%) rotateY(-14deg) scale(0.68); }
+  .cell[data-off="-1"] { transform: translate(calc(-50% - 70%), -50%) rotateY(14deg) scale(0.68); }
+  .cell[data-off="2"]  { transform: translate(calc(-50% + 116%), -50%) rotateY(-20deg) scale(0.5); }
+  .cell[data-off="-2"] { transform: translate(calc(-50% - 116%), -50%) rotateY(20deg) scale(0.5); }
+  .cflow .slabel { left: 14px; bottom: 14px; right: 60px; }
+  .cflow .slabel strong { font-size: 16px; }
+  .cflow .slabel small { font-size: 12px; }
+  .hblurb { font-size: 11.5px; margin-top: 3px; }
+}
