@@ -1,0 +1,187 @@
+{
+ "logline": "튤립에서 태어난 엄지만 한 소녀가 사계절을 건너 제 자리를 찾아가는 여정",
+ "destination": "동화 엄지공주에서 만날 수 있습니다",
+ "protagonist": "thumbelina",
+ "setting": "안데르센의 북유럽 — 오두막·시내·들판·땅속·남쪽 꽃나라",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/eomjigongju/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "leaf green, stream blue, pearl white, warm amber, petal pink",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [],
+   "refs": [],
+   "beat": "여인이 마녀에게서 보리씨 한 알을 받는다",
+   "visual": "a low cottage room in warm lamplight: a kindly middle-aged woman in a plain gown and white cap holds out her cupped hands, and into them a bent old witch in a hooded grey cloak lays one single barleycorn, small as a spark of gold between them; on the table sit a flowerpot of dark earth and a scatter of silver shillings paid for the seed; herbs hang from the beam, a cat-shaped shadow of the kettle sways on the wall, and both faces — one hopeful, one knowing — bend toward the one tiny seed as if it were a candle flame",
+   "motion": "the witch's crooked fingers lay the single barleycorn into the woman's cupped palms in one slow careful gift, and the woman's hands close around it by degrees like petals closing; lamplight sways once across the two bent faces, the herbs stir faintly overhead, and the camera pushes in gently on the cupped hands until the little seed fills the middle of the frame"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "thumbelina"
+   ],
+   "refs": [],
+   "beat": "보리씨에서 핀 튤립 꽃 속의 엄지만 한 소녀",
+   "visual": "the sunny cottage windowsill, close on the flowerpot: a great red-and-yellow tulip has sprung from the barleycorn and its petals stand just opened, and inside the cup of the flower, seated on the green heart of it as on a velvet stool, sits the tiny girl — no taller than a thumb — pale-gold hair bright with pollen light, petal dress fresh as morning, big dark-blue eyes blinking up at the enormous world; the tulip towers over the pot rim like a tree, dew stands in beads bigger than her fists, and beyond the window glass the garden blurs green and gold; everything ordinary in the room is suddenly giant scenery around one impossibly small new life",
+   "motion": "the tulip petals ease open wider in one slow continuous blooming, light pouring deeper into the cup as they part, and the tiny girl inside lifts her face into the pouring light, pollen motes drifting up around her pale-gold hair like slow sparks; a dew bead trembles on the petal rim, the garden beyond the glass sways softly, and the camera closes on the opening flower until she is the center of everything"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "thumbelina"
+   ],
+   "refs": [],
+   "beat": "호두 요람에서 꽃잎을 덮고 잠들다",
+   "visual": "night in the cottage, close on the tabletop: the tiny girl asleep in a polished walnut-shell cradle, her mattress the blue petals of a violet and her coverlet one curved rose leaf drawn to her chin, pale-gold hair spread on the violet blue; the walnut shell sits in a pool of moonlight from the window, rocking almost imperceptibly, and around it the tabletop stretches away like a wooden plain — a thimble, a spool of thread and a saucer of water with one floating tulip petal for her boat standing like distant monuments; her small chest rises and falls under the rose leaf, and the whole great dark room keeps quiet around one walnut of sleep",
+   "motion": "the walnut cradle rocks in a tiny even rhythm, the rose-leaf coverlet rising and settling with the sleeping girl's breath, moonlight creeping a finger's width across the tabletop; the tulip petal turns slowly in its saucer harbor, a moth circles once high above and drifts away, and the camera sinks slowly down toward the sleeping face under the rose leaf"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "thumbelina",
+    "toad"
+   ],
+   "refs": [],
+   "beat": "두꺼비가 창으로 들어와 요람째 업어 간다",
+   "visual": "the same moonlit tabletop, tilted into wrongness: through the open window a big brown garden toad has climbed, wet warty skin gleaming in the moonlight, round gold eyes fixed on the walnut cradle, and its splayed webbed fingers close around the shell with the sleeping tiny girl still inside, lifting cradle and child together against its damp chest; the toad's bulk fills the window frame, one heavy leg already back over the sill toward the dark garden, the curtain pushed aside; the rose-leaf coverlet stays tucked to the sleeping girl's chin, and the room's quiet things — thimble, spool, saucer — stand witness in the moonlight to a very small kidnapping done very quietly",
+   "motion": "the toad's webbed fingers close around the walnut shell in one slow careful grip and lift it, cradle and sleeper together, up against the damp chest, the rose leaf never stirring on the sleeping girl; the heavy body turns ponderously back toward the window, the curtain swinging as it passes through, and the camera follows the stolen cradle out over the sill into the blue garden dark"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "thumbelina",
+    "stream"
+   ],
+   "refs": [],
+   "beat": "시내 수련잎 위에 홀로 남겨지다",
+   "visual": "bright morning on the wide slow stream: in the very middle of the water one big round water-lily leaf floats like a green plate, and on it stands the tiny girl, awake now, petal dress rumpled, small fists at her eyes; all around her the clear green-brown water slides past, wide as a sea at her scale, the banks of reeds and forget-me-nots impossibly far away; her walnut cradle is gone, minnows hang in the water below the leaf like pale shadows, a dragonfly rests its wings at the leaf's rim, and the great gentle current turns the leaf slowly, showing her every unreachable shore in turn",
+   "motion": "the lily leaf turns slowly on the sliding current, carrying the tiny standing figure around in a gentle circle while the far banks wheel past her, her small fists lowering from her eyes as she takes in the wide water; minnows drift beneath the leaf, the dragonfly's wings flick once, ripples widen away downstream, and the camera holds low at water level with the leaf turning through the frame"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "thumbelina",
+    "stream"
+   ],
+   "refs": [],
+   "beat": "물고기들이 줄기를 갉아 수련잎이 떠내려가다",
+   "visual": "just under and over the waterline at once: below, a cluster of silver-green fishes noses around the lily leaf's stalk, their small mouths working at the green stem until it parts; above, the freed leaf begins to slide downstream with the tiny girl kneeling at its rim, one hand holding the sash of her petal dress that she has tied to a passing white butterfly, the butterfly pulling ahead of the leaf like a small living sail; sun strikes through the clear water in wavering shafts, the reed banks begin to move past, forget-me-nots nod farewell at the waterline, and the little green boat with its butterfly sail gathers way down the bright summer stream",
+   "motion": "the fishes' mouths work at the stalk until it parts and drifts, and the leaf eases free into the current, gathering speed by degrees while the tied butterfly lifts and pulls ahead, the sash line going taut and gleaming; the kneeling girl leans into the new motion, hair streaming back, banks sliding faster past, and the camera travels alongside the leaf-boat as it runs down the sunlit water"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "thumbelina"
+   ],
+   "refs": [],
+   "beat": "여름 풀숲의 홀로살이",
+   "visual": "deep summer in the wild meadow, seen at her scale: the tiny girl at home under a roof she has woven of two broad grass blades bent over a moss bed, a curled leaf her hammock, an acorn cup of dew standing by; around her the grass rises like a bright green forest, daisies tower like white trees, a ladybird passes at eye level like a red carriage, and shafts of afternoon sun lean between the stems full of drifting seeds; she sits at her doorway combing her pale-gold hair with a tiny grass-seed comb, bare feet tucked, small and self-possessed in the huge mild wilderness that feeds her dew and flower honey",
+   "motion": "the meadow lives its slow summer around her — grass stems swaying in long lazy arcs, drifting seeds turning in the leaning light, the ladybird trundling past and away — while she draws the tiny comb through her hair in unhurried strokes and reaches once to sip from the acorn cup; her grass roof nods over her doorway, and the camera drifts slowly around her little homestead at grass height"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "thumbelina"
+   ],
+   "refs": [],
+   "beat": "첫눈 — 마른 그루터기 벌판을 헤매다",
+   "visual": "the same world turned to winter, vast and white: the harvested field stretches away in rows of dry broken corn stumps like a ruined grey forest, and between them struggles the tiny girl, wrapped in a dry leaf that the wind keeps tugging, pale-gold hair whipping, bare feet blue on the frozen crumbs of earth; snowflakes come down around her each one big as a shovelful at her scale, settling on her shoulders and lashes; her summer meadow is gone, the sky hangs low and woolen, one crow crosses far off, and the endless stubble rows offer neither roof nor fire in any direction she looks",
+   "motion": "she struggles forward step by swaying step against the wind, the wrapped leaf flapping around her small shoulders, each falling snowflake landing on and around her like a thrown blanket while she shields her face with one arm; the dry stumps groan in the gusts, snow-dust rivers along the frozen ground past her feet, and the camera tracks low beside her small stubborn figure through the white field"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "thumbelina",
+    "burrow"
+   ],
+   "refs": [],
+   "beat": "들쥐 집 문을 두드리다",
+   "visual": "at the foot of a stubble row, half hidden under a snow-capped tussock, a tiny round door of woven roots set in the earth with warm light shining through its seams: the tiny girl stands at it, snow on her hair and lashes, one small fist raised to knock, the wrapped leaf clutched at her throat; a root-framed threshold holds back the white cold, a wisp of grain-scented warmth curls out through the door crack into the winter air, and her shadow in the doorway light is small as a fallen leaf; behind her the white field and the low woolen sky, before her one warm door — everything she has left in the world is in that raised little fist",
+   "motion": "her small fist knocks on the root door in a light quick rhythm, pauses, and knocks again, snow shivering from her hair with the effort while the warm light through the door seams flickers as something moves inside; the grain-scented warmth curls thicker through the crack, her clutched leaf trembles at her throat, and the camera holds tight on the small figure at the glowing door as it begins to open"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "thumbelina",
+    "fieldmouse",
+    "burrow"
+   ],
+   "refs": [],
+   "beat": "들쥐 집의 안온한 겨울",
+   "visual": "inside the snug earthen burrow, round and warm as a bread oven: the plump grey field-mouse in headscarf and apron bustles at her tiny hearth where a seed-oil lamp burns, and at the root table sits the tiny girl, thawed and pink again, wrapped in a scrap of wool, a thimble-sized bowl of barley porridge steaming between her hands; shelves of grain and seeds line the curved walls, dry grass carpets the floor, strings of dried berries loop from the ceiling roots, and the two of them — mouse and girl, hostess and guest — make one small circle of lamplight and plenty while the winter presses huge and white somewhere far above the ceiling",
+   "motion": "the field-mouse bustles in a happy orbit from hearth to table, whiskers busy, ladling one more spoon of porridge into the thimble bowl, while the girl's small hands warm themselves around it and her shoulders ease down by degrees under the wool; the lamp flame breathes, berry strings sway faintly from her passing, and the camera settles slowly into the warm circle of the table"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "thumbelina",
+    "swallow",
+    "burrow"
+   ],
+   "refs": [],
+   "beat": "두더지 굴 통로의 쓰러진 제비",
+   "visual": "a long dark tunnel passage shored with roots, lit only by the small lamp the tiny girl carries: on the cold earth floor lies a swallow, glossy blue-black wings folded wrong, rust-red throat still, cream breast unmoving, one wing dragged out across the soil — to her scale a fallen giant, beautiful and terrible; she stands over it with her lamp raised, light trembling along the folded feathers, her other hand pressed to her mouth; the tunnel runs away into blackness both ways, cold breathes from the earth, and the little light she holds is the only warm thing anywhere near the great still bird",
+   "motion": "her raised lamp trembles so the light runs in slow waves along the folded blue-black feathers, and she kneels by degrees at the great bird's breast, her free hand hovering, then resting on the cream feathers — and under her small palm the faintest slow pulse lifts once; her breath clouds in the tunnel cold, the darkness leans in around the lamp, and the camera closes on the small hand on the great still breast"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "thumbelina",
+    "swallow",
+    "burrow"
+   ],
+   "refs": [],
+   "beat": "밤마다 몰래 제비를 돌보다",
+   "visual": "the tunnel alcove transformed by weeks of secret nursing: the swallow now lies bedded on a thick mat of woven hay and thistledown, a blanket of dry grass drawn over its body up to the rust-red throat, head eased onto a folded-leaf pillow; beside it kneels the tiny girl with her lamp shaded low, dripping water from a flower-petal cup to the bird's beak, her own shadow thrown long up the root wall; the swallow's eye is open now, a dark bright bead fixed on her, and one wing lies straightened along its side; hay stems ring the nest like a golden fence, and the two of them share the small ring of lamplight in the black earth like a secret",
+   "motion": "she tips the petal cup with both hands in one slow careful pour, a bright bead of water sliding to the swallow's beak, and the bird's throat moves as it drinks, its dark eye never leaving her; she smooths the grass blanket at its breast with small pats, the lamp flame nodding, hay shadows swaying on the root wall, and the camera holds the ring of light around nurse and patient close and warm"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "thumbelina",
+    "swallow"
+   ],
+   "refs": [],
+   "beat": "봄 — 살아난 제비의 등에 오르다",
+   "visual": "spring at the burrow's upper doorway, the root door thrown open on a world gone green and loud with birdsong: the swallow stands in the opening restored to itself — glossy wings mended and half spread, rust-red throat bright, forked tail flicking — and on its back, settled between the folded wings with her fists full of neck feathers, sits the tiny girl, petal dress mended, pale-gold hair lit by the door light, her face half joy and half farewell as she looks back once into the warm earth dark that sheltered her winter; new grass crowds the threshold, the sky beyond is a blue doorway, and the great bird's gathered body is one heartbeat from flight",
+   "motion": "the swallow's half-spread wings gather and beat once, twice, in slow strengthening strokes that stir the new grass flat around the doorway, the girl's fists tightening in the neck feathers as its body coils lower; her look back into the burrow dark holds one long beat and then turns forward to the blue, and on the third wingbeat the camera rises with them off the threshold into the light"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "thumbelina",
+    "swallow"
+   ],
+   "refs": [],
+   "beat": "산과 바다를 건너 남쪽으로",
+   "visual": "high spring sky and the great journey: the swallow crossing the frame in full stretched flight, wings rowing long and even, and the tiny girl flattened warm between its shoulders with her hair streaming, small fists deep in the neck feathers; far below the world unrolls in painted bands — folded green mountains, silver rivers, then the glittering wrinkled blue of the sea with toy ships trailing white wakes — and cloud shadows race across it all; other swallows string out ahead and behind like notes on a stave, the sun warms the blue-black wings to gloss, and everything in the frame moves south together toward the warm lands",
+   "motion": "the swallow's wings row on in long even strokes, the world's painted bands sliding steadily beneath — mountains giving way to rivers, rivers to the wrinkled glittering sea — while the girl's streaming hair streams softly and she lifts her face over the leading edge of the wing into the rushing warm air; cloud shadows sweep across bird and sea together, and the camera flies alongside just off the wingtip"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "thumbelina",
+    "swallow",
+    "flowerland"
+   ],
+   "refs": [],
+   "beat": "흰 꽃들의 나라 — 가장 눈부신 꽃 앞에서",
+   "visual": "the warm south at last: sun-washed white marble pillars rise broken and beautiful out of green vines, and between them great white flowers stand open like cups of light; the swallow glides low with the tiny girl upright on its back, and both of them are turned toward one flower at the heart of the ruin — the tallest and whitest of all, its petals only just parting, a soft glow breathing from inside the closed cup as if the flower held its own small sun; the glittering sea lies beyond the pillars, vine leaves turn in the warm wind, and the whole bright land seems arranged around the one glowing flower and the small traveler arriving before it",
+   "motion": "the swallow glides down in one long slow descent between the pillars and hovers before the tallest white flower, wingbeats going soft and small, while the tiny girl rises to her feet on its back, leaning toward the glow that breathes through the just-parting petals; the petals ease a finger's width wider, light spilling brighter through the seam, and the camera closes slowly on the glowing seam of the flower as it begins to open"
+  },
+  {
+   "n": 16,
+   "cast": [
+    "flowerland"
+   ],
+   "refs": [],
+   "beat": "햇빛의 꽃나라 (마무리)",
+   "visual": "the flower land at rest in full noon light, empty of travelers now: white marble pillars stand quiet in their vines, the great white flowers hold their cups open to the sun, and on the rim of the tallest flower lies one small token — a tiny sash woven of flower petals, laid neatly as if set down at the start of a new life; a swallow's forked silhouette curls once high against the blue and is gone toward the sea; bees drone in the vine bloom, the sea glitters between the pillars, petals ride the warm air, and the bright ruined garden keeps the rest of the story folded inside its tallest flower",
+   "motion": "only warmth moves: petals riding the slow air between the pillars, vine leaves turning, the tiny petal sash stirring once on the flower's rim, the far swallow silhouette curling and fading into the blue over the sea; bees drift from cup to cup, light trembles on the water beyond, and the camera pulls back slowly and high until the tallest flower stands small and glowing in the middle of the bright garden"
+  }
+ ],
+ "withheld": "가장 흰 꽃 속의 날개 달린 왕자와 소녀의 새 이름"
+}

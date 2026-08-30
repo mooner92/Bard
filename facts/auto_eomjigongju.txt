@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 엄지공주 / 한스 크리스티안 안데르센 / 덴마크 / 1835
+[줄거리와 배경]
+튤립에서 태어난 엄지만 한 소녀가 두꺼비에게 납치되어 사계절을 홀로 건너고,
+제 손으로 살린 제비의 등에 올라 남쪽 꽃의 나라에 닿는다.
+[줄거리]
+줄거리와 인물은 works/handwritten/eomjigongju/treatment.json 에 열여섯 박자로 적어 두었다.
+원문은 works/sources/eomjigongju_thumbelina_en.txt (구텐베르크 #640), 근거는 source_notes.md.
