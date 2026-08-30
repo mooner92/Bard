@@ -14,7 +14,7 @@
   {
    "n": 1,
    "cast": [
-    "group",
+    "donkey",
     "road"
    ],
    "refs": [],
@@ -25,7 +25,7 @@
   {
    "n": 2,
    "cast": [
-    "group",
+    "donkey",
     "road"
    ],
    "refs": [],
@@ -36,7 +36,8 @@
   {
    "n": 3,
    "cast": [
-    "group",
+    "donkey",
+    "dog",
     "road"
    ],
    "refs": [],
@@ -47,7 +48,9 @@
   {
    "n": 4,
    "cast": [
-    "group",
+    "donkey",
+    "dog",
+    "cat",
     "road"
    ],
    "refs": [],
@@ -137,7 +140,7 @@
    ],
    "refs": [],
    "beat": "도둑들이 어둠 속으로 달아난다",
-   "visual": "the robbers' door thrown wide and three robbers in full flight into the dark forest, lit from behind by the doorway's warm spill so they run from their own long golden shadows: the stout one first with coat-tails straight out, the lanky bearded one vaulting the rain barrel with his slouch hat lifting off, the small one already far between the trunks; the house glows cheerful behind them, window and open door pouring light into the mist, fir trunks striping the fleeing figures smaller and smaller into the blue-black depth; the yard before the door stands empty in the lamplight, and the forest swallows the last hat with perfect indifference",
+   "visual": "night at the robbers' open door, the warm light spilling a long path into the misty forest: one robber — the stout one in his patched brown coat — is caught mid-flight in that light-path, halfway to the trees, coat-tails straight out behind him, slouch hat lifting off his head, legs stretched in a full running stride; deeper among the fir trunks two smaller running silhouettes of his fellows are already fading into the blue-black dark; the doorway stands wide and bright behind, the rain barrel gleams beside it, and the mist swirls where the running men tore through it — a house exhaling three thieves into the night",
    "motion": "the three figures pelt away in one continuous flight, arms pumping, the lanky one's hat sailing off and tumbling along the mist, coat-tails streaming through the bars of trunk-shadow as the men shrink into the dark; behind them the doorway light wavers with their passing wind, the ear-tips and comb above the sill turning slowly to watch them go, and the camera holds at the doorway looking down the golden path as the forest closes over them"
   },
   {
@@ -184,7 +187,7 @@
    ],
    "refs": [],
    "beat": "어둠 속 대소동",
-   "visual": "the dark room erupting around the lanky robber, close and comic in the faint red hearth-glow: he is caught mid-stumble reeling backward toward the door, arms windmilling, mouth a black O, hat flying; the grey tabby cat clings at his shoulder, a spitting blur with claws raking the air by his face; the brown hound has his trouser leg gripped in its teeth, hauling backward with braced forepaws; and behind him the grey donkey's hindquarters are swung round with one mighty hoof extended full stretch into his rear; only these four figures, motion-streaked in the dim red light — a single connected clockwork of comic vengeance flinging one terrified man doorward through the dark",
+   "visual": "the dark room erupting around exactly one man — the lanky bearded robber, the only human in the picture — close and comic in the faint red hearth-glow: he is caught mid-stumble reeling backward toward the door, arms windmilling, mouth a black O, hat flying; the grey tabby cat clings at his shoulder, a spitting blur with claws raking the air by his face; the brown hound has his trouser leg gripped in its teeth, hauling backward with braced forepaws; and behind him the grey donkey's hindquarters are swung round with one mighty hoof extended full stretch into his rear; only these four figures, motion-streaked in the dim red light — a single connected clockwork of comic vengeance flinging one terrified man doorward through the dark",
    "motion": "the chaos runs as one connected chain — the cat's claws raking and raking at his face, the hound hauling steadily backward on the trouser leg, the rooster's beating wings raining rafter dust through the ember light — while the robber's windmilling arms and kicking legs carry him in one continuous headlong stumble across the room and out into the night; and the camera shakes and swings after the tumbling man to the door"
   },
   {
@@ -195,7 +198,7 @@
    ],
    "refs": [],
    "beat": "아침, 네 친구의 집",
-   "visual": "bright clear morning sunlight over the forest house — full daylight, blue sky, steam rising off dewy moss shingles — and the four animals at ease around their new home: the grey donkey grazes the sunlit clearing by the door; the brown hound sprawls asleep on the warm doorstep in a bar of sun; the grey tabby cat sits on the window sill washing one white paw; and on the rooftop ridge the rooster — the only rooster, single and proud — throws back its scarlet comb mid-crow to a sky full of birdsong; the rain barrel mirrors the blue, fir tops sway gently behind the roof, and the road to Bremen runs on past the clearing, unwalked and unneeded",
+   "visual": "bright clear golden morning sunlight, warm and dry, over the forest house — full daylight, blue sky, steam rising off dewy moss shingles — and the four animals at ease around their new home: the grey donkey grazes the sunlit clearing by the door; the brown hound sprawls asleep on the warm doorstep in a bar of sun; one single grey tabby cat — the only cat anywhere in the picture — sits on the window sill washing one white paw; and on the rooftop ridge the rooster — the only rooster, single and proud — throws back its scarlet comb mid-crow to a sky full of birdsong; the rain barrel mirrors the blue, fir tops sway gently behind the roof, and the road to Bremen runs on past the clearing, unwalked and unneeded",
    "motion": "morning idles in small motions — the donkey's muzzle working across the dewy grass, the hound's sun-warmed ribs rising in sleep, the cat's paw curling over one ear again and again, the rooster's crow rolling out from the ridge with a shake of comb — steam breathing off the shingles, the barrel's mirror trembling with birdsong, and the camera pulls up slowly and warmly over the roof until the little house sits snug in the endless green forest"
   }
  ],
