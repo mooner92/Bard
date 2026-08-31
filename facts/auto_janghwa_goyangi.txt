@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 장화 신은 고양이 / 샤를 페로 / 프랑스 / 1697
+[줄거리와 배경]
+방앗간 막내의 유산이 된 고양이가 장화와 자루를 청해, 카라바스 후작이라는
+이름과 꾀만으로 주인을 왕의 사위 자리 앞까지 데려간다.
+[줄거리]
+줄거리와 배역은 works/handwritten/janghwa_goyangi/treatment.json 에 열네 박자로 적어 두었다.
+원문은 works/sources/janghwa_goyangi_en.txt (구텐베르크 #503), 근거는 source_notes.md.

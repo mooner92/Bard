@@ -1,1 +1,1 @@
-gyujungchiru	facts/auto_gyujungchiru.txt	수필 규중칠우쟁론기에서 만날 수 있습니다	Korean chaekgeori still-life painting style: silk cream, deep cinnabar red, lacquer black, warm gold, fine ink linework. 	생동
+janghwa_goyangi	facts/auto_janghwa_goyangi.txt	동화 장화 신은 고양이에서 만날 수 있습니다	17th-century French storybook illustration: hay gold, royal blue, crimson red, cream, fine ink linework. 	생동
