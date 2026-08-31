@@ -1,2 +1,1 @@
-beuremen_eumakdae	facts/auto_beuremen_eumakdae.txt	동화 브레멘 음악대에서 만날 수 있습니다	German storybook illustration: road ochre, deep blue, deep green, warm amber, fine ink linework. 	생동
 eomjigongju	facts/auto_eomjigongju.txt	동화 엄지공주에서 만날 수 있습니다	Nordic storybook illustration: leaf green, stream blue, pearl white, warm amber, fine ink linework. 	담담
