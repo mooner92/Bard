@@ -233,6 +233,13 @@ turning slightly'). 보여 주는 물건은 already raised, stays completely
 motionless … for the whole shot 으로 못박고, 그 컷에서 움직이는 것은
 사람뿐임을 한 절로 밝힌다(only the man moves).
 
+**직유는 전면 금지다.** 'like a X' 의 X 는 그려진다 — 한 작품에서 여섯 컷이
+직유로 무너졌다(실측: like a minister 가 관모 쓴 사람을 세웠고, calligrapher's
+brush 가 인두를 붓으로 바꿨고, calligraphy strokes 가 비단에 글씨를 새겼고,
+boatman's pole 이 장대 든 사람을 불렀고, needle's eye 가 바늘꽂이에 눈알을
+그렸고, gentlewoman's shadow 가 부인 본체를 소환했다). 물리 묘사만 쓴다.
+전문어도 검사한다 — 바늘귀는 eye 가 아니라 threading hole 로 적는다.
+
 **빛의 비유어도 사물을 소환한다.** moonish·sunlit 같은 말은 그 천체를
 화면에 불러온다(실측: 한낮 컷에 초승달이 떴다 — 'a pale moonish sheen').
 빛은 비유 대신 성질로 적는다 — a pale cold sheen like winter light.
