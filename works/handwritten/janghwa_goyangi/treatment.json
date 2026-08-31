@@ -75,7 +75,7 @@
    ],
    "refs": [],
    "beat": "강가의 계략 — 옷을 감추다",
-   "visual": "the willow bend of the river in high summer: the young man stands waist-deep in the clear water looking puzzled but obedient, while on the bank the booted cat stuffs his patched old clothes deep under a river boulder, hat plume bobbing with the effort, boots planted wide on the grass; the white carriage road runs close along the bank between mown hayfields, empty for now but straight toward a distant dust plume that means wheels and horses coming; willow shade dapples the water, dragonflies stitch the air, and every piece of the trick is in its place except the audience",
+   "visual": "the willow bend of the river in high summer: the young man is in the water to his bare shoulders, brown hair wet, looking puzzled but obedient from midstream, his patched shirt and grey breeches nowhere in sight; on the bank the booted cat presses the last corner of hidden clothing deep under a river boulder with both forepaws, plumed hat bobbing, boots planted wide in the grass; the white carriage road runs close along the bank between mown hayfields, and far down it a small dust cloud with a glint of gilded coach is coming on; willow shade dapples the clear water, dragonflies stitch the air, and every piece of the trick is in place except the audience",
    "motion": "the cat presses the last of the old clothes under the boulder with both forepaws in quick businesslike shoves, glances down the road at the far dust plume, then straightens its hat by the brim in one crisp adjust; in the river the young man turns in slow bewildered circles, water rings widening from him, and the camera looks past the cat's plume down the road toward the approaching dust"
   },
   {
@@ -83,6 +83,7 @@
    "cast": [
     "cat",
     "king",
+    "marquis",
     "river_road"
    ],
    "refs": [],
@@ -93,13 +94,13 @@
   {
    "n": 8,
    "cast": [
-    "miller_son",
+    "marquis",
     "king",
     "river_road"
    ],
    "refs": [],
    "beat": "새 옷의 후작, 공주 곁에",
-   "visual": "beside the royal coach in the willow shade: the young man transformed — the fine blue court coat with gold buttons sits handsomely on him, hair still river-damp and all the better for it — bowing to the plump king who beams from the coach step; within the coach window behind them a princess in rose silk leans into the light, one gloved hand at the frame, her eyes plainly and entirely on the new-made marquis; the folded pile of royal spare clothes' wrappings lies on the grass, the river glitters through the willows, and the coach door stands open in invitation",
+   "visual": "beside the royal coach in the willow shade: the young marquis — river-damp hair above the fine new coat — bowing to the plump king who beams from the coach step; within the coach window behind them a princess in rose silk leans into the light, one gloved hand at the frame, her eyes plainly and entirely on the new-made marquis; the folded pile of royal spare clothes' wrappings lies on the grass, the river glitters through the willows, and the coach door stands open in invitation",
    "motion": "the young man straightens from his bow and the king's hands take his shoulders in one warm shepherding turn toward the open coach door, the princess within leaning a breath further into the window light as he approaches; the willow shade sways over coach and company, the horses settle, and the camera moves with the young man's first astonished step up toward the rose-silk glow of the doorway"
   },
   {
@@ -110,7 +111,7 @@
    ],
    "refs": [],
    "beat": "앞서 달리며 — 후작의 땅이라 하라",
-   "visual": "a mown hayfield along the road ahead: the booted cat mid-dash between rows of haycocks, boots flying, plume flat with speed, bag bouncing — pausing at a knot of sun-browned mowers who lean on their scythes wide-eyed at the small booted apparition; the cat is up on a haycock before them, forepaw raised in grand instruction, hat swept back, every line of it declaiming the one required answer: these fields belong to the Marquis of Carabas; far down the road behind, the royal coach's dust rises small and bright, coming on",
+   "visual": "a mown hayfield along the road ahead: the booted cat mid-dash between rows of haycocks, boots flying, plume flat with speed, bag bouncing — pausing at a knot of sun-browned mowers who lean on their scythes wide-eyed at the small booted apparition; the cat is up on a haycock before them, forepaw raised in grand instruction, hat swept back, every line of it declaiming the one required answer: these fields belong to the Marquis of Carabas; far down the road behind, the royal coach itself shows small and gilded in its own bright dust, four horses and a coachman, coming on",
    "motion": "the cat springs from the road to the haycock top in one bounding scramble and wheels to face the mowers, raised forepaw sweeping the horizon of fields in a single grand instructing arc, plume shaking with emphasis; the mowers' scythes lower one by one as their heads nod, the coach dust brightens down the road, and the camera circles the small commanding figure on its golden podium"
   },
   {
@@ -129,7 +130,7 @@
    "cast": [
     "cat",
     "ogre",
-    "castle"
+    "hall"
    ],
    "refs": [],
    "beat": "오거의 성에 든 고양이",
@@ -140,25 +141,23 @@
    "n": 12,
    "cast": [
     "cat",
-    "ogre",
-    "castle"
+    "hall"
    ],
    "refs": [],
    "beat": "사자 변신",
-   "visual": "the hall exploded into fur and roar: where the ogre sat, a colossal lion now rears half out of the carved chair, mane wild, jaws wide, one great paw sweeping plates from the table — and the booted cat is halfway up a window curtain, boots scrabbling, hat crushed to its chest with one paw, green eyes enormous, tail bottled to twice its size; candlelight swings crazily from the toppled candelabra's roll, the bars of window light shake with the roar, and the little braggart who asked for proof is discovering the difference between asking and receiving",
-   "motion": "the lion's roar rolls down the hall while its great paw finishes its sweep and the scattered plates spin slowly to rest, mane settling around the huge head in waves; up the curtain the cat's boots find one more desperate foot of height, its bottled tail flag-straight, crushed hat pressed to its white chest, and the camera shakes gently with the rolling echo between the giant and the climbing speck"
+   "visual": "the great hall in uproar: a colossal lion rears alone beside the toppled carved chair, amber-eyed, mane wild, jaws wide mid-roar, one great paw sweeping gold plates from the long table — the chair's brocade cushion still spinning on the floor where its last occupant vanished into this shape — and high on a window curtain clings the booted cat, boots scrabbling, dark-brown hat crushed to its white chest, green eyes enormous, striped tail bottled huge; candle flames stream sideways with the roar, banners sway on the stone walls, and the tall leaded window rattles above the climbing speck of orange",
+   "motion": "the lion's roar rolls the length of the hall while its sweeping paw finishes and the scattered gold plates spin slowly to rest, the wild mane settling in waves around the huge head; up the curtain the cat's boots find one more desperate foot of height, bottled tail rigid, crushed hat pressed to its chest, and the camera trembles gently with the echo between the giant below and the clinging speck above"
   },
   {
    "n": 13,
    "cast": [
     "cat",
-    "ogre",
-    "castle"
+    "hall"
    ],
    "refs": [],
    "beat": "생쥐는 못 되시겠지? — 도약",
-   "visual": "the hall gone quiet and vast: the great carved chair stands empty, plates still scattered, and down on the stone floor in a bar of window light sits one small grey mouse, whiskers twitching, tiny and proud of itself — while from the shadow beside the chair leg the booted cat is already in the first stretch of its pounce, ears flat, green eyes lit, boots leaving the floor, hat spinning away behind it forgotten; the distance between spread claws and twitching whiskers is one heartbeat wide, the candles hold their breath, and the oldest law in the world arrives dressed in tall leather boots",
-   "motion": "the cat's pounce unrolls through the bar of window light in one long airborne stretch, boots trailing, claws spreading, while the little grey mouse's whiskers twitch once at the shadow falling over it; the spinning hat settles slowly on the stones behind, candle flames leaning with the rush of the leap, and the camera freezes low on the closing heartbeat of distance as the shadow arrives"
+   "visual": "the hall gone quiet and vast: the toppled carved chair lies empty, plates scattered, and down on the stone floor in a bar of window light a small grey mouse and the booted cat face each other at a single stride's distance — the mouse up on its hind legs, whiskers twitching, proud of its clever new smallness; the cat already low in the first coil of a pounce, ears flat, green eyes lit, hind boots gathered beneath it, dark-brown hat tipped forward, front claws just spreading from the stone; the space between twitching whiskers and spreading claws is one heartbeat wide, and the candles down the long table hold perfectly still to watch",
+   "motion": "the cat's gathered coil releases into the leap — body unrolling low and long through the bar of window light, boots trailing, claws spreading — while the little mouse's whiskers twitch once at the shadow arriving over it; the tipped hat lifts from the cat's head and hangs in the air behind the leap, candle flames leaning with the rush, and the camera holds low and freezes on the closing heartbeat of distance"
   },
   {
    "n": 14,
