@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 규중칠우쟁론기 / 작자 미상(내간체 수필) / 조선 /
+[줄거리와 배경]
+규방 반짇고리의 일곱 벗 — 자·가위·바늘·실·인두·다리미·골무 — 이 바느질
+공을 다투다 부인의 꾸지람을 듣고, 늙은 골무의 사죄로 화해한다.
+[줄거리]
+줄거리와 배역은 works/handwritten/gyujungchiru/treatment.json 에 열네 박자로 적어 두었다.
+원문은 works/sources/gyujungchiru_ko.txt (위키문헌 전문), 근거는 source_notes.md.
