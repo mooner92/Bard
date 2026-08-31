@@ -42,6 +42,10 @@ RELATIVE = re.compile(r'\b(same (?:face|hair|features)|identical|like the (?:oth
 ONESHOT = re.compile(r'\b(drops?|slams?|strikes?|shuts?|lands?|bursts?|snaps?|'
                      r'topples?|scatters?|falls?|breaks?|catches?)\b', re.I)
 
+# 직유는 그려진다 — like a minister 가 관리를 세웠고 calligrapher's brush 가
+# 인두를 붓으로 바꿨다(실측: 규중칠우 여섯 컷). 물리 묘사만 허용한다.
+SIMILE = re.compile(r"\blike (?:a|an|the)\b|\bas if\b", re.I)
+
 EPISODIC = re.compile(r'\b(firelight|bonfire|campfire|torchlight|torch|fire)\b', re.I)
 
 def _words(s): return set(re.findall(r"[가-힣]{2,}", s))
@@ -105,6 +109,9 @@ def check(work: str) -> list:
     # 뒤에도 돌아왔다. visual 에 'a blind old man' 이 그대로 남아 있었기 때문이다.
     for b in beats:
         for key in ("visual", "motion"):
+            sm = SIMILE.search(b.get(key, ""))
+            if sm:
+                bad.append(f"S{b['n']} {key} 에 직유: {sm.group()}")
             m = STATE.search(b.get(key, ""))
             if m:
                 bad.append(f"S{b['n']} {key} 에 개념어: {m.group()}")
