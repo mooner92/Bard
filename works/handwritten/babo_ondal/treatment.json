@@ -1,0 +1,174 @@
+{
+ "logline": "바보라 불리던 온달이 울보 공주의 눈과 손에서 고구려의 장수가 된다",
+ "destination": "설화 바보 온달에서 만날 수 있습니다",
+ "protagonist": "ondal_poor",
+ "setting": "고구려 — 저잣거리, 산기슭 초가, 낙랑 언덕",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/babo_ondal/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "earth ochre, cinnabar red, ink black, sage green, cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "ondal_poor",
+    "market"
+   ],
+   "refs": [],
+   "beat": "저잣거리의 바보 온달",
+   "visual": "the Goguryeo market street at midday: the big gentle young man makes his way between the stalls with his A-frame of elm bark on his back, ragged hemp jacket, worn-through straw shoes scuffing the packed dust, shaggy hair tied with its strip of cloth; around him stall-keepers and passers-by turn with open grins, a boy points, two women laugh behind their sleeves — and he ducks his broad kind face and keeps walking, one hand steadying the carrier rope, an empty rice-bowl tied at his hip for the day's begging; banners stir on the poles above the grain sacks and pottery, an ox-cart creaks past, and the laughter follows him down the street the way dust follows the cart",
+   "motion": "the young man walks on through the turning grins with his head ducked low, the elm-bark load swaying gently with each big careful step, the empty bowl knocking softly at his hip; the pointing boy trots a few steps alongside and drifts away, banners stirring overhead, the ox-cart creaking past in the other direction, and the camera tracks with him through the laughter at shoulder height"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "ondal_poor",
+    "mother",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "밥을 빌어 노모를 모시다",
+   "visual": "evening at the thatched hut below the pines: the young man kneels before his small white-haired mother on her straw mat by the door, tipping the day's begged rice from his bowl into hers with both hands, careful as a man pouring water in a drought; the old woman's hand rests on her worn staff and her face turns to the sound of the rice rather than the sight of it, listening him home; the clay hearth glows under its soot-black kettle, the brushwood fence holds the last light, and the elm over the roof drops one leaf between them — a poor supper, given whole",
+   "motion": "the rice pours from bowl to bowl in one careful stream while the old woman's free hand finds and pats her son's wrist, her face turned to the sound and warming; he steadies her bowl with both hands until the last grain is across, the hearth glow breathing under the kettle, the elm leaf settling by the mat, and the camera holds low and close on the two bowls and the four hands"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "princess",
+    "king"
+   ],
+   "refs": [],
+   "beat": "울보 공주와 왕의 놀림",
+   "visual": "a lamplit chamber of the palace: the little princess — the young princess small in this memory, her many-striped skirt pooled around her — sits crying on the polished floor with both fists at her eyes, and above her the king in his dark purple robe and gold openwork crown bends with a teasing half-smile, one finger raised in the old joke; behind them a painted screen of mountains, bronze lamps on stands, the heavy beams of the hall in shadow; the words of the joke hang in the room the way the lamp smoke does — cry again and you marry the fool Ondal — and the crying child hiccups and listens",
+   "motion": "the child's sobbing shoulders slow as the king's raised finger wags through the teasing line, his half-smile deepening the creases of his beard, and her fists lower from red eyes that fix on him mid-hiccup, listening hard; the bronze lamp flames sway once with his chuckle, the screen's painted mountains holding still behind, and the camera settles slowly to the child's level on the polished floor"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "princess",
+    "king"
+   ],
+   "refs": [],
+   "beat": "임금은 식언할 수 없습니다",
+   "visual": "the same hall years later, charged and still: the princess grown — calm oval face, steady dark eyes, crimson court jacket, the long many-striped skirt — stands straight-backed before the throne, chin level, hands folded, every line of her quiet and immovable; the king half-risen from his seat with his heavy brows drawn down, one hand gripping the armrest, the gold feather-shapes of his crown trembling with his anger; between them on the floor lies the space of a refused command, and the bronze lamps burn very straight; her steady eyes do not go to the floor, and the old joke has come home to roost in a grown woman's level voice",
+   "motion": "the king's hand tightens on the armrest as he half-rises, crown feathers trembling, while the princess stands unmoving through it, only her folded hands settling more firmly and her level gaze holding his; a lamp flame wavers with his risen voice and steadies again in her silence, and the camera holds the still space between the trembling crown and the steady eyes"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "princess"
+   ],
+   "refs": [],
+   "beat": "홀로 궁을 나서다",
+   "visual": "the palace gate at grey first light, seen small and tall: the great studded doors stand open just a person's width, and through them steps the princess alone, a plain traveling cloak over the crimson jacket, a small cloth bundle at her chest — and on her lifted wrist, catching the dawn, a stack of gold bracelets, the whole of her inheritance worn as jewelry; behind her the palace roofs recede in dark tiered silhouettes, before her the rutted road runs down toward mist and mountains, and the guards look straight ahead as she passes as men do when they are sorry; her step off the threshold stone is small, level and final",
+   "motion": "she steps down from the threshold stone and walks out along the rutted road in a steady unhurried line, the gold bracelets giving one soft flash with the swing of her wrist, her cloak hem darkening with dew; the great doors ease back together behind her by slow degrees until the palace is a wall, the mist ahead opening just enough for one traveler, and the camera stays low behind her first hundred steps"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "wife",
+    "mother",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "온달의 집을 찾아온 공주",
+   "visual": "the brushwood gate of the mountain hut: the princess — plain now, undyed cotton, her braid simple, the thin gold bracelet the only shine left on her — stands at the fence with her bundle, bowing her head to the small white-haired mother who has come feeling her way along the fence rail, staff first, free hand reading the air; the old woman's face is turned a little past her visitor, listening to the voice rather than the face, wonder and worry crossing her creased features; the hearth smokes thin behind them, pines lean on the slope above the thatch, and a king's daughter and a beggar's mother stand on the two sides of one low gate",
+   "motion": "the princess bows and holds the bow while the old woman's free hand comes forward and reads her visitor — finding the young shoulder, the smooth cheek, the braid — wonder deepening across the creased face at what the fingers report; the staff taps once against the gate post, the hearth smoke leans, and the camera holds at the gate rail between the reading hand and the bowed head"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "ondal_poor",
+    "wife",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "나무를 지고 온 온달, 아내를 맞다",
+   "visual": "the hut yard at golden late afternoon: the big young man stands just inside the gate with his A-frame of elm bark still on his back, staring with his large honest eyes at the impossible visitor — the plain-dressed princess rising from the straw mat where she has been shelling beans with his mother, meeting his stare with her calm level one; between them the yard holds its breath: the hearth kettle steams, beans click softly in the bowl in her hands, the old mother's face turns from one silence to the other; his load of bark tips slowly as he forgets it, and the evening light lays one warm band across the packed earth between two people deciding the rest of their lives",
+   "motion": "the forgotten A-frame tips by slow degrees until his hand grips the rope without looking, his eyes never leaving the visitor, while she sets down the bean bowl and rises to her feet in one calm movement and bows to him — to him — the first bow of his life; the kettle steam drifts between them, his mother's listening face softens, and the camera circles slowly from his stunned stillness to her level bow"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wife",
+    "horse_thin",
+    "market"
+   ],
+   "refs": [],
+   "beat": "팔찌를 팔아 여윈 나라 말을 사다",
+   "visual": "the market's horse yard: the plain-dressed princess stands at the rail with a horse-dealer, her gold bracelets already changing hands in his palm, while before her waits her strange choice — the bony neglected horse from the royal stables, ribs showing under the dull patchy chestnut coat, matted mane, head drooping on its thin neck — passed over by every buyer in the yard; sleek horses stamp in the far pens where the dealer keeps pointing, but her steady eyes stay on the wreck with the royal brand, reading something under the ribs; grain sacks and banners line the yard, and the deal that makes no sense goes through in gold",
+   "motion": "the bracelets slide from her wrist into the dealer's opening palm one bright ring at a time while her other hand reaches over the rail and rests flat on the bony neck, the drooping head lifting a hand's width at the touch; the dealer's pointing arm sinks in defeat toward the sleek far pens, the thin tail gives one slow swish, and the camera holds on her hand on the ribs and the gold leaving her wrist"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "ondal_poor",
+    "horse_fine",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "여윈 말이 준마가 되다",
+   "visual": "the hut yard turned stable-ground through the seasons: the big young man leads the transformed horse in a circle before the brushwood fence — a magnificent chestnut now, coat glossy, black mane full, neck arched against the red-tasseled bridle he holds — his own shaggy head thrown back in plain delight; feed pails and a worn brush sit by the gate where the work lives, hoof-tracks ring the packed yard in a well-worn circle, the elm over the thatch has turned through green to gold, and the man the market laughed at walks a horse that kings will look at twice",
+   "motion": "the stallion circles him on the lead in a high collected trot, glossy neck arched, black tail streaming, hooves printing the worn ring deeper, while he pivots at the center with the rope light in his hand and his laugh loose and easy; the tassels swing at the bridle, dust rises warm off the circling hooves, and the camera turns with the pair at the middle of the ring"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "ondal_poor",
+    "horse_fine",
+    "hunt_field"
+   ],
+   "refs": [],
+   "beat": "삼월 사냥대회 — 맨 앞의 온달",
+   "visual": "the hunt grounds alive in the manner of the old tomb murals: ochre hills in rhythmic bands, stylized trees, and streaming across the slopes a field of mounted archers in bird-plume caps — and out at their very front, clear of the pack, the big young man low on his glossy chestnut, ragged hemp snapping, shaggy hair streaming from its cloth tie, the stallion's legs reaching in full flying stride; a stag bounds along the band of hills ahead, dogs pour along the slope below, banners and horn-blowers crowd the ridge line behind, and the gap between the fool of the market and the finest riders of Goguryeo widens with every stride",
+   "motion": "the chestnut's flying stride opens the gap stride on stride, the pack of plumed riders falling back along the ochre band while the stag bounds ahead and the dogs pour after; the young man rides lower and lighter than anyone, cloth tie streaming, and the hills roll under the field in slow mural bands as the camera races beside the lengthening lead"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "ondal_poor",
+    "king",
+    "hunt_field"
+   ],
+   "refs": [],
+   "beat": "왕이 이름을 묻다",
+   "visual": "the ridge of the hunt grounds, the chase done: the big young man stands at his blowing stallion's head before the king, holding the red-tasseled bridle, chest still heaving, ragged hemp dark with sweat — and the king in his purple robe and gold crown has come close, closer than kings come, heavy brows lifted in open astonishment as he takes in the worn straw shoes, the patched jacket, the honest wide eyes of the day's best rider; plumed horsemen hold a wide respectful circle, the stag's tally waits forgotten on the carts, and the name just spoken — Ondal — hangs between the two men while the wind moves the banners",
+   "motion": "the king's astonished gaze travels slowly down from the honest eyes to the straw shoes and back up while the young man bows his shaggy head and the blowing stallion calms under his steadying hand; around them the circle of plumed riders leans inward by degrees, banners working in the ridge wind, and the camera closes on the space where the spoken name still hangs"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "ondal_general",
+    "hunt_field"
+   ],
+   "refs": [],
+   "beat": "국경의 봉화 — 선봉의 깃발",
+   "visual": "war on the northern road, told as the murals tell it: a long column of Goguryeo cavalry flows between the ochre hills under crimson banners, spear-points a moving hedge against the pale sky — and at its head, unmistakable, rides the broad-faced warrior in black-laced lamellar armor, iron helmet with two tall bird plumes, crimson cloak lifting, long spear couched upright; beacon smoke stands in a grey column from a far hilltop tower, drums ride on carts among the ranks, and the man who begged rice in the market carries the front of the whole army in his wide honest face",
+   "motion": "the column flows forward at a steady trot, banners working, spear-hedge swaying in rhythm, while the plumed leader lifts his long spear once toward the far beacon smoke and the ranks answer with a rolling shout that startles birds from the stylized trees; drum-beats keep the hoof-rhythm, the grey smoke column leans, and the camera travels down the moving line to hold on the front rider"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "ondal_general",
+    "king"
+   ],
+   "refs": [],
+   "beat": "왕 앞에 다시 선 장수 (질문)",
+   "visual": "the palace court in high sun, the army home: the warrior kneels on one knee before the throne steps, iron helmet set on the ground beside him so the broad kind face and large honest eyes show plain above the black-laced armor, the crimson cloak pooled on the flagstones; the king stands risen from his seat, one hand already reaching down toward the kneeling man's shoulder, his heavy face working between memory and recognition — the market fool, the wonder rider, the front of the army, one face; courtiers bank the steps in bright rows, banners hang still in the warm air, and the reaching royal hand is a breath from landing",
+   "motion": "the king descends one slow step and then another, his reaching hand closing the last distance until it rests full on the armored shoulder, and the kneeling man lifts his honest eyes up the length of the royal arm; a stir runs along the banked courtiers, the still banners breathe once, and the camera rises gently from the two joined figures to the bright court around them"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "hut"
+   ],
+   "refs": [],
+   "beat": "마무리 — 초가와 준마의 뜰",
+   "visual": "the mountain hut at rest in late golden light, the story's two lives in one frame: the thatched roof and brushwood fence kept now in good repair, the straw mat swept, the soot-black kettle steaming gently on the clay hearth — and by the fence, tethered where the firewood used to lean, the glossy chestnut stallion grazes with its red-tasseled bridle hung on the post beside a tall spear and an iron helmet with two bird plumes; the elm over the roof holds its gold, pines step up the darkening slope behind, and the poor hut that fed a mother on begged rice keeps a general's arms by the gate as easily as it kept a wooden carrier",
+   "motion": "the stallion grazes in slow steps along the fence line while the kettle steam rises and leans, the hung bridle's red tassels stirring against the post, one gold elm leaf turning down onto the swept mat; the pines darken by a shade up the slope, the helmet plumes tremble in the evening air, and the camera pulls back slowly until hut, horse and hung arms rest together in the last warm light"
+  }
+ ],
+ "withheld": "왕이 사위를 맞으며 한 말과 그 뒤의 온달 장군"
+}

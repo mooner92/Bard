@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 바보 온달 / 차상찬 해동염사(삼국사기 온달전) / 한국 /
+[줄거리와 배경]
+밥을 빌어 노모를 모시던 바보 온달이, 임금은 식언할 수 없다며 궁을 나선
+평강공주의 눈과 손에서 고구려의 장수가 된다.
+[줄거리]
+줄거리와 배역은 works/handwritten/babo_ondal/treatment.json 에 열네 박자로 적어 두었다.
+원문은 works/sources/ondal_pyeonggang_ko.txt (위키문헌 해동염사), 근거는 source_notes.md.
