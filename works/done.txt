@@ -125,3 +125,4 @@
 2026-08-31T15:45:42	eomjigongju	facts/auto_eomjigongju.txt	동화 엄지공주에서 만날 수 있습니다	Nordic storybook illustration: leaf green, stream blue, pearl white, warm amber, fine ink linework. 	담담	72s
 2026-08-31T16:05:19	eomjigongju	facts/auto_eomjigongju.txt	동화 엄지공주에서 만날 수 있습니다	Nordic storybook illustration: leaf green, stream blue, pearl white, warm amber, fine ink linework. 	담담	72s
 2026-08-31T20:09:08	gyujungchiru	facts/auto_gyujungchiru.txt	수필 규중칠우쟁론기에서 만날 수 있습니다	Korean chaekgeori still-life painting style: silk cream, deep cinnabar red, lacquer black, warm gold, fine ink linework. 	생동	67s
+2026-08-31T21:54:02	gyujungchiru	facts/auto_gyujungchiru.txt	수필 규중칠우쟁론기에서 만날 수 있습니다	Korean chaekgeori still-life painting style: silk cream, deep cinnabar red, lacquer black, warm gold, fine ink linework. 	생동	67s
