@@ -145,32 +145,52 @@ def trim_silence(wav, sr, keep: float = 0.15):
 def _align_bounds_whisper(w, sr, sentences):
     """낭독 원문을 아는 채로 음성인식 단어 시각에 맞춰 문장 경계를 찍는다.
 
-    무음+글자수 휴리스틱은 경계가 1~3초씩 밀렸다(실측: 2.4초짜리 조각).
-    원문 정렬은 각 문장의 마지막 단어가 끝나는 시각을 직접 알려 준다.
+    함정 실측: numpy 배열을 그대로 넘기면 whisper 가 16kHz 로 가정한다 —
+    24kHz 음원의 시각이 1.5배로 늘어나 경계가 음원 밖을 가리켰다(77.5초
+    음원에 116초 시각). 반드시 16kHz 로 리샘플해 넘긴다. 매핑은 전사
+    오차에 강한 문자 단위 정렬(difflib)로 한다.
     """
-    import re, numpy as np
+    import re, difflib, numpy as np
     from faster_whisper import WhisperModel
+    x = np.asarray(w, dtype=np.float32)
+    if sr != 16000:
+        t_old = np.arange(len(x)) / sr
+        t_new = np.arange(int(len(x) * 16000 / sr)) / 16000
+        x = np.interp(t_new, t_old, x).astype(np.float32)
     m = WhisperModel("base", device="cpu", compute_type="int8")
-    segs, _ = m.transcribe(w.astype(np.float32), language="ko",
-                           word_timestamps=True, beam_size=1)
+    segs, _ = m.transcribe(x, language="ko", word_timestamps=True,
+                           beam_size=1, condition_on_previous_text=False)
     words = [wd for sg in segs for wd in (sg.words or [])]
     if len(words) < len(sentences) * 2:
         raise RuntimeError("단어 시각 부족")
     norm = lambda t: re.sub(r"[^가-힣0-9]", "", t)
-    sent_lens = [len(norm(x)) for x in sentences]
-    total_chars = sum(sent_lens)
-    wtexts = [norm(wd.word) for wd in words]
-    cum_w = np.cumsum([len(t) for t in wtexts])
-    if cum_w[-1] < total_chars * 0.7:
-        raise RuntimeError("전사 부족")
-    bounds = []
-    acc = 0
-    for L in sent_lens[:-1]:
-        acc += L
-        target = acc / total_chars * cum_w[-1]
-        i = int(np.searchsorted(cum_w, target - 0.5))
-        i = min(i, len(words) - 2)
-        bounds.append((words[i].end + words[i + 1].start) / 2)
+    src = "".join(norm(t) for t in sentences)
+    tr_chars, char2word = [], []
+    for wi, wd in enumerate(words):
+        for ch in norm(wd.word):
+            tr_chars.append(ch); char2word.append(wi)
+    tr = "".join(tr_chars)
+    sm = difflib.SequenceMatcher(None, src, tr, autojunk=False)
+    if sm.ratio() < 0.55:
+        raise RuntimeError(f"전사 일치율 낮음 {sm.ratio():.2f}")
+    ops = sm.get_opcodes()
+    def map_pos(sp):
+        for tag, a1, a2, b1, b2 in ops:
+            if a1 <= sp < a2:
+                if a2 > a1:
+                    return b1 + int((sp - a1) / (a2 - a1) * max(b2 - b1, 1))
+                return b1
+        return len(tr) - 1
+    cum = np.cumsum([len(norm(t)) for t in sentences])[:-1]
+    total = len(w) / sr
+    bounds, prev = [], -1
+    for sp in cum:
+        tp = min(map_pos(int(sp)), len(tr) - 1)
+        wi = max(char2word[tp], prev + 1)
+        wi = min(wi, len(words) - 2)
+        prev = wi
+        b = (words[wi].end + words[wi + 1].start) / 2
+        bounds.append(min(b, total - 0.2))
     if any(b2 - b1 < 1.0 for b1, b2 in zip(bounds, bounds[1:])):
         raise RuntimeError("경계 간격 이상")
     return bounds
@@ -301,8 +321,8 @@ def main():
     p.add_argument("--narration", required=True)
     p.add_argument("--prefix", required=True, help="output/tts/<작품>_night_s")
     p.add_argument("--tone", default="담담")
-    p.add_argument("--mode", default="sentence", choices=["onebreath", "sentence"],
-                   help="onebreath: 한 호흡 생성(정렬 검증 완료 전까지 기본은 sentence)")
+    p.add_argument("--mode", default="onebreath", choices=["onebreath", "sentence"],
+                   help="onebreath: 한 호흡 생성 + 원문 정렬(기본). 정렬 불가 시 자동 폴백")
     p.add_argument("--target", type=float, default=0.0,
                    help="맞출 전체 길이(초). 0 이면 있는 그대로 둔다")
     # 침묵을 0.12초까지 깎았더니 문장이 꼬리를 물고 이어져 쫓기듯 들렸다(실측:
