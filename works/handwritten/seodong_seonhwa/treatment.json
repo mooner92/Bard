@@ -1,0 +1,171 @@
+{
+ "logline": "마 캐던 소년이 노래 하나로 공주를 얻고 금 골짜기로 왕이 된다",
+ "destination": "설화 서동과 선화공주에서 만날 수 있습니다",
+ "protagonist": "seodong",
+ "setting": "백제의 못가와 신라 서라벌, 두 나라의 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/seodong_seonhwa/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "earth red-brown, reed green, warm gold, indigo, cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "seodong",
+    "pond_field"
+   ],
+   "refs": [],
+   "beat": "못가에서 마를 캐는 소년 서동",
+   "visual": "the reedy pond in slanting morning light: the boy kneels on the red-brown terrace with a wooden hoe, levering a long pale yam whole out of the dug earth, his hemp jacket dusty at the knees, easy wide grin at the size of the catch; beside him an A-frame carrier already stacked with washed yams, dragonflies hanging over the still water below, wild yam vines climbing the terrace stones; his quick clever eyes are on the prize but his short topknot is cocked toward the road beyond the pond — a boy who digs with his hands and travels with his thoughts",
+   "motion": "the hoe levers and the long yam eases whole out of the crumbling red earth, roots trailing fine soil, and the boy's grin widens as he lifts it high to judge it against the light; a dragonfly tilts past the raised yam, loose earth trickling back into the hole, and the camera stays low along the dug terrace with the pond shining behind"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "seodong",
+    "pond_field"
+   ],
+   "refs": [],
+   "beat": "신라 공주가 곱다는 소문",
+   "visual": "dusk at the pond's edge, the day's digging done: the boy sits on the loaded A-frame with a half-eaten yam, listening hard to two passing peddlers resting their packs by the water — their hands sketching the far direction of Silla over the hills, their talk plainly of the capital and of the king's third daughter; the boy's easy grin has gone thoughtful, clever eyes fixed on the darkening eastern hills, the yam forgotten mid-bite; reeds lean in the evening air, the first star stands over the terraces, and a plan is visibly being born on a dusty boy's face",
+   "motion": "the peddlers' hands sketch the eastward road over the hills while the boy's chewing slows and stops, his eyes lifting from their gestures to the darkening ridgeline and staying there; the half-eaten yam lowers by degrees to his knee, reeds leaning in the last light, and the camera closes slowly on the thinking face against the evening hills"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "seodong",
+    "children",
+    "seorabeol"
+   ],
+   "refs": [],
+   "beat": "서라벌 골목에서 마를 나눠 주다",
+   "visual": "a bright lane in Seorabeol: the boy crouches at his opened A-frame with a heap of pale yams, handing them out free to three village children — two boys and a girl, cheeks already full, bare feet dancing with the windfall — while his own grin works with more purpose than generosity; persimmon trees lean over the rammed-earth walls, a stone gutter runs bright down the lane's middle, tiered pagoda roofs rise far off; he is teaching them something between bites, his hand keeping steady patient time, and three small mouths are learning words along with the yam",
+   "motion": "his hand keeps time in small patient beats while the three children chew and nod and mumble the lines back, the girl catching the tune first and the boys tumbling after; another yam passes from the heap to a small reaching hand, persimmon leaves ticking over the wall, and the camera circles the little singing school at crouching height"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "children",
+    "seorabeol"
+   ],
+   "refs": [],
+   "beat": "골목마다 퍼지는 노래",
+   "visual": "the lane at play hour, the song let loose: the three children skip along the stone gutter singing at the top of their lungs, arms swinging, the girl leading with her chin high — and down the lane other children are catching it, two more joining from a gateway, another leaning off a wall, the mischievous verse about the princess and the yam-boy bouncing from wall to wall; a grandmother at a gate turns her head, a water-carrier grins mid-stride, persimmon leaves drift onto the singers, and the song is plainly no longer anyone's to stop",
+   "motion": "the three skip and sing down the gutter line and the song spreads visibly — a gate child joining on the second line, the wall-percher swinging his legs in time, the water-carrier's shoulders bouncing as he walks — arms swinging wider as the chorus grows; drifting leaves spin in their wake, and the camera tracks ahead of the growing parade of small singers"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "jinpyeong",
+    "silla_palace"
+   ],
+   "refs": [],
+   "beat": "노래가 대궐에 닿다",
+   "visual": "the Silla palace hall, the song arrived where songs should not go: the king stands risen from his dais, stern broad face darkening, jade pendants of his tall gold crown swinging with the sharp turn of his head — while below, a court official on both knees repeats the verse with his forehead nearly to the polished floor, every syllable clearly costing him a year of life; bronze lamps burn steady along the red pillars, silk screens hold their painted calm behind the dais, and somewhere beyond the walls, faint as weather, children's voices carry the tune past the palace itself",
+   "motion": "the kneeling official's recitation trails off into the floorboards while the king's head turns slowly toward the outer wall, jade pendants swinging and settling, his stern face darkening by shades as the faint children's tune drifts in on the air; lamp flames stand very straight, the painted screens hold still, and the camera rises slowly from the bowed official to the listening king"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "seonhwa_road",
+    "silla_palace"
+   ],
+   "refs": [],
+   "beat": "선화공주의 귀양길",
+   "visual": "the palace's tall side gate at grey dawn: the princess steps out in plain traveling clothes — undyed jacket, grey skirt, one braid down her back, the single gold flower pin kept at her collar — a small cloth bundle on her back and her serene face held level against the morning cold; behind her the red pillars and green brackets of the hall recede in mist, two silent guards flank the gate looking straight ahead, and before her the road runs south between wet fields toward hills she has never walked; her step off the gate stone is small, unhurried and unbowed",
+   "motion": "she steps down from the gate stone and walks out along the field road at a steady unhurried pace, the bundle settling on her back, her braid swinging softly, breath faint in the cold air; the two guards hold their forward stare as the gate closes by degrees behind her, mist drifting over the wet fields ahead, and the camera follows her first quiet steps into exile"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "seodong",
+    "seonhwa_road"
+   ],
+   "refs": [],
+   "beat": "귀양길에 나타난 서동",
+   "visual": "a bend of the southern road between pines: the boy stands waiting at the roadside with his A-frame set down, hemp jacket brushed clean, topknot retied, and as the princess comes level he drops to both knees on the road dust and bows deep, hands flat before him — a yam-digger's bow offered with a king's composure; the princess stops a pace short, serene face tilted, reading the bowed stranger with more curiosity than alarm, one hand at the strap of her bundle; pine shadows bar the road between them, a magpie watches from a bough, and the road runs on south behind the two figures deciding whether to share it",
+   "motion": "his bow holds steady in the road dust while her tilted gaze travels over the brushed jacket, the retied topknot, the flat honest hands — and her held breath eases into the beginning of a smile; the magpie hops one branch closer, pine shadows trembling across the dust between them, and the camera holds the pace of ground where her next step will decide"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "seodong",
+    "seonhwa_road"
+   ],
+   "refs": [],
+   "beat": "동행 — 산길의 저녁",
+   "visual": "an evening mountain path, the two walking together at last: the boy ahead with his A-frame carrying her small bundle atop his yams, glancing back mid-story with his wide grin, and the princess a step behind, plain skirt gathered from the dew grass, laughing openly now with a hand at her mouth; the path winds between pines glowing rust in the late light, a stream runs somewhere below, and the space between the two travelers has closed from a wary pace to an easy arm's length; her gold flower pin catches the last sun at her collar, his stories plainly getting better the further they walk",
+   "motion": "he walks half-turned, hands sketching some tall moment of his story, and her laugh spills free behind her hand as she keeps pace, the gap between them easing shorter with the path's winding; the pines glow and darken by degrees, the stream sounding below, and the camera follows the two of them at story-telling distance down the winding light"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "seodong",
+    "seonhwa_road"
+   ],
+   "refs": [],
+   "beat": "금 한 덩이 앞의 웃음",
+   "visual": "a rest by a stream crossing, the story's hinge: the princess holds out on her open palm a lump of raw gold the size of a bird's egg — kept from her palace life for the road ahead — her face grave with the weight of their only wealth; and across the flat stone from her the boy is laughing, honestly and hugely, head back, hand slapping his knee, the laugh of someone shown a pebble from a beach he owns; her gravity tips into bewilderment, the gold sits small and bright between them on her palm, and the stream runs loud past the mismatched pair and their opposite understandings of treasure",
+   "motion": "her open palm holds the gold steady while his laugh rolls on, head back, hand coming down on his knee, and her grave face tips by degrees into bewildered half-smiling protest; the stream glitters past the flat stone, the gold catching one bright point of sun between them, and the camera closes on the palm and the laughing boy beyond it"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "seodong",
+    "seonhwa_road",
+    "pond_field"
+   ],
+   "refs": [],
+   "beat": "흙처럼 쌓인 금",
+   "visual": "the yam terraces above the reedy pond, the secret shown: the boy sweeps his arm over his old digging ground — and among the red-brown earth and yam vines the slope glints everywhere, lumps of raw gold lying in the turned soil thick as stones in a stream bed, nuggets the size of yams half-buried where he tossed them aside for years; the princess stands with both hands at her mouth, bundle sliding forgotten from her shoulder, serene composure gone entirely to wide-eyed wonder; dragonflies hang over the pond below, the hoe stands where it always stood, and a poor boy's field turns out to be a kingdom's ransom in the evening light",
+   "motion": "his sweeping arm carries her gaze across the slope and the glints answer it everywhere the light touches, gold lumps surfacing to the eye one after another among the vines; her hands rise to her mouth and the bundle slides slowly from her shoulder to the grass, and the camera pans with the sweep across the glinting field to her stunned face"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "seodong",
+    "seonhwa_road",
+    "seorabeol"
+   ],
+   "refs": [],
+   "beat": "수레에 실어 신라로",
+   "visual": "the Seorabeol road at bright midday: a line of ox-carts rolls toward the walls of the capital, each cart heaped with gold under lashed straw mats, corners of treasure glinting through — and walking at the head of the line the boy and the princess side by side, he with his old A-frame carrying nothing but her small bundle, she in her plain road clothes with the gold flower pin bright at her collar; gate guards crane from the wall, market people line the verge whispering behind hands, and the pair walk their gift in through the gates of the kingdom that exiled her",
+   "motion": "the ox-carts roll in a slow heavy line, straw mats shifting to flash gold at every rut, while the two at the head keep their easy walking pace through the widening whispers of the crowd; the gate guards straighten one after another as the line passes under the wall, and the camera walks with the pair through the opening gates"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "seodong",
+    "baekje_hall"
+   ],
+   "refs": [],
+   "beat": "백제로 돌아온 서동",
+   "visual": "the Baekje throne hall in warm incense light: the boy — older in bearing now, hemp exchanged for a plain dark court robe but the quick clever eyes and easy grin unchanged — stands before the phoenix-carved throne receiving the bows of officials in white and violet along both walls; incense smoke climbs the warm ochre pillars, and at the hall's heart, seated where he can see her, the princess in crimson silk again with her gold flowers back in her braids — exile turned to honor beside the yam-digger turned lord; the throne waits one step above them both in the drifting sweet smoke",
+   "motion": "the officials' bows travel down both walls in a slow wave while he receives them with the same easy grin turned formal, and his glance finds the princess mid-ceremony and warms; the incense smoke leans and rights itself along the pillars, silks whispering as the wave of bows completes, and the camera drifts down the hall's center between the bowing rows"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "seodong",
+    "baekje_hall"
+   ],
+   "refs": [],
+   "beat": "무왕의 관 (질문)",
+   "visual": "close at the foot of the phoenix throne: the gold crown of Baekje is lowered onto the boy's bowed head by an elder official's careful hands — the same sun-browned face beneath it, the topknot cord traded for a king's coil, the clever eyes lowered in the one solemn moment of his laughing life; incense climbs, the assembled hall holds its breath along the walls, and on the crown's front a small gold flower ornament catches the lamplight the way a pin at a collar once did; the yam-digger's hands rest open on his knees, and the crown settles",
+   "motion": "the crown lowers in the elder's careful hands through the incense light and settles onto the bowed head, the small gold flower on its front catching one steady gleam as it comes to rest; the hall's held breath releases in a long rustle of silk down both walls, his open hands closing slowly on his knees, and the camera holds the crowned bow in the drifting smoke"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "pond_field"
+   ],
+   "refs": [],
+   "beat": "마무리 — 못가의 연꽃",
+   "visual": "the old reedy pond at golden evening, the story's beginning place at rest: the dug terraces have grown over green, the wooden hoe leans against a stone with its handle silvered by seasons, and across the still water white lotus flowers stand open in the last light — dozens of them, cups of pale light on the dark mirror where a boy once washed yams; dragonflies stitch the warm air, the eastern hills hold the last sun on their shoulders, and the pond keeps both its gold and its story folded under the lotus leaves",
+   "motion": "only evening moves: the lotus cups swaying by a petal's width on the dark mirror, a dragonfly touching the water once so rings widen out through the reflected gold light, the reeds leaning together in the warm air; the silvered hoe holds its lean against the stone, the hills darken by one shade, and the camera pulls back slowly and low across the blooming water"
+  }
+ ],
+ "withheld": "못에서 솟은 미륵과 미륵사 창건, 왕비 선화의 발원"
+}

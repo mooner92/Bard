@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 서동과 선화공주 / 해동염사(삼국유사 무왕조) / 한국 /
+[줄거리와 배경]
+백제 못가에서 마를 캐던 소년 서동이 노래 하나로 신라의 선화공주를 얻고,
+마 캐던 골짜기의 금으로 인심을 사 백제 무왕이 된다.
+[줄거리]
+줄거리와 배역은 works/handwritten/seodong_seonhwa/treatment.json 에 열네 박자로 적어 두었다.
+원문은 works/sources/seodong_seonhwa_ko.txt (해동염사), 근거는 source_notes.md.
