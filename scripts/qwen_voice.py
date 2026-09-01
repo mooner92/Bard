@@ -142,6 +142,60 @@ def trim_silence(wav, sr, keep: float = 0.15):
     return wav[i:j]
 
 
+def synth_onebreath(model, sentences, tone: str = ""):
+    """전체 낭독을 한 호흡으로 생성해 문장 경계 무음에서 가른다.
+
+    문장마다 따로 생성하면 화자는 같아도 억양·템포가 문장마다 새로 뽑혀
+    영상 안에서 목소리가 계속 바뀐다(실측: 문장 간 음색 유사도 최저 0.665,
+    사용자 "계속 바뀌어 왜"). 한 번에 생성하면 하나의 억양 흐름이 전체를
+    관통한다. 경계는 글자 수 누적 비율로 예상 위치를 잡고, 그 근처에서
+    가장 길고 가까운 무음 골짜기를 고른다(쉼표 호흡과 문장 경계를 구별).
+    매칭 신뢰가 약하면 문장별 방식으로 물러난다.
+    """
+    import numpy as np, torch
+    full = "\n".join(x.strip() for x in sentences)
+    torch.manual_seed(SEED)
+    wavs, sr = model.generate_custom_voice(
+        text=full, speaker=SPEAKER, language="Korean", instruct=VOICE)
+    w = np.asarray(wavs[0] if isinstance(wavs, list) else wavs,
+                   dtype=np.float32).squeeze()
+    hop = int(sr * 0.02)
+    env = np.array([np.abs(w[i:i + hop]).max()
+                    for i in range(0, len(w) - hop, hop)])
+    quiet = env < 0.02
+    runs, start = [], None
+    for i, q in enumerate(quiet):
+        if q and start is None:
+            start = i
+        if not q and start is not None:
+            runs.append((start * 0.02, i * 0.02)); start = None
+    gaps = [(a, b) for a, b in runs if (b - a) >= 0.22 and a > 0.5]
+    chars = [len(x) for x in sentences]
+    cum = np.cumsum(chars)[:-1] / sum(chars)
+    total = len(w) / sr
+    bounds, used = [], set()
+    for frac in cum:
+        target = float(frac) * total
+        best, score = None, 1e9
+        for j, (a, b) in enumerate(gaps):
+            if j in used:
+                continue
+            mid = (a + b) / 2
+            d = abs(mid - target) - (b - a) * 0.8
+            if d < score:
+                best, score = j, d
+        if best is None or abs(sum(gaps[best]) / 2 - target) > 2.2:
+            print("  한 호흡 경계 매칭 약함 — 문장별로 물러남", flush=True)
+            return synth(model, sentences, tone)
+        used.add(best); bounds.append(sum(gaps[best]) / 2)
+    cuts = [0.0] + sorted(bounds) + [total]
+    pairs = []
+    for i in range(len(sentences)):
+        seg = w[int(cuts[i] * sr):int(cuts[i + 1] * sr)]
+        pairs.append((trim_silence(seg, sr), sr))
+    return pairs
+
+
 def write_wavs(pairs, prefix: str, speed: float = 1.0, pad: float = 0.0) -> list:
     """prefix{i}.wav 로 쓴다. speed<1 이면 느리게 늘리고, pad 초만큼 뒤에 숨을 둔다.
 
@@ -183,6 +237,8 @@ def main():
     p.add_argument("--narration", required=True)
     p.add_argument("--prefix", required=True, help="output/tts/<작품>_night_s")
     p.add_argument("--tone", default="담담")
+    p.add_argument("--mode", default="onebreath", choices=["onebreath", "sentence"],
+                   help="onebreath: 전체를 한 번에 생성해 경계에서 가른다(기본)")
     p.add_argument("--target", type=float, default=0.0,
                    help="맞출 전체 길이(초). 0 이면 있는 그대로 둔다")
     # 침묵을 0.12초까지 깎았더니 문장이 꼬리를 물고 이어져 쫓기듯 들렸다(실측:
@@ -194,7 +250,8 @@ def main():
 
     sents = json.loads(Path(a.narration).read_text(encoding="utf-8"))["sentences"]
     model = load_model(a.device)
-    pairs = synth(model, sents, a.tone)
+    pairs = (synth_onebreath(model, sents, a.tone) if a.mode == "onebreath"
+             else synth(model, sents, a.tone))
     ok = [x for x in pairs if x]
     if len(ok) != len(sents):
         sys.exit(f"합성 {len(ok)}/{len(sents)} — 중단")
