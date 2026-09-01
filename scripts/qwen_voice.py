@@ -142,6 +142,40 @@ def trim_silence(wav, sr, keep: float = 0.15):
     return wav[i:j]
 
 
+def _align_bounds_whisper(w, sr, sentences):
+    """낭독 원문을 아는 채로 음성인식 단어 시각에 맞춰 문장 경계를 찍는다.
+
+    무음+글자수 휴리스틱은 경계가 1~3초씩 밀렸다(실측: 2.4초짜리 조각).
+    원문 정렬은 각 문장의 마지막 단어가 끝나는 시각을 직접 알려 준다.
+    """
+    import re, numpy as np
+    from faster_whisper import WhisperModel
+    m = WhisperModel("base", device="cpu", compute_type="int8")
+    segs, _ = m.transcribe(w.astype(np.float32), language="ko",
+                           word_timestamps=True, beam_size=1)
+    words = [wd for sg in segs for wd in (sg.words or [])]
+    if len(words) < len(sentences) * 2:
+        raise RuntimeError("단어 시각 부족")
+    norm = lambda t: re.sub(r"[^가-힣0-9]", "", t)
+    sent_lens = [len(norm(x)) for x in sentences]
+    total_chars = sum(sent_lens)
+    wtexts = [norm(wd.word) for wd in words]
+    cum_w = np.cumsum([len(t) for t in wtexts])
+    if cum_w[-1] < total_chars * 0.7:
+        raise RuntimeError("전사 부족")
+    bounds = []
+    acc = 0
+    for L in sent_lens[:-1]:
+        acc += L
+        target = acc / total_chars * cum_w[-1]
+        i = int(np.searchsorted(cum_w, target - 0.5))
+        i = min(i, len(words) - 2)
+        bounds.append((words[i].end + words[i + 1].start) / 2)
+    if any(b2 - b1 < 1.0 for b1, b2 in zip(bounds, bounds[1:])):
+        raise RuntimeError("경계 간격 이상")
+    return bounds
+
+
 def synth_onebreath(model, sentences, tone: str = ""):
     """전체 낭독을 한 호흡으로 생성해 문장 경계 무음에서 가른다.
 
@@ -159,6 +193,17 @@ def synth_onebreath(model, sentences, tone: str = ""):
         text=full, speaker=SPEAKER, language="Korean", instruct=VOICE)
     w = np.asarray(wavs[0] if isinstance(wavs, list) else wavs,
                    dtype=np.float32).squeeze()
+    try:
+        bounds = _align_bounds_whisper(w, sr, sentences)
+        cuts = [0.0] + bounds + [len(w) / sr]
+        pairs = []
+        for i in range(len(sentences)):
+            seg = w[int(cuts[i] * sr):int(cuts[i + 1] * sr)]
+            pairs.append((trim_silence(seg, sr), sr))
+        print("  한 호흡 + 원문 정렬", flush=True)
+        return pairs
+    except Exception as e:
+        print(f"  원문 정렬 불가({e}) — 골짜기 매칭으로", flush=True)
     hop = int(sr * 0.02)
     env = np.array([np.abs(w[i:i + hop]).max()
                     for i in range(0, len(w) - hop, hop)])
