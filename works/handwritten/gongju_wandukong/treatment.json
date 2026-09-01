@@ -1,0 +1,166 @@
+{
+ "logline": "폭풍우 밤에 온 젖은 공주와 요 스무 장 아래 완두콩 한 알의 시험",
+ "destination": "동화 공주와 완두콩에서 만날 수 있습니다",
+ "protagonist": "princess_wet",
+ "setting": "안데르센의 왕궁 — 폭풍의 성문, 요 탑의 침실, 박물관",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/gongju_wandukong/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "storm blue-grey, candle amber, rose pink, plum, cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "prince"
+   ],
+   "refs": [],
+   "beat": "진짜 공주를 찾아 세상을 돌고 온 왕자",
+   "visual": "a rain-lit study in the palace evening: the young prince slumped in a chair beside a table spread with maps and letters, travel cloak still dusty across the chair back, boots mud-flecked from the last of many roads; the maps are inked with routes that loop across kingdoms and come home again, sealed letters of introduction lie opened and set aside, and his earnest hopeful face rests on one fist, hope worn thin at the edges; a candle burns low, rain starting to tick at the dark window, and every road on the table has led back to this chair without a real princess at the end of it",
+   "motion": "his fingertip travels one more looped route across the map and stops where it started, and his head settles heavier onto his fist while the candle flame nods; rain begins to tick and then to stream on the dark glass, the opened letters stirring in a draught, and the camera drifts slowly across the mapped roads that all come home"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "palace_gate"
+   ],
+   "refs": [],
+   "beat": "폭풍우 밤, 성문 두드리는 소리",
+   "visual": "the great iron-studded gate in the full storm: rain drives in white sheets past the single swinging lantern, lightning stands the wet stone walls in pale relief, gargoyle spouts stream — and at the gate's small inset door a knocking shakes the iron ring, urgent through the weather; the lantern swings its circle of light across the studs with every gust, water sluices down the steps, and the sound of the knocker carries into the dark courtyard where a porter's light is just kindling in a window",
+   "motion": "the iron ring lifts and knocks again and again against its plate, the sound cutting through the rain's roar, while the lantern swings wider with the gusts and its light sweeps back and forth across the streaming door; the porter's window warms brighter across the courtyard, lightning washing the wall once, and the camera pushes slowly toward the shaking ring"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "princess_wet",
+    "palace_gate"
+   ],
+   "refs": [],
+   "beat": "성문 앞의 젖은 공주",
+   "visual": "the inset door swung open on the storm: in the lantern's circle stands the drenched young woman, fair hair plastered in dripping strands, rose gown soaked dark and clinging, water running from her sleeves and pooling at her shoes on the stone sill — and against all of it her chin held level and her grey eyes steady on the doorway's light; rain slants through the lantern glow behind her, the courtyard's warmth spills a thin gold wedge across her wet face, and the porter's lamp trembles somewhere at the frame's edge before this calm and dripping apparition",
+   "motion": "water runs and drips from her sleeves and hem in steady threads while she stands unmoving in the lantern circle, only her level chin lifting a degree as the door opens wider, rain slanting behind her and the thin gold wedge of indoor light widening slowly up her drenched gown to her steady eyes; the lantern sways once, and the camera holds in the doorway looking out at her"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "princess_wet",
+    "queen"
+   ],
+   "refs": [],
+   "beat": "그래도 저는 진짜 공주입니다",
+   "visual": "the entrance hall by candle-branch light: the drenched young woman stands on the flagstones in a spreading ring of rainwater, and before her the old queen — small, sharp-eyed, lace cap and plum velvet, keys at her waist — looks her up and down with open skeptical arithmetic; the young woman's soaked gown drips from every fold yet her level chin and steady grey eyes hold the queen's gaze as she makes her quiet impossible claim; candles bend in the draught from the closed door, a servant hovers with a dry blanket, and the word princess hangs between the two women over the widening puddle",
+   "motion": "the queen's sharp eyes travel slowly from the plastered hair down the dripping folds to the pooling shoes and back up to the level grey eyes that have not moved, and one of her quick hands rises to touch the keys at her waist as a plan visibly assembles behind her face; the candles bend and recover, drips ringing softly into the puddle, and the camera holds the appraisal between the two faces"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "queen",
+    "bedchamber"
+   ],
+   "refs": [],
+   "beat": "요 아래 완두콩 한 알",
+   "visual": "the tall guest bedchamber by candlelight: the old queen alone beside the stripped carved bedframe, its bare boards exposed — and between her thumb and forefinger, held up to the candle for one last look, a single dried pea, small and hard and green; the ladder leans ready against the wall, folded bedding waits in a high pile by the door, rain streaks the small window, and the queen's sharp face wears the private smile of a woman setting a very small trap for a very large claim; she bends and sets the pea precisely at the center of the bare boards",
+   "motion": "the pea turns once between her thumb and forefinger in the candlelight, then her quick deliberate hand lowers and sets it at the exact center of the bare bed boards, adjusting it a finger's width with one nail; she straightens with her private smile deepening, the ladder's shadow swaying on the wall as the candle nods, and the camera closes on the tiny green speck alone on the wide boards"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "bedchamber"
+   ],
+   "refs": [],
+   "beat": "요 스무 장, 이불 스무 장",
+   "visual": "the bedchamber transformed into a soft tower: on the carved bedframe the mattresses rise one upon another in a swaying stack taller than a man — twenty of them, striped and plain, edge upon edge — and upon the mattresses twenty eider-down quilts more, cloud upon cloud, until the topmost pillow nearly brushes the beam; the wooden ladder leans against the stack's side reaching for the summit, the candle sconce lights the tower's cliff of stripes and seams, and somewhere beneath the whole soft mountain, invisible and patient, waits one small hard green pea",
+   "motion": "the tower of bedding settles under its own softness in slow tiny sighs, seams creaking faintly, the topmost quilt breathing as the room's draught passes over the summit; the ladder holds its lean, the candle flame sways the tower's striped shadow across the wall, and the camera tilts slowly up the whole soft cliff from bedpost to pillow"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "princess_court",
+    "bedchamber"
+   ],
+   "refs": [],
+   "beat": "사다리로 오르는 공주",
+   "visual": "the climb to the summit: the young woman — dried now, white morning gown and shawl, fair hair brushed loose — ascends the wooden ladder rung by rung up the striped cliff of mattresses, one hand gathering her hem, candle shadows swinging her silhouette huge across the wall; the tower sways a breath with each step, the topmost quilt waits turned down at the summit, rain still streaks the small window, and the whole absurd soft mountain receives its climber with dignity on both sides",
+   "motion": "she climbs rung by careful rung, hem gathered, the ladder creaking and the tower answering each step with a soft sway, her huge shadow climbing the wall beside her; at the summit she turns and settles onto the turned-down quilt, the whole stack breathing once beneath her, and the camera rises with the climb from rung to summit"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "princess_court",
+    "bedchamber"
+   ],
+   "refs": [],
+   "beat": "잠 못 드는 밤",
+   "visual": "deep night at the summit of the bedding tower: the candle burned to a stub, the young woman turned on her side high on the cloud of quilts, eyes open in the dark, faint tired shadows deepening beneath them; the quilts around her are rumpled by turning — one dragged sideways, a pillow pushed away — and her hand presses under her ribs at some impossible discomfort rising through forty soft layers; rain has thinned to ticking on the glass, the tower's striped cliff stands patient below her, and at its buried heart the small green pea keeps her whole royal body awake",
+   "motion": "she turns from one side to the other in a slow unhappy roll, dragging a quilt with her, then presses a hand beneath her ribs and stares at the dark beam overhead, breath escaping in a long sigh; the candle stub gutters low, the rumpled quilts settling around her turning, and the camera drifts slowly over the sleepless summit"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "princess_court",
+    "queen"
+   ],
+   "refs": [],
+   "beat": "간밤엔 잘 주무셨나요",
+   "visual": "the morning room in clean rain-washed light: the young woman seated at breakfast in her white gown and shawl, teacup untouched, tired shadows plain beneath her steady eyes — and across the table the old queen leaning in with her sharpest and sweetest smile, hands folded, asking the innocent question the whole night was built for; the prince hovers by the window pretending interest in the weather, silver gleams between them on white linen, and the answer everyone waits for sits behind the young woman's tired level face",
+   "motion": "the queen's folded hands settle and her sweet sharp smile holds while the question hangs, the prince's pretense at the window failing as his head turns by degrees, and the young woman sets down her untouched cup with a small tired precision that is itself the beginning of an answer; light shifts on the linen as the rain clouds thin outside, and the camera slides slowly around the waiting table"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "princess_court",
+    "queen"
+   ],
+   "refs": [],
+   "beat": "온몸이 멍든 것 같아요",
+   "visual": "the answer given, close across the breakfast linen: the young woman with one hand at her shoulder, tired grey eyes wide with honest bewilderment as she describes the night — something hard beneath everything, her whole body feeling bruised — while the old queen's teacup pauses halfway to her lips and her sharp eyes go bright with triumph over the rim; the prince has abandoned the window entirely, leaning in at the table's end with his hopeful face lit, and the morning light lies across the linen between the complaint and the two people it has just made happy",
+   "motion": "her hand moves from shoulder to ribs retracing the night's aches while her bewildered account runs on, and the queen's pausing cup lowers slowly back to its saucer untasted, her bright eyes going over the rim to meet the prince's; his lean over the table deepens, morning light strengthening across the linen, and the camera closes on the bright exchange of looks above the complaint"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "prince",
+    "princess_court",
+    "queen"
+   ],
+   "refs": [],
+   "beat": "진짜 공주다",
+   "visual": "the recognition, all three in the rain-washed morning room: the old queen risen from her chair with both quick hands lifted in delighted verdict, the prince crossing the room to the young woman with his earnest face wide open with joy, and the young woman herself looking between them — tired, bewildered, and beginning, at last, to smile — as the meaning of the strange night arrives; the breakfast linen holds its silver, sun lays its first full stripe across the floor between them, and forty layers of bedding upstairs have delivered their verdict through one green pea",
+   "motion": "the queen's lifted hands come together in one soft delighted clap while the prince crosses the floor in three quick strides and takes the young woman's hands, her bewilderment easing into a tired growing smile between them; the sun stripe widens across the boards, silver glinting on the linen, and the camera pulls gently back to hold all three in the bright room"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "prince",
+    "princess_court",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "혼인 잔치",
+   "visual": "the banquet hall in full celebration: garlands and banners overhead, long tables shining with candelabra and silver, musicians leaning into their bows in the gallery — and at the head of it all the prince and the princess side by side, he in his blue coat with silver frogging, she crowned with flowers over her loose fair hair, both laughing at something between them alone; guests raise cups down the long perspective of the tables, candlelight swims in the silver, and the palace celebrates the only bride ever proven by a bruise",
+   "motion": "cups rise down the long tables in a rolling wave while the musicians' bows lean together into the dance, the couple's shared laugh carrying them a half-step closer, her flower crown catching the candelabra light; garlands stir overhead in the warm risen air, and the camera glides down the table's long glitter toward the laughing pair"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "museum"
+   ],
+   "refs": [],
+   "beat": "박물관의 완두콩 (질문)",
+   "visual": "the quiet museum room, the story's witness retired: on a velvet pillar at the room's center stands the small glass case, and inside it, alone on a tiny cushion, the pea — small, dried, green-grey, unimpressive and immortal; drawn light from the tall windows lays soft bars across the parquet, gilt-framed portraits watch from the walls, and a small engraved stand tilts beside the case, its surface catching light without a legible word; the room holds the hush of places where small things are kept because of what they proved",
+   "motion": "dust motes turn slowly through the window bars of light around the glass case, the pea's tiny shadow circling imperceptibly on its cushion as the daylight moves, the portraits holding their painted watch; the hush of the room settles deeper by degrees, and the camera closes with great patience on the small green witness in its glass"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "museum"
+   ],
+   "refs": [],
+   "beat": "마무리 — 유리장 스틸",
+   "visual": "the museum room at closing light: the last sun through the tall windows narrows to one warm blade that crosses the parquet and climbs the velvet pillar to rest exactly on the glass case and its tiny occupant, the pea glowing faintly amber in the beam; the portraits along the walls sink into shadow one by one, the parquet's polish holds the window's shape in long pale ghosts, and the smallest exhibit in the palace keeps the day's last light entirely to itself",
+   "motion": "the warm blade of sun narrows and climbs by slow degrees until only the glass case holds light, the pea glowing amber at its center while the room dims around it; a last dust mote settles through the beam, the portraits going to shadow along the walls, and the camera holds the lit case in the darkening hush until the beam thins to a thread"
+  }
+ ],
+ "withheld": "완두콩이 박물관에 들어간 사연의 마지막 한 줄"
+}

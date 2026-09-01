@@ -1,1 +1,1 @@
-seodong_seonhwa	facts/auto_seodong_seonhwa.txt	설화 서동과 선화공주에서 만날 수 있습니다	Korean minhwa folk-painting style: earth red-brown, reed green, warm gold, indigo, cream, soft flat washes. 	생동
+gongju_wandukong	facts/auto_gongju_wandukong.txt	동화 공주와 완두콩에서 만날 수 있습니다	European storybook illustration: storm blue-grey, candle amber, rose pink, plum, cream, fine ink linework. 	생동

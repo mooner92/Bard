@@ -381,5 +381,9 @@
  "seodong_seonhwa": {
   "region": "한국",
   "genre": "사랑·가족"
+ },
+ "gongju_wandukong": {
+  "region": "기타 유럽",
+  "genre": "사랑·가족"
  }
 }

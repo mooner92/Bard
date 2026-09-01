@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 공주와 완두콩 / 한스 크리스티안 안데르센 / 덴마크 / 1835
+[줄거리와 배경]
+폭풍우 밤 성문을 두드린 젖은 공주가, 요 스무 장과 이불 스무 장 아래
+완두콩 한 알의 시험으로 진짜 공주임을 증명한다.
+[줄거리]
+줄거리와 배역은 works/handwritten/gongju_wandukong/treatment.json 에 열네 박자로 적어 두었다.
+원문은 works/sources/wandukong_princess_en.txt (구텐베르크 #1597), 근거는 source_notes.md.
