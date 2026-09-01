@@ -173,22 +173,41 @@ def synth_onebreath(model, sentences, tone: str = ""):
     chars = [len(x) for x in sentences]
     cum = np.cumsum(chars)[:-1] / sum(chars)
     total = len(w) / sr
-    bounds, used = [], set()
-    for frac in cum:
-        target = float(frac) * total
-        best, score = None, 1e9
-        for j, (a, b) in enumerate(gaps):
-            if j in used:
-                continue
-            mid = (a + b) / 2
-            d = abs(mid - target) - (b - a) * 0.4
-            if d < score:
-                best, score = j, d
-        if best is None or abs(sum(gaps[best]) / 2 - target) > 1.6:
-            print("  한 호흡 경계 매칭 약함 — 문장별로 물러남", flush=True)
-            return synth(model, sentences, tone)
-        used.add(best); bounds.append(sum(gaps[best]) / 2)
-    cuts = [0.0] + sorted(bounds) + [total]
+    # 전역 최적 배정: 경계는 단조 증가해야 하고, 탐욕 선택은 뒤 경계를
+    # 궁지로 몬다(실측: 조인 창에서 문장별로 물러났다). DP 로 전체 비용을
+    # 최소화한다 — 비용 = 예상 위치와의 거리 - 골짜기 길이 보너스.
+    mids = [(a + b) / 2 for a, b in gaps]
+    lens = [b - a for a, b in gaps]
+    targets = [float(f) * total for f in cum]
+    NB, NG = len(targets), len(mids)
+    INF = 1e18
+    cost = [[INF] * (NG + 1) for _ in range(NB + 1)]
+    back = [[-1] * (NG + 1) for _ in range(NB + 1)]
+    for j in range(NG + 1):
+        cost[0][j] = 0.0
+    for i in range(1, NB + 1):
+        for j in range(i, NG + 1):
+            take = cost[i - 1][j - 1] + abs(mids[j - 1] - targets[i - 1]) - lens[j - 1] * 0.5
+            skip = cost[i][j - 1]
+            if take < skip:
+                cost[i][j] = take; back[i][j] = 1
+            else:
+                cost[i][j] = skip; back[i][j] = 0
+    if cost[NB][NG] >= INF / 2:
+        print("  한 호흡 경계 매칭 불가 — 문장별로 물러남", flush=True)
+        return synth(model, sentences, tone)
+    bounds, i, j = [], NB, NG
+    while i > 0:
+        if back[i][j] == 1:
+            bounds.append(mids[j - 1]); i -= 1; j -= 1
+        else:
+            j -= 1
+    bounds.reverse()
+    worst = max(abs(b - t) for b, t in zip(bounds, targets))
+    if worst > 2.6:
+        print(f"  한 호흡 경계 최대 이탈 {worst:.1f}s — 문장별로 물러남", flush=True)
+        return synth(model, sentences, tone)
+    cuts = [0.0] + bounds + [total]
     pairs = []
     for i in range(len(sentences)):
         seg = w[int(cuts[i] * sr):int(cuts[i + 1] * sr)]
