@@ -301,8 +301,8 @@ def main():
     p.add_argument("--narration", required=True)
     p.add_argument("--prefix", required=True, help="output/tts/<작품>_night_s")
     p.add_argument("--tone", default="담담")
-    p.add_argument("--mode", default="onebreath", choices=["onebreath", "sentence"],
-                   help="onebreath: 전체를 한 번에 생성해 경계에서 가른다(기본)")
+    p.add_argument("--mode", default="sentence", choices=["onebreath", "sentence"],
+                   help="onebreath: 한 호흡 생성(정렬 검증 완료 전까지 기본은 sentence)")
     p.add_argument("--target", type=float, default=0.0,
                    help="맞출 전체 길이(초). 0 이면 있는 그대로 둔다")
     # 침묵을 0.12초까지 깎았더니 문장이 꼬리를 물고 이어져 쫓기듯 들렸다(실측:
