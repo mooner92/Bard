@@ -181,10 +181,10 @@ def synth_onebreath(model, sentences, tone: str = ""):
             if j in used:
                 continue
             mid = (a + b) / 2
-            d = abs(mid - target) - (b - a) * 0.8
+            d = abs(mid - target) - (b - a) * 0.4
             if d < score:
                 best, score = j, d
-        if best is None or abs(sum(gaps[best]) / 2 - target) > 2.2:
+        if best is None or abs(sum(gaps[best]) / 2 - target) > 1.6:
             print("  한 호흡 경계 매칭 약함 — 문장별로 물러남", flush=True)
             return synth(model, sentences, tone)
         used.add(best); bounds.append(sum(gaps[best]) / 2)
