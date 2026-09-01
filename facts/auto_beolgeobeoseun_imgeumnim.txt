@@ -1,0 +1,8 @@
+[포맷] 각색형
+[서지] 벌거벗은 임금님 / 한스 크리스티안 안데르센 / 덴마크 / 1837
+[줄거리와 배경]
+어리석은 눈에는 보이지 않는다는 천 한 필이 임금과 대신과 온 거리를 시늉의
+공모자로 만들고, 한 아이의 외침이 그 전부를 무너뜨린다.
+[줄거리]
+줄거리와 배역은 works/handwritten/beolgeobeoseun_imgeumnim/treatment.json 에 열네 박자로 적어 두었다.
+원문은 works/sources/imgeumnim_emperor_en.txt (구텐베르크 #1597), 근거는 source_notes.md.

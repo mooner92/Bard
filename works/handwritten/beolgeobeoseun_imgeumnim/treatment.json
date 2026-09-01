@@ -1,0 +1,174 @@
+{
+ "logline": "보이지 않는 천 한 필이 임금과 온 거리를 시늉의 공모자로 만든다",
+ "destination": "동화 벌거벗은 임금님에서 만날 수 있습니다",
+ "protagonist": "emperor",
+ "setting": "안데르센의 유럽 소도시 — 궁전 옷방, 탑의 베틀 방, 행렬 거리",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/beolgeobeoseun_imgeumnim/assets",
+ "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
+ "palette": "royal purple, warm gold, powder blue, crimson red, cream",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "emperor",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "시간마다 새 옷을 갈아입는 임금님",
+   "visual": "the dressing hall in bright morning: the plump emperor stands robed in deep royal purple and gold before the tallest of the gilt mirrors, turning to admire the fall of his sleeve, crown gleaming on his curled grey hair, waxed mustache lifted by a satisfied smile; around him the hall is a garden of clothing — racks and open wardrobes crowded with coats of every color, a velvet stool buried under folded silks, two servants hurrying a fresh coat forward on outstretched arms because the hour is about to strike; the chandeliers double themselves in the mirrors and the mirrors double the emperor, so the room seems full of nothing but coats and kings",
+   "motion": "the emperor turns before the tall mirror in one slow satisfied rotation, sleeve lifted, mustache tips rising with his smile, while the two servants advance the fresh coat on their arms in step together; his reflection turns with him in every gilt frame down the hall, a clock somewhere begins to sound the hour, and the camera drifts along the mirror row past king after reflected king"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "swindler_tall",
+    "swindler_short",
+    "emperor",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "두 사기꾼의 보이지 않는 천 이야기",
+   "visual": "the same hall, the two visitors mid-performance before the throne chair: the tall lean swindler bows with his plum coat sweeping wide, long clever fingers sketching an invisible bolt of cloth in the air between his hands, while the short round one beams beside him, mustard waistcoat straining, ringed fingers pinching the air at the corners of the nothing his partner holds; the emperor leans forward from his chair, eyes bright with want, crown tipping — the pitch visible in the space between the swindlers' hands where both of them look with such conviction that the air itself seems about to shimmer",
+   "motion": "the tall one's clever fingers draw slowly apart as though unrolling a bolt through the air, and the short one's ringed fingers follow the invisible corners, both faces tracking the nothing with devoted eyes; the emperor leans further forward off his chair back, crown tipping by degrees, lips parting, and the camera eases around the pair to frame the empty air they are selling between their four busy hands"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "swindler_tall",
+    "swindler_short",
+    "loom_room"
+   ],
+   "refs": [],
+   "beat": "빈 베틀의 밤샘 시늉",
+   "visual": "the tower workroom late at night: two large wooden looms stand completely empty in the candlelight, and at them the two swindlers work with enormous industry at nothing — the tall one bent over his loom throwing an empty shuttle between bare threads that are not there, the short one treading the pedals of the other loom so the empty frame clacks and swings; on the bench between them sits an open strongbox of golden thread and rich silk skeins, plainly untouched by any loom, half already tied into two traveling bundles; candle flames lean with the busy motion, the barred window holds the sleeping town below, and the empty looms throw huge working shadows on the wall",
+   "motion": "the empty shuttle flies from the tall one's hand across bare air and back, his body rocking with weaver's rhythm, while the short one treads the pedals in time so both bare frames clack and swing; the candle flames lean and recover with each pass, the great empty shadows work furiously on the wall behind, and the camera slides slowly past the strongbox of untouched gold toward the two industrious nothings"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "minister",
+    "swindler_tall",
+    "loom_room"
+   ],
+   "refs": [],
+   "beat": "늙은 대신의 방문 — 아무것도 없다",
+   "visual": "the workroom in grey daylight: the old minister stands close before the empty loom, stooped in his long black coat, round spectacles lifted in one trembling hand while his worried eyebrows climb his forehead — before him only bare wooden frame and empty air, and beside him the tall swindler sweeps a proud hand across the nothing, pointing out borders and patterns with his long fingers; the minister leans nearer, wipes the spectacles on his ruff, sets them back and leans nearer still, his white goatee almost touching the bare beam, eyes straining at absence; the second loom clacks on behind, and the poor honest face reflects the exact arithmetic of the trap — see nothing, be a fool; claim sight, stay a minister",
+   "motion": "the minister wipes his spectacles slowly on his ruff, resets them on his nose and leans in by careful degrees until his goatee nearly brushes the bare frame, eyes straining wider and wider at the empty air the swindler's proud finger keeps tracing; his knuckles whiten on his cane behind his back, the far loom clacking steadily, and the camera closes on the space between his straining spectacles and the nothing"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "minister",
+    "emperor",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "대신의 거짓 보고",
+   "visual": "the dressing hall, report hour: the old minister stands before the seated emperor with his hat pressed to his chest, spectacles fogged, reciting with the careful diction of a man walking on ice — his free hand drawing small dutiful patterns in the air, the borders, the flowers, the colors he memorized from the swindlers' pointing; the emperor drinks it in, nodding, mustache spread by a broad anticipating smile, fingers already fidgeting toward his purse for more gold thread to send; behind them the wardrobes stand open on their hundred real coats, none of them now half so desirable as the one that does not exist",
+   "motion": "the minister's dutiful hand draws its small memorized patterns in the air while his eyes fix carefully on a point above the emperor's crown, and the emperor nods along faster and faster, smile spreading, one hand drifting to his purse and drawing the strings; the fogged spectacles slip a little down the old nose, and the camera holds the space of air where the described cloth hangs between the liar and the believer"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "emperor",
+    "swindler_short",
+    "loom_room"
+   ],
+   "refs": [],
+   "beat": "임금의 방문 — 진땀의 감탄",
+   "visual": "the workroom in full afternoon light, the royal visit: the emperor stands before the empty loom in his purple and gold, crown slightly askew, a bead of sweat on his rosy temple, eyes round at the bare frame — while the short swindler beside him holds up two ringed hands as though displaying a breadth of cloth to the light, beaming at its glories; courtiers cluster at the emperor's back, every face arranged in careful rapture at the nothing, no man willing to be first to see less than his neighbor; the strongbox of gold thread sits fatter than before by the bench, and the emperor's hands rise slowly to applaud what is not there",
+   "motion": "the emperor's hands rise and come together in slow careful applause, the sweat bead sliding down his temple as his round eyes stay locked on the empty frame, and behind him the cluster of courtiers takes up the clapping one pair of hands at a time until the bare room rings; the short swindler turns his displayed nothing this way and that in the light, and the camera pans along the row of rapturous lying faces"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "swindler_tall",
+    "swindler_short",
+    "loom_room"
+   ],
+   "refs": [],
+   "beat": "허공의 재단",
+   "visual": "the workroom by candlelight again, tailoring night: the two swindlers cut and sew the air with magnificent seriousness — the tall one wielding great shears through empty space above the table, opening and closing on nothing with crisp precision, the short one seated cross-legged stitching with a threadless needle, drawing his arm high after each stitch of air; between them the table holds pins, chalk and patterns for a garment that is not on it; two finished bundles of the real gold thread wait by the door, packed for leaving, and the candle throws the shadows of shears and needle working hugely on the wall over the empty cloth",
+   "motion": "the great shears open and travel and close through the empty air in long confident strokes, and across the table the threadless needle rises and dips in rhythm, the short one's arm drawing high after every stitch of nothing; chalk dust drifts off the bare table, the packed bundles wait by the door, and the camera circles the busy table where two shadows tailor a shadow"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "emperor",
+    "swindler_tall",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "새 옷 입히기 — 거울 앞의 내의 바람",
+   "visual": "the dressing hall mirrors, fitting morning: the emperor stands on the velvet stool in his long white undershirt, knee-length drawers and white stockings, crown still on his curled hair, arms held out while the tall swindler mimes settling a weightless coat onto his shoulders, smoothing sleeves that are not there, plucking at an invisible train; in the tall gilt mirror the emperor sees himself in underclothes and sees the courtiers behind him seeing him, every reflected face glowing with practiced admiration; his own chin lifts into the bargain, rosy cheeks composed into majesty above the white cotton, and the mirror faithfully shows everything and nothing at once",
+   "motion": "the swindler's hands smooth down the emperor's shoulders and arms in long grooming strokes over the plain white cotton, pluck the air at his hips and lift an invisible train clear of the floor, while the emperor turns on the stool in one slow regal rotation before the mirror, chin rising as he turns; the reflected courtiers bow in the glass behind him, and the camera watches the fitting through the tall mirror's frame"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "emperor",
+    "street"
+   ],
+   "refs": [],
+   "beat": "행렬의 시작",
+   "visual": "procession day on the main street: the emperor walks in state beneath the crimson silk canopy in his long white undershirt, drawers and stockings, crown high, chin higher, stepping with full ceremonial gravity while two page boys behind him carry the air at knee height with both hands, bearing a train that is not there; the gilt canopy poles sway with the pace, garlands and flags hang from the timbered houses, and the crowd lines both sides in Sunday clothes, every adult face working hard at wonder — hats lifted, handkerchiefs waved — the whole street conspiring in a single magnificent nothing",
+   "motion": "the procession advances at a stately pace, canopy swaying on its gilt poles, the emperor's chin riding high while the page boys behind him keep their careful two-handed grip on the empty air at knee height; hats lift along the crowd in a rolling wave and handkerchiefs flutter, the flags working gently overhead, and the camera tracks backward before the advancing white-cotton majesty"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "street"
+   ],
+   "refs": [],
+   "beat": "감탄하는 시늉의 거리",
+   "visual": "the crowd itself, close along the street's edge: a row of townsfolk in Sunday best, each performing admiration at full strength — a stout burgher nodding so hard his hat brim flaps, two women clutching each other with painted-on rapture, an old man applauding with his eyes carefully closed, a young couple praising the invisible embroidery to each other in urgent whispers; behind the row, more faces crane and copy the faces in front, admiration passing down the street the way fire passes down a fuse; garlands sway overhead, and not one pair of eyes in the whole bright crowd is pointed quite at the emperor",
+   "motion": "the wave of performed wonder rolls along the row — the burgher's hat brim flapping with his nodding, the two women swaying together, the old man's shut-eyed applause quickening, the whispering couple leaning closer — each face copying its neighbor a half-beat late so the pretense travels visibly down the line, and the camera slides along the row of everyone admiring nothing"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "child",
+    "street"
+   ],
+   "refs": [],
+   "beat": "한 아이의 외침",
+   "visual": "one clear point in the pretending street: a small child in a plain brown smock, held up on its father's arm above the crowd, points one small arm straight at the passing emperor with the whole body's conviction — round cheeks flushed, wide clear eyes utterly unclouded, mouth open on the plain loud truth; around the pointing arm the nearest faces are caught mid-turn, admiration curdling into shock, the father's own face going white above his collar; past the small pointing finger, blurred but unmistakable, walks white cotton under a crimson canopy, and the one honest sentence hangs over the street louder than all its flags",
+   "motion": "the small arm thrusts out and points, and the pointing holds — steady as a compass needle — while the nearest faces turn toward it one by one and stiffen mid-admiration, the father's grip tightening on his child; the canopy in the blurred distance sways on unbroken, garlands stirring, and the camera closes on the small pointing hand and the wide clear eyes behind it"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "street"
+   ],
+   "refs": [],
+   "beat": "웅성임이 번지다",
+   "visual": "the street mid-transformation: down the long row of faces the child's sentence travels visibly — here a hand rising to a mouth, there two heads bending together, further on a first helpless grin breaking through a courtier's rapture, hats forgotten at half-lift, the wave of whisper moving faster than the procession itself; at the street's far curve the crimson canopy and the small white figure beneath it walk on into the thickening murmur, page boys still gripping their empty air; the flags overhead hang suddenly still, and the whole conspiracy comes apart in a hundred small honest faces at once",
+   "motion": "the whisper-wave rolls down the street from face to face — hands rising to mouths, heads bending together, grins breaking loose one after another — moving visibly faster than the stately canopy that causes it; the page boys' grip on the empty air holds stiff, the far white figure walks on into the murmur, and the camera rides the breaking wave of honesty down the row"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "emperor",
+    "street"
+   ],
+   "refs": [],
+   "beat": "더 꼿꼿해진 임금 (질문)",
+   "visual": "close on the emperor mid-street, the truth arrived and refused: the murmur audible in the set of every courtier's shoulder behind him, his own rosy face gone stiff above the white undershirt — chin lifted one degree higher than before, mustache tips trembling, eyes fixed forward on nothing at the street's end — while his gloved hands keep their ceremonial curl and his stockinged legs keep their exact processional pace; behind, the page boys clutch the empty air more devoutly than ever, knuckles white; the crimson canopy glows over the white cotton figure walking straighter and straighter through the breaking street, majesty and mortification in a single held face",
+   "motion": "his chin lifts by one slow deliberate degree and his pace steadies into perfect ceremony while the mustache tips tremble and his fixed eyes refuse the street entire, the page boys' white-knuckled grip on the empty train tightening behind him; the murmur presses in from both sides like weather, the canopy glowing on, and the camera holds level and unblinking on the held stiff face as it advances"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "street"
+   ],
+   "refs": [],
+   "beat": "마무리 — 멀어지는 행렬",
+   "visual": "the long view down the emptying street in late golden light: the procession recedes toward the town gate — the crimson canopy small and bright over the little white figure, the page boys' bent arms still carrying nothing with perfect care, the courtiers' backs held stiff as fence posts — while the crowd in the foreground breaks into ordinary life again, hats going back on heads, children chased, a first open laugh floating over the cobbles; garlands sway between the timbered houses, a dropped handkerchief lies in the street, a small white square on the cobbles, and the story walks away up the road wearing exactly what it wore at the start",
+   "motion": "the little canopy and its white figure shrink slowly up the golden street while the foreground crowd loosens into motion — hats resettling, two children darting across the cobbles, the dropped handkerchief stirring — and one open laugh rises and settles over the scene; the stiff-backed procession never loses stride, garlands swaying gently over its retreat, and the camera stays low and still as the majesty of nothing marches out of the frame"
+  }
+ ],
+ "withheld": "사기꾼들이 챙겨 떠난 금실 자루"
+}

@@ -131,3 +131,4 @@
 2026-09-01T05:45:03	janghwa_goyangi	facts/auto_janghwa_goyangi.txt	동화 장화 신은 고양이에서 만날 수 있습니다	17th-century French storybook illustration: hay gold, royal blue, crimson red, cream, fine ink linework. 	생동	69s
 2026-09-01T06:42:45	janghwa_goyangi	facts/auto_janghwa_goyangi.txt	동화 장화 신은 고양이에서 만날 수 있습니다	17th-century French storybook illustration: hay gold, royal blue, crimson red, cream, fine ink linework. 	생동	69s
 2026-09-01T11:15:49	babo_ondal	facts/auto_babo_ondal.txt	설화 바보 온달에서 만날 수 있습니다	Korean Goguryeo tomb-mural painting style: earth ochre, cinnabar red, ink black, sage green, cream, fine ink linework. 	담담	67s
+2026-09-01T15:11:32	babo_ondal	facts/auto_babo_ondal.txt	설화 바보 온달에서 만날 수 있습니다	Korean minhwa folk-painting style: earth ochre, cinnabar red, ink black, sage green, cream, soft flat washes. 	담담	67s
