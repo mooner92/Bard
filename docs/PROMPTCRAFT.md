@@ -240,6 +240,11 @@ boatman's pole 이 장대 든 사람을 불렀고, needle's eye 가 바늘꽂이
 그렸고, gentlewoman's shadow 가 부인 본체를 소환했다). 물리 묘사만 쓴다.
 전문어도 검사한다 — 바늘귀는 eye 가 아니라 threading hole 로 적는다.
 
+**동음이의어도 소환한다.** deep formal bow(절)가 소년의 손에 활(bow)을
+쥐여 줬다(실측: 서동 S7). 절은 lowered head, bent waist 로 풀어 쓴다.
+모델이 모르는 사물(호미)은 뜻이 가까운 흔한 사물(삽)로 표류한다 — 그릴 수
+없는 도구는 언급 자체를 뺀다.
+
 **빛의 비유어도 사물을 소환한다.** moonish·sunlit 같은 말은 그 천체를
 화면에 불러온다(실측: 한낮 컷에 초승달이 떴다 — 'a pale moonish sheen').
 빛은 비유 대신 성질로 적는다 — a pale cold sheen like winter light.

@@ -139,3 +139,4 @@
 2026-09-01T22:41:53	beolgeobeoseun_imgeumnim	facts/auto_beolgeobeoseun_imgeumnim.txt	동화 벌거벗은 임금님에서 만날 수 있습니다	European storybook illustration: royal purple, warm gold, powder blue, crimson red, fine ink linework. 	생동	62s
 2026-09-01T22:47:39	beolgeobeoseun_imgeumnim	facts/auto_beolgeobeoseun_imgeumnim.txt	동화 벌거벗은 임금님에서 만날 수 있습니다	European storybook illustration: royal purple, warm gold, powder blue, crimson red, fine ink linework. 	생동	82s
 2026-09-02T03:26:02	seodong_seonhwa	facts/auto_seodong_seonhwa.txt	설화 서동과 선화공주에서 만날 수 있습니다	Korean minhwa folk-painting style: earth red-brown, reed green, warm gold, indigo, cream, soft flat washes. 	생동	76s
+2026-09-02T04:21:08	seodong_seonhwa	facts/auto_seodong_seonhwa.txt	설화 서동과 선화공주에서 만날 수 있습니다	Korean minhwa folk-painting style: earth red-brown, reed green, warm gold, indigo, cream, soft flat washes. 	생동	76s
