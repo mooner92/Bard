@@ -37,7 +37,9 @@ a { color: inherit; text-decoration: none; }
   position: sticky; top: 0; background: rgba(255,253,249,0.92);
   backdrop-filter: saturate(180%) blur(12px); z-index: 30;
 }
-.brand { font-size: 17px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; }
+.brand { font-size: 17px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em; flex: none; }
+.brand img { display: block; height: 26px; }
+.brand img.brand-icon { display: none; }
 .gmenu { display: flex; gap: 4px; margin: 0 auto; }
 .gm {
   padding: 8px 16px; border-radius: 9999px; font-size: 15px; color: var(--pewter);
@@ -495,6 +497,66 @@ a { color: inherit; text-decoration: none; }
 .seasonchips { display: flex; gap: 6px; margin: -10px 0 22px; }
 .snote { font-size: 12.5px; color: var(--blue); line-height: 1.4; }
 
+/* ── 상단 네비의 하위 메뉴(추천작품 ▸ 계절 추천 · 세계 문학 전집) ── */
+.gmwrap { position: relative; }
+.gcaret { font-size: 10px; margin-left: 5px; opacity: 0.6; }
+.gsub {
+  position: absolute; top: calc(100% + 6px); left: 50%; transform: translate(-50%, -4px);
+  min-width: 168px; padding: 6px; display: flex; flex-direction: column; gap: 2px;
+  background: var(--canvas); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(25,21,18,0.08);
+  opacity: 0; visibility: hidden;
+  transition: opacity var(--ease), transform var(--ease), visibility 0s linear 0.28s;
+}
+.gmwrap:hover .gsub, .gmwrap:focus-within .gsub {
+  opacity: 1; visibility: visible; transform: translate(-50%, 0); transition-delay: 0s;
+}
+.gs { text-align: left; padding: 8px 12px; border-radius: 10px; font-size: 14px; color: var(--pewter); white-space: nowrap; }
+.gs:hover { background: var(--ash); }
+.gs.on { color: var(--ink); font-weight: 600; }
+/* 추천작품 안의 하위 탭 — 손끝(터치)에는 드롭다운이 없으니 본문 위에도 둔다 */
+.subnav { display: flex; gap: 6px; margin: 0 0 22px; }
+/* 세계 문학 전집 — 나라 칩. 숫자는 그 나라에 꽂힌 편 수 */
+.countrychips { display: flex; flex-wrap: wrap; gap: 6px; margin: -10px 0 22px; }
+.countrychips em { font-style: normal; opacity: 0.6; margin-left: 4px; font-size: 12px; }
+.countrychips .kr { margin-left: auto; }
+@media (max-width: 560px) { .gsub { display: none; } }
+
+/* ── 세계 문학 전집: 나라별 지도 (WorldMap.tsx) ── */
+.wmap {
+  position: relative; background: var(--canvas); border: 1px solid var(--line);
+  border-radius: var(--r-lg); overflow: hidden; margin: 0 0 22px;
+}
+.wmap svg { display: block; width: 100%; height: auto; }
+.wm-sphere { fill: var(--canvas); stroke: var(--line); }
+.wm-grat { fill: none; stroke: var(--line); stroke-width: 0.5; stroke-dasharray: 2 4; }
+.wm-c {
+  fill: var(--ash); stroke: #d8cbb3; stroke-width: 0.45; stroke-linejoin: round;
+  transition: stroke var(--ease), stroke-width var(--ease);
+}
+.wm-c.has { cursor: pointer; }
+.wm-c.has:hover, .wm-c.has.on { stroke: var(--ink); stroke-width: 1.1; }
+/* 브라우저 기본 초점 테두리(검은 사각형)는 지우고, 키보드로 옮길 때만 윤곽선 색으로 보인다 */
+.wm-c:focus { outline: none; }
+.wm-c:focus-visible { outline: none; stroke: var(--blue); stroke-width: 1.4; }
+.wm-lbl {
+  font-size: 11.5px; fill: var(--ink); pointer-events: none;
+  paint-order: stroke; stroke: var(--canvas); stroke-width: 3px; stroke-linejoin: round;
+}
+.wm-lbl tspan { font-size: 10px; fill: var(--pewter); }
+.wm-tip {
+  position: absolute; pointer-events: none; z-index: 5; min-width: 180px; max-width: 250px;
+  background: var(--canvas); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 14px 40px rgba(25,21,18,0.12); padding: 10px 13px 11px;
+}
+.wm-tip h3 { margin: 0 0 4px; font-size: 15px; color: var(--ink); display: flex; justify-content: space-between; gap: 12px; }
+.wm-tip h3 em { font-style: normal; font-size: 12px; color: var(--blue); }
+.wm-tip ul { margin: 0; padding: 0; list-style: none; font-size: 13px; line-height: 1.55; }
+.wm-tip li { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wm-tip .more { color: var(--silver); font-size: 12px; margin-top: 3px; }
+.wm-load { position: absolute; inset: 0; display: grid; place-items: center; color: var(--silver); font-size: 13px; }
+@media (prefers-reduced-motion: reduce) { .wm-c { transition: none; } }
+
 
 /* ── 모바일: 캐러셀을 낮고 좁게, 라벨은 여백 축소 ── */
 @media (max-width: 560px) {
@@ -508,3 +570,146 @@ a { color: inherit; text-decoration: none; }
   .cflow .slabel small { font-size: 12px; }
   .hblurb { font-size: 11.5px; margin-top: 3px; }
 }
+
+
+/* ══ 모바일 (실측 2026-09-08, 390×844 크롬 에뮬레이션) ══════════════════════
+   상단 메뉴가 564px 로 화면(390px)을 넘쳐 가로 스크롤이 생기고 "인기대출도서"가
+   잘렸다. 그 여파로 vw 단위가 564 기준이 돼 재생 화면의 영상이 오른쪽으로 밀려
+   잘렸다. 좁은 화면에서는 마크만 남기고 메뉴를 한 줄 가로 스크롤로 둔다. */
+html, body { overflow-x: hidden; }
+@media (max-width: 640px) {
+  .gnav { height: 54px; gap: 8px; padding: 0 10px 0 12px; }
+  .brand img.brand-lockup { display: none; }
+  .brand img.brand-icon { display: block; height: 28px; }
+  .gmenu {
+    margin: 0; flex: 1; min-width: 0; display: flex; gap: 0;
+    overflow-x: auto; overflow-y: hidden; white-space: nowrap;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    /* 오른쪽 끝이 잘려 보이면 더 있다는 뜻 — 페이드로 힌트 */
+    mask-image: linear-gradient(to right, #000 calc(100% - 18px), transparent);
+  }
+  .gmenu::-webkit-scrollbar { display: none; }
+  .gm { padding: 8px 10px; font-size: 14px; white-space: nowrap; flex: none; }
+  .gm.on { background: var(--ash); }
+  .gcaret { display: none; }        /* 손끝에는 드롭다운이 없다 — 본문의 하위 탭이 대신한다 */
+  .gright { flex: none; }
+  .gright .ghost { padding: 7px 10px; font-size: 13px; }
+  .phead h1 { font-size: 24px; }
+  .phead p { font-size: 14px; margin-bottom: 18px; }
+  .sec { font-size: 17px; margin: 32px 0 14px; }
+}
+
+/* 재생 화면: 세로 영상이 화면을 꽉 채우고, 닫기 단추는 화면 안(안전 영역 아래)에 */
+@media (max-width: 640px) {
+  .modal { padding: 0; place-items: center; }
+  .modal-box {
+    width: 100%; height: 100%; justify-content: center; gap: 10px;
+    padding: max(8px, env(safe-area-inset-top)) 0 max(14px, env(safe-area-inset-bottom));
+  }
+  .modal-box video {
+    width: 100%; height: auto; max-width: 100vw; max-height: calc(100dvh - 96px);
+    border-radius: 0; box-shadow: none; margin: 0 auto;
+  }
+  .modal-meta { padding: 0 16px; }
+  .modal-x {
+    top: max(12px, env(safe-area-inset-top)); right: 12px; width: 40px; height: 40px;
+    font-size: 17px; box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  }
+}
+
+/* 세계지도: viewBox 960 이 340px 로 줄면 글자가 4px 가 된다 — 좌표계 안에서 키운다 */
+@media (max-width: 560px) {
+  .wm-lbl { font-size: 24px; stroke-width: 5px; }
+  .wm-lbl tspan { font-size: 19px; }
+  .wmap { margin-bottom: 14px; }
+  .countrychips { gap: 5px; }
+  .countrychips .psz { padding: 6px 10px; font-size: 13px; }
+}
+
+/* 인기대출도서: 좁은 줄에서 글이 기둥으로 눌리지 않게 — 소장 표시는 아래 줄로 내려간다 */
+@media (max-width: 560px) {
+  .books li { flex-wrap: wrap; gap: 8px 10px; padding: 14px 0; }
+  .rank { width: 16px; font-size: 12px; }
+  .btext { flex: 1 1 60%; }
+  .btitle { font-size: 15px; }
+  .bjump { width: 42px; }
+  .pill { font-size: 11.5px; padding: 3px 9px; }
+  .bridge { font-size: 12px; }
+}
+
+/* ---------- 인기대출도서 탭 = 책방 (Books.tsx) ---------- */
+.bk .sec small { font-weight: 400; color: var(--silver); font-size: 13px; margin-left: 8px; }
+.bk section { margin-bottom: 34px; }
+.bk-search { display: flex; gap: 8px; margin: 0 0 12px; }
+.bk-search input { flex: 1; min-width: 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 12px; font: inherit; font-size: 15px; background: var(--canvas); color: var(--ink); }
+.bk-search input:focus { outline: 2px solid rgba(197,138,58,0.35); border-color: var(--blue); }
+.bk-search button { padding: 0 16px; border-radius: 12px; background: var(--ink); color: #fff; border: 0; font: inherit; font-weight: 600; cursor: pointer; }
+.bk-search button:disabled { opacity: 0.6; }
+.bk-search .bk-clear { background: var(--ash); color: var(--graphite); }
+.bk-kw { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 26px; }
+.bk-kwlabel { font-size: 12px; color: var(--silver); margin-right: 4px; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 10px; }
+.chip { font: inherit; font-size: 13px; padding: 6px 12px; border-radius: 9999px; border: 1px solid var(--line); background: var(--canvas); color: var(--graphite); cursor: pointer; }
+.chip.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.bk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 24px 14px; margin-top: 14px; transition: opacity var(--ease); }
+.bk-grid.bk-dim { opacity: 0.45; }
+.bk-card { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.bk-cover { position: relative; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden; background: var(--ash); box-shadow: 0 1px 3px rgba(25,21,18,0.12); }
+.bk-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.bk-nocover { padding: 16px 10px; font-size: 13px; color: var(--pewter); font-weight: 600; line-height: 1.4; }
+.bk-rank { position: absolute; left: 8px; top: 8px; min-width: 24px; height: 24px; padding: 0 7px; border-radius: 9999px; background: rgba(25,21,18,0.82); color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.bk-badge { position: absolute; right: 8px; top: 8px; padding: 3px 8px; border-radius: 9999px; background: #b3452f; color: #fff; font-size: 11px; font-weight: 700; }
+.bk-title { font-size: 14px; font-weight: 600; color: var(--ink); margin: 6px 0 0; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.bk-title em { font-style: normal; font-size: 11px; font-weight: 600; margin-left: 5px; }
+.bk-title em.up { color: #b3452f; }
+.bk-title em.down { color: var(--silver); }
+.bk-title em.new { color: var(--blue); }
+.bk-meta { font-size: 12.5px; color: var(--pewter); margin: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bk-meta2 { font-size: 12px; color: var(--silver); margin: 0; }
+.bk-card .pill { margin-left: 0; align-self: flex-start; margin-top: 3px; }
+.bk-callno { font-size: 12px; color: var(--graphite); margin: 0; }
+.bk-bridge { margin-top: 4px; text-align: left; background: var(--ash); border: 0; border-radius: 10px; padding: 8px 10px; font: inherit; font-size: 12.5px; color: var(--ink); cursor: pointer; line-height: 1.35; }
+.bk-bridge:disabled { cursor: default; }
+.bk-bridge b { color: var(--blue); font-weight: 700; }
+.bk-bridge small { display: block; color: var(--pewter); font-size: 11.5px; margin-top: 2px; }
+.bk-trendrow { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 14px 12px; margin-top: 12px; }
+.bk-small .bk-title { font-size: 13px; }
+.bk-more { display: block; margin: 24px auto 0; padding: 10px 24px; border-radius: 9999px; border: 1px solid var(--line); background: var(--canvas); font: inherit; font-weight: 600; color: var(--graphite); cursor: pointer; }
+.bk-empty { color: var(--silver); font-size: 14px; padding: 30px 0; text-align: center; }
+@media (max-width: 480px) {
+  .bk-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 12px; }
+  .bk-trendrow { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .bk-search input { font-size: 16px; }
+  .bk .phead h1 { font-size: 24px; }
+}
+
+/* 책방(우리 책만) — 표지 왼쪽, 순위·소장·설명 오른쪽의 한 줄 카드 */
+.ob-stats { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--pewter); margin: -12px 0 18px; }
+.ob-stats b { color: var(--ink); font-weight: 700; }
+.ob-sep { width: 1px; height: 22px; background: var(--line); margin: 4px 4px; }
+.ob-list { display: grid; grid-template-columns: 1fr; gap: 24px 32px; margin-top: 18px; }
+@media (min-width: 820px) { .ob-list { grid-template-columns: 1fr 1fr; } }
+.ob-row { display: flex; gap: 14px; min-width: 0; }
+.ob-cover { position: relative; flex: none; width: 118px; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden; background: var(--ash); box-shadow: 0 1px 3px rgba(25,21,18,0.12); }
+.ob-cover img { width: 100%; height: 100%; object-fit: contain; display: block; }   /* 세로 긴 표지가 잘리지 않게 */
+.ob-kind { color: var(--silver); }
+.bk-more small { font-weight: 400; color: var(--silver); margin-left: 4px; }
+.ob-body { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 3px; align-items: flex-start; }
+.ob-title { font-size: 16px; font-weight: 700; color: var(--ink); margin: 0; line-height: 1.3; }
+.ob-title em { font-style: normal; font-size: 11px; font-weight: 600; margin-left: 6px; }
+.ob-title em.up { color: #b3452f; }
+.ob-title em.down { color: var(--silver); }
+.ob-rank { font-size: 13px; color: var(--graphite); margin: 2px 0 0; }
+.ob-rank b { color: var(--blue); font-size: 15px; font-weight: 700; }
+.ob-rank span { display: block; color: var(--silver); font-size: 12px; }
+.ob-norank { color: var(--silver); }
+.ob-body .pill { margin: 3px 0 0; max-width: 100%; white-space: normal; text-align: left; line-height: 1.35; }
+.ob-desc { font-size: 12.5px; color: var(--pewter); margin: 4px 0 0; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; cursor: pointer; }
+.ob-desc.open { display: block; }
+.ob-actions { margin-top: 6px; }
+.ob-play { font: inherit; font-size: 13px; font-weight: 700; padding: 7px 14px; border-radius: 9999px; border: 0; background: var(--ink); color: #fff; cursor: pointer; }
+.ob-play:hover { background: var(--blue); }
+.ob-noplay { font-size: 12.5px; color: var(--silver); }
+.ob-src { font-size: 12px; color: var(--silver); margin: 40px 0 0; }
+
+.ob-stamp { color: var(--silver); }

@@ -1,12 +1,16 @@
 'use client'
+import BooksTab from './Books'
 
 import { useEffect, useRef, useState } from 'react'
-import { API, Book, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib'
+import { API, PlayIcon, Player, TopNav, Video, Work, fmtDate } from './lib'
+import { WorldMap } from './WorldMap'
 
 type Item = {
   work: string; title: string; cover?: string; video?: Video
   region: string; genre: string; blurb: string; mood: string
   season: string; seasonNote: string
+  country: string; countryCode: string; countryNum: string
+  era: string; kei: boolean
 }
 
 /* 오늘 날짜로 계절을 정한다. 3~5월 봄, 6~8월 여름, 9~11월 가을, 나머지 겨울. */
@@ -20,6 +24,25 @@ const SEASON_HEAD: Record<string, string> = {
   '여름': '뜨거운 여름, 그때가 생각나는 소설.',
   '가을': '깊어가는 가을에 어울리는 소설.',
   '겨울': '긴 겨울밤에 읽기 좋은 소설.',
+}
+
+/** 추천작품의 하위 탭. 상단 드롭다운과 같은 목록 — 터치 화면에는 드롭다운이 없어 본문에도 둔다. */
+const PICKS = [
+  { id: 'season', label: '계절 추천' },
+  { id: 'world', label: '세계 문학 전집' },
+  { id: 'modern', label: '현대소설' },
+]
+function SubNav({ tab, onTab }: { tab: string; onTab: (id: string) => void }) {
+  return (
+    <div className="subnav" role="tablist" aria-label="추천작품">
+      {PICKS.map(p => (
+        <button key={p.id} role="tab" aria-selected={tab === p.id}
+          className={tab === p.id ? 'psz on' : 'psz'} onClick={() => onTab(p.id)}>
+          {p.label}
+        </button>
+      ))}
+    </div>
+  )
 }
 
 /** 전체보기 왼쪽 필터의 축. 값은 works/categories.json 이 정한다. */
@@ -77,27 +100,7 @@ function tiltLeave(e: React.MouseEvent<HTMLElement>) {
   e.currentTarget.style.setProperty('--ty', '0deg')
 }
 
-/** KEI 도서관 소장 판정 → 뱃지. unknown 은 백그라운드 조회 중이라는 뜻. */
-function HoldPill({ h }: { h: string }) {
-  const label: Record<string, string> = {
-    paper: 'KEI 종이책', ebook: 'KEI 전자책', both: 'KEI 종이책·전자책', none: '미소장',
-  }
-  if (!label[h]) return <span className="pill wait">확인 중</span>
-  return <span className={h === 'none' ? 'pill no' : 'pill ok'}>{label[h]}</span>
-}
 
-/** 같은 책이 권별 ISBN 으로 여러 줄 나오는 것(흔한남매 9·10위 실측)을 제목으로 접는다 */
-function dedupeBooks(books: Book[]): Book[] {
-  const seen = new Set<string>()
-  const out: Book[] = []
-  for (const b of books) {
-    const k = b.title.replace(/\s+/g, '')
-    if (seen.has(k)) continue
-    seen.add(k)
-    out.push(b)
-  }
-  return out
-}
 
 function Card({ it, onPlay, views, note }: {
   it: Item; onPlay: () => void; views?: number; note?: string
@@ -124,9 +127,15 @@ function Card({ it, onPlay, views, note }: {
 
 export default function Home() {
   const [items, setItems] = useState<Item[]>([])
-  const [books, setBooks] = useState<Book[]>([])
-  const [period, setPeriod] = useState('')
   const [tab, setTab] = useState('home')
+  // 시청 호스트(watch.…)에서는 관리자 진입점을 그리지 않는다. 미들웨어가 /admin 을 404 로
+  // 막지만, 링크가 보이는 것 자체가 "여기 관리자가 있다"는 안내가 된다.
+  const [watchHost, setWatchHost] = useState(false)
+  useEffect(() => {
+    const hosts = (process.env.NEXT_PUBLIC_WATCH_HOSTS ?? 'watch.bard.excusa.uk')
+      .split(',').map(x => x.trim().toLowerCase())
+    setWatchHost(hosts.includes(window.location.hostname.toLowerCase()))
+  }, [])
   const [playing, setPlaying] = useState<Item | null>(null)
   const [slide, setSlide] = useState(0)
   const [featured, setFeatured] = useState<string[]>([])
@@ -137,6 +146,7 @@ export default function Home() {
   const [pageSize, setPageSize] = useState(30)
   const [page, setPage] = useState(0)
   const [season, setSeason] = useState(currentSeason())
+  const [country, setCountry] = useState('')
 
   useEffect(() => {
     fetch(`${API}/api/works`).then(r => r.json()).then(async (d: { works: Work[] }) => {
@@ -157,6 +167,9 @@ export default function Home() {
           region: row?.region ?? '기타', genre: row?.genre ?? '기타',
           blurb: row?.blurb ?? '', mood: row?.mood ?? '',
           season: row?.season ?? '', seasonNote: row?.season_note ?? '',
+          country: row?.country ?? '', countryCode: row?.country_code ?? '',
+          countryNum: row?.country_num ?? '',
+          era: row?.era ?? '고전', kei: !!row?.kei,
         }
       }))
       setItems(rows.filter(r => r.video))
@@ -168,12 +181,6 @@ export default function Home() {
     fetch(`${API}/api/stats/summary`).then(r => r.json())
       .then(setStats).catch(() => {})
 
-    fetch(`${API}/api/books/popular?limit=30`).then(r => r.json())
-      .then(d => {
-        setBooks(dedupeBooks(d.books ?? []).slice(0, 20))
-        setPeriod(`${d.period?.start} ~ ${d.period?.end}`)
-      })
-      .catch(() => {})
   }, [])
 
   const play = (it: Item) => { countView(it.work); setPlaying(it) }
@@ -215,6 +222,20 @@ export default function Home() {
     return [f.key, [...m.entries()].sort((a, b) => b[1] - a[1])]
   })) as Record<FacetKey, [string, number][]>
 
+  // 세계 문학 전집 — 한국 밖에서 태어난 작품을 나라별로. 나라는 works/countries.json 이 정한다.
+  const worldItems = items.filter(it => it.country && it.country !== '한국')
+  const worldCountries = [...worldItems.reduce(
+    (m, it) => m.set(it.country, (m.get(it.country) ?? 0) + 1), new Map<string, number>())]
+    .sort((a, b) => b[1] - a[1])
+  // 지도에서 한국을 누르면 우리 작품도 같은 자리에서 본다 — 한국은 전집 밖이지만 지도 위에는 있다.
+  const koreanItems = items.filter(it => it.country === '한국')
+  // 현대소설 — 저작권이 살아 있는 요즘 소설. 줄거리 대신 책이 던지는 질문까지만 담았다.
+  const modernItems = items.filter(it => it.era === '현대').sort(byNew)
+  const classicCount = items.length - modernItems.length
+
+  const worldShown = (country === '한국' ? koreanItems
+    : worldItems.filter(it => !country || it.country === country)).sort(byNew)
+
   // 캐러셀 자동 회전 — 재생 중에는 멈춘다
   useEffect(() => {
     if (playing || hero.length < 2) return
@@ -230,10 +251,10 @@ export default function Home() {
         items={[
           { id: 'home', label: '홈' },
           { id: 'all', label: '모든 작품' },
-          { id: 'season', label: '계절 추천' },
+          { id: 'picks', label: '추천작품', children: PICKS },
           { id: 'books', label: '인기대출도서' },
         ]}
-        right={<a className="ghost" href="/admin">관리자</a>}
+        right={watchHost ? null : <a className="ghost" href="/admin">관리자</a>}
       />
 
       {tab === 'home' && (
@@ -307,7 +328,7 @@ export default function Home() {
             </div>
             <Reveal delay={160}>
               <div className="intro-nums">
-                <span><strong>{items.length || '–'}</strong>편의 고전</span>
+                <span><strong>{classicCount || '–'}</strong>편의 고전</span>
                 <span><strong>6</strong>가지 분위기</span>
                 <span><strong>1</strong>분 남짓</span>
               </div>
@@ -404,6 +425,7 @@ export default function Home() {
 
       {tab === 'season' && (
         <main className="wrap">
+          <SubNav tab={tab} onTab={setTab} />
           <header className="phead">
             <h1>{SEASON_HEAD[season]}</h1>
             <p>
@@ -429,68 +451,72 @@ export default function Home() {
         </main>
       )}
 
-      {tab === 'books' && (
+      {tab === 'world' && (
         <main className="wrap">
+          <SubNav tab={tab} onTab={setTab} />
           <header className="phead">
-            <h1>지금 많이 읽는 책, 이어지는 고전.</h1>
+            <h1>세계 문학 전집.</h1>
             <p>
-              전국 도서관 대출 순위에서 출발해 닿아 있는 우리 고전 영상까지 —
-              KEI 소장 여부와 청구기호를 함께 안내합니다. ({period || '불러오는 중'})
+              나라별로 꽂아 둔 세계 고전 {worldItems.length}편 · {worldCountries.length}개 나라 ·
+              지도의 나라나 아래 칩을 누르면 그 나라의 작품이 모아 보입니다
             </p>
           </header>
-          <ol className="books">
-            {books.map(b => {
-              // 이어지는 고전에 영상이 있으면 눌러서 바로 볼 수 있게 한다.
-              const dest = b.bridge ? items.find(it => it.work === b.bridge!.work) : undefined
-              return (
-                <li key={b.isbn || b.rank}>
-                  <span className="rank">{b.rank}</span>
-                  <span className="btext">
-                    <span className="btitle">
-                      {b.title}
-                      {b.delta != null && b.delta !== 0 && (
-                        <em className={b.delta > 0 ? 'up' : 'down'}>
-                          {b.delta > 0 ? `▲${b.delta}` : `▼${-b.delta}`}
-                        </em>
-                      )}
-                      {b.delta === null && <em className="new">NEW</em>}
-                    </span>
-                    <span className="fine">
-                      {b.author} · 대출 {b.loans.toLocaleString()}
-                      {b.callno && ` · 청구기호 ${b.callno}`}
-                      {b.status && ` · ${b.status}`}
-                    </span>
-                    {b.bridge && (
-                      <span className="bridge">
-                        이 책을 읽으셨다면{' '}
-                        {dest
-                          ? <button className="blink" onClick={() => play(dest)}>
-                              {b.bridge.title}
-                            </button>
-                          : <strong>{b.bridge.title}</strong>}
-                        <small>{b.bridge.why}</small>
-                      </span>
-                    )}
-                  </span>
-                  {dest?.cover && (
-                    <button className="bjump" onClick={() => play(dest)}
-                      aria-label={`${b.bridge!.title} 영상 재생`}>
-                      <img alt="" src={`${API}/api/files/keyframe/${dest.work}/${dest.cover}`} />
-                      <span className="bplay"><PlayIcon size={13} /></span>
-                    </button>
-                  )}
-                  <HoldPill h={b.holding} />
-                </li>
-              )
-            })}
-            {!books.length && <p className="fine">도서 정보를 불러오지 못했습니다.</p>}
-          </ol>
+          <WorldMap
+            works={items.filter(it => it.countryNum).map(it => ({
+              work: it.work, title: it.title, country: it.country, countryNum: it.countryNum }))}
+            selected={country} onSelect={setCountry}
+          />
+          <div className="countrychips">
+            <button className={country === '' ? 'psz on' : 'psz'} onClick={() => setCountry('')}>
+              전체<em>{worldItems.length}</em>
+            </button>
+            {worldCountries.map(([name, n]) => (
+              <button key={name} className={country === name ? 'psz on' : 'psz'}
+                onClick={() => setCountry(name)}>
+                {name}<em>{n}</em>
+              </button>
+            ))}
+            {koreanItems.length > 0 && (
+              <button className={country === '한국' ? 'psz on kr' : 'psz kr'} onClick={() => setCountry('한국')}>
+                한국<em>{koreanItems.length}</em>
+              </button>
+            )}
+          </div>
+          <div className="grid browsegrid">
+            {worldShown.map(it => (
+              <Card key={it.work} it={it} note={it.country}
+                views={stats?.total?.[it.work]} onPlay={() => play(it)} />
+            ))}
+            {!worldShown.length && <p className="fine">이 나라에 꽂힌 작품이 아직 없습니다.</p>}
+          </div>
         </main>
       )}
 
+      {tab === 'modern' && (
+        <main className="wrap">
+          <SubNav tab={tab} onTab={setTab} />
+          <header className="phead">
+            <h1>현대소설.</h1>
+            <p>
+              요즘 많이 읽히는 소설 {modernItems.length}편 · 결말은 남겨 두고 책이 던지는 질문까지만 담았습니다 ·
+              KEI 도서관에 있는 책은 표시해 두었습니다
+            </p>
+          </header>
+          <div className="grid browsegrid">
+            {modernItems.map(it => (
+              <Card key={it.work} it={it} note={it.kei ? 'KEI 도서관 소장' : undefined}
+                views={stats?.total?.[it.work]} onPlay={() => play(it)} />
+            ))}
+            {!modernItems.length && <p className="fine">아직 공개된 현대소설이 없습니다.</p>}
+          </div>
+        </main>
+      )}
+
+      {tab === 'books' && <BooksTab items={items} play={play} />}
+
       {playing?.video && (
         <Player
-          src={`${API}/api/files/video/${playing.work}/${playing.video.name}`}
+          src={playing.video.url ?? `${API}/api/files/video/${playing.work}/${playing.video.name}`}
           title={playing.title}
           meta={`${playing.video.duration ?? '?'}초 · ${fmtDate(playing.video.updated)}`}
           onClose={() => setPlaying(null)}

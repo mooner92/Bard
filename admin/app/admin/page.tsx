@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
-import { API, Player, TopNav, Video, Work, fmtDate, vLabel, vOrder } from '../lib'
+import { API, Player, TopNav, Prev, Video, Work, fmtDate, vLabel, vOrder } from '../lib'
 
 type Tab = 'script' | 'keyframes' | 'prompts' | 'videos' | 'review'
 
@@ -28,6 +28,8 @@ export default function Admin() {
   const [tab, setTab] = useState<Tab>('script')
   const [showScenes, setShowScenes] = useState(false)
   const [playing, setPlaying] = useState<Video | null>(null)
+  const [prevs, setPrevs] = useState<Prev[]>([])
+  const [prevSel, setPrevSel] = useState<Prev | null>(null)
   const [review, setReview] = useState<Review | null>(null)
   const [featured, setFeatured] = useState<string[]>([])
   const [stats, setStats] = useState<{ total: Record<string, number>; month: Record<string, number> } | null>(null)
@@ -84,7 +86,33 @@ export default function Admin() {
   const group = openWork ? byWork.find(([n]) => n === openWork)?.[1] ?? [] : []
   const [current, ...olds] = group
 
+  // 이전 판(prev/) — 지우지 않고 보관한 옛 완성본·그림. 새 판과 비교하려고 곁에 둔다.
+  useEffect(() => {
+    setPrevs([]); setPrevSel(null)
+    if (!openWork) return
+    fetch(`${API}/api/works/${openWork}/prev`).then(r => r.json()).then(d => setPrevs(d.versions ?? [])).catch(() => {})
+  }, [openWork])
+
+  function openPrev(p: Prev) {
+    if (!openWork) return
+    const base = current ?? group[0]
+    setPrevSel(p)
+    setSel({ work: openWork, version: `prev:${p.stamp}`, title: p.title || base?.title || openWork,
+      sentences: p.sentences ?? [], passed: null, issues: [], updated: p.when } as Work)
+    setDraft([...(p.sentences ?? [])]); setTab(p.keyframes.length || p.frames.length ? 'keyframes' : 'videos')
+    setKeyframes([...p.keyframes, ...p.frames]); setPrompts({}); setReview(null)
+    setVideos(p.final ? [{ name: p.final, size: p.size, duration: p.duration, kind: 'night', version: `이전 ${p.when}`, updated: p.when }] : [])
+  }
+  const isPrev = !!sel && sel.version.startsWith('prev:')
+  const kfUrl = (n: string) => isPrev && prevSel
+    ? `${API}/api/files/prev/${sel!.work}/${prevSel.stamp}/${n}`
+    : `${API}/api/files/keyframe/${sel?.work}/${n}`
+  const vidUrl = (n: string) => isPrev && prevSel
+    ? `${API}/api/files/prev/${sel!.work}/${prevSel.stamp}/${n}`
+    : `${API}/api/files/video/${sel?.work}/${n}`
+
   function openVersion(w: Work) {
+    setPrevSel(null)
     setSel(w); setDraft([...w.sentences]); setTab('script')
     setVideos([]); setKeyframes([]); setPrompts({})
     fetch(`${API}/api/works/${w.work}/videos`).then(r => r.json()).then(d => setVideos(d.videos)).catch(() => {})
@@ -265,6 +293,23 @@ export default function Admin() {
                 {olds.map(w => <Row key={w.version} w={w} />)}
               </>
             )}
+            {prevs.length > 0 && (
+              <>
+                <p className="slabel2">이전 판 (보관)</p>
+                {prevs.map(p => (
+                  <button key={p.stamp} className={`ver ${prevSel?.stamp === p.stamp ? 'on' : ''}`} onClick={() => openPrev(p)}>
+                    <span className="dot" style={{ background: 'var(--silver)' }} />
+                    <span className="vtext">
+                      <span className="vname">{p.when}{p.duration ? ` · ${Math.round(p.duration)}초` : ''}</span>
+                      <span className="vmeta">
+                        {p.sentences ? `${p.sentences.length}문장 · ` : ''}
+                        {p.keyframes.length ? `키프레임 ${p.keyframes.length}` : p.frames.length ? `정지화면 ${p.frames.length}` : '완성본만'}
+                      </span>
+                    </span>
+                  </button>
+                ))}
+              </>
+            )}
           </aside>
 
           <section className="work">
@@ -276,7 +321,7 @@ export default function Admin() {
                   <div>
                     <h1 className="title">{sel.title}</h1>
                     <p className="sub">
-                      {vLabel(sel.version)} · {chars}자 · 약 {(chars / 6.67).toFixed(1)}초 · {fmtDate(sel.updated)}
+                      {isPrev ? `이전 판 ${prevSel?.when ?? ''}` : vLabel(sel.version)} · {chars}자 · 약 {(chars / 6.67).toFixed(1)}초 · {fmtDate(sel.updated)}
                       {sel.passed ? <em className="tag ok">검증 통과</em> : <em className="tag no">{sel.issues.length}건</em>}
                     </p>
                   </div>
@@ -292,7 +337,7 @@ export default function Admin() {
                         </button>
                       ))}
                     </div>
-                    {tab === 'script' && (
+                    {tab === 'script' && !isPrev && (
                       <button className="btn" onClick={save} disabled={saving || !dirty}>
                         {saving ? '검증 중' : dirty ? '저장하고 재검증' : '변경 없음'}
                       </button>
@@ -307,7 +352,7 @@ export default function Admin() {
                         {draft.map((s, i) => (
                           <div key={i} className="line">
                             <span className="idx">{i + 1}</span>
-                            <textarea value={s} rows={2}
+                            <textarea value={s} rows={2} readOnly={isPrev}
                               onChange={e => setDraft(d => d.map((x, j) => (j === i ? e.target.value : x)))} />
                             <span className={`count ${s.length > 33 || s.length < 22 ? 'bad' : ''}`}>{s.length}</span>
                           </div>
@@ -326,7 +371,7 @@ export default function Admin() {
                     <div className="gal">
                       {keyframes.map(n => (
                         <figure key={n}>
-                          <img src={`${API}/api/files/keyframe/${sel.work}/${n}`} alt={n} />
+                          <img src={kfUrl(n)} alt={n} />
                           <figcaption className="fine">{n}</figcaption>
                         </figure>
                       ))}
@@ -435,7 +480,7 @@ export default function Admin() {
 
       {playing && sel && (
         <Player
-          src={`${API}/api/files/video/${sel.work}/${playing.name}`}
+          src={vidUrl(playing.name)}
           title={`${sel.title} · ${playing.version}`}
           meta={`${playing.duration ?? '?'}초 · ${fmtDate(playing.updated)}`}
           onClose={() => setPlaying(null)}
