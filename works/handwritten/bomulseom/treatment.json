@@ -1,61 +1,199 @@
 {
-  "logline": "바닷가 여관에서 자란 소년이 늙은 뱃사람의 궤짝을 열면서, 배 한 척을 가득 채운 사람들과 바다로 나선다.",
-  "destination": "섬의 표시된 자리 — 모두가 파 내려가는 구덩이",
-  "protagonist": "여관집 아들인 열두 살 소년",
-  "setting": "18세기 잉글랜드 바닷가 여관과 범선, 남쪽 바다의 섬",
-  "anchor": "a small boy in a rough wool coat and buckled shoes with tousled hair, 18th century seaside inn and tall ship",
-  "palette": "sea teal, weathered oak brown, lantern amber, pale tropical sand",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "바닷가 여관에 늙은 뱃사람이 궤짝을 부린다.",
-      "visual": "a scarred old sailor dropping a heavy sea chest on the floor of a low beam inn, boy watching",
-      "motion": "the chest thuds down, dust jumps from the boards, the boy steps back"
-    },
-    {
-      "n": 2,
-      "beat": "소년이 그 궤짝에서 접힌 가죽을 꺼낸다.",
-      "visual": "a boy lifting a folded leather square from an open sea chest of coins and pistols, lamp beside",
-      "motion": "the leather unfolds in his hands, coins slide, lamplight swings"
-    },
-    {
-      "n": 3,
-      "beat": "눈먼 사내가 지팡이를 짚고 마을에 나타난다.",
-      "visual": "a man in a ragged cloak with clouded eyes tapping a stick along a foggy village lane",
-      "motion": "the stick taps and drags, fog rolls past him, shutters close ahead"
-    },
-    {
-      "n": 4,
-      "beat": "배가 돛을 올리고 항구를 빠져나간다.",
-      "visual": "a tall ship under filling canvas leaving a stone harbour, crew swarming the rigging",
-      "motion": "sails fill and snap taut, ropes run through blocks, the hull heels over"
-    },
-    {
-      "n": 5,
-      "beat": "소년이 사과통 속에서 선원들 말을 엿듣는다.",
-      "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' legs visible through the gap",
-      "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
-    },
-    {
-      "n": 6,
-      "beat": "소년이 사과통 안에서 선원들 말을 엿듣는다.",
-      "visual": "a boy crouched inside a wooden apple barrel on deck, sailors' boots passing through the gap",
-      "motion": "the barrel rocks with the swell, boots pass close, apples shift under him"
-    },
-    {
-      "n": 7,
-      "beat": "그 구덩이 안에는 무엇이 있을까?",
-      "visual": "an open sandy pit with a broken plank at the bottom, sailors' faces ringed above it",
-      "motion": "sand slides down the pit wall, faces lean in together, shadows drop inside"
-    },
-    {
-      "n": 8,
-      "beat": "모래 위에 빈 궤짝 하나가 열려 있다.",
-      "visual": "an empty wooden chest lying open on pale sand, palm shadows falling across it, sea beyond",
-      "motion": "palm shadows sway over the chest, sand trickles from its rim, surf rolls in",
-      "anchor": false
-    }
-  ],
-  "withheld": "구덩이가 이미 비어 있다는 것과 요리사의 도주",
-  "voice": "ko-KR-InJoonNeural"
+ "logline": "바닷가 여관에 든 늙은 뱃사람이 검은 표를 받고 쓰러진 뒤 소년 짐이 궤짝에서 찾아낸 지도를 들고 배를 타지만, 목발을 짚은 요리사 실버의 무리가 반란을 꾸미고, 섬에서 만난 염소가죽 사내와 통나무 요새를 거쳐 파낸 구덩이는 텅 비어 있다",
+ "destination": "소설 보물섬에서 만날 수 있습니다",
+ "protagonist": "jim",
+ "setting": "1700년대 영국의 바닷가 여관과 항구, 두대박이 범선, 소나무 숲의 섬과 통나무 요새",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/bomulseom/assets",
+ "anchor": "a boy of thirteen in a patched brown coat on an island of pine wood by the open sea",
+ "palette": "ash grey, dark blue, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "땅 밑이 비어 있던 내막과, 염소가죽을 걸친 이가 진작 옮겨 둔 곳",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "bones",
+    "jim",
+    "inn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "바닷가 여관에 낡은 궤짝을 진 늙은 뱃사람이 든다",
+   "visual": "dull yellow evening light on the bare yard of packed earth before the small stone inn: the heavy old seaman of sixty with the tarred pigtail and the long pale mark down one cheek, in the blue coat gone white at the seams and the black three-cornered hat, is the one halted at frame centre with a battered sea chest up on one shoulder held by both hands, his boots wide apart and his face turned up at the low door of the inn; the boy of thirteen with the straight brown hair in the patched brown coat is the one standing in that doorway at frame right with one hand on the door post, his plain open face on the seaman; the wooden bench stands by the door with a coil of rope on it; the small square windows show dull yellow behind their panes; the cove and the flat grey water lie below the yard at frame left; the two of them are the only people in the yard",
+   "motion": "the old seaman under the chest is the one who moves, and the boy in the doorway holds still: at the start the chest is up on his shoulder with both his hands round it and his face turned up at the door; over the first three seconds he walks three slow heavy steps across the packed earth toward the doorway, the chest riding on his shoulder and tipping a little further back with each step, his boots pressing into the earth and his face staying on the door; in the last two seconds he keeps coming on at the same slow pace, still short of the threshold; the boy keeps his hand on the door post with his face on the seaman, not moving at all; the wooden bench, the coil of rope on it and the dull yellow windows hold completely still; the cove and the flat grey water below the yard do not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "bones",
+    "jim",
+    "inn"
+   ],
+   "refs": [],
+   "beat": "그 뱃사람이 검은 표 한 장을 받고 쓰러진다",
+   "visual": "dull yellow light in the low room of the inn: the heavy old seaman in the blue coat is the one down on the plank floor at frame centre on his side with one arm under him and his three-cornered hat on the boards beyond his reach, his open hand out flat toward the camera and held up off the boards, and lying in the middle of that open palm one small round scrap of paper the size of a coin whose whole upper face is solid black ink from edge to edge; the plank floor round him is bare clean wood with no mark or stain anywhere on it; a stool lies over on its side beside him and a tin cup lies on the boards with its drink run out across them; the boy of thirteen in the patched brown coat is the one kneeling at his shoulder at frame left with both hands on the seaman's arm, his plain open face down at the old man's face; the battered sea chest stands against the wall behind them at frame right; the low door stands open on the dark yard; the two of them are the only people in the room",
+   "motion": "the boy at the seaman's shoulder is the one who moves, and the old man lies still: at the start both his hands are on the seaman's arm and his face is down at the old man's face; over the first three seconds he draws slowly back and up, his hands sliding along the sleeve toward the open palm and his shoulders lifting until his own face is a forearm's length above the blackened scrap in that palm, his knees staying where they are on the boards; in the last two seconds he holds there looking down at the scrap; the old seaman keeps his exact place on his side with his arm under him and his open hand out, not moving; the blackened scrap stays in the palm; the fallen stool, the tin cup and the run of drink across the boards stay as they lie; the sea chest, the open door and the dull yellow light hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "jim",
+    "inn"
+   ],
+   "refs": [],
+   "beat": "궤짝 바닥에서 소년 짐이 찾아낸 기름종이 꾸러미",
+   "visual": "dull yellow light close on the open sea chest: the battered chest fills the lower half of the frame with its lid thrown back against the wall, its inside turned out in a heap of folded shirts, a brass quadrant, two long flintlock pistols with curved wooden butts, brass side plates and a hammer holding a flint over the pan and a bar of silver piled on the floorboards beside it; the boy of thirteen with the straight brown hair in the patched brown coat is the one kneeling behind the chest at frame centre with both hands down in the bottom of it, drawing up a flat packet wrapped in oiled paper and tied round twice with tarred string, his plain open face down on the packet; the plank wall and the small square window show behind him; the old seaman's black hat lies on the boards at frame right, a low three-cornered hat with its brim turned up on three sides; he is the only person in the room",
+   "motion": "the packet in the boy's hands is the one thing that moves, and the chest holds still: at the start both his hands are down in the bottom of the chest with the oiled paper packet just clear of the boards; over the first three seconds his hands draw the packet slowly up out of the chest, the tarred string turning slowly as it comes and the oiled paper catching the dull yellow light along its folds, until the packet is up level with the chest rim between his two hands; in the last two seconds he holds it there with both hands round it and his face down on it; the thrown-back lid, the heap of folded shirts, the brass quadrant, the two pistols and the bar of silver keep their exact places; the plank wall, the small square window and the three-cornered hat on the boards hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "doctor",
+    "squire",
+    "jim"
+   ],
+   "refs": [],
+   "beat": "꾸러미 속 지도를 의사와 지주가 탁자에 펼친다",
+   "visual": "warm light on a heavy table of dark wood in a panelled room: the lean man of forty in the neat black coat and the white powdered wig is the one standing at frame right with both hands flat on the table holding down the near corners of a square of old paper, his plain calm face bent to it; the big heavy man of fifty in the fine blue coat with the brass buttons and the wide brown hat is the one standing at frame left with one hand spread on the far side of the paper and the other pointing down at it, his broad plain face bent to the same spot; the paper is an old chart of a coastline with hills and soundings drawn on it in faint ink and a small cross marked near one end; the boy of thirteen in the patched brown coat stands at the table's end at frame centre with his chin at the level of its top; the oiled paper wrapping and the tarred string lie at the table's edge; the three of them are the only people in the room; the panelling of the room is dark oak to the height of a man with plain plaster above it, and a coal fire burns low in a small iron grate at frame left; a branched candlestick with three lit candles stands at the table's far end and a decanter and two glasses beside it; the chart's paper is browned at its folds",
+   "motion": "the pointing hand of the big man is the one thing that moves, and the other two hold still: at the start his finger is down on the paper near the middle of the drawn coastline; over the first three seconds the finger travels slowly across the chart toward the small cross at one end, riding a little above the paper and following the line of the coast as it goes, his shoulder turning down with it; in the last two seconds the finger holds just short of the cross; the lean man keeps both hands flat on the near corners with his face bent to the chart, not moving; the boy at the table's end keeps his chin at the level of the top; the old chart stays flat under their hands with its faint ink lines and its cross unchanged; the oiled paper wrapping, the tarred string and the panelled wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "schooner_hisp",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "지도를 실은 두대박이 배가 항구를 떠난다",
+   "visual": "grey morning light over a harbour of stone quays: the two-masted wooden schooner is the one standing out from the quay at frame centre with her canvas set and filling, her hull dark brown above pale planking and her wake spreading behind her; her decks are small with the distance and the few figures on them are too far to tell apart; the stone quay runs across the frame behind her with a crowd of people small along its edge and stacked casks and coils of rope on the stones; two smaller boats lie moored inside the quay; the flat grey water of the harbour runs out to the harbour mouth at frame left; the wide low grey sky fills the top of the frame; the stone of the quay is worn round at its edge and set with iron rings, and a tarred rope hangs down from one of them into the water; a heap of nets lies at frame left with two baskets on top of it; the schooner's name board at her stern is a plain unpainted panel; gulls stand along the quay edge; the stones of the quay are plain grey with grass in their joints and nothing painted on them",
+   "motion": "the schooner's wake is the one thing that moves, and the quay holds still: at the start the spreading wake behind her is a short pale fan on the flat grey water; over the first three seconds the fan widens slowly and runs further back toward the quay, its two arms opening and travelling outward across the water at a steady slow rate, small even ripples following them out to both sides; in the last two seconds the wake keeps widening and running back at the same rate; the schooner keeps her exact place in the frame with her canvas set and full; the stone quay, the small crowd along its edge, the stacked casks, the coils of rope and the two moored boats hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "silver",
+    "parrot",
+    "schooner_hisp"
+   ],
+   "refs": [],
+   "beat": "그 배의 요리사는 목발을 짚은 외다리 실버였다",
+   "visual": "hard daylight on the schooner's deck beside the galley door: the tall broad man of fifty with the broad plain face and the short sandy hair, in the long blue coat and the white apron, is the one standing at frame centre with a big lashed water cask on the deck directly in front of him between him and the camera, so that the cask hides him from the waist down and only his upper body shows above it; the head of a stout wooden crutch rises under his left armpit and its shaft goes down out of sight behind the cask, and his left hand rests easy on the cask top; the green parrot with the pale grey beak is the one gripping his right shoulder with both feet, its head turned side-on toward his ear; the galley door stands open behind him at frame right with a copper pot and a row of tin plates showing inside; coils of rope, a hatch cover and the foot of the mainmast fill the deck round the cask; the low deckhouse runs behind him; he is the only person on this part of the deck; the deck planks are scrubbed pale and caulked with dark lines between them, and a coil of new rope lies by the mast foot; the galley door frame is painted dull yellow and worn to bare wood round its latch; a tin kettle and two wooden bowls stand on a shelf inside; the water cask is bound with three iron hoops",
+   "motion": "the parrot on the man's shoulder is the one that moves, and the man holds still: at the start it grips his right shoulder with both feet and its head is turned side-on toward his ear; over the first three seconds it works its feet slowly along the cloth of the coat toward his collar, one foot lifting and gripping ahead of the other, its head turning a little further round toward his ear and its beak opening and closing as it comes; in the last two seconds it holds its new place close at his collar; the man keeps his left hand easy on the cask top with the crutch head under his shoulder and his broad face forward, not moving; the lashed water cask, the open galley door, the copper pot and the tin plates inside, the coils of rope, the hatch cover and the foot of the mast hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "jim",
+    "silver",
+    "schooner_hisp",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "짐이 사과통 속에서 그 요리사의 말을 엿듣는다",
+   "visual": "deep night on the schooner's deck: a big open apple barrel stands at frame centre by the foot of the mast with the boy of thirteen crouched down inside it, only his brown hair and his eyes and the tops of his fingers showing over the barrel rim, his plain open face turned toward the men beyond; the tall broad man of fifty in the long blue coat is the one standing a stride from the barrel at frame right with the crutch under his left shoulder and one hand out low as he speaks, his broad plain face turned to two seamen in tarred jackets who stand at frame left with their heads bent to him; a lit tin lantern hangs from a hook on the mast above them and throws a dull yellow pool on the planks; the black starless sky and the dark sea show beyond the rail; the apple barrel is bound with four hoops and its lid leans against it on the deck; the mast beside it is banded with iron and hung with belaying pins; the planks under the men are wet and give back the lantern light in long streaks; the rail beyond them is a plain wooden bar on turned posts",
+   "motion": "the hanging lantern is the one thing that moves, and the men hold still: at the start it hangs from its hook on the mast with the dull yellow pool of its light lying on the planks below; over the first three seconds it swings slowly out toward frame left and back again, the pool of light travelling out across the planks with it and sliding back, the shadows of the three men lengthening and shortening slowly across the deck as it goes; in the last two seconds it keeps swinging at the same slow rate; the boy stays crouched in the apple barrel with only his hair, his eyes and his fingertips over the rim, not shifting; the man with the crutch keeps his hand out low and his face on the two seamen; the two seamen keep their heads bent; the mast, the barrel and the rail hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "jim",
+    "island_wood",
+    "schooner_hisp",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "뱃머리에 선 짐의 눈앞에 떠오른 섬",
+   "visual": "grey morning light over flat open water: the boy of thirteen with the straight brown hair in the patched brown coat is the one standing at the schooner's bow at frame left seen from behind and a little above, both hands on the bow rail and his head up, small against the sky; ahead of him at frame right the island stands up out of the water, low grey hills with dense dark green pine wood running down their sides to a pale sand beach, the whole of it small and clear on the horizon; the schooner's bowsprit runs out of the frame toward it; the flat grey sea lies between with a long low swell crossing it; two seabirds show small and dark over the water; the wide low grey sky fills the top of the frame; he is the only person at the bow; the bow rail is a plain wooden bar worn smooth on its upper face, and the bowsprit runs out beyond it with its rigging taut; the deck below him is scrubbed pale and a coil of rope lies by his feet; the water between the ship and the island is grey-green and moving, with a long low swell crossing it",
+   "motion": "the long low swell between the ship and the island is the one thing that moves, and the boy holds still: at the start it lies across the flat grey water as a single long low line; over the first three seconds it travels slowly across the frame from frame right toward frame left, its crest staying the same low height and a second swell coming into the frame behind it at the same slow rate; in the last two seconds both swells go on travelling across at that rate; the boy keeps both hands on the bow rail with his head up, not shifting; the island keeps its exact place and size on the horizon with its grey hills, its dark green pine wood and its pale sand beach unchanged; the bowsprit, the two far seabirds and the wide grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "jim",
+    "island_wood",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "짐이 보트에서 뛰어내려 섬의 숲으로 달아난다",
+   "visual": "hard daylight on the pale sand at the head of a small cove: the boy of thirteen with the straight brown hair in the patched brown coat is the one running up the sand at frame centre away from the camera, his bare feet throwing up sand behind him and both arms bent at his sides, his head turned a little back over one shoulder; a ship's boat lies half drawn up at the water's edge behind him at frame left with two oars across its thwarts and its painter trailing in the shallow water; the dense dark green pine wood stands along the top of the beach ahead of him with a dark gap where the trees open; low grey hills rise beyond the wood; the flat grey sea runs out behind the boat; the wide low grey sky above; he is the only person on the sand; the sand of the cove is pale and firm near the water and looser above the tide line, and a line of dark weed marks the last high water; the pine wood at the top of the beach stands in one solid dark green mass with the one gap black in it; two gulls stand on a rock at frame right",
+   "motion": "the running boy is the one who moves, and the beach holds still: at the start he is halfway up the pale sand with both arms bent at his sides and his head turned back over one shoulder; over the first three seconds he runs slowly on up the sand toward the dark gap in the pine wood, his legs working under him and small sprays of sand lifting behind each bare heel and settling again, his head coming slowly round from his shoulder to face the wood; in the last two seconds he keeps running on at the same pace, still well short of the trees; the ship's boat keeps its place at the water's edge with its two oars across the thwarts and its painter trailing; the dense pine wood, the dark gap in it, the low grey hills and the flat grey sea hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "ben_gunn",
+    "jim",
+    "island_wood"
+   ],
+   "refs": [],
+   "beat": "섬의 숲에서 염소가죽을 걸친 사람이 나온다",
+   "visual": "green shade under the pine wood: the thin man with the wild pale hair down his back and the long thin beard, in the coat and leggings cut from goatskins with the hair outward, is the one stepping out from behind a pine trunk at frame right with one hand out flat before him and the other gripping the bark, his bare feet on the brown needles and his long plain face toward the boy; the boy of thirteen in the patched brown coat is the one halted at frame left with his weight back on one foot and both hands down, his plain open face turned to the goatskin man; the pine trunks run back in rows into the green dark behind them; brown needles cover the ground with a fallen branch across it; a little daylight comes down between the high branches; the two of them are the only people in the wood; the pine trunks are straight and bare to a great height with their bark cracked in plates, and the brown needles lie thick and dry underfoot; a shaft of daylight comes down between two trunks and lies across the needles; the goatskins are stitched with thongs and worn bare at the shoulders",
+   "motion": "the goatskin man is the one who moves, and the boy holds still: at the start he is halfway out from behind the pine trunk with one hand out flat and the other gripping the bark; over the first three seconds he comes slowly further out from the trunk toward the boy, his gripping hand sliding round the bark as his shoulder clears it and his out-held hand rising slowly to the height of his own chest, his bare feet pressing into the brown needles; in the last two seconds he holds there clear of the trunk with his hand up; the boy keeps his weight back on one foot with both hands down and his face turned to him, not moving; the rows of pine trunks, the brown needles, the fallen branch and the green dark behind hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "jim",
+    "doctor",
+    "squire",
+    "log_fort",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "통나무 요새에서 짐의 편은 총을 겨누었다",
+   "visual": "hard daylight inside the square fort of pine logs: the log wall runs across the frame at the height of a man with the bare sand yard inside it; the lean man of forty in the neat black coat and the white powdered wig is the one at frame right with a long musket laid across the top log pointing out over the wall and its butt in at his shoulder, his plain calm face down along the barrel; the big heavy man of fifty in the fine blue coat is the one beside him at frame centre with a second musket up on the logs and a row of small twists of grey paper, each holding a charge of powder, laid out on the wood by his elbow; the boy of thirteen in the patched brown coat is the one crouched below them at frame left with both arms round a keg of powder; a plain bare flag hangs from a pole in the middle of the yard; the pine wood shows dark over the top of the wall; the three of them are the only people inside the fort; the pine logs of the wall are squared on their upper faces and pegged at the corners, and the sand of the yard inside is trodden flat and marked with many feet; a water butt stands at the corner by the spring with a dipper hanging on it; the paper twists are rolled tight and pinched closed at one end, and there is no metal anywhere among them",
+   "motion": "the plain bare flag on its pole is the one thing that moves, and the three at the wall hold still: at the start it hangs down close along the pole in the middle of the sand yard; over the first three seconds it lifts slowly out from the pole toward frame left, the cloth opening as it rises and a slow fold travelling along it from the pole outward, and then eases part way down again; in the last two seconds it lifts once more at the same slow rate; the lean man keeps the musket across the top log with his face down the barrel; the big man keeps his second musket up on the logs beside the row of paper twists; the boy stays crouched below with both arms round the powder keg; the log wall, the bare sand yard and the dark pine wood over the wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "jim",
+    "schooner_hisp",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "짐이 한밤중 바다를 헤엄쳐 배에 오른다",
+   "visual": "deep night on black water beside the anchored schooner: the two-masted schooner fills frame right with her dark hull above the water, her anchor cable running down from her bow into the black, a rope ladder of two ropes and wooden rungs hanging from her rail to the waterline; the boy of thirteen with the straight brown hair is the one in the water at frame centre with both hands on the lowest wooden rung and his head and shoulders out, his wet hair flat to his head and his plain open face turned up the ship's side; the water round him is black with a pale ring of ripples spreading out from his shoulders; one dull yellow light shows small in the schooner's stern window; the black starless sky fills the top of the frame; he is the only person in the water; the schooner's hull is dark and streaked with damp above the waterline, and her anchor cable runs down taut into the black; the rope ladder's rungs are worn pale where feet have crossed them; the water round the boy is black and still except for his own ripples; one lit stern window lies as a small yellow square",
+   "motion": "the ring of ripples round the boy is the one thing that moves, and the ship holds still: at the start a pale ring spreads out from his shoulders across the black water; over the first three seconds the ring travels slowly outward and widens, going dimmer as it goes, and a second ring forms at his shoulders behind it and begins to travel out the same way; in the last two seconds both rings keep spreading at the same slow rate; the boy keeps both hands on the lowest wooden rung with his head and shoulders out of the water and his face turned up the ship's side, not moving; the dark hull, the anchor cable running into the black, the hanging rope ladder and the one dull yellow stern window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "silver",
+    "jim",
+    "island_wood",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "짐이 지켜보는 사이 지도를 들고 숲으로 간 실버의 무리",
+   "visual": "grey daylight on a narrow footpath of packed earth winding away through the pine wood, seen from close behind the boy at the end of the line: the back of the boy of thirteen in the patched brown coat fills the lower right of the frame, his straight brown hair and his shoulders large and near, a line of cord running from his waist ahead of him up the footpath; ahead of him three seamen in tarred jackets walk away up the path with their backs to the camera, each with a spade over his shoulder and the last one holding the end of the cord, and ahead of them at the head of the line the tall broad man of fifty in the long blue coat goes away smallest of all, the stout wooden crutch under his left shoulder and the old chart held open in his right hand at the height of his chest; every one of the five has his back to the camera and every one walks the same way, up the path and away; the pine trunks stand close on both sides of the footpath with brown needles underfoot and roots crossing the bare earth of the path; the footpath is no wider than a man's shoulders; low grey hills show through the trees far ahead; the wide low grey sky over the wood",
+   "motion": "the line going up the footpath is the one thing that moves, and the wood holds still: at the start the boy's back is near the camera with the cord running ahead of him to the last seaman, and the three seamen and the man with the crutch are strung out up the path beyond; over the first three seconds the whole line walks slowly on away from the camera up the footpath, the boy's shoulders swaying a little with each step, the cord keeping the same slack curve between him and the last seaman, the spades riding on the seamen's shoulders, the crutch at the head of the line swinging forward and planting at each stride, all five growing only slightly smaller on the path; in the last two seconds they keep walking on at the same slow pace and stay well inside the frame; the open chart stays in the leading man's right hand; the pine trunks on both sides, the roots across the path, the brown needles and the low grey hills through the trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "silver",
+    "jim",
+    "pit",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "실버의 무리가 파낸 구덩이가 텅 빈 까닭은 무엇일까",
+   "visual": "hard flat daylight in a clearing of the pine wood: a wide open pit is the one thing at frame centre, dug down into the sandy ground with loose earth heaped round its rim and its floor bare sand, broken boards and a rusted spade lying beside it; the tall broad man of fifty in the long blue coat is the one standing at the pit's rim at frame right with the crutch under his left shoulder and the old chart hanging down from his right hand, his broad plain face down into the pit; four seamen stand round the rim at frame left with their picks down at their sides and their faces down into the same hole; the boy of thirteen in the patched brown coat stands a little back from them at the edge of the clearing; the pine wood closes round the clearing; the wide low grey sky above; the loose earth heaped round the pit is dark and damp and stands in ridges where it was thrown; the pit's floor is bare pale sand with the marks of a spade across it; the broken boards beside it are old and grey with square nail holes; the pine wood closes round the clearing in one dark wall",
+   "motion": "the old chart hanging from the man's hand is the one thing that moves, and the men at the rim hold still: at the start it hangs straight down from his right hand beside his knee; over the first three seconds it lifts slowly out from his leg and turns a little on itself, its far corner rising and the paper bending open along its old folds, and then eases slowly back down toward his knee; in the last two seconds it lifts once more at the same slow rate; the man keeps the crutch under his shoulder with his face down into the pit; the four seamen keep their picks down at their sides and their faces down into the hole; the boy keeps his place back at the edge of the clearing; the open pit, the heaped loose earth, the broken boards, the rusted spade and the pine wood round the clearing hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "pit",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 구덩이와 흩어진 연장만 남는다",
+   "visual": "cold grey light in the empty clearing: the wide open pit lies at frame centre with loose earth heaped round its rim and its floor bare sand, a rusted spade left standing upright in the heap and two broken boards lying across the rim; many bare and booted footprints cross the loose earth round the pit and run away toward the trees at frame left; a coil of rope lies abandoned at frame right; the dense dark green pine wood stands close round the clearing with the brown needles thick under the trunks; low grey hills show through a gap in the trees beyond; the wide low grey sky fills the top of the frame; the clearing is quiet and empty of people; the rusted spade's blade is pitted and its handle worn pale where hands have held it; the two broken boards across the rim are grey with age and their nails stand up bent; the abandoned rope is coiled loose and half sunk in the loose earth; the brown needles under the pines lie thick and undisturbed",
+   "motion": "the upright spade in the heaped earth is the one thing that moves, and the clearing holds still: at the start it stands upright in the loose earth at the pit's rim; over the first three seconds it leans slowly over toward the pit, a little further at a time, the loose earth round its blade shifting grain by grain as it goes, until it rests at a slant against the rim; in the last two seconds it holds at that slant without going further; the wide open pit keeps its exact shape with its floor of bare sand; the two broken boards across the rim, the abandoned coil of rope and the many footprints in the loose earth stay exactly as they are; the dense pine wood round the clearing, the thick brown needles and the low grey hills through the gap hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

@@ -1,0 +1,187 @@
+{
+ "logline": "이상적 가정을 꾸미던 신혼부부의 마루에 여왕처럼 들어앉은, 아무도 칠 줄 모르는 피아노",
+ "destination": "소설 피아노에서 만날 수 있습니다",
+ "protagonist": "wife",
+ "setting": "1920년대 늦봄의 서울 — 서양식으로 꾸민 큰 집의 마루와 꽃 날리는 정원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/piano/assets",
+ "anchor": "a young Korean woman in 1920s modern style with hair swept to one side, a pale blouse and a long dark skirt",
+ "palette": "off-white, dark brown, dull green, ash grey, black",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "husband",
+    "house"
+   ],
+   "refs": [],
+   "beat": "일본 대학을 마친 남편, 여학교 나온 처녀와 신식 결혼",
+   "visual": "a 1920s Korean modern wedding in the hall: the husband in his light three-piece suit with a white flower pinned on the lapel standing beside his bride, a young Korean woman of twenty in a white Western wedding dress with a short veil holding a bouquet, the two of them side by side before a table decked with flowers, both smiling stiffly at the camera; exactly two people, one man in a light suit and one bride, no other man",
+   "motion": "the wife's bouquet lifts a little and the husband's stiff smile widens, petals trembling on the flower-decked table; the camera holds on the wedding pair"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "wife",
+    "garden"
+   ],
+   "refs": [],
+   "beat": "비스듬히 기른 머리, 구두 신은 발 — 새 아내",
+   "visual": "the new wife walking along the stone path of the garden in late spring, hair swept to one side in a soft wave, low-heeled leather shoes, glancing back over her shoulder with bright smiling eyes, petals drifting down; exactly one woman",
+   "motion": "the wife stands still on the stone path with her glance over her shoulder holding, petals drifting slowly past her swept black hair, the flowering tree, the wall and the bench unchanged; the camera holds still and wide on the whole garden, no zoom, her face and hair unchanged"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "husband",
+    "wife",
+    "garden"
+   ],
+   "refs": [],
+   "beat": "물려받은 재산으로 늦봄 서울의 신살림",
+   "visual": "the couple standing before the open tiled gate of the garden, the husband holding a leather trunk and the wife holding her hat against a breeze full of petals, both looking up at the house; exactly two people",
+   "motion": "petals blow across the couple as the wife's hand presses her hat down and the husband hefts the trunk, their eyes lifting to the house; the camera holds on the two at the gate"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "house"
+   ],
+   "refs": [],
+   "beat": "마루의 도화심목 테이블과 소파 — 응접실",
+   "visual": "the hall furnished as a drawing room: the mahogany table ringed with sofas in the middle of the polished floor, sunlight from the open garden doors lying across the cushions, potted plants at the corners",
+   "motion": "sunlight slides slowly across the polished floor and the sofa cushions, a curtain stirring at the open doors; the camera holds on the furnished hall"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "house"
+   ],
+   "refs": [],
+   "beat": "체경 박힌 양복장과 유리그릇 — 이상적 가정",
+   "visual": "the tall wardrobe with its full-length mirror standing in the middle of the far wall, flanked by the lacquered side tables set with porcelain and glass dishes catching the light, the mirror reflecting the sofas",
+   "motion": "light glints across the glass dishes one after another and the mirror holds the still reflection of the sofas; the camera holds on the wardrobe and the dishes"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "husband",
+    "wife",
+    "house"
+   ],
+   "refs": [],
+   "beat": "찬비와 침모 — 독서와 정담의 일과",
+   "visual": "the husband seated in a sofa with an open book, the wife on the sofa beside him leaning against his shoulder and talking with a smile, a maid in a white apron carrying a tea tray past the open doorway; exactly three people",
+   "motion": "the wife's head settles closer on the husband's shoulder as she talks and his page turns, the maid's tray passing the doorway; the camera holds on the couple on the sofa"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "wife",
+    "house"
+   ],
+   "refs": [],
+   "beat": "트럼프와 손톱깎이 — 이상적 가정의 물건",
+   "visual": "the wife kneeling by the mahogany table laying out a deck of Western playing cards in a neat row beside a small steel nail clipper, admiring them with a pleased smile; exactly one woman",
+   "motion": "the wife's fingers straighten the row of cards and nudge the nail clipper into line, her pleased smile holding; the camera holds on the hands and the table"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wife",
+    "house"
+   ],
+   "refs": [],
+   "beat": "없어선 안 될 것을 깨달은 아내",
+   "visual": "the wife alone at the open doors of the hall with one finger raised to her lips and her eyes wide, a delighted secret smile breaking over her face, the garden behind her; exactly one woman",
+   "motion": "the wife's raised finger taps her lips and her secret smile widens, her eyes shining, petals drifting in the garden behind; the camera holds on the delighted face"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "wife",
+    "husband",
+    "house"
+   ],
+   "refs": [],
+   "beat": "귀에 대고 소곤거린 한마디 — 피아노!",
+   "visual": "the wife rising on her toes to whisper into the husband's ear with both hands cupped around her mouth, the husband bending down toward her with his eyebrows raised behind his spectacles; exactly two people",
+   "motion": "the wife's cupped hands press closer to the husband's ear and his raised eyebrows shoot higher, his mouth opening; the camera holds on the whisper"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "piano",
+    "husband",
+    "wife",
+    "house"
+   ],
+   "refs": [],
+   "beat": "마루에 여왕처럼 앉은 피아노",
+   "visual": "the glossy black upright piano standing in the middle of the hall with its lid open, the husband and the wife standing at either side of it with their hands clasped and their faces shining as they gaze at it; exactly two people",
+   "motion": "the couple's shining faces turn from the piano to each other and back, their clasped hands tightening; the camera holds on the piano between them"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "husband",
+    "wife",
+    "piano",
+    "house"
+   ],
+   "refs": [],
+   "beat": "한번 쳐 보구려 — 흐려지는 아내의 얼굴",
+   "visual": "the husband gesturing toward the piano with an open palm and a broad smile, the wife's smile gone, her eyes dropping to the floor and her hands twisting together in front of her skirt; exactly two people",
+   "motion": "the husband's open palm stays extended toward the piano while the wife's eyes sink lower and her twisting hands tighten; the camera holds on the two faces"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "house"
+   ],
+   "refs": [],
+   "beat": "모기 같은 소리 — 나 칠 줄 몰라",
+   "visual": "close on a young Korean woman of twenty with hair swept to one side in a soft wave, a pale blouse and a long dark skirt, standing upright in the hall with her head bowed and no smile, her lips barely parted, a tear brimming in one downcast eye, one hand pressed flat to her chest, the dark edge of a piano lid behind her shoulder; she is standing, her hands nowhere near any keys; exactly one woman",
+   "motion": "the tear brims and slides as the woman's bowed head sinks a little lower, her hand pressing harder to her chest; the camera holds close on the bowed face"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "husband",
+    "piano",
+    "house"
+   ],
+   "refs": [],
+   "beat": "내 한번 치지 — 득의양양한 남편",
+   "visual": "the husband alone seated on the round stool before the piano, turned half toward the camera with his chest out and a satisfied smile, one hand flipping back the tail of his coat, the other hand resting on the edge of the keyboard; exactly one man, nobody else in the room",
+   "motion": "the husband settles on the stool with his chest out and shoots his cuffs, his satisfied smile holding; the camera holds on the man at the piano"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "husband",
+    "wife",
+    "piano",
+    "house"
+   ],
+   "refs": [],
+   "beat": "건반 위에 뜬 손 — 어떻게 쳤을까",
+   "visual": "close on the husband's hands hovering over the keyboard with the fingers spread wide and stiff, his fixed smile above them, the wife's face watching from beside the piano with her hands clasped under her chin; exactly two people",
+   "motion": "the husband's stiff spread fingers hover and tremble over the keys and his fixed smile holds, the wife's clasped hands rising under her chin; the camera holds on the hands over the keyboard"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "piano",
+    "house"
+   ],
+   "refs": [],
+   "beat": "마무리 — 햇살 든 마루의 피아노 스틸",
+   "visual": "closing still: the black upright piano in the sunlit hall with its lid open and the round stool pushed back, the mirrored wardrobe reflecting it, glass dishes glinting on the side tables, petals on the floor by the open doors",
+   "motion": "sunlight creeps along the open keyboard and the mirror holds the piano's reflection, a petal skidding across the floor; the camera closes with great patience on the empty stool and the keys"
+  }
+ ],
+ "withheld": "함부로 건반을 치훑고 내리훑는 남편과 참 잘 치시는구려 하는 아내의 말"
+}

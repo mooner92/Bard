@@ -1,0 +1,194 @@
+{
+ "logline": "변호사 어터슨이 친구 지킬 박사의 유언장에서 낯선 이름 하이드를 보고, 밤거리에서 아이를 밀친 그 사내를 뒷문 앞에서 기다려 마주치고, 부러진 지팡이 반쪽과 실험실에 틀어박힌 지킬과 문 안의 낯선 목소리를 거쳐 집사와 함께 도끼로 문을 부순다",
+ "destination": "소설 지킬 박사와 하이드에서 만날 수 있습니다",
+ "protagonist": "utterson",
+ "setting": "1880년대 런던 — 변호사의 서재, 안개 낀 밤거리와 뒷문, 지킬 박사의 식당과 서재, 실험실로 가는 돌 복도와 유리 지붕의 실험실",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/jikil_baksawa_haideu/assets",
+ "anchor": "a tall lean lawyer of fifty in a black frock coat and top hat in foggy London at night",
+ "palette": "dark blue, ash grey, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "그 사내와 박사가 어떤 사이인지와, 약병 속 액체가 한 일",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "utterson_indoor",
+    "will",
+    "study"
+   ],
+   "refs": [],
+   "beat": "변호사 어터슨이 친구 지킬 박사의 유언장을 읽고 놀란다",
+   "visual": "dull yellow light of the coal fire and one candle in the quiet study with its walls of books: the tall lean man of fifty with the short grey hair and the clean-shaven long face, in the plain black frock coat buttoned high, is the one sitting forward in the deep leather armchair at frame centre with the long sheet of thick cream paper held open in both hands, its wax seal showing at the foot and its lines of faint scratched marks catching the candlelight, his plain face bent close to it with his brows drawn together; the second armchair stands empty across the fire at frame right; the round table beside him holds a decanter, two glasses and a brass candlestick with one candle; the tall window behind is black with the curtain half drawn; the coal fire glows low in the grate with a brass fender before it; a small dark blue rug lies on the floor by the chair; he is the only person in the room",
+   "motion": "the lawyer's hands on the paper are the one thing that moves, and the study holds still: at the start the long sheet is held open in both hands close to his face; over the first three seconds his hands lower the paper slowly to his knee and then lift it again to the candle so that the light runs down the scratched lines and across the wax seal, his brows staying drawn together and his lips pressing thin; in the last two seconds the paper holds up in the candlelight; the empty armchair across the fire, the decanter and the two glasses on the round table keep their places; the one candle burns steadily and the coal fire keeps its low glow; the rug on the floor and the half-drawn curtain hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "utterson_indoor",
+    "will",
+    "study"
+   ],
+   "refs": [],
+   "beat": "전 재산을 하이드라는 낯선 이에게 남긴다는 유언이다",
+   "visual": "dull yellow candlelight close on the round table in the study: the long sheet of thick cream paper lies spread flat on the dark wood at frame centre with its wax seal at the foot and its lines of faint scratched marks running across it, and the lawyer's long forefinger is the one resting on one line near the bottom of the sheet, the cuff of his black coat and the white of his shirt showing at the edge of the frame; the brass candlestick stands at the paper's edge with its flame steady, and the decanter and the two glasses beside it give back the flame in three small points; the worn leather of the armchair's arm shows at the bottom corner; the marks on the paper are scratches only and cannot be read as any letters; the rest of the room is dark beyond the circle of the candle; only the hand and the sleeve of one person are in the picture",
+   "motion": "the forefinger on the paper is the one thing that moves, and the table holds still: at the start it rests on one line of scratched marks near the foot of the sheet; over the first three seconds the finger draws slowly along that line from left to right and stops at its end beside the wax seal, then lifts a little and comes down again on the same place, pressing the paper flat; in the last two seconds the finger holds pressed there; the candle flame stands steady and its three small reflections in the decanter and the glasses do not change; the sheet of paper stays spread flat with its seal, and the worn leather at the corner and the dark beyond the candle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "hyde",
+    "street_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤거리에서 아이를 밀치고 지나갔다는 그 하이드",
+   "visual": "night in the narrow street with wet cobbles and thin fog: one gas flame in its glass case on an iron post throws a small yellow circle on the stones at frame centre, and at the far edge of that circle the small man of thirty with the large head and the hunched shoulders, in dark clothes with his coat hanging too big on him, is the one going away from the camera into the fog at frame right with his back turned and one hand holding his hat down, already half lost in the grey; in the near part of the circle at frame left a small girl of eight in a plain dark dress and a white pinafore is the one sitting up on the wet cobbles with both hands flat on the stones behind her and her face turned after the going figure, her plain face open and unhurt; two women in shawls are the ones hurrying toward her from a doorway at frame left with their hands out; the tall dark house fronts close in on both sides; exactly four people, the small man the only one walking away",
+   "motion": "the small man going into the fog is the one who moves, and the child and the two women hold still: at the start he is at the far edge of the yellow circle with his back turned and his hand on his hat; over the first three seconds he walks slowly on away from the camera into the fog, growing dimmer and a little smaller, the grey closing round his hunched shoulders until only the dark shape of his hat and coat shows; in the last two seconds the dark shape holds faint in the fog, still just inside the frame; the child keeps sitting up on the cobbles with her hands behind her and her face turned after him; the two women keep their hands out and their feet where they are; the gas flame in its glass case, the wet cobbles and the tall dark house fronts hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "utterson",
+    "back_door",
+    "street_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어터슨이 하이드가 드나든다는 뒷문 앞에서 밤마다 기다린다",
+   "visual": "night in the narrow street under thin fog: the blistered brown door with no knocker and no bell is the one set in the blank grey side wall of the tall house at frame right, its stone step worn hollow and damp stains running down the wall on either side of it; the tall lean man of fifty in the plain black frock coat and the black top hat is the one standing across the street from that door at frame left with his back to a dark house front, the rolled umbrella planted on the cobbles in front of him and both his gloved hands folded on its handle, his long plain face turned to the door and lit from the side by the gas flame on its iron post further down the street; the wet cobbles between him and the door give back the small yellow circle of that flame; the fog hangs in the upper part of the street; the door is closed; he is the only person in the street",
+   "motion": "the lawyer's gloved hands on the umbrella handle are the one thing that moves, and the door holds still: at the start both hands are folded on the handle with the umbrella planted on the cobbles; over the first three seconds the upper hand lifts slowly and comes up to draw the top hat's brim a little lower over his eyes, then comes back down to fold over the other hand again, his face staying turned to the door and his feet not moving; in the last two seconds both hands are folded on the handle once more; the blistered brown door stays closed on its hollowed step and the damp stains on the wall do not change; the gas flame down the street burns steadily and its yellow circle on the wet cobbles keeps its place; the fog does not shift; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "hyde",
+    "utterson",
+    "back_door",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "마침내 어터슨 앞에 작고 굽은 사내 하이드가 열쇠를 꺼낸다",
+   "visual": "night before the blistered brown door in the blank grey wall: the small man of thirty with the large head and the dark hair low on his brow, his shoulders hunched so that his dark coat hangs too big on him, is the one standing on the hollowed stone step at frame centre with a large iron key held up in one pale hand toward the lock and his other hand flat on the door, his plain hard face with its thin mouth turned back over his shoulder toward the street; the tall lean man of fifty in the black frock coat and top hat is the one a few paces off at frame left with the rolled umbrella under his arm and one gloved hand raised a little at the height of his chest, his long plain face fixed on the small man; the gas flame on its post down the street lights the two of them from the side; the damp stains run down the grey wall; exactly two people",
+   "motion": "the small man's key hand is the one thing that moves, and the lawyer holds still: at the start the iron key is held up toward the lock with his face turned back over his shoulder; over the first three seconds his hand brings the key slowly down to the lock and pushes it in with a small turn of the wrist, his hunched shoulders drawing in closer to the door and his face coming round from the street to the wood, his other hand pressing flatter on the door; in the last two seconds the key holds in the lock with his hand on it; the lawyer keeps the umbrella under his arm and his gloved hand raised, not stepping; the blistered door stays in its frame, the damp stains on the wall and the gas flame down the street hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "utterson_indoor",
+    "jekyll",
+    "dining_room"
+   ],
+   "refs": [],
+   "beat": "며칠 뒤 어터슨이 간 지킬 박사의 만찬은 밝고 따뜻하다",
+   "visual": "the bright light of the coal fire and tall candles in brass sticks in the warm panelled dining room: the large well-made man of fifty with the smooth dark hair going grey at the temples and the clean-shaven kind face, in the dark blue coat over the grey waistcoat with the gold watch chain, is the one standing at the head of the long table at frame right with a glass raised in one hand and his other hand open toward his guests, his wide easy smile turned down the table; the tall lean man of fifty in the plain black frock coat is the one sitting nearest him at frame centre with his own glass on the white cloth and his long plain face turned up to the host, his mouth closed; three other gentlemen in dark evening coats sit further down the table at frame left with their faces turned to the host; the silver on the white cloth gives back the candle flames; the dark green curtains are drawn and the coal fire burns bright in the grate; exactly five men at the table",
+   "motion": "the host's raised glass is the one thing that moves, and the guests hold still: at the start it is held up beside his smiling face; over the first three seconds his arm carries the glass slowly out and round toward the guests in a wide easy sweep, the wine in it tilting and catching the candlelight as it goes, his smile widening and his other open hand following the sweep; in the last two seconds the glass holds out over the table at the end of the sweep; the lawyer keeps his own glass on the cloth and his face turned up, his mouth closed; the three gentlemen further down keep their faces on the host; the tall candles burn steadily and the silver keeps its small reflections; the drawn green curtains and the bright coal fire hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "jekyll",
+    "utterson_indoor",
+    "study"
+   ],
+   "refs": [],
+   "beat": "하이드 걱정은 말라고 지킬이 웃으며 잘라 말한다",
+   "visual": "dull yellow light of the coal fire in the quiet study with its walls of books: the large well-made man of fifty with the smooth dark hair going grey at the temples, in the dark blue coat with the gold watch chain, is the one sitting back in the deep leather armchair at frame right with one hand raised, palm out toward his guest, and his other hand resting easy on the chair's arm, his wide easy smile turned to the guest; the tall lean man of fifty in the plain black frock coat is the one sitting forward in the other armchair at frame left with both his hands clasped between his knees and his long plain face turned to the host, his mouth set; the round table between them holds the decanter, two glasses and one candle in a brass stick; the coal fire glows in the grate between the two chairs; the tall window behind shows a flat grey afternoon with the curtain half drawn; the two of them are the only people in the room",
+   "motion": "the host's raised palm is the one thing that moves, and the guest holds still: at the start the hand is raised palm out toward the guest; over the first three seconds the raised hand comes slowly down through the air and settles on the arm of the chair beside the other hand, his smile staying wide and his head tipping back a little against the leather as the hand comes to rest; in the last two seconds both his hands rest easy on the chair arms; the guest keeps his hands clasped between his knees and his face turned to the host with his mouth set, not moving; the decanter, the two glasses and the one candle on the round table keep their places; the coal fire glows steadily and the grey afternoon in the window does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "cane",
+    "street_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 거리에서 하이드가 남긴 것은 부러진 지팡이 반쪽",
+   "visual": "night in the narrow street with wet cobbles and thin fog, seen from close above the stones: the small yellow circle of the gas flame on its iron post fills the middle of the frame, and lying in that circle on the wet cobbles is one half of a heavy walking cane of dark wood, the half with the plain silver knob, its broken end splintered pale where it snapped clean through; the other half is nowhere in the picture; the cobbles round it are wet and give back the flame; a dropped glove of dark leather lies a little way off at the edge of the circle; beyond the circle the tall dark house fronts rise into the fog with one upper window lit dull yellow and a curtain drawn back in it; there is nobody in the street; the thing lying on the wet stones is only the upper half of the cane, a short length of dark wood no longer than a forearm with the plain silver knob at one end and a jagged pale splintered stump at the other where it snapped across, and no second piece and no full-length stick anywhere on the ground",
+   "motion": "the fog in the upper part of the street is the one thing that moves, and the cane on the stones holds still: at the start the fog hangs level across the dark house fronts below the lit window; over the first three seconds it drifts slowly along the street from frame right toward frame left, thinning a little before the lit window so that the drawn-back curtain shows more clearly and thickening again beyond it; in the last two seconds it keeps drifting at the same slow rate; the half cane with its silver knob and its splintered end keeps its exact place on the wet cobbles and the dropped glove does not move; the gas flame burns steadily in its glass case and its yellow circle on the stones does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "utterson_indoor",
+    "back_door"
+   ],
+   "refs": [],
+   "beat": "어터슨이 하이드의 방에서 나머지 반쪽을 찾아낸다",
+   "visual": "grey daylight through a dirty window into a small bare room behind the blistered brown door: the tall lean man of fifty in the plain black frock coat is the one crouched on one knee at frame centre beside a cold iron grate with a short broken piece of polished dark wood, no longer than his hand, held up between his gloved finger and thumb, one end of it splintered pale where it broke and the wood grey with ash, his long plain face turned down to it; the grate at frame left holds a heap of grey ash and the burned corners of papers; a plain table at frame right has a drawer pulled out and empty and a chair pushed over on its side; a coat hangs on a nail by the door; the walls are bare and stained; a policeman's tall dark helmet and blue shoulder show at the very edge of the frame at the right, the rest of him out of the picture; the lawyer is the only person whose face is in the picture",
+   "motion": "the short broken piece of wood in the lawyer's hand is the one thing that moves, and the room holds still: at the start it is held up beside his face with its splintered end toward the window; over the first three seconds his hand turns the short broken piece of wood slowly round so that the splintered end comes toward the camera and then away again, his gloved thumb passing over the snapped end, his face following the turn; in the last two seconds the short broken piece of wood holds with its snapped end turned to the window; the heap of grey ash and the burned corners of paper in the grate do not stir; the pulled-out drawer, the chair on its side and the coat on its nail keep their places; the helmet and shoulder at the frame's edge do not move; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "jekyll",
+    "utterson",
+    "study",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "지킬이 창가에서 어터슨과 말하다 갑자기 창을 닫는다",
+   "visual": "flat grey afternoon light at the tall window of the study, seen from the street below: the window is the one thing filling the middle of the frame, its lower sash pushed up open, and the large well-made man of fifty with the smooth dark hair going grey at the temples, in the dark blue coat, is the one leaning in the open window at frame centre with both hands on the sill, his kind face turned down to the street and gone still, his wide smile fallen away and his eyes fixed on something below; the tall lean man of fifty in the black frock coat and top hat is the one standing on the pavement at the bottom of the frame with his back to the camera and his face turned up to the window, the rolled umbrella in his hand; the half-drawn curtain shows behind the host's shoulder and the walls of books beyond it; the grey brick of the house front runs up on both sides of the window; exactly two people",
+   "motion": "the host in the open window is the one who moves, and the lawyer below holds still: at the start both his hands are on the sill with his face turned down and gone still; over the first three seconds his hands come up off the sill to the bottom of the raised sash and draw it slowly down, the window closing by half and then almost to the sill, his face going back into the shadow of the room as the glass comes down between him and the street; in the last two seconds the sash holds a hand's width from closed with only the top of his head showing above it; the lawyer on the pavement keeps his face turned up and the umbrella in his hand, not moving; the half-drawn curtain, the walls of books beyond and the grey brick of the house front hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "lab_door",
+    "poole"
+   ],
+   "refs": [],
+   "beat": "그 뒤 지킬은 실험실에 틀어박혀 문을 열지 않는다",
+   "visual": "the light of one candle in the stone corridor: the heavy door of dark oak with its iron lock is the one closed at the end of the corridor at frame centre, its wood dark and its lock plate dull, no light showing under it; the old butler of sixty-five with the white side whiskers and the bald crown, in the black tailcoat and the white shirt front, is the one standing before that door at frame centre with his back half to the camera and one thin hand raised with the knuckles to the oak, the candle in its holder held in his other hand at the height of his shoulder, his plain worried face turned to the wood; the flagstones of the corridor run from the bottom of the frame to the door and the walls of grey stone close in on both sides; the candle's light reaches the door and no further; he is the only person in the corridor",
+   "motion": "the butler's raised hand is the one thing that moves, and the door holds closed: at the start his knuckles are against the oak; over the first three seconds the hand draws back a little from the wood and knocks slowly twice, the knuckles coming to the oak and away and to the oak again, his head bending nearer to the door after the second knock with his ear toward the wood, the candle in his other hand staying at his shoulder; in the last two seconds the hand holds still against the wood with his head bent; the heavy door stays closed with its dull lock plate and no light under it; the candle flame stands steady and its light keeps the same reach along the flagstones and the grey walls; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "poole",
+    "lab_door"
+   ],
+   "refs": [],
+   "beat": "집사 풀이 실험실 문 앞에 둔 쟁반은 손도 대지 않은 채다",
+   "visual": "the light of one candle low on the flagstones of the stone corridor: the tray with the covered dish is the one thing at frame centre, set on the stones close against the foot of the heavy oak door, the dish's silver cover still down and a folded napkin and a small loaf beside it untouched, a skin on the cold soup in a bowl at the tray's edge; the old butler's black shoes and the hem of his black tailcoat are the ones standing at frame left beside the tray, the rest of him out of the top of the frame, and his thin hand with the candle in its holder comes down into the picture at frame left so that the flame lights the tray from the side; the dark oak of the door rises above the tray with its iron lock and no light under it; the grey stone walls close in; only the shoes, the hem and the hand of one person are in the picture",
+   "motion": "the butler's hand with the candle is the one thing that moves, and the tray holds still: at the start the candle is held low at frame left with its light on the tray from the side; over the first three seconds the hand carries the candle slowly across above the tray so that the light travels over the silver cover, the folded napkin and the small loaf and settles on the bowl of cold soup with its skin, the shadow of the cover sliding across the stones as the flame passes; in the last two seconds the candle holds over the bowl; the silver cover stays down and the loaf and the napkin do not move; the black shoes and the coat hem at frame left stay where they are; the heavy oak door above stays closed with no light under it; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "poole",
+    "utterson_indoor",
+    "lab_door"
+   ],
+   "refs": [],
+   "beat": "문 안에서 들리는, 지킬의 것이 아닌 목소리",
+   "visual": "the light of one candle in the stone corridor: the old butler of sixty-five in the black tailcoat is the one standing close against the heavy oak door at frame right with one ear laid to the wood and his eyes closed, one thin hand flat on the door beside his face; the tall lean man of fifty in the plain black frock coat is the one standing a pace behind him at frame centre with the candle in its holder held up in one hand and the other hand hanging empty at his side, his long plain face bent toward the door with his lips parted; the candle's light lies on the two faces and on the dark oak and the dull iron lock; the covered tray still stands on the flagstones at the door's foot; the grey stone walls close in and the corridor behind the two men runs back into the dark; exactly two people",
+   "motion": "the lawyer's candle is the one thing that moves, and the two men hold their places: at the start it is held up in his hand at the height of his shoulder with its light on the two faces; over the first three seconds his hand lowers the candle slowly toward the door so that the light slides down the oak from the butler's laid ear to the iron lock and the crack under the door, the shadows of the two men climbing the grey wall behind them as it sinks; in the last two seconds the candle holds low with its light on the crack under the door; the butler keeps his ear to the wood and his eyes closed and his hand flat on the oak; the lawyer keeps his face bent and his lips parted; the covered tray on the flagstones does not move; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "utterson_indoor",
+    "poole",
+    "lab_door"
+   ],
+   "refs": [],
+   "beat": "집사와 어터슨이 도끼로 부순 문 안에는 무엇이 있었을까",
+   "visual": "the light of one candle and a cold grey glow from beyond in the stone corridor: the heavy oak door is the one thing at frame centre, its upper panel split open in a ragged hole the size of a man's head with pale splinters standing out from the dark wood all round the break, and the grey light of the glass roof beyond coming through the hole onto the flagstones; the tall lean man of fifty in the black frock coat is the one standing at frame left with a woodman's axe hanging down from both hands, its head resting on the stones, his long plain face turned to the hole and gone white; the old butler in the black tailcoat is the one at frame right pressed back against the grey wall with the candle shaking in his hand and his worried face turned the same way; nothing of the room beyond shows through the hole but the grey light; the covered tray has been pushed aside on the flagstones; exactly two people",
+   "motion": "the candle in the butler's hand is the one thing that moves, and the two men hold their places: at the start the flame is shaking a little in his hand against the grey wall; over the first three seconds the flame's shaking slowly grows and the shadows of the two men on the walls tremble with it, the light on the pale splinters round the hole flickering, while the cold grey glow through the hole stays steady; in the last two seconds the flame keeps shaking at the same rate; the lawyer keeps the axe hanging from both hands with its head on the stones and his white face on the hole, not stepping; the butler keeps his back to the wall; the ragged hole in the door and the pushed-aside tray hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "laboratory",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 실험실에 큰 옷 한 벌만 남는다",
+   "visual": "flat grey light from the glass roof over the high bare room with the whitewashed walls: the long deal tables at frame right are crowded with glass vessels, some fallen over, and bottles of coloured powders with their stoppers out; the small iron stove at frame left is cold with its door open on grey ash; the tall cheval mirror in its wooden frame stands turned to the wall so that only its plain wooden back shows; the worn leather armchair stands at frame centre with its seat empty except for a folded letter with a wax seal; a large dark blue coat hangs by its collar from the top of the chair's back like a coat on a peg, flat and empty, its two sleeves hanging straight down behind the chair to the floor, and a grey waistcoat with a gold watch chain is draped flat over one arm of the chair, both garments plainly empty cloth with nobody inside them, far too big for a small man; a pair of large boots stands neatly on the floor before the chair; the flagstones run bare to the broken door out of the frame; the room is quiet and there is nobody in it",
+   "motion": "the grey light from the glass roof is the one thing that moves, and the room holds still: at the start it lies even across the whitewashed walls and the long tables; over the first three seconds a slow shadow passes across the glass roof from frame left to frame right, the light on the tables and on the dark blue coat dimming a little and brightening again as it goes, the glass vessels losing and regaining their small points of light; in the last two seconds the light holds even once more; the empty coat hanging from the chair's back, the waistcoat over the chair's arm, the large boots before it and the folded letter on the empty seat keep their exact places, and no hands or figure appear anywhere; the fallen vessels, the open stove door on its grey ash and the mirror's plain wooden back hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

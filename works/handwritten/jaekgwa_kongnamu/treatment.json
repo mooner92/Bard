@@ -1,103 +1,204 @@
 {
- "logline": "소를 팔러 간 소년이 콩 몇 알을 얻어 오고, 그 콩이 하룻밤 새 구름까지 자란다.",
- "destination": "구름 위 거인의 성 — 줄기를 끝까지 오른 자리",
- "protagonist": "헝클어진 금발에 기운 조끼를 걸친 열두 살 소년",
- "setting": "옛 잉글랜드의 가난한 농가와 구름 위의 성",
- "anchor": "a twelve-year-old English boy with tousled fair hair, patched waistcoat and rolled trousers",
- "palette": "meadow green, cloud white, cottage brown, cold sky blue, warm amber",
- "voice": "ko-KR-InJoonNeural",
- "personas": {
-  "jack": {
-   "label": "소년",
-   "desc": "a twelve-year-old English boy, tousled fair hair, patched waistcoat, rolled trousers, bare feet",
-   "avoid": ""
-  },
-  "mother": {
-   "label": "어머니",
-   "desc": "a worn Englishwoman in her forties, hair under a linen cap, patched apron over a grey dress",
-   "avoid": ""
-  },
-  "cottage": {
-   "label": "오두막 마당",
-   "desc": "a small thatched cottage with a bare kitchen garden, low stone wall, wooden gate"
-  },
-  "giant_hall": {
-   "label": "거인의 성",
-   "desc": "an enormous stone hall with a table and chair many times human size, cloud beyond the window"
-  }
- },
+ "logline": "가난한 오두막의 소년 잭이 젖이 마른 소를 팔러 나갔다가 노인에게 콩 다섯 알을 받아 오고, 어머니가 창밖으로 던진 콩이 하룻밤 새 구름까지 닿는 줄기로 자라, 줄기를 오른 잭이 구름 위 거인의 돌집에서 아내의 도움으로 구리 솥에 숨었다가 잠든 거인의 금화 자루를 안고 내려오고, 다시 올라 황금알을 낳는 암탉을 안고 달아난다",
+ "destination": "동화 잭과 콩나무에서 만날 수 있습니다",
+ "protagonist": "jack",
+ "setting": "옛 잉글랜드의 가난한 농가와 시골길, 구름 위의 거인의 돌집",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/jaekgwa_kongnamu/assets",
+ "anchor": "a slight English boy of twelve with tousled fair hair, a patched dull green waistcoat over an off-white shirt, dull brown trousers rolled to the knee, bare feet, a thin bright face",
+ "palette": "dull green, off-white, dark brown, dark blue, dull yellow",
+ "voice": "",
+ "personas": {},
+ "withheld": "거인이 잭을 쫓아 줄기를 내려오는 대목과, 잭이 줄기를 벤 뒤에 벌어지는 일",
  "beats": [
   {
    "n": 1,
    "cast": [
     "jack",
+    "cow",
     "mother",
-    "cottage"
+    "cottage",
+    "day_bg"
    ],
-   "beat": "소년이 콩 몇 알을 어머니에게 내민다.",
-   "visual": "a boy holding out a few beans on his palm to a worn woman before a thatched cottage",
-   "motion": "his palm opens toward her, her hand strikes it aside, the beans scatter and bounce"
+   "refs": [],
+   "beat": "소년 잭이 젖이 마른 소를 팔러 오두막을 나선다",
+   "visual": "hard bright morning light on the small thatched cottage: the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat and the rolled brown trousers is the one walking barefoot out through the open wooden gate at frame centre, the lead rope of the thin white cow in his right hand, his thin face turned ahead down the lane toward frame right; the thin white cow with the dull brown patches and the ribs showing is the one following a step behind him through the gate, its head low; the thin woman in the white linen cap and the patched apron is the one standing in the plank doorway of the cottage at frame left, one thin hand on the door post, her worn face turned after the boy; the bare kitchen garden of dark earth between the door and the low stone wall; exactly two people, one boy and one woman, and one cow",
+   "motion": "the boy and the cow are the ones who move, and the woman in the doorway holds still: at the start the boy's right hand holds the lead rope taut and the cow's head is low a step behind him; over the first three seconds the boy takes two slow barefoot steps out through the gate toward frame right, the rope staying taut in his hand, and the cow follows him with two slow heavy steps, its head swinging a little from side to side and its thin flanks swelling and sinking with each breath; in the last two seconds both stop well inside the frame on the lane just outside the gate, the boy's face still turned ahead, the cow's head still low; the woman in the doorway keeps her hand on the door post and her face turned after them, her feet not shifting, her apron hanging still; the thatched roof, the small square window, the low stone wall and the bare dark earth of the garden hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "cottage"
+    "old_man",
+    "jack",
+    "cow",
+    "lane",
+    "day_bg"
    ],
-   "beat": "밤사이 마당에 굵은 줄기가 솟는다.",
-   "visual": "an enormous green beanstalk risen through a cottage garden at dawn, dwarfing the roof",
-   "motion": "the stalk sways upward into the cloud, leaves unfurl, dew shakes off the coils"
+   "refs": [],
+   "beat": "길에서 만난 노인이 콩 다섯 알을 내민다",
+   "visual": "hard bright daylight on the dirt lane between the low hedges: the stooped old man with the long white beard, the wide-brimmed dull brown hat and the long brown coat is the one standing at frame left, his knobbed stick in his left hand and his right hand held out open toward the boy with five small pale green beans lying in it; the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one standing at frame centre facing him, the cow's lead rope slack in his left hand, his thin face bent toward the open hand; the thin white cow with the dull brown patches is the one standing behind the boy at frame right, its head turned toward the hedge; the dull green fields roll away behind the hedges to a far line of trees; exactly two people, one old man and one boy, and one cow; all five beans are in the old man's open hand and the dirt of the lane at their feet is bare packed earth",
+   "motion": "the old man's right hand is the only thing that moves, and the boy and the cow hold still: at the start his open hand with the five pale green beans in it is held out at the height of his waist; over the first two seconds the hand rises slowly to the height of his chest, the beans staying in the open hand, his stooped shoulders not straightening and his left hand staying on the knobbed stick; in the last two seconds the hand holds there, held out toward the boy, the beans still lying in it; the boy keeps his thin face bent toward the hand and his left hand slack on the lead rope, his bare feet not shifting on the dirt; the cow keeps its head turned toward the hedge, its four legs planted, its tail hanging; the hedges, the dirt lane, the dull green fields and the far line of trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "jack"
+    "jack",
+    "mother",
+    "cottage",
+    "day_bg"
    ],
-   "beat": "소년이 줄기를 붙잡고 오른다.",
-   "visual": "a boy climbing a vast beanstalk high above patchwork fields, cloud close overhead",
-   "motion": "he pulls himself upward along the stalk, leaves bend under him, wind tears past"
+   "refs": [],
+   "beat": "잭이 소 대신 콩 다섯 알을 쥐고 돌아온다",
+   "visual": "late afternoon light on the front of the small thatched cottage: the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one standing on the bare dark earth of the garden at frame right, his right hand held out open toward the woman with five small pale green beans lying in it, his thin face lifted to hers; the thin woman in the white linen cap and the patched apron is the one standing on the doorstep at frame left in front of the plank door, both thin hands pressed to her hips, her worn face bent down toward the boy's open hand with her brows drawn together and her mouth pressed thin; the low stone wall and the open wooden gate behind the boy; exactly two people, one boy and one woman, each with two arms; all five beans are in the boy's open hand and the dark earth of the garden at his feet is bare turned soil",
+   "motion": "the woman on the doorstep is the only one who moves, and the boy holds still: at the start both her thin hands are pressed to her hips and her face is bent toward the boy's open hand; over the first two seconds her right hand comes off her hip and rises slowly to press against her own forehead, her head turning slowly aside toward the door post, her mouth staying pressed thin, her left hand staying on her hip; in the last two seconds her hand stays against her forehead and her face stays turned aside; the boy keeps his right hand held out open with the five beans lying in it, his face lifted, his bare feet planted on the dark earth, his other arm hanging at his side; the plank door, the small square window, the thatched roof, the low stone wall and the open gate hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
-    "jack",
-    "giant_hall"
+    "mother",
+    "cottage",
+    "day_bg"
    ],
-   "beat": "소년이 거대한 성의 문턱을 넘는다.",
-   "visual": "a small boy stepping over the threshold of a stone hall built many times his size",
-   "motion": "he walks forward into the hall, dust lifts around his feet, the doorway looms"
+   "refs": [],
+   "beat": "어머니가 콩을 창밖으로 내던진다",
+   "visual": "late afternoon light on the dull brown stone wall of the cottage seen from the garden: the thin woman in the white linen cap is the one leaning out through the small square window at frame centre, its wooden shutter pushed open, her right arm flung out over the garden with the fingers spread, the five small pale green beans in the air below her hand over the bare bed of dark earth at the bottom of the frame; her worn face turned down after the beans, her brows drawn together; the plank door at frame right closed, the thatch above the window; she is the only person in the frame",
+   "motion": "the woman at the window is the only one who moves: at the start her right arm is flung out over the garden with the fingers spread and the five beans are in the air below her hand; over the first two seconds the beans drift down through the air and come to rest scattered across the dark earth of the bed, and her arm draws slowly back in through the window until only her hand rests on the sill; in the last two seconds she stays leaning at the window with her hand on the sill, her face turned down at the earth, her mouth pressed thin, her cap not slipping; the wooden shutter, the plank door, the thatch and the stone wall hold completely still; the beans lie where they came to rest and nothing sprouts from the earth; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
-    "giant_hall"
+    "jack",
+    "beanstalk",
+    "cottage",
+    "dawn_bg"
    ],
-   "beat": "탁자 위에서 황금알이 굴러떨어진다.",
-   "visual": "a golden egg rolling off the edge of an enormous wooden table onto a stone floor",
-   "motion": "the egg rolls off the table and drops, it strikes the stone and spins away"
+   "refs": [],
+   "beat": "이튿날 새벽 마당에 구름까지 닿는 줄기가 솟아 있다",
+   "visual": "pale dawn light on the small thatched cottage: the beanstalk as thick as a tree trunk is the one rising out of the bare bed of dark earth at frame centre beside the cottage wall, its twisting dull green stem taller than the thatched roof and going up out of the top of the frame, broad leaves and curling tendrils along it; the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one standing barefoot on the doorstep in front of the open plank door at frame left, his head tipped far back and his thin face lifted up along the stem, his mouth open, both hands hanging at his sides; the low stone wall and the wooden gate at frame right; he is the only person in the frame",
+   "motion": "the boy on the doorstep is the only one who moves: at the start his head is tipped far back with his mouth open and both hands hang at his sides; over the first three seconds he steps slowly down off the doorstep onto the dark earth with two small barefoot steps toward the stem, his face staying lifted up along it, his right hand rising slowly until it rests flat against the dull green stem; in the last two seconds he stands with his hand on the stem and his face lifted, his left hand hanging; the broad leaves of the beanstalk stir very slightly in a light breeze and the curling tendrils do not move; the stem does not sway; the thatched roof, the plank door, the small window, the stone wall and the gate hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "cast": [],
-   "beat": "멀리서 무거운 발소리가 다가온다.",
-   "visual": "an enormous stone hall with dust shivering off the beams, a doorway dark beyond",
-   "motion": "dust shakes down from the beams, the floor trembles, the far doorway darkens"
+   "cast": [
+    "jack",
+    "beanstalk",
+    "high_air"
+   ],
+   "refs": [],
+   "beat": "잭이 줄기를 붙들고 구름 위로 기어오른다",
+   "visual": "hard bright light high in the air: the twisting dull green stem of the beanstalk as thick as a tree trunk is the one running straight up through the middle of the frame from the bottom edge to the top edge, broad leaves and curling tendrils along it; the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one clinging to the stem at frame centre, both hands gripping a thick tendril above his head, his bare feet braced on a leaf stalk, his thin face lifted up the stem; far below at the bottom of the frame the patchwork fields of dull green and dull yellow, thin white clouds close around the stem above him; he is the only person in the frame",
+   "motion": "the boy on the stem is the only one who moves: at the start both his hands grip the thick tendril above his head and his bare feet are braced on the leaf stalk; over the first three seconds he climbs slowly hand over hand, his right hand reaching up to the next tendril and then his left, his bare feet finding the next leaf stalk one after the other, his whole body rising about one body length up the stem, his face staying lifted; in the last two seconds he holds still on the stem well inside the frame, both hands gripping and both feet braced, his chest swelling and sinking with each breath; the stem, the broad leaves, the curling tendrils, the thin white clouds and the patchwork fields far below hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "jack"
+    "jack",
+    "cloud_road",
+    "stone_house",
+    "day_bg"
    ],
-   "beat": "소년이 줄기를 타고 미끄러져 내려온다.",
-   "visual": "a boy sliding down a vast beanstalk toward distant fields, something clutched to his chest",
-   "motion": "he slides downward fast along the stalk, leaves whip past, wind drags at him"
+   "refs": [],
+   "beat": "구름 위 하얀 길 끝에 커다란 돌집이 서 있다",
+   "visual": "hard bright daylight on the broad flat road of white cloud: the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one walking barefoot along the cloud road at frame bottom left, small in the frame, his back half turned to the camera and his thin face turned ahead toward the house; the huge house of grey stone blocks is the one standing at the far end of the road at frame right, its doorway many times a man's height with the dark oak door standing open, its small high windows, its roof going up out of the top of the frame; low banks of white cloud on either side of the road; he is the only person in the frame",
+   "motion": "the boy on the cloud road is the only one who moves: at the start his back is half turned to the camera and his face is turned ahead toward the house; over the first three seconds he walks slowly forward along the road with four small barefoot steps toward the house, his arms swinging a little at his sides, his body growing no larger in the frame; in the last two seconds he stops on the road well inside the frame, his arms coming to rest at his sides, his face still turned toward the open doorway; the huge stone house, its open oak door, its small high windows, the low banks of cloud on either side and the flat road of cloud hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "마당에 잘린 줄기 밑동만 남는다.",
-   "visual": "a huge severed beanstalk stump in a cottage garden, coils of vine collapsed around it",
-   "motion": "the cut vine settles across the garden, leaves drift down, dust lifts and clears"
+   "cast": [
+    "giant_wife",
+    "jack",
+    "stone_house",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "문을 연 것은 잭보다 몇 배나 큰 거인의 아내다",
+   "visual": "hard bright daylight at the huge stone doorway, the camera low at the boy's height: the very tall broad woman in the dull red dress and the wide off-white apron is the one standing in the open doorway at frame right, so tall that only her body from the waist down fills the right side of the frame, her red skirt and her white apron hanging down past the top of the frame, one huge hand hanging at her side beside her knee with its fingers each as long as the boy's forearm; the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one standing on the white cloud at the foot of the doorstep at frame left, the top of his head level with the woman's knee, his thin face tipped far back up toward where her face is above the frame, both his hands clasped in front of his waistcoat; the grey stone blocks of the wall rising out of the top of the frame, the dark oak door standing open behind her; exactly two people, one very tall woman seen from the waist down and one small boy",
+   "motion": "the very tall woman is the only one who moves, and the boy holds still: at the start her huge hand hangs at her side beside her knee; over the first three seconds the hand lowers slowly toward the boy, its fingers spreading, and stops with the fingertips a hand's width above the top of his head, her red skirt swaying a little with the movement; in the last two seconds the hand holds there above his head; the boy keeps his thin face tipped far back and both his hands clasped in front of his waistcoat, his bare feet planted on the cloud; the open oak door, the grey stone blocks and the white cloud underfoot hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "giant_wife",
+    "jack",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "아내가 잭을 화덕 옆 구리 솥 안에 숨긴다",
+   "visual": "low firelight inside the vast stone hall, the camera low beside the hearth: a round copper pot with two handles is the one standing on the flagstone floor beside the wide hearth at frame centre, so big that its rim is higher than the top of the frame's lower third; the slight boy of twelve with the tousled fair hair is the one already down inside the pot, only his fair hair, his eyes and his two hands gripping the rim showing above it, his eyes turned up; the very tall broad woman in the dull red dress and the wide off-white apron is the one bending over the pot from behind it at frame right, seen from the waist up, both her thick hands holding the pot's round copper lid above the boy's head, her heavy plain face bent down to him; the low fire in the hearth at frame left, the huge wooden table leg at the far right edge; exactly two people, one very tall woman and one small boy inside the pot",
+   "motion": "the very tall woman is the only one who moves, and the boy in the pot holds still: at the start both her thick hands hold the copper lid above the boy's head; over the first three seconds she lowers the lid slowly toward the rim of the pot, the boy's fair hair and eyes and his gripping hands staying just above the rim until the lid is a hand's width above them, her back bending lower with the movement; in the last two seconds the lid holds there a hand's width above the rim; the boy keeps his hands on the rim and his eyes turned up; the copper pot stays on the flagstones without tipping; the low fire in the hearth flickers gently; the stone walls, the flagstone floor and the huge table leg hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "giant",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "쿵쿵 들어온 거인이 코를 킁킁거린다",
+   "visual": "low firelight inside the vast stone hall: the huge bald man four times the boy's height with the thick black beard and the dull brown coat is the one standing beside the huge wooden table at frame centre, his head lifted and tilted back with his nostrils flared and his heavy brows drawn down, his right hand resting flat on the table top, his left hand hanging in a fist; a round copper pot with its rim as high as the man's knee standing beside the wide hearth at frame left with its lid on; the low fire in the hearth, the flagstone floor, the wooden bench along the near side of the table; he is the only person in the hall; the copper pot stands on the flagstone floor beside the hearth, its rim as high as the man's knee, its lid on, and the top of the huge table is bare wood with nothing on it",
+   "motion": "the huge bald man is the only one who moves: at the start his head is lifted and tilted back with his nostrils flared and his right hand rests flat on the table top; over the first two seconds his head turns slowly from the table toward the hearth, his nostrils flaring wider as he draws in the air, his heavy brows staying drawn down, his left fist tightening at his side; in the last two seconds his head holds turned toward the hearth and his right hand stays flat on the table, his feet planted; the copper pot beside the hearth stays with its lid on and does not move; the low fire flickers gently; the huge table, the bench, the flagstone floor and the stone walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "giant",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "거인이 탁자에서 금화 자루를 세다가 잠든다",
+   "visual": "low firelight inside the vast stone hall: the huge bald man four times the boy's height with the thick black beard and the dull brown coat is the one sitting on the wooden bench at the huge table at frame centre, slumped forward with his bearded cheek resting on his folded arms on the table top, his eyes closed, his mouth open; three fat leather sacks tied at the neck are the ones standing on the table beside his head at frame right, the nearest one open with small gold coins spilling from it into a heap, and a few short stacks of gold coins set in a row in front of his arms; the low fire in the hearth at frame left, the flagstone floor; he is the only person in the hall",
+   "motion": "the huge bald man asleep at the table is the only one who moves: at the start his bearded cheek rests on his folded arms and his eyes are closed with his mouth open; over the whole five seconds his broad back and shoulders rise and sink slowly with deep sleeping breaths, his open mouth moving very slightly with each breath, his eyes staying closed, his thick fingers lying curled and loose on the table top; nothing else about him moves and he does not lift his head; the three leather sacks, the heap of spilled gold coins and the short stacks of coins stay exactly where they are on the table; the low fire flickers gently; the huge table, the bench, the flagstone floor and the stone walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "jack",
+    "beanstalk",
+    "high_air"
+   ],
+   "refs": [],
+   "beat": "잭이 금화 자루 하나를 안고 줄기를 타고 내려온다",
+   "visual": "hard bright light high in the air: the twisting dull green stem of the beanstalk as thick as a tree trunk is the one running straight up through the middle of the frame, broad leaves and curling tendrils along it; the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one clinging to the stem at frame centre facing it, one fat leather sack tied at the neck slung on his back by a cord across his chest, both hands gripping a tendril and his bare feet braced on a leaf stalk below, his thin face turned down toward the ground; the patchwork fields of dull green and dull yellow far below at the bottom of the frame, thin white clouds around the stem above him; he is the only person in the frame",
+   "motion": "the boy on the stem is the only one who moves: at the start both his hands grip the tendril and his bare feet are braced on the leaf stalk with the leather sack on his back; over the first three seconds he climbs slowly down, his right foot reaching down to the next leaf stalk and then his left, his hands sliding down the stem one after the other, his whole body sinking about one body length down the stem, the sack shifting a little on his back, his face staying turned down; in the last two seconds he holds still on the stem well inside the frame, both hands gripping and both feet braced, his chest swelling and sinking with each breath; the stem, the broad leaves, the curling tendrils, the thin white clouds and the patchwork fields far below hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "jack",
+    "giant",
+    "hen",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "다시 오른 잭이 황금알을 낳는 암탉을 본다",
+   "visual": "low firelight inside the vast stone hall: the huge bald man four times the boy's height with the thick black beard and the dull brown coat is the one sitting on the bench at the huge table at frame right, slumped with his bearded cheek on his folded arms on the table top, his eyes closed; the plump hen is the one sitting on the table top at frame centre beside his arms, a smooth egg of solid gold as big as a man's fist lying on the table just behind her tail; the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one standing on the wooden bench at frame left, his chin just above the table top, both hands reaching slowly across the table top toward the hen, his thin face fixed on her; exactly two people, one huge sleeping man and one small boy, and one hen",
+   "motion": "the boy on the bench is the only one who moves, and the sleeping man and the hen hold still: at the start his chin is just above the table top and both his hands are reaching across it toward the hen; over the first three seconds his hands slide slowly forward across the table top until his fingers close gently around the hen's sides, his eyes staying fixed on her, his bare feet not shifting on the bench; in the last two seconds his hands hold the hen where she sits and he does not lift her; the hen keeps her head up and her feathers settled, not flapping; the huge man's cheek stays on his folded arms with his eyes closed, only his broad back rising and sinking with slow sleeping breaths; the golden egg stays on the table behind the hen; the low fire flickers gently; the table, the bench and the stone walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "jack",
+    "giant",
+    "cloud_road",
+    "stone_house",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "암탉을 안고 달아나는 잭의 뒤에서 거인이 문간에 선다",
+   "visual": "hard bright daylight on the broad flat road of white cloud: the slight boy of twelve with the tousled fair hair and the patched dull green waistcoat is the one running barefoot along the cloud road toward frame left at frame centre, the plump hen clutched against his chest under his right arm, his left arm swinging, his thin face turned ahead; behind him at frame right the huge stone doorway of the grey house, and the huge bald man four times the boy's height with the thick black beard and the dull brown coat is the one standing in that doorway, one huge hand gripping the door post, his heavy brows drawn down toward the boy; low banks of white cloud on either side of the road; exactly two people, one small running boy and one huge man in the doorway",
+   "motion": "the boy on the cloud road is the only one who moves, and the huge man in the doorway holds still: at the start the boy is mid stride with the hen clutched against his chest under his right arm; over the first three seconds he runs three long barefoot strides toward frame left along the road, his left arm swinging, the hen held tight against him, his body growing only a little larger in the frame; in the last two seconds he keeps running and stays well inside the frame, his face turned ahead; the huge man keeps his hand gripping the door post and his brows drawn down, his feet planted in the doorway, his coat hanging still, his other arm at his side; the hen does not flap; the stone house, the open oak door, the low banks of cloud and the flat road of cloud hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "beanstalk",
+    "cottage",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "구름 속으로 뻗은 줄기만 마당에 서 있다",
+   "visual": "hard bright daylight seen from the bare kitchen garden looking up: the beanstalk as thick as a tree trunk is the one rising out of the dark earth at frame centre, its twisting dull green stem going straight up past the thatched roof of the small cottage at frame left and on up into the thin white clouds at the top of the frame, broad leaves and curling tendrils along the whole height of it; the plank door of the cottage closed, the small square window dark; the low stone wall and the wooden gate at frame right; the garden lies quiet in the light",
+   "motion": "nothing but the leaves and the clouds moves: over the whole five seconds the broad leaves along the stem stir very slightly in a light breeze, each one lifting and settling a little in turn from the bottom of the frame to the top, and the thin white clouds at the top of the frame drift very slowly from left to right across the upper part of the stem; the stem itself does not sway and the curling tendrils do not uncoil; the thatched roof, the closed plank door, the dark small window, the dark earth of the garden, the low stone wall and the wooden gate hold completely still; the garden stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "거인이 소년을 쫓아 내려오는 대목과, 줄기를 벤 뒤에 벌어지는 일"
+ ]
 }

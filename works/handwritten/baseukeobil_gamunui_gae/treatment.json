@@ -1,62 +1,205 @@
 {
-  "logline": "황무지 저택의 주인이 문 앞에서 죽은 채 발견되고, 그 곁에 남은 자국이 사람의 것이 아니다.",
-  "destination": "황무지 한복판의 늪 — 밤마다 울음소리가 나는 자리",
-  "protagonist": "런던에서 내려온 의사이자 기록자",
-  "setting": "19세기 말 잉글랜드 데번 황무지, 저택과 늪과 돌무더기",
-  "anchor": "a solid middle-aged doctor in a tweed travelling suit and bowler, moustached, bleak Dartmoor moorland",
-  "palette": "fog white-grey, peat black, heather purple, thin lantern yellow",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "의사가 안개 낀 황무지 역에 내려선다.",
-      "visual": "a middle-aged doctor stepping from a small station platform into rolling moorland fog, cart waiting",
-      "motion": "fog rolls across the platform, the cart pony stamps, his hat brim drips"
-    },
-    {
-      "n": 2,
-      "beat": "저택 문 앞에서 그는 낯선 자국을 발견한다.",
-      "visual": "a doctor crouching with a lantern over large paw prints in wet earth before a stone gateway",
-      "motion": "his lantern lowers over the prints, mud glistens, mist creeps across the ground"
-    },
-    {
-      "n": 3,
-      "beat": "밤마다 황무지에서 긴 울음소리가 들려온다.",
-      "visual": "a doctor standing at a lit window looking out over black moorland, curtains pulled wide",
-      "motion": "the curtain lifts in the draught, his hand flattens on the glass, fog moves outside"
-    },
-    {
-      "n": 4,
-      "beat": "탈옥수 하나가 바위 뒤로 사라진다.",
-      "visual": "a ragged man scrambling up behind granite boulders on a moonlit ridge, candle stub falling from his hand",
-      "motion": "he scrambles upward over the rock and drops out of sight, the candle rolls downhill, wind scours the ridge"
-    },
-    {
-      "n": 5,
-      "beat": "늪가에서 조랑말 한 마리가 가라앉는다.",
-      "visual": "a moor pony sinking into black bog water, reeds parting around it, empty ridge beyond",
-      "motion": "bog water closes over the reeds, birds burst upward, mist creeps in",
-      "anchor": false
-    },
-    {
-      "n": 6,
-      "beat": "의사가 돌무더기 오두막에서 인기척을 찾는다.",
-      "visual": "a doctor stooping into a low stone hut on the open moor, cold ash and a folded blanket inside",
-      "motion": "ash lifts from the dead fire, the blanket shifts, light enters behind him"
-    },
-    {
-      "n": 7,
-      "beat": "그 짐승은 정말 이 세상의 것일까?",
-      "visual": "a doctor standing with a raised lantern in swirling fog, a low shape circling at the light's edge",
-      "motion": "the lantern arm rises, fog wheels around him, the shape crosses the beam"
-    },
-    {
-      "n": 8,
-      "beat": "안개가 걷힌 황무지에 돌무더기만 남는다.",
-      "visual": "bare granite tors standing on an empty moor as fog lifts at dawn, heather stretching to the horizon",
-      "motion": "fog thins and pulls apart, heather bends in one slow wave, light spreads",
-      "anchor": false
-    }
-  ],
-  "withheld": "짐승의 정체와 부린 자가 늪에서 맞는 마지막",
-  "voice": "ko-KR-GookMinNeural"
+ "logline": "베이커가에 두고 간 지팡이의 주인 모티머 의사가 바스커빌 가문의 사냥개 전설과 찰스 경의 죽음을 전하고, 왓슨이 새 상속자 헨리 경과 안개 낀 황무지로 가서 밤의 울음소리, 촛불 신호, 늪에 가라앉는 조랑말, 돌 오두막의 흔적을 겪고, 오두막 문에 나타난 홈즈와 바위 뒤에 숨은 밤, 안개 속에서 큰 형체가 달려 나온다",
+ "destination": "소설 바스커빌 가문의 개에서 만날 수 있습니다",
+ "protagonist": "watson",
+ "setting": "1889년 런던 베이커가의 거실과 호텔 방, 다트무어 — 황무지의 간이역, 바스커빌 저택의 큰 방, 주목나무 길, 그림펜 늪, 돌 오두막, 안개 낀 황무지의 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/baseukeobil_gamunui_gae/assets",
+ "anchor": "a sturdy moustached doctor in brown tweed on a foggy moor of dark heather and grey granite tors, and a huge coal-black hound with a pale glow along its jaws",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark green",
+ "voice": "",
+ "personas": {},
+ "withheld": "짐승을 부린 사람의 이름과 그가 그림펜 진창에서 맞은 결말",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "holmes",
+    "watson",
+    "stick",
+    "baker_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어느 아침 홈즈와 왓슨이 손님이 두고 간 지팡이를 살핀다",
+   "visual": "grey morning light through the window with the dull yellow curtains in the sitting room at Baker Street: the sturdy man of thirty-five with the short brown hair and the thick brown moustache, in the brown tweed suit, is the one standing at frame right by the round table with the thick walking stick of dark wood held up across both his hands, its broad silver band toward the window and its worn iron tip toward the fire, his plain square face bent to the silver band; the tall thin man of thirty-five with the sleek black hair and the sharp hawk-nosed face, in the dark grey frock coat, is the one sitting back in the worn armchair at frame left with his long legs crossed and his fingertips pressed together before his chin, his keen grey eyes on the stick and a thin smile on his lips; the coal fire glows low in the small grate between them; the papers lie on the round table; the second armchair stands empty; there are exactly two men in the room and the stick is the one thing held up",
+   "motion": "the stick in the sturdy man's hands is the one thing that moves, and the thin man holds still: at the start the stick lies across both his hands with the silver band toward the window; over the first three seconds his hands turn the stick slowly over once so that the silver band comes round toward the fire and the worn iron tip toward the window, his bent face following the band; in the last two seconds the stick holds with the band toward the fire; his feet do not shift by the table; the thin man in the armchair keeps his fingertips pressed together before his chin and his keen eyes on the stick, his thin smile not changing; the coal fire keeps its low even glow; the papers on the round table, the empty armchair and the dull yellow curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "mortimer",
+    "holmes",
+    "watson",
+    "baker_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "지팡이 주인 모티머 의사가 바스커빌 가문의 전설을 들려준다",
+   "visual": "grey morning light in the sitting room at Baker Street: the tall thin stooping man of thirty with the untidy fair hair and the small round spectacles on his long nose, in the worn black frock coat, is the one standing at frame centre before the fire with a long yellowed sheet of old paper held up in both hands, its written side turned toward the two listeners and away from the camera so that only its plain brown back shows, his stooping head bent to it and his mouth open reading; the tall thin man with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one sitting in the armchair at frame left with his eyes closed and his fingertips together; the sturdy man with the thick brown moustache, in the brown tweed suit, is the one sitting in the armchair at frame right leaning forward with his elbows on his knees and his eyes on the reader; the coal fire glows in the grate behind the reader; the round table with the papers stands at the far right; there are exactly three men in the room and the standing one is the reader",
+   "motion": "the reader's sheet of paper is the one thing that moves, and the two listeners hold still: at the start the yellowed sheet is held up in both his hands with its plain back to the camera; over the first three seconds his hands lower the sheet slowly by a hand's width and lift it again as he turns to a lower line, the paper trembling a little in his thin fingers and its back staying toward the camera, his mouth moving in the reading; in the last two seconds the sheet holds up before his spectacles; his feet do not shift before the fire; the thin man at frame left keeps his eyes closed and his fingertips together; the sturdy man at frame right keeps his elbows on his knees and his eyes on the reader; the coal fire keeps its even glow; the round table, the papers and the dull yellow curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "hound",
+    "moor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "망나니 조상이 황야의 사냥개에게 물려 죽었다는 전설",
+   "visual": "the legend as an old picture: black night on the open moor under a thin moon, the rolling dark ground of dull brown heather and black peat and the grey granite tors standing up from it: the huge hound the size of a small pony, coal black and lean, is the one thing standing on the crest of a low rise at frame centre with its four legs planted wide, its head low and its open jaws toward the camera, a pale dull yellow glow along its open jaws and round its eyes, its ears flat and its lean black flanks drawn in; a wide-brimmed hat of the 1640s lies upside down on the heather at the bottom of the frame at frame left, and beside it a long dark cloak lies crumpled flat in a low heap on the ground, its cloth folded over on itself like a dropped rag; the grey tors stand black against the sky at frame right; the low fog lies in the hollows below the rise; the hound is the one living creature in the picture, standing alone on the rise over the empty heather",
+   "motion": "the hound on the rise is the one thing that moves, and the moor holds still: at the start it stands with its legs planted wide and its head low; over the first three seconds its head lowers further and swings slowly from side to side once, the pale glow along its jaws and round its eyes staying steady, its lean flanks drawing in and out with slow breath, its flat ears not lifting; in the last two seconds its head holds low toward the camera and its legs do not shift; the wide-brimmed hat and the empty cloak on the heather keep their places and do not stir; the dull brown heather round the hound's planted feet does not bend; the grey tors, the low fog in the hollows and the thin moon hold completely still; no person appears; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "mortimer",
+    "yew_alley",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "찰스 경이 죽은 자리에도 큰 사냥개 발자국이 있다",
+   "visual": "flat grey daylight in the long straight alley between the high clipped dark green yew hedges: the tall thin stooping man of thirty with the untidy fair hair and the small round spectacles, in the worn black frock coat, is the one crouched at frame centre on the wet grey gravel with one knee down and one hand spread flat beside a single huge paw print pressed deep in the soft ground at the edge of the gravel, the print wider than his spread hand with four deep toe marks and claw points, his spectacled face bent close to it; the wooden wicket gate in the hedge stands closed at frame right with the dark moor beyond it under fog; the yew hedges rise high and dark on both sides to the top of the frame and the alley runs away to the left into shadow; there is exactly one person in the alley and the paw print is the one mark on the ground",
+   "motion": "the crouched man's spread hand is the one thing that moves, and the alley holds still: at the start his hand is spread flat beside the huge paw print with his face bent close; over the first three seconds his hand lifts slowly from the ground and hovers over the print with the fingers spread, measuring it, and lowers again to the ground beside it, his spectacled face not lifting; in the last two seconds his hand holds flat beside the print; his knee does not shift on the gravel; the paw print keeps its deep shape with its four toe marks and claw points; the closed wicket gate, the dark moor beyond it under fog and the high yew hedges hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "henry",
+    "hotel_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "찰스 경의 뒤를 이을 헨리 경이 호텔에서 구두 한 짝을 잃는다",
+   "visual": "grey London daylight in the hotel bedroom: the sturdy young man of thirty with the short dark hair and the sunburnt open face, in the dark blue tweed suit and his shirt sleeves with the coat off, is the one standing at frame centre beside the brass bed with a single new brown boot held up in one hand by its heel and the other hand turned palm up and empty, his face turned down to the boot with his brows drawn together and his mouth pulled to one side; the floor at the foot of the bed at frame left is bare where the boot's pair should stand; the wardrobe stands at the far left with its door half open on empty hangers; the washstand is at frame right; the door at the back stands open on the dim bare corridor; there is exactly one person in the room and exactly one boot",
+   "motion": "the young man's empty hand is the one thing that moves, and the room holds still: at the start the boot is held up by its heel in one hand and the other hand is turned palm up and empty; over the first three seconds the empty hand lifts slowly to the height of his shoulder and turns over once, as a man does asking where a thing has gone, and his head turns from the boot to the bare floor at the foot of the bed and back; in the last two seconds the empty hand holds at his shoulder and his brows stay drawn together; his feet do not shift; the single boot stays held up by its heel; the bare floor at the foot of the bed stays bare; the half-open wardrobe with its empty hangers, the washstand and the open door on the dim corridor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "watson",
+    "henry",
+    "station",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈는 남고, 왓슨이 헨리 경과 안개 낀 황무지로 떠난다",
+   "visual": "thick white fog over the small moorland railway halt in flat grey light: the sturdy man of thirty-five with the thick brown moustache and his cheeks and chin clean-shaven, in the brown tweed suit, and the sturdy young man of thirty with the short dark hair and the sunburnt open face, in the dark blue tweed suit and the tall brown boots, are the two standing side by side at frame centre on the short wooden platform with their backs to the camera and their faces hidden, both looking out over the wooden fence at the dark moor rising beyond into the fog, two leather travelling bags, exactly two, standing side by side on the platform boards at their feet; the low grey wooden signal hut with its row of small windows stands at frame right; the rails run away from the bottom of the frame past the platform into the fog at the left; the dark shapes of the moor's rises show faint through the white fog beyond the fence; there are exactly two people on the platform and both have their backs to the camera",
+   "motion": "the fog beyond the fence is the one thing that moves, and the two men hold still: at the start the dark shapes of the moor's rises show faint through the white fog; over the whole five seconds the fog drifts slowly from left to right across the moor beyond the fence, the dark rises showing a little clearer and then fainter again as it passes, the near edge of the fog creeping a hand's width closer to the fence and drawing back; the two men keep their backs to the camera and their faces turned to the moor, their shoulders not moving; the two leather bags stay at their feet; the wooden platform, the fence, the low signal hut and the rails hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "watson",
+    "hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤마다 황무지 저편에서 긴 울음소리가 들려온다",
+   "visual": "deep night in the great hall of Baskerville Hall, lit by one candle on a table: the tall mullioned window at frame centre is the one thing with its curtain pulled back, its small panes black with the night and a thin moon showing through the upper panes; the sturdy man of thirty-five with the thick brown moustache, in the brown tweed suit with the coat off and a dark dressing gown over his shirt, is the one standing at frame right close before the window with one hand holding the curtain back and the other flat on the cold glass, his plain square face turned to the black panes and tilted a little, his eyes wide and his lips pressed together, listening; the candle on the small table at frame left gives its dull yellow light on the dark oak panelling; the huge stone fireplace stands cold and dark at the far left; the gallery above is in shadow; the dim portraits high on the walls are dark; there is exactly one person in the hall",
+   "motion": "the man's hand on the glass is the one thing that moves, and the hall holds still: at the start his hand is flat on the cold glass with his face tilted to the black panes; over the first three seconds the fingers of the hand on the glass spread slowly wider and press, and his head tilts a little further toward the panes with his eyes staying wide and his lips pressed, his shoulders lifting with a held breath; in the last two seconds the hand holds spread on the glass and his head stays tilted; his feet do not shift; the hand holding the curtain back keeps its grip; the black panes with the thin moon in the upper ones stay as they are; the candle keeps its steady flame; the cold fireplace, the shadowed gallery and the dark portraits hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "barrymore",
+    "hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 집사가 촛불을 들고 창가에서 황무지로 신호를 보낸다",
+   "visual": "deep night in the great hall of Baskerville Hall, seen from the shadow of the gallery stair: the tall butler of fifty with the full black beard and the pale hollow cheeks, in the black tailcoat and the white shirt front, is the one standing at frame centre close before the tall mullioned window with a lit candle in a brass holder held up in one hand against the black panes at the height of his face, his other hand cupped round the flame on the room side so that its dull yellow light lies on his bearded face and on the glass, his eyes fixed out into the black night beyond the window; the small panes of the window give back the candle flame faintly; the dark oak panelling rises on both sides of the window; the huge stone fireplace shows cold at the far left; the gallery rail crosses the top edge of the frame in shadow; there is exactly one person in the hall and the candle is the only light",
+   "motion": "the candle in the butler's hand is the one thing that moves, and the hall holds still: at the start the candle is held up against the black panes at the height of his face with his other hand cupped round the flame; over the first three seconds his hand moves the candle slowly a hand's width to the left along the glass and back to the right, the flame leaning a little with the movement and the light sliding across his bearded face and the panes, his fixed eyes not leaving the black night beyond; in the last two seconds the candle holds still against the glass; his feet do not shift; the faint reflection of the flame in the small panes moves only with the candle; the dark oak panelling, the cold fireplace and the shadowed gallery rail hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "watson",
+    "neighbour",
+    "pony",
+    "mire",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "황무지의 늪에 조랑말 한 마리가 가라앉는 것을 본다",
+   "visual": "flat grey light over the great mire with the fog lying low over the black pools: the small shaggy dark brown moor pony is the one thing sunk to its chest in the black water among the patches of bright green moss at frame centre, its head thrown up with its eyes rolling and its nostrils wide, the bright green moss broken round it and the black water at its shoulders; the slim man of forty with the thin fair hair and the straw hat, in the grey flannel suit, is the one standing at frame left on a firm grey stone with the long green butterfly net held out sideways in one hand and his other arm stretched out flat across the chest of the man beside him, holding him back, his face turned to the pony; the sturdy man of thirty-five with the thick brown moustache, in the brown tweed suit, is the one at frame right with one foot forward toward the water and his body leaning against the held-out arm, his face turned to the pony and his mouth open; the tall reeds stand grey beyond the pools in the fog; there are exactly two men on the firm ground and the pony is the one thing in the water",
+   "motion": "the pony in the water is the one thing that moves, and the two men hold still: at the start the pony is sunk to its chest with its head thrown up; over the whole five seconds its head tosses slowly twice and its shoulders sink very slowly a little deeper into the black water, the broken moss round it shifting and the black water spreading in slow rings, its rolling eyes staying wide; the slim man keeps his arm held out flat across the other man's chest and his net held sideways, his face not turning; the sturdy man keeps his foot forward and his weight against the held-out arm, his mouth open, nothing else in him moving; the tall grey reeds and the fog over the pools hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "watson",
+    "hut",
+    "moor",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "황무지의 돌 오두막에서 왓슨이 누군가 머문 흔적을 찾는다",
+   "visual": "flat grey daylight at the low dark doorway of the stone hut on the moor, seen from inside the hut: the sturdy man of thirty-five with the thick brown moustache, in the brown tweed suit, is the one crouched at frame centre just inside the low doorway with one knee on the earth floor and one hand lifting the corner of a rolled grey blanket, his plain square face bent to the things on the floor before him; on the earth floor at the bottom of the frame lie the rolled grey blanket, a dented tin with its lid off, a heap of cold grey ashes ringed with stones, and a small scrap of paper lying face down; the piled grey stones of the hut's wall curve round on both sides into shadow; through the low doorway behind him the open moor shows grey and empty under the flat sky with one granite tor standing up; there is exactly one person in the hut and the things on the floor are the signs of another",
+   "motion": "the man's hand on the blanket is the one thing that moves, and the hut holds still: at the start his hand lifts the corner of the rolled blanket with his face bent to the floor; over the first three seconds the hand lets the blanket's corner down slowly and moves to the dented tin, turning it a quarter round on the floor so that its open top faces him, his eyes following the hand; in the last two seconds the hand holds on the tin and his face stays bent; his knee does not shift on the earth floor; the scrap of paper stays face down and the heap of cold ashes keeps its ring of stones; the curved wall of piled stones, the low doorway and the empty grey moor with its one tor beyond hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "holmes_moor",
+    "watson",
+    "hut",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "오두막 문에 나타난 사람은 런던에 있어야 할 홈즈다",
+   "visual": "flat grey daylight at the stone hut of piled bare grey stones, its rough grey stones showing all over its beehive shape on the moor, seen from inside the hut looking out through the low dark doorway: the tall thin man of thirty-five with the sleek black hair under the grey cloth cap and the sharp hawk-nosed face, in the long grey tweed coat with the cape, is the one standing at frame centre in the low doorway stooping under its lintel with the grey daylight behind him, one hand on the piled stones of the doorway's side and a thin smile on his lips, his keen grey eyes on the man inside; the sturdy man of thirty-five with the thick brown moustache, bareheaded with his short brown hair uncovered, in the brown tweed suit, is the one at the near right edge of the frame seen from behind, half risen from the earth floor with one hand on the ground and the back of his head and one shoulder large in the frame; the rolled grey blanket and the dented tin lie on the floor at the bottom left; the piled stones of the wall curve into shadow on both sides; the empty grey moor shows past the standing man's shoulders; there are exactly two people and the one in the doorway is the one whose face is seen",
+   "motion": "the man in the doorway is the one who moves, and the man inside holds still: at the start he stoops under the lintel with one hand on the stones and his thin smile on his lips; over the first three seconds he takes one single slow step forward into the hut, his hand sliding from the stones and his head lowering a little further under the lintel, his thin smile widening slightly and his keen eyes not leaving the man inside; in the last two seconds he holds one step inside with his hand at his side; the sturdy man at the near edge keeps his hand on the ground and stays half risen with his back to the camera; the blanket and the tin on the floor keep their places; the piled stones of the wall and the empty grey moor beyond the doorway hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "holmes_moor",
+    "watson",
+    "moor",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "안개가 황무지를 덮는 밤, 홈즈와 왓슨이 바위 뒤에 숨는다",
+   "visual": "night on the open moor with the thick white fog rolling low over the dark ground, lit by a faint grey glow through the fog: the tall thin man of thirty-five in the long grey tweed coat with the cape and the grey cloth cap is the one crouched at frame left behind a big grey granite boulder with one hand flat on its top and his sharp hawk-nosed face lifted just above the stone, his keen eyes turned to the right into the fog; the sturdy man of thirty-five with the thick brown moustache, in the brown tweed suit with the collar turned up, is the one crouched close beside him at frame centre behind the same boulder with both his hands on the stone and his plain square face turned the same way, his lips pressed together; the fog lies white and thick across the whole right half of the frame, hiding the ground beyond a few paces, its near edge creeping over the dull brown heather toward the boulder; a second grey tor stands dim in the fog at the far right; there are exactly two men and both are behind the boulder",
+   "motion": "the fog is the one thing that moves, and the two men hold still: at the start the near edge of the fog lies over the heather a few paces from the boulder; over the whole five seconds the white fog rolls slowly closer over the dark ground toward the boulder, its near edge creeping a full pace nearer and the dim tor at the far right fading into it, thin wisps drifting ahead of the main bank; the two men behind the boulder keep their hands on the stone and their faces turned into the fog, only the thin man's eyes narrowing slowly; the granite boulder and the dull brown heather at its foot hold completely still; the two men's coats and the thin man's grey cap do not stir in the still air; the faint grey glow through the fog stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "henry",
+    "moor",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "홀로 그 안개 낀 길을 걸어오는 헨리 경",
+   "visual": "night on the open moor with the thick white fog on both sides of a narrow footpath, lit by a faint grey glow: the sturdy young man of thirty with the short dark hair, in the dark blue tweed suit with the collar turned up and the tall brown boots, is the one thing walking away from the camera along the narrow footpath at frame centre, seen from behind with his face hidden, both his hands pushed deep in his coat pockets and his shoulders hunched, his whole figure from his dark hair to his boots standing clear against the fog ahead; the footpath runs pale between the dull brown heather from the bottom of the frame into the white fog ahead of him where it is lost; the fog stands thick and white on both sides of the path to the top of the frame with the dim shapes of two granite tors in it; there is exactly one person on the path and his back is to the camera",
+   "motion": "the young man walking away is the one who moves, and the fog holds nearly still: at the start his back is at frame centre on the footpath with his hands in his pockets; over the whole five seconds he walks slowly away from the camera along the path with steady steps, his hunched figure growing a little smaller toward the fog ahead, his hands staying in his pockets and his face never turning back; the white fog on both sides of the path drifts only a little, its edges softening, and the dim shapes of the two tors stay in their places; the pale footpath and the dull brown heather on both sides of it hold completely still; nothing comes out of the fog ahead of him or behind him; the faint grey glow stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "hound",
+    "henry",
+    "moor",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "안개 속에서 달려 나오는 그 큰 형체는 이 세상의 것일까",
+   "visual": "night on the open moor with the thick white fog, lit by a faint grey glow: the huge black hound, a dog with a dog's long muzzle and drooping hound's ears, its back as high as a man's waist, coal black and lean, is the one thing coming out of the white fog at frame centre in a long bounding stride, its forelegs stretched out before it and its hind legs still in the fog, its head low and its open jaws toward the left, a pale dull yellow glow along its open jaws and round its eyes, its ears flat and its black flanks drawn in; the sturdy young man of thirty with the short dark hair, in the dark blue tweed suit and the tall brown boots, is the one standing at the far left edge of the frame, his back to the camera and his whole body twisted round toward the hound on his right, his right forearm thrown up across his face and his left arm flung out behind him, his figure small against the fog and his feet braced wide on the path; the narrow footpath runs pale between them over the dull brown heather; the fog stands white and thick behind the hound to the top of the frame; the hound and the man are the only two figures on the moor, the hound at frame centre and the man at the far left, the man's raised forearm covering his face",
+   "motion": "the hound is the one thing that moves, and the man holds still: at the start the hound is coming out of the fog in a long bounding stride with its forelegs stretched before it; over the whole five seconds the stride carries it slowly forward along the pale footpath toward the left by no more than its own length, its forelegs reaching down toward the heather and its hind legs coming clear of the fog, its head staying low and its open jaws toward the man, the pale glow along its jaws and round its eyes staying steady; the young man at the far left edge keeps his arm thrown up before his face and his back half to the camera, his figure not moving; the white fog behind the hound drifts only a little at its edges; the footpath and the dull brown heather hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "moor",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "새벽 황무지의 길에 남은 큰 발자국들",
+   "visual": "grey dawn on the open moor with the fog thinning and lying only in the hollows: the narrow footpath runs pale from the bottom of the frame between the dull brown heather toward a low rise at frame centre, and along the soft black peat beside the path a line of huge paw prints runs away toward the rise, each print wider than a man's spread hand with four deep toe marks and claw points, pressed deep and filled with a little grey water; a grey granite tor stands up black on the rise against the pale dawn sky at the top of the frame; a second tor shows dim at frame right with the last of the fog round its foot; the heather is wet and dark; the line of paw prints is the one mark on the ground",
+   "motion": "the last of the fog round the far tor is the one thing that moves, and the moor holds still: at the start the fog lies round the foot of the tor at frame right; over the whole five seconds the fog thins slowly and draws back from the tor's foot into the hollow behind it, the tor's black shape standing clearer against the pale dawn sky; the line of huge paw prints beside the path keeps its exact places and the little grey water in each print does not stir; the pale footpath, the wet dark heather and the tor on the rise at frame centre hold completely still; no figure appears on the path or on the rise and nothing comes over the crest; the pale dawn sky brightens only by the smallest degree; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

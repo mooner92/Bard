@@ -1,0 +1,183 @@
+{
+ "logline": "기차에서 만난 세 나라 옷의 사내가 들려준, 통 없어진 고향과 단 하나 만난 사람",
+ "destination": "소설 고향에서 만날 수 있습니다",
+ "protagonist": "man",
+ "setting": "1920년대 — 대구발 서울행 삼등 찻간, 기억 속의 역둔토 마을, 서간도 농막, 탄광, 폐허가 된 고향, 읍내 거리와 우동집",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/gohyang/assets",
+ "anchor": "a gaunt Korean labourer in a dark kimono worn open over a white jeogori and glossy brown Chinese trousers",
+ "palette": "dun brown, off-white, charcoal grey, faded indigo, pale yellow",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "narrator",
+    "man",
+    "train"
+   ],
+   "refs": [],
+   "beat": "대구발 서울행 기차, 세 나라 옷을 걸친 사내",
+   "visual": "the narrator in his dark overcoat and felt hat seated by the carriage window facing the man, who wears a dark kimono hanging open over a white cotton jeogori, glossy brown Chinese trousers, cloth leg-wraps and straw sandals, leaning forward talking with his crooked mouth wide, fields sliding past the window; exactly two people",
+   "motion": "the man's crooked mouth keeps moving and his hands chop the air as he talks, the narrator's calm face holding still while fields slide past the window; the camera holds on the two facing each other"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "man",
+    "train"
+   ],
+   "refs": [],
+   "beat": "일본말·중국말을 붙여도 콧대답뿐",
+   "visual": "the man in his open dark kimono twisted sideways on the bench chattering at a Japanese passenger in a dark suit who twists his short moustache and gives one stiff nod, while beside them a stout Chinese merchant in a long grey changshan gown and a small round black cap wears an unreadable half smile; exactly three men",
+   "motion": "the man's chatter goes on with his hands fluttering, the Japanese passenger's stiff nod dipping once and his moustache twisting, the Chinese merchant's half smile unchanging; the camera holds on the three men on the bench"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "man",
+    "narrator",
+    "train"
+   ],
+   "refs": [],
+   "beat": "어디꺼정 가는 기오 — 경상도 사투리",
+   "visual": "the man facing the narrator with both hands on his knees and his crooked mouth open in a question, his eyes eager, the narrator's calm face half turned toward him with one eyebrow raised; exactly two people",
+   "motion": "the man leans further forward on his knees with his eager question and the narrator's raised eyebrow settles, his lips parting for a short answer; the camera holds on the two faces"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "man",
+    "train"
+   ],
+   "refs": [],
+   "beat": "찡그린 얼굴 — 스물여섯에 십 년은 더 늙은",
+   "visual": "close on the man's face as it crumples: the sparse ragged eyebrows lifting and sagging, deep lines between the brows, the cheeks sucked in, the mouth pulled crooked to one side, tears pooling in the narrowed eyes, the swaying lamp above; exactly one man",
+   "motion": "the ragged eyebrows lift and sag and the crooked mouth pulls further to one side, tears trembling in the narrowed eyes; the lamp sways, and the camera holds close on the crumpled face"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "homefields"
+   ],
+   "refs": [],
+   "beat": "동척 땅이 된 고향, 소출 삼 할",
+   "visual": "the hillside village above its terraced fields: farmers in white bending under heavy sacks of grain carried down the path toward an ox-cart, where a man in a black horsehair hat with a ledger under his arm watches them load; the thatched houses above; exactly one man in a black hat among the farmers",
+   "motion": "the farmers stagger down the path under the sacks and heave them onto the cart while the man with the ledger stands unmoving, the ox flicking its tail; the camera holds on the loaded cart and the bent farmers"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "gando"
+   ],
+   "refs": [],
+   "beat": "열일곱에 서간도로 — 빈주먹",
+   "visual": "a father, a mother and a boy of seventeen walking away along the frontier track with bundles on their backs toward the sod hut on the stony field, their heads bowed under the grey sky; exactly three people",
+   "motion": "the three figures trudge along the track and grow smaller against the stony field, the bundles swaying on their backs; the camera holds on the family walking toward the sod hut"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "man",
+    "gando"
+   ],
+   "refs": [],
+   "beat": "타국의 혼이 된 아버지, 굶주린 채 간 어머니",
+   "visual": "inside the sod hut: a thin old woman lying still under a coarse quilt on the earth floor with her eyes closed, a cracked empty bowl beside her head, and the man, younger and thinner, kneeling at her feet with his head bowed to the floor; exactly two people",
+   "motion": "the man's bowed head sinks lower to the earth floor and his shoulders shake, the old woman's face still on the quilt, the cracked bowl beside her; the camera holds on the kneeling man in the dim hut"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "man",
+    "mine"
+   ],
+   "refs": [],
+   "beat": "탄광과 철공장을 떠돌다",
+   "visual": "the man in a soot-black work jacket pushing a loaded coal cart out of the timbered mine mouth on the narrow rails, a lamp on his cap, black spoil heaps behind him; exactly one man",
+   "motion": "the man's shoulders strain against the cart and it grinds forward along the rails, coal dust rising, the lamp on his cap bobbing; the camera holds on the man and the cart"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "man",
+    "ruins"
+   ],
+   "refs": [],
+   "beat": "통 없어진 고향 — 무너진 담과 서까래",
+   "visual": "the man standing among the ruins of the village with his cloth bundle dropped at his feet, fallen mud walls in rows and rotten roof beams lying in the weeds around him, tumbled foundation stones, his crooked mouth hanging open; exactly one man",
+   "motion": "the man turns slowly in place among the fallen walls, his open mouth working, weeds stirring around the rotten beams; the camera holds on the lone man in the ruins"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "man",
+    "narrator",
+    "train"
+   ],
+   "refs": [],
+   "beat": "가슴이 터지드마 — 굵은 눈물",
+   "visual": "close on the man's crooked mouth and two large tears running down his sunken cheeks, his eyes fixed far away, the narrator's hand tipping a small plain brown glass bottle into a teacup at the edge of the frame; exactly two people",
+   "motion": "the two tears slide down the sunken cheeks and run off the jaw while the narrator's hand fills the teacup and pushes it forward; the camera holds close on the wet crooked face"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "man",
+    "woman",
+    "town"
+   ],
+   "refs": [],
+   "beat": "단 하나 만난 고향 사람",
+   "visual": "the town street: the man stopped dead in the road facing the wasted woman in her dark work jeogori and Japanese apron, a small child on her hip, the two of them staring at each other, the Japanese-style house behind her; exactly two people and a child",
+   "motion": "the man's foot stays frozen mid-step and the woman's stare holds, the child on her hip tugging at her collar; the camera holds on the two facing each other in the street"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "woman",
+    "town"
+   ],
+   "refs": [],
+   "beat": "이십 원에 팔려 갔던 여자 — 놓여난 산송장",
+   "visual": "close on the woman's wasted face: sparse hair pulled into a thin knot, sunken eyes, a hollow unmoving expression, the child on her hip pulling at her collar, the sliding paper door behind; exactly one woman and one child",
+   "motion": "the woman's sunken eyes do not blink and her hollow face stays unmoving while the child tugs at her collar; the camera holds close on the wasted face"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "man",
+    "woman",
+    "town"
+   ],
+   "refs": [],
+   "beat": "눈물도 없이 — 정종 열 병",
+   "visual": "inside the small noodle shop behind the cloth curtain: the man and the woman seated across a low table with a row of ten empty plain brown glass bottles between them, both looking down with dry eyes, two small cups; exactly two people",
+   "motion": "the man's hand sets one more bottle down in the row and the woman's dry eyes stay on the table, neither looking up; the camera holds on the row of bottles and the two bowed heads"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "man",
+    "narrator",
+    "train"
+   ],
+   "refs": [],
+   "beat": "취흥에 읊조린 어릴 적 노래",
+   "visual": "the man swaying on the carriage bench with his eyes half shut and his crooked mouth open in song, one hand beating time on his knee, the narrator watching him with the drained plain brown glass bottle on the seat between them; exactly two people",
+   "motion": "the man's hand beats time on his knee and his swaying deepens with the song, the narrator's watching face very still; the camera holds on the singing man"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "train"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 정종병과 찻잔 스틸",
+   "visual": "closing still: the carriage bench by the window, a plain dark brown glass bottle with a cork and two small white teacups standing on the wooden seat, flat rice fields and a few wooden telegraph poles with sagging wires sliding past outside the window, the oil lamp swaying above",
+   "motion": "the teacups tremble with the rocking of the carriage and the wooden telegraph poles flick past the window, the lamp swaying; the camera closes with great patience on the plain brown bottle and the two cups"
+  }
+ ],
+ "withheld": "볏섬이나 나는 전토는 신작로가 되고요 하는 어릴 적 노래의 가사"
+}

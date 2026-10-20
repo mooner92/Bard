@@ -1,60 +1,206 @@
 {
- "logline": "말을 못 하는 하인이 그 집에서 유일하게 지키고 싶은 것을 갖게 되고, 그 때문에 쫓겨난다.",
- "destination": "주인집 담장 — 쫓겨난 그가 밤마다 돌아와 서는 자리",
- "protagonist": "오생원 집에서 자란 말 못 하는 하인",
- "setting": "1920년대 서울 근교 기와집과 그 담장 밖 길",
- "anchor": "a short thickset mute servant in coarse hemp work clothes, close-cropped head, calloused hands",
- "palette": "deep tile grey, warm oil-lamp amber, cold night blue, dry courtyard dust",
+ "logline": "말을 못 하는 하인이 그 집에서 유일하게 지키고 싶은 사람을 갖게 되고, 그 때문에 쫓겨나 밤마다 담 밖에 선다",
+ "destination": "소설 벙어리 삼룡이에서 만날 수 있습니다",
+ "protagonist": "samryong",
+ "setting": "1920년대 서울 근교의 기와집 마당과 안방, 그 담장 밖 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/beongeori_samryongi/assets",
+ "anchor": "a short thickset Korean manservant with a large head, a scarred cheek and coarse grey hemp clothes",
+ "palette": "dark brown, off-white, ash grey, pale green, dark blue",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "하인이 물지게를 지고 마당을 가로지른다.",
-   "visual": "a thickset servant carrying two water buckets on a shoulder yoke across a tiled-roof courtyard",
-   "motion": "water sloshes over the rims, the yoke bends, his stride quickens"
+   "cast": [
+    "samryong",
+    "water_yoke",
+    "master_son",
+    "tiled_house",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "물지게를 지고 마당을 오가는 삼룡이",
+   "visual": "the wide swept earthen yard of the tile-roofed house in soft autumn light: the short thickset manservant with the large head and scarred cheek is the one crossing the yard at the center with the wooden yoke across his shoulders and a full water bucket swinging from each end, his thick arms steadying the poles and his flat broad face bent forward under the load, straw sandals on the swept earth; the slim young man in the white silk durumagi and black horsehair hat is the one seated on the edge of the raised wooden hall at frame right with a long bamboo pipe in his hand and his cold narrow eyes on the servant; the stone stepping blocks, the row of earthen jars and the persimmon tree, the whitewashed wall with its grey tile top behind",
+   "motion": "the short thickset manservant with the large head and the pale scar on his left cheek, carrying the wooden yoke with a full water bucket at each end, is the only one who moves: at the start he is mid-stride at the center of the swept earthen yard with his thick arms steadying the yoke; over the first two seconds he plods steadily across the yard with his heavy rolling walk, the two full buckets swinging gently from the yoke in rhythm with his steps and a little water slopping over one rim onto the earth, his large head lowered; in the last two seconds he comes to a stop well inside the frame and stands still; the slim young man in the white silk durumagi seated on the edge of the raised wooden hall sits without moving, his hands on his knees and his hat not turning; the earthen jars along the wall, the bare tree, the tiled roof and the soft autumn sky hold completely still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "주인집 아들이 손짓으로 그를 불러 세운다.",
-   "visual": "a young man in silk beckoning sharply at a servant across a courtyard, servant halting mid-step",
-   "motion": "the silk sleeve snaps as he beckons, the servant stops, dust settles"
+   "cast": [
+    "samryong",
+    "tiled_house",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "못생기고 말 못 하지만 충직한 삼룡이",
+   "visual": "the corner of the yard by the stone well: the short thickset manservant is the one kneeling at the center with his sleeves pushed up over his thick forearms, both hands wringing a grey cloth over a wooden bucket, his flat broad face with the pale scar on the left cheek intent on the stone stepping block before him which he has scrubbed to a clean pale grey; the polished floorboards of the raised hall gleam under the deep eaves behind him and the row of earthen jars stands along the whitewashed wall; soft golden afternoon light lies across the swept earth",
+   "motion": "the short thickset manservant kneeling by the stone well is the only one who moves, and only his hands: at the start his thick hands hold the grey cloth twisted over the wooden bucket with his sleeves pushed up over his forearms; over the first two seconds his hands twist the cloth slowly tighter over the bucket until the water runs out of it in a thin stream and thins to a trickle, his flat broad face with the pale scar staying intent on the stone stepping block; in the last two seconds he lowers the wrung cloth onto the stepping block and smooths it flat with one hand; his kneeling legs and bowed shoulders do not shift; the stone well, the wooden bucket, the raised hall, the earthen jars and the whitewashed wall hold completely still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "새 색시가 가마에서 내려 마루에 오른다.",
-   "visual": "a bride in bright wedding silks stepping from a palanquin onto a wooden veranda, servant watching from a corner",
-   "motion": "her skirt spills over the step, the palanquin sways empty, a servant's head turns"
+   "cast": [
+    "master_son",
+    "samryong",
+    "water_yoke",
+    "tiled_house"
+   ],
+   "refs": [],
+   "beat": "삼룡이를 불러 세우고 발길질하는 아들",
+   "visual": "the swept earthen yard: the slim young man in the white silk durumagi is the one at frame right with one leather shoe driven forward into the manservant's side and his black horsehair hat tilted with the kick, his handsome face sneering under the thin moustache; the short thickset manservant is the one at the center staggered sideways under the wooden yoke with one bucket swung wide and water sheeting out of it onto the earth, his large head turned toward the young man and his small eyes wide but his mouth shut; the stone stepping blocks and the raised hall at the left, the persimmon tree and the whitewashed wall behind; the short thickset manservant is clean-shaven and bareheaded with cropped hair and the pale scar on his left cheek, staggering sideways with the yoke as the slim young man's leather shoe is driven hard into his ribs, the young man's leg extended in the kick and his black horsehair hat tilted; only the young master has a thin moustache and a hat; the buckets hold clear water",
+   "motion": "the slim young man's driven foot and the manservant staggering under the yoke are what move: at the start the young man's leather shoe is driven into the manservant's side and one bucket is swung wide on the yoke; over the first two seconds the driven foot pushes slowly further into the servant's side and the servant staggers one more step sideways under the yoke, the wide-swung bucket sheeting the last of its water onto the earth in a slow fan, his mouth staying closed and his small eyes on the ground; in the last two seconds the young man's foot lowers to the earth and the servant stands bent under the empty bucket; the young man's sneering face under the tilted black hat does not soften; the raised hall, the bare tree, the earthen jars and the whitewashed wall hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "그는 색시의 신발을 말없이 닦아 놓는다.",
-   "visual": "a servant kneeling alone at a veranda edge polishing a pair of small embroidered shoes",
-   "motion": "his cloth circles on the leather, lamplight shifts, his head stays down"
+   "cast": [
+    "bride",
+    "palanquin",
+    "tiled_house",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "가마에서 내려 대청마루에 오르는 색시",
+   "visual": "the yard before the raised wooden hall in golden autumn light: the slender young woman in the pale green silk jeogori and long dark blue silk skirt is the one at the center stepping up from the stone stepping block onto the polished floorboards of the hall, one small embroidered silk shoe on the block and one on the boards, her pale oval face lowered with downcast eyes and the small silver hairpin catching the light in her low bun; the small wooden palanquin with its dull red cloth roof is set down on its poles at frame left with its low door open; the deep eaves above the hall, the earthen jars and the persimmon tree at the right",
+   "motion": "the slender young woman in the pale green silk jeogori and long dark blue silk skirt is the only one who moves: at the start one small embroidered silk shoe rests on the stone stepping block and the other on the polished floorboards of the raised hall; over the first two seconds she lifts her trailing foot slowly from the stepping block onto the hall boards and straightens with her eyes still downcast, her dark blue skirt settling in folds around her small shoes and the ribbons of her jeogori swinging once; in the last two seconds she stands still on the boards with her hands folded before her; the small wooden palanquin with its dull red cloth roof stands empty in the yard behind her with its door hanging open and does not move; the deep eaves, the bare tree and the golden autumn light hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "밤마다 우는 소리를 그는 문밖에서 듣는다.",
-   "visual": "a servant standing motionless outside a lit paper door at night, head tilted toward it",
-   "motion": "the paper door glows and dims, his fists tighten, night wind crosses the yard"
+   "cast": [
+    "master_son",
+    "bride",
+    "inner_room"
+   ],
+   "refs": [],
+   "beat": "색시마저 함부로 대하는 아들",
+   "visual": "the inner room of the tiled house: the slim young man in the white silk durumagi is the one standing at frame right with his back half turned to the room and his black horsehair hat still on, his arm swept back so that the low lacquered table beside him lies overturned with two brass bowls rolled onto the floor, his sneering profile turned over his shoulder; the slender young woman in the pale green jeogori is the one kneeling at frame left with her head bowed low and her small hands folded tight in her lap, her hairpin gleaming; the sliding lattice door of white paper behind her, the folded silk quilt and the brass-fitted chest against the wall",
+   "motion": "the slim young man in the white silk durumagi standing in the inner room is the one who moves: at the start his arm is swept back from the overturned low lacquered table and his back is half turned to the room; over the first two seconds the swept-back arm lowers slowly to his side and he turns his shoulder further away toward the paper door, the skirt of his durumagi swinging once, his black hat not shifting; in the last two seconds he stands with his back to the room and his hand on the door frame; the slender young woman kneeling on the floor keeps her head bowed and only sinks it a little lower while her folded hands tighten in her lap, her pale green jeogori not stirring; the overturned table, the two rolled brass bowls, the low chest and the paper walls hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그는 부시쌈지를 만들어 색시에게 건넨다.",
-   "visual": "a servant holding out a small hand-sewn cloth pouch on his palm, a woman's hand reaching for it",
-   "motion": "his palm opens, her fingers close on the pouch, both hands tremble slightly"
+   "cast": [
+    "samryong",
+    "shoes",
+    "tiled_house",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "색시의 작은 신을 닦아 댓돌에 놓는 삼룡이",
+   "visual": "a close view at the stone stepping block before the raised hall: the short thickset manservant's thick hands fill the lower center of the frame, the left hand holding one small pale green silk shoe with its embroidered flowers and its upturned toe, the right hand wiping its side with a grey cloth in slow careful strokes, the second shoe already set neatly on the block beside them; above the hands his flat broad face with the pale scar is bent close in soft golden light, his small eyes gentle; the polished hall boards rise behind the block and the deep eave shadows the background; each silk slipper is a traditional Korean flat slipper, flat as a small boat with a sole the thickness of a finger and the toe curling up to a point, the sides low and soft",
+   "motion": "only the manservant's two thick hands move in this close view at the stone stepping block: at the start his left hand holds one small pale green silk shoe with its embroidered flowers and his right hand holds a grey cloth against its side; over the first two seconds the right hand wipes the cloth slowly along the side of the silk shoe from heel to upturned toe, and then both hands set the shoe down gently on the block beside its pair so that both toes point the same way; in the last two seconds his hands linger flat on the block on either side of the shoes and then rest; the stone block, the polished boards of the hall above it, the deep eave and the soft light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그는 그 담을 다시 넘게 될까?",
-   "visual": "a servant looking up at a high tiled wall from the dark lane, faint glow rising beyond the roofline",
-   "motion": "the glow beyond the roof brightens, his head lifts, embers drift across the sky"
+   "cast": [
+    "samryong",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "문밖에서 들리는 색시의 울음소리",
+   "visual": "the deep-eaved walkway outside the inner room at night: the short thickset manservant is the one standing at the center close to the sliding lattice door, his large head turned so that his scarred left cheek is toward the white paper of the door and his small eyes fixed on the boards, his thick hands hanging open at his sides; the paper of the door glows a faint dull yellow from inside and the lattice throws a grid of thin shadows; the polished boards of the walkway run off into the dark and the dark blue starry sky shows past the eave at the left; the walkway floor is polished dark boards running the full width of the frame, the room beyond the glowing door lit only by a small brass oil dish with a single bare flame",
+   "motion": "the short thickset manservant standing on the deep-eaved walkway is the only one who moves, and barely: at the start his large head is turned so that his scarred left cheek is toward the glowing white paper of the sliding lattice door and his thick hands hang open at his sides; over the first two seconds his head leans slowly closer until the scarred cheek almost touches the glowing paper and his open hands slowly close into loose fists at his sides, his straw sandals not shifting on the boards; in the last two seconds he holds completely still against the door with only his chest moving; the dull yellow glow behind the paper does not flicker and the lattice shadows do not move; the boards of the walkway, the pillars and the dark night beyond the eave hold completely still; no new figures appear; camera drifting very slowly forward toward the door, no zoom"
   },
   {
    "n": 8,
-   "beat": "담장 아래 부시쌈지 하나가 놓여 있다.",
-   "visual": "a small hand-sewn cloth pouch lying on frosted ground beneath a high tiled wall at dawn",
-   "motion": "frost glitters as light touches it, a thread stirs, dust drifts along the wall"
+   "cast": [
+    "samryong",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "문밖에 쪼그려 앉아 소리 없이 우는 삼룡이",
+   "visual": "the walkway outside the inner room at night: the short thickset manservant is the one crouched on his heels at the center with his back against the wall beside the glowing lattice door, his large head bowed and his thick fist pressed hard against his mouth, wet streaks shining on his flat broad cheeks and the pale scar, his shoulders hunched inside the coarse grey jacket; the dull yellow glow of the paper door lies across one side of him and the dark blue night with its stars fills the space beyond the eave at the right",
+   "motion": "the short thickset manservant crouched on his heels against the wall beside the glowing lattice door is the only one who moves: at the start his large head is bowed and his thick fist is pressed hard against his mouth with wet streaks shining on his flat broad cheeks; over the whole shot his hunched shoulders shake slowly with soundless weeping and his fist presses harder against his mouth, the wet streaks running slowly down his cheeks to his chin and dripping once onto his coarse grey jacket; his crouched legs and his other hand gripping his knee do not move; the glowing paper of the door, the lattice shadows, the whitewashed wall and the dark night hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "bride",
+    "tinder_pouch",
+    "samryong",
+    "tiled_house",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "고마움으로 지어 준 부시쌈지",
+   "visual": "the edge of the raised wooden hall in soft autumn light: the slender young woman in the pale green silk jeogori is the one kneeling on the polished boards at frame left holding out the small dark blue embroidered silk pouch with its pale stitched flower on her open hand, her pale oval face lifted with a small gentle smile and her eyes on the servant; the short thickset manservant is the one standing on the swept earth below the hall at frame right with both thick hands cupped together and raised to receive it, his large head bowed and his small eyes wide, his mouth open without sound; the stone stepping blocks between them, the earthen jars and the persimmon tree behind",
+   "motion": "the slender young woman's open hand and the manservant's cupped hands are what move: at the start her open hand holds out the small dark blue embroidered silk pouch with its pale stitched flower above his cupped hands; over the first two seconds her hand carries the pouch slowly down into his cupped hands and lets it rest there, her gentle smile deepening and her eyes staying on his bowed head, while his thick cupped hands close slowly around the pouch; in the last two seconds her hand draws back to her lap and his closed hands stay lifted with the pouch inside, his bowed head not lifting; her pale green jeogori and dark blue skirt do not stir on the polished boards; the raised hall, the earthen jars, the bare tree and the soft autumn light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "master_son",
+    "club",
+    "samryong",
+    "tinder_pouch",
+    "tiled_house"
+   ],
+   "refs": [],
+   "beat": "부시쌈지를 본 아들의 몽둥이",
+   "visual": "the swept earthen yard of the tile-roofed house at midday: the slim young man in the white silk durumagi is the one standing on the stone step at frame right with the heavy dark wooden club raised high over his head in both hands, his black horsehair hat knocked back and his handsome moustached face twisted with rage; the short thickset manservant is the one prostrate on the trodden earth at the lower center with his forehead pressed to the ground and the back of his cropped bare head toward the young man, his broad back hunched in the coarse grey jacket, one thick forearm raised over the back of his head to shield it and the other hand flat on the earth; the small dark blue embroidered silk pouch lies on the earth a step from his hand; the raised hall, the stone stepping blocks, the row of earthen jars and the whitewashed wall stand around the yard under a pale sky; only two people in the yard",
+   "motion": "the slim young man with the heavy dark wooden club is the one who moves: at the start the club is raised high over his head in both hands with his black hat knocked back and his handsome face twisted; over the first two seconds the raised club swings slowly down through the air in one steady arc and stops hard against the manservant's raised forearm, the young man's whole body following the blow and the skirt of his white silk durumagi swinging forward; in the last two seconds the club stays pressed against the forearm and his chest heaves; the short thickset manservant stays down on one knee with his forearm up and his mouth closed, his small eyes on the ground, nothing else of him moving; the small dark blue silk pouch lies completely still on the earth beside them; the raised hall, the stone blocks, the earthen jars and the whitewashed wall hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "samryong",
+    "bride",
+    "master_son",
+    "club",
+    "tiled_house"
+   ],
+   "refs": [],
+   "beat": "맞으면서도 색시를 감싸는 삼룡이",
+   "visual": "the yard before the raised hall: the short thickset manservant is the one on his knees at the center with his broad back turned to the raised club and his thick arms spread wide behind him around the slender young woman, his large head bowed over her; the slender young woman in the pale green silk jeogori is the one crouched small behind the servant at the lower left with her face hidden against his grey jacket and her small hands gripping his sleeve; the slim young man in the white silk durumagi is the one standing at frame right with the heavy dark club drawn back over his shoulder, his sneering face gone white; the stepping blocks and the persimmon tree behind",
+   "motion": "the short thickset manservant on his knees is the one who moves: at the start his broad back is turned to the raised club and his thick arms are spread wide behind him around the crouched young woman with his large head bowed over her; over the first two seconds the spread arms draw slowly closer around her and his bowed head lowers over her until his broad back is fully between her and the club, his torn grey jacket stretching across his shoulders; in the last two seconds he holds that shielding curl without moving; the slender young woman in the pale green silk jeogori stays crouched small against him with her hands over her face; the slim young man with the club drawn back stands frozen with his twisted face and his black hat knocked back; the stone blocks, the raised hall, the bare tree and the earthen jars hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "samryong",
+    "tiled_house",
+    "wall_outside"
+   ],
+   "refs": [],
+   "beat": "대문 밖으로 내쫓긴 삼룡이",
+   "visual": "the narrow earthen lane outside the heavy iron-studded wooden gate: the short thickset manservant is the one sprawled on the earth at the center where he has been thrown, propped on one elbow with his straw sandals kicked off and his coarse grey jacket torn at the shoulder, his large head turned back toward the gate with his small eyes wide; the heavy gate at frame right is swinging shut with only a dark gap remaining, the whitewashed wall with its grey tile top runs off to the left and the roof ridge of the house shows above it; a bare tree leans over the wall; grey daylight",
+   "motion": "the heavy iron-studded wooden gate is the only thing that moves in this shot: at the start it stands open a hand's width with a dark gap between the leaves; over the first two seconds the gate swings slowly closed on its hinges until the dark gap closes and the iron studs stand still, a little dust lifting from the sill; in the last two seconds the closed gate stands still; the short thickset manservant sprawled on the earth of the lane stays propped on one elbow with his straw sandals kicked off and his torn grey jacket open at the shoulder, his wide small eyes fixed on the gate, no attempt to rise; the tall whitewashed wall, the grey tiles along its top, the bare tree beyond it and the tiled roof hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "samryong",
+    "wall_outside",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "담 밖에서 밤마다 보이는 안방의 불빛",
+   "visual": "the earthen lane outside the tall whitewashed wall at night: the short thickset manservant is the one standing close against the wall at the center with his face lifted toward the top of the grey tiles, his thick hands flat against the whitewash and his large head tipped back so that the pale scar on his left cheek catches a faint light; above the tile top the roof ridge of the house shows dark and beneath its eave a single paper window glows dull yellow; the bare tree leans over the wall at the left and the dark blue sky holds scattered stars; the lane is empty in both directions",
+   "motion": "the short thickset manservant standing close against the tall whitewashed wall at night is the only one who moves: at the start his thick hands are flat against the whitewash and his large head is tipped back with his face lifted toward the glowing window above the tiles; over the first two seconds his flat hands slide slowly up the whitewash and his lifted face tilts further back toward the glowing window, his chest pressing against the wall and the pale scar on his cheek catching the faint light; in the last two seconds he holds pressed against the wall with his hands high and his face lifted, his straw sandals not shifting in the lane; the dull yellow glow of the window does not flicker; the grey tiles along the wall top, the bare tree above the wall and the stars in the dark sky hold completely still; no new figures or animals appear; camera drifting very slowly upward along the wall, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "samryong",
+    "wall_outside",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "담을 넘는 삼룡이",
+   "visual": "the top of the tall whitewashed wall at night: the short thickset manservant is the one hauling himself up over the grey tile top at the center, both thick hands gripping the tiles and one straw-sandaled foot braced on the whitewash, his large head and shoulders already above the wall and his flat broad face turned toward the house with his small eyes fixed and his jaw set; beyond the wall the dark roof ridge and the dull yellow glow of the paper window under the eave; the bare tree's branches at the left against the dark blue starry sky",
+   "motion": "the short thickset manservant hauling himself over the top of the tall whitewashed wall is the only one who moves: at the start both thick hands grip the grey tiles and one straw-sandaled foot is braced on the whitewash with his large head and shoulders already above the wall; over the first two seconds he hauls himself slowly higher over the tile top until his chest rests on the tiles and his braced foot leaves the whitewash, his torn grey jacket dragging on the tiles and a little dust falling from the wall, his flat broad face fixed on the glowing window across the yard; in the last two seconds he lies along the tile top with his face still turned to the window; the dull yellow window glow does not flicker; the tiled roof, the bare tree and the dark night sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shoes",
+    "tiled_house",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 댓돌 위의 작은 신",
+   "visual": "the stone stepping block before the raised wooden hall at grey dawn, empty of every person: the pair of small pale green silk shoes with their embroidered flowers stands side by side at the center of the block with both upturned toes pointing the same way, a thin mist lying low on the swept earth of the yard around it; the polished boards of the hall rise behind under the deep eave, the row of earthen jars stands dim along the whitewashed wall and the persimmon tree is a dark shape against the grey-blue sky; thin cold light touches the silk",
+   "motion": "nothing living moves before this empty hall at grey dawn; only the mist and the light: at the start the pair of small pale green silk shoes stands side by side on the stone stepping block with both upturned toes pointing the same way and a thin mist lies low on the swept earth; over the whole shot the low mist drifts slowly across the swept earth past the stepping block from left to right and thins, and the thin cold light on the two silk shoes brightens by a degree as the dawn comes up; the two shoes, the stepping block, the polished boards of the raised hall, the earthen jars along the wall and the bare tree hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward toward the shoes, no zoom"
   }
  ],
- "withheld": "불길 속에서 색시를 안고 지붕에 오르는 마지막 대목",
- "voice": "ko-KR-HyunsuMultilingualNeural"
+ "withheld": "불길에 휩싸인 집, 지붕 위에서 색시를 안은 삼룡이의 죽음"
 }

@@ -1,60 +1,203 @@
 {
-  "logline": "전과자 형은 동생의 논에서 도둑을 잡으려 밤을 새운다.",
-  "destination": "응고개 논둑의 소나무 — 도둑을 잡아야 하는 긴박한 순간",
-  "protagonist": "송이를 캐며 떠도는 전과자 형",
-  "setting": "1935년, 가난한 농촌 마을의 산과 논둑",
-  "anchor": "Gaunt man with wild hair and tattered clothes",
-  "palette": "cold blue twilight, wet earth tones, dim warm glow in shadows",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "농사꾼이 남의 닭을 안고 산그늘로 숨어든다.",
-      "visual": "a lean farmer clutching a hen under his arm slipping into pine shade below a hill grave mound",
-      "motion": "he ducks into the shade, the hen flaps once under his arm, pine branches sway"
-    },
-    {
-      "n": 2,
-      "beat": "산에서 내려오며 대장장이 성팔의 의심을 느낀다.",
-      "visual": "Man descends slope, avoiding eye contact with a blacksmith watching him.",
-      "motion": "Moving down the hill toward the village"
-    },
-    {
-      "n": 3,
-      "beat": "주막에서 막걸리를 마시고 동생 집으로 향한다.",
-      "visual": "Man drinks from a clay cup, then walks past a dark, sickly house.",
-      "motion": "Walking past the sick wife's house"
-    },
-    {
-      "n": 4,
-      "beat": "밤 산길에서 화투 소리를 듣고 재성에게 돈을 준다.",
-      "visual": "Man hands coins to a crying man emerging from a rocky cave.",
-      "motion": "Handing money to the other man"
-    },
-    {
-      "n": 5,
-      "beat": "서낭당 뒤에서 논둑의 희끄무레한 형상을 발견한다.",
-      "visual": "Man peers from a shrine, spotting a blurred figure in the paddy field.",
-      "motion": "Leaning out from the shrine toward the field"
-    },
-    {
-      "n": 6,
-      "beat": "소나무에 기대어 도둑의 귀환을 기다린다.",
-      "visual": "Man waits rigidly against a pine tree, listening to wind and rain.",
-      "motion": "Standing still against the tree trunk"
-    },
-    {
-      "n": 7,
-      "beat": "봇짐을 짊어진 도둑이 몸을 일으킨다.",
-      "visual": "a pale bundled figure rising from a moonlit paddy bank, a farmer tensed behind a pine",
-      "motion": "the figure straightens up with the bundle, the farmer leans forward, moonlight shifts"
-    },
-    {
-      "n": 8,
-      "beat": "소나무 아래 논둑길에 새벽빛이 내린다.",
-      "visual": "an empty paddy bank path under a lone pine at first light, mist over the stubble field",
-      "motion": "dawn light spreads along the bank, mist thins over the stubble, the pine stirs",
-      "anchor": false
-    }
-  ],
-  "withheld": "도둑은 동생 응오였다는 사실과, 형이 동생을 때렸다는 사실"
+ "logline": "전과자 형이 마을의 의심을 벗으려 동생 논의 벼 도둑을 잡으러 밤을 새우고, 새벽 몽둥이 앞에서 도둑이 고개를 든다",
+ "destination": "소설 만무방에서 만날 수 있습니다",
+ "protagonist": "eungchil",
+ "setting": "1930년대 강원도 산골 마을의 가을 논과 산길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/manmubang/assets",
+ "anchor": "a gaunt stubbled Korean drifter in a torn hemp jacket and grey headband, straw sandals",
+ "palette": "dull yellow, dark brown, off-white, dark blue, ash grey",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "eungchil",
+    "villagers",
+    "village_lane",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "빈털터리로 마을을 떠도는 전과자 응칠",
+   "visual": "the lane of the poor hill village in low dull yellow autumn light: the gaunt drifter with the stubbled hard face is the one walking toward the camera at the center in his torn off-white hemp jacket and grey headband, the small cloth bundle at his hip, his sharp eyes cut sideways and his straw sandals scuffing the trodden earth; two village women with cloth-wrapped heads are the ones standing by the stone well at frame left with their heads turned toward him and their hands stilled on the well rope; the thatched cottages behind their brushwood fences line the lane and the clear pale sky shows above the roofs",
+   "motion": "the gaunt drifter with the stubbled hard face walking toward the camera along the village lane is the only one who moves: at the start he is mid-stride at the center in his torn off-white hemp jacket and grey headband with the small cloth bundle at his hip; over the first three seconds he walks steadily forward along the lane toward the camera, the bundle swinging at his hip with each step, his sharp eyes sliding from the two women at the well to the road ahead and staying there, his straw sandals setting down in the dust; the two women with cloth-wrapped heads by the stone well stay still with their hands on the well rope and their faces turned after him; the thatched cottages, the brushwood fences and the low dull yellow autumn sky hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "eungo",
+    "sick_wife",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "성실한 소작농 응오와 병든 아내",
+   "visual": "the single room of the shabby thatched hut: the thin worn farmer with the wispy moustache is the one seated on his heels at frame right in his patched hemp clothes with his straw hat set on the floor beside him, holding a small chipped bowl in both hands toward the quilt; the pale thin woman with loose black hair is the one lying under the patched grey quilt at frame left with only her face and one hand showing, her eyes half closed; the cracked mud walls, the torn paper door letting in a strip of grey light, the bare floor",
+   "motion": "the thin worn farmer with the wispy moustache seated on his heels beside the quilt is the only one who moves: at the start the small chipped bowl is held in both hands above the sick woman's face; over the first two seconds his hands carry the bowl slowly down toward her lips and tilt it a little so that the liquid touches her mouth, his tired face bending closer over her and his patched sleeves sliding back; in the last two seconds the bowl rests at her lips and his bent face holds; the sick woman lying under the thin quilt stays still with her half-closed eyes and her loose hair on the pillow; the straw hat on the floor beside him, the mud walls, the low door and the quilt hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "eungo",
+    "paddy",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "다 익은 벼를 베지 않는 응오",
+   "visual": "the autumn paddy in low golden light: the thin worn farmer in the flat straw hat is the one standing on the low mud dike at frame left with his arms folded over his patched hemp jacket, his tired face turned toward the field and his jaw set; before him the standing ripe rice bends heavy and golden-brown across the whole field to the wooded hill behind, uncut, a few straw stacks at the far edge; the dike runs away from his straw sandals into the field and the clear pale sky holds a few thin streaks",
+   "motion": "only the wind in the ripe rice moves in this shot; the farmer on the dike does not: at the start the heavy golden-brown heads of rice stand still before the dike in the low golden light; over the whole shot a slow wind crosses the paddy so that the heavy heads bow and rise together in one long wave travelling away from the dike toward the hill and back again, the stalks hissing softly against each other; the thin worn farmer in the flat straw hat stands on the low mud dike with his arms folded over his patched hemp jacket, his jaw set and his tired eyes on the field, not moving at all; the straw stacks at the field's edge, the dark hill and the low sun hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "villagers",
+    "paddy",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "밤마다 벼가 사라진다는 말",
+   "visual": "the edge of the autumn paddy by the dike: a patch of the ripe rice near the dike stands stripped to bare stalks at the center of the frame, the heads gone and the stalks bent and trampled, while the untouched golden-brown rice stands heavy all around it; two village men in hemp jackets and straw hats are the ones standing on the dike at frame right, one pointing a finger down at the stripped patch and the other with his hands on his hips and his head shaking; the wooded hill and the straw stacks behind under the pale sky",
+   "motion": "the pointing villager's finger is the main thing that moves at the edge of the stripped paddy: at the start his finger points at one end of the patch of bare trampled stalks near the dike and the second villager beside him is shaking his head; over the first two seconds the pointing finger moves slowly along the stripped patch from one end to the other and stays pointing at the far end, his straw hat tilting as he leans, while the second villager's head keeps shaking slowly under his cloth-wrapped brow; in the last two seconds the finger holds and the head shake stops; the bare trampled stalks, the heavy untouched rice all around, the straw stacks and the dark hill hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "villagers",
+    "eungchil",
+    "village_lane",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "전과자 응칠에게 먼저 가는 마을의 눈",
+   "visual": "the village lane by the stone well: three villagers, two women with cloth-wrapped heads and a man in a straw hat, are the ones gathered close at the well at frame left with their heads bent together and their eyes cut sideways toward the right, one woman's hand raised to shield her mouth; the gaunt drifter in the torn hemp jacket and grey headband is the one walking past along the lane at frame right with his back three-quarters to them and his head turned back over his shoulder, his stubbled face hard and his sharp eyes on the group; the thatched cottages and brushwood fences behind, low golden light",
+   "motion": "the gaunt drifter walking past the well is the one who moves, and the three villagers only with their eyes: at the start his head is turned back over his shoulder toward the three gathered at the stone well; over the first two seconds his turned head comes slowly back around to face the road ahead and his shoulders stiffen under the torn hemp jacket as he walks on, the bundle at his hip swinging; in the last two seconds he comes to a stop well inside the frame and stands still; the three villagers at the well, two women with cloth-wrapped heads and a man in a straw hat, stay bent together with their heads close and their eyes following him, one hand still cupped at a mouth; the thatched cottages, the brushwood fences and the stone well hold completely still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "eungchil",
+    "village_lane"
+   ],
+   "refs": [],
+   "beat": "내가 잡고 만다 — 이를 가는 응칠",
+   "visual": "a close view in the village lane: the gaunt drifter's stubbled face fills the frame from the grey headband down, his teeth bared and clenched, his sharp eyes narrowed to slits and his jaw thrust forward, a vein standing at his temple; the torn collar of the off-white hemp jacket at the bottom edge; behind him the brushwood fence and a thatched roof fall out of focus in the golden light",
+   "motion": "only the gaunt drifter's jaw and eyes move in this close view: at the start his stubbled face fills the frame under the grey headband with his teeth bared and clenched, his sharp eyes narrowed to slits and a vein standing at his temple; over the first two seconds his clenched jaw works slowly from side to side once and sets again harder, the vein at his temple swelling and his nostrils flaring, his narrowed eyes not blinking; in the last two seconds his jaw holds set and the muscles of his cheek stand out; the grey headband and the torn collar of the hemp jacket do not shift; the brushwood fence and the thatched roof behind hold their blur; no new figures appear; camera drifting very slowly forward toward his eyes, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "eungchil",
+    "seongpal",
+    "mountain_path",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "산길에서 성팔을 의심하는 응칠",
+   "visual": "the narrow path through the dark pine wood at dusk: the gaunt drifter in the torn hemp jacket is the one at frame left with his right hand closed hard on the sleeve of the burly villager, his stubbled face thrust close and his sharp eyes accusing; the burly villager in the dark fur cap and thick grey hemp jacket is the one at frame right with his broad flat face turned away and his own hand pushing at the drifter's wrist, his small eyes angry; roots cross the path under their straw sandals, the rock outcrop rises behind them and the pines close in dark on both sides under the fading sky",
+   "motion": "the burly villager and the gaunt drifter on the dark pine path are what move: at the start the drifter's right hand is closed hard on the burly villager's sleeve with his stubbled face thrust close, and the villager's hand is pushing at the drifter's wrist; over the first two seconds the villager's pushing hand slowly forces the drifter's grip off his sleeve and he takes one heavy step back along the path, his broad chest heaving, while the drifter's accusing face stays thrust forward and his emptied hand hangs in the air; in the last two seconds the two stand a pace apart glaring; the pine roots across the path, the grey rock and the dark pines under the dusk sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "eungchil",
+    "gamblers",
+    "gambling_den",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "노름판에서 돈만 잃고 일어선 응칠",
+   "visual": "the hollow among the rocks in the pine wood at night, lit dull yellow by a paper lantern hung from a branch: the three village men in hemp jackets and headbands are the ones crouched on their heels around the spread cloth at the lower center with small painted cards and a few coins on it, their faces bent to the cards; the gaunt drifter in the torn hemp jacket is the one rising to his feet at frame right with both hands open and empty at his sides, his stubbled face sour and his eyes on the coins; the dark rocks and the pine trunks close the hollow and the starry sky shows through the branches",
+   "motion": "the gaunt drifter rising from the gambling cloth is the only one who moves: at the start he is half risen on one knee above the three crouched men with his empty hands turned palm out; over the first two seconds he straightens slowly to his full height with his empty hands turning palm out and lowering to his sides, his sour stubbled face lifting toward the dark path and the torn hemp jacket hanging loose; in the last two seconds he stands tall with his back half turned to the cloth; the three village men in hemp jackets and headbands crouched on their heels around the spread cloth keep their heads bent to the cards with their hands still, the small coins on the cloth not moving; the paper lantern hung from the branch sways very slightly; the rocks and the black pines hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "eungchil",
+    "pine",
+    "paddy",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "소나무 밑에 몸을 숨긴 응칠",
+   "visual": "the hillside above the paddy on a dark night: the big old pine with its thick black trunk fills the left of the frame, and the gaunt drifter is the one crouched low against the trunk at its foot with his knees drawn up and his torn hemp jacket pulled tight, his grey headband and stubbled face turned down toward the field, his sharp eyes catching a faint starlight; below at the right the dark paddy lies under a low cold mist with the pale dikes just visible and the straw stacks as darker shapes; scattered stars in the deep blue sky",
+   "motion": "the gaunt drifter crouched at the foot of the big pine and the mist over the paddy are what move: at the start he is crouched low against the thick black trunk with his knees drawn up and his torn hemp jacket pulled tight; over the first two seconds his crouched body settles slowly lower against the trunk and his head tips forward by a degree to watch the dark field below, his hands tightening around his knees; in the last two seconds he holds crouched and still; the pale mist over the dark paddy drifts slowly across the dikes from left to right; the big pine, the mud dikes, the dark rice and the stars in the black sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "eungchil",
+    "pine",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "찬 이슬 속에서 밤을 새우는 응칠",
+   "visual": "a close view at the foot of the pine at night: the gaunt drifter's stubbled face fills the frame with his cheek against the rough black bark of the trunk, his sharp eyes wide open and unblinking, fine drops of dew standing on his brow and the grey headband and in the stubble of his jaw, his breath a faint pale plume in the cold; the collar of the torn hemp jacket is pulled up to his chin; the dark bark and a strip of starry sky at the edge",
+   "motion": "only the gaunt drifter's breath moves in this close view at the foot of the pine: at the start his stubbled face rests with its cheek against the rough black bark, his sharp eyes wide open and unblinking, fine beads of dew standing on his brow under the grey headband; over the whole shot a pale plume of his breath drifts slowly out of his mouth into the cold air and fades, and another follows it, while his wide open eyes stay fixed and unblinking and the dew on his brow holds the faint starlight; his cheek does not leave the bark and the headband does not shift; the black bark and the dark starry sky hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "eungchil",
+    "pine",
+    "paddy",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "논둑을 기는 흰 형상",
+   "visual": "the hillside above the paddy at grey-blue dawn: the gaunt drifter is the one crouched at the foot of the big pine at the upper left with his body gone rigid and one hand gripping the bark, his stubbled face turned down to the field and his sharp eyes wide; far below on the pale mud dike at the lower right a small hunched figure in white hemp clothes with a cloth over its head creeps along the edge of the ripe rice, its face hidden and turned away; thin mist lies over the paddy and a pale band of light shows at the horizon",
+   "motion": "the small hunched figure creeping along the dike below is the only thing that moves: at the start it is low on the mud dike at the lower right with its cloth-covered head kept down and turned away; over the whole shot it creeps slowly along the dike from right to left with its cloth-covered head kept low and turned away from the hill, its pale shape passing through the thin mist over the rice; the gaunt drifter crouched at the foot of the big pine at the upper left stays rigid with his hand gripping the bark and his wide eyes following the figure, no other part of him moving; the big pine, the dark ripe rice, the mist and the grey-blue dawn sky hold completely still; no other figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "sack",
+    "paddy",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "벼 이삭을 훑어 자루에 담는 흰 형상",
+   "visual": "the edge of the ripe paddy at grey dawn seen from directly behind: a hunched figure in a patched off-white cotton jacket fills the center of the frame with its back to the camera, a grey cloth wrapped over the whole head and knotted at the nape, the shoulders bent low over the coarse grey hemp sack that gapes open on the mud dike before it; two thin hands reach around the sides of the sack stripping the heavy heads from a bunch of ripe rice stalks into its mouth, grain spilling over the sack's edge onto the earth; ripe golden-brown rice stands heavy on both sides, thin mist lies over the field and straw stacks show faint beyond under the pale dawn sky; only the back of the wrapped head and the hunched back are visible, the face turned away into the sack",
+   "motion": "only the pair of thin hands and the grain move in this view from behind: at the start the hands are stripping the heavy heads from a bunch of ripe rice stalks into the gaping mouth of the coarse grey hemp sack; over the first two seconds the thin hands strip one more bunch of rice heads slowly down the stalks into the sack and reach for the next stalks, grain trickling over the sack's edge onto the earth; in the last two seconds the hands close on the next bunch and begin to strip it; the hunched back and the cloth-wrapped head stay low and turned away, the face never coming into view; the ripe rice standing around, the mud of the dike and the grey dawn light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "eungchil",
+    "club",
+    "paddy",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "몽둥이를 쥐고 소리 없이 다가가는 응칠",
+   "visual": "the low mud dike at dawn: the gaunt drifter in the torn hemp jacket and grey headband is the one creeping along the dike toward the camera at the center bent nearly double, the stout wooden club gripped in his right hand and held low and back, his straw sandals set down one careful step at a time and his stubbled face hard with his sharp eyes fixed ahead; the ripe rice stands heavy on both sides of the dike and thin mist lies in the field; the pale band of dawn light widens at the horizon behind the wooded hill",
+   "motion": "the gaunt drifter creeping along the low mud dike toward the camera is the only one who moves: at the start he is bent nearly double at the center with the stout wooden club gripped in his right hand held low and back; over the first three seconds he creeps slowly forward along the dike toward the camera with the club held low and back, each straw sandal placed on the mud without a sound, his stubbled face fixed ahead under the grey headband and his sharp eyes never leaving what lies ahead, the torn hemp jacket hanging loose; the ripe rice on both sides of the dike, the thin mist over the field and the dark hill under the dawn sky hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "eungchil",
+    "club",
+    "sack",
+    "paddy",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "몽둥이 앞에서 고개를 드는 도둑",
+   "visual": "the edge of the paddy at dawn: the gaunt drifter is the one standing at frame right with the stout wooden club raised high over his head in both hands, his torn hemp jacket pulled tight across his shoulders and his stubbled face twisted; the hunched figure in white hemp clothes is the one crouched at the lower left over the gaping grey sack with its cloth-covered head just beginning to lift toward the club, the face still hidden in the shadow of the cloth and one thin hand still in the rice; the ripe stalks stand close around them and the mist glows with the first pale light",
+   "motion": "the crouched figure's cloth-covered head is the only thing that moves, and the raised club only trembles: at the start the gaunt drifter stands with the stout wooden club raised high over his head in both hands and the hunched figure crouches below him over the sack with its head down; over the first two seconds the crouched figure's cloth-covered head lifts slowly toward the raised club by a hand's width and stops, its face still in shadow under the cloth, while the drifter's raised club stays high and trembling over his head and his twisted face does not change; in the last two seconds both hold; the gaping hemp sack, the ripe rice, the thin mist and the grey dawn hold completely still; the face under the cloth is never shown; no new figures appear; camera drifting very slowly forward toward the two figures, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "sack",
+    "paddy",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽 논둑의 자루",
+   "visual": "the autumn paddy at sunrise, empty of every person: the coarse grey hemp sack lies collapsed on its side on the low mud dike at the center with stripped rice grain spilled from its gaping mouth onto the earth, and beside it a bunch of stripped stalks lies bent; the ripe rice stands heavy and golden-brown on both sides under the thinning mist and the wooded hill rises behind against a sky where the pale band of light has widened into a soft gold; a few straw stacks stand at the far edge",
+   "motion": "nothing living moves in this empty paddy at sunrise; only the mist and the light: at the start the coarse grey hemp sack lies collapsed on its side on the low mud dike with stripped grain spilled from its mouth and thin mist lies over the field; over the whole shot the thinning mist drifts slowly off the field into the pale gold light so that the spilled grain on the dike begins to catch the sun and glints, the light spreading down the rows of ripe rice; the collapsed sack, the bunch of stripped stalks beside it, the standing rice, the dike and the dark hill hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly backward, no zoom"
+  }
+ ],
+ "withheld": "자루를 채우던 이가 동생이었다는 것, 형이 동생을 때리고 업고 가는 결말"
 }

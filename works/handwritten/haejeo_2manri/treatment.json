@@ -1,62 +1,201 @@
 {
- "logline": "바다 괴물을 잡으러 나선 학자가, 괴물의 등에 올라섰다가 그 안으로 들어간다.",
- "destination": "강철 배의 큰 창 — 바다 밑을 내다보는 자리",
- "protagonist": "박물관에서 나온 프랑스인 자연학자",
- "setting": "1867년 태평양과 대서양의 바다 밑, 강철 잠수함 내부",
- "anchor": "a bearded naturalist in a dark buttoned coat and round spectacles, greying temples",
- "palette": "deep ocean blue-green, brass and rivet gold, cold lamp white, black water",
+ "logline": "바다 괴물 소문을 좇아 군함에 오른 학자 아로낙스가 괴물에게 들이받혀 바다에 빠지고, 검은 강철 등판 위에서 배 안으로 끌려 들어가 네모 선장의 배로 바다 밑 숲과 진주와 얼음 바다와 거대한 오징어를 지나, 선장이 배를 소용돌이로 몰 때 작은 보트에 오른다",
+ "destination": "소설 해저 2만리에서 만날 수 있습니다",
+ "protagonist": "aronnax",
+ "setting": "1867년 — 학자의 서재, 미국 군함의 갑판, 검은 잠수함의 강철 등과 큰 방, 바다 밑 숲과 남극의 얼음 바다, 노르웨이 앞바다의 소용돌이",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/haejeo_2manri/assets",
+ "anchor": "a lean bearded man of forty in a dark frock coat aboard a black steel submarine boat under the sea",
+ "palette": "dark blue, ash grey, off-white, dull green, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "그 선장이 바다로 숨어든 내력과, 소용돌이 뒤에 남은 것",
  "beats": [
   {
    "n": 1,
-   "beat": "학자가 갑판에서 밤바다를 살핀다.",
-   "visual": "a bearded naturalist at a warship rail scanning black night sea, lanterns along the deck",
-   "motion": "lantern light rocks with the swell, spray bursts over the rail, his coat flaps"
+   "cast": [
+    "aronnax",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "온 세상 바다마다 커다란 괴물을 보았다는 소문이 퍼진다",
+   "visual": "dull yellow light of an oil flame in a study lined with books: the lean man of forty with the dark hair brushed back and the short dark beard, in the dark frock coat over the grey waistcoat, is the one sitting at a wide desk at frame centre with a large newspaper spread open in both hands and his plain thoughtful face bent to it; the desk is heaped with more folded newspapers, a brass magnifying glass, a jar with a small dried fish in it and an open book with a drawing of a whale on its page; a globe on a wooden stand at frame right and a glass case of shells on the shelf behind him; the tall window at frame left shows the grey of a rainy afternoon; a brass oil burner with a green glass shade and a small flame inside it burns on the desk; the newspaper's columns are grey blocks with no letters that can be read; he is the only person in the room",
+   "motion": "the man's hands on the newspaper are the one thing that moves, and the study holds still: at the start the newspaper is spread open in both hands with his face bent to it; over the first three seconds his hands lower the paper slowly to the desk and his right hand slides across to draw the open book with the whale drawing closer, his face turning slowly from the paper to the drawing, his brows drawing together; in the last two seconds his hand rests on the book and his face holds on the drawing; the heaped newspapers, the magnifying glass, the jar with the dried fish and the globe on its stand keep their places; the green-shaded oil flame burns steadily and the grey rain in the tall window does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "거대한 무언가가 배를 들이받고 지나간다.",
-   "visual": "a huge dark shape sliding beneath a warship hull, phosphorescent wake spreading behind it",
-   "motion": "the shape rushes past, the hull lurches, glowing water streams off"
+   "cast": [
+    "aronnax",
+    "ned",
+    "frigate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "학자 아로낙스가 그 괴물을 잡으러 나선 군함에 오른다",
+   "visual": "grey morning light on the open deck of the steam frigate: the lean man of forty in the dark frock coat is the one standing at the rail at frame left with a leather case in one hand and his other hand on the rail, his plain thoughtful face lifted to the masts; the big broad man of thirty-five with the cropped fair hair in the striped seaman's jersey is the one at frame right with the long harpoon standing upright in his fist and its butt on the deck, his plain blunt face turned out to the water; the tall black funnel rises between the masts behind them with smoke going up straight, and the cannon along the rail are lashed with their muzzles covered; coils of rope and a heap of canvas lie on the scrubbed planks; the open sea runs out flat and grey beyond the rail to the horizon; a low grey sky; exactly two people near the camera",
+   "motion": "the smoke from the tall funnel is the one thing that moves, and the two men hold still: at the start it goes up straight from the funnel's black mouth; over the first three seconds it leans slowly to one side and thickens, a darker puff rising into the paler smoke and spreading as it climbs, then the column straightens again; in the last two seconds the smoke keeps rising at the same slow rate; the lean man keeps his hand on the rail and his face lifted to the masts; the big man keeps the harpoon upright in his fist with its butt on the deck; the lashed cannon, the coils of rope, the heap of canvas and the flat grey sea beyond the rail hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "바다에 빠진 그가 강철 등판 위로 올라선다.",
-   "visual": "a soaked man kneeling on a curved steel surface rising from the sea, rivets under his hands",
-   "motion": "water pours off the steel plates, his hands slip, the surface tilts"
+   "cast": [
+    "aronnax",
+    "ned",
+    "frigate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤바다에서 군함 앞에 나타난 괴물의 푸른 빛",
+   "visual": "deep night on the frigate's foredeck: the lean man of forty in the dark frock coat and the big broad man in the striped jersey are the ones standing side by side at the bow rail at frame centre with their backs half to the camera, both faces turned down at the water ahead; below the bow, under the black surface of the sea at frame centre, a long oval of dull green light glows up through the water, wider than the frigate's bow and stretching away ahead of her, its edges soft and its centre bright enough to light the underside of the two men's faces green; the harpoon stands upright in the big man's fist; the bowsprit runs out over the glow with its rigging black against it; the rest of the sea is black to the horizon under the small stars; exactly two people",
+   "motion": "the oval of green light under the water is the one thing that moves, and the two men hold still: at the start it glows up through the black water ahead of the bow; over the first three seconds the glow slides slowly forward away from the bow along the surface, its bright centre travelling ahead and its soft edges trailing, the green light on the underside of the two faces dimming a little as it draws off; in the last two seconds the glow holds ahead of the bow, a little further off; the two men keep their backs half to the camera and their faces down at the water; the harpoon stays upright; the bowsprit and its black rigging, the black sea and the small stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "강철 문이 열리고 그는 안으로 내려간다.",
-   "visual": "an open hatch in a steel deck with a ladder into brass-lit interior, a man climbing down",
-   "motion": "the hatch swings up, his boots find the rungs, warm light rises through the opening"
+   "cast": [
+    "aronnax",
+    "ned",
+    "frigate",
+    "nautilus_back",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "괴물이 군함을 들이받고 학자가 바다에 빠진다",
+   "visual": "deep night on the heeling deck of the frigate: the whole deck tilts hard down toward frame right, and the lean man of forty in the dark frock coat is the one sliding down it on his back at frame centre with both arms flung out and his coat tails up, his plain face turned up to the tilted masts; the big broad man in the striped jersey is the one at frame left with one arm hooked round a stay and the harpoon held out in his other hand, his boots braced on the sloping planks; over the low rail at frame right the long black steel back of the submarine boat shows awash in the water alongside, its riveted plates wet and shining with a pale green glow along its length; loose rope and a bucket slide down the planks; spray stands white over the rail; the small stars tilt in the black sky; exactly two people",
+   "motion": "the lean man sliding down the deck is the one who moves, and the big man holds his grip: at the start he is on his back halfway down the tilted planks with both arms out; over the first three seconds he slides slowly further down toward the low rail at frame right, his coat tails dragging up behind him and his boots pushing at the planks, the loose rope and the bucket sliding down beside him at the same slow rate; in the last two seconds he holds against the rail with his arms still out; the big man keeps his arm hooked round the stay and his boots braced, the harpoon out in his hand; the long black steel back alongside keeps its place in the water with its green glow; the white spray over the rail and the tilted stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "커다랗고 둥근 창 하나가 어둠 속에 있다.",
-   "visual": "a huge round brass-rimmed viewport set in a steel wall, dark water pressing against the glass",
-   "motion": "water shifts beyond the glass, lamp reflections slide, rivets gleam",
-   "anchor": false
+   "cast": [
+    "aronnax",
+    "ned",
+    "nautilus_back",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "물에 빠진 학자가 올라선 것은 검은 강철로 된 등판이다",
+   "visual": "grey first light over the flat sea: the long black steel back of the submarine boat lies awash at frame centre running away from the camera, its riveted plates wet and shining, the sea washing over its edges in thin sheets; the lean man of forty in the soaked dark frock coat is the one standing on the plates at frame centre with his boots wide apart and his arms out for balance, water running from his coat tails and his short beard, his plain thoughtful face turned down at the iron under his feet; the big broad man in the soaked striped jersey is the one on his hands and knees on the plates behind him at frame right, the harpoon lying along the plates beside him, his blunt face lifted; the raised iron hatch with its round lid stands closed on the plates ahead of them at frame left; the sea is flat and dull green to the horizon; a low grey sky; exactly two people on the iron",
+   "motion": "the lean man standing on the plates is the one who moves, and the big man holds still: at the start his boots are wide apart with his arms out and his face down at the iron; over the first three seconds he crouches slowly, his knees bending and one hand coming down flat on the wet riveted plate beside his boot, his fingers spreading on the iron and his face going closer to it, water still running from his coat; in the last two seconds he holds crouched with his hand flat on the plate; the big man stays on his hands and knees with the harpoon beside him and his face lifted; the sea keeps washing over the edges of the steel back in thin sheets at the same rate; the closed round hatch and the flat dull green sea hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "선장이 그를 그 창 앞으로 데려가 세운다.",
-   "visual": "a tall captain and a bearded naturalist standing together before a huge round viewport, fish beyond",
-   "motion": "fish stream past the glass, the captain's hand lifts, both figures lean in"
+   "cast": [
+    "aronnax",
+    "nautilus_back",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "강철 문이 열리고 학자가 그 배 안으로 끌려 들어간다",
+   "visual": "grey light on the wet black plates of the submarine boat's back: the raised iron hatch at frame centre stands open now with its round lid thrown back on its hinge, and a dull yellow light comes up out of the round opening onto the wet plates; the lean man of forty in the soaked dark frock coat is the one going down into that opening at frame centre with only his head and shoulders and one arm still above the plates, two pale hands from below closed on his arm and his coat, his plain thoughtful face turned back up over his shoulder toward the grey sky with his mouth open; the sea washes over the edges of the plates in thin sheets; the rest of the long black back runs away to the flat dull green sea; nobody else is above the plates",
+   "motion": "the lean man going down the hatch is the one who moves, and the plates hold still: at the start his head and shoulders and one arm are above the opening with the two hands from below closed on him; over the first three seconds he sinks slowly into the opening, his shoulders going below the rim and his raised arm sliding down after them, his face staying turned up to the sky until only his eyes and his brow are above the iron; in the last two seconds he holds there with his eyes just above the rim; the thrown-back round lid does not swing; the dull yellow light from the opening keeps the same reach across the wet plates; the sea washing over the edges keeps its thin sheets at the same rate; the flat dull green sea beyond holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 배는 어디로 향하고 있는 것일까?",
-   "visual": "a steel submarine silhouette descending into deep blue darkness, one lit porthole shrinking",
-   "motion": "the hull sinks downward, the porthole light dims, bubbles trail upward"
+   "cast": [
+    "nemo",
+    "aronnax",
+    "salon"
+   ],
+   "refs": [],
+   "beat": "그 배의 선장 네모가 학자를 책이 가득한 큰 방으로 데려간다",
+   "visual": "the soft light of brass wall lights with frosted glass globes, each with a small flame inside in the high panelled room: the tall man of fifty with the high pale forehead and the short black beard streaked with grey, in the dark blue jacket with plain buttons, is the one standing at frame right with one arm held out toward the room in a slow gesture and his calm hard face turned to his guest; the lean man of forty in the dark frock coat, dry now and buttoned, is the one standing just inside the doorway at frame left with his hands at his sides and his plain thoughtful face turned up along the walls; the walls of dark wood are lined from floor to ceiling with shelves of books in dark bindings, and between the shelves stand glass cases of shells and corals on brass feet; the pipe organ stands against the far wall with its pipes rising to the ceiling; a table with a spread chart and brass instruments; the two of them are the only people in the room",
+   "motion": "the captain's held-out arm is the one thing that moves, and the guest holds still: at the start it is held out toward the room with the hand open; over the first three seconds the arm sweeps slowly across from the shelves of books toward the pipe organ and the glass cases, the open hand travelling level at the height of his chest and his calm face turning to follow it; in the last two seconds the arm holds out toward the organ; the guest keeps his hands at his sides and his face up along the walls, not moving; the small flames inside the frosted globes burn steadily; the shelves of books, the glass cases of shells, the organ pipes and the spread chart on the table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "깊은 바다에 잔물결만 남는다.",
-   "visual": "still deep blue water with a faint trail of bubbles rising, nothing else in the frame",
-   "motion": "bubbles rise and scatter, light shafts waver, the blue darkens below",
-   "anchor": false
+   "cast": [
+    "aronnax",
+    "nemo",
+    "salon"
+   ],
+   "refs": [],
+   "beat": "방의 둥근 창 너머로 바다 속 물고기 떼가 지나간다",
+   "visual": "the dim green light of the sea coming through the great round window of thick glass: the round window in its iron frame fills the middle of the frame from the floor to well above head height, and beyond the glass the water is dull green with pale light coming down through it from above; a dense school of silver fish is the one thing crossing the window from frame left to frame right in a long slanting band, their sides catching the light; the lean man of forty in the dark frock coat is the one standing close against the glass at frame left with both palms flat on it and his plain thoughtful face turned up at the fish, lit green; the tall captain in the dark blue jacket is the one standing back at frame right with his arms folded, watching the guest rather than the fish; the dark wood panelling and a glass case of shells show at the edges; the two of them are the only people in the room",
+   "motion": "the school of silver fish is the one thing that moves, and the two men hold still: at the start the long slanting band of them is crossing the round window from left to right; over the first three seconds the whole band swims slowly on across the glass, the fish nearest the window turning together with a flash of their silver sides, the band's tail end coming into view at the left edge of the window as its head goes out at the right; in the last two seconds the band keeps crossing at the same slow rate; the lean man keeps both palms flat on the glass and his face up at the fish; the captain keeps his arms folded and his eyes on the guest; the pale light coming down through the green water and the iron frame of the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "diving_suit",
+    "seabed"
+   ],
+   "refs": [],
+   "beat": "학자가 무거운 잠수옷을 입고 바다 밑 숲을 걷는다",
+   "visual": "dim green light on the floor of the sea: a figure covered from head to foot by the heavy diving suit of grey rubberised cloth, the round copper helmet closed over the whole head so that no face, hair or ordinary clothing shows anywhere, is the one walking slowly across the pale sand at frame centre with the weighted boots sinking a little at each step, one gloved hand out to the side for balance and a stream of small bubbles rising from the helmet's collar, the three small glass ports of the helmet catching the light from above; a second figure in the same grey suit with the same closed copper helmet over its whole head walks a few paces behind at frame right, no face showing; the forest of tall dark green weed stands on both sides of the sandy path and sways in the water above their helmets; small fish hang in the water between the weed stems and a grey rock lies half buried in the sand; the pale light comes down from far above in slanting bars; exactly two figures in suits",
+   "motion": "the leading figure in the diving suit is the one who moves, and the weed holds its sway: at the start it is in mid stride with one gloved hand out and bubbles rising from the collar; over the first three seconds it walks slowly on across the sand, each weighted boot lifting and coming down with a small puff of pale sand rising round it, the out-held hand swaying for balance and the stream of bubbles rising steadily and bending a little as the helmet turns; in the last two seconds it keeps walking at the same slow pace; the second figure behind keeps its own slow pace and spacing; the tall dark green weed keeps its slow sway in the water; the small fish between the stems hang where they are; the slanting bars of pale light from above do not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "diving_suit",
+    "seabed"
+   ],
+   "refs": [],
+   "beat": "바다 밑에서 학자가 본 사람 머리만 한 진주 한 알",
+   "visual": "dim green light close on the floor of the sea: a giant clam shell as wide as a man is tall lies open on the pale sand at frame centre with its two fluted halves gaping, and in the soft flesh inside it sits one round pearl the size of a man's head, its surface pale and faintly gleaming in the green light; the figure in the heavy grey diving suit with the round copper helmet is the one kneeling on one knee in the sand at frame left beside the open shell with one gloved hand held out flat toward the pearl and stopped a hand's width short of it, the three glass ports of the helmet turned to the pearl and bubbles rising from the collar; the dark green weed stands close behind the shell and a small striped fish hangs in the water above it; the pale light comes down in slanting bars; only one figure in the picture",
+   "motion": "the gloved hand held out toward the pearl is the one thing that moves, and the shell holds still: at the start it is stopped flat a hand's width short of the pearl; over the first three seconds the hand comes slowly the rest of the way in and the gloved fingers close gently round the near side of the pearl, turning it a little in its soft bed so that the gleam travels round its surface, the stream of bubbles from the collar bending as the helmet leans closer; in the last two seconds the fingers hold on the pearl with the helmet leaning over it; the two fluted halves of the giant shell do not close; the dark green weed behind keeps its slow sway; the small striped fish hangs where it is; the slanting bars of light hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "nemo",
+    "aronnax",
+    "nautilus_back",
+    "ice_field",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "남쪽 끝 얼음 바다에서 그 배가 두꺼운 얼음에 갇힌다",
+   "visual": "hard white light under a pale sky: the long black steel back of the submarine boat lies at frame centre held fast in a flat white plain of sea ice, the ice pressed up in broken slabs against its plates on both sides and the raised iron hatch standing open; the tall captain in the dark blue jacket is the one standing on the plates beside the open hatch at frame right with his arms folded and his calm hard face turned to the high walls of blue-white ice that stand round the plain; the lean man of forty in the dark frock coat with a scarf wound round his throat is the one standing a pace from him with his hands pushed into his coat and his plain thoughtful face turned the same way; the narrow black channel of open water behind the boat has closed to a thin dark line between the ice; the walls of ice rise on every side to the pale sky; exactly two people on the plates",
+   "motion": "the thin dark line of the channel behind the boat is the one thing that moves, and the men hold still: at the start it lies as a narrow black seam between the white ice; over the first three seconds the seam narrows slowly from its far end toward the boat, the white ice on either side of it pressing together and the black water between them thinning to a thread, small broken pieces of ice rising and tilting along its edge as it closes; in the last two seconds the seam holds as a thin black thread; the captain keeps his arms folded and his face on the ice walls; the lean man keeps his hands in his coat and his face turned the same way; the slabs of ice pressed against the plates, the open hatch and the high walls of blue-white ice hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "aronnax",
+    "nemo",
+    "squid",
+    "salon"
+   ],
+   "refs": [],
+   "beat": "얼음을 벗어난 배의 창밖에 나타난 거대한 오징어",
+   "visual": "the dim green light of the sea through the great round window of thick glass: the round window in its iron frame fills the middle of the frame, and pressed against the far side of the glass is the giant squid, its long pale body filling the upper half of the window and one great round eye as wide as a man's head looking in through the glass at frame centre, two of its thick arms spread flat against the glass with their round suckers showing pale and one long thin tentacle trailing off into the dark water; the lean man of forty in the dark frock coat is the one at frame left a full pace back from the glass with one arm up before his face and his plain thoughtful face turned to the eye; the tall captain in the dark blue jacket is the one at frame right standing close to the glass with his arms folded and his calm hard face level with the great eye; the dark wood panelling at the edges; the two of them are the only people in the room",
+   "motion": "the giant squid on the far side of the glass is the one thing that moves, and the two men hold still: at the start its great eye is at the glass and two of its arms are spread flat against it; over the first three seconds the two flat arms slide slowly across the glass toward the window's iron rim, their round suckers pressing and letting go one after another as they travel, and the great eye turns slowly in its socket from the captain toward the lean man, the long thin tentacle drifting in the dark water behind; in the last two seconds the arms hold at the rim and the eye holds on the lean man; the lean man keeps his arm up before his face and his feet where they are; the captain keeps his arms folded with his face level with the eye; the iron frame of the window and the dark panelling hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "nemo",
+    "salon",
+    "maelstrom"
+   ],
+   "refs": [],
+   "beat": "네모 선장이 그 배를 거센 소용돌이 쪽으로 몬다",
+   "visual": "the dim light of the frosted wall globes turned low in the high panelled room: the tall captain in the dark blue jacket is the one sitting at the pipe organ at frame left with his back half to the camera and both his hands spread on the keys, his high pale forehead bent and his calm hard face turned a little toward the round window; beyond the great round window at frame right the water is no longer green but grey and streaked with white, and it turns slowly across the glass in one direction as the whole room leans a little toward the window; a brass instrument on the chart table has slid to the table's raised edge and a book lies open on the floor below it; the glass cases of shells along the walls tilt with the room; the organ pipes rise to the ceiling; he is the only person in the room",
+   "motion": "the grey water beyond the round window is the one thing that moves, and the captain at the organ holds his hands on the keys: at the start the water turns slowly across the glass in one direction with its white streaks; over the first three seconds it turns faster across the glass, the white streaks lengthening and curving as they pass and the grey going darker toward one side of the window, the whole view beyond the glass wheeling in the same slow direction; in the last two seconds the water keeps turning at that rate; the captain keeps both hands spread on the organ keys with his forehead bent and his face a little toward the window, not moving; the brass instrument at the table's edge, the open book on the floor and the tilted glass cases hold their places; the organ pipes and the low-turned wall globes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "aronnax",
+    "ned",
+    "nautilus_back",
+    "maelstrom",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "소용돌이 앞에서 작은 보트에 오른 학자는 살아났을까",
+   "visual": "grey stormy light over the sea: the long black steel back of the submarine boat lies awash at frame centre with the sea heaped and grey round it, and a small iron boat with a rounded lid stands up on the plates near the stern with its lid open; the lean man of forty in the dark frock coat is the one climbing over the rim of the small boat at frame centre with one leg already inside and both hands gripping the rim, his plain thoughtful face turned back over his shoulder toward the open hatch; the big broad man in the striped jersey is the one already inside the small boat at frame right with the harpoon across his knees and one arm reaching out to the lean man; beyond the steel back at frame left the sea drops away into the slope of a great slow funnel of grey water with rings of white foam on its sides and black rocks at its edge, and the low sky is dark over it; spray stands white over the plates; exactly two people",
+   "motion": "the lean man climbing into the small boat is the one who moves, and the funnel of water keeps its slow turn: at the start one of his legs is inside the boat and both hands grip the rim with his face turned back to the hatch; over the first three seconds his other leg comes slowly up and over the rim into the boat, his hands walking along the rim as his weight goes in and the big man's reaching arm closing on his coat to pull him down inside, his face coming round from the hatch to the funnel of water beyond; in the last two seconds he holds crouched inside the rim with the big man's hand on his coat; the great funnel of grey water beyond the plates keeps turning slowly with its rings of foam sliding round; the spray over the plates and the black rocks at the funnel's edge hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "maelstrom",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "깊은 바다에 잔물결만 남는다",
+   "visual": "grey light after the storm on the open sea: the water lies flat and grey across the whole frame with a long slow swell crossing it and small rings of foam drifting apart on its surface where the funnel of water was; the black rocks stand at frame right with the sea washing white round their feet; a single broken oar floats at frame centre turning slowly on the swell, and a scrap of striped cloth lies across it; the low sky is grey and lifting at the horizon with a thin pale line of light under the sky's lower edge; a few gulls stand on the black rocks; there is nobody in the water and nothing else on it; the swell runs in long low lines from the far horizon toward the rocks and each line lifts the drifting rings of foam a little as it passes; the black rocks are wet and shine dull on their seaward faces, with weed hanging from their lower edges; the grey sky is banded darker above and paler below",
+   "motion": "the broken oar on the water is the one thing that moves, and the sea keeps its slow swell: at the start it floats at frame centre with the scrap of striped cloth across it; over the first three seconds it turns slowly a quarter round on the swell, one end lifting on the crest and the other dipping, the scrap of cloth sliding a little along its length and trailing in the water; in the last two seconds it keeps turning at the same slow rate; the small rings of foam drift apart on the surface at their own slow rate; the black rocks with the white water round their feet and the gulls standing on them hold completely still; the thin pale line of light under the sky's edge does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "선장의 내력과 소용돌이 속으로 사라지는 마지막",
- "voice": "ko-KR-InJoonNeural"
+ ]
 }

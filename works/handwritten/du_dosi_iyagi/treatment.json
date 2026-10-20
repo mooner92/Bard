@@ -1,0 +1,202 @@
+{
+ "logline": "십팔 년 갇혔던 마네트 노인이 딸 루시와 런던으로 돌아와 법정에서 닮은 두 남자를 보고, 루시는 다네이와 결혼하며, 파리의 굶주린 거리와 드파르주 부인의 뜨개질과 쏟아져 나온 군중을 지나, 편지를 받고 파리로 간 다네이가 감옥에 갇혀 사형을 받자 닮은 얼굴 칼턴이 감옥 문 앞에 선다",
+ "destination": "소설 두 도시 이야기에서 만날 수 있습니다",
+ "protagonist": "carton",
+ "setting": "1775~1793년 파리와 런던 — 파리의 다락과 술집과 좁은 거리와 감옥, 런던의 법정과 정원과 응접실과 술집",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/du_dosi_iyagi/assets",
+ "anchor": "two young men with the same straight nose and firm mouth, one neat in dark green and one careless in shabby black, and a golden-haired young woman, between London and revolutionary Paris",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark green",
+ "voice": "",
+ "personas": {},
+ "withheld": "누가 누구를 대신하는지와, 그 사람이 맞는 마지막",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "manette",
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "십팔 년을 갇혔던 노인이 풀려나서도 구두만 짓는다",
+   "visual": "thin grey light from the one small window of the garret with the sloping ceiling: the old man of sixty with the white hair hanging loose to his shoulders and the hollow pale face with the dim eyes, in the ragged off-white shirt and the dark breeches with bare feet, is the one sitting at frame centre on the low stool bent close over the shoemaker's bench with a half-made shoe held in one hand and a small awl in the other, his dim eyes a hand's width from the leather and his white hair hanging forward over his face; the tools lie in a row on the bench with scraps of leather; the small window at frame right gives its grey light on his white hair and the bench; the bare boards run to the bottom of the frame; the sloping ceiling comes down close; there is exactly one person in the garret and he is the one bent over the shoe",
+   "motion": "the old man's awl hand is the one thing that moves, and the garret holds still: at the start the awl is at the leather of the half-made shoe with his eyes a hand's width from it; over the whole five seconds the awl works slowly in and out of the leather three times, his other hand turning the shoe a little each time, his bent head not lifting and his loose white hair swaying slightly with the work; his bare feet do not shift on the boards; the tools and the scraps of leather on the bench keep their places; the small window's grey light stays even; the sloping ceiling and the bare boards hold completely still; the half-made shoe turns only in his hand and the awl's small point takes the grey light each time it lifts; the low stool under him does not shift; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "lucie",
+    "manette",
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "딸 루시가 노인 앞에 무릎을 꿇고 아버지의 얼굴을 마주 본다",
+   "visual": "thin grey light from the small window of the garret: the young woman of eighteen with the golden hair pinned up and the gentle lovely face, in the plain dark blue travelling dress with the white collar, is the one kneeling at frame right on the bare boards close before the old man with both her hands laid gently on his knees and her face lifted to his, her blue eyes wet and her lips parted; the old man of sixty with the white hair hanging loose and the hollow pale face, in the ragged off-white shirt, is the one sitting at frame left on the low stool with the half-made shoe forgotten in one hand and his dim eyes turned down to her face, his mouth a little open and a lock of her golden hair caught between the fingers of his other hand; the shoemaker's bench with its tools stands behind him; the small window gives its grey light on both their faces; there are exactly two people in the garret and the young woman is the one kneeling",
+   "motion": "the old man's hand with the lock of hair is the one thing that moves, and the young woman holds still: at the start the lock of golden hair is caught between his fingers with his dim eyes on her face; over the first three seconds his fingers turn the lock of hair slowly over and over and his dim eyes go from the hair to her face and back to the hair, his mouth working without sound, the half-made shoe not moving in his other hand; in the last two seconds his fingers hold the lock of hair and his eyes stay on her face; his bare feet do not shift; the young woman keeps her hands on his knees and her wet eyes lifted to him, only her lips closing slowly; the bench with its tools and the small window hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "darnay",
+    "carton",
+    "court",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "런던으로 돌아온 딸과 아버지가 법정에서 닮은 두 남자를 본다",
+   "visual": "grey daylight from the high windows of the old London courtroom: the young man of twenty-five with the dark brown hair tied back neatly, the straight nose, the firm mouth and the grey eyes, in the fine dark green coat with the white cravat, is the one standing at frame left in the wooden dock behind its spiked rail with his hands on the rail and his face turned toward the well of the court; the young man of twenty-five with the untidy dark brown hair, the straight nose, the firm mouth and the grey eyes, with the pale careless face, in the shabby black coat with the cravat hanging loose, is the one standing at frame right in the well of the court close below the dock with his wig pulled off and held in one hand, his face turned up toward the man in the dock so that the two faces show side by side in profile with the same straight nose and the same firm mouth; the barristers in white wigs and black gowns crowd the benches behind with their faces turned to the two; the high judge's bench rises at the back; the gallery above is crowded; there are exactly two men whose faces are seen in profile side by side",
+   "motion": "the man in the well of the court is the one who moves, and the man in the dock holds still: at the start the untidy man stands below the dock with his wig in his hand and his face turned up; over the first three seconds he turns slowly to face the benches behind him, holding his own face beside the face in the dock for them to see, his careless mouth twisting into a small dry smile and his free hand pointing up at the dock; in the last two seconds he holds turned to the benches with his hand pointing; the man in the dock keeps his hands on the spiked rail and his face turned to the well, nothing in him moving; the barristers on the benches lean a little forward together and hold; the judge's bench and the crowded gallery hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "darnay",
+    "lucie",
+    "manette_later",
+    "court",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "피고 다네이가 그 닮은 얼굴 덕분에 풀려난다",
+   "visual": "grey daylight in the old London courtroom, seen close at the foot of the dock: the young man of twenty-five with the dark brown hair tied back neatly and the firm mouth, in the fine dark green coat, is the one standing at frame centre just outside the open door of the dock with both his hands taken in the two hands of the young woman, his face bent to her with a tired smile; the young woman of eighteen with the golden hair pinned up and the gentle lovely face, in the plain dark blue dress, is the one standing at frame right holding his hands with her face lifted to him and her eyes shining; the old man of sixty with the white hair combed and tied back and the hollow pale kind face, in the dark brown coat, is the one standing at frame left behind the young woman with one hand on her shoulder and his eyes on the freed man; the wooden dock with its spiked rail stands open behind them; the crowd of wigs and gowns moves dimly beyond; there are exactly three people close in the picture and the young man's hands are held",
+   "motion": "the young woman's hands are the one thing that moves, and the two men hold still: at the start her two hands hold his two hands with her face lifted; over the first three seconds her hands lift his slowly to the height of her breast and press them there, her shining eyes not leaving his face and her lips parting in speech; in the last two seconds her hands hold his pressed to her breast; her feet do not shift; the young man keeps his tired smile bent to her and lets his hands be held, nothing else in him moving; the old man keeps his hand on her shoulder and his eyes on the freed man; the open dock and the dim crowd of wigs beyond hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "carton",
+    "tavern",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "다네이를 살린 칼턴이 술잔 너머 창밖의 불빛만 본다",
+   "visual": "the dull yellow light of one candle on the table by the window in the tavern room at night: the young man of twenty-five with the untidy dark brown hair, the straight nose and the firm mouth, with the pale careless face, in the shabby black coat with the cravat hanging loose, is the one sitting at frame centre at the table with his elbow on it and his chin on his fist, a glass half full held loosely in his other hand, his grey eyes turned past the glass to the window; the window at frame right shows the small dull yellow lights of the street beyond its dark glass, blurred; the bottle stands on the table beside the candle; the rest of the tavern room is dark behind him; there is exactly one person in the room and his eyes are on the lights beyond the window",
+   "motion": "the man's glass hand is the one thing that moves, and the room holds still: at the start the half-full glass is held loosely in his hand with his eyes on the window; over the first three seconds the hand lifts the glass slowly toward his mouth and stops halfway and lowers it again to the table, his eyes never leaving the blurred lights beyond the glass, his chin staying on his fist; in the last two seconds the glass holds on the table in his loose hand; his feet do not shift under the table; the small dull yellow lights beyond the dark window stay where they are; the candle flame stays steady and the bottle keeps its place; the dark room behind him holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "lucie",
+    "darnay",
+    "manette_later",
+    "garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "루시는 다네이와 결혼하고 아버지는 다시 구두 틀 앞에 앉는다",
+   "visual": "soft grey daylight in the quiet London garden under the great plane tree: the young woman of eighteen with the golden hair pinned up under a small white bonnet and the gentle lovely face, in an off-white dress with a white shawl, is the one standing at frame centre on the path with her arm through the arm of the young man beside her, her face turned back over her shoulder toward the house; the young man of twenty-five with the dark brown hair tied back and the firm mouth, in the fine dark green coat, is the one standing at frame right with her arm in his and his face turned to her; behind them at frame left, seen through the open green door of the small house, the old man of sixty with the white hair combed and tied back, in the dark brown coat, is the one sitting on a low stool with his back to the garden, bent over a shoemaker's bench with a shoe in his hands; the great plane tree spreads its leaves over the path; the wooden bench stands empty under it; there are exactly three people in the picture and the old man is the one bent over the bench",
+   "motion": "the young woman's turned face and the old man's hands are the two things that move, and the young man holds still: at the start her face is turned back over her shoulder toward the house and the old man's hands are on the shoe; over the first three seconds her face turns slowly back from the house to the young man beside her and her arm tightens through his, while the old man's bent back sways slightly with his work and his hands turn the shoe once; in the last two seconds her face holds turned to the young man and the old man's hands hold on the shoe; the young man keeps his face turned to her, nothing in him moving; the great plane tree's leaves stir only at their tips; the empty bench and the green door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "paris_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "다네이의 고향 파리에서는 굶주린 이들이 귀족의 마차를 노려본다",
+   "visual": "flat grey daylight in the narrow Paris street of tall grey houses: the fine coach with its four horses is the one thing coming through the street at frame centre toward the camera at a slant, its gilt trim and its dark blue panels bright against the grey houses, the horses' heads high and the coachman on the box with his whip raised; at the doors and along the walls on both sides of the street the ragged people in coarse caps and torn dark brown coats are the ones pressed back against the stone with their faces turned to the coach, gaunt and still, a woman with a thin child held against her, a man with his fists at his sides; the stone fountain stands dry at frame left; the tall grey houses lean close overhead; the cobbles are wet; the coach is the one bright thing in the picture and the people against the walls are the ones watching it",
+   "motion": "the coach is the one thing that moves, and the people against the walls hold still: at the start the coach comes through the street at a slant with the horses' heads high; over the whole five seconds the coach rolls slowly on toward the camera by no more than its own length, the four horses' legs moving through their high trot and the coachman's raised whip swinging once, the gilt trim catching the grey light; the ragged people against the walls keep their gaunt faces turned to the coach and do not move, the man's fists staying at his sides and the woman's arm round the thin child; the dry stone fountain, the tall grey houses and the wet cobbles hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "defarge_wife",
+    "wine_shop",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "파리 술집의 드파르주 부인이 뜨개질로 원수의 이름을 뜬다",
+   "visual": "dim grey daylight through the low door of the Paris wine shop with the barrels along the wall: the stout woman of forty with the dark hair under the coarse white cap and the watchful heavy face, in the coarse dark brown dress, is the one sitting at frame centre on a stool behind the counter with the knitting needles and the grey wool in her hands, a long strip of knitted grey wool hanging from the needles down over her knee, her heavy face turned toward the open door with her eyes half closed and her needles working; the hanging lamp above the counter is dark; the barrels stand along the wall at frame left; a tin cup stands on the counter before her; the low door at frame right stands open on the grey empty street; there is exactly one person in the wine shop and the knitting is the one thing in her hands; her wrists are bare above her rough sleeves with nothing on them; the stone wall above the doorway is plain bare grey stone with no board, no lettering and nothing hung on it, and the only light inside is the oil lamp on its chain",
+   "motion": "the woman's knitting needles are the one thing that moves, and the wine shop holds still: at the start the needles are in her hands with the strip of grey wool hanging over her knee; over the whole five seconds the needles work slowly and steadily through stitch after stitch, the grey wool feeding from her lap and the strip lengthening by a finger's width, her half-closed eyes staying on the open door and her heavy face not changing; her feet do not shift under the stool; the tin cup on the counter and the dark lamp keep their places; the barrels along the wall and the open door on the empty grey street hold completely still; the strip of knitted grey wool hanging over her knee sways only with the needles' work; the low door stays empty; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "crowd",
+    "bastille_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "마침내 파리 거리로 쏟아져 나온 군중",
+   "visual": "grey daylight over the wide Paris street filled from side to side with the crowd, seen from behind: the backs of the crowd in rags and coarse caps fill the lower two thirds of the frame, thousands of them, with long poles held up above their heads and their arms raised, all facing away from the camera toward the great grey fortress with the round towers at the end of the street; smoke rises from the fortress's walls into the grey sky; the tall houses of the street run in on both sides toward the fortress; the poles stand up thick above the crowd; not one face in the crowd is turned to the camera and the fortress is the one thing they face",
+   "motion": "the crowd is the one thing that moves, and the fortress holds still: at the start the backs of the crowd stand with their poles and arms raised; over the whole five seconds the whole crowd surges slowly forward toward the fortress by a pace and the raised poles sway together, the raised arms lifting higher, the backs pressing together, no face turning round; the smoke from the fortress's walls rolls slowly up into the grey sky; the great grey fortress with its round towers and the tall houses on both sides hold completely still; the grey light stays even; the long poles above the crowd keep their thick upright lines as they sway; the raised arms do not lower; the tall houses' windows on both sides stay dark and no face appears at them; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "darnay",
+    "lucie",
+    "london_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "옛 하인의 편지를 받은 다네이가 홀로 파리로 떠난다",
+   "visual": "grey daylight through the window of the sitting room in the London house: the young man of twenty-five with the dark brown hair tied back and the firm mouth, in the fine dark green coat, is the one standing at frame left by the writing table with a letter held open in both hands, its written side turned toward himself and away from the camera so that only its plain back shows, his face bent to it and his brows drawn hard together; the young woman of eighteen with the golden hair pinned up and the gentle lovely face, in the off-white dress, is the one standing at frame right by the door with one hand on the door frame and her face turned to him, her lips parted; the fire glows in the grate at the back; the writing table holds an inkstand and a folded travelling cloak laid ready; the window shows the flat grey sky; there are exactly two people in the room and the letter shows only its blank back",
+   "motion": "the young man's letter is the one thing that moves, and the young woman holds still: at the start the letter is held open in both his hands with his face bent to it; over the first three seconds his hands lower the letter slowly to his waist, its plain back staying toward the camera, and his face lifts from it and turns slowly toward the folded travelling cloak on the table, his drawn brows not easing; in the last two seconds the letter holds at his waist and his eyes stay on the cloak; his feet do not shift; the young woman keeps her hand on the door frame and her parted lips turned to him, nothing in her moving; the fire keeps its glow; the inkstand, the folded cloak and the grey window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "darnay",
+    "cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "다네이가 붙들려 감옥에 갇히고 창살 사이로 손을 뻗는다",
+   "visual": "thin grey light from the one small barred window high in the stone wall of the prison cell: the young man of twenty-five with the dark brown hair come loose and the firm mouth, in the fine dark green coat gone dusty with the cravat gone, is the one standing at frame centre on the stool below the high window with one hand gripping a bar of the window and the other hand thrust out between the bars into the grey light outside as far as the elbow, the fingers spread open in the air beyond the wall, his face lifted to the window with his cheek against the bars; the straw lies on the floor at the bottom of the frame; the stone walls close in on both sides; the thin band of grey light lies down the wall from the window over his lifted face; there is exactly one person in the cell and his hand is the one thing outside the bars",
+   "motion": "the man's outstretched hand is the one thing that moves, and the cell holds still: at the start the hand is thrust out between the bars with the fingers spread in the air outside; over the first three seconds the spread fingers close slowly and open again, reaching a little further out into the grey light, his cheek pressing harder against the bars and his other hand's grip tightening; in the last two seconds the hand holds out with the fingers open; his feet do not shift on the stool; the thin band of grey light keeps its place down the wall; the straw on the floor and the stone walls hold completely still; the small barred window keeps its square of grey light and the bars keep their black lines across it; his loosened dark hair does not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "lucie",
+    "prison_wall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "루시가 날마다 감옥 담 밖 모퉁이에서 그 창을 올려다본다",
+   "visual": "flat grey daylight at the foot of the high grey prison wall with its small barred windows: the young woman of eighteen with the golden hair pinned up under a plain dark bonnet and the gentle lovely face pale, in the plain dark blue travelling dress with a dark shawl, is the one standing at frame right at the street corner beside the stone post with both her hands clasped before her and her face lifted to the small barred windows high in the wall, her lips pressed together; the high grey wall rises at frame left and frame centre to the top of the frame with its rows of small barred windows dark; the wood-sawyer's yard shows at the far left with a stack of cut logs and the big old two-man hand saw of dull iron with its wooden frame leaning idle against the log pile; the cobbles are wet; there is exactly one person in the street and her face is the one lifted to the windows; the street is plain wet cobbles running unbroken from wall to wall with no painted line on them, the kerb plain grey stone, and the tools in the yard are only the old iron hand saw and an axe of 1790, nothing else",
+   "motion": "the young woman's lifted face is the one thing that moves, and the wall holds still: at the start her face is lifted to the small barred windows with her hands clasped; over the first three seconds her eyes travel slowly along the row of dark windows from one to the next and stop on one, her clasped hands lifting slowly to her breast; in the last two seconds her face holds lifted to that one window and her hands hold at her breast; her feet do not shift beside the stone post; the rows of small barred windows stay dark and nothing shows in any of them; the wood-sawyer's yard with its stack of logs, the stone post and the wet cobbles hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "darnay",
+    "defarge_wife",
+    "manette_later",
+    "tribunal",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "재판에서 아버지의 옛 편지가 읽히고 다네이가 사형을 받는다",
+   "visual": "grey daylight in the crowded tribunal hall with the raised bench under its dark cloth: the young man of twenty-five with the dark brown hair come loose and the firm mouth, in the dusty dark green coat, is the one standing at frame centre at the rail for the accused with both his hands on the rail and his face lifted to the bench, his jaw set; the old man of sixty with the white hair combed and tied back and the hollow pale face gone grey, in the dark brown coat, is the one standing at frame left below the bench with both his hands pressed to his face and his shoulders bowed; the stout woman of forty with the dark hair under the coarse white cap and the watchful heavy face, in the coarse dark brown dress, is the one sitting at frame right on the front bench with her knitting in her hands and her heavy face turned to the accused with a small hard smile; on the raised bench a man in a dark coat holds up a folded sheet of paper with its plain back to the room; the crowd in coarse caps fills the benches behind; there are exactly three faces seen plainly and the woman with the knitting is the one smiling",
+   "motion": "the old man's pressed hands and the woman's needles are the two things that move, and the accused holds still: at the start the old man's hands are pressed to his face and the woman's needles are still in her hands; over the first three seconds the old man's hands slide slowly down his face to his mouth and his bowed shoulders sink lower, while the woman's needles begin to work slowly through one stitch and another, her hard smile not changing; in the last two seconds the old man's hands hold at his mouth and the needles keep working; the accused keeps his hands on the rail and his set jaw lifted to the bench, nothing in him moving; the man on the bench keeps the folded paper held up with its plain back to the room; the crowd on the benches holds still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "carton",
+    "prison_gate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "감옥 문 앞에 선 저 닮은 얼굴은 무엇을 하려는지 알 수 없다",
+   "visual": "black night with the dull yellow light of the lantern above the great iron-studded gate of the prison: the young man of twenty-five with the untidy dark brown hair, the straight nose and the firm mouth, with the pale careless face gone quiet and set, in the shabby black coat with the cravat now tied neat, is the one standing at frame centre on the wet cobbles before the small wicket in the gate with one hand raised to the wicket's iron knocker and a folded paper held in the other hand at his side, its plain back showing, his face lifted to the lantern's light and his grey eyes steady; the great gate rises above him studded with iron to the top of the frame; the lantern throws its light down on his untidy hair and the wet cobbles; the street behind him is dark and empty; there is exactly one person at the gate and his hand is on the knocker",
+   "motion": "the man's hand on the knocker is the one thing that moves, and the gate holds still: at the start his hand is raised to the wicket's iron knocker with his face lifted to the lantern; over the first three seconds the hand lifts the knocker slowly and lets it down once, and lifts it again and holds it raised, his steady grey eyes lowering slowly from the lantern to the wicket; in the last two seconds the knocker holds raised in his hand; his feet do not shift on the wet cobbles and the folded paper stays at his side with its plain back showing; the wicket does not open; the lantern keeps its steady dull yellow light; the great iron-studded gate and the dark empty street behind him hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 다락의 구두 틀과 반쯤 지은 구두 한 짝",
+   "visual": "thin grey light from the one small window of the garret with the sloping ceiling: the shoemaker's bench is the one thing at frame centre with its tools laid in a row and a single half-made shoe standing on it, its leather cut and its sole not yet stitched, a small awl lying beside it; the low stool stands empty before the bench; the small window at frame right gives its grey light on the bench and the bare boards; scraps of leather lie on the floor; the sloping ceiling comes down close; the half-made shoe on the bench is the one thing left unfinished",
+   "motion": "the grey light from the window is the one thing that moves, and the garret holds still: at the start the light lies even on the bench and the half-made shoe; over the whole five seconds the light brightens slowly as the sky outside clears a little and dims again, the shadow of the awl on the bench sharpening and softening with it; the half-made shoe, the row of tools and the awl keep their exact places; the empty stool does not move; the scraps of leather on the floor and the sloping ceiling hold completely still; no figure comes to the bench; the small window's square of grey light on the boards widens and narrows only with the changing light outside; the sloping ceiling's shadow keeps its slant; nothing stirs the scraps of leather on the floor and the empty stool stays empty; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

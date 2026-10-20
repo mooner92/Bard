@@ -1,61 +1,203 @@
 {
- "logline": "학교를 마치고도 갈 자리가 없는 남자가, 아들에게는 다른 길을 주려다 같은 문 앞에 선다.",
- "destination": "인쇄소 문 앞 — 그가 아들의 손을 놓게 되는 자리",
- "protagonist": "일자리를 구하지 못한 삼십 대 지식인",
- "setting": "1930년대 경성의 신문사 앞 거리와 하숙방, 인쇄소 골목",
- "anchor": "a thin man in a worn western suit and round glasses, frayed cuffs",
- "palette": "sooty grey, tram-line steel, weak winter sun, dull ochre brick",
+ "logline": "학교를 마치고도 갈 자리가 없는 남자가, 아들에게는 다른 길을 주려다 같은 문 앞에 선다",
+ "destination": "소설 레디메이드 인생에서 만날 수 있습니다",
+ "protagonist": "p",
+ "setting": "1930년대 경성의 신문사와 하숙집, 선술집과 인쇄소 골목",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/redimeideu_insaeng/assets",
+ "anchor": "a thin Korean man in round wire spectacles, a worn dark grey western suit and a battered felt hat",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark blue",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "양복 입은 남자가 아침부터 구두를 닦는다.",
-   "visual": "a thin man in a worn suit having his shoes brushed at a street stand, tram rails behind him",
-   "motion": "the brush works fast, a tram slides past behind, his hands stay folded"
+   "cast": [
+    "p",
+    "boarding_lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아침마다 헌 양복을 털어 입고 나서는 P",
+   "visual": "the narrow lane of the boarding house in flat dusty daylight: the thin man with the round wire spectacles is the one standing on the stone step before a sliding paper door at the center, his worn dark grey suit jacket held out at arm's length in his left hand while his right hand beats the dust from its frayed cuff, the battered grey felt hat set back on his neatly parted hair and the loosened dark tie hanging over his off-white shirt; the row of paper doors under the low tiled eave runs off to the left, laundry hangs on a line at the right and a strip of hazy grey sky shows above; both of his hands are on the jacket, the left gripping its collar and the right beating its cuff, and he wears only his waistcoat and shirt sleeves, the jacket still off his body",
+   "motion": "the thin man with the round wire spectacles standing on the stone step is the only one who moves: at the start his worn dark grey suit jacket is held out at arm's length in his left hand and his right hand is raised to beat it; over the first two seconds the right hand beats the jacket slowly twice more so that a little dust puffs from the cloth and drifts in the flat light, then both hands draw the jacket on over his shoulders in one continuous movement; in the last two seconds he settles the collar with both hands and his spectacles turn the grey light once as his head straightens; his feet stay on the stone step; the sliding paper doors along the lane, the laundry hanging under the eave and the dusty daylight hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그는 신문사 문을 나서며 헛기침을 한다.",
-   "visual": "a thin man stepping out of a brick office doorway onto a busy street, hand at his collar",
-   "motion": "the door falls shut behind him, his collar tugs, crowds stream past"
+   "cast": [
+    "p",
+    "publisher",
+    "newspaper_office",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "신문사 사장실에서 자리를 부탁하는 P",
+   "visual": "the newspaper publisher's office: the thin man in the worn grey suit is the one standing before the wide dark desk at frame left with his battered felt hat held in both hands at his waist, his spectacled face lowered a little and his shoulders drawn in; the plump publisher in the fine three-piece suit with the gold watch chain is the one leaning back in the leather swivel chair behind the desk at frame right with a cigarette between two thick fingers, his round smug face tilted up at the standing man; the dull yellow brass ashtray and the black telephone on the desk, the tall windows with half-drawn blinds and the wooden filing cabinets behind",
+   "motion": "the thin man in the worn grey suit standing before the wide dark desk is the one who moves, and the publisher only with his cigarette: at the start the man's battered felt hat is held in both hands at his waist and his spectacled face is lowered; over the first two seconds his hands turn the felt hat slowly once around by its brim while his lowered face lifts by a degree toward the publisher, his drawn-in shoulders not opening; in the last two seconds the hat stops turning and his face holds lifted; the plump publisher in the three-piece suit seated behind the desk raises his cigarette slowly to his lips and draws on it, a thread of smoke rising, nothing else of him moving; the wide dark desk, the brass ashtray, the window blinds and the glass-fronted cabinets hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "하숙비가 밀려 주인이 방문 앞에 선다.",
-   "visual": "an older woman standing in a narrow corridor outside a closed paper door, arms crossed",
-   "motion": "her foot taps the boards, the door stays shut, corridor light dims"
+   "cast": [
+    "publisher",
+    "p",
+    "newspaper_office",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "세상에 일자리가 어디 있냐며 웃는 사장",
+   "visual": "the newspaper publisher's office: the plump publisher in the three-piece suit is the one at frame right leaning far back in the leather chair with his round face split by a laugh, his thick hand with the cigarette waved wide in the air trailing smoke; the thin man in the worn grey suit is the one standing stiffly at frame left with his felt hat crushed in his hands and his spectacled face fixed in a dry half smile that does not reach his eyes; the wide dark desk with the brass ashtray between them, the tall windows and the plain wall clock without numerals behind the publisher",
+   "motion": "the plump publisher leaning back in the leather chair is the one who moves: at the start his thick hand with the cigarette is waved wide in the air trailing smoke and his round face is split by a laugh; over the first two seconds the waved hand swings slowly back down to the desk and taps ash from the cigarette into the brass ashtray while his laugh goes on and his belly shakes under the watch chain, the leather chair creaking back a degree; in the last two seconds his hand rests on the desk with the cigarette and his laugh eases to a grin; the thin man in the worn grey suit standing before the desk keeps his dry half smile fixed and does not move, his hat still in his hands; the desk, the tall windows, the wall clock and the cabinets hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "친구들과 술잔을 놓고 세상을 논한다.",
-   "visual": "three men leaning over a low table of small cups in a cramped tavern, smoke thick above them",
-   "motion": "cups clink and tip, smoke coils upward, one man's hand slaps the table"
+   "cast": [
+    "publisher",
+    "newspaper_office"
+   ],
+   "refs": [],
+   "beat": "시골 가서 농사나 지으시오 — 사장의 말",
+   "visual": "a close view across the wide dark desk: the plump publisher's round smug face fills the frame from the watch chain up, his slicked hair shining, his small satisfied eyes half closed and his mouth open in mid-speech with a curl of smoke rising from the cigarette held up beside his cheek between two thick ringed fingers; the brass ashtray and the black telephone are blurred in the foreground and the half-drawn blinds of the tall window fall out of focus behind him",
+   "motion": "only the plump publisher's face and the smoke move in this close view across the desk: at the start his mouth is open in mid-speech with the cigarette held up beside his cheek and his small satisfied eyes half closed; over the first two seconds his open mouth moves slowly through a few words and closes on the cigarette, his half-closed eyes narrowing further as he draws on it and the smoke thickening beside his cheek and curling up past his slicked hair; in the last two seconds his lips hold on the cigarette and the smoke rises in a steady thread; his slicked hair, his watch chain and his shoulders do not shift; the brass ashtray and the window blinds behind hold their blur; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "시골에서 아들이 올라온다는 기별이 온다.",
-   "visual": "a thin man standing still in a doorway holding a folded slip, station steam beyond the alley",
-   "motion": "his fingers close on the paper, steam drifts down the alley, his shoulders drop"
+   "cast": [
+    "landlady",
+    "p",
+    "boarding_lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "방세 받으러 온 하숙집 주인",
+   "visual": "the narrow lane of the boarding house: the stout landlady in the white jeogori and dark skirt with the apron is the one standing squarely on the stone step before the sliding paper door at frame right with her arms folded high on her chest and her chin lifted, her low bun tight; the thin man in the worn grey suit is the one coming down the lane toward her at frame left with his felt hat pulled low and his spectacled face turned down toward the ground, his frayed cuffs showing and his shoulders sagging; the row of paper doors under the tiled eave, the laundry line and the strip of grey sky",
+   "motion": "the thin man in the worn grey suit walking along the narrow lane is the only one who moves: at the start he is mid-step a few paces from the stone step with his head lowered and his felt hat in his hand; over the first two seconds he walks slowly forward along the lane toward the step with his head lowering further and his pace slackening at each step, his shoulders drawing in, the hat brim turning in his fingers; in the last two seconds he comes to a stop a pace short of the step with his eyes on the ground; the stout landlady in the white jeogori and dark skirt with the apron stands squarely on the stone step with her arms folded high and her chin lifted and does not move at all; the sliding paper doors, the hanging laundry and the eave hold completely still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그는 아홉 살 아들의 손을 잡고 거리를 걷는다.",
-   "visual": "a thin man walking a small boy by the hand along a wide grey street, shop awnings above",
-   "motion": "their joined hands swing once, the boy skips a step, dust lifts off the road"
+   "cast": [
+    "p",
+    "friends",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "친구들과 선술집에서 마시는 P",
+   "visual": "the standing tavern under the dim yellow hanging light: the thin man in the worn grey suit is the one at the center with both elbows on the long wooden counter and a wooden bowl of milky liquor raised in one hand, his spectacles pushed up onto his forehead and his narrow face flushed with a bitter grin, his other hand chopping the air in argument; the two thin friends in worn suits are the ones at either side of him, the moustached one at the left nodding with his own bowl and the long-chinned one at the right leaning on the counter with his tie undone; brass kettles, wooden bowls and the shelves of dark earthen jars behind the counter; the tavern walls are bare dark planks with the earthen jars on their shelf and nothing hung on them; each man's drink is a plain wooden bowl of milky liquor",
+   "motion": "the thin man at the tavern counter is the one who moves: at the start his right hand is raised above the counter in a chopping gesture and the wooden bowl of milky liquor is raised in his left hand with his spectacles pushed up on his forehead; over the first two seconds the chopping hand comes slowly down flat on the counter and stays there while the raised bowl tips to his lips and he drinks, his narrow face lifting with the bowl; in the last two seconds the bowl lowers to the counter and his flat hand does not lift; the moustached friend beside him keeps nodding slowly and then his nodding head slows to a stop, his own bowl in his hand; the brass kettles, the earthen jars, the long wooden counter and the dim yellow hanging light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그는 아들을 그 안으로 들여보낼까?",
-   "visual": "a small boy's shoulder framed in a workshop doorway, a man's hand hovering behind him, dark interior",
-   "motion": "the hand hovers and withdraws, machinery shudders inside, light narrows"
+   "cast": [
+    "friends",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "다들 학교만 나온 실업자인 친구들",
+   "visual": "the long wooden counter of the tavern: the long-chinned friend in the worn suit is the one slumped forward at frame left with his cheek flat on the counter beside an empty wooden bowl and his tousled hair fallen over his closed eyes, one arm hanging; the moustached friend is the one seated upright at frame right staring down into his own bowl held in both hands, his slicked hair coming loose and his loosened tie pooled on the counter; the dim yellow hanging light throws their shadows on the plank wall and the brass kettles and dark jars stand behind the counter; the tavern walls are bare dark planks with the earthen jars on their shelf and nothing hung on them; each man's drink is a plain wooden bowl of milky liquor",
+   "motion": "the moustached friend at the tavern counter is the one who moves, and only his hands: at the start his hands hold the wooden bowl on the counter and his stare is fixed on the liquor inside; over the first two seconds his hands turn the bowl slowly once around on the counter without lifting it, his stare never leaving the milky liquor, his moustache not twitching; in the last two seconds his hands rest on the bowl; the long-chinned friend slumped forward with his cheek flat on the counter and his tousled hair over his closed eyes does not stir except that his hanging arm sways once and stills; the empty bowl beside his head does not move; the brass kettles, the earthen jars, the counter and the dim yellow hanging light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "인쇄소 문이 닫히고 거리에 먼지가 인다.",
-   "visual": "a workshop door swinging shut on a grey street, dust lifting in the road, tram rails empty",
-   "motion": "the door closes, dust rolls down the street, a tram wire hums",
-   "anchor": false
+   "cast": [
+    "p",
+    "letter",
+    "boarding_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아홉 살 아들을 올려 보낸다는 편지",
+   "visual": "the small rented room in grey light from the paper window: the thin man in shirt sleeves and the worn grey waistcoat is the one seated cross-legged on the floor at the center holding the folded sheet of coarse brown paper open in both hands with its written face turned away from the camera, his spectacled face bent close to it and his brows drawn together; the low desk piled with books stands at frame right, the folded quilt lies against the wall behind him and the worn suit jacket hangs from the coat hook at the left; the paper sliding door is closed; the window panes show only hazy grey sky and the edge of one low tiled roof; the door is bare pale wood with nothing pinned to it",
+   "motion": "the thin man in shirt sleeves and the worn grey waistcoat seated cross-legged on the floor is the only one who moves: at the start the folded sheet of coarse brown paper is held open in both hands before his bent head with its written face turned away from the camera; over the first two seconds his hands slowly lower the letter to his lap and his bent head lifts to stare at the pale paper window, his drawn brows staying drawn and his spectacles catching the grey light; in the last two seconds he sits still with the letter in his lap and his eyes on the window; the low desk, the stacked books, the folded quilt and the worn suit jacket hanging on its nail hold completely still; the paper window does not brighten; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "son",
+    "p",
+    "station",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "정거장에서 만난 아들",
+   "visual": "the railway platform under the iron and glass canopy: the small boy in the rumpled cotton jacket and short trousers is the one standing at the lower center with the cloth bundle on his back and his round sun-browned face tipped far back, his big serious eyes fixed upward; the thin man in the worn grey suit is the one standing over him at frame right with his felt hat in one hand and his other hand half raised toward the boy's shoulder, his spectacled face looking down with the dry half smile; behind them the black steam locomotive and the dark green carriage stand at the platform with steam drifting, and two travellers with bundles pass at the left",
+   "motion": "the thin man's half-raised hand and the drifting steam are what move on this platform: at the start the man's hand is half raised above the small boy's shoulder and the boy's round face is tipped far back with his big serious eyes on the man's frayed cuff; over the first two seconds the half-raised hand settles slowly on the boy's shoulder and rests there, the frayed cuff sliding back on his wrist, while the boy's tipped-back face stays fixed on the cuff and the cloth bundle on his back does not shift; in the last two seconds the hand rests and the man's spectacled face lowers a degree toward the boy; the steam behind them drifts slowly along the side of the dark carriage; the locomotive, the iron and glass canopy and the platform hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "p",
+    "son",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아들의 손을 잡고 먼지 이는 거리를 걷는 P",
+   "visual": "the dusty Seoul street with tram rails and overhead wires: the thin man in the worn grey suit and felt hat is the one walking away from the camera at the center with the back of his head held straight ahead, and the small boy with the cloth bundle on his back is the one walking at his right side holding his hand, the top of his cropped head reaching the man's hip; the low tile-roofed houses with closed plain wooden shutters and bare plaster walls run along the left, the two-storey western brick building rises at the right and a telegraph pole stands ahead; dust hangs pale in the flat light and a passer-by in hanbok crosses far ahead",
+   "motion": "the thin man in the worn grey suit and felt hat and the small boy with the cloth bundle walking away hand in hand are the only things that move: at the start they are mid-step at the center of the dusty street with their backs to the camera and their heads held straight ahead; over the first three seconds they walk slowly away along the street, the boy's shorter steps hurrying to keep pace with the man's long ones, the bundle bobbing on the boy's back and a little dust lifting at their feet and settling behind them, neither head turning; the tram rails, the overhead wires, the low shop houses with their shutters, the tall western building and the telegraph pole hold completely still; no trams, no new figures and no animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift; in the last two seconds the walking figure comes to a stop well inside the frame and stands still"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "p",
+    "son",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "학교에 보내 봐야 제 꼴이 될 뿐이라는 생각",
+   "visual": "a close view on the dusty street: the thin man's narrow face fills the left half of the frame in profile under the battered felt hat, his jaw set hard and the round wire spectacles reflecting the pale sky so that his eyes cannot be seen, his loosened tie and frayed collar below; at the lower right the top of the small boy's cropped head and one big serious eye look up at him from the height of his elbow; behind them the plain wooden shutters of a house and the tram wires blur in the flat light; the man's face is clean-shaven with a smooth bare upper lip and chin, the same thin clean-shaven face as in every other cut",
+   "motion": "only the thin man's jaw and spectacles move in this close view on the dusty street: at the start his narrow face is in profile under the battered felt hat with his jaw set hard and the round wire spectacles reflecting the pale sky; over the first two seconds his set jaw tightens slowly further so that the muscle stands out beside his ear, and the reflecting spectacles tilt down by a degree toward the boy without his face turning, the pale reflection sliding across the lenses; in the last two seconds his face holds tilted and rigid; the small boy's upturned eye at the lower edge of the frame stays fixed on him and his cropped head does not move; the loosened tie and frayed collar do not stir; the shutters and the wires behind hold their blur; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "p",
+    "son",
+    "print_shop",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "인쇄소 문 앞에 멈춰 선 P와 아들",
+   "visual": "the open doorway of the small printing works: the thin man in the worn grey suit is the one standing stopped at the threshold at frame left with the boy's hand still in his and his spectacled face turned toward the dim interior, his felt hat in his other hand; the small boy with the cloth bundle is the one standing close against his leg at the center looking into the trading house with his big serious eyes; inside the doorway the black iron hand press and the wooden cases of metal type stand in the dim light with ink-stained rags on the low beam; the dusty street and the tram wires behind them",
+   "motion": "only the thin man's hand holding the boy's hand moves in this doorway: at the start his fingers are closed around the boy's small hand and his spectacled face is turned toward the dim interior with his felt hat in his other hand; over the first two seconds the grip loosens slowly finger by finger without letting go, his face staying turned toward the black iron press inside, his shoulders not moving; in the last two seconds the loosened hand holds the boy's fingers only lightly; the small boy with the cloth bundle stands with his eyes fixed on the same dark interior and does not step or turn; the black iron hand press, the wooden type cases inside and the dusty street behind them hold completely still; no new figures appear; camera drifting very slowly forward toward the doorway, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "print_master",
+    "son",
+    "p",
+    "print_shop"
+   ],
+   "refs": [],
+   "beat": "아홉 살짜리를 견습공으로 받아 주겠다는 인쇄소 주인",
+   "visual": "inside the dim printing works doorway: the stocky print master in the black cloth apron is the one at frame right wiping his ink-stained hands on a rag with his grey cap pushed back, his eyes down on the boy and his head nodding once; the small boy with the cloth bundle is the one standing at the center looking up at him with his big serious eyes and his small hands at his sides; the thin man in the worn grey suit is the one standing behind the boy at frame left with his felt hat held at his chest and his spectacled face fixed on the print master; the black iron hand press and the type cases behind, ink-stained rags on the beam",
+   "motion": "the stocky print master in the black cloth apron is the one who moves, and only his head and one hand: at the start his ink-stained hands are wiping on a rag with his grey cap pushed back and his head nodding once down at the boy; over the first two seconds the nodding head comes slowly to rest and his right ink-stained hand leaves the rag, reaches down and settles on the small boy's cropped head, resting there; in the last two seconds the hand stays on the boy's head and the master's eyes stay down on him; the small boy with the cloth bundle stays still under the hand with his eyes lowered; the thin man in the worn grey suit presses his felt hat slowly closer to his chest, nothing else of him moving; the black iron hand press, the wooden type cases and the hanging ink rags hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "son",
+    "p",
+    "print_shop",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "인쇄소 안으로 들어가는 아들의 뒷모습",
+   "visual": "the printing works doorway seen from the street: the small boy with the cloth bundle on his back is the one walking away into the dim interior at the center with the back of his cropped head held straight ahead, his small figure passing between the black iron hand press and the wooden type cases toward the low-beamed dark at the rear; the thin man in the worn grey suit is the one standing on the threshold at frame left with his right hand still half raised at the height of the boy's vanished shoulder and his felt hat hanging in his left, his spectacled face unreadable; the dusty street and the tram wires behind him",
+   "motion": "the small boy with the cloth bundle walking away into the dim printing works is the one who moves, and the thin man only with one hand: at the start the boy is just inside the doorway between the black iron hand press and the wooden type cases with the back of his cropped head held straight ahead; over the first two seconds he walks slowly deeper into the dim house with his head held straight, his small figure darkening as he goes until only the cloth bundle on his back still takes the light from the street; in the last two seconds the boy is a small dim shape at the back; on the threshold the thin man's half-raised hand lowers slowly and hangs at his side, his spectacled face not turning away; the press, the type cases, the low beam and the dusty street hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "print_shop",
+    "street",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 저녁의 빈 거리",
+   "visual": "the street corner at dusk, empty of every person: the open doorway of the small printing works stands dark at frame right with the shape of the black iron hand press just visible inside and an ink-stained rag hanging from the low beam, the tram rails run away along the dusty street under the overhead wires and the low tile-roofed houses with their plain shutters closed stand along the left; a dull grey-blue dusk sky over the roofs with two dull yellow window lights far down the street",
+   "motion": "nothing living moves on this empty street corner at dusk; only the light: at the start the open doorway of the small printing works stands dark with the shape of the black iron hand press just visible inside and the ink-stained rag hanging from the low beam; over the whole shot the dusk light deepens slowly over the street so that the dark doorway grows darker and the two far window lights along the street grow a little brighter, their glow spreading on the dust; the tram rails, the overhead wires, the closed shutters of the shop houses, the hanging rag and the telegraph pole hold perfectly still; no trams, no figures, no animals and no new objects appear at any point; camera drifting very slowly backward, no zoom"
   }
  ],
- "withheld": "아들을 맡기고 돌아서며 스스로를 비웃는 마지막 대목",
- "voice": "ko-KR-HyunsuMultilingualNeural"
+ "withheld": "아들을 맡기고 돌아서며 팔렸다고 자조하는 마지막"
 }

@@ -1,0 +1,173 @@
+{
+ "logline": "모든 얼굴이 낯설게 보이는 산골의 고등학생과 사라진 단 하나의 얼굴 — 외계인을 믿는 교단 녹색 절벽",
+ "destination": "소설 녹색 절벽의 신자들에서 만날 수 있습니다",
+ "protagonist": "silhouette",
+ "setting": "외딴 산골 마을과 학교, 꿈속의 녹색 절벽, 산중의 교단, 1970년대 보령의 운동장",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/noksaek_jeolbyeok/assets",
+ "anchor": "a slim teenager in a loose grey school tracksuit seen as a dark backlit silhouette",
+ "palette": "deep green, off-white, cool grey, pale gold, deep blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "두 세계를 잇는 반전, 실종의 경위, 그 속내",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "students"
+   ],
+   "refs": [],
+   "beat": "사고 뒤로 낯설게 보이는 사람들의 얼굴",
+   "visual": "a crowded high school corridor in the village school at the end of the day, seen from the height of a student standing in the middle of it: Korean high school students in navy school uniforms and grey tracksuits stream past on both sides, laughing, talking, carrying bags, and every single face is smeared into a soft blank blur of skin colour, featureless and rubbed smooth, while their hair, clothes and gestures stay sharp and ordinary; the corridor windows on the left let in warm late sunlight that stripes the floor; lockers and notice boards with blank sheets line the right wall; a pair of indoor slippers lies kicked off by a doorway; the scene is bright, busy and quietly horrifying, a school full of people who all look like strangers; at the far end of the corridor a tall window blazes with light and a single teacher's desk stands by the door, and the floor is polished to a soft shine that doubles the blurred crowd",
+   "motion": "the students stream steadily past on both sides with their blurred faces, and that flow of passing students is the one movement in the shot: at the start they walk toward and past the camera in two loose streams; over the whole five seconds they keep flowing by at an ordinary pace, bags swinging, arms gesturing, hair bouncing, their smeared blank faces turning toward each other in conversation and never coming into focus, the warm stripes of sunlight sliding across their shoulders as they pass; the lockers, the blank notice boards, the windows and the kicked-off slippers stay completely still; the tall bright window at the end of the corridor and the teacher's desk by the door stay still; the camera holds its place in the middle of the corridor at a student's eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "students",
+    "silhouette"
+   ],
+   "refs": [],
+   "beat": "단 한 사람, 옆집 친구 제언의 얼굴만 또렷한",
+   "visual": "the same school corridor, the crowd thinning: in the middle distance at frame centre stands the slim teenager in a loose grey school tracksuit with short hair, turned toward the camera against the bright window at the end of the corridor, so the figure is a dark silhouette with a softly glowing outline, the only person in the corridor standing still; around the figure, students in navy uniforms pass by with their faces smeared into soft blank blurs; warm late sunlight blazes through the end window behind the silhouette and spills along the polished floor toward the camera; one hand of the silhouette is lifted in a small wave; dust drifts in the bright light; the image is warm and strange, one steady familiar presence in a corridor of blurred strangers; a row of shoe lockers stands along one wall, each small door closed, and a forgotten umbrella leans against the last one",
+   "motion": "the silhouette at the end of the corridor lifts its hand higher in a slow wave, and that wave is the one movement in the shot: at the start its hand is raised a little at its side; over the whole five seconds the hand rises slowly to shoulder height and moves gently from side to side in an unhurried wave, the glowing outline of the figure shimmering faintly in the bright backlight, while the dust drifts slowly through the light around it; the few passing students with blurred faces walk on at the edges of the frame; the polished floor, the end window and the lockers stay completely still; the row of shoe lockers and the forgotten umbrella stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot down the corridor, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "지루할 만큼 평화로운 외딴 산골 마을",
+   "visual": "a remote mountain village in a green valley on a calm summer afternoon, seen from a hillside path above it, empty of people: a few old houses with grey tiled roofs sit scattered among terraced fields of bright green rice and vegetables; a narrow river winds through the valley floor, catching the sun; steep forested mountains close the valley in on every side, their ridges soft with haze; a single road threads out of the valley and vanishes around a bend; laundry hangs motionless on a line in one yard; a dog sleeps in the shade of a persimmon tree; the sky is a flat, cloudless pale blue; everything is peaceful, green and perfectly still, a place where nothing has happened for a very long time; a small stone bridge crosses the river near the village centre, and a thin line of smoke rises straight up from one chimney into the still air",
+   "motion": "the rice in the terraced fields ripples softly in a faint breeze, and that rippling is the one movement in the shot: at the start the green rice stands almost still; over the whole five seconds a faint breeze passes down the valley and the rice in the terraces bends and ripples in slow soft waves from left to right, silver-green where the light glints on the leaves, and settles again; the old tiled houses, the laundry on its line, the sleeping dog under the persimmon tree, the narrow river and the forested mountains stay completely still; the flat pale sky holds unchanged; the small stone bridge stays still and the thin line of chimney smoke rises straight and slow; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot over the valley from the hillside path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "silhouette",
+    "village"
+   ],
+   "refs": [],
+   "beat": "그 평화가 어쩐지 답답하기만 한 오연",
+   "visual": "late afternoon on a grassy ridge above the mountain village: a single small figure sits alone on the ridge at frame centre, far from the camera, hugging its knees, seen from behind, a slim teenager in a loose grey school tracksuit, tiny against the landscape, the back of its head to camera, looking out over the valley; below and beyond it the old tiled roofs of the village, the terraced fields and the narrow river lie small and neat in the green valley; steep forested mountains stand all around, walling the valley in; the long shadows of evening stretch across the ridge; the light is golden and still; the figure is so small and the mountains so large that the peaceful valley reads as a place with no way out; a single old pine tree leans over the ridge beside the figure, and a narrow dirt path runs down from the ridge toward the village",
+   "motion": "long evening shadows slowly stretch across the valley below the small figure, and those lengthening shadows are the one movement in the shot: at the start the shadows of the western mountains reach halfway across the valley floor; over the whole five seconds they creep steadily further across the terraced fields and the village roofs, the golden light withdrawing up the eastern slopes, while the small figure on the ridge sits perfectly still hugging its knees with the back of its head to camera; the village houses, the fields, the river and the mountains themselves stay completely still; the leaning pine and the dirt path down the ridge stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds the wide shot from behind the ridge, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "green_cliff"
+   ],
+   "refs": [],
+   "beat": "새 교생 주연이 온 뒤로 되풀이되는 악몽",
+   "visual": "a nightmare: a sheer towering cliff face covered in bright green moss and ferns rises out of a dark sea, filling the frame from bottom to top, lit by a strange flat greenish light from nowhere; thick pale fog rolls over the narrow grassy edge at its top; far down at its foot the dark water heaves slowly, flecked with white; the green of the moss is unnaturally vivid, almost glowing; a few tiny pale birds wheel far out in the fog; there is no horizon, only fog beyond the sea; the image is dreamlike and wrong, too green, too quiet, too high, the kind of place that pulls at anyone who looks at it; the rock at the foot of the cliff is black and wet, and a band of paler green lichen runs across the cliff face halfway up",
+   "motion": "thick pale fog rolls slowly over the top edge of the green cliff and spills down its face, and that rolling fog is the one movement in the shot: at the start the fog lies along the narrow grassy edge at the top; over the whole five seconds it pours slowly over the edge and slides down the mossy cliff face in long pale veils, the vivid green glowing through where the fog thins, while the dark water far below heaves slowly against the foot of the cliff; the tiny pale birds far out in the fog hang in place; the cliff face itself, its moss and ferns stay completely still; the black wet rock at the foot of the cliff and the band of pale lichen stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide low shot up the cliff from the sea, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "green_cliff"
+   ],
+   "refs": [],
+   "beat": "꿈속마다 나타나는 녹색 절벽",
+   "visual": "the edge of the green cliff seen from the narrow grassy top, looking out and down: in the foreground the grass at the very edge bends toward the open air, and a few small white wildflowers grow at the lip; beyond the edge the sheer cliff face covered in bright green moss and ferns falls away out of sight toward the dark sea far below, where white foam laces the rocks; thick pale fog drifts across the open air beyond the edge; the flat greenish light makes everything look painted; there is no one on the cliff, only the grass, the flowers and the drop; the scene is silent and beckoning, beautiful and dreadful, the place the dreams always return to; a single small stone sits at the lip beside the flowers, and far below a line of white foam traces the base of the rocks",
+   "motion": "the grass and the small white flowers at the lip of the cliff bend and tremble in a wind blowing over the edge, and that trembling is the one movement in the shot: at the start the grass leans gently toward the edge; over the whole five seconds a steady wind blows out over the edge and the grass bends further toward the edge and springs back, the small white flowers nodding and shivering on their stems, while the pale fog beyond the edge drifts slowly to the right; the cliff face below, its moss and ferns and the white foam far down on the rocks stay completely still; the small stone at the lip and the line of foam far below stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a low shot from the grassy top toward the edge, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "silhouette",
+    "road"
+   ],
+   "refs": [],
+   "beat": "주연을 두고 다툰 날 — 교생의 차와 혼자 걷는 제언",
+   "visual": "dusk on the narrow country road winding through the valley: in the middle distance a small white car drives away from the camera down the road, its tail lights glowing, a thin trail of dust behind it; far behind the car, on the gravel verge, a single small figure walks slowly away alone in the same direction, a slim teenager in a loose grey school tracksuit with short hair, seen from behind and very small, head down, a school bag on one shoulder; the line of wooden telephone poles marches along the road into the distance; rice fields on both sides are turning blue-grey in the fading light; forested mountains stand dark against a sky of fading orange and violet; the scene is quiet and sad, two people going home separately for the last time; a small roadside shrine of stacked stones stands on the verge near the camera, and the first stars show faintly above the mountains",
+   "motion": "the small white car drives on down the road away from the camera, and its driving is the one movement in the shot: at the start the car is in the middle distance; over the whole five seconds it drives steadily away along the winding road, growing smaller, its tail lights glowing brighter as the dusk deepens, until it rounds the far bend and its lights vanish behind the fields, while the small figure on the verge keeps walking slowly in the same direction with the back of its head to camera; the telephone poles, the rice fields and the dark mountains stay completely still; the fading sky holds unchanged; the small stone shrine on the verge stays still and the first faint stars hold their places; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds the wide shot down the road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "house_next",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그날 밤 사라진 제언",
+   "visual": "night in the village, the small old two-storey house next door seen from across the lane, empty of people: the iron gate in the low stone wall stands wide open; a bicycle leans on the wall beside it, its front wheel turned; the upstairs window is lit a warm yellow, its curtain half drawn, and inside the edge of an empty desk chair shows; the front door below stands slightly ajar onto darkness; a school bag lies dropped on the path inside the gate; above the tiled roof the deep blue night sky is scattered with stars; the lane is silent; crickets would be the only sound; the house looks as though someone has just stepped out and should be back any moment, and never will be; a small potted plant sits on the upstairs window sill, and a pair of sneakers lies kicked off by the front step",
+   "motion": "the half-drawn curtain in the lit upstairs window stirs slowly in a draught, and that stirring curtain is the one movement in the shot: at the start the curtain hangs still, half drawn across the warm yellow window; over the whole five seconds it swells slowly outward through the open window, lifts a little in the night air, and sinks back, the warm light shifting across the empty desk chair inside, while the stars above the roof glimmer faintly; the open iron gate, the leaning bicycle, the dropped school bag, the ajar front door and the stone wall stay completely still; the potted plant on the sill and the kicked-off sneakers by the step stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot of the house from across the lane, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "green_cliff"
+   ],
+   "refs": [],
+   "beat": "사라진 제언, 그리고 또 하나의 녹색 절벽",
+   "visual": "a still dark pool of seawater among the rocks at the foot of the green cliff, empty of people: the surface of the pool is perfectly smooth and holds an exact upside-down reflection of the sheer cliff face covered in bright green moss and ferns and the pale sky above it, so that the real cliff rises at the top of the frame and its inverted twin plunges into the pool below; dark wet rocks ring the pool, strands of seaweed on them; a thin mist lies over the water; the dividing line between the real cliff and its reflection runs across the middle of the frame and it is hard to say which is which; the light is soft and grey-green; the image is calm, symmetrical and disorienting; small crabs sit motionless on the wet rocks at the edge of the pool, and a few drops of water hang from the lip of a rock above the surface",
+   "motion": "a single slow ripple spreads across the dark pool and bends the upside-down reflection of the cliff, and that ripple is the one movement in the shot: at the start the pool lies perfectly smooth with its exact reflection; over the whole five seconds a single bead of water from the rocks above touches the surface and one slow ring spreads outward across the pool, wobbling and bending the inverted green cliff and the pale sky in it, then the surface settles smooth again and the reflection returns whole; the real cliff at the top of the frame, the dark wet rocks and the seaweed stay completely still; the small crabs on the wet rocks stay motionless and the hanging beads of water wait at the lip of the rock; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the pool, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "compound",
+    "believers",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "녹색 절벽 교단의 목소리 — 함께 갑시다, 행복한 곳으로",
+   "visual": "night in a remote hillside compound of plain white single-storey buildings around a gravel yard: a quiet crowd of people of all ages in plain pale green robes stands close together in the middle of the yard, seen from behind, the backs of their heads to camera, all of them looking up at the deep blue night sky scattered with stars above the pine trees; a few of them hold small candles in paper cups, the flames lighting the edges of their robes; the white buildings glow faintly in the candlelight; a long wooden bench stands empty against one wall; the pine trees are black against the sky; the scene is hushed and devout, a gathering of believers waiting for something to arrive from above; a single loudspeaker on a wooden pole stands at the edge of the yard, silent, and the gravel is raked in neat lines",
+   "motion": "the small candle flames in the believers' paper cups flicker in the night air while the crowd stands looking up, and that flickering is the one movement in the shot: at the start the flames burn small and steady; over the whole five seconds they waver and lean in a faint breeze, their warm light trembling over the edges of the pale green robes and the white walls, while the whole crowd stands perfectly still with the backs of their heads to camera and their faces turned up to the stars the whole time; the white buildings, the empty bench, the gravel yard and the black pine trees stay completely still; the starry sky holds unchanged; the silent loudspeaker on its pole and the raked lines in the gravel stay still; the camera holds a medium wide shot from behind the crowd, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "compound",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "외계인이 세상을 멸망시킨다고 믿는 교단, 녹색 절벽",
+   "visual": "the same remote hillside compound at night, empty of people now: the plain white single-storey buildings stand around the gravel yard, and on the long wall of the largest building someone has painted a huge simple green circle, a flat disc with a thin halo around it, glowing faintly in the moonlight; small paper cups with burnt-out candles stand in a neat ring on the gravel below it; the long wooden bench stands empty; the pine trees behind are black; above, the deep blue night sky is scattered with stars and one of them seems a little too bright; the compound is silent and orderly, a place built around a single terrible hope; a line of plain pale green robes hangs drying on a rope between two buildings, and the gravel is raked in neat curved lines",
+   "motion": "the one star that seems a little too bright pulses slowly above the pine trees, and that pulsing light is the one movement in the shot: at the start the bright star shines steadily among the others; over the whole five seconds it swells slowly brighter and dims again twice, its faint pale light washing over the painted green circle on the wall, while the other stars glimmer normally; the white buildings, the painted green circle, the ring of burnt-out candles on the gravel, the empty bench and the black pine trees stay completely still; the pale green robes drying on the rope stir only faintly and settle, and the raked lines in the gravel stay unbroken; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the compound yard, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "green_cliff"
+   ],
+   "refs": [],
+   "beat": "교리 — 절벽이 가장 행복한 곳으로 보내 준다",
+   "visual": "dawn at the top of the green cliff, empty of people: along the narrow grassy edge runs a low rope strung between short wooden stakes, and tied to the rope hang dozens of thin strips of pale green cloth, fluttering; beyond the rope the sheer cliff face covered in bright green moss and ferns drops away to the dark sea; the first pale gold light of dawn breaks through the fog far out over the water and turns the fog soft and luminous; the grass is wet with dew; the scene is serene and beautiful, and the fluttering strips of green cloth at the very edge make it unbearable, a place promised as the happiest in the world; a few small white wildflowers grow in the grass at the foot of the stakes, and a single pale seabird sits on the farthest stake",
+   "motion": "the thin strips of pale green cloth tied to the rope flutter in the dawn wind, and that fluttering is the one movement in the shot: at the start the strips hang loosely from the rope along the edge; over the whole five seconds the wind off the sea lifts them and they stream and flutter out inland, rippling one after another along the rope, and sink back a little, while the pale gold dawn light spreads slowly through the fog beyond the edge; the rope, the wooden stakes, the dewy grass, the green cliff face and the dark sea below stay completely still; the small white wildflowers at the foot of the stakes and the seabird on the farthest stake stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot along the edge, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "playground",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "작가가 떠올린 1970년대 보령의 UFO 목격담",
+   "visual": "night over an old rural primary school playground in the nineteen-seventies, empty of people: the bare dirt field stretches toward a low brick school building with dark windows; a row of tall poplar trees stands black along one side; a rusted iron climbing frame stands in the foreground; high above the field, in the deep blue night sky scattered with stars, hangs a single round pale light, silent and far too steady, lighting the dirt of the field below with a faint cold glow; the long shadows of the climbing frame and the poplars stretch across the field away from the light; the scene is quiet and eerie, a memory told for decades by people who swear they saw it; a small tin water tap stands at the edge of the field, and a child's lost shoe lies in the dirt near the climbing frame",
+   "motion": "the round pale light hanging over the playground slowly drifts sideways across the night sky, and that drifting light is the one movement in the shot: at the start it hangs still high above the field; over the whole five seconds it glides slowly and silently to the right across the stars, and the faint cold glow on the dirt field slides with it, the long shadows of the climbing frame and the poplar trees swinging slowly across the ground in the opposite direction; the brick school building, the rusted climbing frame, the poplar trees themselves and the stars stay completely still; the tin water tap and the child's lost shoe in the dirt stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide low shot across the playground, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "green_cliff"
+   ],
+   "refs": [],
+   "beat": "당신이 굳게 믿는 것은 정말 진실인가",
+   "visual": "thick pale fog on the top of the green cliff at first light, seen from low among the grass, empty of people: the fog is so dense that only a few steps of the narrow grassy edge show ahead, and beyond them the fog glows with a faint green light rising from somewhere below the edge; a worn footpath through the wet grass leads straight toward the glow and vanishes into it; a few small white wildflowers stand beside the path; the air is utterly still; the scene is quiet, tempting and uncertain, a path that leads toward a light nobody can see the source of; a single wooden stake of an old fence leans at the side of the path, and dew beads silver on every blade of grass; the fog is thick enough that the sky cannot be told from the sea",
+   "motion": "the faint green glow in the fog ahead pulses slowly brighter and dimmer, and that pulsing glow is the one movement in the shot: at the start the fog beyond the edge glows softly green; over the whole five seconds the glow swells slowly brighter, lighting the wet grass and the worn footpath a little more, and fades back again, the fog itself drifting very slightly toward the camera, while the small white wildflowers beside the path stay still; the grassy edge, the footpath and the wet grass stay completely still; the leaning fence stake and the silver dew on the grass stay still, and the path ahead keeps vanishing into the same glowing fog; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a low shot along the footpath toward the glow, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "green_cliff"
+   ],
+   "refs": [],
+   "beat": "마무리 — 녹색 절벽 위의 새벽",
+   "visual": "a quiet closing still of the green cliff at full dawn, seen from far out over the sea, empty of people: the sheer towering cliff face covered in bright green moss and ferns rises from the dark sea at frame centre, its top wreathed in thinning pale fog now turning gold with the sunrise; the sea at its foot is calm, laced with slow white foam around the rocks; seabirds sit as small pale dots along a ledge halfway up the face; the sky above is washed pale gold and blue; the whole scene is still, vast and beautiful, the green cliff standing silent over the water; a thin line of white foam traces the base of the cliff, and a single fishing boat sits far out on the calm sea, very small, its wake a faint pale thread on the water",
+   "motion": "the thinning fog around the top of the cliff turns slowly golden and drifts away in the sunrise, and that drifting fog is the one movement in the shot: at the start the fog wreathes the top of the cliff in pale veils; over the whole five seconds the rising sun turns it gold and it drifts slowly off to the left and thins, revealing more of the green grassy edge at the top, while the slow white foam around the rocks at the foot barely moves; the cliff face, its moss and ferns, the seabirds on the ledge and the calm sea stay completely still; the thin line of white foam and the tiny fishing boat far out stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds the wide still shot from out over the sea, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

@@ -1,61 +1,198 @@
 {
- "logline": "시골에서 올라온 젊은이가 하루 만에 세 사람과 결투를 약속하고, 그 셋과 한편이 된다.",
- "destination": "왕비의 목걸이가 걸린 영국행 — 넷이 함께 달려야 하는 길",
- "protagonist": "낡은 가죽조끼에 깃털 모자를 쓴 열여덟 시골 청년",
- "setting": "17세기 파리, 골목과 수도원 뒤뜰과 왕궁",
- "anchor": "an eighteen-year-old lean youth with a feathered hat, worn leather jerkin and high boots",
- "palette": "Paris slate grey, candle amber, wine red, steel glint",
- "voice": "ko-KR-InJoonNeural",
+ "logline": "시골에서 파리로 올라온 달타냥이 세 총사와 부딪혔다가 한편이 되고, 왕비가 맡긴 다이아몬드 장식을 찾으러 넷이 밤길을 달려 런던으로 가지만 셋은 길에서 뒤처지고, 되찾은 장식에서 둘이 잘려 나간 것을 본다",
+ "destination": "소설 삼총사에서 만날 수 있습니다",
+ "protagonist": "dartagnan",
+ "setting": "1620년대 파리와 런던 — 좁은 돌집 거리, 총사대장의 방, 수녀원 뒤뜰, 궁정의 큰 홀, 포플러 늘어선 밤길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/samchongsa/assets",
+ "anchor": "a young man of eighteen in a worn grey doublet with a long sword at his hip in 1620s Paris",
+ "palette": "ash grey, dark blue, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "무도회장에서 어깨에 달려 있던 개수와, 그것을 셈한 이가 맞닥뜨린 낭패",
  "beats": [
   {
    "n": 1,
-   "beat": "청년이 여윈 말을 끌고 파리 골목에 들어선다.",
-   "visual": "a young man leading a bony yellow horse into a crowded narrow Paris street, shutters above",
-   "motion": "he leads the horse forward down the street, laundry flaps overhead, crowds part"
+   "cast": [
+    "dartagnan",
+    "paris_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "시골에서 올라온 달타냥이 파리 거리에 닿는다",
+   "visual": "dull yellow morning light down a narrow street of tall stone houses: the young man of eighteen with the dark brown hair to his collar and the thin dark moustache, in the worn grey doublet and the broad-brimmed hat with one drooping feather, is the one standing at frame centre on the packed earth with the reins of a thin yellow horse in one hand and his other hand hooked in his belt at his hip, his plain eager face turned up at the leaning upper storeys; the steep slate roofs close over the street above him and the wooden shutters stand open along both walls; a stone gutter runs down the middle of the street past his boots; two women with baskets walk away from him far down the street; he is the only person near the camera; the packed earth of the street is scored with cart ruts and a thin stream runs down the stone gutter; a wooden window shutter stands propped open on a pole above his head and a bundle of dried herbs hangs from it; the horse's ribs show under its dull yellow hide and its tail is thin",
+   "motion": "the young man at the centre is the one who moves, and the street holds still: at the start the reins are in one hand and his face is turned up at the leaning upper storeys; over the first three seconds his head comes slowly down and round from the roofs to look along the street ahead of him, his hat brim following his face and the hand hooked in his belt staying where it is, the reins slack in his other hand; in the last two seconds he holds looking down the street; the thin yellow horse behind him keeps its place with its head down, not moving; the two women far down the street keep their exact size and place; the stone houses, the open shutters, the slate roofs and the stone gutter hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "청년이 어깨를 부딪친 사내와 마주 선다.",
-   "visual": "a young man squared off against a tall musketeer in a doorway after a collision",
-   "motion": "the two turn toward each other, a cloak swings back, a hat brim tips up"
+   "cast": [
+    "dartagnan",
+    "musketeers",
+    "paris_street"
+   ],
+   "refs": [],
+   "beat": "좁은 골목에서 달타냥이 세 사내와 차례로 부딪힌다",
+   "visual": "dull yellow light in the narrow street: the young man of eighteen in the worn grey doublet is the one at frame centre halted in mid stride with one shoulder turned and his hat knocked back on his head, his plain eager face turned to his left; three men in dark blue musketeer's cloaks stand close about him, the tall one of thirty with the straight black hair at frame left with one hand on his own shoulder, the broad heavy one with the wide curled moustache at frame right with both fists on his hips, and the slim fair one behind him with a folded handkerchief in one hand; the hands of the three in cloaks are on a shoulder, on hips and round a folded handkerchief, and nothing is held up in the air; every hand is empty; the stone houses lean over them and the gutter runs past their boots; exactly four people in the street; the plaster of the house walls is cracked and patched to the height of a man and an iron lantern bracket juts over their heads; a wooden water butt stands against the wall at frame right with a dipper on its rim",
+   "motion": "the young man in the middle is the one who moves, and the three in cloaks hold still: at the start he is halted in mid stride with one shoulder turned and his face to his left; over the first three seconds he turns slowly on the spot from his left round toward frame right, his shoulders coming round one after the other and his face passing across the three men in turn, one hand rising to set his hat straight on his head; in the last two seconds he holds facing frame right with his hand still at the hat brim; the tall man keeps his hand on his own shoulder, the broad man keeps both fists on his hips and the slim man keeps the folded handkerchief in his hand, none of them moving; every hand stays empty; the leaning houses, the shutters and the gutter hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "수도원 뒤뜰에 네 사람이 모여 선다.",
-   "visual": "four men gathered in a walled convent yard, three musketeers facing one young stranger",
-   "motion": "they step into a loose ring, cloaks swing off shoulders, dust lifts underfoot"
+   "cast": [
+    "dartagnan",
+    "treville_room"
+   ],
+   "refs": [],
+   "beat": "총사대장 트레빌의 방 앞에 선 달타냥",
+   "visual": "dull yellow light through the tall leaded windows of the high panelled room: the young man of eighteen in the worn grey doublet is the one standing alone on the worn floorboards at frame centre with his broad-brimmed hat held in both hands against his chest so that his head is bare and his dark brown hair shows, his back straight, his plain eager face turned to the wide desk of dark wood in front of him; the desk stands empty at frame right with a spread paper, an inkstand and a plain chair behind it; a map of France hangs on the panelling behind the desk; the tall windows with their small leaded panes fill the wall at frame left; he is the only person in the room; the panelling behind the desk is dark oak in tall narrow squares and a worn red cushion lies on the plain chair; a leather satchel and two rolled papers tied with tape lie at the desk's far end; the floorboards are wide and worn pale along the middle where feet have passed; his boots are white with road dust to the ankle",
+   "motion": "the young man is the one who moves, and the room holds still: at the start his hat is held in both hands against his chest and his back is straight; over the first three seconds his hands turn the hat slowly round by its brim, the drooping feather travelling round with it from one side to the other, his shoulders staying square and his face staying toward the desk; in the last two seconds his hands hold the hat still against his chest with the feather at the far side; the wide desk, the spread paper, the inkstand and the plain chair behind it keep their places; the map of France on the panelling does not stir; the tall windows and the worn floorboards hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "붉은 옷의 병사들이 뜰로 들이닥친다.",
-   "visual": "red-cloaked guards striding through a convent gate toward four waiting men",
-   "motion": "the guards push in through the gate toward them, cloaks stream back, gravel scatters"
+   "cast": [
+    "dartagnan",
+    "musketeers",
+    "convent_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그날 오후 달타냥이 셋과 결투를 약속한다",
+   "visual": "flat afternoon light in the bare walled yard behind the convent: the young man of eighteen in the worn grey doublet is the one standing at frame left on the flagstones with his hat in one hand and his other hand open at his side; the tall man of thirty with the straight black hair, the broad heavy man with the wide curled moustache and the slim fair one, all three in dark blue musketeer's cloaks, are the ones standing in a row facing him at frame right with their hands down and their cloaks still; all four stand with empty hands; the stone well stands between them at frame centre and the high pale wall runs behind them with one leafless tree in the corner; exactly four people in the yard; the flagstones of the yard are grey and uneven with grass in the joints, and a wooden bucket stands on the lip of the stone well with its rope wound on the windlass; the high pale wall behind them has one small barred window set high in it",
+   "motion": "the three men in the row are the ones who move, and the young man holds still: at the start all three stand facing him with their hands down at their sides; over the first three seconds each of them in turn lifts one hand slowly from his side and holds it out flat toward the young man, the tall one first, then the broad one, then the slim one, so that three open hands stand out in a line; in the last two seconds all three hands hold out toward him; the young man keeps his hat in one hand and his other hand open at his side, not moving; every hand stays empty; the stone well, the high pale wall and the leafless tree in the corner hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "네 자루의 칼이 한꺼번에 뽑혀 나온다.",
-   "visual": "four rapiers drawn together in a walled yard, blades caught in slanting light",
-   "motion": "the blades come up together toward the guards, sunlight runs along the steel"
+   "cast": [
+    "dartagnan",
+    "musketeers",
+    "convent_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "결투 자리인 수녀원 뒤뜰에 근위대가 들이닥친다",
+   "visual": "flat afternoon light in the walled yard behind the convent, seen from close behind the four who were about to fight: the backs of three dark blue musketeer's cloaks and, between two of them, one worn grey doublet under a broad-brimmed hat with a drooping feather fill the lower third of the frame, the four heads turned away from the camera toward the far side of the yard; beyond them across the grey flagstones stands the stone well with its wooden bucket on the lip and its rope wound on the windlass, and beyond the well, small with the distance, five men in dull yellow coats and plain steel caps are the ones coming in through the open stone gateway in a close body, the first of them with one arm raised and his mouth open; the gateway is a plain stone arch with one leaf of its wooden door swung back against the wall; the high pale wall runs behind with one small barred window and the leafless tree stands in the corner; a handcart with one wheel leans against the wall beside the gate; every hand in the yard is empty; exactly nine people, four near with their backs to the camera and five far",
+   "motion": "the body of men in the gateway is the one thing that moves, and the four near backs hold still: at the start they are coming in through the gateway in a close body with the first man's arm raised; over the first three seconds the whole body walks slowly two paces further into the yard toward the well, staying close together, the raised arm of the leading man swinging slowly down and his mouth staying open, the five growing only slightly larger beyond the well; in the last two seconds they hold there, two paces inside the gateway; the three blue cloaks and the grey doublet in the foreground keep their backs to the camera and their four heads turned toward the gate, nobody stepping; the stone well with its bucket and wound rope, the swung-back door, the barred window, the leafless tree and the one-wheeled handcart hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "네 사람이 밤길을 나란히 말을 몰아 달린다.",
-   "visual": "four riders galloping abreast down a moonlit country road, cloaks streaming behind",
-   "motion": "the horses drive forward toward the camera, cloaks stream back, dust boils up"
+   "cast": [
+    "dartagnan",
+    "musketeers",
+    "convent_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "달타냥과 셋이 등을 맞대고 칼을 든다",
+   "visual": "flat afternoon light in the walled yard: the young man of eighteen in the worn grey doublet and the three men in dark blue musketeer's cloaks are the ones standing in a tight ring at frame centre with their backs together and their shoulders touching, each of them facing out a different way, every one with his long sword drawn and held straight up in front of his own face, the four blades standing up side by side against the pale wall behind; their four faces are set and their feet are planted on the flagstones; the five men in dull yellow coats stand well back at frame right beyond the stone well, halted, their hands at their sides; the high pale wall and the leafless tree stand behind; nobody is touching anybody; the four blades are plain steel with simple crossguards and no ornament, and the light runs along their flats in four straight lines; their four pairs of boots are planted on the flagstones in a tight square and the grass in the joints is trodden flat round them",
+   "motion": "the four drawn blades are the one thing that moves, and the men hold their places: at the start all four stand straight up in front of their owners' faces; over the first three seconds the four blades lean slowly outward together, each one tipping away from the ring by the same small angle so that the points spread wider apart against the pale wall, every wrist turning with its blade; in the last two seconds the four blades hold at that spread; the four men keep their backs together and their feet planted, nobody stepping; the five men beyond the well keep their halted places with their hands at their sides; the stone well, the high pale wall and the leafless tree hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "청년이 항구에서 배의 밧줄을 붙잡는다.",
-   "visual": "a young man seizing a mooring rope at a windy night harbor, a ship straining beyond",
-   "motion": "the rope snaps taut in his hands, the ship pulls away from the quay, spray flies"
+   "cast": [
+    "dartagnan",
+    "musketeers",
+    "paris_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그날부터 달타냥과 셋이 하나처럼 붙어 다닌다",
+   "visual": "dull yellow evening light down the narrow street: the young man of eighteen in the worn grey doublet and the three men in dark blue musketeer's cloaks are the ones walking four abreast toward the camera at frame centre, their shoulders almost touching and their four hats at four different heights, the tall black-haired one at the far left, the broad one next, then the young man, then the slim fair one; all four have their hands easy and empty at their sides; the tall stone houses lean over them on both sides with the shutters open and lit dull yellow behind; the stone gutter runs down the middle of the street past their boots; the street behind them is empty; exactly four people; the shutters along both walls are half open and the rooms behind them show dull yellow with candlelight; a cat sits on a doorstep at frame right with its tail round its feet",
+   "motion": "the four men are the ones who move, and only a little: at the start they are four abreast in mid stride a little way back down the street with their shoulders almost touching; over the first three seconds each of them takes one single short step forward and stops, their four boots coming down on the cobbles one after another from left to right, their cloaks swinging forward with the step and settling back, their four hats staying at their four heights; in the last two seconds all four stand still with their cloaks settled, still well back in the frame with their boots and the cobbles under them fully in the picture and a clear band of street between them and the bottom edge; every hand stays empty; the cat on the doorstep keeps its place with its tail round its feet; the leaning houses, the open shutters with their dull yellow light and the stone gutter hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈 부두에 깃털 모자 하나만 뒹군다.",
-   "anchor": false,
-   "visual": "an empty stone quay at dawn with a fallen feathered hat, mooring ropes trailing in water",
-   "motion": "wind rolls the hat along the quay, ropes drag in the water, gulls wheel overhead"
+   "cast": [
+    "queen",
+    "dartagnan",
+    "studs",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "왕비가 달타냥에게 다이아몬드 장식을 맡긴다",
+   "visual": "candlelight in the great hall of the palace: the woman of thirty with the fair hair in ringlets and the pearl headband, in the wide silver-grey court gown with the broad lace collar, is the one standing at frame right with a flat velvet-lined case held out in both her hands, its lid open and twelve small diamond studs showing in a row inside it, her calm plain face turned down to the young man; the young man of eighteen in the worn grey doublet is the one at frame left down on one knee on the polished floor with his hat on the boards beside him and both his hands rising toward the case; tall mirrors in gilt frames run along the wall behind them and rows of candles burn in brackets between the mirrors; the high windows are dark; the two of them are the only people in the hall; the polished floor gives back the flames of the candles in long soft streaks, and the tall mirrors carry the same light down the length of the hall; the velvet lining of the open case is dark and the twelve studs sit in a single even row; her wide grey skirt spreads on the floor round her feet and his hat lies crown down on the boards",
+   "motion": "the young man's rising hands are the one thing that moves, and the woman holds still: at the start both his hands are rising toward the open case in front of him; over the first three seconds his hands come slowly up together until they are under the case with the palms turned up, stopping a hand's width short of it, his kneeling body staying where it is and his face staying up toward her; in the last two seconds his hands hold open under the case without touching it; the woman keeps the case held out in both hands with its lid open and her face turned down, not moving; the twelve small studs keep their row inside the case; the tall mirrors, the burning candles in their brackets and the dark high windows hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "dartagnan",
+    "musketeers",
+    "road_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "넷이 밤길을 달려 런던으로 향한다",
+   "visual": "night on a wide dirt road between two rows of poplar trees: four riders are the ones coming down the road toward the camera at frame centre in a loose line, the young man of eighteen in the worn grey doublet at the front on the thin yellow horse and the three men in dark blue musketeer's cloaks strung out behind him, every cloak streaming back and every hat brim pressed up by the speed; the horses' legs are stretched out and their manes are back; a stone milestone stands at the verge at frame right; the poplar trees run away in two rows on both sides of the road; the dark blue night sky with its small stars fills the top of the frame; exactly four riders on the road; the poplars stand in two straight rows with their trunks pale in the dark and their tops lost above the frame; the road under the horses is packed earth with two long ruts, and dust lifts from it behind the last rider; the stone milestone at the verge is cut with plain marks and stands as high as a horse's knee",
+   "motion": "the four streaming cloaks and the dust behind the last rider are the ones that move, and the riders keep their exact size and place in the frame: at the start the cloaks stream back level from the riders' shoulders and a low cloud of pale dust hangs behind the last horse; over the first three seconds the cloaks ripple in long slow waves from shoulder to hem, lifting and dropping together, and the dust behind drifts slowly back along the road and thins, the horses' legs working in place under them; in the last two seconds the cloaks keep rippling at the same slow rate and fresh dust rises behind the last hooves; none of the four riders grows larger or comes closer, their four faces and the four horses' heads staying where they are; the stone milestone at the verge, the two rows of poplar trees and the night sky with its small stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "dartagnan",
+    "road_night",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "길에서 셋이 뒤처지고 달타냥만 남는다",
+   "visual": "grey dawn on the wide dirt road between the poplar trees: the young man of eighteen in the worn grey doublet is the one riding away down the road at frame centre seen from behind, alone, small in the frame, his cloak hanging still and his hat set straight, the thin yellow horse walking under him; the road runs away from the camera between the two rows of poplars toward a pale horizon; a stone milestone stands at the verge at frame right; three hats lie on the packed earth of the road behind him at frame left, one near the camera and two further off, with a broken cloak clasp beside the nearest; the wide low grey sky fills the top of the frame; he is the only person on the road; the dust of the road lies undisturbed ahead of him and the wheel ruts run away straight between the poplars; a thin morning mist lies along the ditch at the roadside; the three hats on the earth behind him are of three different shapes and one of them lies upside down with its brim to the sky and its feather bent",
+   "motion": "the lone rider is the one who moves, and the road holds still: at the start he is halfway down the road with his back to the camera; over the first three seconds the horse walks slowly on away down the road, the rider going a little smaller in the frame and his cloak swaying gently at each step, his hat staying set straight and his shoulders square; in the last two seconds they keep walking on at the same slow pace and stay well inside the frame; the three hats lying on the packed earth behind him do not move and the broken cloak clasp stays beside the nearest one; the stone milestone, the two rows of poplars and the pale horizon hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "dartagnan",
+    "studs",
+    "london_room"
+   ],
+   "refs": [],
+   "beat": "런던에서 달타냥이 장식을 건네받는다",
+   "visual": "grey daylight through a window of small panes in the panelled English room: the young man of eighteen in the worn grey doublet is the one standing at frame right beside the heavy table with both hands out and open in front of him, his plain eager face down at what is coming into them; a tall man in a plum-coloured coat with lace at his throat is the one at frame left with his back half to the camera, holding out the flat velvet-lined case on his open palm toward the young man's hands; the case lid is up and the row of small diamond studs shows inside it; a brass-bound chest stands under the window and the grey river shows through the small panes beyond; the two of them are the only people in the room; the small panes of the window are greenish and uneven and the grey water beyond them is crossed by one low barge; the heavy table is scarred and ringed with old marks and a pewter cup stands at its far end; the brass bound chest under the window has its lid down and a folded cloth on top of it",
+   "motion": "the case on the open palm is the one thing that moves, and the two men hold their places: at the start it rests on the tall man's open palm with its lid up, halfway between them; over the first three seconds the palm carries the case slowly across toward the young man's waiting hands, the open lid staying up and the row of studs staying level inside it, until the case is just above his two palms; in the last two seconds the case holds there just above his hands without touching them; the young man keeps both hands out and open with his face down at the case; the tall man keeps his back half to the camera and does not turn; the heavy table, the brass-bound chest and the grey river through the small panes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "dartagnan",
+    "studs",
+    "london_room"
+   ],
+   "refs": [],
+   "beat": "장식 열둘 중 둘이 잘려 나가 있다",
+   "visual": "grey daylight close on the flat velvet-lined case held open in two hands: the case fills the middle of the frame with its lid up, and inside it ten small diamond studs sit in their velvet slots in a row while two slots at the near end are bare velvet with the thread ends still in them; the hands holding the case are the young man's, the cuffs of the worn grey doublet showing at the wrists; his plain eager face shows large and close above the case at the top of the frame, looking down into it with his lips parted; the panelling and the window of small panes show dark behind his head; he is the only person in the picture; the velvet of the case is worn shiny round the empty slots and the cut thread ends stand up from them; the ten remaining studs each carry the same small cluster of cut stones; the light from the window falls across the case from one side so that the two bare slots lie in shadow",
+   "motion": "the young man's face above the case is the one thing that moves, and the case holds still: at the start his face is looking down into the open case with his lips parted; over the first three seconds his face comes slowly lower toward the two bare velvet slots at the near end, his brows drawing closer together and his lips parting a little wider, until his face is a hand's width above the velvet; in the last two seconds he holds there looking down at the bare slots; the case stays exactly where it is in his two hands with its lid up; the ten studs keep their places in their slots and the two bare slots keep their thread ends; the panelling and the dark window of small panes behind his head hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "studs",
+    "london_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "세공사가 밤을 새워 둘을 새로 만든다",
+   "visual": "the light of two candles on a low work bench at night: a pair of thin hands with a small file and a jeweller's eyeglass are the ones at work at frame centre over a low bench of dark wood, one hand holding a small silver setting between finger and thumb and the other drawing the file across it; the flat velvet-lined case lies open at frame right on the bench with ten studs in their slots and two bare slots at its near end; small iron tools with plain wooden grips and a saucer of silver filings lie along the bench; the two candles stand in plain brass sticks at frame left; the panelled wall behind is dark; only the hands and the bench are lit; the bench top is scarred and dusted pale with filings, and a shallow saucer holds more of them at the bench's edge; a small mallet with a round wooden head, three thin files of different sizes and a pair of narrow iron tongs with plain wooden grips lie in a row beside the case; the two candle flames stand in plain brass sticks and their light reaches only the bench",
+   "motion": "the hand with the file is the one thing that moves, and the bench holds still: at the start the file rests against the small silver setting held in the other hand; over the first three seconds the file draws slowly across the setting and back, and across and back again, a thin dust of silver lifting off it each time and settling on the bench below, the holding hand turning the setting a little between its finger and thumb between strokes; in the last two seconds the file keeps drawing across at the same slow rate; the open case with its ten studs and two bare slots keeps its place at frame right; the small iron tools, the tongs and the saucer of filings do not move; the two candle flames stand steady and the dark panelled wall holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "queen",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "무도회에 왕비가 나타난다",
+   "visual": "candlelight in the great hall of the palace, seen from behind the guests: the backs and shoulders of a dozen guests in dark court dress fill the lower half of the frame, every head turned the same way toward the wide doorway at the far end; the woman of thirty with the fair hair in ringlets and the pearl headband, in the wide silver-grey court gown with the broad lace collar, is the one standing in that doorway at frame centre, small with the distance and lit from the candles beside her, her calm plain face lifted and her shoulders turned a little away so that the far shoulder is behind the door frame; the tall mirrors in their gilt frames run down the wall and the rows of candles burn in their brackets; the polished floor runs away between the guests to the doorway; the guests' shoulders are dark and their collars pale, and every hand is still; the doorway beyond them is framed in carved stone with a candle bracket on either side of it; the polished floor between the camera and the doorway gives back the light of the whole hall in one long streak",
+   "motion": "the candle flames in their brackets are the ones that move, and the people hold still: at the start every flame stands straight in its bracket down the length of the hall; over the first three seconds all the flames lean slowly the same way toward the doorway together and stand straight again, the light on the polished floor between the guests widening and narrowing slowly with them and the reflections in the tall mirrors doing the same; in the last two seconds the flames lean once more at the same slow rate; the dozen guests keep their backs to the camera with every head turned the same way, nobody shifting; the woman in the doorway keeps her place with her face lifted and her far shoulder behind the door frame; the gilt mirrors and the polished floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "studs",
+    "palace_hall"
+   ],
+   "refs": [],
+   "beat": "빈 홀에 열린 상자만 남는다",
+   "visual": "the last soft candlelight in the empty great hall of the palace: the flat velvet-lined case lies open on a small table with four thin legs at frame centre, its lid up and every one of its velvet slots empty, the cut thread ends standing up in two of them; the polished wooden floor runs away clean and bare on both sides of the table, giving back the tall mirrors in their gilt frames along the walls and the rows of candles in their brass brackets, every candle burned down short but still standing straight with a small steady flame; the mirrors show only the pale panelled wall opposite and the same small steady flames; the high windows at the far end are dark; a single white glove lies on the floor beside the table; the hall is quiet and there is nobody in it",
+   "motion": "the small flames in the brass brackets are the ones that move, and the hall holds still: at the start every flame stands small and steady above its short candle down the length of the hall; over the first three seconds all the flames lean slowly the same way together and stand straight again, the light on the polished floor between the mirrors widening and narrowing slowly with them and their small reflections in the tall mirrors doing the same; in the last two seconds the flames lean once more at the same slow rate; the open case on the small table keeps its exact place with its lid up and its velvet slots empty; the thread ends in two of the slots do not move; the single white glove on the floor, the gilt mirrors, the dark high windows and the clean polished floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "목걸이를 둘러싼 계략의 결말과, 네 사람이 치르게 되는 대가"
+ ]
 }

@@ -1,62 +1,199 @@
 {
- "logline": "기숙사의 모든 편지를 막아 온 사감의 방에서, 밤마다 두 사람 목소리가 새어 나온다.",
- "destination": "사감 방문 — 학생들이 끝내 열어 보는 자리",
- "protagonist": "여학교 기숙사를 홀로 다스리는 마흔 살 사감",
- "setting": "1920년대 경성 여학교 기숙사, 긴 복도와 잠긴 방",
- "anchor": "a gaunt middle-aged woman in a black skirt and white blouse, hair pulled tight, thin set mouth",
- "palette": "dim corridor amber, cold white plaster, deep doorway shadow, thin moonlight",
+ "logline": "기숙사의 모든 러브레터를 막아 온 사감의 방에서, 밤마다 남자와 여자의 목소리가 새어 나온다",
+ "destination": "소설 B사감과 러브레터에서 만날 수 있습니다",
+ "protagonist": "matron",
+ "setting": "1920년대 경성 C여학교 기숙사, 긴 복도와 복도 끝의 사감 방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/bsagamgwa_reobeureteo/assets",
+ "anchor": "a gaunt Korean woman in round wire spectacles and a dark grey buttoned western dress, hair in a tight bun",
+ "palette": "pale green, off-white, ash grey, dark brown, dull yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "사감이 복도를 돌며 문을 하나씩 확인한다.",
-   "visual": "a severe middle-aged woman walking a long dormitory corridor testing door handles one by one",
-   "motion": "her hand turns each handle, her heels click, the corridor lamp sways"
+   "cast": [
+    "matron",
+    "students",
+    "corridor",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "기숙사의 못생기고 깐깐한 B사감",
+   "visual": "the long dim dormitory corridor in flat grey daylight: the gaunt matron in the dark grey buttoned dress is the one striding down the center of the polished wooden floor toward the camera with her stiff back straight, her small eyes hard behind the round wire spectacles and her thin lips pressed, a ring of keys swinging at her belt; two students in white sailor blouses and long black skirts are the ones flattened against the pale green wall at frame left with their braids over their shoulders and their eyes lowered; the row of plain wooden doors with dull yellow brass handles runs along the right and the tall windows along the left show a pale overcast sky",
+   "motion": "the gaunt matron in the dark grey buttoned dress striding down the corridor toward the camera is the only one who moves: at the start she is mid-stride at the center of the polished wooden floor with her stiff back straight and the ring of keys at her belt; over the first three seconds she strides steadily forward toward the camera, the ring of keys swinging at her belt in rhythm with each step, her small hard eyes behind the round wire spectacles fixed ahead, her stiff back never bending and her tight black bun not stirring; the two students in white sailor blouses and long black skirts stay pressed flat against the wall with their eyes down and their hands folded, not breathing visibly; the row of plain wooden doors, the tall windows along the left and the flat grey daylight on the floor hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그녀는 학생 손에서 무언가를 빼앗아 서랍에 넣는다.",
-   "visual": "a woman's hand dropping a folded pink slip into a desk drawer, a girl standing rigid nearby",
-   "motion": "the drawer slides shut, the girl's head drops, the key turns"
+   "cast": [
+    "matron",
+    "letter",
+    "matron_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "학생들에게 오는 편지를 뜯어 읽는 사감",
+   "visual": "the matron's small room in grey window light: the gaunt matron is the one seated stiffly at the wooden desk at the center in her dark grey dress, the brass paper knife in her thin right hand slitting the top of a small pale envelope held flat in her left, her small eyes narrowed behind the round spectacles and her thin lips pressed tighter; a stack of six more small envelopes lies at her elbow with their faces turned down; the locked drawer beneath the desk, the straight chair, the narrow iron bed with its grey blanket at the right and the window with its drawn cloth shade behind her",
+   "motion": "only the gaunt matron's hands move in this view of her small room: at the start the brass paper knife in her thin right hand rests at one corner of the small pale envelope held flat in her left hand on the wooden desk; over the first two seconds the knife slides slowly along the top edge of the envelope from one corner to the other with a faint tearing sound, and her left thumb lifts the cut flap while her narrowed eyes behind the spectacles lower to the paper inside; in the last two seconds the knife rests on the desk and her thumb holds the flap open, her stiff back not bending; the stack of unopened envelopes, the half-open drawer, the narrow iron bed and the grey window light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "밤이면 그 방에서 두 사람 목소리가 난다.",
-   "visual": "a closed door at the end of a dark corridor with warm light leaking under it, empty hallway",
-   "motion": "the light under the door flickers, dust turns in the beam, the corridor stays still",
-   "anchor": false
+   "cast": [
+    "matron",
+    "students",
+    "letter",
+    "matron_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "러브레터를 받은 학생을 야단치는 사감",
+   "visual": "the matron's small room: the gaunt matron is the one standing at frame right beside the desk with her stiff back straight and a folded sheet of pale pink paper held up high in her thin hand with its face turned toward the wall, her spectacles catching the grey window light and her thin mouth opening; one student in a white sailor blouse and black skirt is the one seated on the straight chair at frame left with her braid over her shoulder, her head bowed so low that only the top of her hair shows and her hands twisted together in her lap; the narrow iron bed and the drawn shade behind them",
+   "motion": "the gaunt matron standing stiffly beside the desk is the one who moves, and only her raised hand and shoulders: at the start the folded sheet of pale pink paper is held up high in her thin hand with its face turned to the wall; over the first two seconds the raised hand shakes the folded pink paper slowly once toward the bowed student and stays lifted, her stiff shoulders rising with a drawn breath and her spectacles catching the window light; in the last two seconds the hand holds high and rigid; the student in the white sailor blouse and long black skirt standing before her keeps her head bowed and only sinks it a little lower while her twisted hands tighten at her waist, her feet not moving; the wooden desk, the narrow iron bed and the drawn window shade hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "학생 셋이 발소리를 죽이고 복도를 지난다.",
-   "visual": "three girls in white nightclothes creeping barefoot along a dark corridor toward a lit door",
-   "motion": "bare feet lift and settle, one girl grabs another's sleeve, shadows stretch"
+   "cast": [
+    "matron",
+    "letter",
+    "matron_room"
+   ],
+   "refs": [],
+   "beat": "이런 편지를 받다니! — 소리치는 사감",
+   "visual": "a close view in the matron's room: the gaunt matron's long sallow face fills the frame from the collar up, her small eyes bulging behind the round wire spectacles, her thin lips stretched wide open in a shout showing small teeth, the black hair scraped back so tight that the skin of her temples is drawn, and below her chin her thin fist is closed hard around the crumpled pale pink paper; the drawn cloth shade and the coat hook on the wall fall out of focus behind her; flat grey light",
+   "motion": "only the gaunt matron's face and the fist under her chin move in this close view: at the start her thin lips are stretched wide open in a shout showing small teeth and her thin fist under her chin grips the crushed pink paper; over the first two seconds her open mouth stretches wider through the shout and the fist crushes the pink paper smaller with the knuckles whitening, the tendons of her neck standing out and her small eyes bulging further behind the round wire spectacles; in the last two seconds her mouth holds open and the fist trembles under her chin; the scraped-back black hair and the high collar of the dark grey dress do not shift; the wall and the drawn shade behind her hold their blur; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "문틈으로 새어 나오는 불빛이 흔들린다.",
-   "visual": "a thin band of lamplight under a wooden door wavering, three pairs of bare feet stopped before it",
-   "motion": "the band of light wavers and narrows, feet shuffle back, a floorboard bends"
+   "cast": [
+    "matron",
+    "boy_student",
+    "school_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "면회 온 남학생을 문 앞에서 돌려보내는 사감",
+   "visual": "the iron gate in the grey brick wall of the school: the gaunt matron in the dark grey dress is the one standing inside the half-open gate at frame right with one thin arm stretched straight out across the opening barring it, her spectacles flashing and her thin lips pressed; the boy student in the black buttoned uniform is the one standing outside the gate at frame left with his flat black cap held in both hands at his chest and his young face flushed and lowered; behind the matron the gravel path leads to the two-storey brick building where three small faces of students in sailor collars show at an upper window; a pale overcast sky",
+   "motion": "the boy student on the pavement is the one who moves, and the matron only holds: at the start the gaunt matron's thin arm is stretched straight out across the half-open iron gate barring it and the boy stands before it with his cap clutched at his chest; over the first two seconds the boy's lowered head sinks further and he takes one slow step backward on the pavement with the cap still clutched to his chest, his school uniform jacket creasing; in the last two seconds he stands a pace back with his eyes on the ground; the matron's barring arm stays rigid across the gate opening and her spectacles hold their flash, her dark grey dress not stirring; the faces at the upper window of the brick building stay pressed to the glass without moving; the grey brick wall, the iron gate and the flat sky hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "안에서 웃음소리와 속삭임이 번갈아 난다.",
-   "visual": "three girls pressing their ears against a closed door, eyes wide, corridor dark behind them",
-   "motion": "their heads press closer, one clamps a hand over her mouth, the lamp dims"
+   "cast": [
+    "students",
+    "dorm_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "뒤에서 불여우라 부르는 학생들",
+   "visual": "the dormitory bedroom with its three narrow iron beds: three students in white sailor blouses and long black skirts are the ones gathered close on the middle bed at the center, one with her hand cupped at her mouth whispering, one bent double with silent laughter and one with two forefingers pushed up at the corners of her own eyes and her lips pinched into a thin line in mockery; their braids swing forward; the wooden washstand, the small window with its thin curtain and the black skirts on the wall hooks around them; grey daylight",
+   "motion": "the three students gathered on the middle iron bed are the only ones who move: at the start the mocking student holds her two forefingers at the corners of her eyes with her face pinched and the other two lean toward her; over the first two seconds the mocking student's forefingers draw the corners of her eyes slowly tighter and her pinched face holds its expression, while the other two students sway together with silent laughter, one clutching the other's sleeve and one bending further double; in the last two seconds the mocking student holds the face and the two still shake with laughter; their white sailor blouses and long black skirts crease with the movement; the three narrow iron beds, the grey blankets, the washstand and the window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 문이 열리면 무엇이 보일까?",
-   "visual": "a door standing ajar with warm lamplight spilling into a dark corridor, three girls silhouetted",
-   "motion": "the door swings inward, light floods the corridor, their shadows leap back"
+   "cast": [
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤이 깊으면 새어 나오는 이상한 소리",
+   "visual": "the long dormitory corridor at deep night, empty of every person: the polished wooden floor runs away toward the far end where the small glass wall light is dark, the row of plain wooden doors with brass handles stands closed along the right and the tall windows along the left are black; beneath the last door at the far end a thin line of dull yellow light lies on the floorboards, the only light in the corridor; the pale green lower walls and off-white upper walls fall into shadow",
+   "motion": "nothing living appears in this empty corridor; only the line of light under the far door moves: at the start a thin line of dull yellow light lies beneath the last wooden door at the far end of the dark corridor; over the whole shot the line of light beneath the far door slowly brightens, dims and brightens again as a shadow passes across it inside the room, the faint glow reaching a little way along the polished floor and drawing back; the row of closed wooden doors with brass handles along the right, the black windows along the left, the dark glass wall light and the polished floor hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward along the corridor toward the far door, no zoom"
   },
   {
    "n": 8,
-   "beat": "새벽 복도 끝에 문 하나가 열려 있다.",
-   "visual": "a single door standing ajar at the end of an empty dormitory corridor at dawn, pale light beyond",
-   "motion": "the door drifts a hand's width, dawn light widens on the floor, dust turns",
-   "anchor": false
+   "cast": [
+    "students",
+    "dorm_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "잠 못 든 학생 셋이 소리를 듣고",
+   "visual": "the dormitory bedroom at night: three students in plain white cotton nightgowns are the ones sitting up in their three narrow iron beds at the left, center and right of the frame, the grey blankets fallen to their waists, their braids loose over their shoulders and all three faces turned the same way toward the closed door at the right edge with their eyes wide in the dark; a faint grey light from the small window with its thin curtain outlines them; the washstand and the skirts on the hooks are dim shapes",
+   "motion": "the three students sitting up in their narrow iron beds are the only ones who move: at the start they sit upright with the grey blankets fallen to their waists and their loose braids over their shoulders, all three faces turned toward the door; over the first two seconds the three lean slowly together toward the door in the same movement with their eyes wide, the nearest one lifting her blanket aside and swinging one bare foot down to the floorboards; in the last two seconds the nearest one sits on the edge of her bed with her foot on the floor and the other two hold their lean; the wooden door with its brass handle, the black window, the washstand and the three iron bed frames hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "students",
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "발소리를 죽여 사감의 방 앞에 선 세 학생",
+   "visual": "the long dark corridor at night: three students in white nightgowns are the ones creeping in single file along the polished wooden floor toward the far door, barefoot, the first at the front with her body bent low and one hand trailing on the pale green wall, the second close behind gripping the first one's nightgown, and the third at the rear glancing back over her shoulder; the thin line of dull yellow light beneath the far door lies ahead of them on the floorboards; the row of closed doors at the right and the black windows at the left",
+   "motion": "the three students in white nightgowns creeping along the dark corridor are the only ones who move: at the start they are in single file on the polished wooden floor with the first bent low and one hand trailing on the wall; over the first three seconds they creep slowly forward toward the lit far door with their bare feet set down one careful step at a time, the hems of their nightgowns brushing the boards, the first one's trailing hand sliding along the wall, and the rear girl's head turning slowly back over her shoulder and then forward again; the row of closed doors, the black windows, the thin line of light beneath the far door and the polished floor hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "students",
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "남자의 목소리와 여자의 웃음",
+   "visual": "the far end of the dark corridor: the last wooden door with its brass handle fills the right half of the frame with the thin line of dull yellow light beneath it, and the three students in white nightgowns are the ones pressed close against the wall beside it at the left, the first with her ear turned flat to the door panel and her eyes closed, the second with her cheek against the first one's shoulder, the third with her hand clamped over her own mouth and her eyes round; their loose braids hang down the white cotton; the dark glass wall light above and the pale green wall",
+   "motion": "the three students pressed against the wall beside the far door move only with their heads and hands: at the start the first student's ear is close to the door panel with her eyes closed, the second leans in behind her, and the third has her hand over her mouth; over the first two seconds the first student's ear presses slowly closer to the door panel and her closed eyes squeeze tighter, the second student's shoulder leans against hers, and the third student's hand over her mouth presses harder while her round eyes widen further; in the last two seconds all three hold pressed and still with the light from under the door on their bare feet; the wooden door with its brass handle, the thin line of dull yellow light beneath it and the wall hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "students",
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그대를 사랑하오 — 문 안의 목소리",
+   "visual": "a close view beside the far door at night: the first student's face fills the left half of the frame with her cheek flat against the wooden door panel, her eyes now open and huge with her mouth fallen open, the dull yellow light from beneath the door catching her chin; behind her the second student's face leans in over her shoulder with the brows drawn up in disbelief and the third student's hand grips the second one's nightgown sleeve; the brass handle of the door at the right edge; the corridor beyond is black",
+   "motion": "only the first student's face and the second student's brows move in this close view beside the door: at the start the first student's cheek is flat against the wooden door panel with her eyes huge and her mouth fallen open, the dull yellow light from beneath the door on her chin; over the first two seconds her fallen-open mouth closes slowly and opens again without a sound and her huge eyes slide sideways toward the other two, her cheek not leaving the panel; in the last two seconds her mouth holds open and her eyes hold sideways; the second student's drawn-up brows behind her rise slowly further and her lips part; the door panel, the brass handle and the line of light hold completely still; no new figures appear; camera drifting very slowly forward toward the first student's face, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "students",
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "저도요, 저도요 — 간드러진 여자 목소리",
+   "visual": "the three students beside the far door at night: the third student is the one at the center now with both hands clamped over her mouth and her shoulders shaking with a stifled laugh, her eyes screwed shut; the second student is the one at the left frowning hard with her finger pressed to her lips toward her; the first student is the one at the right still with her ear to the door panel, one hand raised flat to hush the others; the thin line of dull yellow light beneath the door lies across their bare feet; the pale green wall and the black window behind",
+   "motion": "the third student's shoulders and hands are what move most beside the far door: at the start her both hands are clamped over her mouth with her shoulders shaking in a stifled laugh and her eyes squeezed closed; over the first two seconds her shaking shoulders slowly still under the frown of the second student and her clamped hands lower a little from her mouth, her eyes opening; in the last two seconds she holds still with her hands at her chin; the second student's frown holds and her finger stays raised to her own lips; the first student's raised hushing hand stays up beside the door, her cheek still near the panel; the wooden door, the thin line of dull yellow light beneath it and the wall hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "students",
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "끝내 문고리를 잡는 세 학생",
+   "visual": "the far door at night: the first student's hand fills the center of the frame closing slowly around the brass door handle, her knuckles pale in the dull yellow light from beneath the door, and her face above it is set with wide fixed eyes; the second and third students are the ones gripping her nightgown sleeve and shoulder from behind at the left with their faces pressed close together, one biting her lip and the other with her eyes shut; the wooden door panel fills the right of the frame and the corridor behind them is black",
+   "motion": "only the first student's hand on the brass door handle moves in this close view: at the start her hand is closing around the brass handle with her knuckles pale in the dull yellow light from beneath the door and her face set above it with wide fixed eyes; over the first two seconds the hand tightens slowly around the handle and begins to turn it downward, the wrist rotating in one continuous motion and the handle's brass catching the light as it turns; in the last two seconds the handle rests turned down and the hand holds it there; the two students behind cling to her sleeve and shoulder without moving, their faces close over her shoulder; the door panel and the line of light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "students",
+    "corridor",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "문고리를 당긴 순간",
+   "visual": "the far door at night opening a hand's width: a widening bar of dull yellow light spills from the gap across the polished floor and up over the three students in white nightgowns who are the ones crowded at the edge of the door at the left, the first with her hand still on the brass handle and her face lit from the side with her mouth open, the second and third peering over her shoulders with their eyes wide and their braids hanging forward; the door panel and its edge fill the right of the frame and what lies inside the room is only bright light; the corridor behind them is black",
+   "motion": "the far door and the bar of light are what move in this shot: at the start the door stands open a hand's width under the first student's hand and a bar of dull yellow light spills from the gap across the polished floor and up over the three students crowded at the edge; over the first two seconds the door swings slowly inward another hand's width under her hand so that the bar of yellow light widens across the polished boards and the three faces, their eyes narrowing against the brightness; in the last two seconds the door rests open wider and the light lies still on them; none of the three students steps or turns, their white nightgowns not stirring; the door edge, the brass handle, the dark corridor behind them and the black windows hold completely still; nothing inside the room is shown; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "corridor",
+    "letter",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽의 빈 복도",
+   "visual": "the long dormitory corridor at dawn, empty of every person: thin blue-grey light comes through the tall windows along the left onto the polished wooden floor, the row of plain wooden doors with brass handles stands closed along the right, and the last door at the far end is closed too with no light beneath it; on the floorboards halfway along the corridor lies a single small pale envelope, face down; the pale green and off-white walls and the dark glass wall light at the far end",
+   "motion": "nothing living moves in this empty corridor at dawn; only the light: at the start thin blue-grey light lies through the tall windows onto the polished wooden floor and a small pale envelope lies on the boards near the last door; over the first three seconds the thin dawn light along the floor slowly strengthens and creeps across the boards from the windows toward the last door until it reaches the small envelope and lies across it; the row of closed wooden doors with brass handles, the tall windows, the walls and the envelope itself hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward along the corridor, no zoom; in the last two seconds the walking figure comes to a stop well inside the frame and stands still"
   }
  ],
- "withheld": "혼자였다는 것과 빼앗은 편지로 벌이던 연인 놀이",
- "voice": "ko-KR-YuJinNeural"
+ "withheld": "혼자였다는 것, 압수품으로 벌이던 연인 놀이"
 }

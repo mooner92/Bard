@@ -1,0 +1,74 @@
+mobydick	모비딕	A	완료
+kafka	변신	A	완료
+tolstoy	사람은 무엇으로 사는가	A	완료
+unsu_joteun_nal	운수 좋은 날	A	완료
+memilkkot_pil_muryeop	메밀꽃 필 무렵	A	완료
+dongbaekkkot	동백꽃	A	완료
+bombom	봄봄	A	완료
+gamja	감자	A	완료
+nalgae	날개	A	완료
+baettaragi	배따라기	A	완료
+beongeori_samryongi	벙어리 삼룡이	A	완료
+bsagamgwa_reobeureteo	B사감과 러브레터	A	완료
+redimeideu_insaeng	레디메이드 인생	A	완료
+chisuk	치숙	A	완료
+taepyeongcheonha	태평천하	A	완료
+manmubang	만무방	A	완료
+sangol_nageune	산골 나그네	A	완료
+sangroksu	상록수	A	완료
+ingan_munje	인간 문제	A	완료
+hyeolui_nu	혈의 누	A	완료
+geumsuhoeuirok	금수회의록	A	완료
+chuwolsaek	추월색	A	완료
+honggildongjeon	홍길동전	B	완료
+chunhyangjeon	춘향전	B	완료
+simcheongjeon	심청전	B	완료
+heungbujeon	흥부전	B	완료
+byeoljubujeon	별주부전	B	완료
+kongjwipatjwi	콩쥐팥쥐	B	완료
+gyeonu_jingnyeo	견우직녀	B	완료
+pinokio	피노키오	C	완료
+piteopaen	피터 팬	C	완료
+aladin	알라딘	C	완료
+sindeubadeu	신드바드	C	완료
+jaekgwa_kongnamu	잭과 콩나무	C	완료
+minyeowa_yasu	미녀와 야수	C	완료
+ojeuui_mabeopsa	오즈의 마법사	C	완료
+isanghan_naraui_aelriseu	이상한 나라의 앨리스	C	완료
+sogongnyeo	소공녀	C	완료
+wangjawa_geoji	왕자와 거지	C	완료
+jeonggeulbuk	정글북	C	완료
+robinhudeu	로빈 후드	C	완료
+majimak_ipsae	마지막 잎새	C	완료
+keuriseumaseu_kaereol	크리스마스 캐럴	C	완료
+olribeo_teuwiseuteu	올리버 트위스트	C	완료
+tom_soyeoui_moheom	톰 소여의 모험	C	완료
+heokeulberi_pinui_moheom	허클베리 핀의 모험	C	완료
+15sonyeon_pyoryugi	15소년 표류기	C	완료
+robinseun_keurusoe	로빈슨 크루소	C	완료
+geolribeo_yeohaenggi	걸리버 여행기	C	완료
+bomulseom	보물섬	C	완료
+samchongsa	삼총사	C	완료
+jangbaljang	장발장	C	완료
+80ilganui_segye_ilju	80일간의 세계 일주	C	완료
+haejeo_2manri	해저 2만리	C	완료
+jigu_sok_yeohaeng	지구 속 여행	C	완료
+jikil_baksawa_haideu	지킬 박사와 하이드	D	완료
+dorieon_geureiui_chosang	도리언 그레이의 초상	D	완료
+deurakyulra	드라큘라	D	완료
+peurangkensyutain	프랑켄슈타인	D	완료
+operaui_yuryeong	오페라의 유령	D	완료
+noteureudam_de_pari	노트르담 드 파리	D	완료
+montekeuriseuto_baekjak	몬테크리스토 백작	D	완료
+baseukeobil_gamunui_gae	바스커빌 가문의 개	D	완료
+juhongsaek_yeongu	주홍색 연구	D	완료
+geomeun_goyangi	검은 고양이	D	완료
+taimmeosin	타임머신	D	완료
+tumyeongingan	투명인간	D	완료
+widaehan_gaecheubi	위대한 개츠비	D	완료
+omangwa_pyeongyeon	오만과 편견	D	완료
+pokpungui_eondeok	폭풍의 언덕	D	완료
+juhong_geulja	주홍 글자	D	완료
+du_dosi_iyagi	두 도시 이야기	D	완료
+joewa_beol	죄와 벌	D	완료
+dongmulnongjang	동물농장	D	완료

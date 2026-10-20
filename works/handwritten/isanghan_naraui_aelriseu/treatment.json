@@ -1,61 +1,206 @@
 {
- "logline": "토끼를 쫓아 굴로 뛰어든 소녀가, 규칙이 전부 뒤집힌 나라를 지나간다.",
- "destination": "하트 여왕의 정원 — 모든 길이 모이는 곳",
- "protagonist": "금발에 파란 원피스, 흰 앞치마를 두른 일곱 살 소녀",
- "setting": "빅토리아 시대 영국의 들판과 그 아래 이상한 나라",
- "anchor": "a seven-year-old girl with long blonde hair, blue dress and white pinafore",
- "palette": "storybook jewel tones, teal shadow, warm gold light, playing-card red",
- "voice": "ko-KR-SunHiNeural",
+ "logline": "강둑에서 졸던 앨리스가 회중시계를 보는 흰 토끼를 쫓아 굴로 떨어져, 작은 문과 병으로 커졌다 작아졌다 하며 눈물 웅덩이·애벌레·체셔 고양이·모자 장수의 다과회·장미를 칠하는 카드 병정·하트 여왕의 크로케를 지나, 하트 잭의 재판정 증인석에서 다시 커지기 시작한다",
+ "destination": "소설 이상한 나라의 앨리스에서 만날 수 있습니다",
+ "protagonist": "alice",
+ "setting": "빅토리아 시대 영국의 강둑과 그 아래 이상한 나라 — 토끼 굴, 문의 방, 눈물 웅덩이, 버섯 숲, 다과회 탁자, 장미 정원, 크로케 잔디, 재판정",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/isanghan_naraui_aelriseu/assets",
+ "anchor": "a girl of seven with long fair hair held back by a black band, a pale blue dress with puffed sleeves, a white pinafore, a round curious face",
+ "palette": "pale blue, off-white, dull red, dull green, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "재판에서 벌어지는 소동과 앨리스가 눈을 뜨는 마지막",
  "beats": [
   {
    "n": 1,
-   "beat": "소녀가 조끼 입은 토끼를 따라 달린다.",
-   "visual": "a girl in a blue dress running after a waistcoated white rabbit across a summer meadow",
-   "motion": "she runs after the rabbit toward the hedgerow, grass whips past, the rabbit bounds ahead"
+   "cast": [
+    "alice",
+    "sister",
+    "riverbank",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "강둑에서 언니 곁에 앉은 앨리스가 심심해 존다",
+   "visual": "soft summer light on the grassy bank beside the slow river: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one sitting on the grass at frame left with her legs tucked under her, her chin propped on one hand and her eyes half closed, a daisy chain lying loose in her lap; the young woman of sixteen in the long dull green dress with the brown hair pinned up is the one sitting upright beside her at frame right with an open book held in both hands, her calm face bent to the page; the willow branches trailing over the water behind them; exactly two people, one small girl and one young woman",
+   "motion": "the small girl is the only one who moves, and the young woman with the book holds still: at the start the girl's chin is propped on her hand and her eyes are half closed; over the first three seconds her eyelids sink slowly until her eyes are closed, her head tipping slowly forward off her hand and then lifting slowly back up, her eyes opening halfway again; in the last two seconds she holds with her chin back on her hand and her eyes half closed; the young woman keeps the book held in both hands and her face bent to the page, her hair not stirring; the willow branches sway very slightly over the water; the grass and the river hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "소녀가 나무 밑 굴로 굴러 떨어진다.",
-   "visual": "a girl tumbling down a deep earthen shaft lined with floating cupboards and hanging lamps",
-   "motion": "she falls downward past the shelves, her skirt balloons up, jars turn around her"
+   "cast": [
+    "rabbit",
+    "alice",
+    "riverbank",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "조끼 입은 흰 토끼가 회중시계를 보며 지나간다",
+   "visual": "soft summer light on the grassy bank: the white rabbit standing upright in the dull red waistcoat with the gold chain is the one hurrying across the grass at frame right on its hind legs, a round gold pocket clock on a chain held up in one paw before its pink eyes, its long ears back, its plain face bent to the clock; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one sitting up straight on the grass at frame left with both hands on the grass and her round face turned toward the rabbit with her mouth open; the willow trunks and the slow river behind; exactly one girl and one upright rabbit",
+   "motion": "the white rabbit is the only one who moves, and the girl holds still: at the start the rabbit is mid stride with the gold clock held up before its eyes; over the first three seconds it takes three quick hopping steps across the grass toward the right edge of the frame, the clock chain swinging, its ears flattening further, its head staying bent to the clock; in the last two seconds it stops just inside the frame and taps the face of the clock twice with its other paw; the girl keeps both hands on the grass and her mouth open, her face turned after the rabbit; the willow trunks and the river hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "소녀가 아주 작은 문 앞에 웅크린다.",
-   "visual": "a girl crouched before a tiny brass-handled door in a hall of many locked doors",
-   "motion": "she bends down toward the little door, curtains lift, keys swing on the wall"
+   "cast": [
+    "alice",
+    "rabbit_hole"
+   ],
+   "refs": [],
+   "beat": "토끼를 쫓아간 앨리스가 굴 속으로 한없이 떨어진다",
+   "visual": "dim light inside the deep dark vertical shaft: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one falling slowly down the middle of the shaft at frame centre with her pinafore and her fair hair streaming upward, her arms spread and her legs bent, her round face calm with wide eyes; the earthen walls close on both sides with shelves and cupboards set into them, jars and rolled maps standing on the shelves, one jar level with her outstretched hand; the shaft going down into darkness below her feet; she is the only person in the shaft",
+   "motion": "the girl is the one who moves, and the shaft around her holds still: at the start her arms are spread and her hair streams upward; over the whole five seconds she sinks slowly and steadily down the shaft by about half her own height, her pinafore and her hair streaming upward the whole time, her right hand closing slowly around the jar on the shelf as she passes it and carrying it with her, her legs turning slowly a little to one side; the shelves, the cupboards, the other jars and the rolled maps stay fixed in the walls as she passes them; the darkness below does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "소녀의 키가 방 천장까지 커진다.",
-   "visual": "a girl grown enormous, head pressed to a ceiling, one arm out a window of a small hall",
-   "motion": "she stretches upward against the ceiling, furniture skids away, plaster dust falls"
+   "cast": [
+    "alice",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "굴 밑 작은 문 앞에서 앨리스가 병을 발견한다",
+   "visual": "candlelight inside the long low hall: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one kneeling on the floor at frame centre in front of the tiny door behind the pulled-aside curtain, the door no higher than her knee, her face bent to its keyhole with one hand on the floor; the three-legged glass table standing beside her at frame right with a small glass bottle on it, a paper label tied round the bottle's neck by a thread, the label a plain blank slip; the rows of small closed doors along the walls, the candles in their glass holders; she is the only person in the hall",
+   "motion": "the girl is the only one who moves: at the start she is kneeling with her face bent to the keyhole of the tiny door; over the first three seconds she turns her head slowly away from the door toward the glass table, her eyes finding the small bottle, and her hand rises slowly from the floor toward it until her fingers close around the bottle's neck; in the last two seconds she lifts the bottle slowly a hand's width off the table and holds it before her face, the blank label turning on its thread; the tiny door, the curtain, the rows of small doors, the glass table and the candles hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "버섯 위 애벌레가 소녀를 내려다본다.",
-   "visual": "a large blue caterpillar on a spotted mushroom cap looking down at a small girl below",
-   "motion": "smoke rings drift up off the caterpillar, the mushroom sways, the girl tips her head back"
+   "cast": [
+    "alice",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "병을 마신 앨리스가 천장에 머리가 닿도록 커진다",
+   "visual": "candlelight inside the long low hall: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one grown huge, crouched at frame centre with her head bent sideways against the ceiling of the hall, her shoulders hunched, one hand flat against the ceiling and the other pressed to the floor, her knees drawn up, her round face squeezed with her eyes screwed up; the rows of small closed doors along the walls now no higher than her ankle, the three-legged glass table tiny beside her foot, the candles in their glass holders level with her shoulder; she is the only person in the hall",
+   "motion": "the huge girl is the only one who moves: at the start her head is bent sideways against the ceiling and one hand is flat against it; over the first two seconds her shoulders press slowly upward against the ceiling and her hand on the floor slides slowly a little outward as she braces, her face squeezing tighter with her eyes closed; in the last two seconds she holds pressed there, her chest swelling with a slow breath, her knees not shifting; the tiny doors, the glass table and the candles hold completely still; the ceiling does not give; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "긴 탁자에서 모자 장수가 찻잔을 밀어 놓는다.",
-   "visual": "a wild-haired hatter at a long outdoor tea table shoving a teacup toward an empty chair",
-   "motion": "the cup skids down the table toward the chair, tea slops out, a dormouse tips over"
+   "cast": [
+    "alice",
+    "mouse",
+    "tear_pool"
+   ],
+   "refs": [],
+   "beat": "눈물 웅덩이에서 작아진 앨리스가 생쥐와 헤엄친다",
+   "visual": "dim light inside the long hall filled with the wide pool of salt water: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one small again, swimming in the water at frame centre with only her head and shoulders above the surface, her fair hair floating spread on the water, her round face turned to the mouse; the small brown mouse with the round ears is the one swimming a short way ahead of her at frame right with its nose up and its thin tail trailing on the surface; the rows of small closed doors along the walls above the water line, ripples spreading from the two swimmers; exactly one girl and one mouse in the water",
+   "motion": "the girl and the mouse are the ones who move, slowly: at the start both are mid stroke with their heads above the water; over the first three seconds the girl paddles slowly forward with two strokes of her arms toward the right, her hair trailing behind her on the surface, and the mouse paddles a little ahead of her keeping its nose up, both of them moving only a short way across the frame; in the last two seconds both hold in the water, treading it, the girl's face still turned to the mouse; the ripples spread slowly out from them across the surface; the rows of small doors above the water line hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "카드 병정들이 붉은 장미를 칠하다 멈춘다.",
-   "visual": "playing-card soldiers with paint buckets halted before a white rose bush, brushes dripping",
-   "motion": "the brushes stop mid-stroke, red paint drips down the petals, the cards straighten up"
+   "cast": [
+    "caterpillar",
+    "alice",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "버섯 위의 파란 애벌레가 물담배를 물고 앨리스를 내려다본다",
+   "visual": "soft daylight in the wood of tall mushrooms and ferns: the fat blue caterpillar as long as a forearm is the one sitting upright on the flat top of a tall mushroom at frame right with its front legs folded, the mouthpiece of a tall water pipe with a long hose held in one of its front legs, a thin curl of pale smoke rising from its mouth, its small round eyes turned down to the girl; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing on tiptoe at frame left below the mushroom with both hands on its stalk and her round face tipped up toward the caterpillar; ferns and thick tree trunks behind; exactly one girl and one caterpillar",
+   "motion": "the blue caterpillar is the only one who moves, and the girl holds still: at the start the mouthpiece is held in its front leg and a thin curl of smoke rises from its mouth; over the first three seconds it lifts the mouthpiece slowly to its mouth, draws on it, and lowers it again, a fresh slow curl of pale smoke rising and spreading above its head, its small round eyes staying on the girl; in the last two seconds it holds with the mouthpiece lowered and the smoke thinning; the girl keeps both hands on the stalk and her face tipped up, her feet on tiptoe; the mushroom, the ferns and the tree trunks hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈 정원에 젖은 붓과 장미만 남는다.",
-   "anchor": false,
-   "visual": "an empty garden path with a dropped dripping brush beside half-painted roses, hedges beyond",
-   "motion": "paint drips off the brush into the gravel, rose heads nod, hedge shadows swing"
+   "cast": [
+    "cheshire",
+    "alice",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "나뭇가지 위 체셔 고양이가 앨리스에게 씩 웃어 보인다",
+   "visual": "soft daylight in the wood: the plump grey cat with the dark stripes and the very wide toothy grin is the one sitting on a wide bough of a thick tree at frame right above the girl's head, its tail curled round its paws, its green eyes and its wide grin turned down to her; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing on the path at frame left below the bough with her hands clasped behind her back and her round face tipped up toward the cat, her mouth a little open; tall mushrooms and ferns along the path; exactly one girl and one cat",
+   "motion": "the grinning cat is the only one who moves, and the girl holds still: at the start the cat sits on the bough with its tail curled round its paws and its grin turned down to her; over the first three seconds the tip of its tail lifts slowly and waves once from side to side, its head tilting slowly to one side with the grin staying just as wide, its green eyes half closing; in the last two seconds the tail settles back round its paws and its head holds tilted; the girl keeps her hands clasped behind her back and her face tipped up, her feet planted on the path; the bough, the tall mushrooms and the ferns hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "hatter",
+    "hare",
+    "dormouse",
+    "alice",
+    "tea_table",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "모자 장수의 다과회에서 앨리스가 자리를 못 얻는다",
+   "visual": "soft daylight at the long table set outdoors under the tree: the thin man in the tall black top hat with the spotted bow tie and the checked coat is the one sitting at the near end of the table at frame right with both arms flung wide over the teacups, his long pale face turned to the girl with his mouth open; the brown hare standing upright in the patched waistcoat is the one sitting beside him with a teacup raised; the small round brown dormouse is the one curled asleep on the table between two teapots; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing at the far side of the table at frame left with one hand on the back of an empty-looking chair pulled out from the table, her round face turned to the man in the hat; teapots, plates of bread and butter and many cups along the table; exactly one girl, one man, one hare and one dormouse",
+   "motion": "the man in the top hat is the only one who moves, and the girl, the hare and the dormouse hold still: at the start both his arms are flung wide over the teacups and his mouth is open; over the first two seconds his arms sweep slowly further out to either side over the table, his top hat tilting on his head, his mouth opening wider as he speaks, his eyebrows rising; in the last two seconds he holds with his arms spread and his mouth open; the hare keeps its teacup raised, its ears up; the dormouse stays curled between the teapots; the girl keeps her hand on the chair back and her face turned to him; the teapots, the plates, the cups and the tree hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "cards",
+    "alice",
+    "rose_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "정원에서 카드 병정들이 흰 장미를 붉게 칠한다",
+   "visual": "soft daylight in the formal garden by the tall white rose tree: the three flat men shaped as tall playing cards with the red hearts on their white fronts are the ones standing round the rose tree at frame right, all three of them standing upright with brushes raised to the white blooms, the pot of red paint standing on the grass at their flat feet, half the blooms on the tree already painted red; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing at frame left at the edge of the path with her hands clasped in front of her pinafore and her round face turned to the painters; trimmed hedges behind; exactly one girl and three flat card men, and every painter is a flat card man",
+   "motion": "the three card men are the ones who move, and the girl holds still: at the start all three brushes are raised to the white blooms; over the first three seconds the two raised brushes stroke slowly across two white blooms, the blooms turning red under the bristles, and the third brush strokes slowly across a third bloom, the flat card bodies tilting stiffly as they move; in the last two seconds all three brushes hold against the blooms; the girl keeps her hands clasped and her face turned to them, her feet planted on the path; the rose tree, the paint pot and the hedges hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "queen",
+    "king",
+    "cards",
+    "alice",
+    "rose_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "하트 여왕의 행렬이 정원에 들이닥친다",
+   "visual": "soft daylight in the formal garden: the stout queen in the wide gown of red and black patterned with red hearts and the small gold crown is the one standing at frame centre with one arm thrust straight out pointing at the girl, her furious red face with the mouth wide open; the small king in the red robe with the white fur collar is the one standing a step behind her at frame right with his hands folded and his mild worried face; the three flat card men are the ones standing in a stiff row behind them both; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing at frame left with her hands clasped in front of her pinafore and her chin up, her round face calm; the white rose tree with its half-painted blooms at the edge of the frame; exactly one girl, one queen, one king and three card men",
+   "motion": "the stout queen is the only one who moves, and the king, the card men and the girl hold still: at the start her arm is thrust straight out pointing at the girl and her mouth is wide open; over the first two seconds she stamps one foot slowly on the grass, her whole wide gown shaking, her pointing arm jabbing twice toward the girl, her crown tipping a little on her dark hair; in the last two seconds she holds with the arm out and the mouth open; the king keeps his hands folded and his worried face; the card men stay in their stiff row; the girl keeps her hands clasped and her chin up; the rose tree and the hedges hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "alice",
+    "flamingo",
+    "queen",
+    "croquet_ground",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "여왕의 크로케는 플라밍고가 방망이, 고슴도치가 공이다",
+   "visual": "soft daylight on the lawn of ridges and furrows with the arched wire hoops: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing at frame left holding the pink flamingo upside down by its legs with both hands, its long curved neck bent up toward her face and its black-tipped beak level with her nose, her round face turned to it with her mouth open; a small brown hedgehog curled into a ball on the grass at her feet in front of a wire hoop; the stout queen in the red and black gown is the one standing at frame right with her arms folded and her furious red face turned to the girl; trimmed hedges behind; exactly one girl, one queen and one flamingo",
+   "motion": "the flamingo is the only thing that moves, and the girl holding it and the queen hold still: at the start the flamingo's neck is bent up with its beak level with the girl's nose; over the first three seconds its long neck twists slowly round to the other side of her head and back again, its beak opening and closing twice, its legs staying gripped in her hands; in the last two seconds the neck holds bent up before her face; the girl keeps both hands on the legs and her mouth open; the hedgehog stays curled at her feet; the queen keeps her arms folded and her face turned to the girl; the wire hoops, the ridged lawn and the hedges hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "king",
+    "queen",
+    "alice",
+    "courtroom"
+   ],
+   "refs": [],
+   "beat": "여왕이 앨리스를 하트 잭의 재판정으로 불러 세운다",
+   "visual": "dim light inside the great hall of dark wood set with the high bench: the small king in the red robe with the white fur collar and the gold crown and the stout queen in the red and black gown are the ones seated side by side on the two thrones on the high bench at the back of the frame, the queen's furious red face turned down and her arm pointing at the girl, the king peering over a long scroll; the jury box of small animals with their slates at frame right; the table with the dish of tarts at frame centre; the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing small at frame left below the bench with her hands at her sides and her round face lifted to the thrones; exactly one girl, one king and one queen, and the small animals of the jury",
+   "motion": "the queen on the throne is the only one who moves, and the king, the girl and the jury hold still: at the start her arm points down at the girl and her mouth is open; over the first two seconds her pointing arm swings slowly from the girl to the dish of tarts on the table and back to the girl, her crown tipping, her mouth working as she speaks; in the last two seconds the arm holds pointing at the girl; the king keeps peering over his scroll; the small animals in the jury box stay bent over their slates; the girl keeps her hands at her sides and her face lifted; the dish of tarts, the bench and the thrones hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "alice",
+    "king",
+    "queen",
+    "courtroom"
+   ],
+   "refs": [],
+   "beat": "증인석에서 앨리스가 다시 커지기 시작한다",
+   "visual": "dim light inside the great hall of dark wood set with the high bench: the girl of seven with the long fair hair held by the black band, the pale blue dress and the white pinafore is the one standing in a small railed witness box at frame centre, already grown so that her head is level with the high bench and the box tight round her hips, her hands gripping its rail, her round face turned up toward the thrones with her chin lifted; the small king and the stout queen are the ones seated on the thrones on the high bench at frame right, the queen's arm pointing at the girl and the king shrinking back in his throne; the jury box of small animals at the left edge, the dish of tarts on its table below; exactly one girl, one king and one queen, and the small animals of the jury",
+   "motion": "the girl in the witness box is the one who moves, and the king, the queen and the jury hold still: at the start her head is level with the high bench and her hands grip the rail; over the first three seconds she grows slowly taller, her head rising past the level of the bench by a hand's width, the rail of the box creaking lower against her hips, her chin lifting higher toward the thrones; in the last two seconds she holds at that height with her hands still on the rail; the queen keeps her arm pointing and her mouth open; the king stays shrunk back in his throne; the jury animals stay bent over their slates; the bench, the thrones and the dish of tarts hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "riverbank",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "강둑의 풀밭에 펼쳐진 책만 남는다",
+   "visual": "soft summer light on the grassy bank beside the slow river: an open book is the one lying face up on the grass at frame centre with its pages stirring, a loose daisy chain lying beside it; the willow branches trailing into the slow water behind, the river running away to the right; the bank lies quiet in the afternoon light",
+   "motion": "nothing but the pages and the willow moves: over the whole five seconds a light breeze turns the top page of the open book slowly over and lets it settle flat, and then lifts its corner again without turning it, the daisy chain beside the book not stirring on the grass; the willow branches sway very slightly over the water and the water moves past in slow smooth ripples from left to right; the grass of the bank, the roots of the willow, the far side of the river and the pale sky hold completely still; the light does not change over the five seconds; the bank stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "여왕의 재판에서 벌어지는 소동과, 소녀가 눈을 뜨는 마지막"
+ ]
 }

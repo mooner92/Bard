@@ -1,0 +1,184 @@
+{
+ "logline": "2035년, 스스로 말에서 떨어진 휴머노이드 기수와 안락사를 앞둔 경주마, 그리고 로봇을 사랑하는 소녀 — 천천히 달리는 법을 배우는 이야기",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "collie",
+ "setting": "2035년 서울 — 휴머노이드 기수가 말을 타는 경마장과 오래된 마구간, 아파트 지하 작업실, 노을 지는 한강 공원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/cheon_gaeui_parang/assets",
+ "anchor": "a small slender humanoid robot jockey with a smooth pale sage-green body shell and two round dark lens eyes",
+ "palette": "soft sky blue, pale green, cream, warm beige, muted grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "마지막 경주의 결과와 앞날, 사고의 경위",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "collie",
+    "racetrack"
+   ],
+   "refs": [],
+   "beat": "2035년, 사람 대신 휴머노이드가 말을 타는 경마장",
+   "visual": "a bright late-summer afternoon at the wide near-future racetrack: a field of five racehorses thunders along the raked pale dirt toward the camera in a tight group, and on every horse rides a small slender humanoid robot jockey in plain cream silks, crouched low and perfectly still over the neck; the nearest robot at frame centre has a smooth pale sage-green body shell and a rounded head with two round dark lens eyes; dust lifts in long pale plumes behind the hooves; the smooth white rails curve away on both sides, and the long low grandstands sit far off and soft in the haze; the pale open sky with drifting clouds fills the top of the frame; the light is hard and bright, the whole race fast and mechanical; a row of small white flags flutters on thin poles along the inner rail, and the far starting gates stand open and silver",
+   "motion": "the field of horses gallops toward the camera, and that galloping is the one movement in the shot: at the start the tight group of five horses is in the middle distance on the pale dirt; over the whole five seconds they pound steadily nearer, their legs reaching and folding in a fast rhythm, their manes streaming back and the pale dust rising in long plumes behind the hooves, while the small robot jockeys stay crouched low and motionless over the necks, the green one at frame centre steady among them; the white rails, the far grandstands and the pale sky with its drifting clouds stay completely still; the small white flags along the inner rail flutter lightly on their thin poles; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot from the edge of the track, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "racetrack"
+   ],
+   "refs": [],
+   "beat": "시속 100킬로미터를 향해 달리는 말들",
+   "visual": "a close low view beside the white rail of the racetrack as the racehorses sweep past at full speed: the frame is filled with powerful dark legs and hooves stretched in mid-stride over the raked pale dirt, clods of dirt flung up behind them, the bodies of the horses a long blur of glossy brown and black running from left to right; above the backs of the horses only the slim knees and plain cream silks of the small robot jockeys show at the top edge of the frame; the smooth white rail runs across the foreground; the far grandstands are a soft pale band at the top of the frame under the bright sky; the light is hard and the motion fierce, speed pushed past what a body can carry; a thin line of dust hangs in the air along the rail, and the shadows of the legs flicker long and dark across the dirt",
+   "motion": "the horses' legs stretch and fold as they race past the rail, and that striding is the one movement in the shot: at the start the dark legs reach forward in a long stride; over the whole five seconds they keep sweeping past from left to right in a fast unbroken rhythm, hooves striking the pale dirt and flinging small clods up behind, the glossy bodies streaming through the top of the frame and the long shadows flickering across the ground; the white rail in the foreground, the pale band of the far grandstands and the bright sky stay completely still; the thin line of dust along the rail hangs and drifts; the long flickering shadows of the legs keep their slant across the pale dirt; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a low close shot beside the rail, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "today",
+    "stable"
+   ],
+   "refs": [],
+   "beat": "관절이 닳은 말은 금세 다른 말로 바뀐다",
+   "visual": "the old horse stable in the late afternoon: the tall lean dark bay racehorse with the narrow white blaze stands alone in an open wooden stall at frame centre, facing the camera in three-quarter view, its head lowered, its weight shifted off its slightly swollen front knees, which are wrapped in plain pale bandages; its soft dark eyes are half closed; in the neighbouring stall at frame right a sleek young chestnut horse stands tall and glossy, freshly groomed, a shining new halter on its head; golden straw covers the floor; warm dusty light falls through the high small windows in long slanting beams; the row of wooden stalls stretches away into shadow; the mood is quiet and heavy, one runner already being replaced; a worn leather saddle hangs on a peg by the stall, and a bucket of water stands untouched in the straw",
+   "motion": "the old bay horse shifts its weight slowly from one sore front leg to the other, and that shifting is the one movement in the shot: at the start it stands with its head lowered and its weight held off the bandaged knees; over the whole five seconds it eases its weight carefully onto one front leg and then back, its head dipping a little lower and its ears turning slowly back, its flank rising and sinking with a long breath; the young chestnut horse in the next stall stays standing quietly where it is with its new halter gleaming; the golden straw, the wooden stalls, the hanging saddle and the untouched bucket stay completely still; the long slanting beams of light hold steady; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the stall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "collie",
+    "racetrack"
+   ],
+   "refs": [],
+   "beat": "하늘을 올려다볼 줄 아는 휴머노이드 기수",
+   "visual": "early evening at the edge of the racetrack after the races: the small slender humanoid robot jockey with the smooth pale sage-green body shell sits perched on top of the smooth white rail at frame centre, seen in three-quarter view, its thin legs dangling, its plain cream helmet in its lap; its rounded head is tipped back and its two round dark lens eyes are turned up toward the wide sky, which is washed in soft blue and gold with long drifting clouds; the raked pale dirt of the empty track stretches away below, and the low grandstands stand far off and quiet; a soft breeze stirs the cream silks; the light is gentle and fading, the whole scene hushed, a machine looking at something no one asked it to see; a single small white paper kite hangs far up in the sky, and long shadows of the rail posts stripe the dirt",
+   "motion": "the drifting clouds slide slowly across the evening sky above the robot, and that drifting is the one movement in the shot: at the start the long soft clouds hang over the far grandstands; over the whole five seconds they glide slowly to the left across the blue and gold sky, their edges brightening and softening as the light changes, while the small green robot sits perched on the rail with its head tipped back and its round lens eyes following them, only the loose cream silks stirring in the breeze; the white rail, the empty pale track and the far grandstands stay completely still; the small white paper kite hangs high in the sky and the long rail shadows hold their stripes on the dirt; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the robot on the rail, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "today",
+    "collie",
+    "stable"
+   ],
+   "refs": [],
+   "beat": "단짝 경주마 투데이, 안락사를 앞두다",
+   "visual": "night in the old horse stable, lit by one warm bulb: the tall lean dark bay racehorse with the narrow white blaze stands in its stall at frame left, its head lowered over the stall door, its swollen front knees wrapped in plain pale bandages; standing on an upturned wooden crate just outside the stall at frame right, the small slender humanoid robot jockey with the smooth pale sage-green body shell reaches up with one thin hand and rests it flat on the horse's long face, between the soft dark eyes; the horse leans its forehead gently into the small hand; golden straw lies on the floor and the rest of the stable falls away into warm darkness; the mood is tender and sad, two runners who share the same track; a folded horse blanket lies over the stall door, and a single loose feather of straw drifts in the light of the bulb",
+   "motion": "the horse leans its long face slowly into the robot's small hand, and that leaning is the one movement in the shot: at the start the robot's thin hand rests flat between the horse's eyes; over the whole five seconds the horse presses its forehead gently forward into the hand and lets its eyes close halfway, its nostrils widening with a slow breath and its ears easing back, while the small green robot stands steady on the crate with its hand held still and its round lens eyes fixed on the horse's face; the warm bulb, the golden straw, the folded blanket on the stall door and the dark stable beyond stay completely still; the loose wisp of straw drifts slowly down through the light; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium close shot at the stall door, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "collie",
+    "today",
+    "racetrack"
+   ],
+   "refs": [],
+   "beat": "늦여름 경기 날, 스스로 말에서 떨어진 기수",
+   "visual": "a late-summer race day seen from low on the track looking up: against a vast bright blue sky with drifting white clouds, the small slender humanoid robot jockey with the smooth pale sage-green body shell floats free in mid-air just above and behind the galloping dark bay racehorse, nothing above it but open sky, having let go of the reins, its thin arms open and loose at its sides, its rounded head tipped back so that its two round dark lens eyes look straight up into the sky; the horse below runs on along the pale dirt with the reins trailing; a faint streak of dust hangs behind the hooves; the white rail cuts across the bottom corner of the frame; the moment is suspended and strangely calm, a slow fall away from the sky; the plain cream helmet tumbles slowly a little apart from the robot in the air, and the white flags along the rail stand out against the blue",
+   "motion": "the robot drifts slowly downward through the air beneath the bright sky, and that slow sinking is the one movement in the shot: at the start it floats free just above the horse's back with its arms open; over the whole five seconds it sinks very slowly and gently, a hand's width at a time, its loose cream silks fluttering and its round lens eyes staying turned up to the sky the whole time, while the dark bay horse beneath runs steadily on along the pale dirt with the trailing reins swinging; the plain cream helmet turns slowly in the air beside the robot; the white rail and the white flags stay completely still; the drifting clouds hold their place in the blue; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a low wide shot looking up from the track, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "collie_broken"
+   ],
+   "refs": [],
+   "beat": "하반신이 부서져 폐기를 앞둔 기수",
+   "visual": "a dim storage room under the grandstand at night, lit by a single bare bulb: the small slender humanoid robot with the scuffed pale sage-green body shell sits slumped against a concrete wall at frame centre among stacked old metal parts and dusty plastic crates, its torn plain cream jockey silks hanging loose, its thin legs bent awkwardly to one side with cracked casing at the hips; its rounded head is tilted forward, its two round dark lens eyes glowing a faint dim light; a coil of grey cable and a pile of discarded robot arms lie on the floor beside it; the concrete walls are bare and stained; the mood is still and forgotten, a machine set aside to be thrown away; a single moth circles the bare bulb, and a narrow strip of evening sky shows through a small high vent in the wall",
+   "motion": "the faint light in the robot's round lens eyes pulses slowly brighter and dimmer, and that pulsing glow is the one movement in the shot: at the start the two lens eyes glow a faint dim light; over the whole five seconds the glow swells softly brighter, lighting the scuffed green shell of its cheeks, and sinks back again, while its slumped body, its bent legs and its tilted head stay completely still against the wall; the stacked metal parts, the dusty crates, the coil of grey cable and the pile of old robot arms stay completely still; the single moth circles slowly around the bare bulb; the narrow strip of evening sky in the high vent holds its colour; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the robot against the wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "yeonjae",
+    "collie_broken",
+    "workshop"
+   ],
+   "refs": [],
+   "beat": "로봇에만 마음을 쏟는 소녀 연재와 만나다",
+   "visual": "late night in the small cluttered basement workshop: the slim Korean teenage girl with the short black bob, in her loose grey hoodie and worn work gloves, kneels on the concrete floor at frame left in three-quarter view, a small flashlight in one hand, leaning close to look at the small slender robot with the scuffed pale sage-green body shell, which sits propped against the leg of the long workbench at frame right; her thoughtful face is lit by the flashlight, her bright dark eyes wide with interest, and the robot's two round dark lens eyes glow faintly back at her; the workbench above is crowded with tools, wires and loose robot parts under the single hanging work lamp; shelves of plain grey plastic bins line the wall; the mood is curious and quiet, the first meeting of two odd things; a small screwdriver lies on the floor between them, and a mug of cold tea sits on the bench edge",
+   "motion": "the girl leans slowly closer to the robot with her flashlight, and that leaning is the one movement in the shot: at the start she kneels a little back from the robot with the small beam on its shell; over the whole five seconds she leans in slowly, the circle of light sliding up over the scuffed green chest to the rounded head, her eyes widening with interest, while the robot's two round lens eyes glow a little brighter in answer and its head stays tilted exactly where it is; the long workbench, the tools and loose parts, the hanging work lamp and the shelves of grey bins stay completely still; the small screwdriver on the floor and the mug of cold tea stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at floor level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "yeonjae",
+    "collie_broken",
+    "workshop"
+   ],
+   "refs": [],
+   "beat": "브로콜리를 닮은 몸빛, 콜리라는 이름",
+   "visual": "the basement workshop under the warm hanging work lamp: the small slender robot with the scuffed pale sage-green body shell sits on the long workbench at frame right, its thin legs folded under a soft grey blanket, its rounded head turned toward the girl; the slim Korean teenage girl with the short black bob stands at the bench at frame left in her loose grey hoodie, holding up a fresh green head of broccoli beside the robot's shoulder to compare the colours, a small delighted smile on her face for the first time; the two greens match almost exactly; tools, wires and loose parts are pushed aside on the bench; shelves of plain grey plastic bins line the wall behind; the light is warm and close; the mood is gentle and a little funny, a name being found; a small cardboard tray of spare bolts sits by the robot, and a strip of tape is stuck to the robot's scuffed hip",
+   "motion": "the girl turns the head of broccoli slowly beside the robot's shoulder, and that turning is the one movement in the shot: at the start she holds the broccoli still next to the green shell; over the whole five seconds she rotates it slowly in her fingers, its little green florets catching the warm lamplight and its colour matching the robot's shell, her small smile widening, while the robot's rounded head tilts very slightly toward the broccoli and its round lens eyes glow softly; the robot's folded legs under the grey blanket, the long workbench, the pushed-aside tools and the grey bins stay completely still; the tray of spare bolts and the strip of tape on the robot's hip stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the workbench, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "eunhye",
+    "home"
+   ],
+   "refs": [],
+   "beat": "기계 다리 대신 휠체어로 세상을 다니는 언니 은혜",
+   "visual": "a bright weekday morning at the entrance of an old Seoul apartment block: the Korean young woman with long straight black hair tied back, in her soft oatmeal knitted cardigan, sits in her lightweight dark grey manual wheelchair on the pavement at frame centre, facing a short flight of three steep concrete steps that rise to the glass entrance door, seen in three-quarter view from the side; her hands rest on the wheel rims and her warm calm face looks up the steps with quiet patience; the steps are worn at the edges, a plain metal handrail running up one side; a row of potted plants stands along the wall; morning sunlight falls across the pavement; the mood is calm and plain, the world one step too high; a small canvas tote bag hangs from the back of the wheelchair, and a sparrow hops on the top step",
+   "motion": "the young woman's hands turn the wheel rims a little forward and back, and that small rocking is the one movement in the shot: at the start her hands rest on the rims at the foot of the steps; over the whole five seconds she rolls the wheelchair a few centimetres forward toward the first step and then eases it back again, her calm face still lifted toward the glass door at the top and her hair stirring slightly, while the three steep steps, the metal handrail and the glass door stay completely still; the row of potted plants along the wall and the bright pavement stay still; the canvas tote bag on the back of the chair sways a little with the rocking; the sparrow on the top step hops once and settles; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from the pavement, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "bogyeong",
+    "home"
+   ],
+   "refs": [],
+   "beat": "동반자를 잃고 멈춘 시간 속에 사는 엄마 보경",
+   "visual": "evening in the small modest Seoul apartment: the Korean mother with a smooth youthful face, faint tiredness under her eyes and a short practical black bob with only a few fine grey strands, in her faded navy cardigan, sits alone at the little kitchen table by the window at frame centre, seen in three-quarter view, both hands wrapped around a cup of barley tea that has gone cold, her gentle quiet face turned toward the narrow front hallway; by the front door in the hallway at frame right stands a single pair of large worn work boots, dusty and laced, set neatly side by side on the mat by the door; the window behind her glows with the last orange light; a few plants sit on the sill; the room is tidy and very still; the mood is quiet and suspended, a home holding its breath; a small stack of plain envelopes rests on the table edge, and a second cup sits upside down on the dish rack",
+   "motion": "a faint pale band of evening light from the window slides slowly across the kitchen table, and that sliding light is the one movement in the shot: at the start the faint pale band lies softly over the woman's hands and the cold cup, the colours of the room exactly as they are; over the whole five seconds it creeps slowly off the table and up the hallway wall toward the front door, dimming as it goes, until it rests softly on the pair of worn work boots; her navy cardigan and the pale walls keep their own colours the whole time, never tinted, while the woman sits still at the table with her hands around the cup and her face turned toward the hallway, only her shoulders rising with one slow breath; the boots, the plants on the sill, the stack of plain envelopes and the upturned cup on the rack stay completely still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot of the kitchen and hallway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "collie_home",
+    "eunhye",
+    "home"
+   ],
+   "refs": [],
+   "beat": "보경의 가족 곁에서 천천히 사는 법을 배우다",
+   "visual": "a warm evening in the small modest Seoul apartment living room: the small slender humanoid robot with the smooth pale sage-green body shell, a soft grey knitted scarf around its neck, sits on the low sofa at frame left with a soft grey blanket over its folded legs; beside the sofa the Korean young woman with long straight black hair, in her soft oatmeal cardigan and her dark grey wheelchair, leans toward the robot holding open a large picture book of horses and skies so it can see the pages, which show only painted pictures; the robot's round lens eyes are turned down to the picture of a wide blue sky; warm lamplight fills the room; a few plants sit on the windowsill and the city lights glimmer outside; the mood is gentle and homely; a bowl of tangerines sits on the low table, and a folded blanket lies over the sofa arm",
+   "motion": "the young woman turns one page of the big picture book slowly, and that turning page is the one movement in the shot: at the start she holds the book open toward the robot at a painted picture of a wide blue sky; over the whole five seconds she lifts the corner of the page and turns it slowly over to a painted picture of horses running in a green field, the paper curving and settling, her calm face softening into a smile, while the small green robot sits still on the sofa with its round lens eyes following the turning page and its head tilting very slightly; the robot's blanketed legs, the low sofa, the warm lamp, the plants on the sill and the far city lights stay completely still; the bowl of tangerines and the folded blanket stay still; the camera holds a medium shot of the sofa, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "yeonjae",
+    "collie_home",
+    "hanriver"
+   ],
+   "refs": [],
+   "beat": "천천히 달리는 연습, 작가가 시작한 한 문장",
+   "visual": "sunset at the Han River park: the slim Korean teenage girl with the short black bob, in her loose grey hoodie, and the small slender humanoid robot with the smooth pale sage-green body shell, its soft grey blanket over its folded legs, sit side by side on the low green grass of the riverbank at frame centre, seen from behind, the robot's head reaching only to the girl's shoulder; together they look out over the broad river, whose whole surface is broken into countless small waves, each one catching a different shade of blue, violet and orange from the sky; the long bridges stand far off in the glowing haze; a wide riverside path runs behind them; the light is soft and golden; the mood is calm and unhurried, two small figures watching the light; a bicycle lies on its side in the grass beside them, and a few dandelion seeds float in the warm air",
+   "motion": "the countless small waves on the broad river glitter and shift in the sunset light, and that glittering is the one movement in the shot: at the start the river surface shines with scattered points of blue, violet and orange; over the whole five seconds the small waves roll slowly toward the bank, each crest catching the light and letting it go, the thousand glints shifting and trembling across the water, while the girl and the small green robot sit perfectly still on the grass with their backs to camera, only the girl's short hair lifting a little in the breeze; the long far bridges, the riverside path and the glowing sky stay completely still; the bicycle in the grass stays still and the dandelion seeds drift slowly; the camera holds a medium wide shot from behind them, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "collie_home",
+    "today",
+    "stable"
+   ],
+   "refs": [],
+   "beat": "빠르지 않아도 되는 세상에 닿을 수 있을까",
+   "visual": "early morning in the old horse stable, the big doors open onto a misty green field: the tall lean dark bay racehorse with the narrow white blaze stands just inside the open doorway at frame centre, facing out toward the soft green field, its bandaged front knees steady; beside its shoulder at frame left, the small slender humanoid robot with the smooth pale sage-green body shell, wrapped in its soft grey knitted scarf, sits on a low wooden crate with a soft grey blanket over its folded legs and one thin hand reaching up to rest lightly on the horse's neck; both are seen in three-quarter view from behind, looking out at the field together; the morning mist lies low over the grass and the sky above is a clear pale blue; golden straw covers the stable floor behind them; the light is fresh and new; the mood is hopeful and still uncertain; a halter hangs loose on a peg by the door, and a few swallows skim low over the misty grass",
+   "motion": "the low morning mist drifts slowly across the green field beyond the open doors, and that drifting mist is the one movement in the shot: at the start the soft white mist lies thick over the grass; over the whole five seconds it rolls slowly to the right and thins a little, the green of the field showing through more and more and the pale light growing brighter, while the dark bay horse stands and the small green robot sits still in the doorway with their backs to camera, only the horse's tail swishing gently and the grey scarf stirring; the stable doors, the golden straw and the loose halter on its peg stay completely still; the swallows skim low over the grass in the distance; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from inside the stable, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "racetrack"
+   ],
+   "refs": [],
+   "beat": "마무리 — 아침 경마장의 흰 난간과 하늘",
+   "visual": "a quiet closing still of the near-future racetrack at dawn, with no figure anywhere: the smooth white rail runs across the lower part of the frame in a long gentle curve, beaded with morning dew, and beyond it the raked pale dirt of the track lies smooth and untouched, freshly combed; the long low grandstands sit far off and soft in the early haze; above, the pale open sky fills most of the frame, a clean washed blue warming to gold at the horizon, with a few long drifting clouds catching the first light; a small tuft of wild white clover grows at the foot of a rail post at frame right; the light is soft, cool and new; the scene holds the morning before any race begins; a single swallow sits on the rail near the clover, and the far starting gates stand closed, plain and silver with smooth blank panels",
+   "motion": "the long drifting clouds glide slowly across the dawn sky above the racetrack, and that drifting is the one movement in the shot: at the start the clouds drift low near the far grandstands; over the whole five seconds they slide slowly to the left across the pale sky, their edges warming to gold as the first light touches them, while the dew on the white rail glints softly and the raked pale dirt lies smooth and still; the white rail, the tuft of clover at the post, the far grandstands and the closed silver starting gates stay completely still; the small swallow on the rail sits still with its feathers settled; the beads of dew along the white rail glint softly and stay in place; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide still shot over the rail, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

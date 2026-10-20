@@ -1,0 +1,200 @@
+{
+ "logline": "어릴 적 부모끼리 정혼한 정임과 영창이 초산 민란으로 헤어지고, 영창이 죽은 줄 알아 다른 혼처가 정해지자 정임은 한밤중에 집을 나와 바다 건너 도쿄의 여학교에서 자라는데, 가을 달밤 우에노 공원에서 칼을 든 사내에게 붙들린 순간 양복 차림의 낯선 청년이 달려와 그를 쓰러뜨리고 정임의 다친 팔을 감싼다",
+ "destination": "소설 추월색에서 만날 수 있습니다",
+ "protagonist": "jeongim",
+ "setting": "1900~1910년대 조선의 기와집과 초산, 밤 항구, 도쿄의 여학교와 가을 달밤의 우에노 공원 연못가",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/chuwolsaek/assets",
+ "anchor": "a slender Korean girl with black hair tied with a dull red ribbon, a pale oval face with dark eyes",
+ "palette": "dark blue, silver grey, off-white, dark brown, dull red",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "jeongim_child",
+    "yeongchang_child",
+    "courtyard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어릴 적 부모끼리 정혼을 약속한 정임과 영창",
+   "visual": "a clear day in the inner courtyard of the Korean tiled-roof house: the Korean girl of ten in the pale yellow jeogori and the long dull red skirt is the one sitting on the stone step of the wooden veranda at frame left, her two braids over her shoulders, a small pale blue cloth ball held in her lap with both hands, her round pale face turned up to the boy; the Korean boy of ten in the off-white jeogori, the grey trousers and the dark blue sleeveless vest is the one standing on the swept pale earth of the courtyard at frame right, his single short braid down his back, one hand holding a thin bamboo stick upright beside him, his round face with the smooth chin turned to the girl; only the girl sits, only the boy has a vest, two separate children a step apart; the low whitewashed wall with the small bare-branched tree behind them, the large earthen jar in the corner at the far right, the clear pale sky above the tiled eaves",
+   "motion": "the Korean boy of ten in the off-white jeogori and the dark blue vest standing on the courtyard earth is the only one who moves, and the girl on the step stays seated: at the start he stands with the thin bamboo stick held upright beside him and his face turned to the girl; over the first two seconds he bends his knees slowly and crouches down in front of the girl so that his face comes level with hers, the bamboo stick tilting in his hand, the short braid swinging forward over his shoulder; in the last two seconds he holds crouched with the stick tilted and his face level with hers; the girl keeps the pale blue cloth ball in her lap with both hands, her braids still on her shoulders, her feet on the ground not shifting; the veranda, the stone step, the whitewashed wall, the bare-branched tree, the earthen jar and the clear sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "yeongchang_child",
+    "broken_gate",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "초산의 민란으로 하룻밤에 흩어진 영창의 집안",
+   "visual": "thin grey dawn in front of the broken wooden gate of the Korean tiled-roof house: the Korean boy of ten in the off-white jeogori, the grey trousers and the dark blue sleeveless vest is the one standing alone on the trampled ground at frame centre, his single short braid down his back, both arms hanging at his sides, his round face with the smooth chin turned toward the gate and seen in three-quarter profile, his straw sandals among scattered bowls and a torn quilt on the ground; the gate's one door hangs loose from its hinge at frame right, the torn paper screen flapping in the other door, a dark smear across the whitewashed wall at frame left, the low overcast dawn sky above the tiled roof; the ground and the gateway are bare of any other person",
+   "motion": "the Korean boy of ten in the off-white jeogori and the dark blue vest standing before the broken gate is the only one who moves: at the start both his arms hang at his sides and his face is turned toward the loose-hanging door; over the first two seconds his right hand lifts slowly to grip the front of his vest at his chest and his head turns slowly from the gate toward the scattered bowls on the ground beside his feet; in the last two seconds the hand holds gripping the vest and the head holds turned down; his feet in the straw sandals stay planted, no step, his left arm hanging still; the torn paper screen in the door stirs very slightly; the loose-hanging door, the scattered bowls, the torn quilt, the dark smear on the wall and the low overcast sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "mother",
+    "jeongim",
+    "girls_room"
+   ],
+   "refs": [],
+   "beat": "영창이 죽은 줄 알고 정임에게 다른 혼처를 정한 부모",
+   "visual": "inside the Korean girl's room in soft daylight through the paper door: the slender Korean girl of fifteen with the long single braid tied with the dull red ribbon, the white jeogori and the long pale blue skirt is the one kneeling on the woven straw mat at frame left beside the low black lacquered chest, her hands pressed together in her lap, her pale oval face turned down toward the mat; the Korean woman of forty in the pale grey jeogori and the long dark blue skirt with her hair in a low bun is the one standing at the open paper door at frame right, one hand holding a folded length of dull red silk cloth out toward the girl; only the girl kneels, only the woman holds cloth, only the girl has a braid; the folded quilt against the pale plaster wall behind, the small low table beside the chest, the straw mat covering the floor",
+   "motion": "the Korean woman of forty in the pale grey jeogori standing at the open paper door is the one who moves, and the kneeling girl only bows lower: at the start the woman holds the folded dull red silk cloth out toward the girl in one hand; over the first two seconds she steps one slow step forward into the room and lowers the folded silk slowly toward the mat in front of the girl's knees, the long dark blue skirt swaying; in the last two seconds she holds bent forward with the silk held just above the mat; the kneeling girl's head bows slowly a little lower, her braid sliding forward over her shoulder, her pressed hands staying in her lap, her knees not shifting; the black lacquered chest, the small low table, the folded quilt, the pale plaster walls and the soft daylight through the paper door hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "jeongim",
+    "bundle",
+    "korean_gate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "한밤중에 작은 보따리를 안고 집을 나서는 정임",
+   "visual": "night at the heavy wooden double gate of the Korean tiled-roof house: the slender Korean girl of fifteen with the long single braid tied with the dull red ribbon, the white jeogori and the long pale blue skirt is the one standing on the stone step in the gap of the ajar gate door at frame centre, her body turned to the dark lane beyond, her face turned back over her right shoulder toward the house side so that her pale oval face shows in three-quarter profile, the small square bundle wrapped in dull red cloth held against her chest with both arms, her white cloth shoes on the stone step; the dark timber posts of the gate on either side, the whitewashed walls pale in the faint light, the dark lane beyond the gap, the deep blue night sky with a few small pale stars above the tiled cap of the gate; the gate and the lane are bare of any other person",
+   "motion": "the slender Korean girl of fifteen in the white jeogori and the pale blue skirt standing in the gap of the gate is the only one who moves: at the start her face is turned back over her right shoulder toward the house and the dull red bundle is held against her chest; over the first three seconds she turns her head slowly forward to face the dark lane, her braid with the dull red ribbon sliding across her back, and takes one slow step down from the stone step onto the ground of the lane, the pale blue skirt swaying, the bundle held steady; in the last two seconds she comes to a stop just beyond the step, still well inside the frame, her face toward the lane; her arms keep the bundle against her chest; the ajar gate door, the timber posts, the whitewashed walls and the pale stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "jeongim",
+    "bundle",
+    "harbour",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "항구에 닿은 정임이 커다란 배에 오른다",
+   "visual": "night at the harbour: the slender Korean girl of fifteen with the long single braid tied with the dull red ribbon, the white jeogori and the long pale blue skirt is the one standing on the sloping wooden gangway at frame centre, halfway up, her body turned up the slope toward the deck at the upper right, her left hand on the rope rail, the small square bundle wrapped in dull red cloth held against her chest with her right arm, seen from the side so that her pale oval face shows in profile turned up the slope; the large black iron steamship's side rises at frame right above the gangway, the stone quay with coiled rope and wooden crates at the lower left, paper lanterns glowing dull yellow on the wooden posts along the quay, the dark still water below the gangway reflecting the lantern glow, the deep blue night sky above; the gangway and the quay are bare of any other person",
+   "motion": "the slender Korean girl of fifteen in the white jeogori and the pale blue skirt on the sloping gangway is the only one who moves: at the start she stands halfway up the slope with her left hand on the rope rail and the dull red bundle against her chest; over the first three seconds she takes two slow steps up the slope from left to right, her white cloth shoes lifting and setting down on the wooden cleats, her left hand sliding up along the rope rail, the pale blue skirt swaying, the braid swinging a little against her back; in the last two seconds she comes to a stop well inside the frame, still short of the deck, her hand on the rail; the bundle stays against her chest; the dull yellow glow of the paper lanterns stays steady and the dark water below moves in slow low ripples; the black ship's side, the stone quay, the coiled rope, the crates and the pale stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "jeongim_tokyo",
+    "school_corridor"
+   ],
+   "refs": [],
+   "beat": "도쿄의 여학교에서 책을 끼고 자라난 열여덟 살 정임",
+   "visual": "pale daylight in the long wooden corridor of the two-storey Japanese wooden building: the slender Korean young woman of eighteen in the dark purple pleated hakama over the grey-striped kimono, her black hair in the low bun tied with the dull red ribbon, is the one standing on the dark polished floorboards at frame centre with three dark cloth-bound books held against her chest with both arms, her body turned to the camera, her pale oval face turned a little to the right toward the tall wooden-framed glass windows that run along the right side of the corridor, her black laced boots on the boards; the corridor runs away behind her to a far wooden door, plain wooden walls and the wooden ceiling above, a wooden bench against the left wall, pale daylight lying in long stripes across the floorboards from the windows; the corridor is bare of any other person",
+   "motion": "the slender Korean young woman of eighteen in the dark purple hakama standing in the corridor is the only one who moves: at the start the three dark cloth-bound books are held against her chest with both arms and her face is turned a little to the right toward the windows; over the first two seconds she turns her head slowly from the windows to face the camera straight on and her arms tighten slowly around the books, lifting them a little higher against her chest, the dull red ribbon on her bun shifting with the turn; in the last two seconds the head holds facing the camera and the books hold high against her chest; her boots stay planted on the boards, no step, the pleats of the hakama hanging still; the stripes of pale daylight on the floorboards, the tall windows, the wooden walls, the bench and the far door hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "ganghanyeong",
+    "school_front",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "정임을 눈여겨본 유학생 강한영이 학교 문 앞을 서성인다",
+   "visual": "dusk in front of the wooden gate of the two-storey Japanese wooden building: the Korean man of twenty-five in the black high-collared coat with the row of black buttons and the black cap with the short shiny brim is the one standing on the gravel path at frame centre-right beside the bare-branched tree, his body turned sideways to the gate, his lean sallow face with the thin black moustache turned toward the gate at frame left, his narrow eyes fixed on it, both long thin hands clasped behind his back, his black shoes on the gravel; the low tiled wall runs behind him, the building's rows of glass windows dark above the wall, the dim dusk sky of dull violet grey above the roof; the path and the gateway are bare of any other person",
+   "motion": "the Korean man of twenty-five in the black high-collared coat and the black cap standing on the gravel path is the only one who moves: at the start he stands sideways to the gate with his hands clasped behind his back and his narrow eyes on the gate; over the first three seconds he takes two slow steps along the gravel from right to left toward the gate, his black shoes crunching on the gravel, his hands staying clasped behind his back, his face staying turned to the gate; in the last two seconds he comes to a stop well inside the frame still short of the gate, his feet planted; the bare-branched tree, the low tiled wall, the dark glass windows and the dull violet grey dusk sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "jeongim_tokyo",
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "가을 달밤, 우에노 공원 연못가를 홀로 걷는 정임",
+   "visual": "autumn night in the Tokyo park under the full round pale moon: the slender Korean young woman of eighteen in the dark purple pleated hakama over the grey-striped kimono, her black hair in the low bun tied with the dull red ribbon, is the one walking on the wide gravel path along the still dark pond at frame centre-left, seen from the side with her body turned to the right along the path, her pale oval face in profile turned a little toward the pond at frame right, both hands folded in front of her hakama, her black laced boots on the gravel among dry leaves; the low wooden railing at the water's edge, the still pond reflecting the pale silver light of the moon, bare-branched trees and dark pines on the far side of the path, the stone lantern beside the path behind her, the full moon high in the clear deep blue sky with a few small stars; the path is bare of any other person",
+   "motion": "the slender Korean young woman of eighteen in the dark purple hakama on the gravel path is the only one who moves: at the start she stands sideways to the camera with her hands folded in front of her hakama and her face in profile toward the pond; over the first three seconds she takes two slow steps along the gravel from left to right, her black laced boots lifting and setting down among the dry leaves, the pleats of the hakama swaying, her hands staying folded, her face staying toward the pond; in the last two seconds she comes to a stop well inside the frame beside the low wooden railing, her feet planted; the still pond's silver reflection of the moon wavers very slightly; the bare-branched trees, the dark pines, the stone lantern, the railing, the full moon and the small stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "ganghanyeong",
+    "jeongim_tokyo",
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "어둠 속에서 정임의 앞을 막아선 강한영의 손에 든 칼",
+   "visual": "autumn night on the gravel path of the Tokyo park under the full round pale moon: the Korean man of twenty-five in the black high-collared coat and the black cap is the one standing on the gravel at frame right, his body facing the young woman, the short straight knife with the dark wooden handle already raised in his right hand at the height of his chest with the narrow bright blade pointed up and catching the silver moonlight, his left hand open at his side, his lean sallow face with the thin black moustache turned to her; the slender Korean young woman of eighteen in the dark purple hakama is the one standing at frame left two steps from him, her body leaning back, both hands raised open in front of her chest, her pale oval face turned to him; two separate people, only he holds a knife; the low wooden railing and the still silver pond behind them, the full moon high in the deep blue sky",
+   "motion": "the slender Korean young woman of eighteen in the dark purple hakama at frame left is the one who moves, and the man in the black coat holds completely still with the knife already raised: at the start she leans back with both hands raised open in front of her chest; over the first two seconds she leans slowly further back from the waist and takes one slow step backward on the gravel away from him, her raised hands lifting a little higher with the fingers spread, the pleats of the hakama swaying, her face staying on him; in the last two seconds she holds leaning back with her hands up, still well inside the frame; the man's right hand keeps the knife raised at chest height with the blade pointed up, the blade staying completely motionless for the whole shot, his left hand at his side, his feet planted, his head not turning; the railing, the silver pond, the bare-branched trees, the stone lantern and the full moon hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "ganghanyeong",
+    "jeongim_tokyo",
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "강한영이 정임의 손목을 붙잡자 정임이 외친다",
+   "visual": "autumn night on the gravel path of the Tokyo park, closer: the Korean man of twenty-five in the black high-collared coat and the black cap is the one at frame right, his left hand gripping the right wrist of the young woman, his right hand holding the short straight knife with the dark wooden handle down at his hip with the narrow bright blade pointed at the ground, his lean sallow face with the thin black moustache thrust toward her; the slender Korean young woman of eighteen in the dark purple hakama is the one at frame left, her right arm pulled out straight toward him by his grip, her body twisted away from him, her left hand pressed against her own chest, her pale oval face turned toward the camera with her mouth wide open in a cry and her eyes wide; two separate people; the low wooden railing and the still silver pond behind, the full moon high in the deep blue sky",
+   "motion": "the slender Korean young woman of eighteen in the dark purple hakama at frame left is the one who moves, and the man in the black coat holds his grip: at the start her right arm is pulled straight by his grip and her mouth is wide open in a cry; over the first two seconds she twists her body slowly further away from him, pulling back against his grip so that her right arm stretches taut, her mouth staying wide open in the cry, her left hand pressing harder against her own chest, the dull red ribbon on her bun shifting; in the last two seconds she holds twisted away with her arm taut and her mouth open; the man's left hand keeps its grip on her wrist, his right hand keeps the knife down at his hip with the blade pointed at the ground and completely motionless, his feet planted, his face thrust toward her not turning; the railing, the silver pond and the full moon hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "young_man",
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "저편에서 누군가 자갈을 차며 정임 쪽으로 달려온다",
+   "visual": "autumn night on the wide gravel path of the Tokyo park under the full round pale moon: the Korean young man of twenty in the dark grey Western suit and the grey felt hat with the narrow brim is the one running on the gravel at frame right, seen from the side with his body leaning forward and turned to the left along the path, his right leg stretched forward in a long stride, his right arm swung forward and his left arm back, the tails of his suit jacket lifted behind him, his smooth beardless face turned to the left ahead of him under the hat brim, dry leaves lifting from the gravel behind his heels; the still silver pond and the low wooden railing along the left of the path, bare-branched trees and dark pines on the right, the stone lantern at the far left, the full moon high in the deep blue sky; the path ahead of him at frame left is bare of any other person",
+   "motion": "the Korean young man of twenty in the dark grey suit and the grey felt hat running on the gravel is the only one who moves: at the start he is in a long stride with his right leg forward and his body leaning to the left along the path; over the first three seconds he takes three long running strides from right to left along the gravel, his arms swinging, the tails of the jacket lifting behind him, dry leaves lifting from the gravel at his heels, then his strides shorten; in the last two seconds he slows to a stop well inside the frame at the centre of the path with his body still leaning forward and his hand rising to hold the brim of the felt hat; the lifted leaves settle back onto the gravel; the silver pond, the railing, the bare-branched trees, the stone lantern and the full moon hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "young_man",
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "달빛 아래 얼굴을 든 그 누군가는 양복 차림의 청년",
+   "visual": "autumn night in the Tokyo park, close on the Korean young man of twenty: his smooth beardless face with the straight nose and the steady dark eyes fills the upper middle of the frame at frame centre, the grey felt hat with the narrow brim pushed back a little on his short black hair, his head tilted slightly down with his eyes lifted straight into the camera, the full round pale moon's silver light on the left side of his face and the right side in soft shadow, the white collar and dark tie of the dark grey Western suit at the bottom of the frame, his breath faintly visible in the cold air; behind him, out of focus, the bare-branched trees and dark pines of the park and the silver glint of the still pond, the full moon itself high at the upper right corner of the frame in the deep blue sky; the face is plain and unmarked; the path behind him is bare of any other person",
+   "motion": "the Korean young man of twenty whose face fills the frame is the only one who moves, and only his head: at the start his head is tilted slightly down with his eyes lifted into the camera; over the first two seconds he raises his head slowly until his face is level and fully lit by the silver moonlight, the brim of the grey felt hat lifting with it, his steady dark eyes staying on the camera, his lips closed; in the last two seconds the head holds level and the eyes hold on the camera; his breath drifts faintly in the cold air and thins; the white collar and dark tie stay where they are, his shoulders level and not turning; the bare-branched trees, the dark pines, the silver glint of the pond and the full moon out of focus behind him hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "young_man",
+    "jeongim_tokyo",
+    "ganghanyeong",
+    "park"
+   ],
+   "refs": [],
+   "beat": "청년이 강한영을 쓰러뜨리고 정임의 다친 팔을 감싼다",
+   "visual": "autumn night on the gravel path of the Tokyo park under the full round pale moon: the Korean young man of twenty in the grey felt hat is the one kneeling on his right knee on the gravel beside the young woman, his two hands wrapping a white handkerchief around her right forearm; the slender Korean young woman of eighteen in the dark purple hakama is the one sitting on the gravel at frame centre-left, her right forearm held out to him with a dark stain on the grey-striped sleeve, her pale oval face turned to his; the man in the black coat and the black cap is the one lying face down on the gravel at the far left with the short straight knife on the gravel beside his open hand; three separate people, only the fallen man wears a cap; the silver pond behind, the full moon high in the deep blue sky",
+   "motion": "the Korean young man of twenty in the dark grey suit kneeling on the gravel is the one who moves, and the young woman and the fallen man hold still: at the start his two hands hold the white handkerchief around her right forearm; over the first three seconds his hands wind the white handkerchief slowly around and around her forearm over the dark stain on the sleeve, the loose end passing from one hand to the other, his face bent to the wrapping under the hat brim; in the last two seconds his hands hold the handkerchief in place and press it flat; the young woman keeps her right forearm held out to him, her face on his, her left hand on the gravel, her folded legs not shifting; the man in the black coat lying face down at the far left does not stir, his arms spread, the knife beside his open hand; the railing, the silver pond, the bare-branched trees and the full moon hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "jeongim_tokyo",
+    "young_man",
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "달빛 아래 정임을 구한 이 청년은 누구일까 (질문)",
+   "visual": "autumn night on the gravel path of the Tokyo park, close on the two: the slender Korean young woman of eighteen in the dark purple hakama over the grey-striped kimono, her hair in the low bun with the dull red ribbon, is the one at frame left, her pale oval face turned up in three-quarter profile toward the young man, her dark eyes wide, her lips parted, her right forearm wrapped in the white handkerchief held against her chest; the Korean young man of twenty in the dark grey Western suit and the grey felt hat with the narrow brim is the one at frame right, standing over her with his smooth beardless face turned down to her, his right hand held out open toward her; only he wears a hat, only she has a wrapped forearm, two separate people; the full round pale moon high in the deep blue sky behind them throwing silver light on both faces, the silver pond and the bare-branched trees out of focus behind",
+   "motion": "the slender Korean young woman of eighteen in the dark purple hakama at frame left is the one who moves, and the young man in the grey suit holds his hand out: at the start her face is turned up to him with her lips parted and her wrapped forearm held against her chest; over the first two seconds she lifts her left hand slowly from her chest and lays it in his open right hand, her wide dark eyes staying on his face, her lips staying parted; in the last two seconds her hand holds in his and her face holds turned up; her wrapped right forearm stays against her chest, her body not rising; the young man's open hand holds where it is and closes slowly over hers, his face staying turned down to her, his feet planted, the hat brim steady; the full moon, the silver pond and the bare-branched trees hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "park",
+    "moon_bg"
+   ],
+   "refs": [],
+   "beat": "달빛만 내린 연못가 (마무리)",
+   "visual": "autumn night in the Tokyo park: the full round pale moon hangs high at the upper centre of the frame in the clear deep blue sky with a few small stars, its silver light lying on the still dark pond that fills the middle of the frame, the moon's reflection a pale wavering disc on the water; the wide gravel path runs along the bottom of the frame with dry leaves lying on the gravel and the low wooden railing at the water's edge, the stone lantern standing at frame left, bare-branched trees and dark pines rising on both sides and on the far shore in silhouette; the path and the water are bare of any person",
+   "motion": "the still dark pond is the only thing that moves, and only its surface: at the start the moon's reflection lies as a pale disc on the water; over the first three seconds slow low ripples cross the pond from left to right so that the pale reflected disc wavers and stretches gently, the silver light on the water shifting; in the last two seconds the ripples ease and the reflected disc settles nearly round again; a single dry leaf on the gravel path stirs very slightly; the full moon itself, the small stars, the stone lantern, the low wooden railing, the dry leaves and the bare-branched trees and dark pines hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "달려온 청년의 정체(정혼자), 두 사람이 나란히 서는 결말"
+}

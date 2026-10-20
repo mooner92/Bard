@@ -1,0 +1,176 @@
+{
+ "logline": "할머니가 손에 쥔 채 세상을 떠난 고지도 한 장 — 일곱 요괴와 폐촌, 사당, 등을 돌린 석탑을 따라가는 대학생 구리하라의 조사",
+ "destination": "소설 이상한 지도에서 만날 수 있습니다",
+ "protagonist": "kurihara",
+ "setting": "2015년 일본 — 도쿄를 떠난 시골의 오래된 외가, 회색 바다와 산 사이의 해안가 폐촌, 소나무 숲속 사당",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/isanghan_jido/assets",
+ "anchor": "a slim young Japanese man with short neat black hair and thin-framed glasses in a plain dark navy coat",
+ "palette": "ash grey, faded indigo, pale ochre, off-white, muted green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "수기의 고백과 철도 사고의 진상, 가소코 마을의 전승, 지명의 뜻",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "kurihara",
+    "train"
+   ],
+   "refs": [],
+   "beat": "2015년, 아버지의 부름에 본가로 내려가는 대학생 구리하라",
+   "visual": "a Friday evening in 2015 on a quiet Japanese local train heading out of Tokyo: the slim young Japanese man with short neat black hair and thin-framed glasses, in his plain dark navy coat with a black backpack on the seat beside him, sits alone on the long blue upholstered bench at frame centre, seen in three-quarter view, his sharp pale face turned toward the wide window; outside the window the lights of the city have thinned into dark rice fields and small scattered houses under a deep blue dusk; the hanging straps sway gently overhead and the soft overhead light lies flat on the empty seats around him; the carriage is almost empty and very quiet; the mood is still and a little uneasy, a long ride toward something unknown; a paper cup of vending-machine coffee stands on the window ledge, and his phone rests face down on his knee",
+   "motion": "the dark rice fields and scattered house lights slide past the train window, and that sliding view is the one movement in the shot: at the start the window shows a few far house lights over the dark fields; over the whole five seconds the dusk landscape streams steadily past from right to left, small lights drifting across the glass and the line of low hills rolling by, while the young man sits still on the bench with his face turned to the window, only his eyes following the passing lights; the hanging straps sway very slightly with the motion of the carriage; the blue bench seats, the soft overhead light and the black backpack stay completely still; the paper cup on the ledge and the phone on his knee stay still; the camera holds a medium shot inside the carriage, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "kurihara",
+    "father",
+    "family_home"
+   ],
+   "refs": [],
+   "beat": "다섯 살 때 떠난 어머니의 본가가 아직 남아 있다",
+   "visual": "late night in the modest Japanese family home: the quiet Japanese father in his early fifties with a firm smooth face and short black hair lightly touched with grey at the temples, in his brown knitted cardigan, sits on a flat floor cushion at the low wooden table at frame left, facing the camera in three-quarter view, his patient face lowered, his hands folded around a cup of green tea; across the table at frame right sits the slim young Japanese man with thin-framed glasses, his navy coat off and his grey sweater sleeves pushed up, leaning forward on his elbows, his sharp face fixed on his father, eyes narrowed with attention; a soft standing lamp throws warm light over the table; the sliding glass door behind shows the small dark garden; the mood is hushed and serious, an old family story coming out at last; a small plate of rice crackers sits untouched between them, and a folded house key lies beside the father's cup",
+   "motion": "the father turns his cup of green tea slowly between his hands as he speaks, and that turning cup is the one movement in the shot: at the start he holds the cup still with his face lowered; over the whole five seconds he turns it slowly around in his fingers, a thin wisp of steam rising and curling from it, his eyes lifting a little toward his son and lowering again, while the young man across the table stays leaning forward on his elbows, perfectly still, his narrowed eyes fixed on his father; the soft standing lamp, the low table and the dark garden beyond the glass door stay completely still; the plate of rice crackers and the folded key stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the low table, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "kurihara",
+    "father",
+    "mother_house"
+   ],
+   "refs": [],
+   "beat": "처분하기 전, 부자가 함께 찾아간 어머니의 본가",
+   "visual": "a grey autumn afternoon in rural Japan: the old wooden country house stands at frame centre at the end of a narrow overgrown path, its dark timber walls weathered, its heavy tiled roof sagging a little, its sliding paper doors closed and yellowed; tall pale grass and wild shrubs have swallowed most of the garden; in the foreground, small on the path and seen from behind, the slim young Japanese man in the dark navy coat with the black backpack and the quiet father in the brown cardigan walk side by side toward the house; low grey sky presses down over the roof; a crooked persimmon tree beside the house holds a few late orange fruits; the light is flat and cold; the mood is still and expectant, a house that has kept something for years; a rusted bicycle leans against the side wall, and a stone lantern stands half buried in the grass",
+   "motion": "the tall pale grass of the overgrown garden sways slowly in a cold wind, and that swaying grass is the one movement in the shot: at the start the grass stands bent a little to one side around the path; over the whole five seconds a slow wind crosses the garden and the tall grass leans and rises in long soft waves toward the house, the few late fruits on the persimmon tree trembling on their stems, while the two men stand still on the path with their backs to camera, facing the house; the old house, its tiled roof and its closed paper doors stay completely still; the rusted bicycle against the wall and the half-buried stone lantern stay still; the low grey sky holds unchanged; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from behind them on the path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "kurihara",
+    "mother_house"
+   ],
+   "refs": [],
+   "beat": "집에 남은 단서로 할머니의 죽음을 짚어 내다",
+   "visual": "inside the old wooden country house, a dim faded tatami room lit only by the grey daylight through a half-open paper door: the slim young Japanese man with short neat black hair and thin-framed glasses crouches at frame centre beside a low wooden writing desk against the wall, seen in three-quarter view, one hand resting on the edge of the desk, the other holding a small flashlight whose beam lies across the scratched surface of the tatami beside it; his sharp pale face is intent, his narrow eyes moving over a row of faint old marks pressed into the mat; dust floats in the slanting light; an old wooden chest of drawers stands in the corner and a plain hanging scroll painted with a single pine branch hangs in the alcove; the mood is quiet and taut, a mind putting pieces together; a dried flower lies on the desk, and the paper door is torn in one corner",
+   "motion": "the beam of the small flashlight slides slowly along the faint marks in the tatami, and that sliding beam is the one movement in the shot: at the start the circle of light rests on the mat beside the writing desk; over the whole five seconds the young man moves the flashlight slowly along the floor, the pale circle travelling over the scratched mat and the row of faint pressed marks toward the corner, the floating dust glittering as it passes through the beam, while he stays crouched in place with his intent face and his other hand still on the desk; the writing desk, the chest of drawers, the hanging scroll and the half-open paper door stay completely still; the dried flower and the torn corner of the door stay still; the camera holds a medium shot of the room, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "oldmap",
+    "mother_house"
+   ],
+   "refs": [],
+   "beat": "할머니가 손에 쥐고 떠난 고지도 한 장",
+   "visual": "a close view in the dim old tatami room: the large old hand-drawn map on yellowed paper lies unfolded on the faded mat at frame centre in a single square of grey daylight from the half-open paper door; its creases are deep and soft from years of being folded, and one corner is crumpled where it was held tight in a hand; painted on it in faded ink and soft colour are only pictures, a small boat on curling waves along the bottom edge, a shore of tiny houses, a round pond in the middle, a little shrine with a steep triangular roof, a stone pagoda and winding ink paths between them; the rest of the room falls away into shadow; the light is cold and the stillness heavy, an object that outlived its owner; a low writing desk stands at the edge of the frame, and a single moth rests on the mat beside the map",
+   "motion": "the square of grey daylight on the tatami dims and brightens slowly as the daylight outside shifts, and that changing light is the one movement in the shot: at the start the cold daylight lies evenly over the unfolded map; over the whole five seconds it fades a little, the painted boat and the tiny houses sinking into shadow, and then slowly brightens again until the little triangular-roofed shrine and the winding ink paths show clearly, while the map itself lies perfectly flat and still on the mat, its creases and crumpled corner unmoving; the writing desk at the edge of the frame and the shadowed room stay completely still; the small moth beside the map stays still with its wings folded; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close overhead shot of the map, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "mother_house"
+   ],
+   "refs": [],
+   "beat": "살아생전 그 고지도의 비밀을 쫓은 어머니",
+   "visual": "a small upstairs room in the old wooden country house, kept just as it was many years ago, quiet and dusty: by the window at frame centre stands a plain wooden desk with a straight-backed chair pushed in, and on the desk lie a closed cloth-bound notebook, a magnifying glass with a wooden handle and a small wooden box with its lid shut; a narrow bookshelf of plain worn spines leans against the wall; a faded cushion lies on the chair seat; the window looks out over the overgrown garden and a far line of low grey hills; pale afternoon light falls across the desk and shows a thin layer of dust on everything; the mood is tender and sad, a search left unfinished; a small vase of long-dried wildflowers stands on the sill, and a folded cardigan hangs on the back of the chair",
+   "motion": "the pale afternoon light from the window creeps slowly across the desk, and that creeping light is the one movement in the shot: at the start the light lies only on the edge of the desk by the window; over the whole five seconds it slides slowly over the desk top, across the closed cloth-bound notebook and the magnifying glass to the small closed wooden box, the lens of the magnifying glass catching a soft glint and the thin dust glowing faintly as the light reaches it; the desk, the chair with its faded cushion and folded cardigan, the bookshelf and the far grey hills beyond the window stay completely still; the vase of dried wildflowers on the sill stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the desk by the window, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "father",
+    "kurihara",
+    "mother_house"
+   ],
+   "refs": [],
+   "beat": "아들을 말리는 아버지 — 그 일은 덮어 두자",
+   "visual": "evening in the old wooden country house, the narrow hallway lit by one bare bulb: the quiet Japanese father in his early fifties with a firm smooth face and short black hair lightly touched with grey at the temples, in his brown knitted cardigan, stands at frame left facing the camera in three-quarter view, one hand lifted a little toward his son in a gentle stopping gesture, his lined patient face drawn and worried; facing him at frame right in profile, the slim young Japanese man in the dark navy coat holds the folded old map against his chest with both hands, his sharp face set and stubborn behind his thin-framed glasses; the dark timber walls close in on both sides; the sliding paper doors along the hallway are closed; the mood is tense and quiet, a father asking his son to leave the past alone; a pair of worn house slippers sits by the step, and an old umbrella leans in the corner",
+   "motion": "the father's lifted hand lowers slowly as his son holds his ground, and that lowering hand is the one movement in the shot: at the start the father's hand is lifted a little toward his son; over the whole five seconds it sinks slowly back down to his side, his shoulders dropping and his worried face softening into tired resignation, while the young man stands perfectly still in profile with the folded map held tight against his chest and his eyes fixed on his father; the bare bulb overhead, the dark timber walls and the closed paper doors stay completely still; the worn slippers by the step and the old umbrella in the corner stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot down the hallway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "kurihara",
+    "village"
+   ],
+   "refs": [],
+   "beat": "아버지의 반대를 무릅쓰고 홀로 나선 길",
+   "visual": "a cold grey morning on a narrow coastal road in rural Japan: the slim young Japanese man with short neat black hair and thin-framed glasses, in his plain dark navy coat with the black backpack on one shoulder, walks alone along the road away from the camera at frame centre, seen from behind at a slight angle, the folded old map held in one hand at his side; the road runs ahead between low stone walls and dry grass toward a distant cluster of grey roofs by the sea; the grey sea lies flat and dull at frame right under a low sky, and low dark mountains rise behind the far roofs; a single bent telephone pole leans beside the road; the light is cold and flat; the mood is quiet and determined, one person going where he was told not to; a few crows sit on the stone wall, and the wind flattens the dry grass toward the sea",
+   "motion": "the young man walks steadily away along the coastal road, and that walking is the one movement in the shot: at the start he is a few steps from the camera on the narrow road; over the whole five seconds he walks steadily on toward the far grey roofs, his navy coat stirring around his legs and the folded map held still at his side, the back of his head held straight toward the road ahead the whole time, while the dry grass along the walls leans and rises in the wind; the low stone walls, the bent telephone pole, the flat grey sea and the dark mountains stay completely still; the crows on the wall sit still with their feathers ruffling; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot from behind him on the road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "oldmap"
+   ],
+   "refs": [],
+   "beat": "고지도에 그려진 일곱 마리 요괴",
+   "visual": "an extreme close view of the large old hand-drawn map on yellowed paper, lying on a plain wooden table under a cold white lamp: around the edges of the map, painted in faded ink and soft muted colour, sit seven strange small yokai creatures, each one different, a long-necked figure peering over a hill, a one-eyed round thing crouched by the pond, a creature with folded wings perched on a rooftop, a coiled long-tailed beast by the shore, a tall thin figure among the trees, a small horned imp on the shrine steps and a hunched shape with a wide grin beside the stone pagoda; between them run winding ink paths; the creatures are drawn in an old Edo picture-book style, delicate and eerie; the paper is creased and foxed with age; the mood is quiet and unsettling, the map seeming to look back; a pair of thin-framed glasses rests folded at the corner of the map",
+   "motion": "the cold white lamplight trembles faintly over the painted creatures on the map, and that trembling light is the one movement in the shot: at the start the lamp lies evenly over the yellowed paper; over the whole five seconds the light flickers very slightly, so that the faded ink of the seven small yokai seems to brighten and dull in turn around the edges of the map, the long-necked figure, the one-eyed round thing and the hunched grinning shape catching the light one after another, while the map itself lies perfectly flat and still on the wooden table, its creases unmoving; the winding ink paths and the painted shrine stay completely still; the folded glasses at the corner stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds an extreme close overhead shot of the map, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "배가 그려진 바다와 사람이 떠난 해안가 폐촌",
+   "visual": "a grey late morning at the abandoned fishing village on the Japanese coast: about twenty collapsing wooden houses lean along the shore at frame centre, their roofs caved in, their walls silvered and split, empty window frames dark, a few rotten boats pulled up on the shingle in front of them; beyond the houses the grey sea stretches flat to the horizon with long low waves breaking quietly on the beach; low dark mountains rise behind the village under a heavy grey sky; tall dry grass grows through the doorways and along the paths between the houses; a single small fishing boat with a patched sail drifts far out on the grey water; the light is pale and cold; the mood is hollow and eerie, a place everyone left long ago; a broken fishing net hangs from a post, and a rusted bell hangs silent under one eave",
+   "motion": "the long low waves roll in slowly and spill quietly along the shingle in front of the empty houses, and that rolling surf is the one movement in the shot: at the start a low wave curls in toward the beach; over the whole five seconds the grey waves roll steadily in one after another, spreading thin white foam across the shingle and drawing back, while the far small boat with its patched sail drifts very slowly on the horizon; the collapsing wooden houses, the rotten boats on the shore, the dry grass in the doorways and the low dark mountains stay completely still; the broken net on its post and the rusted bell under the eave stay still; the heavy grey sky holds unchanged; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot along the shore, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "폐촌 너머 숲속, 삼각 지붕의 사당",
+   "visual": "dusk in a dark pine wood beyond the abandoned village: at the end of a narrow stone path at frame centre stands the small old wooden shrine with its steep triangular roof, its dark weathered beams furred with moss, its narrow wooden doors shut; tall pine trunks rise on both sides into gloom, and a thin grey mist drifts low between them over the needles on the ground; the stone path is cracked and sunken, worn smooth by old footsteps, leading straight to the shrine steps; a faint cold light falls through a gap in the branches onto the steep roof; the wood is utterly still and silent; the mood is cold and hushed, a place that waits; a small weathered stone pagoda stands beside the path a few steps before the shrine, and a single thin rope with white paper strips hangs across the shrine eaves",
+   "motion": "the thin grey mist drifts slowly between the pine trunks toward the shrine, and that drifting mist is the one movement in the shot: at the start the mist lies low over the needles at the foot of the trees; over the whole five seconds it creeps slowly along the ground and curls around the base of the shrine steps, thinning and thickening as it moves, while the faint cold light on the steep triangular roof dims very slightly; the small wooden shrine, its closed doors, the cracked stone path, the tall pine trunks and the small stone pagoda stay completely still; the white paper strips on the rope across the eaves hang still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot down the stone path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "kurihara",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "사당 쪽으로 걷는 여자의 뒷모습과 등을 돌린 석탑의 풍경",
+   "visual": "the narrow stone path before the small shrine in the dark pine wood, in the last grey light: the small weathered stone pagoda beside the path at frame left stands turned at an odd angle, its carved face set toward the dark wood instead of toward the path, its stacked stone roofs streaked with lichen; at frame right the slim young Japanese man with thin-framed glasses, in his dark navy coat, stands on the path in three-quarter view holding the large old hand-drawn map open in both hands, his sharp face lifted from the paper to the pagoda, comparing; on the map in his hands tiny faded ink pictures of the shrine and the pagoda show; the steep triangular roof of the shrine shows through the trees behind him; thin mist drifts at ground level; the mood is eerie and intent; a crow sits on the pagoda's top roof, and fallen pine needles cover the stones",
+   "motion": "the young man's eyes drift slowly from the map in his hands to the turned stone pagoda, and that searching gaze is the one movement in the shot: at the start his eyes are lowered to the open map; over the whole five seconds they lift slowly toward the pagoda and narrow as he compares, his body and his shoulders staying turned toward the camera without moving and the map held still and open in both hands, while the thin mist drifts slowly along the ground around his feet and around the base of the pagoda; the stone pagoda, the shrine roof behind him and the tall pines stay completely still; the crow on the pagoda's top roof sits still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot on the path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "작가가 여행길에서 본 낯선 풍경",
+   "visual": "a wide quiet view from a low hill above the grey Japanese coast at the end of the day, with no human figure anywhere: below, the abandoned fishing village of collapsing wooden houses lies along the curve of the shore, small and grey; beyond it the flat grey sea stretches to a pale horizon, and behind the village the low dark mountains roll away into haze; a narrow coastal road winds along the foot of the hills, edged with dry grass; the sky is a pale washed grey with a faint band of dull gold at the horizon; the light is soft and fading; the mood is calm and strange at once, a landscape that does not quite add up; a single black-eared hawk glides free high over the shore, and the dry grass on the hilltop bends in the wind",
+   "motion": "the dry grass on the hilltop bends and rises slowly in the wind, and that bending grass is the one movement in the shot: at the start the grass in the foreground leans gently toward the sea; over the whole five seconds the wind crosses the hilltop in long slow gusts and the grass leans and springs back in soft waves, while the single hawk circles slowly high over the shore; the abandoned village below, the flat grey sea, the low dark mountains stay completely still; the narrow coastal road holds its line along the foot of the hills; the faint band of dull gold at the horizon holds unchanged; the dry grass edging the narrow coastal road far below leans gently in the same wind; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide still shot from the hilltop, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "oldmap"
+   ],
+   "refs": [],
+   "beat": "이 지도와 풍경은 누가, 왜 만들었을까",
+   "visual": "a close view at night of the large old hand-drawn map on yellowed paper spread open on the faded tatami of the old country house, lit by the small warm cone of a single desk lamp: the painted boat, the shore of tiny houses, the round pond, the little triangular-roofed shrine, and the turned stone pagoda all show in faded ink and soft colour, the winding ink paths running between them; beside the map on the mat lie a small flashlight switched off and a pair of thin-framed glasses folded; the deep creases of the old paper throw thin shadows in the lamplight; the edges of the frame fall away into darkness; the mood is quiet and unsettling, a question with no answer yet; a small moth circles the lamp, and the corner of the map curls up a little from the floor",
+   "motion": "the small moth circles slowly around the warm desk lamp above the map, and that circling moth is the one movement in the shot: at the start the moth flutters at the edge of the lamplight; over the whole five seconds it circles slowly around the lamp, its tiny shadow sliding across the painted pond, the shrine and the pagoda on the map and away again, while the old map itself lies perfectly still on the tatami with its curled corner and deep creases unmoving; the switched-off flashlight and the folded glasses beside the map stay completely still; the warm cone of lamplight holds steady and the dark edges of the room stay dark; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close overhead shot of the map, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "mother_house"
+   ],
+   "refs": [],
+   "beat": "마무리 — 비어 있는 어머니의 본가",
+   "visual": "a quiet closing still of the old wooden country house at dusk, seen from the overgrown garden, with no human figure anywhere: the dark timber walls and the heavy tiled roof stand silhouetted against a pale grey-blue sky; the sliding paper doors along the veranda are closed, and a faint warm light glows behind one of them from a lamp left on inside; tall pale grass fills the garden in the foreground, and the crooked persimmon tree beside the house holds its last few orange fruits; the stone lantern stands half buried in the grass; far behind the roof the low dark hills fade into evening haze; the light is soft and dim, the house holding its secrets; a few dry leaves lie on the veranda boards, and a rusted bicycle leans against the side wall",
+   "motion": "the tall pale grass in the garden sways slowly in the evening wind, and that swaying is the one movement in the shot: at the start the grass stands still in front of the house; over the whole five seconds a gentle wind passes through and the grass leans and rises in slow soft waves, the last fruits on the persimmon tree trembling slightly, while the old house, its closed paper doors and the faint warm light behind one of them stay completely still; the heavy tiled roof, the half-buried stone lantern and the far hazy hills stay still; the dry leaves on the veranda and the rusted bicycle against the wall stay still; the faint warm glow behind the one paper door holds steady as the dusk deepens; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide still shot from the garden, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

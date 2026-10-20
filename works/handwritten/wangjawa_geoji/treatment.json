@@ -1,110 +1,203 @@
 {
-  "logline": "똑같이 생긴 왕자와 거지 아이가 옷을 바꿔 입었다가 서로의 자리에 갇힌다.",
-  "destination": "런던 거리 — 왕자가 처음으로 밖에서 맞는 밤",
-  "protagonist": "단정하게 자른 금발에 비단옷을 입은 열두 살 소년",
-  "setting": "16세기 런던, 궁전과 뒷골목",
-  "anchor": "a twelve-year-old English boy with neatly cut fair hair and fine silk clothes",
-  "palette": "palace gold and crimson, alley grey, cold river blue, warm amber",
-  "voice": "ko-KR-InJoonNeural",
-  "personas": {
-    "prince": {
-      "label": "왕자",
-      "desc": "a twelve-year-old English boy, straight fair hair, grey eyes, a narrow face with a small chin, hair neatly cut, crimson silk doublet with gold braid, white hose",
-      "avoid": "왕관은 쓰지 않는다"
-    },
-    "pauper": {
-      "label": "거지 아이",
-      "desc": "a twelve-year-old English boy, straight fair hair, grey eyes, a narrow face with a small chin, hair matted and uncut, ragged brown smock, bare dirty feet",
-      "avoid": "머리색·눈색·얼굴형은 왕자와 글자 그대로 같게 적는다"
-    },
-    "guards": {
-      "label": "궁전 위병",
-      "desc": "Tudor palace guards in scarlet tunics with black hats, holding tall halberds",
-      "avoid": ""
-    },
-    "palace_room": {
-      "label": "궁전 방",
-      "desc": "a Tudor palace chamber, linenfold panelling, leaded window, heavy carved chest"
-    }
+ "logline": "런던 뒷골목의 거지 소년 톰과 똑같이 생긴 왕자 에드워드가 장난삼아 옷을 바꿔 입었다가 누더기 왕자는 문밖으로 내던져져 거리와 떠돌이 무리를 헤매고 비단옷의 톰은 궁에서 새 왕이 될 판이 되어, 대관식 날 왕관이 톰의 머리에 내려오는 순간 누더기 소년이 뛰어든다",
+ "destination": "소설 왕자와 거지에서 만날 수 있습니다",
+ "protagonist": "boy_rags",
+ "setting": "1540년대 런던 — 뒷골목, 궁전 문과 방, 거리, 헛간, 대관식의 수도원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/wangjawa_geoji/assets",
+ "anchor": "a boy of twelve with cropped fair hair and a thin quick face",
+ "palette": "dull red, off-white, dark brown, ash grey, dull yellow",
+ "voice": "",
+ "personas": {},
+ "withheld": "두 아이가 제자리를 되찾는 과정과 왕자가 왕이 되어 내리는 결정",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "boy_rags",
+    "alley",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "런던 뒷골목의 거지 소년 톰이 궁전을 꿈꾼다",
+   "visual": "dull grey daylight in the narrow muddy alley of leaning timber houses: the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one sitting on a broken step at frame left with his knees drawn up and his chin on his crossed arms, his thin quick face turned up toward the strip of pale sky between the overhanging upper floors, his eyes far away; straw and a broken clay pot lying at the edge of the drain at frame right; he is the only person in the alley",
+   "motion": "the boy on the step is the only one who moves: at the start his chin rests on his crossed arms and his face is turned up to the strip of sky; over the first three seconds his head lifts slowly off his arms and tips further back, his eyes following something in the sky that is not there, a slow smile spreading on his thin face, one hand rising to rest against his chest; in the last two seconds he holds with his head back and his hand on his chest; the drain, the straw, the broken pot and the leaning houses hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "pauper",
-        "guards"
-      ],
-      "beat": "누더기 아이가 궁전 담장에 매달린다.",
-      "visual": "a ragged boy clinging to palace railings while guards move to push him back",
-      "motion": "a guard's halberd swings toward him, he grips the railings, dust kicks up"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "prince",
-        "pauper"
-      ],
-      "beat": "안에서 나온 소년이 그를 데리고 들어간다.",
-      "visual": "a boy in crimson silk leading a ragged boy in through a palace gateway",
-      "motion": "the two walk forward through the gateway, the silk sleeve lifts, guards step aside"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "prince",
-        "pauper",
-        "palace_room"
-      ],
-      "beat": "둘이 거울 앞에 나란히 선다.",
-      "visual": "two boys of the same age turned toward a tall mirror in a panelled chamber, both faces reflected side by side in the glass",
-      "motion": "they lean toward the mirror together, candle flames bend, the glass catches both faces"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "pauper",
-        "palace_room"
-      ],
-      "beat": "누더기 아이가 비단옷을 걸쳐 본다.",
-      "visual": "a boy pulling a crimson silk doublet over his ragged smock in a panelled chamber",
-      "motion": "the doublet slides down over his shoulders, the smock falls to the floor, light shifts"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "prince",
-        "guards"
-      ],
-      "beat": "누더기 차림의 소년이 문밖으로 떠밀린다.",
-      "visual": "guards shoving a boy in a ragged smock out through a palace door into an alley",
-      "motion": "they push him forward out the door, the door swings shut, refuse scatters"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "prince"
-      ],
-      "beat": "소년이 낯선 뒷골목에서 걸음을 멈춘다.",
-      "visual": "a boy in a ragged smock halted in a narrow sooty London alley at dusk, washing overhead",
-      "motion": "washing flaps above him, he turns on the spot, smoke drifts along the alley"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "pauper",
-        "palace_room"
-      ],
-      "beat": "비단옷 입은 아이가 큰 의자 앞에 선다.",
-      "visual": "a boy in crimson silk standing before a tall carved chair in an empty panelled chamber",
-      "motion": "he steps toward the chair, candle flames bend, his hand rises to the carved arm"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 방에 누더기 한 벌만 떨어져 있다.",
-      "visual": "a ragged brown smock lying on the floor of an empty panelled chamber, window light",
-      "motion": "window light creeps across the floor, the cloth stirs, dust turns in the beam"
-    }
-  ],
-  "withheld": "두 아이가 제자리를 되찾는 과정과, 왕자가 왕이 되어 내리는 결정"
+  {
+   "n": 2,
+   "cast": [
+    "guard",
+    "boy_rags",
+    "boy_silk",
+    "palace_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "궁전 문 앞의 톰을 위병이 떠밀고 왕자가 본다",
+   "visual": "pale daylight at the great iron-barred gate of the palace: the palace guard in the red Tudor tunic with the black flat hat is the one standing at frame centre with his halberd in one hand and his other arm thrust out stiff against the ragged boy's chest; the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one staggering back at frame left with both arms flung out for balance and his thin face turned to the guard; through the bars of the gate at frame right the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap is the one standing in the paved courtyard with both hands gripping the bars, his thin face pressed between them and his mouth open; the stone gatehouse arch above; exactly three people, one guard and two boys, both with cropped fair hair and thin quick faces",
+   "motion": "the guard and the ragged boy are the ones who move, and the boy at the bars holds still: at the start the guard's arm is thrust against the ragged boy's chest and the boy is staggering; over the first two seconds the guard's arm shoves forward a hand's width and the ragged boy stumbles back two steps with his arms flung wide, his bare feet slipping on the paving; in the last two seconds the guard's arm lowers to his side and the ragged boy stands swaying where he stopped; the boy in silk keeps both hands on the bars and his mouth open; the halberd, the gate, the gatehouse and the courtyard hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "boy_silk",
+    "boy_rags",
+    "prince_room"
+   ],
+   "refs": [],
+   "beat": "왕자 에드워드가 톰을 궁 안으로 불러들인다",
+   "visual": "warm light from the tall mullioned window of the rich Tudor chamber: the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one sitting on the carved chair at the oak table at frame left with a silver dish before him, a roasted fowl leg in one dirty hand halfway to his open mouth, his thin face bright; the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap is the one standing beside the table at frame right with one hand resting on the table edge and his other hand on his hip, his thin face turned to the eating boy with a wide smile; the tapestries behind, the silver dishes on the table; exactly two boys, both with cropped fair hair and thin quick faces, one seated in rags and one standing in silk",
+   "motion": "the ragged boy at the table is the only one who moves, and the boy in silk holds still: at the start the fowl leg is halfway to his open mouth; over the first two seconds he bites into it and chews with his cheeks bulging, his eyes closing with pleasure, his other hand reaching slowly across the table toward a second dish; in the last two seconds he holds chewing with his hand on the second dish; the boy in silk keeps his hand on the table edge and his other on his hip, his smile fixed; the tapestries, the window and the dishes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "boy_silk",
+    "boy_rags",
+    "prince_room"
+   ],
+   "refs": [],
+   "beat": "마주 선 왕자와 톰의 얼굴이 거울처럼 꼭 같다",
+   "visual": "warm light in the rich Tudor chamber: the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap and the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet are the ones standing face to face at frame centre a hand's breadth apart in profile, one at the left in crimson silk and one at the right in rags, their thin quick faces a matched pair, both with cropped fair hair, each with one hand lifted to touch the other's cheek at the same height; the tapestries and the mullioned window behind them; exactly two boys, both with cropped fair hair and thin quick faces, each with two arms",
+   "motion": "both boys move together and slowly: at the start each has one hand lifted to the other's cheek; over the first three seconds each tilts his head slowly to the same side at the same moment, the two profiles matching, and each lowers his hand slowly from the other's cheek to his own chest in the same movement; in the last two seconds both hold with their hands on their own chests and their heads tilted, their eyes on each other; the tapestries, the window and the carved table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "boy_silk",
+    "boy_rags",
+    "prince_room"
+   ],
+   "refs": [],
+   "beat": "장난삼아 옷을 바꿔 입은 둘이 배를 잡고 웃는다",
+   "visual": "warm light in the rich Tudor chamber: the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one standing at frame right now, bent forward with both hands pressed to his belly, his thin face creased with laughter and his mouth wide open; the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap is the one standing at frame left doubled over the same way with one hand on the table edge and the other on his belly, laughing just as hard; a heap of clothes on the carved chair between them, a shoe fallen on the floor; the tapestries and the window behind; exactly two boys, both with cropped fair hair and thin quick faces, one in silk and one in rags",
+   "motion": "both boys move: at the start both are bent forward with their hands on their bellies laughing; over the first three seconds both straighten slowly, still laughing, the boy in rags wiping his eyes with the back of his dirty hand and the boy in silk tugging the crimson doublet straight on his shoulders with a crooked pull; in the last two seconds both hold straightened with their mouths still open in laughter; the heap of clothes on the chair and the fallen shoe stay where they are; the tapestries, the window and the table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "guard",
+    "boy_rags",
+    "palace_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "누더기 차림의 왕자가 위병에게 문밖으로 내던져진다",
+   "visual": "pale daylight at the great gate of the palace seen from outside: the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one sprawled on the paving outside the gate at frame left, propped on one elbow with his other arm raised and his thin face lifted in fury toward the guard, his mouth open; the palace guard in the red Tudor tunic is the one standing inside the gate at frame right with the iron gate swung half closed in one hand and his halberd in the other, his stern face turned down on the boy; the stone gatehouse arch above, the courtyard beyond the bars; exactly two people, one guard and one ragged boy",
+   "motion": "the guard is the only one who moves, and the sprawled boy holds still: at the start the gate is half closed in his hand; over the first two seconds he swings the iron gate slowly the rest of the way closed, the bars sliding across the frame between him and the boy, his halberd staying upright in his other hand, his stern face not changing; in the last two seconds he stands behind the closed bars with his hand still on them; the boy keeps propped on his elbow with his arm raised and his mouth open; the gatehouse arch, the paving and the courtyard hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "street_kids",
+    "boy_rags",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "낯선 거리를 헤매는 왕자를 아이들이 놀린다",
+   "visual": "pale daylight in the London street of timber houses and market stalls: the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one standing at frame centre with his back very straight and his chin up, one hand raised with the palm out in a command, his thin face proud; the four ragged boys of ten with the dirty faces are the ones circling him at frame left and right, two of them pointing at him and laughing, one bowing with mock deep sweeps of his arm, one holding his belly; the stalls under their awnings and the cobbles behind; exactly five boys, one standing straight and four circling",
+   "motion": "the four circling boys are the ones who move, and the straight-backed boy holds still: at the start two are pointing, one is mid bow and one holds his belly; over the first three seconds the bowing boy sweeps his arm slowly down to the cobbles and up again twice, the two pointing boys throw their heads back in laughter, and the fourth staggers a step sideways clutching his belly; in the last two seconds all four hold their poses with their mouths open; the straight-backed boy keeps his chin up and his hand raised, his bare feet planted on the cobbles; the stalls, the awnings and the houses hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "canty",
+    "boy_rags",
+    "alley",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "톰의 아버지 존 캔티가 왕자를 끌고 간다",
+   "visual": "the dim light of a lantern hanging from a house wall in the muddy alley at night: the big brutal man with the broken nose and the ragged leather jerkin is the one striding along the alley at frame right with one thick fist gripping the ragged boy's tunic at the shoulder and dragging him along, his coarse face turned back down on the boy with the mouth twisted; the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one being hauled along at frame left with his heels dragging in the mud, both hands clawing at the fist on his shoulder, his thin face turned up at the man in fury; the leaning houses on both sides; exactly two people, one big man and one boy",
+   "motion": "the man and the boy are the ones who move: at the start the fist grips the boy's shoulder and the boy's heels drag in the mud; over the first three seconds the man takes two long strides along the alley toward the right, hauling the boy with him so that the boy's bare feet skid and stumble through the mud, the boy's hands clawing at the fist without loosening it; in the last two seconds the man stops and jerks the boy up straight by the shoulder, the boy's feet finding the mud; the lantern light sways gently on the wall; the leaning houses and the gutter hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "hendon",
+    "boy_rags",
+    "street",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "칼을 찬 마일스 헨든이 왕자를 구해 곁에 둔다",
+   "visual": "lantern light on the London street at night: the tall lean man in the worn leather doublet with the long sword at his hip is the one standing at frame right with his left arm held out across the ragged boy's chest and his right hand resting on the hilt of his sword, his kind bearded face turned down to the boy; the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one standing close against the man's side at frame left with one hand gripping the man's sleeve, his thin face lifted to him with his chin still proudly up; the shuttered stalls and the dark timber houses behind; exactly two people, one tall man and one boy",
+   "motion": "the tall man is the only one who moves, and the boy holds still: at the start his left arm is across the boy's chest and his right hand rests on his sword hilt; over the first two seconds his right hand comes off the hilt and settles slowly on the boy's head, ruffling the cropped fair hair once, his bearded face bending lower to the boy with a slow smile; in the last two seconds his hand rests on the boy's head and his left arm stays across the boy's chest; the boy keeps his hand on the man's sleeve and his chin up; the stalls, the houses and the lantern light hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "boy_silk",
+    "courtiers",
+    "throne_room"
+   ],
+   "refs": [],
+   "beat": "궁전의 톰이 비단옷을 입은 채 옥좌에서 어쩔 줄 모른다",
+   "visual": "light from the tall windows of the great hall: the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap is the one sitting far back in the high throne under the crimson canopy at frame centre, too small for it, both hands gripping the arms of the throne and his soft shoes not reaching the floor, his thin face pale with his eyes wide; the three elderly noblemen in the long dark velvet gowns with the gold chains are the ones standing in a row on the red carpet below the dais at frame left, bowing low toward the boy; the tapestries behind, the long red carpet; exactly one boy on the throne and three old men bowing",
+   "motion": "the boy on the throne is the only one who moves, and the three noblemen hold their bows: at the start both his hands grip the throne arms and his eyes are wide; over the first two seconds he slides slowly forward on the seat until his shoes touch the dais, his hands not leaving the throne arms, his head turning slowly from one bowing nobleman to the next; in the last two seconds he holds perched on the edge of the seat with his hands on the arms; the three noblemen keep their bows with their gold chains hanging; the canopy, the tapestries and the red carpet hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "boy_silk",
+    "courtiers",
+    "throne_room"
+   ],
+   "refs": [],
+   "beat": "헨리 왕이 죽자 종이 울리고 톰이 새 왕이 될 판이다",
+   "visual": "dim evening light in the great hall: the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap is the one standing on the dais before the high throne at frame centre with both hands pressed over his ears and his thin face screwed up, his flat cap fallen at his feet; the three elderly noblemen in the dark velvet gowns are the ones kneeling on the red carpet below the dais at frame left and right with their white heads bowed; a long black cloth draped over the arm of the throne; the tapestries and the tall windows behind; exactly one boy standing and three old men kneeling",
+   "motion": "the boy on the dais is the only one who moves, and the kneeling noblemen hold still: at the start both his hands are pressed over his ears and his face is screwed up; over the first three seconds his hands come slowly down from his ears to hang at his sides, his face opening from its grimace into wide-eyed stillness, his head turning slowly to look at the black cloth on the throne; in the last two seconds he holds with his hands at his sides and his eyes on the black cloth; the three noblemen keep their heads bowed on the carpet; the fallen cap, the black cloth, the canopy and the tapestries hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "boy_rags",
+    "hendon",
+    "vagabonds",
+    "barn",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "톰 대신 쫓겨난 왕자가 헨든과 떠돌이 무리 속에서 밤을 지낸다",
+   "visual": "firelight inside the dark barn at night: the band of six ragged men and women in the patched cloaks and hoods are the ones sitting in a ring on the straw round the small fire at frame centre, their weathered faces lit from below; the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one sitting at the edge of the ring at frame left with his knees drawn up and his thin face proud and wary, his chin resting on his knees; the tall lean man in the worn leather doublet with the long sword is the one sitting close beside the boy with one arm along the boy's shoulders, his kind face turned to the fire; the broken cart and the rafters dim behind; exactly eight people, six in the ring, one boy and one tall man",
+   "motion": "the fire and the tall man are what move, and the boy and the ring of vagabonds hold still: at the start the man's arm lies along the boy's shoulders and his face is turned to the fire; over the first three seconds his hand on the boy's far shoulder tightens slowly and draws the boy a little closer against his side, his face turning slowly from the fire down to the boy; in the last two seconds he holds with the boy drawn close; the boy keeps his chin on his knees and his wary face; the six vagabonds keep their faces to the fire, their hoods still; the small fire flickers gently on the earth floor; the cart, the straw and the rafters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "boy_rags",
+    "hendon",
+    "holiday_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "대관식 날 왕자와 헨든이 인파를 헤치고 런던으로 돌아온다",
+   "visual": "bright morning light in the London street of the 1540s packed with people in long gowns, doublets and hoods: the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one pushing forward through the press of people at frame centre with both thin arms thrust out ahead of him to part the way, his thin face set and his eyes fixed on the church tower ahead; the tall lean man in the worn leather doublet with the long sword is the one shouldering through a step behind the boy at frame right with one hand on the boy's back; banners and cloth hung from the windows, the backs and shoulders of the gowned and hooded people all round them, the church tower rising beyond the roofs at the top of the frame; the boy and the man are the only two faces turned toward the camera's side of the street; every person in the street wears the long gowns, doublets and hoods of that time",
+   "motion": "the boy and the man are the ones who move, and the packed people round them stand still: at the start the boy's arms are thrust out to part the way and the man's hand is on his back; over the first three seconds the boy pushes forward two slow steps between the shoulders of the people, his arms parting them a little to either side, and the man follows one step behind with his hand staying on the boy's back, both of them growing only slightly larger in the frame; in the last two seconds both stop wedged among the people, the boy's face still fixed ahead; the people round them keep their backs and shoulders where they are; the banners stir very slightly; the houses and the church tower hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "boy_silk",
+    "boy_rags",
+    "courtiers",
+    "abbey"
+   ],
+   "refs": [],
+   "beat": "왕관이 톰의 머리에 내려오는 순간 누더기 소년이 뛰어든다",
+   "visual": "light through the high windows of the vast stone abbey: the boy of twelve with the cropped fair hair in the crimson silk doublet with the small flat cap is the one kneeling on the raised platform before the throne at frame right, his head bowed, and one of the three elderly noblemen in the dark velvet gowns is the one standing over him with a gold crown held in both hands a hand's breadth above the boy's bowed head, the other two noblemen standing behind with their mouths open; the boy of twelve with the cropped fair hair in the ragged brown tunic with the bare dirty feet is the one standing at the foot of the platform at frame left with one thin arm thrust straight up and his ragged chest heaving, his thin face lifted and his mouth wide open in a shout; the high pillars and the people filling the galleries behind; exactly two boys, both with cropped fair hair and thin quick faces, one kneeling in silk and one standing in rags, and three old men",
+   "motion": "the ragged boy at the foot of the platform is the only one who moves, and everyone else holds still: at the start his arm is thrust straight up and his mouth is open in a shout; over the first two seconds he takes one step up onto the platform with his arm staying up, his other hand pressing flat to his own ragged chest, his chin lifting higher; in the last two seconds he holds on the step with his arm up and his hand on his chest; the kneeling boy keeps his head bowed; the nobleman keeps the crown held a hand's breadth above the bowed head, his hands not moving; the other two noblemen keep their mouths open; the pillars, the galleries and the throne hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "throne_room"
+   ],
+   "refs": [],
+   "beat": "옥좌 위에 놓인 왕관만 남는다",
+   "visual": "dim light from the tall windows of the great hall: the high throne under the crimson canopy is the one standing on the dais at frame centre with a gold crown resting on its seat, the long red carpet running from the bottom of the frame up to the dais, the tapestries hanging still on both walls; the hall lies quiet in the light",
+   "motion": "nothing but the light moves: over the whole five seconds a slow band of light from the tall windows creeps very slightly across the red carpet toward the dais, brightening the gold of the crown on the seat a little and dimming it again, the shadow of the canopy on the wall shifting by no more than a finger's width; the high throne, the crimson canopy, the crown resting on the seat, the long red carpet, the tapestries on both walls and the tall windows hold completely still; the hall stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

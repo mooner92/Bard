@@ -1,0 +1,205 @@
+{
+ "logline": "동물을 아끼던 사내가 술에 빠져 검은 고양이 플루토를 해치고, 그날 밤 집이 불타 남은 벽에 고양이 자국이 찍히며, 술집에서 따라온 흰 얼룩의 검은 고양이를 아내는 아끼고 사내는 두려워하다가, 지하실 벽을 새로 바른 뒤 경관들 앞에서 그 벽을 두드리려 한다",
+ "destination": "소설 검은 고양이에서 만날 수 있습니다",
+ "protagonist": "man",
+ "setting": "1840년대 미국의 어느 도시 — 작은 응접실과 부엌, 계단 밑, 불타는 집과 잿더미, 술집, 침실, 지하실",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/geomeun_goyangi/assets",
+ "anchor": "a lean man of the 1840s in a dark brown coat and a big sleek black cat with a ragged white patch on its chest, in a small poor house and its damp brick cellar",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark blue",
+ "voice": "",
+ "personas": {},
+ "withheld": "부인이 맞은 일과, 헐어 낸 회반죽 뒤에 있던 것",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "man",
+    "wife",
+    "pets",
+    "parlour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어려서부터 동물을 아낀 사내가 집을 새와 개와 고양이로 채운다",
+   "visual": "soft grey daylight through the window of the small parlour with the dull yellow wallpaper: the lean man of thirty-five with the untidy dark brown hair and the thin plain face, in the dark brown coat and the dull yellow waistcoat, is the one sitting at frame left in the worn armchair by the small grate with the grey rabbit held in his lap in both hands and his face bent to it with a soft smile; the gentle woman of thirty with the brown hair in a knot and the plain kind round face, in the dark blue dress with the white collar and the white apron, is the one standing at frame right by the window holding up a small dish to the birdcage in which the pair of dull yellow songbirds sit, her face lifted to them; the small brown dog lies on the rag rug at the bottom of the frame with its head on its paws; the goldfish swimming inside its round glass bowl full of clear water, the bowl standing on the round table; the coal fire glows low in the small iron grate set into the chimney breast under the mantelpiece on the side wall, well away from the table; there are exactly two people in the room and the rabbit, the dog, the birds and the fish are the animals",
+   "motion": "the woman's dish hand and the man's hands on the rabbit are the two things that move, and the room holds still: at the start the small dish is held up to the birdcage and the rabbit sits in the man's two hands; over the first three seconds the dish tips slowly toward the cage bars and the two songbirds hop once along their perch toward it, while the man's thumb strokes slowly down the rabbit's back and the rabbit's ears lie flat and lift again; in the last two seconds the dish holds at the bars and the man's hands hold on the rabbit; neither person's feet shift; the brown dog on the rag rug keeps its head on its paws with only its eyes moving; the goldfish in the bowl drifts a little; the coal fire keeps its low even glow; the dull yellow wallpaper and the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "man",
+    "pluto",
+    "parlour",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "검은 고양이 플루토가 밤마다 그의 무릎에 올라앉는다",
+   "visual": "the dull yellow glow of the coal fire in the small parlour at night: the lean man of thirty-five with the untidy dark brown hair and the thin plain face, in the dark brown coat with the dull yellow waistcoat, is the one sitting at frame centre in the worn armchair by the grate with his legs stretched to the fire and both his hands resting on the big sleek cat, black all over from nose to tail, that is the one lying curled in his lap with its green eyes half open and turned to the fire; his thin face is bent to the cat with a quiet smile; the birdcage by the window at frame right is covered with a cloth for the night; the rag rug lies before the grate; the dull yellow wallpaper is dim in the firelight; the low window is black; there is exactly one person in the room and the cat is in his lap",
+   "motion": "the man's hand on the cat is the one thing that moves, and the room holds still: at the start both his hands rest on the curled black cat; over the whole five seconds one hand strokes slowly along the cat's back from its head to its tail and back again twice, the black fur lying flat under the hand and lifting a little behind it, the cat's half-open green eyes closing slowly and opening again, its curled body not shifting in his lap; his stretched legs and his other hand do not move; the coal fire keeps its steady glow; the covered birdcage by the window, the rag rug before the grate and the black window hold completely still; the dull yellow wallpaper keeps its dim even tone in the firelight; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "man_drunk",
+    "pluto",
+    "kitchen",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그러나 사내는 차츰 술을 찾기 시작한다",
+   "visual": "the dull yellow light of a candle on the scrubbed wooden table in the plain kitchen at night: the lean man of thirty-five with the untidy dark brown hair fallen over his brow and the thin slack clean-shaven face with the heavy eyes, his cheeks and chin bare of any beard, in the dark brown coat hanging open, is the one sitting at frame centre at the table with both his forearms flat on the wood and a half-empty glass held loosely in one hand, the dark bottle standing at his elbow with its cork out, his heavy eyes on the glass; the big sleek black cat is the one sitting at frame right in the open back doorway with its tail wrapped round its feet and its green eyes on the man, still; the old open stone hearth of rough grey stones, dark and cold, its flat stone floor bare with only grey ash on it and a black iron pot hanging on a hook above; the dresser with its plates stands at the back; the candle flame is steady; there is exactly one person in the kitchen and the cat is the one watching from the door",
+   "motion": "the man's glass hand is the one thing that moves, and the cat holds still: at the start the half-empty glass is held loosely in his hand on the table; over the first three seconds the hand lifts the glass slowly to his slack mouth and lowers it again to the wood, his heavy eyes not lifting, the bottle at his elbow not moving; in the last two seconds the glass holds on the table in his loose hand; his forearms stay flat on the wood; the black cat in the doorway keeps its tail wrapped round its feet and its green eyes on the man, only the tip of its tail moving once; the candle flame stays steady; the cold hearth, the dresser with its plates and the open back door on the black night hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "man_drunk",
+    "pluto",
+    "kitchen",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 취한 사내가 거칠게 붙들자 플루토가 그의 손을 문다",
+   "visual": "the dull yellow light of the candle in the plain kitchen at night, seen close: the lean man of thirty-five with the untidy dark brown hair fallen over his brow and the thin slack clean-shaven face, his upper lip and chin bare of any hair, in the dark brown coat hanging open, is the one standing at frame centre bent forward with the big sleek black cat gripped by the scruff in his left hand and held up at the height of his chest, his right hand drawn back with the fingers spread and a small dark mark on its back, his slack face twisted and his teeth showing; the black cat is the one hanging from his grip with all four legs spread and its claws out, its ears flat and its mouth open wide with its green eyes narrow; the overturned glass lies on the scrubbed table at frame left with a dark wet stain spreading from it on the wood; the dark bottle stands beside it; the candle flame leans; the cold hearth is dark at the back; there is exactly one person in the kitchen and the cat is in his grip; the old open hearth of rough grey stones stands at the side, dark and cold with grey ash on its floor and a black iron pot on a hook above; the kitchen has only the table, the stone hearth, the wooden dresser, a wooden bucket and the plank back door, its walls plain whitewash",
+   "motion": "the cat in the man's grip is the one thing that moves, and the man holds still: at the start the cat hangs from his left hand with its legs spread and its mouth open; over the first three seconds the cat's spread legs draw in and thrash once slowly and its body twists a quarter turn in his grip, its ears staying flat and its narrow green eyes on his face, its open mouth not closing; in the last two seconds the cat holds twisted in his grip with its claws out; the man's left hand keeps its grip on the scruff and his right hand stays drawn back with the fingers spread, his twisted face not changing; his feet do not shift; the overturned glass on the table and its dark wet stain keep their places; the candle flame leans and steadies; the bottle, the cold hearth and the dresser hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "pluto",
+    "man",
+    "stair_foot",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그날부터 플루토가 계단 밑에 숨어 그를 피한다",
+   "visual": "grey daylight on the stone floor at the foot of the narrow wooden stair: the dark low space beneath the stair is the one thing at frame centre, and deep inside it the big sleek black cat is the one crouched flat to the stone with only its two green eyes and the pale points of its whiskers showing plainly in the dark, its black body lost against the shadow; the broom leans against the stair's side at frame left; the lean man of thirty-five with the untidy dark brown hair, in the dark brown coat, is the one at frame right seen from the knees down only, his dark trousers and his worn boots standing on the stone floor a pace from the stair with the toes turned toward the dark space, the rest of him out of the top of the frame; the worn wooden steps rise at frame left out of the top of the frame; there is exactly one person in the picture and only his legs are seen, and the cat is the one thing in the dark under the stair",
+   "motion": "the cat's eyes and the man's boots are the two things that move, and the stair holds still: at the start the two green eyes show in the dark under the stair and the boots stand a pace away with their toes toward it; over the first three seconds one boot takes a single short step closer to the dark space and stops, and the two green eyes in the dark slide slowly back and lower, as the cat presses itself further into the shadow, the pale whisker points going with them; in the last two seconds the boot holds where it stopped and the two eyes hold deep in the dark; the broom leaning against the stair's side and the worn steps hold completely still; the grey light on the stone floor stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "man_drunk",
+    "kitchen",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 사내가 끝내 플루토에게 몹쓸 짓을 하고 만다",
+   "visual": "deep night in the plain kitchen with the candle on the table burnt low: the back door is the one thing standing open at frame right on the black night, and the lean man of thirty-five with the untidy dark brown hair, in the dark brown coat hanging open and dark with rain at the shoulders, is the one standing in the open doorway at frame centre seen wholly from behind, the broad wet back of his brown coat and the back of his untidy head toward the camera, his face turned away and hidden entirely, both his hands hanging empty at his sides with the fingers loose, his head bowed, the black night behind him; on the stone floor at the bottom left of the frame a small round wicker basket lined with an old grey cloth stands empty by the cold hearth, the cloth pressed into the shape of something that lay there and is gone; the scrubbed table with the low candle stands at frame left; the dresser with its plates is in shadow at the back; there is exactly one person in the kitchen and his back is to the camera, and the basket is empty",
+   "motion": "the man in the doorway is the one thing that moves, and the kitchen holds still: at the start he stands in the doorway with his back to the camera and his head bowed; over the first three seconds his bowed head sinks a little lower and his loose hands close slowly into fists at his sides and open again, his wet shoulders lifting once with a long breath, his face never turning toward the camera; in the last two seconds he holds in the doorway with his head bowed and his hands loose; his feet do not shift on the threshold; the empty wicker basket by the cold hearth keeps its pressed grey cloth exactly as it is; the low candle on the table keeps its small steady flame; the dresser in shadow and the black night beyond the door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "burning_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "바로 그날 밤 사내의 집이 불타 잿더미가 된다",
+   "visual": "black night on the narrow street: the narrow two-storey brick house is the one thing filling the middle of the frame with dull yellow flames pouring from every window and from the door, thick smoke rolling from the roof into the black sky and sparks rising in it, the brick front lit hot and bright by the fire; the backs of a few neighbours in nightcaps and thrown-on coats stand along the bottom edge of the frame facing the house with their arms raised against the heat, small against the burning front; a bucket lies on its side on the wet cobbles; the houses on either side stand dark with their windows catching the light of the flames; the street is lit dull yellow from end to end by the fire; not one face is turned to the camera",
+   "motion": "the flames and the smoke are the ones that move, and the neighbours hold still: at the start the dull yellow flames pour from every window with the smoke rolling from the roof; over the whole five seconds the flames lean slowly to the right in a gust and stand up straight again, the smoke rolling on into the black sky and the sparks rising and going out, the light on the brick front and on the neighbouring windows brightening and dimming with the flames; the backs of the neighbours along the bottom edge stay still with their arms raised, no face turning round; the bucket on its side does not move; the dark houses on either side hold completely still, their windows keeping only the moving light of the flames; the wet cobbles keep their shine; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "man",
+    "ruin",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "잿더미에 홀로 남은 벽에 고양이 모양의 자국이 찍혀 있다",
+   "visual": "flat grey daylight over the burnt ruin of the house: one plastered wall is the one thing standing alone at frame centre among the heaps of black charred timber and grey ash, its white plaster scorched grey at the edges, and on the plaster at the height of a man's head a raised shape the size of a big cat is pressed plainly into the surface, a cat seen from the side with its back arched and its tail up, the shape standing out pale from the scorched plaster round it; the lean man of thirty-five with the untidy dark brown hair, in the dark brown coat with soot on its sleeves, is the one standing at frame right a few paces from the wall with his face lifted to the shape and his mouth open, one hand half raised toward it and the other hanging at his side; the heaps of charred timber lie on both sides; the backs of two neighbours in dark coats stand at the far left facing the wall; the flat grey sky shows above the wall's broken top; there is exactly one face turned to the camera and it is the man's, and the cat shape is the one mark on the wall",
+   "motion": "the man's raised hand is the one thing that moves, and the wall holds still: at the start his hand is half raised toward the cat shape on the plaster with his mouth open; over the first three seconds the hand rises slowly the rest of the way and stops with its fingers spread a hand's width from the shape, his face lifting a little higher and his mouth opening wider, his other hand hanging still; in the last two seconds the hand holds before the shape and does not touch it; his feet do not shift in the ash; the raised cat shape on the plaster keeps its exact outline and does not change; the two neighbours at the far left keep their backs to the camera; the heaps of charred timber and the grey ash hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "cat2",
+    "man_drunk",
+    "tavern",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "술집에서 플루토와 꼭 닮은 검은 고양이가 그를 따라온다",
+   "visual": "the dull yellow light of the hanging lamp in the low dim tavern: the big sleek black cat with the ragged white patch on its chest is the one thing sitting upright on the top of a big barrel at frame centre with its green eyes on the man and its tail hanging down the barrel's side; the lean man of thirty-five with the untidy dark brown hair fallen over his brow and the thin slack face, in the dark brown coat hanging open, is the one standing at frame right close to the barrel with a glass in one hand and his other hand reaching out slowly toward the cat's head, his heavy eyes on the white patch and his mouth a little open; the row of big barrels runs along the wall behind into the dim; the wooden counter shows at the far left, its top bare; the sanded floor is pale under the lamp; there is exactly one person in the tavern and the cat is the one on the barrel",
+   "motion": "the man's reaching hand and the cat are the two things that move, and the tavern holds still: at the start the hand is reaching toward the cat's head and the cat sits upright on the barrel; over the first three seconds the hand comes slowly the last hand's width and its fingers touch the top of the cat's head, and the cat pushes its head slowly up into the hand and its tail sweeps once along the barrel's side, its green eyes half closing and its white patch showing as it stretches its neck; in the last two seconds the hand holds on the cat's head and the cat holds pressed up against it; the man's glass hand and his feet do not move; the hanging lamp keeps its steady light; the row of barrels, the counter and the sanded floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "cat2",
+    "wife",
+    "parlour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그 고양이는 가슴에 흰 얼룩이 있다는 것만 달랐다",
+   "visual": "soft grey daylight in a poorer small parlour with bare boards and a plain grate: the big sleek black cat with the ragged white patch on its chest is the one thing sitting upright at frame centre on the rag rug facing the camera with its forepaws together, the ragged white patch plain on its black chest and its green eyes wide and steady on the camera, its tail curled round its feet; the gentle woman of thirty with the brown hair in a knot, in the dark blue dress with the white apron, is the one kneeling at frame right beside the cat with a saucer of milk held down in one hand toward its mouth and her plain kind face bent to it with a smile; the small grate at the back holds a low fire; the birdcage by the window hangs with its little door open and its perch bare; the dull yellow wallpaper is stained with damp; there is exactly one person in the room and the cat with the white patch is the one thing facing the camera",
+   "motion": "the cat's head and the saucer are the two things that move, and the woman holds still: at the start the saucer of milk is held down toward the cat's mouth and the cat sits upright with its eyes on the camera; over the first three seconds the cat's head turns slowly from the camera down to the saucer and its tongue comes out to the milk, the white patch on its chest folding as it bends, and the saucer lowers the last finger's width to the rug in the woman's hand; in the last two seconds the cat's head holds at the saucer and the woman's hand holds it on the rug; her knees do not shift and her smile does not change; the low fire in the grate keeps its glow; the empty birdcage with its open door and the damp-stained wallpaper hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "wife",
+    "cat2",
+    "man",
+    "parlour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아내는 그 고양이를 거두어 아꼈지만 사내는 섬뜩했다",
+   "visual": "soft grey daylight in the poorer small parlour with the damp-stained dull yellow wallpaper: the gentle woman of thirty with the brown hair in a knot, in the dark blue dress with the white apron, is the one sitting at frame left in the worn armchair with the big sleek black cat with the ragged white patch on its chest held up against her shoulder in both her arms, her cheek against its head and her face turned to the man with a smile; the cat's green eyes look past her shoulder straight at the man; the lean man of thirty-five with the untidy dark brown hair and the thin plain face, in the dark brown coat, is the one standing at frame right pressed back against the door frame with one hand flat on the frame behind him and the other raised a little before his chest with the fingers spread, his head turned sharply away from the cat toward the door frame and his face hidden entirely behind his own raised forearm held across it as a shield, only his untidy dark hair and one ear showing above the sleeve, his whole body leaning away from the cat as far as the door frame allows, his other hand gripping the frame behind him; the coal fire glows low in the small iron grate set into the chimney breast under the plain mantelpiece on the side wall at the far right, well away from the rug; the rag rug lies between them; there are exactly two people in the room and the cat is the one in the woman's arms",
+   "motion": "the man's raised hand is the one thing that moves, and the woman and the cat hold still: at the start his hand is raised a little before his chest with the fingers spread and his back pressed to the door frame; over the first three seconds the raised hand comes slowly up before his face as a man does to keep a thing from his eyes, his shoulders pressing harder back into the frame and his wide eyes not leaving the cat; in the last two seconds the hand holds before his face and he does not move; his feet do not shift; the woman keeps the cat against her shoulder and her smiling face turned to him, and the cat's green eyes stay fixed past her shoulder on him, only the tip of its tail moving once against her arm; the low fire keeps its glow; the rag rug and the stained wallpaper hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "cat2",
+    "man",
+    "bedroom",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "고양이는 밤마다 잠든 사내의 가슴 위에 올라앉는다",
+   "visual": "deep night in the small bedroom lit by the one candle on the chair: the lean man of thirty-five with the untidy dark brown hair and the thin plain face is the one lying on his back in the bed at frame centre under the dark blue coverlet with his eyes closed and his mouth a little open, one arm outside the coverlet; the big sleek black cat with the ragged white patch on its chest is the one thing sitting upright on his chest on the coverlet, facing the camera, its forepaws together on his breastbone and its green eyes wide open and shining in the candlelight, its tail laid along the coverlet, the white patch plain on its chest; the candle on the chair at frame left gives its dull yellow light on the bed; the low window at frame right is black; the plain walls are dim; there is exactly one person in the room and he is asleep, and the cat is the one thing awake",
+   "motion": "the cat on the sleeping man's chest is the one thing that moves, and the man holds still: at the start the cat sits upright on his chest with its forepaws together and its shining green eyes on the camera; over the first three seconds the cat's head lowers slowly toward the sleeping man's face and its shining eyes turn down to it, the white patch on its chest folding as it bends, its forepaws not shifting on his breastbone; in the last two seconds the cat's head holds low over the man's face with its eyes on him; the sleeping man's closed eyes, his open mouth and his arm outside the coverlet do not move, and his chest rises and sinks only slightly under the cat; the candle on the chair keeps its steady flame; the black window and the dim walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "man",
+    "cellar",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 날 사내는 지하실 벽을 새로 발랐고, 고양이는 사라진다",
+   "visual": "the dull yellow light of the candle in the bottle on the floor of the damp cellar with the rough dark brick walls and the low arched ceiling: the lean man of thirty-five with the untidy dark brown hair and the thin plain face, in his off-white shirt with the sleeves rolled and the dark brown coat off, is the one standing at frame centre before the wall at the back with the wooden trowel in one hand pressed flat against a wide patch of fresh pale plaster the height of a man on the dark brick, smoothing it, his other hand steadying the bucket of plaster on the floor at his feet, his face turned to the wet plaster and set; the patch of fresh plaster is pale and wet and stands out from the dark old brick round it; the stone steps come down from the door at frame left; the candle in the bottle stands on the floor at frame right; there is exactly one person in the cellar and no cat anywhere in it; the stone floor at the bottom of the frame is bare and holds only the bucket of plaster and the candle in its bottle, and the man is the only living thing in the cellar",
+   "motion": "the man's trowel hand is the one thing that moves, and the cellar holds still: at the start the trowel is pressed flat against the wet plaster; over the whole five seconds the trowel sweeps slowly up the patch of fresh plaster and down again twice, the wet surface smoothing behind it and shining a little in the candlelight, his set face following the trowel and his other hand keeping the bucket steady; his feet do not shift on the cellar floor; the patch of fresh plaster stays the same size and the dark old brick round it does not change; the candle in the bottle keeps its steady flame; the stone steps up to the door and the low arched ceiling of dark brick hold completely still; no cat appears; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "man",
+    "constables",
+    "cellar",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "경관들 앞에서 사내가 두드린 벽 안에서 무슨 소리가 날지 알 수 없다",
+   "visual": "the dull yellow light of the constables' lantern and the candle in the damp cellar with the rough dark brick walls: the lean man of thirty-five with the untidy dark brown hair and the thin plain face, in the dark brown coat, is the one standing at frame centre before the wall at the back with the knuckles of one hand pressed against the wide patch of pale dry plaster on the dark brick, his arm drawn back a little as a man does who is about to rap on a wall, his face turned over his shoulder to the constables with a stiff wide smile and his eyes too bright; the three constables in the long dark blue coats with the brass buttons and the tall black hats are the ones standing at frame left at the foot of the stone steps, one holding the lantern up, all three faces turned to the man with their brows lifted; the patch of pale plaster stands out from the dark old brick; the candle in the bottle stands on the floor at frame right; the low arched ceiling comes down close; there are exactly four people in the cellar and the man at the wall is the one smiling",
+   "motion": "the man's knuckles are the one thing that moves, and the constables hold still: at the start his knuckles are pressed against the pale plaster with his arm drawn back a little; over the first three seconds his hand draws back slowly the width of a hand from the wall and comes forward again to rest the knuckles on the plaster, his stiff smile widening and his bright eyes not leaving the constables; in the last two seconds the knuckles hold against the plaster and do not rap; his feet do not shift; the three constables keep their faces turned to him with their brows lifted, the lantern held up steady; the patch of pale plaster and the dark old brick round it do not change; the candle in the bottle keeps its steady flame; the stone steps and the low arched ceiling hold completely still; no sound is shown; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "cellar",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빈 지하실의 새 회반죽 벽과 바닥의 초",
+   "visual": "the dull yellow light of the candle in the bottle on the floor of the damp cellar: the wide patch of pale dry plaster the height of a man on the dark brick wall at the back is the one thing filling the middle of the frame, its surface smooth and its edges plain against the rough dark old brick round it; the wooden trowel and the empty bucket stand on the floor at frame left below it; the candle in the bottle stands on the floor at frame right with its flame small and steady; the stone steps come down from the closed door at the far left; the low arched ceiling of dark brick comes down close over the wall; the cellar floor is bare damp stone; the pale patch of plaster is the one thing that is new",
+   "motion": "the candle flame is the one thing that moves, and the cellar holds still: at the start the small flame burns steady in the bottle; over the whole five seconds the flame leans slowly toward the plastered wall, as a faint draught comes from somewhere, and straightens again, the light on the pale plaster brightening and dimming a little and the shadows of the trowel and the bucket shifting on the floor; the patch of pale plaster keeps its smooth surface and its plain edges and nothing shows through it; the trowel and the empty bucket keep their places; the stone steps, the closed door and the low arched ceiling hold completely still; no figure and no animal appears, and nothing moves behind the plaster; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

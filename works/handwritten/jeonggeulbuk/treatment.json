@@ -1,117 +1,211 @@
 {
-  "logline": "늑대 무리가 사람의 아기를 거두어 정글의 규칙 속에서 길러낸다.",
-  "destination": "달빛 내린 폐허 신전 — 아무도 함부로 들어가지 않는 곳",
-  "protagonist": "헝클어진 검은 머리에 허리끈만 두른 열 살 남짓 소년",
-  "setting": "인도의 깊은 정글, 늑대굴과 폐허가 된 옛 신전",
-  "anchor": "a boy of about ten with tangled black hair, bare brown skin, a simple waist cord",
-  "palette": "deep jungle green, warm amber, dry earth ochre, cool pale silver",
-  "voice": "ko-KR-InJoonNeural",
-  "personas": {
-    "mowgli": {
-      "label": "모글리",
-      "desc": "a lean boy of about ten, tangled black hair, bare brown skin, a simple woven waist cord, bare feet",
-      "avoid": "옷·신발은 이 인물의 것이 아니다"
-    },
-    "wolves": {
-      "label": "늑대 무리",
-      "desc": "a pack of grey Indian wolves, lean flanks, yellow eyes, ears pricked forward",
-      "avoid": "북방 흰늑대가 아니다"
-    },
-    "panther": {
-      "label": "검은 표범",
-      "desc": "a black panther with a sleek coat and amber eyes, muscles moving under the fur",
-      "avoid": ""
-    },
-    "bear": {
-      "label": "곰",
-      "desc": "a big shaggy brown sloth bear with a pale muzzle and blunt claws",
-      "avoid": ""
-    },
-    "monkeys": {
-      "label": "원숭이 떼",
-      "desc": "a swarm of grey langur monkeys with long tails and black faces",
-      "avoid": ""
-    },
-    "ruined_temple": {
-      "label": "폐허 신전",
-      "desc": "a vine-swallowed stone temple, toppled pillars, cracked flagstones, roots through the walls"
-    }
+ "logline": "인도 정글의 늑대굴로 기어든 사람의 아기가 호랑이 시어 칸의 요구를 물리친 바위 회의에서 곰 발루와 표범 바기라의 보증으로 늑대 무리에 거두어져 모글리로 자라고, 원숭이 떼에 채여 폐허 도시로 갔다가 비단뱀 카에게 구출되며, 무리를 가른 시어 칸을 사람 마을의 불로 쫓고 마을로 내려가 물소 떼를 몰아 골짜기로 시어 칸을 몰아넣는다",
+ "destination": "소설 정글북에서 만날 수 있습니다",
+ "protagonist": "mowgli",
+ "setting": "인도의 깊은 정글 — 늑대굴, 바위 회의 터, 큰 나무, 폐허 도시, 사람 마을, 붉은 골짜기",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/jeonggeulbuk/assets",
+ "anchor": "a boy of ten with tangled black hair and brown skin, bare-chested, a short loincloth of dull red cloth, a lean quick face",
+ "palette": "dull green, dull yellow, dark brown, off-white, ash grey",
+ "voice": "",
+ "personas": {},
+ "withheld": "골짜기에서 시어 칸이 어떻게 되는지와 모글리가 사람과 정글 사이에서 내리는 선택",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "baby",
+    "father_wolf",
+    "mother_wolf",
+    "cave",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "늑대굴로 사람의 아기가 기어 들어온다",
+   "visual": "moonlight on the rocky mouth of the wolf den among the thick jungle: the brown-skinned baby with the tuft of black hair is the one crawling on hands and knees over the flat rock at the mouth of the den at frame centre, its small face lifted toward the dark inside; the big grey wolf with the plain grey muzzle is the one standing just inside the den at frame right with his head lowered to the baby's height, his mouth closed and his yellow eyes calm on it; the lean grey she-wolf with the pale chest is the one lying at frame left with her head raised and her ears forward; the dark leaves of the jungle behind, moonlight on the rocks; exactly one baby and two wolves; both wolves keep their mouths closed, their muzzles plain grey and their faces clean and unmarked",
+   "motion": "the baby is the one who moves, and the two wolves hold still: at the start the baby is on its hands and knees on the flat rock with its face lifted; over the first three seconds it crawls slowly two small paces forward into the den toward the big wolf's lowered muzzle, one small hand reaching out and patting the wolf's nose; in the last two seconds it sits back on its heels with its hand still on the wolf's nose; the big wolf keeps his head lowered and his yellow eyes on the baby, his ears not moving; the she-wolf keeps her head raised and her ears forward; the rocks, the dark leaves and the moonlight hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "wolves"
-      ],
-      "beat": "늑대굴 입구로 아기가 기어 들어온다.",
-      "visual": "a small infant crawling into the mouth of a rocky wolf den at dusk, jungle behind",
-      "motion": "the infant crawls forward into the den, dust puffs under its hands, ferns shake"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "wolves"
-      ],
-      "beat": "늑대들이 아기를 둥글게 둘러싼다.",
-      "visual": "grey wolves closing in a ring around a small infant on the den floor, low light",
-      "motion": "the wolves draw in around the child, ears flick forward, dust settles"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "mowgli",
-        "wolves"
-      ],
-      "beat": "소년이 늑대들과 나란히 달린다.",
-      "visual": "a bare-skinned boy running low beside grey wolves through tall jungle grass",
-      "motion": "they run forward through the grass toward the camera, stalks whip aside, dust streams"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "panther"
-      ],
-      "beat": "검은 표범이 나뭇가지에서 내려다본다.",
-      "visual": "a black panther stretched along a thick branch looking down through jungle leaves",
-      "motion": "its tail sweeps along the branch, leaves shift, amber eyes track downward"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "mowgli",
-        "bear"
-      ],
-      "beat": "곰이 소년에게 나무 타기를 보여 준다.",
-      "visual": "a big shaggy bear hauling itself up a tree trunk while a boy watches from below",
-      "motion": "the bear climbs up the trunk, bark flakes fall, the boy tips his head back"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "mowgli",
-        "monkeys"
-      ],
-      "beat": "원숭이 떼가 소년을 채어 올린다.",
-      "visual": "grey langur monkeys carrying a struggling boy up through the jungle canopy",
-      "motion": "they haul him upward through the branches, leaves burst outward, tails whip"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "mowgli",
-        "ruined_temple"
-      ],
-      "beat": "소년이 폐허 신전 한가운데 내려앉는다.",
-      "visual": "a boy set down among toppled pillars of a vine-swallowed stone temple in moonlight",
-      "motion": "he lands on the flagstones, vines swing overhead, dust lifts around his feet"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 신전 바닥에 달빛만 흐른다.",
-      "visual": "empty moonlit flagstones between toppled temple pillars, vines hanging still",
-      "motion": "moonlight slides across the flagstones, vines sway, dust settles in the still air"
-    }
-  ],
-  "withheld": "폐허에서 소년을 기다리던 것이 무엇인지와, 호랑이 시어 칸과의 마지막"
+  {
+   "n": 2,
+   "cast": [
+    "shere_khan",
+    "father_wolf",
+    "cave",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "굴 밖에서 호랑이 시어 칸이 으르렁댄다",
+   "visual": "moonlight on the rocky mouth of the wolf den: the huge tiger with the orange fur and the black stripes, the stiff hind leg is the one standing outside the den at frame right with his great striped head thrust into the mouth of the den, his lips drawn back and his yellow eyes narrowed; the big grey wolf with the plain grey muzzle is the one standing braced inside the den mouth at frame left with his hackles up and his head low, his body between the tiger and the dark of the den; the moonlit rocks and the dark jungle leaves; exactly one tiger and one wolf; the ground between them is clean pale sand and grey rock, and the wolf's grey coat is unmarked; the tiger's orange coat is clean and unmarked from head to paws",
+   "motion": "the tiger is the one who moves, and the wolf holds his braced stance: at the start the tiger's head is thrust into the den mouth with his lips drawn back; over the first two seconds his head pushes a hand's width further in, his muzzle pushing wider open, one huge striped forepaw sliding forward over the rock with its claws out, his ears flattening; in the last two seconds he holds with his mouth open and his paw on the rock; the wolf keeps his hackles up and his teeth bared, his legs braced, his eyes on the tiger; the rocks, the leaves and the moonlight hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "wolves",
+    "baloo",
+    "bagheera",
+    "baby",
+    "council_rock",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "바위 회의에서 곰 발루와 표범 바기라가 아기를 감싼다",
+   "visual": "full moonlight on the wide flat rock on the hilltop: the pack of eight grey wolves are the ones sitting in a loose ring on the rock with their yellow eyes turned to the centre; the big shaggy brown bear with the pale muzzle is the one sitting up on his haunches at the centre of the ring at frame left with one heavy forepaw raised; the sleek black panther with the green eyes is the one lying stretched on the rock beside the bear at frame right with his head up and his green eyes on the wolves; the brown-skinned baby with the tuft of black hair is the one sitting on the rock between the bear's forepaws, its small face turned up; the boulders and the dark jungle below the hilltop, the full moon above; exactly one baby, one bear, one panther and eight wolves; the pale stone of the rock is clean and unmarked all the way to its edges, and the bear sits up on his haunches with one heavy forepaw raised over the baby",
+   "motion": "the bear is the only one who moves, and the panther, the baby and the ring of wolves hold still: at the start his heavy forepaw is raised; over the first three seconds the raised paw sweeps slowly across in front of him from left to right over the baby's head and comes down to rest on the rock beside the baby, his pale muzzle opening and closing as he speaks, his small eyes moving round the ring; in the last two seconds he holds with his paw on the rock and his muzzle closed; the panther keeps his head up and his green eyes on the wolves, his tail still; the baby keeps its face turned up; the eight wolves keep their seats in the ring with their ears forward; the boulders, the moon and the jungle below hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "mowgli",
+    "wolves",
+    "jungle",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "모글리라 불린 아기가 늑대 형제들과 풀숲을 달리며 자란다",
+   "visual": "hazy hot daylight in the tall grass of the jungle: the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one running on all fours through the tall grass at frame centre with his black hair streaming back and his lean face turned ahead, his bare brown back level with the wolves' backs; the pack of eight grey wolves are the ones running with him on both sides and ahead, their lean flanks stretched, the grass parting before them; tall trees and hanging creepers behind; exactly one boy and eight wolves",
+   "motion": "the boy and the wolves are the ones who move: at the start the boy is mid bound on all fours level with the wolves; over the first three seconds the boy and the wolves bound forward together through the tall grass with three long strides each, the grass parting and closing behind them, the boy's black hair streaming, all of them growing only a little larger in the frame; in the last two seconds they slow together and stop in the grass well inside the frame, the boy rising onto his knees with his chest heaving, the wolves' tongues out; the tall trees and the hanging creepers hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "baloo",
+    "mowgli",
+    "jungle",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "곰 발루가 모글리에게 정글의 법을 가르친다",
+   "visual": "hazy daylight under the tall trees of the jungle: the big shaggy brown bear with the pale muzzle is the one sitting up on his haunches on the trodden earth at frame right with one heavy forepaw raised and the pale muzzle open as he speaks, his small dark eyes on the boy; the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one sitting cross-legged on the earth at frame left facing the bear with his chin on his fists and his lean face turned up to the bear, his dark eyes wide; ferns and hanging creepers behind them; exactly one boy and one bear",
+   "motion": "the bear is the only one who moves, and the boy holds still: at the start the bear's forepaw is raised and his muzzle is open; over the first three seconds the raised paw taps slowly twice against the bear's own broad chest and then points slowly at the boy, his muzzle opening and closing as he speaks, his head tilting a little; in the last two seconds the paw holds pointing at the boy; the boy keeps his chin on his fists and his face turned up, his crossed legs not shifting; the ferns, the creepers and the tall trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "bagheera",
+    "mowgli",
+    "big_tree",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "검은 표범 바기라가 나뭇가지에 누워 모글리를 지켜본다",
+   "visual": "hazy daylight at the great jungle tree: the sleek black panther with the green eyes is the one lying stretched along the thick horizontal bough at frame right above the path with his forepaws hanging down on either side of the bough, his head raised and his green eyes turned down to the boy; the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one standing on the trodden earth of the path below the bough at frame left with one hand shading his eyes and his lean face tipped up toward the panther, his other hand on his hip; creepers hanging from the bough, the thick trunk behind; exactly one boy and one panther",
+   "motion": "the panther is the only one who moves, and the boy holds still: at the start the panther lies along the bough with his head raised; over the first three seconds the tip of his long tail lifts slowly from the bough and sways once from side to side, his head lowering slowly until his chin rests on his forepaws with his green eyes still on the boy, his ears turning forward; in the last two seconds the tail settles and his chin stays on his paws; the boy keeps his hand shading his eyes and his face tipped up, his feet planted on the path; the creepers, the trunk and the bough hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "monkeys",
+    "mowgli",
+    "jungle",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "원숭이 떼가 모글리를 채어 나무 위로 달아난다",
+   "visual": "hazy daylight high in the jungle canopy: the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one being carried through the air at frame centre with his arms and legs held by four of the grey long-tailed monkeys, one at each wrist and one at each ankle, his body stretched face down and his lean face twisted round toward the camera with his mouth open; the rest of the troop of a dozen grey monkeys are the ones swinging on the creepers and boughs around and ahead of him with their long tails curled; tall trunks and broad leaves below and around; exactly one boy and a troop of monkeys",
+   "motion": "the monkeys and the boy are the ones who move: at the start the four monkeys hold the boy's wrists and ankles in mid swing; over the first three seconds the four carriers swing forward together through the canopy on the creepers, the boy's body swinging under them and his black hair flying, and the other monkeys leap ahead from bough to bough with their tails curling, all of them growing only a little larger in the frame; in the last two seconds the carriers come to rest on a thick bough well inside the frame with the boy still held stretched between them; the trunks and the broad leaves hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "monkeys",
+    "mowgli",
+    "ruins",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "원숭이들이 모글리를 폐허가 된 옛 도시에 던져 둔다",
+   "visual": "hazy daylight in the cracked stone courtyard of the ruined city: the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one sprawled on his side on the cracked flagstones at frame centre, propped on one elbow with his lean face lifted and his dark eyes narrowed; the troop of a dozen grey long-tailed monkeys are the ones crowding on the fallen walls and the broken domed temple around him at frame left and right, chattering with their mouths open and their long tails hanging; creepers over the carved stone, the broken dome behind; exactly one boy and a troop of monkeys",
+   "motion": "the monkeys are the ones who move, and the boy holds still: at the start the monkeys crowd on the walls with their mouths open; over the first three seconds three of them leap down from the walls onto the flagstones and scamper in a ring round the boy with their tails up, the ones on the walls bobbing and swaying and slapping the stone with their hands; in the last two seconds the three on the ground squat in a ring round him with their heads cocked; the boy keeps propped on his elbow with his face lifted and his eyes narrowed; the fallen walls, the broken dome, the creepers and the flagstones hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "kaa",
+    "mowgli",
+    "ruins",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "커다란 비단뱀 카가 폐허의 벽을 타고 내려온다",
+   "visual": "hazy daylight in the cracked courtyard of the ruined city: the huge rock python with the brown and dull yellow mottled scales, its body as thick as a man's waist, is the one pouring slowly down over the top of a fallen carved wall at frame right, its flat head with the small eyes already on the flagstones and the long coils of its body still draped up the wall behind it; the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one standing on the flagstones at frame left with his back straight and his lean face turned to the python, one hand raised palm out toward it; the broken domed temple and the creepers behind; exactly one boy and one python",
+   "motion": "the python is the one who moves, and the boy holds still: at the start the python's flat head rests on the flagstones and its coils are draped up the wall; over the first three seconds the coils slide slowly down over the top of the wall behind it in a smooth pouring motion, the head gliding forward a forearm's length across the flagstones toward the boy with its tongue flicking out twice; in the last two seconds the head holds still on the stones with the last coil settling off the wall; the boy keeps his back straight and his hand raised palm out, his feet planted; the fallen wall, the broken dome, the creepers and the flagstones hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "shere_khan",
+    "wolves",
+    "council_rock",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "모글리가 돌아오자 시어 칸이 젊은 늑대들을 꼬드긴다",
+   "visual": "full moonlight on the wide flat rock on the hilltop: the huge tiger with the orange fur and the black stripes, the stiff hind leg is the one standing on the highest point of the rock at frame right with his head high and his mouth open as he speaks, his ears forward; the pack of eight grey wolves are the ones crowded at his feet at frame left and centre with their heads lifted to him, five of the younger ones close against his flank with their tails up and three older ones standing apart at the far left edge with their heads low; the boulders and the dark jungle below, the full moon; exactly one tiger and eight wolves",
+   "motion": "the tiger is the only one who moves, and the wolves hold still: at the start his head is high and his mouth is open; over the first three seconds his head swings slowly from the wolves at his feet out over the jungle and back again, his mouth working as he speaks, one huge striped forepaw lifting and setting down again on the rock with a slow heavy step; in the last two seconds he holds with his head turned down to the five young wolves at his flank; the five young wolves keep their tails up and their heads lifted, the three older ones keep their heads low and apart; the boulders, the moon and the jungle below hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "mowgli",
+    "village",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "모글리가 사람 마을에서 불을 담은 항아리를 가져온다",
+   "visual": "night among the mud huts of the village with the thatched roofs: the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one crouched running along the thorn fence at frame centre with a small clay pot held out in front of him in both hands, red embers glowing inside the pot and lighting his lean face from below, his dark eyes wide and his mouth set; the open doorway of the nearest hut at frame right with the low fire glowing in its hearth, the thorn fence running along frame left, the dark roofs against the night sky; he is the only person in the frame",
+   "motion": "the boy is the only one who moves: at the start he is crouched mid step with the clay pot held out in both hands; over the first three seconds he runs three crouched steps along the thorn fence toward frame left, the pot held steady in both hands with the embers glowing brighter as the air moves over them, sparks drifting up from the pot, his bare feet silent on the earth; in the last two seconds he stops crouched at the edge of the frame with the pot held close to his chest, the embers glowing on his face; the glow in the hut doorway flickers gently; the thorn fence, the mud huts and the thatched roofs hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "mowgli",
+    "shere_khan",
+    "wolves",
+    "council_rock",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "바위 회의에서 불붙은 가지를 휘두르자 시어 칸이 물러난다",
+   "visual": "full moonlight on the wide flat rock on the hilltop: the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one standing at the centre of the rock at frame left with a burning branch held high in his right hand, its flames streaming, his lean face lit orange and set hard; the huge tiger with the orange fur and the black stripes, the stiff hind leg is the one crouched low on the rock at frame right with his belly nearly on the stone, his head drawn back and his eyes narrowed against the flame, his lips drawn back; the pack of eight grey wolves are the ones crouched in a wide ring at the edges of the rock with their ears flat; the boulders and the full moon; exactly one boy, one tiger and eight wolves",
+   "motion": "the boy and the flame are the ones who move, and the tiger and the wolves hold still: at the start the burning branch is held high with its flames streaming; over the first three seconds the boy takes one slow step toward the tiger and swings the branch slowly down in an arc and up again in front of the tiger's face, the flames streaming sideways with the swing and sparks scattering, his face staying set hard; in the last two seconds he holds the branch out toward the tiger with the flames streaming upward; the tiger keeps crouched low with his head drawn back and his eyes narrowed, his paws not moving; the eight wolves keep their ears flat in their ring; the boulders and the moon hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "mowgli",
+    "buffalo",
+    "jungle",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "정글을 떠난 모글리가 마을에서 물소 떼를 몬다",
+   "visual": "hazy hot daylight at the edge of the jungle: the boy of ten with the tangled black hair and the brown skin in the short dull red loincloth is the one sitting astride the broad back of the biggest of the black water buffalo at frame centre, a long thin switch in one hand and the other hand resting on the buffalo's wide curved horn, his lean face turned ahead; the herd of black water buffalo with the wide curved horns and the mud on their flanks are the ones walking in a loose mass around and ahead of him, their heads low; tall grass and the jungle trees behind; exactly one boy and a herd of buffalo",
+   "motion": "the buffalo and the boy on the buffalo are the ones who move: at the start the herd is mid step with their heads low and the boy sits astride the biggest one; over the first three seconds the herd walks slowly forward two heavy steps each, their heads swaying low, the boy swaying gently with the walk of the buffalo under him and lifting the thin switch slowly and bringing it down gently on the buffalo's flank once; in the last two seconds the herd slows and stops with the boy still astride, the switch resting; the tall grass sways very slightly; the jungle trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "buffalo",
+    "shere_khan",
+    "ravine",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "골짜기 양쪽에서 몰아치는 물소 떼 사이에 시어 칸이 있다",
+   "visual": "hazy daylight inside the narrow steep-sided ravine of red rock: the huge tiger with the orange fur and the black stripes, the stiff hind leg is the one standing on the dry stony streambed at frame centre with his head swinging round and his mouth open, his ears back and his eyes wide; the herd of black water buffalo with the wide curved horns are the ones pouring down the ravine toward him from the far end at the top of the frame, their heads lowered and their horns forward, dust rising over them; the red rock walls rising steep on both sides; exactly one tiger and a herd of buffalo",
+   "motion": "the buffalo are the ones who move, and the tiger holds still: at the start the herd is pouring down the ravine with their horns forward and dust rising; over the first three seconds the herd comes on down the streambed toward the tiger with their heads lowered, growing larger in the frame, the dust thickening and rolling forward over their backs, the stones of the streambed scattering under their hooves; in the last two seconds the leading buffalo are a few strides from the tiger and hold their charge inside the frame; the tiger keeps his head swung round and his mouth open, his paws planted on the stones; the red rock walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "council_rock",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "달빛 아래 빈 바위 회의 터만 남는다",
+   "visual": "full moonlight on the wide flat rock on the hilltop: the flat rock lies bare and pale under the moon at frame centre, the boulders standing round its edges, the dark mass of the jungle falling away below it on every side, the full moon high in the dark blue sky; the rock lies quiet",
+   "motion": "nothing but the moonlight moves: over the whole five seconds a slow dimming passes over the lower edge of the full moon from left to right and clears again, the pale light on the flat rock dimming very slightly while it crosses and brightening again after, the shadows of the boulders on the rock deepening and paling with it; the flat rock, the boulders round its edges, the dark mass of the jungle falling away below on every side and the dark blue sky hold completely still; the rock stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

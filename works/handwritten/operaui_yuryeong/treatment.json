@@ -1,62 +1,200 @@
 {
- "logline": "극장 어딘가에서 노랫소리를 듣던 젊은 가수가, 거울 뒤로 이어진 계단을 내려간다.",
- "destination": "극장 지하의 검은 호수 — 목소리의 주인이 사는 자리",
- "protagonist": "합창단에서 갑자기 주역이 된 젊은 소프라노",
- "setting": "1880년대 파리 오페라 극장, 무대와 분장실과 지하",
- "anchor": "a slight young soprano in a pale stage gown, loose chestnut hair",
- "palette": "gilt gold and crimson velvet, candle flame, black water, deep stage shadow",
+ "logline": "파리 오페라 극장에서 배경막이 떨어지고 주역이 무대를 거부한 밤, 무명의 크리스틴이 대역으로 노래해 박수를 받고, 분장실 거울 뒤의 노랫소리를 따라 가면 쓴 형체와 함께 계단과 지하 호수를 건너 오르간 앞에 서며, 극장의 사고와 지붕 위 라울의 고백을 지나 공연 날 무대에서 사라지자 라울이 등불을 들고 지하로 내려간다",
+ "destination": "소설 오페라의 유령에서 만날 수 있습니다",
+ "protagonist": "christine",
+ "setting": "1880년대 파리 오페라 극장 — 무대와 객석, 오번 특별석, 분장실, 지하로 감기는 돌계단, 지하 호수와 호수 곁 집, 지붕",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/operaui_yuryeong/assets",
+ "anchor": "a slender young singer with long golden hair and a tall thin figure in a black cloak whose whole face is a smooth white mask, in the Paris Opera and its cellars",
+ "palette": "dull yellow, dark blue, ash grey, off-white, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "가면 아래의 얼굴과, 그가 두 사람을 놓아주며 맞는 마지막",
  "beats": [
   {
    "n": 1,
-   "beat": "젊은 가수가 극장 지붕 위로 올라온다.",
-   "visual": "a young soprano stepping onto a vast opera house roof among bronze statues, city rooftops beyond",
-   "motion": "wind lifts her gown, cloud shadow crosses the bronze, her hair whips back"
+   "cast": [
+    "carlotta",
+    "stage",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "오페라 극장의 리허설 중 무대 배경막이 떨어져 내린다",
+   "visual": "the dull yellow working light of the gas footlights on the great stage of the Paris Opera during a rehearsal: a huge painted backdrop of a garden lies collapsed across the bare boards at frame centre, its long wooden batten lying crooked on top of it and its painted canvas heaped in stiff folds, a haze of dust hanging above it in the light; the stout woman of forty with the black hair piled high, in the wide gown of dark green silk, is the one standing at frame right well clear of the fallen canvas with her arms folded and her heavy proud face turned to the heap, her chin lifted; three chorus girls in plain off-white rehearsal dresses are the ones standing close together at frame left with their backs to the camera and their hands at their mouths; the tall painted scenery flats stand upright behind on both sides; the gilt proscenium arch shows at the top edge of the frame; the dark house beyond the footlights is empty; there is exactly one face turned to the camera and it is the stout woman's",
+   "motion": "the dust in the light is the one thing that moves, and the people hold still: at the start the haze of dust hangs above the collapsed canvas; over the whole five seconds the dust drifts slowly upward and thins in the dull yellow light of the footlights, the heaped canvas and the crooked batten lying exactly as they are; the stout woman keeps her arms folded and her chin lifted with her face turned to the heap, nothing in her moving; the three chorus girls at frame left keep their backs to the camera and their hands at their mouths; the painted flats, the gilt proscenium arch and the dark empty house hold completely still; the footlights keep their steady light without flicker; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "분장실 거울 뒤에서 노랫소리가 들려온다.",
-   "visual": "a young soprano turning toward a tall dressing room mirror, candles doubled in its surface",
-   "motion": "candle flames double and waver in the glass, she turns, a comb slips off the table"
+   "cast": [
+    "christine",
+    "carlotta",
+    "stage",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "주역이 무대를 거부하자 무명의 크리스틴이 대역으로 선다",
+   "visual": "the dull yellow working light of the footlights on the great stage: the stout woman of forty with the black hair piled high, in the wide gown of dark green silk with the long train, is the one walking away from the camera toward the side curtains at frame left with her back turned and her chin high, her train dragging over the boards behind her; the slender young woman of twenty with the long fair golden hair loose over her shoulders and the pale gentle oval face, in the plain off-white gown, is the one standing alone at frame centre near the footlights with both her hands clasped at her waist and her large blue eyes lifted to the dark house, her lips a little parted; the tall painted scenery flats stand behind her; the heavy curtains of dull gold and dark blue hang at the sides; the row of gas footlights runs along the bottom of the frame with its light on the young woman's gown; there are exactly two women on the stage and the one facing the camera is the young one with the golden hair",
+   "motion": "the stout woman walking away is the one who moves, and the young woman holds still: at the start the stout woman's back is at frame left with her train on the boards behind her; over the whole five seconds she walks slowly on toward the side curtains with her chin high, her train dragging after her over the boards and her figure moving no more than two paces, her face never turning back; the young woman at frame centre keeps her hands clasped at her waist and her eyes lifted to the dark house, only her lips closing slowly and parting again; the painted flats, the side curtains and the gilt proscenium hold completely still; the footlights keep their steady light on the off-white gown; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "무대 위 거대한 샹들리에가 크게 흔들린다.",
-   "visual": "an enormous crystal chandelier swaying above a packed auditorium, faces turning up toward it",
-   "motion": "the chandelier swings wide, crystals chime, hundreds of heads tilt back"
+   "cast": [
+    "christine",
+    "house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "완벽하게 노래한 크리스틴에게 극장이 박수를 쏟는다",
+   "visual": "the bright dull yellow light of the great crystal chandelier over the auditorium of the Paris Opera, seen from the stage: the slender young woman of twenty with the long fair golden hair and the pale gentle face, in the plain off-white gown, is the one standing at the front of the stage at the bottom of the frame with her back to the camera and her face hidden, her arms held out a little from her sides with the palms open, her golden hair down her back; before her the five tiers of gilt boxes rise in their horseshoe filled with people on their feet, small pale faces and dark evening clothes in every box and every row of dark blue seats, hundreds of hands raised and clapping, off-white flowers held up here and there; the great crystal chandelier hangs from the painted dome at the top of the frame with all its lights burning; there is exactly one figure on the stage and her back is to the camera",
+   "motion": "the raised hands in the house are the ones that move, and the young woman on the stage holds still: at the start hundreds of hands are raised above the pale faces in every tier; over the whole five seconds the hands clap steadily, moving together and apart in small quick motions all through the boxes and the rows of seats, the off-white flowers held up here and there swaying a little, no figure leaving its place; the young woman at the front of the stage keeps her back to the camera and her arms held out from her sides, her golden hair still down her back; the great chandelier hangs steady from the dome with its lights burning even; the gilt tiers and the painted dome hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "오번 특별석은 늘 비워 두라는 지시가 온다.",
-   "visual": "an empty velvet box seat in a full opera house, red curtain half drawn across it",
-   "motion": "the box curtain stirs, the audience settles below, gaslight steadies",
-   "anchor": false
+   "cast": [
+    "box_five",
+    "house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "오번 특별석은 늘 비워 두라는 지시가 극장에 내려와 있다",
+   "visual": "the dull yellow light of the chandelier on the tiers of the auditorium, seen from the stage looking up at the first tier of gilt boxes: one gilt box at frame centre is the one thing with its dark blue curtains half drawn and its seats empty, the inside of it dark, the gilt of its rail dull; the boxes on either side of it at frame left and frame right are full, with people in dark evening clothes leaning on the gilt rails and small pale faces turned toward the stage, a woman's fan open in one; the row of gas lights along the front of the tier throws its light up on the full boxes and leaves the empty box between them in shadow; the painted dome shows at the top of the frame; the box at frame centre holds only its empty chairs and its shadow",
+   "motion": "the people in the full boxes are the ones that move, and the empty box holds still: at the start the people lean on the gilt rails with their faces toward the stage; over the whole five seconds a woman's fan at frame left opens and closes slowly twice, a man at frame right turns his head slowly toward the empty box and back to the stage, and the small pale faces shift a little as people settle in their seats; the empty box at frame centre keeps its half-drawn dark blue curtains hanging still, its seats empty and its inside dark, nothing appearing in it; the gas lights along the tier keep their steady light; the gilt rails, the brass plate on the empty box and the painted dome hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "거울이 문처럼 열리고 어둠이 드러난다.",
-   "visual": "a tall mirror swung inward like a door revealing a black stone passage, a young soprano before it",
-   "motion": "the mirror swings inward, cold air pushes her gown, candle flames bend"
+   "cast": [
+    "christine",
+    "dressing_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "분장실 거울 뒤에서 크리스틴이 나직한 노랫소리를 듣는다",
+   "visual": "the dull yellow light of one candle on the dressing table in the small dressing room at night: the tall mirror in its gilt frame set flat into the wall is the one thing at frame centre, its glass showing only the plain wall opposite and the edge of the folding screen, and the glass holding only that wall and that edge of screen; the slender young woman of twenty with the long fair golden hair loose over her shoulders and the pale gentle oval face, in the plain off-white gown, is the one standing at frame right with her side to the mirror, her cheek and one ear laid flat against the cold glass, her head tilted and her eyes closed, listening, one hand raised with the fingers spread just short of the gilt frame; the dressing table at frame left holds the candle and the hairbrush; the vase of off-white flowers stands on a small shelf; the folding screen stands in the corner; the door is closed; she is the one person in the room",
+   "motion": "the young woman's raised hand is the one thing that moves, and the mirror holds still: at the start her hand is raised with the fingers spread just short of the gilt frame and her cheek and ear laid against the glass; over the first three seconds the fingers come slowly to rest against the gilt frame and her head tilts a little further toward the glass, her eyes staying lifted and her lips parting slowly; in the last two seconds her hand holds on the frame and her head stays tilted; her feet do not shift; the glass of the mirror keeps showing only the plain wall and the edge of the screen and no one appears in it; the candle on the dressing table keeps its steady flame; the hairbrush, the vase of flowers, the folding screen and the closed door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그녀는 촛불을 든 형체를 따라 계단을 내려간다.",
-   "visual": "a masked figure in black holding a candle leading a young woman down a spiral stone stair",
-   "motion": "the candle descends ahead of her, shadows wheel on the wall, her hem drags"
+   "cast": [
+    "phantom",
+    "christine",
+    "dressing_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 그 거울이 열리고, 가면 쓴 형체가 촛불을 들고 서 있다",
+   "visual": "the dull yellow light of the candle on the dressing table in the small dressing room at night: the tall mirror in its gilt frame is the one thing at frame centre swung open on a hinge at one side, standing out from the wall at an angle, and in the black opening behind it the tall thin figure in black evening tailcoat and trousers with the long black cloak and the wide black hat is the one standing on the threshold, the whole face covered by the smooth white mask with the two dark eyeholes, one black-gloved hand holding a single lit candle in a plain holder up at the height of the mask and the other gloved hand held out open toward the room; the slender young woman of twenty with the long fair golden hair and the pale gentle face, in the plain off-white gown, is the one standing at frame right with her back to the dressing table and both her pale bare hands pressed flat against its edge behind her, the skin of her hands and wrists showing white below the off-white sleeves, her large blue eyes fixed on the white mask and her lips parted; the folding screen and the vase of flowers show at the far left; there are exactly two figures in the room and one of them wears the white mask",
+   "motion": "the figure's outstretched gloved hand and the candle flame are the two things that move, and the young woman holds still: at the start the gloved hand is held out open toward the room and the candle is held up at the height of the mask; over the first three seconds the open gloved hand turns slowly palm up and draws back a little toward the black opening in a slow beckoning, the candle flame leaning slightly and steadying, the white mask not turning; in the last two seconds the hand holds palm up and the flame stays steady; the figure's feet on the threshold do not shift; the young woman keeps her hands pressed to the dressing table's edge behind her and her eyes on the mask, nothing in her moving; the swung-open mirror keeps its angle; the candle on the dressing table keeps its steady flame; the screen and the flowers hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 가면 아래에는 무엇이 있을까?",
-   "visual": "a white half mask turned toward a young woman across a candlelit underground chamber",
-   "motion": "her hand rises toward the mask, candles gutter together, water laps stone"
+   "cast": [
+    "phantom",
+    "christine",
+    "stone_stair",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "촛불 든 형체를 따라 크리스틴이 좁고 긴 계단을 내려간다",
+   "visual": "deep darkness in the narrow stone stair winding down through the cellars, lit only by one candle: seen from above and behind, the tall thin figure in the black cloak and the wide black hat is the one lower on the stair at frame centre with his back to the camera and the white mask hidden, the lit candle held up in one gloved hand so that its dull yellow light lies on the wet ash grey walls and the worn steps around him, his cloak hanging to the steps; the slender young woman of twenty with the long fair golden hair down her back, in the plain off-white gown, is the one three steps above him at frame right with her back to the camera and her face hidden, one hand trailing along the wet wall and the other lifting the hem of her gown from the steps; the stair winds down and away to the left below them into black darkness; the wet walls shine a little in the candlelight; there are exactly two figures on the stair and both have their backs to the camera",
+   "motion": "the two figures on the stair are the ones that move, and the walls hold still: at the start the figure in the cloak is lower on the stair with the candle held up and the young woman three steps above him; over the whole five seconds both go slowly down the stair away from the camera, one step at a time, the candlelight moving down the wet walls with them and the darkness closing behind them a little, the cloak swaying slightly at each step and the young woman's hand trailing along the wall, her golden hair swinging a little down her back, neither face ever turning back; the worn steps, the wet ash grey walls and the black darkness below hold completely still except for the moving light; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "지하 호수에 촛불 하나가 흔들린다.",
-   "visual": "a single candle guttering on a stone ledge above still black underground water, boat gone",
-   "motion": "the flame leans and recovers, reflections break apart, water laps stone",
-   "anchor": false
+   "cast": [
+    "phantom",
+    "christine",
+    "lake",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "형체가 검은 지하 호수를 배로 건너 크리스틴을 데려간다",
+   "visual": "black darkness over the underground lake under the low stone vaults, lit by the small lantern at the bow of the boat: the small flat-bottomed boat is the one thing on the flat black water at frame centre going slowly away from the camera, seen from behind; the tall thin figure in the black cloak and the wide black hat is the one standing at the stern with his back to the camera and the white mask hidden, both gloved hands on the long pole that goes down into the black water beside the boat; the slender young woman of twenty with the long fair golden hair down her back, in the plain off-white gown, is the one sitting in the middle of the boat with her back to the camera and her face hidden, her hands folded in her lap and her head bowed; the lantern at the bow throws a small circle of dull yellow light on the black water ahead; the low stone vaults come down close over the water on both sides; the water behind the boat lies flat and black to the bottom of the frame; there are exactly two figures in the boat and both have their backs to the camera",
+   "motion": "the boat on the black water is the one thing that moves, and the vaults hold still: at the start the boat is at frame centre with the pole down in the water beside it; over the whole five seconds the boat glides slowly away from the camera, growing a little smaller, the gloved hands drawing the long pole slowly up and pressing it down again once, a low ripple spreading from the pole and smoothing out on the black water, the small circle of lantern light moving ahead on the water with the boat; the young woman in the middle keeps her back to the camera and her head bowed; the low stone vaults on both sides and the lantern at the bow hold completely still; the black water behind the boat stays flat; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "phantom",
+    "christine",
+    "lake_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "호수 곁 집의 오르간 앞에서 유령이 크리스틴에게 노래를 청한다",
+   "visual": "the dull yellow light of the tall candles in their iron stands in the stone room by the underground lake: the great organ with its tall pipes rises against the stone wall at frame left, and the tall thin figure in black evening tailcoat and trousers with the white mask covering his whole face is the one sitting on the organ bench at frame left half turned from the keys toward the room, his wide black hat off and lying on the bench beside him, showing smooth black hair combed flat to his head, one long pale thin hand resting on the keys and the other held out open and low toward the young woman with the palm up; the slender young woman of twenty with the long fair golden hair and the pale gentle face, in the plain off-white gown, is the one standing at frame right two paces from the bench with both her hands clasped at her breast and her large blue eyes on the white mask, her face pale and still; the heap of music papers lies on the far end of the bench with their written sides turned down; the stone floor runs between them; there are exactly two figures in the room and the one at the organ wears the white mask",
+   "motion": "the masked figure's outstretched hand is the one thing that moves, and the young woman holds still: at the start the gloved hand is held out open and low toward her with the palm up and the other hand rests on the keys; over the first three seconds the open hand rises slowly to the height of his chest and the fingers curl a little inward in a slow pleading, the white mask tilting slightly toward her, the hand on the keys not pressing them; in the last two seconds the hand holds at chest height and the mask stays tilted; his feet under the bench do not shift; the young woman keeps her hands clasped at her breast and her eyes on the mask, nothing in her moving; the candles in their iron stands keep their steady flames; the organ pipes, the black hat on the bench and the heap of music papers with their written sides down hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "christine",
+    "house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "극장으로 돌아온 크리스틴 곁에서 사고가 이어져 샹들리에가 흔들린다",
+   "visual": "the bright dull yellow light of the great crystal chandelier over the auditorium, seen from a gilt box in the first tier looking up: the great chandelier is the one thing filling the upper half of the frame, hanging from the painted dome on its thick chain, tilted a little to one side with its hundreds of crystal pendants all leaning the same way and its lights burning; below it the tiers of gilt boxes across the house are full of people with their small pale faces all turned up toward it; the slender young woman of twenty with the long fair golden hair and the pale gentle face, in the plain off-white gown, is the one at the near right edge of the frame in the gilt box, seen close, with one hand on the gilt rail and her face turned up to the chandelier with her large blue eyes wide; the dark blue seats of the stalls show far below; there is exactly one face seen close and it is the young woman's",
+   "motion": "the great chandelier is the one thing that moves, and the young woman holds still: at the start the chandelier hangs tilted a little to one side with its crystal pendants leaning; over the whole five seconds it swings slowly back through the upright and a little past it and returns, once, on its thick chain, the hundreds of crystal pendants swaying together with the swing and their lights moving across the painted dome, the chain creaking soundlessly at the dome; the small pale faces in the tiers across the house stay turned up to it; the young woman at the near edge of the frame keeps her hand on the gilt rail and her wide eyes on the chandelier, her lips slowly parting; the gilt boxes, the painted dome and the dark blue seats far below hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "raoul",
+    "christine",
+    "roof",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "지붕 위에서 라울이 떠는 크리스틴에게 자신을 믿으라 고백한다",
+   "visual": "black night on the roof of the Paris Opera with the small lights of Paris far below: the young man of twenty-one with the light brown hair and the fresh open plain face, in the dark blue frock coat, is the one standing at frame left with both his hands holding the young woman's two hands between them at the height of his chest, his face bent close to hers and his lips parted; the slender young woman of twenty with the long fair golden hair stirred by the wind and the pale gentle face, in the plain off-white gown with a dark shawl round her shoulders, is the one standing at frame right with her hands in his and her large blue eyes lifted to his face, her shoulders drawn in; the great bronze statue of Apollo lifting the lyre rises black against the sky behind them at frame centre on the green copper dome; the stone parapet runs along the bottom of the frame with the small dull yellow lights of the city far below it; there are exactly two people on the roof",
+   "motion": "the young woman's stirred hair and the young man's bent head are the two things that move, and the roof holds still: at the start his face is bent close to hers with her hands held in his; over the first three seconds her long golden hair lifts slowly in the wind across her shoulder and settles, and his head bends a little closer with his lips moving as he speaks, his hands pressing hers a little tighter; in the last two seconds both hold, her eyes on his face and her hands in his; their feet do not shift on the roof; the dark shawl round her shoulders stirs only at its edge; the bronze statue with the lyre, the copper dome and the stone parapet hold completely still; the small lights of the city far below stay steady; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "stage",
+    "house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "여섯 달 뒤 공연 날, 크리스틴이 무대에서 사라진다",
+   "visual": "the full stage light of a performance night on the great stage of the Paris Opera, seen from the front of the stalls: at frame centre, in the flat floor of the stage well in front of the painted flats, a square hatch cut in the floorboards stands open, seen from above at a slant so that its black inside shows below the level of the lit boards and its four sharp edges lie flat in the floor; beside it on the boards lies a single off-white glove and a long white veil spread flat and loose across the boards in a low heap; the tall painted scenery flats of a garden stand lit on both sides; the heavy curtains of dull gold and dark blue hang at the sides of the gilt proscenium; the row of gas footlights runs along the bottom of the frame; the bare boards of the stage run clear from side to side; in the near foreground at the bottom edge of the frame the backs of three heads in the front row of the stalls show dark and still; the great chandelier's light lies bright and even on the empty boards; the open hatch in the floor is the one dark thing on the bare boards in the light",
+   "motion": "the long white veil beside the open hatch in the floor is the one thing that moves, and the stage holds still: at the start the veil lies flat on the boards beside the black square hole in the floor; over the first three seconds a slow draught from the open hatch in the floor lifts one end of the veil a hand's width from the boards and lets it settle again, the off-white glove beside it not stirring; in the last two seconds the veil lies still; the black square hole in the floor of the open hatch in the floor keeps its sharp edges with nothing rising from it; the painted flats, the side curtains and the gilt proscenium hold completely still; the three dark heads in the front row do not turn; the footlights and the chandelier keep their steady even light; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "raoul",
+    "cellars",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "라울이 등불을 들고 크리스틴을 찾아 지하로 내려간다",
+   "visual": "deep darkness in the cellars under the Opera, lit by one small hand lantern: the young man of twenty-one with the light brown hair and the fresh open face, in the dark blue frock coat with the collar turned up, is the one standing at frame centre on the lowest rungs of the wooden ladder with one hand on the ladder and the small lantern held out low in the other, its dull yellow light lying on the dark water standing on the stone floor and on the base of a thick stone pillar, his face turned down and to the left toward the darkness with his brows drawn together; coils of rope hang from iron hooks on the pillar; a second thick pillar shows dim at frame right; the dark water on the floor gives back the small light of the lantern in one still smear; the darkness beyond the pillars is complete; there is exactly one person in the cellar",
+   "motion": "the young man's lantern hand is the one thing that moves, and the cellar holds still: at the start the lantern is held out low with its light on the dark water and the base of the pillar; over the first three seconds his arm swings the lantern slowly to the left so that its light travels across the water and up the near pillar and over the coils of rope, his face turning with it, and then slowly back; in the last two seconds the lantern holds out low again and his face stays turned to the darkness; his feet on the ladder rungs do not shift and his other hand keeps its grip; the coils of rope on their hooks and the second pillar hold completely still; the dark water on the floor stays flat with the smear of light moving across it and settling; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "phantom",
+    "raoul",
+    "christine"
+   ],
+   "refs": [],
+   "beat": "라울 앞에 선 유령이 가면을 쓴 채 마주 서 있다",
+   "visual": "the dull yellow light of the tall candles in their iron stands in the stone room of the lake house, its floor of dry grey flagstones running under the feet of all three figures to the bottom edge of the frame: the tall thin figure in black evening tailcoat and trousers with the long black cloak is the one standing at frame centre facing the camera with the whole face covered by the smooth white mask with the two dark eyeholes, his wide black hat on, both black-gloved hands hanging open at his sides; the young man of twenty-one with the light brown hair, in the dark blue frock coat, is the one at the near left edge of the frame seen close from behind with his face hidden, one shoulder and the back of his head large in the frame; the slender young woman of twenty with the long fair golden hair and the pale gentle face, in the plain off-white gown, is the one standing at frame right a pace behind the masked figure with both her hands pressed to her mouth and her large blue eyes on the young man's back; the great organ with its tall pipes rises against the stone wall behind them; the candles stand in their iron stands on the flagstones; the plain grey stone wall behind the figures is bare between the organ and the frame's left edge; there are exactly three figures in the room and the one at frame centre wears the white mask over his whole face",
+   "motion": "the masked figure's gloved hands are the one thing that moves, and the other two hold still: at the start both gloved hands hang open at his sides; over the first three seconds one gloved hand rises slowly, open, until it is level with the white mask, the fingers spread a hand's width from the mask's cheek, the mask itself not moving and staying fully on his face; in the last two seconds the hand holds beside the mask and does not touch it; his feet do not shift; the young man's shoulder and the back of his head at the near left edge stay exactly where they are; the young woman keeps her hands pressed to her mouth and her eyes on the young man's back; the candles keep their steady flames; the organ pipes and the stone walls hold completely still; the mask stays on; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "lake_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빈 방의 오르간 의자 위에 흰 가면만 남는다",
+   "visual": "the dull yellow light of two tall candles burning low in their iron stands in the stone room by the underground lake: the organ bench before the great organ is the one thing at frame centre, and on it lies the smooth white mask with the two dark eyeholes, face up, alone on the dark wood, the candlelight lying across its smooth curve; the great organ's tall pipes rise against the stone wall above it; the heap of music papers lies on the far end of the bench with their written sides turned down; the wide black hat lies upside down on the stone floor beside the bench; the stone floor runs bare to the bottom of the frame; the low doorway to the lake at frame right is black; the white mask on the bench is the one pale thing in the light, the room holding only the organ, the bench, the candles and the hat",
+   "motion": "the two candle flames are the one thing that moves, and the room holds still: at the start the flames burn low and steady in their iron stands; over the whole five seconds the flames lean slowly together toward the black doorway, as a draught comes from the lake, and straighten again, the light across the smooth white mask dimming a little and brightening; the mask lies exactly where it is on the bench, face up, and does not stir; the heap of music papers keeps its place with its written sides down; the black hat lying on its crown on the floor does not move at all; the organ pipes, the stone walls and the black doorway to the lake hold completely still; no figure appears in the doorway; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "가면 아래 얼굴과, 놓아주며 맞는 마지막",
- "voice": "ko-KR-SeoHyeonNeural"
+ ]
 }

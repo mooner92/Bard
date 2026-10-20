@@ -1,0 +1,9 @@
+[포맷] 각색형
+[서지] 돼지치기 왕자 / 한스 크리스티안 안데르센 / 덴마크 / 1841
+[줄거리와 배경]
+진짜 장미와 나이팅게일을 마다한 황제의 딸이, 돼지치기로 변장한 왕자의
+방울 냄비와 딸랑이 값으로 입맞춤을 치르다 황제에게 들켜 쫓겨나고,
+빗속에서 진짜 왕자를 알아본다.
+[줄거리]
+줄거리와 배역은 works/handwritten/dwaejichigi_wangja/treatment.json 에 열다섯 박자로 적어 두었다.
+원문은 works/sources/dwaejichigi_swineherd_en.txt (구텐베르크 #1597), 근거는 source_notes.md.

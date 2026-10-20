@@ -1,0 +1,177 @@
+{
+ "logline": "어느 날 고기를 먹지 않기로 한 아내를 세 사람의 눈으로 보는 한강의 장편 — 식탁의 전쟁과 식물의 언어",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "wife",
+ "setting": "2000년대 서울의 아파트 — 부엌과 식탁, 창가, 그리고 초록빛 숲",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/chaesikjuuija/assets",
+ "anchor": "a slim Korean woman in her early thirties with long straight black hair, a pale still face, in a plain grey house dress",
+ "palette": "off-white, deep green, ash grey, dark brown, dull red",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "dining"
+   ],
+   "refs": [],
+   "beat": "서울의 평범한 부부 집 — 저녁 식탁",
+   "visual": "the dining table of the Seoul apartment at dusk set for two, two bowls of rice, a dish of grilled meat, the window showing other apartment blocks with lit windows; no people",
+   "motion": "steam rises slowly from the two bowls and the lit windows of the far blocks flicker on one by one; the camera holds on the set table"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "wife",
+    "husband",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "어느 날의 꿈 — 잠 못 드는 아내",
+   "visual": "night in the bedroom of the apartment, the wife lying awake on her back with her eyes wide open, the husband asleep beside her with his back turned, the blue light of the window on the ceiling; exactly two people",
+   "motion": "the wife's open eyes stay fixed on the ceiling while the husband's back rises and sinks in sleep; the camera holds on the two in the bed"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "wife",
+    "husband",
+    "kitchen"
+   ],
+   "refs": [],
+   "beat": "냉장고의 고기를 버리는 아내",
+   "visual": "morning in the kitchen, the wife kneeling before the open refrigerator dropping wrapped packs of meat into a black plastic bag, the husband standing in the kitchen doorway in his shirt with his mouth open; exactly two people",
+   "motion": "the wife's hands keep dropping the wrapped packs into the bag one after another and the husband's open mouth holds in the doorway; the camera holds on the open refrigerator"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "wife",
+    "dining"
+   ],
+   "refs": [],
+   "beat": "가족의 식탁 — 조용한 전쟁터",
+   "visual": "the wife seated at the dining table with an empty white plate before her and her hands in her lap, three relatives seated around her with their chopsticks stopped in the air, dishes of meat in the middle; exactly four people",
+   "motion": "the three pairs of chopsticks stay stopped in the air and the wife's eyes stay on the empty plate; the camera holds on the table"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "dining"
+   ],
+   "refs": [],
+   "beat": "세 사람의 눈 — 젓가락 세 벌",
+   "visual": "the dining table seen from directly above, one untouched white plate in the centre and three pairs of chopsticks laid around it pointing at the plate; no people",
+   "motion": "the light across the table shifts slowly and the three pairs of chopsticks hold their places around the plate; the camera holds from above on the table"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "wife",
+    "living"
+   ],
+   "refs": [],
+   "beat": "아무도 아내가 되지 못한다 — 창가의 아내",
+   "visual": "the wife standing alone at the balcony window with her back to the room, her forehead close to the glass, looking at a single tree between the apartment blocks; exactly one woman",
+   "motion": "the wife's breath fogs a small patch of the glass and the tree outside sways slightly; the camera holds on the woman at the window"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "wife",
+    "living"
+   ],
+   "refs": [],
+   "beat": "식물의 언어로 기우는 몸",
+   "visual": "close on the wife's two open hands held up in the green light from the balcony plants, the shadows of leaves lying across her palms; exactly one woman",
+   "motion": "the leaf shadows drift slowly across the open palms as the plants stir; the camera holds close on the hands"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wife",
+    "living"
+   ],
+   "refs": [],
+   "beat": "상처받은 영혼의 고통 — 바닥의 햇살",
+   "visual": "the wife lying on her side on the floor of the living room with her eyes open, stripes of afternoon sunlight from the blinds across her body, potted plants on the windowsill; exactly one woman",
+   "motion": "the sunlight stripes creep slowly across the wife's body as the afternoon passes, her open eyes unmoving; the camera holds on the woman on the floor"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "dining"
+   ],
+   "refs": [],
+   "beat": "정교하고 섬뜩하게 아름다운 문장",
+   "visual": "close on a glass of water on the dining table with a single green leaf floating in it, the window light through the glass throwing a wavering patch on the tablecloth; no people",
+   "motion": "the leaf turns slowly in the water and the patch of light wavers on the cloth; the camera holds close on the glass"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wife",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "2016년 인터내셔널 부커상 — 세계가 읽은 서울의 방",
+   "visual": "the wife seated on the edge of the bed in the plain grey dress with her hands folded, the room bare, the window showing the apartment blocks at dusk; exactly one woman",
+   "motion": "the dusk light in the window fades slowly and the wife's folded hands stay still; the camera holds on the seated woman"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "sister",
+    "dining"
+   ],
+   "refs": [],
+   "beat": "남는 질문 — 언니의 눈",
+   "visual": "the sister standing in the kitchen doorway looking into the dim living room, one hand on the door frame, the wife's empty chair at the table in front of her; exactly one woman",
+   "motion": "the sister's hand tightens on the door frame and her eyes stay on the empty chair; the camera holds on the sister in the doorway"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "dining"
+   ],
+   "refs": [],
+   "beat": "먹이고 길들이는 폭력 — 두 손",
+   "visual": "close on the dining table: a man's hand pushing a bowl of meat across the cloth toward a woman's thin hand, the thin hand flat on the table with the fingers drawn back; exactly two hands",
+   "motion": "the man's hand pushes the bowl a little further and the thin fingers draw back further from it; the camera holds close on the two hands"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "wife",
+    "dining"
+   ],
+   "refs": [],
+   "beat": "침묵과 마른 나뭇가지",
+   "visual": "a bare dry branch standing in a vase on the dining table, the wife's still figure blurred behind it at the window, the room grey; exactly one woman",
+   "motion": "the wife's blurred figure stays still behind the branch while the grey light shifts on the table; the camera holds on the dry branch"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "wife",
+    "wood"
+   ],
+   "refs": [],
+   "beat": "끝내 무엇이 되려 할까",
+   "visual": "the wife standing barefoot among the tall straight trees of the wood in her plain grey dress, her arms lifted a little from her sides and her face turned up to the green light; exactly one woman",
+   "motion": "the green light through the leaves moves slowly over the wife's lifted arms and upturned face, the ferns stirring; the camera holds on the woman among the trees"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "dining"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 식탁 스틸",
+   "visual": "closing still: the dining table with one chair pulled back, an empty white plate with a single green leaf on it, the window light grey on the tablecloth",
+   "motion": "the grey light shifts slowly across the tablecloth and the leaf on the plate holds still; the camera closes with great patience on the empty plate"
+  }
+ ],
+ "withheld": ""
+}

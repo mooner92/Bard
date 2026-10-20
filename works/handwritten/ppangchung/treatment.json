@@ -1,0 +1,184 @@
+{
+ "logline": "소금빵과 꼭 닮은 식용 애벌레로 인생 역전을 꿈꾼 귀농 청년 — 달콤한 열풍이 서늘하게 어긋나는 여름",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "jeonghan",
+ "setting": "현대 한국의 작은 농촌 마을 — 비닐하우스 곤충 농장과 도시의 디저트 카페, 여름",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/ppangchung/assets",
+ "anchor": "a thin Korean man of about thirty with untidy chin-length black hair, in a faded navy work jacket over a plain grey sweatshirt",
+ "palette": "golden brown, soft white, pale green, slate blue, ash grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "번데기가 자라서 되는 모습, 주인공이 맨 끝에 내리는 결정",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "crowd",
+    "cafe"
+   ],
+   "refs": [],
+   "beat": "그해 여름 온 나라가 열광한 빵 한 가지",
+   "visual": "a bright summer afternoon inside a crowded dessert café, seen from just behind the customers: the long glass display case fills the lower two thirds of the frame, lit from within, and every glass shelf holds paper-lined trays of plump golden-brown salt bread rolls set in neat matching rows, each roll glossy on top with soft spiral ridges and a scatter of white salt flecks; the young customers crowd shoulder to shoulder along the counter with the backs of their heads to camera, bare arms reaching over the pale wooden counter top toward the trays; one tray at the centre of the case is already half emptied, paper liner showing through the gaps; strong daylight pours in from a tall window at frame left and glints along the glass edges, a white tiled wall behind the case, the whole shop warm and golden and full to the door",
+   "motion": "the crowd of customers presses forward toward the display case, and that forward press is the one movement in the shot: at the start the reaching arms hover above the counter; over the whole five seconds the customers lean in shoulder to shoulder, arms stretching further across the pale wooden counter top toward the glowing trays, summer shirts creasing across their backs, while the backs of their heads stay turned to camera and nobody turns around; the golden salt bread rolls sit perfectly still in their neat rows on the paper-lined trays, glossy tops catching the light; the daylight from the tall window at frame left holds steady and glints along the glass edges of the case; the white tiled wall, the counter top and the display case itself stay completely still; the framing stays the same throughout, the camera held at shoulder height behind the crowd, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "bbangchung"
+   ],
+   "refs": [],
+   "beat": "소금빵 같은 그 빵의 정체 — 살아 있는 애벌레",
+   "visual": "a close top-down view of a white paper-lined baking tray resting on a pale marble counter top: six plump golden-brown larvae lie in two neat rows of three on the paper, each one shaped and coloured exactly as a freshly baked salt bread roll, glossy crust-like skin curving in soft spiral ridges, a few white salt flecks on each back; the larva at the centre of the front row lies slightly turned so that a line of six tiny pale legs shows along its underside, the only thing that tells it apart from a bread roll; warm afternoon light slants in from the upper left and lays soft round shadows beside each larva on the paper; a few loose salt flecks and a crumb of pale wheat bran sit on the paper between the rows; the marble counter shows faint grey veins around the edge of the tray, the whole picture clean, bright and appetising",
+   "motion": "the larva at the centre of the front row begins to move, and it is the only thing in the shot that moves: at the start all six golden larvae lie still on the paper and are indistinguishable from bread rolls; then the centre one slowly contracts, its soft spiral ridges bunching together from the back toward the front, and stretches out again, a slow ripple travelling along its glossy golden-brown body while its six tiny pale legs paddle underneath and carry it a finger's width forward across the paper liner, a single salt fleck sliding from its back; by the end it has crept a little ahead of the other two larvae in its row and lies stretched out, legs still paddling; the other five larvae hold completely still in their places, the paper liner, the marble counter and the warm slanting light stay unchanged; camera fixed directly overhead, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "jeonghan",
+    "club"
+   ],
+   "refs": [],
+   "beat": "애벌레를 키운 사람 — 무명 트럼펫 연주자 정한",
+   "visual": "a small dim basement jazz bar late at night: the thin young Korean man stands alone at the front of the low stage of dark wooden boards in the pool of one warm spotlight, facing the camera, playing a brass trumpet held level with both hands, its bell pointed slightly down toward the empty room, eyes half closed, cheeks tight around the mouthpiece; he wears his faded navy work jacket open over the plain grey sweatshirt; in front of the stage stand four small round tables with their chairs pushed neatly in, every seat empty, a single half-finished glass of water on the nearest table; exposed brick walls on both sides fade into shadow beyond the spotlight, dust hanging in the beam above his head; the far end of the room is dark, the brass of the trumpet the brightest thing in the picture, his long slender fingers resting on the three valves",
+   "motion": "the young man plays one long note on his trumpet, and his playing is the one movement in the shot: at the start he stands still on the low stage with the trumpet raised and his eyes half closed; over the whole five seconds he draws in a slow breath, his shoulders lifting under the navy work jacket, then holds a long steady note, his cheeks firming around the mouthpiece and the bell of the trumpet rising slowly from pointing down at the floor to pointing level at the empty tables, his fingers pressing and releasing the valves one after another; the dust in the spotlight beam drifts slowly upward around his head; the four small round tables, the empty chairs pushed in and the half-finished glass of water stay completely still; the brick walls and the dark far end of the room hold unchanged; the camera holds a medium shot from the empty floor, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "jeonghan",
+    "village"
+   ],
+   "refs": [],
+   "beat": "빚에 쫓겨 연고 없는 시골로 내려간 정한",
+   "visual": "early morning in a small Korean farming village among low green hills: the thin young Korean man walks up the narrow concrete lane toward the camera, a black hard trumpet case in his right hand and a bulging navy duffel bag slung over his left shoulder, the strap dragging his jacket collar askew; his face is tired and unsure, eyes turned up the lane toward the unfamiliar houses; behind him, parked crookedly at the foot of the lane, sits a small dusty grey hatchback with its hatch still open and a few cardboard boxes inside; old one-storey farmhouses with grey tile and corrugated roofs line the lane behind low stone walls, a persimmon tree leaning over one wall; beyond the houses, rows of arched vinyl greenhouses stretch across the fields to the foot of the hills; thin morning haze lies over the fields, the light soft and pale from the east",
+   "motion": "the young man walks up the concrete lane toward the camera, and his walking is the one movement in the shot: at the start he is a few steps up from the parked grey hatchback; over the whole five seconds he walks steadily closer along the lane toward the camera, the black trumpet case swinging a little at his right side with each step, the navy duffel bag bouncing against his hip and tugging his jacket collar, his head turning slowly from one old farmhouse to the next as he takes in the unfamiliar village, face turned toward the camera the whole time; the thin morning haze over the fields thins slowly as the pale light brightens; the parked hatchback with its open hatch, the stone walls, the leaning persimmon tree and the rows of greenhouses behind stay completely still; the camera holds its place at the top of the lane as he approaches, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "jeonghan",
+    "berry_house"
+   ],
+   "refs": [],
+   "beat": "야심 차게 시작한 딸기 농사의 처참한 실패",
+   "visual": "inside a long arched vinyl greenhouse on a grey overcast day: the long raised planting beds wrapped in black plastic mulch run away from the camera in rows, and on every bed the strawberry plants have withered, their leaves curled brown and brittle, stems bent flat against the mulch, a few shrivelled dark berries hanging dry among them; the thin young Korean man crouches in the packed-earth aisle at frame centre in his navy work jacket and white rubber farm boots, holding one limp dead strawberry plant up in both hands, roots and dry soil dangling, staring at it; the thin drip hoses lie slack along the beds; the milky translucent plastic overhead sags between the steel hoops, one torn flap near the far end letting in a strip of pale grey daylight; a stack of empty black plastic trays leans against the nearest bed, the whole greenhouse brown, dry and quiet",
+   "motion": "the young man turns the dead strawberry plant slowly in his hands, and that turning is the one movement in the shot: at the start he crouches still in the aisle holding the limp plant up in both hands; over the whole five seconds he rotates it slowly between his fingers, the curled brown leaves crumbling into small dry flakes that drift down onto the black mulch, crumbs of dry soil trickling from the dangling roots, his shoulders sinking lower under the navy work jacket as he stares at it; the torn flap of plastic at the far end of the greenhouse lifts and settles in a slow breath of wind, the milky plastic overhead swelling gently between the steel hoops and easing back; the rows of withered plants on the raised beds, the slack drip hoses and the leaning stack of trays stay completely still; the camera holds a low shot down the aisle at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "jeonghan",
+    "village",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "망한 딸기밭 앞의 정한 — 딱 한 번만 더",
+   "visual": "dusk at the open end of the failed strawberry greenhouse: the thin young Korean man sits on an upturned grey plastic crate just outside the doorway, elbows on his knees, both hands clasped in front of his mouth, facing the camera, his jaw set and his tired dark eyes fixed on something far past the camera; the black hard trumpet case lies closed on the ground beside his white rubber farm boots; behind him the arched milky plastic of the greenhouse glows faintly in the last light, its doorway flap tied back; beyond it the rows of other arched vinyl greenhouses stretch across the darkening fields toward the low hills, where a hazy dusk sky of pale blue fades to grey; a few old farmhouse roofs sit along the lane at frame right, one small window lit; the light is low and cool, his face lit softly from the front by what is left of the day",
+   "motion": "the young man straightens up on the plastic crate, and that slow straightening is the one movement in the shot: at the start he sits hunched forward with his elbows on his knees and his clasped hands in front of his mouth; over the whole five seconds he draws a long breath, his shoulders rising, and slowly sits upright, lowering his clasped hands from his mouth to his knees, his chin lifting and his tired dark eyes staying fixed far past the camera, his lips moving on a few quiet words; the last light in the hazy dusk sky over the low hills dims slowly from pale blue toward grey; the black trumpet case on the ground, the tied-back doorway flap, the rows of greenhouses across the fields and the farmhouse roofs with their one lit window stay completely still; the camera holds a medium shot at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "jeonghan",
+    "bbangchung",
+    "rearing_house"
+   ],
+   "refs": [],
+   "beat": "마지막 기회 — 신종 식용 애벌레 빵충의 사육 사업",
+   "visual": "inside the same long arched vinyl greenhouse, now emptied of beds and turned into an insect farm: new waist-high metal shelving racks run down both sides of the packed-earth aisle, most of their shallow grey plastic rearing trays still empty and clean, a few already filled with pale wheat bran; the thin young Korean man stands at the nearest rack at frame centre, facing the camera, lifting the lid off a plain white styrofoam box with both hands; inside the box, on a bed of pale wheat bran, lie rows of plump golden-brown larvae shaped exactly as salt bread rolls, glossy and ridged, white salt flecks on their backs; his face leans over the box, eyebrows raised, mouth slightly open; soft even daylight filters through the milky translucent plastic overhead, a coil of hose and a new bag of bran sit at the foot of the rack, the greenhouse clean, bare and hopeful",
+   "motion": "the young man lifts the styrofoam lid clear and leans in over the box, and that lifting and leaning is the one movement in the shot: at the start he holds the white lid just above the box in both hands; over the whole five seconds he raises the lid slowly up and away to one side, leaning his head and shoulders in over the open box, his eyes widening as he looks down at the larvae; inside the box the plump golden larvae stir on the pale bran, a few of them slowly curling and uncurling their ridged bodies, tiny pale legs paddling; the empty grey rearing trays on the racks, the few trays of bran, the coil of hose and the bag at the foot of the rack stay completely still; the soft daylight through the milky plastic overhead holds steady; the camera holds a medium shot across the rack at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "jeonghan",
+    "bbangchung",
+    "rearing_house"
+   ],
+   "refs": [],
+   "beat": "갓 구운 소금빵과 모양도 맛도 똑같은 빵충",
+   "visual": "a medium close shot inside the insect-farm greenhouse: the thin young Korean man holds one plump golden-brown larva up at eye level between his thumb and two fingers, studying it closely, his face just behind it and slightly to the right of frame centre, tired dark eyes narrowed in wonder; the larva fills the left of the frame, shaped and coloured exactly as a freshly baked salt bread roll, glossy crust-like skin curling in soft spiral ridges, white salt flecks on its back, six tiny pale legs showing along its underside where his fingers hold it; behind him the metal racks of shallow grey rearing trays of pale wheat bran recede in soft focus down the aisle; soft daylight through the milky translucent plastic overhead lights the larva's glossy top so it gleams warm golden, the skin looking crisp and freshly baked; his long slender fingers are dusted with a little pale bran",
+   "motion": "the larva stirs between the young man's fingers, and its slow stirring is the one movement in the shot: at the start he holds it still at eye level and it lies motionless, indistinguishable from a bread roll; over the whole five seconds its soft spiral ridges ripple slowly from its back end toward its front, its glossy golden body bending a little to one side and straightening again, its six tiny pale legs paddling in the air beneath his fingertips; his narrowed eyes follow the ripple along its body, his eyebrows rising slowly; his hand holds steady at eye level the whole time, his fingers keeping their gentle grip; the racks of rearing trays behind him in soft focus, the pale bran and the soft daylight through the milky plastic overhead stay completely still; the camera holds the medium close shot on his face and the larva, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "jeonghan",
+    "bbangchung",
+    "rearing_house"
+   ],
+   "refs": [],
+   "beat": "빵충을 처음 맛본 정한의 놀람",
+   "visual": "the thin young Korean man sits on a folding stool at a small folding table in the aisle of the insect-farm greenhouse, facing the camera, holding one golden-brown larva torn neatly in half in his two hands; the torn halves show a soft white fluffy crumb inside with a thin buttery-golden crust around it, steam rising faintly from the crumb, exactly the inside of a freshly baked salt bread roll; his mouth is full, cheeks rounded, chewing, and his tired dark eyes have gone wide open in astonishment, eyebrows high; on the table in front of him sit a white enamel plate with two more whole golden larvae on it and a paper cup of water; behind him the metal racks of shallow grey rearing trays of pale wheat bran line the aisle; soft daylight through the milky translucent plastic overhead lights the scene evenly, a few crumbs dotted on the table",
+   "motion": "the young man chews slowly and stares at the torn larva in his hands, and his chewing and staring is the one movement in the shot: at the start he sits still with his cheeks full and the two torn halves held up before him; over the whole five seconds his jaw works slowly as he chews, his wide eyes moving from one torn half to the other, his eyebrows climbing higher, and he lifts the halves a little closer to his face to look at the soft white crumb, a thin wisp of steam curling up from it; the two whole golden larvae on the white enamel plate, the paper cup of water, the folding table and the racks of rearing trays behind him stay completely still; the soft daylight through the milky plastic overhead holds steady; the camera holds a medium shot across the table at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "jeonghan",
+    "rearing_house"
+   ],
+   "refs": [],
+   "beat": "밀가루 없는 고단백 디저트, 전국에서 불티나게",
+   "visual": "the insect-farm greenhouse in full swing on a bright day: every metal rack down both sides of the aisle is now full, each shallow grey rearing tray heaped with pale wheat bran and crowded with plump golden-brown larvae; near the open doorway at frame right, plain unprinted brown cardboard shipping boxes stand stacked in tall neat columns higher than a man, and beyond the doorway a small white delivery truck waits with its rear doors open; the thin young Korean man stands at a packing table in the foreground, facing the camera, sealing a plain brown box with a hand-held tape dispenser, a wide grin across his face, sleeves pushed up, a few beads of sweat on his brow; more flat unfolded boxes lean against the table leg; strong summer daylight through the milky translucent plastic overhead fills the greenhouse with warm golden light, dust glittering in the air",
+   "motion": "the young man runs the tape dispenser along the top of the box, and that one long sealing stroke is the one movement in the shot: at the start the dispenser rests at the near end of the box seam; over the whole five seconds he pulls it steadily along the seam toward the far end, the clear tape unrolling and pressing flat over the flaps, the dispenser rattling faintly, his grin widening as he leans into the stroke and his shoulders turn with it; the dust in the golden light drifts slowly through the air above the racks; the tall columns of stacked brown boxes by the doorway, the white delivery truck with its open rear doors, the full racks of rearing trays with their golden larvae and the flat boxes leaning on the table leg stay completely still; the camera holds a medium shot across the packing table, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "jeonghan",
+    "rearing_house"
+   ],
+   "refs": [],
+   "beat": "공급이 넘치고 값이 떨어져 흔들리는 빵충 농가",
+   "visual": "the same insect-farm greenhouse weeks later on a dull grey day: the metal racks are overloaded, rearing trays heaped past their rims with pale wheat bran and crowded golden-brown larvae, extra trays balanced across the tops of the racks; the aisle is blocked with plain unprinted brown cardboard boxes piled shoulder-high in leaning stacks, some flaps sagging open, a few boxes crushed at the bottom of the piles; the thin young Korean man sits on one of the boxes at frame centre, facing the camera, bent forward with his elbows on his knees and both hands pressed over his face, fingers spread across his forehead, his navy work jacket hanging loose; the doorway at the far end stands empty where the delivery truck used to wait; flat grey daylight through the milky translucent plastic overhead drains the gold from everything, the whole greenhouse crowded, stale and still",
+   "motion": "the young man drags his hands slowly down over his face, and that one slow drag is the one movement in the shot: at the start he sits bent forward on the box with both hands pressed over his face; over the whole five seconds his hands slide slowly down from his forehead over his eyes and cheeks to his chin, pulling his tired face long, until his eyes appear above his fingertips staring blankly at the piled boxes in the aisle, his shoulders sagging under the navy work jacket; at the same time a slow draught lifts the milky plastic wall beside the racks and lets it sink back, the tallest leaning stack of boxes swaying very slightly and settling; the overloaded racks, the heaped trays of larvae and the empty far doorway stay completely still; the camera holds a medium shot down the crowded aisle, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "villager",
+    "rearing_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빵충 농가에서 어겨지는 사육 규칙 하나",
+   "visual": "night inside the insect-farm greenhouse, dark except for one flashlight beam: the elderly Korean farm man stands at the end rack in the middle distance seen from behind, back of his head and his faded cotton cap to camera, head bent toward the tray, his quilted olive work vest hunched; in his left hand he holds a small flashlight pointed down into a shallow grey rearing tray, the beam lighting a bright oval of pale wheat bran and plump golden-brown larvae; with his right hand he lifts a few of the golden larvae out of the tray into a small blue plastic bucket hanging from his wrist; the rest of the racks stretch away into darkness on both sides, their trays only faintly edged by the spill of the beam; through the milky plastic walls a clear dark blue summer night sky shows faintly; the doorway behind him at frame left stands a crack open onto the dark fields",
+   "motion": "the elderly man lifts larvae from the tray into the bucket, and his careful lifting is the one movement in the shot: at the start he stands bent over the lit tray with the back of his head to camera, the flashlight beam steady on the bran; over the whole five seconds his right hand reaches into the bright oval, picks up one golden larva and then another and lowers each into the small blue bucket at his wrist, his hunched shoulders rising and sinking with each reach, while the flashlight beam wavers a little across the tray as his left hand shifts, the head held bent toward the tray and the back of his head to camera the whole time; the dark racks on both sides, the faint night sky through the plastic and the doorway cracked open onto the fields stay completely still; the camera holds a medium shot from behind him down the dark aisle, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "farmhouse_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "규칙이 깨진 밤 이후 — 웃음이 서늘한 긴장으로",
+   "visual": "night in the main room of an old Korean rural farmhouse, empty of people: the sliding door of wooden lattice and frosted glass stands half open at frame right onto a black doorway; a small blue plastic bucket lies on its side on the glossy brown vinyl floor sheeting at frame centre, and pale wheat bran has spilled from it in a long uneven trail that runs across the floor and into the dark gap of the half-open door; a low wooden table is tipped over against the dark wooden cabinet, a cushion pushed askew, a pair of slippers left apart by the wall; the single ceiling light hangs on its cord, its bare yellowish glow the only light, throwing hard shadows of the lattice across the yellowed floral wallpaper; a window at frame left shows a clear dark blue summer night sky; the room holds perfectly quiet, everything left exactly where it came to rest",
+   "motion": "the ceiling light swings slowly on its cord, and that slow swing is the one movement in the shot: at the start the light hangs nearly still above the room; over the whole five seconds it sways in a slow short arc from left to right and back, its bare yellowish glow sliding across the room so that the hard lattice shadows sweep slowly over the yellowed floral wallpaper and back, and the long trail of spilled pale bran on the brown vinyl floor brightens and darkens as the light passes over it toward the half-open door; the black gap of the doorway stays dark and completely still; the bucket on its side, the tipped low table, the cushion, the slippers by the wall and the dark night sky in the window hold completely still; the camera holds a wide shot from the corner of the room at knee height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "jeonghan",
+    "village"
+   ],
+   "refs": [],
+   "beat": "실패하지 않으려 애쓴 정한에게 남은 선택",
+   "visual": "first light over the farming village: the thin young Korean man stands alone in the narrow concrete lane at frame centre, facing the camera, holding the black hard trumpet case upright against his chest with both arms wrapped around it, his chin resting on its top edge; his face is pale and sleepless, tired dark eyes looking straight ahead past the camera, jaw set; behind him the rows of arched vinyl greenhouses stretch across the fields, their milky plastic grey in the dawn, the nearest one dark inside; old one-storey farmhouses with grey tile and corrugated roofs sit along the lane behind low stone walls; low morning mist lies in the fields and between the greenhouses; beyond, the low green hills show faint against a pale sky just turning from grey to soft gold at the horizon; the air is cool and still, dew on the stone walls",
+   "motion": "the morning mist drifts slowly across the fields behind the young man, and he tightens his hold on the trumpet case, and these together are the one movement in the shot: at the start he stands still in the lane with his arms around the upright case and his chin on its top edge; over the whole five seconds his arms draw the case slowly closer against his chest and his chin lifts from its edge, his tired dark eyes staying fixed straight ahead past the camera, his breath showing faintly in the cool air; behind him the low mist creeps slowly from left to right between the rows of greenhouses, and the pale sky at the horizon warms slowly from grey toward soft gold; the greenhouses, the farmhouses, the stone walls and the lane stay completely still; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "bbangchung",
+    "cafe"
+   ],
+   "refs": [],
+   "beat": "마무리 — 접시 위의 소금빵 한 개",
+   "visual": "a quiet close still on the pale wooden café counter in soft morning light: a single plump golden-brown larva rests alone on a small round white plate at frame centre, shaped and coloured exactly as a freshly baked salt bread roll, glossy crust-like skin in soft spiral ridges, white salt flecks on its back, indistinguishable from a bread roll waiting to be eaten; a folded paper napkin and a small silver fork lie beside the plate; behind it, out of focus, the long glass display case glows faintly with rows of paper-lined trays, all of them empty now; the white tiled wall behind the case is bright; morning light from a tall window at frame left lays a long soft shadow of the plate across the counter; the café is empty and hushed, a few crumbs on the counter top, the whole picture warm, clean and golden",
+   "motion": "the larva on the plate holds perfectly still for almost the whole shot, and then gives one small slow twitch, and that twitch is the one movement in the shot: at the start it rests motionless on the white plate, indistinguishable from a salt bread roll; for the first four seconds nothing in the café moves at all, the morning light lying steady across the counter and the plate's soft shadow unchanged; then in the last second the larva's soft spiral ridges ripple once, slowly, from its back end toward its front, its glossy golden body tightening and relaxing a single time, a salt fleck sliding a hair's width on its back, and it lies still again; the folded napkin, the silver fork, the plate, the empty display case in soft focus and the white tiled wall stay completely still throughout; the camera holds the close shot on the plate, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

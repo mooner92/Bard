@@ -1,111 +1,202 @@
 {
-  "logline": "부유하게 자란 소녀가 하루아침에 하녀가 되어 다락방으로 쫓겨난다.",
-  "destination": "런던 기숙학교의 차가운 다락방 — 모든 것을 잃은 자리",
-  "protagonist": "검은 곱슬머리에 초록 눈, 단정한 원피스를 입은 열한 살 소녀",
-  "setting": "1880년대 런던의 여학교와 안개 낀 거리",
-  "anchor": "an eleven-year-old girl with dark curly hair and green eyes, neat wool dress",
-  "palette": "coal-smoke grey, candle amber, deep green, cold blue shadow",
-  "voice": "ko-KR-SunHiNeural",
-  "personas": {
-    "sara_girl": {
-      "label": "소녀(부유할 때)",
-      "desc": "an eleven-year-old English girl, dark curly hair, green eyes, deep green velvet dress with lace collar",
-      "avoid": ""
-    },
-    "sara_ragged": {
-      "label": "소녀(하녀가 된 뒤)",
-      "desc": "a thin eleven-year-old English girl, tangled dark curls, patched grey servant's dress, worn apron",
-      "avoid": "같은 아이다 — 머리색과 눈은 그대로"
-    },
-    "headmistress": {
-      "label": "교장",
-      "desc": "a gaunt Englishwoman in her fifties, hair scraped into a tight bun, stiff black bombazine dress, thin mouth",
-      "avoid": ""
-    },
-    "school_hall": {
-      "label": "기숙학교 홀",
-      "desc": "a formal Victorian school hall, dark panelling, gas brackets, a wide staircase"
-    },
-    "attic_room": {
-      "label": "다락방",
-      "desc": "a bare cold attic, sloping rafters, one small skylight, an iron bedstead"
-    }
+ "logline": "인도에서 온 아버지가 런던 여학교에 맡긴 세라가 값진 옷과 인형을 가진 공주 같은 아이로 지내다, 열한 살 생일잔치 날 아버지의 죽음과 파산을 알리는 편지 한 장으로 하녀가 되어 쥐가 드나드는 다락방에 살며 굶주리다가, 어느 새벽 불과 밥상이 차려진 다락에서 깨어난다",
+ "destination": "소설 소공녀에서 만날 수 있습니다",
+ "protagonist": "sara",
+ "setting": "1880년대 런던의 여학교 — 현관 홀, 교실, 다락방, 지붕, 안개 낀 거리, 빵집",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/sogongnyeo/assets",
+ "anchor": "a girl of eleven with dark curly hair to her shoulders and green eyes, a thin pale face",
+ "palette": "ash grey, off-white, dull green, dark brown, dull yellow",
+ "voice": "",
+ "personas": {},
+ "withheld": "다락방을 바꿔 놓은 사람의 정체와 세라가 되찾게 되는 것",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "father",
+    "sara",
+    "school_hall"
+   ],
+   "refs": [],
+   "beat": "인도에서 온 아버지가 어린 세라를 런던의 여학교에 맡긴다",
+   "visual": "dull grey afternoon light through the tall window of the grand front hall: the tall gentleman of forty with the brown moustache in the dark travelling coat with the fur collar is the one standing on the marble floor at frame right with his black top hat in one hand and his other hand resting on the girl's shoulder, his kind tired face bent down to her; the girl of eleven with the dark curly hair and the grey eyes in the fine dark green velvet dress with the lace collar is the one standing close against his side at frame left with both hands holding his coat sleeve, her thin pale face lifted to him; the wide staircase rising behind them, the dark panelled walls, the heavy curtains; exactly two people, one man and one girl",
+   "motion": "the tall gentleman is the only one who moves, and the girl holds still: at the start his hand rests on her shoulder and his face is bent to her; over the first three seconds he goes slowly down on one knee on the marble floor, his top hat coming to rest on the floor beside him, his hand sliding from her shoulder to cup her cheek, his face level with hers; in the last two seconds he holds kneeling with his hand on her cheek; the girl keeps both hands on his coat sleeve and her face turned to him, her boots planted on the marble; the staircase, the panelled walls, the curtains and the tall window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "sara_girl",
-        "school_hall"
-      ],
-      "beat": "소녀가 값진 옷차림으로 학교 홀에 들어선다.",
-      "visual": "a well-dressed girl entering a formal Victorian school hall, trunk carried behind her",
-      "motion": "she walks forward into the hall, gaslight flares on the panelling, girls turn to look"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "sara_girl"
-      ],
-      "beat": "소녀가 아이들에게 이야기를 들려준다.",
-      "visual": "a girl seated on a rug telling a story to other girls gathered close, firelight",
-      "motion": "her hands rise as she speaks, the fire jumps, the listeners lean in"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "headmistress",
-        "school_hall"
-      ],
-      "beat": "교장이 편지 한 장을 손에 쥐고 굳어 선다.",
-      "visual": "a gaunt woman standing rigid in a school hall gripping a folded paper, girls hushed behind",
-      "motion": "her fist tightens on the paper, her chin lifts, the hall goes still"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "sara_ragged",
-        "headmistress"
-      ],
-      "beat": "소녀가 낡은 회색 옷으로 갈아입고 선다.",
-      "visual": "a thin girl in a patched grey servant's dress standing before a stern woman, hallway",
-      "motion": "the woman turns away from her, the girl's shoulders drop, a door swings shut"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "sara_ragged"
-      ],
-      "beat": "소녀가 무거운 석탄 통을 계단으로 나른다.",
-      "visual": "a thin girl in servant's clothes hauling a coal scuttle up a narrow back staircase",
-      "motion": "she climbs up the stairs with the scuttle, coal dust drifts, her arm strains"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "sara_ragged",
-        "attic_room"
-      ],
-      "beat": "소녀가 추운 다락방에서 몸을 웅크린다.",
-      "visual": "a thin girl huddled on an iron bedstead in a bare cold attic under a small skylight",
-      "motion": "her breath clouds in the cold, snow slides past the skylight, the blanket edge lifts"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "attic_room"
-      ],
-      "beat": "빈 다락방에 따뜻한 불과 음식이 차려져 있다.",
-      "visual": "a bare attic transformed with a lit fire, thick rugs and a laid supper table, no one there",
-      "motion": "flames climb in the grate, steam rises off the dishes, rug fringe stirs"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "눈 내리는 다락 창에 불빛만 어린다.",
-      "visual": "a small attic skylight from outside at night, snow falling, warm light glowing through",
-      "motion": "snow drifts down across the glass, the light flickers behind it, frost creeps in"
-    }
-  ],
-  "withheld": "다락방을 바꿔 놓은 사람의 정체와, 소녀가 되찾게 되는 것"
+  {
+   "n": 2,
+   "cast": [
+    "minchin",
+    "sara",
+    "doll",
+    "school_hall"
+   ],
+   "refs": [],
+   "beat": "교장 민친이 값진 옷과 인형을 가진 세라를 공주처럼 대한다",
+   "visual": "grey light in the grand front hall: the tall thin headmistress with the grey hair pulled tight in the stiff black dress with the high white collar is the one standing at frame right bent forward from the waist toward the girl with a thin fixed smile on her hard narrow face, both hands clasped before her; the girl of eleven with the dark curly hair and the grey eyes in the fine dark green velvet dress with the lace collar is the one standing at frame left holding the doll with the dark curls and the blue silk dress against her chest in both arms, her thin pale face turned up to the headmistress without a smile; the wide staircase and the dark panelled walls behind; exactly two people, one woman and one girl, and one doll",
+   "motion": "the headmistress is the only one who moves, and the girl holds still: at the start she is bent forward with her hands clasped and the thin smile on her face; over the first two seconds she straightens slowly to her full height, one hand unclasping and sweeping slowly out toward the staircase in a stiff gesture of welcome, the thin smile staying fixed; in the last two seconds she holds with the hand out toward the stairs; the girl keeps the doll against her chest in both arms and her face turned up without a smile, her boots planted; the staircase, the panelled walls and the tall window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "sara",
+    "children",
+    "schoolroom"
+   ],
+   "refs": [],
+   "beat": "세라가 난롯가에 아이들을 모아 놓고 이야기를 들려준다",
+   "visual": "warm firelight in the schoolroom at evening: the girl of eleven with the dark curly hair and the grey eyes in the fine dark green velvet dress with the lace collar is the one sitting on a low stool before the coal fire in the iron grate at frame right, half turned to the room, one hand lifted with the fingers spread as she tells her story, her thin pale face bright; the four girls in the dark wool dresses and white pinafores are the ones sitting on the floor in a close half circle at frame left with their chins in their hands and their plain faces all turned up to her; the rows of wooden desks dim behind them, the gaslight brackets unlit; exactly five girls, one on the stool and four on the floor",
+   "motion": "the girl on the stool is the only one who moves, and the four on the floor hold still: at the start her hand is lifted with the fingers spread; over the first three seconds the lifted hand draws a slow curve through the air from left to right and her other hand rises to join it, both hands shaping something round in the firelight, her face turning slowly from one listener to the next; in the last two seconds both hands hold still in the air and her face holds on the nearest listener; the four girls keep their chins in their hands and their faces turned up; the coal fire flickers gently in the grate; the desks and the walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "becky",
+    "schoolroom"
+   ],
+   "refs": [],
+   "beat": "부엌데기 베키가 문틈으로 이야기를 몰래 듣는다",
+   "visual": "warm yellow light from the schoolroom falling through a door standing a hand's width open at frame centre: the scullery maid of fourteen with the smudged thin face in the coarse grey dress and the dirty white cap is the one standing in the dark passage outside the door at frame left, her body pressed flat to the wall beside the door frame, her head turned so that one ear and one eye are at the gap, a coal scuttle set down at her feet, her chapped rough hands clasped at her chest; through the gap a slice of the warmly lit schoolroom with the corner of a desk; she is the only person in the passage",
+   "motion": "the scullery maid is the only one who moves: at the start her body is pressed flat to the wall with one ear at the gap; over the first three seconds she leans slowly a little further toward the gap, her head turning so that more of her face comes into the strip of yellow light, her clasped hands rising slowly toward her mouth, her eyes widening; in the last two seconds she holds there with her hands at her mouth, her breath held; the coal scuttle stays at her feet; the door stays a hand's width open and the slice of yellow light on the passage floor does not change; the passage wall holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "lawyer",
+    "minchin",
+    "sara",
+    "children",
+    "schoolroom"
+   ],
+   "refs": [],
+   "beat": "세라의 열한 살 생일잔치에 변호사가 편지를 들고 온다",
+   "visual": "lamplight in the schoolroom set for a party: the long dark table at frame centre covered with a white cloth and set with a tall iced cake, plates of sweets and a row of small wrapped parcels; the girl of eleven with the dark curly hair and the grey eyes in the fine dark green velvet dress with the lace collar is the one standing at the head of the table at frame left with a paper crown on her dark curls and both hands on the table edge; the four girls in the white pinafores are the ones sitting along the far side of the table with their faces turned to the door; the stout man of sixty in the black frock coat with the grey side whiskers is the one standing in the doorway at frame right with his top hat in one hand and a folded letter held out in the other; the tall thin headmistress with the grey hair pulled tight in the stiff black dress with the high white collar is the one standing beside the door with her hand out toward the letter, her narrow face turned to him; the coal fire in the grate; exactly one man, one woman and five girls",
+   "motion": "the stout man in the frock coat is the only one who moves, and everyone else holds still: at the start the folded letter is held out in his hand toward the headmistress; over the first two seconds he takes one slow step into the room and his hand with the letter moves forward until the letter rests in the headmistress's outstretched hand, his top hat lowering to his side, his side-whiskered face grave; in the last two seconds he stands with his hat at his side and his hand withdrawn; the headmistress keeps her hand out with the letter now in it, her face turned to him; the girl at the head of the table keeps both hands on the table edge and her paper crown on; the four girls keep their faces turned to the door; the iced cake, the parcels and the fire hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "minchin",
+    "sara",
+    "schoolroom"
+   ],
+   "refs": [],
+   "beat": "아버지가 돌아가시고 재산도 사라졌다는 편지",
+   "visual": "lamplight in the schoolroom beside the party table: the tall thin headmistress with the grey hair pulled tight in the stiff black dress with the high white collar is the one standing at frame right with the unfolded letter held open in both hands before her narrow face, her thin lips pressed white and her eyes fixed on the page; the girl of eleven with the dark curly hair and the grey eyes in the fine dark green velvet dress with the lace collar is the one standing at frame left a step away with the paper crown still on her dark curls, both hands hanging at her sides, her thin pale face turned to the headmistress with her grey eyes wide and her lips parted; the white cloth and the tall iced cake at the edge of the frame; exactly two people, one woman and one girl",
+   "motion": "the headmistress is the only one who moves, and the girl holds still: at the start the letter is held open before her face and her eyes are on the page; over the first two seconds her hands lower the letter slowly to the height of her waist and her narrow face turns slowly from the page to the girl, her thin lips staying pressed white, her eyes narrowing; in the last two seconds she holds with the letter at her waist and her eyes on the girl; the girl keeps her hands at her sides and her lips parted, her paper crown not slipping, her boots planted; the party table, the cake and the cloth hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "minchin",
+    "sara_poor",
+    "school_hall"
+   ],
+   "refs": [],
+   "beat": "교장이 그날로 세라의 옷을 벗기고 하녀로 부린다",
+   "visual": "grey light in the grand front hall: the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one standing on the marble floor at frame left with a heavy coal scuttle held in both hands before her, her thin arms straining, her thin pale face set and her grey eyes lowered; the tall thin headmistress with the grey hair pulled tight in the stiff black dress with the high white collar is the one standing on the second step of the wide staircase at frame right with one thin hand pointing down at the scuttle, her hard narrow face turned down to the girl; the dark panelled walls, the tall window with the heavy curtains; exactly two people, one woman on the stair and one girl on the floor",
+   "motion": "the girl with the coal scuttle is the only one who moves, and the headmistress on the stair holds still: at the start the scuttle hangs from both her hands before her; over the first three seconds she takes two slow steps across the marble floor toward the right with the scuttle swinging a little between her straining arms, her shoulders hunching, her eyes staying lowered; in the last two seconds she stops well inside the frame at the foot of the stair and lowers the scuttle slowly until it rests on the floor, her hands staying on its handle; the headmistress keeps her hand pointing and her face turned down, her feet planted on the step; the staircase, the panelled walls and the tall window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "sara_poor",
+    "rat",
+    "attic",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "세라의 잠자리는 쥐가 드나드는 춥고 낡은 다락방",
+   "visual": "the cold blue light of the fog through the small skylight of the bare attic at night: the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one sitting on the edge of the iron bed at frame left with the grey shawl pulled tight round her shoulders and her boots drawn up under her, her thin pale face turned down to the floor; the small grey rat with the long bare tail is the one sitting up on its haunches on the bare wooden floor at frame right beside the cold grate, its bright black eyes turned to the girl, a crust of bread on the boards between them; the sloping rafters, the broken chair, the grey ash in the grate; exactly one girl and one rat",
+   "motion": "the rat is the one who moves, and the girl holds still: at the start the rat sits up on its haunches with its eyes on the girl; over the first three seconds it comes down onto all four feet and creeps slowly forward across the boards toward the crust of bread, its long bare tail dragging, its nose working, stopping with its front paws on the crust; in the last two seconds it holds there with its head bent to the crust; the girl keeps the shawl pulled tight and her face turned down to the rat, her boots drawn up under her, her breath showing faintly in the cold; the iron bed, the broken chair, the grate and the rafters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "ram_dass",
+    "monkey",
+    "sara_poor",
+    "roof",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "다락 창 너머 지붕에 옆집 인도 하인과 원숭이가 산다",
+   "visual": "grey fog light on the slate roof outside the attic skylight: the Indian man in the white turban and the white tunic with the black beard is the one leaning out of the second skylight a few feet away at frame right with his elbows on the slates and his kind face turned toward the girl; the small brown monkey with the long tail is the one sitting on the slates between the two skylights at frame centre with its tail curled and its small pale face turned to the girl; the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one leaning out of the near skylight at frame left with both hands on its frame, her thin pale face turned to the man with a small surprised smile; chimney pots behind, the fog beyond; exactly one man, one girl and one monkey",
+   "motion": "the monkey is the only one who moves, and the man and the girl hold still: at the start the monkey sits on the slates with its tail curled and its face turned to the girl; over the first three seconds it creeps slowly across the slates toward the girl's skylight, its long tail uncurling and trailing behind it, its head bobbing, stopping an arm's length from her hands; in the last two seconds it sits up again on the slates and holds there with its face turned up to her; the Indian man keeps his elbows on the slates and his kind face turned to the girl; the girl keeps both hands on the skylight frame and her small smile; the chimney pots and the fog hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "sara_poor",
+    "beggar",
+    "bun_shop",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "진창에서 주운 동전으로 산 빵을 세라가 거지 아이와 나눈다",
+   "visual": "grey fog light before the bow window full of buns set in the brick wall: the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one standing on the wet cobbles at frame left with a paper bag of buns open in one arm and one round bun held out in her other hand toward the ragged girl, her thin pale face calm; the ragged girl of eight with the tangled brown hair and the bare muddy feet in the torn grey dress is the one crouched on the worn stone step below the window at frame right with both thin hands reaching up for the bun, her hungry thin face lifted; the bow window with its loaves behind her, the plain painted wood round the glass bare, mud on the cobbles; exactly two girls, one standing and one crouched",
+   "motion": "the standing girl is the only one who moves, and the crouched girl holds still: at the start the bun is held out in her hand toward the reaching hands; over the first three seconds her hand moves slowly down until the bun rests in the ragged girl's two hands, and then her other hand reaches into the paper bag and draws out a second bun and holds it out as well, her face staying calm; in the last two seconds she holds the second bun out; the ragged girl keeps both hands round the first bun and her hungry face lifted, crouched on the step; the bow window, the loaves and the wet cobbles hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "sara_poor",
+    "children",
+    "attic",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "친구가 몰래 가져온 바구니로 다락에서 잔치를 연다",
+   "visual": "candlelight inside the bare attic at night: a wicker hamper stands open on the bare boards at frame centre with a cloth spread beside it and small cakes, a pie and a bottle set out on the cloth; the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one kneeling on the boards at frame left with her shawl slipped from her shoulders and both hands lifting a small cake from the cloth, her thin pale face bright; two of the girls in the white pinafores are the ones kneeling across the cloth from her at frame right with their plaits swinging forward, one holding the candle in its dish and the other clapping her hands; the iron bed and the sloping rafters behind; exactly three girls",
+   "motion": "the girl with the cake is the only one who moves, and the two across the cloth hold still: at the start both her hands are lifting the small cake from the cloth; over the first two seconds she raises the cake slowly to the height of her chin and holds it up before the candle, her face lifting with it and her mouth opening in a smile; in the last two seconds she holds it there; the girl with the candle keeps it steady in its dish and the other keeps her hands together, their plaits hanging forward; the candle flame sways gently; the hamper, the cloth, the pie, the bottle, the iron bed and the rafters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "minchin",
+    "sara_poor",
+    "children",
+    "attic",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "교장이 들이닥쳐 음식을 빼앗고 세라를 꾸짖는다",
+   "visual": "candlelight inside the bare attic at night: the tall thin headmistress with the grey hair pulled tight in the stiff black dress with the high white collar is the one standing in the low attic doorway at frame right with a candle in one hand and the wicker hamper snatched up under her other arm, her hard narrow face turned down on the girl with her thin lips drawn back; the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one standing at frame left with her back straight and her hands at her sides, her thin pale face lifted to the headmistress, her chin up; the two girls in the white pinafores are the ones crouched together against the iron bed behind her with their hands over their mouths; the cloth on the boards with a fallen cake beside it; exactly one woman and three girls",
+   "motion": "the headmistress in the doorway is the only one who moves, and the three girls hold still: at the start the candle is in one hand and the hamper is under her other arm; over the first two seconds she takes one step into the room and her candle hand thrusts forward toward the girl, the flame streaming, her narrow face jutting forward as she speaks; in the last two seconds she holds with the candle thrust out and the hamper under her arm; the girl keeps her back straight and her chin up, her hands at her sides; the two girls stay crouched against the bed with their hands over their mouths; the cloth and the fallen cake on the boards, the rafters and the bed hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "sara_poor",
+    "attic_magic"
+   ],
+   "refs": [],
+   "beat": "잠에서 깬 세라의 다락에 불과 밥상이 차려져 있다",
+   "visual": "warm firelight inside the attic at dawn: the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one sitting up in the iron bed at frame left under a thick warm quilt with her shawl fallen away, both hands gripping the quilt's edge, her thin pale face turned to the room with her grey eyes wide and her mouth open; the fire burning bright in the grate at frame right, the red rug on the boards, the small table laid with the white cloth and the covered silver dishes, candles burning in brass holders, a steam of warmth rising from a covered dish; the sloping rafters above; she is the only person in the room",
+   "motion": "the girl in the bed is the only one who moves: at the start she is sitting up with both hands gripping the quilt's edge and her mouth open; over the first three seconds she pushes the quilt slowly down from her chest and swings her legs slowly over the side of the bed toward the fire, one hand reaching out toward the warmth with the fingers spread, her eyes staying wide; in the last two seconds she holds sitting on the bed's edge with her hand reaching toward the fire; the fire burns with gentle flickering, the candle flames sway, the steam rises slowly from the covered dish; the table, the cloth, the silver dishes, the rug and the rafters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "sara_poor",
+    "monkey",
+    "attic_magic"
+   ],
+   "refs": [],
+   "beat": "굶주린 세라의 다락방을 누가 이렇게 바꿔 놓은 걸까",
+   "visual": "warm firelight inside the transformed attic: the girl of eleven with the dark curly hair and the grey eyes in the shabby black wool dress and the grey shawl is the one standing at frame centre on the red rug with the small brown monkey held against her chest in both arms, its long tail hanging down over her arm and its small pale face turned up to hers, her thin pale face bent down to it with a soft smile; the fire burning in the grate at frame right, the laid table with the covered silver dishes, the candles in the brass holders; the small skylight above standing open on the grey fog; the sloping rafters; exactly one girl and one monkey",
+   "motion": "the monkey is the one who moves, and the girl mostly holds still: at the start the monkey is held against her chest with its face turned up to hers; over the first three seconds it reaches one small hand slowly up and pats her cheek twice, its tail swinging gently below her arm, and her smile widens slowly with her head tilting a little toward it; in the last two seconds the monkey's hand rests on her cheek and both hold still; the fire flickers gently and the candle flames sway; the laid table, the silver dishes, the rug, the open skylight and the rafters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "street",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "안개 낀 런던 거리만 남는다",
+   "visual": "grey fog light on the London street: the tall brick houses stand in a row on both sides at frame left and right with their iron area railings, the cobbles wet with rain running away down the middle of the frame into the fog, the far end of the street lost in grey; a single window high in one house at frame right glows warm dull yellow through the fog; the street lies quiet",
+   "motion": "nothing but the fog moves: over the whole five seconds the grey fog drifts very slowly along the street from the far end toward the camera, thinning and thickening a little as it comes so that the farthest houses fade and show again, and the warm dull yellow glow in the single high window brightens and dims very slightly as the fog passes before it; the tall brick houses on both sides, the iron area railings, the wet cobbles with their faint gleam and the line of the street running into the grey hold completely still; the light does not change over the five seconds; the street stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

@@ -1,0 +1,189 @@
+{
+ "logline": "파랑새를 따라간 샘물 한 모금에 젊어진 늙은 내외와, 그 샘물을 찾아간 욕심쟁이",
+ "destination": "동화 이상한 샘물에서 만날 수 있습니다",
+ "protagonist": "youngman",
+ "setting": "옛날 산 밑의 초가와 이웃 오두막, 깊은 산속의 오솔길, 바위 웅덩이의 작은 샘물",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/isanghan_saemmul/assets",
+ "anchor": "a strong young Korean man with black hair in a topknot in a patched white cotton jacket",
+ "palette": "deep green, off-white, dun brown, bright blue, ash grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "oldman",
+    "oldwoman",
+    "house"
+   ],
+   "refs": [],
+   "beat": "산 밑의 마음 착한 늙은 내외",
+   "visual": "the old couple side by side in front of their thatched cottage, the old man with a wooden back-carrier standing beside the woodpile and the old woman holding a wooden bowl, both smiling gently, the green mountain behind; exactly two people",
+   "motion": "the old woman's bowl tips a little as she laughs and the old man's beard lifts in a smile, smoke drifting from the cottage chimney; the camera holds on the two old people"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "greedy",
+    "house"
+   ],
+   "refs": [],
+   "beat": "낮잠만 자며 내외를 속여 먹는 욕심쟁이",
+   "visual": "the fat widower sprawled asleep on the veranda of the shabby hut next door in the middle of the day with his black wide-brimmed Korean gat hat over his face, a bowl of rice and a small cloth purse beside him; exactly one man",
+   "motion": "the widower's belly rises and sinks with a snore and the hat slides on his face, a fly circling the bowl of rice; the camera holds on the sleeping man"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "oldman",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "밤까지 나무를 해 팔아야 하는 영감님",
+   "visual": "the old man bent under a load of brushwood on his wooden back-carrier on the mountain path at dusk, a wooden rake in his hand, the pines dark around him; exactly one man",
+   "motion": "the old man's straw sandals shuffle down the path under the swaying load, the rake dragging; the camera holds on the bent old man"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "oldwoman",
+    "house"
+   ],
+   "refs": [],
+   "beat": "밤이 되어도 돌아오지 않는 영감님",
+   "visual": "night: the old woman standing at the cottage gate peering up the dark mountain path with one hand shading her eyes, a supper tray waiting on the veranda behind her, a single lamp; exactly one woman",
+   "motion": "the old woman's shading hand trembles and her head turns to search the dark path, the lamp flame nodding behind her; the camera holds on the waiting old woman"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "oldwoman",
+    "youngman",
+    "house"
+   ],
+   "refs": [],
+   "beat": "횃불 앞에 나타난 스물다섯 살 새서방",
+   "visual": "night: the old woman holding up a burning pine torch at the gate, and coming down the path toward her a strong young man of twenty-five with a load of brushwood on his back, his smooth beardless face lit by the torch, her mouth open in astonishment; exactly two people",
+   "motion": "the torch flame streams sideways as the old woman steps back and the young man's smooth face comes into its light, her mouth opening wider; the camera holds on the torch between them"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "oldman",
+    "spring"
+   ],
+   "refs": [],
+   "beat": "파랑새를 따라간 샘물, 다섯 번",
+   "visual": "deep in the forest at the small spring beneath the tree, the old man kneeling at the water's edge holding a wooden bowl of clear water up to his lips with both hands, his eyes closed with pleasure, the water resting inside the bowl and the spring surface calm, the blue bird perched on the branch above; exactly one man and one bird",
+   "motion": "the old man's bowl tilts slowly at his lips and his closed eyes crease with pleasure, the blue bird on the branch turning its head; the camera holds on the man at the spring"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "youngman",
+    "oldwoman",
+    "spring"
+   ],
+   "refs": [],
+   "beat": "마나님도 샘물을 마시고 새색시로",
+   "visual": "morning at the spring: the young man kneeling beside the old woman and guiding her cupped hands full of water to her lips, the blue bird on the branch above, light through the leaves; exactly two people",
+   "motion": "the old woman's cupped hands lift the water to her lips with the young man's hands under hers, water trickling back into the spring; the camera holds on the two at the spring"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "youngman",
+    "youngwoman",
+    "house"
+   ],
+   "refs": [],
+   "beat": "기운차게 일하는 젊은 내외",
+   "visual": "the young couple working merrily in front of the cottage, the young man splitting a log with an axe and the young woman hanging washing on the brushwood fence, both laughing; exactly two people",
+   "motion": "the axe comes down and the log splits while the young woman shakes out a wet cloth, both laughing; the camera holds on the busy young couple"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "greedy",
+    "youngman",
+    "youngwoman",
+    "house"
+   ],
+   "refs": [],
+   "beat": "샘물 있는 곳을 가르쳐 달라 조르는 욕심쟁이",
+   "visual": "the fat widower gripping the young man's sleeve with both hands and pleading with his mouth wide, the young man and the young woman exchanging a look; exactly three people",
+   "motion": "the widower's hands tug the sleeve and his pleading mouth keeps moving while the young couple's eyes meet; the camera holds on the three"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "youngman",
+    "greedy",
+    "house"
+   ],
+   "refs": [],
+   "beat": "싫단 말 없이 가르쳐 준 산길",
+   "visual": "the young man pointing up the mountain path with an open hand, the widower beside him nodding eagerly with his black wide-brimmed Korean gat hat askew; exactly two people",
+   "motion": "the young man's open hand traces the path uphill and the widower's eager nodding knocks his hat further askew; the camera holds on the two at the gate"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "greedy",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "한걸음에 갈 듯이 뛰어간 욕심쟁이",
+   "visual": "the fat widower running up the mountain path with his belly bouncing, his arms pumping and his black wide-brimmed Korean gat hat flying off behind him; exactly one man",
+   "motion": "the widower's belly bounces with each stride and the hat tumbles away behind him on the path; the camera holds on the running man"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "youngman",
+    "youngwoman",
+    "house"
+   ],
+   "refs": [],
+   "beat": "밤이 새도록 돌아오지 않는 욕심쟁이",
+   "visual": "night: the young couple standing at the cottage gate looking up the dark path, a paper lantern in the young man's hand, the young woman's hand on his arm; exactly two people",
+   "motion": "the lantern sways in the young man's hand and the young woman's fingers tighten on his arm as they stare up the dark path; the camera holds on the two at the gate"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "youngman",
+    "youngwoman",
+    "spring"
+   ],
+   "refs": [],
+   "beat": "샘물 곁에 보이지 않는 욕심쟁이",
+   "visual": "morning at the spring: the young couple looking around the rock hollow with puzzled faces, a black wide-brimmed Korean gat hat lying on the moss by the water, the blue bird on the branch; exactly two people",
+   "motion": "the young couple's puzzled faces turn slowly around the hollow and the young woman's eyes stop on the hat on the moss; the camera holds on the two and the hat"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "youngwoman",
+    "youngman",
+    "spring"
+   ],
+   "refs": [],
+   "beat": "바위 틈의 울음소리",
+   "visual": "the young woman with one hand cupped to her ear turning toward a dark cleft in the rocks beside the spring, the young man beside her with wide eyes, the blue bird above; exactly two people",
+   "motion": "the young woman's cupped hand stays at her ear and she takes a step toward the cleft, the young man's wide eyes following; the camera holds on the two facing the rocks"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "spring"
+   ],
+   "refs": [],
+   "beat": "마무리 — 샘물과 파랑새 스틸",
+   "visual": "closing still: the tiny spring in the rock hollow with the little blue bird singing on the branch above the water, a black wide-brimmed Korean gat hat lying on the moss, sunlight through the leaves",
+   "motion": "the blue bird's beak opens and closes in song and a ripple spreads across the spring, leaf shadows moving on the moss; the camera closes with great patience on the spring and the bird"
+  }
+ ],
+ "withheld": "어른 옷을 입은 갓난아기가 된 욕심쟁이를 데려다 기르는 젊은 내외"
+}

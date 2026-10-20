@@ -1,0 +1,9 @@
+[포맷] 각색형
+[서지] 성냥팔이 소녀 / 한스 크리스티안 안데르센 / 덴마크 / 1845
+[줄거리와 배경]
+한 해의 마지막 밤, 성냥을 하나도 팔지 못한 맨발의 소녀가 모퉁이에서
+성냥을 그을 때마다 난로·거위 구이·크리스마스 트리·할머니를 보고,
+새해 아침 미소 띤 채 얼어붙은 채로 발견된다.
+[줄거리]
+줄거리와 배역은 works/handwritten/seongnyangpari_sonyeo/treatment.json 에 열다섯 박자로 적어 두었다.
+원문은 works/sources/seongnyangpari_matchgirl_en.txt (구텐베르크 #1597), 근거는 source_notes.md.

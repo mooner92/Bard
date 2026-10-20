@@ -1,60 +1,197 @@
 {
-  "logline": "꿈속 회의장에서 인간의 죄악을 들은 남자가, 구원의 말을 듣는 순간을 향해 긴장감을 높인다.",
-  "destination": "예수님의 말씀이 울려 퍼지는 순간 — 구원을 들을지 여부를 모르는 문턱",
-  "protagonist": "꿈속 회의장에 참석한 남자",
-  "setting": "1908년, 꿈속의 금수회의소",
-  "anchor": "A man in a dark hanbok, standing alone in a dim circular hall.",
-  "palette": "Dim amber light, deep shadows, muted earth tones, atmospheric fog.",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "남자가 꿈속 회의장 문 앞에서 발을 멈춘다.",
-      "visual": "A man in dark hanbok stands before a heavy wooden door, hesitating to step inside.",
-      "motion": "Man's foot hovering just above the threshold, facing the door."
-    },
-    {
-      "n": 2,
-      "beat": "문을 열자 까마귀가 날아오르며 날개 소리가 울린다.",
-      "visual": "The door creaks open; a crow takes flight upward, wings beating loudly in the dark.",
-      "motion": "Crow flying up and away from the camera, into the shadows."
-    },
-    {
-      "n": 3,
-      "beat": "호랑이가 남자의 정면을 지나치며 저으르르 울음소리가 난다.",
-      "visual": "A tiger walks past the man's face, its snarl audible, creating a sense of looming threat.",
-      "motion": "Tiger moving left to right across the foreground, passing close."
-    },
-    {
-      "n": 4,
-      "beat": "여우가 남자의 귀에 대고 속삭이는 듯한 자세를 취한다.",
-      "visual": "A fox leans in close to the man's ear, its eyes glinting with a deceptive shine.",
-      "motion": "Fox head moving closer to the man's ear, intimate and intrusive."
-    },
-    {
-      "n": 5,
-      "beat": "남자의 손이 떨리며 주먹을 쥐었다 폈다 한다.",
-      "visual": "Close-up of the man's trembling hands clenching and unclenching, sweat forming on his palms.",
-      "motion": "Hands trembling and tightening in the lower frame."
-    },
-    {
-      "n": 6,
-      "beat": "회의장 중앙에서 빛이 스며들기 시작한다.",
-      "visual": "A soft, divine light begins to pierce through the darkness at the center of the hall.",
-      "motion": "Light beam expanding outward from the center of the room."
-    },
-    {
-      "n": 7,
-      "beat": "남자가 그 빛을 향해 한 발 내디딘다. 구원을 들을 수 있을까?",
-      "visual": "The man steps forward toward the light, his face half-illuminated, expression unreadable.",
-      "motion": "Man stepping forward into the growing light, away from the shadows."
-    },
-    {
-      "n": 8,
-      "beat": "회의장 의자 위에 놓인 빈 갓만 남는다.",
-      "visual": "An empty traditional hat rests on a wooden chair in the now-quiet, dim hall.",
-      "motion": "Static shot of the hat, slight dust particles floating in the light.",
-      "anchor": false
-    }
-  ],
-  "withheld": "남자가 실제로 예수님의 말씀을 듣고 구원을 얻었는지, 아니면 여전히 회개의 문턱에서 망설이고 있는지"
+ "logline": "세상 걱정에 잠든 사내가 꿈속 산길 끝의 기와집에서 온갖 짐승들의 회의를 만나고, 까마귀·여우·개구리·벌·게·파리·호랑이·원앙이 차례로 연단에 올라 사람의 불효·간사·좁은 견문·거짓말·가벼움·권세욕·가혹함·음탕함을 꾸짖는 동안 문가에 선 채 짐승들의 눈을 받다가 빈 마루에 홀로 남는다",
+ "destination": "소설 금수회의록에서 만날 수 있습니다",
+ "protagonist": "narrator",
+ "setting": "1900년대 조선, 밤의 작은 서재와 꿈속 산골짜기의 커다란 목조 회의장 금수회의소",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/geumsuhoeuirok/assets",
+ "anchor": "a Korean man of thirty in a white cotton durumagi overcoat and a black gat hat with a wide flat brim, a thin pale face with a sparse short black beard",
+ "palette": "dark brown, dull yellow, ash grey, off-white, dark green",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "narrator",
+    "study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "세상 걱정에 잠 못 들던 사내가 책상 앞에서 잠든다",
+   "visual": "night inside the small Korean study: the Korean man of thirty in the white cotton durumagi is the one sitting cross-legged on the woven straw mat at the low dark wooden writing desk at frame centre, his upper body slumped forward and his thin face resting sideways on his folded arms on the desk, his eyes closed, his black hair in a topknot bare, the black gat hat with the wide flat brim set on the mat beside his knee; on the desk a blank sheet of paper and a brush lie beside the brass oil dish with its bare flame, which throws dull yellow light on his sparse black beard and the ash grey shadows of the pale plaster walls; the paper-paned door at frame left is dark, the folded quilt against the wall at frame right; the room is empty of any other person",
+   "motion": "the Korean man of thirty in the white durumagi slumped at the writing desk is the only one who moves, and only with his breathing: at the start his thin face rests sideways on his folded arms with his eyes closed; over the first three seconds his shoulders rise and sink slowly with deep sleeping breaths and his head settles a little lower into the crook of his arms, the topknot tilting; in the last two seconds the breathing continues slow and the head holds settled; his crossed legs under the desk stay still, his hands stay folded; the bare flame in the brass oil dish flickers faintly and its dull yellow light wavers on the plaster wall; the gat hat on the mat, the blank paper, the brush, the dark paper door and the folded quilt hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "narrator",
+    "valley_path",
+    "hall_ext",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "꿈속 산길 끝에서 커다란 기와집을 만나는 사내",
+   "visual": "night in the wooded valley: the Korean man of thirty in the white durumagi and the black gat hat is the one seen from the side walking on the narrow stone path that climbs from lower left toward upper right, at frame centre-left, his body turned to the right along the path, his face toward the upper right, one hand holding the front of the durumagi, his straw sandals on the damp mossy stones; dark pines and grey rocks rise on both sides of the path; at the upper right of the frame, at the end of the path, the large tiled-roof wooden hall stands with its paper windows glowing dull yellow and its tall double wooden doors closed, a stone step before them; the deep blue night sky with a few small pale stars shows above the dark pine ridges; the path and the valley are empty of any other person",
+   "motion": "the Korean man of thirty in the white durumagi and the black gat hat on the stone path is the only one who moves: at the start he stands on the path with his body turned to the right and his face toward the glowing hall at the upper right; over the first three seconds he takes two slow steps up the path from left to right, his straw sandals lifting and setting down on the mossy stones, the hem of the durumagi swinging a little, his hand holding the front of the coat, his face staying toward the hall; in the last two seconds he comes to a stop well inside the frame still a long way short of the hall, his feet planted; the dull yellow glow in the hall's paper windows stays steady; the dark pines, the grey rocks, the closed double doors, the stone step and the pale stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "narrator",
+    "audience",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "문을 열자 마루를 가득 메운 짐승들, 금수회의소",
+   "visual": "inside the large wooden meeting hall seen from the doorway: the Korean man of thirty in the white durumagi and the black gat hat is the one standing in the open double doors at the bottom left of the frame with his back to the camera, the back of the gat hat toward the camera and his head held straight ahead into the hall, his right hand on the edge of the open door; before him the rows of animals of many kinds are the ones seated on the polished dark brown floor with their backs to the camera, all facing the raised wooden platform at the far end where the tall dark wooden tall stand with the sloped top stands empty; paper lanterns hanging from the high dark timber beams give dull yellow light, paper-paned windows along both sides, ash grey plaster between the dark timber posts",
+   "motion": "the Korean man of thirty in the white durumagi standing in the open doorway is the only one who moves, and the rows of animals stay seated: at the start his right hand rests on the edge of the open door and his back is to the camera with his head held straight ahead; over the first three seconds his hand pushes the door slowly wider so that it swings a little further open, and he leans his upper body slightly forward into the hall, the back of his gat hat staying toward the camera; in the last two seconds the door holds open and he holds leaning, his feet in the straw sandals not crossing the threshold; the two deer, the three dogs, the rabbits, the goat, the pig and the small birds keep their backs to the camera, their heads not turning, their bodies still on the floor; the empty tall stand on the platform, the paper lanterns, the timber posts and the paper windows hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "crow",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "연단에 오른 까마귀가 사람의 불효를 꾸짖는다",
+   "visual": "inside the meeting hall, close on the raised wooden platform: the large black crow with the glossy black feathers and the thick black beak is the one standing on the sloped top of the tall dark wooden tall stand at frame centre, its two black scaly feet gripping the front edge of the slope, its wings half spread to either side, its beak open and its small dark eye turned to the camera, the ruff of feathers at its throat raised; the tall stand's square heavy base stands on the platform planks; behind it the ash grey plaster wall of the hall's far end between two dark timber posts, a paper lantern hanging from the beam above throwing dull yellow light down on the crow's back so that the black feathers shine; the platform is empty of any other creature",
+   "motion": "the large black crow standing on the sloped top of the tall stand is the only one that moves: at the start its wings are half spread and its beak is open; over the first three seconds the wings spread slowly wider until they are stretched out to full width on either side, the feathers of the ruff at its throat rising further and the beak opening a little wider, the head thrusting slowly forward toward the camera; in the last two seconds the wings hold stretched wide and the head holds thrust forward; its black scaly feet keep their grip on the edge of the slope, no hop, no lift; the tall stand stays firm on its heavy base; the dull yellow light of the paper lantern stays steady on its back; the ash grey wall, the timber posts and the platform planks hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "fox",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "여우가 남의 힘을 빌려 으스대는 사람을 비웃는다",
+   "visual": "inside the meeting hall on the raised wooden platform: the lean fox with the red-brown fur, the white chest and the long bushy white-tipped tail is the one sitting upright on its haunches on the platform planks at frame centre-left beside the tall dark wooden tall stand, its two front paws set together on the planks, its sharp narrow muzzle raised and its mouth open showing a row of small white teeth, its narrow amber eyes half closed, its pointed ears up, the bushy tail curled around its haunches with the white tip at the front; the tall stand with the sloped top stands at frame right, its square base beside the fox; the ash grey plaster wall and two dark timber posts behind, a paper lantern above throwing dull yellow light down on the red-brown fur; the platform is empty of any other creature",
+   "motion": "the lean red-brown fox sitting upright on the platform beside the tall stand is the only one that moves: at the start its muzzle is raised with the mouth open and its amber eyes half closed; over the first three seconds its head turns slowly from facing the left across to facing the right, the open mouth staying open, the pointed ears turning with the head, and the white tip of the bushy tail lifts slowly from the planks and sways once to the side; in the last two seconds the head holds turned to the right and the tail tip settles back onto the planks; its front paws stay set together on the planks, its haunches stay down, no step; the tall stand, the ash grey wall, the timber posts and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "frog",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "사람의 좁은 견문을 나무라는 개구리의 부푼 목",
+   "visual": "inside the meeting hall, very close on the sloped top of the tall dark wooden tall stand: the plump dull green frog with the bulging round eyes and the wide webbed feet is the one squatting on the centre of the sloped wooden top at frame centre, filling the middle of the frame, its four webbed feet spread flat on the dark wood, its pale yellow throat swollen out into a round pouch under its wide mouth, its bulging eyes with the black pupils turned toward the camera, its moist mottled back catching the dull yellow light of the paper lantern above; the dark wood of the tall stand top fills the lower half of the frame; behind and above, the ash grey plaster wall of the hall out of focus and the dark edge of a timber post at frame right; the tall stand top is empty of any other creature",
+   "motion": "the plump dull green frog squatting on the tall stand top is the only one that moves: at the start its pale yellow throat is swollen into a round pouch and its bulging eyes are on the camera; over the first two seconds the throat pouch swells slowly larger and rounder until the pale yellow skin is stretched taut, its wide mouth pressed closed and its body lifting very slightly on its four webbed feet; in the last two seconds the pouch shrinks slowly back to half its size and holds there, the body settling; its webbed feet stay spread flat on the dark wood, no hop, the eyes stay on the camera; the dark wood of the tall stand top, the ash grey wall behind and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "bee",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "입은 달콤하고 속은 칼 같은 사람의 말을 꼬집는 벌",
+   "visual": "inside the meeting hall, very close on the sloped top of the tall dark wooden tall stand: the fat striped bee with the black and dull yellow banded body, the two clear veined wings and the furry brown thorax is the one standing on its six thin black legs on the front edge of the sloped wooden top at frame centre, filling the middle of the frame at the size of a man's thumb against the grain of the dark wood, its wings raised up and back at an angle, its banded abdomen curled slightly downward, its small black head turned toward the camera; the dark wood grain of the tall stand top runs across the lower half of the frame; behind and above, the ash grey plaster wall of the hall out of focus in the dull yellow light of the paper lantern; the tall stand top is empty of any other creature",
+   "motion": "the fat striped bee standing on the front edge of the tall stand top is the only one that moves: at the start its two clear wings are raised up and back and its banded abdomen is curled slightly downward; over the first two seconds the wings quiver in a fine steady blur while the banded abdomen curls slowly further down and under until its tip nearly touches the wood, the six thin legs bracing on the edge; in the last two seconds the wings go still, raised, and the abdomen holds curled under; its small black head stays toward the camera, its legs keep their place on the edge, no flight; the dark wood grain, the ash grey wall behind and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "crab",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "속이 텅 빈 사람의 가벼움을 나무라는 게",
+   "visual": "inside the meeting hall, close on the sloped top of the tall dark wooden tall stand: the broad flat crab with the dark brown mottled shell and the two heavy claws is the one standing on its eight jointed legs on the sloped wooden top at frame centre, the width of a man's two hands against the dark wood, its two heavy claws raised up on either side of its shell with the pincers open, its two small stalked black eyes standing up at the front of the shell toward the camera; the dark wood of the tall stand top fills the lower third of the frame with its square heavy base showing below at the platform planks; behind, the ash grey plaster wall of the hall between two dark timber posts, a paper lantern above throwing dull yellow light on the mottled shell; the tall stand top is empty of any other creature",
+   "motion": "the broad flat crab standing on the tall stand top is the only one that moves: at the start its two heavy claws are raised up on either side of its shell with the pincers open; over the first three seconds both claws rise slowly higher and spread wider apart until they stand up above the shell, the open pincers opening a little further, the stalked black eyes staying up toward the camera, the shell lifting very slightly on the eight jointed legs; in the last two seconds the claws hold high and spread and the shell settles; the eight legs keep their place on the dark wood, no sideways step; the tall stand's heavy base, the platform planks, the ash grey wall, the timber posts and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "fly",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "권세를 좇아 몰려드는 사람을 꼬집은 파리",
+   "visual": "inside the meeting hall, extremely close on the sloped top of the tall dark wooden tall stand: the plain black fly with the round dark body, the two clear wings and the two large red compound eyes is the one standing on its six thin black legs on the dark wood at frame centre, filling the middle of the frame at the size of a man's thumbnail against the wood grain, its two front legs raised and pressed together in front of its head, its clear wings folded flat along its back, its red compound eyes toward the camera; the dark wood grain of the tall stand top runs across the frame with a pale scratch in the wood at frame left; behind and above, the ash grey plaster wall of the hall far out of focus in the dull yellow light of the paper lantern; the tall stand top is empty of any other creature",
+   "motion": "the plain black fly standing on the tall stand top is the only one that moves: at the start its two front legs are raised and pressed together in front of its head; over the first three seconds the two front legs rub slowly against each other in a steady back-and-forth, the round dark body rocking very slightly with the rubbing, the clear wings staying folded flat along its back, the red compound eyes toward the camera; in the last two seconds the rubbing slows and the front legs hold pressed together; the four other legs keep their place on the wood, no flight, no walk; the wood grain, the pale scratch, the ash grey wall behind and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "tiger",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "호랑이가 사람의 가혹함을 두고 으르렁댄다",
+   "visual": "inside the meeting hall on the raised wooden platform: the large tiger with the orange-brown fur, the black stripes and the white chest and muzzle is the one standing on its four heavy paws on the platform planks at frame centre, its body turned to the camera, its head lowered and thrust forward with its mouth wide open showing long white fangs and a dull red tongue, its round ears laid flat, its yellow eyes narrowed, its long white whiskers spread, its thick striped tail raised behind it; the tall dark wooden tall stand with the sloped top stands at frame left, small beside the tiger's shoulder; the ash grey plaster wall and two dark timber posts behind, a paper lantern above throwing dull yellow light down on the striped back; the platform is empty of any other creature",
+   "motion": "the large tiger standing on the platform is the only one that moves: at the start its head is lowered and thrust forward with the mouth wide open and the ears laid flat; over the first three seconds its head lowers slowly further toward the planks and swings slowly from the right across to the left with the mouth staying wide open, the white whiskers spreading further, the shoulders bunching under the striped fur, and the raised striped tail sweeps slowly once to the side; in the last two seconds the head holds low and turned to the left with the mouth open, the tail settling raised; its four heavy paws stay planted on the planks, no step; the tall stand beside its shoulder, the ash grey wall, the timber posts and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "ducks",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "마음이 흔들리는 사람의 음탕함을 나무라는 원앙 한 쌍",
+   "visual": "inside the meeting hall, close on the sloped top of the tall dark wooden tall stand: the pair of mandarin ducks are the ones standing side by side on the sloped wooden top at frame centre, the male at frame left with the orange fan of feathers at his wings, the purple chest, the red beak and the white stripe over the eye, the female at frame right plain grey-brown with the thin white line around the eye, the two birds pressed shoulder to shoulder with their heads turned toward each other and their beaks a finger's width apart; the dark wood of the tall stand top fills the lower third of the frame with its square base on the platform planks below; behind, the ash grey plaster wall of the hall between two dark timber posts, a paper lantern above throwing dull yellow light on the orange and purple feathers; the tall stand top is empty of any other creature",
+   "motion": "the two mandarin ducks standing side by side on the tall stand top are the only ones that move, and only their heads: at the start their heads are turned toward each other with the beaks a finger's width apart; over the first two seconds the male's head with the red beak dips slowly down and forward and the female's grey-brown head tilts slowly up to meet it until the two beaks touch and rest against each other; in the last two seconds the two heads hold pressed beak to beak; their bodies stay pressed shoulder to shoulder, the orange fan of feathers on the male's wings not lifting, their feet keeping their place on the dark wood, no flap; the tall stand's base, the platform planks, the ash grey wall, the timber posts and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "narrator",
+    "audience",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "사람을 꾸짖는 짐승들의 눈이 한꺼번에 쏠린 문가의 사내",
+   "visual": "inside the meeting hall seen from the platform end: the Korean man of thirty in the white cotton durumagi and the black gat hat is the one standing on the polished dark brown floor just inside the tall open double doors at the far end of the frame, at frame centre, his body facing the camera, both long thin hands raised a little in front of his chest with the fingers spread, his thin pale face with the sparse black beard turned toward the camera and his eyes wide; in the foreground the rows of animals of many kinds are the ones seated on the floor with their backs to the camera, every head turned back over its shoulder toward the man at the door so that their eyes are on him; the tall dark wooden tall stand stands empty at the bottom edge of the frame, the paper lanterns hanging from the high dark beams giving dull yellow light",
+   "motion": "the Korean man of thirty in the white durumagi standing just inside the open doors is the only one who moves, and every animal holds its turned head: at the start both his hands are raised a little in front of his chest with the fingers spread and his eyes are wide; over the first two seconds he takes one slow step backward toward the doorway, his straw sandals sliding on the polished floor, and both hands rise slowly higher to the level of his shoulders with the fingers still spread, the hem of the durumagi swaying; in the last two seconds he holds with his hands at shoulder height, still well inside the frame, his wide eyes on the animals; the deer, the dogs, the rabbits, the goat, the pig and the small birds keep their heads turned over their shoulders toward him, their bodies not shifting on the floor; the empty tall stand, the paper lanterns, the timber posts and the paper windows hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "narrator",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "회의가 끝나자 짐승들은 흩어지고 사내만 마루에 남는다",
+   "visual": "inside the meeting hall, now empty: the Korean man of thirty in the white cotton durumagi and the black gat hat is the one standing alone at frame centre on the wide polished dark brown floor, his body facing the raised wooden platform at the far end, seen from behind and a little to the side so that his sparse-bearded profile shows under the wide brim of the gat hat, both long thin hands hanging at his sides, his straw sandals on the polished boards; the wide floor around him is bare and empty of any creature, patches of dull yellow light from the paper lanterns lying on the boards; the tall dark wooden tall stand with the sloped top stands empty on the platform at the far end, the ash grey plaster wall and the dark timber posts behind it, the paper-paned windows along both sides pale; the hall is empty of any other person or animal",
+   "motion": "the Korean man of thirty in the white durumagi standing alone on the polished floor is the only one who moves: at the start both his hands hang at his sides and his bearded profile is turned toward the empty platform; over the first three seconds his head bows slowly forward so that the wide brim of the gat hat tips down and hides his eyes, his shoulders sinking, and his right hand lifts slowly to press flat against his chest over the white durumagi; in the last two seconds the head holds bowed and the hand holds pressed to his chest; his feet stay planted on the boards, no step, his left hand staying at his side; the dull yellow patches of lantern light on the floor stay steady; the empty tall stand, the platform, the ash grey wall, the timber posts and the pale paper windows hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "narrator",
+    "lectern",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "짐승들 앞에 선 사람은 무슨 말을 할 수 있을까 (질문)",
+   "visual": "inside the meeting hall, close on the Korean man of thirty: his thin pale face with the sparse short black beard fills the upper middle of the frame at frame centre, the black gat hat with the wide flat brim on his head, his dark eyes wide and turned slightly down to the left, his lips parted, the collar of the white cotton durumagi at the bottom of the frame; behind him, out of focus, the raised wooden platform with the tall dark wooden tall stand standing empty and the ash grey plaster wall between dark timber posts, a paper lantern's dull yellow light lying across one side of his face and leaving the other side in ash grey shadow; the face is plain and unmarked; the hall behind him is empty of any other person or animal",
+   "motion": "the Korean man of thirty whose bearded face fills the frame is the only one who moves, and only his face: at the start his dark eyes are wide and turned slightly down to the left and his lips are parted; over the first two seconds his eyes lift slowly to look straight into the camera and his parted lips close slowly, the sparse beard on his jaw shifting a little as the jaw sets; in the last two seconds the eyes hold on the camera and the lips hold closed; his head does not turn, the gat hat stays level on his head, the collar of the durumagi stays where it is; the dull yellow lantern light on one side of his face stays steady; the empty tall stand and the ash grey wall out of focus behind him hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "narrator",
+    "study",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "새벽 책상 앞에서 고개를 드는 사내 (마무리)",
+   "visual": "thin grey dawn inside the small Korean study: the Korean man of thirty in the white cotton durumagi is the one sitting cross-legged on the woven straw mat at the low dark wooden writing desk at frame centre, his upper body lifted a little from the desk, his thin face with the sparse black beard raised toward the paper-paned door at frame left which glows with thin grey dawn light, his eyes half open, his black hair in a topknot bare, the black gat hat with the wide flat brim on the mat beside his knee, both long thin hands still resting on the desk; on the desk the blank sheet of paper and the brush lie beside the brass oil dish, its flame gone out and a thin thread of grey smoke rising from the wick; the folded quilt against the pale plaster wall at frame right; the room is empty of any other person",
+   "motion": "the Korean man of thirty in the white durumagi sitting at the writing desk is the only one who moves: at the start his upper body is lifted a little from the desk with his face raised toward the grey glow of the paper door and his eyes half open; over the first three seconds he straightens his back slowly until he sits upright, his half-open eyes opening fully on the grey door, his right hand lifting slowly from the desk to rub once across his eyes and then lowering to the desk again; in the last two seconds he holds upright with both hands on the desk and his eyes on the door; his crossed legs stay still on the mat, the topknot stays bare; the thin thread of grey smoke from the oil dish wick rises slowly and thins; the blank paper, the brush, the gat hat on the mat, the grey glowing paper door and the folded quilt hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "회개하면 구원을 얻는다는 마지막 말, 꿈에서 깬 사내의 다짐"
 }

@@ -1,109 +1,191 @@
 {
- "logline": "폐렴으로 누운 처녀가 창밖 담쟁이 잎을 세며 마지막 잎이 지면 자기도 간다고 말한다.",
- "destination": "창밖 벽돌담의 마지막 잎 하나 — 밤새 비바람이 몰아치는 자리",
- "protagonist": "창백한 얼굴에 긴 갈색 머리를 늘어뜨린 스물세 살 처녀",
- "setting": "1900년대 뉴욕의 낡은 화가촌 다락",
- "anchor": "a pale young woman of twenty-three with long brown hair, in a white nightgown",
- "palette": "grey rain light, brick red, worn ochre, warm lamp glow, cold window blue",
- "voice": "ko-KR-JiMinNeural",
- "personas": {
-  "sick_girl": {
-   "label": "병든 처녀",
-   "desc": "a pale young woman of twenty-three, long brown hair loose on the pillow, white nightgown, thin hands",
-   "avoid": ""
-  },
-  "friend": {
-   "label": "친구 화가",
-   "desc": "a young woman of twenty-five, dark hair pinned up, paint-stained smock over a plain blouse",
-   "avoid": ""
-  },
-  "old_painter": {
-   "label": "늙은 화가",
-   "desc": "a stooped man in his sixties, shaggy white beard, paint-spattered shirt, heavy boots",
-   "avoid": ""
-  },
-  "attic_room": {
-   "label": "다락방",
-   "desc": "a cramped studio attic, iron bed by a window, easel and paint jars, bare board floor"
-  },
-  "brick_wall": {
-   "label": "창밖 벽돌담",
-   "desc": "a bare brick wall across a narrow yard, an old ivy vine climbing it, few leaves left"
-  }
- },
+ "logline": "뉴욕 화가촌 다락에 사는 두 젊은 화가 중 존시가 11월 폐렴에 걸려 창밖 벽돌담의 담쟁이 잎을 거꾸로 세며 마지막 잎이 지면 자기도 간다고 하고, 동무 수가 아래층 늙은 화가 베어먼에게 그 말을 전한 뒤 사나운 비바람이 두 밤을 쳤는데도 잎 하나가 그대로 붙어 있어 존시가 살아나려 몸을 일으키는데, 그 비바람 속에 나갔던 베어먼은 어떻게 되었는가",
+ "destination": "소설 마지막 잎새에서 만날 수 있습니다",
+ "protagonist": "johnsy",
+ "setting": "1900년대 뉴욕 그리니치 빌리지의 낡은 벽돌집 — 다락 화실, 창밖 벽돌담의 담쟁이, 아래층 베어먼의 방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/majimak_ipsae/assets",
+ "anchor": "a pale young woman of twenty-three with long brown hair loose on the pillow, in a white nightgown, a calm drawn face",
+ "palette": "ash grey, dark brown, dull yellow, off-white, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "그 잎이 그림이라는 것과 그것을 그린 노인의 죽음",
  "beats": [
   {
    "n": 1,
    "cast": [
-    "sick_girl",
-    "attic_room"
+    "street",
+    "day_bg"
    ],
-   "beat": "처녀가 침대에서 창밖을 세고 있다.",
-   "visual": "a pale young woman propped in an iron bed counting something beyond a rain-streaked window",
-   "motion": "her lips move as she counts, rain runs down the glass, the lamp flame wavers"
+   "refs": [],
+   "beat": "뉴욕 화가촌의 낡은 벽돌집 다락에 두 젊은 화가가 산다",
+   "visual": "low grey November light in the narrow street of old brick houses with the iron fire stairs: the wet cobbles run from the bottom of the frame up between the tall brick fronts, the bare tree standing at frame left with its last few dull yellow leaves, the gaslight post at frame right, a single attic window high in the nearest house at frame centre lit with a faint warm glow; rain coming down thin and slanting across the whole frame; the street lies quiet",
+   "motion": "nothing but the rain and the leaves moves: over the whole five seconds the thin rain slants steadily down across the frame from upper left to lower right, the wet cobbles gleaming a little more as it comes down, and two of the last dull yellow leaves on the bare tree twist on their stems and come loose and drift slowly down to the cobbles; the faint warm glow in the attic window holds steady; the brick fronts, the iron fire stairs and the gaslight post hold completely still; the street stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "brick_wall"
+    "johnsy",
+    "sue",
+    "studio",
+    "day_bg"
    ],
-   "beat": "창밖 담쟁이에 잎이 몇 남지 않았다.",
-   "visual": "an old ivy vine on a bare brick wall with only a handful of leaves left, grey rain",
-   "motion": "the remaining leaves shake in the rain, one tears loose and drops away"
+   "refs": [],
+   "beat": "11월, 존시가 폐렴에 걸려 다락 침대에 눕는다",
+   "visual": "grey daylight through the tall window of the shabby attic studio: the pale young woman of twenty-three with the long brown hair in the white nightgown is the one lying in the iron bed beside the window at frame right under the white quilt with her head turned on the pillow toward the window, her drawn face very still and her thin hands on the quilt; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one sitting on a stool at the foot of the bed at frame left with a drawing board on her knees and a pencil in her hand, her warm face turned from the board to the bed with her brows drawn together; the easels and stacked canvases against the wall, the small iron stove; exactly two women, one in the bed and one on the stool",
+   "motion": "the woman on the stool is the only one who moves, and the woman in the bed holds still: at the start the pencil is in her hand and her face is turned to the bed; over the first three seconds she sets the pencil slowly down on the board, rises halfway from the stool and leans over to tuck the white quilt slowly closer under the pale woman's chin, her face bending near; in the last two seconds she holds bent over the bed with her hand on the quilt; the pale woman keeps her head turned to the window and her hands on the quilt; the easels, the canvases, the stove and the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "friend",
-    "sick_girl"
+    "doctor",
+    "sue",
+    "studio",
+    "day_bg"
    ],
-   "beat": "친구가 침대맡에서 그 말을 듣는다.",
-   "visual": "a young woman in a paint-stained smock leaning over an iron bed toward a pale patient",
-   "motion": "she bends closer to the bed, her hand closes on the blanket, lamplight shifts"
+   "refs": [],
+   "beat": "의사가 존시의 동무 수에게 낮게 말한다",
+   "visual": "grey daylight at the door of the attic studio: the grey-haired doctor in the black coat with the leather bag and the round spectacles is the one standing in the doorway at frame right with his free hand raised with one finger held up, his grave face bent close to the young woman; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one standing before him at frame left with both hands clasped tight at her chest and her warm face lifted to him, her lips pressed together; the sloping ceiling, the edge of the iron bed at the far left with the white quilt; exactly two people, one doctor and one young woman",
+   "motion": "the doctor is the only one who moves, and the young woman holds still: at the start his finger is held up and his face is bent close to her; over the first two seconds the raised finger lowers slowly and his hand comes to rest on her shoulder, his spectacled face turning slowly toward the bed at the far left and back to her, his mouth moving as he speaks low; in the last two seconds his hand stays on her shoulder and his face on hers; the young woman keeps her hands clasped at her chest and her lips pressed together; the doorway, the ceiling and the bed hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
-    "friend",
-    "old_painter"
+    "johnsy",
+    "studio",
+    "day_bg"
    ],
-   "beat": "친구가 아래층 늙은 화가에게 이야기한다.",
-   "visual": "a young woman speaking to a bearded old man in a cluttered downstairs studio, canvases stacked",
-   "motion": "her hands lift as she speaks, he turns toward her, dust drifts in the lamplight"
+   "refs": [],
+   "beat": "존시가 창밖 벽돌담의 담쟁이 잎을 거꾸로 센다",
+   "visual": "grey daylight inside the attic studio, the camera close on the iron bed with the tall window behind it: the pale young woman of twenty-three with the long brown hair in the white nightgown is the one lying propped on the pillow at frame left with her drawn face turned to the window and her lips parted as she counts, one thin hand lifted a little off the quilt with the fingers half curled; the window fills the right half of the frame and beyond its glass, across a narrow yard, the bare wall of dull red brick of the next house rises with an old gnarled ivy vine climbing flat against the dull red bricks and a scatter of dull yellow leaves on it, beads of water on the glass; the plaster walls of the room round the window are bare and dry with nothing growing on them, the floorboards are bare, and the quilt is smooth and white; she is the only person in the frame",
+   "motion": "the woman in the bed is the only one who moves: at the start her lips are parted and her lifted hand has its fingers half curled; over the first three seconds her lips move slowly as she counts and one finger of the lifted hand folds down, then another, her eyes moving slowly down the vine on the wall outside; in the last two seconds the hand holds with two fingers folded and her lips still; the ivy leaves on the wall outside hang still on the vine with rain running down the dull red bricks; the quilt, the pillow and the window frame hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "cast": [],
-   "beat": "밤새 비바람이 벽돌담을 때린다.",
-   "visual": "a brick wall lashed by night rain and wind, ivy thrashing, one lit window across the yard",
-   "motion": "wind drives the rain across the wall, the vine whips, the window light flickers"
+   "cast": [
+    "window_wall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "비에 젖은 담쟁이에 잎이 다섯 장밖에 남지 않았다",
+   "visual": "grey daylight on the bare wall of dull red brick of the next house seen close, filling the frame: the old gnarled ivy vine is the one climbing the dull red bricks from the bottom of the frame at frame left up toward the top, its bare woody stems spreading over the wet red bricks, with five dull yellow leaves left hanging on it, three low on the stems and two high, rain streaking down the dull red bricks and dripping from the leaves; the wall fills the frame; the yard lies quiet; the brick wall fills the whole frame from edge to edge, with no window frame and no other building in view, and the vine lies flat against the dull red bricks",
+   "motion": "nothing but the rain and the leaves moves: over the whole five seconds the rain streaks steadily down the wet dull red bricks from the top of the frame and drips from the tips of the five leaves one bead after another, and one of the three low leaves twists slowly on its stem in the wind, comes loose and drifts slowly downward out of the bottom of the frame, turning over once as it goes, leaving four leaves on the vine; the four remaining leaves tremble a little in the wind and hold on their stems, the two high ones stirring more than the two low ones; the bare woody stems stay pressed against the dull red bricks; the dull red bricks and the mortar lines hold completely still under the water; the yard stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "sick_girl",
-    "attic_room"
+    "johnsy",
+    "sue",
+    "studio",
+    "day_bg"
    ],
-   "beat": "아침에 처녀가 커튼을 걷어 달라 한다.",
-   "visual": "a pale young woman raised on one elbow as a curtain is drawn back from a morning window",
-   "motion": "the curtain slides open, grey light spreads across the bed, she lifts her head"
+   "refs": [],
+   "beat": "존시가 수에게 말한다 — 마지막 잎이 지면 나도 간다",
+   "visual": "grey daylight in the attic studio, the camera close on the iron bed: the pale young woman of twenty-three with the long brown hair in the white nightgown is the one lying propped on the pillow at frame right, her own thin hand lifted off the quilt and one finger pointing past the camera toward the window, her drawn face turned that way with her lips parted; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one sitting on the edge of the bed at frame left with both her hands holding the pale woman's other hand against her own cheek, her warm face bent close to the pale face, her eyes wet, her long brown skirt covering her legs to the shoes; the plaster walls of the room are bare and dry with nothing growing on them, the quilt smooth and white; exactly two women, one lying and one sitting on the bed's edge",
+   "motion": "the sitting woman is the only one who moves, and the woman lying holds still: at the start both her hands hold the pale hand against her cheek and her face is bent close; over the first three seconds she presses the pale hand harder to her cheek, her head shaking slowly once from side to side, her shoulders rising with a held breath and sinking again, her eyes staying on the pale face; in the last two seconds she holds the hand at her cheek with her head bowed a little; the woman lying keeps her finger pointing toward the window and her lips parted, her hair not stirring on the pillow; the quilt, the iron bed, the bare plaster walls and the floorboards hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "brick_wall"
+    "sue",
+    "behrman",
+    "behrman_room"
    ],
-   "beat": "담벼락에 잎 하나가 그대로 붙어 있다.",
-   "visual": "a single ivy leaf still clinging to a wet brick wall after a storm, everything else bare",
-   "motion": "the last leaf holds against the wind, water runs down the bricks, mist lifts"
+   "refs": [],
+   "beat": "수가 아래층의 늙은 화가 베어먼에게 존시의 말을 전한다",
+   "visual": "candlelight in the dim ground-floor room: the old man of sixty with the wild white beard in the plain dull blue shirt is the one sitting in the old armchair at frame right with his thick arms folded and his weathered face turned up to the young woman under his thick eyebrows; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one standing before him at frame left with both hands twisting the hem of her paint-stained smock, her warm face bent down to him and her mouth open as she speaks; the bare stretched canvas on the easel behind them at frame centre, the table with the bottles and brushes, the candle stuck in a bottle; exactly two people, one old man seated and one young woman standing; the floorboards are plain bare wood of one colour and the old man's shirt and the young woman's smock are clean and unmarked",
+   "motion": "the young woman is the only one who moves, and the old man holds still: at the start her hands twist the hem of her smock and her mouth is open; over the first three seconds one hand leaves the hem and rises slowly to press against her own mouth, her shoulders bowing, her eyes closing for a moment and opening again on the old man; in the last two seconds she holds with her hand at her mouth; the old man keeps his arms folded and his face turned up to her, his eyebrows drawn down; the candle flame sways gently; the bare canvas, the easel, the table and the bottles hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 다락 창가에 아침 빛만 든다.",
-   "visual": "an empty attic window seat in morning light, a folded blanket, an easel in shadow",
-   "motion": "morning light creeps across the floor, dust turns in the beam, the curtain stirs"
+   "cast": [
+    "behrman",
+    "sue",
+    "behrman_room"
+   ],
+   "refs": [],
+   "beat": "베어먼이 코웃음을 치면서도 수의 그림 모델을 서 준다",
+   "visual": "candlelight in the dim ground-floor room: the old man of sixty with the wild white beard in the plain dull blue shirt is the one sitting bolt upright on an upturned iron kettle at frame right with his thick arms crossed over his chest and his bearded chin thrust up in a stiff pose, his weathered face set in a scowl; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one sitting on a low stool at frame left with a drawing board on her knees and a pencil moving on the paper, her warm face lifting from the board to the old man; the bare canvas on the easel behind, the candle in the bottle on the table; exactly two people, one old man posing and one young woman drawing",
+   "motion": "the young woman drawing is the one who moves, and the old man holds his pose: at the start her pencil is on the paper and her face is lifted to him; over the first three seconds her face bends back down to the board and the pencil moves in slow strokes across the paper, her free hand steadying the board, her face lifting once more to check the old man's chin and bending again; in the last two seconds the pencil holds still on the paper and her face stays bent; the old man keeps his arms crossed and his chin thrust up, his scowl fixed, not blinking; the candle flame sways gently; the canvas and the table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "window_wall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "모델을 선 그날 밤, 사나운 비바람이 벽돌담을 때린다",
+   "visual": "black rainy night, the bare wall of dull red brick of the next house seen close through the streaming rain, filling the frame: the old gnarled ivy vine is the one climbing the wet dull red bricks at frame left with its bare woody stems, the few dull yellow leaves on it tossing, rain driving across the wall in slanting sheets lit faintly from the window below, water sheeting down the dull red bricks; the wall fills the frame; the night is loud with rain",
+   "motion": "the rain and the leaves are what move: over the whole five seconds the rain drives across the wall in slanting sheets from upper right to lower left, harder and then a little softer and harder again, water sheeting down the dull red bricks, and the few leaves on the vine whip and toss on their stems in the wind, one of the high leaves tearing loose and whirling away out of the frame; the bare woody stems shudder against the dull red bricks and hold; the dull red bricks hold completely still under the water; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "sue",
+    "johnsy",
+    "studio",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "비바람이 지난 아침, 존시가 커튼을 걷어 달라고 한다",
+   "visual": "grey morning light at the tall window of the attic studio: the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one standing at the window at frame right with both hands gripping the edge of a heavy green curtain drawn across the glass, her warm face turned back over her shoulder toward the bed with her lips pressed white; the pale young woman of twenty-three with the long brown hair in the white nightgown is the one lying in the iron bed at frame left propped on the pillow with her drawn face turned to the curtain and one thin hand raised a little off the quilt, her lips parted; the sloping ceiling, the stacked canvases; exactly two women, one at the window and one in the bed",
+   "motion": "the woman at the window is the only one who moves, and the woman in the bed holds still: at the start both her hands grip the edge of the drawn curtain and her face is turned to the bed; over the first three seconds she turns her face slowly back to the curtain, closes her eyes for a moment, and draws the curtain slowly aside a hand's width so that a strip of grey light lies across the floor, her hands tightening on the cloth; in the last two seconds she holds the curtain there with her eyes open on the strip of glass; the pale woman keeps her face turned to the curtain and her hand raised; the ceiling, the canvases and the bed hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "벽돌담에 잎 하나가 그대로 붙어 있다",
+   "visual": "grey morning light, the camera very close on a flat wall of dull red brick that fills the whole frame from edge to edge, the courses of brick running level across it and nothing else in view: the bare woody stems of an old ivy vine lie flat against the brick, spreading up the wall and out of the top of the frame, every stem bare to its tip; one single dull yellow leaf with dark green at its edges hangs on a short stem high at frame centre, flat against the brick, the last beads of rain standing on the brick around it; the courtyard is quiet",
+   "motion": "nothing but the water moves: over the whole five seconds the last beads of rain run slowly down the wet dull red bricks one after another from the top of the frame, gathering on the mortar lines and dripping from the bare stems, and one bead of water runs down the brick beside the single leaf and past it; the single leaf holds on its stem without stirring while the water runs past it, its edges not lifting and its stem not twisting; the bare woody stems hold pressed against the dull red bricks; the dull red bricks and the mortar lines hold completely still; the grey light does not change over the five seconds; the yard stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "다시 하룻밤 비바람이 쳤지만 그 잎은 지지 않는다",
+   "visual": "black rainy night, the camera very close on a flat wall of dull red brick that fills the whole frame from edge to edge, lit faintly from one side, nothing else in view: the bare woody stems of the old ivy vine lie flat against the wet brick, every stem bare to its tip, and one single dull yellow leaf hangs on its short stem high at frame centre, flat against the brick, water sheeting down the brick and running over it; the rain drives across the wall in slanting sheets; the night is loud with rain",
+   "motion": "the rain is what moves, and the leaf holds: over the whole five seconds the rain drives across the wall in slanting sheets from upper right to lower left, harder and then softer and harder again, water sheeting down the dull red bricks and running over the single leaf and dripping from the bare stems, the stems shuddering against the dull red bricks in the gusts; the single leaf does not tear loose and does not twist on its stem, staying flat against the dull red bricks the whole time with the water running over it; the dull red bricks hold completely still under the water; the faint light from the window below does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "johnsy",
+    "sue",
+    "studio",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "잎을 본 존시가 수프를 청하고 거울을 달라며 몸을 일으킨다",
+   "visual": "grey morning light in the attic studio: the pale young woman of twenty-three with the long brown hair in the white nightgown is the one sitting up in the iron bed at frame right with the white quilt at her waist, a bowl of broth held in both thin hands, her drawn face lifted with the faintest colour in it and her lips parted; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one standing beside the bed at frame left holding a small hand mirror out toward her, her warm face open in a wide smile with her eyes wet; the tall window behind with the brick wall and the single leaf beyond; exactly two women, one sitting up in the bed and one standing",
+   "motion": "both women move a little: at the start the pale woman holds the bowl in both hands and the other holds out the mirror; over the first three seconds the pale woman lifts the bowl slowly to her lips and takes one slow sip, her eyes closing and opening, and the other woman's free hand comes up to wipe her own wet cheek with the back of her wrist, her smile widening; in the last two seconds the bowl lowers to the quilt and the mirror stays held out; the single leaf on the wall beyond the window does not stir; the window, the bed and the quilt hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "doctor",
+    "sue",
+    "behrman_room"
+   ],
+   "refs": [],
+   "beat": "그 비바람 속에 나갔던 아래층 베어먼 노인은 어떻게 된 걸까",
+   "visual": "grey daylight through the small window of the dim ground-floor room: the grey-haired doctor in the black coat with the leather bag is the one standing at frame right beside the old armchair with his spectacles in one hand and his grave face bent, his other hand resting on the back of the armchair; the young woman of twenty-five with the dark hair pinned up in the plain grey smock is the one standing in the doorway at frame left with one hand on the door frame and the other pressed flat to her chest, her warm face gone still with her eyes wide; the easel at frame centre with a canvas on it turned away toward the wall so that only its bare wooden back shows, wet boots standing on the floor beside the chair, a lantern with a burnt-down candle on the table, brushes in a jar; exactly two people, one doctor and one young woman, and the armchair stands with no one in it",
+   "motion": "the doctor is the only one who moves, and the young woman holds still: at the start his spectacles are in one hand and his other hand rests on the chair back; over the first three seconds he turns his head slowly from the armchair toward the easel with the turned canvas, his hand lifting slowly from the chair back to gesture at it and falling again to his side, his grave face bending lower; in the last two seconds he holds with his hand at his side and his face bent; the young woman keeps her hand on the door frame and the other pressed to her chest, her eyes wide; the turned canvas, the wet boots, the lantern and the brushes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "벽돌담의 잎 하나만 남는다",
+   "visual": "pale morning light, the camera very close on a flat wall of dull red brick that fills the whole frame from edge to edge, the courses of brick running level across it and nothing else in view: the bare woody stems of the old ivy vine lie flat against the brick, spreading up the wall and out of the top of the frame, every stem bare to its tip; one single dull yellow leaf with dark green at its edges hangs on a short stem high at frame centre, flat against the brick, a few beads of water standing on the brick below it, the mortar lines running straight; the courtyard is quiet",
+   "motion": "nothing but the light moves: over the whole five seconds the pale morning light on the dull red bricks brightens very slightly from the top of the frame down and the thin shadow of the stems on the dull red bricks sharpens a little with it, and the few beads of water standing on the dull red bricks below the leaf catch the light one by one and dry to faint marks; the single leaf on its stem does not stir, its edges flat against the dull red bricks; the bare stems, the dull red bricks and the straight mortar lines hold completely still; the yard stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "마지막 잎의 정체와, 그것을 그린 사람에게 일어난 일"
+ ]
 }

@@ -1,0 +1,166 @@
+{
+ "logline": "벼룩·메뚜기·개구리가 공주를 걸고 높이뛰기를 겨루고, 말 없던 개구리가 공주의 무릎으로 뛰어 이긴다",
+ "destination": "동화 뜀뛰기 선수들에서 만날 수 있습니다",
+ "protagonist": "frog",
+ "setting": "안데르센의 작은 왕궁 — 윤이 나는 마룻바닥의 홀, 단상의 황금 의자, 궁 밖 풀밭",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/ttwimttwigi_seonsu/assets",
+ "anchor": "a small plump green leap-frog with bright gold eyes",
+ "palette": "ivory, gilt gold, bright green, deep red, amber",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "flea",
+    "grasshopper",
+    "frog",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "세 선수 — 누가 가장 높이 뛰나",
+   "visual": "the palace hall on the day of the jumping contest: three small contestants wait in a row on the polished floor before the raised dais — a small brown insect flea on six thin legs on the left, the grasshopper soldier with his bright green insect head and long antennae standing in his green uniform in the middle, the plump green frog sitting on the right — while courtiers in bright coats crowd along the walls craning to see; sunlight from the tall windows lies across the floor between the three",
+   "motion": "the courtiers along the walls lean and murmur while the three small contestants sit in their row, the grasshopper's antennae twitching, the insect flea's thin legs shifting, the frog blinking slowly; sunlight shifts across the polished floor, and the camera slides along the row of three jumpers"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "king",
+    "princess",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "왕의 약속 — 가장 높이 뛰는 이에게 공주를",
+   "visual": "the raised dais of the hall: the stout old king in his red robe and gold crown stands with one arm flung wide in announcement, and beside him the young princess in her white gown sits on her little golden stool with her hands folded and a small gold crown on her curls; courtiers bow along the walls, and the three small contestants wait in their row on the floor below the dais steps",
+   "motion": "the king's flung-out arm sweeps across the hall and his beard wags as he announces the prize, the princess on her golden stool lowering her eyes with a small smile; the courtiers bow lower along the walls, and the camera holds on the king's gesture and the seated princess"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "flea",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "귀족 피의 벼룩, 사방에 절",
+   "visual": "close on the polished floor: the tiny brown insect flea, an oval body on six thin jointed legs, dips its front half low to the left in a bow with its two antennae sweeping the boards and its tiny white cravat touching the floor; the blurred shoes and hems of courtiers stand along the edge of the floor behind it, and the dais steps rise at the frame's edge",
+   "motion": "the insect flea dips low to the left, then turns and dips to the right and to the front, its antennae sweeping the boards with each bow; the courtiers' shoes shift along the floor's edge, and the camera holds low on the bowing insect"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "grasshopper",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "초록 제복의 메뚜기와 카드 삼층집",
+   "visual": "the polished floor before the dais: the green grasshopper in his green uniform with gold buttons stands stiffly upright beside a three-storey house built of playing cards, their coloured faces turned inward and a door and windows cut in the Queen of Hearts; one foreleg rests proudly on the card house, his antennae raised, the courtiers' hems along the floor's edge",
+   "motion": "the grasshopper taps the card house with his foreleg and lifts his chin higher, antennae quivering, the top storey of cards trembling under the tap; the courtiers' hems shift along the edge, and the camera circles the grasshopper and his card house"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "frog",
+    "dog",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "말 없는 개구리 — 개가 킁킁, 고문관의 겨울 예언",
+   "visual": "the floor before the dais: the plump green frog sits perfectly still with his gold eyes half closed, and the brown house-dog lowers his nose to sniff at the frog's back with his curling tail up; behind them an old councillor in a black coat with three medals on his chest bends stiffly to peer at the frog's back through a monocle, the dais steps rising behind",
+   "motion": "the dog's nose sniffs along the frog's back and his curling tail wags, while the frog keeps his gold eyes half closed and holds still; the old councillor bends closer with his monocle, the medals swinging on his coat, and the camera holds on the sniffing nose and the silent frog"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "flea",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "벼룩은 너무 높이 뛰어 보이지 않는다",
+   "visual": "the contest begins: the tiny flea springs straight up from the polished floor in a blur, already far above the courtiers' heads and so small against the high painted ceiling that he is a dot; below, the courtiers stand with their faces tipped up and their mouths open, hands shading their eyes, and the spot on the floor where he stood shows only the shine of the boards",
+   "motion": "the flea shoots upward in a blur past the courtiers' upturned faces toward the painted ceiling, shrinking to a dot; the courtiers' heads tip further back and their hands shade their eyes, and the camera tilts up from the shining floor to the high ceiling"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "grasshopper",
+    "king",
+    "princess",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "메뚜기는 왕의 얼굴로 뛰어든다",
+   "visual": "the dais: the green grasshopper in his uniform clings to the stout king's face with his forelegs spread across the royal nose, the gold crown knocked askew, the king's eyes crossed and his mouth open in outrage; courtiers gasp along the walls with hands to their mouths, and the princess on her golden stool leans away with one hand raised",
+   "motion": "the grasshopper clings to the king's face with his forelegs spread across the royal nose, the crown sliding askew and the king's crossed eyes bulging, his beard wagging with outrage; the courtiers gasp with hands to their mouths, and the camera shakes on the king's outraged face"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "frog",
+    "dog",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "개구리는 한참 생각만 — 개가 걱정한다",
+   "visual": "the polished floor: the plump green frog sits motionless in the middle of the empty floor with his gold eyes open, thinking, the courtiers' shoes and hems in a wide ring around him; the brown house-dog sits beside him with his head tilted and one floppy ear cocked, peering at him with a worried wrinkle on his brow, the dais steps rising at the frame's edge",
+   "motion": "the frog sits motionless while the dog's head tilts further and his cocked ear droops, his worried nose edging closer; the ring of courtiers' shoes shifts impatiently, and the camera holds on the still frog and the worried dog"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "frog",
+    "princess",
+    "king",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "폴짝 — 공주의 무릎으로",
+   "visual": "the dais: the young princess on her little golden stool with her hands flung up in surprise — and in her white lap the plump green frog sits in a sideways sprawl, just arrived, his gold eyes wide, her white gown puddled around him; the stout king stands beside her with his crown still askew, and the courtiers' faces turn toward the stool",
+   "motion": "the frog settles in the princess's white lap with a small sideways wriggle while her flung-up hands hover and then lower toward him, her surprise turning to a laugh; the king's crown wobbles beside her, the courtiers' faces turning, and the camera closes on the frog in the lap"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "king",
+    "princess",
+    "frog",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "왕의 판정 — 내 딸보다 높은 것은 없다",
+   "visual": "the dais: the stout king stands with both hands raised in judgment, his crown straightened, beaming down at the princess on her golden stool with the green frog in her lap; the princess holds the frog up in both hands to her cheek with a smile, courtiers applauding along the walls, sunlight on the polished floor",
+   "motion": "the king's raised hands come together in a clap and his beard lifts with his beaming smile, the princess lifting the frog to her cheek while the courtiers' applause ripples along the walls; the camera holds on the king, the princess and the frog"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "flea"
+   ],
+   "refs": [],
+   "beat": "벼룩은 세상은 겉모습만 본다며 떠난다",
+   "visual": "close on the palace's marble step opening on a sunlit road: the tiny brown insect flea alone, an oval body on six thin jointed legs, walks away across the step toward the road with its two antennae held high and a faint dust trail behind it; far down the road a line of soldiers in blue coats marches away toward the horizon, and the step's edge frames the foreground",
+   "motion": "the insect flea walks away across the marble step on its six thin legs with its antennae held high, dust puffing behind it; the distant line of blue-coated soldiers marches on ahead, and the camera holds low on the step as the small insect dwindles"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "grasshopper"
+   ],
+   "refs": [],
+   "beat": "풀밭에 남은 메뚜기",
+   "visual": "a green bank of long grass outside the palace at dusk: the grasshopper soldier alone, his bright green insect head and long antennae drooping, sits in the grass in his green uniform with his forelegs folded and his long green hind legs drawn up, his back to the palace's lit windows; a few daisies nod around him, the sky going gold and violet, the palace wall pale and blurred behind",
+   "motion": "the grasshopper soldier's antennae droop lower and his folded forelegs shift as his long hind legs begin to rub together slowly, the daisies nodding around him; the palace windows glow behind as the sky deepens, and the camera closes slowly on the lone grasshopper soldier in the grass"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "hall"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 홀의 황금 의자 스틸",
+   "visual": "closing still: the palace hall at evening, the little golden stool alone on the dais, the last bar of sunlight lying across the polished floor, the three-storey house of cards still standing on the floor below the steps; the tall windows going amber",
+   "motion": "the last bar of sunlight slides slowly across the polished floor toward the golden stool while the house of cards stands still below the steps; the windows deepen to amber, and the camera closes with great patience on the small golden stool"
+  }
+ ],
+ "withheld": "벼룩이 외국에서 죽었다는 소문과, 이 이야기가 메뚜기의 우울한 노래에서 나왔다는 마지막 말"
+}

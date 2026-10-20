@@ -1,61 +1,205 @@
 {
- "logline": "가난이 한 겹씩 벗겨 낸 자리에서, 한 여자가 처음으로 제 손에 돈을 쥔다.",
- "destination": "왕서방 집 문턱 — 그녀가 밤마다 되돌아오게 되는 자리",
- "protagonist": "칠성문 밖 빈민굴로 밀려난 젊은 여자",
- "setting": "1920년대 평양 성 밖 빈민굴과 채마밭",
- "anchor": "a young woman in a faded white hanbok jacket and dark skirt, hair gathered in a low bun",
- "palette": "dusty ochre earth, washed grey cotton, thin autumn light, cold blue dusk",
+ "logline": "팔십 원에 팔려간 여자가 가난이 한 겹씩 벗겨 낸 자리에서 처음으로 제 손에 돈을 쥐고, 혼례 날 밤 그 돈의 주인 집 문을 민다",
+ "destination": "소설 감자에서 만날 수 있습니다",
+ "protagonist": "bongnyeo",
+ "setting": "1920년대 평양 칠성문 밖 빈민굴과 솔밭, 중국인의 감자밭",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/gamja/assets",
+ "anchor": "a thin pale Korean woman of twenty in a patched cotton jeogori and dark grey skirt, hair in a low bun",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark blue",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "가난한 집 딸이 혼례 가마에 오른다.",
-   "visual": "a young woman stepping into a small covered palanquin outside a mud-walled house, villagers watching",
-   "motion": "the palanquin tilts as she boards, curtains swing, bearers shift their grip"
+   "cast": [
+    "bongnyeo",
+    "husband",
+    "palanquin",
+    "slum"
+   ],
+   "refs": [],
+   "beat": "팔십 원에 팔려 시집가는 열다섯 복녀",
+   "visual": "a muddy village lane before a low thatched house: the thin young woman in the patched off-white jeogori and dark grey skirt is the one bending at the center to step into the low door of the small wooden palanquin with its dull red cloth roof, one hand on the door frame and her pale oval face turned back over her shoulder toward the house; the sallow slack-faced man with the drooping moustache is the one standing at frame right beside the palanquin with a cloth purse clutched in one hand and his bare topknot lowered; two carrier men in hemp clothes wait at the two long poles with their backs to the camera; the mud wall of the house and a grey sky; the palanquin rests on its two poles on the ground with no wheels; no animals anywhere",
+   "motion": "the thin young woman in the patched off-white jeogori and dark grey skirt is the only one who moves in this shot: at the start she is bent at the low door of the small wooden palanquin with one hand on the door frame and her pale oval face turned back over her shoulder toward the lane; over the first two seconds she lowers herself slowly through the low door, her skirt hem gathering against the step, her turned face lingering and then disappearing last into the dark of the palanquin, the dull red cloth roof trembling slightly as she settles inside; in the last two seconds only the hem of her skirt shows in the door and then the door hangs still; the sallow slack-faced man in the grimy jacket stands motionless holding the small cloth purse against his chest, no step, no turn of the head; the two carrier men stay braced at the poles with their knees bent, not lifting yet; the low thatched house, the mud wall, the muddy lane and the pale sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "게으른 남편 탓에 살림이 한 칸씩 줄어든다.",
-   "visual": "a young woman carrying a bundle out of a bare room, a man lying idle on the floor behind her",
-   "motion": "she hoists the bundle, he rolls over, dust drifts through the empty room"
+   "cast": [
+    "husband",
+    "bongnyeo",
+    "shack_room"
+   ],
+   "refs": [],
+   "beat": "게으른 남편과 줄어드는 살림",
+   "visual": "the single bare room of the mud shack in flat grey light: the sallow slack-faced man with the drooping moustache is the one lying on his side on the thin patched quilt along the left of the frame, the long thin pipe in his mouth with a thread of smoke rising, his heavy-lidded eyes half closed, his grimy brown jacket open and one bare foot hanging off the quilt; the thin young woman in the patched off-white jeogori and dark grey skirt is the one kneeling at the lower right on the torn oiled paper floor with her head bent, a dull brass bowl turned upside down on the floor before her knees and a wooden spoon lying beside it, her two hands resting flat on her thighs; the doorway at the upper right is a plain bright rectangle of white daylight under a rolled straw screen with the bare mud wall on both sides of it; cracked grey plaster walls, a low thatched ceiling of bare rafters, a small dark window; two people in the whole picture, the lying man and the kneeling woman",
+   "motion": "the thin young woman kneeling on the oiled paper floor is the one who moves, and the man only with his pipe: at the start her head is bent over the upturned brass bowl with her hands flat on her thighs; over the first two seconds one hand lifts slowly, turns the brass bowl upright and tips it toward her so that its empty inside shows, her bent head lowering a little further until her chin nearly touches her chest, a loose strand of hair slipping forward; in the last two seconds she sets the bowl down and stays bent and still; the sallow slack-faced man lying on his side on the patched quilt draws slowly on the long thin pipe in his mouth and lets a single thread of smoke drift up toward the low ceiling, his heavy-lidded eyes not opening, his bare foot not moving; the cracked plaster walls, the bright doorway, the rolled straw screen and the small dark window hold completely still; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그녀는 성 밖 빈민굴 한 칸에 짐을 푼다.",
-   "visual": "a young woman setting a bundle down inside a cramped shack of mud and straw, gap-toothed roof above",
-   "motion": "the bundle drops, straw dust falls from the roof, her shoulders sag"
+   "cast": [
+    "bongnyeo",
+    "husband",
+    "slum"
+   ],
+   "refs": [],
+   "beat": "성 밖 빈민굴에 봇짐을 푸는 부부",
+   "visual": "the muddy lane of the slum below the grey stone city gate: the thin young woman is the one walking at frame left with a large cloth bundle on her head steadied by one hand and a small bundle in the other, her pale face set forward; the sallow slack-faced man is the one trailing two paces behind her at the center with only a rolled mat under his arm and his bare topknot bowed; on both sides the mud and straw shacks press close with ragged straw-mat doors and smoke leaks from low chimneys; the stone gate and its wall rise behind under a grey sky; a broken earthen jar lies at the lane's edge",
+   "motion": "the thin young woman and the sallow man walking along the muddy lane of the slum are the only things that move: at the start she is mid-step at frame left with the large cloth bundle balanced on her head under one hand and the small bundle in the other; over the first two seconds she walks slowly forward along the lane, her straw sandals sinking a little into the mud at each step and lifting with a faint pull, the bundle riding level on her head, her pale face set forward and not turning; the man trails two paces behind her at the same slow pace with the rolled quilt under his arm and his head bowed, his feet dragging; in the last two seconds both come to a stop well inside the frame and stand still; the leaning shacks, the thin smoke rising straight from a chimney, the grey stone city gate and the flat sky hold completely still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "감자밭 고랑에서 그녀가 자루를 채워 나간다.",
-   "visual": "a young woman crouching low between potato furrows at dusk, filling a burlap sack from the soil",
-   "motion": "her hands work fast into the soil, the sack swells, leaves rustle nearby"
+   "cast": [
+    "bongnyeo",
+    "women_workers",
+    "pine_hill"
+   ],
+   "refs": [],
+   "beat": "송충이 잡는 일에 나간 복녀",
+   "visual": "the hillside of tall red-barked pines: the thin young woman in the patched jeogori is the one at the center reaching up with a long thin stick to a pine trunk, a small straw basket hooked on her other arm, her pale face turned up toward the bark; three other poor women in white jeogori and dark skirts with cloth-wrapped heads are the ones working at other trunks further up the slope at the left and right, each with a stick and a basket; dry pine needles cover the ground and patches of sun lie between the trunks; hazy pale sky shows far off between the trunks",
+   "motion": "the thin young woman standing at the red-barked pine trunk is the one who moves most: at the start her long thin stick is raised against the bark above her head and her pale face is turned up toward it; over the first two seconds the stick scrapes slowly down the trunk and a small dark caterpillar slides down the bark ahead of it into the straw basket hooked on her other arm, her raised arm following the stroke down and her face following it, a little bark dust sifting down; in the last two seconds the stick rests at the base of the trunk and she looks down into the basket; the three other poor women in white jeogori and cloth-wrapped heads keep at their own trunks farther back with the same slow downward strokes, none of them turning; the tall pines, the patches of sun on the needles and the pale sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "밭 주인이 어둠 속에서 그녀를 불러 세운다.",
-   "visual": "a broad man standing at the edge of a field with a lantern, a crouching woman caught in its light",
-   "motion": "the lantern swings toward her, her body freezes, moths cross the beam"
+   "cast": [
+    "women_workers",
+    "overseer",
+    "pine_hill"
+   ],
+   "refs": [],
+   "beat": "감독의 눈에 들어 돈을 더 받는 여자들",
+   "visual": "a sunny hollow between the pines: the thickset overseer in the dark western jacket and flat straw boater is the one seated on a fallen pine trunk at the center with his short cane across his knees and his moustached face lifted in a laugh; three of the poor women in white jeogori and dark skirts are the ones standing loosely around him at the left and right with their sticks and baskets set down on the pine needles, one leaning a hand on his shoulder, all laughing; far up the slope behind them a single small figure of a woman works alone at a trunk with her back turned; dry needles and patches of sun",
+   "motion": "the thickset overseer seated on the fallen pine trunk is the one who moves most: at the start his moustached face is lifted in a laugh with the short cane across his knees; over the first two seconds his laughing head tips slowly back so that the flat straw boater tilts, and his right hand lifts from the cane and comes down to slap his own knee, the cane rocking once across his lap; in the last two seconds his head comes forward again still laughing and his hand rests on his knee; the three poor women standing loosely around him in white jeogori and dark skirts sway slightly with their own laughter, their hands staying at their mouths or folded, their feet not moving; the lone woman far back among the trunks keeps working at her tree with slow strokes and does not turn; the pines, the fallen trunk and the sun patches hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그녀는 손에 쥔 지폐를 보고 처음 웃는다.",
-   "visual": "a young woman looking down at folded banknotes in her palm outside a shack, faint smile forming",
-   "motion": "her fingers close over the notes, her mouth curves, wind lifts her hem"
+   "cast": [
+    "bongnyeo",
+    "coins",
+    "pine_hill"
+   ],
+   "refs": [],
+   "beat": "처음으로 돈맛을 안 복녀",
+   "visual": "a close view under the pines: the thin young woman's two cupped hands fill the lower center of the frame holding five dull silver coins, her thumb pressing one coin flat, and above them her pale oval face is bent close with a small tight smile just beginning at one corner of her mouth and her dark eyes fixed on the coins; the low bun of her black hair, the collar of the patched off-white jeogori; behind her the red-barked pine trunks and the dry needles blur in patches of sun; the bare earth before her knees carries only dry brown pine needles and a few yellow patches of sunlight",
+   "motion": "only the thin young woman's hands and face move in this close view: at the start her two cupped hands hold the small heap of dull silver coins with her thumb pressing one coin flat; over the first two seconds her thumb slides that one coin slowly across her palm and lifts it a little into the light so that its edge glints, and the tight smile at the corner of her mouth deepens by a degree, her dark eyes following the coin; in the last two seconds the coin rests between her thumb and finger held up and her smile stays; the coins in her other hand stay completely still; her hair, her collar and her shoulders do not move; the blurred red-barked pines behind her hold their blur; no new figures or objects appear; camera drifting very slowly forward toward her hands, no zoom"
   },
   {
    "n": 7,
-   "beat": "그 문이 열리면 그녀는 무엇을 하게 될까?",
-   "visual": "a young woman facing a heavy wooden gate opening a crack, warm light falling on her still face",
-   "motion": "the gate opens a hand's width, light spills over her, her jaw sets"
+   "cast": [
+    "bongnyeo",
+    "sack",
+    "potato_field",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤마다 감자밭에 숨어드는 복녀",
+   "visual": "the wide potato field under a thin moon: the thin young woman is the one crouched low in a furrow at the center between the rows of leafy plants, her dark grey skirt gathered around her knees, both hands digging in the dark earth with a potato held in one and the coarse grey hemp sack lying open beside her half filled; her pale face is turned low and watchful under the black bun; the rows run away toward the low wattle fence and the dark shape of the grey-brick farmhouse at the far end; the dark blue sky holds scattered stars",
+   "motion": "the thin young woman crouched in the furrow of the potato field is the only one who moves: at the start her hands are in the dark earth with one potato already held in her right hand and the coarse grey hemp sack open beside her; over the first two seconds her right hand pulls the potato slowly free of the soil, a little loose earth crumbling from it, and lowers it into the open sack, while her left hand is already reaching for the next plant and her crouched body stays low between the rows with her dark grey skirt gathered around her knees; in the last two seconds her left hand closes on the next stem and begins to pull; the leafy potato plants in their rows, the low wattle fence, the dark farmhouse at the far end and the thin moon in the sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈민굴 골목에 눈이 소복이 쌓인다.",
-   "visual": "snow settling over an empty slum alley at night, one lit window far off behind mud walls",
-   "motion": "snow falls thickly and settles, the far window dims, wind moves the drifts",
-   "anchor": false
+   "cast": [
+    "bongnyeo",
+    "lantern",
+    "wang",
+    "potato_field",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "고랑 속의 복녀를 비춘 등불",
+   "visual": "the potato field at night: the thin young woman is the one crouched in the furrow at frame left with the half-filled sack at her side, her pale face jerked up and lit dull yellow from the right with her dark eyes wide and her mouth open; the stout Chinese farmer in the dark blue tunic and black skullcap is the one standing at frame right holding the small paper lantern on its short stick out at arm's length toward her, his round face in shadow behind the glow; the leafy rows between them catch the lantern light and the rest of the field falls into the dark under the stars; the farmer's tunic sleeves are rolled to the elbow over bare forearms and his thick fingers are bare",
+   "motion": "the paper lantern in the stout farmer's hand is the only thing that moves in this night shot: at the start the lantern is held out at frame right and its dull yellow light reaches the crouched woman's face and the half-filled sack; over the first two seconds the lantern pushes slowly closer toward her so that the light spreads wider over her upturned face, her patched jeogori and the sack, the shadows of the potato plants swinging slowly across the furrow as the light moves; in the last two seconds the lantern holds still close to her and the shadows settle; the thin young woman stays frozen in the furrow with her wide eyes and open mouth, her hands still in the earth, no breath visible; the stout farmer in the dark blue tunic and black skullcap does not step or turn, only his lantern arm having moved; the rows of plants, the fence and the dark field hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "wang",
+    "lantern",
+    "bongnyeo",
+    "sack",
+    "potato_field",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "등불의 주인, 밭 주인 왕서방",
+   "visual": "the potato field at night: the stout Chinese farmer in the dark blue tunic is the one standing tall at the center with the paper lantern held low at his side lighting his round shaved face from below, his small eyes narrowed and his thick hand resting on his belt; the thin young woman is the one on her knees at the lower left with her head bowed and the coarse grey sack of potatoes lying spilled at his cloth shoes; the leafy rows and the wattle fence behind under the dark blue starry sky; the farmer's tunic sleeves are rolled to the elbow over bare forearms and his thick fingers are bare",
+   "motion": "the stout Chinese farmer in the dark blue tunic standing tall in the field is the one who moves, and only one arm: at the start his thick right hand rests on his belt and the paper lantern hangs low in his left hand lighting his round shaved face from below; over the first two seconds the right hand leaves the belt slowly, reaches down to the spilled hemp sack at his feet and lifts it by its mouth, a few potatoes tumbling back out of it onto the furrow, and holds it up between himself and the kneeling woman; in the last two seconds the sack hangs still from his fist and his narrowed eyes stay on her; the thin young woman on her knees at the lower left keeps her head bowed and does not lift it, her hands flat on her thighs; the lantern light does not swing; the rows of plants, the wattle fence and the night sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wang",
+    "bongnyeo",
+    "coins",
+    "slum",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "돈을 쥐여 주고 가는 왕서방",
+   "visual": "the muddy lane of the slum at night before a straw-mat door: the stout Chinese farmer in the dark blue tunic is the one standing at frame right with his thick hand closed over the thin young woman's hand, pressing a small heap of silver coins into it; the thin young woman is the one standing in the shack doorway at frame left in her patched jeogori with her hand held out flat and her pale face lowered, her dark eyes on the coins; the mud shacks press close on both sides, smoke leaks from a low chimney and the thin moon stands over the grey stone gate behind; the farmer's tunic sleeves are rolled to the elbow over bare forearms and his thick fingers are bare",
+   "motion": "the stout Chinese farmer's closed hand is the only thing that moves at the start, and then his shoulder: at the start his thick hand is closed over the thin young woman's outstretched hand pressing the small heap of silver coins into it at the shack doorway; over the first two seconds his hand lifts slowly away leaving the coins lying in her open palm, and he turns his shoulder away from her toward the lane, the hem of his dark blue tunic swinging once; in the last two seconds he has half turned and stops, his back mostly to her; the thin young woman stays in the doorway with her hand still held out flat under the coins and her eyes fixed on the coins, not on him, her face not lifting; the straw-mat door, the leaning shacks, the thin chimney smoke and the dark sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "bongnyeo",
+    "husband",
+    "coins",
+    "shack_room"
+   ],
+   "refs": [],
+   "beat": "지폐를 세며 웃는 복녀, 말없이 받는 남편",
+   "visual": "the bare room of the mud shack: the thin young woman is the one seated cross-legged on the patched quilt at frame left counting a small heap of silver coins from one hand into the other, her pale oval face lifted in an open laugh with her eyes crinkled; the sallow slack-faced man is the one squatting at frame right with his grimy jacket hanging open and his right hand held out hand turned up toward her, his heavy-lidded eyes on the coins and his moustached mouth shut; the cracked mud walls, the torn oiled paper floor, a strip of grey daylight from the straw-mat door",
+   "motion": "the thin young woman seated cross-legged on the patched quilt is the one who moves: at the start her right hand holds a small heap of silver coins above the sallow man's waiting open hand; over the first two seconds her hand tips the coins slowly into his hand one after another in a steady trickle, each coin settling with a small click, while her open laugh stays on her lifted face and her eyes stay crinkled; in the last two seconds the last coin settles and her emptied hand stays turned over above his; the sallow slack-faced man squatting at frame right keeps his held-out hand completely still under the falling coins and does not close it until the last one settles, his heavy-lidded eyes on the coins; the mud walls, the earth floor, the straw-mat door and the small window hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "bongnyeo",
+    "women_workers",
+    "slum",
+    "winter_bg"
+   ],
+   "refs": [],
+   "beat": "왕서방이 젊은 색시를 사 온다는 소문",
+   "visual": "the well in the slum lane under a flat grey winter sky: two poor women in white jeogori and dark skirts with cloth-wrapped heads are the ones standing close together at frame right with their heads bent toward each other, one hand cupped at a mouth and their eyes cut sideways toward the left; the thin young woman is the one standing at frame left with a round earthen water jar on her hip beside the well's wooden bucket, her pale face gone still and her mouth tight, her dark eyes fixed on the two women; the mud and straw shacks press close behind and thin cold light lies on the muddy lane",
+   "motion": "the two whispering women by the well are the ones who move, and only their heads and hands: at the start they stand close together at frame right with their heads bent toward each other and one hand cupped at a mouth; over the first two seconds they lean slowly closer together until the cloth-wrapped heads nearly touch and the cupped hand presses tighter to the mouth, their eyes cutting sideways toward the left and staying there; in the last two seconds they hold that huddle without moving; the thin young woman standing at frame left with the water jar stays completely still except that her fingers slowly tighten on the jar's rim, her pale face not turning toward them; the stone well, the leaning shacks, the frozen mud of the lane and the flat grey winter sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "bongnyeo",
+    "wang_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "혼례 날 밤, 창의 불빛을 노려보는 복녀",
+   "visual": "the small yard of the grey-brick farmhouse at night: the thin young woman in the patched jeogori and dark grey skirt is the one standing at frame left with her back three-quarters to the camera and her pale face in profile turned hard toward the house, her hands hidden in the folds of her skirt; the lattice window at frame right glows dull yellow through its paper and the heavy dark wooden door with its iron ring stands closed beside it under the tiled roof; the thin moon and scattered stars in the dark blue sky above the roof; the stone step before the door is empty",
+   "motion": "the thin young woman in the patched jeogori and dark grey skirt standing in the yard is the only one who moves: at the start she stands at frame left with her back three-quarters to the camera and her pale profile turned hard toward the lit lattice window; over the first two seconds she takes one slow step forward across the yard toward the glowing window and stops again with her profile still turned to it, the folds of her skirt swinging once and settling, her hidden hands not appearing; in the last two seconds she stands completely still again and only her chest lifts with a slow breath; the dull yellow glow in the lattice window does not flicker; the heavy dark door, the grey-brick wall, the tiled roof and the dark sky hold completely still; no new figures or animals appear; camera drifting very slowly forward toward the window, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "bongnyeo",
+    "wang_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "창 너머로 들어서는 복녀",
+   "visual": "the heavy dark wooden door of the grey-brick farmhouse at night: the thin young woman is the one standing on the stone step at the center with her left hand flat on the door's edge pushing it inward a hand's width so that a bar of dull yellow light falls across her pale oval face and her patched jeogori, her right hand held down at her side buried in the fold of her dark grey skirt, her dark eyes narrowed and her mouth tight; the glowing lattice window at frame right, the tiled roof edge above and the dark blue starry sky; the yard behind her is dark",
+   "motion": "the heavy dark wooden door under the thin young woman's flat left hand is the only thing that moves, and with it the bar of light on her: at the start the door stands open a hand's width and a bar of dull yellow light lies across her pale oval face and her patched jeogori; over the first two seconds the door swings slowly inward under her hand so that the bar of light widens across her face, her shoulder and the door frame, the hinge turning without sound; in the last two seconds the door rests open wider and the light lies still on her; her right hand stays buried in the fold of her skirt the whole time, her feet stay on the stone step, and her narrowed eyes stay fixed on the room beyond; the lit lattice window, the grey-brick wall, the tiled roof and the dark yard hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "potato_field",
+    "winter_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 겨울의 빈 감자밭",
+   "visual": "the wide potato field in winter, empty of every person: bare dark earth furrows run from the foreground toward the low wattle fence and the grey-brick farmhouse at the far end, the leafy plants gone and only a few withered brown stalks lying along the rows; thin cold light from the flat grey sky lies across the furrows and the fence casts almost no shadow; a single coarse grey sack lies collapsed and empty on the earth at the lower right",
+   "motion": "nothing living moves in this empty winter field; only the wind: at the start the withered brown stalks lie along the bare dark furrows and the empty grey hemp sack lies flat at the foreground; over the whole shot a slow cold wind moves across the field from left to right so that the withered stalks along the furrows stir and lean and the sack's open mouth lifts a little and settles again, a thin drift of dry soil sliding along the top of one furrow; the bare dark furrows, the low wattle fence, the grey-brick farmhouse at the far end and the flat grey sky hold completely still; no figures, no animals and no new objects appear at any point; camera drifting very slowly backward, no zoom"
   }
  ],
- "withheld": "왕서방이 새 색시를 들이는 날 그녀가 낫을 들고 찾아가 벌어지는 결말",
- "voice": "ko-KR-JiMinNeural"
+ "withheld": "낫, 복녀의 죽음, 남편이 시체값 삼십 원을 받는 마지막"
 }

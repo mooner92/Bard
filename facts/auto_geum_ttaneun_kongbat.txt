@@ -1,0 +1,10 @@
+[포맷] 각색형
+[서지] 금 따는 콩밭 / 김유정 / 한국 / 1935
+[줄거리와 배경]
+콩밭에서 김을 매던 농사꾼 영식이가 금점꾼 수재의 꼬임과 아내의 옆구리
+찌르기에 넘어가 다 익은 콩밭을 파헤친다 — 마름의 호통, 다섯 길 구덩이,
+밤중의 산제, 아내에게 휘두른 주먹 끝에 수재가 "금줄을 잡았다"며
+불그죽죽한 흙 한 줌을 쥐고 뛰어나온다.
+[줄거리]
+줄거리와 배역은 works/handwritten/geum_ttaneun_kongbat/treatment.json 에 열다섯 박자로 적어 두었다.
+원문은 works/sources/geum_ttaneun_kongbat_raw.txt (한국어 위키문헌, PD-old-70), 근거는 source_notes.md.

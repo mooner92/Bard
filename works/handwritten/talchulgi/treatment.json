@@ -1,0 +1,186 @@
+{
+ "logline": "만삭의 아내가 아궁이에 감춘 귤껍질과, 간도의 겨울에 홀로 집을 떠난 사내",
+ "destination": "최서해의 소설 탈출기에서 만날 수 있습니다",
+ "protagonist": "park",
+ "setting": "1920년대 간도 — 오랑캐령 고개, H 촌거리, 셋방의 부엌방, 강가, 산골 길, 산비탈, 중국 경찰서 마당",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/talchulgi/assets",
+ "anchor": "a lean young Korean man in a soot-stained white cotton jeogori and baggy trousers",
+ "palette": "dun brown, off-white, slate grey, dark blue, ash grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "park",
+    "mother",
+    "wife",
+    "gando"
+   ],
+   "refs": [],
+   "beat": "오 년 전 봄, 오랑캐령을 넘어 간도로",
+   "visual": "the mountain pass in a hard spring wind: Park strides ahead beside an ox-cart holding the ox's rope with his chest out and his face lifted, his mother sits on the cart with a quilt pulled over her head and shoulders, and his wife walks behind the cart holding her skirt against the wind; the wide plain and far hills below; exactly three people",
+   "motion": "the wind drags at the quilt over the mother's head and at the wife's skirt while Park leans into it pulling the ox forward, dry grass streaming flat; the camera holds on the small family on the pass"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "park",
+    "village"
+   ],
+   "refs": [],
+   "beat": "밭도 일자리도 없는 간도의 촌거리",
+   "visual": "the muddy village street: Park stands before a low closed door with one hand raised to knock and his shoulders slumped, a cloth bundle at his feet, an ox-cart splashing past through the mud; exactly one man",
+   "motion": "Park's raised hand knocks twice and sinks slowly, the door staying closed, while he looks down at the mud; the cart rolls on, and the camera holds on the man at the closed door"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "park",
+    "room"
+   ],
+   "refs": [],
+   "beat": "숯검정 묻은 온돌장이",
+   "visual": "the kitchen-room: Park crouches with his head and one arm thrust into the open mouth of the clay flue beneath the floor, soot smeared over his jeogori and hands, a trowel and a heap of broken clay bricks beside his knees, the cauldron above; exactly one man",
+   "motion": "Park's arm works inside the flue and a puff of soot rolls out over his shoulders as he drags out a broken brick; the camera holds on the crouching sooty man"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "mother",
+    "riverbank"
+   ],
+   "refs": [],
+   "beat": "강가에서 나뭇개비를 줍는 어머니",
+   "visual": "the stony riverbank under a grey sky: the old mother stoops among the stones picking broken sticks and driftwood into the fold of her skirt, the wind pulling at her white hair, bare willows behind her; exactly one old woman",
+   "motion": "the mother's bent hand gathers one stick and then another into her skirt, her white hair blowing, the grey water running past; the camera holds on the small stooping figure"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "park",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "이틀 굶고 돌아온 날, 부엌 앞의 아내",
+   "visual": "the kitchen-room doorway: Park stands in the door thin and hollow-eyed, and his heavily pregnant wife crouches before the stove mouth with her face turned toward him in fright, her fist closed around something and stretched toward the fire hole; exactly two people",
+   "motion": "the wife's fist pushes its handful into the fire hole and she turns her face down while Park stays in the doorway staring; the camera holds on the crouching wife and the man in the door"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "room"
+   ],
+   "refs": [],
+   "beat": "재 속의 벌건 것 — 잇자국 난 귤껍질",
+   "visual": "close on the mouth of the clay stove: a stick has raked cold grey ash out onto the earthen floor, and among the ash lies a curl of dried orange peel with a row of bite marks along its edge; a thin hand reaches for it at the frame's edge",
+   "motion": "the thin hand closes on the orange peel and lifts it out of the ash, ash sifting off the bite marks; the camera holds close on the peel in the hand"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "park",
+    "room"
+   ],
+   "refs": [],
+   "beat": "귤껍질을 쥐고 이를 악물고 울다",
+   "visual": "close on Park's lap as he sits on the earthen floor of the kitchen-room: his fist crushing a curl of dried orange peel against his knee, tears falling onto the back of his hand, his bowed head with wet cheeks at the top of the frame, the raked grey ash on the floor beside him; exactly one man",
+   "motion": "Park's fist tightens on the peel against his knee and tears slide one after another onto the back of his hand, his bowed shoulders shaking; the camera holds close on the fist and the peel"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "park",
+    "trail"
+   ],
+   "refs": [],
+   "beat": "가을, 대구 열 마리를 지고 산골로",
+   "visual": "the mountain trail in autumn: Park climbs bent under a wooden back-carrier loaded with two bulging sacks of soybeans, a stiff dried cod tied to the frame, sweat on his temples, the stony creek beside the trail and the hamlet far below; exactly one man",
+   "motion": "Park's straw sandals grind up the stony trail as the sacks sway on the carrier, the dried cod swinging; the camera holds on the loaded man climbing"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "park",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "쉬어 버리는 두붓물 — 맷돌질과 우는 어머니",
+   "visual": "the steaming kitchen-room: Park on the left and his wife on the right kneel at the heavy stone hand-mill both pushing its wooden handle, white bean slurry running into a wooden tub, the cauldron steaming behind them with thin white liquid, steam beading on the walls; exactly two people",
+   "motion": "the mill handle goes round under the two pairs of hands and slurry drips into the tub, steam drifting across the room; the camera holds on the two at the mill"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wife",
+    "park",
+    "hillside"
+   ],
+   "refs": [],
+   "beat": "황혼의 도적 나무, 나뭇짐에 깔린 박군",
+   "visual": "the dark wooded hillside at dusk: the wife walks down the steep path with a bundle of cut branches balanced on her head, and behind her Park has pitched forward with a huge bundle of branches on his wooden back-carrier pinning him face down on the path, his legs kicking; the lights of the huts far below; exactly two people",
+   "motion": "the wife sets down her bundle and pulls at Park's arm while his legs kick under the branches, twigs snapping; the camera holds on the pinned man and the wife pulling"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "policeman",
+    "park",
+    "police"
+   ],
+   "refs": [],
+   "beat": "중국 경찰서에서 맞는 박군",
+   "visual": "the bare yard of the police post: the Chinese policeman swings his wooden baton down at Park, who kneels on the packed earth with both arms wrapped over his head, his soot-stained jeogori torn at the shoulder; the studded gate behind; exactly two people",
+   "motion": "the baton comes down and Park's arms tighten over his head as he rocks on his knees, dust rising from the yard; the camera holds on the kneeling man and the policeman"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "park",
+    "mother",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "겨울, 굶고 앉은 식구",
+   "visual": "the kitchen-room in winter: the old mother sits on the left with the swaddled baby in her lap, the wife sits on the right with her hands tucked into her sleeves, and Park sits in the middle with his eyes shut and his fists on his knees, all three on the earthen floor around the cold stove; frost on the patched paper door; exactly three people and a baby",
+   "motion": "the wife's shoulders shiver and the mother rocks the baby while Park's closed eyes and fists stay still, breath fogging from all three; the camera holds on the family around the cold stove"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "park",
+    "room"
+   ],
+   "refs": [],
+   "beat": "눈을 감은 박군의 머릿속에 드는 생각",
+   "visual": "close on Park's face in the winter room: eyes open now and fixed on a point beyond the frame, jaw set, brows drawn, a slow breath fogging in the cold air, the dark patched wall behind him; exactly one man",
+   "motion": "Park's fixed eyes do not blink and his jaw works slowly, breath fogging and thinning in the cold; the camera holds close on the set face"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "park",
+    "gando"
+   ],
+   "refs": [],
+   "beat": "어느 새벽, 홀로 고개를 오르는 박군",
+   "visual": "the pass at grey dawn: Park walks alone up the rutted cart track away from the camera with a small cloth bundle over his shoulder, his footprints in the old snow behind him, the wide plain and far hills below; exactly one man",
+   "motion": "Park's figure climbs steadily up the track toward the top of the pass, the bundle swinging on his shoulder and wind flattening the brown grass; the camera holds on the lone walker growing smaller"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "room"
+   ],
+   "refs": [],
+   "beat": "마무리 — 식은 아궁이와 귤껍질 스틸",
+   "visual": "closing still: the kitchen-room at night, the cold clay stove with the iron cauldron, the stone hand-mill, a curl of dried orange peel lying on the edge of the stove, the paper door patched with rags, a small oil lamp on the floor",
+   "motion": "the lamp flame sways over the cold stove and the orange peel, steam gone from the walls; the camera closes with great patience on the peel on the stove's edge"
+  }
+ ],
+ "withheld": "세상이 우리를 속였다는 깨달음, 험악한 제도를 쳐부수려 단체에 가입한 사상"
+}

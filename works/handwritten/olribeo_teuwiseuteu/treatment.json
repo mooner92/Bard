@@ -1,60 +1,206 @@
 {
-  "logline": "근로의 집의 고아 소년이 런던의 범죄 조직에 스며들며 자신의 운명을 개척하려는 순간",
-  "destination": "페이긴의 집 문 앞 — 안전과 위험 사이에서 선택해야 하는 문턱",
-  "protagonist": "고아원 소년",
-  "setting": "19세기 초 런던, 근로의 집과 뒷골목",
-  "anchor": "Thin, pale-faced boy in tattered clothes",
-  "palette": "Cold blue-grey shadows, flickering candlelight, wet cobblestones reflecting streetlamps.",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "소년이 빈 그릇을 들고 식탁 앞에 선다.",
-      "visual": "a small thin boy holding an empty wooden bowl before long refectory tables, candlelight",
-      "motion": "the empty bowl tilts in his hands, candle flames waver, steam rises off the vats"
-    },
-    {
-      "n": 2,
-      "beat": "그가 고개를 들어 식탁 너머를 바라본다.",
-      "visual": "Low angle shot of the boy looking up at the massive, dark table.",
-      "motion": "Head tilts upward, eyes widening in the shadow."
-    },
-    {
-      "n": 3,
-      "beat": "관찰자의 시선이 소년의 입술로 향한다.",
-      "visual": "Over-the-shoulder shot from the warden's perspective, focusing on the boy's lips.",
-      "motion": "Camera pans slightly to the right, tracking the boy's gaze."
-    },
-    {
-      "n": 4,
-      "beat": "소년이 '더 주세요'라고 속삭인다.",
-      "visual": "Extreme close-up of the boy's mouth moving silently, breath visible in cold air.",
-      "motion": "Lips part slightly, exhaling a faint mist."
-    },
-    {
-      "n": 5,
-      "beat": "식탁 위의 숟가락이 소리를 내며 멈춘다.",
-      "visual": "Quick cut to a spoon clattering against a plate, then silence in the room.",
-      "motion": "Spoon stops abruptly, vibrating slightly on the ceramic surface."
-    },
-    {
-      "n": 6,
-      "beat": "소년이 몸을 일으켜 문 쪽으로 이동한다.",
-      "visual": "Wide shot of the boy walking away from the table toward a bright doorway.",
-      "motion": "Body moves forward, stepping out of the shadow into the light."
-    },
-    {
-      "n": 7,
-      "beat": "그가 문턱에서 발을 멈추고 뒤를 돌아본다.",
-      "visual": "a small boy halted in a dark doorway looking back over his shoulder into the lit hall",
-      "motion": "he stops at the threshold and turns his head back, lamplight cuts across the floor"
-    },
-    {
-      "n": 8,
-      "beat": "닫힌 문 뒤에 소년의 그림자만 남는다.",
-      "visual": "a closed heavy door with a thin shadow fading under it, empty corridor, one lamp",
-      "motion": "the door settles shut, the shadow under it thins away, dust sinks in the lamplight",
-      "anchor": false
-    }
-  ],
-  "withheld": "소년이 근로의 집을 떠나 페이긴의 집으로 향하며 소매치기 조직에 합류하는 과정과 이후의 운명"
+ "logline": "근로의 집의 고아 올리버가 죽을 더 달라 했다가 장의사에게 팔려 가고, 달아나 런던 길에서 만난 소년 도저를 따라 노인 페이긴의 다락에 들어가 손수건 빼내는 놀이를 배우다 거리에서 도둑으로 몰리고, 책 주인 브라운로 씨의 집에 거두어졌다가 낸시와 사익스에게 붙들려 다시 다락으로 끌려온다",
+ "destination": "소설 올리버 트위스트에서 만날 수 있습니다",
+ "protagonist": "oliver",
+ "setting": "1830년대 잉글랜드 — 근로의 집 식당과 마당, 장의사의 작업장, 런던으로 가는 길, 페이긴의 다락, 거리의 책 좌판, 브라운로의 응접실, 밤의 뒷골목",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/olribeo_teuwiseuteu/assets",
+ "anchor": "a thin pale boy of nine with short fair hair, a wide-eyed plain face",
+ "palette": "ash grey, dark brown, off-white, dull red, dull yellow",
+ "voice": "",
+ "personas": {},
+ "withheld": "올리버의 출생 비밀과 낸시가 치르는 값",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "boys",
+    "oliver",
+    "cook",
+    "workhouse_hall"
+   ],
+   "refs": [],
+   "beat": "근로의 집 식당에서 늘 배고픈 고아 올리버와 아이들",
+   "visual": "grey light from the high small windows of the long bare stone hall: the long row of thin boys in the coarse grey smocks with the shaved heads are the ones sitting along the plank benches at the frame centre with their bowls before them, their hollow faces bent to the bowls; the thin pale boy of nine with the short fair hair in the coarse grey smock is the one sitting nearest the camera at frame left with his bowl scraped bare and his spoon still in his hand; the heavy man in the white apron and cap is the one standing behind the great copper pot at the far end at frame right with the ladle in his fist; the whitewashed walls, the plank tables; exactly one cook and the row of boys",
+   "motion": "the row of boys is what moves, and the cook holds still: over the first three seconds each boy along the bench lifts his spoon slowly to his mouth and lowers it again, the movement passing down the row from the far end toward the camera one after another, their heads staying bent; the pale boy nearest the camera scrapes his spoon slowly round the bare bottom of his bowl twice and stops with the spoon upright in his fist; in the last two seconds the row holds with their spoons down and their heads bent; the cook keeps the ladle in his fist behind the copper pot; the high small windows, the whitewashed walls and the plank tables hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "oliver",
+    "cook",
+    "boys",
+    "workhouse_hall"
+   ],
+   "refs": [],
+   "beat": "죽 한 그릇을 다 비운 올리버가 빈 그릇을 들고 일어선다",
+   "visual": "grey light in the long stone hall: the thin pale boy of nine with the short fair hair in the coarse grey smock is the one standing alone on the flagstones at frame centre halfway between the benches and the great copper pot, his bowl held out before him in both thin hands, his wide-eyed face lifted toward the pot; the heavy man in the white apron behind the pot at frame right has the ladle stopped in the air above it, his sour face turned on the boy; the long row of thin boys on the benches at frame left are the ones with their heads all turned toward the standing boy, their spoons down; the whitewashed walls behind; exactly one standing boy, one cook and the row of boys",
+   "motion": "the standing boy is the only one who moves, and the cook and the row of boys hold still: at the start his bowl is held out in both hands and his face is lifted; over the first three seconds he takes two small slow steps forward over the flagstones toward the copper pot, the bowl staying held out level before him, his bare feet silent, his chin rising a little; in the last two seconds he stops well inside the frame with the bowl still held out; the cook keeps the ladle stopped in the air above the pot; every boy on the benches keeps his head turned toward him and his spoon down; the copper pot, the benches and the walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "oliver",
+    "cook",
+    "boys",
+    "workhouse_hall"
+   ],
+   "refs": [],
+   "beat": "올리버가 배식대 앞에서 더 달라고 말한다",
+   "visual": "grey light at the far end of the long stone hall, close on the great copper pot: the thin pale boy of nine with the short fair hair in the coarse grey smock is the one standing at the foot of the pot at frame left with his bowl raised in both thin hands to the height of his own chin, his wide-eyed face lifted and his mouth open in the middle of a word; the heavy man in the white apron and cap is the one behind the pot at frame right with the ladle stopped halfway out of it and dripping, his sour face staring down at the boy; behind them at the far left the row of thin boys on the benches with their faces all turned this way, small and dim; the whitewashed wall and the high small window above; exactly one boy at the pot, one cook and the dim row behind",
+   "motion": "the pale boy at the pot is the only one who moves, and the cook holds still: at the start his bowl is raised to his chin and his mouth is open; over the first three seconds the bowl rises slowly a hand's width higher toward the pot, his thin arms straightening, his mouth moving on the words and his chin lifting with it, his eyes staying on the cook's face; in the last two seconds he holds the bowl up at that height with his mouth still open; the cook keeps the ladle stopped halfway out of the pot with a drip hanging from it, his stare not moving; the dim row of boys on the benches behind keep their faces turned this way; the copper pot, the whitewashed wall and the high window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "bumble",
+    "oliver",
+    "cook",
+    "workhouse_hall"
+   ],
+   "refs": [],
+   "beat": "그 말에 관리인 범블이 올리버의 팔을 붙든다",
+   "visual": "grey light in the long stone hall: the fat beadle of fifty in the long dull red coat with the brass buttons and the three-cornered black hat is the one at frame right bent forward from the waist with his cane raised in one hand and his other hand closed tight round the boy's thin upper arm, his red face swollen with anger and his mouth wide open; the thin pale boy of nine with the short fair hair in the coarse grey smock is the one at frame left held by the arm with his bowl fallen against his chest in his free hand, his wide-eyed face turned up to the beadle; the heavy man in the white apron is the one standing back behind the copper pot with both hands on its rim; the benches and the whitewashed walls; exactly three people, one beadle, one boy and one cook",
+   "motion": "the beadle is the only one who moves, and the boy and the cook hold still: at the start the point of his cane is planted on the flagstones beside his boot with his fist closed on its head, and his other hand rests on the boy's shoulder; over the first three seconds his shoulders turn slowly down toward the boy and the hand on that shoulder draws the boy a half step in toward him, his face thrusting forward and his mouth opening wider as he shouts, his hat tipping back a little on his head; in the last two seconds he holds bent toward the boy with his hand still on the shoulder; the cane stays planted on the flagstones beside his boot the whole time and his fist stays closed on its head; the boy keeps his bowl against his chest and his face turned up; the cook keeps both hands at the rim of the copper pot; the benches, the flagstones and the walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "bumble",
+    "sowerberry",
+    "oliver",
+    "workhouse_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "근로의 집이 올리버를 장의사에게 팔아넘긴다",
+   "visual": "grey daylight in the bare walled yard of the workhouse: the fat beadle of fifty in the long dull red coat with the brass buttons and the three-cornered black hat is the one standing at frame left with one hand held out flat and open toward the tall man and the other hand on the boy's shoulder; the tall thin undertaker of fifty all in black with the long sober face and the black hat is the one standing at frame right laying three coins into the beadle's open hand, his thin fingers over them, his long face turned down to the boy; the thin pale boy of nine with the short fair hair in the coarse grey smock is the one standing small between them with his arms at his sides and his wide-eyed face turned up at the undertaker; the heavy wooden gate behind them, wet flagstones underfoot; exactly three people; the undertaker's face is a living face of ordinary skin and his hands are ordinary living hands",
+   "motion": "the undertaker is the only one who moves, and the beadle and the boy hold still: at the start his bony fingers are over the coins in the beadle's open hand; over the first three seconds his hand draws slowly back from the coins and moves across to take the boy by the shoulder, his long face bending closer to look the boy over from head to foot; in the last two seconds his hand rests on the boy's shoulder and his face holds bent; the beadle keeps his hand held out flat with the three coins lying in it; the boy keeps his arms at his sides and his face turned up; the wooden gate, the flagstones and the walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "oliver",
+    "coffin_shop"
+   ],
+   "refs": [],
+   "beat": "관을 짜는 작업장 바닥에서 올리버가 밤을 보낸다",
+   "visual": "the low light of a dying fire in the undertaker's workshop at night: the thin pale boy of nine with the short fair hair in the coarse grey smock is the one lying curled on a sack on the plank floor at frame centre between two plain wooden coffins standing on end against the wall, his knees drawn up to his chest and one thin arm under his head, his eyes open; the workbench with its tools above him at frame right, more coffins leaning along the wall at frame left, the low fire in the small grate; he is the only person in the workshop; the undertaker's face is a living face of ordinary skin and his hands are ordinary living hands",
+   "motion": "the boy on the floor is the only one who moves, and only a little: at the start he lies curled with his arm under his head and his eyes open; over the first three seconds he draws his knees slowly closer to his chest and pulls the edge of the sack up over his shoulder with his free hand, his shoulders shivering once, his eyes staying open on the coffins across from him; in the last two seconds he holds curled with his hand on the sack; the low fire in the grate glows and dims very slightly; the plain coffins standing against the wall, the workbench and its tools and the plank floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "oliver",
+    "london_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "새벽에 달아난 올리버가 런던으로 가는 길을 걷는다",
+   "visual": "cold grey dawn on a long country road: the thin pale boy of nine with the short fair hair in the coarse grey smock is the one walking away along the road at frame centre seen from behind, small in the frame, a small bundle tied in a cloth hanging from one hand, his bare feet grey with dust; the whole width of the road is packed earth and loose stones with two wagon ruts and a line of grass down its middle, running away from him between the hedges; a stone milestone stands at the roadside at frame right; two low cottages of whitewash and ash grey slate stand small beside the road far ahead with thin chimney smoke above them; open fields lie beyond the hedges on both sides; the wide low grey sky fills the top of the frame; he is the only person on the road",
+   "motion": "the boy is the only one who moves: at the start he is mid stride with the bundle in one hand and his back to the camera; over the first three seconds he walks four slow steps away along the road, the bundle swinging a little at his side, his head turning once toward the milestone as he passes it and back to the road ahead, his figure growing only slightly smaller; in the last two seconds he keeps walking and stays well inside the frame; the dust stirs faintly at his heels and settles; the milestone, the hedges, the far cottages and the wide sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "dodger",
+    "oliver",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "길에서 만난 소년 도저가 올리버를 런던으로 데려간다",
+   "visual": "grey daylight on the grass verge in front of a tall hedge: the small boy of twelve in the brown coat far too big for him with the battered black top hat sitting down on his ears is the one standing at frame right on the packed earth of the verge with his thumbs hooked in his coat and one elbow crooked out toward the other boy, his sharp young face grinning; the thin pale boy of nine with the short fair hair in the coarse grey smock is the one standing at frame left with his bundle held against his chest in both arms, his bare fair head lifted and his wide-eyed face turned to the grinning boy; both of them are small boys standing upright on their own two feet with their knees straight and their backs straight, the tops of their heads level with each other, their feet flat on the packed earth; the waist-high stone milestone stands between them and the hedge at frame right; the tall hedge runs the whole width of the frame behind them with open fields showing over its top; the ground under their feet is packed earth and loose stones with tufts of grass; two low cottages of whitewash and ash grey slate stand small beyond the hedge at frame left with thin chimney smoke above them; the wide low grey sky fills the top of the frame",
+   "motion": "the boy sitting back against the hedge is the one who moves, and the standing boy holds still: at the start he sits on the grass of the verge with one hand down in his coat pocket and his grinning face turned up to the standing boy; over the first three seconds his free hand comes slowly up off his knee toward the other boy, opening as it rises until the palm is turned up at the height of his own shoulder, his shoulders turning a little further round with it and his face staying up on the standing boy, his boots not shifting in the grass; in the last two seconds the open hand holds out at that height; the standing boy keeps his arms folded in front of him with the bundle hanging at his back and his face down toward the sitting boy, not moving at all; the stone milestone between them, the tall hedge behind them, the open fields beyond it and the two far cottages with their chimney smoke hold completely still; the loose stones on the packed earth do not shift; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "fagin",
+    "boys_thieves",
+    "dodger",
+    "oliver",
+    "fagin_den"
+   ],
+   "refs": [],
+   "beat": "도저가 데려간 다락에 노인 페이긴과 아이들이 있다",
+   "visual": "firelight in the filthy attic room: the shrivelled old man with the long matted red hair and the straggling beard in the greasy dull green coat is the one standing at the low fire at frame right with a toasting fork in one hand held out over the pan, his creased face turned round to the door with a wide grin; the thin pale boy of nine with the short fair hair in the coarse grey smock is the one standing just inside the open door at frame left with his cloth bundle in both arms, his fair head bare with nothing on it, his wide-eyed face going round the room; the boy in the battered black top hat is the one standing a full stride to his right, one arm reaching across the gap of bare floor to the smaller boy's back; four ragged boys in mismatched grown men's clothes are the ones sprawled on the mattress and the floor round the table, which is heaped with a jumble of handkerchiefs and worn leather wallets; sacking over the window; exactly one old man and six boys, two at the door and four round the table",
+   "motion": "the old man at the fire is the only one who moves, and the boys hold still: at the start the toasting fork is held out over the pan and his face is turned to the door; over the first three seconds he lifts the fork slowly clear of the pan and sweeps it round in a wide slow welcome toward the boy in the doorway, his other hand rubbing down the front of his greasy coat, his grin holding; in the last two seconds the fork stays out toward the door; the boy in the doorway keeps his bundle in both arms and stays bare-headed, the taller boy in the top hat keeps his arm out to his back and the gap of floor between the two boys stays the same width, and the four ragged boys keep their sprawl; the fire glows steadily; the table, the heaped handkerchiefs and the sacking hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "fagin",
+    "boys_thieves",
+    "oliver",
+    "fagin_den"
+   ],
+   "refs": [],
+   "beat": "페이긴이 올리버에게 손수건 빼내는 놀이를 시킨다",
+   "visual": "firelight in the filthy attic room: the shrivelled old man with the long matted red hair and the straggling beard in the greasy dull green coat is the one standing in the middle of the floor at frame centre seen from his left side, his coat buttoned and turned so that the back pocket at his hip shows to the camera with one bright yellow handkerchief hanging half out of that back pocket, both his arms held straight out from his sides at shoulder height with his open hands empty, his creased face turned away toward frame left with a wide grin; the thin pale boy of nine with the short fair hair in the coarse grey smock is the one standing close behind the old man's hip at frame right up on his toes, his thumb and forefinger pinching the hanging corner of that handkerchief and drawing it out, his other hand held out behind him, his wide-eyed face down on his own fingers; two of the ragged boys are the ones squatting on the floorboards at frame left with their chins on their fists, watching the old man; the table of worn leather wallets stands behind them and the low fire burns down to red coals under an empty pan at frame right; exactly one old man and three boys",
+   "motion": "the pale boy holding the yellow handkerchief is the one who moves, and the old man and the watching boys hold still: at the start the drawn handkerchief hangs from his raised hand at the height of his own shoulder; over the first three seconds his hand draws the cloth slowly down and in toward his chest, the loose corner of it swinging a little as it comes and the cloth folding over his fingers, his other arm staying down at his side and his feet not shifting on the floorboards; in the last two seconds he holds the handkerchief in against his chest with his fingers closed on it; the old man keeps both arms held straight out from his sides with his hands open and his grinning face turned away, and the bright handkerchief at his pocket does not move; the two squatting boys keep their chins on their fists; the coals glow steadily under the pan; the table of wallets and the sacking over the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "oliver_new",
+    "dodger",
+    "bookstall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "거리로 나선 올리버가 책 좌판 앞에서 도둑으로 몰린다",
+   "visual": "grey daylight at the street bookstall of trestles and boards heaped with books: a stout kindly old gentleman in the bottle-green coat with the gold spectacles is the one standing at the stall at frame right with an open book in both hands and his white head bent to the page; the thin pale boy of nine in the clean brown jacket is the one standing frozen a stride behind him at frame centre with both empty hands half raised and his wide-eyed face turned after two figures running out of the frame at the left; the boy in the battered top hat is the one already at the left edge in mid stride with a pocket book in his fist; passers-by crowd the pavement behind; exactly one old gentleman and two boys",
+   "motion": "the running boy and the pale boy are the ones who move, and the old gentleman holds still: at the start the boy in the top hat is mid stride at the left edge and the pale boy stands frozen with his hands half raised; over the first three seconds the running boy carries on out of the frame at the left, and the pale boy turns slowly from the left back toward the old gentleman at the stall, his raised hands coming down to his sides, his mouth opening; in the last two seconds he holds turned toward the stall with his hands at his sides; the old gentleman keeps the open book in both hands and his head bent to the page; the heaped books, the trestles and the crowd on the pavement hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "brownlow",
+    "oliver_new",
+    "parlour"
+   ],
+   "refs": [],
+   "beat": "책 주인 브라운로 씨가 올리버를 제 집으로 데려간다",
+   "visual": "warm light from the fire in the marble grate of the panelled parlour: the stout kindly old gentleman in the bottle-green coat with the gold spectacles is the one sitting forward in the armchair at frame right with one hand resting on the arm and the other held out toward the boy, his white-haired face soft; the thin pale boy of nine in the clean brown jacket is the one sitting on a low stool at frame left with a cup and saucer balanced on his knee in both hands, his wide-eyed face turned up to the old gentleman; the bookcase behind them, the portrait of a young woman on the wall above the fire; exactly two people",
+   "motion": "the old gentleman is the only one who moves, and the boy holds still: at the start his hand is held out toward the boy; over the first three seconds his held-out hand turns slowly and gestures up toward the portrait above the fire, his white head turning with it, then comes back down to rest on the arm of the chair, his spectacles catching the firelight; in the last two seconds he holds with both hands on the chair arms and his face on the boy; the boy keeps the cup and saucer on his knee in both hands and his face turned up; the fire in the marble grate burns steadily; the bookcase, the portrait and the panelling hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "nancy",
+    "sikes",
+    "oliver_new",
+    "alley_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "심부름을 나선 올리버를 낸시와 사익스가 붙든다",
+   "visual": "one small yellow flame in a glass case on an iron bracket high on the brick wall lights the narrow alley at night: the heavy brutal man of thirty-five in the dark velveteen coat and dirty white neckerchief is the one standing close at the boy's right at frame right with his hands down at his sides and his shoulders over the boy; the young woman of nineteen in the red shawl and the shabby blue dress is the one at frame left with both her hands on the boy's shoulders and her tired face bent close to his; the thin pale boy of nine in the clean brown jacket is the one held between them with a brown paper parcel fallen against his chest and his wide-eyed face turned up to the woman; wet cobbles under them, leaning brick houses on both sides, deep shadow beyond the pool of yellow light; exactly three people",
+   "motion": "the young woman is the only one who moves, and the man and the boy hold still: at the start both her hands are on the boy's shoulders and her face is bent close; over the first three seconds one hand slides up from his shoulder to smooth the hair back from his forehead and stays there against his temple, her tired face bending closer still, her mouth moving as she speaks low; in the last two seconds her hand holds against his temple; the heavy man keeps his hands down at his sides and his scowling face turned up along the alley, not moving; the boy keeps the parcel against his chest and his face turned up to her; the small flame in its glass case, the wet cobbles and the leaning houses hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "fagin",
+    "sikes",
+    "oliver",
+    "fagin_den"
+   ],
+   "refs": [],
+   "beat": "다시 페이긴의 다락에 끌려온 올리버",
+   "visual": "firelight in the filthy attic room: the thin pale boy of nine with the short fair hair in the coarse grey smock, back in the coarse grey smock, is the one standing against the wall at frame left with his shoulders pressed to the sacking that hangs down the wall behind him and his thin hands flat on the wall behind him, his wide-eyed face lifted; the shrivelled old man with the long matted red hair and the straggling beard in the greasy dull green coat is the one at frame centre bent toward him with one long finger held up before the boy's face and his creased face wheedling; the heavy man of thirty-five with the thick dark brown hair and the short dark brown beard, in the dark velveteen coat and the dirty white neckerchief, is the one standing behind the old man at frame right with his arms folded and his scowling face turned down on the boy, his hair and beard dark brown all through; the table with the jumble of handkerchiefs, the low fire; exactly one old man, one heavy man and one boy",
+   "motion": "the old man is the only one who moves, and the heavy man and the boy hold still: at the start his long finger is held up before the boy's face; over the first three seconds the raised finger wags slowly from side to side twice and then turns and taps the air twice toward the boy's chest, his creased face bending closer with his grin widening, his other hand rubbing his own knuckles; in the last two seconds the finger holds pointed at the boy's chest; the heavy man keeps his arms folded and his face turned down; the boy keeps his hands flat on the wall and his face lifted; the fire glows; the table and the sacking hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "london_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "런던으로 가는 빈 길만 남는다",
+   "visual": "cold grey light on the long dirt road: the road runs from the bottom of the frame away between the hedges toward two low cottages of whitewash and ash grey slate standing small beside it far off, thin chimney smoke above them under the wide low sky; the stone milestone stands at the roadside at frame right; the road surface is packed earth and loose stones with two wagon ruts and a line of grass down its middle; the hedges on both sides of the road are the same dark brown and ash grey along their whole length from the front of the frame to the far cottages; the roadside grass is long and dull yellow; the road lies quiet and empty with nobody on it",
+   "motion": "nothing but the dust and the hedges moves: over the whole five seconds a low wind lifts a thin drift of dust from the surface of the road and carries it slowly away toward the far cottages, thinning as it goes, and the leaves of the hedges on both sides stir and settle in slow waves passing from the bottom of the frame toward the horizon; the stone milestone, the line of the road, the far cottages and smoke and the wide grey sky hold completely still; the light does not change over the five seconds; the road stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

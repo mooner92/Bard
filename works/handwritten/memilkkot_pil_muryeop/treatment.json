@@ -1,62 +1,218 @@
 {
- "logline": "평생 장을 돌아온 늙은 장돌뱅이가 달밤 산길에서 젊은 동행에게 옛일을 꺼낸다.",
- "destination": "밤 개울 — 그가 젊은이의 등에 업히게 되는 자리",
- "protagonist": "왼쪽 눈이 어두운 늙은 장돌뱅이",
- "setting": "1930년대 강원도 봉평 장터와 대화 가는 밤 산길",
- "anchor": "an elderly peddler with a wispy beard in a worn hemp jacket, stooped shoulders",
- "palette": "full-moon silver, buckwheat white, deep night blue, warm lantern speck",
+ "logline": "평생 봉평 장을 거르지 않은 늙은 장돌뱅이가 달밤 메밀밭 길에서 젊은 동행에게 옛일을 꺼내고, 개울을 건너 업힌 등 위에서 그의 왼손을 본다",
+ "destination": "소설 메밀꽃 필 무렵에서 만날 수 있습니다",
+ "protagonist": "heo",
+ "setting": "1930년대 강원도 봉평 장터와 대화 장으로 가는 달밤의 메밀밭 산길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/memilkkot_pil_muryeop/assets",
+ "anchor": "an old pockmarked Korean peddler in a flat straw hat and hemp clothes beside a grey donkey",
+ "palette": "white, dark blue, ash grey, dark brown, pale yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "장이 파하자 두 장돌뱅이가 짐을 꾸린다.",
-   "visual": "two peddlers tying bundles onto a small donkey in an emptying market at dusk, stalls folding behind",
-   "motion": "rope is pulled tight, the donkey shifts weight, stall cloth flaps down"
+   "cast": [
+    "heo",
+    "donkey",
+    "market",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "파장의 봉평 장에서 짐을 꾸리는 허 생원",
+   "visual": "the country market square at closing time under a pale yellow dusk sky: the old peddler in the flat straw hat is the one standing at the center beside the grey donkey, bent over its wooden pack saddle with both knobby hands drawing a rope tight around a stack of cloth bundles and straw mats, his wispy grey beard and pockmarked cheek turned to the camera; the donkey stands with its long ears drooping and its head lowered; around them the straw-mat stalls are being rolled up by villagers in hemp clothes at the left and right, bare wooden stall frames stand on the trodden earth, and the low thatched houses close the square; the first stars show above the roofs",
+   "motion": "the old peddler pulls the rope slowly around the bundles and draws it tight with his whole body leaning back, the knot closing under his hands as the stack settles on the saddle; the donkey stands without moving; the villagers at the stalls keep to their slow rolling; the houses and the sky hold still; camera fixed"
   },
   {
    "n": 2,
-   "beat": "늙은 장돌뱅이가 젊은 동행과 밤길에 오른다.",
-   "visual": "an elderly peddler and a young man walking a narrow mountain path at night, donkey between them",
-   "motion": "the donkey's hooves find the path, lantern light bobs, their breath clouds"
+   "cast": [
+    "heo",
+    "dongi",
+    "tavern_woman",
+    "tavern_yard",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "주막에서 동이의 뺨을 때린 허 생원",
+   "visual": "the yard of the low thatched tavern at dusk: the old peddler in the flat straw hat is the one standing at frame left with his right hand still raised open at shoulder height after the blow, his pockmarked face hard; the young peddler in the grey headband is the one at the center with his own hand pressed to his cheek, his head turned aside and his eyes lowered, his sturdy shoulders drawn in; the plump tavern keeper in the white jeogori and dark blue skirt is the one standing on the raised wooden floor at frame right under the eaves with a long-handled wooden ladle in her hand and her mouth open; the dark earthen jars stand along the mud wall behind them and the straw mat lies on the ground",
+   "motion": "the old peddler's raised hand slowly lowers to his side and closes, his hard face not changing, while the young man keeps his hand pressed to his cheek and his eyes down; the tavern keeper on the floor stays frozen with the wooden ladle; the jars, the wall and the mat hold still; camera fixed"
   },
   {
    "n": 3,
-   "beat": "달빛에 메밀밭이 소금을 뿌린 듯 희다.",
-   "visual": "a vast buckwheat field in full white bloom under a huge moon, a thin path cutting through it",
-   "motion": "the whole field ripples in one slow wave, petals lift, the moon holds still",
-   "anchor": false
+   "cast": [
+    "dongi",
+    "donkey",
+    "heo",
+    "market",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "그런데도 나귀를 챙겨 주는 동이",
+   "visual": "the darkening market square: the young peddler in the grey headband is the one at the center leading the grey donkey forward by its rope halter with his right hand, his other hand resting on the donkey's neck, his sun-browned face turned toward the old man with a shy half smile; the old peddler in the flat straw hat is the one standing at frame right with his back half turned, his bundle on his back and his pockmarked face turned away over his shoulder toward the empty stalls; the donkey's pack saddle is piled with bundles and its ears droop; the bare stall frames and the low thatched houses stand in the dusk and the sky is deep blue with the first stars",
+   "motion": "the young man leads the donkey slowly forward a few steps toward the old peddler, the donkey's head bobbing with each step on the trodden earth, while the old man keeps his face turned away; the stalls, the houses and the sky hold still; camera fixed"
   },
   {
    "n": 4,
-   "beat": "그는 젊은 시절 물방앗간 이야기를 꺼낸다.",
-   "visual": "an elderly peddler talking as he walks, an old timber water mill glimpsed far below the path",
-   "motion": "his hand gestures as he speaks, the mill wheel turns far below, grass sways"
+   "cast": [
+    "heo",
+    "dongi",
+    "jo",
+    "donkey",
+    "mountain_path",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "대화 장으로 가는 밤길에 나선 세 장돌뱅이",
+   "visual": "the narrow pale path climbing the hillside at dusk seen from behind: the three peddlers walk away from the camera in single file up the path toward the upper right, the middle-aged peddler in the small black horsehair hat first, the old peddler in the flat straw hat second with the grey donkey plodding beside him under its piled pack saddle, and the young peddler in the grey headband last with his bundle on his back, all three with the backs of their heads to the camera and their heads held straight ahead; low grass banks line the path, a few scattered pines stand dark on the slope and the ridge line runs black against a sky fading from pale yellow to deep blue",
+   "motion": "the three men and the donkey climb the path slowly away from the camera, their bundles swaying and the donkey's ears flicking as the file moves up the slope in one steady continuous walk, the backs of their heads held straight ahead; the pines, the banks and the ridge hold still; camera fixed"
   },
   {
    "n": 5,
-   "beat": "젊은이가 제 어머니 이야기를 꺼내 놓는다.",
-   "visual": "a young peddler walking with his head down, the elderly man turning to look at him, moonlit path",
-   "motion": "the old man's head turns sharply, the young man keeps walking, dust rises"
+   "cast": [
+    "donkey",
+    "buckwheat_field",
+    "mountain_path",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "소금을 뿌린 듯 하얀 달빛의 메밀밭",
+   "visual": "the hillside under the full moon: fields of buckwheat in full bloom cover the whole slope from the foreground to the ridge, countless small white blossoms on thin red-brown stems glowing pale in the moonlight, and the narrow earthen path runs pale through them from the lower left toward the upper right; far along the path near the ridge the grey donkey under its piled saddle and three small dark figures of the walkers move as tiny shapes against the white; the full moon hangs high at the upper left in the deep blue sky with a few faint stars; the blossoms nearest the camera are drawn sharp and the far field softens to a pale haze",
+   "motion": "a slow breath of wind passes up the slope so that the white buckwheat blossoms sway together in one long ripple travelling from the foreground toward the ridge, while the tiny figures and the donkey continue their slow crawl along the far path; the moon and the ridge hold still; camera fixed"
   },
   {
    "n": 6,
-   "beat": "개울을 건너던 늙은이가 물에 빠진다.",
-   "visual": "an elderly peddler stumbling into a shallow moonlit stream, water splashing up around his knees",
-   "motion": "water bursts upward, he pitches sideways, the donkey rears back"
+   "cast": [
+    "heo",
+    "dongi",
+    "buckwheat_field",
+    "mountain_path",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "물방앗간의 처녀 얘기를 꺼내는 허 생원",
+   "visual": "on the moonlit path between the white buckwheat fields: the old peddler in the flat straw hat is the one walking at frame left with his face lifted and turned toward the young man, his pockmarked cheek and wispy beard silver in the moonlight, his left hand raised in a small telling gesture; the young peddler in the grey headband is the one walking at frame right a half step behind, his face turned to listen; both carry their bundles on their backs; the white blossoms crowd to the path edge on both sides and spread up the slope behind them, and the full moon stands high in the deep blue sky above the dark ridge",
+   "motion": "the old peddler's raised left hand turns slowly hand turned up and opens toward the field as he speaks, his head tilting toward the young man, while the two keep walking side by side at a slow even pace along the path; the blossoms, the ridge and the moon hold still; camera drifting slowly backward ahead of them"
   },
   {
    "n": 7,
-   "beat": "그가 젊은이의 왼손을 본다면 무엇을 알게 될까?",
-   "visual": "a young man's left hand gripping a rein in moonlight, an elderly face turned toward it behind",
-   "motion": "the rein shifts in the left hand, the old man's eyes widen, moonlight steadies"
+   "cast": [
+    "watermill",
+    "stream",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "하룻밤 뒤 봉평을 떠난 처녀 — 빈 물방앗간",
+   "visual": "the old watermill under the full moon, empty of every person: the low thatched shed of dark timber stands at frame right beside the shallow stream, its large wooden wheel standing still in the water with moss on its paddles and moonlight on the wet rims, the plank door ajar on darkness and the small paper window dark; the stream runs over pale rounded stones in the foreground catching the moon in broken lines; low grass banks and a few white buckwheat blossoms at the water's edge; the deep blue sky and the moon at the upper left; nothing stirs around the mill",
+   "motion": "the stream slides steadily over the pale stones below the still wheel, its broken lines of moonlight shifting continuously across the surface while the wheel, the shed, the door and the blossoms hold perfectly still; camera drifting very slowly forward toward the door"
   },
   {
    "n": 8,
-   "beat": "달빛 아래 메밀밭만 하얗게 남는다.",
-   "visual": "a vast buckwheat field white under a full moon, the narrow path through it empty",
-   "motion": "the field ripples in one slow wave, petals lift, the moon holds still",
-   "anchor": false
+   "cast": [
+    "heo",
+    "donkey",
+    "mountain_path",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "봉평 장을 한 번도 거르지 않은 허 생원",
+   "visual": "a close view on the moonlit path: the old peddler's pockmarked face fills the left half of the frame in profile under the flat straw hat, his wispy grey beard and small bright eyes turned up toward the moon, a faint smile deepening the lines of his cheek, the cloth bundle strap across his hemp jacket; beside him at the right the grey donkey's lowered head and drooping ear are close to his shoulder, its rope halter hanging; behind them the pale path and the dark slope, the full moon high in the deep blue sky at the upper right",
+   "motion": "the old peddler's hand comes up slowly and rests on the donkey's neck beside its ear and stays there, his faint smile widening a degree as his eyes stay on the moon; the donkey's head stays lowered and still; the path, the slope and the moon hold; camera fixed"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "dongi",
+    "heo",
+    "mountain_path",
+    "buckwheat_field",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "어머니 얘기를 꺼내는 동이",
+   "visual": "the moonlit path: the young peddler in the grey headband is the one walking a step ahead at frame right with his body half turned back toward the old man, his sun-browned face open and earnest in the moonlight, his mouth in mid-word and one hand lifted to his chest; the old peddler in the flat straw hat is the one at frame left walking behind with his head bent forward to listen, his bundle on his back; the white buckwheat fields spread on both sides of the path and the full moon hangs high in the deep blue sky over the dark ridge",
+   "motion": "the young man walks slowly on with his body still half turned back toward the old man, his lifted hand opening outward as he speaks and his headband catching the moonlight, while the old man follows at the same slow pace with his head bent; the fields, the ridge and the moon hold still; camera fixed"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "heo",
+    "dongi",
+    "jo",
+    "donkey",
+    "mountain_path",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "문득 느려지는 허 생원의 걸음",
+   "visual": "the moonlit path: the old peddler in the flat straw hat is the one stopped at the center with one foot still half raised, his body gone still and his pockmarked face fixed on the young man's back, his knobby hand tightened on the bundle strap at his chest; ahead of him at frame right the young peddler in the grey headband and the middle-aged peddler in the black horsehair hat walk on a few paces with the grey donkey, the backs of their heads to the camera and held straight ahead; the pale path runs on between the white buckwheat fields toward the dark ridge and the full moon stands high in the deep blue sky",
+   "motion": "the old peddler's half-raised foot slowly comes down onto the path and he stays standing there while the two men and the donkey ahead keep walking on at their slow pace, the distance between them lengthening; the fields, the ridge and the moon hold still; camera fixed"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "heo",
+    "dongi",
+    "stream",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "개울에 빠진 허 생원",
+   "visual": "the shallow stony stream under the moon: the old peddler is the one sitting in the knee-deep water at the center, his flat straw hat knocked askew and his hemp clothes dark and clinging, both hands braced on the pale rounded stones behind him, his wispy beard dripping and his face screwed up; the young peddler in the grey headband is the one wading toward him from frame right with his trousers rolled high and his arms reaching out, water splashing at his shins; the stream catches the moonlight in broken lines around them and the low grass banks and the deep blue sky with the full moon close the frame",
+   "motion": "the young man wades slowly closer through the knee-deep water with his arms held out until his hands reach the old man's shoulders and take hold, the water swirling around his shins; the old man stays sitting braced on the stones; the banks and the moon hold still; camera fixed"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "dongi",
+    "heo",
+    "stream",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "허 생원을 등에 업고 개울을 건너는 동이",
+   "visual": "the stream under the moon seen from the far bank: the young peddler in the grey headband is the one wading toward the camera through the knee-deep water at the center with the old peddler carried on his back, his hands hooked under the old man's knees and his sturdy body bent forward under the weight; the old peddler is the one on his back with his wet hemp sleeves around the young man's neck, his flat straw hat gone and his wet grey hair and beard against the young man's shoulder, his face turned toward the camera; the pale stones show under the moonlit water and the grass bank and the deep blue sky with the full moon behind them",
+   "motion": "the young man wades slowly forward toward the camera step by careful step, the water parting around his shins and the old man on his back swaying gently with each step; the stones, the bank and the moon hold still; camera fixed"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "heo",
+    "dongi",
+    "stream",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "업힌 등 위에서 고향을 묻는 허 생원",
+   "visual": "a close view of the two faces over the stream in moonlight: the old peddler's wet pockmarked face fills the upper left of the frame resting over the young man's right shoulder, his small bright eyes turned to the young man's ear and his lips parted in a question, drops of water in his grey beard; the young peddler's sun-browned face in profile fills the lower right under the grey headband, his eyes ahead on the water and a shy half smile beginning; the old man's wet hemp sleeve lies across the young man's chest; behind them the moonlit water and the dark bank fall out of focus",
+   "motion": "the old man's lips move slowly through the question and close, and the young man's half smile slowly widens without his eyes leaving the water ahead as the two faces sway gently together with his wading steps; the water and the bank behind hold their soft blur; camera fixed"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "dongi",
+    "whip",
+    "donkey",
+    "heo",
+    "mountain_path",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "동이의 왼손에 든 채찍",
+   "visual": "a close low view on the moonlit path: the young peddler's left hand fills the center of the frame gripping the short hazel whip with the knotted cord hanging from its tip, the grey donkey's rope halter looped in the same hand and the donkey's lowered grey head at the right edge with its long ear drooping; the young man's rolled hemp sleeve and sun-browned forearm lead up out of frame; at the upper left the old peddler's wet pockmarked face looks down over the young man's shoulder at the hand, his small eyes wide and fixed; the pale path and the white blossoms behind, the moonlight bright on the hand and the whip",
+   "motion": "the young man's left hand slowly lifts the whip and gives the halter one gentle tug so that the donkey's head rises a little, while the old peddler's wide eyes stay fixed on the hand without blinking; the path, the blossoms and the donkey's body hold still; camera fixed"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "buckwheat_field",
+    "mountain_path",
+    "moon_night_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 달빛 메밀밭 길",
+   "visual": "the hillside under the full moon, empty of every person: the white buckwheat fields cover the slope from the foreground to the dark ridge with countless pale blossoms on thin red-brown stems, and the narrow earthen path winds pale and empty through them from the lower left to the upper right and over the ridge; the full moon stands high at the upper left in the deep blue sky with a few faint stars; the nearest blossoms are drawn sharp and the far field softens into a pale haze; nothing moves on the path",
+   "motion": "a slow wind passes over the slope so that the white blossoms sway in one long unbroken ripple from the foreground up to the ridge and settle again, while the empty path, the ridge and the moon hold still; camera drifting very slowly forward along the path"
   }
  ],
- "withheld": "동행이 물방앗간 여인의 아들일 수 있다는 암시",
- "voice": "ko-KR-SoonBokNeural"
+ "withheld": "동이가 허 생원의 아들일 수 있다는 암시, 제천으로 함께 가자는 마지막"
 }

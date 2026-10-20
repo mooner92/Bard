@@ -1,0 +1,183 @@
+{
+ "logline": "칠 년 머슴살이 끝에 맨주먹으로 쫓겨나 가을 산에 들어간 사내",
+ "destination": "이효석의 소설 산에서 만날 수 있습니다",
+ "protagonist": "jungsil",
+ "setting": "1930년대 강원 산골 — 가을 산등과 골짜기 개울, 김영감의 기와집 마당, 동구 밖 길, 읍내 장터, 밤의 산불",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/san_hyoseok/assets",
+ "anchor": "a sturdy young Korean farmhand in a patched grey cotton jeogori and knee-length trousers with a twisted white cloth headband",
+ "palette": "russet brown, pale yellow, off-white, dark green, light blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "jungsil",
+    "mountain"
+   ],
+   "refs": [],
+   "beat": "가을 산 낙엽 속의 개암",
+   "visual": "the sunlit autumn ridge: Jungsil sits waist-deep in a drift of fallen leaves beside a hazel bush, cracking a hazelnut between his teeth, a handful of brown hazelnuts in his palm, a sickle laid on the leaves and a bundle of cut brushwood on a wooden back-carrier standing behind him; birches and yellow oaks around, the clear blue sky above; exactly one man",
+   "motion": "Jungsil's jaw works on the hazelnut and he tips another from his palm into his mouth, leaves sliding off his knees; birch leaves flicker on the ridge, and the camera holds on the man in the leaves"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "jungsil",
+    "mountain"
+   ],
+   "refs": [],
+   "beat": "낙엽에 파묻힌 몸, 나무 한 포기",
+   "visual": "Jungsil lies on his back sunk in a deep bed of fallen leaves among the tree trunks, only his face and chest above the leaves, arms spread wide among the trunks, eyes half closed and mouth smiling, a white birch trunk rising beside him, the blue sky through the branches; exactly one man",
+   "motion": "leaves settle on Jungsil's chest as he breathes slowly, his spread fingers sinking into the leaves, birch leaves drifting down across his face; the camera holds on the resting face among the leaves"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "jungsil",
+    "mountain"
+   ],
+   "refs": [],
+   "beat": "하늘이 울리는 고함, 날아오르는 꿩 한 쌍",
+   "visual": "Jungsil stands on the ridge with his feet planted, head thrown back and mouth wide open in a shout, both arms flung up; above the far slope exactly two pheasants in the air, one cock pheasant with green and copper plumage and one brown hen pheasant, wings spread as they rise into the clear sky; exactly one man and two birds",
+   "motion": "the shout throws Jungsil's chest forward and the two pheasants beat up across the far slope with the cock's long tail streaming; the camera holds on the shouting man and the rising birds"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "kim",
+    "jungsil",
+    "house"
+   ],
+   "refs": [],
+   "beat": "칠 년 머슴살이 끝에 쫓겨나다",
+   "visual": "the farmhouse yard: Kim stands on the raised wooden floor pointing his pipe at the gate with his mouth open in a scold, and Jungsil stands in the yard below with an empty wooden back-carrier on his back and his hands hanging at his sides, face set and eyes down; the persimmon tree and straw sacks by the wall; exactly two people",
+   "motion": "Kim's pipe jabs toward the gate and his beard shakes with the scolding while Jungsil turns slowly toward the gate with the empty carrier creaking on his back; the camera holds on the old man on the floor and the farmhand in the yard"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "cheop",
+    "jungsil",
+    "road"
+   ],
+   "refs": [],
+   "beat": "동구 밖 앞뒤로 걸은 것뿐 — 누명",
+   "visual": "the village road at dusk: the young woman walks ahead with a wooden laundry basin balanced on her head and Jungsil walks several steps behind her under a load of brushwood on his wooden back-carrier, both looking straight ahead, a gap of empty road between them; the old zelkova tree at the village entrance, straw stacks in the fields; exactly two people",
+   "motion": "the woman's skirt sways as she walks and Jungsil plods behind under the brushwood without looking up, the gap between them holding; the zelkova leaves stir, and the camera holds on the two figures on the road"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "jungsil",
+    "mountain"
+   ],
+   "refs": [],
+   "beat": "빈 지게만 지고 산으로",
+   "visual": "a steep mountain path in afternoon light: Jungsil climbs away from the camera with an empty wooden back-carrier on his back, one hand on the strap, passing between yellow oaks and white birches into the deep leaves, the ridge line and the clear sky ahead; exactly one man",
+   "motion": "Jungsil's straw sandals push through the deep leaves as he climbs, the empty carrier rocking on his back, oak leaves falling around him; the camera holds on the climbing figure growing smaller among the trunks"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "jungsil",
+    "camp"
+   ],
+   "refs": [],
+   "beat": "개울가의 옥수수와 으름",
+   "visual": "the gully hollow: Jungsil squats by a small fire on the brook bank turning an ear of corn on a stick over the flames, the husk blackening, a few purple akebia fruits and small red crab apples on a flat stone beside him, the brook running over grey stones behind; exactly one man",
+   "motion": "Jungsil turns the corn slowly over the fire, smoke drifting across the brook, and picks up an akebia fruit from the stone; the water glitters, and the camera holds on the squatting man at the fire"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "jungsil",
+    "dog",
+    "mountain"
+   ],
+   "refs": [],
+   "beat": "담배 연기로 벌을 쫓고 얻은 꿀",
+   "visual": "Jungsil stands under a low branch that holds a round wild bee hive, a lit bamboo pipe in his mouth streaming pale smoke up at the hive, bees scattering in the smoke, one arm reaching up with a bark tray under the dripping comb; the lean brown dog sits at his feet looking up; exactly one man and one dog",
+   "motion": "pipe smoke rolls up around the hive and the bees swirl away as Jungsil's tray rises under the dripping comb, the dog's nose lifting; the camera holds on the man, the smoke and the hive"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "jungsil",
+    "fire"
+   ],
+   "refs": [],
+   "beat": "맞은편 산의 새빨간 산불",
+   "visual": "night: Jungsil runs along the dark ridge toward the left of the frame with a wooden club in his hand and his mouth open, red firelight on his grey jeogori; behind him the far ridge burns in a long line of red flame under a black sky, sparks rising; exactly one man",
+   "motion": "Jungsil runs hard along the ridge with the club swinging, red firelight flickering on his jeogori, sparks streaming up from the burning ridge behind him; the camera holds on the running man against the fire"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "jungsil",
+    "fire"
+   ],
+   "refs": [],
+   "beat": "새벽, 그을린 노루 한 마리",
+   "visual": "grey dawn on the burnt ridge: Jungsil stands among blackened tree trunks and thin drifting smoke carrying a limp roe deer across his shoulders, its dark brown fur, its head hanging down behind his shoulder, its legs held in his fists, his grey jeogori and trousers plain and whole, a smoking blackened log at his feet; exactly one man",
+   "motion": "Jungsil shifts the limp deer on his shoulders and steps over the smoking log, its head swinging behind his shoulder, smoke drifting through the black trunks; the camera holds on the man carrying the deer through the burnt wood"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "jungsil",
+    "market"
+   ],
+   "refs": [],
+   "beat": "소금이 그리워 — 읍내 장터",
+   "visual": "the market street at noon: Jungsil stands bent under a tall load of brushwood on his wooden back-carrier, looking down at a stall where a vendor woman in white hanbok scoops white salt from a sack with a wooden ladle; sacks of potatoes and millet and a row of black iron pots on the straw mat, the crowd in white hanbok around; exactly one man carrying a load",
+   "motion": "Jungsil straightens under the brushwood as the vendor's ladle lifts a heap of salt and the crowd flows past; the camera holds on the loaded farmhand at the salt stall"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "park",
+    "jungsil",
+    "market"
+   ],
+   "refs": [],
+   "beat": "장터에서 들은 첩의 소식",
+   "visual": "the market street: Park leans close to Jungsil with one hand cupped beside his mouth and his eyebrows up, mid-story; Jungsil stands with a new black iron pot and a small cloth sack of salt tied to his empty carrier, listening with a still face; stalls and the crowd behind; exactly two men in front",
+   "motion": "Park's cupped hand stays at his mouth and his eyebrows jump as he talks, while Jungsil's still face does not change and his hand tightens on the carrier strap; the camera holds on the two men"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "jungsil",
+    "camp"
+   ],
+   "refs": [],
+   "beat": "산으로 돌아온 저녁, 등걸불의 남비 밥",
+   "visual": "the gully hollow at nightfall: Jungsil sits on the bank beside a small fire of glowing stumps with a black iron pot steaming on the stones, a lit bamboo pipe in his mouth, his carrier leaning against the oak, the brook dark and glittering, a thin crescent moon caught in the branches above and the first stars; exactly one man",
+   "motion": "the stump fire crackles and sends sparks up past Jungsil's face as he draws on the pipe, steam rising from the pot; the crescent moon holds in the branches, and the camera holds on the man at the fire"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "jungsil",
+    "camp"
+   ],
+   "refs": [],
+   "beat": "등걸불 앞에 솟는 욕심 — 웃는 얼굴",
+   "visual": "close on Jungsil's face in the firelight by the dying stump fire: eyes half closed, a slow smile spreading, pipe smoke curling past his cheek, the glow of the embers lighting his face from below, dark leaves and the starry sky behind his head; exactly one man",
+   "motion": "the smile spreads slowly across Jungsil's face and the embers pulse, smoke curling past his cheek, stars sharpening in the sky behind him; the camera holds close on the smiling face"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "camp"
+   ],
+   "refs": [],
+   "beat": "마무리 — 별 아래 빈 낙엽 잠자리 스틸",
+   "visual": "closing still: the gully hollow at night, the stump fire crushed out to a few red embers, the black iron pot on the stones, the wooden back-carrier leaning on the oak, the heap of fallen leaves under the tree, the brook glinting, and a sky thick with stars above the dark ridge",
+   "motion": "the last embers pulse and dim while the brook glitters and stars thicken over the ridge; the camera closes with great patience on the leaf bed under the oak"
+  }
+ ],
+ "withheld": "이웃집 용녀를 데려오려는 궁리, 오두막 살림의 꿈, 스스로 별이 되는 느낌"
+}

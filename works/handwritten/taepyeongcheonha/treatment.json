@@ -1,60 +1,210 @@
 {
-  "logline": "태평천하라 믿는 지주의 안락함이, 전쟁의 그림자가 드리우며 흔들리는 순간의 긴장",
-  "destination": "서재 책상 위 — '태평천하'라 적힌 글씨를 바라보는 시선",
-  "protagonist": "안락한 서재에 앉아 있는 지주",
-  "setting": "1937년 중일전쟁 발발 당일, 전라도 군산의 지주 집안 서재",
-  "anchor": "Well-dressed middle-aged Korean man in a dimly lit traditional study",
-  "palette": "Warm yellow lantern light contrasting with cold blue dusk shadows",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "지주가 붉은 술잔을 들어 한 모금 마신다.",
-      "visual": "a silk-robed old master lifting a red-lacquered cup in a warm study, brazier glowing",
-      "motion": "the cup rises to his lips, steam curls off the brazier, his sleeve settles"
-    },
-    {
-      "n": 2,
-      "beat": "창밖으로 검은 구름이 몰려와 햇살을 가린다.",
-      "visual": "Wide shot of a window where dark storm clouds obscure the fading sunlight outside.",
-      "motion": "Clouds drifting rapidly across the sky"
-    },
-    {
-      "n": 3,
-      "beat": "아들이 들고 온 신문지를 책상 위에 툭 던진다.",
-      "visual": "A young man's hand tosses a folded newspaper onto a wooden desk with force.",
-      "motion": "Newspaper flying from left to right onto the desk"
-    },
-    {
-      "n": 4,
-      "beat": "지주는 신문을 펼치며 얼굴에 미소를 짓는다.",
-      "visual": "The man unfolds the newspaper, his face illuminated by a smug, satisfied smile.",
-      "motion": "Man's hands unfolding the paper outward"
-    },
-    {
-      "n": 5,
-      "beat": "갑자기 밖에서 큰 폭발음이 울려 창문이 흔들린다.",
-      "visual": "The window frame vibrates violently as a loud explosion sound echoes from outside.",
-      "motion": "Window frame shaking horizontally"
-    },
-    {
-      "n": 6,
-      "beat": "지주는 손을 멈추고 굳은 표정으로 창밖을 본다.",
-      "visual": "The man freezes, his smile vanishing as he stares intently at the dark window.",
-      "motion": "Man's head turning sharply toward the window"
-    },
-    {
-      "n": 7,
-      "beat": "그는 여전히 '태평천하'라 믿고 있을까?",
-      "visual": "Close-up of the man's eyes reflecting the darkening window, his expression unreadable.",
-      "motion": "Eyes shifting slightly in the darkness"
-    },
-    {
-      "n": 8,
-      "beat": "서재 책상 위에 열린 신문과 빈 술잔만 놓여 있다.",
-      "visual": "Static shot of the wooden desk with an open newspaper and an empty wine cup.",
-      "motion": "Stillness in the dimly lit room",
-      "anchor": false
-    }
-  ],
-  "withheld": "전쟁의 참상이 지주의 안락한 삶을 어떻게 파괴하는지, 혹은 그가 그 진실 앞에서 어떤 행동을 취하는지는 드러내지 않는다."
+ "logline": "태평천하라 믿는 늙은 지주가 손자 둘로 그 태평을 대대로 잇겠다고 셈하는 저녁, 대문 밖에서 전보 배달부가 그의 이름을 부른다",
+ "destination": "소설 태평천하에서 만날 수 있습니다",
+ "protagonist": "yoon",
+ "setting": "1930년대 후반 전라도 군산 대지주의 기와집 사랑채와 거리",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/taepyeongcheonha/assets",
+ "anchor": "a fat Korean old man in a white silk durumagi and black horsehair hat with a thin white goatee and a long bamboo pipe",
+ "palette": "off-white, dark brown, dull yellow, ash grey, dark blue",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "yoon",
+    "rickshaw_puller",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "인력거 삯 한 푼도 깎는 윤 직원 영감",
+   "visual": "the dusty town street in mild afternoon light: the fat old man in the white silk durumagi and black horsehair hat is the one standing beside the black rickshaw at frame right holding a single small coin out between his thumb and forefinger at arm's length, his heavy round face set and his small eyes narrowed under the hat brim, the long bamboo pipe tucked under his other arm; the wiry rickshaw puller in the sweat-darkened hemp jacket is the one standing between the lowered shafts at frame left with his hand held open and his headband dripping, his face fallen; the tile-roofed houses with plain shutters and a telegraph pole behind them",
+   "motion": "the fat old man in the white silk durumagi and black hat standing beside the black rickshaw is the one who moves, and only his coin hand: at the start a single small coin is held out between his thumb and forefinger at arm's length above the rickshaw puller's open hand; over the first two seconds the held-out coin lowers slowly into the puller's open palm and his thumb and forefinger draw back and tuck into his sleeve, his set heavy face not changing and his thin white goatee not stirring; in the last two seconds his hand rests in his sleeve and his small eyes stay on the puller; the lean rickshaw puller's open hand stays where it is with the coin lying in it and his fallen face lowers further, his feet not shifting; the black rickshaw, the low tiled houses, the telegraph pole and the mild afternoon light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "yoon",
+    "storehouse",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "쌀과 돈이 쌓인 영감의 곳간",
+   "visual": "inside the large granary: straw rice sacks fill the frame stacked to the rafters in tight rows on both sides of a narrow dirt aisle, and the fat old man in the white silk durumagi and black horsehair hat is the one standing in the aisle at the center with his back to the open wooden door, the long bamboo pipe in his right hand touching the nearest sack and his left hand stroking his thin white goatee, his small eyes counting along the rows; daylight from the open door behind him lays his broad shadow up the aisle and dust hangs in the light",
+   "motion": "the fat old man in the white silk durumagi standing in the narrow dirt aisle of the granary is the only one who moves: at the start the long thin pipe in his right hand rests against the nearest straw rice sack and his left hand strokes his thin white goatee; over the whole shot the pipe taps slowly from one sack to the next along the row while his lips move in a silent count and his other hand keeps stroking the goatee, his black hat turning by a degree as he counts; the straw rice sacks stacked to the rafters in tight rows on both sides, the rafters and the thin light from the door hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "yoon",
+    "gramophone",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "지금이 태평천하다! — 영감의 말",
+   "visual": "the polished wooden hall of the mansion: the fat old man in the white silk durumagi is the one reclining on a silk cushion at frame left with one elbow on a low lacquered table and the long bamboo pipe raised high in his other hand, his heavy face lifted and his mouth wide open in a declaration, the black horsehair hat pushed back; the wooden gramophone with its wide brass horn stands on the low table at the center with a black disc on its turntable; the tall folding screen of plain gold-toned paper rises behind and the lattice doors at the right stand open on the swept courtyard with the persimmon tree",
+   "motion": "the fat old man reclining on the silk cushion in the polished hall is the one who moves, and only his pipe arm and mouth: at the start the long thin pipe is raised high in his right hand with his heavy face lifted and his mouth open; over the first two seconds the raised pipe sweeps slowly across in front of him in one wide arc from left to right and stops pointing at the open doors, his open mouth stretching wider with the boast and his goatee lifting, his elbow staying on the low lacquered table; in the last two seconds the pipe holds pointed at the doors and his mouth holds open; the wooden gramophone with its wide brass horn on the table, the folding screen behind him and the sunlit courtyard beyond the open doors hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "gendarme",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "거리를 누비는 헌병",
+   "visual": "the dusty town street: the two Japanese military policemen in khaki uniforms and peaked caps are the ones walking side by side toward the camera at the center with their long swords swinging at their hips and their black boots raising dust, their faces hard under the cap peaks; along the left three passers-by in white hanbok stand against the plain wooden shutters of a house with their heads bowed and their eyes on the ground; the telegraph pole and the tile roofs under the pale sky; every shutter is bare",
+   "motion": "the two military policemen in khaki uniforms and peaked caps marching toward the camera are the only things that move: at the start they are mid-stride side by side at the center of the dusty street with their long swords at their hips; over the whole shot they march steadily forward toward the camera in step, the swords swinging in time at their hips and their black boots raising dust that drifts behind them, their faces set straight ahead under the caps; the bowed passers-by along the closed shutters stay still with their eyes down and their hands folded; the low tiled houses, the shutters, the telegraph pole and the flat sky hold completely still; no new figures, carts or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "son",
+    "kisaeng",
+    "kisaeng_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤마다 기생집에서 돈을 뿌리는 아들",
+   "visual": "the lantern-lit gate of the kisaeng house at night: the dissolute man in the dark western suit and straw boater is the one standing on the stone step at the center with his flushed puffy face thrown back in laughter and his right hand flung open above his head, silver coins spilling from it and glinting in the air; the two young entertainers in bright silk hanbok of dull red and pale green are the ones on either side of him at the left and right with their powdered faces laughing and their hands reaching for the falling coins; the paper windows of the house glow behind them and the dark blue night sky holds a few stars",
+   "motion": "the coins from the dissolute man's flung hand and the two entertainers' hands are what move at the lantern-lit gate: at the start his right hand is flung open above his head with his flushed puffy face thrown back in laughter and a few coins are in the air; over the first two seconds the coins drift slowly down through the lantern light and come to rest on the stone step with small glints, while his laughing head stays thrown back and the straw boater tilts on it; in the last two seconds the two entertainers in silk jeogori crouched on the step reach their hands slowly to the coins and close them; the man's feet on the step do not move; the lantern-lit gate, the lit paper windows above and the dark sky hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "yoon",
+    "photographs",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "손자 둘에게 가 있는 영감의 눈",
+   "visual": "a close view in the mansion hall: the fat old man's heavy round face fills the right half of the frame under the black horsehair hat, his small eyes narrowed and gleaming and his thin white goatee lifted, one thick hand stroking it; on the low lacquered table at the left stand the two small framed photographs, each a flat sepia picture of one young man's face in a plain dark jacket, their faces too small to read, and his narrowed eyes are fixed on them; the tall gold-toned folding screen falls out of focus behind; the two framed photographs are small flat pictures standing on the low table, each showing one young man's face in a plain dark jacket; the fat old man is the only living person in the hall",
+   "motion": "only the fat old man's stroking hand and eyes move in this close view: at the start his thick hand strokes his thin white goatee and his small narrowed eyes gleam at the two framed photographs on the low table; over the first two seconds the stroking hand leaves the goatee slowly and one thick finger reaches out to touch the frame of the nearer photograph and stays there, his gleaming eyes narrowing further and his heavy cheeks lifting; in the last two seconds the finger rests on the frame; his black hat and the collar of the white silk durumagi do not shift; the two photographs stay upright and the folding screen behind holds its blur; no faces in the photographs change; no new figures appear; camera drifting very slowly forward toward the photographs, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "jongsu",
+    "yoon",
+    "photographs",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "군수와 경찰서장을 시킬 손자들",
+   "visual": "the polished hall of the mansion: the plump young man in the neat grey western suit and round spectacles is the one bowing low at frame left with his oiled hair toward the camera and his hands on his knees; the fat old man in the white silk durumagi is the one seated on the silk cushion at frame right with the long bamboo pipe across his lap and his small eyes half closed in satisfaction, one thick hand raised in a lazy blessing;the two small framed photographs, each a flat sepia picture of one young man's face in a plain dark jacket; the gold-toned folding screen behind and the lattice doors open on the courtyard; the two framed photographs are small flat pictures standing on the low table, each showing one young man's face in a plain dark jacket; the fat old man is the only living person in the hall besides the plump young man bowing",
+   "motion": "the plump young man in the neat grey western suit bowing low is the one who moves, and the old man only with one lazy hand: at the start the young man is bent forward with his oiled hair toward the camera and his hands on his knees; over the first two seconds his bow deepens slowly until his round spectacles almost touch his knees, the back of his grey jacket stretching, and then he straightens by a degree and holds; in the last two seconds he stays bowed at that depth; the fat old man reclining on the silk cushion turns his lazy raised hand slowly palm down and settles it on his lap, his heavy face not moving; the two framed photographs on the low table, the folding screen and the open doors hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "yoon",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "태평천하가 대대로 이어진다는 영감의 셈",
+   "visual": "the hall of the mansion in mild light: the fat old man in the white silk durumagi is the one reclining on the silk cushion at the center with his heavy face tipped back and his small eyes closed, a satisfied smile lifting his thin white goatee, the long bamboo pipe in his mouth and a thread of smoke rising from its brass bowl; the brass brazier stands at his elbow, the tall gold-toned folding screen rises behind him and the lattice doors at the right are open on the swept courtyard with the stone well and the persimmon tree",
+   "motion": "only the thread of smoke and the old man's smile move in this shot: at the start the fat old man reclines on the silk cushion with his heavy face tipped back, his small eyes closed and a satisfied smile lifting his thin white goatee, the long thin pipe in his hand with a thread of smoke rising from its brass bowl; over the whole shot the thread of smoke rises slowly and drifts toward the open doors, bending in the mild air, while his satisfied smile widens by a degree and his closed eyes stay closed, his hand on the pipe not shifting; the brass brazier, the folding screen, the low lacquered table and the sunlit courtyard beyond the doors hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "yoon",
+    "servant",
+    "envelope",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "유학 간 종학에게 다달이 부치는 돈",
+   "visual": "the edge of the polished hall: the fat old man in the white silk durumagi is the one seated on the cushion at frame right holding out the thick brown paper envelope tied with red string in oneed hand, his small eyes on it and his goatee jutting; the manservant in the grey cotton jacket and headband is the one kneeling on the courtyard flagstone below the hall edge at frame left with both hands cupped up to receive it and his head bowed; the lattice doors, the stone well and the persimmon tree behind the servant; mild afternoon light",
+   "motion": "the fat old man'sed hand holding the envelope is the only thing that moves: at the start the thick brown paper envelope tied with red string is held out in his hand above the servant's cupped hands with his small eyes on it; over the first two seconds the hand lowers the fat envelope slowly into the servant's cupped hands and lets it go, his fingers lingering; in the last two seconds the envelope rests in the cupped hands and the old man's eyes stay on it, his goatee jutting; the servant in the grey cotton jacket keeps his head bowed and his cupped hands held up without moving; the open doors, the stone well in the courtyard and the tree hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "singer",
+    "yoon",
+    "mansion",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "판소리를 들으며 무릎을 치는 영감",
+   "visual": "the hall of the mansion in the deep blue evening lit warm by the brass brazier and the paper doors: the pansori singer in the white silk jeogori and wide dark blue skirt is the one standing at the center with her folded paper fan raised high and her mouth open in full song, her free hand pressed to her chest, and the seated drummer in white hemp clothes is the one at her side at frame left with both hands on the barrel drum; the fat old man in the white silk durumagi is the one reclining on the cushion at frame right with his hat pushed back and his thick hand slapping down on his own knee, his heavy face split by a creaking laugh; the gold-toned screen behind",
+   "motion": "the pansori singer standing at the center of the evening hall is the one who moves most: at the start her folded paper fan is raised high in her right hand with her mouth open in song and her wide dark blue skirt spread; over the first two seconds the raised fan sweeps slowly down and across in one long gesture from high right to low left while her open mouth holds the long note and her white silk jeogori sleeve follows the fan, the drummer's hands lifting and coming down once on the drum; in the last two seconds the fan holds low and her chin lifts with the note; the fat old man reclining on the cushion bs his slapping hand down on his knee once more and leaves it there, his heavy face beaming; the folding screen, the brass brazier and the glowing paper doors hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "telegraph_boy",
+    "servant",
+    "mansion_gate",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "대문 밖에서 영감의 이름을 부르는 전보 배달부",
+   "visual": "the great gate of the mansion at dusk: the boy in the dark blue messenger's uniform and peaked cap is the one standing on the stone step at frame right with the leather satchel across his chest and one hand cupped at his mouth calling, his other hand holding the small pale slip of paper; the heavy iron-studded wooden doors stand half open and the manservant in the grey jacket and headband is the one in the gap at frame left with one hand on the door edge and his face turned back toward the courtyard; the tiled gatehouse roof above and the whitewashed wall with its grey tile top running off to either side under the deep blue evening sky",
+   "motion": "the servant in the gap of the great gate is the one who moves, and the boy only holds: at the start the boy in the dark blue messenger's uniform stands on the stone step with one hand cupped at his mouth calling and the other holding a paper slip out toward the gap, and the servant's face in the gap is turned back toward the courtyard; over the first two seconds the servant's face turns slowly from the courtyard back to the boy and his hand comes up to the gate edge, while the boy's cupped hand stays at his mouth through one more long call and the held-out slip does not lower; in the last two seconds both hold; the leather satchel across the boy's chest and his peaked cap do not shift; the heavy gate doors, the tiled gate roof, the long wall and the dusk sky hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "son",
+    "telegram",
+    "mansion",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "일본 경찰이 보낸 전보",
+   "visual": "the swept courtyard before the lit hall at dusk: the dissolute man in the dark western suit is the one standing at the center with his straw boater pushed back and the small pale slip of the telegram held open in both hands with its written face turned away from the camera, his flushed face bent close to it and his thin moustache drawn down; the stone well and the persimmon tree at the left, the deep blue evening sky over the tiled roof; inside the lit hall behind him only the tall gold folding screen, the silk cushions and the brass brazier show, the polished floor bare between them; the man in the dark suit is the only person in the courtyard",
+   "motion": "the dissolute man in the dark western suit standing in the swept courtyard is the only one who moves: at the start the small pale slip of the telegram is held open in both hands before his chest with its written face turned away from the camera and his straw boater pushed back; over the first two seconds his hands lift the telegram slowly closer to his face and his bent head lowers further over it, his shoulders drawing in and the boater tipping forward; in the last two seconds he stands hunched over the slip without moving; no lette; the lit hall behind him with its glowing paper doors, the stone well and the tree in the dusk hold completely still; no new figures appear; camera drifting very slowly forward toward his back, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "son",
+    "telegram",
+    "singer",
+    "mansion",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "하얗게 질리는 아들의 얼굴",
+   "visual": "the edge of the lit hall at dusk: the dissolute man in the dark western suit is the one standing at frame right with the telegram slip trembling in his raised hand, his flushed puffy face gone pale and slack with his mouth hanging open and his eyes staring; behind him inside the hall the pansori singer is the one standing stopped at frame left with her paper fan lowered to her side and her mouth closed, the drummer's hands resting on the silent barrel drum; the warm light from the paper doors and the brass brazier falls across the polished floor; the gold-toned screen behind",
+   "motion": "the telegram slip in the dissolute man's raised hand and his slack face are what move: at the start the slip trembles in his raised hand and his flushed puffy face has gone pale with his mouth hanging open and his eyes staring at the paper; over the first two seconds the slip trembles harder in his hand and his slack mouth works slowly without a sound, his staring eyes fixed on the paper and a bead of sweat sliding down his temple; in the last two seconds the trembling hand sinks a little and his mouth stays open; the pansori singer stays stopped with her fan lowered and her face turned toward him, and the drummer's hands stay flat on the drum; the glowing paper doors, the brass brazier and the folding screen hold completely still; no lette; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "yoon",
+    "son",
+    "telegram",
+    "mansion",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "태평천하에 무슨 일이냐 — 영감",
+   "visual": "the hall of the mansion in warm evening light: the fat old man in the white silk durumagi is the one half risen from the silk cushion at frame left with one thick hand thrust out toward the paper and the other braced on the low lacquered table, his black horsehair hat knocked crooked, his heavy face reddening and his mouth open wide, the long bamboo pipe lying on the floor where it has fallen from his hand; the dissolute man in the dark suit is the one standing at frame right holding the pale telegram slip toward him with its written face turned away, his own face pale; the gold-toned folding screen and the brass brazier behind",
+   "motion": "the fat old man half risen from the silk cushion is the one who moves: at the start one thick hand is thrust out toward the telegram slip and the other is braced on the low lacquered table with his heavy face twisted and his mouth open; over the first two seconds the thrust-out hand shakes slowly toward the telegram and his half-risen body heaves a degree higher off the cushion, the white silk durumagi pulling tight across his belly, his open mouth stretching wider and his black hat tipping; in the last two seconds he hangs half risen with the hand still shaking; the son's pale slack face and the slip held out in his hand stay completely still; the folding screen, the brass brazier and the long thin pipe lying on the polished floor hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "gramophone",
+    "mansion",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 소리 멎은 사랑채",
+   "visual": "the polished hall of the mansion at night, empty of every person: the wooden gramophone with its wide brass horn stands silent on the low lacquered table at the center with a black disc still on its turntable, a folded paper fan lies on the polished floor before it and a long bamboo pipe lies beside a crumpled silk cushion; the brass brazier glows faintly at the left, the tall gold-toned folding screen rises behind and the lattice doors at the right stand open on the dark courtyard where the persimmon tree is a black shape against the starry sky",
+   "motion": "nothing living moves in this empty hall at night; only the glow of the brazier and the shadows: at the start the wooden gramophone with its wide brass horn stands silent on the low lacquered table with a black disc on its turntable and the brazier gives a faint glow; over the whole shot the faint glow of the brazier dims slowly and the shadows across the polished floor deepen and creep toward the silent gramophone, the brass of the horn dulling; the folded paper fan on the floor, the long thin pipe, the folding screen, the silk cushion and the closed paper doors hold perfectly still; the disc does not turn; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward toward the brass horn, no zoom"
+  }
+ ],
+ "withheld": "종학의 체포 전보 내용과 영감의 절규"
 }

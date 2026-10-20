@@ -6,7 +6,7 @@
  "prompt_style": "detail",
  "assets_dir": "works/handwritten/gongju_wandukong/assets",
  "anchor": "a Korean boy of about ten in hemp clothes, his small sister beside him",
- "palette": "storm blue-grey, candle amber, rose pink, plum, cream",
+ "palette": "storm blue-grey, amber, dusty pink, plum, cream",
  "voice": "ko-KR-JiMinNeural",
  "personas": {},
  "beats": [
@@ -38,7 +38,7 @@
    ],
    "refs": [],
    "beat": "성문 앞의 젖은 공주",
-   "visual": "the inset door swung open on the storm: in the lantern's circle stands the drenched young woman, fair hair plastered in dripping strands, rose gown soaked dark and clinging, water running from her sleeves and pooling at her shoes on the stone sill — and against all of it her chin held level and her grey eyes steady on the doorway's light; rain slants through the lantern glow behind her, the courtyard's warmth spills a thin gold wedge across her wet face, and the porter's lamp trembles somewhere at the frame's edge before this calm and dripping apparition",
+   "visual": "the inset door swung open on the storm: in the lantern's circle stands the drenched young woman, fair hair plastered in dripping strands, pink gown soaked dark and clinging, water running from her sleeves and pooling at her shoes on the stone sill — and against all of it her chin held level and her grey eyes steady on the doorway's light; rain slants through the lantern glow behind her, the courtyard's warmth spills a thin gold wedge across her wet face, and the porter's lamp trembles somewhere at the frame's edge before this calm and dripping apparition",
    "motion": "water runs and drips from her sleeves and hem in steady threads while she stands unmoving in the lantern circle, only her level chin lifting a degree as the door opens wider, rain slanting behind her and the thin gold wedge of indoor light widening slowly up her drenched gown to her steady eyes; the lantern sways once, and the camera holds in the doorway looking out at her"
   },
   {
@@ -60,8 +60,8 @@
    ],
    "refs": [],
    "beat": "요 아래 완두콩 한 알",
-   "visual": "the tall guest bedchamber by candlelight: the old queen alone beside the stripped carved bedframe, its bare boards exposed — and between her thumb and forefinger, held up to the candle for one last look, a single dried pea, small and hard and green; the ladder leans ready against the wall, folded bedding waits in a high pile by the door, rain streaks the small window, and the queen's sharp face wears the private smile of a woman setting a very small trap for a very large claim; she bends and sets the pea precisely at the center of the bare boards",
-   "motion": "the pea turns once between her thumb and forefinger in the candlelight, then her quick deliberate hand lowers and sets it at the exact center of the bare bed boards, adjusting it a finger's width with one nail; she straightens with her private smile deepening, the ladder's shadow swaying on the wall as the candle nods, and the camera closes on the tiny green speck alone on the wide boards"
+   "visual": "the tall guest bedchamber lit by its wall sconce: the old queen alone beside the stripped carved bedframe, its bare boards exposed — and between her thumb and forefinger, lifted for one last look, one single round green pea seed, small and hard; the ladder leans ready against the wall, folded bedding waits in a high pile by the door, rain streaks the small window, and the queen's sharp face wears the private smile of a woman setting a very small trap for a very large claim; she bends and sets the round pea seed precisely at the center of the bare boards",
+   "motion": "the round pea seed turns once between her thumb and forefinger, then her quick deliberate hand lowers and sets it at the exact center of the bare bed boards, adjusting it a finger's width with one nail; she straightens with her private smile deepening, the ladder's shadow swaying on the wall under the sconce, and the camera closes on the tiny green speck alone on the wide boards"
   },
   {
    "n": 6,
@@ -70,8 +70,8 @@
    ],
    "refs": [],
    "beat": "요 스무 장, 이불 스무 장",
-   "visual": "the bedchamber transformed into a soft tower: on the carved bedframe the mattresses rise one upon another in a swaying stack taller than a man — twenty of them, striped and plain, edge upon edge — and upon the mattresses twenty eider-down quilts more, cloud upon cloud, until the topmost pillow nearly brushes the beam; the wooden ladder leans against the stack's side reaching for the summit, the candle sconce lights the tower's cliff of stripes and seams, and somewhere beneath the whole soft mountain, invisible and patient, waits one small hard green pea",
-   "motion": "the tower of bedding settles under its own softness in slow tiny sighs, seams creaking faintly, the topmost quilt breathing as the room's draught passes over the summit; the ladder holds its lean, the candle flame sways the tower's striped shadow across the wall, and the camera tilts slowly up the whole soft cliff from bedpost to pillow"
+   "visual": "the bedchamber transformed: on the carved bedframe the mattresses rise one upon another in a swaying stack reaching toward the ceiling beam — twenty of them, striped and plain, edge upon edge — and upon the mattresses twenty eider-down quilts more, quilt upon quilt, until the topmost pillow nearly brushes the beam; the wooden ladder leans against the stack's side reaching for the summit, the candle sconce lights the stack's tall face of stripes and seams, and the small window beside it streaks with rain",
+   "motion": "the tall stack of bedding settles under its own softness in slow tiny sighs, seams creaking faintly, the topmost quilt breathing as the room's draught passes over the summit; the ladder holds its lean, the candle flame sways the stack's striped shadow across the wall, and the camera tilts slowly up the whole soft stack from bedpost to pillow"
   },
   {
    "n": 7,
@@ -81,8 +81,8 @@
    ],
    "refs": [],
    "beat": "사다리로 오르는 공주",
-   "visual": "the climb to the summit: the young woman — dried now, white morning gown and shawl, fair hair brushed loose — ascends the wooden ladder rung by rung up the striped cliff of mattresses, one hand gathering her hem, candle shadows swinging her silhouette huge across the wall; the tower sways a breath with each step, the topmost quilt waits turned down at the summit, rain still streaks the small window, and the whole absurd soft mountain receives its climber with dignity on both sides",
-   "motion": "she climbs rung by careful rung, hem gathered, the ladder creaking and the tower answering each step with a soft sway, her huge shadow climbing the wall beside her; at the summit she turns and settles onto the turned-down quilt, the whole stack breathing once beneath her, and the camera rises with the climb from rung to summit"
+   "visual": "the climb to the summit: the young woman — dried now, white morning gown and shawl, fair hair brushed loose — ascends the wooden ladder rung by rung up the tall striped stack of twenty mattresses on the carved bedframe, one hand gathering her hem, candle shadows swinging her silhouette huge across the bedchamber wall; the stack sways a breath with each step, the topmost quilt waits turned down at the summit, rain still streaks the small window, and the whole absurd soft stack receives its climber with dignity on both sides",
+   "motion": "she climbs rung by careful rung, hem gathered, the ladder creaking and the stack answering each step with a soft sway, her huge shadow climbing the wall beside her; at the summit she turns and settles onto the turned-down quilt, the whole stack breathing once beneath her, and the camera rises with the climb from rung to summit"
   },
   {
    "n": 8,
@@ -92,8 +92,8 @@
    ],
    "refs": [],
    "beat": "잠 못 드는 밤",
-   "visual": "deep night at the summit of the bedding tower: the candle burned to a stub, the young woman turned on her side high on the cloud of quilts, eyes open in the dark, faint tired shadows deepening beneath them; the quilts around her are rumpled by turning — one dragged sideways, a pillow pushed away — and her hand presses under her ribs at some impossible discomfort rising through forty soft layers; rain has thinned to ticking on the glass, the tower's striped cliff stands patient below her, and at its buried heart the small green pea keeps her whole royal body awake",
-   "motion": "she turns from one side to the other in a slow unhappy roll, dragging a quilt with her, then presses a hand beneath her ribs and stares at the dark beam overhead, breath escaping in a long sigh; the candle stub gutters low, the rumpled quilts settling around her turning, and the camera drifts slowly over the sleepless summit"
+   "visual": "close on the summit of the stacked bedding, deep in the night: the young woman lies on her side on the topmost eider-down quilt with the dark ceiling beam just above her head, eyes open in the dark, faint tired shadows beneath them, the candle on its wall sconce burned to a stub beside her; the quilts around her are rumpled by turning — one dragged sideways, a pillow pushed away — and her hand presses under her ribs at some impossible discomfort; rain ticks on the small window glass at the edge of the frame, and the frame holds only the quilts, the beam and the sleepless face",
+   "motion": "she turns from one side to the other in a slow unhappy roll, dragging a quilt with her, then presses a hand beneath her ribs and stares up at the dark beam just above, breath escaping in a long sigh; the candle stub gutters low on its sconce, the rumpled quilts settling around her turning, and the camera drifts slowly over the sleepless top of the stack"
   },
   {
    "n": 9,
@@ -104,7 +104,7 @@
    "refs": [],
    "beat": "간밤엔 잘 주무셨나요",
    "visual": "the morning room in clean rain-washed light: the young woman seated at breakfast in her white gown and shawl, teacup untouched, tired shadows plain beneath her steady eyes — and across the table the old queen leaning in with her sharpest and sweetest smile, hands folded, asking the innocent question the whole night was built for; the prince hovers by the window pretending interest in the weather, silver gleams between them on white linen, and the answer everyone waits for sits behind the young woman's tired level face",
-   "motion": "the queen's folded hands settle and her sweet sharp smile holds while the question hangs, the prince's pretense at the window failing as his head turns by degrees, and the young woman sets down her untouched cup with a small tired precision that is itself the beginning of an answer; light shifts on the linen as the rain clouds thin outside, and the camera slides slowly around the waiting table"
+   "motion": "the queen's folded hands settle and her sweet sharp smile holds while the question hangs, the prince's pretense at the window failing as his head turns by degrees, and the young woman sets down her untouched cup with a small tired precision that is itself the beginning of an answer; light shifts on the linen as the rain thins outside, and the camera slides slowly around the waiting table"
   },
   {
    "n": 10,
@@ -148,8 +148,8 @@
    ],
    "refs": [],
    "beat": "박물관의 완두콩 (질문)",
-   "visual": "the quiet museum room, the story's witness retired: on a velvet pillar at the room's center stands the small glass case, and inside it, alone on a tiny cushion, the pea — small, dried, green-grey, unimpressive and immortal; drawn light from the tall windows lays soft bars across the parquet, gilt-framed portraits watch from the walls, and a small engraved stand tilts beside the case, its surface catching light without a legible word; the room holds the hush of places where small things are kept because of what they proved",
-   "motion": "dust motes turn slowly through the window bars of light around the glass case, the pea's tiny shadow circling imperceptibly on its cushion as the daylight moves, the portraits holding their painted watch; the hush of the room settles deeper by degrees, and the camera closes with great patience on the small green witness in its glass"
+   "visual": "close on the small glass case at the museum room's center: on a tiny cushion inside the glass sits one single round dried pea seed alone at the center of the cushion, small and dull green-grey; the four glass panes catch the soft daylight from the tall windows, the velvet pillar's top edge shows just below the case, and the gilt-framed portraits hang soft and out of focus on the blue wall beyond; the glass holds the pea seed on its cushion and the daylight, and the room keeps the hush of places where small things are kept because of what they proved",
+   "motion": "dust motes turn slowly through the daylight around the glass case, the pea seed's tiny shadow circling imperceptibly on its cushion as the light moves, the portraits soft beyond the glass; the hush settles deeper by degrees, and the camera closes with great patience on the small green seed in its glass"
   },
   {
    "n": 14,
@@ -158,8 +158,8 @@
    ],
    "refs": [],
    "beat": "마무리 — 유리장 스틸",
-   "visual": "the museum room at closing light: the last sun through the tall windows narrows to one warm blade that crosses the parquet and climbs the velvet pillar to rest exactly on the glass case and its tiny occupant, the pea glowing faintly amber in the beam; the portraits along the walls sink into shadow one by one, the parquet's polish holds the window's shape in long pale ghosts, and the smallest exhibit in the palace keeps the day's last light entirely to itself",
-   "motion": "the warm blade of sun narrows and climbs by slow degrees until only the glass case holds light, the pea glowing amber at its center while the room dims around it; a last dust mote settles through the beam, the portraits going to shadow along the walls, and the camera holds the lit case in the darkening hush until the beam thins to a thread"
+   "visual": "the museum room at closing light: the last sun through the tall windows narrows to one warm bar of sun that crosses the parquet and climbs the velvet pillar to rest exactly on the glass case and its tiny occupant, the single round pea seed lit pale green in the beam; the portraits along the walls sink into shadow one by one, the parquet's polish holds the window's shape in long pale ghosts, and the smallest exhibit in the palace keeps the day's last light entirely to itself",
+   "motion": "the warm bar of sun narrows and climbs by slow degrees until only the glass case holds light, the pea seed lit pale green at its center while the room dims around it; a last dust mote settles through the beam, the portraits going to shadow along the walls, and the camera holds the lit case in the darkening hush until the beam thins to a thread"
   }
  ],
  "withheld": "완두콩이 박물관에 들어간 사연의 마지막 한 줄"

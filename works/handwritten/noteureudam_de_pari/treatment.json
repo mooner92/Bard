@@ -1,60 +1,203 @@
 {
-  "logline": "기형의 종지기가 성당 탑 위에서 내려다보는 처형대의 그림자",
-  "destination": "성당 탑 꼭대기 — 처형대의 그림자를 내려다보는 자리",
-  "protagonist": "곱추인 종지기",
-  "setting": "1482년, 노트르담 성당과 그레브 광장",
-  "anchor": "Deformed bell ringer in dark robes, standing on high stone tower ledge, Paris 1482.",
-  "palette": "cold blue-grey shadows, stark contrast, dim warm glow, heavy stone textures",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "종탑 계단에서 숨 가쁘게 뛰어 올라온다.",
-      "visual": "Deformed figure climbs steep stone stairs rapidly, breathing heavily, hands gripping railings.",
-      "motion": "Up the stone spiral stairs"
-    },
-    {
-      "n": 2,
-      "beat": "탑 꼭대기에 서서 광장을 내려다본다.",
-      "visual": "Wide shot from tower top looking down at the square, crowd gathered around the scaffold.",
-      "motion": "Downward gaze toward the square"
-    },
-    {
-      "n": 3,
-      "beat": "검은 옷의 남자가 탑 아래를 지나는 것을 본다.",
-      "visual": "A figure in black robes walks past the tower base, moving away from the crowd.",
-      "motion": "Across the square, away from camera"
-    },
-    {
-      "n": 4,
-      "beat": "그 남자가 처형대 쪽으로 멈춰 선다.",
-      "visual": "The black-robed figure stops near the scaffold, looking up at the tower.",
-      "motion": "Stopping near the wooden scaffold"
-    },
-    {
-      "n": 5,
-      "beat": "종지기가 발을 떼어 탑 가장자리로 나선다.",
-      "visual": "Bell ringer steps onto the narrow ledge, wind blowing his robes, looking down.",
-      "motion": "Forward onto the narrow stone ledge"
-    },
-    {
-      "n": 6,
-      "beat": "광장에서 처형대의 그림자가 탑으로 올라온다.",
-      "visual": "Shadow of the scaffold stretches across the ground toward the tower base.",
-      "motion": "Shadow extending toward the tower"
-    },
-    {
-      "n": 7,
-      "beat": "그가 손을 뻗어 탑 아래를 가리킬까?",
-      "visual": "Close up on the bell ringer's hand hovering over the edge, trembling slightly.",
-      "motion": "Hand extending over the edge"
-    },
-    {
-      "n": 8,
-      "beat": "탑 꼭대기에 바람 소리만 들린다.",
-      "visual": "Empty stone ledge with wind-blown dust, no person present, cold light.",
-      "motion": "Dust blowing across the stone",
-      "anchor": false
-    }
-  ],
-  "withheld": "프롤로를 탑 아래로 밀어 떨어뜨려 죽이고, 2년 후 에스메랄다의 해골을 껴안고 죽은 모습"
+ "logline": "1482년 광인절의 파리에서 곱추 종지기 콰지모도가 광인 교황으로 뽑히고, 집시 무희 에스메랄다에게 물 한 모금의 은혜를 입은 뒤, 죄를 뒤집어쓴 그녀를 처형대 앞에서 밧줄을 타고 내려와 성당으로 안아 들여 지키다가, 부랑자들의 습격에 돌을 굴려 맞서는 사이 검은 옷의 부주교가 그녀를 배로 빼돌려 방이 비어 있다",
+ "destination": "소설 노트르담 드 파리에서 만날 수 있습니다",
+ "protagonist": "quasimodo",
+ "setting": "1482년 파리 — 노트르담 성당 앞 광장과 형틀, 종탑 안과 탑 꼭대기, 감옥, 성당의 큰 문과 지붕 밑 작은 방, 밤의 센 강",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/noteureudam_de_pari/assets",
+ "anchor": "a hunchbacked bell-ringer in a dull yellow tunic and a gipsy dancer with long black hair before the grey west front of Notre-Dame",
+ "palette": "ash grey, dark blue, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "교수대에서 벌어진 일, 탑 위의 웃음이 맞은 결말과 두 해 뒤 몽포콩의 해골",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "quasimodo",
+    "crowd",
+    "square",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "광인절의 파리에서 곱추 종지기 콰지모도가 광인 교황으로 뽑혀 들려 올려진다",
+   "visual": "flat grey winter light over the wide cobbled square before the cathedral, seen from behind the crowd: the backs of a crowd of townspeople in hoods, caps and dark brown and ash grey woollen clothes fill the lower half of the frame, all facing away from the camera with their arms raised; above them at frame centre, carried high on a wooden chair on their shoulders, the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one sitting with the great hump on his back rising plainly above the chair's back, a crumpled crown cut from dull yellow paper on his head, and a wide crooked grin on his plain lopsided face with one eye hidden under the heavy brow, one eye hidden under his heavy brow, his bare feet dangling over the crowd's heads, his big hands gripping the chair's arms; behind him the great west front of the cathedral rises in pale grey stone with its three deep carved portals and its two square towers to the top of the frame; the tall half-timbered houses stand along the side of the square at frame left; his is the only face turned to the camera",
+   "motion": "the crowd's raised arms are the ones that move, and the man on the chair holds still: at the start the arms are raised above the hooded heads; over the whole five seconds the raised arms sway slowly together from left to right and back, and the wooden chair on the shoulders rocks gently with them, no more than a hand's width, the crowned man on it gripping the chair's arms and keeping his wide crooked grin, his dangling bare feet swinging a little with the rocking; his paper crown stays on his head; the crowd's backs stay turned to the camera and no face among them turns round; the great west front of the cathedral with its portals and towers and the half-timbered houses hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "esmeralda",
+    "goat",
+    "crowd",
+    "square",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "광장에서 집시 무희 에스메랄다가 흰 염소와 춤을 춘다",
+   "visual": "flat grey winter light on the cobbles of the square, seen from behind a ring of onlookers: the slender girl of sixteen with the long black hair flying loose and the brown-skinned lively oval face, in the off-white blouse and the full dark blue skirt with the dull yellow sash, is the one dancing at frame centre on a worn carpet spread on the cobbles, one bare foot lifted and the dark blue skirt swung out wide in a bell, both her arms raised over her head and her face lifted with a wide smile; the small white goat with the gilt horns and the dull yellow collar is the one standing on its hind legs at frame right beside her with its forehooves in the air; the backs of a ring of townspeople in hoods and caps fill the bottom edge of the frame, facing her; behind her at the far side of the square the great west front of the cathedral rises pale grey with its two square towers; the half-timbered houses stand at frame left; hers is the only face turned to the camera",
+   "motion": "the dancing girl and the goat are the ones that move, and the onlookers hold still: at the start she is on one bare foot with the skirt swung wide and her arms over her head; over the whole five seconds she turns slowly once on the carpet, the dark blue skirt swinging round in its bell and settling, her lifted foot coming down and the other lifting, her arms staying raised and her black hair swinging after the turn, her wide smile not changing; the white goat on its hind legs at frame right lowers its forehooves slowly to the carpet and lifts them again once; the ring of hooded backs along the bottom edge stays still with no face turning round; the great west front of the cathedral, the towers and the half-timbered houses hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "phoebus",
+    "quasimodo",
+    "esmeralda"
+   ],
+   "refs": [],
+   "beat": "밤에 종지기가 그녀를 붙들려 하자 근위대장이 막아선다",
+   "visual": "black night in a narrow lane off the square with the dull yellow light of one lantern hung on a house wall: the captain of twenty-five with the fair curled hair and the small fair moustache, in the polished steel breastplate over the dull yellow doublet and the dark blue cloak, is the one standing at frame left with one hand raised high in a command and his face set, his boots planted wide on the cobbles; the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one crouched at frame centre with his back half to the camera and his wide crooked face turned to the captain, both his big hands open and empty before him; the slender girl of sixteen with the long black hair, in the off-white blouse and the dark blue skirt, is the one at frame right behind the hunchback pulling away from him with one hand against the wall of the house and her face turned to the captain; the tall half-timbered houses lean close on both sides of the lane; there are exactly three people in the lane",
+   "motion": "the captain's raised hand and the girl are the two things that move, and the hunchback holds still: at the start the hand is raised high in a command and the girl is pulling away with one hand against the wall; over the first three seconds the raised hand comes slowly down and forward, pointing at the crouched hunchback, the captain's cloak shifting at his shoulder, and the girl draws slowly one step further along the wall away from the hunchback, her black hair swinging and her face staying turned to the captain; in the last two seconds the pointing hand holds and the girl holds against the wall; the hunchback stays crouched with his hands open before him and his face turned to the captain, nothing in him moving; the lantern on the house wall keeps its steady dull yellow light; the leaning half-timbered houses and the cobbles hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "quasimodo",
+    "esmeralda",
+    "pillory",
+    "square"
+   ],
+   "refs": [],
+   "beat": "형틀에 묶인 종지기에게 물을 준 이는 에스메랄다뿐이다",
+   "visual": "flat grey winter light on the low stone platform of the pillory in the square: the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one kneeling at frame centre on the platform with his neck and both his wrists held in the holes of the heavy wooden wheel of planks, his wide crooked face turned up and his mouth open, his one seen eye on the girl; the slender girl of sixteen with the long black hair, in the off-white blouse and the full dark blue skirt with the dull yellow sash, is the one standing at frame right on the top wooden step of the platform leaning toward him with a small leather flask held in both hands up to his open mouth, her face bent close to his; the great west front of the cathedral rises pale grey behind with its two square towers; there are exactly two people on the platform",
+   "motion": "the girl's flask hands are the one thing that moves, and the man in the pillory holds still: at the start the small leather flask is held in both her hands up to his open mouth; over the first three seconds her hands tip the flask slowly a little further so that a thin line of water runs from its mouth to his, her face bending a little closer and her black hair sliding forward over her shoulder; in the last two seconds the flask holds tipped and the thin line of water keeps running; her bare feet on the wooden step do not shift; the man in the pillory keeps his neck and wrists in the holes of the planks and his face turned up with his mouth open, nothing in him moving but a slow swallow; the hooded backs below the platform stay still; the cathedral's west front and the towers hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "quasimodo",
+    "bell_tower",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "풀려난 종지기가 성당의 큰 종을 울린다",
+   "visual": "grey daylight through the pointed stone arches of the bell tower: the great bronze bell hanging from the thick oak beams is the one thing filling the upper half of the frame, tilted far to one side on its beam with its dark mouth open toward the left, the thick bell rope running down from its wheel; the short thick-set man of twenty with the great rounded hump of his own crooked back swelling under the tunic cloth and the bristling dark brown hair, in the rough dull yellow tunic, is the one at frame centre below the bell hanging from the thick rope with both his big hands and his bare feet off the stone floor, his body swung out to the right with the rope, his wide crooked face turned up to the bell with his mouth open in a shout; the pointed stone arches behind him stand open to the flat grey sky; the oak beams cross the top of the frame; the stone floor with its worn flags shows at the bottom; there is exactly one person in the tower",
+   "motion": "the man on the rope and the great bell are the two things that move, and the tower holds still: at the start the bell is tilted far to the left with the man swung out to the right on the rope with his feet off the floor; over the whole five seconds the bell swings slowly back through the upright and tilts to the right, its dark mouth turning, and the man on the rope swings slowly with it to the left and down until his bare feet touch the stone floor for a moment and lift again, his hands keeping their grip and his face staying turned up to the bell; the oak beams take the swing without moving themselves; the pointed stone arches, the flat grey sky beyond them and the worn stone floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "frollo",
+    "tower_top",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "검은 옷의 부주교가 성당 탑에서 광장의 무희를 내려다본다",
+   "visual": "flat grey winter light on the top of the cathedral's tower: the tall thin man of thirty-six in the long black cassock and the close black priest's cap, with the pale hollow severe face, is the one standing at frame centre at the stone parapet with both his thin hands gripping its edge and his body bent forward over it, his face turned down toward the square far below with his thin lips pressed together and his deep-set eyes fixed; a carved stone gargoyle leans out from the parapet beside him at frame right with its blunt beast head over the empty air; far below at the bottom of the frame the cobbled square shows small and grey with tiny figures on it and one small point of dark blue and off-white at its centre where the dancer is; the grey roofs of Paris run away beyond the square to the top of the frame; the wind lifts the hem of the black cassock; there is exactly one person on the tower",
+   "motion": "the hem of the black cassock is the one thing that moves, and the man holds still: at the start the hem is lifted a little by the wind at his ankles; over the whole five seconds the wind lifts the hem slowly higher and lets it sink and lifts it again, the black cloth pressing against the back of his thin legs, his hands keeping their grip on the parapet and his bent body and fixed face not moving at all; the carved stone gargoyle leans out beside him without moving; the small grey square far below with its tiny figures and the small point of dark blue and off-white at its centre stays exactly as it is; the grey roofs of Paris hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "esmeralda",
+    "cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "부주교가 근위대장을 찌른 죄가 무희에게 씌워져 그녀가 옥에 갇힌다",
+   "visual": "thin grey light from the one small barred window high in the ash grey stone wall of the prison cell: the slender girl of sixteen with the long black hair hanging tangled and the brown-skinned oval face gone pale, in the off-white blouse torn at one shoulder and the full dark blue skirt with the dull yellow sash, is the one sitting at frame centre on the straw with her back against the stone wall and her knees drawn up under the skirt, both her arms wrapped round her knees and her chin resting on them, her big dark eyes open and fixed on the floor; a heavy iron ring is set in the wall above her head with a short chain hanging from it to the straw; the thin band of grey light from the window lies across the straw and up the wall at frame right; the rest of the cell is in shadow; the straw is dirty and flattened; there is exactly one person in the cell",
+   "motion": "the girl's eyes and her hair are the two things that move, and the cell holds still: at the start her chin rests on her knees with her eyes fixed on the floor; over the first three seconds her eyes lift slowly to the thin band of grey light on the wall and her head turns a little toward the high window, a strand of her tangled black hair sliding from her shoulder; in the last two seconds her eyes stay on the light and her head holds turned; her arms stay wrapped round her knees and her bare feet do not shift in the straw; the iron ring and the short chain above her hang still; the thin band of light keeps its place across the straw and up the wall; the shadowed walls of the cell hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "quasimodo",
+    "esmeralda",
+    "scaffold",
+    "square"
+   ],
+   "refs": [],
+   "beat": "처형대로 끌려가는 에스메랄다를 종지기가 밧줄을 타고 내려와 안는다",
+   "visual": "flat grey winter light over the square before the cathedral: a thick rope hangs down the pale grey stone of the cathedral's west front from the gallery of stone kings high up at frame centre, and the short thick-set man of twenty with the great rounded hump of his own crooked back swelling under the tunic cloth, his plain young face clean-shaven, in the rough dull yellow tunic, is the one clinging to the rope a man's height above the cobbles, climbing, with one big hand gripping the rope above his head and his other arm clasped round the waist of the girl, his bare feet against the stone; the slender girl of sixteen with the long black hair falling loose, in the off-white blouse and the dark blue skirt, is the one held against his side with both her arms round his thick neck and her face pressed to his shoulder, her bare feet swinging clear of the ground; the wooden scaffold with its steps stands on the cobbles at frame right with the medieval guards in plain steel caps and brown leather jerkins with pikes round its foot all turned toward the rope with their faces up; there are exactly two people on the rope",
+   "motion": "the two on the rope are the ones that move, and the square holds still: at the start the hunchback hangs on the rope a man's height above the cobbles with the girl clasped against his side; over the whole five seconds the rope swings slowly a little to the left and back, the hunchback's bare feet walking two slow steps up the pale stone of the west front as he climbs, the girl's loose black hair swinging with the swing and her arms keeping their hold round his neck, the two rising on the rope by no more than the height of one step; the guards in steel caps round the scaffold keep their faces turned up and do not move from its foot; the scaffold, the west front with its gallery of stone kings and the two towers hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "quasimodo",
+    "esmeralda",
+    "doors",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "피난처를 외치며 종지기가 그녀를 성당 안으로 데려간다",
+   "visual": "flat grey winter light on the wide stone steps before the great west doors of the cathedral: the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one standing at frame centre on the top step with his back to the camera, the girl lifted in both his thick arms and held high over his head with her dark blue skirt and her loose black hair falling down over his hump, his bare feet planted wide on the stone, his crooked face turned up to her and hidden from the camera; the slender girl of sixteen in the off-white blouse is the one held up in his arms with her face turned down to him, her bare feet in the air; the heavy oak doors bound in iron stand open before them inside the tall carved stone portal with the dark of the nave beyond; the carved figures of the portal rise on both sides to the top of the frame; the cobbles show at the bottom; there are exactly two people on the steps and the man's back is to the camera",
+   "motion": "the man on the steps is the one who moves, and the doors hold still: at the start he stands on the top step with the girl lifted high over his head and his back to the camera; over the whole five seconds he takes two slow steps forward toward the open doors with his bare feet, the girl held high and steady in his arms, her loose black hair and her dark blue skirt swaying a little over his hump with each step, his crooked face staying turned up to her and hidden, his figure moving no more than one pace toward the dark of the nave; the heavy open doors do not swing; the carved figures of the portal and the wide stone steps hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "quasimodo",
+    "esmeralda",
+    "goat",
+    "roof_cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "성당 지붕의 작은 방에서 종지기가 그녀에게 빵과 물을 가져다준다",
+   "visual": "soft grey light from the small round window of the little stone room high under the cathedral's roof: the slender girl of sixteen with the long black hair and the brown-skinned oval face, in the off-white blouse and the full dark blue skirt, is the one sitting at frame right on the bed of straw with her back against the stone wall and her legs folded under her skirt, her big dark eyes lifted to the doorway; the small white goat with the gilt horns is the one lying curled beside her in the straw with its head up; the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one standing at frame left just inside the low doorway with his head bowed and his one seen eye turned away from her, holding out at arm's length a round loaf of dark brown bread in one big hand and the clay jug of water gripped by its handle in his other big hand, both his arms stretched out toward the bed, his bare feet on the stone; the wooden bowl stands on the floor between them; the small round window shows the grey sky; there are exactly two people in the room",
+   "motion": "the hunchback's outstretched hands are the one thing that moves, and the girl holds still: at the start the round loaf and the jug are held out at arm's length with his head bowed and his eye turned away; over the first three seconds he bends slowly at the knees and sets the loaf and the jug down on the stone floor beside the wooden bowl, his head staying bowed and his face staying turned from her, and straightens slowly again with his big hands empty; in the last two seconds he holds just inside the doorway with his hands hanging at his sides; his bare feet do not shift; the girl on the straw keeps her eyes lifted to him and her legs folded, nothing in her moving; the white goat keeps its head up and its body curled in the straw; the loaf, the jug and the bowl hold their places on the floor; the small round window and the stone walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "beggars",
+    "doors",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 부랑자 무리가 그녀를 구하러 성당으로 몰려온다",
+   "visual": "black night before the great west doors of the cathedral, lit by the dull yellow light of a few lanterns held up on poles: the backs of a rough crowd of beggars and vagabonds in rags and patched cloaks fill the lower half of the frame, all facing away from the camera toward the doors, long poles and two wooden ladders held up among them, the lanterns on their poles throwing their light up the tall carved stone portals; the heavy oak doors bound in iron stand closed at frame centre at the top of the wide stone steps with the light lying on their iron bands; the carved figures of the portals rise on both sides into the dark; high above at the top of the frame the gallery of stone kings shows faint in the dark with the black shapes of the two towers behind; the wide stone steps between the crowd and the doors are empty; not one face in the crowd is turned to the camera",
+   "motion": "the crowd's raised poles and ladders are the ones that move, and the doors hold still: at the start the poles and the two ladders are held up among the backs of the crowd with the lanterns on their poles; over the whole five seconds the poles and the ladders sway slowly forward together toward the doors and back, the lantern light on the carved portals shifting with them, the backs of the crowd pressing a little closer up the empty steps and easing back, no face turning round and no one climbing the steps; the heavy closed doors with the light on their iron bands do not move; the carved figures of the portals, the faint gallery of stone kings and the black towers above hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "quasimodo",
+    "tower_top",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그것을 공격으로 안 종지기가 위에서 돌을 굴려 맞선다",
+   "visual": "black night on the top of the cathedral's tower, lit from below by the dull yellow glow of the lanterns in the square: the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one at frame centre bent over the stone parapet with a big block of grey stone as large as his chest held in both his thick arms and resting on the parapet's edge, his wide crooked face turned down over the empty air with his mouth open in a shout, his bare feet braced on the stone; a carved stone gargoyle leans out from the parapet beside him at frame left; far below at the bottom of the frame the small points of the lanterns show on the square with the tiny dark shapes of the crowd round them; the black night sky fills the top of the frame; there is exactly one person on the tower",
+   "motion": "the man at the parapet is the one who moves, and the tower holds still: at the start the big block of stone rests on the parapet's edge in his arms with his face turned down over the empty air; over the first three seconds his arms heave the block slowly forward until it tips on the edge of the parapet and hangs there half over the empty air, his shoulders bunching and his bare feet pressing into the stone, his mouth staying open in the shout; in the last two seconds the block holds tipped on the edge in his arms and does not yet go over; the carved gargoyle beside him leans out without moving; the small points of lantern light and the tiny dark shapes of the crowd far below stay where they are; the black sky holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "frollo",
+    "esmeralda",
+    "river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그 틈에 검은 옷의 남자가 성당에서 무희를 배에 태워 빼돌린다",
+   "visual": "black night on the dark river under the walls of the old city, the thin moon low: the small flat boat with its one oar is the one thing on the flat black water at frame centre, seen from the bank; the tall thin man of thirty-six in the long black cassock and the close black priest's cap is the one standing in the stern of the boat seen wholly from behind, the broad black back of his cassock and the back of his black cap toward the camera, his face turned away and hidden entirely and his face hidden, both his thin hands on the oar; the slender girl of sixteen with the long black hair, in the off-white blouse and the dark blue skirt, is the one sitting in the bow of the boat with a dark cloak over her shoulders and her face turned back over her shoulder toward the bank, her big dark eyes wide; behind the boat across the water the dark mass of the cathedral rises with its two square towers black against the sky, small points of dull yellow light moving at its foot; the black water lies flat between the boat and the bottom of the frame; there are exactly two people in the boat and only the girl's face is seen",
+   "motion": "the boat on the black water is the one thing that moves, and the cathedral holds still: at the start the boat is at frame centre with the man's hands on the oar; over the whole five seconds the boat glides slowly to the right across the frame by no more than its own length, the oar dipping once slowly into the black water and lifting with a low ripple that spreads and smooths, the girl in the bow keeping her face turned back over her shoulder to the bank with her wide eyes; the man in the stern keeps his back to the camera and his face hidden; the dark mass of the cathedral with its black towers holds completely still and the small points of light at its foot keep their places; the thin moon stays low; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "quasimodo",
+    "roof_cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "텅 빈 방 앞에 선 종지기가 광장에서 무엇을 보게 될지 알 수 없다",
+   "visual": "grey dawn light from the small round window of the little stone room high under the cathedral's roof, seen from inside the room: the bed of straw at frame right is the one thing empty, the straw pressed flat where someone lay and the dark cloak gone, the wooden bowl and the jug standing on the floor beside it untouched; the short thick-set man of twenty with the great hump on his back and the bristling dark brown hair, in the rough dull yellow tunic, is the one standing at frame left in the low doorway with one big hand on each side of the door frame and his wide crooked face turned to the empty straw, his one seen eye wide and his mouth open, his bare feet on the threshold; the small round window at frame centre shows the grey dawn sky; the stone walls are bare; the white goat is gone from the straw; there is exactly one person in the room and the bed of straw is empty",
+   "motion": "the man in the doorway is the one who moves, and the empty room holds still: at the start both his hands are on the door frame and his face is turned to the empty straw; over the first three seconds his hands slide slowly down the door frame and his body bends forward a little into the room, his head turning slowly from the empty straw to the small round window and its grey light and back to the straw, his mouth staying open; in the last two seconds he holds bent forward in the doorway with his hands low on the frame; his bare feet do not shift on the threshold; the pressed straw, the wooden bowl and the jug keep their places; the small round window with the grey dawn sky and the bare stone walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "tower_top",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 탑 꼭대기의 난간과 그 아래 잿빛 광장",
+   "visual": "grey dawn light on the top of the cathedral's tower: the stone parapet runs across the middle of the frame with a carved stone gargoyle leaning out over the empty air at frame right, its blunt beast head toward the square; on the parapet's flat top lies a single dull yellow paper crown, crushed flat, its points bent; far below at the bottom of the frame the cobbled square shows small and grey and empty, the wooden scaffold standing small and alone at one side; the grey roofs of Paris run away beyond the square under the flat grey sky at the top of the frame; a thin wisp of grey mist lies along the roofs; the stone of the parapet is wet; the crushed paper crown is the only thing on the parapet, the tower top and the square below holding only wet stone and mist",
+   "motion": "the crushed paper crown on the parapet is the one thing that moves, and the tower holds still: at the start the crown lies flat on the parapet's top with its points bent; over the first three seconds a slow wind lifts one bent point of the paper crown and lets it settle, and slides the whole crown a finger's width along the wet stone toward the gargoyle; in the last two seconds the crown lies still again; the carved gargoyle leans out over the empty air without moving; the small grey square far below with the empty scaffold at its side stays exactly as it is; the thin wisp of mist along the grey roofs of Paris does not drift; the flat grey sky stays even; no figure appears on the tower; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

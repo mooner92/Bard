@@ -1,0 +1,197 @@
+{
+ "logline": "도시를 떠나 시골 예배당에서 아이들을 가르치던 젊은 여교사가 아이들을 쫓아내야 하는 날을 겪고, 새 학원을 세우다 쓰러지고, 뜻을 나눈 청년마저 잡혀간 뒤 홀로 남는다",
+ "destination": "소설 상록수에서 만날 수 있습니다",
+ "protagonist": "yeongsin",
+ "setting": "1930년대 충남 바닷가 농촌 청석골과 한곡리, 낡은 예배당·마을 회관·새 학원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/sangroksu/assets",
+ "anchor": "a slender Korean woman of twenty-five in an off-white cotton jeogori and long black skirt, hair in a low bun, a pale oval face with clear steady eyes",
+ "palette": "dull green, dark brown, off-white, ash grey, dull yellow",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "yeongsin",
+    "children",
+    "blackboard",
+    "chapel",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "청석골 예배당에서 아이들을 가르치는 영신",
+   "visual": "inside the small whitewashed chapel in the dull yellow light of a spring afternoon: the slender young woman in the off-white jeogori and long black skirt is the one standing on the low platform at frame left beside the slate blackboard on its wooden easel, one thin hand raised with a strip of chalk and her clear steady eyes on the room; a dozen village children are the ones sitting cross-legged on the dark brown floorboards in loose rows facing her, small slates on their knees, cropped heads and short braids tilted up; paper-paned windows along the right wall let in the soft light and a dull green branch shows beyond the panes, thatched roofs of the village on the low hill outside the open door at the back; the slate is empty of any writing",
+   "motion": "the slender young woman in the off-white jeogori and long black skirt standing on the low platform is the one who moves, and the children only lean: at the start her thin hand holds a strip of chalk raised a little toward the empty slate blackboard on its easel; over the first two seconds the hand lifts the chalk slowly toward the slate and stops just short of it, her clear steady eyes moving across the room, while the dozen children in patched off-white cotton lean forward together on the dark brown floorboards and one small boy at the front raises his hand a little; in the last two seconds the chalk holds near the slate and the boy's hand stays up; the slate stays empty of any writing; dust drifts slowly in the dull yellow shaft of light from the paper windows; the whitewashed walls, the platform, the open door and the thatched roofs outside hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "children",
+    "yeongsin",
+    "chapel"
+   ],
+   "refs": [],
+   "beat": "마루가 터지도록 몰려든 아이들",
+   "visual": "the same chapel floor seen from the platform side, now packed edge to edge: forty or more village children in patched off-white cotton are the ones crammed shoulder to shoulder on the dark brown floorboards, the front rows sitting, the back rows kneeling and standing, more small faces pressed in at the open door and at the paper-paned windows on the right; the slender young woman in the off-white jeogori and black skirt is the one standing at frame left with her back to the whitewashed side wall, both thin hands clasped in front of her black skirt, her steady eyes wide as she counts the crowd; slates and worn primers are held up over heads at the back, bare feet and straw sandals fill every gap in the floor, a single plain wooden cross high on the far wall, the ash grey shingle roof beams cross above and the dull yellow afternoon light lies over the whole crowd",
+   "motion": "the packed crowd of village children on the chapel floor is what moves, and the young woman only with her eyes: at the start the back rows of children are kneeling and standing crammed to the door with slates and primers held up over heads; over the first two seconds the crowd keeps pressing slowly inward from the door, the back rows shuffling and craning and the raised slates tilting, while the front rows sit still with their slates up; in the last two seconds the pressing eases and the crowd holds packed; the slender young woman in the off-white jeogori and black skirt stands rooted with her back to the whitewashed side wall and her hands clasped in front of her skirt, only her wide eyes moving across the room, her feet not shifting; the ash grey roof beams, the whitewashed walls and the dull yellow afternoon light hold completely still; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "constable",
+    "yeongsin",
+    "children",
+    "chapel"
+   ],
+   "refs": [],
+   "beat": "여든 명으로 줄이라는 순사",
+   "visual": "the chapel doorway in flat grey daylight: the police constable in the black wool uniform with brass buttons, the peaked cap and the sabre at his hip is the one standing in the open door at frame right, white-gloved hands clasped behind his back and his thin-moustached narrow face turned toward the room; the slender young woman in the off-white jeogori and black skirt is the one standing a pace inside at frame left facing him, her hands folded tight at her waist and her pale oval face very still; behind her the packed rows of village children in patched off-white cotton sit on the dark brown floorboards gone quiet, small faces turned toward the door, slates lowered; the slate blackboard on its easel stands empty at the platform behind them, the ash grey shingles show at the top of the door frame",
+   "motion": "the police constable in the black uniform standing in the chapel doorway is the one who moves, and only his head: at the start he stands planted in the open door with his white-gloved hands clasped behind his back and his narrow moustached face turned toward the room; over the first two seconds his head turns slowly across the rows of children from left to right and stops, his peaked cap catching the grey light and his sabre not swinging; in the last two seconds his head holds turned and his hands stay clasped; the slender young woman a pace inside holds her folded hands at her waist without moving, only her chin lifting a little; the packed rows of children sit frozen on the dark brown floorboards with their slates lowered; the empty blackboard, the whitewashed walls and the ash grey shingles above the door hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "yeongsin",
+    "children",
+    "chapel"
+   ],
+   "refs": [],
+   "beat": "마룻바닥에 분필로 금을 긋는 영신",
+   "visual": "the chapel floor seen from low along the boards: the slender young woman in the off-white jeogori and black skirt is the one crouching at frame center with her skirt spread on the dark brown floorboards, one thin hand dragging a strip of chalk across the boards so that a white chalk line runs from frame left toward frame right, her face lowered and her lips pressed together; the village children in patched off-white cotton are the ones sitting in rows on both sides of the line, the ones in front watching the chalk, one small girl with short braids clutching a slate to her chest, one boy with cropped hair leaning over to look at the line; chalk dust rises in the dull yellow light from the paper windows, the bare dark brown boards run on behind her to the far wall, she is the only grown woman in the room",
+   "motion": "the slender young woman crouching on the chapel floor is the one who moves, and only her chalk hand: at the start her thin hand holds a strip of chalk against the dark brown floorboards with a short white line already begun at frame left; over the first two seconds the hand draws the chalk slowly along the boards from left to right, the white chalk line lengthening behind it and a little chalk dust rising in the dull yellow light, her face lowered and her lips pressed together, her spread black skirt not shifting; in the last two seconds the chalk reaches the middle of the frame and holds; the village children sitting in rows on both sides of the line lean in a little and hold their slates, the small girl clutching hers to her chest; the platform, the bare boards and the paper windows hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "children",
+    "yeongsin",
+    "chapel"
+   ],
+   "refs": [],
+   "beat": "금 밖으로 밀려나는 아이들",
+   "visual": "the chapel door and yard seen from inside the room: a line of village children in patched off-white cotton is the group filing out through the open door at frame right into the grey daylight of the yard, the nearest boy with cropped hair rubbing his eyes with his fist, a small girl with short braids looking back over her shoulder with her mouth open in a sob, slates hanging from their hands; the slender young woman in the off-white jeogori and black skirt is the one standing at frame left beside the white chalk line on the dark brown floorboards with her back half turned to the door, one hand pressed flat over her mouth; the children still seated inside the line sit silent on the boards in the foreground, a thatched roof and a bare-branched tree show in the yard beyond the door",
+   "motion": "the line of village children filing out through the chapel door is what moves, and the young woman only holds: at the start the nearest boy in patched off-white cotton is on the threshold rubbing his eyes with his fist and the small girl behind him is looking back over her shoulder; over the whole shot the children file slowly out through the open door one after another into the grey daylight of the yard, slates hanging from their hands, the small girl turning her head back once more as she goes and then forward; the slender young woman in the off-white jeogori and black skirt stands beside the white chalk line with her back half turned and one hand pressed flat over her mouth and does not turn; the children still seated inside the line sit still in the foreground; the thatched roof and the tree in the yard hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "children",
+    "big_tree",
+    "chapel"
+   ],
+   "refs": [],
+   "beat": "창밖 나무에 매달려 안을 보는 아이들",
+   "visual": "outside the chapel at the big old spreading tree in grey afternoon light: seven or eight village children in patched off-white cotton are the ones clinging along the low thick limbs of the tree at frame left and center, bare feet hooked over the rough grey bark, small hands gripping the branches, every cropped head and short braid turned toward the paper-paned windows of the whitewashed chapel wall at frame right; two smaller children stand on tiptoe below the window sill with their fingers on the frame; dull green leaves hang around them and brush the ash grey shingle eaves, the whitewashed wall glows pale, the faint shape of the blackboard shows through the open window",
+   "motion": "the village children clinging along the low limbs of the big spreading tree are the ones who move, and the leaves: at the start seven or eight children in patched off-white cotton hold the rough grey limbs with bare feet hooked over the bark and two smaller ones stand on tiptoe below the window sill; over the first two seconds the children on the limbs hold on tightly and lean toward the paper-paned windows, one boy inching farther out along a branch with his hands sliding on the bark, the two below stretching higher on their toes with their fingers on the frame; in the last two seconds they hold their positions leaning; the dull green leaves stir gently in a slight breeze around them; the whitewashed chapel wall, the ash grey shingle eaves and the open window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "yeongsin",
+    "blackboard",
+    "children",
+    "chapel"
+   ],
+   "refs": [],
+   "beat": "칠판을 밖으로 돌려 세우는 영신",
+   "visual": "inside the chapel seen from the back of the room: the slender young woman in the off-white jeogori and black skirt is the one standing on the dark brown floorboards at frame right beside the wide open paper-paned window, both thin hands gripping the dark brown wooden frame of the slate blackboard on its easel, the slate turned to face out through the open window, her pale face lifted toward the window with her lips parted as she calls out; through the open window the dull green boughs of the big spreading tree fill the opening beyond, and three village children in patched off-white cotton are the ones sitting astride the low boughs outside, faces turned to the slate, one boy pointing; the whitewashed wall and the ash grey roof beams above, the dull yellow afternoon light coming in through the window; the slate is a bare dark grey surface",
+   "motion": "the slender young woman in the off-white jeogori and black skirt standing beside the open window is the only one who moves, and the children on the boughs outside hold still: at the start both her thin hands grip the wooden frame of the slate blackboard with the slate already turned toward the open window; over the first two seconds she pushes the easel slowly a hand's width closer to the window so that the slate fills more of the opening, her feet shifting one small step and her lifted face staying toward the window with her lips parted; in the last two seconds the easel holds still and her hands stay on the frame; the three children sitting astride the boughs outside keep their faces toward the slate, the pointing boy's arm not moving, the boughs not swaying; the slate stays a bare dark grey surface; the whitewashed wall, the roof beams and the dull yellow light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "donghyeok",
+    "hall",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "한곡리에서 회관을 짓는 동혁",
+   "visual": "the village green of another village under a pale hazy sky: the tall broad-shouldered young man in the off-white cotton shirt with rolled sleeves and dark brown trousers is the one standing on a beam of the half-built timber-framed hall at frame center, straw sandals braced on the wood, a heavy mallet in his big hands raised over a joint, his square sun-browned face set and his thick eyebrows drawn; three villagers in white cotton are the ones lifting a fresh pale post at frame left below him; a stack of ash grey roof tiles and piles of dark brown timber lie on the ground at frame right; thatched roofs on the low hill, dull yellow fields and dull green ridges spread behind under the hazy sky",
+   "motion": "the tall broad-shouldered young man standing on the beam of the half-built hall is the one who moves most: at the start the heavy mallet in his big hands is raised over a joint with his sun-browned face set and his straw sandals braced on the wood; over the whole shot he swings the mallet down onto the joint and raises it again in a slow steady rhythm, twice, the rolled sleeves of his off-white shirt straining and the beam trembling under each blow, while the three villagers in white cotton below push the fresh pale post slowly upright together with their shoulders against it; dust rises slowly from the piles of dark brown timber; the stack of ash grey roof tiles, the thatched roofs on the low hill, the dull yellow fields and the dull green ridges under the hazy sky hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "yeongsin",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "집집마다 돌며 돈을 모으는 영신",
+   "visual": "a narrow village lane between thatched houses in the pale late light, framed close from waist height so that the ground of the lane lies below the bottom of the frame: the slender young woman in the off-white jeogori and black skirt is the one at frame centre-left holding a dented brass bowl in both thin hands at the level of her waist, the bowl filling the lower middle of the frame, her head bowed slightly and her steady eyes on the old woman; a stooped village grandmother in a white cotton skirt and a dark grey jacket is the one at frame right behind the top rail of a low brushwood gate, her wrinkled hand reaching over the rail holding a dull copper coin just above the bowl; behind them the mud walls and ash grey thatched eaves of the lane and the dull yellow fields at its end under the hazy sky",
+   "motion": "the village grandmother's wrinkled hand and the coin are what move at the brushwood gate: at the start her hand is reaching over the gate holding a dull copper coin above the dented brass bowl in the young woman's hands; over the first two seconds the hand lowers slowly over the bowl and lets the coin roll into the bowl with a small clink, then draws back over the gate; in the last two seconds the hand rests on the gate; the slender young woman in the off-white jeogori and black skirt bows her head a little deeper and holds the bowl steady in both thin hands, her feet not shifting; the mud walls, the ash grey thatched eaves along the lane and the dull yellow fields at its end hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "yeongsin",
+    "children",
+    "school"
+   ],
+   "refs": [],
+   "beat": "낙성식 날 마당에 쓰러지는 영신",
+   "visual": "the swept earth yard of the newly built plank-walled school with its rusty tin roof under a bright pale sky: the slender young woman in the off-white jeogori and black skirt is the one sinking to her knees at frame center, one thin hand pressed to her side, the other hand flat on the earth, her pale face gone white and her eyes half closed; the village children in patched off-white cotton are the ones crowding in around her from both sides, the nearest boy with cropped hair grabbing her sleeve, a small girl with short braids covering her mouth with both hands; the plank wall and the plain wooden gate stand behind, the low fence runs along frame right, no sign or lettering anywhere on the building",
+   "motion": "the slender young woman sinking to her knees in the school yard and the children around her are what move: at the start she is on her knees with one thin hand pressed to her side and the other flat on the swept earth, her face gone white; over the first two seconds she sinks slowly forward onto her hand and her head droops lower and lower while the village children in patched off-white cotton rush in close around her from both sides, the nearest boy pulling at her sleeve and the small girl with short braids pressing both hands to her mouth; in the last two seconds she rests on her hand with her head hanging and the children crowd close and still; dust lifts from the swept earth and settles; the plank wall of the new school, its rusty tin roof, the plain wooden gate and the low fence hold completely still; no sign or lettering appears; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "donghyeok",
+    "yeongsin",
+    "hospital_room"
+   ],
+   "refs": [],
+   "beat": "병원으로 달려온 동혁",
+   "visual": "the small hospital room in flat white daylight from the tall window: the slender young woman is the one lying in the iron bed at frame center under the white sheet, her black hair loose on the pillow, her pale oval face turned up with closed eyes; the tall broad-shouldered young man in the off-white shirt and dark brown trousers is the one bent over the bed at frame right, his big hands gripping her thin shoulder through the sheet, his square sun-browned face close to hers with his mouth open in a shout and his thick eyebrows drawn hard; the wooden bedside table with the brass basin stands at frame left, the thin curtains hang still at the window behind",
+   "motion": "the tall broad-shouldered young man bent over the iron hospital bed is the one who moves: at the start his big hands grip the young woman's thin shoulder through the white sheet and his sun-browned face is close to hers with his mouth open in a shout; over the whole shot he leans closer over the bed and his hands press her shoulder again and again in a slow shaking motion, his thick eyebrows drawn hard and his mouth working through the shout; the slender young woman lying in the bed with her black hair loose on the pillow keeps her eyes closed, and only her head turns a fraction on the pillow; the thin curtains at the tall window, the wooden bedside table and the brass basin hold completely still in the flat white light; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "brother",
+    "hall",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "불길에 휩싸이는 한곡리 회관",
+   "visual": "the village green at night: the timber-framed community hall is the building at frame center with its roof beams and posts wrapped in tall orange flames, black smoke rolling up into the dark sky and sparks streaming from the ash grey tiles as they slide; the hot-headed youth with tousled black hair in the off-white shirt and dark brown trousers is the one standing alone at frame left in the firelight, a burnt-out torch hanging from one hand, his narrow flushed face lit orange and his eyes fixed on the flames; piles of dark brown timber burn on the ground at frame right; the thatched roofs of the village on the low hill are dark shapes behind, lit on their edges by the blaze",
+   "motion": "the flames on the timber-framed hall are what move, and the youth only stands: at the start tall orange flames wrap the posts and beams of the hall with black smoke rolling up into the dark sky; over the whole shot the flames climb the posts and roll along the beams, throwing sparks upward in a steady stream and lighting the ash grey tiles as they slide, while smoke pours into the dark sky and the piles of dark brown timber on the ground burn; the hot-headed youth with tousled black hair in the off-white shirt stands motionless at frame left with the burnt-out torch hanging from one hand, only the firelight flickering across his narrow flushed face; the dark thatched roofs of the village on the low hill behind hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "constable",
+    "donghyeok",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "아우 대신 끌려가는 동혁",
+   "visual": "the village lane at grey dawn with the burnt black frame of the hall behind: the tall broad-shouldered young man in the off-white shirt and dark brown trousers is the one walking at frame center with his big hands bound before him with a rope, his square sun-browned face lifted and calm, straw sandals on the dust; the police constable in the black uniform with brass buttons, the peaked cap and the sabre is the one walking a pace behind him at frame right holding the end of the rope in a white-gloved hand; a cluster of villagers in white cotton stand along the mud wall at frame left watching with lowered heads; the charred posts of the hall stand against the thatched roofs and the dull green ridges under the pale dawn sky",
+   "motion": "the tall broad-shouldered young man walking along the lane with his bound hands and the constable behind him are the only things that move: at the start the young man is mid-stride at the center with his big hands bound before him with a rope and his sun-browned face lifted and calm; over the first three seconds he walks steadily forward along the lane with the bound hands held before him and his face lifted, his straw sandals setting down in the dust, while the police constable in the black uniform with the peaked cap and sabre follows a pace behind at the same steady pace holding the rope in a white-gloved hand; the cluster of villagers in white cotton along the mud wall stand still with lowered heads; the charred black posts of the hall, the thatched roofs and the dull green ridges under the pale dawn sky hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "yeongsin",
+    "school",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "홀로 남은 영신",
+   "visual": "the new school yard at dusk: the slender young woman in the off-white jeogori and black skirt is the one standing alone in the open doorway of the plank-walled school at frame center, one thin hand on the door frame and the other pressed to her chest, her pale oval face turned toward the empty swept yard and her steady eyes shadowed; a row of small slates lies stacked on the step beside her feet; the rusty tin roof and the low fence catch the last dull yellow light, the plain wooden gate stands open at frame right, thatched roofs and dull green ridges darken under the fading sky beyond the fence; no sign or lettering anywhere",
+   "motion": "the slender young woman standing alone in the open doorway of the school is the only one who moves, and barely: at the start one thin hand rests on the door frame and the other is pressed to her chest with her pale face turned toward the empty yard; over the whole shot she leans slowly against the door frame and her hand tightens on her chest, her head lowering a little and her shadowed eyes staying on the yard, her feet not moving from the step; the last dull yellow light dims slowly across the swept yard and the rusty tin roof; the stacked slates on the step, the low fence, the open wooden gate, the thatched roofs and the dull green ridges beyond hold completely still; no sign or lettering appears; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "pine",
+    "village_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 언덕 위의 상록수",
+   "visual": "the grassy hill above the village at first light: the single tall evergreen pine with its dark green crown is the tree standing at frame center on the crest of the hill, its trunk dark brown against the pale sky, a few low grasses bending at its foot; the village of thatched roofs lies small on the slope below at frame right with dull yellow fields around it, the dull green ridges layered faint behind under a pale hazy dawn sky; no figures anywhere",
+   "motion": "nothing living moves on this hill at first light; only the wind and the light: at the start the single tall evergreen pine stands on the crest with its dark green crown still and a few low grasses at its foot; over the whole shot the pine's dark crown sways very slowly in a light wind and the grasses at its foot bend and rise together, while the pale light brightens slowly across the dull yellow fields and the thatched roofs of the village below; the dark brown trunk, the village roofs, the dull green ridges and the pale hazy dawn sky hold completely still; no figures, no animals and no new objects appear at any point; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "여교사의 죽음, 무덤가 전나무 아래의 다짐"
+}

@@ -1,61 +1,210 @@
 {
-  "logline": "서자로 태어나 아버지를 아버지라 부르지 못한 소년이, 집을 떠나 도술을 익히고 무리를 이끈다.",
-  "destination": "산속 활빈당의 본거지 — 그가 세운 새로운 자리",
-  "protagonist": "상투를 튼 열여섯 소년, 무명 저고리에 짚신",
-  "setting": "조선 시대, 사대부 저택과 깊은 산중",
-  "anchor": "a sixteen-year-old Korean boy with a topknot, plain hemp jeogori and straw sandals",
-  "palette": "ink-wash mountains, hanji cream, deep indigo night, lantern amber",
-  "voice": "ko-KR-InJoonNeural",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "소년이 마당에서 아버지를 향해 큰절을 올린다.",
-      "visual": "a boy in hemp clothes bowing to the ground before a stern robed nobleman in a tiled-roof courtyard",
-      "motion": "he lowers into the bow toward the man, the nobleman turns away, sleeves swing"
-    },
-    {
-      "n": 2,
-      "beat": "소년이 밤중에 봇짐을 지고 대문을 나선다.",
-      "visual": "a boy with a bundle on his back stepping out through a heavy gate into a moonlit lane",
-      "motion": "the gate swings shut behind him, he strides forward down the lane, his bundle rocks"
-    },
-    {
-      "n": 3,
-      "beat": "산속 바위 위에서 소년이 손을 펼친다.",
-      "visual": "a boy standing on a mist-wrapped mountain boulder with both palms opened before him",
-      "motion": "mist coils up around him toward his hands, pine tops sway, his sleeves lift"
-    },
-    {
-      "n": 4,
-      "beat": "허공에 소년의 모습이 여럿으로 늘어난다.",
-      "visual": "several boys in the same hemp jeogori and straw sandals standing apart across a misty ridge, pine silhouettes between them",
-      "motion": "the duplicate figures fan outward across the ridge, mist streams between them"
-    },
-    {
-      "n": 5,
-      "beat": "관아 곳간 문이 저절로 활짝 열린다.",
-      "visual": "the heavy doors of a government storehouse swinging open at night, grain sacks stacked inside",
-      "motion": "the doors swing outward, a lantern gutters, dust rolls out over the threshold"
-    },
-    {
-      "n": 6,
-      "beat": "굶주린 마을 사람들이 쌀자루를 받아 든다.",
-      "visual": "villagers in worn hanbok receiving rice sacks at dawn in a mountain hamlet, breath steaming",
-      "motion": "the sacks pass forward into their arms, breath clouds rise, straw scatters"
-    },
-    {
-      "n": 7,
-      "beat": "관군의 창끝이 산길을 가득 메우고 올라온다.",
-      "visual": "a line of helmeted soldiers with spears climbing a narrow mountain path toward a ridge",
-      "motion": "the soldiers climb up the path toward the ridge, spear tips sway, dust rises behind"
-    },
-    {
-      "n": 8,
-      "beat": "텅 빈 산마루에 안개와 짚신 자국만 남는다.",
-      "anchor": false,
-      "visual": "an empty mountain ridge in morning mist, straw sandal prints in the wet earth, pines beyond",
-      "motion": "mist rolls across the ridge, the prints fill with water, pine branches stir"
-    }
-  ],
-  "withheld": "홍길동이 바다 건너 율도국을 세워 임금이 된다는 결말"
+ "logline": "서자로 태어나 아버지를 아버지라 부르지 못한 길동이 밤마다 도술을 익히다 첩 초란이 보낸 자객을 도술로 물리치고 집을 떠나, 산속 도적의 두목이 되어 활빈당을 이끌며 해인사 곳간의 쌀을 굶주린 사람들에게 나누고, 임금이 잡으라 하자 짚으로 여덟 길동을 만들어 관군을 농락하며 포도대장을 무릎 꿇린 뒤 병조판서 벼슬을 받는다",
+ "destination": "소설 홍길동전에서 만날 수 있습니다",
+ "protagonist": "gildong_boy",
+ "setting": "조선 시대, 사대부의 기와집과 밤 뜰, 깊은 산속 도적 소굴, 해인사 뜰, 가난한 마을 길, 궁궐 문",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/honggildongjeon/assets",
+ "anchor": "a Korean boy with black hair in a single long braid, a plain off-white cotton jeogori, a round bright face with clear dark eyes",
+ "palette": "deep indigo, ash grey, off-white, dark brown, dull red",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "gildong_boy",
+    "father",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "서자 길동이 아버지에게 절하며 아버지라 부르지 못한다",
+   "visual": "soft daylight in the inner courtyard of the large tiled-roof house: the Korean boy of eleven with the single long braid, the plain off-white jeogori and the baggy off-white trousers is the one kneeling on the swept pale earth at frame centre-left with his forehead almost to the ground and both small hands flat on the earth in front of him, his braid fallen forward over his shoulder; the Korean nobleman of sixty with the long grey beard, the black gat hat and the white silk dopo is the one sitting upright on the edge of the raised wooden veranda at frame right, his hands on his knees, his lined stern face turned down toward the boy; only the old man has a beard, only the old man wears a hat, only the boy kneels on the earth; the paper-paned door behind the veranda, the stone step, the large earthen jar by the low whitewashed wall with the ash grey tiled cap at the far left, a strip of dull red cloth hung over the veranda rail",
+   "motion": "the Korean boy of eleven in the off-white jeogori kneeling on the courtyard earth is the only one who moves, and the old man on the veranda stays seated: at the start the boy's forehead is almost to the ground and his hands are flat on the earth; over the first two seconds he raises his upper body slowly from the bow until he kneels upright with his hands on his thighs, the long braid sliding back over his shoulder, his round face lifting toward the old man with his lips pressed together; in the last two seconds he holds kneeling upright with his lips pressed and his eyes on the old man; the old man keeps his hands on his knees, his bearded face turned down, his body not leaning, his gat hat level; the veranda, the paper door, the stone step, the earthen jar, the whitewashed wall and the dull red cloth hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "gildong_boy",
+    "sword",
+    "garden_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤마다 뜰에서 홀로 검술과 도술을 익히는 길동",
+   "visual": "night in the walled garden: the Korean boy of eleven with the single long braid, the off-white jeogori and the baggy off-white trousers is the one standing on the raked pale earth at frame centre in a wide stance, the straight Korean sword with the plain dark grip already raised in his right hand above his head with the narrow bright blade pointed at the sky and held completely motionless, his left arm stretched out level in front of him with the elbow unbent, both shoulders level, his round face set and his eyes on the blade; the gnarled pine spreads its dark limbs at frame left, the stone lantern beside it, the low stone wall behind, the paper window of the small pavilion glowing dull yellow at frame right, the deep indigo night sky with a few small pale stars above the pine; the garden is bare of any other person",
+   "motion": "the Korean boy of eleven in the off-white jeogori standing in the wide stance is the only one who moves, and the raised sword stays where it is: at the start his right hand holds the sword raised above his head with the blade pointed at the sky and his left arm is stretched out level in front of him; over the first two seconds he sinks slowly lower into the stance, his knees bending and his body lowering a hand's width while the raised sword and the outstretched left arm stay exactly where they are, his braid swinging a little against his back; in the last two seconds he holds the low stance with the blade motionless above him; his straw sandals stay planted in the raked earth; the dark limbs of the gnarled pine sway very slightly; the stone lantern, the low stone wall, the glowing paper window and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "choran",
+    "assassin",
+    "pouch",
+    "back_gate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "길동을 없애려고 자객에게 돈주머니를 건네는 아버지의 첩 초란",
+   "visual": "night at the small back gate in the wall of stone and clay: the Korean woman of thirty in the fine pale green silk jeogori and the long dull red silk skirt, her black hair in the high braided coil, is the one standing just inside the ajar wooden door at frame left, her right hand holding out the small dull red cloth purse tied with a cord toward the man, her narrow pale face with the thin lips turned to him and her narrow eyes half closed; the lean Korean man of forty in the dark grey cotton jacket and trousers with the strip of black cloth tied around his head and the thin black moustache is the one standing in the narrow dark lane outside the gate at frame right, his body turned to her, his right hand open and reaching for the purse, his narrow eyes on it; only she wears silk, only he has a moustache, two separate people with the gate door between them; the ash grey stones of the wall, the deep indigo night sky with a few small pale stars above the wall",
+   "motion": "the Korean woman of thirty in the pale green silk jeogori inside the gate is the one who moves, and the man in the dark grey jacket only closes his hand: at the start her right hand holds the dull red purse out toward him and his open hand is reaching for it; over the first two seconds she pushes the purse slowly forward into his open hand and his fingers close slowly around it, her narrow face turning a little to glance back over her shoulder into the dark yard behind her; in the last two seconds her hand draws slowly back to her chest and his closed hand holds the purse; his feet stay planted in the lane, his head not turning; the ajar gate door, the ash grey wall stones, the dark lane and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "assassin",
+    "gildong_boy",
+    "sword",
+    "study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "한밤중, 칼을 든 자객 특재가 길동의 방문을 연다",
+   "visual": "night inside the small study room: the lean Korean man of forty in the dark grey cotton jacket with the black head cloth is the one standing in the open paper-paned door at frame right, the straight Korean sword with the plain dark grip already raised in his right hand at shoulder height with the narrow bright blade pointed forward and held completely motionless, his narrow eyes on the boy; the Korean boy of eleven with the single long braid and the off-white jeogori is the one sitting cross-legged on the woven straw mat at the low dark wooden desk at frame left, his body turned toward the door, his round face calm and his clear dark eyes on the man, both small hands resting on his knees; only the man holds a sword, only the man has a moustache, only the boy sits; the brass oil dish with its bare flame on the desk throwing dull yellow light across the room, the folded quilt against the plain pale wall, the deep indigo dark of the night beyond the open door",
+   "motion": "the Korean boy of eleven in the off-white jeogori sitting at the desk is the one who moves, and the man in the door holds completely still with the sword already raised: at the start the boy's hands rest on his knees and his calm face is turned to the door; over the first two seconds he raises his right hand slowly from his knee to the level of his chest with the open hand turned outward toward the man and the fingers spread, his face staying calm and his eyes on the man; in the last two seconds the raised hand holds and his face holds; his crossed legs stay still on the mat, his braid not shifting; the man's right hand keeps the sword raised at shoulder height with the blade pointed forward and motionless for the whole shot, his feet planted on the threshold, his head not turning; the bare flame in the brass oil dish flickers faintly; the desk, the folded quilt, the pale walls and the open paper door hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "gildong_boy",
+    "assassin",
+    "sword",
+    "study"
+   ],
+   "refs": [],
+   "beat": "길동이 도술을 부리자 방에 바람이 일고 특재가 쓰러진다",
+   "visual": "night inside the small study room: the Korean boy of eleven with the single long braid and the off-white jeogori is the one standing upright on the woven straw mat at frame left with both arms raised to shoulder height and the fingers of both hands spread wide, his braid and the loose hems of his jeogori blown sideways by a wind, his round face calm and his eyes on the man; the lean Korean man of forty in the dark grey cotton jacket with the strip of black cloth around his head and the thin black moustache is the one lying on his back on the mat at frame right with his arms flung wide, his narrow eyes shut, the straight Korean sword lying on the mat beside his open right hand; only the boy stands, only the man has a moustache; the folded quilt is tumbled against the wall, the flame in the brass oil dish on the desk bent flat sideways by the wind, loose straw from the mat lifted into the air across the room, the paper-paned door swung wide, the plain pale walls",
+   "motion": "the wind in the study room is what moves, and the two people hold their places: at the start the boy's braid and jeogori hems are blown sideways and loose straw hangs in the air; over the first three seconds the wind keeps streaming across the room from left to right so that the loose straw drifts steadily toward the open door, the boy's braid and hems streaming sideways, the flame in the brass oil dish bent flat and wavering, the paper of the door panels trembling; in the last two seconds the wind eases, the straw settling slowly to the mat and the flame straightening; the Korean boy of eleven keeps both arms raised with the fingers spread, his feet planted, his calm face on the man; the lean man in the dark grey jacket lies on his back without stirring, the sword lying still beside his open hand; the desk, the tumbled quilt and the pale walls hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "gildong_boy",
+    "mother",
+    "study",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "새벽에 어머니 앞에 엎드려 하직을 고하는 길동",
+   "visual": "thin grey dawn light inside the small study room: the Korean boy of eleven with the single long braid, the off-white jeogori and the baggy off-white trousers is the one kneeling on the woven straw mat at frame left with his forehead lowered almost to the mat and both small hands flat on the mat before him, his braid fallen forward over his shoulder; the Korean woman of forty in the plain pale grey jeogori and the long dark blue skirt with her black hair in the low bun is the one kneeling upright on the mat at frame right facing him, her thin hands pressed over her mouth, her gentle lined face bent toward the boy with her soft dark eyes wet; only the boy has a braid, only the woman wears a skirt, two separate people; the paper-paned door behind them glowing with thin grey dawn light, the low desk with the brass oil dish now without its flame at the far left, the folded quilt against the pale wall",
+   "motion": "the Korean woman of forty in the pale grey jeogori kneeling at frame right is the one who moves, and the boy stays bowed: at the start her thin hands are pressed over her mouth and her face is bent toward the boy; over the first two seconds her hands lower slowly from her mouth and reach forward to rest on the boy's bowed shoulders, her body leaning forward over him, her lined face lowering toward the back of his head; in the last two seconds her hands hold on his shoulders and her face holds bent low; the Korean boy of eleven keeps his forehead lowered almost to the mat and his hands flat on the mat, his braid not shifting, his body not rising; the grey glow of the paper door, the low desk, the brass oil dish and the folded quilt hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "gildong_boy",
+    "bundle",
+    "main_gate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "길동이 봇짐 하나를 지고 대문 밖으로 나선다",
+   "visual": "night at the tall tiled-roof main gate of the nobleman's house, seen from the lane outside: the Korean boy of eleven with the single long braid, the off-white jeogori and the baggy off-white trousers is the one standing on the lowest of the three stone steps at frame centre, the small bundle wrapped in dull brown cloth tied across his back with a cord, his body turned toward the dark lane at frame left, his round face turned back over his right shoulder toward the heavy dark wooden doors, one of which stands ajar behind him, his straw sandals on the stone; the whitewashed walls stretch away on either side of the gate, the ash grey tiles of the gate roof above, the deep indigo night sky with a few small pale stars; the lane and the gateway are bare of any other person",
+   "motion": "the Korean boy of eleven in the off-white jeogori standing on the lowest stone step is the only one who moves: at the start his face is turned back over his right shoulder toward the ajar door and the bundle rides on his back; over the first three seconds he turns his head slowly forward to face the dark lane and takes two slow steps down off the step onto the lane toward frame left, the bundle shifting a little on his back, his braid swinging, his straw sandals setting down on the packed earth; in the last two seconds he comes to a stop well inside the frame with his face toward the lane; the ajar door, the heavy closed door beside it, the stone steps, the whitewashed walls, the tiled gate roof and the pale stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "gildong",
+    "bandits",
+    "mountain_camp",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "도적 소굴에서 큰 바위를 들어 올린 길동이 두목이 된다",
+   "visual": "soft daylight in the clearing among grey rocks and dark pines high on the mountain: the Korean young man of twenty with the topknot under the black gat hat and the dark blue dopo is the one standing at frame centre with his legs braced wide, the rough rounded grey boulder of solid stone as wide as his shoulders already lifted above his head in both hands with both arms straight up and the elbows unbent, held completely motionless, his lean bright face turned to the camera with the jaw set; the band of a dozen Korean men in patched brown and grey jackets with strips of dark cloth around their heads are the ones standing in a loose half circle behind him at frame left and right with their mouths open and their staffs lowered, all with plain bare faces; only the young man wears a gat hat, only the young man wears blue; the rough wooden hall with the thatched roof behind the band, the circle of stones on the ground at the lower left, the ash grey ridges beyond under the pale sky",
+   "motion": "the Korean young man of twenty in the dark blue dopo holding the rough grey boulder of solid stone overhead is the only one who moves, and the rough grey boulder of solid stone stays where it is: at the start both his arms are straight up with the rough grey boulder of solid stone held motionless above his head and his jaw is set; over the first two seconds he turns his upper body slowly from facing the camera toward the men at frame left, the rough grey boulder of solid stone turning with him and staying high and motionless above his head, his braced legs not shifting, his face turning to them; in the last two seconds he holds turned toward the men with the rough grey boulder of solid stone still overhead; the dozen bandits keep their mouths open and their staffs lowered, their feet not shifting, their heads not turning; the thatched hall, the circle of stones, the grey rocks, the dark pines and the ash grey ridges hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "gildong",
+    "bandits",
+    "temple_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "도적 무리의 이름은 활빈당, 첫 일은 해인사 곳간 털기",
+   "visual": "soft daylight in the stone-paved courtyard of the Buddhist temple: the Korean young man of twenty with the topknot under the black gat hat and the dark blue dopo is the one standing at frame right beside the stone pagoda with his arms folded and his lean bright face turned toward the storehouse; the band of a dozen Korean men in patched brown and grey jackets with strips of dark cloth around their heads are the ones filing out through the open double doors of the wooden storehouse at frame left, each with a bulging grey cloth sack over his shoulder, bent under the weight, plain bare faces; only the young man wears a gat hat, only the young man wears blue, only the young man stands still with folded arms; the tiled-roof halls with eaves painted dull red and green behind the storehouse, the pale overcast sky above the roofs",
+   "motion": "the band of a dozen bandits filing out of the storehouse is what moves, and the young man beside the pagoda holds still: at the start the nearest bandit is on the storehouse threshold bent under a bulging grey sack; over the whole shot the bandits file slowly out through the open double doors one after another and across the stone paving toward frame right, each bent under his sack, the sacks swaying, their straw sandals scuffing on the stones; the Korean young man of twenty in the dark blue dopo keeps his arms folded and his feet planted beside the pagoda, only his eyes following the sacks, his gat hat level; the open storehouse doors, the stone pagoda, the painted eaves and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "gildong",
+    "villagers",
+    "village_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "활빈당이 빼앗은 쌀을 굶주린 사람들에게 나누어 준다",
+   "visual": "soft daylight on the dirt road through the poor village of low thatched huts: the Korean young man of twenty with the topknot under the black gat hat and the dark blue dopo is the one standing at frame centre-right beside a bulging grey cloth sack of rice slit open at the top, his two hands lowering a wooden scoop heaped with white rice into an open cloth sack held up by a thin old woman; the crowd of thin village men, women and children in patched off-white cotton are the ones crowded along the road at frame left and behind the woman, several holding open cloth sacks up toward him, bare feet and straw sandals in the dust; only the young man wears a gat hat, only the young man wears blue; the mud walls and thatched roofs of the huts on either side of the road, the bare-branched tree, the dry pale field at the end of the road under the pale overcast sky",
+   "motion": "the Korean young man of twenty in the dark blue dopo is the one who moves, and the crowd holds its sacks up: at the start his two hands hold the wooden scoop heaped with white rice just above the old woman's open sack; over the first two seconds the scoop tilts slowly and the white rice pours in a steady stream into her sack, the sack sagging as it fills, his lean face bent to the pouring; in the last two seconds the scoop empties and he holds it tilted over the sack; the old woman keeps her sack held up with both hands; the crowd of villagers keep their sacks raised and their feet still in the dust, their heads not turning; the slit rice sack at his side, the mud walls, the thatched roofs, the bare-branched tree and the dry field hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "gildong",
+    "straw_doll",
+    "hilltop",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "임금이 활빈당을 잡으라 하자 길동이 짚으로 여덟 길동을 만든다",
+   "visual": "soft daylight on the bare grassy hilltop above the wide valley: the Korean young man of twenty with the topknot under the black gat hat and the dark blue dopo is the one standing at frame left in the foreground, the small figure of bound yellow straw the length of a forearm held up in his right hand at the level of his face, his lean bright face turned to it; along the ridge behind him at frame centre and right stand seven more young men dressed alike, each in a dark blue dopo and a black gat hat with a topknot, each with a lean beardless face, standing in a loose row facing the camera with their arms at their sides, spaced apart on the grass; the wide valley of pale fields lies below the hilltop, the distant ash grey mountains under the pale overcast sky; eight young men in all",
+   "motion": "the Korean young man of twenty in the foreground holding the straw figure is the only one who moves, and the seven men along the ridge hold completely still: at the start the straw figure is held up in his right hand at the level of his face; over the first two seconds he lowers his right hand slowly until the straw figure hangs at his side, his face turning from the figure to look straight into the camera; in the last two seconds his hand holds at his side and his face holds on the camera; his feet stay planted on the grass; the seven young men along the ridge keep their arms at their sides and their faces toward the camera, their feet not shifting, their gat hats level; the grass on the hilltop stirs very slightly; the pale fields of the valley, the distant ash grey mountains and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "gildong",
+    "soldiers",
+    "village_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "팔도에 한꺼번에 나타나 관군을 농락한 여덟 길동",
+   "visual": "soft daylight on the dirt road through the village of thatched huts: the Korean young man of twenty with the topknot under the black gat hat and the dark blue dopo is the one standing on top of the low mud wall of a hut at frame left, his arms folded, his lean bright face turned down toward the soldiers with a faint smile; the file of Korean soldiers in dark blue military coats and black felt hats are the ones crowded on the road below him at frame centre and right, their long spears already raised with the bright iron points tilted up toward him and held completely motionless, their faces turned up; only the young man wears a gat hat and a dopo, only the soldiers carry spears; the thatched roof of the hut beside him, the mud walls along the road, the bare-branched tree, the dry pale field and the pale overcast sky beyond",
+   "motion": "the Korean young man of twenty in the dark blue dopo standing on the mud wall is the only one who moves, and the soldiers hold their spears raised: at the start his arms are folded and his smiling face is turned down toward the soldiers; over the first two seconds he unfolds his arms slowly and spreads both hands out to either side at the level of his waist with the hands open upward, his chin lifting a little, the faint smile widening; in the last two seconds the spread hands hold and his face holds; his straw sandals stay planted on the top of the wall; the soldiers keep their spears raised with the iron points motionless and their faces turned up, their feet not shifting; the thatched roof, the mud walls, the bare-branched tree, the dry field and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "gildong",
+    "officer",
+    "mountain_camp",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "길동을 잡으러 온 포도대장이 길동 앞에 무릎을 꿇는다",
+   "visual": "soft daylight in the clearing high on the mountain: the Korean young man of twenty with the topknot under the black gat hat and the dark blue dopo is the one sitting on a flat grey rock at frame right with one knee raised and his elbow resting on it, his lean bright face turned down toward the kneeling man; the stout Korean man of fifty in the dark blue military coat with the black felt hat trimmed with the red tassel and the short grey beard is the one kneeling on the ground at frame centre-left with a coil of rough rope bound around his arms and chest, his bearded face lowered, his black boots folded under him; the band of a dozen Korean men in patched brown and grey jackets with strips of dark cloth around their heads are the ones standing in a row behind the kneeling man with their staffs upright, plain bare faces; only the young man wears a gat hat and blue, only the kneeling man has a beard and a red tassel, only the kneeling man is bound; the thatched hall behind the band, the grey rocks, the dark pines and the ash grey ridges under the pale sky",
+   "motion": "the stout Korean man of fifty in the dark blue military coat kneeling bound on the ground is the only one who moves: at the start his bearded face is lowered toward the ground; over the first two seconds he raises his head slowly until his bearded face is lifted toward the young man on the rock, his bound shoulders straining a little against the rope and his mouth opening; in the last two seconds his lifted face holds and his mouth holds open; his folded legs stay under him, the rope stays taut around his chest; the Korean young man of twenty in the dark blue dopo keeps his elbow on his raised knee and his face turned down, his gat hat level, not shifting on the rock; the dozen bandits keep their staffs upright and their feet still; the thatched hall, the grey rocks, the dark pines and the ash grey ridges hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "gildong_official",
+    "cloud",
+    "palace_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "병조판서 벼슬을 받은 길동은 어디로 가려는가 (질문)",
+   "visual": "soft daylight above the tall gate of the royal palace: the Korean young man of twenty in the deep blue silk official robe with the square embroidered chest panel and the black official hat with the two stiff side wings is the one standing upright on the small dense white cloud with the flat underside at frame centre, level with the tiled roof of the two-storey gatehouse painted dull red and green, his body turned to the right toward the pale horizon, his lean bright face in profile lifted a little, both hands folded inside the wide sleeves in front of his chest, his black boots planted on the cloud; below him the stone base of the gate with its three arched passages and the wide stone flagstones, the high stone wall stretching away on either side; the pale overcast sky fills the upper frame; the flagstones below are bare of any person",
+   "motion": "the Korean young man of twenty in the deep blue official robe standing on the white cloud is the only one who moves, and the cloud with him: at the start he stands with his hands folded in his sleeves and his face in profile toward the horizon at frame right; over the first three seconds the small white cloud rises slowly and steadily upward carrying him higher above the tiled roof of the gatehouse, his robe hem and the wings of his official hat lifting a little in the air, his face staying toward the horizon; in the last two seconds the cloud slows and holds high in the frame, still well inside it; his hands stay folded, his boots stay planted on the cloud; the gatehouse, the stone arches, the flagstones, the stone wall and the pale sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "palace_gate",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "새벽의 빈 궁궐 문 (마무리)",
+   "visual": "thin grey dawn light on the tall gate of the royal palace: the stone base with its three arched passages fills the lower middle of the frame, the two-storey wooden gatehouse painted dull red and green with its tiled roof rising above it against the pale band of dawn at the horizon, the wide stone flagstones in the foreground with a few dry brown leaves lying on them, the high stone wall stretching away on either side into the grey light; the three arched passages are dark; the flagstones and the passages are bare of any person",
+   "motion": "the dry brown leaves on the flagstones are what move: at the start a few leaves lie scattered on the stones in front of the gate; over the first three seconds a faint breeze slides two of the leaves slowly across the flagstones from left to right, turning them over once, while the others lie still; in the last two seconds the sliding leaves come to rest and the breeze dies; the pale band of dawn at the horizon brightens very slightly; the stone arches, the painted gatehouse, the tiled roof, the flagstones and the high stone wall hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "바다 건너 율도국의 왕이 되는 뒷이야기"
 }

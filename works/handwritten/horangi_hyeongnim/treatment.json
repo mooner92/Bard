@@ -1,0 +1,183 @@
+{
+ "logline": "산속에서 굶주린 호랑이에게 형님 하고 절한 나무꾼과, 달마다 울타리 안에 놓이던 돼지",
+ "destination": "동화 호랑이 형님에서 만날 수 있습니다",
+ "protagonist": "woodcutter",
+ "setting": "옛날 깊은 산속의 길 없는 숲과 바위, 산 밑 초가의 뒤꼍 울타리, 보름달 밤",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/horangi_hyeongnim/assets",
+ "anchor": "a wiry Korean woodcutter with a topknot and a cloth headband in a patched hemp jacket",
+ "palette": "deep green, off-white, dun brown, ash grey, dark blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "깊은 산속으로 나무하러 간 나무꾼",
+   "visual": "the woodcutter climbing into the deep forest with an empty wooden back-carrier and an axe over his shoulder, pines and grey rocks around him, mist between the trunks; exactly one man",
+   "motion": "the woodcutter's sandals climb over the rocks and the empty carrier sways on his back, mist drifting between the pines; the camera holds on the climbing man"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "tiger",
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "굶주린 큰 호랑이와 딱 마주치다",
+   "visual": "the huge tiger stepping out from between the rocks with its wide mouth open showing all its teeth, the woodcutter frozen a few steps away with the empty carrier on his back and the axe slipping from his hand; exactly one man and one tiger",
+   "motion": "the tiger's open mouth widens and its striped shoulders roll forward while the axe slides from the woodcutter's frozen fingers; the camera holds on the tiger and the frozen man"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "woodcutter",
+    "tiger",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "엎드려 절하며 형님!",
+   "visual": "the woodcutter dropped to his knees and bowing low to the ground before the tiger with the carrier still on his back, the tiger's mouth half closed in surprise; exactly one man and one tiger",
+   "motion": "the woodcutter's forehead touches the ground and the carrier tilts on his back while the tiger's jaw closes slowly; the camera holds on the bowing man and the tiger"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "tiger",
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "사람 놈이 형님이라니",
+   "visual": "close on the tiger's broad striped face with its round yellow eyes wide and its head tilted in disbelief, the top of the woodcutter's bowed head at the lower edge of the frame; exactly one tiger and one man",
+   "motion": "the tiger's tilted head tips further and its round eyes narrow, its whiskers twitching; the camera holds close on the puzzled tiger"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "woodcutter",
+    "tiger",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "어머니의 꿈 — 능청스러운 거짓말",
+   "visual": "the woodcutter kneeling upright with his hands clasped to his chest and tears brimming, talking earnestly up to the tiger, which sits back on its haunches listening with its ears forward; exactly one man and one tiger",
+   "motion": "the woodcutter's clasped hands press to his chest as his mouth moves and the tiger's ears prick forward; the camera holds on the kneeling man and the listening tiger"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "tiger",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "어머니는 안녕하시냐 — 호랑이의 눈물",
+   "visual": "close on the tiger sitting with its great head lowered, big round tears rolling from its round yellow eyes down its striped cheeks; exactly one tiger",
+   "motion": "the big round tears slide down the tiger's striped cheeks one after another and its lowered head sinks lower; the camera holds close on the weeping tiger"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "woodcutter",
+    "tiger",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "어서 가서 어머니를 뵙시다",
+   "visual": "the woodcutter tugging at the tiger's thick foreleg with both hands toward the path downhill, the tiger shaking its great head slowly; exactly one man and one tiger",
+   "motion": "the woodcutter's hands pull at the foreleg and the tiger's head swings slowly from side to side, its paw staying planted; the camera holds on the tugging man"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "tiger",
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "달마다 돼지를 보내 봉양하라",
+   "visual": "the tiger holding up one broad paw and speaking with its head turned aside, the woodcutter listening with his head cocked and his hands on his knees; exactly one man and one tiger",
+   "motion": "the tiger's raised paw pats the air twice and the woodcutter's cocked head nods slowly; the camera holds on the tiger and the listening man"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "house"
+   ],
+   "refs": [],
+   "beat": "초하루와 보름 밤의 돼지 한 마리",
+   "visual": "night: the full moon over the thatched cottage, and inside the brushwood fence of the back yard a fat pig lying on the ground, the striped back of a tiger slipping away over the far side of the fence",
+   "motion": "the striped back slips lower behind the fence and disappears while the pig lies still in the moonlight; the camera holds on the moonlit back yard"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "house"
+   ],
+   "refs": [],
+   "beat": "여름 가을 겨울, 거르지 않고",
+   "visual": "the back yard in winter: snow on the brushwood fence and the bare persimmon tree, a fat pig lying inside the fence under the moon, a line of large paw prints in the snow leading over the fence",
+   "motion": "snow drifts lightly onto the pig and the paw prints, the moon bright over the fence; the camera holds on the snowy back yard"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "woodcutter",
+    "house"
+   ],
+   "refs": [],
+   "beat": "어머니가 돌아가시자 끊긴 소식",
+   "visual": "the woodcutter in white hemp mourning clothes and a hemp mourning hat standing in the empty back yard looking at the bare ground inside the fence, the full moon above; exactly one man",
+   "motion": "the woodcutter's mourning hat dips as he looks down at the bare ground, the fence shadow lying across the yard; the camera holds on the man in white in the empty yard"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "꼬리에 흰 헝겊을 단 작은 호랑이 셋",
+   "visual": "the woodcutter on the mountain path stopping before three small tiger cubs sitting in a row, each with a strip of white cloth tied to its tail; exactly one man and three tiger cubs",
+   "motion": "the three white cloth strips flick as the cubs' tails swing and the woodcutter's carrier settles as he stops; the camera holds on the man and the three cubs"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "우리 할머니는 사람인데 — 작은 호랑이의 이야기",
+   "visual": "close on the three tiger cubs sitting in a row on a flat rock with their mouths open talking up to the woodcutter, who crouches before them with one hand on his knee, the white cloths on their tails; exactly one man and three tiger cubs",
+   "motion": "the cubs' small mouths open and close in turn and the woodcutter's crouching body leans closer; the camera holds on the three cubs and the man"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "woodcutter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "흰 헝겊의 까닭 — 나무꾼의 눈물",
+   "visual": "close on the woodcutter's face as it crumples, tears running down his cheeks, the three white-ribboned tails of the cubs at the lower edge of the frame; exactly one man and three tiger cubs",
+   "motion": "the tears run down the woodcutter's crumpling face and his lips press together, the three ribboned tails swaying below; the camera holds close on the weeping man"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "house"
+   ],
+   "refs": [],
+   "beat": "마무리 — 달빛 든 빈 뒤꼍 스틸",
+   "visual": "closing still: the brushwood fence of the back yard under the full moon, the bare ground inside the fence, a strip of white cloth caught on the brushwood, the bare persimmon tree",
+   "motion": "the strip of white cloth stirs on the brushwood in the night wind and the moon holds over the bare yard; the camera closes with great patience on the cloth on the fence"
+  }
+ ],
+ "withheld": "할머니가 돌아가신 뒤 굴 속에서 어머니를 부르며 울다 죽은 아버지 호랑이의 상복 흰 댕기"
+}

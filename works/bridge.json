@@ -6,74 +6,170 @@
     "방문자는 볼 수 없는 책만 보고 나간다 — 목록에서 나갈 길이 없었다.",
     "열쇠는 공백을 뺀 제목이다(정보나루가 '소년이 온다 :한강 장편소설' 처럼 부제를",
     "달고 오므로 backend 가 콜론 앞만 잘라 쓴다).",
-    "why 는 두 책이 겹치는 지점 한 줄 — 줄거리 요약이 아니라 왜 이어지는가."
+    "why 는 두 책이 겹치는 지점 한 줄 — 줄거리 요약이 아니라 왜 이어지는가.",
+    "_series 에 적힌 접두어로 시작하는 제목은 시리즈로 보고 한 줄로 접는다(흔한남매 4종이 30위 안에 넷 → 하나)."
   ],
   "소년이온다": {
-    "work": "tolstoy", "title": "사람은 무엇으로 사는가",
+    "work": "tolstoy",
+    "title": "사람은 무엇으로 사는가",
     "why": "사람을 사람답게 지키는 것이 무엇인지 묻는 이야기"
   },
   "작별하지않는다": {
-    "work": "memilkkot_pil_muryeop", "title": "메밀꽃 필 무렵",
+    "work": "memilkkot_pil_muryeop",
+    "title": "메밀꽃 필 무렵",
     "why": "오래 안고 걸어온 기억을 밤길에서 꺼내 놓는 이야기"
   },
   "안녕이라그랬어": {
-    "work": "baettaragi", "title": "배따라기",
+    "work": "baettaragi",
+    "title": "배따라기",
     "why": "한순간의 오해가 평생의 회한으로 남는 이야기"
   },
   "혼모노": {
-    "work": "dorieon_geureiui_chosang", "title": "도리언 그레이의 초상",
+    "work": "dorieon_geureiui_chosang",
+    "title": "도리언 그레이의 초상",
     "why": "진짜 얼굴은 어디에 있는가를 끝까지 밀어붙이는 이야기"
   },
   "불편한편의점": {
-    "work": "unsu_joteun_nal", "title": "운수 좋은 날",
+    "work": "unsu_joteun_nal",
+    "title": "운수 좋은 날",
     "why": "하루 벌어 하루 사는 사람의 하루를 그대로 따라가는 이야기"
   },
   "모순": {
-    "work": "nalgae", "title": "날개",
+    "work": "nalgae",
+    "title": "날개",
     "why": "제 삶을 한 발 물러나 구경하는 사람의 내면"
   },
   "절창": {
-    "work": "operaui_yuryeong", "title": "오페라의 유령",
+    "work": "operaui_yuryeong",
+    "title": "오페라의 유령",
     "why": "목소리 하나에 사로잡힌 사람들의 이야기"
   },
   "홍학의자리": {
-    "work": "baseukeobil_gamunui_gae", "title": "바스커빌 가문의 개",
+    "work": "baseukeobil_gamunui_gae",
+    "title": "바스커빌 가문의 개",
     "why": "안개 속에서 정체를 쫓다 제 쪽이 흔들리는 이야기"
   },
   "흔한남매": {
-    "work": "dongbaekkkot", "title": "동백꽃",
+    "work": "dongbaekkkot",
+    "title": "동백꽃",
     "why": "티격태격하다 마음이 맞닿는 두 아이의 해학"
   },
   "괴테는모든것을말했다": {
-    "work": "peurangkensyutain", "title": "프랑켄슈타인",
+    "work": "peurangkensyutain",
+    "title": "프랑켄슈타인",
     "why": "제가 만들어낸 것에 끝내 사로잡히는 사람의 이야기"
   },
   "프로젝트헤일메리": {
-    "work": "haejeo_2manri", "title": "해저 2만리",
+    "work": "haejeo_2manri",
+    "title": "해저 2만리",
     "why": "아무도 가 본 적 없는 곳으로 내려가는 항해"
   },
   "나의완벽한장례식": {
-    "work": "keuriseumaseu_kaereol", "title": "크리스마스 캐럴",
+    "work": "keuriseumaseu_kaereol",
+    "title": "크리스마스 캐럴",
     "why": "자기 마지막을 미리 들여다보고 돌아오는 이야기"
   },
   "수박수영장": {
-    "work": "bombom", "title": "봄봄",
+    "work": "bombom",
+    "title": "봄봄",
     "why": "시골 여름의 감각과 웃음이 그대로 살아 있는 이야기"
   },
   "채식주의자": {
-    "work": "kafka", "title": "변신",
+    "work": "kafka",
+    "title": "변신",
     "why": "달라져 버린 몸을 가족이 어떻게 바라보는가"
   },
   "파친코": {
-    "work": "gamja", "title": "감자",
+    "work": "gamja",
+    "title": "감자",
     "why": "가난이 한 사람을 어디까지 밀어내는지 지켜보는 이야기"
   },
   "아버지의해방일지": {
-    "work": "redimeideu_insaeng", "title": "레디메이드 인생",
+    "work": "redimeideu_insaeng",
+    "title": "레디메이드 인생",
     "why": "배운 사람이 갈 자리를 찾지 못하는 시대의 초상"
   },
   "달러구트꿈백화점": {
-    "work": "keuriseumaseu_kaereol", "title": "크리스마스 캐럴",
+    "work": "keuriseumaseu_kaereol",
+    "title": "크리스마스 캐럴",
     "why": "하룻밤의 방문이 한 사람을 바꾸어 놓는 이야기"
+  },
+  "자몽살구클럽": {
+    "work": "majimak_ipsae",
+    "title": "마지막 잎새",
+    "why": "죽고 싶던 마음을 곁의 누군가가 제 목숨으로 살려 내는 이야기"
+  },
+  "급류": {
+    "work": "gyeonu_jingnyeo",
+    "title": "견우직녀",
+    "why": "물을 사이에 두고 갈라진 두 사람이 다시 닿기를 기다리는 이야기"
+  },
+  "이중하나는거짓말": {
+    "work": "tom_soyeoui_moheom",
+    "title": "톰 소여의 모험",
+    "why": "비밀을 나눠 가진 아이들이 서로를 지키는 이야기"
+  },
+  "순례주택": {
+    "work": "heungbujeon",
+    "title": "흥부전",
+    "why": "가진 것 없는 집이 오히려 넉넉하게 사람을 들이는 이야기"
+  },
+  "고양이해결사깜냥": {
+    "work": "janghwa_goyangi",
+    "title": "장화 신은 고양이",
+    "why": "꾀 많은 고양이가 사람의 일을 해결해 주는 이야기"
+  },
+  "긴긴밤": {
+    "work": "beuremen_eumakdae",
+    "title": "브레멘 음악대",
+    "why": "버려진 동물들이 서로의 곁이 되어 긴 밤을 건너는 이야기"
+  },
+  "나미야잡화점의기적": {
+    "work": "tolstoy",
+    "title": "사람은 무엇으로 사는가",
+    "why": "낯선 이의 편지 한 장이 사람을 살리는 이야기"
+  },
+  "가공범": {
+    "work": "juhongsaek_yeongu",
+    "title": "주홍색 연구",
+    "why": "작은 단서로 사건의 진짜 얼굴을 찾아가는 첫 탐정 이야기"
+  },
+  "박곰희연금부자수업": {
+    "work": "geum_ttaneun_kongbat",
+    "title": "금 따는 콩밭",
+    "why": "금이 묻혔다는 말에 멀쩡한 밭을 파헤친 사람의 이야기"
+  },
+  "바깥은여름": {
+    "work": "halmeoni_jugeum",
+    "title": "할머니의 죽음",
+    "why": "가까운 이를 잃는 자리에 남는 마음을 들여다본 이야기"
+  },
+  "어른의행복은조용하다": {
+    "work": "mannyeon_syeocheu",
+    "title": "만년 셔츠",
+    "why": "가진 것 없이도 조용히 웃는 소년의 이야기"
+  },
+  "_series": [
+    "흔한남매"
+  ],
+  "세종의나라1(양장)": {
+    "work": "honggildongjeon",
+    "title": "홍길동전",
+    "why": "조선을 제 손으로 바꿔 보려던 사람의 이야기"
+  },
+  "세종의나라1": {
+    "work": "honggildongjeon",
+    "title": "홍길동전",
+    "why": "조선을 제 손으로 바꿔 보려던 사람의 이야기"
+  },
+  "세종의나라": {
+    "work": "honggildongjeon",
+    "title": "홍길동전",
+    "why": "조선을 제 손으로 바꿔 보려던 사람의 이야기"
+  },
+  "단한번의삶": {
+    "work": "san_hyoseok",
+    "title": "산",
+    "why": "한 번뿐인 삶을 제 식대로 살기로 한 사람의 이야기"
   }
 }

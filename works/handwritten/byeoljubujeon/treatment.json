@@ -1,115 +1,198 @@
 {
- "logline": "용왕의 병을 고칠 토끼의 간을 구하러, 자라가 뭍으로 올라간다.",
- "destination": "물속 용궁 — 토끼가 제 발로 따라 들어가는 곳",
- "protagonist": "등딱지가 두꺼운 늙은 자라",
- "setting": "조선의 옛이야기 속 바닷속 용궁과 산기슭",
- "anchor": "an old soft-shelled turtle with a thick ridged shell and a long wrinkled neck",
- "palette": "deep sea blue-green, coral red, hanji cream, warm amber, mountain green",
- "voice": "ko-KR-BongJinNeural",
- "personas": {
-  "turtle": {
-   "label": "자라",
-   "desc": "an old soft-shelled turtle with a thick ridged shell, long wrinkled neck, small dark eyes, clawed feet",
-   "avoid": "바다거북이 아니다 — 민물 자라의 납작한 등딱지"
-  },
-  "rabbit": {
-   "label": "토끼",
-   "desc": "a lean brown hare with long upright ears, bright round eyes, twitching nose, strong hind legs",
-   "avoid": "흰 애완토끼가 아니다"
-  },
-  "dragon_king": {
-   "label": "용왕",
-   "desc": "a stout crowned figure in flowing sea-green robes with pearl ornaments, long white beard, seated",
-   "avoid": "서양식 용이 아니다 — 사람의 모습을 한 왕이다"
-  },
-  "sea_palace": {
-   "label": "용궁",
-   "desc": "an undersea palace of coral pillars and pearl inlay, drifting kelp, shafts of blue light"
-  },
-  "hillside": {
-   "label": "산기슭",
-   "desc": "a Korean pine hillside above a shore, low scrub, grey rocks, distant water"
-  }
- },
+ "logline": "병든 용왕의 약이 뭍의 토끼 간뿐이라는 말에 늙은 자라 별주부가 나서서 뭍으로 올라가 산기슭의 토끼를 용궁 자랑으로 꾀어 등에 태우고 깊은 물속 용궁으로 데려오고, 게 병졸에게 붙들려 용왕 앞에 끌려나온 토끼가 쟁반의 칼 앞에서 태연히 배를 두드리며 두 앞발을 들어 보인다",
+ "destination": "소설 별주부전에서 만날 수 있습니다",
+ "protagonist": "turtle",
+ "setting": "옛이야기 속 깊은 바닷속 용궁과 그 문, 물가의 바위와 산기슭",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/byeoljubujeon/assets",
+ "anchor": "an old soft-shelled turtle with a thick ridged olive-brown shell, a long wrinkled neck and a pointed snout, a plain animal",
+ "palette": "dark blue-green, off-white, dull red, sand yellow, ash grey",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
-    "dragon_king",
-    "sea_palace"
+    "dragon",
+    "courtiers",
+    "coral_bed",
+    "dragon_hall"
    ],
-   "beat": "용왕이 산호 기둥 사이에 몸져누워 있다.",
-   "visual": "a crowned figure in sea-green robes lying on a coral dais in an undersea palace",
-   "motion": "kelp drifts across the dais, blue light shifts over him, pearls sway on their strings"
+   "refs": [],
+   "beat": "깊은 바닷속 용궁의 용왕이 병에 걸려 몸져눕는다",
+   "visual": "inside the great hall of the undersea palace between the tall pillars of red coral: the great dragon king with the long scaled body of dark blue-green, the mane of pale whiskers and the two branching horns is the one lying slack along the wide bed of pale pink coral at frame centre, its head resting on its clawed forefeet, its golden eyes half closed, its long body drooping over the sides of the bed; the six large silver fish, the pale octopus and the three pink shrimp are the ones gathered in a loose half circle on the pale sand floor before the bed at the bottom of the frame, all turned toward the dragon; the canopy of green seaweed drifts above the bed, shafts of pale light fall through the dark blue-green water, ash grey shadows lie between the coral pillars",
+   "motion": "the great dragon king lying on the coral bed is the one that moves, and only a little, while the sea creatures hold their places: at the start its head rests on its clawed forefeet with the golden eyes half closed; over the first three seconds its long body rises and sinks slowly with one deep breath, the pale whiskers of its mane lifting and settling in the water, its half-closed eyes closing slowly; in the last two seconds the body settles and the eyes stay closed; the silver fish, the octopus and the shrimp keep their half circle on the sand, only their fins and feelers stirring slightly; the seaweed canopy drifts slowly; the coral pillars and the shafts of light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "turtle",
-    "sea_palace"
+    "courtiers",
+    "dragon",
+    "coral_bed",
+    "dragon_hall"
    ],
-   "beat": "자라가 용왕 앞에 나아가 목을 뺀다.",
-   "visual": "an old turtle stretching its long neck up before a coral throne in an undersea palace",
-   "motion": "its neck stretches upward toward the throne, silt lifts off the floor, kelp bends"
+   "refs": [],
+   "beat": "약은 뭍의 토끼 간뿐이라는데 신하들은 서로 눈치만 본다",
+   "visual": "inside the great hall of the undersea palace, close on the sea animals before the coral bed: the six large silver fish, the pale octopus, the three pink shrimp and the two small red crabs are the ones gathered on the pale sand floor at the lower half of the frame, the fish turned sideways to glance at one another with their round eyes, the octopus drawn back with its arms folded under it, the crabs edging apart; behind them at the top of the frame the great dragon king with the dark blue-green scaled body lies on the wide bed of pale pink coral with its horned head raised a little, its golden eyes open on the sea animals; the tall pillars of red coral on either side, drifting green seaweed, shafts of pale light through the dark blue-green water",
+   "motion": "the fish, the octopus, the shrimp and the crabs on the sand are what move, and the dragon king holds its raised head: at the start the silver fish are turned sideways glancing at one another and the crabs are edging apart; over the first three seconds the fish drift slowly backward a fin's length away from the bed, turning their round eyes from one to another, the octopus drawing its folded arms tighter under it and the small crabs scuttling slowly sideways a claw's width; in the last two seconds the creatures hold their new places; the dragon king keeps its horned head raised with its golden eyes on them, its body slack on the coral; the coral pillars, the seaweed and the shafts of light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "turtle",
-    "hillside"
+    "dragon",
+    "dragon_hall"
    ],
-   "beat": "자라가 바위 뭍으로 기어 올라온다.",
-   "visual": "an old turtle hauling itself out of the shallows onto grey shore rocks below a pine hill",
-   "motion": "it drags forward up the rocks away from the water, water sheets off its shell"
+   "refs": [],
+   "beat": "그때 용왕 앞에 나선 늙은 자라, 별주부",
+   "visual": "inside the great hall of the undersea palace, close on two heads facing each other with the coral bed out of the frame: the soft-shelled turtle's small flat scaly reptile head with the pointed snout and the small round black eyes, on its long leathery neck, is the one at the lower left of the frame, the snout lifted and the round eyes turned up, the top of its thick ridged olive-brown shell just showing at the bottom edge; the great dragon king's horned head with the golden eyes, the mane of pale whiskers and the two branching horns is the one filling the upper right of the frame, lowered toward the turtle with its jaws closed and its whiskers drifting; a single tall pillar of red coral behind them, strands of green seaweed drifting in the dark blue-green water, a shaft of pale light between the two heads; only the turtle has a shell, only the dragon has horns; nothing else lies between them",
+   "motion": "the soft-shelled turtle's flat scaly head on its long leathery neck is the one that moves, and the dragon's head holds lowered: at the start the turtle's snout is lifted with its small round black eyes turned up to the dragon; over the first three seconds the turtle's neck stretches slowly further up toward the dragon's jaws and then its head bows slowly down until the snout points at the sand, the leathery neck curving; in the last two seconds the head holds bowed low; the dragon king keeps its horned head lowered with its golden eyes on the turtle, only the pale whiskers of its mane drifting; the red coral pillar, the seaweed and the shaft of light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
     "turtle",
-    "rabbit",
-    "hillside"
+    "shore",
+    "day_bg"
    ],
-   "beat": "자라가 토끼에게 바다 쪽을 가리킨다.",
-   "visual": "an old turtle facing a brown hare on a pine hillside, one clawed foot lifted toward the water",
-   "motion": "its foot lifts toward the water, the hare's ears swing forward, grass bends"
+   "refs": [],
+   "beat": "자라가 며칠을 헤엄쳐 물가 바위 뭍으로 힘겹게 기어오른다",
+   "visual": "soft daylight on the rocky shore: the old soft-shelled turtle with the thick ridged olive-brown shell and the long wrinkled neck is the one hauling itself up onto a wet ash grey rock at the edge of the grey-green sea at frame centre, its two front flippers spread flat on the rock and its hind flippers still in the small waves, water streaming off its ridged shell, its long neck stretched forward and its pointed snout pointed up the shore; small waves wash against the rocks on both sides, the strip of sand yellow beach beyond at frame left, dark pines on the slope above under the pale sky; the shore is bare of any other creature",
+   "motion": "the old soft-shelled turtle on the wet rock is the only one that moves, and the sea with it: at the start its front flippers are spread flat on the rock with its hind flippers in the waves; over the first three seconds it drags its heavy shell slowly forward up the rock a flipper's length at a time, the hind flippers pushing and scraping, water streaming off the shell, its long neck straining forward; in the last two seconds it comes to rest well inside the frame with all four flippers on the rock, its neck sinking a little; small waves keep washing slowly against the rocks below; the sand beach, the dark pines and the pale sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
     "turtle",
-    "rabbit"
+    "rabbit",
+    "hillside",
+    "day_bg"
    ],
-   "beat": "토끼가 자라 등에 올라탄다.",
-   "visual": "a brown hare perched on an old turtle's ridged shell moving out through shallow water",
-   "motion": "they move forward into the water away from shore, ripples spread, the hare's ears flatten"
+   "refs": [],
+   "beat": "산기슭에서 자라가 귀가 긴 토끼와 마주친다",
+   "visual": "soft daylight on the grassy hillside: the old soft-shelled turtle with the thick ridged olive-brown shell and the long wrinkled neck is the one standing on the grass at frame left with its long neck raised and its pointed snout turned toward the rabbit; the plain grey-brown rabbit with the long upright ears, the white belly and the large dark eyes is the one sitting upright on its haunches on the grass at frame right facing the turtle, its ears standing straight up, its small nose toward the turtle, a pace of grass between them; only the turtle has a shell, only the rabbit has long ears, two separate animals; dark pines and ash grey rocks behind them, small wild flowers in the grass, the grey-green sea far below at the edge of the frame under the pale sky",
+   "motion": "the plain grey-brown rabbit sitting on the grass is the one that moves, and the turtle holds its raised neck: at the start the rabbit's ears stand straight up and its nose is toward the turtle; over the first two seconds the rabbit's long ears swivel slowly forward toward the turtle and its nose twitches in a steady flutter, its head tilting slowly to one side; in the last two seconds the ears hold forward and the head holds tilted; its haunches stay on the grass, no hop; the old turtle keeps its neck raised and its flippers planted; the pines, the rocks, the wild flowers and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
+    "turtle",
     "rabbit",
-    "sea_palace"
+    "hillside",
+    "day_bg"
    ],
-   "beat": "토끼가 용궁 한가운데 내려선다.",
-   "visual": "a brown hare standing among coral pillars in an undersea palace, kelp drifting overhead",
-   "motion": "the hare turns on the spot among the pillars, kelp sways, blue light ripples"
+   "refs": [],
+   "beat": "바다 쪽을 가리키며 용궁 자랑을 늘어놓는 자라",
+   "visual": "soft daylight on the grassy hillside, seen from the side: the old soft-shelled turtle with the thick ridged olive-brown shell and the long wrinkled neck is the one standing on the grass at frame right with its long neck stretched out and its pointed snout pointed down the hillside toward the grey-green sea far below at the left edge of the frame, its mouth open; the plain grey-brown rabbit with the long upright ears and the white belly is the one sitting upright on its haunches on the grass at frame centre-left beside the turtle, its head turned to follow the turtle's snout toward the sea, its ears leaning that way; only the turtle has a shell, only the rabbit has long ears; dark pines and ash grey rocks behind, small wild flowers, the pale sky",
+   "motion": "the old soft-shelled turtle standing on the grass is the one that moves, and the rabbit only leans: at the start the turtle's neck is stretched out with the snout pointed toward the sea and its mouth open; over the first three seconds the turtle's neck sweeps slowly a little further out toward the sea and its head bobs slowly up and down twice as its mouth opens and closes in speech, its flippers planted; in the last two seconds the neck holds stretched and the mouth holds open; the rabbit keeps its head turned toward the sea and its ears leaning that way, its haunches on the grass, no hop; the pines, the rocks, the wild flowers and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
     "rabbit",
-    "dragon_king"
+    "turtle",
+    "shore",
+    "day_bg"
    ],
-   "beat": "토끼가 용왕 앞에서 두 발을 들어 보인다.",
-   "visual": "a brown hare on its hind legs before a crowned figure on a coral throne, forepaws raised",
-   "motion": "its forepaws lift and spread, the crowned figure leans forward, pearls swing"
+   "refs": [],
+   "beat": "솔깃해진 토끼가 자라의 넓은 등에 올라탄다",
+   "visual": "soft daylight on the rocky shore at the water's edge: the old soft-shelled turtle with the thick ridged olive-brown shell as wide as a large tray and the long wrinkled neck is the one standing on the wet ash grey rock at frame centre with its flippers planted and its neck stretched toward the grey-green sea; the plain grey-brown rabbit with the long upright ears and the white belly is the one crouched on top of the turtle's ridged shell with all four paws gripping the ridges, its ears laid back, its large dark eyes on the water ahead; only the turtle has a shell, only the rabbit has long ears, the rabbit on top of the turtle; small waves wash against the rock, the strip of sand yellow beach behind at frame left, dark pines above under the pale sky",
+   "motion": "the plain grey-brown rabbit on the turtle's shell is the one that moves, and the turtle holds its stance: at the start the rabbit crouches on the ridged shell with all four paws gripping and its ears laid back; over the first two seconds the rabbit shifts its paws slowly to a tighter grip on the ridges and presses its body lower onto the shell, its laid-back ears flattening further and its nose twitching; in the last two seconds the rabbit holds pressed low; the turtle keeps its flippers planted on the wet rock and its neck stretched toward the sea; small waves wash slowly against the rock below; the sand beach, the pines and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 산기슭 바위에 물자국만 남는다.",
-   "visual": "empty grey shore rocks below a pine hill, a wet trail drying on the stone, water beyond",
-   "motion": "the wet trail shrinks on the rock, pine tops sway, waves slide up the stones"
+   "cast": [
+    "turtle",
+    "rabbit",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "자라가 토끼를 태우고 깊은 물속으로 내려간다",
+   "visual": "deep dark blue-green water with beams of pale light from above: the old soft-shelled turtle with the thick ridged olive-brown shell and the long wrinkled neck is the one swimming downward at frame centre with its four flat flippers spread wide, its head pointed down and to the left, its ridged shell tilted; the plain grey-brown rabbit with the long upright ears and the white belly is the one clinging flat to the top of the turtle's shell with all four paws, its ears streaming back in the water, its large dark eyes wide, a stream of small silver bubbles rising from its nose; only the turtle has a shell, the rabbit on top of it; streams of small silver bubbles rise past them toward the surface, the pale sand far below at the bottom of the frame",
+   "motion": "the old soft-shelled turtle with the rabbit on its shell is what moves, and the water around them: at the start the turtle's flippers are spread wide with its head pointed down and to the left; over the first three seconds the turtle's four flippers sweep slowly back in one long stroke and the turtle glides slowly downward and to the left through the water a shell's length, still well inside the frame, the rabbit clinging flat with its ears streaming back and bubbles rising from its nose; in the last two seconds the flippers spread again and the glide slows; streams of silver bubbles keep rising past them; the beams of pale light waver slowly; the pale sand far below holds still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "sea_gate",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "물속 산호 기둥 사이로 나타난 용궁의 커다란 문",
+   "visual": "deep dark blue-green water on the sea floor: the huge gate of white shell and red coral is the one standing on the pale sand at frame centre, its two tall doors of white shell closed, its frame of branching red coral rising to a pointed top, drifting strands of green seaweed swaying on either side, beams of pale light from above falling across the white shell, streams of small silver bubbles rising past the coral; the pale sand path leads up to the gate from the bottom of the frame; the sea floor before the gate is bare of any creature",
+   "motion": "the water before the gate is what moves, and the gate holds completely still: at the start the strands of green seaweed sway gently on either side of the closed gate of white shell and red coral; over the first three seconds the seaweed sways slowly from left to right and back again, the beams of pale light from above wavering slowly across the white shell doors, streams of small silver bubbles rising slowly past the branching red coral frame toward the top of the frame; in the last two seconds the seaweed settles and the bubbles thin; the two white shell doors stay closed and do not open, the red coral frame does not sway, the pale sand path before the gate stays smooth and bare, the dark blue-green water beyond stays dim; no creature comes to the gate; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "crab_soldiers",
+    "rabbit",
+    "dragon",
+    "dragon_hall"
+   ],
+   "refs": [],
+   "beat": "용궁에 들어서자 게 병졸들이 토끼를 붙들어 용왕 앞에 끌어낸다",
+   "visual": "inside the great hall of the undersea palace: the two large red crabs with the hard red shells, the eight jointed legs and the stalked black eyes, each holding a long thin spear upright in one claw, are the ones standing on their jointed legs on the pale sand at frame left and right with their free claws gripping the plain grey-brown rabbit between them; the rabbit with the long upright ears and the white belly is the one held at frame centre with its hind paws dragging on the sand and its ears pinned back, its large dark eyes turned up; the great dragon king with the dark blue-green scaled body and the two branching horns is the one raised on the wide bed of pale pink coral at the top of the frame with its horned head lowered over the rabbit, its golden eyes narrowed; only the crabs are red and hold spears, only the rabbit has long ears; the tall pillars of red coral, drifting green seaweed, shafts of pale light through the dark blue-green water",
+   "motion": "the two large red crabs holding the rabbit are what move, and the dragon king holds its lowered head: at the start the crabs grip the rabbit between them with its hind paws dragging on the sand; over the first three seconds the two crabs scuttle slowly forward together a claw's width at a time toward the coral bed, dragging the rabbit between them so that its hind paws furrow the pale sand, the spears in their other claws staying upright; in the last two seconds the crabs stop well inside the frame and hold their grip; the rabbit's ears stay pinned back and its wide eyes stay on the dragon, its body limp between the claws; the dragon king keeps its horned head lowered and its eyes narrowed, its body not shifting; the coral pillars, the seaweed and the shafts of light hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "rabbit",
+    "dragon_hall"
+   ],
+   "refs": [],
+   "beat": "간을 내놓으라는 말에 귀를 바짝 세우고 얼어붙는 토끼",
+   "visual": "inside the great hall of the undersea palace, very close on the rabbit: the plain grey-brown rabbit's face fills the middle of the frame, its long upright ears standing stiff and straight up out of the top of the frame, its large dark eyes wide with the pale sand and the shafts of light reflected in them, its small nose still, its white belly fur showing at the bottom of the frame, its front paws pressed together against its chest; behind it, out of focus, the tall pillars of red coral and the dark blue-green water with drifting green seaweed; the face is a plain animal's face",
+   "motion": "the plain grey-brown rabbit whose face fills the frame is the only one that moves, and only a little: at the start its long ears stand stiff and straight up out of the top of the frame and its wide dark eyes are on the camera with its front paws pressed together against its chest; over the first two seconds its ears stiffen slowly even straighter and quiver very slightly, its front paws press slowly tighter together against the white fur of its chest, its wide eyes stay open without blinking and its small nose is held completely still; in the last two seconds the ears and the paws hold and the eyes stay wide; its head does not turn or tilt, its body does not shrink or rise; the tall pillars of red coral and the strands of green seaweed out of focus behind it drift very slightly in the dark blue-green water; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "tray",
+    "rabbit",
+    "dragon_hall"
+   ],
+   "refs": [],
+   "beat": "토끼 앞에 놓인 쟁반과 번쩍이는 칼",
+   "visual": "inside the great hall of the undersea palace, close and low on the pale sand: the round brass tray with the short straight knife with the bright blade lying on it is the one resting on the pale sand at the lower middle of the frame, the blade catching a shaft of pale light; behind the tray the plain grey-brown rabbit with the long upright ears and the white belly is the one sitting upright on its haunches at frame centre with its front paws pressed together against its chest, its large dark eyes turned down to the knife, its ears standing up; only the rabbit has long ears, the tray in front of it; the tall pillars of red coral out of focus behind, drifting green seaweed, dark blue-green water",
+   "motion": "the plain grey-brown rabbit sitting behind the tray is the only one that moves: at the start its front paws are pressed together against its chest and its eyes are turned down to the knife; over the first two seconds its long ears lower slowly backward until they lie flat along its back and its whole body shrinks slowly lower on its haunches, its eyes staying on the bright blade; in the last two seconds the ears hold flat and the body holds low; no hop, its paws staying pressed together; the brass tray and the knife lie completely still on the sand; the coral pillars and the seaweed hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "rabbit",
+    "dragon",
+    "coral_bed",
+    "dragon_hall"
+   ],
+   "refs": [],
+   "beat": "토끼가 태연히 배를 두드리며 두 앞발을 들어 보인다",
+   "visual": "inside the great hall of the undersea palace before the coral bed: the plain grey-brown rabbit with the long upright ears and the white belly is the one standing up tall on its hind legs on the pale sand at frame centre-left, both front paws raised up open on either side of its head, its ears standing straight up, its large dark eyes on the dragon and its mouth open; the great dragon king with the dark blue-green scaled body and the two branching horns is the one raised on the wide bed of pale pink coral at frame right with its horned head lowered close to the rabbit, its golden eyes wide and its mane of pale whiskers drifting; only the rabbit has long ears and stands on two legs, only the dragon has horns; the tall pillars of red coral behind, drifting green seaweed, shafts of pale light through the dark blue-green water",
+   "motion": "the plain grey-brown rabbit standing on its hind legs is the one that moves, and the dragon king holds its lowered head: at the start both the rabbit's front paws are raised open beside its head and its mouth is open; over the first two seconds its right front paw lowers slowly and pats its white belly twice, slowly, then rises open again beside its head, its ears staying straight up and its mouth moving; in the last two seconds both paws hold raised and open; its hind feet stay planted on the sand; the dragon king keeps its horned head lowered close with its golden eyes wide, only the pale whiskers of its mane drifting; the coral pillars, the seaweed and the shafts of light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "rabbit",
+    "dragon",
+    "dragon_hall"
+   ],
+   "refs": [],
+   "beat": "용왕 앞에서 두 앞발을 든 토끼는 무슨 말을 하려는가 (질문)",
+   "visual": "inside the great hall of the undersea palace, close on the two: the plain grey-brown rabbit with the long upright ears and the white belly is the one at frame left standing on its hind legs with both front paws raised open beside its head, its face turned up toward the dragon with its mouth open and its large dark eyes bright; the great dragon king's horned head with the golden eyes and the mane of pale whiskers is the one filling the right half of the frame, lowered level with the rabbit, its jaws closed, its golden eyes on the rabbit; only the rabbit has long ears, only the dragon has horns and whiskers; the tall pillars of red coral out of focus behind, drifting green seaweed, dark blue-green water with a shaft of pale light between them",
+   "motion": "the plain grey-brown rabbit at frame left is the one that moves, and the dragon's head holds level: at the start both the rabbit's front paws are raised open beside its head and its mouth is open; over the first two seconds the rabbit's head tilts slowly to one side and its mouth moves in speech, its raised paws turning slowly outward a little; in the last two seconds the head holds tilted and the paws hold; its hind feet stay planted; the dragon king's head keeps level with its golden eyes on the rabbit, only the pale whiskers of its mane drifting; the coral pillars and the seaweed out of focus hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "물자국만 남은 물가의 바위 (마무리)",
+   "visual": "soft daylight on the rocky shore: the wet ash grey rocks lie at the edge of the grey-green sea across the middle of the frame, a dark wet trail of drag marks and small flipper prints crossing the strip of sand yellow beach from the water's edge up toward the grass at the top of the frame, small waves washing against the lowest rocks, dark pines on the slope above under the pale sky; the shore is bare of any creature",
+   "motion": "the sea at the rocks is what moves, and the shore holds still: at the start small waves wash against the lowest wet ash grey rocks at the edge of the grey-green sea; over the first three seconds one wave rolls slowly in over the lowest rocks and up onto the sand yellow beach, its thin edge of white foam reaching toward the dark wet trail of drag marks and flipper prints and then sliding slowly back down the sand, the wet rocks glistening as the water leaves them; in the last two seconds the water draws back into the sea and the foam thins to nothing; the trail of prints stays on the sand untouched, the upper rocks stay dry, the grass at the top of the frame does not stir, the dark pines on the slope and the pale sky hold completely still; no creature comes onto the shore; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "토끼가 간을 두고 왔다고 둘러대어 살아 돌아오는 결말"
+ "withheld": "둘러대어 살아 돌아가는 뒷이야기"
 }

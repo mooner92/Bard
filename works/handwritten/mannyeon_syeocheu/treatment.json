@@ -1,0 +1,185 @@
+{
+ "logline": "살이 터지도록 추운 날, 셔츠 없이 맨몸으로 이십 리를 걸어온 창남이의 만년 셔츠",
+ "destination": "동화 만년 셔츠에서 만날 수 있습니다",
+ "protagonist": "changnam",
+ "setting": "1927년 조선의 고등보통학교 — 겨울 교실과 운동장, 불탄 초가 마을, 반쯤 탄 집의 방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/mannyeon_syeocheu/assets",
+ "anchor": "a Korean schoolboy of about thirteen in a worn black school uniform and frayed peaked cap",
+ "palette": "charcoal black, worn navy, dun brown, off-white, pale blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "changnam",
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "박물 시간 — 이 없는 동물은 늙은 영감",
+   "visual": "a 1920s Korean classroom in a natural-history lesson: rows of boys in black uniforms at wooden desks, and one boy — Changnam in his frayed cap — on his feet with his arm shot straight up, grinning, while the teacher in a dark suit at the blackboard turns with raised eyebrows; the other boys twist round in their seats laughing, the coal stove glows by the wall, winter light in the tall windows",
+   "motion": "Changnam's raised arm stays up as he calls out his answer and the whole room erupts in laughter, boys slapping the desks, the teacher's mouth opening in a shout that fights a smile; the stove glows by the wall, and the camera holds on the grinning boy standing among the laughing rows"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "changnam",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "해진 모자에 기운 바지로도 제일 쾌활한 소년",
+   "visual": "the schoolyard at midday: Changnam stands at the center of a ring of uniformed boys, his cap brim frayed and the patches on the seat of his trousers showing as he turns, telling a joke with both hands flying, the boys around him bent double laughing; the long wooden school building stands behind with its tiled roof, bare trees at the yard's edge, frozen earth underfoot",
+   "motion": "Changnam's hands fly with the joke and he spins on his heel so the patches on his trousers show, the ring of boys rocking with laughter and one slapping his knee; the cold wind lifts the brim of his frayed cap, and the camera circles the laughing ring"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "changnam",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "하학 뒤 혼자 남아 철봉 연습",
+   "visual": "the empty schoolyard at dusk: Changnam alone hangs from the iron horizontal bar with both hands, his uniform jacket folded on the frozen ground below, his legs swinging as he strains to swing his body up over the bar, sweat shining on his face in the cold; the long school building dark behind him, the sky going orange behind the bare trees",
+   "motion": "Changnam kicks his legs up again and again toward the bar and swings back hanging each time, sweat flying from his face, his breath steaming in the cold; at last he lets go, stands, and slaps his own patched backside with one hand, muttering, and the camera holds on the small boy and the bar against the orange sky"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "몹시 추운 아침 — 창남이의 빈자리",
+   "visual": "the classroom on a bitterly cold morning: frost feathers on the tall windows, the coal stove roaring, boys in black uniforms whispering across the rows toward one empty desk and bench near the window, its wooden top bare; the teacher at the blackboard glances at the empty seat, and breath steams in the cold air of the room",
+   "motion": "the boys lean across the aisles whispering and pointing at the empty desk, the frost feathers on the window catching the pale light, the stove's glow flickering; the teacher's glance lingers on the bare bench, and the camera drifts along the rows to the empty seat"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "changnam",
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "새끼로 싸맨 구두, 새빨개진 얼굴",
+   "visual": "the classroom door thrown open mid-lesson: Changnam stands in the doorway with his face flushed bright red from the cold, breath steaming, one foot lifted to show his right shoe — wrapped in rags, bound round and round with straw rope and tied over with a handkerchief into a fat shapeless bundle; the boys and the teacher turn toward him, laughter breaking out along the rows",
+   "motion": "Changnam lifts the fat bundled shoe higher for the room to see, grinning through his flushed cheeks while the boys' laughter rolls along the rows and the teacher shakes his head; his breath steams in the doorway, and the camera holds on the raised shoe and the red face"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "changnam",
+    "gym_teacher",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "체조 선생 앞에서 뜀도 달리기도",
+   "visual": "gymnastics on the frozen yard: the stern teacher with his soldier's bearing stands with arms folded staring down at Changnam's rag-bound shoe, while Changnam, unasked, hops high, then sprints a few strides, then marches in place with knees pumping, the bundled shoe flapping, his grin wide; the ranks of uniformed boys watch in two rows behind, breath steaming",
+   "motion": "Changnam hops, sprints and marches in place in quick succession with the bundled shoe flapping, and the teacher's folded arms loosen as his stern face gives a grudging nod; the rows of boys behind steam and shiver, and the camera follows the boy's bouncing feet"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "changnam",
+    "gym_teacher",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "웃옷을 벗으라는 호령 — 창남이만 벗지 않는다",
+   "visual": "the yard after the order to strip: two rows of boys stand in white undershirts with their black jackets folded at their feet, the teacher likewise in his shirt with his tunic folded — and in the front row one boy, Changnam, still buttoned in his black jacket, standing stiff with his eyes on the ground; frozen breath hangs over the rows, bare trees behind",
+   "motion": "the rows of boys in white undershirts shiver and rub their arms while Changnam stands motionless in his buttoned jacket, his head slowly sinking; the teacher's eyes turn to him and hold, breath steaming, and the camera moves down the row to the one black jacket"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "changnam",
+    "gym_teacher",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "선생님, 만년 셔츠도 좋습니까",
+   "visual": "close on Changnam's face: cheeks burning red, eyes lifted at last to the teacher after a long hesitation, his lips forming a question, his hands gripping the hem of his buttoned jacket; the teacher's stern face fills the frame's edge with one eyebrow raised, the pale winter sky behind",
+   "motion": "Changnam's lifted eyes hold on the teacher and his lips move with the question, his fingers tightening on the jacket hem; the teacher's raised eyebrow climbs higher and his mouth opens to repeat the strange word, and the camera holds on the two faces"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "changnam",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "저고리 아래는 맨몸",
+   "visual": "the frozen yard: the small boy Changnam, thirteen years old, stands bare-chested in the freezing air with his thin ribs and pale skin showing, his black school jacket hanging from one hand and his frayed cap still on, his chin up; behind him two rows of uniformed boys in white undershirts burst into laughter with pointing fingers, breath steaming, bare trees and the long school building beyond",
+   "motion": "the boys' laughter rolls along the rows with pointing fingers while the small bare-chested boy stands still with his chin up and the jacket swinging from his hand, his breath steaming; the camera holds on the thin bare-chested boy in the cold"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "gym_teacher",
+    "changnam",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "없어서 못 입었습니다 — 선생의 눈물",
+   "visual": "close on the teacher's face: the stern eyes suddenly wet, a tear standing at the corner, his jaw tight; beyond his shoulder, blurred, the bare-chested boy with his chin up and the rows of boys gone quiet, their laughter gone from their faces",
+   "motion": "the tear at the corner of the teacher's eye swells and runs down beside his nose while his jaw works, the blurred rows behind him going silent one by one; the camera holds on the wet stern eyes"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "changnam",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "이튿날 — 해진 겹바지에 맨발 짚신",
+   "visual": "the school gate the next morning: Changnam walks in through the gate in his black uniform jacket over thin torn traditional Korean padded trousers, bare feet in straw sandals on the frozen ground, his step steady and his face calm; boys crowd the yard inside the gate bent double with laughter and pointing, the long school building behind",
+   "motion": "Changnam walks steadily through the gate in his straw sandals with his calm face forward while the crowd of boys rocks with laughter and pointing, one boy slapping another's back; frost crunches under the sandals, and the camera holds on the calm boy walking through the laughter"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "mother",
+    "changnam",
+    "village"
+   ],
+   "refs": [],
+   "beat": "동네의 큰 불 — 어머니는 옷을 다 이웃에",
+   "visual": "the poor village lane in winter: several thatched houses burned to black beams and ash with thin smoke still drifting, shivering neighbours in thin clothes huddled together in the lane — and at the door of a half-burned house the thin woman in white hanbok holds out folded clothes with both hands to an old man in rags, while Changnam beside her holds a bundle of clothes ready for the next neighbour",
+   "motion": "the thin woman presses the folded clothes into the old man's shaking hands and turns for more, Changnam holding out his bundle to the next neighbour, smoke drifting from the black beams; the huddled neighbours shift closer, and the camera moves along the lane of burned houses"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "changnam",
+    "mother",
+    "home"
+   ],
+   "refs": [],
+   "beat": "두 벌 남았어요 — 셔츠와 양말을 벗어 드린다",
+   "visual": "the dim inner room of the half-burned house at dawn: Changnam, bare-chested, holds out his own white shirt and a pair of socks to his mother with both hands, his face bright and steady; the thin woman in white hanbok sits on the straw mat with her hands reaching to take them, her face turned a little past him toward the paper door; his black jacket lies ready beside him, cold light through the paper door",
+   "motion": "Changnam's hands press the shirt and socks into his mother's reaching hands and his bright face holds steady, while her hands close on the cloth and her face stays turned a little past him toward the paper door; the cold light brightens on the paper, and the camera holds on the shirt passing between the two"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "changnam",
+    "gym_teacher",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "짚신 코에 떨어지는 눈물",
+   "visual": "the yard inside the gate: Changnam stands with his head bowed before the teacher, his black jacket open on his bare chest, his bare feet in straw sandals on the frozen ground — and tears run down from his bowed face and wet the toe of his straw sandal one after another; the teacher's hand rests on his shoulder, the crowd of boys behind gone silent with bowed heads",
+   "motion": "Changnam's tears run down one after another and wet the toe of the straw sandal, his bowed shoulders shaking under the teacher's hand; the boys behind bow their heads one by one in the silence, and the camera closes slowly on the wet toe of the straw sandal"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "yard"
+   ],
+   "refs": [],
+   "beat": "마무리 — 저녁 운동장의 철봉 스틸",
+   "visual": "closing still: the frozen schoolyard at evening, empty of boys, the iron horizontal bar standing alone against the orange sky, a folded black uniform jacket left on the frozen ground beneath it, bare trees at the edge; the long school building dark behind",
+   "motion": "the orange light fades slowly behind the bare trees while a cold wind stirs the folded jacket's collar beneath the bar; the camera closes with great patience on the iron bar against the darkening sky"
+  }
+ ],
+ "withheld": "여덟 살 적부터 눈먼 어머니였다는 마지막 한 줄"
+}

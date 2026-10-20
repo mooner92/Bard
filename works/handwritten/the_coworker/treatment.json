@@ -1,0 +1,162 @@
+{
+ "logline": "8시 45분마다 앉아 있던 괴짜 동료가 사라졌다 — 모두가 사랑한 옆자리 여자를 향한 의심",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "natalie",
+ "setting": "현대 미국 보스턴 — 영양 보충제 회사의 사무실, 나란한 두 책상",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/the_coworker/assets",
+ "anchor": "a beautiful American woman in her early thirties with glossy long blonde hair, in a cream silk blouse and charcoal pencil skirt",
+ "palette": "soft grey, cream, muted teal, pale gold, charcoal",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "사라진 동료의 생사와 행방, 발견되는 시신의 정체, 범인과 반전",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "오전 8시 45분, 늘 자리에 있던 동료 돈의 빈자리",
+   "visual": "early morning in an open-plan American office, empty of people at this corner: at frame centre stands one pale grey cubicle desk that is perfectly, unnaturally neat, its chair pushed in square, its dark switched-off monitor angled exactly straight; on the desk a row of small ceramic turtle figurines stands in a precise line along the partition, a single pencil lies parallel to the keyboard, and a beige cardigan hangs folded over the back of the chair; on the partition wall above hangs a plain round clock with tick marks and thin hands, pointing just past a quarter to nine; other desks in the rows beyond are cluttered and lived-in, bags and coffee cups on them; tall windows at the back show a pale morning city skyline; cool morning light, the empty neat desk strangely loud in the busy room; a small potted cactus sits exactly at the corner of the desk",
+   "motion": "a faint band of morning sunlight creeps slowly across the neat desk top from the windows, and that creeping light is the one movement in the shot: at the start the band of light lies across the near edge of the desk; over the whole five seconds it slides slowly over the desk top toward the partition, warming the pale grey surface, glinting on the glazed shells of the ceramic turtles one after another and lighting the edge of the parallel pencil; the plain round clock on the partition is a fixed painted object, its two thin hands frozen exactly where they stand for the whole shot; the chair pushed in square, the dark monitor, the line of ceramic turtle figurines, the parallel pencil and the folded beige cardigan stay completely still; the cluttered desks beyond and the city skyline hold unchanged; the small potted cactus at the desk corner stays still; the camera holds a medium shot of the empty desk, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "dawn",
+    "office"
+   ],
+   "refs": [],
+   "beat": "초 단위로 움직이던 돈 — 사람보다 거북이, 한 가지 색의 식사",
+   "visual": "a remembered ordinary day at the same neat cubicle desk: the thin American woman in her thirties in a buttoned beige cardigan and large round glasses sits upright at the desk at frame centre facing the camera in three-quarter view, eating lunch from a divided plastic lunch box in which every item is the same shade of orange, carrot sticks, cheese cubes, orange segments and a small orange cupcake; her mousy brown hair is in a low ponytail, her pale serious face intent on the food; beside her keyboard the row of small ceramic turtle figurines stands in a precise line; a small digital timer sits by the lunch box; the plain round clock on the partition shows a quarter to twelve; coworkers at the far desks talk in a cluster with their backs to her; warm midday light from the tall windows, her small neat world closed off from the room",
+   "motion": "the woman lifts a carrot stick from the lunch box and eats with precise small bites, and her eating is the one movement in the shot: at the start she holds a carrot stick just above the divided box; over the whole five seconds she lifts it to her mouth and takes one small bite, then another, chewing evenly, her eyes staying lowered to the lunch box and her upright posture unchanged, her other hand resting flat beside the keyboard; the orange items in the box, the line of ceramic turtles, the small digital timer and the clock on the partition stay completely still; the coworkers in their cluster at the far desks stay with their backs to her, barely moving; the warm midday light holds steady; the camera holds a medium shot across the desk at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "natalie",
+    "office"
+   ],
+   "refs": [],
+   "beat": "옆자리 내털리 — 금발에 빨간 힐, 모두가 사랑하는 영업왕",
+   "visual": "the open-plan office in bright morning light: the beautiful American woman in her early thirties with glossy long blonde hair stands at her own cubicle desk at frame centre, facing the camera, laughing with a bright wide smile, one hand with polished nails tossing her hair back over her shoulder; she wears a fitted cream silk blouse, a charcoal pencil skirt and high red heels, her bold makeup flawless; her desk is decorated with a vase of fresh flowers, framed awards turned with their fronts away, and a coffee cup; two coworkers lean over the partition beside her, smiling at her, their backs half to camera; just beside her desk, at the edge of the frame, the perfectly neat empty desk with its line of ceramic turtles shows; tall windows behind show the city skyline; the light is warm and flattering, the whole office turned toward her",
+   "motion": "the woman tosses her glossy blonde hair back over her shoulder as she laughs, and that toss of her hair is the one movement in the shot: at the start her hand is raised at the side of her head; over the whole five seconds she sweeps her long blonde hair back over her shoulder, the glossy strands lifting and settling across her cream silk blouse, her bright wide smile holding and her head tipping back a little with the laugh, while the two coworkers leaning over the partition smile back at her; her red heels stay planted; the vase of flowers, the turned-away awards, the coffee cup and the neat empty desk with its turtles beside hers stay completely still; the neat desk beside hers keeps its line of turtles perfectly straight; the camera holds a medium shot at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "natalie",
+    "office"
+   ],
+   "refs": [],
+   "beat": "8시 46분이 되도록 오지 않는 돈 — 고개를 갸웃하는 내털리",
+   "visual": "a few minutes before nine in the open-plan office: the beautiful American woman in her early thirties with glossy long blonde hair sits at her own desk at frame left in three-quarter view, a coffee cup halfway to her lips, her head turned toward the neat empty desk beside hers at frame right, her bright face puzzled, eyebrows slightly raised; she wears her fitted cream silk blouse and charcoal pencil skirt, one red heel dangling from her crossed foot; the neighbouring desk sits exactly as it always is, chair pushed in square, dark monitor straight, the line of small ceramic turtle figurines on the partition, the folded beige cardigan on the chair back; the plain round clock above shows a quarter to nine and a little more; other workers bustle in the background with coats and bags; morning light slants across both desks",
+   "motion": "the woman slowly lowers her coffee cup and tilts her head at the empty desk, and that slow tilt is the one movement in the shot: at the start she holds the cup halfway to her lips with her head turned toward the neighbouring desk; over the whole five seconds she lowers the cup slowly to her desk and her head tips a little to one side, her puzzled eyebrows rising higher, her eyes going from the pushed-in chair to the clock above and back, her dangling red heel swinging slowly from her crossed foot; the neat empty desk, its dark monitor, the line of ceramic turtles, the folded beige cardigan and the clock stay completely still; the workers in the background move only slightly; the other workers in the background keep to their own desks; the camera holds a medium shot across both desks, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "그날 이후 흔적 없이 사라진 돈",
+   "visual": "evening in the emptied open-plan office, all the workers gone home: the perfectly neat cubicle desk stands at frame centre under a single row of ceiling lights left on, its chair still pushed in square, its dark monitor straight, the line of small ceramic turtle figurines along the partition, the beige cardigan still hanging folded on the chair back where it was left that morning; a small untouched lunch box sits closed beside the keyboard; the other desks around it are dark and cleared; through the tall windows the city skyline glitters against a deep blue dusk; a cleaning cart stands abandoned at the end of the aisle; the plain round clock above shows a few minutes past five; the whole office is silent, the desk waiting for someone who will not come back; a single sticky note, blank, clings to the edge of the dark monitor, and a coffee cup on the next desk has left a ring",
+   "motion": "the city lights beyond the tall windows slowly brighten as the dusk deepens, and that brightening is the one movement in the shot: at the start the skyline glitters faintly against the deep blue dusk; over the whole five seconds more windows in the distant buildings light up one by one and the sky darkens slowly from deep blue toward night, the reflections of the ceiling lights growing clearer in the window glass; the neat empty desk, its pushed-in chair, the dark monitor, the ceramic turtles, the folded cardigan, the closed lunch box and the abandoned cleaning cart stay completely still; the plain round clock stays fixed on the partition; the blank sticky note on the monitor edge and the coffee ring on the next desk stay still; the camera holds a medium wide shot of the desk and windows, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "natalie",
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "익명의 전화를 받은 내털리 — 거기 누구세요",
+   "visual": "night in a stylish city apartment: the beautiful American woman in her early thirties with glossy long blonde hair sits on the edge of a pale sofa at frame centre, facing the camera, holding a phone pressed to her ear with one hand, her other hand clutching the sofa cushion; she has kicked off her high red heels, which lie on the rug; she wears her fitted cream silk blouse, her bold makeup now slightly smudged at the eyes; her bright face has gone tense, eyes wide and fixed on nothing, lips parted on a question; a low glass coffee table in front of her holds a half-finished glass of wine and her handbag; the large window behind her is full of city lights; a single floor lamp throws warm light across one side of her face, the rest of the room dim; a closed laptop sits on the sofa beside her, and a throw blanket lies crumpled at the far end of the sofa",
+   "motion": "the woman presses the phone harder to her ear and leans forward, and that leaning in is the one movement in the shot: at the start she sits on the edge of the sofa with the phone at her ear; over the whole five seconds she leans slowly forward, pressing the phone closer, her lips moving on a short fearful question, her wide eyes staring at nothing, her other hand tightening on the sofa cushion until her polished nails dig in; the kicked-off red heels on the rug, the glass of wine and the handbag on the coffee table, the floor lamp and the city lights in the window behind her stay completely still; the warm lamplight on one side of her face holds steady; the closed laptop and the crumpled throw blanket on the sofa stay still; the camera holds a medium shot at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "coworkers",
+    "office"
+   ],
+   "refs": [],
+   "beat": "이어지는 동료들의 증언, 내털리를 향하는 의심",
+   "visual": "the open-plan office in grey afternoon light: in the foreground at frame left a small group of American office workers in business casual clothes stand close together by the kitchenette, heads bent toward one another, whispering, several of them glancing sideways toward the right of the frame; at frame right in the middle distance, alone at her desk, sits a woman with glossy long blonde hair seen from behind, the back of her head and cream silk blouse to camera, her shoulders stiff; the neat empty desk with its line of small ceramic turtle figurines stands beside hers; a coffee machine and a water cooler stand in the kitchenette; tall windows behind show a flat grey sky over the skyline; the light is flat and cold; the room feels charged, every glance a quiet accusation; a potted plant stands by the water cooler and a stack of paper cups leans beside it",
+   "motion": "the whispering coworkers turn their heads one by one to look toward the woman at her desk, and that turning of heads is the one movement in the shot: at the start they stand bent together whispering; over the whole five seconds, one after another, their heads turn slowly toward the right of the frame, their eyes settling on the blonde woman at her desk, one of them lifting a coffee cup to hide a remark, while the woman at the desk stays still with the back of her head to camera and her stiff shoulders unmoving the whole time; the coffee machine, the water cooler, the neat empty desk with its turtles and the grey sky in the windows stay completely still; the potted plant by the water cooler and the leaning stack of paper cups stay still; the camera holds a medium wide shot from beside the kitchenette, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "detective",
+    "interview_room"
+   ],
+   "refs": [],
+   "beat": "형사가 탁자 위에 내미는 사진 한 장",
+   "visual": "a bare police interview room under a harsh overhead light: the middle-aged American police detective with a tired lined face and short greying hair sits at the metal table at frame centre facing the camera, in a rumpled grey suit and loosened dark tie, leaning forward on his elbows; with two fingers he slides a single photograph face down across the table toward the camera, its white back blank; his eyes are fixed hard and patient just below the camera; a paper cup of water and a closed folder sit by his elbow; behind him the grey painted wall holds a large flat black one-way glass panel, dull and featureless; the empty second chair's shadow falls across the table from the camera side; the light is harsh and white, the room cold, silent and airless; a wall clock with plain tick marks hangs high on the grey wall, and a small camera sits in the upper corner of the room",
+   "motion": "the detective slides the face-down photograph slowly across the metal table toward the camera, and that sliding is the one movement in the shot: at the start the photograph lies under his two fingers near his side of the table; over the whole five seconds he pushes it steadily across the metal surface toward the camera, its blank white back catching the harsh light, and stops it at the near edge, his hard patient eyes staying fixed just below the camera and his tired face unchanged; his other elbow stays planted on the table; the paper cup of water, the closed folder, the flat black glass panel and the grey walls stay completely still; the harsh overhead light holds steady; the wall clock high on the grey wall and the small camera in the corner stay still; the camera holds a medium shot across the table at seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "모두가 멀리한 여자의 실종, 모두가 사랑한 여자를 향한 의심",
+   "visual": "the two neighbouring cubicle desks side by side in the empty office at dusk, seen straight on, empty of people: on the left, the perfectly neat desk with its chair pushed in square, the dark monitor straight, the line of small ceramic turtle figurines along the partition and the folded beige cardigan on the chair back; on the right, the lively decorated desk with a vase of wilting flowers, framed awards turned with their fronts away, a pair of high red heels kicked off under it and a lipstick-marked coffee cup; a thin low partition divides the two; the last orange dusk light slants across both from the tall windows, laying long shadows; the office around them is dark and empty; the two desks sit side by side, opposite in every way, both abandoned; a small potted cactus sits at the corner of the neat desk, and a lipstick lies uncapped beside the decorated desk's keyboard",
+   "motion": "the last orange dusk light slides slowly off the two desks, and that fading light is the one movement in the shot: at the start the slanting light lies warm across both desks; over the whole five seconds it withdraws slowly toward the windows, sliding off the neat desk and its turtles first and then off the decorated desk, the wilting flowers and the red heels, the long shadows growing and merging until both desks sit in soft dim grey dusk, their own colours kept, only a little darker; the desks themselves, the ceramic turtles, the folded cardigan, the flowers, the turned-away awards, the red heels and the coffee cup stay completely still; the small cactus and the uncapped lipstick stay exactly where they are as the soft grey dimness settles over them; the overall colours of the room stay natural, muted grey and cream, never tinted; the camera holds a medium shot of the two desks straight on, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "내털리의 목소리 사이에 끼어드는 돈의 편지",
+   "visual": "a close view on the neat cubicle desk late at night, empty of people, lit only by a small desk lamp: in the pool of light lies a small stack of letters, their envelopes plain white and sealed, faces turned down, tied together with a thin pale green ribbon; beside the stack sit one small ceramic turtle figurine, a fountain pen with its cap on and a closed notebook; the dark switched-off monitor looms behind; the rest of the office is black beyond the lamp; the edge of the folded beige cardigan shows on the chair back; the letters look carefully kept and private, the ribbon neatly bowed; the scene is intimate and unsettling, a second voice waiting inside the envelopes; a small clear glass paperweight sits on the notebook, and a thin trail of dust shows along the desk edge",
+   "motion": "the small desk lamp flickers faintly over the stack of letters, and that flickering is the one movement in the shot: at the start the lamp throws a steady warm pool across the desk; over the whole five seconds its light dims and brightens faintly twice, so the sealed white envelopes and the pale green ribbon gleam and dull, and the small ceramic turtle's shadow on the desk softens and sharpens; the letters themselves, the ribbon bow, the turtle figurine, the capped fountain pen, the closed notebook and the dark monitor stay completely still; the black office beyond the lamp holds unchanged; the glass paperweight on the notebook and the trail of dust along the desk edge stay still in the faintly flickering lamplight; the camera holds the close shot of the desk, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "누구의 말이 진실인지 — 한 치 앞을 모르게 바뀌는 증언",
+   "visual": "the open-plan office late at night, empty of people, seen from the end of an aisle: rows of dark cubicles recede toward the tall windows, and the city lights outside throw long bars of light and shadow through half-closed blinds across the desks, the aisle carpet and the partitions; at the far end, the two neighbouring desks, one neat and one decorated, sit in the striped light; a single monitor somewhere in the rows glows faintly blank; a chair stands turned out into the aisle at an angle; the air is still; the stripes of light fall at a slant across everything, cutting the room into light and dark; the whole office a place where every story told in the daytime might be a lie; a water cooler stands at the end of the aisle, its tank glowing faintly in the stripes",
+   "motion": "the bars of light from the blinds slide slowly across the dark office as a car passes far below, and that sliding light is the one movement in the shot: at the start the stripes lie slanted across the desks and the aisle; over the whole five seconds a sweep of headlight from the street below moves the whole pattern of stripes slowly across the partitions and the carpet from left to right and lets it settle back, the two desks at the far end brightening and dimming in turn; the rows of dark cubicles, the turned-out chair, the single faintly glowing monitor and the half-closed blinds themselves stay completely still; the water cooler at the end of the aisle stays still, its tank brightening and dimming with the passing stripes; the camera holds a wide shot down the aisle, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "natalie",
+    "office"
+   ],
+   "refs": [],
+   "beat": "익숙한 사무실이 가장 낯선 곳이 되는 순간",
+   "visual": "early the next morning in the open-plan office: the beautiful American woman in her early thirties with glossy long blonde hair stands alone in the aisle between the rows of desks at frame centre, facing the camera, still in yesterday's cream silk blouse and charcoal pencil skirt, her high red heels in one hand, her hair loose and slightly tangled, her makeup faded; her face is pale and drawn, eyes shadowed, looking slowly around the office, the place suddenly unfamiliar to her; around her the rows of pale grey cubicles with dark monitors stand empty; the neat desk with the line of ceramic turtles is just behind her shoulder; tall windows behind show a colourless dawn over the skyline; flat grey light, the familiar room turned cold and strange; her handbag hangs forgotten from one shoulder, and a crumpled jacket lies over the back of the nearest chair",
+   "motion": "the woman turns her head slowly to look around the empty office, and that slow turning is the one movement in the shot: at the start she faces the camera with her red heels hanging from one hand; over the whole five seconds her head turns slowly to the left, her shadowed eyes moving along the rows of empty cubicles and the dark monitors, pausing on the neat desk with its turtles behind her shoulder, her lips pressed together, the heels swinging slightly from her fingers; her bare feet stay planted on the carpet; the rows of desks, the dark monitors, the ceramic turtles and the colourless dawn in the windows stay completely still; the handbag hanging from her shoulder stays still, and the crumpled jacket over the nearest chair stays where it lies; the camera holds a medium shot at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "과연 이 사무실 안에 범인이 있을까",
+   "visual": "a wide view of the whole open-plan office in the grey morning, empty of people, seen from a high corner: rows and rows of pale grey cubicle desks with dark switched-off monitors fill the frame, each desk a small square world of cups, papers and chairs; in the middle of the rows the two neighbouring desks, one perfectly neat with its line of small ceramic turtle figurines, one decorated with flowers and a pair of red heels beneath it, sit side by side; the kitchenette with its coffee machine stands at one end; the tall windows along the far wall show the pale city skyline; the plain round clocks on the partitions all show a quarter to nine; the grey light is flat and even; the office is orderly, ordinary and full of places to hide a secret; a potted tree stands in each far corner and a fire extinguisher hangs on the column by the kitchenette",
+   "motion": "the flat grey morning light over the office slowly warms as the sun rises, and that warming light is the one movement in the shot: at the start the whole office lies in flat grey; over the whole five seconds a pale gold light spreads slowly in through the tall windows across the rows of desks, reaching the two neighbouring desks in the middle and warming the ceramic turtles and the red heels, the shadows of the partitions stretching long across the aisles; the desks, the dark monitors, the chairs, the kitchenette and the clocks on the partitions stay completely still; the potted trees in the far corners and the fire extinguisher on the column stay still, their shadows stretching as the gold light spreads; the camera holds the wide high shot of the office, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "office"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈자리에 남은 작은 도자기 거북이",
+   "visual": "a quiet closing still on the neat cubicle desk in soft morning light, empty of people: a single small ceramic turtle figurine sits alone at frame centre on the desk top, facing the camera, its glazed shell a soft muted green, its small painted eyes calm; the rest of the line of turtles has been cleared away, leaving only faint pale marks in the dust where they stood; behind it the dark switched-off monitor and the pushed-in chair with the folded beige cardigan are softly out of focus; a thin band of morning sunlight falls across the desk and lights the turtle's shell; the office beyond is a pale blur; the image is small, still and unresolved; a small potted cactus sits beside the turtle, slightly out of focus, and the grain of the pale desk top shows in the light",
+   "motion": "a thin band of morning sunlight moves slowly across the desk and over the small ceramic turtle, and that moving light is the one movement in the shot: at the start the band of sunlight lies just to the left of the turtle; over the whole five seconds it creeps slowly to the right across the desk top, climbing over the turtle's glazed shell so it gleams and then passing on, the faint pale marks in the dust where the other turtles stood showing in the light; the turtle itself stays completely still; the dark monitor, the pushed-in chair and the folded beige cardigan in soft focus stay completely still; the small cactus beside the turtle stays still and out of focus, its soft shadow unmoving on the pale desk; the camera holds the close still shot of the turtle on the desk, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

@@ -1,62 +1,200 @@
 {
-  "logline": "농장을 스스로 다스리기로 한 짐말이 가장 성실하게 일할수록, 그가 세운 것은 누구의 것이 되어 가는가.",
-  "destination": "농장 본채의 창문 — 그가 끝내 들여다보게 될 자리",
-  "protagonist": "누구보다 힘이 세고 말수가 적은 늙은 짐말",
-  "setting": "20세기 초 영국의 작은 농장, 헛간과 언덕과 본채",
-  "anchor": "a huge broad-chested chestnut cart horse with a white blaze and worn leather harness",
-  "palette": "overcast northern daylight, wet slate grey, straw ochre, cold green fields",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "헛간에 모인 짐승들 사이에서 짐말의 귀가 곧추선다.",
-      "visual": "a cart horse standing among sheep and hens in a lamplit barn, ears pricked toward a raised platform",
-      "motion": "the horse's ears twitch upright, lantern flame wavers, dust drifts through the beam"
-    },
-    {
-      "n": 2,
-      "beat": "사람이 떠난 마당을 짐말이 가로질러 달린다.",
-      "visual": "a cart horse trotting across an empty muddy farmyard at dawn, an open farmhouse door swinging behind",
-      "motion": "the horse trots forward, the door swings on its hinge, mud sprays from hooves",
-      "anchor": false
-    },
-    {
-      "n": 3,
-      "beat": "새벽마다 그는 혼자 나와 밭고랑을 갈아엎는다.",
-      "visual": "a cart horse dragging a plough alone through a wide field before sunrise, breath steaming in cold air",
-      "motion": "breath steams in bursts, the plough cuts forward, furrow soil folds over"
-    },
-    {
-      "n": 4,
-      "beat": "돼지들이 우유통을 헛간 뒤로 옮기는 것을 본다.",
-      "visual": "a cart horse pausing at a fence, pigs pushing a metal milk pail behind a barn wall in background",
-      "motion": "the pail rocks as it is pushed, the horse turns its head to follow"
-    },
-    {
-      "n": 5,
-      "beat": "그는 풍차에 쓸 돌덩이를 언덕 위로 끌어 올린다.",
-      "visual": "a cart horse straining uphill with a stone block on a sledge, half-built stone tower on the ridge above",
-      "motion": "the horse hauls upward step by step, the sledge grinds up the slope behind it, rope snaps taut"
-    },
-    {
-      "n": 6,
-      "beat": "겨울 폭풍이 하룻밤 사이 풍차를 무너뜨린다.",
-      "visual": "a collapsed stone tower scattered across a snowy ridge at dawn, a cart horse standing among the rubble",
-      "motion": "snow gusts sideways across the rubble, the horse's mane whips, clouds race"
-    },
-    {
-      "n": 7,
-      "beat": "그가 본채 창을 들여다본다면 무엇이 보일까?",
-      "visual": "a cart horse standing outside a lit farmhouse window at night, warm light spilling onto wet stone",
-      "motion": "the horse steps closer to the glass, light flickers, rain streaks the pane"
-    },
-    {
-      "n": 8,
-      "beat": "빈 마당에 풍차 그림자가 길게 눕는다.",
-      "visual": "the long shadow of a half-built stone tower falling across an empty farmyard at dusk",
-      "motion": "the shadow creeps across the mud, a gate swings once, clouds move",
-      "anchor": false
-    }
-  ],
-  "withheld": "도축장으로 향하는 마차와, 마지막 연회의 정체",
-  "voice": "ko-KR-SoonBokNeural"
+ "logline": "헛간의 밤 집회에서 늙은 수퇘지의 꿈을 들은 짐말 복서가 사람이 떠난 농장에서 밭을 갈고 돌을 끌어 올리며 일하는 사이, 돼지들은 계명을 쓰고 우유를 옮기고 스노볼을 쫓아내고 본채의 침대를 차지하며, 풍차가 무너지고 배급이 줄어 다리가 떨리던 복서가 쓰러지자 마차 한 대가 그를 태우러 온다",
+ "destination": "소설 동물농장에서 만날 수 있습니다",
+ "protagonist": "boxer",
+ "setting": "영국 시골의 한 농장 — 큰 헛간과 그 벽, 진흙 마당과 본채, 새벽의 밭, 헛간 뒤 우유통 자리, 풍차를 짓는 언덕과 무너진 언덕, 채석장, 빈 마구간",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/dongmulnongjang/assets",
+ "anchor": "a huge dark brown cart-horse with a white stripe down his nose, hauling a plough and stones on an English farm run by pigs",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "그 수레가 간 곳과, 마지막 잔치의 정체",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "major",
+    "animals",
+    "barn",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 헛간의 짐승들에게 늙은 수퇘지가 꿈 이야기를 한다",
+   "visual": "the dull yellow light of the lantern hanging from the beam in the big barn at night with its timber walls tarred black: the old white boar with the yellowed tusks and the wise heavy face is the one lying at frame centre on the raised platform of straw at the end of the barn with his head lifted and his small eyes on the animals below him, his mouth open; below the platform the backs of the farm animals fill the lower half of the frame in the deep straw, the two cows lying with their heads up, the sheep in a huddle, the hens perched on the beams at the sides, the goat and the grey donkey standing, the pigs sitting in the front row, all facing the platform and none facing the camera; the lantern's light lies on the old boar's white back and on the tarred walls; the deep straw runs to the bottom of the frame; the old boar on the platform is the one face turned to the camera",
+   "motion": "the old boar's lifted head is the one thing that moves, and the animals hold still: at the start his head is lifted with his mouth open toward the animals below; over the first three seconds his head turns slowly from one side of the barn to the other as he speaks, the yellowed tusks catching the lantern light, and his forelegs shift a little in the straw as he raises himself higher; in the last two seconds his head holds turned toward the middle of the barn with his mouth open; the backs of the animals below keep facing the platform, only the goat's ears turning once; the hens on the beams do not stir; the lantern keeps its steady light and does not swing; the tarred walls and the deep straw hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "boxer",
+    "barn",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "짐말 복서의 귀가 그 이야기에 곧추선다",
+   "visual": "the dull yellow light of the lantern in the big barn at night, seen close: the huge cart-horse with the dark brown coat and the white stripe down his nose and the heavy patient face is the one thing filling the frame from the chest up at frame centre, standing in the deep straw with his head lifted high and both his ears pricked straight up and forward toward the far end of the barn, his big dark eyes wide and steady, the lantern light on the white stripe of his nose; the timber walls tarred black rise behind him into the dark; the beam with the lantern crosses the top of the frame; the deep straw shows at the bottom; there is exactly one animal seen close in the picture and his ears are the ones standing straight up",
+   "motion": "the horse's ears are the one thing that moves, and the barn holds still: at the start both ears stand straight up and forward toward the far end of the barn; over the first three seconds one ear turns slowly a quarter to the side and comes back forward, the other staying pricked, his big dark eyes not blinking and his lifted head not lowering, his nostrils widening once; in the last two seconds both ears hold straight up and forward; his feet do not shift in the straw; the lantern keeps its steady light on the white stripe of his nose; the tarred walls, the beam and the deep straw hold completely still; the white stripe down his nose keeps the lantern's light without changing; the straw at his chest does not rustle; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "boxer",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "사람이 떠난 이튿날 아침, 복서가 빈 마당을 힘차게 달린다",
+   "visual": "grey morning light over the muddy farmyard with the stone farmhouse and its green door: the huge cart-horse with the dark brown coat and the white stripe down his nose is the one thing galloping across the yard at frame centre from left to right, seen from the side with all four big feathered hooves off the mud at once and his thick neck stretched out, his mane flying and his heavy face lifted, clods of mud thrown up behind him; the five-barred gate stands open at frame right on the empty lane; the green door of the farmhouse is closed, its chimney cold and clear against the sky; the iron pump stands at frame left; the empty cart stands with its shafts down by the wall; the horse is the one thing moving",
+   "motion": "the galloping horse is the one thing that moves, and the yard holds still: at the start he is at frame centre with all four hooves off the mud; over the whole five seconds he gallops slowly on across the yard toward the open gate by no more than two strides, his hooves coming down and lifting through the stride, his mane and tail flying and the clods of mud thrown up behind him falling back, his lifted face not turning; the open gate does not swing; the closed green door, the smokeless chimney, the iron pump and the empty cart hold completely still; the grey light stays even; the mud of the yard keeps its churned surface except where his hooves have just been; the stone walls of the farmhouse and the wall by the cart keep their grey; nothing comes through the open gate; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "squealer",
+    "snowball",
+    "barn_wall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "돼지들이 마당 헛간 벽에 일곱 계명을 흰 글씨로 쓴다",
+   "visual": "grey daylight on the end wall of the big barn tarred black: the lively white pig with the quick bright face and the pricked ears is the one standing at frame centre on the top rungs of the wooden ladder leaning against the tarred wall with a brush held in his mouth dripping white paint and his forefeet braced on the rung, his bright face turned to the wall; on the tarred wall beside him seven short lines of white paint marks run down the black boards, small and too far to read; the small fat pig with the round cheeks and the small twinkling eyes is the one sitting at frame right at the foot of the ladder holding the pot of white paint steady between his forefeet with his snout lifted to the pig above; the mud of the yard shows at the bottom of the frame; the grey sky lies over the barn's roof; there are exactly two pigs at the wall and the one on the ladder is the one with the brush",
+   "motion": "the pig on the ladder is the one who moves, and the pig below holds still: at the start the brush is in his mouth dripping white paint with his face turned to the wall; over the first three seconds his head moves slowly to press the brush against the tarred boards below the seventh line of marks and draws it slowly along a hand's width, leaving a fresh white stroke, and lifts the brush away; in the last two seconds the brush holds in his mouth away from the wall and the fresh stroke stays; his forefeet do not shift on the rung; the seven lines of white marks stay too small to read; the fat pig at the ladder's foot keeps the paint pot steady between his forefeet and his snout lifted; the ladder does not slide; the mud and the grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "boxer",
+    "field",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "계명이 걸린 헛간 옆 밭을 새벽마다 갈아엎은 것은 복서다",
+   "visual": "grey dawn light over the long field of dark earth in furrows with the hedge at the top of the frame: the huge cart-horse with the dark brown coat and the white stripe down his nose is the one thing at frame centre in the harness of the plough with his thick neck bowed and his big feathered hooves sunk in the dark earth, hauling the plough toward the camera at a slant, the fresh furrow turning over dark and wet behind the share, his heavy patient face bent to the ground and his breath showing white in the cold; the plough's handles stand up behind him on their own, their grips bare; the furrows already turned run in dark lines to the hedge; the rooks sit in a row on the hedge; the grey dawn sky lies low; the horse is the only living thing in the field, the plough's grips bare behind him",
+   "motion": "the horse hauling the plough is the one thing that moves, and the field holds still: at the start he leans into the harness with his neck bowed and his hooves sunk in the earth; over the whole five seconds he hauls slowly forward toward the camera by no more than one stride, his big hooves lifting from the earth and sinking again and the fresh furrow turning over dark behind the share, his bowed neck not lifting and his white breath coming twice; the plough's empty handles sway a little with the pull; the turned furrows, the hedge and the row of rooks on it hold completely still; the low grey dawn light stays even; the dark wet earth of the fresh furrow shines a little as it turns; the rooks on the hedge do not lift; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "pigs",
+    "boxer",
+    "dairy",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "우유통을 헛간 뒤로 옮기는 돼지들을 복서가 멀리서 지켜본다",
+   "visual": "grey daylight at the corner behind the big barn with the wooden fence and the nettles: the four pigs, pink and black, walking on all fours, are the ones at frame left seen from behind going away round the corner of the barn, two of them with a milk pail's handle gripped between their jaws so that the pail swings between them, the other two following, all with their backs to the camera; three more milk pails stand in a row on the ground at frame centre with their milk showing white at the brim; the huge cart-horse with the dark brown coat and the white stripe down his nose is the one standing at frame right at a distance beyond the fence with his heavy patient face turned toward the pigs and the pails and his ears half back, his big feet still in the mud; the tarred wall of the barn runs along the back; the nettles grow at the fence's foot; there are exactly four pigs and one horse in the picture and the pigs have their backs to the camera",
+   "motion": "the pigs with the pail are the ones that move, and the horse holds still: at the start the two pigs have the pail's handle between their jaws with the pail swinging between them; over the whole five seconds the four pigs go slowly on round the corner of the barn away from the camera by no more than two paces, the pail swinging and its milk slopping a little, the two following pigs keeping close behind, none of them turning round; the three pails on the ground keep their places with their milk still; the horse beyond the fence keeps his face turned to the pigs and his ears half back, only his tail swishing once; the tarred barn wall, the fence and the nettles hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "snowball",
+    "napoleon",
+    "animals",
+    "barn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "풍차를 세우자는 돼지 스노볼에 돼지 나폴레옹이 맞선다",
+   "visual": "grey daylight through the open barn doors on the raised platform of straw at the end of the big barn: the lively white pig with the quick bright face and the pricked ears is the one standing at frame left on the platform up on his hind legs with one forefoot pointing at a large sheet of paper pinned to the tarred wall behind him, on which a plain drawing of a tall windmill with four sails is chalked in white lines, his bright face turned to the animals below and his mouth open; the large fierce-looking black boar with the small eyes and the heavy jaw is the one standing at frame right on the platform on all fours with his heavy head lowered and turned toward the white pig, his small eyes narrow and his jaw set; below the platform the backs of the farm animals fill the bottom of the frame facing the two pigs; the lantern hangs dark from the beam; there are exactly two pigs on the platform and the white one is the one pointing",
+   "motion": "the white pig's pointing foot and the black boar's head are the two things that move, and the animals below hold still: at the start the white pig's forefoot points at the chalked windmill and the black boar's head is lowered toward him; over the first three seconds the pointing forefoot taps the drawing twice and holds against it, the white pig's mouth working on, while the black boar's lowered head swings slowly a little further toward the white pig and his small eyes narrow further; in the last two seconds the forefoot holds on the drawing and the boar's head holds low; the chalked windmill on its pinned sheet does not change; the backs of the animals below stay facing the platform with no face turning round; the dark lantern, the tarred walls and the open doors hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "dogs",
+    "snowball",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어느 날 개 아홉 마리가 스노볼을 농장 밖으로 쫓아낸다",
+   "visual": "grey daylight over the muddy farmyard with the five-barred gate: the lively white pig with the quick bright face is the one thing racing away from the camera across the mud at frame centre toward the open gate at the top of the frame, his short legs stretched and his ears flat, seen from behind and small; behind him and nearer the camera the nine huge dogs with the brass-studded collars, black and tan, are the ones streaming across the yard after him in a pack with their jaws open and their backs to the camera, the nearest dog large at the bottom of the frame with mud thrown up from its paws; the stone farmhouse with the green door stands at frame left; the iron pump is at frame right; the open gate shows the grey field beyond; every animal in the picture is seen from behind or in profile, and the white pig is the one thing ahead of the pack",
+   "motion": "the pig and the dogs are the ones that move, and the yard holds still: at the start the white pig races toward the gate with the pack streaming after him; over the whole five seconds the pig runs slowly on toward the open gate, growing a little smaller, and the pack of dogs runs slowly on after him across the mud, their open jaws not closing on him and the gap between them not closing, the nearest dog's paws throwing up mud, none of them turning toward the camera; the open gate does not swing; the stone farmhouse with its green door, the iron pump and the grey field beyond the gate hold completely still; the grey light stays even; the churned mud of the yard keeps its surface except under the running paws; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "boxer",
+    "knoll",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "풍차의 무거운 돌을 언덕 위로 끌어 올린 것도 복서다",
+   "visual": "grey daylight on the low knoll with the stump of the half-built windmill of rough stone: the huge cart-horse with the dark brown coat and the white stripe down his nose is the one thing at frame centre on the slope of the knoll in the harness of the sledge with his thick neck bowed almost to the grass and his big feathered hooves dug deep into the turf, hauling the sledge loaded with three great blocks of limestone up the slope toward the windmill's stump, the rope taut from his collar to the sledge, his heavy patient face set and his eyes half closed with the strain; the pile of limestone blocks stands at frame right by the stump; the fields lie below at the bottom of the frame; the grey sky lies over the knoll; the horse is the only living thing on the knoll, the sledge's traces slack behind him",
+   "motion": "the horse hauling the sledge is the one thing that moves, and the knoll holds still: at the start he leans into the harness with his neck bowed and his hooves dug into the turf; over the whole five seconds he hauls the sledge slowly up the slope by no more than the length of one block, his hooves tearing up the turf and digging in again, the taut rope trembling and the three blocks on the sledge not shifting, his bowed neck not lifting and his half-closed eyes not opening; the stump of the windmill and the pile of blocks beside it hold completely still; the fields below and the grey sky stay as they are; the three limestone blocks on the sledge keep their places against one another; the torn turf behind the hooves lies as it is torn; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "knoll_ruin",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "겨울 폭풍이 하룻밤 사이에 그 풍차를 무너뜨린다",
+   "visual": "grey stormy dawn light on the low knoll with the windmill collapsed into a heap of rough stones at frame centre, the pile of limestone blocks scattered down the slope, the wet grass flattened all one way by the wind of the night: the heap of stones is the one thing on the knoll, its blocks tumbled over one another with the mortar broken between them, one wall still standing to the height of a man at frame left and the rest fallen; a length of rope lies half buried in the stones; the fields below are grey and wet; the grey sky is torn with the last of the storm; the wind still flattens the grass on the knoll; the heap of stones is what is left of the windmill",
+   "motion": "the wind is the one thing that moves, and the stones hold still: at the start the wet grass lies flattened all one way on the knoll; over the whole five seconds the wind presses the grass slowly flatter in a gust and lets it half rise and presses it again, the loose end of the rope among the stones lifting a little and settling, the torn grey sky moving slowly over the knoll; the heap of tumbled stones with its one standing wall keeps its exact shape and no stone shifts; the scattered blocks down the slope keep their places; the grey wet fields below hold completely still; no figure and no animal appears on the knoll; the one standing wall of the windmill keeps its ragged top against the torn sky; the half-buried rope lifts only at its loose end; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "boxer",
+    "knoll_ruin",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "무너진 돌을 처음부터 다시 나르는 복서",
+   "visual": "grey daylight on the low knoll with the windmill collapsed into a heap of rough stones: the huge cart-horse with the dark brown coat and the white stripe down his nose is the one thing at frame centre beside the heap with one great block of limestone held against his chest between his forelegs, straining to push it up onto the beginning of a new low wall of stones laid in a line, his thick neck bowed and his big feathered hooves braced in the wet grass, his heavy patient face set; the heap of tumbled stones rises at frame left with its one standing wall; the new low line of stones runs at frame right, four blocks long; the fields lie grey below; the grey sky lies over the knoll; there is exactly one animal on the knoll and he is the one moving the stone",
+   "motion": "the horse with the block is the one thing that moves, and the knoll holds still: at the start the block is held against his chest between his forelegs with his hooves braced; over the first three seconds he pushes the block slowly up and forward by a hand's width onto the new low line of stones, his neck straining and his braced hooves sliding a little in the wet grass and digging in, his set face not lifting; in the last two seconds the block holds on the line of stones under his chest and he leans on it; the heap of tumbled stones with its one standing wall keeps its shape; the four laid blocks of the new line do not shift; the grey fields below and the grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "boxer",
+    "farmhouse_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그사이 돼지들은 무너진 풍차 대신 본채의 침대를 차지한다",
+   "visual": "black night with stars over the muddy farmyard: the stone farmhouse is the one thing at frame centre with its one upstairs window lit dull yellow and its curtain half drawn, and in the lit window the black shape of a pig's snout and one pricked ear shows against the light, small and plain, the rest of the room hidden by the curtain; the green door below is closed; the huge cart-horse with the dark brown coat and the white stripe down his nose is the one standing at frame right in the mud of the yard with his heavy patient face lifted to the lit window and his ears forward, his big feet still; the iron pump stands at frame left; the mud of the yard is pale in the starlight; there is exactly one animal in the yard and the shape in the window is the only other thing alive",
+   "motion": "the shape in the window is the one thing that moves, and the horse holds still: at the start the black shape of the pig's snout and ear shows against the lit window; over the first three seconds the snout turns slowly toward the curtain and the ear tilts, and the half-drawn curtain moves a hand's width across the light as something inside draws it, the snout's shape going behind it; in the last two seconds the curtain holds where it moved and the shape is half hidden; the lit window keeps its steady dull yellow light; the horse in the yard keeps his face lifted to the window and his ears forward, nothing in him moving; the closed green door, the iron pump and the pale mud hold completely still; the stars stay in their places; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "boxer",
+    "quarry",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "돼지들 배급은 늘고 복서의 배급은 줄어 다리가 떨린다",
+   "visual": "grey daylight in the quarry with the steep slope of grey rock: the huge cart-horse with the dark brown coat gone dull and his ribs showing under it, the white stripe down his nose, is the one thing at frame centre on the slope in the harness of the sledge loaded with stones, stopped, his thick neck bowed to the rock and his big feathered hooves braced, his forelegs trembling plainly under him and his heavy patient face turned a little to the side with his eye half closed and his mouth open for breath; the rope runs taut from his collar to the loaded sledge behind him at frame right; the grey rock rises at frame left; the farm shows far below at the bottom of the frame small and grey; there is exactly one animal in the quarry and his legs are the ones trembling",
+   "motion": "the horse's trembling legs are the one thing that moves, and the quarry holds still: at the start his forelegs tremble under him with his neck bowed and his mouth open for breath; over the first three seconds the trembling in his forelegs grows and one foreleg bends slowly at the knee and straightens again with an effort, his bowed head sinking a little lower and his open mouth taking two hard breaths; in the last two seconds the legs hold trembling and his head stays low; the taut rope to the loaded sledge does not slacken and the stones on the sledge do not shift; the grey rock of the slope and the small grey farm far below hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "van",
+    "boxer",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "쓰러진 복서를 태우러 온 저 마차는 그를 어디로 데려갈지 알 수 없다",
+   "visual": "grey daylight over the muddy farmyard with the five-barred gate open: the closed box van of dark wood with the plain side and the small barred window at the back, drawn by the two horses, is the one thing standing at frame centre in the gateway with its back doors open on a dark inside, the two horses' heads low; the huge cart-horse with the dark brown coat gone dull and the white stripe down his nose is the one lying at frame right on his side in the mud of the yard near the van's open doors with his heavy patient face lifted a little from the mud and his eyes on the dark inside of the van, one foreleg stretched out; the backs of a few farm animals, the grey donkey and two sheep, stand at the bottom left of the frame facing the van; the stone farmhouse with its closed green door stands at the back; the van's open dark doors are the one thing before the lying horse",
+   "motion": "the lying horse's lifted head is the one thing that moves, and the van holds still: at the start his head is lifted a little from the mud with his eyes on the dark inside of the van; over the first three seconds his head lifts slowly a hand's width higher and turns toward the backs of the animals at the frame's edge and comes slowly back to the van's dark doors, his stretched foreleg drawing in a little; in the last two seconds his head holds lifted toward the van; the two horses in the van's shafts keep their heads low and do not step; the van's open dark doors do not move; the grey donkey and the two sheep keep their backs to the camera; the stone farmhouse with its closed green door and the open gate hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "stall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 마구간의 짚과 못에 걸린 목줄",
+   "visual": "grey light from the small window into the empty stall of the stable: the deep straw at frame centre is pressed down flat in one wide shallow hollow, the straw crushed and empty; the halter of worn leather hangs on its nail on the timber wall at frame left with its rope coiled; the wooden manger at frame right holds only a few wisps of hay; the grey light from the small window lies across the flattened straw; the timber walls are dark; the stall door stands open on the dim bare stable passage; the shallow hollow pressed into the straw, a dent in the straw and nothing lying in it and the hanging halter are the two things that show who was here; the stall holds only straw, the wooden manger with its few wisps, the halter on its nail and the dent in the straw; the straw bed is bare from wall to wall with nothing on it or in it, and the picture shows only the empty stall",
+   "motion": "the grey light from the window is the one thing that moves, and the stall holds still: at the start the light lies across the flattened straw; over the whole five seconds the light brightens slowly as the sky outside thins and dims again, the shadow of the hanging halter shifting a little on the timber wall; the pressed shape in the straw keeps its exact outline and no straw stirs; the halter hangs still on its nail with its rope coiled; the wisps of hay in the manger do not move; the open stall door and the dim passage beyond hold completely still; no animal comes to the stall; the small window's square of grey light on the straw widens and narrows only with the changing sky; the timber walls keep their dark; the nail holding the halter does not shift and the coiled rope hangs as it hangs; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

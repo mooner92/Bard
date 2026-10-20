@@ -1,0 +1,188 @@
+{
+ "logline": "지팡이와 신이 문지방에 놓였다 치이기를 거듭하는 봄, 여든둘 할머니의 병상",
+ "destination": "소설 할머니의 죽음에서 만날 수 있습니다",
+ "protagonist": "grandson",
+ "setting": "1920년대 봄 — 서울 집 대문, 시골 생가의 밤 마당과 울막, 할머니의 건넌방, 이웃집 방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/halmeoni_jugeum/assets",
+ "anchor": "a slim young Korean man in a white cotton jeogori under a dark buttoned vest",
+ "palette": "dark brown, off-white, pale grey, muted green, dull yellow",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "grandson",
+    "seoul"
+   ],
+   "refs": [],
+   "beat": "삼월 그믐, 위독 전보",
+   "visual": "the gate of the Seoul house in early spring: the grandson stands just inside the gate holding a small telegram slip in both hands, reading it with a stilled face, the blossoming tree behind him; exactly one man",
+   "motion": "the grandson's eyes move once more over the slip and his hands lower it slowly, a petal drifting past his shoulder; the camera holds on the man with the telegram"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "grandson",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "밤의 마당, 울막에 덜컹한 가슴",
+   "visual": "the farmhouse yard at night: the grandson has just stepped through the brushwood gate in a grey durumagi overcoat with a travelling bundle, and stops with one hand pressed to his chest, staring at the low straw-mat shed between the well and the jars under the smoky hanging lantern; exactly one man",
+   "motion": "the grandson's hand presses harder to his chest and his bundle slips lower as he stares at the straw-mat shed, the lantern flame guttering under the eave; the camera holds on the man frozen at the gate"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "grandmother",
+    "grandson",
+    "room"
+   ],
+   "refs": [],
+   "beat": "뼈만 남은 손, 손자를 알아보다",
+   "visual": "low angle at floor level in the small room by lamplight: the grandmother's sunken face resting on a low wooden pillow on the oiled yellow paper floor, the quilt drawn over her body flat on the floor, the grandson kneeling on the same floor beside her holding her thin wrinkled hand in both of his, her clouded eyes finding his face with a faint light; the oiled floor stretching across the lower frame, the patterned paper scroll on the wall above; exactly two people",
+   "motion": "the grandmother's fingers tighten faintly in the grandson's hands and a light moves in her clouded eyes, his head bending lower; the lamp flame sways, and the camera holds close on the joined hands and the two faces"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "aunt",
+    "grandmother",
+    "room"
+   ],
+   "refs": [],
+   "beat": "밤새 염불하는 중모",
+   "visual": "the room before dawn: the aunt sits upright on the floor beside the grandmother, who sleeps lying flat on the floor bedding, prayer beads moving through the aunt's fingers and her lips parted in chanting, the back of her hand rubbing one tired eye, the oil lamp burning low; exactly two people",
+   "motion": "the beads slide one by one through the aunt's fingers, her lips moving in the chant and her other hand rubbing her eye, the grandmother's quilt rising and falling; the camera holds on the chanting aunt in the low lamplight"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "aunt",
+    "grandson",
+    "nextdoor"
+   ],
+   "refs": [],
+   "beat": "새벽, 이웃집 방에서 끌려 일어나는 자손들",
+   "visual": "the cramped neighbour's room at grey dawn: the aunt stands in the doorway with one hand on the door frame and her mouth open in a scold, while the grandson sits up on the bare floor under a patched quilt rubbing his eyes and a young cousin still lies asleep on the floor beside him; exactly three people",
+   "motion": "the aunt's scolding hand jabs toward the quilts while the grandson drags himself upright rubbing his eyes and the cousin rolls over under the quilt; the camera holds on the doorway and the waking men"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "aunt",
+    "grandmother",
+    "room"
+   ],
+   "refs": [],
+   "beat": "문지방의 지팡이와 신 — 운명인가",
+   "visual": "the open paper door of the room seen from the veranda: the grandmother's wooden walking stick laid across the threshold and her worn cloth shoes set below it, and inside, several family members kneeling close around the floor bedding with tense faces, the aunt bent to the grandmother's ear with her hands clasped; the patterned paper scroll on the wall",
+   "motion": "the family members lean closer over the bedding and the aunt's clasped hands tremble at the grandmother's ear, the quilt still rising and falling; the camera holds on the stick across the threshold and the tense room beyond"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "yard"
+   ],
+   "refs": [],
+   "beat": "칠까지 먹인 관, 울막 안",
+   "visual": "the yard by day: inside the low straw-mat shed between the well curb and the clay jars, a freshly lacquered black coffin rests on two wooden trestles with its lid leaning beside it, a reed screen half drawn; a wooden walking stick and a pair of worn cloth shoes lying on the edge of the veranda",
+   "motion": "a breeze lifts the edge of the reed screen and light slides along the lacquered lid of the coffin, the stick and shoes still on the veranda; the camera holds with great patience on the coffin in the shed"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "grandmother",
+    "aunt",
+    "room"
+   ],
+   "refs": [],
+   "beat": "염불 소리 듣기 싫다 — 일어나려는 할머니",
+   "visual": "the grandmother half raised on one elbow on the floor bedding with her free arm waving the aunt away, her toothless mouth open in a cross shout, while the aunt kneels close with the prayer beads pressed to her chest and her face crumpled in pleading; exactly two people",
+   "motion": "the grandmother's thin arm sweeps back and forth pushing the aunt away as she strains to rise, the aunt's beads pressed tighter to her chest; the camera holds on the two women"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "grandson",
+    "aunt",
+    "room"
+   ],
+   "refs": [],
+   "beat": "못 일으키는 까닭 — 요에 데인 상처",
+   "visual": "low angle at floor level: the grandmother lies flat on the floor bedding under the quilt with only her white hair showing, the aunt kneeling on the floor beside her smoothing the quilt and speaking low, and the grown grandson standing beyond them with his face turned aside and his hand pressed over his mouth, eyes closed; the oiled yellow floor stretching across the lower frame; exactly three people",
+   "motion": "the grandson's closed eyes press tighter and his hand stays over his mouth while the aunt's hands smooth the quilt slowly, her lips moving; the camera holds on the turned-away face"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "grandmother",
+    "grandson",
+    "room"
+   ],
+   "refs": [],
+   "beat": "서방님, 나를 좀 일으켜 주십시오",
+   "visual": "low angle at floor level: the grandmother lying on the floor bedding reaches up with both thin wrinkled hands toward the grown grandson, her sunken face straining and her mouth open in a plea, and he kneels on the floor bending over her with his hands slid under her shoulders, his face pained; the oiled yellow floor across the lower frame; exactly two people",
+   "motion": "the grandmother's hands claw gently at the grandson's sleeves as his hands lift her shoulders a finger's width and stop, her mouth opening wider; the camera holds close on the pleading face and the pained face"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "grandmother",
+    "grandson",
+    "room"
+   ],
+   "refs": [],
+   "beat": "단추를 빼라, 답답치 않니 — 새어 나온 웃음",
+   "visual": "the grandmother, propped half up on the floor bedding, tugs with her thin wrinkled hand at a button of the grown grandson's dark vest as he kneels on the floor beside her, the vest half open and one cloth tie undone, his grown man's face helpless, while at the open paper door two young women in white hanbok press their sleeves to their mouths hiding laughter; exactly four people",
+   "motion": "the button gives under the grandmother's tugging hand and the vest slides open further, the grandson's helpless face turning toward the door where the two women's shoulders shake behind their sleeves; the camera holds on the hand at the vest"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "doctor",
+    "grandmother",
+    "room"
+   ],
+   "refs": [],
+   "beat": "양의의 진찰 — 이삼 주는 괜찮다",
+   "visual": "extreme close-up at floor level: the doctor's two hands, one holding the grandmother's thin wrinkled wrist between finger and thumb, the other holding an open silver pocket watch, the cuff of his Western suit and gold-rimmed spectacles glinting at the top of the frame; the grandmother's white hair and sunken face resting on a low wooden pillow on the oiled yellow paper floor at the frame's edge, the quilt flat on the floor; exactly two people",
+   "motion": "the doctor's thumb rests on the thin wrist while the watch hand ticks round, then his fingers lay the wrist gently back on the quilt; the camera holds close on the watch and the wrist"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "grandmother",
+    "grandson",
+    "room"
+   ],
+   "refs": [],
+   "beat": "혼자 일어나 밥을 잡수시는 할머니",
+   "visual": "morning light in the room, seen over the broad shoulder of the grown grandson kneeling on the floor in the foreground with his back to the camera: the grandmother sits up by herself on the floor bedding with a small brass bowl of rice in her hands and a spoon at her toothless mouth, a proud crooked smile on her sunken face, her eyes on him; exactly two people",
+   "motion": "the grandmother's spoon rises to her mouth and her jaw works with the proud crooked smile, the grandson's broad shoulders in the foreground lifting with a breath; morning light warms the floor, and the camera holds on the eating grandmother"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "grandson",
+    "seoul"
+   ],
+   "refs": [],
+   "beat": "봄날, 앵화 구경 길에 닥친 전보 한 장",
+   "visual": "a bright spring morning at the Seoul gate: the grandson in a fresh light-grey spring durumagi and a felt hat stands under the blossoming tree in full bloom, a small telegram slip held out in one hand, his other hand stopped halfway to his hat, his face gone still; exactly one man",
+   "motion": "petals drift down past the still face as the grandson's hand with the telegram sinks slowly and his other hand stays frozen at his hat; the camera holds on the man under the blossoms"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "room"
+   ],
+   "refs": [],
+   "beat": "마무리 — 문지방의 지팡이와 신, 빈 요 스틸",
+   "visual": "closing still: the empty room in morning light, a folded quilt stacked against the wall on the oiled yellow paper floor, a wooden walking stick laid across the threshold and a pair of worn cloth shoes set below it, the patterned paper scroll on the wall, a stick of incense burning in the brass burner",
+   "motion": "a thread of incense smoke rises and bends in the still air over the folded quilt, light lying across the threshold and the shoes; the camera closes with great patience on the stick and the shoes"
+  }
+ ],
+ "withheld": "조모주 별세 — 앵화 구경 나서던 참에 닥친 부고"
+}

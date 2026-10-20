@@ -1,61 +1,207 @@
 {
- "logline": "혼인을 약속받고 삼 년째 일하는 젊은 머슴이, 올해도 같은 대답을 듣고 무엇을 하기로 하는가.",
- "destination": "마당의 말뚝 — 키를 재는 자리이자 약속이 미뤄지는 자리",
- "protagonist": "장인 집에서 새경 없이 일하는 스무 살 머슴",
+ "logline": "점순이 키가 커야 성례를 시켜 준다는 장인 밑에서 삼 년째 일해 온 머슴이, 올해도 같은 말을 듣고 논둑에 드러눕는다",
+ "destination": "소설 봄봄에서 만날 수 있습니다",
+ "protagonist": "farmhand",
  "setting": "1930년대 강원도 산골 마을, 논둑과 초가 마당",
- "anchor": "a stocky young farmhand in patched hemp trousers and straw sandals, cropped hair, sunburnt face",
- "palette": "spring midday sun, warm straw yellow, wet paddy green, soft dust haze",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/bombom/assets",
+ "anchor": "a stocky young Korean farmhand in patched hemp clothes and a grey headband, straw sandals",
+ "palette": "pale green, dark brown, off-white, ash grey, dull yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "새벽 마당에서 젊은 머슴이 지게를 지고 나선다.",
-   "visual": "a young farmhand shouldering a wooden A-frame carrier in a thatched courtyard at first light",
-   "motion": "he heaves the frame onto his back, chickens scatter, straw dust lifts"
+   "cast": [
+    "farmhand",
+    "father_in_law",
+    "pipe",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "삼 년째 장인 집 일을 하는 머슴",
+   "visual": "the farmhouse yard in the early spring morning: the stocky farmhand is the one crossing the trodden earth at the center bent under a wooden A-frame carrier heaped with brushwood, his big hands hooked in the straps and his sunburnt face lowered under the grey headband; the stout father-in-law in the black horsehair hat and grey durumagi is the one seated on the edge of the raised wooden porch at frame right with the long thin-stemmed pipe in his mouth and his small sharp eyes following the farmhand; the stone mortar, the earthen jars along the wall, the brushwood fence and the bare-branched tree stand in the yard under a pale hazy sky",
+   "motion": "the stocky farmhand with the grey cloth headband and the patched off-white hemp shirt, bent under the wooden A-frame carrier heaped with brushwood, is the only one who moves in this shot: at the start he is mid-stride at the center of the yard with his big hands hooked in the carrier straps; over the first two seconds he takes two slow heavy steps toward the left side of the yard, each straw sandal lifting and setting down in a slow even rhythm, the brushwood on the carrier swaying a little and a thin drift of dust rising behind his heels; in the last two seconds he comes to a stop well inside the frame with his lowered head not lifting and his hands still in the straps, and stands there shifting his weight; he stays fully inside the frame the whole time and never walks toward or past the camera; the stout father-in-law on the edge of the porch in the grey durumagi and black hat sits completely motionless with the pipe in his mouth at the right side of the frame for the whole shot, only a thin thread of smoke rising from the pipe bowl, his hands resting on his knees, no turn of the head; the stone mortar, the earthen jars, the brushwood fence, the bare-branched tree and the thatched roof stay exactly where they are; the framing does not change at all; no new figures, gates or objects appear; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "논둑에 선 장인이 담뱃대를 물고 그를 본다.",
-   "visual": "an older man with a long bamboo pipe standing on a paddy bank, a young farmhand working below him",
-   "motion": "pipe smoke curls sideways, rice shoots ripple, the young man bends lower"
+   "cast": [
+    "father_in_law",
+    "pipe",
+    "farmhand",
+    "paddy",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "점순이 키가 크면 — 장인의 말",
+   "visual": "the terraced paddies in spring: the stout father-in-law is the one standing on the low mud dike at frame right in his grey durumagi and black horsehair hat, the long thin-stemmed pipe in his right hand pointing down toward the field, his thin grey goatee jutting and his small eyes narrowed; the stocky farmhand is the one standing knee-deep in the flooded paddy below him at frame left with his hemp trousers rolled and mud to his shins, his broad sunburnt face turned up toward the older man with a slow puzzled frown; the flooded fields hold the pale sky, rows of young green shoots run across them and the low pine hill rises behind",
+   "motion": "the stout father-in-law in the grey durumagi and black hat standing on the mud dike is the only one who moves: at the start the long thin-stemmed pipe is in his right hand held low beside his hip; over the first two seconds his right arm lifts the pipe and jabs it slowly down toward the flooded field twice, his thin grey goatee lifting as his mouth works through the words, a small puff of smoke leaving the pipe bowl with each jab; in the last two seconds the pipe rises to his mouth and stays there, his goatee settling and his small eyes still on the young man below; the stocky farmhand standing knee-deep in the paddy water keeps his upturned puzzled face completely still, his arms hanging at his sides, no step, no turn; the flooded paddies with their thin green shoots, the terraced fields, the pine-topped hill and the hazy sky hold completely still, only the water surface trembling faintly; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그는 혼인 이야기를 꺼내려다 그대로 삼킨다.",
-   "visual": "a young farmhand standing mid-field with his mouth half open, hands hanging, older man walking away",
-   "motion": "his jaw closes, the older man's back recedes, heat shimmers over the paddy"
+   "cast": [
+    "jeomsun",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "삼 년이 지나도 그대로인 점순이의 키",
+   "visual": "the farmhouse yard by the low wooden gate: the short farm girl with the long braid is the one standing at the center beside the gatepost in her white jeogori and dark blue skirt with a round earthen water jar balanced on her head and both hands steadying it, and the top of her head with the jar reaches barely to the top of the gatepost beside her; her round face is turned toward the camera with her narrow eyes and pert chin; the brushwood fence runs off to the left, the raised porch and the earthen jars stand behind at the right, and the bare-branched tree rises above the thatched eaves under the hazy sky",
+   "motion": "the short farm girl with the long black braid tied with a red cord, in her white jeogori and dark blue skirt, is the only one who moves: at the start she stands beside the gatepost with the round earthen water jar balanced on her head and both small hands steadying it; over the first two seconds she takes three short slow steps forward from the gatepost toward the porch, the jar riding level on her head, her braid swinging gently against her back with each step and her skirt hem brushing her ankles; in the last two seconds she comes to a stop in the middle of the yard, still well inside the frame, her hands never leaving the jar and her head held straight, and stands still; the gatepost stays behind her at the left edge of the frame marking how small she is; the brushwood fence, the low wooden gate, the raised porch, the earthen jars, the straw mat and the bare-branched tree stay exactly where they are; the framing does not change at all; no new figures or animals appear; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "점순이가 밥그릇을 놓고 홱 돌아서 버린다.",
-   "visual": "a girl setting a brass rice bowl on a low wooden floor and spinning away, braid swinging",
-   "motion": "her braid whips around, the bowl rocks once, her skirt flares"
+   "cast": [
+    "farmhand",
+    "stake",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "마당 말뚝에 몰래 키를 재어 보는 머슴",
+   "visual": "the edge of the farmhouse yard: the stocky farmhand is the one crouched at the center beside the weathered wooden post with the notches cut into its side, his right hand flat against the post at the height of the lowest notch and his left hand holding a small knife, his sunburnt face turned back over his shoulder toward the porch with wide wary eyes; the raised wooden porch and the thatched eaves are seen at the far right, empty; the brushwood fence runs behind the post, the stone mortar stands at the left and the ground is trodden earth; warm midday light",
+   "motion": "the stocky farmhand crouched beside the weathered notched post is the only one who moves, and only his left hand: at the start his right palm is flat against the post at the height of the lowest notch and the small knife in his left hand rests against the grey wood just beside it; over the first two seconds the knife hand draws slowly sideways, the blade dragging through the wood and a thin curl of pale shaving lifting from the cut as a short fresh notch opens beside his flat right hand; in the last two seconds the knife stops at the end of the notch and holds there, his head staying turned toward the empty porch and his crouched legs not shifting; his right hand stays flat on the post the whole time; the brushwood fence, the stone mortar, the raised porch, the earthen jar and the bare tree hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "밤마다 그는 마당 말뚝에 그녀의 키를 맞춰 본다.",
-   "visual": "a young farmhand crouching by a wooden stake in a moonlit yard, hand flat at its notched top",
-   "motion": "his palm slides along the stake, moon shadow shifts, moths cross the light"
+   "cast": [
+    "farmhand",
+    "father_in_law",
+    "pipe",
+    "paddy",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "성례 얘기를 꺼내자 고개를 젓는 장인",
+   "visual": "the mud dike between the flooded paddies: the stocky farmhand is the one standing on the dike at frame left with his grey headband pulled off and crushed in both big hands at his chest, his broad face earnest and his mouth open in mid-speech; the stout father-in-law is the one standing two paces along the dike at frame right with his back half turned, the long thin-stemmed pipe clamped in his teeth and his head shaking slowly, his small eyes on the far field and his thin goatee jutting; the flooded fields hold the pale sky on both sides, rows of green shoots, the low pine hill behind",
+   "motion": "the stout father-in-law in the grey durumagi and black hat standing on the dike is the one who moves, and the stocky farmhand only with his hands: at the start the father-in-law's head is turned square toward the young man with the pipe clamped in his teeth; over the first two seconds his head swings slowly to one side and back to the other in one long refusal, smoke drifting from the pipe bowl and trailing after the turn of his face, his goatee tilting with each swing; in the last two seconds his head comes to rest turned slightly away, the pipe still in his teeth, his arms folded and unmoving; the farmhand's crushed grey headband twists tighter in his big hands at his chest and his open mouth stays open, his feet planted, no step forward; the flooded paddies, the thin green shoots, the pine hill and the hazy sky hold completely still, only the water surface trembling faintly; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "장인은 올해도 키가 작다며 고개를 젓는다.",
-   "visual": "an older man shaking his head beside a wooden stake, a young farmhand standing rigid behind him",
-   "motion": "the head turns side to side, the young man's fists tighten, dust settles"
+   "cast": [
+    "father_in_law",
+    "pipe",
+    "paddy"
+   ],
+   "refs": [],
+   "beat": "점순이 키가 커야지! — 늘 같은 말",
+   "visual": "a close view of the stout father-in-law's face on the paddy dike: his weathered broad nose and thin grey goatee fill the center of the frame under the black horsehair hat tied beneath his chin, his small sharp eyes bulging and his mouth wide open in a shout, the long thin-stemmed pipe held up in his right hand beside his face with its brass bowl smoking; behind him the flooded fields and the rows of green shoots blur into pale light; the collar of the grey durumagi is crooked from his shouting",
+   "motion": "the stout father-in-law's face and his right hand with the long thin-stemmed pipe are the only things that move in this close view: at the start the pipe is held up beside his face with its brass bowl smoking and his mouth already open; over the first two seconds his right hand pushes the pipe slowly forward toward the camera and holds it there, the smoke from the bowl streaming back past his cheek, his open mouth stretching wider with the shout and his small bulging eyes fixing on a point beyond the lens, his thin goatee shaking with the force of the words; in the last two seconds the pipe stays thrust forward and his face stays wide with the shout, the black hat not shifting on his topknot; the blurred flooded fields and the pale sky behind him hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그는 내일 아침 장인 앞에 설 수 있을까?",
-   "visual": "a young farmhand sitting alone on a doorsill at dusk, the older man's silhouette in the lit room behind",
-   "motion": "lamplight brightens behind him, his knee bounces, evening insects streak past"
+   "cast": [
+    "jeomsun",
+    "farmhand",
+    "paddy",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "밥그릇을 툭 놓으며 눈을 흘기는 점순이",
+   "visual": "the mud dike at midday: the short farm girl with the long braid is the one crouched at the center setting a brass bowl of rice down hard on the dike beside a small kettle, her white jeogori and dark blue skirt gathered, her narrow eyes cut sideways at the farmhand with a hard glare and her pert chin set; the stocky farmhand is the one seated on the dike at frame left with his muddy legs hanging over the water and his broad face turned to her in slow surprise; far along the dike at the upper right the small figure of the father-in-law in the black hat stands with his back turned; the flooded fields hold the pale sky",
+   "motion": "the short farm girl with the long braid crouched on the mud dike is the only one who moves: at the start her small hand is on the brass bowl of rice just set down beside the kettle, her narrow eyes already cut sideways at the farmhand; over the first two seconds her hand gives the bowl one short shove across the dike toward him, the rice trembling in the bowl and the kettle rocking once beside it, her braid swinging forward over her shoulder and her glare holding on him without blinking; in the last two seconds her hand draws back to her knee and stays there, her glare not softening, her crouched body not rising; the stocky farmhand sitting on the dike keeps his surprised face completely still with his hands on his knees; the distant figure in the grey coat keeps its back turned and does not move; the flooded paddies, the thin green shoots and the far hills hold completely still, only the water trembling faintly; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈 마당의 말뚝 위로 아침 볕이 든다.",
-   "visual": "morning sunlight falling on a wooden stake in an empty farm yard, chickens gone, straw scattered",
-   "motion": "sunlight creeps up the stake, straw lifts in a breeze, shadow shortens",
-   "anchor": false
+   "cast": [
+    "jeomsun",
+    "farmhand",
+    "paddy"
+   ],
+   "refs": [],
+   "beat": "밤낮 일만 할 거야? — 낮게 쏘아붙이는 점순이",
+   "visual": "a close view on the dike: the short farm girl's round face fills the left half of the frame turned toward the farmhand, her narrow eyes fierce and her lips pulled tight in a low hiss, one small hand raised beside her mouth to shield the words, the red cord of her braid at her shoulder; the farmhand's broad sunburnt face fills the right half in profile under the grey headband with his ear turned to her and his thick brows lifted in bewilderment; the flooded paddy and the green shoots blur behind them in the pale light",
+   "motion": "the short farm girl's face and her one raised hand are the only things that move in this close view on the dike: at the start her small hand is raised beside her mouth to shield the words and her narrow eyes are already fierce; over the first two seconds the shielding hand presses closer to her mouth, her lips move through the hissed words and her fierce eyes narrow further, the red cord at the end of her braid swaying slightly at her shoulder; in the last two seconds her lips press tight and stop, her hand stays at her mouth and her eyes stay fixed on him; the stocky farmhand's bewildered face stays turned with his ear toward her, his eyes not blinking, his headband not shifting; the blurred flooded field and the pale sky behind them hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "mungtae",
+    "farmhand",
+    "village_road",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "장인이 머슴을 부려 먹는 거라는 뭉태의 부추김",
+   "visual": "the dusty village lane between low mud walls: the lanky farmhand with the straggly moustache and grey headband is the one at frame left leaning his back against the heap of straw by the wall, his left hand cupped beside his own mouth and his right arm stretched out pointing back down the lane toward a thatched roof, his thin face split by a sly grin; the stocky farmhand is the one standing a full pace apart at frame right with his broad face turned toward the pointing arm, his slow puzzled frown deepening, both of his big hands hanging empty at his own sides; a leaning wooden gate stands further down the lane and a blossoming tree leans over the far wall under the hazy spring sky; no other hands or figures anywhere",
+   "motion": "the lanky farmhand with the straggly moustache and grey headband leaning against the heap of straw is the only one who moves: at the start his left hand is cupped beside his own mouth and his right arm is stretched out pointing down the lane toward the thatched roof; over the first two seconds the pointing arm jabs slowly toward the roof twice and his grinning face turns toward the stocky farmhand, the cupped hand staying at his own mouth, his shoulders shifting against the straw; in the last two seconds the pointing arm holds out straight and his grin widens, the cupped hand still at his mouth; the stocky farmhand standing a full pace apart keeps both big hands hanging at his own sides, his puzzled frown slowly deepening but his head, feet and hands not moving; the mud walls, the leaning wooden gate, the straw heap and the blossoming tree hold completely still, only a few pale petals drifting down from the tree; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "village_head",
+    "farmhand",
+    "father_in_law",
+    "head_porch"
+   ],
+   "refs": [],
+   "beat": "소용없는 구장 어른의 판결",
+   "visual": "the raised wooden porch of the tile-roofed house, three separate men: the elderly village elder with the long white beard and black horsehair hat is the one seated cross-legged on the polished dark boards at the center in his white durumagi with the long thin-stemmed pipe across his knees and his right hand raised palm outward in dismissal; the stocky young farmhand with the grey cloth headband tied on his cropped black hair and a clean-shaven broad face is the one kneeling on the bare earth below the stone steps at frame left in his patched off-white hemp shirt, his forehead lowered nearly to the ground and his big hands flat on the earth; the stout father-in-law with the thin grey goatee and his own black horsehair hat is the one standing upright below the steps at frame right in his grey durumagi with his arms folded and a satisfied set to his mouth; the plain paper folding screen stands behind the elder",
+   "motion": "the elderly village elder seated cross-legged on the porch is the only one who moves, and only his right hand and beard: at the start his right hand is raised palm outward in dismissal above the pipe lying across his knees; over the first two seconds the raised hand waves slowly once outward and then settles back down onto the pipe across his knees, his long white beard stirring with the small breath of the gesture; in the last two seconds the hand rests on the pipe and his eyes half close; the stocky farmhand kneeling on the earth below the steps with his grey headband keeps his forehead lowered toward the ground and both big hands flat on the earth, sinking only a fraction lower, no lift of the head; the stout father-in-law standing at the right in the grey durumagi and black hat keeps his arms folded and his satisfied face still, no step, no turn; the paper folding screen, the polished boards and the stone steps hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "farmhand",
+    "paddy",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "일을 팽개치고 논둑에 드러누운 머슴",
+   "visual": "the mud dike between the flooded paddies at midday: the stocky farmhand is the one lying flat on his back along the dike at the center with his arms flung out to both sides and his straw sandals crossed, his grey headband pulled down over his eyes and his broad sunburnt face turned up to the sky with his mouth slack; a wooden A-frame carrier stands abandoned on the dike beyond his head and a small earthen water jar lies tipped beside it; the flooded fields on both sides hold the pale hazy sky and the rows of green shoots run away toward the low pine hill",
+   "motion": "the stocky farmhand lying flat on his back along the mud dike with his grey headband pulled down over his eyes is the only thing that moves: at the start his arms are flung out to both sides and his straw sandals are crossed; through the whole shot his chest rises and sinks slowly in a long lazy rhythm under the patched hemp shirt, and once, around the middle of the shot, his flung-out right hand curls slowly into a loose fist on the mud and uncurls again, then lies open; his crossed feet, his covered face and his other arm do not move at all; the wooden A-frame carrier standing on the dike, the small earthen jar, the flooded paddies with their thin green shoots, the terraced fields and the pine hill hold completely still, only the water surface trembling faintly; no new figures or animals appear; camera drifting very slowly downward from above, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "father_in_law",
+    "jige_stick",
+    "farmhand",
+    "paddy",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "지게 작대기를 들고 달려온 장인",
+   "visual": "the mud dike: the stout father-in-law is the one at frame right rushing along the dike with the stout straight wooden staff raised high over his head in both hands, his grey durumagi flying open and his black horsehair hat slipped back, his thin goatee jutting and his mouth wide; the stocky farmhand is the one at frame left rolled up onto one elbow on the dike with his headband pushed up and his broad face turned back toward the raised staff, his other arm thrown up over his head; the flooded fields hold the pale sky on both sides and the abandoned carrier stands beyond; the stocky farmhand has cropped black hair under his grey cloth headband, no topknot and nothing in his mouth; the father-in-law's pipe is tucked in his own belt; the staff is a plain straight pole with no prongs",
+   "motion": "the stout father-in-law rushing along the dike with the stout straight wooden staff raised over his head is the one who moves: at the start the staff is high over his head in both hands and his grey durumagi is flying open; over the first two seconds the staff swings slowly down through the air in one steady arc toward the farmhand's raised arm and stops against it, the father-in-law's whole body following the blow, his coat skirts swinging forward and his black hat slipping further back on his topknot; in the last two seconds the staff stays pressed against the raised arm and his shoulders heave with his breath, his feet planted on the mud; the stocky farmhand propped on his elbow on the dike keeps his other arm up against the staff and his face turned up, no other part of him moving; the flooded paddies, the thin green shoots, the A-frame carrier and the hazy sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "farmhand",
+    "father_in_law",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "수염을 붙들고 바짓가랑이를 붙든 마당",
+   "visual": "the farmhouse yard at midday, two men scuffling on the trodden earth at the center: the stocky farmhand with cropped black hair under his grey cloth headband and a clean-shaven sunburnt face is the one on his knees at frame left with his right fist closed tight in the stout father-in-law's thin grey goatee and his face twisted; the stout father-in-law with the thin grey goatee is the one sprawled on his side beneath him at frame right, bareheaded with his topknot showing, still in his grey durumagi coat, both his hands clamped on the farmhand's rolled hemp trouser leg, his mouth open in a shout with nothing in it; the father-in-law's black hat lies upside down on the earth beside them and his long thin-stemmed pipe lies on the ground a step away; dust lifts around them; the raised porch, the earthen jars, the stone mortar and the brushwood fence stand around the yard and the bare-branched tree rises behind the fence under the hazy spring sky; only the father-in-law has a beard; no animals anywhere",
+   "motion": "the two men scuffling on the trodden earth are the only things that move: at the start the stocky farmhand's right fist is closed tight in the father-in-law's thin grey goatee and the father-in-law's two hands are clamped on the farmhand's rolled trouser leg; over the first two seconds the farmhand's fist twists slowly in the goatee and the father-in-law's clamped hands drag at the trouser leg, both bodies straining against each other in one slow heave, the father-in-law's topknot bobbing and the farmhand's headband slipping a little, dust lifting from the earth around their knees; in the last two seconds the heave stalls with neither man winning, both still gripping, their chests heaving; the black hat and the long thin pipe lie completely still on the earth beside them; the raised porch, the earthen jars, the stone mortar, the brushwood fence and the bare-branched tree hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "jeomsun",
+    "farmhand",
+    "father_in_law",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "마당으로 달려 나온 점순이",
+   "visual": "the farmhouse yard at midday, three separate people: the girl with one single long braid tied with a red cord is the one leaping down from the raised wooden porch at frame right in her white jeogori and dark blue skirt, both arms flung wide, her mouth open in a shout and her straw sandals in mid-air above the stone step; the stocky farmhand with cropped black hair under his grey cloth headband and a clean-shaven sunburnt face is the one on his knees on the trodden earth at frame left, his right fist still closed in the father-in-law's goatee, his head turned toward the girl; the stout father-in-law with the thin grey goatee is the one sprawled on his back on the earth at the lower center, bareheaded with his topknot showing, still wearing his grey durumagi coat with its skirts twisted and both hands clamped on the farmhand's rolled trouser leg; his black hat lies upside down on the earth beside them; dust hangs in the air; the earthen jars, the stone mortar, the brushwood fence and the bare-branched tree stand around the yard under the hazy spring sky; only the father-in-law has a beard; no animals anywhere; the farmhand is clean-shaven with no beard; the father-in-law keeps his grey durumagi coat on over his chest",
+   "motion": "the girl with the long braid tied with a red cord, in her white jeogori and dark blue skirt, is the one who moves most: at the start she is just off the raised porch with both arms flung wide and her mouth open in a shout; over the first two seconds she comes running across the trodden earth toward the two men with her arms still wide, her braid swinging behind her, her skirt hem lifting with each step and dust rising at her straw sandals; in the last two seconds she reaches the two men and stops beside them with her arms still out, her mouth still open; the stocky farmhand on his knees with the grey headband turns his head slowly toward her, his fist still closed in the goatee, nothing else of him moving; the stout father-in-law sprawled on his back keeps his hands clamped on the trouser leg, dragging once, his bare topknot on the earth; the black hat lies completely still beside them; the raised porch, the earthen jars, the stone mortar, the brushwood fence and the bare-branched tree hold completely still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "stake",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 마당의 말뚝",
+   "visual": "the farmhouse yard in the late spring afternoon, empty of every person: the weathered wooden post with its small notches stands at the center of the frame at the yard's edge, a wooden A-frame carrier leaning against the brushwood fence beside it and a stout straight staff lying on the trodden earth; the raised porch with its straw mat, the earthen jars along the wall and the stone mortar stand quiet at the right, and the bare-branched tree rises above the thatched eaves against the hazy pale sky; warm low light throws the post's long shadow across the yard",
+   "motion": "nothing living moves in this empty yard; the only change is the light: at the start the long shadow of the weathered notched post lies across the trodden earth toward the porch; over the first three seconds the shadow creeps slowly across the earth as the late afternoon light lowers and warms, the shadow of the A-frame carrier leaning against the fence lengthening with it; the notched post, the wooden A-frame carrier, the stout straight staff lying on the earth, the brushwood fence, the raised porch with its straw mat, the earthen jars, the stone mortar, the low wooden gate, the bare-branched tree and the thatched roof all hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward toward the notched post, no zoom; in the last two seconds the walking figure comes to a stop well inside the frame and stands still"
   }
  ],
- "withheld": "이듬해 봄까지도 성례가 미뤄지고 장인과 한바탕 붙게 되는 결말",
- "voice": "ko-KR-SoonBokNeural"
+ "withheld": "점순이가 남편감을 못난이라 나무라는 대목, 성례가 이듬해로 다시 미뤄지는 결말"
 }

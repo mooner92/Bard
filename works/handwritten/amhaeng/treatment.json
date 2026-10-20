@@ -1,0 +1,190 @@
+{
+ "logline": "혼례 첫날밤 온 가족을 잃고 누명을 쓴 채 죽었다 살아난 열아홉 살 어사 — 조선판 다크 판타지",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "hyeonu",
+ "setting": "조선 후기 한양 — 양반가의 혼례 밤, 옥, 인왕산 사당, 팔도의 밤길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/amhaeng/assets",
+ "anchor": "a slender Korean young man of nineteen with a pale refined face and a black topknot, in a Joseon scholar-official's deep blue robe",
+ "palette": "ink black, ash grey, off-white, deep indigo, faded gold",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "일가를 몰살한 진범과 배후, 무원이라는 글자의 뜻, 되살아난 이유",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "hanok",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "혼례를 치른 밤, 한양의 양반집을 덮친 검은 안개",
+   "visual": "night over a large Joseon noble family house in Hanyang, seen from above the tall stone wall: the grey tiled roofs of the halls surround a stone-paved inner courtyard where the remains of a wedding day still stand, a few faded paper lanterns hanging on strings between the eaves, a low table with pine and bamboo branches in tall vases left out on the paving; thick black fog is pouring over the tiled coping of the wall at frame left and spilling down into the courtyard, rolling low across the flagstones toward the paper lattice doors along the wooden verandas; every door is dark and closed; the moon is hidden; the paper lanterns give a faint dying glow; the whole house lies asleep and silent while the black fog creeps in; a pair of straw sandals sits neatly on the stone step below one veranda, and a well with a wooden lid stands in the corner of the courtyard",
+   "motion": "the thick black fog pours over the wall and spreads across the courtyard toward the dark doors, and that spreading fog is the one movement in the shot: at the start the fog spills over the tiled coping at frame left; over the whole five seconds it flows down the wall and rolls steadily across the stone paving in a low black tide, curling around the legs of the low table and the tall vases of pine and bamboo, swallowing the faint glow of the lowest lanterns, and reaching the edge of the wooden verandas where it begins to climb toward the closed paper doors; the tiled roofs, the lattice doors, the lanterns on their strings and the tall wall stay completely still; the hidden moon and the dark sky hold unchanged; the camera holds a wide high shot over the courtyard, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "hyeonu",
+    "hanok"
+   ],
+   "refs": [],
+   "beat": "그 집의 외동아들 송현우 — 장원 급제한 열아홉 살 어사",
+   "visual": "a bright spring day in the inner courtyard of the Joseon noble house: the slender Korean young man of nineteen stands at frame centre facing the camera in a Joseon scholar-official's deep blue silk robe and the black gauze official's hat with two stiff side wings, his pale refined face calm and proud, sharp dark eyes looking just past the camera, his hands folded inside his wide sleeves in front of him; behind him the wooden verandas and paper lattice doors of the halls stand open to the sun, and a flowering tree beyond the tiled wall scatters pale pink petals across the courtyard paving; a few petals rest on his shoulders and on his hat; the grey tiled roofs are sharp against a clear pale sky; warm clean sunlight falls across the stone paving, the whole scene fresh, bright and full of promise",
+   "motion": "pale pink petals drift down across the courtyard around the young man, and that drifting of petals is the one movement in the shot: at the start a few petals hang in the air above the paving; over the whole five seconds more petals float slowly down from the flowering tree beyond the wall, turning and gliding across the frame from right to left and settling on the paving and on his shoulders, while he stands still with his hands folded in his sleeves, his calm face and proud eyes unchanged, only the stiff side wings of his hat trembling very faintly in the light breeze; the open lattice doors, the wooden verandas, the tiled roofs and the clear sky stay completely still; the fallen petals on the paving around his feet stay where they lie; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "hanok"
+   ],
+   "refs": [],
+   "beat": "그날 낮, 절친 이명천의 여동생과 올린 혼례",
+   "visual": "the courtyard of the noble house on the wedding afternoon, seen from the veranda: at frame centre stands the traditional wedding table spread with a faded embroidered cloth, holding a pair of carved wooden wild geese, two tall candles in brass holders, bowls of chestnuts and dates, and tall vases of pine and bamboo branches; on the far side of the table, small in the middle distance, the groom in his deep blue silk robe and the bride in a green ceremonial robe with long white sleeve bands bow deeply toward each other with their faces lowered out of sight, attendants standing to either side with their backs to camera; a thin white cloth canopy is stretched above the table; pale petals lie scattered on the paving; soft afternoon sunlight fills the courtyard, the scene festive, formal and hushed",
+   "motion": "the bride and groom bow slowly toward each other across the wedding table, and that bowing is the one movement in the shot: at the start they stand upright on the far side of the table with their faces lowered; over the whole five seconds they bend slowly forward at the waist toward each other, the groom's deep blue sleeves and the bride's long white sleeve bands sweeping down together, holding the deep bow with their faces kept lowered and hidden, while the white cloth canopy above the table ripples gently in the breeze; the carved wooden geese, the tall candles, the bowls of chestnuts and dates, the vases of pine and bamboo and the attendants with their backs to camera stay completely still; the pale petals scattered on the paving stay still; the camera holds a medium wide shot from the veranda, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "hyeonu",
+    "hanok",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "잠에서 깬 현우 앞 — 숨져 있는 아내와 가족",
+   "visual": "deep night in a dark room of the noble house: the slender Korean young man of nineteen sits bolt upright on a sleeping mat at frame centre, facing the camera, just woken, in a plain white inner robe, his long black hair half loose from its topknot; his pale refined face is frozen in horror, sharp dark eyes wide and staring past the camera at the open doorway, one hand braced on the floor behind him; thin tendrils of black fog seep in around the frame of the open paper door at frame right and creep low across the floor toward him; the faded embroidered bedding beside him lies empty and rumpled; a single candle on a low stand has burned out, a thread of smoke rising; the only light is a cold grey glow through the paper lattice; the room is utterly silent; a wedding robe of green silk lies folded on a lacquered chest against the wall",
+   "motion": "the black fog creeps across the floor toward the young man while he stares at the doorway, and that creeping fog is the one movement in the shot: at the start soft hazy wisps of dark smoke drift in around the frame of the open paper door; over the whole five seconds they spread slowly across the floorboards toward the sleeping mat as a soft translucent haze of dark smoke, formless and thin, hugging the floor and thinning out before it reaches the bedding and the candle stand, while the young man stays frozen upright with his eyes wide on the doorway and his braced hand trembling faintly against the floor, his chest rising and sinking fast; the thread of smoke from the burned-out candle climbs and thins; the paper lattice, the open door frame and the cold grey glow stay completely still; the camera holds a medium shot at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "hanok",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "사랑채 병풍에 피로 쓴 두 글자 — 무원",
+   "visual": "the men's quarters of the noble house at night, empty of people: a tall eight-panel folding screen stands across the back of the dark room at frame centre, seen from behind at a sharp angle so that only its plain wooden back and the edges of its faded painted panels show, whatever is written on its front turned away from the camera toward the far wall; a low writing desk lies overturned in front of it, an inkstone and brushes scattered on the floor; thin black fog drifts along the floor around the base of the screen; a single oil lamp on the floor at frame left, knocked askew but still burning, throws a small unsteady light up the back of the screen and lays its long angled shadow across the paper lattice wall; the room is silent and dreadful, the screen hiding the two words that will condemn him",
+   "motion": "the small oil lamp on the floor flickers and its light wavers up the back of the folding screen, and that flickering is the one movement in the shot: at the start the lamp burns small and unsteady; over the whole five seconds its flame gutters and leans in a draught, so the warm light swells and shrinks up the plain back of the screen and its long angled shadow shifts back and forth across the paper lattice wall, while the thin black fog drifts slowly along the floor around the base of the screen; the folding screen itself, the overturned writing desk, the scattered inkstone and brushes stay completely still; the dark corners of the room hold unchanged; the dark paper lattice wall behind the screen stays unchanged except for the moving shadow; the camera holds a medium wide shot from the doorway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "myeongcheon",
+    "constables",
+    "hanok"
+   ],
+   "refs": [],
+   "beat": "포도청에서 달려온 친구 이명천의 외침",
+   "visual": "grey dawn in the stone-paved courtyard of the noble house: the broad-shouldered Korean young man of nineteen stands at frame centre facing the camera in his Joseon military officer's dark blue coat with a black sash and the wide black military hat with a white feather, one arm thrust out pointing past the camera, his strong square face contorted with anger and grief, mouth open mid-shout, thick brows drawn hard together; behind him Joseon police constables in dark blue coats and wide black hats pour in through the open gate with wooden clubs and coils of rope; thin black fog still clings to the corners of the courtyard; the faded paper lanterns from the wedding hang dark on their strings; the grey light is cold and flat, the scene violent and heartbroken; the carved wooden gate hangs open behind the constables, one leaf knocked back against the wall",
+   "motion": "the young officer shouts his order with his arm thrust out, and his shouting is the one movement in the shot: at the start he stands with his arm pointing past the camera and his mouth opening; over the whole five seconds his mouth works on a hard shout, his chest heaving, his outstretched arm trembling with the force of it and his thick brows drawn tighter, the white feather on his hat quivering, while the constables already standing on either side of him hold their places, braced and gripping their clubs and coils of rope, and the open gateway behind them stays clear and still; the faded lanterns on their strings, the gate posts, the tiled roofs and the thin fog in the corners stay completely still; the cold grey dawn light holds steady; the gate leaf knocked back against the wall stays still; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "hyeonu_prison",
+    "constables",
+    "hanok"
+   ],
+   "refs": [],
+   "beat": "모든 증거가 가리킨 범인 — 신랑 송현우",
+   "visual": "the courtyard of the noble house in the grey dawn: the slender Korean young man of nineteen kneels on the stone paving at frame centre facing the camera, his long black hair hanging loose and tangled around his pale refined face, dressed in plain white inner clothes, his arms bound behind him with coils of rope; his sharp dark eyes look up past the camera in disbelief and despair; two Joseon police constables in dark blue coats and wide black hats stand close on either side of him, each gripping one of his shoulders, their faces stern; the wedding table in the background has been knocked askew, a carved wooden goose fallen on its side on the paving; faded lanterns hang dark; thin black fog lingers at the base of the walls; cold flat grey light over everything; a few pale petals from the wedding day still lie on the paving around his knees",
+   "motion": "the young man's head sinks slowly forward as he kneels bound between the constables, and that sinking of his head is the one movement in the shot: at the start he kneels upright with his eyes turned up past the camera; over the whole five seconds his head bows slowly lower, his loose tangled hair falling forward across his face, his shoulders shaking once under the constables' gripping hands, his bound arms straining faintly against the rope and going still; the two constables stay planted on either side, their hands fixed on his shoulders; the knocked-askew wedding table, the fallen wooden goose, the dark lanterns and the lingering fog stay completely still; the pale petals on the paving around his knees stay still; the camera holds a medium shot at his kneeling eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "hyeonu_prison",
+    "prison"
+   ],
+   "refs": [],
+   "beat": "옥에 갇혀 억울함을 호소하던 현우가 택한 죽음",
+   "visual": "night in a Joseon prison cell: the slender Korean young man of nineteen in plain soiled white prisoner's clothes stands at frame centre gripping the thick wooden bars with both hands, facing the camera through them, his long black hair hanging loose and tangled, his pale refined face pressed close to the bars, sharp dark eyes red-rimmed and desperate, mouth open, crying out into the dark passage; straw is scattered over the dirt floor behind him; the rough plank walls are stained and damp; a single shaft of cold moonlight falls through the tiny high barred window and lays a pale square across the straw; the passage in front of the bars is black and empty, nobody listening; the cell is cramped, cold and hopeless; a clay water bowl sits untouched in the straw, and a thin wooden bench runs along the back wall",
+   "motion": "the young man's grip on the bars slowly weakens and his hands slide down them, and that sliding is the one movement in the shot: at the start he grips the wooden bars high with both hands, his face pressed close; over the whole five seconds his fingers loosen and his hands slide slowly down the bars as his body sags, his forehead coming to rest against the wood, his loose hair falling across his face, his mouth closing, until his hands rest low on the bars and he stays leaning there; the pale square of moonlight on the straw, the tiny high window, the stained plank walls and the black empty passage stay completely still; the clay water bowl in the straw and the thin wooden bench along the back wall stay still; the camera holds a medium shot through the bars at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "hyeonu_prison",
+    "prison",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "알 수 없는 힘이 되살려 낸 현우",
+   "visual": "the same Joseon prison cell in the deepest part of the night: the slender Korean young man of nineteen in plain soiled white prisoner's clothes lies on his back on the straw at frame centre, seen from above, his long black hair spread loose around his pale refined face, his arms at his sides; his sharp dark eyes have just snapped open, staring straight up at the camera, clear and black; a swirl of thin black fog circles slowly on the straw around his body, rising from the dirt floor; the shaft of moonlight from the tiny high window has turned a cold silver and falls directly across his face and chest; the rough plank walls and the thick wooden bars frame the edges of the picture; the cell is utterly still, a dead man's eyes open in the dark; a clay water bowl lies tipped on its side in the straw near his hand",
+   "motion": "the thin black fog circles slowly around the young man's body on the straw, and that circling fog is the one movement in the shot: at the start the fog lies in a loose ring on the straw around him; over the whole five seconds it drifts slowly around his body in a wide circle and rises in thin wisps toward the shaft of silver moonlight, thinning as it climbs, while he lies perfectly still on his back with his open black eyes staring straight up at the camera, only his chest lifting once with a first deep breath; the straw, the rough plank walls, the thick wooden bars and the shaft of moonlight stay completely still; the tipped clay water bowl near his hand stays still in the straw, a little spilled water dark on the dirt; the camera holds a high shot looking straight down at him, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "hyeonu_prison",
+    "crow",
+    "shrine_mt"
+   ],
+   "refs": [],
+   "beat": "기이한 까마귀를 따라 인왕산의 사당으로",
+   "visual": "dawn on a steep path up Inwangsan mountain: the slender Korean young man of nineteen in plain soiled white prisoner's clothes, his long black hair loose, climbs the worn stone steps between pine trees and huge pale boulders toward the camera, seen at a slight angle, his pale refined face lifted and fixed on the large black crow with glossy feathers that perches on a boulder a few steps above him at frame right, its heavy black beak turned back toward him; thin morning mist drifts between the pines; at the top of the steps behind the crow the tiled roof of a small old shaman shrine shows among the trees, strips of white cloth tied to a rope fluttering at its gate; cool grey-blue dawn light, the first pale gold touching the boulders; a stone lantern stands mossy at the side of the steps, and the far ridges of the city roofs show faintly below the mountain",
+   "motion": "the young man climbs steadily up the stone steps toward the crow, and his climbing is the one movement in the shot: at the start he is several steps below the crow; over the whole five seconds he climbs step by step up the worn stone stairs, his loose hair swaying and his bare feet finding each step, his face staying lifted toward the crow the whole time, while the thin morning mist drifts slowly between the pines and the strips of white cloth at the shrine gate flutter in the breeze; the crow stays perched on its boulder, head turned back toward him, perfectly still; the pine trees, the huge pale boulders and the shrine roof stay completely still; the mossy stone lantern beside the steps and the misty valley far below stay still; the camera holds a medium shot from a few steps above him, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "jinju",
+    "shrine_mt"
+   ],
+   "refs": [],
+   "beat": "사당의 당주 소진주 — 조선 팔도의 기이한 일을 조사하라",
+   "visual": "inside the small old shaman shrine on Inwangsan mountain in the morning: the Korean woman of twenty-nine sits upright on a raised cushion at frame centre facing the camera, in a white silk shaman's robe over a deep indigo skirt, her long black hair in a low braided bun with a silver pin, her calm pale oval face composed and her piercing dark eyes fixed straight ahead at someone just below the camera; her right hand rests on a folded fan across her knees, her left holds a small brass bell; behind her on a low altar stand brass candlesticks with lit candles and bowls of rice, and painted cloth scrolls with plain borders hang on the wooden wall; thin morning light slants through the open lattice door at frame left across the polished floor; the room is hushed and still, a command about to be given",
+   "motion": "the woman slowly raises the closed fan and points it forward, and that raising is the one movement in the shot: at the start the fan rests folded across her knees; over the whole five seconds she lifts it slowly in her right hand and extends it straight forward toward the camera, holding it level and still at the end, her piercing eyes staying fixed ahead and her calm face unchanged, the white silk sleeve sliding back a little from her wrist; her left hand keeps the small brass bell still on her knee; the candle flames on the altar behind her stand upright; the bowls of rice, the painted scrolls and the slanting morning light stay completely still; the thin morning light on the polished floor lies unchanged; the camera holds a medium shot at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "hyeonu_road",
+    "dog",
+    "road"
+   ],
+   "refs": [],
+   "beat": "호위무사 진운과 검은 개 어둠과 함께 떠나는 암행길",
+   "visual": "late afternoon on a narrow dirt road through the Joseon countryside: the slender Korean young man of nineteen in a plain grey hemp traveller's robe, wide-brimmed black horsehair gat hat and straw sandals walks away from the camera down the road at frame centre, seen from behind, a small cloth bundle slung over one shoulder, head held straight toward the road ahead; beside him trots the large lean black dog with a glossy coat, upright ears and dark watchful eyes, its head turned back over its shoulder toward the camera; a few steps ahead of them on the road a third traveller's long shadow falls across the dust from someone walking just out of frame; harvested rice paddies stretch golden-grey on both sides; a line of bare trees leads toward low hills; long warm late sunlight, their shadows stretching ahead of them",
+   "motion": "the young man and the black dog walk away down the dirt road, and their walking is the one movement in the shot: at the start they are a few steps from the camera; over the whole five seconds they walk steadily away along the road, the young man's grey robe swinging at his calves and his gat hat level, the back of his head to camera and held straight toward the road ahead the whole time, while the black dog trots at his side with its head still turned back toward the camera, and their own long shadows slide ahead of them on the dust; the harvested paddies, the line of bare trees and the low hills stay completely still; the long warm light holds steady; the far stretch of road toward the hills stays clear and still; the camera holds a medium wide shot from behind them on the road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "myeongcheon",
+    "constables",
+    "road"
+   ],
+   "refs": [],
+   "beat": "그 뒤를 쫓는 복수심에 불탄 친구 이명천",
+   "visual": "dusk on the same dirt road through the countryside: the broad-shouldered Korean young man of nineteen in his Joseon military officer's dark blue coat with a black sash and the wide black military hat with a white feather rides a dark horse toward the camera at frame centre, leaning forward in the saddle, his strong square face set hard with fury, thick brows drawn together, eyes fixed on the road ahead past the camera; behind him Joseon police constables in dark blue coats and wide black hats follow on foot and on two more horses, carrying wooden clubs and coils of rope; dust rises from the road around the hooves; the harvested paddies on either side are turning blue-grey in the fading light; a line of bare trees stands dark against a sky of fading gold and slate; a small stone marker stands at the roadside, weathered and blank",
+   "motion": "the young officer rides steadily down the road toward the camera at the head of his men, and his riding is the one movement in the shot: at the start he is some distance up the road; over the whole five seconds his dark horse comes on at a steady trot toward the camera, its head nodding, dust lifting from its hooves, the officer leaning forward in the saddle with his hard eyes fixed ahead and the white feather on his hat streaming back, the constables following close behind him on foot and horseback; the harvested paddies, the line of bare trees and the fading gold sky stay completely still; the weathered blank stone marker at the roadside stays still, and the dust settles slowly on the road behind the riders; the camera holds its place on the road as he approaches, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "hyeonu_road",
+    "dog",
+    "crow",
+    "road",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "어둠 속을 걷는 어사 — 비극의 진실에 닿을 수 있을까",
+   "visual": "night on the dirt road through the countryside: the slender Korean young man of nineteen in the plain grey hemp traveller's robe and wide-brimmed black horsehair gat hat walks away from the camera into a wall of thick black fog that fills the road ahead, seen from behind at frame centre, the back of his head held straight toward the fog; the large lean black dog walks close at his side; above them the large black crow with glossy feathers glides low along the road ahead, just at the edge of the fog; the paddies on both sides are lost in darkness; a thin crescent moon shows faintly through the fog high at frame right; the fog swallows the road a few steps ahead of them; the light is cold and silver-black, the scene of a man walking into the dark on purpose; a scarecrow in a torn straw coat stands in the dark paddy at frame left",
+   "motion": "the young man and the black dog walk steadily into the black fog, and their walking is the one movement in the shot: at the start they stand a few steps short of the wall of fog; over the whole five seconds they walk forward and the fog closes around them, first around the dog's legs and the hem of the grey robe, then up to his shoulders, their shapes growing fainter with every step, the back of his head held straight toward the fog the whole time, while the crow glides ahead into the fog and vanishes; the dark paddies, the faint crescent moon and the road behind them stay completely still; the scarecrow in its torn straw coat stands still in the dark paddy at frame left, and the fog ahead keeps its slow roll; the camera holds a medium wide shot from behind them on the road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "crow",
+    "road",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽 나뭇가지 위의 까마귀",
+   "visual": "a quiet closing still at the first grey light of dawn on the countryside road, empty of people: the large black crow with glossy feathers and a heavy black beak perches alone on a bare branch of a roadside tree at frame centre, turned in profile, its dark eye bright; below it the dirt road runs away into a low bank of thinning black fog that still lies over the harvested paddies; far along the road, faint in the fog, a line of bare trees fades into grey; the sky above is pale grey warming to a faint gold at the horizon; a few dry leaves still cling to the branch beside the crow; the air is cold and very still; the scene holds the end of the long night, the dark lifting but not yet gone; a thin pale wisp of morning smoke rises from the low thatched straw roof of a small Joseon farmhouse far beyond the fog, and dew beads on the bare branch",
+   "motion": "the crow on the branch turns its head slowly toward the road, and that turning is the one movement in the shot: at the start it perches in profile on the bare branch; over the whole five seconds it turns its head slowly toward the road below, its bright dark eye catching the grey dawn light and its heavy beak pointing down the road into the thinning fog, its glossy feathers ruffling once and settling; its feet stay gripped on the branch; the thinning black fog over the paddies drifts very slowly to the left; the dirt road, the line of bare trees, the few dry leaves on the branch and the pale warming sky stay completely still; the thin wisp of smoke from the far thatched roof rises straight and slow, and the dew on the branch stays in place; the camera holds a medium shot of the branch and the road, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

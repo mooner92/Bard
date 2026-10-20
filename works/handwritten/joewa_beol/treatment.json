@@ -1,0 +1,203 @@
+{
+ "logline": "관 같은 다락방의 가난한 대학생 라스콜니코프가 전당포 노파에게 시계를 맡기고, 선술집의 술꾼과 어머니의 편지와 밤의 글을 지나 어느 저녁 외투 안에 무언가를 감춘 채 노파의 계단을 오른 뒤, 열병과 경찰서와 소냐의 촛불과 포르피리의 웃음과 다리 위의 강물을 거쳐 십자가를 걸고 광장 한가운데 무릎을 꿇는다",
+ "destination": "소설 죄와 벌에서 만날 수 있습니다",
+ "protagonist": "raskolnikov",
+ "setting": "1860년대 여름의 페테르부르크 — 관 같은 다락방, 전당포 노파의 방과 계단, 선술집, 경찰서, 거리, 소냐의 방, 수사관의 방, 운하의 다리, 시장 광장",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/joewa_beol/assets",
+ "anchor": "a tall thin hollow-faced young man in a ragged dark brown coat in the hot summer streets and garrets of St Petersburg, and a thin fair-haired girl in a dull green shawl",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "그가 저지른 일과, 끝내 털어놓는 자백",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "raskolnikov",
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "관 같은 다락방에 사는 가난한 대학생 라스콜니코프",
+   "visual": "hot hazy summer light from the one small window of the tiny garret room with the sloping ceiling so low a man must stoop: the tall thin young man of twenty-three with the dark brown hair falling over his brow and the handsome hollow pale face with the dark burning eyes, in the ragged dark brown summer coat, is the one lying at frame centre on the torn sofa with one arm thrown over his eyes and his long legs hanging over the sofa's end, his boots still on; the small table beside the sofa at frame left holds a heap of papers and a stub of candle; the dull yellow wallpaper peels from the wall behind in long strips; the sloping ceiling comes down to the top of the small window at frame right; a plate with a crust of bread stands on the floor; there is exactly one person in the garret and the room is small enough for him to touch both walls",
+   "motion": "the young man's thrown arm is the one thing that moves, and the garret holds still: at the start his arm lies over his eyes with his boots hanging over the sofa's end; over the first three seconds the arm slides slowly from his eyes down over his brow and his dark burning eyes open and turn to the sloping ceiling a hand's width above his face, his lips parting; in the last two seconds the arm holds on his brow and his eyes stay on the ceiling; his legs and boots do not shift; the heap of papers and the candle stub on the table keep their places; the peeling wallpaper, the small window and the plate with the crust hold completely still; the hot hazy light stays even; his old cap on the sofa's arm does not slide; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "raskolnikov",
+    "old_woman",
+    "pawn_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "다락방의 그가 전당포 노파에게 시계를 맡기고 몇 푼을 받는다",
+   "visual": "dim light through the curtained window of the small neat old room with the chest of drawers: the small dried-up old woman of sixty with the sharp little eyes and the thin neck, in the grey headscarf and the shabby fur-trimmed jacket with the bunch of keys at her waist, is the one standing at frame left behind the small table with a flat round silver pocket watch on a short chain, the size of her palm, its lid open held up close to her sharp eyes in one hand and a few small coins laid on the table's cloth under her other hand, her thin lips pursed; the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat with the old cap in his hand, is the one standing at frame right before the table with his dark burning eyes fixed not on the coins but on the old woman's face and on the keys at her waist, his free hand clenched at his side; a small brass oil lamp with a glass chimney stands dark on the chest of drawers; the door behind him stands ajar on the dark stair; there are exactly two people in the room and the watch is in the old woman's hand; the watch is an old pocket watch with a round case and a short chain, held by its case, and there is no lamp lit in the room, only the grey daylight",
+   "motion": "the old woman's watch hand and the young man's eyes are the two things that move, and the room holds still: at the start the watch is held up close to her sharp eyes and his eyes are on her face; over the first three seconds her hand turns the watch slowly over to look at its back and her other hand pushes the few coins slowly an inch across the cloth toward him, her pursed lips not moving, while his dark eyes travel slowly from her face down to the keys at her waist and back to her face; in the last two seconds the watch holds turned in her hand and his eyes hold on her face; neither person's feet shift; the dark lamp on the chest of drawers, the curtained window and the ajar door on the dark stair hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "marmeladov",
+    "raskolnikov",
+    "tavern",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "선술집에서 술꾼이 딸 소냐 이야기를 한다",
+   "visual": "the dull yellow light of the smoky oil lamp on its chain in the low dark tavern: the bloated man of fifty with the swollen greyish face and the bald top of his head with the grey tufts, in the ragged black frock coat with its one button, is the one sitting at frame left at the sticky wooden table with both his shaking hands spread flat on the wood on either side of an empty glass, his swollen face lifted to the young man and his mouth open in a long speech, his eyes wet; the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat, is the one sitting at frame right across the table with his chin on his fist and his dark burning eyes on the speaker's face, still; the counter with its bottles stands at the back; two men slump at a far table with their heads on their arms; the smoky oil lamp on its chain swings a little; there are exactly two men awake at the near table and the bloated one is the one speaking; the light comes from the oil lamp's small flame inside its glass, and both men have ordinary pale skin",
+   "motion": "the bloated man's shaking hands are the one thing that moves, and the young man holds still: at the start both his hands are spread flat on the table on either side of the empty glass with his mouth open in speech; over the first three seconds his shaking hands lift slowly from the wood and spread wide in the air at the height of his shoulders, palms up, as a man does who has nothing left to show, his wet eyes on the young man and his mouth working on; in the last two seconds the hands hold spread in the air, trembling; his body does not shift on the bench; the young man keeps his chin on his fist and his dark eyes on the speaker, nothing in him moving; the empty glass keeps its place; the hanging lamp's small swing stays small; the counter with its bottles and the slumped men at the far table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "raskolnikov",
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "다락방에 온 어머니의 편지는 여동생의 결혼 소식이다",
+   "visual": "hot hazy summer light from the small window of the tiny garret room: the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in his shirt with the ragged coat thrown on the sofa, is the one sitting at frame centre on the edge of the torn sofa bent forward with a thick letter of several sheets held open in both hands close before his face, the written sides turned toward himself and away from the camera so that only the plain backs of the sheets show, his dark burning eyes bent to the page and his lips pressed white, his knee jigging; the envelope lies torn open on the small table at frame left beside the heap of papers; the dull yellow wallpaper peels behind him; the sloping ceiling comes down over his bent head; the small window at frame right is hazy with heat; there is exactly one person in the garret and the letter shows only its blank backs",
+   "motion": "the young man's jigging knee and the letter are the two things that move, and the garret holds still: at the start the letter is held close before his face with his knee jigging; over the first three seconds his hands turn one sheet of the letter slowly over to the next, the plain backs staying toward the camera, and his knee jigs faster and stops as his lips press whiter and his dark eyes fix on one line; in the last two seconds the letter holds before his face and his knee is still; his feet do not shift on the boards; the torn envelope and the heap of papers on the small table keep their places; the ragged coat thrown on the sofa does not slide; the peeling wallpaper, the sloping ceiling and the hazy window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "raskolnikov",
+    "garret",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "편지를 접은 그가 밤마다 비범한 사람에 대한 글을 쓴다",
+   "visual": "the small dull yellow light of the candle stub on the small table in the tiny garret room at night: the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face lit from below, in his shirt, is the one sitting at frame centre on the low stool at the small table bent over a sheet of paper with a pen in his hand, the sheet's written side turned away from the camera by the angle of the table so that only the pen moving above the paper's edge shows, his dark burning eyes fixed on the page and his free hand gripping his own hair at the brow; the heap of papers lies pushed to the table's edge; the torn sofa stands at frame right in shadow with the ragged coat on it; the dull yellow wallpaper peels behind; the small window at frame left is pale with the summer night; there is exactly one person in the garret and the writing cannot be read",
+   "motion": "the young man's pen hand is the one thing that moves, and the garret holds still: at the start the pen is on the page with his free hand gripping his hair; over the whole five seconds the pen moves slowly across the hidden page in short hard strokes and returns and moves again, the paper's writing staying turned away, his gripping hand tightening in his hair and his dark eyes not leaving the page; his feet do not shift under the stool; the candle stub's small flame stays steady; the heap of papers at the table's edge, the ragged coat on the sofa and the pale window hold completely still; the sloping ceiling's shadow keeps its slant over his bent head; the pushed-aside heap of papers does not slide from the table's edge; the small stool under him does not creak or shift; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "raskolnikov",
+    "pawn_stairs",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 저녁 외투 안에 무언가를 감춘 그가 노파의 계단을 오른다",
+   "visual": "the dim light of evening through the small window on the landing of the dark narrow stairway of the tenement house: the tall thin young man of twenty-three with the dark brown hair under the old cloth cap, in the ragged dark brown coat buttoned to the throat and held closed over his chest by one arm pressed hard against something long and heavy hidden inside it, is the one climbing the stairs at frame centre seen wholly from behind, the back of his ragged coat and the back of his dark head toward the camera, his face turned away and hidden entirely, three steps below the landing, his other hand sliding up the damp wall, his shoulders hunched; the door on the landing above him stands closed with the brass bell-pull beside it; the damp walls close in on both sides; the small window on the landing gives its dim light down the steps; there is exactly one person on the stairs and his back is to the camera, and the shape inside his coat cannot be seen",
+   "motion": "the young man climbing is the one thing that moves, and the stairway holds still: at the start he is three steps below the landing with his back to the camera and his arm pressed over his coat; over the whole five seconds he climbs slowly two steps toward the landing, his hand sliding up the damp wall and his hunched shoulders lifting with each step, the arm pressed over his coat never loosening and his face never turning back; the closed door on the landing with its brass bell-pull does not open; the damp walls and the small window's dim light hold completely still; the brass bell-pull beside the door hangs still on its wire; the dim light from the landing window lies on the damp walls without changing; nothing moves on the stairs above him or below him; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "raskolnikov",
+    "razumikhin",
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그날 밤 이후 그는 열병으로 쓰러지고 친구가 곁을 지킨다",
+   "visual": "grey light from the small window of the tiny garret room: the tall thin young man of twenty-three with the dark brown hair plastered wet to his brow and the hollow pale face flushed and shining, in his shirt, is the one lying at frame centre on the torn sofa under the ragged coat spread over him as a cover with his eyes closed and his lips moving, one hand gripping the coat's edge; the big cheerful young man of twenty-five with the thick black hair and the broad plain face, in the shabby dark coat, is the one sitting at frame right on the low stool pulled close to the sofa with a wet cloth held in one big hand just laid on the sick man's brow and a cup in the other, his broad face bent to the sick man with his brows drawn together; the small table at frame left holds the papers and a bottle; the sloping ceiling comes down over them both; there are exactly two people in the garret and the one on the sofa is the one who is ill",
+   "motion": "the big man's cloth hand is the one thing that moves, and the sick man holds nearly still: at the start the wet cloth is just laid on the sick man's brow with the cup in his other hand; over the first three seconds his big hand presses the cloth gently and lifts it and turns it over and lays it again on the brow, his drawn brows not easing, while the sick man's lips go on moving without sound and his gripping hand on the coat's edge tightens; in the last two seconds the cloth holds on the brow and the big hand rests on it; the cup in his other hand does not spill; the sick man's closed eyes do not open; the papers and the bottle on the small table, the sloping ceiling and the small window hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "raskolnikov",
+    "police_office",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "경찰서 소환은 밀린 집세 때문이었지만 그는 거기서 쓰러진다",
+   "visual": "hot hazy light through the small window of the police office with the clerks at the high desks: the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face gone white, in the ragged dark brown coat, is the one standing at frame centre before the nearest high desk with one hand gripping its edge and his body swaying, his knees bending under him and his dark eyes half closed, a folded paper with its plain back showing crushed in his other hand; two clerks in dark uniform coats at frame left and frame right are the ones bent over their papers at the high desks with their pens in their hands, one with his face just lifting toward the swaying man; the heaps of papers stand on the desks; the stove stands cold at the back; the bench along the wall is empty; there are exactly three people in the office and the young man is the one swaying; the clerks are Russian police clerks of 1866 in plain dark green uniform coats with brass buttons and no cap, seated at tall desks with quill pens and ink, and the room holds a tall round white tiled stove against the wall, bare plank floor, plain whitewashed walls, with nothing modern in it",
+   "motion": "the swaying young man is the one who moves, and the clerks hold nearly still: at the start he stands gripping the desk's edge with his knees bending and his eyes half closed; over the first three seconds his body sways slowly further to the left and his gripping hand slides along the desk's edge, his knees bending lower and his half-closed eyes closing, the crushed paper in his other hand loosening; in the last two seconds he holds bent low at the desk with his hand still on its edge, not yet on the floor; the clerk at frame right keeps his pen in his hand and his face just lifting toward the young man, the other clerk not looking up; the heaps of papers on the desks, the cold stove and the empty bench hold completely still; the hot hazy light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "raskolnikov",
+    "marmeladov",
+    "crowd",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그가 마차에 치인 술꾼을 딸 소냐의 집으로 옮긴다",
+   "visual": "hot hazy evening light on the wet cobbles of the St Petersburg street with the tall grey houses: the bloated man of fifty with the swollen greyish face and the bald top of his head, in the ragged black frock coat, is the one lying at frame centre on the cobbles with his eyes closed and one arm flung out, his swollen face turned to the sky; the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat, is the one kneeling at frame right beside him with both his arms under the fallen man's shoulders lifting him a little from the stones, his pale face bent to the swollen one and his lips moving; the stopped carriage with its two horses stands at frame left with the driver on the box looking down; the backs of townspeople in caps and shawls crowd the bottom edge of the frame facing the fallen man; the lamp post rises at the back; there are exactly two faces seen plainly and the fallen man's eyes are closed; the fallen man's face and hands are ordinary pale skin gone grey, and the street lamp is an old oil lamp on an iron post",
+   "motion": "the kneeling young man is the one who moves, and the crowd holds still: at the start his arms are under the fallen man's shoulders lifting him a little from the stones; over the first three seconds he lifts the fallen man's shoulders slowly higher against his own chest and turns his pale face up toward the backs of the crowd, his lips moving in a call, the fallen man's flung-out arm sliding a little on the cobbles; in the last two seconds he holds the fallen man against his chest with his face turned to the crowd; the fallen man's eyes stay closed; the backs of the crowd stay still with no face turning round; the stopped carriage with its two horses and the driver on the box do not move; the lamp post and the tall grey houses hold completely still; the hazy light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "sonya",
+    "raskolnikov",
+    "sonya_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "촛불 아래서 소냐가 그에게 낡은 책을 읽어 준다",
+   "visual": "the small dull yellow light of the candle on the table in the bare room with the crooked wall: the thin girl of eighteen with the fair hair and the pale thin face with the large blue eyes, in the plain dark dress with the dull green woollen shawl over her shoulders, is the one sitting at frame left at the small table bent over an old thick book held open in both her thin hands close to the candle, the book's pages turned toward herself and away from the camera so that only its worn leather back shows, her lips moving in the reading and her eyes on the page; the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat, is the one sitting at frame right on the chest against the crooked wall with his elbows on his knees and his dark burning eyes fixed on the girl's face, still; the bed with the thin cover stands at the back; the window on the canal is pale with the summer night; there are exactly two people in the room and the girl is the one reading",
+   "motion": "the girl's reading lips and her page hand are the two things that move, and the young man holds still: at the start her lips move in the reading with the book held open in both hands; over the whole five seconds her lips go on moving slowly and one thin hand lifts from the book's edge and turns a page slowly over, the book's back staying toward the camera, her eyes not leaving the page and the dull green shawl slipping a little from one shoulder; the young man keeps his elbows on his knees and his dark eyes fixed on her face, nothing in him moving; the candle flame stays steady; the bed, the chest, the crooked wall and the pale window hold completely still; the old book's worn leather back keeps the candlelight; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "porfiry",
+    "raskolnikov",
+    "porfiry_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "소냐의 집을 나선 그를 수사관 포르피리가 웃으며 붙든다",
+   "visual": "grey light through the window on the courtyard in the small office with the thin haze of cigarette smoke: the stout man of thirty-five with the round plump face and the small sly eyes with the smile in them, in the loose dressing gown over the white shirt, is the one standing at frame left close before the young man with one plump hand laid lightly on the young man's sleeve and the other hand spread over his own round belly, his round face tilted up with a broad soft smile and his small eyes narrowed; the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat, is the one standing at frame right with his back almost against the door and his dark burning eyes fixed on the smiling face, his jaw set hard and his free hand behind him on the door's handle; the desk heaped with papers stands at the back; the leather sofa is at frame left; the thin haze of smoke hangs in the grey light; there are exactly two people in the office and the stout man is the one smiling; the room beyond the door is an old Russian office of 1866 with a plain wooden writing desk, a plain wooden chair with a straight back and four legs, an inkstand and papers, plain plank floor, nothing modern in it",
+   "motion": "the stout man's hand on the sleeve is the one thing that moves, and the young man holds still: at the start the plump hand lies lightly on the young man's sleeve with the broad soft smile tilted up at him; over the first three seconds the plump hand pats the sleeve slowly twice and stays there, the smile widening and the small sly eyes narrowing further, the other hand not leaving the round belly; in the last two seconds the hand holds on the sleeve and the smile stays; the stout man's feet do not shift; the young man keeps his back almost against the door and his hand behind him on the handle, his set jaw and his burning eyes not changing; the thin haze of smoke drifts only a little in the grey light; the heaped desk and the leather sofa hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "raskolnikov",
+    "bridge",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "포르피리를 떠난 그가 다리 위에서 검은 강물을 내려다본다",
+   "visual": "flat grey light over the stone bridge with the iron railing and the black water of the canal below: the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat with the old cap pushed back, is the one standing at frame centre at the railing with both his forearms on the iron rail and his body leaned far out over it, his head hanging down so that his face is turned to the black water below and hidden from the camera under the falling hair; the black water lies flat below the bridge at the bottom of the frame with the grey houses along the canal reflected in it; the tall grey houses run along both sides of the canal to the top of the frame; a few dark figures walk far off on the far quay; there is exactly one person on the bridge and his face is turned down to the water",
+   "motion": "the young man's hanging head is the one thing that moves, and the bridge holds still: at the start his head hangs down over the rail with his face to the black water; over the first three seconds his head lowers slowly further until his brow almost touches his forearms on the rail and lifts again slowly a little, his face staying hidden under his falling hair and his leaned body not straightening; in the last two seconds his head holds low over the rail; his feet do not shift on the bridge; the black water below keeps its flat reflection of the grey houses, moving only in slow small ripples; the far dark figures on the quay do not move; the iron railing and the tall grey houses hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "sonya",
+    "raskolnikov",
+    "sonya_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "다리에서 돌아온 그에게 소냐가 나무 십자가를 걸어 준다",
+   "visual": "grey daylight through the window on the canal in the bare room with the crooked wall: the thin girl of eighteen with the fair hair and the pale thin face with the large blue eyes, in the plain dark dress with the dull green woollen shawl, is the one standing at frame left close before the young man with both her thin hands held out open before her at chest height, a small plain wooden cross lying flat on her two open palms, its short loop of cord coiled on her palm beside it; the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat open at the chest, is the one standing at frame right with his head bowed toward her and his arms hanging at his sides, his dark burning eyes on the small cross at his chest; the small table with the candle dark and the old book stands at the back; the bed and the chest are at the far right; there are exactly two people in the room and the cross lies on her open palms; the cross lies on her palms and touches nothing else, its cord coiled small on her palm, and the young man's hands hang empty at his sides with plain air between the two of them",
+   "motion": "the girl's hands with the cross are the one thing that moves, and the young man holds still: at the start the cross on its cord is held between her raised hands just laid against his chest; over the first three seconds her hands lift the cord slowly over his bowed head and let it settle round his neck, the small wooden cross coming to rest on the open chest of his coat, her wet eyes not leaving his face; in the last two seconds her hands lower slowly from his neck and hold at his chest over the cross; her feet do not shift; the young man keeps his head bowed and his arms at his sides, only his dark eyes moving from the cross to her face; the dark candle, the old book, the bed and the chest hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "raskolnikov",
+    "crowd",
+    "square",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "광장 한가운데 무릎 꿇은 그가 무엇을 말하려는지 알 수 없다",
+   "visual": "hot hazy evening light over the wide market square with the stalls of vegetables and the stacked crates: the tall thin young man of twenty-three with the dark brown hair falling over his brow and the hollow pale face, in the ragged dark brown coat with the small wooden cross on its cord showing at his open chest, is the one kneeling at frame centre in the middle of the cobbles with both his palms pressed flat to the dirty stones and his head bowed low so that his brow is a hand's width from the cobbles, his cap fallen beside him; round him the backs and the sides of the townspeople in caps and shawls stand in a loose ring on the cobbles with their faces turned to him, a market woman with a basket on her hip, a boy with his mouth open; the stalls with their vegetables and crates stand behind; the tall grey houses rise at the top of the frame; there is exactly one person kneeling in the square and the ring of people is the one thing round him",
+   "motion": "the kneeling man's bowed head is the one thing that moves, and the ring of people holds still: at the start his brow is a hand's width from the cobbles with his palms pressed flat; over the first three seconds his head lowers slowly the last hand's width until his brow rests on the dirty stones and holds there, his palms pressing harder and his shoulders shaking once; in the last two seconds his brow stays on the stones and he does not lift it; his knees do not shift on the cobbles and his cap lies where it fell; the ring of townspeople keep their faces turned to him with nobody stepping forward, the market woman's basket staying on her hip and the boy's mouth staying open; the stalls with their vegetables and crates and the tall grey houses hold completely still; the hazy light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 다락방의 낡은 책상과 흩어진 종이",
+   "visual": "grey morning light from the one small window of the tiny garret room with the sloping ceiling: the torn sofa at frame centre is empty with its cover thrown back; the small table at frame left holds the heap of papers pushed aside and the burnt-out candle stub in a pool of wax, and one sheet of paper lies on the floor below it with its blank back up; the old cloth cap hangs on a nail by the door; the dull yellow wallpaper peels from the wall in long strips; the sloping ceiling comes down close over the empty sofa; the small window at frame right shows the grey sky; the thrown-back cover on the sofa and the sheet on the floor are the two things left out of place",
+   "motion": "the grey light from the window is the one thing that moves, and the garret holds still: at the start the light lies even on the empty sofa and the table; over the whole five seconds the light brightens slowly as the haze outside thins and dims again, the shadow of the sloping ceiling's edge shifting a little on the peeling wallpaper; the thrown-back cover on the sofa, the heap of papers, the burnt-out candle stub and the sheet on the floor with its blank back up keep their exact places; the old cap on its nail does not swing; the peeling wallpaper and the small window hold completely still; no figure comes into the garret; the small window's square of grey light on the floorboards widens and narrows only with the changing haze; nothing stirs the papers on the table; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

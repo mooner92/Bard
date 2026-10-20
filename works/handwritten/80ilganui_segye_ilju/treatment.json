@@ -1,61 +1,207 @@
 {
- "logline": "시계처럼 사는 신사가 클럽에서 내기 하나를 걸고, 그날 저녁 짐도 없이 기차에 오른다.",
- "destination": "런던 클럽의 문 — 여든 날째 저녁 그가 돌아와야 하는 자리",
- "protagonist": "하루 일과를 분 단위로 지키는 런던 신사",
- "setting": "1872년 런던 클럽과 인도·중국·태평양을 잇는 기차와 배",
- "anchor": "a composed gentleman in a grey frock coat and high collar, trimmed side whiskers, upright bearing",
- "palette": "London soot grey, brass and steam white, tropical green, lamp gold",
+ "logline": "시계처럼 어김없는 런던 신사 포그가 클럽에서 여든 날에 지구를 돈다고 내기를 걸고 그날 저녁 하인 하나와 가방 하나만 들고 떠나, 끊긴 철길을 코끼리로 건너고 위태로운 부인을 구하고 배를 놓치고 들소 떼와 눈벌판과 대서양을 지나 리버풀에서 붙들렸다가 여든 하루째 런던 클럽 문 앞에 선다",
+ "destination": "소설 80일간의 세계 일주에서 만날 수 있습니다",
+ "protagonist": "fogg",
+ "setting": "1872년 — 런던의 클럽과 기차역, 수에즈와 홍콩과 리버풀의 부두, 인도의 밀림, 요코하마의 서커스 천막, 미국의 벌판과 눈밭, 대서양의 증기선",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/80ilganui_segye_ilju/assets",
+ "anchor": "a tall lean gentleman of forty in a long grey frock coat and a black top hat with a gold watch open in his hand",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark green",
+ "voice": "",
+ "personas": {},
+ "withheld": "동쪽으로 돈 여행자가 날짜를 한 번 벌게 되는 까닭과, 그 셈이 뒤집는 것",
  "beats": [
   {
    "n": 1,
-   "beat": "신사가 클럽 난롯가에서 회중시계를 연다.",
-   "visual": "a gentleman opening a pocket watch beside a club fireplace, other members in deep leather chairs",
-   "motion": "the watch lid springs open, firelight jumps, a newspaper lowers across the room"
+   "cast": [
+    "fogg",
+    "club_room"
+   ],
+   "refs": [],
+   "beat": "런던의 신사 포그는 시계처럼 어김없는 사람이다",
+   "visual": "dull yellow light of the coal fire and a tall window in the high panelled club room: the tall lean gentleman of forty with the smooth dark hair parted in the middle and the neat side whiskers, in the long grey frock coat buttoned high, is the one sitting upright in a deep leather armchair at frame centre beside the marble fireplace with a gold pocket watch open in his left hand and his right forefinger raised toward the tall clock against the wall, his calm unmoving plain face turned to the clock; the coal fire glows low in the marble grate at frame left with a brass fender before it; the tall clock stands against the dark panelling at frame right with its brass pendulum showing through a glass door; a folded newspaper lies on the arm of the chair and his black top hat sits upside down with its brim to the ceiling on a small table; the deep leather of the chair is worn pale at the arms; he is the only person in the room",
+   "motion": "the gentleman's raised forefinger is the one thing that moves, and the room holds still: at the start it is raised toward the tall clock with the open watch in his other hand; over the first three seconds the forefinger travels slowly across from the clock to the open face of the watch and comes to rest just above its glass, his calm face turning the same slow way from the clock to the watch, his shoulders staying square against the leather; in the last two seconds the finger holds above the watch face and his eyes stay on it; the brass pendulum of the tall clock swings its small steady arc behind the glass; the coal fire keeps its low glow in the marble grate; the folded newspaper, the top hat on the small table and the worn leather arms of the chair hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그는 여든 날이면 충분하다고 잘라 말한다.",
-   "visual": "a gentleman standing at a card table facing seated men, one hand flat on the green baize",
-   "motion": "his palm presses the baize, chairs push back, cigar smoke swirls up"
+   "cast": [
+    "fogg",
+    "club_room"
+   ],
+   "refs": [],
+   "beat": "클럽에서 포그가 여든 날이면 지구를 돈다고 내기를 건다",
+   "visual": "dull yellow candlelight from a branched brass candlestick over the card table with the green cloth in the club room: the tall lean gentleman of forty in the long grey frock coat is the one standing at the table's end at frame right with one gloved hand flat on a thick bundle of banknotes tied with tape that lies on the green cloth, his other hand holding a folded newspaper against his chest, his calm plain face turned to the men across the table; four gentlemen in dark evening coats are the ones sitting round the table at frame left and frame centre with their cards laid face down before them and their four faces turned up to him, one with his mouth open and one with both hands raised; a spread newspaper lies open in the middle of the cloth beside a brass candlestick; the marble fireplace and the tall clock stand behind them in the dark panelling; exactly five men in the room",
+   "motion": "the gentleman's gloved hand on the banknotes is the one thing that moves, and the seated men hold still: at the start it lies flat on the tied bundle on the green cloth; over the first three seconds the hand pushes the bundle slowly across the cloth toward the middle of the table, the bundle sliding a hand's width and stopping beside the open newspaper, and then lifts and comes back to his side, his calm face staying turned to the four men; in the last two seconds the hand hangs at his side and the bundle lies in the middle of the cloth; the four gentlemen keep their four faces turned up to him with the one mouth open and the two hands raised, none of them moving; the face-down cards, the brass candlestick, the marble fireplace and the tall clock hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그날 저녁 그가 짐도 없이 기차에 오른다.",
-   "visual": "a gentleman stepping onto a station platform into a steam-wreathed carriage, no luggage in hand",
-   "motion": "steam billows across the platform, the carriage door swings, a whistle blast shakes the air"
+   "cast": [
+    "fogg",
+    "passepartout",
+    "train",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그날 저녁 포그가 하인 하나와 가방 하나만 들고 기차에 오른다",
+   "visual": "gaslit evening on the platform of a great iron station: the black steam locomotive of the 1870s with its tall funnel and brass dome stands at frame left with steam rising from its sides and a wooden carriage with small square windows behind it; the tall lean gentleman of forty in the long grey frock coat and the black top hat is the one standing on the carriage step at frame centre with one gloved hand on the brass rail and his calm plain face turned back over his shoulder; the stocky young man of thirty with the curly brown hair in the short brown jacket and the soft cloth cap is the one on the platform a pace behind him at frame right with the bulging carpet bag hanging from his right hand by its leather handle at his side, its bottom a hand's width above the platform stones, his left hand raised in a wave and his round cheerful face turned up to the gentleman, his mouth open; the iron pillars of the station roof rise behind them into the dark and one small flame in a glass case on an iron bracket lights the step; the platform is bare stone; the two of them are the only people near the camera",
+   "motion": "the young man with the carpet bag is the one who moves, and the gentleman on the step holds still: at the start the bag hangs from his right hand at his side and his left hand is raised in his right arm and his face is turned up with his mouth open; over the first three seconds he takes two short steps toward the carriage, the bag swinging out from his chest and back as he comes and his cap sliding a little back on his curly hair, his round face staying up on the gentleman; in the last two seconds he holds a half pace from the step with the bag against his chest; the gentleman keeps his gloved hand on the brass rail and his face turned back over his shoulder without moving; the steam rises steadily from the locomotive's sides; the iron pillars, the small flame in its glass case on the bracket and the bare stone platform hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "인도의 철길이 밀림 한가운데서 끊겨 있다.",
-   "visual": "a railway line ending abruptly in dense jungle, passengers standing on the last sleepers",
-   "motion": "vines sway over the broken line, passengers mill about, birds burst from the canopy"
+   "cast": [
+    "fix",
+    "fogg",
+    "passepartout",
+    "hk_quay",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "수에즈 부두에서 형사 하나가 포그 일행을 눈여겨본다",
+   "visual": "hard noon light on a stone quay under a white sky: the small thin man of forty-five in the long brown overcoat and the low round hat is the one standing close in the foreground at frame left with his back half to the camera and his narrow watchful face turned along the quay, one hand holding a folded paper down against his coat and the other hand at the brim of his hat; far along the quay at frame right and small with the distance, the tall lean gentleman in the grey frock coat and black top hat is the one walking away toward a gangway with the stocky young man in the brown jacket a step behind him carrying the carpet bag; a steamer with one funnel lies alongside beyond them with smoke going up straight; stacked crates and iron bollards stand along the quay's edge and a coil of rope lies by the nearest bollard; the stone of the quay is bleached pale and hot; exactly three people",
+   "motion": "the thin man in the foreground is the one who moves, and the two far figures hold still: at the start his narrow face is turned along the quay and his hand is at the brim of his hat; over the first three seconds the hand comes slowly down from the hat brim to the folded paper against his coat and unfolds the paper a little way, his eyes going down to it and back up along the quay, his shoulders staying half turned from the camera; in the last two seconds he holds with the paper half open in his hand and his eyes on the far gentleman; the two far figures keep their exact size and place near the gangway; the steamer's smoke goes up straight at the same rate; the stacked crates, the bollards and the coil of rope hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "그는 코끼리를 사서 밀림을 가로지른다.",
-   "visual": "an elephant carrying two men through thick jungle at dawn, mist between enormous trees",
-   "motion": "the elephant strides forward, branches sweep past, mist parts around it"
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "jungle_rail",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "인도에 닿은 포그 일행 앞에서 철길이 밀림에 끊겨 있다",
+   "visual": "hard green light at the end of the railway line: the two iron rails run in from the bottom of the frame on their wooden sleepers and stop short at frame centre in a heap of loose sleepers and broken dull brown stone, and beyond them the dense green jungle stands unbroken and close-grown from the ground up with a narrow footpath going into it; a wooden post stands at the rail end with its top cut square; the tall lean gentleman of forty in the grey frock coat and the black top hat is the one standing on the last sleeper at frame left with his gold watch open in his hand and his calm plain face turned to the jungle's edge; the stocky young man in the brown jacket is the one beside him at frame right with both hands on his hips, his round face turned up at the trees; the dull orange-brown earth is dry and cracked round the rail end; the wide low sky is white with heat; the two of them are the only people at the rail end; there are exactly two people at the rail end, the gentleman and the young man, and no one else",
+   "motion": "the young man with his hands on his hips is the one who moves, and the gentleman holds still: at the start both his hands are on his hips and his face is up at the trees; over the first three seconds one hand comes off his hip and rises slowly to push his soft cap back on his curly hair, and his head turns slowly from the trees to the gentleman beside him and back to the trees, the other hand staying on his hip; in the last two seconds the raised hand holds at the cap and his face stays on the trees; the gentleman keeps the open watch in his hand and his face on the jungle's edge without moving; the rail end, the heap of sleepers, the wooden post and the close-grown green jungle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "홍콩 부두에서 배가 이미 떠나 버린다.",
-   "visual": "a steamer pulling away from a crowded Hong Kong quay, a gentleman halted at the water's edge",
-   "motion": "the steamer slides out, hawsers splash into the water, crowds surge behind him"
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "elephant",
+    "jungle_rail",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "포그가 코끼리 한 마리를 사서 밀림을 가로지른다",
+   "visual": "green shade on the narrow footpath through the dense jungle: the large grey elephant with the small tusks is the one walking away from the camera along the footpath, its broad grey hindquarters and its swinging tail nearest the camera and its head hidden beyond its back at frame centre with the wooden howdah strapped on its back over the fringed cloth; the tall lean gentleman in the grey frock coat and the black top hat is the one sitting upright in the howdah at frame centre with one gloved hand on its low rail and his calm plain face forward; the stocky young man in the brown jacket is the one sitting behind him in the howdah with the carpet bag between his knees and both hands gripping the rail, his round face turned to the trees at the side; a thin man in a white cloth wrap sits on the elephant's neck with a short stick; the trunks of the jungle trees stand close on both sides of the footpath with hanging creepers, and the footpath's dull orange-brown earth is printed with the elephant's round feet; broken light comes down through the leaves; exactly three people",
+   "motion": "the elephant is the one that moves, and the riders hold their seats: at the start it is a few paces down the footpath with its hind feet nearest the camera; over the first three seconds it walks slowly on away from the camera, one heavy foot after another lifting and coming down on the dull orange-brown earth, the howdah swaying gently from side to side on its back with the two riders swaying with it, its tail swinging slowly, the whole elephant growing only slightly smaller between the trees; in the last two seconds it keeps walking on at the same slow pace and stays well inside the frame; the gentleman keeps his hand on the rail and his face forward; the young man keeps his grip on the rail; the thin man on the neck keeps his seat; the close trunks, the hanging creepers and the broken light on the footpath hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그가 클럽 문을 여든 날째에 열 수 있을까?",
-   "visual": "a gentleman running up wide stone club steps at dusk, doorway lit above him",
-   "motion": "his feet pound the steps, the door swings ahead, gaslight flares along the street"
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "aouda",
+    "elephant",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밀림에서 위태로운 부인을 구해 코끼리에 태운 포그",
+   "visual": "torchlight in a jungle clearing at night: the large grey elephant is the one standing at frame centre with the wooden howdah on its back, and the tall lean gentleman in the grey frock coat is the one leaning far out over the howdah's low rail with both gloved hands closed round the wrists of the young woman in the pale silk sari with the dark shawl over her head, who is the one half lifted up the elephant's side with her feet clear of the ground and her calm face turned up to him; the stocky young man in the brown jacket is the one on the elephant's neck at frame left with both arms round the woman's waist from below, pushing her up; a crowd of people with drums and lit torches stands back at the edge of the clearing at frame right, small and turned toward the elephant, their torch flames the only bright things in the dark; the trunks of the jungle trees stand black round the clearing; exactly the three on the elephant near the camera and the crowd far back",
+   "motion": "the young woman being lifted is the one who moves, and the crowd holds still: at the start she is half lifted up the elephant's side with her feet clear of the ground and her wrists in the gentleman's hands; over the first three seconds she rises slowly up the grey flank, the gentleman's arms drawing her up and back over the howdah rail and the young man's arms pushing from below, her shawl slipping back from her head as she comes and one of her feet finding the rail; in the last two seconds she holds at the rail with her knee over it and the gentleman's hands still on her wrists; the crowd at the edge of the clearing keeps its place with the torch flames working steadily in the dark; the elephant stands without shifting; the black trunks round the clearing hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "런던 클럽 난롯가에 빈 안락의자가 놓여 있다.",
-   "visual": "an empty leather club armchair beside a dying fire, a pocket watch left open on the side table",
-   "motion": "embers settle in the grate, the watch hand ticks, firelight dims",
-   "anchor": false
+   "cast": [
+    "fogg",
+    "aouda",
+    "hk_quay",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "홍콩에서 포그가 탈 배가 하인만 태우고 떠나 버린다",
+   "visual": "flat grey light on the stone quay with the water beyond it: the tall lean gentleman in the grey frock coat and the black top hat is the one standing at the very edge of the quay at frame centre with his gold watch open in one hand and his other hand resting on the head of a walking cane, his calm plain face turned out to the water; the young woman in the pale silk sari is the one standing a pace behind him at frame right with her dark shawl drawn close and her face turned the same way; far out on the grey water at frame left a steamer with one funnel is going away with its smoke trailing back and its wake spreading behind it, small with the distance; wooden fishing boats lie moored below the quay with their sails furled; a stack of crates and two iron bollards stand on the quay behind the two figures; the two of them are the only people on the quay",
+   "motion": "the far steamer is the one thing that moves, and the two on the quay hold still: at the start it is going away on the grey water with its smoke trailing back; over the first three seconds it draws slowly further off toward the horizon, growing a little smaller, its trailing smoke stretching longer behind it and its wake spreading wider and fainter across the water; in the last two seconds it keeps drawing off at the same slow rate; the gentleman keeps the open watch in his hand and his cane under his other hand, his face out to the water, not moving; the young woman keeps her shawl drawn close and her face turned the same way; the moored fishing boats rock only a little on the water; the crates and the bollards on the quay hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "circus"
+   ],
+   "refs": [],
+   "beat": "포그가 요코하마의 서커스에서 그 하인을 다시 찾는다",
+   "visual": "the warm light of paper lanterns strung inside the striped canvas tent: the stocky young man of thirty with the curly brown hair is the one standing on the low wooden stage at frame centre in a loose costume of yellow and blue diamonds with his soft cap gone, balanced on one foot with the other leg held out and both arms spread wide, his round cheerful face turned out toward the benches with his mouth open; the tall lean gentleman in the grey frock coat and the black top hat is the one standing at the end of the front bench at frame right with his gold watch open in one hand, his calm plain face lifted to the stage; a row of people on the benches at frame left have their backs to the camera and their faces up at the stage; three round paper lanterns hang on a string above the stage and the striped canvas rises behind it; exactly two people whose faces show",
+   "motion": "the young man on the stage is the one who moves, and the gentleman and the benches hold still: at the start he is balanced on one foot with the other leg held out and both arms spread; over the first three seconds the held-out leg comes slowly down until both feet are on the boards and both spread arms come slowly in and up to his chest, his round face turning from the benches to the gentleman at the front bench end and his mouth opening wider; in the last two seconds he holds with both feet down and his hands at his chest and his face on the gentleman; the gentleman keeps the open watch in his hand and his face lifted to the stage without moving; the row of backs on the benches does not shift; the three paper lanterns hang still on their string and the striped canvas holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "train",
+    "bison",
+    "prairie",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "미국 벌판에서 포그의 기차를 가로막은 들소 떼",
+   "visual": "flat light over the wide plain of dry yellow grass: the black steam locomotive with its tall funnel stands halted on the low embankment at frame right with steam leaking from its sides and its wooden carriages behind it, and the herd of shaggy dark brown bison with the heavy humped shoulders is the one crossing the rails in front of it at frame centre and frame left in a slow dense mass that runs off both edges of the frame, their heads down and their short curved horns catching the light; the tall lean gentleman in the grey frock coat is the one standing on the step of the first carriage with his gold watch open in one hand, his calm plain face turned down to the herd; the stocky young man in the brown jacket is the one leaning out of a carriage window behind him with both hands on the sill; the dry grass runs to a low flat horizon under the wide low sky; dust hangs over the herd; exactly two people",
+   "motion": "the herd of bison is the one thing that moves, and the train and the two men hold still: at the start the dense mass of them is crossing the rails in front of the locomotive with their heads down; over the first three seconds the whole herd walks slowly on across from frame right toward frame left, the humped shoulders rising and dipping one after another, the dust over them drifting slowly the same way, the animals nearest the rails stepping over the iron one at a time; in the last two seconds the herd keeps crossing at the same slow rate with more of them coming in at the right edge; the locomotive stands halted with its steam leaking steadily; the gentleman on the step keeps his watch open and his face down on the herd; the young man at the window keeps both hands on the sill; the dry grass and the low horizon hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "snow_sled",
+    "prairie",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "눈 덮인 벌판을 포그가 돛 단 썰매로 달린다",
+   "visual": "hard white light over the plain under snow: the flat wooden sledge on its two long iron runners is the one running away from the camera across the snow at frame centre with its triangular canvas sail full and leaning to one side on the short mast, the steering rope taut from its stern; the tall lean gentleman in the grey frock coat and the black top hat is the one sitting upright at the sledge's stern with the steering rope in both gloved hands and his back to the camera, his hat brim pressed up by the wind; the stocky young man in the brown jacket is the one crouched at the mast foot with both arms round it and the carpet bag wedged between his knees; two long straight runner marks run back from the sledge to the bottom of the frame across the smooth snow; the single line of rails shows as a dark thread across the plain far to the left; the low horizon is white and the wide sky is pale grey; the two of them are the only people on the plain",
+   "motion": "the sledge is the one thing that moves, and the plain holds still: at the start it runs away from the camera with its sail full and leaning; over the first three seconds it draws slowly on across the snow away from the camera, the two runner marks lengthening behind it toward the bottom of the frame, the full sail holding its lean and the snow lifting in a fine spray from the runners on the leaning side, the sledge growing only slightly smaller on the plain; in the last two seconds it keeps running on at the same rate and stays well inside the frame; the gentleman keeps the steering rope in both hands and his back to the camera; the young man keeps both arms round the mast; the dark thread of the rails far to the left, the white horizon and the pale grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "fogg",
+    "passepartout_free",
+    "steamer",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "대서양에서 포그가 배의 널을 뜯어 불을 때며 나아간다",
+   "visual": "grey daylight on the open deck of the iron steamer at sea: the tall lean gentleman in the grey frock coat with his top hat gone and his sleeves pushed back is the one standing at frame right beside the open iron door of the furnace with a long plank of pale deck wood held in both gloved hands, feeding its end into the orange glow; the stocky young man in the brown jacket is the one at frame left with an axe in both hands, halted mid swing over the wooden rail of the deckhouse, which is already torn down to bare iron ribs along half its length; loose planks lie heaped on the deck between them with bent nails standing out of them; the tall funnel above pours black smoke that streams back over the sea; the grey water heaves beyond the rail with white foam along the hull; the two of them are the only people on the deck",
+   "motion": "the plank in the gentleman's hands is the one thing that moves, and the young man holds his axe still: at the start the plank's end is just inside the orange glow of the open furnace door; over the first three seconds his two hands push the plank slowly further into the furnace, the pale wood going in a forearm's length and the glow flaring a little brighter on his face and his pushed-back sleeves as the end of the plank takes; in the last two seconds he holds the plank there with the glow on his face; the young man keeps the axe halted mid swing over the deckhouse rail without bringing it down; the black smoke from the funnel streams back at the same rate and the grey water keeps its heave beyond the rail; the heaped planks with their bent nails and the bare iron ribs of the deckhouse hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "fix",
+    "fogg",
+    "passepartout",
+    "hk_quay",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "리버풀에 내리자 그 형사가 포그를 붙들어 가둔다",
+   "visual": "grey daylight on the wet stone quay at Liverpool: the small thin man of forty-five in the long brown overcoat and the low round hat is the one standing at frame left with the folded paper held up open in one hand and his other hand closed on the grey sleeve of the gentleman, his narrow watchful face lifted; the tall lean gentleman of forty in the grey frock coat with his top hat back on is the one standing at frame centre with his gold watch still open in his free hand and his calm plain face turned down to the paper, not to the man; the stocky young man in the brown jacket is the one a pace behind at frame right with the carpet bag dropped at his feet and both his hands up at the sides of his head, his round face open in dismay; the quay's iron bollards and stacked crates stand behind them and a steamer's grey side rises beyond; the wet stones give back the grey sky; exactly three people",
+   "motion": "the thin man's paper is the one thing that moves, and the other two hold still: at the start it is held up open in his hand before the gentleman's face; over the first three seconds his hand brings the paper slowly closer to the gentleman's face and then turns it round so its back is to the gentleman and its face to the camera, his other hand keeping its hold on the grey sleeve and his narrow face lifted; in the last two seconds the paper holds turned to the camera; the gentleman keeps his open watch in his free hand and his calm face down toward where the paper was, not moving; the young man keeps both hands at the sides of his head with the bag at his feet; the bollards, the crates, the steamer's grey side and the wet stones hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "fogg",
+    "club_room"
+   ],
+   "refs": [],
+   "beat": "포그가 런던에 닿은 것은 여든 하루째였으니 내기는 진 것일까",
+   "visual": "dull yellow light of the coal fire in the high panelled club room at evening: the tall lean gentleman of forty in the long grey frock coat is the one standing just inside the room's tall door at frame centre with his black top hat in one gloved hand and his gold watch open in the other, his calm plain face turned to the tall clock against the wall; the tall clock at frame right shows its brass pendulum through the glass door and its hands near the top of the dial; the four gentlemen in dark evening coats are the ones half risen from the deep leather armchairs round the fire at frame left with their faces turned to the door, one with a newspaper still in his hand; the card table with the green cloth stands empty between them and the door; the coal fire glows low in the marble grate; exactly five men in the room",
+   "motion": "the four gentlemen by the fire are the ones who move, and the man at the door holds still: at the start they are half risen from the leather armchairs with their faces turned to the door; over the first three seconds all four rise slowly the rest of the way to their feet together, the leather creaking under them, the one with the newspaper letting it hang down from his hand and the others' hands coming up open before their chests, their four faces staying on the man at the door; in the last two seconds they hold standing with their hands raised; the man at the door keeps his hat in one hand and his open watch in the other with his face on the clock, not moving; the brass pendulum of the tall clock swings its small steady arc; the empty card table and the low coal fire hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "club_room"
+   ],
+   "refs": [],
+   "beat": "런던 클럽 난롯가에 빈 안락의자가 놓여 있다",
+   "visual": "the last dull yellow light of the coal fire in the empty club room: the deep leather armchair stands at frame centre beside the marble fireplace with nobody in it, its seat cushion still pressed down and a folded newspaper lying on one arm; a gold pocket watch lies open on the small table beside the chair with its chain trailing over the table's edge, and a black top hat sits upside down with its brim to the ceiling beside it; the coal fire has burned low in the marble grate and one coal still glows; the tall clock stands against the panelling at frame right with its brass pendulum showing through the glass; the card table with the green cloth stands bare at frame left with the chairs pushed in round it; the tall window is dark; the room is quiet and there is nobody in it",
+   "motion": "the brass pendulum of the tall clock is the one thing that moves, and the room holds still: at the start it hangs at one end of its small arc behind the glass door; over the first three seconds it swings slowly across to the other end of the arc and back, and across again, the light of the one glowing coal catching its brass face at each pass; in the last two seconds it keeps swinging at the same steady rate; the pressed seat cushion of the empty armchair, the folded newspaper on its arm, the open watch with its trailing chain and the top hat on the small table keep their exact places; the one coal keeps its glow in the marble grate; the bare card table with its pushed-in chairs and the dark tall window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "동쪽으로 돌아 하루를 벌었다는 것과 내기의 승리",
- "voice": "ko-KR-InJoonNeural"
+ ]
 }

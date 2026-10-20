@@ -1,112 +1,206 @@
 {
- "logline": "계모 밑에서 궂은일만 하던 딸이, 잔치에 가는 길에 꽃신 한 짝을 잃는다.",
- "destination": "고을 잔치 — 잃어버린 신 한 짝이 되돌아오는 자리",
- "protagonist": "댕기머리에 무명 저고리를 입은 열여섯 처녀",
- "setting": "조선 시대의 시골 마을과 고을 잔칫집",
- "anchor": "a Korean girl of sixteen, one long braid, plain undyed hemp jeogori and skirt",
- "palette": "hanji cream, ink-wash grey, persimmon orange, spring green, warm amber",
- "voice": "ko-KR-JiMinNeural",
- "personas": {
-  "kongjwi": {
-   "label": "콩쥐",
-   "desc": "a Korean girl of sixteen, one long black braid with a plain cord, patched hemp jeogori and skirt, bare feet",
-   "avoid": ""
-  },
-  "stepmother": {
-   "label": "계모",
-   "desc": "a sharp-faced Korean woman in her forties, hair in a tight coiled bun, dark silk jeogori, jade ring",
-   "avoid": ""
-  },
-  "ox": {
-   "label": "검은 소",
-   "desc": "a large black ox with wide curved horns and a broad wet muzzle",
-   "avoid": ""
-  },
-  "yard": {
-   "label": "초가 마당",
-   "desc": "a beaten-earth yard before a thatched house, a stone jar row, a low wooden gate"
-  },
-  "feast_house": {
-   "label": "잔칫집",
-   "desc": "a tiled-roof house yard set with low tables, hanging cloth banners, crowded guests"
-  }
- },
+ "logline": "어머니를 잃고 계모와 팥쥐의 궂은일을 도맡은 콩쥐가 부러진 호미 앞에서 울다 검은 소의 도움을 받고, 밑 빠진 독은 두꺼비가, 벼는 참새 떼가 도와주며, 선녀에게 받은 비단옷과 꽃신으로 잔칫집에 가다 개울에서 잃은 신 한 짝을 원님의 행차가 건져 잔칫집 마당에서 임자를 찾는다",
+ "destination": "소설 콩쥐팥쥐에서 만날 수 있습니다",
+ "protagonist": "kongjwi",
+ "setting": "조선 시대 시골 초가의 마당과 자갈밭, 개울의 징검다리, 잔치가 벌어진 기와집 마당",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/kongjwipatjwi/assets",
+ "anchor": "a Korean girl of sixteen with black hair in a long single braid tied with a dull red ribbon, a thin pale face with dark eyes",
+ "palette": "off-white, dull red, ash grey, dull green, dark blue",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
     "kongjwi",
-    "stepmother",
-    "yard"
+    "patjwi",
+    "yard",
+    "day_bg"
    ],
-   "beat": "계모가 마당에 깨진 물독을 가리킨다.",
-   "visual": "a sharp-faced woman pointing at a cracked water jar in a beaten-earth yard, a girl beside it",
-   "motion": "her finger jabs toward the jar, water runs out through the crack, dust darkens"
+   "refs": [],
+   "beat": "어머니를 잃은 콩쥐가 계모와 팥쥐의 궂은일을 도맡는다",
+   "visual": "soft daylight in the bare earth yard of the thatched house: the Korean girl of sixteen with the long single braid tied with the dull red ribbon, the off-white hemp jeogori and the long patched ash grey hemp skirt is the one bent over at frame left sweeping the yard with a long broom of bound twigs, her thin pale face turned down to the earth, her straw sandals dusty; the plump Korean girl of fifteen in the bright yellow silk jeogori and the long pale red silk skirt with the long braid is the one sitting on the edge of the low wooden veranda at frame right with a rice cake in one hand and her round face with the sulky lower lip turned toward the sweeping; only the girl in yellow silk sits and eats, only the girl in grey hemp holds a broom; the brushwood fence behind, the stone well with the wooden bucket at the far left, the chipped earthen bowl by the step, the pale sky",
+   "motion": "the Korean girl of sixteen in the off-white hemp jeogori sweeping the yard is the one who moves, and the girl on the veranda only chews: at the start she is bent over with the twig broom on the earth; over the first three seconds she sweeps the broom slowly across the earth from right to left and back in two long strokes, a little dust lifting and settling, her braid swinging, her body staying bent; in the last two seconds the broom rests on the earth and she holds bent; the girl in yellow silk keeps the rice cake at her mouth, chewing slowly, her feet dangling still from the veranda; the fence, the well, the bucket, the bowl and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
+    "stepmother",
     "kongjwi",
-    "yard"
+    "yard",
+    "day_bg"
    ],
-   "beat": "처녀가 깨진 독에 물을 붓는다.",
-   "visual": "a girl pouring water into a cracked stone jar in a yard, a puddle spreading at her feet",
-   "motion": "water pours down into the jar and runs out below, the puddle widens, dust darkens"
+   "refs": [],
+   "beat": "계모가 콩쥐에게 나무 호미를 주며 자갈밭을 매라 한다",
+   "visual": "soft daylight in the bare earth yard: the Korean woman of forty-five in the dark blue silk jeogori and the long grey silk skirt with the low bun is the one standing on the low wooden veranda at frame right, her right arm held out holding a short straight stick of pale wood no longer than a forearm, one end whittled flat and thin, down toward the girl, her narrow face with the sharp chin and the thin pressed lips turned down at her; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey skirt is the one standing on the earth below the veranda at frame left with both thin hands held up open to receive the wooden tool, her pale face lowered; only the woman wears silk and stands on the veranda, only the girl has a braid; the brushwood fence behind, the stone well at the far left, the pale sky",
+   "motion": "the Korean woman of forty-five in the dark blue silk jeogori on the veranda is the one who moves, and the girl below holds her hands up: at the start the woman's right arm holds the short pale wooden stick out down toward the girl; over the first two seconds her arm lowers slowly until the short wooden stick settles into the girl's open hands and her hand lets it go, her thin lips moving; in the last two seconds her hand draws back to her side and her lips close; her feet stay planted on the veranda; the girl's open hands close slowly around the stick as it settles and hold it, her lowered face not lifting, her feet not shifting; the fence, the well and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "ox",
-    "yard"
+    "kongjwi",
+    "stony_field",
+    "day_bg"
    ],
-   "beat": "검은 소가 마당으로 들어선다.",
-   "visual": "a large black ox stepping through a low wooden gate into a beaten-earth yard",
-   "motion": "the ox walks forward through the gate, its head swings, dust lifts under its hooves"
+   "refs": [],
+   "beat": "몇 번 긁지도 못해 부러진 호미 앞에 주저앉은 콩쥐",
+   "visual": "soft daylight on the sloping field of grey stones and dry brown weeds: the Korean girl of sixteen with the long single braid tied with the dull red ribbon, the off-white hemp jeogori and the long patched ash grey hemp skirt is the one sitting slumped on the stones at frame centre with her legs folded under her skirt, her thin hands in her lap holding the two broken pieces of a short straight stick of pale wood, one splintered piece in each hand, the flat whittled end showing on one, her pale face bent down over them with the small mouth pulled tight and her eyes wet; a shallow scratch of turned stones beside her at frame left, the low earth bank and the bare-branched tree at the top of the frame under the pale sky; the field is bare of any other person",
+   "motion": "the Korean girl of sixteen in the off-white hemp jeogori sitting on the stones is the only one who moves, and only a little: at the start her hands hold the two broken pieces of the pale wooden stick in her lap and her face is bent over them; over the first two seconds her shoulders sink slowly lower and her head bows further until her braid slides forward over her shoulder, her hands tightening on the two splintered pieces; in the last two seconds she holds bowed; her folded legs stay still under the skirt; the grey stones, the dry weeds, the earth bank, the bare tree and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
+    "ox",
     "kongjwi",
-    "ox"
+    "stony_field",
+    "day_bg"
    ],
-   "beat": "처녀가 소가 물어다 준 것을 받아 든다.",
-   "visual": "a girl taking a bundle of cloth and small shoes from a black ox's mouth in a yard",
-   "motion": "the bundle passes into her hands, the ox's muzzle lifts away, dust settles"
+   "refs": [],
+   "beat": "커다란 검은 소가 나타나 자갈밭을 갈아 준다",
+   "visual": "soft daylight on the sloping field of grey stones: the huge black ox with the curved grey horns and the plain wooden yoke on its neck is the one standing at frame centre-right with its head lowered, its wet black muzzle pushing into the stones so that a dark furrow of turned earth runs behind it across the field toward frame left; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey skirt is the one standing at frame left beside the furrow with both thin hands pressed together at her chest and her pale face turned to the ox with her mouth open; only the ox is black and horned, only the girl has a braid; the dry brown weeds, the low earth bank and the bare-branched tree above under the pale sky",
+   "motion": "the huge black ox is the one that moves, and the girl holds her pressed hands: at the start the ox's lowered head and muzzle push into the stones at the end of the furrow; over the first three seconds the ox takes two slow heavy steps forward with its head down, its muzzle and horns driving through the stones so that the dark furrow lengthens behind it and small stones roll aside, its yoke swaying; in the last two seconds the ox comes to a stop well inside the frame with its head still down; the girl keeps her hands pressed at her chest and her open mouth, her feet not shifting; the earth bank, the bare tree and the pale sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
-    "kongjwi"
+    "stepmother",
+    "kongjwi",
+    "jar",
+    "yard",
+    "day_bg"
    ],
-   "beat": "처녀가 꽃신을 신고 길을 나선다.",
-   "visual": "a girl in a fresh skirt and embroidered shoes walking a village path toward tiled roofs",
-   "motion": "she walks forward along the path, her skirt lifts at each step, dust rises behind"
+   "refs": [],
+   "beat": "계모가 콩쥐에게 밑 빠진 독을 가리키며 채우라 한다",
+   "visual": "soft daylight in the bare earth yard: the big brown earthen water jar as tall as a girl's waist with the dark crack at its base is the one standing on the earth at frame centre; the Korean woman of forty-five in the dark blue silk jeogori and the long grey silk skirt with the low bun is the one standing on the low wooden veranda at frame right with her right arm stretched out and the forefinger pointing down at the jar, her narrow face with the sharp chin turned to the girl; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey skirt is the one standing at frame left beside the stone well with the wooden bucket in both hands, her pale face turned to the woman; only the woman wears silk and stands on the veranda, only the girl holds a bucket; the brushwood fence behind, the pale sky",
+   "motion": "the Korean woman of forty-five in the dark blue silk jeogori on the veranda is the one who moves, and the girl with the bucket holds still: at the start her right arm is stretched out with the forefinger pointing down at the jar; over the first two seconds the pointing arm jabs slowly once more toward the jar and her thin lips move in the order, her chin lifting; in the last two seconds the arm holds pointing and the lips close; her feet stay planted on the veranda; the girl keeps the wooden bucket in both hands and her face turned to the woman, her feet not shifting; the earthen jar, the well, the fence and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "kongjwi"
+    "kongjwi",
+    "jar",
+    "yard",
+    "day_bg"
    ],
-   "beat": "개울을 건너다 신 한 짝이 벗겨진다.",
-   "visual": "a girl mid-stride in a shallow stream, one embroidered shoe floating away downstream",
-   "motion": "the shoe slips off and drifts downstream, water rings spread, her hand reaches after it"
+   "refs": [],
+   "beat": "콩쥐가 물을 길어다 부어도 밑으로 줄줄 새기만 하는 독",
+   "visual": "soft daylight in the bare earth yard, close on the jar: the big brown earthen water jar as tall as a girl's waist is the one standing on the earth at frame centre with a thin stream of clear water running out of the dark crack at its base and spreading in a dark wet patch across the earth; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey hemp skirt is the one standing at frame left tipping the wooden bucket over the jar's rim with both thin hands so that water pours into the jar, her pale face bent to the pouring with the small mouth pressed tight, the hem of her skirt dark with wet; the stone well behind her at the far left, the brushwood fence, the pale sky",
+   "motion": "the water is what moves, and the girl pours: at the start the bucket is tipped over the rim with water pouring in and the thin stream running from the crack; over the first three seconds the water keeps pouring from the tipped bucket into the jar while the thin stream from the crack at the base keeps running out and the dark wet patch on the earth spreads slowly wider; in the last two seconds the bucket empties and the girl holds it tipped, the stream from the crack still running; her feet stay planted in the wet earth, her bent face not lifting; the well, the fence and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "feast_house"
+    "toad",
+    "jar",
+    "yard"
    ],
-   "beat": "잔칫집 마당에 신 한 짝이 놓인다.",
-   "visual": "a single embroidered shoe set on a low table in a crowded tiled-roof house yard",
-   "motion": "the shoe is set down on the table, banners flap overhead, the crowd presses in"
+   "refs": [],
+   "beat": "두꺼비가 독 밑 구멍을 막아 물이 새지 않게 한다",
+   "visual": "the base of the big brown earthen water jar seen from directly above, so close that the jar's rounded brown shoulder curves across the whole top third of the frame and the wet dark earth fills the rest: the fat brown toad with the warty skin and the golden eyes is the one squatting on the wet earth at frame centre pressed against the dark crack at the base of the jar, its broad back covering the crack, its golden eyes turned up toward the camera; the dark wet patch on the earth around it with a few small pebbles, a last bead of water on the clay above the toad; the earth around is bare of any other creature and the frame holds only the jar's base, the toad and the wet earth",
+   "motion": "the fat brown toad at the base of the jar is the only one that moves, and only a little: at the start its broad back is pressed against the crack and its golden eyes are turned up; over the first two seconds its warty sides swell slowly with a breath and its back presses slowly harder into the crack, its throat pulsing once, its eyes staying up; in the last two seconds it holds pressed and still; the last bead of water on the clay above it slides slowly down and stops; the wet patch on the earth, the small pebbles and the curved brown wall of the jar hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 개울가에 물무늬만 번진다.",
-   "visual": "an empty shallow stream over smooth stones at dusk, ripples spreading, reeds at the bank",
-   "motion": "ripples spread and fade across the water, reeds bend, evening light dims"
+   "cast": [
+    "stepmother",
+    "patjwi",
+    "kongjwi",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "물이 차자 계모와 팥쥐는 잔치로 떠나고 콩쥐는 벼를 찧어야 한다",
+   "visual": "soft daylight in the bare earth yard: the Korean woman of forty-five in the dark blue silk jeogori and the long grey silk skirt and the plump Korean girl of fifteen in the bright yellow silk jeogori and the long pale red silk skirt are the ones walking away side by side through the gap in the brushwood fence at the top right of the frame, both seen from behind with the backs of their heads to the camera and their heads held straight ahead; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey skirt is the one kneeling on the earth in the foreground at frame left beside a wide straw mat heaped with unhusked rice, a wooden pestle upright in her hands, her pale face turned back toward the two leaving; only the girl in hemp kneels, the two in silk walk away with their backs turned; the stone well, the pale sky",
+   "motion": "the two women in silk walking away are the ones who move, and the kneeling girl holds her pestle: at the start the woman in dark blue and the girl in yellow are side by side in the gap in the fence with their backs to the camera; over the first three seconds they take two slow steps away through the gap, their skirts swaying, the backs of their heads staying toward the camera with no turn; in the last two seconds they come to a stop just beyond the gap, still inside the frame; the kneeling girl keeps the pestle upright in her hands and her face turned back toward them, her knees not shifting; the heaped rice on the straw mat, the well and the pale sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "sparrows",
+    "kongjwi",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "참새 떼가 내려와 콩쥐의 벼를 쪼아 껍질을 벗겨 준 마당",
+   "visual": "soft daylight in the bare earth yard, low and close: the wide straw mat heaped with unhusked rice lies on the earth at the lower half of the frame, and the flock of small brown sparrows with the streaked backs are the ones crowded over the heap, a dozen of them, pecking with their heads down, pale husks scattered around them and a mound of clean white grains growing at the centre of the mat; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey skirt is the one kneeling at the far edge of the mat at frame right with both thin hands pressed to her cheeks, her pale face turned down to the birds with her mouth open; the brushwood fence behind, the pale sky",
+   "motion": "the flock of small brown sparrows on the mat is what moves, and the kneeling girl holds her hands to her cheeks: at the start the dozen sparrows are pecking with their heads down over the heap; over the whole shot the sparrows keep pecking in quick small bobs, hopping a little from grain to grain on the mat, husks flicking aside, the mound of white grains at the centre growing slowly; the girl keeps her hands pressed to her cheeks and her open mouth, her knees on the earth not shifting; the straw mat, the fence and the pale sky hold completely still; no bird leaves the mat; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "fairy",
+    "kongjwi",
+    "flower_shoes",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "하늘에서 내려온 선녀가 콩쥐에게 비단옷과 꽃신을 준다",
+   "visual": "a soft spring day in the bare earth yard: the heavenly maiden in the flowing pale silk robes of white and pale blue with the long trailing sleeves and ribbons, her black hair in the high knot, is the one standing on the small white cloud a little above the earth at frame right, both hands holding out a folded bundle of pale green and crimson silk with the pair of small red silk slippers with pointed upturned toes and a small white blossom stitched on each toe resting on top; the Korean girl of sixteen with the long single braid, the off-white hemp jeogori and the long patched ash grey hemp skirt is the one kneeling on the earth at frame left with both thin hands held up open toward the bundle, her pale face lifted; only the maiden stands on a cloud and wears trailing ribbons, only the girl has a braid and kneels; the brushwood fence, the stone well, pale blossom on a far tree under the soft spring sky",
+   "motion": "the heavenly maiden on the small white cloud is the one who moves, and the kneeling girl holds her hands up: at the start the maiden's hands hold the folded silk bundle with the red silk slipper on top out toward the girl; over the first two seconds the maiden's hands lower slowly until the bundle and the shoes rest in the girl's open hands, her long trailing sleeves and ribbons drifting slowly in the air; in the last two seconds her hands draw back a little and the ribbons settle; the cloud under her feet does not move; the girl's hands close slowly around the bundle and hold, her lifted face not turning, her knees on the earth; the fence, the well, the far blossom and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "kongjwi_fine",
+    "stream",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "꽃신을 신고 잔칫집 가던 콩쥐가 개울에서 신 한 짝을 잃는다",
+   "visual": "a soft spring day at the shallow clear stream: the Korean girl of sixteen with the long single braid tied with the dull red ribbon, the pale green silk jeogori and the long crimson silk skirt is the one standing on a flat stepping stone in the middle of the stream at frame centre-left with her crimson skirt lifted in both hands, her right foot in the one small flat soft shoe of dull red cloth with a curved-up toe on the stone and her left foot bare and raised with pale bare toes, only that one shoe on her feet, her pale face turned to the right toward the water with her mouth open; in the stream at frame right the other small flat soft shoe of dull red cloth is the one floating away on the ripples with its curled toe up, already an arm's length from the stone; the row of flat stepping stones, reeds along the grassy bank, small ripples over pebbles, pale blossom on a far tree under the soft spring sky",
+   "motion": "the small small flat shoe of dull red cloth floating on the stream is what moves, and the girl on the stepping stone holds her raised foot: at the start the shoe floats an arm's length from the stone with its curled toe up; over the first three seconds the shoe drifts slowly downstream toward frame right on the ripples, turning slowly once, growing a little smaller; in the last two seconds it keeps drifting, still inside the frame; the girl keeps her crimson skirt lifted in both hands and her bare left foot raised, her face turned toward the shoe with her mouth open, her right foot planted on the stone; the stream keeps rippling over the pebbles; the stepping stones, the reeds, the far blossom and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "magistrate",
+    "stream",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "물살에 떠내려온 꽃신 한 짝을 건진 원님의 행차",
+   "visual": "a soft spring day beside the shallow clear stream: the Korean magistrate of thirty-five with the short black beard in the deep blue silk official robe and the black gat hat is the one seated in the open wooden palanquin resting on the grassy bank at frame right, its two long poles on the ground and the two carrier men in grey cotton jackets and headbands standing at either end, his bearded face turned to the shoe; one of the carrier men at frame centre is the one crouching at the water's edge holding up the single a small flat soft shoe of dull red cloth with a curved-up toe and a white stitched rim along its flat sole, no bigger than a hand in one dripping hand toward the magistrate; only the magistrate wears blue silk and a gat hat and sits, only the carrier men wear headbands; the row of stepping stones, reeds along the bank, small ripples over pebbles, pale blossom on a far tree under the soft spring sky",
+   "motion": "the crouching carrier man holding the shoe is the one who moves, and the magistrate and the other carrier hold still: at the start the carrier's dripping hand holds the small small flat shoe of dull red cloth up at the water's edge; over the first two seconds he rises slowly from his crouch and turns toward the palanquin, holding the shoe out higher toward the magistrate, water dripping from it; in the last two seconds he stands holding the shoe out; the magistrate keeps his bearded face turned to the shoe and his hands on his knees, not rising; the other carrier stays at his pole; the stream keeps rippling; the palanquin, the stepping stones, the reeds and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "stepmother",
+    "patjwi",
+    "feast_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "원님이 잔칫집 마당에 신을 내놓고 임자를 찾는다",
+   "visual": "soft daylight in the wide yard of the rich tiled-roof house set for the feast: one small flat soft shoe of dull red cloth with a curved-up toe and a white stitched rim along its flat sole, no bigger than a hand, is the one resting on a round brass tray on the packed earth at the lower centre of the frame, and there is one shoe in the whole yard, the one on the tray; the plump Korean girl of fifteen in the bright yellow silk jeogori and the long pale red silk skirt with the long braid is the one sitting on a low stool at frame left with her right foot jammed halfway into that shoe on the tray, her heel raised above its back, her left foot bare on the packed earth with pale toes, her round face screwed up with the sulky lower lip out; the Korean woman of forty-five in the dark blue silk jeogori and the long grey silk skirt is the one bending over her at frame right with both long thin hands gripping the girl's right ankle and shoving it down; only the girl in yellow sits, only the woman in blue bends; the long low tables with dishes and red cushions behind, paper lanterns along the eaves, the raised wooden hall, the pale sky",
+   "motion": "the Korean woman of forty-five in the dark blue silk jeogori bending over is the one who moves, and the seated girl only grimaces: at the start both her hands grip the girl's ankle with the foot halfway into the shoe; over the first three seconds she shoves the foot slowly down toward the shoe twice, the shoe on the brass tray not giving, the girl's screwed-up face reddening, the woman's low bun coming loose a little; in the last two seconds the woman holds gripping and the foot holds halfway in; the girl stays on the stool with her hands gripping its edge and her bare left foot flat on the earth; the brass tray stays on the earth; the tables, the cushions, the lanterns, the hall and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "kongjwi_fine",
+    "feast_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "맨발로 선 콩쥐는 신의 임자라고 나설 수 있을까 (질문)",
+   "visual": "soft daylight in the wide yard of the rich tiled-roof house set for the feast: the Korean girl of sixteen with the long single braid tied with the dull red ribbon, the pale green silk jeogori and the long crimson silk skirt is the one standing alone at the edge of the yard by the whitewashed wall at frame centre, her crimson skirt lifted a little in one hand so that both her bare feet with pale toes show on the packed earth, her other hand pressed to her chest, her pale face turned toward the feast at frame left with her lips parted; the long low tables with dishes and red cushions and the paper lanterns along the eaves out of focus at the left, the raised wooden hall behind, the pale sky",
+   "motion": "the Korean girl of sixteen in the pale green silk jeogori standing by the wall is the only one who moves: at the start her hand lifts her skirt a little and her face is turned toward the feast with her lips parted; over the first two seconds she takes one small step forward toward the feast with her bare left foot and then stops, her hand at her chest pressing tighter and her chin lifting slowly; in the last two seconds she holds with her chin lifted, well inside the frame; her bare right foot stays planted, the skirt held a little lifted; the tables, the cushions, the lanterns, the hall, the wall and the pale sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "stream",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "신 한 짝이 떠내려간 개울의 물무늬 (마무리)",
+   "visual": "a soft spring day at the shallow clear stream: the row of flat stepping stones crosses the stream at the middle of the frame, small ripples running over the pale pebbles between them, rings of ripples spreading out from the stone in the middle where the water eddies, reeds along the grassy bank at the top of the frame, pale blossom on a far tree under the soft spring sky; the stream and the bank are bare of any person",
+   "motion": "the water is the only thing that moves, and the stones and the bank hold completely still: at the start small ripples run over the pale pebbles between the flat stepping stones and rings of ripples spread out from the stone in the middle where the water eddies; over the first three seconds the rings of ripples widen slowly outward from the middle stone and fade as they reach the other stones, while new smaller rings form behind it, the small ripples between the stones running steadily downstream toward frame right and catching the pale light; in the last two seconds the rings fade and the water runs on smoothly; the flat stepping stones stay exactly where they are, the reeds along the grassy bank do not stir, the pale blossom on the far tree and the soft spring sky hold completely still; nothing floats down the stream; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "신 한 짝의 임자를 찾는 과정과, 계모와 팥쥐가 맞는 결말"
+ "withheld": "혼인과 두 모녀의 최후"
 }

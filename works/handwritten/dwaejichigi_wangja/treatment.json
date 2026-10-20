@@ -1,0 +1,201 @@
+{
+ "logline": "진짜 장미와 나이팅게일을 마다한 공주가 돼지치기의 장난감에 입맞춤을 치르다 들킨다",
+ "destination": "동화 돼지치기 왕자에서 만날 수 있습니다",
+ "protagonist": "prince",
+ "setting": "안데르센의 황제 궁정 — 거울의 큰 홀, 뒤뜰 돼지우리, 성 밖 빗길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/dwaejichigi_wangja/assets",
+ "anchor": "a slim young prince with dark curly hair in a deep blue velvet coat with silver braid",
+ "palette": "pale pink, silver, warm gold, brown, cold grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "prince"
+   ],
+   "refs": [],
+   "beat": "작은 나라의 왕자, 아버지 무덤가의 장미 한 송이",
+   "visual": "a small kingdom's garden at the edge of the palace grounds: the young prince stands before his father's grave, a low stone slab under an old rose tree that bears one single red rose on all its thorny branches; the prince bends his dark curly head toward the rose with his eyes half closed, one hand resting on the stone, a modest palace of pale stone behind him, morning light on the dew",
+   "motion": "the single red rose sways on its branch as the prince leans in to breathe its scent, his eyes closing and his hand resting on the grave stone; dew glints on the thorny branches in the morning light, and the camera drifts slowly around the rose and the bowed dark head"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "prince",
+    "nightingale"
+   ],
+   "refs": [],
+   "beat": "장미와 나이팅게일을 은 상자에 담아 보낸다",
+   "visual": "the prince's plain hall seen from across the table: the young prince alone, his dark curly head and blue coat with silver braid fully in frame, holds the lids of two large open silver caskets half-lowered with both hands — inside one the single red rose laid on velvet, inside the other the small brown nightingale perched on a silver bar with its beak open in song; a leather travelling satchel waits on the table's end, and plain daylight falls on the silver",
+   "motion": "the nightingale's throat swells and its beak opens in song while the prince's hands lower the two silver lids slowly toward the velvet, his face bent over the caskets; light slides across the closing silver, and the camera holds on the prince's face and hands above the two caskets"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "princess",
+    "ladies",
+    "emperor",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "장미가 진짜라서 울상이 된 공주",
+   "visual": "the great palace hall: the princess in her tall powdered wig and wide pink gown stands at the center before the two silver caskets set open on the gilt table, the single red rose lifted in her fingertips; three court ladies stand to her left and two to her right leaning in over the caskets, and the stout emperor stands behind the table in his red coat with his spectacles pushed up; the princess's small mouth pouts and her eyes squint at the rose, her fingertips drawing back from the living petals",
+   "motion": "the princess turns the red rose in her fingertips and her pout deepens as the living petals give under her touch, her hand drawing back; the ladies lean closer over the caskets with their fans, the emperor beams behind the table, and the camera closes on the princess's face souring over the rose"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "princess",
+    "ladies",
+    "emperor",
+    "nightingale",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "나이팅게일도 진짜라서 — 왕자를 거절",
+   "visual": "the great hall a moment later: the small brown nightingale sits on the rim of the open silver casket with its beak open in song, the court ladies' hands raised in delight, the emperor dabbing his eyes with a handkerchief; the princess stands turned away from the casket with her chin lifted and her fan snapped shut, her back to the singing bird, her wide pink skirts swung toward the hall doors",
+   "motion": "the nightingale sings with its throat trembling on the casket rim while the ladies clap their raised hands together softly and the emperor dabs at his eyes; the princess turns further away with her chin high and her fan closed, her pink skirts swinging toward the doors, and the camera holds on the little bird and the turned back"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "swineherd",
+    "emperor",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "얼굴에 칠을 하고 돼지치기가 된 왕자",
+   "visual": "the pigsty yard at the palace's back wall: the young man in his swineherd disguise — face smeared brown and black, shapeless cap pulled down over his ears, patched grey smock — stands cap in hand before the stout emperor, who peers at him over his spectacles with a hand pointing toward the fenced pen of pink pigs; mud and straw underfoot, the pigs crowding the fence rail with their snouts up, the low wooden hut with its small window beside the pen",
+   "motion": "the emperor's pointing hand swings toward the pen and the pigs crowd the rail snuffling, while the disguised young man nods deeply with his cap crushed in both hands; straw stirs underfoot in the muddy yard, and the camera holds on the sooty face and the emperor's pointing finger"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "swineherd",
+    "pot",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "돼지우리 옆에서 방울 달린 냄비를 만든다",
+   "visual": "the little hut's open doorway beside the pigsty: the swineherd sits on a stool just inside with the small copper pot on his knees, tying the last tiny silver bells around its rim with a length of wire, his sooty fingers deft and quick; tools and scraps of copper lie on the floor by his muddy boots, the pen of pink pigs visible past the doorpost, evening light slanting in",
+   "motion": "his sooty fingers twist the wire and the last tiny bell settles into its place on the rim, the pot turning slowly on his knees as he checks the ring of bells; the pigs shift in the pen beyond the doorpost, evening light slanting deeper, and the camera closes on the finished ring of bells"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "princess",
+    "ladies",
+    "swineherd",
+    "pot",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "끓는 냄비의 방울 노래에 걸음을 멈춘 공주",
+   "visual": "the pigsty yard at dusk: the copper pot boils on a small fire before the hut door, its ring of tiny bells swinging and ringing in the rising steam, and the disguised young man stands upright beside the fire with a stick in his hand, his sooty human face and dark curls under the cap turned toward the pot; on the path along the palace wall the princess has stopped mid-step in her wide pink gown with one finger raised, her head tilted toward the ringing bells, four court ladies halted in a row behind her, the pigs far back in their pen",
+   "motion": "the tiny bells swing and ring on the boiling pot's rim as the steam rises, and the princess stands still mid-step on the path with her raised finger keeping time to the tune; the ladies behind her lean to listen, the young man stirs the fire with his stick, and the camera moves from the ringing pot to the princess's tilted head"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "ladies",
+    "princess",
+    "swineherd",
+    "pot",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "시녀들이 치마로 가린 사이 입맞춤 열 번",
+   "visual": "the yard before the hut: four court ladies stand in a tight ring with their wide pastel skirts spread out in their hands, screening the space inside — and between their shoulders the princess in her tall wig bends to press a kiss on the swineherd's sooty cheek, his cap in his hand and the copper pot at his feet; the pigs watch from the pen rail with their snouts up, the palace wall pale behind",
+   "motion": "the ladies hold their spread skirts wider and glance over their shoulders while the princess bends and kisses the sooty cheek again, the swineherd holding still with his cap in his hand; the pigs' snouts twitch at the rail, and the camera peeks between the ladies' shoulders at the kiss"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "ladies",
+    "princess",
+    "pot",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "냄비 김에 손가락 — 온 도시의 저녁 메뉴",
+   "visual": "the great hall by lamplight: the copper pot boils on the gilt table with its bells ringing, and four court ladies crowd around it each holding one finger into the rising steam, eyes closed and noses lifted, sniffing; the princess sits at the head of the table with her own finger in the steam and a sly delighted smile, the tall windows dark behind them",
+   "motion": "the ladies hold their fingers in the steam and sniff with their noses lifted, one after another breaking into laughter and a little dancing step; the princess's sly smile widens as she sniffs, the bells ringing on the boiling pot, and the camera circles the table of lifted noses"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "swineherd",
+    "rattle",
+    "princess",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "왈츠를 연주하는 딸랑이 — 값은 입맞춤 백 번",
+   "visual": "the hut doorway in daylight: the swineherd stands in the muddy yard swinging the wooden rattle in a wide circle over his head, its wheel of little silver bells flashing and ringing, his sooty face grinning under the cap; the pigs crowd the pen rail, and at the far end of the path along the palace wall the princess in her pink gown has stopped with her hand cupped to her ear",
+   "motion": "the rattle whirls round and round over his head with its bells flashing in the sun, and the pigs jostle at the rail; at the far end of the path the princess's cupped hand rises to her ear and her pink gown turns toward the sound, and the camera follows the whirling rattle"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "ladies",
+    "princess",
+    "swineherd",
+    "emperor",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "입맞춤을 세는 시녀들, 발코니에서 내려다보는 황제",
+   "visual": "the pigsty yard seen from above: a tight ring of court ladies with their skirts spread stands by the hut, one lady counting on her raised fingers, the princess's tall wig bent toward the swineherd at the ring's center — and up on the palace balcony above the yard the stout emperor leans over the rail pulling his spectacles down onto his nose, peering at the crowd below",
+   "motion": "the counting lady's fingers rise one by one while the ring of ladies sways closer, and on the balcony above the emperor pulls his spectacles down and leans further over the rail, his mouth opening; the pigs shift below, and the camera looks down from the balcony rail at the ring by the hut"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "emperor",
+    "princess",
+    "swineherd",
+    "ladies",
+    "pigsty"
+   ],
+   "refs": [],
+   "beat": "슬리퍼로 공주의 뺨을 친 황제 — 둘 다 내쫓김",
+   "visual": "the yard in uproar: the emperor stands with one trodden-down slipper raised high in his hand and his face red, the princess beside him reeling back with a hand to her cheek and her tall wig knocked askew, and at the other side the young swineherd standing upright in his patched grey smock, rough trousers and muddy boots, the shapeless brown cap crushed in his hands, his soot-smeared human face and dark curls turned toward the emperor; the court ladies back away to the left and right with their skirts flying, the pen of pigs far behind the fence",
+   "motion": "the emperor's raised slipper waves in the air and his red face shouts, the princess reeling back with her hand pressed to her cheek and her wig sliding, the swineherd holding still in his patched smock with the cap crushed in his hands; the ladies back away to both sides with their skirts flying, and the camera shakes on the shouting emperor"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "princess",
+    "prince",
+    "outside_gate"
+   ],
+   "refs": [],
+   "beat": "빗속에서 칠을 씻고 왕자의 옷차림으로 선다",
+   "visual": "the muddy road outside the closed city gate in pouring rain: the princess stands weeping with her wig sodden and her pink gown mud-splashed, hands over her face — and beside the single bare tree the young prince steps out in his deep blue velvet coat with silver braid, face washed clean, dark curls wet, the patched grey smock and shapeless cap lying discarded in the mud at his feet",
+   "motion": "rain streams down the closed gate and over the princess's sodden wig while her shoulders shake, and the prince steps forward from behind the bare tree with his clean face lifted, the discarded smock and cap sinking into the mud; the camera holds on the princess's slow turn toward him"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "princess",
+    "prince",
+    "outside_gate"
+   ],
+   "refs": [],
+   "beat": "진짜 왕자 앞에 절하는 공주",
+   "visual": "the muddy road in the rain: the princess sinks into a deep curtsy before the young prince, her sodden wig bowed and her mud-splashed pink skirts spread in the wet, one hand reaching toward his boots — the prince stands straight in his blue coat with his clean face set and cold, arms folded, rain streaming from his dark curls; the bare tree and the closed city gate behind them",
+   "motion": "the princess sinks lower in her curtsy with her reaching hand hovering toward his boots and her sodden wig bowed, while the prince stands straight with his arms folded and his cold face turned half away; rain streams from his dark curls, and the camera holds on the bowed wig and the folded arms"
+  },
+  {
+   "n": 15,
+   "cast": [],
+   "refs": [],
+   "beat": "마무리 — 무덤가 장미 한 송이 스틸",
+   "visual": "closing still: the old rose tree at the small grave in soft rain, its one red rose heavy with drops, the low stone slab dark and wet, thorny branches bare around the single flower; the modest palace of pale stone stands quiet beyond, and the rain thins to a mist over the garden",
+   "motion": "raindrops gather and slide from the single red rose's petals while the mist thins over the garden, the stone slab glistening, and the camera closes with great patience on the one real flower"
+  }
+ ],
+ "withheld": "왕자가 제 나라로 돌아가 공주 면전에서 문을 닫는 결말"
+}

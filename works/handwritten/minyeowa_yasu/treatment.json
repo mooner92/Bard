@@ -1,107 +1,204 @@
 {
-  "logline": "장미 한 송이를 꺾은 값으로, 상인의 막내딸이 성에 홀로 남는다.",
-  "destination": "성 안쪽의 잠긴 서쪽 방 — 들어가지 말라 이른 곳",
-  "protagonist": "짙은 갈색 머리를 땋아 내린 열여덟 살 처녀",
-  "setting": "18세기 프랑스의 눈 덮인 숲과 낡은 성",
-  "anchor": "a young woman of eighteen with dark brown hair in a braid, plain travelling dress",
-  "palette": "snow white, forest green, warm amber, deep rose red, cold pale grey",
-  "voice": "ko-KR-JiMinNeural",
-  "personas": {
-    "belle": {
-      "label": "막내딸",
-      "desc": "a young woman of eighteen, dark brown hair in a braid, plain grey travelling dress, wool cloak",
-      "avoid": ""
-    },
-    "merchant": {
-      "label": "상인 아버지",
-      "desc": "a tired man in his fifties, grey stubble, worn brown coat and riding boots, gloved hands",
-      "avoid": ""
-    },
-    "beast": {
-      "label": "성의 주인",
-      "desc": "a huge shaggy figure in a torn velvet coat, broad clawed hands, heavy horned head, amber eyes",
-      "avoid": "피나 상처는 그리지 않는다"
-    },
-    "castle_hall": {
-      "label": "성의 홀",
-      "desc": "a vast cold stone hall with a long laid table, candelabra burning, tall dark doors"
-    }
+ "logline": "몰락한 상인의 막내딸 벨이 아버지가 성의 정원에서 꺾은 장미 한 송이 값으로 아버지 대신 야수의 성에 가고, 저녁마다 혼인을 청하는 야수를 거절하면서도 마음을 열다가, 마법 거울로 병든 아버지를 보고 여드레 약속으로 집에 갔다가 언니들의 꾀에 날을 넘기고, 성으로 달려와 정원에 쓰러진 야수를 안는다",
+ "destination": "소설 미녀와 야수에서 만날 수 있습니다",
+ "protagonist": "belle",
+ "setting": "18세기 프랑스의 가난한 시골 오두막, 눈 덮인 숲, 옛 성의 홀·복도·정원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/minyeowa_yasu/assets",
+ "anchor": "a young Frenchwoman of eighteen with dark brown hair in a single braid over one shoulder, a plain dull blue wool dress with a white apron, a grey wool cloak, a calm oval face",
+ "palette": "off-white, dark blue, dull red, dull green, ash grey",
+ "voice": "",
+ "personas": {},
+ "withheld": "쓰러진 야수가 어떻게 되는지와 야수의 본디 모습",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "belle",
+    "sisters",
+    "cottage",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "몰락한 상인의 오두막에서 막내딸 벨이 집안일을 한다",
+   "visual": "soft grey morning light inside the poor farm cottage room: the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one kneeling on the plank floor at frame left in front of the stone hearth, both hands on a short straw broom sweeping ash toward the hearth, her braid hanging forward, her calm face bent to the floor; the two young women of twenty in the fine silk dresses of dull red and dull green with the powdered hair piled high are the ones sitting side by side on the bench at the rough wooden table at frame right, one with her hands folded in her lap and the other with her chin resting on her hand, both sharp faces turned away from the girl at the hearth toward the small window; the spinning wheel in the corner, plain shutters open on the window; exactly three women, each with two arms",
+   "motion": "the young woman at the hearth is the only one who moves, and the two at the table hold still: at the start both her hands are on the broom with its straw against the floor; over the first three seconds she sweeps slowly, the broom drawing toward the hearth and back out again twice, a little grey ash shifting with each stroke, her braid swinging slightly, her knees not shifting on the floor; in the last two seconds she stops with the broom resting against the floor and her face still bent; the two women at the table keep their hands folded and the chin on the hand, their faces turned toward the window, their dresses not stirring; the hearth, the table, the spinning wheel, the shutters and the small window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "merchant"
-      ],
-      "beat": "상인이 눈 덮인 정원에서 장미를 꺾는다.",
-      "visual": "a tired man in a worn coat snapping a red rose from a snow-covered garden bush",
-      "motion": "the stem breaks in his glove, snow shakes off the bush, petals drop to the white ground"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "beast",
-        "merchant"
-      ],
-      "beat": "성의 주인이 어둠 속에서 걸어 나온다.",
-      "visual": "a huge shaggy figure in a torn velvet coat stepping from dark arches toward a small man",
-      "motion": "he strides forward out of the arches, snow blows past him, the man staggers back"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "belle",
-        "merchant"
-      ],
-      "beat": "막내딸이 아버지 대신 말에 오른다.",
-      "visual": "a young woman in a cloak mounting a horse before a snowbound cottage, her father held back",
-      "motion": "she swings up onto the horse, her cloak sweeps out, the father's hand falls"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "belle",
-        "castle_hall"
-      ],
-      "beat": "처녀가 텅 빈 홀의 긴 상 앞에 앉는다.",
-      "visual": "a young woman seated alone at one end of a long laid table in a vast candlelit hall",
-      "motion": "candle flames lean along the table, her chair draws itself in, steam rises off the dishes"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "beast",
-        "belle"
-      ],
-      "beat": "성의 주인이 맞은편 끝에 앉는다.",
-      "visual": "a huge shaggy figure seated at the far end of a long table facing a young woman",
-      "motion": "he lowers himself into the chair, candles gutter down the table, his coat settles"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "belle"
-      ],
-      "beat": "처녀가 잠긴 서쪽 문 앞에 선다.",
-      "visual": "a young woman before a tall locked door in a dim stone corridor, one candle in her hand",
-      "motion": "her hand rises toward the handle, the candle flame bends, shadows swing on the stone"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "belle"
-      ],
-      "beat": "처녀가 유리 덮개 속 장미를 들여다본다.",
-      "visual": "a young woman leaning over a red rose under a glass dome, few petals left on the stem",
-      "motion": "a petal loosens and falls inside the glass, her breath fogs it, candlelight shifts"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 홀의 긴 상에 촛불만 사위어 간다.",
-      "visual": "a long empty banquet table in a vast stone hall, candles burned low, chairs pushed back",
-      "motion": "the last candles sink and gutter, wax runs down, cold light spreads from the windows"
-    }
-  ],
-  "withheld": "장미의 마지막 꽃잎이 지면 벌어지는 일과, 성 주인의 본디 모습"
+  {
+   "n": 2,
+   "cast": [
+    "merchant",
+    "horse",
+    "snow_forest",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "장삿길에 나선 아버지가 눈 속에서 길을 잃는다",
+   "visual": "deep night in the dark pine forest under heavy snow: the tired grey-haired Frenchman of fifty-five in the worn brown coat with the fur collar is the one riding the grey horse along the narrow track at frame centre, his fur collar turned up to his ears, one gloved hand on the reins and the other raised to shade his eyes, his lined face turned to peer ahead between the trunks; the grey horse with the dark mane is the one walking with its head low, snow on its back; snow falling in thick flakes, the dark trunks close on both sides, the track vanishing ahead into the falling snow; he is the only person in the forest",
+   "motion": "the horse and its rider are the ones who move, and only slowly: at the start the horse's head is low and the man's hand is raised to shade his eyes; over the first three seconds the horse takes two slow steps forward along the track, its hooves sinking into the snow, its head swaying a little with each step, and the man sways slightly in the saddle with his hand staying raised and his face turned ahead; in the last two seconds the horse stops with one hoof lifted and the man lowers his hand slowly to the reins; the thick snowflakes drift straight down through the whole five seconds; the dark trunks and the snow on the ground hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "merchant",
+    "castle_hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "아버지가 찾아든 성 안에 저녁 식탁이 차려져 있다",
+   "visual": "candlelight inside the vast stone hall of the castle at night: the tired grey-haired Frenchman of fifty-five in the worn brown coat with the fur collar is the one standing beside the near end of the long table at frame left, his hat held in both hands against his chest, snow still on his shoulders, his lined face turned along the table; the long table runs away from him toward the far wall, laid with silver dishes and lit candles in tall candlesticks, one place set at the near end with a covered silver dish and a filled goblet beside a high-backed chair; the great fireplace burning at frame right, the tall dark doors beyond; he is the only person in the hall",
+   "motion": "the grey-haired man is the only one who moves: at the start his hat is held in both hands against his chest and his face is turned along the table; over the first three seconds he takes two slow steps toward the high-backed chair at the near end, his boots scuffing the stone floor, his right hand leaving the hat to rest on the back of the chair, his face turning down toward the covered dish; in the last two seconds he stands with his hand on the chair back and his hat in his left hand, his shoulders sinking a little; the candle flames sway gently and the fire in the fireplace flickers; the silver dishes, the goblet, the covered dish, the chair and the tall dark doors hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "merchant",
+    "castle_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아침 정원에서 아버지가 장미 한 송이를 꺾는다",
+   "visual": "soft grey morning light in the walled castle garden under snow: the tired grey-haired Frenchman of fifty-five in the worn brown coat with the fur collar is the one standing bent forward at frame centre before a rose bush in full dull red bloom, his right hand closed around the green stem of one red rose just below the bloom, his left hand holding the branch aside, his lined face close to the flower; snow lying on the tops of the bushes and along the stone path, the arched opening in the wall at frame right; he is the only person in the garden",
+   "motion": "the grey-haired man's hands are the only things that move: at the start his right hand is closed around the stem below the bloom and his left hand holds the branch aside; over the first two seconds his right hand draws the rose slowly toward his chest, the green stem bending and then parting from the branch, the branch springing back a little under his left hand; in the last two seconds he holds the rose upright before his face, his left hand coming away from the bush to rest at his side, his face lifted a little toward the bloom; the other blooms on the bush tremble once and settle; the snow on the bushes, the stone path and the arched opening hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "beast",
+    "merchant",
+    "castle_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "야수가 나타나 으르렁댄다",
+   "visual": "soft grey morning light in the walled castle garden under snow: the huge shaggy dark brown creature standing upright, a head taller than a man, with the broad tusked muzzle, the small curved horns and the dull red velvet coat is the one standing in the arched opening of the wall at frame right, both furred arms spread wide, the tusked muzzle open in a roar with the amber eyes fixed on the man; the tired grey-haired Frenchman of fifty-five in the worn brown coat with the fur collar is the one fallen to his knees in the snow at frame left, the single red rose still held in his right hand against his chest, his left hand raised before his face, his lined face turned up toward the creature; the rose bushes in dull red bloom between them; exactly two figures, one kneeling man and one upright creature",
+   "motion": "the huge creature is the one who moves, and the kneeling man holds still: at the start the creature's arms are spread wide and its muzzle is open; over the first three seconds it takes one heavy step forward out of the arched opening onto the snow, its right arm swinging down and forward to point at the man with one thick furred finger, the velvet coat swinging, its head thrusting forward a little with the muzzle staying open; in the last two seconds it stands with the arm pointing, its chest swelling with a breath; the kneeling man keeps the rose against his chest and his left hand raised, his face turned up, his knees not shifting in the snow; the rose bushes, the snow and the stone wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "belle",
+    "merchant",
+    "cottage",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "벨이 아버지 대신 가겠다고 나선다",
+   "visual": "soft grey daylight inside the poor farm cottage room: the tired grey-haired Frenchman of fifty-five in the worn brown coat with the fur collar is the one sitting on the bench at the rough wooden table at frame right with his head bowed and both hands flat on the table, the single red rose lying on the boards between his hands; the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one standing beside him at frame left, her right hand resting on his shoulder, her calm face turned down toward him with her chin lifted a little; the stone hearth behind them, the spinning wheel in the corner; exactly two people, one seated man and one standing young woman",
+   "motion": "the young woman standing beside the table is the only one who moves, and the seated man holds still: at the start her right hand rests on his shoulder and her face is turned down toward him; over the first two seconds her hand presses his shoulder slowly and her left hand comes up to rest over her own heart, her chin lifting slowly and her eyes turning from him to the rose on the table; in the last two seconds she holds with her hand on his shoulder and the other over her heart, her eyes on the rose; the seated man keeps his head bowed and both hands flat on the table, his shoulders not moving; the rose lies still on the boards; the hearth, the bench, the spinning wheel and the shutters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "belle",
+    "beast",
+    "merchant",
+    "castle_hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "성에 이른 벨 앞에 야수가 처음 모습을 드러낸다",
+   "visual": "candlelight inside the vast stone hall at night: the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron and the grey wool cloak is the one standing very straight at the near end of the long table at frame left, both hands clasped before her apron, her calm face lifted toward the far end; the tired grey-haired Frenchman of fifty-five in the worn brown coat with the fur collar is the one standing a step behind her at the far left edge with his hat in his hands; the huge shaggy dark brown creature standing upright, a head taller than a man, with the broad tusked muzzle, the small curved horns and the dull red velvet coat is the one standing at the far end of the table at frame right, one furred hand resting on the table beside a candlestick, the tusked muzzle closed and the amber eyes on the young woman; exactly three figures, two people and one upright creature",
+   "motion": "the huge creature at the far end of the table is the only one who moves, and the two people at the near end hold still: at the start its furred hand rests on the table and its head is upright; over the first two seconds it bows its horned head slowly toward the young woman, the hand on the table sliding a little forward, the velvet coat shifting on its shoulders; in the last two seconds the head stays bowed and the hand stays on the table; the young woman keeps her hands clasped before her apron and her face lifted, her cloak hanging still; the man behind her keeps his hat in his hands and his feet planted; the candle flames sway gently; the silver dishes, the candlesticks, the fireplace and the tall dark doors hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "belle",
+    "corridor",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아버지가 떠난 뒤 벨은 넓은 성에 홀로 남는다",
+   "visual": "pale grey daylight through the tall windows of the long stone corridor: the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one walking away from the camera down the red carpet at frame centre, small in the frame, her back to the camera and her braid down her back, one hand trailing along the stone wall at her side; the tall windows along the left wall with snow light falling across the carpet in pale bars, candles unlit in their wall brackets on the right, the corridor running on far ahead to a distant door; she is the only person in the corridor",
+   "motion": "the young woman walking down the corridor is the only one who moves: at the start her back is to the camera and one hand trails along the wall; over the first three seconds she walks slowly away with four small steps down the red carpet, her hand sliding along the stone wall, her braid swinging a little, her figure growing only slightly smaller in the frame; in the last two seconds she stops and turns her head to look up at one of the tall windows, her hand resting on the wall; the pale bars of snow light on the carpet, the unlit candles, the stone walls and the distant door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "belle",
+    "beast",
+    "castle_hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "저녁마다 야수가 식탁 맞은편에 앉아 묻는다",
+   "visual": "candlelight inside the vast stone hall at night: the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one seated in the high-backed chair at the near end of the long table at frame left, her hands in her lap, her calm face turned along the table; the huge shaggy dark brown creature standing upright, a head taller than a man, with the broad tusked muzzle, the small curved horns and the dull red velvet coat is the one seated in a wide chair at the far end of the table at frame right, leaning forward with both furred hands on the table, the tusked muzzle open as it speaks, the amber eyes on her; the lit candles in tall candlesticks and the silver dishes along the table between them; exactly two figures at the table, one young woman and one seated creature",
+   "motion": "the huge creature at the far end is the only one who moves, and the young woman holds still: at the start both its furred hands are on the table and its muzzle is open; over the first two seconds it leans further forward slowly, its right hand turning over to lie open on the table toward her, its head tilting a little to one side with the muzzle staying open; in the last two seconds it holds leaning forward with the open hand on the table; the young woman keeps her hands in her lap and her face turned along the table, her braid still on her shoulder; the candle flames sway gently; the silver dishes, the candlesticks, the fireplace and the tall dark doors hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "belle",
+    "beast",
+    "castle_hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "벨은 고개를 젓지만 야수의 다정함에 마음이 열린다",
+   "visual": "candlelight inside the vast stone hall at night, closer on the near end of the long table: the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one seated at frame left with her right hand resting on the table beside a silver dish, her calm face turned toward the creature with a small soft smile; the huge shaggy dark brown creature standing upright, a head taller than a man, with the broad tusked muzzle, the small curved horns and the dull red velvet coat is the one seated at frame right across the corner of the table from her, one furred hand lying open on the table a hand's breadth from hers, the tusked muzzle closed, the amber eyes lowered; two lit candles in tall candlesticks between them; exactly two figures, one young woman and one seated creature",
+   "motion": "the young woman is the only one who moves, and the creature holds still: at the start her right hand rests on the table beside the dish and her face is turned toward the creature with a small smile; over the first two seconds she shakes her head slowly once, turning it a little to the left and back, the smile staying, and her hand slides slowly across the table until her fingertips rest a finger's width from the furred hand; in the last two seconds her hand stays there and her eyes stay on the creature's lowered face; the creature keeps its hand lying open on the table and its eyes lowered, its shoulders not moving; the candle flames sway gently; the silver dish, the candlesticks and the table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "belle",
+    "belle_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "마법 거울 속에서 벨이 병든 아버지를 본다",
+   "visual": "pale grey daylight through the tall window of the small castle bedroom: the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one sitting on the plain chair at the dressing table at frame centre, turned half toward the camera, an oval hand mirror in a plain dark wooden frame pressed flat against her chest with both hands, its glass turned inward against her apron, her eyes closed and her calm face gone stricken with her lips pressed together, one tear on her cheek; the canopied bed with the dull green curtains standing made and smooth at frame right, snow beyond the window at frame left; she is the only person in the room",
+   "motion": "the young woman at the dressing table is the only one who moves: at the start the mirror is pressed flat against her chest with both hands and her eyes are closed; over the first three seconds her shoulders rise and fall once with a slow breath, her head bowing slowly forward until her chin nearly touches the top of the mirror's frame, her hands tightening on it; in the last two seconds she holds bowed over the mirror with her eyes still closed; the canopied bed, the green curtains, the dressing table and the snow beyond the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "beast",
+    "belle",
+    "castle_gate",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "야수가 여드레 뒤 돌아오라며 벨을 집으로 보내 준다",
+   "visual": "dusk light at the tall iron gate of the castle under snow: the huge shaggy dark brown creature standing upright, a head taller than a man, with the broad tusked muzzle, the small curved horns and the dull red velvet coat is the one standing inside the open gate at frame right, one furred hand on an iron bar of the gate, the tusked muzzle closed, the amber eyes on the young woman; the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron and the grey wool cloak with its hood up is the one standing on the snowy track outside the gate at frame left, turned half back toward him, a small cloth bundle in one hand, her calm face lifted toward him; the snowy forest track running away behind her, snow on the stone wall; exactly two figures, one young woman and one upright creature",
+   "motion": "the young woman on the track is the only one who moves, and the creature at the gate holds still: at the start she stands turned half back toward him with the bundle in one hand; over the first three seconds she takes two slow steps backward along the track away from the gate, her face staying turned toward him, her free hand lifting slowly to the height of her shoulder in a small wave; in the last two seconds she stops with her hand raised and her face still toward him; the creature keeps its hand on the iron bar and its eyes on her, its coat hanging still; the snow on the wall, the open gate and the forest track hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "sisters",
+    "belle",
+    "cottage",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "언니들의 꾀에 벨이 약속한 날을 넘긴다",
+   "visual": "dusk light inside the poor farm cottage room: the two young women of twenty in the fine silk dresses of dull red and dull green with the powdered hair piled high are the ones standing on either side of the young woman at the table, the one in dull red at frame left gripping her right hand in both of hers and the one in dull green at frame right gripping her left arm, each with a white handkerchief pressed to her own eyes; the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron is the one standing between them at frame centre, held by both hands, her calm face turned toward the small window at the back where the light is going grey; the rough wooden table and the stone hearth behind; exactly three women, each with two arms",
+   "motion": "the sister in the dull red dress is the only one who moves, and the other two hold still: at the start her hands grip the young woman's right hand and her handkerchief is pressed to her eyes; over the first two seconds she lowers the handkerchief slowly from her eyes to her mouth, her head tilting toward the young woman, her grip on the hand not loosening; in the last two seconds she holds with the handkerchief at her mouth and her eyes on the young woman's face; the sister in green keeps her grip on the arm and her handkerchief at her eyes; the young woman between them keeps her face turned toward the greying window, her hands held; the table, the hearth and the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "belle",
+    "castle_garden",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "성으로 달려온 벨이 정원에 쓰러진 야수를 안는다",
+   "visual": "deep night in the walled castle garden under snow: a huge shaggy dark brown creature with a broad tusked muzzle, small curved horns and a dull red velvet coat is the one lying flat on its side on the snow at frame centre, its whole long body stretched along the ground from frame left to frame right with every part of it on the snow, its eyes closed, one furred arm flung out on the snow and its horned head resting on the snow at frame centre-left; the young Frenchwoman of eighteen with the dark brown braid over one shoulder, the dull blue wool dress and the white apron and the grey wool cloak is the one kneeling in the snow behind the creature's shoulder at frame right, both hands pressed to its furred chest, her face bent low over its muzzle with her braid hanging down; the rose bushes in dull red bloom and the stone path behind, a few small pale stars over the wall; exactly two figures, one creature lying down and one kneeling young woman",
+   "motion": "the kneeling young woman is the one who moves, and the creature lying on the snow stays still but for its breath: at the start both her hands are pressed to its chest and her face is bent low over its muzzle; over the first three seconds her shoulders shake slowly twice and her right hand slides up from its chest to rest against the side of its muzzle, her face bending still lower until her forehead nearly touches its fur; in the last two seconds she holds there with her hand against its muzzle; the creature's chest swells and sinks once, very slowly, under her left hand, its eyes staying closed and its flung-out arm not moving, its whole body staying flat on the snow; the rose bushes, the snow, the stone path and the stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "castle_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "눈 덮인 정원의 장미 덤불만 남는다",
+   "visual": "pale grey dawn light in the walled castle garden under snow: the rows of rose bushes in full dull red bloom are the ones standing above the snow at frame centre, snow lying on their tops, a stone path running between them toward the arched opening in the wall at the back, the stone wall with snow along its top; the snow on the path is smooth and untrodden; the garden lies quiet in the grey light",
+   "motion": "nothing but the snow and the blooms moves: over the whole five seconds a few small snowflakes drift straight down through the frame one after another and settle on the tops of the bushes and on the path, and the nearest dull red blooms tremble very slightly as the flakes touch them and then settle again; the stems do not sway and the branches do not bend; the stone path stays smooth and untrodden, no footprint appearing in it; the stone wall with the snow along its top, the arched opening at the back, the far rows of bushes and the pale grey sky hold completely still; the light does not change over the five seconds; the garden stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

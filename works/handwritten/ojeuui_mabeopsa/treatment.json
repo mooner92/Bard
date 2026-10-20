@@ -1,61 +1,220 @@
 {
- "logline": "회오리에 실려 낯선 나라에 떨어진 소녀가, 집으로 돌아가려고 노란 벽돌길을 따라간다.",
- "destination": "에메랄드 도시 — 소원을 들어준다는 마법사가 있는 곳",
- "protagonist": "양 갈래로 땋은 머리에 파란 체크 원피스를 입은 소녀",
- "setting": "회오리가 지나간 오즈의 나라, 들판과 숲과 에메랄드 도시",
- "anchor": "a young girl with brown braided pigtails, blue gingham dress and red shoes",
- "palette": "emerald green, poppy red, cornflower blue, wide prairie gold",
- "voice": "ko-KR-SunHiNeural",
+ "logline": "캔자스의 소녀 도로시가 강아지 토토와 함께 회오리에 실려 오즈의 나라에 떨어지고, 먼치킨들이 준 은구두를 신고 노란 벽돌길을 따라 허수아비·양철 나무꾼·겁쟁이 사자와 함께 에메랄드 도시에 닿아, 옥좌의 거대한 머리에게 서쪽 마녀를 없애라는 명을 받고 서쪽으로 떠난다",
+ "destination": "소설 오즈의 마법사에서 만날 수 있습니다",
+ "protagonist": "dorothy",
+ "setting": "캔자스의 잿빛 들판, 오즈의 나라 — 먼치킨 들판, 노란 벽돌길, 숲, 양귀비 밭, 에메랄드 도시, 서쪽 황무지",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/ojeuui_mabeopsa/assets",
+ "anchor": "a girl of ten with brown hair in two braids tied with blue ribbons, a blue and white checked gingham dress with a white pinafore, a plain round face",
+ "palette": "dull yellow, off-white, dull green, dark blue, ash grey",
+ "voice": "",
+ "personas": {},
+ "withheld": "마법사의 정체와 도로시가 집으로 돌아가는 방법",
  "beats": [
   {
    "n": 1,
-   "beat": "소녀가 회오리에 실린 집 창밖을 내다본다.",
-   "visual": "a girl at the window of a small wooden house spinning inside a towering tornado, debris circling",
-   "motion": "the house turns inside the funnel, fences and cows whirl past the window, curtains snap"
+   "cast": [
+    "dorothy",
+    "toto",
+    "farm",
+    "grey_bg"
+   ],
+   "refs": [],
+   "beat": "캔자스 잿빛 들판의 도로시와 토토",
+   "visual": "low dull grey light over the flat grey prairie: the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one standing on the plain wooden porch of the small grey farmhouse at frame left, the small black shaggy dog held against her chest in both arms, her round face turned toward the far right of the frame; far off at frame right a dark grey funnel cloud reaches from the low cloud down to the dry grass, the grass between bent flat by the wind; the porch post beside her, the plain door open behind; she is the only person in the frame",
+   "motion": "the wind is what moves, and the girl stands still: over the whole five seconds the dry grass of the prairie bends and shivers toward the left in long slow waves, the two brown braids and the hem of the checked dress lift and settle in the gusts, and the dog's shaggy ears flatten and lift; the girl keeps her feet planted on the porch and her arms around the dog, her face turned toward the far funnel cloud; the funnel cloud at the far right leans very slowly and does not come nearer; the farmhouse, the porch post and the open door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "소녀가 낯선 들판에 내려선 집 문을 연다.",
-   "visual": "a girl stepping out of a tilted farmhouse door into a bright land of oversized flowers",
-   "motion": "the door swings open outward, she steps down into the flowers, petals shake loose"
+   "cast": [
+    "funnel",
+    "grey_bg"
+   ],
+   "refs": [],
+   "beat": "회오리가 집을 통째로 하늘로 실어 간다",
+   "visual": "the black storm sky filled by the huge dull dark grey funnel cloud: the small grey wooden farmhouse is the one turning in the air at frame centre inside the whirling grey of the funnel, tilted, its porch and its door and its small window all in one piece, high above the ground; at the small window a girl's round face with two brown braids tied with blue ribbons and two small hands pressed flat on the glass from inside; torn grey cloud streaming past the house and filling the whole bottom of the frame beneath it; the house and the funnel are the only things in the frame, and the girl's face at the window is the only face",
+   "motion": "the house and the cloud are what move: over the whole five seconds the small farmhouse turns slowly in the air, its porch swinging from the left of the frame toward the centre, tilting a little further as it turns, and the torn grey cloud streams past it from bottom to top in long slow ribbons; the girl's face stays pressed to the window with her hands flat on the glass, the window turning with the house; the funnel around the house darkens and lightens slowly; the tiny dark line of the prairie at the bottom of the frame holds still; no part of the house comes loose; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "소녀가 노란 벽돌길 위에 발을 올린다.",
-   "visual": "a girl setting her red shoe on the first yellow brick of a road curving into hills",
-   "motion": "her shoe presses down onto the brick, dust puffs up, the road sways with poppies"
+   "cast": [
+    "dorothy",
+    "toto",
+    "munchkins",
+    "good_witch",
+    "munchkin_land",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "집이 내려앉은 곳은 먼치킨의 나라",
+   "visual": "soft daylight in the green meadow of tall bright flowers: the small grey farmhouse sits tilted on the grass at frame left with the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore standing in its open doorway, the small black shaggy dog at her feet, her round face turned to the visitors; the three small men no taller than the girl in the round blue hats with the little bells are the ones standing in a row on the grass at frame right, hats in their hands, bowing from the waist; the small old woman in the white gown with the tiny silver stars and the tall pointed white hat is the one standing a step in front of them nearest the girl, one hand lifted in greeting; a pair of small flat silver shoes with square toes lying on the grass beside the corner of the house; round blue houses with domed roofs and fruit trees beyond; exactly five people, one girl, three small men and one old woman",
+   "motion": "the small old woman in the starred white gown is the only one who moves, and the girl, the dog and the three small men hold still: at the start her hand is lifted in greeting; over the first two seconds she takes one small step toward the girl and bows slowly from the waist, her tall pointed hat dipping, her lifted hand sweeping down and out to the side; in the last two seconds she straightens slowly and holds with her hand out to the side; the three small men keep their bow with their hats in their hands, the little bells on the brims not swinging; the girl keeps her place in the doorway with her face turned to the visitors, the dog sitting still at her feet; the silver shoes lie where they are; the tall flowers, the blue houses and the fruit trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "밀짚 허수아비가 장대에서 몸을 비튼다.",
-   "visual": "a straw scarecrow twisting himself off a wooden pole above a cornfield",
-   "motion": "he wrenches free downward off the pole, straw scatters, crows burst upward"
+   "cast": [
+    "dorothy",
+    "toto",
+    "yellow_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "은구두를 신은 도로시가 노란 벽돌길을 나선다",
+   "visual": "soft daylight on the road of yellow bricks running through the green fields: the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one walking along the yellow bricks at frame centre away from the camera and half turned, a small wicker basket on her arm, small flat silver shoes with square toes on her feet, her round face turned ahead along the road; the small black shaggy dog is the one trotting at her side on the bricks; the low fence of blue posts along the left side of the road, the yellow road running away to the far fields; she is the only person on the road",
+   "motion": "the girl and the dog are the ones who move: at the start the girl is mid step with the basket on her arm and the dog is at her side; over the first three seconds she walks slowly ahead along the yellow bricks with four small steps, the basket swinging a little on her arm, her braids swinging, the silver shoes catching the light with each step, her figure growing only slightly smaller in the frame, and the dog trots beside her keeping level with her skirt; in the last two seconds both stop on the bricks well inside the frame, the dog sitting; the blue fence posts, the yellow bricks and the green fields hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "녹슨 나무꾼이 도끼를 든 채 굳어 있다.",
-   "visual": "a rusted tin woodman frozen mid-swing with an axe in a dripping forest clearing",
-   "motion": "rain drips down his rusted joints, the axe head trembles, leaves shake overhead"
+   "cast": [
+    "scarecrow",
+    "dorothy",
+    "cornfield",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "장대 위의 허수아비가 말을 건다",
+   "visual": "soft daylight at the edge of the cornfield of tall green stalks beside the yellow brick road: the straw scarecrow in the faded blue coat with the painted sack face and the pointed blue hat is the one hanging on the tall wooden pole at frame right above the corn with a bar under his arms, his straw-stuffed legs dangling, one straw-filled sleeve lifted with the glove-hand raised toward the girl, the painted mouth of the sack face open in a smile; the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one standing on the yellow bricks at frame left below him with her round face tipped up toward him and one hand shading her eyes, a small wicker basket on her other arm; the yellow bricks running past the field; exactly one girl and one scarecrow",
+   "motion": "the scarecrow on the pole is the only one who moves, and the girl holds still: at the start his glove-hand is raised toward the girl and his legs dangle; over the first two seconds his raised sleeve waves slowly from side to side twice, straw shaking loose from the cuff, his painted sack face tilting a little on the pole with the smile staying wide; in the last two seconds the sleeve holds up and his legs sway once and settle; the girl keeps her hand shading her eyes and her face tipped up, the basket still on her arm, her feet planted on the bricks; the tall corn stalks stir very slightly and the pole does not lean; the yellow bricks hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "덤불에서 커다란 사자가 뛰쳐나온다.",
-   "visual": "a huge lion bursting out of roadside bushes onto a yellow brick road, mane flying",
-   "motion": "the lion leaps out toward the road, bushes whip back, dust bursts under his paws"
+   "cast": [
+    "dorothy",
+    "tin_man",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "숲에서 녹슨 양철 나무꾼이 굳어 있다",
+   "visual": "dim daylight under the great trees of the dark forest beside the yellow brick road: the man of jointed tin plates with the funnel-shaped tin hat and the rust at his joints is the one standing rigid at frame right beside a tree trunk with the wood axe raised in both tin hands over his shoulder, frozen mid swing, rust streaking every joint, his painted tin mouth open; the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one standing at frame left beside him on tiptoe, a small tin oil can with a long thin spout held up in both hands with its spout against the tin man's elbow joint, her round face close to the joint; the small black shaggy dog is the one sitting at her feet; fallen branches on the ground, the yellow bricks showing at the edge of the frame; exactly one girl and one man of tin",
+   "motion": "the girl is the only one who moves, and the tin man stays rigid: at the start the spout of the oil can rests against the tin elbow joint; over the first two seconds she tips the can slowly and a thin bright line of oil runs down over the rusted joint, her face bent close and her other hand steadying the can; in the last two seconds she lowers the can slowly a little and the tin arm holding the axe creaks down a hand's width from its raised place and stops; the rest of the tin man does not move, his painted mouth staying open; the dog sits still at her feet; the great trees, the fallen branches and the yellow bricks hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "에메랄드 도시의 큰 문이 눈앞에서 열린다.",
-   "visual": "towering green city gates parting before four small travellers, spires glittering beyond",
-   "motion": "the gates swing inward toward the city, green light spills out, banners flap"
+   "cast": [
+    "lion",
+    "toto",
+    "dorothy",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "덤불에서 뛰쳐나온 사자가 토토에게 쫓겨 운다",
+   "visual": "dim daylight on the yellow brick road through the dark forest: the big lion with the shaggy golden mane is the one crouched low on the yellow bricks at frame right with one great paw pressed over its own nose, its ears back and its eyes squeezed closed, its tail flat on the bricks; the small black shaggy dog is the one standing stiff-legged on the bricks in front of the lion's face at frame centre with its mouth open barking; the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one standing at frame left with one arm raised and one finger pointed at the lion, her round face stern; fallen branches and the great trees behind; exactly one girl, one dog and one lion",
+   "motion": "the lion is the only one who moves, and the girl and the dog hold still: at the start the great paw is pressed over its nose and its eyes are squeezed closed; over the first two seconds the paw rubs slowly across the nose twice and the lion's head sinks lower toward the bricks, its shoulders hunching, the tip of its tail twitching once; in the last two seconds it holds crouched with the paw over its nose and its eyes still closed; the dog keeps its stiff-legged stance with its mouth open; the girl keeps her finger pointed and her face stern, her feet planted on the bricks; the great trees and the fallen branches hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈 벽돌길에 붉은 구두 자국만 남는다.",
-   "anchor": false,
-   "visual": "an empty yellow brick road at dusk with small shoe prints in the dust, poppies at the verge",
-   "motion": "dust drifts across the prints, poppies nod at the verge, the road darkens ahead"
+   "cast": [
+    "dorothy",
+    "scarecrow",
+    "tin_man",
+    "lion",
+    "toto",
+    "yellow_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "넷이 도로시와 함께 노란 벽돌길을 간다",
+   "visual": "soft daylight on the road of yellow bricks through the green fields: the four travellers are the ones walking abreast along the yellow bricks toward the camera at frame centre: the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore in the middle with the small wicker basket on her arm, the straw scarecrow in the faded blue coat with the painted sack face and the pointed blue hat at her left side with his straw legs swinging loose, the man of jointed tin plates with the funnel-shaped tin hat and the rust at his joints at her right side with the wood axe on his shoulder, the big lion with the shaggy golden mane walking on all fours at the far right beside the tin man, and the small black shaggy dog trotting ahead of them all on the bricks; the low fence of blue posts along the left, the fields running away behind them; exactly four travellers and one dog",
+   "motion": "all four travellers and the dog move together, slowly: at the start they are mid step abreast on the yellow bricks; over the first three seconds they walk toward the camera with two slow steps each, the scarecrow's straw legs swinging loosely, the tin man's joints stiff, the lion's mane swaying with its walk, the girl's basket swinging on her arm, the dog trotting a step ahead, all of them growing only slightly larger in the frame; in the last two seconds they stop together well inside the frame, the dog sitting on the bricks; the blue fence posts, the yellow bricks and the green fields hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "scarecrow",
+    "tin_man",
+    "dorothy",
+    "lion",
+    "poppy_field",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "양귀비 밭에서 잠든 도로시와 사자",
+   "visual": "soft daylight over the wide field of red poppies in full bloom: the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one lying asleep on her back among the red poppies at frame centre with her eyes closed and her arms loose at her sides; the straw scarecrow in the faded blue coat with the painted sack face and the pointed blue hat is the one bending at her head with his straw-filled arms under her shoulders and the man of jointed tin plates with the funnel-shaped tin hat and the rust at his joints is the one bending at her feet with his tin hands under her knees, both of them lifting her; the big lion with the shaggy golden mane is the one lying asleep on its side among the poppies at frame right with its eyes closed and its mane spread on the flowers; the red poppies stretching away to the horizon; exactly one girl, one scarecrow, one man of tin and one lion",
+   "motion": "the scarecrow and the tin man are the ones who move, and the girl and the lion stay asleep: at the start the scarecrow's arms are under the girl's shoulders and the tin hands are under her knees; over the first three seconds the two of them lift her slowly and together a hand's width up out of the poppies, the scarecrow's straw creaking and the tin man's joints stiff, her head lolling a little against the scarecrow's sleeve, her eyes staying closed and her arms hanging loose; in the last two seconds they hold her lifted and still; the lion keeps lying on its side with its eyes closed, only its flank swelling and sinking with one slow breath; the red poppies sway very slightly and the horizon holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "mice",
+    "lion",
+    "scarecrow",
+    "poppy_field",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "수많은 들쥐가 실을 매어 사자를 끌어낸다",
+   "visual": "soft daylight at the edge of the wide field of red poppies: the big lion with the shaggy golden mane is the one lying asleep on its side on a flat wooden cart of rough planks at frame centre, its eyes closed and its mane hanging over the edge; the great many small grey field mice, more than a hundred, are the ones covering the ground in front of the cart at frame left, each with a white thread tied round its body and all the threads running back to the front of the cart, the mice all leaning forward to pull; the straw scarecrow in the faded blue coat with the painted sack face and the pointed blue hat is the one standing at frame right behind the cart with both straw-filled sleeves pushing its back edge; the red poppies behind, green grass under the cart; exactly one scarecrow, one lion and the mice",
+   "motion": "the mice and the cart are what move, and the lion stays asleep: at the start the threads are taut and the mice are leaning forward; over the first three seconds the mice scurry forward together in a slow grey ripple, their threads staying taut, and the flat cart with the sleeping lion slides slowly a hand's width toward the left over the grass, the scarecrow leaning into its back edge with his straw legs bracing; in the last two seconds the cart stops and the mice hold leaning with the threads taut; the lion keeps its eyes closed, its mane swaying once with the cart's motion and settling; the red poppies and the green grass hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "dorothy",
+    "toto",
+    "gatekeeper",
+    "city_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "에메랄드 도시의 문지기가 초록 안경을 건넨다",
+   "visual": "soft daylight before the high wall of green stone and the great green gate studded with glittering green stones: the small man dressed all in green with the round green spectacles on his nose is the one standing in a small open door in the gate at frame right, one hand held out toward the girl with a second pair of round green spectacles lying in his open hand; the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one standing on the yellow bricks at frame left with the small wicker basket on her arm, her round face lifted toward the spectacles and one hand reaching toward them; the small black shaggy dog is the one sitting at her feet; the bell rope hanging beside the gate; exactly one girl, one man in green and one dog",
+   "motion": "the small man in green is the only one who moves, and the girl and the dog hold still: at the start his hand is held out with the green spectacles lying in it; over the first two seconds his hand moves slowly forward and up toward the girl's reaching hand until the spectacles are a finger's width from her fingers, his head nodding once; in the last two seconds his hand holds there; the girl keeps her hand reaching and her face lifted, the basket still on her arm, her feet planted on the bricks; the dog sits still; the green gate, the glittering stones, the bell rope and the green wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "dorothy",
+    "scarecrow",
+    "tin_man",
+    "lion",
+    "city_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "도시는 온통 초록빛이다",
+   "visual": "green light in the street of green marble houses with green glass windows: the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one walking along the green paving at frame centre with round green spectacles on her nose and the small wicker basket on her arm, her face turned up at the green houses; the straw scarecrow in the faded blue coat with the painted sack face and the pointed blue hat, the man of jointed tin plates with the funnel-shaped tin hat and the rust at his joints and the big lion with the shaggy golden mane are the ones walking in a row a step behind her, each with round green spectacles on; people in green clothes going by on both sides of the street, green flags on the houses; everything in the frame tinted green; exactly four travellers among the passers-by",
+   "motion": "the girl is the one who moves, and her three companions and the passers-by hold still: at the start she is mid step on the green paving with her face turned up at the houses; over the first three seconds she walks slowly ahead with three small steps, turning her face slowly from the houses on the left to the houses on the right, the basket swinging on her arm, her braids swinging; in the last two seconds she stops well inside the frame with her face turned up to the right; the scarecrow, the tin man and the lion stay where they stand behind her, their spectacles on; the people in green stay where they are; the green houses, the green glass windows, the green flags and the green paving hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "giant_head",
+    "dorothy",
+    "throne_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "옥좌 위 거대한 머리가 서쪽 마녀를 없애라 한다",
+   "visual": "green light inside the round hall of green marble under the dome: the giant bald head as tall as the girl is the one resting on the seat of the high green throne at frame centre, its heavy brows drawn down, its rolling eyes fixed on the girl and its wide mouth open, with nothing beneath its chin but the seat of the throne; the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore is the one standing small on the green marble floor at frame left below the throne with the small wicker basket on her arm, her round face lifted to the head and both hands gripping the basket handle; the green marble walls curving away, green light from the dome above; exactly one girl and one giant head",
+   "motion": "the giant head is the only thing that moves, and the girl holds still: at the start its wide mouth is open and its rolling eyes are on the girl; over the first three seconds the eyes roll slowly from the girl up toward the dome and back down to her, the heavy brows drawing lower, the wide mouth working slowly as it speaks with the lips moving; in the last two seconds the mouth closes slowly and the eyes hold on the girl; the head does not lift from the throne; the girl keeps both hands gripping the basket handle and her face lifted, her feet planted on the marble; the green throne, the curved green walls and the green light hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "dorothy",
+    "scarecrow",
+    "tin_man",
+    "lion",
+    "west_land",
+    "grey_bg"
+   ],
+   "refs": [],
+   "beat": "서쪽으로 떠난 넷 위로 날개 달린 원숭이 떼가 온다",
+   "visual": "dull grey light over the rough land of dry grass and grey rocks: the four travellers are the ones walking away from the camera at frame centre toward the far dark castle on its hill, seen from behind, the girl of ten with the two brown braids and the blue and white checked gingham dress with the white pinafore in the middle with the small wicker basket on her arm, the straw scarecrow in the faded blue coat with the painted sack face and the pointed blue hat at her left, the man of jointed tin plates with the funnel-shaped tin hat and the rust at his joints at her right with the axe on his shoulder, the big lion with the shaggy golden mane at the far right on all fours; high in the grey sky above the castle at frame top right a band of dark winged monkeys with wide bat-like wings flying toward the travellers, small with distance; grey rocks and dry grass on either side; exactly four travellers on the ground and the winged monkeys in the sky",
+   "motion": "the four travellers and the winged monkeys are what move: at the start the travellers are mid step walking away and the monkeys are a small band high over the castle; over the first three seconds the travellers walk two slow steps further away, growing only slightly smaller, the scarecrow's straw legs swinging loosely, the lion's tail swaying, and the band of winged monkeys glides slowly lower and nearer across the grey sky with their wide wings beating slowly, growing a little larger; in the last two seconds the travellers stop and the girl's face turns up toward the sky, and the monkeys hold their glide; the dark castle, the grey rocks and the dry grass hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "yellow_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 노란 벽돌길이 들판을 가로질러 뻗어 있다",
+   "visual": "soft daylight on the road of yellow bricks running through the green fields: the yellow bricks are the ones running from the bottom of the frame away toward the far horizon at frame centre in a long gentle curve, the low fence of blue posts along the left side, the green fields on both sides going away to a line of low hills; the bricks lie bare and warm in the light; the road lies quiet",
+   "motion": "nothing but the grass moves: over the whole five seconds the green grass of the fields on both sides of the road sways very slightly in a light wind, each swell of the wind passing slowly from the near grass at the bottom of the frame toward the far hills; the shadows of the fence posts do not lengthen or shift; the yellow bricks stay bare and warm in the light with no shadow crossing them; the blue fence posts along the left side, the long gentle curve of the road, the line of low hills and the pale sky hold completely still; the light does not change over the five seconds; the road stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "마법사의 정체와, 소녀가 집으로 돌아가는 방법"
+ ]
 }

@@ -1,62 +1,197 @@
 {
- "logline": "제 얼굴이 늙지 않기를 바란 청년이, 대신 늙어 가는 것을 다락에 감춘다.",
- "destination": "다락방의 천 씌운 그림 — 아무도 못 보게 잠가 둔 자리",
- "protagonist": "런던 사교계에서 가장 얼굴이 고운 젊은 남자",
- "setting": "19세기 말 런던, 화실과 대저택과 잠긴 다락",
- "anchor": "a slender young man with smooth pale skin in a fitted velvet frock coat, dark wavy hair, late Victorian London",
- "palette": "gaslight gold, deep wine red, cool grey daylight, dusty attic gloom",
+ "logline": "화가 배질이 그린 초상 앞에서 도리언은 그림이 대신 늙기를 빌고, 여배우 시빌을 버린 밤 초상의 입가에 주름이 잡히자 장막을 씌워 다락에 감춘 채 열여덟 해를 젊게 살다가, 소문을 물으러 온 배질에게 늙고 추악해진 초상을 보여 준다",
+ "destination": "소설 도리언 그레이의 초상에서 만날 수 있습니다",
+ "protagonist": "dorian",
+ "setting": "1890년대 런던 — 화가의 화실과 정원, 도리언의 저택 서재와 아침 식당, 작은 극장의 무대와 분장실, 안개 낀 밤거리의 클럽 계단, 저택 꼭대기의 다락",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/dorieon_geureiui_chosang/assets",
+ "anchor": "a slender fair-haired young man of twenty in a dark blue frock coat before a life-size portrait of himself in a gilt frame",
+ "palette": "dark green, dark blue, ash grey, off-white, dull yellow",
+ "voice": "",
+ "personas": {},
+ "withheld": "칼이 어디에 꽂혔는지와, 반지가 가리킨 사람",
  "beats": [
   {
    "n": 1,
-   "beat": "화가가 젊은 남자의 초상을 마지막으로 손본다.",
-   "visual": "a painter touching a brush to a large framed portrait of a young man in a skylit studio",
-   "motion": "the brush touches the canvas, dust turns in the skylight beam, the sitter shifts"
+   "cast": [
+    "basil",
+    "henry"
+   ],
+   "refs": [],
+   "beat": "화가 배질이 도리언의 초상을 마지막으로 손본다",
+   "visual": "dull yellow afternoon light through the tall north window of the big painter's studio: the sturdy man of thirty-eight, in the loose ash grey linen smock, is the one standing at frame left close before the big wooden easel with a long thin brush lifted in his right hand toward the picture and a flat wooden palette in his left, his rugged face turned to the picture with his lips pressed together; the big wooden easel at frame centre holds a tall unframed canvas standing on its ledge, and painted on that canvas the figure of the slender fair-haired young man in the dark blue frock coat stands against a flat dark green ground, the raw edges of the canvas showing round the paint; the whitewashed wall behind the easel is bare with nothing hung on it; the tall languid man of thirty-five with a clean-shaven chin and only a thin dark moustache, in the well-cut ash grey frock coat, is the one lying back on the long low divan at frame right among the dull yellow and dark green cushions with one arm along the divan's back and his heavy-lidded eyes on the picture; there are exactly two living men in the room and one painted figure",
+   "motion": "the painter's brush hand is the one thing that moves, and the studio holds still: at the start the long thin brush is lifted a hand's width from the picture with its tip toward the painted collar; over the first three seconds the brush moves in slowly and touches the painted collar with two small short strokes, the painter's head tilting a little to one side and back as he looks, his palette hand staying flat and level; in the last two seconds the brush draws back the same hand's width and holds there, his rugged face still turned to the picture; the tall man on the divan keeps his arm along its back and his heavy-lidded eyes on the picture, his ash grey coat and the cushions under him keeping their exact folds; the painted young man on the unframed canvas keeps his exact pose and expression, and the paint surface stays flat; the north window, the leaning pictures and the dull yellow curtains hold completely still; the light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "청년이 제 그림 앞에서 소원 하나를 말한다.",
-   "visual": "a young man standing face to face with his own painted portrait, one hand raised toward it",
-   "motion": "his hand rises toward the canvas, gaslight flares, his reflection wavers in glass"
+   "cast": [
+    "henry",
+    "dorian",
+    "garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "헨리 경이 정원에서 도리언에게 젊음은 잠시뿐이라고 말한다",
+   "visual": "soft grey daylight in the small walled garden behind the studio: the tall languid man of thirty-five, in the well-cut ash grey frock coat and the dark green silk cravat, is the one standing at frame left with his head bent close beside the ear of the young man, one hand lifted with the fingers loosely open as he speaks, his heavy-lidded eyes half closed; the slender young man of twenty with the thick fair golden-brown curls and the smooth pale face, in the dark blue frock coat and the off-white waistcoat, is the one standing at frame right with his face turned a little away toward the shrubs and his lips parted, both hands hanging still at his sides; the tall green shrubs heavy with off-white blossom rise behind them to the top of the frame; the high dark brown brick wall shows through the leaves behind with the grey sky above it; there are exactly two men in the garden",
+   "motion": "the tall man's lifted hand and the young man's face are the two things that move, and the garden holds still: at the start the tall man's fingers are loosely open beside the young man's ear and the young man's face is turned a little away toward the shrubs; over the first three seconds the open fingers turn slowly palm up and close a little, and the young man's face turns slowly back until his parted lips and clear eyes face the speaker, his fair curls shifting slightly with the turn; in the last two seconds both hold, the tall man's head still bent close and the young man's eyes on him; the tall man's feet on the gravel do not shift and the young man's hands stay hanging at his sides; the off-white blossom on the shrubs keeps its exact clusters and the leaves do not stir; the empty bench, the brick wall and the grey sky hold completely still; the light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "몇 해가 흘러도 그의 얼굴은 그대로다.",
-   "visual": "a young man among older guests at a lit drawing room party, his face unlined beside theirs",
-   "motion": "guests turn and murmur around him, chandelier crystals sway, his smile holds"
+   "cast": [
+    "dorian",
+    "studio"
+   ],
+   "refs": [],
+   "beat": "도리언이 완성된 초상 앞에서 그림이 대신 늙었으면 하고 빈다",
+   "visual": "dull yellow afternoon light in the big painter's studio, seen from behind the young man: the slender young man of twenty with the thick fair golden-brown curls, in the dark blue frock coat, is the one standing at frame centre with his back to the camera and his face hidden, close before the big wooden easel, both his hands lifted a little from his sides with the fingers spread; the easel before him holds the finished canvas, tall and unframed, standing on the easel's ledge, and painted on it the figure of the same slender fair-haired young man in the dark blue frock coat stands facing out over the living man's shoulder against a flat dark green ground, the raw edges of the canvas showing round the paint; the whitewashed wall behind the easel is bare with nothing hung on it, the painted face smooth, pale and beautiful with its full lips a little parted; the tall north window at frame left throws its light across the picture; there is exactly one living man in the room and one painted figure",
+   "motion": "the young man's lifted hands are the one thing that moves, and the studio holds still: at the start both hands are lifted a little from his sides with the fingers spread, his back to the camera; over the first three seconds the hands rise slowly to the height of his chest and the fingers close and open once, as a man does who is speaking under his breath, his shoulders lifting slightly with a drawn breath and his fair curls shifting a little at the back of his head; in the last two seconds the hands hold at chest height with the fingers loosely open; his feet on the floorboards do not shift; the painted young man on the unframed canvas keeps his exact pose and his parted lips, the painted eyes staying fixed out over the living man's shoulder and the paint surface staying flat; the north window, the empty divan with its cushions and the leaning pictures hold completely still; the light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "그림 속 입가에 처음 보는 주름이 잡힌다.",
-   "visual": "a close view of a painted mouth on a canvas, a hard new line at its corner, lamplight across it",
-   "motion": "lamplight slides over the paint, the line deepens, shadow creeps inward",
-   "anchor": false
+   "cast": [
+    "dorian",
+    "portrait_young",
+    "library"
+   ],
+   "refs": [],
+   "beat": "배질이 선물한 초상이 도리언의 집 서재 벽에 걸린다",
+   "visual": "cool grey daylight through the tall windows of the panelled library: the picture inside its wide carved gilt frame is the one thing hung high on the dark green wall above the white marble fireplace at frame centre, the painted figure of the slender fair-haired young man in the dark blue frock coat standing against his flat dark green ground and looking down into the room; the slender young man of twenty with the thick fair golden-brown curls and the smooth pale face, in the dark blue frock coat and the off-white waistcoat, is the one standing at frame right below it with his head tipped back and his clear blue eyes lifted to the painted face, one hand resting on the marble mantel and the other holding the lapel of his coat; the deep leather armchair stands at frame left with the small round table and the decanter beside it; there is exactly one living man in the room and one painted figure",
+   "motion": "the young man's lifted head is the one thing that moves, and the library holds still: at the start his head is tipped back with his clear eyes on the painted face high above him and one hand resting on the marble mantel; over the first three seconds his head turns slowly a little to the left and back to the right, his eyes travelling along the gilt frame and returning to the painted face, the hand on the mantel turning so that the fingers rest on its edge, his fair curls shifting with the turn; in the last two seconds his head holds tipped back and his eyes stay on the picture; his feet do not shift and the hand at his lapel keeps its grip; the painted young man inside the gilt frame keeps his exact pose and the paint stays flat, the frame hanging straight on its hook; the leather armchair, the decanter on the round table, the dark blue curtains and the panelling hold completely still; the grey light through the tall windows stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "그는 그림을 천으로 덮어 다락으로 올려 보낸다.",
-   "visual": "a young man dragging a cloth-covered rectangular frame up a narrow attic stair by candlelight",
-   "motion": "he drags the frame upward, it scrapes over each riser behind him, candle shadow climbs the wall"
+   "cast": [
+    "sibyl",
+    "dorian",
+    "theatre",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "도리언이 무대 위 여배우 시빌 베인에게 마음을 빼앗긴다",
+   "visual": "the dull yellow glare of the gas footlights in the small shabby theatre, seen from the plush box at the side: the slight girl of seventeen with the dark brown hair in one long plait and the small pale oval face, in Juliet's off-white gown with the long hanging sleeves and the dull yellow girdle, is the one standing at frame centre on the painted stone balcony of the stage with both her thin arms stretched out over its edge and her big dark eyes lifted, her lips parted in the middle of a line; the row of tin-shaded footlights runs along the bottom of the stage; at the near right edge of the frame the gilt rail of the box and the shoulder of the slender young man of twenty with the thick fair golden-brown curls in the dark blue frock coat show close and large, seen from behind, his face turned to the stage and hidden; the girl on the stage is the only figure with her face to the camera",
+   "motion": "the girl on the stage is the one who moves, and the theatre holds still: at the start both her thin arms are stretched out over the edge of the painted balcony with her big dark eyes lifted; over the first three seconds her arms draw in slowly until her hands come together under her chin and her small face lifts a little higher, the long hanging sleeves of the off-white gown swaying once and settling, her lips moving through the line; in the last two seconds her clasped hands hold under her chin and her eyes stay lifted; her feet on the balcony boards do not shift; the painted balcony and the painted dark blue sky behind her stay flat and still; the gas footlights keep their steady dull yellow glare without flicker; the young man's shoulder and fair curls at the near right edge of the frame stay exactly where they are and do not turn; the backs of heads in the stalls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "밤마다 그는 다락 문을 잠그고 내려온다.",
-   "visual": "a young man turning a key in a low attic door, his shoulders against the wood, dark stairwell below",
-   "motion": "the key turns twice, his forehead touches the door, the stair below darkens"
+   "cast": [
+    "sibyl",
+    "dorian",
+    "dressing_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "시빌이 분장실에서 사랑에 빠진 뒤로 연기가 가짜처럼 느껴졌다고 말한다",
+   "visual": "the dull yellow light of the ring of gas jets round the mirror in the small cramped dressing room: the slight girl of seventeen, still in Juliet's off-white gown with the dull yellow girdle, is the one standing at frame left with both her thin hands pressed together against her breast and her big dark eyes lifted, shining, to the young man's face, her lips parted as she speaks; the slender young man of twenty with the thick fair golden-brown curls and the smooth pale face, in the dark blue frock coat, is the one standing stiff at frame right by the narrow open door with both hands at his sides and his face turned to her, his full lips pressed thin and his clear blue eyes cold; the table of paint pots stands under the mirror between them and the mirror gives back only the grey wall; there are exactly two people in the room",
+   "motion": "the girl's pressed hands and lifted face are the one thing that moves, and the young man holds still: at the start both her thin hands are pressed together against her breast with her big dark eyes lifted to his face; over the first three seconds the pressed hands rise slowly until they are held under her chin and her small face lifts higher with a slow smile spreading and her lips moving as she speaks, the long plait shifting a little on her shoulder; in the last two seconds the hands hold under her chin and the smile stays; her feet do not shift; the young man by the open door keeps his hands at his sides and his face turned to her with his lips pressed thin and his eyes cold, nothing in him moving; the mirror keeps its steady gas jets without flicker and the paint pots on the table keep their places; the hung costumes, the empty chair and the dim passage beyond the door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 천을 걷으면 무엇이 나타날까?",
-   "visual": "a hand gripping the edge of a dust sheet over a tall frame, lamp glow behind, attic dark around",
-   "motion": "the sheet begins to lift, lamplight swings, dust pours off the fabric"
+   "cast": [
+    "dorian",
+    "sibyl",
+    "passage",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "형편없는 연기를 본 도리언이 매정하게 등을 돌리고 나간다",
+   "visual": "the dull yellow light of the one gas jet in its wire cage on the brick wall of the narrow bare passage behind the stage: the slender young man of twenty with the thick fair golden-brown curls, in the dark blue frock coat, is the one walking away from the camera down the middle of the passage at frame centre, seen entirely from behind so that only the back of his fair curly head, the back of his dark blue coat and the heels of his shoes show, not one part of his face visible, his back straight and both hands at his sides, the far door ahead of him; the plain door at the far end of the passage is the one small dark shape ahead of him; the slight girl of seventeen with the dark brown hair in one long plait, in Juliet's off-white gown, is the one standing at the near left edge of the frame in the open doorway of the dressing room with one thin hand holding the door frame and her small pale face turned after him, her big dark eyes wide and her lips parted; there are exactly two people in the passage",
+   "motion": "the young man walking away is the one who moves, and the girl in the doorway holds still: at the start his back is at frame centre with both hands at his sides; over the whole five seconds he walks slowly away from the camera down the middle of the passage with short even steps, his back staying straight and his fair curls staying at the same height, his figure growing a little smaller against the far door, his hands staying at his sides and his face never turning back; the girl in the dressing room doorway keeps her thin hand on the door frame and her wide dark eyes on his back, her lips parted, nothing in her moving but a slight lift of her chin as he goes; the one gas jet in its wire cage keeps its steady dull yellow light without flicker; the dull yellow brick walls and the stone floor hold completely still; the plain far door stays closed; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "다락 문틈으로 빛 한 줄기가 새어 나온다.",
-   "visual": "a thin line of light escaping under a locked attic door in a dark stairwell, dust in the air",
-   "motion": "the light under the door flickers once, dust turns in it, the stair stays black",
-   "anchor": false
+   "cast": [
+    "dorian",
+    "portrait_young",
+    "library"
+   ],
+   "refs": [],
+   "beat": "집에 돌아온 도리언이 초상의 입가에서 낯선 주름을 본다",
+   "visual": "the cold ash grey light of dawn through the tall windows of the panelled library, close on the picture: the picture inside its wide carved gilt frame fills the upper half of the frame above the white marble fireplace at frame centre, the painted figure of the slender fair-haired young man in the dark blue frock coat standing against his flat dark green ground, the painted face smooth and pale, and at one corner of the painted mouth a single faint hard line drawn down that pulls the full lips into the beginning of a sneer; the slender young man of twenty, in the dark blue frock coat with the dark green silk tie pulled loose, is the one standing at frame right close under the picture with his face lifted to that painted mouth and his own full lips parted, one hand gripping the edge of the marble mantel and the other lifted half way toward the picture with the fingers spread; there is exactly one living man in the room and one painted figure",
+   "motion": "the young man's lifted hand is the one thing that moves, and the library holds still: at the start the hand is lifted half way toward the picture with the fingers spread; over the first three seconds the hand rises slowly until the fingertips are a hand's width from the painted mouth and there they stay, trembling slightly, his own lips parting wider and his clear eyes fixed on the single hard line at the corner of the painted mouth; in the last two seconds the hand holds where it is and his face does not turn; the hand gripping the marble mantel keeps its grip; his feet do not shift; the painted young man inside the gilt frame keeps his exact pose and the faint hard line at his painted mouth stays exactly as it is, the paint surface staying flat and the frame hanging straight; the dark blue curtains, the leather armchair and the panelling hold completely still; the cold grey dawn light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "henry",
+    "dorian",
+    "morning_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이튿날 찾아온 헨리 경이 도리언에게 시빌의 죽음을 전한다",
+   "visual": "bright grey morning light through the tall windows with the blinds half up in the morning room with the dull yellow walls: the tall languid man of thirty-five, in the well-cut ash grey frock coat, is the one standing at frame left with one gloved hand resting on the back of an empty chair and the other held a little out from his side with the fingers open, his long pale face bent toward the young man and his heavy-lidded eyes steady; the slender young man of twenty with the thick fair golden-brown curls and the smooth pale face, in the dark blue frock coat, is the one sitting at frame right at the round breakfast table under its white cloth, turned in his chair toward the visitor with both hands flat on the cloth on either side of an untouched cup, his clear blue eyes wide and his full lips parted; there are exactly two men in the room and nobody else at the table",
+   "motion": "the standing man's open hand and the sitting man's face are the two things that move, and the room holds still: at the start the standing man's open hand is held a little out from his side and the sitting man's face is turned up to him with his lips parted; over the first three seconds the open hand turns slowly palm up and lowers a little as a man does who is finishing a sentence, and the young man's face slowly loses its lift and his eyes lower slowly to the untouched cup, his hands staying flat on the cloth; in the last two seconds the standing man's hand holds palm up and the young man's eyes stay on the cup; the gloved hand on the chair back keeps its place and the standing man's feet do not shift; the silver coffee pot and the cup keep their places on the white cloth; the half-raised blinds, the dull yellow walls and the flat grey sky beyond the windows hold completely still; the light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "dorian",
+    "portrait_young",
+    "attic"
+   ],
+   "refs": [],
+   "beat": "도리언이 초상에 장막을 씌워 다락에 올리고 문을 잠근다",
+   "visual": "thin grey daylight from the one small square window of the long bare attic room with the sloping ceiling and the dark brown beams: the picture inside its wide carved gilt frame is the one thing standing upright on the dusty floorboards at frame centre against the wall, and the large heavy cloth of dark green brocade with its dull gold pattern is drawn down over it from the top so that it covers the painted face and the upper half of the frame; the slender young man of twenty with the thick fair golden-brown curls, in the dark blue frock coat, is the one standing at frame right beside the picture with both hands raised holding the lower edge of the cloth, drawing it down, his smooth pale face turned away from the picture toward the door with his lips set; the plain wooden door with its iron lock is closed at the far right with an iron key standing in the lock; there is exactly one man in the room",
+   "motion": "the young man's hands on the cloth are the one thing that moves, and the attic holds still: at the start both hands hold the lower edge of the dark green cloth at the level of the painted chest; over the first three seconds the hands draw the cloth slowly down a hand's width and then another, the brocade sliding over the painted coat until only the bottom edge of the gilt frame shows beneath it, his face staying turned away toward the door and his lips set; in the last two seconds his hands hold the cloth at its lowest and press it flat against the frame; his feet on the dusty boards do not shift; the picture under the cloth stays upright and does not tilt; the grey dust sheets over the desk and the chairs keep their folds; the closed door with the iron key standing in its lock, the small square window and the dark brown beams hold completely still; the thin grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "dorian_evening",
+    "club_steps",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "열여덟 해가 흘러도 도리언은 그대로이고 소문만 나빠진다",
+   "visual": "the dull yellow light of the two gas lamps in their iron brackets either side of the tall door of the club on the foggy street at night: the slender young man of twenty, in the black evening tailcoat with the white waistcoat and white tie, is the one standing still at the top of the stone steps at frame centre under the pillared porch with one bare hand resting on the iron railing and the other hanging at his side, his face turned a little to the left with his full lips in a faint smile; two stout elderly gentlemen in black overcoats and top hats with grey side whiskers are the ones at the bottom of the steps at frame left, seen from behind, both turned away from him toward the street with their backs squared; the wet pavement gives back the dull yellow lamplight in long smears; the young man's face is the only face in the picture and it is smooth and young",
+   "motion": "the young man at the top of the steps is the one who moves, and the two backs at the bottom hold still: at the start his face is turned a little to the left with the faint smile and his hand rests on the railing; over the first three seconds his face turns slowly to look down at the two squared backs below him, the faint smile widening a little and his fair curls shifting with the turn, the hand on the railing sliding a short way along it; in the last two seconds his face holds turned down toward them and the smile stays; his feet on the top step do not shift; the two elderly gentlemen keep their backs to him and do not turn, their top hats and the tails of their overcoats holding still; the two gas lamps keep their steady dull yellow light without flicker; the fog beyond the porch does not drift and the smears of light on the wet pavement keep their places; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "basil_visitor",
+    "dorian_evening",
+    "library"
+   ],
+   "refs": [],
+   "beat": "어느 밤 배질이 찾아와 도리언에게 소문을 묻는다",
+   "visual": "the dull yellow light of a shaded lamp on the small round table in the panelled library at night: the sturdy man of thirty-eight, in the long dark brown overcoat buttoned high, is the one standing at frame left with both his hands clasped hard in front of him and his strong rugged face bent toward the young man, his brows drawn down and his lips pressed together; the slender young man of twenty, in the black evening tailcoat with the white waistcoat, is the one sitting easily in the deep leather armchair at frame right with one leg crossed over the other and both hands resting on the chair's arms, his face lifted to the visitor with the faint smile on his full lips; the tall windows behind them are black with the dark blue curtains drawn back; above it the dark green wall is bare, and the picture hook is empty; there are exactly two men in the room",
+   "motion": "the visitor's clasped hands are the one thing that moves, and the young man in the armchair holds still: at the start both his hands are clasped hard in front of him and his bearded face is bent toward the armchair; over the first three seconds the clasped hands come apart and one rises slowly, open, to the height of his chest with the palm toward the young man, his head lifting a little and his lips moving as he speaks, the other hand staying at his side; in the last two seconds the open hand holds at chest height and his brows stay drawn down; his feet do not shift; the young man in the armchair keeps his leg crossed and his hands on the chair's arms, his lifted face and faint smile not changing; the shaded lamp keeps its steady dull yellow light; the cold marble fireplace, the bare dark green wall above it with its empty hook, the black windows and the drawn-back curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "dorian_evening",
+    "basil_visitor",
+    "portrait_old"
+   ],
+   "refs": [],
+   "beat": "도리언이 다락의 장막을 걷어 늙고 추악해진 초상을 배질에게 보여 준다",
+   "visual": "the dull yellow light of a small brass hand lamp in the long bare attic room at night: the picture inside its wide carved gilt frame is the one thing standing upright against the wall at frame centre with the dark green cloth lying in a heap on the dusty boards at its foot, and on the canvas the painted figure in the dark blue frock coat stands against his flat dark green ground with a face old and hideous; the slender young man of twenty, in the black evening tailcoat, is the one standing at frame left holding the brass lamp up high in one hand so that its light lies full on the painted face, his own face turned toward the visitor with a faint smile; the sturdy man of thirty-eight, in the long dark brown overcoat, is the one at frame right with one step taken back, one hand pressed flat over his mouth and his eyes wide on the painted face; there are exactly two living men in the room and one painted figure",
+   "motion": "the visitor's hand over his mouth and the lamp flame are the two things that move, and the picture holds still: at the start the visitor's hand is pressed flat over his mouth with his eyes wide on the painted face and the lamp is held up high; over the first three seconds the hand slides slowly down from his mouth to his beard and his jaw hangs open, his wide eyes never leaving the painted face, his shoulders drawing back a little; in the last two seconds the hand holds at his beard and his mouth stays open; the young man keeps the lamp held up high and his faint smile turned toward the visitor, his feet not shifting; the lamp flame stays a steady dull yellow with only the slightest sway; the painted old hideous face inside the gilt frame keeps its exact loose cruel expression and the paint surface stays flat; the heap of dark green cloth at the foot of the frame, the dust sheets over the desk and chairs and the dark brown beams hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "basil_visitor",
+    "dorian_evening",
+    "portrait_old"
+   ],
+   "refs": [],
+   "beat": "배질이 기도하라고 외치고, 도리언이 등불을 놓고 그 앞에 선다",
+   "visual": "the dull yellow light of the small brass hand lamp now set down on the old school desk at frame left in the long bare attic room at night: the sturdy man of thirty-eight, in the long dark brown overcoat, is the one on his knees on the dusty floorboards at frame centre with both his hands clasped together and lifted toward the young man, his bearded face turned up with his mouth open wide in a cry and his eyes wet; the slender young man of twenty, in the black evening tailcoat, is the one standing over him at frame right with his back half to the camera, his face turned down to the kneeling man and hidden in the shadow of his shoulder, both his bare hands hanging empty at his sides; the picture inside its wide carved gilt frame stands upright against the wall behind them at frame centre with the old painted face looking down over both men; there are exactly two living men in the room and one painted figure",
+   "motion": "the kneeling man's clasped hands are the one thing that moves, and the young man standing over him holds still: at the start both the clasped hands are lifted toward the young man at the height of his chest with the bearded face turned up and the mouth open in a cry; over the first three seconds the clasped hands rise slowly higher until they are level with his own face and shake there, the mouth staying open and the wet eyes fixed up on the young man, his knees not shifting on the dusty boards; in the last two seconds the hands hold high and shaking; the young man standing over him keeps his back half to the camera and his face turned down and hidden in shadow, both his empty hands hanging still at his sides and his feet not moving; the brass lamp on the desk keeps its steady dull yellow flame with only the slightest sway; the old hideous painted face inside the gilt frame keeps its exact expression above them and the paint stays flat; the heap of dark green cloth and the dust sheets hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "attic",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "잠긴 다락 문 아래로 등불 빛이 한 줄 새어 나온다",
+   "visual": "deep night at the top of the narrow back stair of the house, seen from the top step: the plain wooden door of the attic with its iron lock is the one thing filling the middle of the frame, closed, its dark brown boards plain and bare, the iron key gone from the lock and the keyhole a small black shape; along the bottom edge of the door a thin even line of dull yellow lamplight shows from the room within and lies out across the top step of the bare wooden stair in a narrow band; the rest of the landing is ash grey with the dim light from one small window at frame left, its panes black with the fog outside; the sloping ceiling with its dark brown beams comes down close over the door; the door stays closed and nothing is to be seen through it; the only bright thing in the picture is the thin line of dull yellow light under the door",
+   "motion": "the thin line of lamplight under the door is the one thing that moves, and the landing holds still: at the start the even line of dull yellow light lies along the bottom edge of the closed door and out across the top step; over the first three seconds the line brightens very slightly and dims again, the band of light on the step widening a finger's width and drawing back, as the flame within sways once and steadies; in the last two seconds the line holds even and steady; the closed door does not move on its hinges and its iron lock with the small black keyhole keeps its exact shape; the dim ash grey light from the small black window at the left stays even and the fog beyond its panes does not drift; the dark brown beams of the sloping ceiling and the bare wooden stair dropping away below hold completely still; no figure appears on the landing and no shadow crosses the line of light; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "캔버스가 죄를 대신 늙어 왔다는 것과 칼을 든 마지막 대목",
- "voice": "ko-KR-GookMinNeural"
+ ]
 }

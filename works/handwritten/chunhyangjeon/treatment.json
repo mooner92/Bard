@@ -1,98 +1,210 @@
 {
-  "logline": "그네 뛰던 처녀와 사또의 아들이 백년가약을 맺지만, 새로 온 사또가 그 약속을 짓밟으려 한다.",
-  "destination": "남원 관아의 옥 — 약속을 지킬 수 있는지 시험받는 자리",
-  "protagonist": "댕기머리에 다홍치마를 입은 열여섯 처녀",
-  "setting": "조선 후기 남원, 광한루와 관아",
-  "anchor": "a sixteen-year-old Korean girl with a long braided daenggi, crimson chima and green jeogori",
-  "palette": "spring green and crimson, hanji cream, lantern amber, cold stone grey",
-  "voice": "ko-KR-JiMinNeural",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "처녀가 버드나무 아래 그네를 힘껏 굴린다.",
-      "visual": "a girl in crimson skirt on a swing under willow branches, pavilion roof beyond a stream",
-      "motion": "the swing arcs upward toward the willows, her skirt billows, blossoms shake loose",
-      "cast": [
-        "joseon_cheonyeo",
-        "joseon_gwanghallu"
-      ]
-    },
-    {
-      "n": 2,
-      "beat": "누각의 젊은 도령이 그 모습을 바라본다.",
-      "visual": "a young nobleman in a blue durumagi at a pavilion rail watching across a stream",
-      "motion": "he leans forward on the rail toward the stream, his sleeve catches the wind, willows sway",
-      "cast": [
-        "joseon_doryeong",
-        "joseon_gwanghallu"
-      ]
-    },
-    {
-      "n": 3,
-      "beat": "두 사람이 촛불 앞에서 잔을 나눈다.",
-      "visual": "a young couple facing each other over a low table with two cups, one candle between them",
-      "motion": "the cups rise toward each other, the candle flame leans, shadows swing on paper doors",
-      "cast": [
-        "joseon_doryeong",
-        "joseon_cheonyeo",
-        "joseon_hanok_room"
-      ]
-    },
-    {
-      "n": 4,
-      "beat": "도령이 말에 올라 고갯길로 떠난다.",
-      "visual": "a young nobleman mounted on a horse on a hill road, a girl standing small at the roadside",
-      "motion": "the horse carries him away up the hill road, dust trails back, her hand lifts",
-      "cast": [
-        "joseon_doryeong",
-        "joseon_cheonyeo"
-      ]
-    },
-    {
-      "n": 5,
-      "beat": "새 사또가 마루에 앉아 처녀를 내려다본다.",
-      "visual": "a heavyset official seated on a magistrate's platform looking down at a kneeling girl",
-      "motion": "he leans down toward her from the platform, a fan snaps open, banners flap",
-      "cast": [
-        "joseon_sato",
-        "joseon_cheonyeo",
-        "joseon_gwana"
-      ]
-    },
-    {
-      "n": 6,
-      "beat": "처녀가 옥 안에서 고개를 꼿꼿이 든다.",
-      "visual": "a girl seated behind thick wooden prison bars, straw on the floor, chin lifted",
-      "motion": "her chin lifts toward the bars, torchlight crosses her face, straw stirs",
-      "cast": [
-        "joseon_cheonyeo",
-        "joseon_ok"
-      ]
-    },
-    {
-      "n": 7,
-      "beat": "누더기 차림의 사내가 잔칫상 앞에 나선다.",
-      "visual": "a man in beggar's rags stepping before a lavish official banquet under lanterns",
-      "motion": "he steps forward into the banquet, guests turn toward him, lanterns swing overhead",
-      "cast": [
-        "beggar_man",
-        "joseon_gwana"
-      ]
-    },
-    {
-      "n": 8,
-      "beat": "빈 잔칫상에 엎어진 술잔만 남는다.",
-      "anchor": false,
-      "visual": "an abandoned banquet table with an overturned cup and scattered dishes, lanterns guttering",
-      "motion": "a lantern swings over the table, the cup rocks and settles, petals drift down"
-    }
-  ],
-  "withheld": "누더기 사내가 암행어사가 된 이몽룡이라는 것과 사또가 맞는 최후",
-  "personas": {
-    "beggar_man": {
-      "label": "누더기 차림의 사내",
-      "desc": "a Korean man in his twenties, torn hemp rags, battered straw hat, unkempt topknot, bare dusty feet",
-      "avoid": "암행어사 신분을 드러내는 마패·관복은 아직 보이지 않는다"
-    }
+ "logline": "단오날 광한루 그네 위의 춘향에게 반한 사또의 아들 몽룡이 촛불 앞에서 백년가약을 맺고 한양으로 떠난 뒤, 새 사또 변학도의 수청을 거절한 춘향은 매를 맞고 옥에 갇히는데, 과거에 급제한 몽룡은 누더기 차림으로 남원에 돌아와 옥의 춘향을 만나고 사또의 생일잔치에 들어선다",
+ "destination": "소설 춘향전에서 만날 수 있습니다",
+ "protagonist": "chunhyang",
+ "setting": "조선 후기 남원, 광한루와 버드나무 연못, 춘향의 집, 오리정 고갯길, 동헌 마당과 옥, 한양 궁궐 문",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/chunhyangjeon/assets",
+ "anchor": "a Korean girl of sixteen with black hair in a long single braid tied with a dull red ribbon, a pale green silk jeogori and a long crimson silk skirt, a pale oval face with dark eyes",
+ "palette": "spring green, crimson, off-white, dark brown, ash grey",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "chunhyang",
+    "swing",
+    "willow_pond",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "단오날 광한루 버드나무 아래에서 그네를 구르는 춘향",
+   "visual": "a clear spring day beside the still pond: the Korean girl of sixteen with the long single braid tied with the dull red ribbon, the pale green silk jeogori and the long crimson silk skirt is the one standing on the plain wooden seat of the swing at frame centre, both hands gripping the two thick hemp ropes above her head, the swing swung forward and up so that her crimson skirt streams back behind her and her braid flies out, her pale oval face lifted toward the sky with the small mouth open; the long green trailing branches of the great willow hang around her on both sides, the still pond and its stone bridge below and behind, the grassy bank at the bottom of the frame, ash grey stones at the water's edge, pale blossom on a far tree; the bank is bare of any other person",
+   "motion": "the Korean girl of sixteen in the pale green jeogori and the crimson skirt on the swing is the only one who moves, and the swing with her: at the start the swing hangs forward and up at the top of its arc with her skirt streaming back; over the first three seconds the swing sweeps slowly back and down through the bottom of its arc and up again behind, her crimson skirt and her braid streaming the other way, her knees bending and straightening to drive it, her hands keeping their grip on the ropes; in the last two seconds the swing rises to the top of the back arc and pauses there; the long willow branches sway gently in the air she passes through; the still pond, the stone bridge, the grassy bank, the ash grey stones and the far blossom hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "mongryong",
+    "bangja",
+    "pavilion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "누각에 있던 사또의 아들 몽룡이 그 모습에 넋을 잃는다",
+   "visual": "a clear spring day on the upper floor of the two-storey pavilion with the red-painted pillars: the Korean young man of sixteen with the topknot under the black gat hat and the pale blue silk dopo is the one leaning far out over the wooden railing at frame centre-left, both hands gripping the rail, his body tilted toward the left of the frame, his smooth beardless face turned to the far left with his lips parted and his bright dark eyes wide; the Korean youth of eighteen in the short grey jacket with the strip of dark cloth around his head is the one standing a step behind him at frame right with a folded paper fan held at his chest, his broad grinning face turned toward the young man; only the young man wears a gat hat and silk, only the youth has a headband, two separate people; the red pillars and the tiled eaves frame them, the still pond and its stone bridge far below at the left, the great willow's green branches at the far left edge, the ash grey tiles of the roof above",
+   "motion": "the Korean young man of sixteen in the pale blue dopo leaning over the railing is the one who moves, and the youth behind him only grins: at the start both his hands grip the rail and his body is tilted toward the left with his face turned to the far left; over the first two seconds he leans slowly further out over the rail so that the brim of his gat hat tilts and his right hand lifts from the rail to point out toward the far left, his lips parting wider; in the last two seconds he holds leaning with his arm pointing; his feet stay planted on the boards; the youth in the grey jacket keeps the folded fan at his chest and his grin, his feet not shifting, his head not turning; the red pillars, the tiled eaves, the pond, the stone bridge and the willow branches hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "bangja",
+    "chunhyang",
+    "swing",
+    "willow_pond",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "방자를 시켜 그네 아래 춘향에게 말을 전한 몽룡",
+   "visual": "a clear spring day under the great willow: the Korean girl of sixteen with the long single braid, the pale green silk jeogori and the long crimson silk skirt is the one standing on the grassy bank at frame left beside the hanging swing with one hand resting on one of its hemp ropes, her pale oval face turned to the youth with her chin lifted and her small mouth pressed closed; the Korean youth of eighteen in the short grey jacket with the strip of dark cloth around his head is the one standing on the bank at frame right facing her, bent forward at the waist with both hands pressed together in front of his chest and his broad grinning face turned up to her; only the girl has a braid and a crimson skirt, only the youth has a headband, two separate people a pace apart; the long green willow branches trailing around them, the still pond and the stone bridge behind, the pale blossom on the far tree",
+   "motion": "the Korean youth of eighteen in the grey jacket with the headband is the one who moves, and the girl beside the swing holds still: at the start he is bent forward at the waist with his hands pressed together and his grinning face turned up to her; over the first two seconds he bends slowly lower until his head is below his shoulders, his pressed hands lifting a little higher toward her, the headband slipping a little forward; in the last two seconds he holds bent low with his hands raised; his straw sandals stay planted on the grass; the girl in the pale green jeogori keeps her hand on the hemp rope and her chin lifted, her mouth pressed closed, her feet not shifting; the hanging swing sways very slightly on its ropes; the willow branches stir gently; the pond, the stone bridge and the far blossom hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "chunhyang",
+    "mongryong",
+    "candle",
+    "chunhyang_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그날 밤 춘향과 몽룡이 촛불 앞에서 백년가약을 맺는다",
+   "visual": "night inside the Korean room: the Korean girl of sixteen with the long single braid, the pale green silk jeogori and the long crimson silk skirt is the one kneeling on the woven straw mat at frame left with her hands folded in her lap and her pale oval face lowered toward the low black lacquered table; the Korean young man of sixteen in the pale blue silk dopo with the black gat hat set on the mat beside him and his black hair in a bare topknot is the one kneeling on the mat at frame right facing her across the table, a small brass cup held out in his right hand toward her; the single white candle in its brass holder stands on the table between them with its small steady flame lighting both faces from below; only the girl has a braid and a crimson skirt, only the young man has a topknot, two separate people with the table between them; the painted folding screen of plum branches behind them, the folded silk quilt in the corner, the paper-paned door dark",
+   "motion": "the Korean young man of sixteen in the pale blue dopo kneeling at frame right is the one who moves, and the girl across the table only lifts her eyes: at the start the small brass cup is held out in his right hand toward her above the table; over the first two seconds he lowers the cup slowly to the table top in front of her folded hands and draws his hand back a little, his face bent toward her; in the last two seconds the cup rests on the table and his hand holds beside it; the girl in the pale green jeogori lifts her dark eyes slowly from the table to his face, her folded hands not moving, her body not shifting; the small flame of the white candle wavers faintly; the lacquered table, the folding screen, the silk quilt and the paper door hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "mongryong",
+    "horse",
+    "chunhyang",
+    "orijeong",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "한양으로 떠나는 몽룡과 춘향이 오리정에서 헤어진다",
+   "visual": "dusk on the dirt road at the foot of the pass beside the small roadside pavilion: the Korean young man of sixteen with the topknot under the black gat hat and the pale blue silk dopo is the one sitting astride the brown horse with the black mane at frame right, his body turned in the saddle to look back down at the girl, one hand on the reins; the Korean girl of sixteen with the long single braid, the pale green silk jeogori and the long crimson silk skirt is the one standing on the road at frame left beside the horse's shoulder, both hands clutching the hem of his blue dopo, her pale oval face turned up to him with the small mouth open; only the young man is mounted and wears a hat, only the girl has a braid and a crimson skirt; the tiled roof of the roadside pavilion at the far left, the low stone marker, the dirt road winding up between the spring hills behind, the dusk sky of dull violet grey with a faint dull yellow band at the horizon",
+   "motion": "the Korean girl of sixteen in the pale green jeogori standing beside the horse is the one who moves, and the mounted young man and the horse hold still: at the start both her hands clutch the hem of his blue dopo and her face is turned up to him with her mouth open; over the first two seconds her hands slide slowly down the hem and let it go, her arms sinking to her sides and her head bowing slowly until her braid slides forward over her shoulder; in the last two seconds she holds with her head bowed and her arms at her sides; her feet stay planted on the road; the young man on the horse keeps his body turned in the saddle and his face turned down to her, his hand on the reins not moving; the brown horse stands with its four legs planted, only its black tail swaying once; the pavilion, the stone marker, the winding road, the hills and the dusk sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "byeon",
+    "chunhyang",
+    "dongheon",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "새로 온 사또 변학도가 기생 점고에서 춘향을 불러 세운다",
+   "visual": "soft daylight in the yard of the government office: the stout Korean man of fifty with the short black beard, the black gat hat and the deep blue official robe with the square chest panel is the one seated on a red cushion at the open front of the raised wooden hall at frame right, his right arm stretched out with the forefinger pointing down at the girl, his heavy jowled face thrust forward; the Korean girl of sixteen with the long single braid, the pale green silk jeogori and the long crimson silk skirt is the one standing alone on the packed pale earth of the yard at frame centre-left, her hands folded in front of her skirt, her pale oval face lowered; the row of five Korean women in bright silk jeogori and skirts of green, pink and yellow are the ones standing in a line along the low wall at the far left behind her, their hands folded, their faces lowered; only the man has a beard and sits, only the girl in the crimson skirt stands apart in the middle of the yard; the tiled roof and the open hall above the man, the stone step, the pale spring sky",
+   "motion": "the stout Korean man of fifty in the deep blue official robe seated at the hall front is the one who moves, and the women in the yard hold still: at the start his right arm is stretched out with the forefinger pointing down at the girl; over the first two seconds the pointing arm rises slowly and beckons with two slow curls of the forefinger toward himself, his jowled face thrusting further forward and his mouth opening; in the last two seconds the arm holds raised with the finger crooked and the mouth holds open; his body stays seated on the cushion; the girl of sixteen in the crimson skirt keeps her hands folded and her face lowered, her feet not shifting; the row of five women along the wall keep their hands folded and their faces down; the hall, the tiled roof, the stone step and the low wall hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "chunhyang",
+    "byeon",
+    "dongheon",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "수청을 들라는 사또에게 춘향이 두 지아비는 모른다고 말한다",
+   "visual": "soft daylight in the yard of the government office, close on the two: the Korean girl of sixteen with the long single braid, the pale green silk jeogori and the long crimson silk skirt is the one standing on the packed earth at frame left in the foreground, her back straight, her chin raised, her pale oval face turned up toward the man with the small mouth open in speech and her dark eyes steady; the stout Korean man of fifty with the short black beard, the black gat hat and the deep blue official robe is the one seated on the red cushion at the open front of the raised hall at frame right above her, both fists planted on his knees, his heavy jowled face reddening and his narrow eyes bulging at her; only the man has a beard and sits, only the girl has a braid; the tiled eaves of the hall above him, the stone step between them, the pale spring sky at the top of the frame",
+   "motion": "the Korean girl of sixteen in the pale green jeogori and the crimson skirt standing in the yard is the one who moves, and the seated man holds his fists on his knees: at the start her chin is raised and her mouth is open in speech; over the first two seconds she raises her chin slowly a little higher and her lips move with the words, her back staying straight, her folded hands tightening in front of her skirt; in the last two seconds her lips close and her chin holds high; her feet stay planted on the earth; the stout man on the cushion keeps both fists on his knees and his bulging narrow eyes on her, his body not rising; the tiled eaves, the stone step and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "chunhyang",
+    "guards",
+    "paddle",
+    "dongheon",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "노한 사또가 춘향을 형틀에 묶고 매를 치게 한다",
+   "visual": "soft daylight in the yard of the government office: the Korean girl of sixteen with the long single braid and the pale green silk jeogori is the one lying face down bound with rough rope to a low wooden bench at frame centre, her crimson skirt spread over the bench, her arms stretched forward and tied at the wrists, her pale oval face turned to the camera with the eyes shut and the small mouth pressed tight; the two Korean guards in black jackets with red sleeves and black felt hats are the ones standing on either side of the bench at frame left and right, the one at the right holding the long flat wooden paddle already raised high above his shoulder and held completely motionless, the one at the left holding the end of the rope; only the guards wear felt hats, only the girl has a braid and lies bound; the raised hall with its tiled roof and open front at the top of the frame, the packed pale earth of the yard, the pale spring sky",
+   "motion": "the Korean girl of sixteen bound face down on the bench is the only one who moves, and the guard's raised paddle stays where it is: at the start her eyes are closed and her mouth is pressed tight; over the first two seconds her bound hands clench slowly into fists and her shoulders draw up tight, her face pressing harder against the bench and her braid sliding off the edge; in the last two seconds the fists hold clenched and the shoulders hold tight; her legs and her spread crimson skirt stay still on the bench; the guard at the right keeps the long wooden paddle raised high above his shoulder and completely motionless for the whole shot, his feet planted; the guard at the left keeps hold of the rope, not moving; the raised hall, the packed earth and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "chunhyang_prison",
+    "cangue",
+    "prison"
+   ],
+   "refs": [],
+   "beat": "목에 칼을 쓴 채 옥에 갇혀서도 고개를 꼿꼿이 든 춘향",
+   "visual": "inside the dark prison cell: the Korean girl of sixteen with the black hair hanging loose and tangled, the torn off-white cotton jeogori and the long ash grey cotton skirt is the one sitting upright on the straw-covered earth floor at frame centre with her legs folded under her, the heavy square board of plain wood resting flat on her shoulders with her neck up through the round hole in its middle, her bare feet showing beneath the skirt, her pale thin face lifted straight toward the small barred window high in the ash grey stone wall at frame right with her chin raised and her dark eyes open and steady; the thick dark wooden bars along the left side of the frame, a thin shaft of pale light from the high window lying across the straw and her lifted face; the cell is bare of any other person",
+   "motion": "the Korean girl of sixteen with the tangled loose hair sitting in the cangue is the only one who moves, and only a little: at the start her chin is raised toward the high barred window and her eyes are steady; over the first two seconds she straightens her back slowly against the weight of the wooden board, her shoulders lifting under it and her chin rising a little higher, a loose strand of hair sliding from her cheek; in the last two seconds she holds straight with her chin high; her folded legs and her bare feet stay still on the straw; the thin shaft of pale light from the window stays steady across her face; the thick wooden bars, the ash grey stone walls and the straw floor hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "mongryong_official",
+    "palace_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "옥에 갇힌 춘향을 모른 채 한양의 몽룡이 과거에 급제한다",
+   "visual": "soft daylight on the wide stone flagstones before the tall palace gate: the Korean young man of eighteen in the deep blue silk official robe with the square embroidered chest panel and the black official hat with the paper flowers on tall stems rising from it is the one standing at frame centre facing the camera, a rolled sheet of pale paper tied with a red cord held in both hands in front of his chest, his smooth beardless face lifted with the lips closed and the bright dark eyes shining; the stone base of the gate with its arched passage rises behind him, the two-storey gatehouse painted dull red and green with its tiled roof above, the pale spring sky; the flagstones around him are bare of any other person",
+   "motion": "the Korean young man of eighteen in the deep blue official robe standing before the gate is the only one who moves: at the start the rolled paper is held in both hands in front of his chest and his face is lifted; over the first two seconds he raises the rolled paper slowly with both hands until it is held up level with his face, the paper flowers on his hat nodding on their stems, his chin lifting and his lips parting in a breath; in the last two seconds the rolled paper holds high and his face holds lifted; his boots stay planted on the flagstones; the paper flowers settle still; the stone arch, the painted gatehouse, the tiled roof and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "mongryong_rags",
+    "wolmae",
+    "house_gate",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "누더기 차림으로 남원에 돌아온 몽룡이 춘향 어머니 앞에 선다",
+   "visual": "dusk in the narrow lane at the tiled-roof gate of the house: the Korean young man of eighteen in the torn patched grey cotton jacket and trousers with the battered straw hat with the torn brim is the one standing on the stone step of the gate at frame right, his shoulders slumped, his smooth beardless face with the smudge of dust on one cheek turned to the woman with a faint smile; the Korean woman of fifty in the dark blue silk jeogori and the long grey silk skirt with her hair in the low bun is the one standing in the open gate door at frame left, both thick hands clutched to her chest, her plump lined face fallen open in dismay, her small dark eyes on his rags; only the young man wears a straw hat and rags, only the woman wears silk, two separate people; the low whitewashed wall on either side, the dusk sky of dull violet grey above the tiled gate roof",
+   "motion": "the Korean woman of fifty in the dark blue silk jeogori standing in the gate is the one who moves, and the young man in rags holds his faint smile: at the start both her thick hands are clutched to her chest and her face is fallen open; over the first two seconds her hands rise slowly from her chest to her temples and her head shakes slowly once from side to side, her mouth opening wider; in the last two seconds her hands hold at her temples and her head holds turned a little away; her feet stay planted in the gate; the young man in the patched grey jacket keeps his slumped shoulders and his faint smile, his feet on the stone step not shifting, the torn brim of his straw hat still; the gate door, the whitewashed wall and the dusk sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "chunhyang_prison",
+    "mongryong_rags",
+    "prison",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤 옥 창살 너머로 누더기의 몽룡을 알아본 춘향",
+   "visual": "night inside the dark prison cell, seen from inside: the Korean girl of sixteen with the black hair hanging loose and tangled, the torn off-white jeogori and the long ash grey skirt is the one kneeling on the straw at frame left close against the thick dark wooden bars, the heavy square board of plain wood resting flat on her shoulders with her neck up through the round hole in its middle, her thin hands gripping two of the bars, her pale thin face pressed toward the gap between them with the dark eyes wide and wet; the Korean young man of eighteen in the torn patched grey jacket with the battered straw hat is the one crouching on the far side of the bars at frame right, his smooth beardless face with the smudge of dust close to hers between the bars, one hand reaching through the bars toward her cheek; only the girl wears the wooden board, only the young man wears a straw hat, the bars between them; a small bare flame in a brass dish on the earth beyond the bars throwing dull yellow light on both faces, the ash grey stone walls",
+   "motion": "the Korean young man of eighteen in the patched grey jacket crouching beyond the bars is the one who moves, and the girl in the cangue only holds the bars: at the start his hand is reaching through the bars toward her cheek; over the first two seconds his hand moves slowly the last span and his fingertips rest against her pale cheek, his face leaning a little closer to the gap in the bars; in the last two seconds his fingertips hold against her cheek; his crouched legs stay still; the girl keeps her thin hands gripping the bars and her wet eyes on him, the wooden board on her shoulders not shifting, her body not rising; the small bare flame in the brass dish flickers faintly; the thick wooden bars, the straw and the ash grey stone walls hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "mongryong_rags",
+    "byeon",
+    "feast_hall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이튿날 사또의 생일잔치에 누더기 사내가 들어선다",
+   "visual": "soft daylight before the raised wooden hall set for the feast: the Korean young man of eighteen in the torn patched grey cotton jacket and trousers with the battered straw hat is the one standing alone on the packed earth of the yard at frame centre in the foreground, seen from behind and a little to the side so that the torn brim of his straw hat and his slumped shoulders show, his face turned toward the hall; up on the hall the stout Korean man of fifty with the short black beard, the black gat hat and the deep blue official robe is the one seated at the centre low table with a brass cup raised in his hand, his jowled face turned down toward the ragged man; the row of Korean men in black gat hats and white dopo overcoats are the ones seated on cushions at low tables on either side of him, their bearded faces turned toward the yard; only the ragged man wears a straw hat and stands in the yard, only the stout man raises a cup; the low tables crowded with dishes and brass cups, the red silk cushions, the paper lanterns hung from the eaves, the tiled roof above",
+   "motion": "the Korean young man of eighteen in the patched grey jacket standing in the yard is the only one who moves, and the men on the hall stay seated: at the start he stands with his shoulders slumped and his face toward the hall, seen from behind; over the first three seconds he takes two slow steps forward across the packed earth toward the hall, his straw sandals scuffing the ground, his slumped shoulders straightening a little, the torn brim of his straw hat lifting as his head rises; in the last two seconds he comes to a stop well inside the frame still short of the hall step; the stout man keeps the brass cup raised and his jowled face turned down, not rising; the seated men in white dopo keep their bearded faces toward the yard, not moving; the low tables, the dishes, the cushions, the paper lanterns and the tiled roof hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "mongryong_rags",
+    "feast_hall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "잔칫상 앞에 선 누더기 사내는 무엇을 하려는가 (질문)",
+   "visual": "soft daylight before the feast hall, close on the Korean young man of eighteen: his smooth beardless face with the smudge of dust on one cheek fills the upper middle of the frame at frame centre, the torn brim of the battered straw hat shading his brow, his head lowered a little with the bright dark eyes lifted toward the camera under the brim, his lips closed in a straight line, the torn collar of the patched grey jacket at the bottom of the frame; behind him, out of focus, the red silk cushions and the paper lanterns of the feast hall and the ash grey tiled roof; the face is plain and unmarked apart from the smudge; the yard behind him is bare of any other person",
+   "motion": "the Korean young man of eighteen whose face fills the frame is the only one who moves, and only his head: at the start his head is lowered a little with his eyes lifted under the brim of the straw hat; over the first two seconds he raises his head slowly until the torn brim lifts clear of his brow and his face is level and fully lit, his bright dark eyes staying on the camera, his closed lips parting slightly; in the last two seconds the head holds level and the eyes hold on the camera; the torn collar of the jacket stays where it is, his shoulders level and not turning; the cushions, the paper lanterns and the tiled roof out of focus behind him hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "swing",
+    "willow_pond",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "광한루 버드나무 아래 멈춘 그네 (마무리)",
+   "visual": "a clear spring day beside the still pond: the swing of two thick hemp ropes hangs straight down from the high bough of the great willow at frame centre with its plain wooden seat hanging still a little above the grass, the long green trailing willow branches hanging around it on both sides, the still pond and its stone bridge behind, the grassy bank at the bottom of the frame with ash grey stones at the water's edge, pale blossom on the far tree, the pale spring sky above the willow; the seat of the swing and the bank are bare of any person",
+   "motion": "the hanging swing is the only thing that moves, and only a little: at the start its plain wooden seat hangs still a little above the grass on its two thick hemp ropes; over the first three seconds a faint breeze sets the seat swaying slowly a hand's width forward and back, the two ropes tilting together with it, the long green willow branches around it drifting gently in the same breeze; in the last two seconds the sway eases and the seat settles nearly still, the ropes hanging straight again; the surface of the still pond stays smooth, the stone bridge holds still, the grassy bank and the ash grey stones at the water's edge hold still, the pale blossom on the far tree does not stir, the pale spring sky stays unchanged; no person enters the bank; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
+ ],
+ "withheld": "암행어사 출두와 변학도의 최후"
 }

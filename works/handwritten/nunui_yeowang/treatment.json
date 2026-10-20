@@ -1,0 +1,181 @@
+{
+ "logline": "거울 조각이 박힌 카이를 눈의 여왕이 데려가고, 게르다가 세상 끝까지 찾아간다",
+ "destination": "동화 눈의 여왕에서 만날 수 있습니다",
+ "protagonist": "gerda",
+ "setting": "안데르센의 북유럽 — 다락방 지붕 정원, 겨울 광장, 봄의 강, 마법 정원, 라플란드, 얼음 궁전",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/nunui_yeowang/assets",
+ "anchor": "a girl of about ten with golden braids in a plain blue dress and white apron",
+ "palette": "white, pale green, soft pink, midnight blue, warm gold",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [],
+   "refs": [],
+   "beat": "악마의 거울이 깨져 조각이 흩어진다",
+   "visual": "high above a dark winter town at night: a huge grinning mirror splits apart in the sky and its hundred million glittering splinters spread outward and rain down over the snowy gabled roofs and streets, tiny sharp motes of glass catching the starlight; below, one small garret window glows warm among the white roofs",
+   "motion": "the great mirror splits and its splinters spread outward in a slow glittering spray that drifts down over the roofs, motes of glass catching starlight, the one small window glowing below; the camera drifts down with the falling splinters toward the roofs"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "kay",
+    "gerda",
+    "rooftop_garden"
+   ],
+   "refs": [],
+   "beat": "지붕 위 장미 사이의 카이와 게르다",
+   "visual": "the rooftop garden in summer: the boy and the girl sit on two little stools between the rose boxes with a picture book open across their knees, the rose bushes arching over them in full bloom, pea tendrils trailing down from the boxes; the two garret windows stand open on either side, and the town roofs and chimney pots stretch away beyond in warm light",
+   "motion": "the roses nod over the two children as a breeze crosses the roofs, the girl's braids swinging while she turns a page of the picture book and the boy leans in; swallows cross the warm sky, and the camera holds on the two small heads under the arch of roses"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "kay",
+    "snow_queen"
+   ],
+   "refs": [],
+   "beat": "창밖의 눈송이가 여인이 되어 손짓한다",
+   "visual": "a winter night seen from outside the garret window, high over the white roofs: the Snow Queen stands on the snowy window ledge in the foreground, tall in her cloak and cap of snow, her white gauze gown glittering with frost, her pale beautiful face turned to the frosted glass and one hand raised beckoning at it; behind the pane, through a small round peep-hole melted in the frost, the boy's one wide eye and a slice of his small face show from inside the dim room; snowflakes whirl around the Queen, the chimney pots and roofs white far below her",
+   "motion": "the Snow Queen's raised hand beckons slowly at the glass and her fixed shining eyes hold on the small eye at the peep-hole, frost crystals spreading across the pane around it; the boy's eye draws back from the hole into the dark, snowflakes whirling thicker around the Queen on the ledge, and the camera holds on the beckoning hand at the window"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "kay",
+    "gerda",
+    "rooftop_garden"
+   ],
+   "refs": [],
+   "beat": "거울 조각이 박힌 카이가 장미를 뽑는다",
+   "visual": "the rooftop garden under a grey sky: the boy stands with one rose bush torn up by the roots in his fist, soil spraying from the roots, his face twisted in a sneer, one boot kicking the wooden box; the girl stands before him with tears on her round cheeks and her hands pressed to her mouth, the remaining roses trembling in their box",
+   "motion": "the boy shakes the uprooted rose bush so that soil sprays from the roots and swings his boot against the box again, his sneer deepening; the girl's shoulders shake and her hands press harder to her mouth, the roses trembling, and the camera holds on the torn rose between the two children"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "kay",
+    "town_square"
+   ],
+   "refs": [],
+   "beat": "광장에서 하얀 썰매에 제 썰매를 매단다",
+   "visual": "the snowy market square: boys drag small sledges among the carts, and a large sledge painted all white sweeps through with a driver wrapped in a rough white fur mantle and a white fur cap; the boy runs beside it and knots the rope of his own small sledge to its back, snow flying from the runners, the tall gabled houses white on every side",
+   "motion": "the white sledge sweeps round the square with snow spraying from its runners while the boy runs and knots his rope to its back and leaps onto his small sledge; the driver's white-capped head turns and nods to him, the other boys shrinking back, and the camera follows the two sledges out of the square"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "snow_queen",
+    "kay"
+   ],
+   "refs": [],
+   "beat": "눈의 여왕의 입맞춤 — 카이는 모든 것을 잊는다",
+   "visual": "the great white sledge racing through a snowstorm beyond the town gates: the Snow Queen sits tall on the seat with the boy wrapped beside her in her white bearskin, her pale face bent down to press a kiss on his forehead, frost glittering on her gown and cap; huge snowflakes fly past on both sides, the boy's eyes close, and his small sledge trails behind on its rope",
+   "motion": "the Snow Queen's lips press the boy's forehead and his eyes close slowly, his shoulders sinking into the white fur; the sledge races on through the whirling flakes, the small sledge bouncing behind on its rope, and the camera closes on the pale face and the sleeping boy"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "gerda",
+    "river"
+   ],
+   "refs": [],
+   "beat": "빨간 신발을 강에 던지고 배에 실려 간다",
+   "visual": "spring on the wide blue river, seen from the rushes on the bank: in the foreground two small red shoes bob on the water among the reeds, drifting apart on the ripples — and out on the river the small rowing boat drifts away with the current, the girl standing barefoot at its far end with her braids bright in the sun and both hands reaching back toward the shoes; green banks with willows line the river, and sparrows fly along the bank",
+   "motion": "the two red shoes rock and drift apart on the ripples in the foreground while the boat glides further out on the current, the girl at its end reaching back toward them with her braids swinging; willows sway on the banks, sparrows flying alongside the boat, and the camera holds low on the floating shoes as the boat dwindles"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "gerda",
+    "old_woman",
+    "flower_garden"
+   ],
+   "refs": [],
+   "beat": "할멈의 정원에서 장미를 보고 카이를 떠올린다",
+   "visual": "the enchanted garden in full sun: the girl kneels on the warm earth before a rose bush sprung fresh and blooming from the ground, her hands cupping a pink rose and tears shining on her cheeks; behind her the old woman in her broad flower-painted hat stands at the cottage door leaning on her crooked stick, every flower of every season blooming around them, the cherry tree heavy with fruit",
+   "motion": "the rose bush's new blooms open wider as the girl bends her wet face to them, her braids falling forward; the old woman on the step leans on her stick with a slow shake of her head, bees drifting through the crowded flowers, and the camera holds on the girl's face among the roses"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "gerda",
+    "raven"
+   ],
+   "refs": [],
+   "beat": "까마귀가 안내한 궁전 — 왕자는 카이가 아니다",
+   "visual": "the palace bedchamber at night: the girl in her plain blue dress holds a small lamp toward two lily-shaped beds hanging from a golden stem under a ceiling of glass palm leaves — from the red lily bed a young prince with long brown hair sits up blinking, and from the white lily bed a princess peeps out; the large black raven stands on the floor at the girl's feet, and the lamplight shows her face turning from hope to tears",
+   "motion": "the lamp trembles in the girl's hand as the prince sits up and turns his face to her, her hopeful smile fading and her eyes filling; the princess peeps further out of the white lily, the raven tilting its head at her feet, and the camera holds on the girl's face in the lamplight"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "robber_girl",
+    "gerda",
+    "reindeer"
+   ],
+   "refs": [],
+   "beat": "도적 소녀가 게르다를 순록에 태워 보낸다",
+   "visual": "the smoky stone hall of the robbers' castle: on the left the robber girl stands on the floor at the reindeer's head in her red cap and fur jacket, her long knife sawing through the tether rope tied to the copper ring; on the right the girl with golden braids sits bound on the reindeer's back on a small cushion, big lined gloves reaching to her elbows, two loaves and a ham tied behind her; a great fire burns on the stone floor at the frame's edge, pigeons roost on laths high above, and two bulldogs sit by the open door",
+   "motion": "the robber girl's knife saws through the rope at the reindeer's head and the reindeer stamps and tosses its antlers, the braided girl on its back clutching the copper ring with her big gloves; the fire flares at the frame's edge, pigeons stirring above, and the camera holds on the knife and the parting rope"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "gerda",
+    "reindeer",
+    "lapland"
+   ],
+   "refs": [],
+   "beat": "순록이 오로라 아래 라플란드를 달린다",
+   "visual": "the Lapland snow plain at night: the reindeer runs at full stretch over the white with the girl bound on its back, her braids streaming, the northern lights rippling green and violet across the whole sky above them; the low turf hut with its lit window sits far off on the plain, and the snow glitters under the lights",
+   "motion": "the reindeer's legs stretch and gather over the snow while the girl leans low on its neck with her braids streaming; the northern lights ripple and fold across the sky above, the far hut's window a small warm point, and the camera runs alongside the reindeer"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "gerda"
+   ],
+   "refs": [],
+   "beat": "맨발로 눈보라 병정들 사이를 뚫고 간다",
+   "visual": "the icy plain before the palace under the northern lights: the girl walks barefoot through deep snow with her gloves gone and her breath streaming white — around her a regiment of living snowflakes stand huge and bristling, some shaped as white porcupines, some as knotted white snakes, some as fat white bears with their hair on end; from her streaming breath small bright angels with helmets, lances and shields take shape and thrust at the snowflakes, which fly apart in glittering pieces",
+   "motion": "the small angels thrust their lances into the bristling snowflakes, which split into glittering pieces, while the girl walks on barefoot with her breath streaming into more angels; the northern lights burn overhead, and the camera tracks with her through the drifting glitter"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "kay_frozen",
+    "ice_palace"
+   ],
+   "refs": [],
+   "beat": "얼음 궁전 — 언 카이가 얼음 조각으로 '영원'을 맞춘다",
+   "visual": "the vast hall of the Snow Queen's palace lit by the northern lights: the boy sits alone at the center of the frozen lake, pale and blue-lipped, his fair hair stiff with frost and his blue coat white with rime, dragging flat pointed pieces of ice into figures on the ice before him; the cracked lake spreads around him in a thousand matching pieces, the walls of driving snow rise into darkness on every side, and the empty hall stretches away miles long",
+   "motion": "the boy's stiff hands slide the flat ice pieces into a new figure and pull them apart again, his breath showing faint, frost glittering on his hair; the northern lights roll slowly over the vast empty hall, and the camera pulls back from the small hunched boy on the enormous cracked lake"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "gerda",
+    "kay_frozen",
+    "ice_palace"
+   ],
+   "refs": [],
+   "beat": "게르다의 눈물이 언 카이의 가슴에 떨어진다",
+   "visual": "the frozen lake at the palace's heart: the girl kneels with her arms wrapped around the frozen boy, her face pressed to his rimed shoulder and hot tears running down onto his chest, her bare feet on the ice; the boy sits stiff and pale in her arms with his blue lips and frost-white hair, the flat ice pieces scattered before him, the northern lights rolling over the cracked lake around them",
+   "motion": "the girl's tears run one after another down onto the boy's rimed chest while her arms hold him tighter and her shoulders shake; the boy's stiff face stays turned to the ice pieces, frost glittering on his hair, and the camera closes slowly on the tears striking the frozen coat"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "ice_palace"
+   ],
+   "refs": [],
+   "beat": "마무리 — 얼음 호수와 미완의 얼음 조각 스틸",
+   "visual": "closing still: the empty hall of the Snow Queen with the frozen lake at its center cracked into a thousand matching pieces, flat ice shards lying in a half-finished figure at the lake's middle, the northern lights' green glow rolling across the walls of driving snow; the hall stretches away miles long, cold and empty",
+   "motion": "the northern lights roll slowly across the empty hall and over the cracked lake, the ice shards at the center catching a faint green glint; the camera closes with great patience on the half-finished figure of ice"
+  }
+ ],
+ "withheld": "눈물이 얼음 심장과 거울 조각을 녹이고 두 아이가 어른이 되어 집에 돌아오는 결말"
+}

@@ -1,102 +1,208 @@
 {
-  "logline": "어른 없이 배에 오른 소년들이 폭풍에 떠밀려 무인도에 닿는다.",
-  "destination": "이름 없는 섬 — 소년들만의 나라가 될 곳",
-  "protagonist": "곱슬머리에 낡은 교복 재킷을 입은 열네 살 소년",
-  "setting": "1860년대 남태평양, 범선과 무인도",
-  "anchor": "a fourteen-year-old boy with curly hair in a worn school jacket",
-  "palette": "storm grey-green, bleached white, jungle green, warm amber",
-  "voice": "ko-KR-InJoonNeural",
-  "personas": {
-    "boys_older": {
-      "label": "큰 소년들",
-      "desc": "three teenage boys in worn school jackets and rolled trousers, wind-tangled hair, bare feet",
-      "avoid": "어른은 없다 — 전부 아이다"
-    },
-    "boys_small": {
-      "label": "어린 소년들",
-      "desc": "a huddle of small boys aged eight to ten in oversized coats, soaked hair, clinging together",
-      "avoid": ""
-    },
-    "island_shore": {
-      "label": "섬 해변",
-      "desc": "a wide unmarked beach backed by dense jungle, driftwood, pale sand"
-    }
+ "logline": "어른 없이 배에 오른 소년 열다섯이 밤사이 떠내려가 폭풍에 돛을 잃고, 이름 모를 섬 모래톱에 얹힌 배에서 짐을 부려 바위 동굴에 살림을 차리고 손을 들어 대장을 뽑아 겨울을 나지만, 봄에 한 무리가 갈라져 나간 뒤 해변에 뒤집힌 보트 한 척이 밀려온다",
+ "destination": "소설 십오 소년 표류기에서 만날 수 있습니다",
+ "protagonist": "briant",
+ "setting": "1860년대 남태평양 — 뉴질랜드의 항구, 폭풍의 바다, 무인도의 해변과 숲과 바위 동굴",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/15sonyeon_pyoryugi/assets",
+ "anchor": "a boy of thirteen with dark curly hair in a worn navy school jacket on an uninhabited island",
+ "palette": "storm grey, dark green, off-white, pale sand, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "뒤집힌 보트에서 나온 어른들의 정체와, 소년들이 다시 바다로 나가 돌아가는 마지막",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "boys_older",
+    "boys_small",
+    "schooner",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "항구에 매인 배에 소년 열다섯이 오른다",
+   "visual": "the last of the evening light, seen from the deck of the two-masted schooner as she lies alongside a stone quay: nine boys are the ones standing in a row along her rail across frame centre and frame right, five of them of eleven to fourteen in worn school jackets with their trousers rolled and four small boys of eight and nine in coats far too big for them, every one with both hands on the top rail and his face turned down and back toward the quay; a wooden box with rope handles and four cloth bundles are set down on the deck planks at their bare feet; her furled canvas and the foot of her mainmast show above them; below the rail at frame left the stone of the quay runs away with two barrels and a coil of rope standing on it and her mooring ropes going down from the rail to the iron bollards; the harbour water lies flat and dark in the gap between her hull and the quay; the wide low grey sky fills the top of the frame; every person in the picture is a boy",
+   "motion": "the smallest boy at the rail is the one who moves, and the other boys hold still: at the start both his hands are on the top rail and his face is turned down toward the quay; over the first three seconds one of his hands comes slowly up off the rail and out over it toward the quay below, the sleeve of his too-big coat sliding back off his wrist as the arm goes out, his other hand staying on the rail and his face staying down; in the last two seconds the raised hand holds out over the rail; the eight other boys keep both hands on the top rail with their faces down at the quay, nobody shifting; the wooden box and the four cloth bundles on the deck planks do not move; the furled canvas, the foot of the mast, the mooring ropes going down to the bollards and the two barrels on the quay hold completely still; the flat harbour water keeps its dark surface; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "boys_older",
-        "boys_small"
-      ],
-      "beat": "소년들이 갑판에서 밧줄을 붙잡고 버틴다.",
-      "visual": "boys clinging to rigging on a pitching schooner deck in a storm, no adults aboard",
-      "motion": "the deck heaves under them, spray bursts over the rail, the sail rips loose"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "boys_older"
-      ],
-      "beat": "큰 소년이 키를 두 손으로 붙든다.",
-      "visual": "a teenage boy gripping a ship's wheel with both hands in driving rain, dark water ahead",
-      "motion": "the wheel wrenches against his hands, rain drives across the deck, lightning flares"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "island_shore"
-      ],
-      "beat": "새벽 안개 속에 배가 모래톱에 얹혀 있다.",
-      "visual": "a schooner run aground on a pale sandbar at dawn, jungle beyond, mist on the water",
-      "motion": "surf breaks along the hull, mist lifts off the sand, a torn sail flaps"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "boys_older",
-        "boys_small",
-        "island_shore"
-      ],
-      "beat": "소년들이 물건을 뭍으로 나른다.",
-      "visual": "boys carrying crates and barrels from a stranded ship up a wide empty beach",
-      "motion": "they haul the crates up the sand away from the surf, gulls scatter, sand sprays"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "boys_older"
-      ],
-      "beat": "소년들이 모닥불 둘레에 둘러앉는다.",
-      "visual": "teenage boys seated around a driftwood fire on a beach at dusk, jungle dark behind",
-      "motion": "the fire snaps and throws sparks upward, their shadows swing across the sand"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "boys_older"
-      ],
-      "beat": "소년이 나무에 올라 섬 안쪽을 살핀다.",
-      "visual": "a boy high in a palm crown scanning inland over dense jungle toward distant hills",
-      "motion": "he climbs higher up the trunk, fronds thrash, birds burst out below him"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "boys_older",
-        "boys_small"
-      ],
-      "beat": "소년들이 젖은 모래의 발자국 앞에 모여 선다.",
-      "visual": "a group of boys halted around fresh unfamiliar footprints in wet beach sand",
-      "motion": "they crowd in around the prints, one points ahead, foam slides up the sand"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 해변에 꺼져 가는 모닥불만 남는다.",
-      "visual": "an empty beach at dawn with a dying driftwood fire, scattered crates, calm sea",
-      "motion": "the last embers pulse and fade, smoke bends along the sand, surf runs up"
-    }
-  ],
-  "withheld": "발자국의 주인과, 소년들이 섬을 떠나게 되는 마지막"
+  {
+   "n": 2,
+   "cast": [
+    "boys_older",
+    "schooner",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤사이 밧줄이 풀려 배가 떠내려간다",
+   "visual": "deep night on the after deck of the schooner, seen from close behind two boys standing at her stern rail: the backs of the two boys of thirteen in worn school jackets fill the lower middle of the frame, both of them with their hands on the top rail and their heads up, looking back the way she has come; the bare planks of the deck run away under their feet to the rail and the spoked wheel stands at frame right with nobody's hands on it; beyond the rail the black water spreads out flat with a pale wake running back from under her stern, and far off at the edge of the frame a thin low line of shore lights shows small over the water; her furled canvas and the dark shape of her boom show above them across the top of the frame; the black starless sky fills the rest; every person aboard her is a boy and there is only one vessel in the picture",
+   "motion": "the nearer of the two boys at the stern rail is the one who moves, and everything else holds still: at the start both boys stand with their hands on the top rail and their heads up toward the far lights; over the first three seconds the nearer boy leans slowly out over the rail, his chest coming down toward the top rail and his head going a little further out over the water, his hands sliding a hand's width apart along the rail as he leans; in the last two seconds he holds there leaning out with his head still turned to the far lights; the second boy keeps his hands on the rail and does not move at all; the pale wake behind her stern keeps running back at the same steady rate and the black water holds its slow swell; the furled canvas, the boom above them and the spoked wheel hold completely still; the far line of lights stays the same size; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "boys_older",
+    "schooner",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "폭풍이 배의 돛을 찢어 놓는다",
+   "visual": "the last grey daylight in a storm at sea: the two-masted wooden schooner is the one heeled far over at frame centre seen from her windward side, her forward canvas torn down the middle with the two halves streaming out flat and level from the yard, her after canvas furled and lashed; four boys of eleven to fourteen in soaked school jackets are the ones on her sloping deck at frame left with both arms wrapped round the shrouds and their bare feet braced against the low rail, their wet hair flat to their heads and their faces turned up at the torn canvas; white water runs along the sloping deck to the scuppers; the sea round her is grey-green and heaped up with long streaks of foam down its faces; rain comes down in straight grey lines across the whole frame; spray stands in the air over her bow; every person on her deck is a boy",
+   "motion": "the two torn halves of the forward canvas are the one thing that moves, and the boys at the shrouds hold still: at the start both halves stream out flat and level from the yard with their ragged edges out to leeward; over the first three seconds the two halves go on streaming out at the same level, their ragged edges working slowly in and out along the tear and the loose canvas rippling in long slow waves from the yard outward; in the last two seconds the halves keep streaming out flat with the same slow ripple running down them; the four boys keep both arms round the shrouds and their bare feet braced with their faces turned up, not shifting at all; the white water along the deck keeps running steadily to the scuppers; the heeled hull, the lashed after canvas, the rain lines and the heaped grey-green water keep the same shape throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "briant",
+    "schooner",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "브리앙이 기울어진 배에서 키를 붙든다",
+   "visual": "driving rain on the after deck of the heeled schooner: the boy of thirteen with the dark curly hair in the soaked navy school jacket is the one standing on the far side of the spoked wheel at frame centre so that the whole wheel stands between him and the camera, both his hands closed round the spokes at either side of its rim and his arms held straight out to them, his shoulders turned into the pull and his bare feet set wide apart on the streaming planks behind it, his steady plain face showing above the top of the wheel; the deck slopes down away from him toward frame left where white water runs across the planks to the low rail; the low deckhouse stands behind his shoulder at frame right with its door closed; rain comes down in straight grey lines across the whole frame and runs off the wheel rim; the torn forward canvas shows small and pale beyond the deckhouse; the heaped grey sea shows over the rail; he is the only person on the after deck",
+   "motion": "the wheel under the boy's hands is the one thing that moves, and the boy holds his place: at the start both his hands grip the spokes at either side of the wheel with his arms straight; over the first three seconds the wheel turns slowly against him a quarter turn toward frame left, his gripping hands riding round with the spokes and his straight arms bending a little at the elbow as the rim comes round, his bare feet staying set wide on the wet planks and his face staying lifted over the top of the wheel; in the last two seconds the wheel holds at that quarter turn with both his hands still on the spokes; the rain keeps coming down in straight lines at the same steady rate and the water keeps running across the planks; the deckhouse with its closed door, the torn canvas beyond and the heaped grey sea over the rail hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "schooner",
+    "island_shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "새벽에 배가 섬의 모래톱에 얹힌다",
+   "visual": "the first grey light of dawn over a wide quiet bay: the two-masted wooden schooner is the one lying over on her side at frame centre with her keel run up on a pale sandbar, her bow turned toward the beach and her masts leaning over the water, her torn forward canvas hanging down from the yard; the water round her is shallow and still; the wide bare beach of pale sand runs across the bottom of the frame and the dense dark green jungle of the island stands along the top of it, the open sea running out flat to the horizon at frame right; a long low swell runs up the pale sand at frame left and slides back; driftwood and a tide line of weed lie along the sand; thin mist lies over the water round her hull; the deck and the sand are empty of people",
+   "motion": "the long low swell on the sand is the one thing that moves, and the wrecked schooner holds still: at the start the swell is a low smooth line of water halfway up the pale sand at frame left; over the first three seconds it runs slowly up the sand toward the top of the beach, thinning out as it goes until its edge is a wide shallow sheet, and then slides slowly back down the same slope leaving the sand dark and wet behind it; in the last two seconds a second low swell comes on behind it at the same slow rate; the schooner keeps her exact place on the sandbar with her leaning masts and her hanging torn canvas not moving at all; the mist over the water round her hull holds its shape; the driftwood and the tide line of weed on the sand do not shift; the dark green jungle and the flat sea beyond hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "boys_older",
+    "boys_small",
+    "schooner",
+    "island_shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "소년들이 상자와 통을 뭍으로 나른다",
+   "visual": "full morning light on the wide bare beach: six boys of eleven to fourteen in worn school jackets with their trousers rolled are the ones carrying cargo up the pale sand at frame centre, two of them with a wooden crate held between them by its rope handles, two more behind with a small barrel up on their shoulders, and two at the back with a folded length of canvas between them; three small boys of eight and nine in coats far too big for them are the ones at frame right with a tin box and a coil of rope in their arms; the schooner lies over on the sandbar behind them at frame left with her masts leaning and a plank run down from her rail into the shallow water; a line of crates and barrels already stands on the dry sand at frame right above the tide line; the dense dark green jungle stands along the top of the beach; every person on the beach is a boy",
+   "motion": "the boys carrying the crate and the barrel are the ones who move, and the small boys at frame right hold still: at the start the two with the crate between them are halfway up the pale sand with the crate swinging low between their hands; over the first three seconds the whole party walks slowly up the beach toward the dry sand, the two with the crate taking short steps with their knees bent under the weight and the crate swinging slowly between them, the two behind them coming up the same slope with the barrel riding on their shoulders, their bare feet pressing prints into the wet sand as they go; in the last two seconds they keep walking up at the same slow pace, still short of the line of crates; the three small boys at frame right keep the tin box and the coil of rope in their arms without moving; the leaning schooner, the plank down from her rail, the standing crates and barrels and the dark green jungle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "briant",
+    "high_rock",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "브리앙이 높은 바위에 올라 사방을 본다",
+   "visual": "hard clear daylight at the top of the bare grey rock at the middle of the island: the boy of thirteen with the dark curly hair in the worn navy school jacket is the one standing on the flat open top of the rock at frame centre with one hand raised flat above his eyes and the other hand down on the warm stone beside his knee, his body turned half away from the camera and his steady plain face out toward the water; below him and behind him the dense dark green jungle runs away in every direction down to a thin pale rim of beach, and beyond that rim the open sea runs out flat to the horizon on every side of the frame; two small dark birds show far off over the jungle; the wide low grey sky fills the top of the frame; he is the only person on the rock",
+   "motion": "the boy on the rock is the one who moves, and the island below him holds still: at the start he stands with one hand raised flat above his eyes and his face out toward the water at frame right; over the first three seconds he turns slowly on the spot toward frame left, his raised hand staying flat above his eyes and riding round with his face, his other hand sliding slowly along the warm stone beside his knee as his shoulders come round, his bare feet staying planted where they are on the flat top; in the last two seconds he holds there facing frame left with his hand still raised above his eyes; the dark green jungle below him keeps its exact shape with no movement in it; the thin pale rim of beach and the flat open sea beyond hold completely still; the two far birds keep their place over the jungle; the wide grey sky does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "boys_older",
+    "boys_small",
+    "island_shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "사람 없는 섬에 소년들만 남았다",
+   "visual": "flat afternoon light on the wide bare beach: the fifteen boys are the ones standing together in a loose group at frame centre a little above the tide line, five bigger boys of eleven to fourteen in worn school jackets standing at the back with their hands down at their sides, the small boys in coats far too big for them standing in front of them, every face turned out toward the water; the pale sand runs out wide and empty to frame left and frame right with the small line of crates and barrels standing far behind them; the open sea runs out flat to the horizon, its whole width bare moving water; the dense dark green jungle stands behind them along the top of the beach; a low swell slides up the sand in front of them; the wide low grey sky fills the top of the frame; every person on the beach is a boy",
+   "motion": "the low swell in front of the boys is the one thing that moves, and the boys hold still: at the start the swell is a long low line of water just short of their feet; over the first three seconds it slides slowly up the wet sand toward them, thinning as it comes until its edge is a shallow sheet a little short of the smallest boy's toes, and then draws slowly back down the sand leaving a dark wet band behind it; in the last two seconds the wet band dries slowly pale at its upper edge; the fifteen boys keep their exact places with their hands down and their faces out toward the water, nobody turning and nobody shifting a foot; the line of crates and barrels far behind them, the dense dark green jungle along the top of the beach and the flat open sea out to the horizon hold completely still; the wide grey sky does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "briant",
+    "gordon",
+    "boys_small",
+    "cave",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "소년들이 바위 틈에서 동굴을 찾아낸다",
+   "visual": "late afternoon light at the foot of a grey rock face: the boy of thirteen with the dark curly hair and the boy of fourteen with the straight fair hair in the buttoned grey jacket are the ones standing at the tall narrow opening of the cave at frame centre, the curly-haired boy with one hand flat on the rock at the edge of the opening and his head and shoulders leaning in past it, the fair-haired boy holding a lit tin lantern up at arm's length beside him so its light goes in at the opening; dry grass grows round the foot of the rock face; three small boys in coats far too big for them are the ones waiting a few steps back at frame right with their hands at their sides; the dense dark green jungle stands close on both sides of the rock face; the lantern light shows a few feet of flat dry stone floor inside the opening; they are the only people at the rock face",
+   "motion": "the curly-haired boy at the opening is the one who moves, and the others hold still: at the start his hand is flat on the rock at the edge of the opening with his head and shoulders leaning in past it; over the first three seconds he leans slowly further in, his shoulder going in past the edge of the rock and his face going further into the lit air inside, his flat hand sliding a little way along the rock as his weight goes forward, his bare feet staying where they are in the dry grass; in the last two seconds he holds there leaning in with his face inside the opening; the fair-haired boy keeps the tin lantern up at arm's length without moving and its light keeps the same reach on the flat dry stone floor inside; the three small boys at frame right keep their places with their hands at their sides; the grey rock face, the dry grass and the dark green jungle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "briant",
+    "gordon",
+    "cave"
+   ],
+   "refs": [],
+   "beat": "동굴 벽에 먼저 온 사람의 지도가 붙어 있다",
+   "visual": "lantern light inside the dry stone cave: the boy of fourteen with the straight fair hair in the buttoned grey jacket is the one standing at the stone wall at frame centre with the tin lantern held up in his right hand at the height of his head, his left hand out with one finger on a hand-drawn ink chart of a coastline pinned flat to the stone; the boy of thirteen with the dark curly hair is the one standing close in at his left shoulder at frame left with his face up at the chart; the chart is a plain sheet of paper with one ink coastline drawn across it and bare paper everywhere else; a rusted axe leans against the wall below it and a wooden chest with its lid down stands beside the axe; the flat dry stone floor runs out of the lantern light into the dark at frame right; the two of them are the only people in the cave",
+   "motion": "the lantern in the fair-haired boy's raised hand is the one thing that moves, and the two boys hold their places: at the start the lantern hangs from his fist at the height of his head with its light full on the pinned chart; over the first three seconds his raised fist moves the lantern slowly across toward frame left, so the pool of its light travels slowly across the face of the chart and on along the stone wall, the shadow of his pointing finger sliding across the paper as the light goes by, his feet and shoulders staying where they are; in the last two seconds the lantern holds at the far side with its light on the wall beyond the chart; the curly-haired boy keeps his face up at the chart without moving; the pinned chart, the rusted axe against the wall and the closed wooden chest hold completely still; the dark at frame right stays dark; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "briant",
+    "gordon",
+    "doniphan",
+    "boys_older",
+    "boys_small",
+    "cave",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "소년들이 손을 들어 고든을 대장으로 뽑는다",
+   "visual": "grey daylight on the flat ground outside the mouth of the cave: seven boys stand in a row across frame centre facing the camera, and five of those seven have one arm held straight up above the head with the hand open and the fingers spread, all five arms going up together to the same height so that the row of raised arms stands out against the grey rock behind; the other two boys have their hands down at their sides; the boy of fourteen with the straight fair hair in the buttoned grey jacket is the one standing apart at frame right with his back to the rock face and his hands down at his sides, his serious plain face turned to the raised arms; the grey rock face and the tall narrow opening of the cave stand behind the row; the dense dark green jungle closes in on both sides; every person here is a boy",
+   "motion": "the five raised arms are the one thing that moves, and the standing boys hold their places: at the start all five arms are held straight up above their heads with the hands open; over the first three seconds the five arms go up slowly a little higher together, the open hands rising and the fingers spreading wider apart, every shoulder lifting with its arm and every face staying forward; in the last two seconds the five arms hold at that height with the hands open and steady; the two boys with their hands down keep them down; the fair-haired boy apart at frame right keeps his hands at his sides and his face turned to the raised arms without moving; the grey rock face, the narrow opening of the cave and the dark green jungle on both sides hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "boys_older",
+    "boys_small",
+    "cave"
+   ],
+   "refs": [],
+   "beat": "눈 내리는 겨울을 소년들이 동굴에서 난다",
+   "visual": "cold flat light on snow outside the cave: snow lies in a smooth white cover over the flat ground and along the top of the grey rock face and over the dark green jungle behind, and small flakes are coming down across the whole frame; four boys of eleven to fourteen in worn school jackets with sacking tied over their shoulders and more sacking wrapped round their feet and bound at the ankle with cord are the ones carrying split firewood in their arms at frame centre, walking toward the tall narrow opening of the cave at frame right, their breath showing white in front of their faces; two small boys in coats far too big for them, their feet wrapped in sacking too, are the ones standing in the opening holding a stiff leather flap back from it; the grey rock face on both sides of that opening is bare stone with nothing hung or pinned on it, the warm yellow light of a fire inside showing past them out onto the snow; a low wood pile stands at frame left and the tracks of many feet cross the snow between it and the opening; every person here is a boy",
+   "motion": "the four boys carrying firewood are the ones who move, and the boys at the opening hold still: at the start they are halfway between the wood pile and the cave, each with an armful of split wood held up against his chest; over the first three seconds they walk slowly on toward the opening in a short line, their knees coming up higher than usual through the snow and their sacking-wrapped feet pressing new prints into it behind them, the split wood riding steady against their chests and their white breath going out in front of their faces; in the last two seconds they keep walking on at the same slow pace, still a few steps short of the opening; the small flakes keep coming down at the same steady rate everywhere in the frame; the two small boys keep the stiff leather flap held back without moving and the warm light past them keeps the same reach on the snow; the wood pile, the grey rock face and the snow-covered jungle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "briant",
+    "doniphan",
+    "boys_older",
+    "boys_small",
+    "cave",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "봄에 도니팬 무리가 짐을 지고 동굴을 떠난다",
+   "visual": "grey morning light on the path below the cave, seen from close behind the boy who stays: the back of the boy of thirteen with the dark curly hair in the worn navy school jacket fills the lower left of the frame, standing at the tall narrow opening of the cave with both hands down at his sides and his head up; away down the path beyond him, small in the middle of the frame, four boys walk with their backs to the camera, the leading one in the dark green jacket with a rolled blanket strapped across his back and a canvas bag in his hand, the three behind him in worn school jackets with bundles on their shoulders and a tin pot hanging from one boy's hand; the dense dark green jungle closes over the path ahead of them; the grey rock face stands on both sides of the path; new spring grass shows through the packed earth; exactly five people, one near the camera and four far down the path, and every one of them has his back to the camera",
+   "motion": "the four boys far down the path are the ones who move, and the boy at the cave holds still: at the start they are strung out in a line down the path with their backs to the camera; over the first three seconds all four walk slowly on away down the path, growing a little smaller in the frame, the rolled blanket riding steady on the leading boy's back, the bundles shifting a little on the shoulders behind him and the tin pot swinging slowly at each step; in the last two seconds they keep walking on at the same slow pace toward the place where the jungle closes over the path; the boy at the cave keeps both hands down at his sides with his head up, not moving at all; the grey rock face on both sides, the narrow opening behind him and the dark green jungle hold completely still; the spring grass on the path does not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "briant",
+    "boys_older",
+    "island_shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "폭풍 뒤 해변에 뒤집힌 보트가 밀려와 있다",
+   "visual": "grey morning light on the wide bare beach after a storm: a ship's boat is the one lying overturned at the tide line at frame centre with its keel up and its planking split open along one side, the lower half of its length sunk into the wet sand and a broken oar lying in the sand beside it; a tangle of soaked rope and a length of wet canvas lie along the tide line round it; the boy of thirteen with the dark curly hair and two boys of eleven to fourteen in worn school jackets are the ones halted a few steps short of the boat at frame left with their bare feet apart in the wet sand and their faces down on the overturned hull; the grey sea is heaped up behind the boat with foam sliding up the sand; the dense dark green jungle stands along the top of the beach; the wide low grey sky fills the top of the frame; the three boys are the only people on the sand",
+   "motion": "the foam on the sand is the one thing that moves, and the three boys hold still: at the start a thin sheet of foam is sliding up the wet sand toward the overturned boat; over the first three seconds it comes on slowly round the near end of the hull, thinning as it goes until its edge lies against the split planking, and then draws slowly back down the sand leaving a ring of white bubbles round the end of the boat; in the last two seconds a second thin sheet comes on behind it at the same slow rate; the overturned boat keeps its exact place with its keel up and its split planking not shifting, and the broken oar beside it does not move; the tangle of soaked rope and the wet canvas hold completely still; the three boys keep their bare feet apart in the wet sand with their faces down on the hull, nobody stepping forward; the heaped grey sea and the dark green jungle hold their shape; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "island_shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 해변에 뒤집힌 보트만 남아 있다",
+   "visual": "cold grey light on the wide bare beach: the overturned ship's boat lies at the tide line at frame centre with its keel up and the broken oar in the sand beside it, the tangle of soaked rope lying along the sand round it; the wide pale sand runs out empty to frame left and frame right with a single line of bare footprints going back across it toward frame left; the open sea runs out flat to the horizon behind the boat with thin mist lying over the water; the dense dark green jungle stands along the top of the beach; driftwood and a tide line of weed lie along the sand; the wide low grey sky fills the top of the frame; the beach is quiet and empty of people",
+   "motion": "the thin mist over the water is the one thing that moves, and the beach holds still: at the start the mist lies in a low band over the water behind the boat; over the first three seconds it drifts slowly along the water from frame right toward frame left, thinning at its upper edge as it goes so that a little more of the flat horizon shows through it; in the last two seconds it holds there with the horizon showing faintly through its thinned upper edge; the overturned boat keeps its exact place with its keel up, and the broken oar and the tangle of soaked rope beside it do not move; the line of bare footprints across the pale sand stays exactly as it is; the driftwood and the tide line of weed hold completely still; the dense dark green jungle along the top of the beach does not stir; the wide grey sky does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

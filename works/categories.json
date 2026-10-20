@@ -385,5 +385,205 @@
  "gongju_wandukong": {
   "region": "기타 유럽",
   "genre": "사랑·가족"
+ },
+ "seongnyangpari_sonyeo": {
+  "region": "기타 유럽",
+  "genre": "환상"
+ },
+ "dwaejichigi_wangja": {
+  "region": "기타 유럽",
+  "genre": "사회·풍자"
+ },
+ "jeonnamu": {
+  "region": "기타 유럽",
+  "genre": "환상"
+ },
+ "nunui_yeowang": {
+  "region": "기타 유럽",
+  "genre": "모험"
+ },
+ "ttwimttwigi_seonsu": {
+  "region": "기타 유럽",
+  "genre": "사회·풍자"
+ },
+ "neulgeun_jip": {
+  "region": "기타 유럽",
+  "genre": "사랑·가족"
+ },
+ "mannyeon_syeocheu": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "geum_ttaneun_kongbat": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "bincheo": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "san_hyoseok": {
+  "region": "한국",
+  "genre": "모험"
+ },
+ "halmeoni_jugeum": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "ttaengbyeot": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "sul_gwonhaneun_sahoe": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "bulgeun_san": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "gohyang": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "non_iyagi": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "miseuteo_bang": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "piano": {
+  "region": "한국",
+  "genre": "사회·풍자"
+ },
+ "isanghan_saemmul": {
+  "region": "한국",
+  "genre": "환상"
+ },
+ "horangi_hyeongnim": {
+  "region": "한국",
+  "genre": "환상"
+ },
+ "kkamakjapgi": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "nun_eoduun_posu": {
+  "region": "한국",
+  "genre": "환상"
+ },
+ "mokgeori": {
+  "region": "프랑스",
+  "genre": "사회·풍자"
+ },
+ "honghakui_jari": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "chaesikjuuija": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "bulpyeonhan_pyeonuijeom": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "mosun": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "annyeongira_geuraeteo": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "goeteneun_modeun_geoteul": {
+  "region": "기타",
+  "genre": "사회·풍자"
+ },
+ "naui_wanbyeokhan_jangrye": {
+  "region": "한국",
+  "genre": "사랑·가족"
+ },
+ "ppangchung": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "honmono": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "isanghyeonsang": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "yeongwonhan_cheonguk": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "hyungdam": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "amhaeng": {
+  "region": "한국",
+  "genre": "환상"
+ },
+ "inbiin": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "the_coworker": {
+  "region": "미국",
+  "genre": "추리·공포"
+ },
+ "samwolui_machi": {
+  "region": "한국",
+  "genre": "환상"
+ },
+ "noksaek_jeolbyeok": {
+  "region": "한국",
+  "genre": "추리·공포"
+ },
+ "teo": {
+  "region": "미국",
+  "genre": "휴먼"
+ },
+ "project_hailmary": {
+  "region": "미국",
+  "genre": "SF"
+ },
+ "taeyang_olive": {
+  "region": "한국",
+  "genre": "SF"
+ },
+ "cheon_gaeui_parang": {
+  "region": "한국",
+  "genre": "SF"
+ },
+ "nunmul_sae": {
+  "region": "한국",
+  "genre": "판타지"
+ },
+ "dolikil": {
+  "region": "한국",
+  "genre": "SF"
+ },
+ "isanghan_jido": {
+  "region": "일본",
+  "genre": "추리·공포"
+ },
+ "agami": {
+  "region": "한국",
+  "genre": "환상"
+ },
+ "namiya": {
+  "region": "일본",
+  "genre": "환상"
+ },
+ "gorae": {
+  "region": "한국",
+  "genre": "대하"
  }
 }

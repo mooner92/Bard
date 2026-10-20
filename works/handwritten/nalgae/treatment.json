@@ -1,62 +1,198 @@
 {
- "logline": "아내가 준 은화를 만지작거리며 방에만 있던 남자가, 어느 날 층계를 올라 도시의 지붕 위에 선다.",
- "destination": "백화점 옥상 — 그가 처음으로 도시를 내려다보는 자리",
- "protagonist": "아내에게 얹혀 사는 무기력한 젊은 지식인",
- "setting": "1930년대 경성의 셋방 골목과 백화점, 종일 어두운 아랫방",
- "anchor": "a gaunt young man in a rumpled white shirt and worn trousers, unkempt hair, 1930s Gyeongseong back room",
- "palette": "sepia gloom indoors, cold paper-window light, hazy city grey outside",
+ "logline": "아내가 놓고 간 은화를 만지작거리며 어두운 아랫방에만 있던 남자가, 어느 날 백화점 옥상에 올라 정오의 사이렌을 듣는다",
+ "destination": "소설 날개에서 만날 수 있습니다",
+ "protagonist": "man",
+ "setting": "1930년대 경성 33번지 셋방의 어두운 아랫방과 골목, 백화점 옥상",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/nalgae/assets",
+ "anchor": "a thin pale Korean man in a rumpled off-white western shirt and dark grey trousers, barefoot, unkempt hair",
+ "palette": "ash grey, dark blue, off-white, dark brown, dull yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "젊은 남자가 어두운 아랫방에서 눈을 뜬다.",
-   "visual": "a young man lying awake on a floor mat in a dim windowless back room, paper door faintly lit",
-   "motion": "the paper door glows and dims, his hand shifts, dust hangs in the air"
+   "cast": [
+    "man",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "종일 누워 지내는 아랫방의 남자",
+   "visual": "the dark low-ceilinged rented room: the thin pale man is the one lying on his back on the thin quilt at the center of the frame with his head on the wooden pillow, his unkempt black hair spread on it, his sunken face turned up and his dark ringed eyes wide open on the grey plaster ceiling, the rumpled off-white shirt open at the collar and his long thin hands folded on his chest; the small window at the left is covered with a dark cloth and a single thin strip of light slips past its edge onto the worn oiled paper floor; the paper partition at the right glows faintly; a heap of books lies in the corner",
+   "motion": "the thin pale man lying on his back on the thin quilt is the only thing that moves, and barely: at the start his folded hands rest on his chest and his dark ringed eyes are wide open on the grey plaster ceiling; over the whole shot his folded hands rise and sink slowly with his breathing under the rumpled off-white shirt, and once, near the middle of the shot, his open eyes blink very slowly and open again on the ceiling; his head on the wooden pillow, his spread unkempt hair, his bare feet and the quilt do not shift; the single thin strip of pale light on the oiled paper floor, the dark cloth over the small window, the glowing paper partition, the low ceiling and the stacked books hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "윗방에서 낯선 웃음소리가 건너온다.",
-   "visual": "a lit paper partition seen from a dark room, two silhouettes moving behind it",
-   "motion": "silhouettes shift behind the paper, lamplight wavers, the partition rattles",
-   "anchor": false
+   "cast": [
+    "man",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "볕 한 줌 들지 않는 방",
+   "visual": "a low view across the worn oiled paper floor of the dark room: the thin man's long thin hand reaches into the center of the frame from the right and lies flat on the floor with its fingers spread just inside the single thin strip of pale light that slips past the edge of the dark cloth over the small window at frame left; dust turns slowly in the strip of light; beyond the hand the man's sunken face rests on its side on the wooden pillow with his dark eyes on his own fingers; the grey plaster wall and the corner of the quilt fall into shadow",
+   "motion": "the thin man's long thin hand lying flat on the oiled paper floor is the only thing that moves in this low view: at the start its fingers are spread inside the single thin strip of pale light from the window edge; over the first two seconds the spread fingers close slowly together into a loose fist inside the strip of light and open again just as slowly, the dust motes in the light turning around them; in the last two seconds the hand lies open and still in the light; the man's face on the wooden pillow behind stays completely still with his dark ringed eyes on his own hand, his lips not moving; the dark cloth over the window, the grey plaster wall, the rumpled quilt and the low ceiling hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그는 손바닥의 은화를 오래 만지작거린다.",
-   "visual": "a thin hand turning small silver coins over on a floor mat in weak light",
-   "motion": "coins turn between fingers and clink, light slides over them"
+   "cast": [
+    "man",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "윗방에서 건너오는 웃음과 발소리",
+   "visual": "the dark room seen from the floor: the paper sliding partition fills the right two thirds of the frame glowing a warm dull yellow from the light beyond, and on its paper two dark shadows stand close together, one the slim silhouette of a woman with bobbed hair and one the broad silhouette of a man in a hat; in the lower left foreground the thin pale man's face lies on its side on the wooden pillow in the dark with his dark ringed eyes open and fixed on the shadows, his unkempt hair across his brow; the grey plaster wall and the heap of books in shadow",
+   "motion": "the two dark shadows on the glowing paper partition are the only things that move: at the start the slim silhouette of the woman with bobbed hair and the broad silhouette of the man in a hat stand close together on the warm dull yellow paper; over the first two seconds the two shadows lean slowly closer until their outlines touch at the shoulder, the woman's shadow tilting its head; in the last two seconds they draw apart again by a hand's width and hold there, the shadows soft-edged and steady; the thin pale man's face on the wooden pillow in the foreground stays completely motionless with his dark ringed eyes fixed on the partition, no blink, no turn; the glow of the partition does not flicker; the grey wall, the stacked books, the quilt and the low ceiling hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "밤이 되자 그는 골목으로 걸어 나간다.",
-   "visual": "a gaunt young man walking a narrow alley of tin roofs at night, single bare bulb overhead",
-   "motion": "the bulb swings, his shadow stretches and shrinks, dust lifts"
+   "cast": [
+    "wife",
+    "coins",
+    "man",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "머리맡에 은화를 놓고 가는 아내",
+   "visual": "the dark room: the slim woman with bobbed black hair in the fitted dark blue dress is the one crouched at the center beside the wooden pillow with her back to the glowing paper partition, her powdered face turned down and her thin hand setting a few small silver coins on the oiled paper floor beside the pillow; the thin pale man is the one lying on the quilt at frame left with his eyes closed and his face turned toward the wall, his thin hand limp beside his cheek; the dull yellow light from the partition behind her rims her bobbed hair and the coins; the covered window at the far left",
+   "motion": "the slim woman with bobbed black hair in the fitted dark blue dress crouched beside the wooden pillow is the only one who moves: at the start her thin hand is setting the last small silver coin on the oiled paper floor beside the pillow; over the first two seconds the hand sets the coin down, draws back slowly, and she rises from her crouch in one smooth movement toward the glowing paper partition, the hem of her dress swinging once, her powdered face staying turned down; in the last two seconds she stands with her back to the camera before the partition with one hand on its frame; the thin pale man on the quilt keeps his eyes closed and his hand limp on the floor, his chest barely moving; the few silver coins beside the pillow, the covered window, the partition glow and the grey wall hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "비를 맞고 돌아와 그는 약을 삼킨다.",
-   "visual": "a soaked young man sitting on a floor mat holding a small paper packet, water pooling around him",
-   "motion": "water drips from his hair, the packet unfolds, his shoulders shake"
+   "cast": [
+    "man",
+    "coins",
+    "money_box",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "은화를 굴리다 저금통에 넣는 남자",
+   "visual": "a close view in the dark room: the thin man's two long thin hands fill the center of the frame, the left hand holding the small round dark earthenware money box with its narrow slot turned up and the right hand holding a single silver coin edge-on above the slot between thumb and forefinger; behind the hands his sunken face is bent close in the dim light with his dark ringed eyes on the coin and his sparse moustache above a slack mouth; two more coins lie on the oiled paper floor below; the thin strip of light from the covered window catches the coin's milled edge",
+   "motion": "only the single silver coin between the thin man's thumb and forefinger moves in this close view: at the start the coin is held edge-on above the narrow slot of the small round dark earthenware money box in his other hand; over the first two seconds the coin turns slowly once in the thin light so that its face glints in the glow, then lowers to the slot and slips out of sight into the box with a faint tap, his fingers staying pinched together over the slot; in the last two seconds his pinched fingers rest on the slot and do not move; his bent sunken face behind his hands stays completely still, his dark ringed eyes on the slot; the money box in his left hand does not tilt; the few coins lying on the floor, the strip of light and the dark wall hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그는 낮이고 밤이고 잠에서 깨지 못한다.",
-   "visual": "a young man asleep face down on a floor mat, sunlight and lamplight alternating on the wall",
-   "motion": "light on the wall brightens then dims, his breathing lifts his back"
+   "cast": [
+    "man",
+    "money_box",
+    "alley",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "저금통을 들고 밖으로 나가 본 남자",
+   "visual": "the mouth of the narrow alley at dusk: the thin pale man is the one standing at the center on the stone drain in his rumpled off-white shirt and dark grey trousers, barefoot, the small round money box held against his chest in both thin hands, his sunken face lifted and squinting with his dark ringed eyes narrowed against the grey-blue light and his unkempt hair stirred; behind him the row of paper sliding doors under the low tiled eave and a line of laundry; beyond the alley mouth the low grey tiled roofs roofs show the first dull yellow points of electric light under the dusk sky; beyond the mouth of the alley only more low grey tiled roofs and a pale dusk sky",
+   "motion": "the thin pale man standing barefoot on the stone drain at the mouth of the narrow alley is the only one who moves: at the start the small round money box is held against his chest in both thin hands and his sunken face is lifted and squinting into the dusk; over the first two seconds he takes one slow uncertain step forward out of the alley mouth with the money box clutched to his chest, his squinting face turning slowly from side to side across the open lane, his rumpled off-white shirt hanging loose; in the last two seconds he stops again with his bare feet together and his face still turned slightly aside; the paper sliding doors along the alley, the laundry hanging from the eaves, the tiled roofs and the dusk sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "겨드랑이가 근질거리면 그는 어떻게 될까?",
-   "visual": "a young man on a rooftop with both arms half raised against a wide pale sky, city small below",
-   "motion": "his arms rise, wind pushes his sleeves back, clouds race past behind him"
+   "cast": [
+    "man",
+    "wife",
+    "coins",
+    "upper_room"
+   ],
+   "refs": [],
+   "beat": "아내에게 처음으로 돈을 내미는 남자",
+   "visual": "the brighter room with the low mirror stand: the slim woman with bobbed black hair in the dark blue dress is the one seated on the floor before the mirror stand at frame right with her powdered face turned back over her shoulder, the small glass bottles and the powder box on the stand beside her; the thin pale man is the one standing in the open paper partition at frame left with his right hand held out flat toward her holding a few silver coins, his sunken face lowered and his eyes on the coins; the dress hangs on the wall behind her and the small bulb under its paper shade throws dull yellow light on the coins and her cheek; the man's shirt sleeve is rolled to the elbow over a bare forearm; the coins are only the few on his open palm",
+   "motion": "the thin pale man's held-out hand is what moves in this shot, and then the woman's eyes: at the start his thin hand is extended toward the slim woman seated before the low mirror stand with a few silver coins lying on the open palm; over the first two seconds the hand extends slowly further toward her until the coins catch the bulb light and glint, his stooped shoulders leaning after it; in the last two seconds the hand holds there and trembles very slightly; the slim woman with bobbed black hair in the dark blue dress keeps her powdered face turned back over her shoulder, and only her eyes move slowly from his face down to the coins and stay there; the low mirror stand, the small glass bottles, the powder box, the hanging dress and the bare bulb hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "옥상 난간 위로 새 그림자가 지나간다.",
-   "visual": "a bird's shadow crossing an empty rooftop parapet above a hazy city, sky wide and pale",
-   "motion": "the shadow sweeps across the concrete, haze drifts, light widens",
-   "anchor": false
+   "cast": [
+    "wife",
+    "packet",
+    "man",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "비 맞고 돌아온 밤의 하얀 알약",
+   "visual": "the dark room at night: the thin pale man is the one sitting on the quilt at frame left with his rumpled shirt soaked dark and clinging, his wet unkempt hair plastered to his brow and drops running down his sunken cheeks, his mouth slightly open; the slim woman with bobbed hair in the dark blue dress is the one kneeling at frame right holding out the small folded white paper packet on her open hand with one round white tablet resting on top of it, her powdered face composed and her painted lips closed; the glowing paper partition behind her, the covered window at the left and the wooden pillow between them",
+   "motion": "the slim woman's open hand with the small white paper packet and the round white tablet is the thing that moves, and then the man's wet head: at the start her open hand is held out toward the soaked man sitting on the quilt with the tablet on the packet in her palm; over the first two seconds the hand moves slowly closer to his face until it is just beneath his chin, her composed powdered face unchanging and her bobbed hair not stirring; in the last two seconds the thin pale man's wet head lowers slowly toward the hand, a bead of rainwater running from his plastered hair down his sunken cheek, his soaked shirt clinging and not shifting; the glowing paper partition, the covered window, the wooden pillow and the quilt hold completely still; no new figures or objects appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "man",
+    "packet",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "밤낮없이 잠에 빠진 남자",
+   "visual": "the dark room in grey daylight: the thin pale man is the one lying in a heap on his side on the quilt at the center with his face slack and his mouth open, his unkempt hair over his eyes and one thin arm flung out across the oiled paper floor toward the covered window; beside his open hand the small folded white paper packet lies on the floor with two round white tablets spilled from it; the strip of light from the window edge lies across his arm and the packet; the paper partition at the right is dark now and the heap of books sits in the corner",
+   "motion": "the thin pale man lying in a heap on his side on the quilt is the only one who moves: at the start one thin arm is flung out across the oiled paper floor toward the covered window and his slack mouth hangs open; over the first two seconds the flung-out arm draws slowly in across the floor toward his chest, the fingers trailing on the paper floor, and his slack mouth closes, his body curling tighter on the quilt with his knees rising; in the last two seconds he lies curled and still with his unkempt hair over his eyes; the small white paper packet and the two spilled round tablets stay exactly where they lie in the thin strip of grey light; the covered window, the glowing partition, the stacked books and the low ceiling hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "man",
+    "packet",
+    "lower_room"
+   ],
+   "refs": [],
+   "beat": "약갑의 다른 이름",
+   "visual": "a close view in the dark room: the thin man's long thin fingers hold the small folded white paper packet up into the thin strip of light from the window edge at the center of the frame, the packet's plain white paper glowing and its fold pinched open with two round white tablets visible inside; behind and below it his sunken face is tilted up close with his dark ringed eyes narrowed and his thick brows drawn together, his sparse moustache and slack mouth in shadow; the dark cloth over the window at the left edge and the grey plaster wall behind",
+   "motion": "the small folded white paper packet in the thin man's long thin fingers is the only thing that moves in this close view: at the start the packet is held up into the thin strip of light with its fold pinched open and two round white tablets showing inside; over the first two seconds the packet turns slowly over between his fingers so that its other plain white face comes into the glow, the two tablets sliding a little inside the fold; in the last two seconds the packet holds still in the light; his narrowed dark ringed eyes follow the packet as it turns and his brows draw slowly tighter, nothing else of his sunken face moving; the dark cloth over the window and the grey wall behind hold completely still; no lettering appears on the packet; no new figures or objects appear; camera drifting very slowly forward toward the packet, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "man",
+    "packet",
+    "hill_bench",
+    "noon_bg"
+   ],
+   "refs": [],
+   "beat": "산에 올라 하루를 꼬박 앉아 있는 남자",
+   "visual": "the bare hilltop under a hard noon sky: the thin pale man is the one seated alone on the single wooden bench at the center in his rumpled off-white shirt and dark grey trousers, barefoot on the dry grass, his stooped back to the wide view and his sunken face turned down to the small folded white paper packet held loosely in both thin hands between his knees; his unkempt hair lifts in the wind; behind and below him the grey tiled roofs and a few tall western buildings of the low grey tiled roofs spread out small under the pale blue sky and his short sharp shadow lies on the grass",
+   "motion": "only the wind moves in this shot; the thin pale man seated alone on the wooden bench does not: at the start his stooped back is to the wide view and his sunken face is turned down to the small folded white packet in his hands; through the whole shot a slow wind lifts his unkempt black hair and the loose end of the paper packet in the same slow rhythm and lets them settle, the dry grass around his bare feet leaning with each gust; his stooped body, his lowered face, his bare feet and his hands on the packet stay perfectly still; the grey tiled roofs and the small streets of the low grey tiled roofs spread out below, the bare hilltop and the hard pale noon sky hold completely still; no new figures or objects appear; camera drifting very slowly backward, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "man",
+    "wife",
+    "visitor",
+    "alley"
+   ],
+   "refs": [],
+   "beat": "열린 미닫이 너머의 아내와 손님",
+   "visual": "the narrow alley in the afternoon: the paper sliding door at the center of the row stands half open, and inside it the slim woman with bobbed black hair in the dark blue dress is the one seen seated in profile at frame center with the broad back of the visitor in the dark suit and grey fedora beside her in the doorway, his back to the alley; the thin pale man is the one standing frozen in the alley at frame left in his rumpled shirt, barefoot on the stone drain, his sunken face turned toward the open door with his dark eyes wide and his thin hands hanging open; the low tiled eave, the laundry on its line and the strip of sky above",
+   "motion": "the thin pale man standing in the alley is the only one who moves: at the start he stands before the half-open paper sliding door with his wide eyes on the room inside and his hands hanging at his sides; over the first two seconds his wide-eyed head draws slowly back on his neck and his hanging hands lift a little from his sides with the fingers spreading, his bare heels rocking back on the stones; in the last two seconds he holds there leaning back with his mouth slightly open; inside the door the slim woman with bobbed black hair in the dark blue dress stays seated in profile and the broad dark back of the visitor in the grey fedora stays as it is, neither turning; the paper door, the eave, the hanging laundry and the afternoon light hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "man",
+    "rooftop",
+    "noon_bg"
+   ],
+   "refs": [],
+   "beat": "백화점 옥상까지 뛰어오른 남자",
+   "visual": "the flat concrete rooftop of the four-storey concrete building at noon: the thin pale man is the one at the center just come up through the rooftop stair door at frame left, his rumpled off-white shirt pulled half out of his trousers, barefoot on the hot concrete, his chest heaving and his unkempt hair wild, his sunken face lifted to the wide sky with his mouth open; the waist-high parapet runs across the frame behind him with a few potted plants along it and the grey tiled roofs and streets of the 1930s town of low grey tiled roofs spread out far below; the hard noon light throws his short sharp shadow at his feet",
+   "motion": "the thin pale man just come up through the rooftop stair door is the only one who moves: at the start he stands at the center of the hot concrete with his chest heaving, his rumpled off-white shirt pulled half out of his trousers and his lifted face on the sky; over the first two seconds he stumbles slowly forward across the concrete toward the waist-high parapet, his bare feet slapping the roof, his heaving chest rising and his unkempt hair blowing, his lifted face staying on the sky; in the last two seconds his thin hands come to rest on the top of the parapet and he leans on them with his shoulders heaving; the potted plants along the parapet, the grey tiled roofs and tall buildings of the 1930s town of low grey tiled roofs below and the hard noon sky hold completely still; no new figures or objects appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "man",
+    "rooftop",
+    "noon_bg"
+   ],
+   "refs": [],
+   "beat": "정오 사이렌이 우는 옥상",
+   "visual": "the parapet of the rooftop at noon: the thin pale man is the one standing at the center with his back to the camera and the back of his unkempt head held straight ahead, his two thin arms lifted slowly out to either side with the hands open and the rumpled off-white shirt pulled tight across his stooped shoulders, barefoot on the concrete; before him beyond the parapet the grey tiled roofs, the streets and the a few four-storey stone western buildings of the 1930s with flat roofs of the 1930s town of low grey tiled roofs spread out under the hard pale blue sky, sunlight straight down; a few small figures stroll at the far side of the roof; his short shadow lies at his heels",
+   "motion": "the thin pale man standing at the parapet with his back to the camera is the only one who moves, and only his arms and back: at the start his two thin arms are lifted a little out to either side with the hands open and the rumpled off-white shirt pulled tight across his stooped back; over the first two seconds the lifted arms rise slowly higher until they stand out level from his shoulders with the open hands turned up, the shirt stretching across his shoulder blades and his stooped back straightening by a degree; in the last two seconds the arms hold level and his back holds straighter, trembling slightly; the back of his unkempt head stays held straight ahead toward the 1930s town of low grey tiled roofs, not turning; the potted plants along the parapet, the grey tiled roofs, the a few four-storey stone western buildings of the 1930s with flat roofs and the hard noon sky hold completely still; no new figures or objects appear; camera drifting very slowly forward toward his back, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "rooftop",
+    "noon_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 텅 빈 옥상",
+   "visual": "the flat concrete rooftop of the four-storey concrete building at noon, empty of every person: the waist-high parapet runs across the middle of the frame with a few potted plants along it and beyond it the grey tiled roofs, the streets and the a few four-storey stone western buildings of the 1930s with flat roofs of the 1930s town of low grey tiled roofs spread out small under the hard pale blue sky; the sunlight comes straight down and the parapet casts a thin sharp shadow on the concrete; nothing stands at the parapet; the buildings along the street show only blank plaster and brick above their doorways and plain wooden shutters, every wall surface bare",
+   "motion": "nothing living moves on this empty rooftop; only the wind: at the start the potted plants along the waist-high parapet stand still under the hard noon light; over the whole shot a slow wind crosses the rooftop from left to right so that the leaves of the potted plants sway together once, lean, and settle again, a little dust sliding along the hot concrete at their feet; the parapet, the grey tiled roofs, the streets, the a few four-storey stone western buildings of the 1930s with flat roofs of the 1930s town of low grey tiled roofs below and the pale noon sky hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly upward, no zoom"
   }
  ],
- "withheld": "그가 날개를 펴 보고 싶다고 외치며 끝나는 마지막 대목",
- "voice": "ko-KR-HyunsuMultilingualNeural"
+ "withheld": "날개야 다시 돋아라 날자 하는 마지막 외침, 아달린이라는 약 이름"
 }

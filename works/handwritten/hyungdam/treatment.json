@@ -1,0 +1,173 @@
+{
+ "logline": "자정까지 두 사람에게 들려주지 않으면 악귀가 온다 — 공포소설가가 직접 들었다는 말의 저주",
+ "destination": "소설 흉담에서 만날 수 있습니다",
+ "protagonist": "novelist",
+ "setting": "현대 한국 — 소설가의 작업실, 민속학 교수의 서재, 비 내리는 낯선 도시 K시, 자정",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/hyungdam/assets",
+ "anchor": "a Korean man in his late forties with short greying black hair and black-rimmed glasses, in a dark grey hoodie",
+ "palette": "ash grey, pale amber, deep indigo, off-white, dark green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "흉담의 기원과 역사적 비극, 육모돈의 정체, 저주가 끝나는 방식",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "clock",
+    "wall"
+   ],
+   "refs": [],
+   "beat": "자정까지 두 사람에게 들려주지 않으면 악귀가 찾아오는 이야기",
+   "visual": "a dark room late at night, empty of people: the plain round wall clock with a white face, black tick marks in place of numbers and thin black hands hangs on the bare pale plaster wall at frame centre, its hands standing at a few minutes before twelve, the long hand just short of the top mark; a single low lamp at frame left throws a slanting cone of dim yellow light across the wall and the clock face, and the clock's round shadow stretches long to the right; below the clock the edge of a wooden table shows at the bottom of the frame with a phone lying face down on it; the rest of the room falls away into deep shadow; the wall is faintly stained and cracked near the corner; the stillness is heavy, the whole picture waiting for the hands to meet; a thin thread of cold air from an unseen window stirs a loose cobweb in the upper corner, and a glass of water on the table edge holds a small reflection of the lamp",
+   "motion": "the long hand of the wall clock creeps forward toward twelve, and that creeping hand is the one movement in the shot: at the start the long hand stands a few marks short of the top; over the whole five seconds it moves forward in small steady ticks, one mark and then the next, closing the gap to the top mark, its thin shadow ticking forward across the white face with it, while the short hand stays nearly at twelve; the clock body itself stays fixed on the wall; the slanting cone of lamplight, the long round shadow of the clock, the phone lying face down on the table edge and the dark corners of the room stay completely still; the faint cracks in the plaster hold unchanged; the loose cobweb in the upper corner and the glass of water on the table edge stay still, the lamp reflection in the glass unwavering; the camera holds a medium shot of the clock on the wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "wall"
+   ],
+   "refs": [],
+   "beat": "그 저주의 이름은 흉담 — 사람을 해치는 이야기",
+   "visual": "the bare pale plaster wall in the dark room, lit low from one side by a single lamp: across the wall fall two large human shadows in profile, cast by people standing out of frame to the left, one shadow leaning in with its head close to the other's ear, its hand cupped beside the other's head, the second shadow standing rigid and still with its head slightly bowed, listening; the shadows are soft-edged and grey, stretched tall by the low lamp; there are no people visible in the frame, only their shadows; the lamp's cone of dim yellow light fades toward the right edge; a thin crack runs down the plaster through the listening shadow; the rest of the room sinks into blackness; the image is hushed and menacing, the passing of a whisper made visible; at the bottom of the wall a skirting board runs into the dark, and the faint outline of a closed door shows at the far right edge of the light",
+   "motion": "the leaning shadow whispers and the listening shadow slowly bows its head lower, and that bowing is the one movement in the shot: at the start the two shadows stand in profile on the wall, one leaning to the other's ear; over the whole five seconds the leaning shadow's head moves very slightly with the rhythm of whispering, its cupped hand staying beside the other's ear, while the listening shadow's head sinks slowly lower and its shoulders draw up and stiffen, the words settling into it; the lamp's dim yellow cone on the wall, the thin crack in the plaster and the black edges of the room stay completely still; the shadows keep their soft grey edges the whole time; the skirting board and the faint outline of the closed door at the far right stay unchanged, and nothing enters the light; the camera holds a medium shot of the wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "novelist",
+    "studio"
+   ],
+   "refs": [],
+   "beat": "공포소설가인 나에게 어느 날 도착한 메일 한 통",
+   "visual": "night in a small cluttered writer's studio: the Korean man in his late forties in his dark grey hoodie and black-rimmed glasses sits at the desk under the rain-streaked window at frame centre, facing the camera behind an open laptop whose screen faces away from the camera and lights his round tired face a cold white-blue; his hand rests on the laptop's trackpad, his eyes behind his glasses narrowed at the screen, eyebrows drawn together; stacks of paperback books with blank worn spines pile up on both sides of the desk; the desk lamp is switched off, so the laptop glow is the main light; a mug sits by his elbow; rain streaks down the black window behind him, streetlight blurred in the raindrops; the studio is quiet and late, the moment just after a message has arrived; a small wall calendar hangs blank and turned to its plain back beside the window, and a crumpled paper tissue lies by the keyboard",
+   "motion": "the man leans slowly closer to the laptop screen as he reads, and that leaning is the one movement in the shot: at the start he sits back a little with his hand on the trackpad; over the whole five seconds he leans in toward the glowing screen, his round face moving into the cold white-blue light, his eyes behind his glasses narrowing further and his eyebrows drawing together, his free hand rising slowly to rest against his chin; behind him the rain keeps streaking down the black window glass, the blurred streetlight trembling in the raindrops; the stacks of books, the mug by his elbow, the switched-off desk lamp and the laptop itself stay completely still; the blank turned calendar beside the window and the crumpled tissue by the keyboard stay still; the camera holds a medium shot across the desk at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "novelist",
+    "studio"
+   ],
+   "refs": [],
+   "beat": "메일을 보낸 편집자 차미조가 전한 아버지의 부고",
+   "visual": "a closer view in the writer's studio at night: the Korean man in his late forties in his dark grey hoodie and black-rimmed glasses sits back from the desk at frame centre, facing the camera, one hand pressed flat over his mouth, his eyes behind his glasses fixed on the open laptop whose screen faces away from the camera, the cold white-blue glow lighting his face from below; his other hand grips the edge of the desk; his round tired face has gone still and grave; the mug beside him has gone cold, no steam; stacks of paperback books with blank worn spines stand around the desk; behind him the rain-streaked window shows the blurred lights of the street far below; the studio is silent except for the rain, the news of a death just read; a pair of slippers lies kicked off under the desk, and the reflection of the laptop glow shows faintly in the dark window",
+   "motion": "the man lowers his hand slowly from his mouth to the desk, and that lowering is the one movement in the shot: at the start his hand is pressed flat over his mouth; over the whole five seconds it slides slowly down over his chin and comes to rest on the desk beside the laptop, his eyes staying fixed on the glowing screen and his grave face unchanged, his shoulders sinking with one long breath out; behind him the rain keeps streaking down the window, the blurred street lights trembling in the raindrops; the laptop, the cold mug, the stacks of books and the desk itself stay completely still; the cold glow on his face holds steady; the kicked-off slippers under the desk and the faint reflection of the glow in the window stay still; the camera holds a medium close shot across the desk at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "prof_study"
+   ],
+   "refs": [],
+   "beat": "민속학자 차문수 교수의 석연치 않은 죽음",
+   "visual": "the folklore professor's study in an old house, empty of people, in grey early light: tall shelves of old books with plain worn spines line the walls from floor to ceiling; carved wooden masks with blank painted faces and a folded shaman's fan hang on the wall above the heavy wooden desk; the desk holds a closed laptop, a pair of reading glasses folded on a stack of papers turned face down, a cold cup of tea and a small brass bell; the drawn curtains let in only a thin grey line of light at their edge; a coat still hangs on the back of the desk chair; dust hangs in the thin light; the room feels abruptly abandoned, everything left mid-work, its owner stepped out and gone; a small framed landscape painting of pale hills in mist hangs crooked between the shelves, and an umbrella stands dry in a stand by the door",
+   "motion": "the thin grey line of light at the edge of the drawn curtains widens slowly as a draught stirs them, and that stirring curtain is the one movement in the shot: at the start the curtains hang closed with only a thin line of light at their edge; over the whole five seconds the edge of the curtain sways inward a little and settles, the line of grey light widening across the floor and the desk and narrowing again, the dust in it drifting slowly; the carved wooden masks and the folded fan on the wall, the closed laptop, the folded reading glasses, the cold cup of tea, the brass bell and the coat on the chair stay completely still; the tall shelves of books hold unchanged; the crooked landscape painting between the shelves and the dry umbrella in its stand by the door stay still; the camera holds a medium wide shot of the study from the doorway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "prof_study"
+   ],
+   "refs": [],
+   "beat": "교수의 몸에 선명했다는 무언가에 할퀸 자국",
+   "visual": "a closer view of the professor's study floor and desk, empty of people: the heavy wooden desk chair lies tipped over on its side on the floorboards, and papers are strewn across the floor around it; along the front edge of the heavy wooden desk run deep parallel scratch marks gouged into the dark varnish, four long grooves side by side, pale raw wood showing in them; more long scratches score the floorboards leading away from the chair toward the dark doorway at frame right; the closed laptop still sits on the desk above; a folded shaman's fan hangs crooked on the wall; grey light from the curtain's edge falls across the scratched boards; the room is silent and cold, the marks the only trace of whatever happened here; a single slipper lies upturned near the doorway, and a fallen fan lies half open on the boards among the papers",
+   "motion": "the grey light from the curtain's edge slides slowly across the scratched floorboards, and that sliding light is the one movement in the shot: at the start a thin band of grey light lies across the floor near the tipped chair; over the whole five seconds it moves slowly across the boards toward the doorway as the curtain edge shifts in a faint draught, passing over the long pale scratch marks so that each groove brightens in the light and darkens again, a few strewn papers stirring very slightly at their edges; the tipped chair, the desk with its gouged edge, the closed laptop and the crooked fan on the wall stay completely still; the dark doorway at frame right holds unchanged; the upturned slipper near the doorway and the fallen half-open fan on the boards stay still; the camera holds a low shot across the floor from the corner, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "prof_study"
+   ],
+   "refs": [],
+   "beat": "교수의 노트북 바탕화면에 남은 한 문장",
+   "visual": "the professor's study in darkness, empty of people: on the heavy wooden desk the laptop stands open now, its screen facing slightly away from the camera and glowing a flat cold white, the only light in the room; the glow falls across the desk, the folded reading glasses and the small brass bell, and throws a pale square of light up onto the wall where the carved wooden masks hang, their blank painted faces half lit; the rest of the study, the tall shelves of old books and the drawn curtains, is lost in blackness; the deep scratch marks along the desk edge show faintly in the screen light; a strand of dust drifts through the glow; the scene is silent and dreadful, the screen holding a single sentence nobody should read; the curtain edge glows faintly grey, and a strand of hair-thin dust hangs in the screen light over the scratch marks",
+   "motion": "the cold white glow of the laptop screen flickers faintly, and that flickering glow is the one movement in the shot: at the start the screen glows steadily across the desk; over the whole five seconds its light dims very slightly and brightens again twice, so that the pale square of light on the wall pulses and the blank painted faces of the carved masks sink into shadow and surface again, while the strand of dust drifts slowly through the glow; the laptop itself, the folded glasses, the brass bell and the scratch marks on the desk edge stay completely still; the tall shelves and the drawn curtains in the blackness hold unchanged; the faint grey glow at the curtain edge and the dust above the scratch marks keep their places; the camera holds a medium shot of the desk from the side, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "novelist",
+    "prof_study"
+   ],
+   "refs": [],
+   "beat": "그 문장을 읽는 나의 떨리는 목소리 — 흉담을 들었다",
+   "visual": "in the dark study: the Korean man in his late forties in his dark grey hoodie and black-rimmed glasses stands bent over the professor's desk at frame centre, facing the camera behind the open laptop whose screen faces away from the camera, its cold white glow lighting his round face from below; he leans on both hands at the desk edge right beside the deep scratch marks, his eyes behind his glasses wide and fixed on the screen, his lips parted on the words he is reading aloud; the carved wooden masks on the wall behind him are half lit by the glow; the tall shelves of old books stand dark around him; the rest of the room is black; the air is still and cold, his breath showing faintly; his glasses reflect two small bright rectangles of the screen, and a strand of grey hair falls across his forehead",
+   "motion": "the man reads the sentence on the screen aloud with trembling lips, and his reading is the one movement in the shot: at the start he leans over the desk with his lips just parted; over the whole five seconds his lips move slowly on a few words, his jaw tightening between them, his wide eyes staying locked on the glowing screen, his fingers pressing whiter against the desk edge beside the scratch marks, his faint breath showing in the cold air; the laptop, the scratch marks, the carved masks on the wall and the dark shelves stay completely still; the cold white glow on his face holds steady; the two small bright rectangles reflected in his glasses hold steady, and the strand of grey hair on his forehead stays in place; the camera holds a medium shot across the desk at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "studio"
+   ],
+   "refs": [],
+   "beat": "나와 차미조, 주술사 발람이 쫓기 시작한 저주의 정체",
+   "visual": "a low table in the writer's studio at night, empty of people, lit by candles: on a white cloth laid over the table stand three short white candles in a row, their flames small and still; around them lie a cluster of small brass ritual bells, a shallow bowl of uncooked rice with a few old coins pressed into it, a bundle of dried herbs tied with thread, and a stack of folded pale yellow paper charms with their marked sides turned face down; beside them sit the open laptop with its screen dark, a notebook closed on a pen, and three mismatched mugs; the rain-streaked window behind is black; the candlelight is warm and close, the rest of the room dark; the scene is a strange working table where research and ritual meet; a small hand mirror lies face down beside the rice bowl, and a match box sits open with two spent matches beside it",
+   "motion": "the three candle flames lean and shiver together in a faint draught, and that shivering is the one movement in the shot: at the start the three small flames stand upright in their row; over the whole five seconds a faint draught from the window passes over the table and the flames lean slowly to the right together and shiver, their warm light swaying across the brass bells, the bowl of rice and the face-down paper charms so the small shadows on the white cloth lean and swing, then the flames straighten again; the bells, the rice bowl, the herbs, the charms, the dark laptop, the closed notebook and the three mugs stay completely still; the black rain-streaked window holds unchanged; the face-down hand mirror and the open match box with its two spent matches stay still; the camera holds a close shot along the table, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wall"
+   ],
+   "refs": [],
+   "beat": "들은 사람 안에 기생해 또 다른 사람에게 번지게 하는 흉담",
+   "visual": "the bare pale plaster wall in the dark room, lit low from one side by a single lamp: across the whole wall falls a long row of human shadows in profile, cast by people standing in a line out of frame, each shadow leaning in with its head at the ear of the next, one after another from the left edge to the right edge of the frame, a line of whispering heads; the shadows nearest the lamp are sharp and dark, the farther ones softer and paler, stretched tall; there are no people visible, only their shadows; the lamp's dim yellow cone lights the left half of the wall and fades into darkness on the right; the image is quietly terrifying, a single whisper passing from head to head down the wall; the floor below the wall is bare dark boards, and at the far right edge of the frame the last shadow fades into the darkness",
+   "motion": "the whisper passes down the chain of shadows from left to right, and that passing is the one movement in the shot: at the start every shadow stands still in its leaning line; over the whole five seconds, one after another from the left, each shadow's head bows slightly as it listens and then turns to lean closer to the next shadow's ear, the small bowing movement travelling steadily down the line to the right edge of the frame, while the shadows keep their places on the wall; the lamp's dim yellow cone, the pale plaster and the darkness at the right stay completely still; the shadows keep their soft grey edges; the bare dark floorboards below the wall stay still, and the last shadow at the right edge fades into the dark and holds there; the camera holds a wide shot of the wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "kcity",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "행운의 편지처럼 순식간에 퍼져 나가는 흉담",
+   "visual": "a small old provincial Korean city at night seen from a hillside in the rain: low tiled and flat rooftops crowd the valley below, dark except for scattered lit windows; the scattered windows glow one here and one there across the whole town, small yellow squares in the dark; a long concrete bridge crosses the dark river through the middle of the frame, a few street lamps along it reflected in the black water; dark hills close the town in on all sides under a black rainy night sky; fine rain slants across the whole view; in the foreground a wet hillside path with a single bent street lamp; the town is quiet and asleep, its lit windows spread over the dark, one message passed from house to house; a stray cat sits motionless on a wall beside the hillside path, and a line of small roadside shrines of stacked stones stands along the path edge",
+   "motion": "one by one, lit windows appear across the dark town, and that spreading of light is the one movement in the shot: at the start only a few windows glow across the rooftops; over the whole five seconds new windows light up one after another in a slow spreading pattern, first near the bridge and then outward across the valley toward the hills, each small yellow square blinking on in the dark, while fine rain slants steadily across the view; the rooftops, the long concrete bridge and its lamps, the reflections in the black river and the dark hills stay completely still; the bent street lamp on the wet path in the foreground holds steady; the stray cat on the wall beside the path and the small stacked-stone shrines along the path edge stay still; the camera holds the wide view from the hillside, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "kcity",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "단서가 가리키는 곳 — 낯선 도시 K시",
+   "visual": "the edge of the small old provincial Korean city at night in the rain, seen from the approach road: in the foreground a wet empty two-lane road curves toward the town past a blank steel road sign seen from behind, its back plain and grey; ahead, the long concrete bridge crosses the dark river toward the low rooftops of the town, a few street lamps along it; the town lies under the dark hills, only a handful of windows lit; a single pair of car headlights shines on the road near the bridge, far away; fine rain slants through the lamplight; the black rainy night sky presses low over the hills; the scene is unfamiliar, empty and wet, the stranger's first sight of a town that is keeping a secret; a bus shelter stands empty and dark beside the road with its glass streaked by rain, and puddles on the asphalt mirror the far headlights",
+   "motion": "the single pair of distant headlights moves slowly along the road toward the bridge, and that moving light is the one movement in the shot: at the start the headlights shine on the road near the bridge; over the whole five seconds they travel slowly along the curving road and onto the bridge, their beams sweeping faint reflections across the wet asphalt and flickering between the bridge railings, while fine rain slants steadily through the lamplight; the blank back of the road sign in the foreground, the low rooftops, the few lit windows, the bridge lamps and the dark hills stay completely still; the black low sky holds unchanged; the empty dark bus shelter with its rain-streaked glass stays still, and the puddles on the asphalt hold the moving reflection of the headlights; the camera holds the wide shot from the approach road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "novelist",
+    "studio"
+   ],
+   "refs": [],
+   "beat": "작가가 자신의 실제 경험담이라고 말하는 이야기",
+   "visual": "three in the morning in the writer's studio: the Korean man in his late forties in his dark grey hoodie and black-rimmed glasses stands alone at the rain-streaked window at frame centre, seen in three-quarter view from behind, one hand resting on the window frame, looking out at the black night; his faint reflection shows in the dark glass, round tired face and glasses, eyes looking back at him; the desk behind him holds the closed laptop and the cold mug, the desk lamp switched on now and throwing a small warm pool of light; stacks of paperback books with blank worn spines stand in the shadows; rain runs down the glass over his reflection; the room is very quiet, a man who has lived through the story he is about to tell; the pages of a manuscript lie stacked face down beside the laptop, and a small potted plant on the sill leans toward the lamp",
+   "motion": "rain runs down the window glass over the man's faint reflection, and that running rain is the one movement in the shot: at the start the man stands still at the window with his hand on the frame; over the whole five seconds the rain streams slowly down the black glass, the raindrops sliding across his faint reflected face and glasses so the reflection wavers and clears, while he stays still with the back of his head to camera and his gaze held straight out at the night the whole time, only his shoulders rising and sinking with one slow breath; the desk, the closed laptop, the cold mug, the warm pool of lamplight and the stacks of books stay completely still; the face-down manuscript pages beside the laptop and the small potted plant on the sill stay still; the camera holds a medium shot from behind his shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "clock",
+    "studio"
+   ],
+   "refs": [],
+   "beat": "자정이 다가오는데 — 당신이라면 누구에게 들려줄까",
+   "visual": "a close view in the writer's studio just before midnight, empty of people: on the desk in the small warm pool of the desk lamp lies a phone, face up, its screen lit with a plain bright glow and no visible detail, beside the closed laptop and the cold mug; above the desk, on the wall, hangs the plain round wall clock with a white face, black tick marks in place of numbers and thin black hands, both hands almost together at the top; the rain-streaked black window at frame left reflects the lamp; stacks of paperback books with blank worn spines crowd the edges of the frame; the rest of the room is dark; the whole scene is tense and waiting, the lit phone and the clock the only things that seem awake; a pair of glasses lies folded beside the phone, and a small digital recorder sits switched off by the mug",
+   "motion": "the phone screen on the desk glows brighter and dimmer, and that soft pulsing glow is the one movement in the shot: at the start the phone lies face up with its plain bright screen lit; over the whole five seconds the screen's pale light swells slowly brighter, spilling a little further across the desk top onto the folded glasses and the side of the cold mug, then sinks back to its first glow, with no detail ever appearing on the screen; the wall clock is a fixed painted object: its white face, its black tick marks and its two thin black hands held together near the top stay frozen exactly in place for the whole shot, the hands never turning, never sweeping, never ticking; the closed laptop, the cold mug, the warm pool of lamplight, the stacks of books and the rain-streaked window stay completely still; the folded glasses and the switched-off recorder stay still in the lamplight; the camera holds a medium shot of the desk and the clock, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "studio"
+   ],
+   "refs": [],
+   "beat": "마무리 — 자정의 빈 작업실",
+   "visual": "a quiet closing still of the writer's studio at midnight, empty of people: the desk under the rain-streaked window holds the closed laptop, the cold mug and the phone lying face down now; the desk lamp has been switched off, and the only light is the faint grey-blue of the street far below coming through the wet window; the desk chair stands pushed back and turned half away, someone just risen and gone; stacks of paperback books with blank worn spines stand in the gloom; a thin curtain at the side of the window hangs almost still; the rain on the glass throws faint moving shadows across the desk; the whole room is silent and uneasy, the story passed on or not; a folded dark grey hoodie hangs over the back of the turned chair, and a stack of manuscript pages lies squared face down beside the laptop",
+   "motion": "the thin curtain at the side of the window stirs once in a faint draught, and that stirring is the one movement in the shot: at the start the curtain hangs almost still beside the wet window; over the whole five seconds it swells slowly inward a little at its lower edge, hangs there, and sinks back into place, its hem brushing the corner of the desk, while the faint moving shadows of the rain drift across the desk top; the closed laptop, the cold mug, the face-down phone, the pushed-back chair and the stacks of books stay completely still; the faint grey-blue light from the street holds steady; the dark grey hoodie over the turned chair and the squared manuscript pages beside the laptop stay still in the gloom; the camera holds the wide still shot of the studio, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

@@ -1,0 +1,196 @@
+{
+ "logline": "중복 땡볕에 아내를 지게에 지고 대학병원에 오른 덕순이의 하루",
+ "destination": "소설 땡볕에서 만날 수 있습니다",
+ "protagonist": "deoksun",
+ "setting": "1930년대 중복의 서울 — 통안 네거리와 땡볕 거리, 버들 그늘, 대학병원 복도와 진찰실",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/ttaengbyeot/assets",
+ "anchor": "a big-boned Korean labourer in a thin white hemp summer jeogori and knee-length trousers",
+ "palette": "bright white, dun brown, faded indigo, dull green, pale grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "deoksun",
+    "wife",
+    "street"
+   ],
+   "refs": [],
+   "beat": "중복 땡볕, 아내를 지게에 지고 선 덕순",
+   "visual": "the glaring midsummer crossroads: Deoksun stands in the middle of the white-hot road with a wooden back-carrier on his back and his wife seated on it, her thin legs hanging and her head drooping against his shoulder, his sleeve raised to wipe the sweat from his nose; people keeping to the strip of shade under the eaves; exactly two people in the road",
+   "motion": "Deoksun's sleeve drags across his nose and his eyes squint against the glare, the wife's head swaying on his shoulder with each breath; heat shimmers off the road, and the camera holds on the loaded man in the sun"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "deoksun",
+    "wife",
+    "street"
+   ],
+   "refs": [],
+   "beat": "어린 깍쟁이에게 묻는 대학병원 길",
+   "visual": "Deoksun bends politely with the loaded carrier and his wife on his back toward a ragged street boy who points up the road with his chin, the wife's drooping head on the carrier; exactly three people",
+   "motion": "the boy's chin jerks up the road and Deoksun's head turns to follow it, the wife's head lolling as he straightens; the camera holds on the man, the boy and the pointed road"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "deoksun",
+    "wife",
+    "shade"
+   ],
+   "refs": [],
+   "beat": "버들 밑의 지게, 발등에 물을 뿌리는 물차",
+   "visual": "the willow shade: the carrier set down with the wife seated on it in the shade, Deoksun standing beside it with his jeogori tied closed, shaking the collar at the back of his neck to let the air in, while a horse-drawn water cart with a perforated barrel rolls past on the glaring road throwing a fan of water across his feet; exactly two people",
+   "motion": "the fan of water sweeps across Deoksun's feet and he jolts upright with his hand still at his collar, the water cart rolling on down the road; the camera holds on the man in the willow shade"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "wife",
+    "deoksun",
+    "shade"
+   ],
+   "refs": [],
+   "beat": "병원에 가면 째겠지 — 글썽이는 아내",
+   "visual": "close on the wife seated on the carrier in the willow shade: her hollow face gone dull, tears brimming in her eyes, one hand resting on her covered belly over her long skirt; Deoksun's broad face turned toward her with narrowed eyes at the edge of the frame, his jeogori tied closed; exactly two people",
+   "motion": "a tear spills down the wife's hollow cheek and her hand tightens on her belly, Deoksun's narrowed eyes holding on her; the camera holds close on the two faces"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "deoksun",
+    "wife",
+    "shade"
+   ],
+   "refs": [],
+   "beat": "이상한 병이면 월급을 준다 — 덕순의 희망",
+   "visual": "Deoksun grins at his wife with his thick fingers held up counting, the carrier with the wife seated on it beside him under the willow, his eyes bright with a scheme; exactly two people",
+   "motion": "Deoksun's thick fingers fold down one by one as he counts and his grin widens, the wife watching him from the carrier; the camera holds on the counting hand and the grin"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "deoksun",
+    "wife",
+    "street"
+   ],
+   "refs": [],
+   "beat": "참외 앞의 사 전 — 담뱃값",
+   "visual": "a boy squatting at the roadside behind a straw mat of long yellow-green melons, and Deoksun standing over them with the carrier and his wife on his back, staring down at the melons with one hand pushed deep into his jeogori and clenched, his lips pressed together; exactly three people",
+   "motion": "Deoksun's eyes travel over the melons and his clenched hand stays buried in his jeogori, then he turns his head away up the road; the camera holds on the melons and the turning man"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "deoksun",
+    "wife",
+    "hospital_hall"
+   ],
+   "refs": [],
+   "beat": "산부인과 문 밖에서 기다린 두 시간",
+   "visual": "the hospital corridor: the wife lies slumped along the wooden bench with one hand clutching her swollen belly through her skirt and her head lolling with each breath, Deoksun sitting at her head propping her shoulders with both hands, the tall frosted-glass door shut beside them; exactly two people",
+   "motion": "the wife's head lolls with each shallow breath and Deoksun's hands shift under her shoulders, his eyes on the closed door; the camera holds on the two on the bench"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wife",
+    "doctor",
+    "deoksun",
+    "exam"
+   ],
+   "refs": [],
+   "beat": "진찰실, 토끼처럼 떠는 아내",
+   "visual": "the examination room: the wife lies on the iron bed in her thin jeogori and long skirt, shrunk small and shivering, the stout doctor on the far side of the bed pressing her covered belly with both hands, and Deoksun at the head of the bed gripping her arm with his eyes wide; steel instruments glinting in the glass cabinet; exactly three people",
+   "motion": "the wife's shoulders shiver under the doctor's pressing hands and Deoksun's grip tightens on her arm, his wide eyes on the doctor; the camera holds on the bed and the three figures"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "doctor",
+    "nurse",
+    "deoksun",
+    "exam"
+   ],
+   "refs": [],
+   "beat": "뱃속의 아이가 죽어 있다 — 수술",
+   "visual": "the doctor stands at the enamel basin washing his hands with his back half turned and speaking sideways, the nurse beside him relaying the words with a flat face, and Deoksun facing them with his mouth half open and one hand scratching the back of his head; exactly three people",
+   "motion": "the doctor's hands turn in the basin and the nurse's flat mouth moves, Deoksun's hand scratching slower at the back of his head; the camera holds on the three"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "nurse",
+    "deoksun",
+    "exam"
+   ],
+   "refs": [],
+   "beat": "월급 같은 건 안 주나요 — 간호부의 톡 쏘는 말",
+   "visual": "close on the young nurse with her chin up snapping a sharp reply, and Deoksun before her with his head bowed and his shoulders hunched, both hands wringing his sweat cloth; exactly two people",
+   "motion": "the nurse's chin lifts with the sharp words and Deoksun's bowed head sinks lower, the sweat cloth twisting in his hands; the camera holds on the bowed man"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "wife",
+    "deoksun",
+    "nurse",
+    "exam"
+   ],
+   "refs": [],
+   "beat": "죽으면 죽었지 배는 안 째요",
+   "visual": "the wife has bolted upright on the iron bed with her fists clenched on the sheet and her hollow face fierce, her mouth open in a shout, while Deoksun and the nurse stand back startled; exactly three people",
+   "motion": "the wife's fists pound once on the sheet as she shouts and Deoksun's hands rise half toward her, the nurse stepping back; the camera holds on the fierce upright wife"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "deoksun",
+    "wife",
+    "street"
+   ],
+   "refs": [],
+   "beat": "갑절 무거워진 지게, 힘 풀린 내리막길",
+   "visual": "the glaring street going downhill: Deoksun walks bent nearly double under the carrier with his wife seated on it, her face hidden in her hands, his legs trembling, heat shimmering off the dusty road; exactly two people",
+   "motion": "Deoksun's trembling legs take one slow step after another downhill and the wife's hidden face shakes in her hands, heat wavering over the road; the camera holds on the bent man and his load"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "deoksun",
+    "wife",
+    "shade"
+   ],
+   "refs": [],
+   "beat": "담뱃값으로 산 얼음냉수 한 그릇",
+   "visual": "the willow shade again: Deoksun holds a brass bowl of ice water to his wife's lips with both hands as she sits on the carrier, her thin hands wrapped around his, the ice seller's stall across the glaring road; exactly two people",
+   "motion": "the wife drinks in long swallows with her thin hands around Deoksun's, water running down her chin, his eyes on her face; the camera holds on the bowl at her lips"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "wife",
+    "deoksun",
+    "shade"
+   ],
+   "refs": [],
+   "beat": "왜떡을 문 채 우는 아내의 부탁",
+   "visual": "close on the wife seated on the carrier under the willow with a round rice cracker held to her mouth, tears running down her hollow face as she chews and speaks, Deoksun's broad face close beside her listening with wet eyes; exactly two people",
+   "motion": "the wife's jaw works on the cracker, her lips moving and tears running, Deoksun's wet eyes blinking beside her; the camera holds close on the two faces"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shade"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 지게와 빈 그릇, 땡볕 스틸",
+   "visual": "closing still: the roadside willow shade in the white midsummer glare, a wooden back-carrier (jige) leaning empty against the willow trunk, an empty brass bowl on the dust beside it, the straw-wrapped block of ice on the stall across the road, heat shimmering off the dusty road, the far eaves pale in the glare",
+   "motion": "the willow leaves sway slowly in the glare and heat shimmer wavers over the dusty road, the wooden carrier, the brass bowl and the block of ice standing still in the shade; the camera closes with great patience on the carrier against the trunk"
+  }
+ ],
+ "withheld": "쌀 두 되 꿔 먹은 것을 갚고 옷을 빨아 달라는 아내의 유언"
+}

@@ -105,8 +105,8 @@
   "note": "수확철 뒷골목의 서글픈 셈"
  },
  "talchulgi": {
-  "season": "가을",
-  "note": "찬바람 불기 전 국경을 넘는 가족"
+  "season": "겨울",
+  "note": "간도의 깊은 겨울, 식은 아궁이 앞의 식구"
  },
  "sangol_nageune": {
   "season": "가을",
@@ -159,5 +159,65 @@
  "eomjigongju": {
   "season": "봄",
   "note": "튤립의 탄생과 제비의 봄이 이야기의 처음과 끝입니다"
+ },
+ "nunui_yeowang": {
+  "season": "겨울",
+  "note": "눈보라 너머 얼음 궁전까지, 겨울의 끝으로 가는 길"
+ },
+ "seongnyangpari_sonyeo": {
+  "season": "겨울",
+  "note": "한 해의 마지막 밤, 눈 위의 맨발과 성냥 불빛"
+ },
+ "jeonnamu": {
+  "season": "겨울",
+  "note": "촛불 켜진 크리스마스 응접실의 하룻밤"
+ },
+ "neulgeun_jip": {
+  "season": "겨울",
+  "note": "얼어붙은 창에 입김으로 낸 구멍 너머의 낡은 집"
+ },
+ "mannyeon_syeocheu": {
+  "season": "겨울",
+  "note": "살이 터지도록 추운 날, 만년 셔츠로 학교에 온 소년"
+ },
+ "geum_ttaneun_kongbat": {
+  "season": "가을",
+  "note": "벼 베는 노래가 들리는 가을, 구멍 뚫린 콩밭"
+ },
+ "bincheo": {
+  "season": "봄",
+  "note": "봄비 듣는 밤, 텅 빈 장롱 앞의 아내"
+ },
+ "san_hyoseok": {
+  "season": "가을",
+  "note": "개암 익는 산등, 낙엽 속의 잠자리"
+ },
+ "halmeoni_jugeum": {
+  "season": "봄",
+  "note": "삼월 그믐의 전보, 앵화 구경 길에 닥친 전보"
+ },
+ "ttaengbyeot": {
+  "season": "여름",
+  "note": "중복 땡볕의 서울 거리, 버들 그늘의 얼음냉수"
+ },
+ "bulgeun_san": {
+  "season": "겨울",
+  "note": "만주 벌판의 첫 겨울, 서리 앉은 밭고랑"
+ },
+ "non_iyagi": {
+  "season": "여름",
+  "note": "해방된 팔월의 마을, 외상 소주와 서른다섯 해 만의 논"
+ },
+ "miseuteo_bang": {
+  "season": "가을",
+  "note": "단풍 든 사택 정원, 해방된 구월의 종로"
+ },
+ "piano": {
+  "season": "봄",
+  "note": "꽃 날리는 늦봄, 서울의 신살림"
+ },
+ "kkamakjapgi": {
+  "season": "봄",
+  "note": "포플러 잎 나는 봄밤, 종로의 음악회와 초승달"
  }
 }

@@ -1,0 +1,193 @@
+{
+ "logline": "낡은 책에서 떨어진 양피지의 암호를 조카 악셀이 풀자 교수는 안내인 한스와 함께 아이슬란드 화산 분화구로 내려가고, 어두운 굴에서 길을 잃은 악셀이 지하 바다를 만나 셋이 뗏목을 엮어 폭풍과 거대한 짐승과 버섯 숲과 거인의 그림자를 지나, 길을 막은 바위를 터뜨린 뒤 물살에 실려 솟구친다",
+ "destination": "소설 지구 속 여행에서 만날 수 있습니다",
+ "protagonist": "axel",
+ "setting": "1863년 — 함부르크의 서재, 아이슬란드의 눈 덮인 화산과 분화구, 땅속의 검은 굴, 빛이 도는 지하 바다와 버섯 숲, 물이 차오르는 화산의 목",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/jigu_sok_yeohaeng/assets",
+ "anchor": "a young man of nineteen in a plain brown jacket with a lantern in the dark under the ground",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "뗏목이 솟구쳐 나온 곳과, 학자가 밝혀낸 양피지 주인의 이름",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "professor",
+    "axel",
+    "parchment",
+    "study"
+   ],
+   "refs": [],
+   "beat": "낡은 책 갈피에서 떨어진 양피지 한 장이 교수를 사로잡는다",
+   "visual": "dull yellow light from a brass oil burner under a glass chimney in the study lined to the ceiling with old books: the thin man of fifty with the wild grey hair standing up from his head and the small round spectacles, in the long dark coat, is the one standing at the wide desk at frame centre with a small sheet of yellowed parchment held up to the flame in both hands, its edges cracked and three rows of faint scratched marks on it that cannot be read as letters, his plain sharp face close to it; a thick old book lies open on the desk in front of him with its spine cracked, and the young man of nineteen with the neat fair hair in the plain brown jacket is the one standing at the desk's end at frame right with one hand on the open book and his plain young face turned to the parchment; stone specimens and a globe on its stand crowd the shelves behind them; the tall window of small panes is dark; the two of them are the only people in the room",
+   "motion": "the parchment in the professor's hands is the one thing that moves, and the study holds still: at the start it is held up to the flame in both hands with his face close to it; over the first three seconds his hands tilt the parchment slowly toward the flame and back so that its light travels across the three rows of faint marks, his spectacles catching the light as his head follows, his lips moving without sound; in the last two seconds the parchment holds tilted to the oil burner; the young man keeps his hand on the open book and his face on the parchment, not moving; the oil flame burns steadily under its glass chimney; the old books, the stone specimens, the globe on its stand and the dark window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "axel",
+    "parchment",
+    "study"
+   ],
+   "refs": [],
+   "beat": "조카 악셀이 사흘 만에 그 양피지의 암호를 풀어낸다",
+   "visual": "grey morning light through the tall window of small panes into the study: the young man of nineteen with the neat fair hair in the plain brown jacket is the one sitting alone at the wide desk at frame centre with the small sheet of yellowed parchment flat on the desk before him and a second sheet of clean paper beside it covered in his own pencil marks, his head propped on one hand and his other hand holding the pencil still above the paper, his plain young face gone slack with surprise and his mouth open; three candle stubs burned to nothing stand in a row on the desk among crumpled papers and a cold cup; the oil burner is out; the old books rise to the ceiling behind him and the globe stands in the corner; he is the only person in the room",
+   "motion": "the young man at the desk is the one who moves, and the room holds still: at the start his head is propped on one hand with the pencil held still above the paper and his mouth open; over the first three seconds his head comes slowly up off his hand and turns from the paper to the parchment beside it, the pencil lowering to the desk and his other hand coming down flat on the parchment, his mouth staying open; in the last two seconds he holds with his hand flat on the parchment and his face down at it; the three burned-out candle stubs, the crumpled papers, the cold cup and the dead oil burner keep their places; the grey light in the small panes and the old books to the ceiling hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "parchment",
+    "volcano",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "암호가 가리킨 곳은 아이슬란드의 화산 분화구",
+   "visual": "hard white light over a broad snow-covered volcano: the volcano fills the middle of the frame with its wide open crater at the top and black rock showing through the snow along its ridges, bare grey slopes of ash running down below the snow line to a plain of dark stones; in the foreground at the bottom of the frame the small sheet of yellowed parchment lies flat on a grey boulder, held down at one corner by a smaller stone, its three rows of faint scratched marks facing the sky and its cracked edges lifting a little; a thin line of pale steam rises from one side of the crater; the wide low grey sky comes down to the volcano's shoulders; there is nobody in the picture",
+   "motion": "the thin line of steam from the crater is the one thing that moves, and the volcano holds still: at the start it rises pale and straight from one side of the crater; over the first three seconds it leans slowly to one side and thins, a fresh puff rising into it from the crater's rim and spreading as it climbs, and then the line straightens again; in the last two seconds the steam keeps rising at the same slow rate; the parchment on the grey boulder keeps its place with its cracked edges lifted and the small stone on its corner; the black ridges, the grey ash slopes, the plain of dark stones and the low grey sky hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "travellers",
+    "volcano",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "교수와 악셀은 안내인 한스와 함께 눈 덮인 화산에 닿는다",
+   "visual": "hard white light on the grey ash slope below the snow line of the volcano: the tall broad man of forty with the long pale hair under the wide-brimmed felt hat, in the coat of coarse grey wool with the coil of rope over one shoulder, is the one walking ahead at frame right with a long iron-shod staff planted in the ash and his plain calm clean-shaven face with narrowed eyes turned up the slope; the thin man of fifty with the wild grey hair and the small round spectacles, in the long dark coat, is the one a few paces behind at frame centre with his coat tails blown sideways and one hand holding his hat down, his sharp face lifted to the crater; the young man of nineteen in the plain brown jacket with the leather satchel is the one last at frame left, bent forward under a bundle of rope and a lantern, his young face down at the ash; the snow and the black ridges of the crater rise above them and the wide low grey sky presses down; the crater above is quiet and cold with no smoke, no fire and no glow in it; exactly three people on the slope",
+   "motion": "the three climbers are the ones who move, and the slope holds still: at the start the guide is a few paces ahead with his staff planted and the other two strung out behind; over the first three seconds all three climb slowly on up the ash at the same pace, the guide's staff lifting and planting once, the professor's coat tails streaming sideways and his hand pressing his hat down, the young man's bundle of rope swaying on his back as he leans into the slope; in the last two seconds they keep climbing at the same slow pace and stay well inside the frame; the snow above, the black ridges of the crater and the low grey sky hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "travellers",
+    "volcano",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "셋은 긴 밧줄을 타고 분화구 아래로 깊이 내려간다",
+   "visual": "grey daylight coming down from above into the throat of the crater: the walls of dark rock close in on both sides of the frame and drop away below into black, and a long rope hangs down the middle of the frame from an iron spike driven into the rock at the top edge; the tall broad man in the coarse grey wool coat and the felt hat is the one lowest on the rope at frame centre with both hands closed on it above his head and his boots braced flat against the rock wall, his calm face turned up; above him the thin man of fifty in the long dark coat with the wild grey hair is the one on the rope at frame centre with his spectacles flashing and one boot feeling for a ledge; highest of the three, the young man in the brown jacket is the one just coming over the lip with the lantern hooked to his belt; ledges of dark rock and veins of pale crystal show in the walls; the black below has no bottom; exactly three people on the rope",
+   "motion": "the guide lowest on the rope is the one who moves, and the two above him hold their places: at the start his hands are closed on the rope above his head and his boots are flat against the wall; over the first three seconds his hands move slowly one below the other down the rope and his boots walk down the rock wall after them, the rope swaying gently under his weight and his felt hat brim tilting up as he looks down; in the last two seconds he holds a little lower with his boots braced again; the professor above him keeps one boot on its ledge and his hands on the rope; the young man at the lip keeps his place with the lantern at his belt; the iron spike at the top, the ledges of dark rock and the veins of pale crystal hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "axel",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "등불 하나로 어두운 굴을 걷던 악셀은 혼자 길을 잃는다",
+   "visual": "the small yellow light of one lantern in the narrow winding passage deep under the ground: the young man of nineteen with the neat fair hair in the plain brown jacket is the one standing alone at frame centre with the lantern held up in one hand at the height of his head and his other hand flat on the wall of black and dull green stone beside him, his plain young face turned back over his shoulder into the dark behind him; the lantern light reaches only a few paces along the walls with their veins of pale crystal and then the passage goes on into complete black in both directions; the floor of loose stones under his boots; the leather satchel hangs from his shoulder with its strap twisted; he is the only person in the passage and no other light shows anywhere",
+   "motion": "the young man's lantern is the one thing that moves, and the passage holds still: at the start it is held up at the height of his head with its light on the wall beside him; over the first three seconds his arm carries the lantern slowly out to the side and round behind him so that the pool of yellow light travels along the wall of black and green stone and across the loose floor toward the dark he is looking into, the veins of pale crystal lighting one after another as it passes; in the last two seconds the lantern holds out behind him with its light on the black; his other hand stays flat on the wall and his face stays turned back over his shoulder; the loose stones under his boots and the black in both directions hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "axel",
+    "under_sea"
+   ],
+   "refs": [],
+   "beat": "혼자 헤맨 악셀이 굴 끝에서 만난 넓은 지하 바다",
+   "visual": "a pale even glow filling the air of a cavern so wide its far side is lost in haze: the mouth of the dark passage frames the left edge of the picture, and the young man of nineteen in the plain brown jacket is the one standing in that mouth at frame left with the lantern hanging forgotten from his hand and his other hand up shading his eyes, his plain young face open in wonder; beyond him the vast sea under the ground runs out flat and grey-green to the haze with small waves breaking on a shore of grey sand and pale boulders below him; along the shore at frame right a forest of giant mushrooms stands on tall pale stalks, their caps as wide as roofs; the glow comes from nowhere and everywhere and throws no shadows; he is the only person on the shore",
+   "motion": "the small waves on the shore are the one thing that moves, and the young man holds still: at the start a low wave is running up the grey sand below the passage mouth; over the first three seconds it runs slowly up the sand, thins to a sheet and slides back, and a second wave comes in behind it at the same slow rate, the pale boulders standing in the wash; in the last two seconds the second wave runs up the sand; the young man keeps the lantern hanging from his hand and his other hand shading his eyes, his face open and unmoving; the vast grey-green sea out to the haze, the giant mushrooms on their tall stalks and the even glow in the air hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "travellers",
+    "raft",
+    "under_sea"
+   ],
+   "refs": [],
+   "beat": "셋은 그 바다 기슭에서 나무를 엮어 뗏목을 만든다",
+   "visual": "the pale even glow over the shore of grey sand: the square raft of pale petrified logs lies half built at frame centre at the water's edge, its logs laid side by side and three of them already lashed with rope; the tall broad man in the coarse grey wool coat is the one kneeling on the raft at frame centre with both hands hauling a rope tight round two logs, his felt hat pushed back and his calm face down at the knot; the young man of nineteen in the brown jacket is the one at frame left carrying another pale log toward the raft in both arms with his face turned to the guide; the thin man of fifty with the wild grey hair is the one standing at frame right with a short mast of pale wood upright in one hand and a folded grey blanket over his other arm, his spectacles turned to the water; the sea runs out flat and grey-green to the haze and the giant mushrooms stand along the shore behind them; exactly three people",
+   "motion": "the guide's hands on the rope are the one thing that moves, and the other two hold still: at the start both his hands are hauling the rope tight round the two logs; over the first three seconds his hands draw the rope slowly round the logs once more and pull it hard, his shoulders leaning back with the pull and the two logs drawing a finger's width closer together, the loose end of the rope sliding across the pale wood; in the last two seconds his hands hold the rope tight with the knot half made; the young man keeps the log in his arms and his face on the guide; the professor keeps the short mast upright in his hand and the blanket over his arm; the flat sea, the giant mushrooms and the grey sand hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "travellers",
+    "raft",
+    "under_sea",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "뗏목 위의 셋을 번개가 내리치는 폭풍이 덮친다",
+   "visual": "dark stormy air over the sea under the ground with a forked white flash of lightning across it and rain in straight grey lines: the square raft of pale logs rides high on a grey-green wave at frame centre with its square sail of blanket cloth stretched full and its short mast bent; the tall broad man in the coarse grey wool coat is the one at the stern with both arms round the rudder oar and his felt hat gone, his long pale hair streaming; the thin man of fifty in the long dark coat is the one crouched at the mast foot with both arms round it and his spectacles white with the flash; the young man in the brown jacket is the one flat on the logs at frame left with both hands closed on the lashing ropes and his face down; white water comes over the raft's edge; the far shore is lost in the dark; exactly three people on the raft",
+   "motion": "the raft on the wave is the one thing that moves, and the three on it hold their grips: at the start it rides high on the crest of a grey-green wave with its sail full; over the first three seconds the wave carries it slowly down its far slope, the raft tilting forward and the white water at its edge running back across the logs, the full sail leaning and the bent mast leaning with it; in the last two seconds the raft holds low in the trough with the next wave rising beyond it; the guide keeps both arms round the rudder oar, the professor keeps his arms round the mast foot and the young man keeps his hands on the lashing ropes, none of them shifting; the forked lightning stays fixed in the dark air and the rain keeps coming down in straight lines at the same rate; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "beasts",
+    "raft",
+    "under_sea",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "폭풍 속 물살 아래로 지나간 거대한 두 짐승의 검은 등",
+   "visual": "dark stormy air and rain over the grey-green sea: seen from the raft's edge, two long dark shapes are the ones passing under the water at frame centre a little way off, one with a ridged back breaking the surface in a long low curve and one with a long neck lifted a little above the waves and paddle limbs showing dark under the water, both far enough off to be half hidden by the waves and the rain; the near corner of the raft with its pale lashed logs and the foot of the bent mast shows at the bottom of the frame; white water streaks the grey-green sea between the raft and the shapes; a forked white flash lies across the dark air above; nobody's face is in the picture",
+   "motion": "the two dark shapes under the water are the ones that move, and the raft's corner holds still: at the start the ridged back is breaking the surface in a long low curve and the long neck is lifted above the waves; over the first three seconds the ridged back slides slowly forward and down under the grey-green water, its curve flattening as it goes, and the long neck turns slowly the other way and sinks until only its top is above the waves; in the last two seconds both shapes hold low in the water with white streaks closing over them; the pale logs at the raft's corner and the foot of the bent mast do not shift; the forked flash stays fixed in the dark air and the rain keeps its straight lines; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "travellers",
+    "raft",
+    "under_sea"
+   ],
+   "refs": [],
+   "beat": "뗏목이 닿은 기슭에는 집채만 한 버섯 숲이 서 있다",
+   "visual": "the pale even glow returned over a shore of grey sand: the square raft of pale logs lies drawn up on the sand at frame left with its blanket sail hanging torn from the mast; the forest of giant mushrooms stands along the shore at frame centre and frame right on tall pale stalks thicker than a man, their brown caps as wide as roofs and joined edge to edge overhead so that the space under them is a dim hall of stalks; the three travellers are the ones standing small at the foot of the nearest stalk at frame centre, the tall broad man with his hand flat on the stalk, the thin man of fifty with his head back and his spectacles up at the cap, the young man with the lantern held up though the glow needs no lantern; grey sand and pale boulders run between the stalks; the sea lies flat behind the raft; exactly three people",
+   "motion": "the professor's head is the one thing that moves, and the other two hold still: at the start his head is back with his spectacles turned up at the cap above; over the first three seconds his head turns slowly from the cap overhead along the joined caps toward the dim hall of stalks at frame right, his spectacles catching the glow and one hand rising to point up at the caps; in the last two seconds his head holds turned toward the hall of stalks with his hand pointing up; the guide keeps his hand flat on the stalk and the young man keeps the lantern up; the torn sail on the drawn-up raft hangs still; the giant mushrooms on their tall stalks, the grey sand and the flat sea hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "under_sea"
+   ],
+   "refs": [],
+   "beat": "버섯 숲 너머로 커다란 짐승 떼를 모는 거인의 그림자",
+   "visual": "the pale even glow thinning to haze beyond the forest of giant mushrooms: seen from between two of the tall pale stalks in the foreground, a wide plain of grey sand runs away to the haze, and far off on that plain a herd of large shaggy shapes with long curved tusks is the one moving slowly across it in a dark mass, each shape no bigger in the picture than a thumbnail; among them and taller than any of them by twice, one upright shape is the one walking with a long staff held out over the herd, only a dark shape in the haze with no face to be seen; the mushroom caps overhead close the top of the frame in a dim brown roof; grey sand and pale boulders in the foreground between the stalks; the shapes are too far off for any feature to show",
+   "motion": "the far herd on the plain is the one thing that moves, and the foreground holds still: at the start the dark mass of shaggy shapes is crossing the plain from frame right toward frame left with the tall upright shape among them; over the first three seconds the whole mass drifts slowly on across the plain, the shapes shifting a little within it and the tall shape's staff swinging slowly out over the herd and back, all of it staying small and far in the haze; in the last two seconds the mass keeps drifting at the same slow rate; the two pale stalks in the foreground, the brown roof of caps overhead, the grey sand and the pale boulders hold completely still; the haze does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "travellers",
+    "boulder",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "거인의 그림자를 뒤로하고 셋은 굴을 막은 바위 앞에 선다",
+   "visual": "lantern light in the narrow passage of black and dull green stone: the single enormous rounded boulder of dark stone is the one wedged across the passage from wall to wall at frame centre with a narrow gap of black at its top edge, its surface wet and shining in the lantern light; the tall broad man in the coarse grey wool coat is the one at frame left with both palms flat on the boulder and his shoulder against it, his calm face turned to the professor; the thin man of fifty with the wild grey hair is the one at frame centre holding the lantern up to the gap at the top of the boulder with his spectacles flashing and his other hand pressed flat to the stone; the young man of nineteen in the brown jacket is the one at frame right with a small wooden keg held in both arms against his chest and a coil of slow match hanging from his belt, his young face on the boulder; the loose stones of the floor and the veins of pale crystal in the walls; exactly three people before the boulder — one old man in spectacles, one tall broad man in the felt hat, and one young man in the brown jacket, and no second young man anywhere",
+   "motion": "the professor's lantern is the one thing that moves, and the other two hold still: at the start it is held up to the narrow gap at the top of the boulder; over the first three seconds his arm carries the lantern slowly across the boulder's wet face from the gap down toward the floor, the pool of yellow light travelling over the dark shining stone and the veins of crystal in the wall beside it lighting as it passes; in the last two seconds the lantern holds low against the boulder's foot; the guide keeps his palms flat on the stone and his shoulder against it; the young man keeps the keg in his arms and his face on the boulder; the narrow gap of black at the top, the loose floor and the walls of black and green stone hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "travellers",
+    "raft",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "터진 바위 뒤 물살에 실린 뗏목은 어디로 솟구쳤을까",
+   "visual": "a red-brown glow from below in a tall narrow shaft of dark rock: the square raft of pale logs is the one riding at frame centre on a column of dark water that fills the shaft from wall to wall and is rising, white foam boiling round the raft's edges and steam standing in the air above; the tall broad man in the coarse grey wool coat is the one kneeling at the raft's middle with both arms round the mast stump and his long pale hair plastered flat; the thin man of fifty in the long dark coat is the one beside him gripping the lashing ropes with his spectacles gone and his sharp face turned up the shaft; the young man in the brown jacket is the one flat on the logs with both hands closed on a rope and his face turned up too; the walls of the shaft run up past the top of the frame with ledges of dark rock and veins of crystal lit from below; exactly three people on the raft",
+   "motion": "the column of water carrying the raft is the one thing that moves, and the three on the raft hold their grips: at the start the raft rides on the boiling water a little below the middle of the frame; over the first three seconds the whole column rises slowly up the shaft carrying the raft with it, the white foam round the raft's edges climbing the walls and the ledges of dark rock sliding slowly down past the raft on both sides, the steam above thickening; in the last two seconds the raft keeps rising at the same slow rate and stays well inside the frame; the guide keeps his arms round the mast stump, the professor keeps his grip on the ropes and the young man keeps his hands on his rope, none of them shifting; the red-brown glow from below does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "volcano",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 화산 비탈에 김만 오른다",
+   "visual": "hard grey light on a bare slope of dark volcanic stone: the slope runs down from the top of the frame to a strip of blue sea at the bottom edge, its surface all broken black rock with thin pale steam rising from cracks between the stones in three places; a single pale petrified log lies wedged between two black rocks at frame centre with a frayed end of rope still tied round it, and a burned scrap of grey blanket cloth lies on the stones beside it; the sea at the bottom is flat and blue with a small white boat far out on it; the wide low grey sky above the slope; there is nobody on the slope; the black rock of the slope is glassy in places and dull in others, with a crust of pale ash caught in the cracks; the frayed rope on the log is grey with salt and its strands stand apart; the small boat on the blue sea has one square sail",
+   "motion": "the thin pale steam from the cracks is the one thing that moves, and the slope holds still: at the start it rises straight from the three cracks between the stones; over the first three seconds the three lines of steam lean slowly the same way and thin, and a fresh puff rises from the nearest crack and spreads as it climbs; in the last two seconds the steam keeps rising at the same slow rate; the pale petrified log wedged between the rocks, the frayed rope round it and the burned scrap of blanket keep their places; the broken black rock of the slope, the flat blue sea with its small far boat and the low grey sky hold completely still; the whole picture keeps its light and its shadows exactly as they are throughout; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

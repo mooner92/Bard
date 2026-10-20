@@ -1,0 +1,184 @@
+{
+ "logline": "죽음의 문턱에서 아가미를 갖게 된 소년이 깊고 푸른 호숫가에 숨어 살며, 상처 입은 사람들과 얽혀 간다",
+ "destination": "소설 아가미에서 만날 수 있습니다",
+ "protagonist": "gon",
+ "setting": "낮은 숲 언덕에 둘러싸인 깊고 푸른 호수와 호숫가의 작은 나무집, 낡은 나무 부두",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/agami/assets",
+ "anchor": "a slim pale Korean teenage boy with large dark eyes and shaggy black hair, fine silver slits along both sides of his neck",
+ "palette": "lake blue, misty grey, silver, pale green, warm amber",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "곤이 아가미를 얻게 된 사연, 곤의 운명과 결말, 이녕과 해류에게 일어나는 일",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "lake",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "깊고 푸른 호수 아래, 아가미로 숨 쉬는 소년",
+   "visual": "dawn over a deep blue lake among low forested hills: a thin white mist lies on the still water and drifts in slow veils, reeds stand along the shore, and a weathered wooden pier runs out into the lake from the left with a small wooden rowing boat tied at its end; near the end of the pier, a thin line of small silver bubbles rises steadily from the deep and breaks into tiny rings on the glassy surface, the only sign of something breathing below; the hills behind are dark green and soft in the mist; the pale sky brightens over the far shore; a heron stands motionless in the reeds; the lake is vast, cold, blue and secret, holding something alive in its depth; a narrow footpath winds along the shore to a small wooden house with a rusty tin roof half hidden by willows, and a pair of wild ducks sits asleep on the water near the reeds",
+   "motion": "a thin line of small silver bubbles keeps rising to the still surface beside the pier, and that rising line of bubbles is the one movement in the shot: at the start a few bubbles reach the glassy water; over the whole five seconds a steady stream of tiny bubbles keeps rising from the deep and opening into small rings that spread slowly across the surface, while the thin mist drifts very slowly over the lake; the pier, the tied rowing boat, the reeds and the motionless heron stay completely still; the dark green hills and the pale sky hold unchanged; the soft dawn light holds steady; the two sleeping ducks near the reeds and the distant house among the willows stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the lake from the shore, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "gon_child",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "죽음의 문턱에서 아가미를 갖게 된 소년",
+   "visual": "deep under a clear blue lake in the morning: shafts of sunlight slant down through the water from the bright rippling surface far above, waterweeds sway slowly from the mossy rocks below, and a shoal of small silver fish turns nearby; at frame centre the small thin Korean boy with a pale face, large dark eyes and wet black hair in a faded oversized grey T-shirt swims gently upright in the water, kicking slowly, lively and awake, his large dark eyes wide open with wonder and a small amazed smile on his lips; along both sides of his neck fine silver slits flutter open and closed as he breathes, letting out a tiny trickle of bubbles; faint silver-blue scales glint on his shoulders and forearms in the sunbeams; his small hands sweep the water in easy little strokes; the water around him is luminous blue and silent; the image is strange, beautiful and gentle, a child breathing freely under the water; far below him the lake bed fades into a soft blue darkness, a few drifting leaves turn slowly near the surface, and a fat old carp watches him from behind a mossy rock",
+   "motion": "the fine silver slits along the boy's neck open and close slowly as he breathes underwater, and that breathing is the one movement in the shot: at the start he swims gently in place with the slits half open; over the whole five seconds they flutter open and closed in a slow steady rhythm, each breath releasing a tiny trickle of bubbles that wobbles up toward the bright surface, while his wide eyes drift slowly toward the turning shoal of silver fish and his hair sways gently; his small body stays upright at the centre of the frame, his hands sweeping softly; the swaying waterweeds and the mossy rocks below stay in their places; the shafts of sunlight hold steady; the drifting leaves near the surface turn very slowly, and the old carp behind the rock stays still; the camera holds a medium shot level with him in the water, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "elder",
+    "gangha_boy",
+    "gon_child",
+    "lakehouse_in"
+   ],
+   "refs": [],
+   "beat": "호숫가의 노인과 손자 강하가 발견한 그 소년",
+   "visual": "evening inside a small old wooden lakeside house: an iron wood stove glows orange at frame left, fishing nets and floats hang on the plank walls, and a small window looks out over the darkening lake; at frame centre the small thin Korean boy with large dark eyes and wet black hair sits on a low stool by the stove wrapped in a thick grey wool blanket, holding a dented tin cup of warm water in both hands, wide awake and staring up in quiet wonder; beside him, seen from behind and half turned away, a stooped elderly figure in a patched dark quilted jacket and a grey knit cap tucks the blanket around his shoulders with weathered hands; at frame right a thin scrappy older boy with spiky black hair, narrow eyes and scuffed knees, in a faded brown jumper and shorts, leans in a doorway, arms crossed, frowning at the small boy with suspicious curiosity; steam rises from the cup; the room is warm, small and safe",
+   "motion": "steam curls slowly up from the tin cup in the small boy's hands, and that curling steam is the one movement in the shot: at the start a thin wisp rises from the cup; over the whole five seconds the steam keeps curling up past his face in the warm stove light, while his large dark eyes drift slowly from the elderly figure to the frowning older boy in the doorway; the elderly figure's hands stay resting on the blanket at his shoulders; the older boy stays leaning in the doorway with crossed arms; the iron stove, the hanging nets and the small window stay completely still; the warm glow of the stove holds steady; the hanging floats and the nets on the plank walls stay perfectly still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from the low table, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "gon_child",
+    "gangha_boy",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "소년이 얻은 곤이라는 이름, 그들과 함께 살아가는 나날",
+   "visual": "a bright summer afternoon at the end of the weathered wooden pier: the small thin Korean boy with large dark eyes and black hair in a faded oversized grey T-shirt sits on the edge of the planks at frame centre with his bare feet dangling just above the water; beside him sits the thin scrappy older boy with spiky black hair in a faded brown jumper and shorts, pointing out across the blue lake with one arm, saying something with a grudging half smile; the small boy looks where he points, his face open and curious; a small wooden rowing boat rocks gently tied to the post beside them; the lake glitters blue to the forested hills on the far shore; dragonflies hover over the reeds; sunlight warms the planks; the moment is plain and happy, a new name and a new home; a coil of rope and a tin bucket stand on the planks behind them, a frayed straw hat lies upside down beside the older boy, and the shadows of the two boys stretch side by side across the planks",
+   "motion": "the small boy swings his bare feet slowly over the water, and that swinging is the one movement in the shot: at the start his feet hang just above the surface; over the whole five seconds they swing slowly back and forth, his toes skimming the water now and then and sending small rings outward, while the older boy keeps his arm pointing out across the lake and the dragonflies hover over the reeds; both boys stay seated side by side on the edge of the pier facing the lake; the rowing boat stays tied to its post; the far hills and the bright sky hold unchanged; the summer sunlight holds steady; the coil of rope, the tin bucket and the upside-down straw hat stay still on the planks; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from behind and to the side on the pier, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "gon",
+    "lake"
+   ],
+   "refs": [],
+   "beat": "자란 소년 곤 — 목덜미의 아가미를 감추는 후드",
+   "visual": "a grey misty morning on the reedy lakeshore: the slim pale Korean teenage boy with large dark eyes and shaggy black hair stands at frame centre at the water's edge in a grey hooded sweatshirt and dark trousers, the hood pulled up and its drawstring pulled tight around his face so only his eyes, nose and mouth show; his hands are pushed deep into the front pocket; at the edge of the hood, just below his jaw, a faint silver glint shows where the slits on his neck are hidden; he gazes out over the misty blue water with a quiet longing; reeds stand around his ankles; the lake stretches away into mist toward the forested hills; the light is soft and grey; he looks careful, guarded and alone; a small flat-bottomed boat lies upturned on the shore behind him, an old wooden fish trap sits half in the water among the reeds, and dew beads on the grey cotton of his hood",
+   "motion": "the boy's breath hangs and drifts in the cold misty air, and that drifting breath is the one movement in the shot: at the start he stands still at the water's edge with his hood drawn tight; over the whole five seconds small pale puffs of breath leave his lips and drift slowly away over the water, while his eyes stay fixed on the misty lake and the mist itself drifts very slowly past the reeds; his hands stay deep in the sweatshirt pocket and the tight hood stays in place; the reeds, the still water and the far hills stay completely still; the soft grey light holds steady; the upturned boat on the shore and the old fish trap among the reeds stay completely still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from the shore beside him, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "gon_swim",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "물속에서만큼은 비늘을 반짝이며 자유로운 곤",
+   "visual": "deep in the clear blue lake on a bright day: shafts of sunlight slant through the water, waterweeds sway over mossy rocks, and a large shoal of small silver fish wheels around the frame; at frame centre the slim pale Korean teenage boy with shaggy black hair swims easily through the shoal, bare-chested in dark swim shorts, his body stretched long, his large dark eyes open and shining with joy; the fine silver slits along his neck are open wide, and silver-blue scales glitter across his shoulders, back and forearms wherever the sunbeams touch him; his hair streams back; the fish part around him without fear; the water is luminous, the moment completely free; far below him the rocks are carpeted with green moss, a slow column of bubbles rises from the sandy bottom, and the bright surface above ripples in a moving net of light",
+   "motion": "the boy glides slowly forward through the shoal of silver fish, and his gliding is the one movement in the shot: at the start he hangs among the fish with his arms at his sides; over the whole five seconds he glides slowly forward through the water with one easy ripple of his body, staying at the centre of the frame, the silver fish parting and closing around him, the scales on his shoulders and forearms glittering as the sunbeams pass over them, his face breaking into a wide smile; the waterweeds keep swaying gently over the mossy rocks; the shafts of sunlight hold steady; the mossy rocks below and the slow column of bubbles from the sandy bottom hold their places; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot level with him in the water, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "gon_swim",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "곤은 말 없는 물고기들과 살갗을 맞대고 이야기를 나눈다",
+   "visual": "near the bottom of the clear blue lake in soft green-blue light: at frame centre the slim pale Korean teenage boy with shaggy black hair, bare-chested in dark swim shorts, hovers upright with his eyes open and soft and rests his open palm gently against the side of a large old carp with heavy silver-gold scales, which holds perfectly still beside him; behind them waterweeds sway around a mossy rock where a cluster of small milky pearl-like fish eggs glistens in the shadow; tiny silver fish with fine transparent tail fins hover close; the fine silver slits along the boy's neck flutter slowly; his face is calm and listening; the water is hushed and dim, the light rippling softly across them; it is a conversation without words; a few loose leaves drift down through the water from the surface, the sandy lake bed below is patterned with soft rippling light, and a small crayfish rests on the mossy rock",
+   "motion": "the boy's hand rests on the carp while his neck slits flutter slowly, and that slow fluttering breath is the one movement in the shot: at the start he hovers upright with his palm on the fish's side and his eyes open; over the whole five seconds the silver slits along his neck open and close in a slow rhythm, releasing a thin trickle of bubbles, while the old carp's fins stir gently and the tiny silver fish hover close around his fingers; his hand stays resting on the carp; the mossy rock, the cluster of milky eggs and the swaying waterweeds stay in their places; the soft rippling light holds steady; the small crayfish on the mossy rock stays still, and the few loose leaves drift down very slowly; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium close shot level with them in the water, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "gangha",
+    "gon_swim",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "곤이 떠날까 두려운 강하, 겉으로는 거칠게",
+   "visual": "a cool grey afternoon at the end of the weathered wooden pier: the lean Korean teenage boy with spiky black hair, sharp narrow eyes and a scowling mouth stands on the planks at frame right in a faded brown work jacket and jeans, holding out a rolled grey towel at arm's length, stiff and impatient, his scowl hiding something worried; below him at frame left, in the dark blue water at the pier's edge, the slim pale teenage boy with shaggy wet black hair rests his forearms on the lowest plank, only his head and shoulders above the surface, looking up at him with large dark eyes, silver scales glinting on his wet shoulders; the small rowing boat bobs at its post; the lake stretches grey-blue behind them to the misty hills; the moment is rough, awkward and full of care; a tin bucket and a coil of rope sit on the planks beside the older boy's boots, and a grey heron stands watching from the reeds at the shore end of the pier",
+   "motion": "the boy on the pier shakes the rolled towel impatiently at the one in the water, and that shaking is the one movement in the shot: at the start he holds the towel out at arm's length; over the whole five seconds he jerks it slowly up and down a few times, his scowl deepening and his narrow eyes darting from the boy in the water to the open lake beyond, while the boy in the water stays resting on the plank looking up, small ripples spreading from his shoulders; both stay in their places at the pier's end; the rowing boat bobs gently at its post; the grey-blue lake and the misty hills hold unchanged; the grey light holds steady; the tin bucket and the coil of rope stay still, and the grey heron in the reeds stays watching; the camera holds a medium shot along the pier, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "pier"
+   ],
+   "refs": [],
+   "beat": "곤의 도움으로 목숨을 건진 해류, 그 비밀을 뒤쫓다",
+   "visual": "early morning at the end of the weathered wooden pier, with no one on it: a dark wool coat hangs over a pier post to dry; beside it on the planks a grey wool blanket lies neatly folded, and a dented steel thermos stands with its cup filled, a thin curl of steam rising from it; a line of drying footprints leads from them back along the pier toward the reedy shore and the house; and at the very end of the planks, in a small puddle, lies a single silver scale the size of a fingernail, glinting in the first light; the lake beyond is calm and blue with mist rising from it; the rowing boat is tied at its post; the scene is quiet and full of a story, a night of rescue and of something impossible glimpsed in the water; the reeds along the shore stand silver with dew, a pair of ducks sleeps on the calm water, and the small wooden house with its rusty tin roof shows faintly in the mist at the end of the shore path, one window glowing warm",
+   "motion": "a thin curl of steam rises from the filled cup of the steel thermos on the planks, and that rising steam is the one movement in the shot: at the start a faint wisp lifts from the cup; over the whole five seconds it curls slowly upward in the cool morning air and thins away, while the mist rises very slowly from the calm lake; the coat on the post, the folded blanket, the thermos and the drying footprints stay completely still; the single silver scale glints steadily in its puddle; the rowing boat stays tied; the first morning light holds steady; the dewy reeds, the sleeping ducks and the faint house in the mist stay completely still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium close shot along the pier at plank height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "inyeong",
+    "lakehouse"
+   ],
+   "refs": [],
+   "beat": "강하를 두고 떠났던 어머니 이녕, 십수 년 만의 귀환",
+   "visual": "dusk on the dirt path leading to the small old wooden house on the lakeshore: the house stands at frame centre with its rusty tin roof, narrow porch and one warm lit window, fishing nets drying on a rail beside it, the dark blue lake beyond; on the path in the foreground stands a thin woman seen from behind with long tangled black hair, in a worn beige trench coat, holding a small battered suitcase in one hand, stopped still, facing the lit window; her shoulders are hunched against the evening chill; the long grass along the path stirs; the sky over the lake fades from amber to deep blue; the moment is hesitant and heavy, a homecoming after far too long; a pair of rubber boots stands by the porch steps, an old bicycle with a basket leans against the wall, and smoke curls thinly from a stovepipe on the tin roof",
+   "motion": "the long grass along the path stirs in a slow evening wind, and that stirring is the one movement in the shot: at the start the grass stands still on both sides of the path; over the whole five seconds a slow wind moves through it so the long blades bend and sway gently around the woman's coat hem and settle, while the hem of her worn trench coat lifts a little; the woman herself stays standing still with her back to the camera, the suitcase in her hand; the house, the lit window, the porch and the drying nets stay completely still; the dark lake beyond holds unchanged; the fading dusk light holds steady; the rubber boots by the steps and the leaning bicycle stay still while the thin smoke from the stovepipe curls on; the camera holds a medium wide shot from behind her on the path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "gon",
+    "lakehouse",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "서로 다른 상처를 품은 이들, 곤을 중심으로 얽혀 드는 운명",
+   "visual": "night at the lake under a bright moon: at frame centre the slim pale Korean teenage boy with shaggy black hair sits alone at the very end of the weathered wooden pier in his grey hooded sweatshirt, hood down, seen from behind and a little to the side, looking out over the silver-lit water; behind him on the shore the small old wooden house glows with one warm window; on its narrow porch stands a small battered suitcase; on a pier post halfway along hangs a dark wool coat, dry now; a grey rolled towel lies on the planks beside him; the moon lays a long silver path across the lake toward him; the reeds are black; the night is still, the boy at the centre of everything around him; a few fireflies hover over the black reeds, the rowing boat lies still at its post, and the stovepipe on the house roof sends up a thin pale curl of smoke",
+   "motion": "the moon's long silver path on the lake shimmers gently toward the boy, and that shimmering is the one movement in the shot: at the start the silver path lies across the dark water; over the whole five seconds small slow ripples move through it so the reflected light splits into trembling flecks and gathers again, again and again, while the boy stays sitting still at the end of the pier with his back to the camera; the house, its warm window, the suitcase on the porch, the coat on the post and the rolled towel stay completely still; the black reeds hold unchanged; the moonlight holds steady; the fireflies hover gently over the reeds and the thin curl of smoke from the stovepipe holds; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from the shore behind him, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "gon_swim",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "상처 입은 곤에게 깊고 푸른 호수는 유일한 숨구멍",
+   "visual": "night deep in the blue lake: the slim pale Korean teenage boy with shaggy black hair, bare-chested in dark swim shorts, glides slowly on his back a little below the surface at frame centre, sculling gently with both hands, looking up through the water at the moon, which shows as a wavering silver disc on the rippling surface above him; the fine silver slits along his neck flutter open slowly; the silver-blue scales on his shoulders glint faintly in the moonlight; long ribbons of waterweed rise from the dark below; small silver fish drift past, glinting; his face is calm and alert, eyes open, a faint smile, at home; the deep water around him is dark blue and glowing at the top; this is the only place he can breathe; a few loose leaves float dark on the surface above him, a slow column of bubbles rises from the deep, and the moonlit rocks below glow faintly",
+   "motion": "the wavering moon on the surface above the boy ripples slowly, and that rippling light is the one movement in the shot: at the start the silver disc of the moon wavers on the water above him; over the whole five seconds slow ripples pass across the surface so the moonlight bends and shivers down through the water over his upturned face and sculling hands, while the silver slits on his neck open and close gently; his body stays gliding on his back at the centre of the frame, his hands sculling softly; the waterweeds below sway very slightly and the small silver fish drift slowly past; the dark depth below holds unchanged; the loose leaves on the surface and the faintly glowing rocks below stay where they are; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from below him in the water, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "lake",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "바닥없는 물 같은 삶에서도, 상처 입은 이들은 숨 쉬려 한다",
+   "visual": "dawn on the lake seen from the shore end of the weathered wooden pier: a pale gold light rises over the forested hills on the far shore, mist lifts from the water in slow white veils, and a single wide ring of ripples spreads across the glassy surface near the end of the pier where a silver fish has just jumped; lily pads float near the reeds; two dragonflies hover over them; the rowing boat sits still at its post; the water below the surface fades from clear green-blue to deep dark blue, bottomless; the morning is quiet, cold and hopeful, the lake holding its breath; a narrow footpath winds along the shore toward the small wooden house half hidden by willows, and a pair of wild ducks floats asleep near the reeds",
+   "motion": "the single wide ring of ripples spreads slowly across the glassy lake, and that spreading ring is the one movement in the shot: at the start a small ring opens on the water near the end of the pier; over the whole five seconds it widens slowly outward across the surface, rocking the lily pads gently as it reaches them, while the white veils of mist lift very slowly from the water; the pier, the rowing boat, the reeds and the hovering dragonflies stay in their places; the far hills hold unchanged; the pale gold dawn light holds steady; the sleeping ducks near the reeds and the distant house among the willows stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from the shore end of the pier, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "gon",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "우리를 아프게 한 상처도 숨 쉬게 하는 아가미가 될까",
+   "visual": "sunset at the end of the weathered wooden pier: the slim pale Korean teenage boy with large dark eyes and shaggy black hair sits on the planks at frame centre, facing the camera in three-quarter view, his grey hood pushed back for once so the fine silver slits along both sides of his neck show openly in the warm light; faint silver-blue scales glint along his collarbone above the sweatshirt's neckline; his large dark eyes look straight ahead, calm and steady, a small unguarded smile at the corner of his mouth; behind him the lake glows amber and blue to the dark forested hills; the rowing boat floats at its post; the evening is soft and golden; he is not hiding; a coil of rope and a tin bucket stand on the planks beside him, the first tiny point of evening starlight shows above the hills, and the reeds along the shore glow gold",
+   "motion": "the warm sunset light shimmers on the silver slits and scales along the boy's neck, and that shimmering is the one movement in the shot: at the start the low light lies warm across him; over the whole five seconds the reflected glimmer from the lake ripples slowly across his face and neck so the fine silver slits and the scales along his collarbone glint softly and fade and glint again, while his small smile deepens a little and a faint breeze stirs his shaggy hair; his body stays seated facing the camera; the rowing boat, the planks and the far hills stay completely still; the amber sunset light holds steady; the coil of rope and the tin bucket stay still, and the first tiny point of starlight above the hills holds; the camera holds a medium close shot on the pier at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "lake",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "마무리 — 안개 낀 새벽 호수와 부두, 물 아래의 은빛 물고기",
+   "visual": "a quiet closing still of the deep blue lake at first light: thin mist lies on the still water among the low forested hills, the reeds stand along the shore, and the weathered wooden pier runs out into the lake with the small rowing boat tied at its end; a single silver fish rises just under the surface nearby, leaving a faint ripple; the pale sky brightens over the far shore; a heron stands in the reeds; the lake is calm, blue and endless; a narrow footpath winds along the shore toward the small wooden house with a rusty tin roof half hidden by willows, a thin pale curl of smoke rising from its stovepipe; a pair of wild ducks floats asleep near the reeds, and dew beads silver on the pier rail",
+   "motion": "the faint ripple left by the silver fish widens slowly across the still water near the pier, and that widening ripple is the one movement in the shot: at the start a small ring spreads beside the end of the pier; over the whole five seconds it opens slowly outward across the glassy surface and fades, while the thin mist drifts very slowly over the lake; the pier, the tied rowing boat and the heron in the reeds stay completely still; the far hills and the brightening sky hold unchanged; the soft first light holds steady; the sleeping ducks, the curl of smoke from the stovepipe and the dew on the pier rail stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the lake from the shore, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

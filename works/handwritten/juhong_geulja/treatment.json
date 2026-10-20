@@ -1,61 +1,204 @@
 {
- "logline": "가슴에 표식을 달고 사는 여자가 그것을 숨기지 않는 동안, 표식이 없는 한 사람이 무너져 간다.",
- "destination": "장터 한복판의 처형대 — 그녀가 처음 섰던 자리",
- "protagonist": "아이를 홀로 키우는 젊은 여자",
- "setting": "17세기 뉴잉글랜드 청교도 마을, 장터와 감옥과 숲",
- "anchor": "a young woman in a plain grey gown with a red embroidered patch on her breast, dark hair covered",
- "palette": "cold New England daylight, weathered timber brown, deep forest green, single scarlet accent",
+ "logline": "갓난아기를 안고 감옥을 나온 헤스터가 처형대에 홀로 서서 가슴의 주홍 글자를 가리지 않고 입을 다물고, 늙은 남자의 약초와 마을 끝 오두막의 바느질로 딸 펄을 키우는 사이, 젊은 목사는 밤마다 제 가슴을 누르고 늙은 의사가 그 곁을 지키며, 한밤의 처형대와 숲의 고백을 지나 행사 날 목사가 처형대로 걸어 올라간다",
+ "destination": "소설 주홍 글자에서 만날 수 있습니다",
+ "protagonist": "hester",
+ "setting": "1640년대 뉴잉글랜드의 청교도 마을 — 감옥 문, 장터의 처형대와 집회소 발코니, 감옥의 방, 마을 끝 바닷가 오두막, 깊은 숲과 시내, 목사의 서재, 밤의 장터",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/juhong_geulja/assets",
+ "anchor": "a tall dark-haired woman of the 1640s in a grey gown with a large scarlet letter A on her breast, a wild little girl in scarlet, and a pale young clergyman in black with his hand over his heart",
+ "palette": "ash grey, dark brown, off-white, dull green, dark blue",
+ "voice": "",
+ "personas": {},
+ "withheld": "끝내 드러낸 비밀과, 그 늙은이가 누구였는지",
  "beats": [
   {
    "n": 1,
-   "beat": "젊은 여자가 아기를 안고 감옥 문을 나선다.",
-   "visual": "a young woman holding an infant stepping out of a heavy timber prison door into harsh daylight",
-   "motion": "the door swings back, she squints into the light, the infant stirs"
+   "cast": [
+    "hester",
+    "baby",
+    "prison_door",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "갓난아기를 안고 무거운 감옥 문을 걸어 나오는 젊은 여자",
+   "visual": "cold pale daylight on the grey stone wall with the heavy oak prison door studded with iron standing open at frame centre: the tall young woman of twenty-five with the abundant dark hair under the white cap and the proud beautiful pale face, in the plain grey gown with the white collar and the large letter A worked in scarlet cloth and gold thread on her breast, is the one standing on the threshold of the open door with the baby wrapped in the white cloth held against her shoulder in both arms, the baby's one small fist showing, her chin lifted and her eyes looking straight out over the beaten earth path before her; the dark of the prison shows behind her in the doorway; the wild bush with the pale flowers and dull green leaves grows beside the door at frame right; the beaten earth path runs from the threshold to the bottom of the frame; the backs of a few tall black hats show at the bottom edge of the frame; there is exactly one woman in the doorway and the scarlet letter on her breast is the one bright thing",
+   "motion": "the young woman is the one who moves, and the door holds still: at the start she stands on the threshold with the baby against her shoulder and her chin lifted; over the first three seconds she takes one single slow step forward out of the doorway onto the beaten earth, her chin not lowering and her eyes not dropping, the baby's small fist opening and closing once against her shoulder; in the last two seconds she holds one step outside the door; the heavy oak door stands open behind her without swinging; the wild bush with its pale flowers does not stir; the backs of the tall black hats at the bottom edge stay still; the scarlet letter on her breast keeps its place and its colour; the cold pale light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "장터 처형대 위에 그녀가 홀로 선다.",
-   "visual": "a young woman standing alone on a raised wooden platform above a silent crowd in a village square",
-   "motion": "the crowd shifts below her, her chin lifts, wind pulls at her skirt"
+   "cast": [
+    "hester",
+    "baby",
+    "scaffold",
+    "crowd",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "감옥 앞 장터의 높은 처형대 위로 그녀가 홀로 올라선다",
+   "visual": "cold pale daylight over the market place, seen from behind the crowd: the backs of the puritan townspeople in black and grey with their white collars, the men's tall black hats and the women's white caps, fill the lower half of the frame, all facing the wooden platform of the pillory raised on its posts at frame centre; on the platform the tall young woman of twenty-five with the abundant dark hair under the white cap, in the plain grey gown with the scarlet letter A on her breast, is the one standing alone at the platform's edge with the baby in the white cloth held against her shoulder, her chin lifted and her face turned out over the crowd, the only face turned toward the camera; the wooden steps lead up to the platform at frame left; the balcony of the timber meeting house rises behind the platform, its rail bare; the cold pale sky lies over the roofs; not one face in the crowd is turned round",
+   "motion": "the crowd is the one thing that moves, and the woman on the platform holds still: at the start the backs of the crowd stand facing the platform; over the whole five seconds the tall black hats and the white caps shift slowly as the crowd presses a little closer to the platform's posts and settles, two hats turning toward each other and back to the platform, no face turning round toward the camera; the woman on the platform keeps her chin lifted and her face turned out over the crowd with the baby against her shoulder, nothing in her moving; the wooden steps, the posts of the platform and the empty balcony of the meeting house hold completely still; the cold pale light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "군중 속 낯선 남자가 그녀를 오래 응시한다.",
-   "visual": "a stooped older man at the edge of a crowd staring upward, face half shadowed by a wide hat",
-   "motion": "his fingers curl at his side, the crowd moves around him, his stare holds"
+   "cast": [
+    "old_man",
+    "hester",
+    "scaffold",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "처형대 아래 군중 속 낯선 늙은 남자가 그녀를 오래 본다",
+   "visual": "cold pale daylight at the edge of the market place: the small stooped old man of sixty with the grey hair and the grey beard and one shoulder higher than the other, in the dark scholar's cloak, is the one standing at frame right close and large among the backs of the crowd with his keen deep-set eyes lifted to the platform and his thin lips pressed, one finger laid along them; beyond him and above, small at frame left on the wooden platform of the pillory, the tall young woman with the dark hair under the white cap, in the grey gown with the scarlet letter A on her breast, is the one standing at the platform's edge with the baby against her shoulder, her face turned down toward the crowd and her eyes meeting the old man's; the backs of tall black hats fill the space between them; the posts of the platform rise at frame left; there are exactly two faces in the picture, the old man's close and the woman's far, and their eyes meet",
+   "motion": "the old man's finger and the woman's face are the two things that move, and the crowd holds still: at the start his finger lies along his pressed lips with his eyes lifted to her; over the first three seconds his finger lifts slowly from his lips and comes to rest against them again, his keen eyes narrowing, and the woman's face on the far platform turns slowly a little away from him and comes back to meet his eyes; in the last two seconds both faces hold with their eyes meeting; neither person's feet shift; the backs of the tall black hats between them stay still; the posts of the platform hold completely still; the cold pale light stays even; the woman's white cap and the scarlet letter on her far breast keep their places; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "그녀는 가슴의 붉은 표식을 가리지 않는다.",
-   "visual": "a young woman's hands folded low, a red embroidered patch plainly visible on her grey bodice",
-   "motion": "her hands stay down, the patch catches light, her breathing steadies"
+   "cast": [
+    "hester",
+    "baby",
+    "scaffold",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "가슴에 단 주홍 글자 A를 그녀는 손으로 가리지 않는다",
+   "visual": "cold pale daylight on the wooden platform of the pillory, seen close: the tall young woman of twenty-five with the abundant dark hair under the white cap and the proud beautiful pale face, in the plain grey gown with the white collar, is the one standing at frame centre with the baby in the white cloth held on one arm against her hip and her other hand hanging open and still at her side, well away from her breast, so that the large letter A worked in scarlet cloth and gold thread on her grey gown shows plainly at frame centre, bright against the grey, her chin lifted and her eyes looking straight out; the wooden rail of the platform runs behind her; the timber wall of the meeting house rises beyond; the cold pale sky shows above; there is exactly one woman on the platform and the scarlet letter on her breast is uncovered; the letter A sits high on the breast of her gown over her heart, just below the white collar and no wider than her hand, stitched flat onto the grey cloth of the bodice, and the grey skirt below her waist is plain grey cloth from waist to hem with nothing on it",
+   "motion": "the woman's free hand is the one thing that moves, and the letter holds still: at the start her free hand hangs open at her side away from her breast; over the first three seconds the hand lifts slowly a little from her side toward the letter and stops short of it, and lowers again slowly to hang open at her side, her chin not lowering and her eyes not dropping; in the last two seconds the hand hangs still at her side and the scarlet letter stays uncovered; her feet do not shift on the boards; the baby on her arm keeps its wrapped shape against her hip; the wooden rail, the timber wall and the cold pale sky hold completely still; the white cap on her dark hair and the white collar of her gown do not stir; the gold thread of the letter keeps its small catch of light; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "세월이 흘러 아이가 숲에서 뛰논다.",
-   "visual": "a small girl in red running between tall dark trees, a woman watching from a mossy clearing",
-   "motion": "the child darts between trunks, leaves scatter, sunlight breaks through branches"
+   "cast": [
+    "ministers",
+    "dimmesdale",
+    "hester"
+   ],
+   "refs": [],
+   "beat": "아버지의 이름을 대라는 목사들 앞에서도 그녀는 입을 다문다",
+   "visual": "cold pale daylight on the balcony of the timber meeting house above the platform of the pillory: the two grave elderly men in the black gowns and the tall black hats are the ones standing at frame left on the balcony leaning on its rail with their faces turned down toward the platform, one with his hand raised in a stern gesture; the young pale clergyman of thirty with the brown hair and the large melancholy eyes, in the black gown with the white bands, is the one standing at frame right on the balcony a little apart from the three with one hand pressed over his heart and his thin face turned down to the platform, his lips pressed white; below the balcony at the bottom of the frame the tall young woman with the dark hair under the white cap, in the grey gown with the scarlet letter A, is the one standing on the platform with her face lifted to the balcony and her mouth closed firm, the baby against her shoulder; the timber wall of the meeting house rises behind the balcony; there are exactly four people in the picture and the woman below is the one with her mouth closed; exactly three men stand at the balcony rail above, and the young woman stands alone on the platform below with the baby, no one beside her on the boards, the platform bare on both sides of her",
+   "motion": "the stern minister's raised hand and the woman's closed mouth are the two things that move, and the young clergyman holds still: at the start the minister's hand is raised in the stern gesture and the woman's mouth is closed firm; over the first three seconds the raised hand comes slowly down to point at the woman below and holds there, his mouth opening in a demand, and the woman's closed mouth presses tighter and her chin lifts a little higher, her eyes not leaving the balcony; in the last two seconds the pointing hand holds and her mouth stays closed; the young clergyman keeps his hand pressed over his heart and his pressed white lips turned down to the platform, nothing in him moving; the other minister keeps his face turned down; the balcony rail and the timber wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "젊은 목사가 밤마다 제 가슴을 눌러 본다.",
-   "visual": "a pale young clergyman alone in a dim study pressing one hand flat against his chest",
-   "motion": "his hand presses and releases, the candle leans, sweat shines on his brow"
+   "cast": [
+    "old_man",
+    "hester",
+    "baby",
+    "cell",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "감옥의 그녀와 아기를 그 늙은 남자가 약초로 돌본다",
+   "visual": "the dull glow of a small oil lamp in the dim prison cell of grey stone: the tall young woman of twenty-five with the dark hair loose under the white cap pushed back and the pale face drawn, in the grey gown with the scarlet letter A, is the one sitting at frame right on the wooden bench with the baby in the white cloth lying across her knees, one hand on the baby and her other hand holding a small wooden cup, her wary eyes on the old man; the small stooped old man of sixty with the grey hair and the grey beard and one shoulder higher than the other, in the dark scholar's cloak, is the one crouched at frame left on the straw before the bench with a bunch of dried herbs in one hand and a small dark bottle in the other, his keen deep-set eyes on the cup in her hand and his thin lips moving; the small barred window at the back shows the black night; the jug stands on the straw; there are exactly two grown people in the cell and the old man is the one crouched with the herbs; her grey skirt from waist to hem is plain clean grey cloth with no mark, stain or colour on it, the only red in the picture being the letter A high on her breast",
+   "motion": "the old man's herb hand is the one thing that moves, and the woman holds still: at the start the dried herbs are held in his hand and the small bottle in the other with his eyes on the cup; over the first three seconds his herb hand reaches slowly toward the cup in her hand and stops a hand's width short, his thin lips moving in speech, and then draws slowly back to his knee; in the last two seconds the hand holds on his knee and his eyes stay on the cup; his crouched body does not shift on the straw; the woman keeps the cup in her hand and her wary eyes on him, her other hand not lifting from the baby, only her lips pressing together; the baby on her knees lies still; the small oil lamp keeps its steady glow; the barred window with the black night and the jug on the straw hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그가 그 처형대에 오른다면 무슨 말을 할까?",
-   "visual": "a wooden platform empty above a gathering crowd, a pale clergyman approaching its steps",
-   "motion": "the crowd presses inward, his foot finds the first step, banners of cloud move fast"
+   "cast": [
+    "hester",
+    "pearl",
+    "cottage",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그녀 헤스터가 마을 끝 오두막에서 바느질로 딸 펄을 키운다",
+   "visual": "cold pale daylight through the small window of the thatched cottage on the empty shore: the tall young woman of twenty-five with the dark hair under the white cap and the proud pale face, in the grey gown with the scarlet letter A on her breast, is the one sitting at frame left at the small table with a length of fine white cloth in her lap and a needle in her raised hand, the spool of scarlet thread on the table beside her, her eyes on her stitch; the wild little girl of seven with the dark curls and the bright impish round human face, in the dress of scarlet cloth worked with gold thread, is the one sitting at frame right on the floor by the low open door with a handful of small shells and pebbles laid out before her on the boards, her black eyes lifted to the scarlet letter on her mother's breast; the low door stands open on the grey shore and the flat water beyond; the small window shows the pale sky; there are exactly two people in the cottage and the girl is the one in scarlet; the little girl is an ordinary human child with small round ears hidden under her dark curls",
+   "motion": "the woman's needle hand is the one thing that moves, and the little girl holds nearly still: at the start the needle is raised in her hand above the white cloth; over the whole five seconds the needle goes slowly down into the cloth and draws up its thread in a long slow pull, twice, her eyes staying on the stitch and her other hand steadying the cloth in her lap; the little girl on the floor keeps her black eyes lifted to the scarlet letter and one small hand moves a single pebble a finger's width on the boards; the spool of scarlet thread on the table keeps its place; the open door with the grey shore and the flat water beyond and the small window hold completely still; the cold pale light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈 처형대 위로 저녁 빛이 내린다.",
-   "visual": "evening light falling on an empty raised wooden platform in a deserted village square",
-   "motion": "light slides across the boards, dust lifts, a rope sways at the post",
-   "anchor": false
+   "cast": [
+    "pearl",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "여러 해가 흐르고, 붉은 옷의 펄이 숲을 뛰어다닌다",
+   "visual": "one shaft of pale sunlight coming down between the tall dark trunks of the deep forest onto the brook running over the mossy stones: the wild little girl of seven with the dark curls flying and the bright impish round human face, in the dress of scarlet cloth worked with gold thread, is the one running at frame centre along the mossy bank of the brook toward frame right with both her arms flung out and her bare feet on the moss, her face turned up into the shaft of light and laughing, the scarlet of her dress the one bright colour among the dark trunks; the brook runs at the bottom of the frame over its stones with the light on its water; the dead leaves lie thick on the ground on both sides; the tall dark trunks rise on all sides to the top of the frame; there is exactly one person in the forest and she is the one in scarlet; the little girl is an ordinary human child with small round ears hidden under her dark curls",
+   "motion": "the running girl and the water are the two things that move, and the forest holds still: at the start she runs along the bank with her arms flung out and her face up in the light; over the whole five seconds she runs slowly on along the mossy bank toward frame right by no more than three strides, her dark curls streaming and her scarlet dress swinging, her laughing face staying turned up into the shaft of light, while the brook's water runs on over its stones with the light moving on it; the dead leaves on the ground stir only where her bare feet pass; the tall dark trunks and the shaft of pale sunlight hold completely still; the mossy stones of the bank keep their places under her feet and the brook's water keeps its steady line; no second figure appears among the trunks; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "dimmesdale",
+    "study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그 마을의 젊은 목사는 밤마다 홀로 제 가슴을 누른다",
+   "visual": "the dull yellow light of the candle on the table in the clergyman's study at night: the young pale clergyman of thirty with the brown hair and the large melancholy eyes and the thin sensitive face, in the black gown with the white bands loosened at the throat, is the one sitting at frame centre on the hard chair bent forward with one hand pressed hard over his heart through the black gown and the other hand gripping the table's edge, his face turned down and his eyes closed, his lips pressed white; the papers on the table lie pushed aside; the shelves of books rise behind him into shadow; the narrow window at frame right is black with the night; the candle flame stands steady; there is exactly one person in the study and his hand is the one pressed over his heart",
+   "motion": "the clergyman's pressed hand is the one thing that moves, and the study holds still: at the start his hand is pressed hard over his heart with his eyes closed; over the first three seconds the pressed hand grips the black cloth of the gown over his heart and twists it slowly into a fist, his bent body leaning further over his knees and his other hand tightening on the table's edge, his closed eyes screwing tighter; in the last two seconds the fist holds twisted in the gown and he does not move; his feet do not shift under the chair; the candle flame stays steady; the pushed-aside papers, the shelves of books and the black window hold completely still; the white bands at his throat hang loose and still; the hard chair does not creak or shift; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "old_man",
+    "dimmesdale",
+    "study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "늙은 의사가 그 목사의 곁을 떠나지 않는다",
+   "visual": "the dull yellow light of the candle on the table in the clergyman's study at night: the young pale clergyman of thirty with the brown hair and the large melancholy eyes, in the black gown with the white bands, is the one sitting at frame right on the hard chair with his head fallen back and his eyes closed in sleep, one hand lying loose over his heart; the small stooped old man of sixty with the grey hair and the grey beard and one shoulder higher than the other, in the dark scholar's cloak, is the one standing at frame left close over the sleeping man, bent forward with one hand hovering just above the sleeper's loose hand on his breast, not touching it, his keen deep-set eyes fixed on the sleeper's breast and a thin smile on his lips; the candle stands on the table between them; the shelves of books rise behind into shadow; the narrow window is black; there are exactly two people in the study and the one standing is the one bent over the sleeper",
+   "motion": "the old man's hovering hand is the one thing that moves, and the sleeper holds still: at the start the hand hovers just above the sleeper's loose hand on his breast with the thin smile on the old man's lips; over the first three seconds the hovering hand lowers slowly by a finger's width and its fingers spread above the sleeper's hand, and it stops there, not touching, the thin smile widening and the keen eyes not leaving the sleeper's breast; in the last two seconds the hand holds spread above the sleeper's hand; the old man's bent body does not shift; the sleeping clergyman keeps his head fallen back and his eyes closed, his loose hand on his breast rising and sinking only with slow breath; the candle flame stays steady; the shelves of books and the black window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "dimmesdale",
+    "hester",
+    "pearl"
+   ],
+   "refs": [],
+   "beat": "한밤중 홀로 처형대에 오른 목사 곁에 헤스터와 펄도 올라선다",
+   "visual": "black night with the white moon over the empty market place: the wooden platform of the pillory on its posts is the one thing at frame centre, and on it the young pale clergyman of thirty with the brown hair, in the black gown with the white bands, is the one standing at frame centre with one hand pressed over his heart and his other hand held down and open, gripped by the small hand of the wild little girl of seven with the dark curls, in the scarlet dress dark in the moonlight, who is the one standing at his side at frame right with her other hand held by the tall young woman with the dark hair under the white cap, in the grey gown with the scarlet letter A, who is the one standing at frame right beside the girl with her face turned up to the clergyman; the three stand in a line on the platform hand in hand with the girl in the middle; the dark timber meeting house rises behind; the houses' small windows round the square are dark; the moon lies white on the empty square; there are exactly three people on the platform and they hold hands in a line",
+   "motion": "the clergyman's pressed hand is the one thing that moves, and the woman and the girl hold still: at the start his hand is pressed over his heart with the other held by the girl; over the first three seconds the pressed hand lifts slowly from his heart and reaches down to lay itself over the girl's small hand that holds his, so that his two hands and hers are joined, his head bowing slowly toward the girl; in the last two seconds his hands hold over the girl's and his head stays bowed; his feet do not shift on the boards; the little girl keeps her two hands held and her face lifted; the woman keeps her face turned up to the clergyman and her hand in the girl's, nothing in her moving; the white moon, the dark meeting house and the dark small windows round the empty square hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "hester_free",
+    "dimmesdale",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "숲에서 헤스터가 의사의 정체를 털어놓고 함께 떠나자고 한다",
+   "visual": "one shaft of pale sunlight coming down between the tall dark trunks of the deep forest onto the mossy bank of the brook: the tall young woman of twenty-five with the abundant dark hair loose over her shoulders and the proud pale face flushed, in the grey gown with the white collar her breast plain grey cloth, is the one standing at frame right in the shaft of light with the white cap held in one hand at her side and her other hand stretched out open toward the man, her face lifted and her lips parted in speech; on the dead leaves at her feet at the bottom of the frame lies the letter A of scarlet cloth and gold thread, cast down, its scarlet bright on the brown leaves; the young pale clergyman of thirty with the brown hair and the large melancholy eyes, in the black gown, is the one sitting at frame left on a mossy stone by the brook with his face lifted to her and both his hands gripped together between his knees, his lips parted; the brook runs over its stones between them; the tall dark trunks rise on all sides; there are exactly two people in the forest and the scarlet letter lies on the ground",
+   "motion": "the woman's outstretched hand and the clergyman's face are the two things that move, and the forest holds still: at the start her hand is stretched out open toward him and his face is lifted to her; over the first three seconds her open hand reaches slowly a little further and turns palm up, her lips moving in speech and her loose dark hair stirring, and his lifted face slowly loses its fear and his gripped hands come apart a little between his knees; in the last two seconds her hand holds palm up and his face holds lifted; neither person's feet shift; the scarlet letter on the dead leaves keeps its place; the brook runs on over its stones with the light on its water; the tall dark trunks and the shaft of pale sunlight hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "dimmesdale",
+    "hester",
+    "pearl"
+   ],
+   "refs": [],
+   "beat": "행사 날 연설을 마친 목사가 헤스터가 선 처형대로 걸어간다",
+   "visual": "cold pale daylight over the market place on the festival day, seen from behind the crowd: the backs of the puritan townspeople in black and grey with their tall black hats and white caps fill the lower half of the frame, and through a lane opened in the crowd at frame centre the young pale clergyman of thirty with the brown hair, in the black gown with the white bands, is the one walking away from the camera toward the wooden platform of the pillory, seen from behind, his steps unsteady and one hand pressed over his heart, his figure small between the backs of the crowd; at the foot of the platform's wooden steps at the top of the frame the tall young woman with the dark hair under the white cap, in the grey gown with the scarlet letter A on her breast, is the one standing with the wild little girl in the scarlet dress at her side, both their faces turned to the approaching clergyman; the timber meeting house with its balcony rises behind the platform; there is exactly one figure walking in the lane through the crowd and his back is to the camera",
+   "motion": "the clergyman walking through the crowd is the one who moves, and the crowd holds still: at the start he is in the lane through the crowd with his back to the camera and his hand over his heart; over the whole five seconds he walks slowly on toward the platform with unsteady steps, his figure growing a little smaller between the backs of the crowd, his hand staying pressed over his heart and his face never turning back; the woman and the girl at the foot of the steps keep their faces turned to him and do not move; the backs of the crowd on both sides of the lane stay still with no face turning round; the platform, its steps and the meeting house with its balcony hold completely still; the cold pale light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "dimmesdale",
+    "hester",
+    "pearl"
+   ],
+   "refs": [],
+   "beat": "그 처형대에 오른 목사는 사람들 앞에서 무엇을 할지 알 수 없다",
+   "visual": "cold pale daylight on the wooden platform of the pillory, seen from below at the foot of the steps: the young pale clergyman of thirty with the brown hair and the large melancholy eyes, in the black gown with the white bands, is the one standing at frame centre at the platform's edge above the camera with one hand gripping the wooden rail and the other hand raised to the white bands at his own throat, his fingers at the fastening of his gown, his thin face turned out over the square with his lips parted and his eyes shining; the tall young woman with the dark hair under the white cap, in the grey gown with the scarlet letter A, is the one standing at frame right beside him on the platform with one arm round his shoulders holding him up, her face turned to him; the wild little girl in the scarlet dress is the one standing at frame left at his other side with both her small hands gripping his black gown; the timber meeting house rises behind them; the cold pale sky is above; there are exactly three people on the platform and the clergyman's hand is at his own throat",
+   "motion": "the clergyman's hand at his throat is the one thing that moves, and the woman and the girl hold still: at the start his fingers are at the fastening of his gown at the white bands with his lips parted; over the first three seconds his fingers work slowly at the fastening and draw the white bands a little loose, his raised hand trembling, his shining eyes turned out over the square and his lips moving; in the last two seconds the fingers hold at the loosened bands and the gown stays closed; his other hand keeps its grip on the rail and his feet do not shift; the woman keeps her arm round his shoulders and her face turned to him; the girl keeps her small hands gripping his gown; the timber meeting house and the cold pale sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "market_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빈 처형대와 그 위에 놓인 붉은 글자 하나",
+   "visual": "black night with the white moon over the empty market place: the wooden platform of the pillory on its posts is the one thing at frame centre with its wooden steps and its rail, and on the boards of the platform at its edge lies the letter A of scarlet cloth and gold thread, small and alone, its scarlet dark in the moonlight and its gold thread catching the moon; the dark timber meeting house rises behind the platform with its balcony empty; the houses' small windows round the square are dark; the moonlight lies white on the beaten earth of the square; a few dead leaves lie on the steps; the scarlet letter on the platform is the one thing left",
+   "motion": "the moonlight is the one thing that moves, and the square holds still: at the start the moon lies white on the platform and the square; over the whole five seconds a thin drift of haze passes slowly across the moon so that the white light on the platform and the square dims a little and brightens again, the gold thread of the letter losing and regaining its small catch of light; the scarlet letter keeps its place on the boards and does not stir; the dead leaves on the steps do not move; the dark meeting house with its empty balcony and the dark small windows round the square hold completely still; no figure appears on the platform or in the square; the posts of the platform and its wooden rail keep their black lines against the moonlit square; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "목사가 스스로 가슴을 드러내는 마지막 대목과 추적자의 정체",
- "voice": "ko-KR-BongJinNeural"
+ ]
 }

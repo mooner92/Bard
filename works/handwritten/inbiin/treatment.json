@@ -1,0 +1,173 @@
+{
+ "logline": "죄가 새겨진 벚나무 책상, 100달러짜리 남의 인생, 인간보다 인간 같은 안드로이드 — 귀신 없는 기담 아홉 편",
+ "destination": "소설집 인비인에서 만날 수 있습니다",
+ "protagonist": "buyer",
+ "setting": "어제·오늘·내일의 한국 — 오래된 서재, 낯선 저택과 경매장, 근미래의 한의원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/inbiin/assets",
+ "anchor": "an East Asian man in his forties with short black hair and stubble, in a wrinkled grey cardigan",
+ "palette": "ash grey, warm brown, off-white, muted teal, faded gold",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "각 편의 마지막 장면과 반전, 책상 밑에서 나오는 것, 오자와가 인생을 판 이유",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "study",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "백 년째 대물림된 벚나무 책상 — 비가 오면 스미는 악취",
+   "visual": "a quiet old-fashioned study in a Seoul apartment on a dark rainy afternoon, empty of people: the heavy old cherry-wood desk five feet wide stands at frame centre in front of the rain-streaked window, its dark polished top gleaming dully, its thick carved legs planted on the floorboards; on the desk sit a closed fountain pen, a brass desk lamp switched off and a stack of papers turned face down; tall bookshelves of plain worn spines line the walls on both sides; outside, beyond the tightly closed window, grey rain streams down the outer face of the glass, while inside the room the air is dry and still; the room is dim, the only light the grey glow from the window; a thin haze hangs low over the desk surface; the desk looks handsome, old and heavy, the kind of thing a family keeps for a hundred years; a tightly furled black umbrella leans against the bookshelf, its tip resting on the dry floor",
+   "motion": "rain streams down the outside of the closed window behind the desk and its faint shadows slide across the polished top, and that streaming rain beyond the glass is the one movement in the shot: at the start the rain runs steadily down the glass; over the whole five seconds the raindrops trickle and merge in slow rivulets down the window, their faint grey shadows sliding across the dark polished desk top and down over its carved front edge, while the thin haze over the desk surface stirs very slightly and drifts toward the window; the heavy desk itself, the closed fountain pen, the switched-off brass lamp, the face-down papers and the tall bookshelves stay completely still; the grey glow from the window holds steady; the furled umbrella against the bookshelf stays still on the dry floor; the camera holds a medium wide shot of the desk from the doorway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "study"
+   ],
+   "refs": [],
+   "beat": "책상 밑판에 새겨진 정체 모를 문자",
+   "visual": "a low close view of the underside of the heavy old cherry-wood desk, seen from the floor looking up, empty of people: the rough unpolished boards of the desk's bottom panel run across the top of the frame, and cut into the pale raw wood is a line of strange carved marks, worn and shallow, an unknown script of angular strokes that no one in the family can read, dark grime settled in the grooves; the thick carved legs rise at the edges of the frame; a single thin beam of grey window light slants in under the desk and grazes the carvings, throwing the grooves into relief; a few dust motes hang in the beam; the floorboards below are dark and old; the view is close, secret and unsettling, a mark hidden where no one was meant to look; a single old iron nail head shows at the corner of the panel, rusted into the wood",
+   "motion": "the thin beam of grey window light slides slowly across the carved marks under the desk, and that sliding light is the one movement in the shot: at the start the beam grazes the left end of the line of carvings; over the whole five seconds it moves slowly to the right along the underside of the desk as the sky outside shifts, lighting each angular carved stroke in turn so the dark grime in the grooves shows and sinks back into shadow, while the few dust motes drift slowly through the beam; the rough boards of the bottom panel, the carved marks themselves, the thick legs and the dark floorboards stay completely still; the rusted nail head at the corner of the panel stays in shadow the whole time; the camera holds the low close shot looking up at the underside, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "study",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "1944년 야스쿠니신사에서 하사된 우등 상품",
+   "visual": "the old study on the rainy afternoon, a closer view of the desk top, empty of people: laid on the dark polished cherry-wood surface is an old ceremonial certificate folder of faded cloth, closed, its cover plain, beside a small black lacquered box with a brass clasp; the grain of the old wood shows deep and dark around them; a faint pale ring marks where something once stood on the desk for years; beyond the desk the rain-streaked window lets in a dim grey light, and the edge of a tall bookshelf of plain worn spines shows at frame right; a brass desk lamp stands switched off; the air is still and close; the objects look like heirlooms kept carefully and never opened, their history sealed inside; a small brass key lies beside the lacquered box, and a strand of dust hangs in the grey window light",
+   "motion": "the grey light from the rainy window dims and brightens slowly over the desk top, and that changing light is the one movement in the shot: at the start the grey light lies evenly across the polished wood; over the whole five seconds it fades a little as a heavier band of rain passes the window and then slowly brightens again, the deep grain of the cherry wood darkening and warming with it and the faint pale ring on the surface showing and fading, while thin shadows of the rain slide faintly across the closed folder and the lacquered box; the folder, the box with its brass clasp, the switched-off lamp and the bookshelf edge stay completely still; the small brass key beside the box stays still and the strand of dust hangs where it is; the camera holds a close shot of the desk top, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "study"
+   ],
+   "refs": [],
+   "beat": "죄를 덮은 자리에는 꺼슬꺼슬한 흔적이 남는 법",
+   "visual": "an extreme close view of the edge of the old cherry-wood desk top, empty of people: the dark polish has worn away along the front edge, and under it the old wood is rough and grained, scored with faint scratches and small dents, a patch of the surface sanded and re-varnished long ago so that its texture is subtly different, bristly and uneven, where something was once scraped away; a single fine crack runs through the patch; the grey light from the window grazes the surface at a low angle and throws every tiny ridge and scratch into sharp relief; dust sits in the crack; the rest of the desk top falls out of focus into a dark gleam; the image is tactile and uneasy, a surface that remembers what was covered; at the very edge of the frame the dark polish resumes in a smooth gleam, and a single pale thread of old varnish curls from the crack",
+   "motion": "the low grey light grazing the rough patch on the desk edge slowly strengthens, and that strengthening light is the one movement in the shot: at the start the light lies faint across the worn edge; over the whole five seconds it grows brighter as the rain outside eases, so that each tiny ridge, scratch and dent in the sanded patch shows a little more clearly in the light, while the fine hairline crack keeps exactly its thin width and shape, the dust in it glinting faintly; the desk itself, the worn polish, the re-varnished patch and the out-of-focus gleam of the top stay completely still; the smooth gleam of polish at the edge of the frame and the pale curl of old varnish stay still, and the dust in the crack keeps its place as the light grows; the camera holds the same three-quarter view of the desk corner as the first frame, camera fixed, no push-in, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "study"
+   ],
+   "refs": [],
+   "beat": "어제와 오늘, 내일의 기담 아홉 편 — 인비인",
+   "visual": "the old study late in the rainy afternoon, empty of people: on the dark polished cherry-wood desk stand three objects in a row, spaced across the frame from left to right: at the left an antique fountain pen resting on a folded yellowed letter turned face down, in the centre a blank white auction paddle lying flat, and at the right a small glazed clay jar sealed with a cloth tied by string; the three objects are lit by a small pool of warm light from the brass desk lamp, switched on now; behind them the rain-streaked window glows a dim grey and the tall bookshelves of plain worn spines stand in shadow; the grain of the old wood gleams around the objects; the composition is still and deliberate, three strange things set out side by side; the tall window behind shows the rain beginning to ease, and a faint reflection of the lamp sits in the dark glass",
+   "motion": "the warm light of the desk lamp flickers faintly over the three objects, and that flickering is the one movement in the shot: at the start the lamp throws a steady warm pool across the desk; over the whole five seconds the light dims and brightens faintly twice, so that the fountain pen, the blank white paddle and the sealed clay jar each gleam and dull in turn and their small shadows on the polished wood soften and sharpen, while the grey rain streams slowly down the window behind; the three objects themselves, the folded face-down letter, the cloth tie on the jar and the bookshelves in shadow stay completely still; the faint reflection of the lamp in the dark window glass stays steady, and the easing rain beyond it slows; the camera holds a medium close shot along the desk top, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "buyer",
+    "oneroom"
+   ],
+   "refs": [],
+   "beat": "단돈 100달러에 남의 인생을 낙찰받은 한 남자",
+   "visual": "night in a small dim one-room apartment: the East Asian man in his forties in his wrinkled grey cardigan over a plain white T-shirt sits hunched at a narrow desk against the wall at frame centre, facing the camera behind an open laptop whose screen faces away from the camera and lights his tired ordinary face a cold white; his eyes have gone wide and his mouth hangs slightly open, one hand frozen over the trackpad, the other gripping a cup of instant noodles halfway to his mouth, chopsticks still in it; a single bed with rumpled covers and a crowded clothes rack fill the cramped room behind him; the window beside the desk shows the dark city lights far off; the rest of the room is dim; the moment is small, shabby and electric, a click that changed everything; a small electric fan stands switched off on the floor, and a pile of unopened envelopes lies on the bed with their faces down",
+   "motion": "the man slowly sets the cup of noodles down on the desk without taking his eyes off the screen, and that setting down is the one movement in the shot: at the start he holds the cup halfway to his mouth with his eyes wide on the screen; over the whole five seconds he lowers the cup slowly and sets it on the desk beside the laptop, the chopsticks tilting against its rim, his wide eyes staying fixed on the glowing screen and his mouth still slightly open, his other hand staying frozen over the trackpad; a thin curl of steam rises from the noodles; the laptop, the rumpled bed, the crowded clothes rack and the far city lights stay completely still; the cold glow on his face holds steady; the switched-off fan on the floor and the face-down envelopes on the bed stay still; the camera holds a medium shot across the desk at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "buyer",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "찾아가 보니 넓은 집도 벤츠도 투자 계좌도 모두 진짜",
+   "visual": "a bright clear morning at a large modern house with glass walls and a wide green lawn: the East Asian man in his forties in his wrinkled grey cardigan stands small at the foot of the long paved drive at frame left, seen from behind at an angle, a crumpled sheet of paper in one hand hanging at his side, his head tipped back taking in the house; the house fills the right of the frame, its tall glass walls reflecting the sky and the tall trees behind it; a silver luxury sedan gleams in the drive, freshly washed; the lawn is perfectly trimmed, a sprinkler arcing water across it; the sky is a clean pale blue; the light is crisp and expensive; the man in his shabby cardigan looks entirely out of place before a life that is somehow now his; a flock of small birds rests on the lawn near the sprinkler, and the glass walls reflect a single white cloudless patch of sky",
+   "motion": "the sprinkler sweeps its spray slowly across the lawn in front of the house while the man stares, and that sweeping spray is the one movement in the shot: at the start the sprinkler's spray arcs over the left side of the lawn; over the whole five seconds it swings steadily to the right across the grass, the fine water glittering in the morning sun and a faint haze of mist drifting after it, while the man stands still at the foot of the drive with the back of his head to camera and his head tipped back toward the house the whole time, the crumpled paper hanging from his hand; the glass house, the silver sedan, the tall trees and the clean pale sky stay completely still; the small birds resting on the lawn stay where they are, heads down in the grass; the camera holds a wide shot from behind him down the drive, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "buyer",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "믿기지 않는다는 듯 중얼거리는 남자",
+   "visual": "inside the large modern house: the East Asian man in his forties in his wrinkled grey cardigan over a plain white T-shirt stands alone at frame centre in a vast bright living room, facing the camera, turning slowly on the spot; his tired ordinary face is split between disbelief and a nervous grin, eyes darting around the room, one hand raised a little from his side, palm open; around him the room is enormous and immaculate, a long pale sofa, a low glass table with a bowl of green apples, a wall of glass looking out over the green lawn and tall trees, a grand piano gleaming black in the corner; morning sunlight floods across the pale stone floor; his worn sneakers look shabby on the polished floor; the room is silent and perfect, a stranger's life fitting him too well; on the wall above the sofa hangs a large abstract painting of soft grey and gold washes, and a pair of expensive leather slippers sits by the sofa",
+   "motion": "the man turns slowly on the spot taking in the room and mutters to himself, and that slow turning is the one movement in the shot: at the start he faces the camera with his open hand raised a little from his side; over the whole five seconds he turns slowly to his left, his eyes darting over the sofa, the glass table and the grand piano, his lips moving on a few muttered words, his nervous grin widening and fading, his raised hand opening wider, until he faces the glass wall in three-quarter view; the long sofa, the glass table and its bowl of apples, the grand piano, the glass wall and the lawn and trees beyond stay completely still; the morning sunlight on the stone floor holds steady; the large abstract painting above the sofa and the leather slippers by it stay still; the camera holds a medium wide shot of the room, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "bidders",
+    "auction"
+   ],
+   "refs": [],
+   "beat": "경매장에서 패들을 들고 남의 빈 삶을 사들이는 사람들",
+   "visual": "a hushed auction hall at noon: seen from the back of the room, rows of well-dressed people sit on upholstered chairs facing a raised wooden podium, the backs of their heads to camera, several of them raising blank white paddles high above their heads at once; on the podium stands an empty wooden lectern under a soft spotlight, with a small wooden gavel resting on it, and beside it a tall easel holding a large blank white card with nothing on it; the tall pale walls are bare; soft spotlights fall from the high ceiling onto the podium and the raised paddles; the room is elegant, quiet and faintly sinister, people bidding on something that cannot be seen; a thin carpet runs down the centre aisle between the rows, and a tall vase of white lilies stands beside the podium",
+   "motion": "the blank white paddles rise one after another across the rows of bidders, and that rising of paddles is the one movement in the shot: at the start a few paddles are raised in the front rows; over the whole five seconds more paddles lift in turn across the room, first in the middle rows and then at the back near the camera, each hand rising steadily and holding its blank white paddle high, while the bidders keep the backs of their heads to camera and their faces turned toward the podium the whole time; the empty lectern, the small gavel, the easel with its blank white card, the bare pale walls and the soft spotlights stay completely still; the carpet down the centre aisle and the tall vase of white lilies by the podium stay still; the camera holds a wide shot from the back of the hall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "android",
+    "clinic"
+   ],
+   "refs": [],
+   "beat": "내일의 이야기 — 인간보다 더 인간 같은 안드로이드",
+   "visual": "a dim traditional herbal clinic in a near future: the humanoid android with a smooth pale grey synthetic face of perfectly calm features and dark glassy eyes stands at frame centre facing the camera, slim and upright in a plain white clinic gown, its hands folded neatly in front of it, faint seams visible at its neck and wrists; behind it a wall of small wooden medicine drawers rises to the ceiling, bundles of dried herbs hang from a beam, and on a low table beside it stand large glazed clay jars sealed with cloth; a single warm paper lamp hangs above, lighting the android's face softly so that it looks almost alive, almost gentle; the corners of the clinic sink into shadow; the stillness of the android is uncanny, more composed than any person; a folded white towel and a small brass bell lie on a stool beside the android",
+   "motion": "the android slowly tilts its head a little to one side and its dark glassy eyes shift toward the camera, and that small tilt is the one movement in the shot: at the start it stands perfectly upright facing forward with its hands folded; over the whole five seconds its head tilts slowly and smoothly a few degrees to the left, too smoothly, its dark glassy eyes sliding to meet the camera and holding there, its calm synthetic features unchanged except for the faintest softening at the corners of its mouth; its folded hands and its slim body stay completely still; the wall of wooden medicine drawers, the hanging herbs, the sealed clay jars and the warm paper lamp stay completely still; the folded towel and the brass bell on the stool beside it stay still; the camera holds a medium shot at its chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "clinic"
+   ],
+   "refs": [],
+   "beat": "독충을 항아리에 가둬 독을 만드는 한의사",
+   "visual": "a close view of the low table in the dim herbal clinic, empty of people: three large glazed clay jars stand side by side, their mouths sealed with cloth tied down by string; the middle jar's cloth has been folded back a little, and from the dark gap at its rim the tip of a centipede's feelers and a few jointed legs show against the glaze; on the table around the jars lie a pair of long bamboo tongs, a small stone mortar with a pestle, a folded paper packet of dried herbs and a single brass scale; behind them the wall of small wooden medicine drawers fades into shadow, and a bundle of dried herbs hangs at the top of the frame; a single warm paper lamp lights the jars from above; the glaze gleams dark and wet; the scene is quiet, old and deeply sinister; a thin wisp of steam rises from a small clay pot of simmering herbs on a brazier at the edge of the table",
+   "motion": "the centipede's feelers and legs stir slowly at the rim of the middle jar, and that stirring is the one movement in the shot: at the start the tips of its feelers rest at the dark gap under the folded-back cloth; over the whole five seconds the feelers wave slowly and a few more jointed legs creep up over the glazed rim and then draw back into the dark, the cloth trembling faintly above them; the other two jars stay sealed and completely still; the bamboo tongs, the stone mortar and pestle, the paper packet of herbs, the brass scale and the wall of medicine drawers stay completely still; the warm lamplight on the jars holds steady; the thin wisp of steam from the small clay pot on the brazier rises slowly and steadily; the camera holds a close shot of the jars on the table, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "study"
+   ],
+   "refs": [],
+   "beat": "귀신은 없고 귀신보다 괴이한 인간이 있는 기담",
+   "visual": "the old study at dusk in the rain, empty of people: the heavy old cherry-wood desk stands at frame centre before the dark rain-streaked window; the tall window glass is dark and plain, showing only the rain streaks and the last faint grey of the dusk sky over the far rooftops; the tall bookshelves of plain worn spines line both walls in deep shadow; a desk chair stands pushed back and turned slightly toward the camera; the last grey light of the day comes through the window; the rain runs steadily down the outside of the glass; the room is utterly quiet, every object in its place and waiting; a folded umbrella leans by the door, and the brass desk lamp stands switched off",
+   "motion": "rain runs down the outside of the window, and that running rain is the one movement in the shot: at the start the rain streams steadily down the dark glass; over the whole five seconds the raindrops trickle down the dark glass in thin wavering lines, gathering, joining and sliding on toward the sill, while the last grey daylight in the window dims very slightly; the heavy desk itself, the pushed-back chair, the unlit lamp and the tall bookshelves in the real room stay completely still; the folded umbrella by the door and the switched-off brass lamp stay still; the pushed-back desk chair keeps its slight turn toward the camera, and the worn spines on the tall shelves hold in deep shadow; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot of the desk and window from the doorway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "study"
+   ],
+   "refs": [],
+   "beat": "작가가 말하는 인간이라고 믿어 온 것들에 대한 의심",
+   "visual": "a round old mirror on a stand on the corner of the cherry-wood desk in the dim study, empty of people: the mirror is tilted up toward the ceiling, so its clouded glass shows only a soft dim blur of the plain plaster ceiling and the warm glow of the lamp; its brass frame is tarnished and its glass faintly clouded at the edges; beside it on the dark polished wood lie the blank white auction paddle, the antique fountain pen and the small sealed clay jar from before, pushed together into a loose group; a single brass desk lamp throws a warm cone across them; the rest of the room is in shadow; the mirror's glass stays a soft blank blur of ceiling and lamplight; a small pile of dust gathers along the base of the mirror stand, and the lamp's brass shade reflects the paddle",
+   "motion": "the image in the round mirror darkens slowly as the lamp beside it dims, and that dimming is the one movement in the shot: at the start the mirror glass holds a soft warm blur of lamplight; over the whole five seconds the brass desk lamp slowly dims, its warm cone shrinking across the paddle, the pen and the jar, and the soft glow in the clouded mirror sinks into a dull grey blur; the mirror itself, its tarnished frame, the paddle, the pen, the sealed jar and the desk stay completely still; the small pile of dust along the base of the mirror stand stays still, and the paddle's reflection in the lamp shade fades with the light; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close shot of the mirror on the desk corner, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "android",
+    "clinic"
+   ],
+   "refs": [],
+   "beat": "이곳엔 인간이 몇이나 될까 — 당신은 정말 인간인가",
+   "visual": "a close portrait in the dim herbal clinic: the lifelike humanoid android with an androgynous face of smooth flawless pale porcelain-like skin, soft human features, calm dark eyes and a short neat black bob looks straight into the camera from frame centre, its face filling the upper half of the frame, the faint seam at its neck just visible above the collar of its plain white clinic gown; the warm paper lamp above lights its face softly from one side and leaves the other side in shadow, so that its expression reads as gentle, thoughtful, almost human; behind it, out of focus, the wall of small wooden medicine drawers and a large glazed clay jar sealed with cloth are dark shapes; the stillness is total; the question hangs in its dark eyes, turned back on whoever is watching; a single thin strand of synthetic hair falls across its brow, perfectly still",
+   "motion": "the android blinks once, slowly, while looking into the camera, and that single blink is the one movement in the shot: at the start its dark glassy eyes look steadily into the camera; over the whole five seconds, near the middle of the shot, its synthetic eyelids close slowly and open again, too evenly, and its eyes return to rest on the camera exactly as before, its calm features otherwise unchanged; its head, its neck with the faint seam and its white gown stay completely still; the warm lamplight on one side of its face holds steady; the out-of-focus medicine drawers and the sealed clay jar behind stay completely still; the thin strand of synthetic hair across its brow stays perfectly still, untouched by any breath; the camera holds the close portrait at its eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "study"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빗소리 속 비어 있는 책상",
+   "visual": "a quiet closing still of the old study at nightfall, empty of people: the heavy old cherry-wood desk five feet wide stands at frame centre before the dark rain-streaked window, its polished top clear now except for a single blank white auction paddle lying flat at one corner; the brass desk lamp is switched off; the chair is pushed in neatly; the tall bookshelves of plain worn spines stand in deep shadow on both sides; a faint blue-grey light from the city outside comes through the wet glass and lies across the desk top; the rain runs steadily down the window; the room is silent, the desk waiting to be handed down again; a folded umbrella leans against the bookshelf, dry now, and the grain of the old desk gleams faintly",
+   "motion": "rain runs steadily down the dark window behind the empty desk, and that running rain is the one movement in the shot: at the start the rain streams down the glass; over the whole five seconds the raindrops trickle and merge down the window, their faint moving shadows sliding slowly across the polished desk top in the blue-grey light and over the blank white paddle at its corner; the heavy desk itself, the paddle, the switched-off brass lamp, the pushed-in chair and the tall bookshelves stay completely still; the faint blue-grey city light holds steady; the dry umbrella against the bookshelf stays still, and the grain of the desk keeps its faint gleam under the slow shadows of the rain on the glass; the camera holds the wide still shot of the study from the doorway, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

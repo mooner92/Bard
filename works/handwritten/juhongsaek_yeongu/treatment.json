@@ -1,0 +1,205 @@
+{
+ "logline": "전쟁에서 돌아온 군의관 왓슨이 병원 실험실에서 홈즈를 만나 베이커가 하숙집에 함께 들고, 새벽의 편지를 따라 안개 낀 변두리의 빈 집에서 바퀴 자국과 금반지와 방 안을 살피며, 반지를 찾으러 온 노파와 빈 마차, 거리의 아이들을 거쳐, 짐을 옮기러 온 마부가 트렁크 앞에 무릎을 꿇는다",
+ "destination": "소설 주홍색 연구에서 만날 수 있습니다",
+ "protagonist": "holmes",
+ "setting": "1881년 런던 — 안개 낀 거리, 병원 실험실, 베이커가 하숙집 거실과 계단, 변두리의 낡은 빈 집과 그 안의 빈 방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/juhongsaek_yeongu/assets",
+ "anchor": "a tall hawk-nosed young detective in a dark grey frock coat and a moustached army doctor in brown tweed in foggy London of 1881",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark blue",
+ "voice": "",
+ "personas": {},
+ "withheld": "그 사내의 이름과 그가 먼 사막에서 겪은 옛일",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "watson",
+    "street_fog",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "전쟁에서 돌아온 군의관 왓슨이 런던에서 지낼 곳을 찾는다",
+   "visual": "flat grey London daylight on the wet cobbles of the street with the tall dark house fronts: the thin young man of twenty-eight with the short brown hair and the brown moustache and the sunburnt drawn face, in the brown tweed suit with his left arm held stiff at his side, is the one standing at frame centre on the pavement under the gas lamp on its iron post with his face turned up to the blank windows of the house before him, his lips pressed together and his shoulders a little bowed; a small leather bag stands on the wet pavement by his boots; the hansom cab with the black horse stands at the kerb at frame left with its driver's seat high and empty; the tall dark house fronts rise on both sides to the top of the frame with their windows blank; a thin grey fog hangs at the far end of the street; there is exactly one person in the street",
+   "motion": "the young man's face is the one thing that moves, and the street holds still: at the start his face is turned up to the blank windows with his lips pressed; over the first three seconds his head turns slowly from the windows to look along the street toward the fog at its far end and back to the house, his bowed shoulders lifting with a slow breath and his stiff left arm not moving; in the last two seconds his face holds turned up to the house; his boots do not shift on the wet pavement and the leather bag stays by them; the black horse at the kerb stands without a step and the empty cab does not move; the gas lamp, the tall dark house fronts and the thin fog at the street's end hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "holmes",
+    "watson",
+    "lab",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "병원 실험실에서 만난 남자가 왓슨이 어디서 왔는지 맞힌다",
+   "visual": "grey light from the high windows of the hospital chemistry laboratory: the tall thin man of twenty-seven with the sleek black hair and the sharp hawk-nosed face, in the dark grey frock coat with the sleeves pushed back, is the one standing at frame left behind the long wooden bench with a small glass test tube held up in one hand between his eyes and the window and his other hand stretched out across the bench toward the visitor with the fingers open, his keen grey eyes on the visitor's face and a quick thin smile on his lips; the thin young man of twenty-eight with the brown moustache and the sunburnt drawn face, in the brown tweed suit with his left arm held stiff, is the one standing at frame right just inside the laboratory door with his good hand half raised and his mouth open, his brows lifted; the rows of glass bottles and retorts stand along the bench between them with the small gas flame burning steady under a glass vessel; the high windows show the grey sky; there are exactly two men in the laboratory",
+   "motion": "the thin man's outstretched hand is the one thing that moves, and the visitor holds still: at the start the hand is stretched out across the bench toward the visitor with the fingers open and the test tube held up in the other; over the first three seconds the outstretched hand turns slowly palm up and the fingers close and open once, as a man does who has just said a thing that surprises, his quick thin smile widening and the test tube staying up between his eyes and the window; in the last two seconds the hand holds palm up and the smile stays; his feet do not shift behind the bench; the visitor keeps his good hand half raised and his mouth open, his brows lifted, nothing in him moving; the small gas flame under the glass vessel burns steady; the rows of bottles and retorts and the high grey windows hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "holmes",
+    "watson",
+    "trunk",
+    "baker_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈와 왓슨이 베이커가 하숙집에 함께 짐을 푼다",
+   "visual": "grey morning light through the window with the dull yellow curtains in the sitting room at Baker Street: the big travelling trunk of dark brown leather with its two straps and brass corners is the one thing standing open at frame centre on the floor between the two worn armchairs, its lid up and folded clothes inside it; the thin young man of twenty-eight with the brown moustache, in the brown tweed suit with his left arm held stiff, is the one kneeling at frame right beside the trunk with his good hand lifting a folded shirt from it, his face turned down to the trunk; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one standing at frame left by the shelf with the violin case, setting a row of small glass bottles on the shelf with both hands, his back half to the camera and his face turned to the shelf; the coal fire glows in the small grate; the round table with the papers stands at the back; there are exactly two men in the room and the trunk between them is open",
+   "motion": "the kneeling man's hand and the standing man's hands are the two things that move, and the room holds still: at the start the folded shirt is lifted in the kneeling man's good hand and the standing man's hands are setting a bottle on the shelf; over the first three seconds the folded shirt is laid slowly on the seat of the armchair beside him and his hand returns to the trunk, while the standing man's hands set the bottle in its row and reach slowly down for the next, his back staying half to the camera; in the last two seconds both hands hold, one on the trunk's edge and one on a bottle; neither man's feet shift; the open trunk keeps its lid up and its folded clothes; the coal fire keeps its even glow; the round table, the papers and the dull yellow curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "holmes_gown",
+    "baker_street",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈는 밤이면 바이올린을 켜고 낮이면 기묘한 손님을 맞는다",
+   "visual": "deep night in the sitting room at Baker Street, lit by the coal fire and one lamp on the round table: the tall thin man of twenty-seven with the sleek black hair and the sharp hawk-nosed face, in the long dark blue dressing gown over the white shirt, is the one standing at frame centre before the window with the dull yellow curtains drawn, the violin held under his chin and the bow drawn across its strings, his eyes half closed and his head tilted to the instrument, his long fingers on the neck of the violin; the two worn armchairs stand either side of the small iron grate set into the chimney breast under the white mantelpiece, the coal fire glowing low inside it; the round table at frame right holds the lamp and the papers; the drawn curtains are dull yellow in the lamplight; there is exactly one person in the room; the one violin in the room is the one under his chin",
+   "motion": "the bow on the strings is the one thing that moves, and the room holds still: at the start the bow is drawn across the strings near its tip with the player's eyes half closed; over the whole five seconds the bow moves slowly back across the strings to its heel and forward again, his long fingers on the neck of the violin shifting a little and his tilted head swaying very slightly with the bow, his eyes staying half closed; his feet do not shift before the window and the hem of the dark blue gown hangs still; the coal fire keeps its low even glow and the lamp on the round table its steady light; the two armchairs, the papers, the open violin case on the shelf and the drawn dull yellow curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "watson",
+    "holmes",
+    "baker_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "새벽에 하숙집 문을 두드리는 소리와 함께 경감의 편지가 온다",
+   "visual": "thin grey dawn light through the window with the dull yellow curtains half drawn in the sitting room at Baker Street: the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark blue dressing gown over the white shirt, is the one standing at frame centre with a single sheet of paper held open in both hands, its written side turned toward himself and away from the camera so that only its plain back shows, his keen grey eyes bent to it and his lips pressed in a thin line; the thin young man of twenty-eight with the brown moustache, in the brown tweed suit pulled on in haste with the collar open, is the one standing at frame right by the door with one hand still on the door handle and his face turned to the reader; the door stands a little open on the dark landing; the coal fire is out and grey in the grate at frame left; the round table with the papers stands at the back; there are exactly two men in the room and the paper shows only its blank back",
+   "motion": "the reader's sheet of paper is the one thing that moves, and the other man holds still: at the start the sheet is held open in both hands with its plain back to the camera and his eyes bent to it; over the first three seconds his hands lower the sheet slowly to the height of his chest and his head lifts, his eyes going from the paper to the window and narrowing, the paper's back staying toward the camera; in the last two seconds the sheet holds at his chest and his narrowed eyes stay on the window; his feet do not shift; the young man by the door keeps his hand on the handle and his face turned to the reader, nothing in him moving; the door stays a little open on the dark landing; the grey dead fire, the round table and the half-drawn curtains hold completely still; the thin dawn light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "holmes",
+    "watson",
+    "empty_house",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "편지가 이끈 곳은 안개 잠긴 변두리의 낡은 빈 집이다",
+   "visual": "thick grey fog over the dingy empty house at the end of the row: the sooty brick front with its blank windows and their shades down is the one thing rising at frame centre behind the small front garden of bare mud, the broken wooden gate hanging open on one hinge at the bottom of the frame and the clay path running from it to the dark front door; the tall thin man of twenty-seven with the sleek black hair, in the dark grey frock coat, and the thin young man of twenty-eight with the brown moustache, in the brown tweed suit, are the two standing side by side at frame centre outside the broken gate with their backs to the camera and their faces hidden, both looking at the house, the thin man's hands clasped behind him and the young man's good hand in his pocket; the fog hides the houses on either side beyond a few paces; the mud of the garden is marked with many footprints and the clay path is wet; there are exactly two people and both have their backs to the camera",
+   "motion": "the fog is the one thing that moves, and the two men hold still: at the start the fog hides the neighbouring houses beyond a few paces and lies against the sooty front of the house; over the whole five seconds the grey fog drifts slowly across the front of the house from right to left, the blank windows with their shades showing a little clearer and fading again, thin wisps passing between the men and the house; the two men keep their backs to the camera and their faces turned to the house, the thin man's clasped hands not moving; the broken gate hangs still on its one hinge and does not swing; the shades behind the blank windows do not lift; the footprints in the mud and the wet clay path hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "holmes",
+    "watson",
+    "empty_house",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "안개 속 진흙의 바퀴 자국부터 홈즈가 찬찬히 살핀다",
+   "visual": "thick grey fog over the muddy front garden of the empty house, seen close: the bare mud of the path is the one thing filling the lower half of the frame, marked with two long narrow wheel ruts running across it and the deep prints of a horse's hooves between them, and among them the prints of several men's boots; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one crouched at frame centre on the clay path with one knee down and his face bent close to the mud, a small round magnifying glass held in one hand a finger's width above one of the wheel ruts, his keen grey eyes on the rut; the thin young man of twenty-eight with the brown moustache, in the brown tweed suit, is the one standing at frame right behind him with his good hand on the broken gate post and his face turned down to the crouched man; the sooty front of the house rises dim in the fog at the top of the frame; there are exactly two men in the garden and the crouched one is the one with the glass; the wheel marks on the path are two thin plain straight grooves pressed into the wet clay by narrow smooth iron-rimmed wheels, each a single unbroken line the width of a finger",
+   "motion": "the crouched man's magnifying glass is the one thing that moves, and the other man holds still: at the start the glass is held a finger's width above one wheel rut with his face bent close; over the first three seconds the glass moves slowly along the rut a hand's width and stops over a horse's hoof print, his face following it close to the mud and his other hand coming down flat on the clay beside him; in the last two seconds the glass holds over the hoof print and his eyes stay on it; his knee does not shift on the path; the young man behind him keeps his hand on the gate post and his face turned down, nothing in him moving; the wheel ruts, the hoof prints and the boot prints in the mud keep their exact shapes; the fog against the sooty house front drifts only a little; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "holmes",
+    "room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈가 들어간 방에는 쓰러진 남자와 금반지가 있다",
+   "visual": "dim grey light through the drawn dark shade of the one window in the empty room with the faded wallpaper: the bare floorboards thick with dust fill the lower half of the frame, and on them at frame centre lies a single small gold ring, a plain woman's wedding band, catching the grey light; at the far left edge of the frame the soles of a man's black boots and the hem of a dark coat lie still on the boards, the rest of the man out of the frame; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one standing at frame right just inside the door with his hands clasped behind his back and his keen grey eyes bent to the gold ring on the floor, his head tilted; the marble fireplace at the back holds the stub of candle on its mantel, dark; the faded wallpaper is stained and peeling at one corner; there is exactly one person standing in the room and the gold ring is the one bright thing on the floor",
+   "motion": "the standing man's head is the one thing that moves, and the room holds still: at the start his head is tilted with his eyes bent to the gold ring; over the first three seconds his head turns slowly from the ring to the boot soles at the far left edge of the frame and back to the ring, his clasped hands not parting behind his back; in the last two seconds his head holds tilted toward the ring; his feet do not shift inside the door; the gold ring keeps its place and its small catch of light on the dusty boards; the boot soles and the coat hem at the frame's edge do not move; the dark candle stub on the mantel, the drawn dark shade and the peeling wallpaper hold completely still; the dim grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "holmes",
+    "watson",
+    "room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈가 줄자와 돋보기로 방을 샅샅이 훑는다",
+   "visual": "dim grey light through the drawn dark shade in the empty room with the faded wallpaper: the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat with the tails spread on the dusty boards, is the one on his hands and knees at frame centre on the floor with a long cloth tape measure stretched out along the boards from one hand to a point by the wall and the small round magnifying glass in the other hand held close above the dust, his face a hand's width from the floor and his eyes narrowed; the thin young man of twenty-eight with the brown moustache, in the brown tweed suit, is the one standing at frame right by the door with his arms folded and his face turned down to the crawling man, his brows lifted; the marble fireplace with the dark candle stub on the mantel stands at the back; the dust on the boards is marked with the crawling man's hand prints; there are exactly two men in the room and the one on the floor is the one with the tape",
+   "motion": "the crawling man is the one who moves, and the standing man holds still: at the start he is on his hands and knees with the tape stretched along the boards and the glass close above the dust; over the first three seconds his glass hand moves slowly along the boards a hand's width toward the wall with his face following it close to the floor, and the tape stays stretched taut from his other hand, his eyes narrowed; in the last two seconds the glass holds above one place in the dust and his face stays close to it; his knees do not shift; the standing man keeps his arms folded and his lifted brows turned down, nothing in him moving; the dark candle stub on the mantel, the drawn dark shade and the faded wallpaper hold completely still; the dim grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "old_woman",
+    "holmes",
+    "baker_street",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "금반지를 찾으러 베이커가로 온 이는 늙은 노파다",
+   "visual": "the dull yellow light of the lamp on the round table in the sitting room at Baker Street at night: the bent old woman in the black bonnet and the rusty black shawl over the dark brown dress, with the deeply wrinkled face, is the one standing at frame right just inside the door with one mittened hand held out, palm up, and the other clutching the shawl at her throat, her wrinkled face lifted and her mouth open in speech; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one standing at frame left beside the round table with the small gold ring held up between his finger and thumb toward the lamp, his keen grey eyes on the old woman's face and his lips in a thin line; the coal fire glows in the small grate; the two worn armchairs stand either side of it; the dull yellow curtains are drawn; there are exactly two people in the room and the ring is the one small bright thing",
+   "motion": "the old woman's held-out hand and the ring are the two things that move, and the room holds still: at the start her mittened hand is held out palm up and the ring is held up toward the lamp; over the first three seconds her held-out hand trembles and reaches slowly a little further toward the ring, her mouth moving in speech, and the thin man's hand lowers the ring slowly from the lamp toward her open palm and stops a hand's width above it, his eyes not leaving her face; in the last two seconds both hands hold with the ring above the mittened palm; neither person's feet shift; the coal fire keeps its even glow and the lamp its steady light; the armchairs, the round table and the drawn curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "holmes",
+    "street_fog",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈가 노파를 뒤쫓았지만 마차는 텅 비어 있다",
+   "visual": "black night in the fog on the wet cobbles running plain and unbroken from kerb to kerb of the street under the dull yellow light of the gas lamp on its iron post: the hansom cab with the black horse is the one thing standing at the kerb at frame centre with its little doors folded open and its inside plainly empty, the cushion bare, the cab's driver, a stout man of fifty in a caped dark brown coat and a low-crowned hat with a grey muffler, seated up on the high driver's box at the back of the cab above and behind its roof, turned round and looking down into the empty cab with his whip in his hand, his face shadowed under his hat brim; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat with the collar turned up, is the one standing at frame right on the wet pavement close beside the open cab with one hand on its side and his head bent to look into the empty inside, his lips parted; the fog hangs thick beyond the lamp and hides the far end of the street; the tall dark house fronts rise on both sides; there are exactly two people in the street and the cab is empty; there are exactly two people: the tall thin man on the pavement and the stout driver up on the box",
+   "motion": "the thin man's bent head is the one thing that moves, and the cab holds still: at the start his head is bent to look into the empty cab with one hand on its side; over the first three seconds his head lifts slowly and turns toward the fog at the far end of the street and back to the empty cab, his hand on the cab's side not moving, his lips closing into a thin line; in the last two seconds his head holds turned to the empty inside; his feet do not shift on the wet pavement; the driver on his high seat keeps looking down into the cab with his whip still; the black horse stands without a step; the gas lamp keeps its steady light and the fog beyond it drifts only a little; the tall dark house fronts hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "irregulars",
+    "stairs",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "홈즈의 부름에 거리의 아이들이 계단을 뛰어 올라온다",
+   "visual": "grey daylight from the gas bracket and a window on the narrow stair up to the Baker Street rooms, seen from the top of the stair looking down: the six ragged street boys of about ten in the torn dark jackets and cloth caps, with bare feet and dirty cheerful faces, are the ones coming up the seventeen worn steps at frame centre, the first boy three steps from the top with one bare foot lifted to the next step and his hand on the dark banister, the others crowded on the steps behind and below him, all their faces turned up toward the camera and grinning; the dark banister runs down the right side of the frame; the door at the top of the stair shows at the bottom edge of the frame as a dark threshold; the gas bracket on the wall at frame left is dark; the steps are worn pale in the middle; there are exactly six boys on the stair and all of them are looking up",
+   "motion": "the boys on the stair are the ones that move, and the stair holds still: at the start the first boy is three steps from the top with his foot lifted and the others crowded behind; over the whole five seconds the first boy comes slowly up one step with his hand sliding along the banister and the boys behind him each come up one step after him, their caps bobbing and their grins not changing, all their faces staying turned up, none of them reaching the top; the dark banister, the worn steps and the dark gas bracket hold completely still; the dark threshold of the door at the bottom edge of the frame stays empty and nobody steps onto it; the window's grey light on the wall does not shift; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "cabman",
+    "holmes",
+    "watson"
+   ],
+   "refs": [],
+   "beat": "며칠 뒤 홈즈가 짐을 옮기겠다며 마부 하나를 불러올린다",
+   "visual": "grey daylight in the sitting room at Baker Street: the big travelling trunk of dark brown leather with its two straps and brass corners is the one thing standing closed at frame centre on the floor; the tall thick-set man of forty in the cabman's long dark brown coat with the cape and the low-crowned black hat, with the rough weathered face and the short black beard, is the one standing at frame right just inside the door with his big bare hands hanging at his sides and his face turned to the trunk; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one standing at frame left beside the trunk with one hand resting on its lid and the other pointing down at the trunk's straps, his keen grey eyes on the cabman and a thin smile on his lips; the thin young man of twenty-eight with the brown moustache, in the brown tweed suit, is the one sitting in the armchair by the fire at the far left with his hands on the chair's arms and his face turned to the cabman; the coal fire glows; there are exactly three men in the room and the one in the hat is the cabman",
+   "motion": "the thin man's pointing hand is the one thing that moves, and the cabman holds still: at the start the hand points down at the trunk's straps with the other resting on the lid; over the first three seconds the pointing hand turns slowly palm up toward the cabman and back down to the straps, as a man does asking another to see to a thing, his thin smile widening a little and his eyes staying on the cabman's face; in the last two seconds the hand holds pointing at the straps; his feet do not shift; the cabman keeps his big hands at his sides and his face turned to the trunk, nothing in him moving; the young man in the armchair keeps his hands on the chair's arms; the closed trunk keeps its place; the coal fire keeps its even glow; the round table and the dull yellow curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "cabman",
+    "holmes",
+    "trunk",
+    "baker_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "트렁크 끈을 매러 무릎 꿇은 마부는 대체 누구인가",
+   "visual": "grey daylight in the sitting room at Baker Street, seen from low near the floor: the tall thick-set man of forty in the cabman's long dark brown coat with the cape and the low-crowned black hat, with the rough weathered face and the short black beard, is the one kneeling at frame centre on the floor before the big travelling trunk of dark brown leather with both his big bare hands on the trunk's near strap, pulling its buckle tight, his bearded face bent to the strap; the tall thin man of twenty-seven with the sleek black hair and the hawk-nosed face, in the dark grey frock coat, is the one standing at frame left close behind the kneeling man's shoulder, bending forward over him with both his hands reaching down toward the cabman's wrists on the strap, his keen grey eyes on those wrists and his lips set; the brass corners of the trunk catch the grey light; the worn armchair shows empty at the far right, its seat cushion bare; the coal fire glows in the grate at the back; there are exactly two men in the picture and the one kneeling is the cabman",
+   "motion": "the thin man's reaching hands are the one thing that moves, and the kneeling cabman holds still: at the start both his hands are reaching down toward the cabman's wrists on the strap; over the first three seconds his hands come slowly down the last hand's width until they hover just above the cabman's wrists, his fingers opening wide, his bent body leaning a little further over the kneeling man's shoulder and his eyes not leaving the wrists; in the last two seconds his open hands hold just above the wrists and do not close; his feet do not shift; the cabman keeps both hands on the strap and his bearded face bent to it, nothing in him moving; the trunk keeps its place and its brass corners keep their catch of light; the empty armchair and the glowing fire hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "trunk",
+    "baker_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 거실 바닥에 끈이 풀린 트렁크만 남는다",
+   "visual": "grey daylight through the window with the dull yellow curtains in the sitting room at Baker Street: the big travelling trunk of dark brown leather with its brass corners is the one thing standing at frame centre on the floor, its two straps hanging loose and unbuckled to the boards, its lid closed; a low-crowned black hat lies upside down on the floor beside the trunk; the two worn armchairs stand empty either side of the small grate with the coal fire burning low; the round table at the back holds the papers and the lamp, dark; the violin case lies closed on the shelf at frame left; the door at frame right stands wide open on the empty landing; the trunk with its loose straps and the hat on the floor are the two things left",
+   "motion": "the coal fire is the one thing that moves, and the room holds still: at the start the fire burns low in the grate; over the whole five seconds its glow brightens very slowly and dims again as a coal settles, the light on the brass corners of the trunk and on the upside-down hat shifting a little with it; the loose straps of the trunk hang exactly as they are and do not swing; the hat on the floor does not move; the empty armchairs, the round table with its papers and dark lamp, the closed violin case on the shelf and the open door on the empty landing hold completely still; no figure appears in the doorway and no shadow crosses the empty landing; the dull yellow curtains at the window do not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

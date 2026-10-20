@@ -1,0 +1,184 @@
+{
+ "logline": "마지막 저고리를 잡히는 무명작가의 아내와, 처형이 준 새 신 한 켤레",
+ "destination": "소설 빈처에서 만날 수 있습니다",
+ "protagonist": "wife",
+ "setting": "1920년대 경성 — 천변 셋방의 작은 방, 안국동 처가의 넓은 대청, 비 갠 봄길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/bincheo/assets",
+ "anchor": "a thin young Korean woman in a plain coarse white cotton hanbok with hair in a low bun",
+ "palette": "soot brown, off-white, pale green, dark indigo, dull grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "비 오는 봄밤, 장롱의 마지막 저고리",
+   "visual": "a rainy spring night in the small rented room: the wife kneels before the open wardrobe chest, nearly empty inside, holding up the last fine silk jeogori with both hands in the smoky lamplight; rain ticks on the paper door, the husband's low desk with its few gilt-titled books at the frame's edge",
+   "motion": "the wife turns the silk jeogori slowly in the lamplight and folds it against her chest, her lips moving in a murmur; rain ticks steadily on the paper door, the lamp flame nodding, and the camera holds on the jeogori in her hands before the empty chest"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "wife"
+   ],
+   "refs": [],
+   "beat": "옷을 잡혀 아침거리를 대는 이 년",
+   "visual": "the narrow wooden veranda of a small Korean house at night in the rain: the wife hands a cloth bundle to a stooped old neighbour woman standing under the dripping eave, the old woman's hand closing on it, a paper lantern glowing between them; behind the wife the paper door of the room stands open showing only dim lamplight inside; exactly two women",
+   "motion": "the bundle passes from the wife's hands to the old woman's and the old woman shuffles off into the rain with the lantern swinging, the wife standing in the doorway with her arms folded against the cold; the camera holds on the thin wife in the doorway"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "husband",
+    "room"
+   ],
+   "refs": [],
+   "beat": "팔리지 않는 소설만 쓰는 남편",
+   "visual": "the small room by lamplight: the husband sits at the low desk with a sheet of manuscript and a brush, unkempt hair and tired eyes, cigarette smoke curling from a dish, pages of a story stacked at his elbow beside the few gilt-titled books; the paper door closed behind him and dark with rain; exactly one man",
+   "motion": "the husband's brush hovers over the manuscript and sets down a few characters, then he leans back rubbing his eyes with ink-stained fingers, smoke curling from the cigarette in the dish; rain ticks on the door, and the camera holds on the tired writer at his desk"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "t",
+    "husband",
+    "wife"
+   ],
+   "refs": [],
+   "beat": "친척 T의 매화 양산",
+   "visual": "the narrow wooden veranda of a small Korean house in afternoon light: T in his neat Western suit and round glasses stands with a white silk parasol embroidered with plum blossoms opened over his shoulder, beaming, his polished shoes on the step; the husband in his white jeogori stands at the open paper door with a stiff half-smile, and the wife at his side leans toward the parasol with her hands clasped; exactly three people",
+   "motion": "T turns the open parasol slowly so the embroidered plum blossoms take the light, beaming, while the wife leans closer with her clasped hands rising toward it and the husband's half-smile stiffens; the camera holds on the white parasol between the three"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "wife"
+   ],
+   "refs": [],
+   "beat": "나도 하나 가졌으면 — 아내의 눈",
+   "visual": "close on the wife's pale face beside the open white parasol: her narrow eyes fixed on the embroidered plum blossoms, lips parted, one thin hand lifted a breath from the silk; the two faint lines on her brow, a stray hair loose from her bun, afternoon light through the silk warming her cheek",
+   "motion": "the wife's lifted hand hovers a breath from the silk and her eyes move slowly over the plum blossoms, her lips parting further; light through the parasol warms her cheek, and the camera holds close on her longing face"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "wife",
+    "husband",
+    "room"
+   ],
+   "refs": [],
+   "beat": "살 도리를 하라는 말, 남편의 고함",
+   "visual": "the small room at dusk: the wife kneels close beside the husband at the desk with a faint flush on her pale cheeks and her hands twisted in her lap, speaking low, while the husband's face twists and his mouth opens wide in a shout, one fist on the manuscript; the lamp unlit, grey rain light on the paper door",
+   "motion": "the husband's fist presses down on the manuscript and his mouth opens wide in a shout, the wife flinching back with her hands rising; the grey light on the paper door dims, and the camera holds on the shouting face and the flinching wife"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "장판 위에 떨어지는 눈물",
+   "visual": "close on the oiled yellow paper floor of the room: the wife kneels with her head bowed, her low bun and her folded hands in her lap, and two small dark spots of fallen tears on the oiled floor by her knees; the lamp's small flame at the frame's edge, the hem of her coarse white skirt; exactly one woman",
+   "motion": "one tear and then another slides from the wife's bowed face and spreads by her knees into a small dark spot, her folded hands tightening; the lamp flame trembles, and the camera holds close on the bowed head"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wife",
+    "husband",
+    "room"
+   ],
+   "refs": [],
+   "beat": "저고리도 이미 잡힌 뒤 — 둘의 침묵",
+   "visual": "the room by lamplight: the wife stands before the open wardrobe chest, bare inside, one hand on its door and her face turned toward the husband with a slow dazed nod; the husband sits on the floor with his back against the desk staring at the bare shelves, both silent, the lamp smoking between them",
+   "motion": "the wife's slow nod stops and her hand slides down the chest's door, the husband's stare holding on the bare shelves, the lamp flame smoking; the camera holds on the two silent faces and the empty chest"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "husband",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "아내까지 안 믿으면 — 쓰러지는 남편",
+   "visual": "the room: the husband collapses sideways over the low desk with his arm across his face and his shoulders shaking, manuscript pages sliding off the desk, while the wife sits back on her heels with her lip caught in her teeth and her eyes wide; the smoky lamp, the rain-dark paper door",
+   "motion": "the husband's shoulders shake over the desk and the manuscript pages slide to the floor one by one, his arm pressed over his face; the wife's teeth press her lip and her eyes fill, and the camera holds on the slumped husband"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wife",
+    "husband",
+    "room"
+   ],
+   "refs": [],
+   "beat": "용서 — 함께 우는 두 사람",
+   "visual": "the room: the wife has thrown herself down against the husband's face, her hot wet cheek pressed to his, both of them weeping, her arms around his neck and his hand rising to her back; the lamp's small flame, the manuscript pages scattered around them on the floor",
+   "motion": "the wife's cheek presses harder against the husband's and their tears run together, her arms tightening around his neck as his hand spreads on her back; the lamp flame steadies, and the camera closes on the two wet faces pressed together"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "husband",
+    "wife"
+   ],
+   "refs": [],
+   "beat": "장인 생신날 — 헌 옷에 헌 신으로 뒤처진 아내",
+   "visual": "a Seoul street beside a stream on a bright morning after rain, a wooden footbridge beyond: the husband walks ahead in his grey durumagi with his hands behind his back, and far behind him the wife hurries in her coarse white cotton hanbok and worn blue cotton shoes, a step behind two passing women in glossy silk and fine shoes; puddles shine on the road",
+   "motion": "the husband glances back over his shoulder and slows while the wife hurries to catch up in her worn shoes, the two silk-clad women gliding past her; puddles flash in the sun, and the camera holds on the gap between husband and wife on the road"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "sister",
+    "wife",
+    "inlaw"
+   ],
+   "refs": [],
+   "beat": "비단 차림의 처형, 눈 위의 멍",
+   "visual": "close on the sister-in-law in the wide wooden hall of the wealthy house at the birthday feast: her powdered full-cheeked face laughing, glossy silk of jade green and pink, a dark purple bruise on her brow above her left eye; the wife's low bun and thin shoulder in coarse white cotton at the lower edge of the frame seen from behind; low tables of food and guests in fine hanbok behind; exactly one face in the frame",
+   "motion": "the sister-in-law's laugh shakes her silk sleeves as she reaches for the wife's hands, the bruise on her brow plain in the daylight; guests turn with their chopsticks paused, and the camera holds on the powdered face and the bruise"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "sister",
+    "wife"
+   ],
+   "refs": [],
+   "beat": "처형의 옷감 자랑과 신 한 켤레",
+   "visual": "close on two women kneeling face to face on the floor of a small plain room at dusk, bolts of glossy silk unrolled between them — grey, jade, green and pink: the sister-in-law on the left, her powdered face bright with boasting, pushing a parcel wrapped in brown paper into the hands of the wife; the wife on the right in her coarse white cotton taking the parcel in both hands with a small polite smile; a blank white wall behind them; exactly two women",
+   "motion": "the sister-in-law's hands smooth the shining silks and press the wrapped parcel into the wife's lap, her boasting mouth running on, while the wife's polite smile holds; the camera holds on the parcel in the wife's hands"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "wife",
+    "husband",
+    "room"
+   ],
+   "refs": [],
+   "beat": "새 신을 신어 본 아내",
+   "visual": "the room by lamplight after the guest has gone: the wife sits on the floor with torn brown wrapping paper beside her, pulling a new embroidered silk shoe onto her white-socked foot, her face lit with rare open delight, one foot lifted a little to show it; the husband sits across from her at the desk with a still face the lamp leaves in shadow; exactly two people",
+   "motion": "the wife draws the second new shoe on and lifts both feet a little, turning them in the lamplight with her face shining, while the husband's still face watches across the desk; the camera holds on the new shoes and the two faces"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "room"
+   ],
+   "refs": [],
+   "beat": "마무리 — 남폿불 아래 원고 스틸",
+   "visual": "closing still: the small room at night, the low desk with the manuscript pages and brush under the smoking lamp, the few gilt-titled books, the wardrobe chest standing open and bare, a pair of new embroidered silk shoes set neatly by the paper door; rain ticking on the door",
+   "motion": "the lamp flame sways over the manuscript pages while rain ticks steadily on the paper door; the gilt titles of the books glint, the new shoes wait by the door, and the camera closes with great patience on the manuscript under the lamp"
+  }
+ ],
+ "withheld": "비단신 한 켤레쯤 사 주고 싶다는 남편의 첫마디와 두 사람의 포옹"
+}

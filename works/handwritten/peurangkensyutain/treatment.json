@@ -1,61 +1,201 @@
 {
- "logline": "생명의 경계를 넘어 보려는 젊은 학생이, 밤새 붙들고 있던 것이 눈을 뜨자 방을 뛰쳐나간다.",
- "destination": "다락 실험대 — 그가 다시 돌아와 확인해야 하는 자리",
- "protagonist": "잉골슈타트에서 홀로 연구하는 스무 살 학생",
- "setting": "18세기 말 독일 대학 도시의 다락 실험실과 묘지",
- "anchor": "a hollow-eyed young student in a stained linen shirt and dark waistcoat, unkempt hair",
- "palette": "sickly candle yellow, storm-lightning white, deep bottle green, cold stone grey",
+ "logline": "제네바의 소년 빅터가 번개에 쪼개진 떡갈나무를 보고, 어머니를 여읜 뒤 잉골슈타트 대학에서 생명의 비밀을 찾겠다고 마음먹어 다락방에서 거대한 형체를 만들어 폭풍우의 밤에 살려 내고, 그것이 일어나 앉자 달아나 마당에서 밤을 새우고 친구 헨리의 간호를 받은 뒤 다시 오른 다락의 실험대가 텅 비어 있다",
+ "destination": "소설 프랑켄슈타인에서 만날 수 있습니다",
+ "protagonist": "victor",
+ "setting": "1790년대 제네바의 호숫가 집과 교회 묘지, 잉골슈타트의 대학 강의실과 하숙집 다락방, 밤의 묘지, 하숙집 마당과 침실",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/peurangkensyutain/assets",
+ "anchor": "a pale young student of the 1790s in a dark blue coat in a garret laboratory with a brass electrical machine and a long table",
+ "palette": "dark green, ash grey, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "피조물이 앗아 간 이들과, 북쪽 얼음 위의 추격",
  "beats": [
   {
    "n": 1,
-   "beat": "젊은 학생이 밤마다 다락 등불을 켠다.",
-   "visual": "a young student lighting an oil lamp in a cluttered attic laboratory of glass jars and copper coils",
-   "motion": "the wick catches and flares, glass jars glint, shadows swing across the beams"
+   "cast": [
+    "victor_boy",
+    "split_oak",
+    "lakeside",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "번개에 쪼개진 떡갈나무 앞에서 소년 빅터가 눈을 떼지 못한다",
+   "visual": "flat grey light after the storm on the lawn sloping down to the wide grey lake: the great old oak is the one thing at frame centre, split down its trunk from top to root with the two halves standing apart, the wood inside pale and charred black at the edges and thin grey smoke rising from the split into the grey sky, its wet leaves hanging heavy; the boy of fifteen with the dark brown hair tied back with the black ribbon and the pale thin face, in the dark blue coat and the white neckcloth, is the one standing at frame right a few paces from the tree with his back half to the camera and his face turned up to the split trunk, his dark eyes wide and his lips parted, both hands hanging still at his sides and the wet grass to his ankles; the lake lies flat and grey beyond the tree with the dark green mountains and the pale peaks on the far side; the stone house with its tall windows stands at the top of the lawn at the far left; there is exactly one person on the lawn",
+   "motion": "the thin smoke from the split trunk is the one thing that moves, and the boy holds still: at the start the smoke rises straight from the charred split in a thin grey thread; over the whole five seconds the thread of smoke leans slowly to the right and rises, thinning, and a new thread rises after it from the same place, the two halves of the trunk standing apart exactly as they are and the wet leaves hanging without stirring; the boy keeps his face turned up to the split trunk with his eyes wide and his lips parted, his hands still at his sides and his feet not shifting in the wet grass; the flat grey lake, the dark green mountains with the pale peaks and the stone house at the top of the lawn hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그는 묘지와 도살장을 돌며 재료를 모은다.",
-   "visual": "a young student with a covered basket walking between leaning gravestones under a low moon",
-   "motion": "his lantern swings low, fog rolls between stones, the basket cloth lifts"
+   "cast": [
+    "victor",
+    "churchyard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어머니를 여읜 뒤 빅터는 잉골슈타트 대학으로 떠난다",
+   "visual": "soft grey morning light in the small churchyard by the stone chapel: the young man of twenty with the dark brown hair tied back with the black ribbon and the pale thin face, in the dark blue coat and the white neckcloth, is the one standing at frame centre before one plain new gravestone in the long grass with his back to the camera and his face hidden, his head bowed, a small bunch of off-white flowers held in both hands behind his back; the gravestone before him stands with its carved face turned away from the camera toward the chapel wall, its back a plain smooth grey; the other plain gravestones stand in the long grass at frame left with their carved faces turned away too; the low stone wall runs along the back with the iron gate open in it, and beyond the gate in the lane the dark travelling coach waits with its two brown horses standing still and its door open with the step let down; the stone chapel rises at the far right; there is exactly one person in the churchyard and nobody by the coach",
+   "motion": "the young man's bowed head is the one thing that moves, and the churchyard holds still: at the start his head is bowed before the gravestone with the flowers held behind his back; over the first three seconds his head lifts slowly until his face, still hidden from the camera, is turned to the smooth grey back of the stone, and one hand brings the small bunch of off-white flowers slowly round to his side, his shoulders lifting with a drawn breath; in the last two seconds his head holds lifted and the flowers hold at his side; his feet do not shift in the long grass; the gravestones keep their carved faces turned away; the two brown horses in the lane beyond the gate stand without a step and the open coach door and its step do not move; the low wall, the iron gate and the stone chapel hold completely still; the soft grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "다락 실험대 위에 거대한 형체가 눕혀진다.",
-   "visual": "a very tall covered figure laid out on a long workbench, copper wires running to jars around it",
-   "motion": "the sheet settles over the shape, wires hum, lamplight crawls along the bench"
+   "cast": [
+    "professor",
+    "victor",
+    "lecture_hall",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "대학의 화학 강의에서 빅터는 생명의 비밀을 찾겠다고 마음먹는다",
+   "visual": "cool grey daylight through the tall windows of the high lecture room: the old man of sixty in the black scholar's gown and the short white wig, with the small round spectacles on his kind lined face, is the one standing at frame left behind the lectern with one hand raised and a small glass vessel held up in it to the light, his mouth open in speech; the long demonstration table before him holds more glass vessels in a row; the tiered wooden benches rise in rows at frame right and frame centre, and the young man of twenty with the dark brown hair tied back and the pale thin face, in the dark blue coat, is the one sitting on the second bench at frame centre leaning far forward with both his forearms on the desk before him and his dark eyes fixed on the raised glass vessel, his lips pressed together; the other benches around him are empty of people; the tall windows behind the lectern show the flat grey sky; there are exactly two people in the room and the young man on the bench is the one leaning forward",
+   "motion": "the young man on the bench is the one who moves, and the old man at the lectern holds still: at the start the young man leans far forward with his forearms on the desk and his dark eyes on the raised glass vessel; over the first three seconds his hands slowly close into fists on the desk and his shoulders lift, his face lifting a little higher toward the lectern, his lips staying pressed together and his eyes not leaving the vessel; in the last two seconds his fists hold on the desk and his face stays lifted; his feet do not shift under the bench; the old man keeps the glass vessel held up to the light and his mouth open in speech, his gown and his white wig not moving; the row of glass vessels on the demonstration table keeps its places; the empty tiered benches, the tall windows and the flat grey sky beyond hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "폭풍우 치는 밤 그가 마지막 손잡이를 당긴다.",
-   "visual": "a young student pulling a brass lever as lightning fills an attic window, apparatus sparking",
-   "motion": "lightning floods the window, sparks leap along the coils, his hair lifts"
+   "cast": [
+    "victor",
+    "garret",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빅터는 밤마다 다락방에 올라가 홀로 등불을 켠다",
+   "visual": "deep night in the garret room at the top of the tall house with its sloping ceiling and bare rafters: the young man of twenty with the dark brown hair tied back and the pale thin face with the hollow cheeks, in the dark blue coat with the white neckcloth loosened, is the one standing at frame centre beneath the lamp that hangs from a rafter, reaching up with a lit taper in one hand to the lamp's open glass so that the small dull yellow flame inside is just taking, his face lifted to it and lit from beneath, his other hand holding the lamp steady by its ring; the long wooden table runs down the middle of the room behind him, bare except for a few glass jars at its far end; the shelves of glass jars stand along the wall at frame left with their contents dark; the one dormer window at frame right is black; the rest of the room is in shadow; there is exactly one person in the room",
+   "motion": "the young man's taper hand and the lamp flame are the two things that move, and the room holds still: at the start the lit taper is held to the lamp's open glass with the flame inside just taking; over the first three seconds the small dull yellow flame in the lamp grows slowly to its full steady height and the light spreads up the rafters and along the bare table, and the taper hand draws slowly back and down, its own small flame going out in a thin thread of smoke, his face staying lifted to the lamp; in the last two seconds the lamp flame holds steady and his hand holds the lamp by its ring; his feet do not shift; the glass jars on the shelves and at the far end of the table keep their places; the black dormer window and the sloping rafters hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "형체의 손가락이 처음으로 꿈틀거린다.",
-   "visual": "a very large hand on a workbench with fingers beginning to curl, sheet slipping from the wrist",
-   "motion": "the fingers curl one by one, the sheet slides off, lamplight shivers"
+   "cast": [
+    "victor",
+    "graveyard_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "묘지와 도살장을 돌며 빅터가 필요한 것을 하나씩 그러모은다",
+   "visual": "deep night in the town graveyard with a low mist lying over the ground, the thin moon behind thin cloud: the young man of twenty with the dark brown hair tied back and the pale thin face, in the dark blue coat with the collar turned up, is the one walking away from the camera down the path between the rows of leaning gravestones at frame centre, seen from behind with his face hidden, a heavy shapeless sack slung over one shoulder and a spade in his other hand, his figure bent a little under the weight; the leaning gravestones stand in their rows on both sides of the path with their carved faces turned away from the path, plain grey backs to the camera; the bare tree stands black at frame left; the open iron gate shows small at the far end of the path ahead of him; the mist lies ash grey over the long grass to the height of the gravestones' feet; there is exactly one person in the graveyard and his back is to the camera",
+   "motion": "the young man walking away is the one who moves, and the graveyard holds still: at the start his back is at frame centre with the sack over his shoulder and the spade in his hand; over the whole five seconds he walks slowly away from the camera down the path with short bent steps, his figure growing a little smaller toward the far gate, the sack shifting slightly on his shoulder with each step and the spade swinging a little at his side, his face never turning back; the leaning gravestones keep their carved faces turned away and do not move; the low mist over the grass does not drift; the bare black tree and the small open gate at the far end hold completely still; the thin moonlight through the cloud stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그는 그것을 보고 방을 뛰쳐나간다.",
-   "visual": "a young student bolting through an attic doorway, overturned stool behind him, bench in deep shadow",
-   "motion": "the stool topples, his coat flies back, the door bangs against the wall"
+   "cast": [
+    "victor",
+    "covered_shape",
+    "apparatus"
+   ],
+   "refs": [],
+   "beat": "다락의 긴 실험대 위에 거대한 형체가 천에 덮인 채 눕혀진다",
+   "visual": "deep night in the garret under the dull yellow light of the hanging lamp: the long bundle wrapped entirely in plain grey sheeting and bound round with three cords is the one thing filling the middle of the frame from left to right along the long wooden table, longer than the young man is tall and reaching past both ends of the table, the sheeting pulled smooth and tight over the broad heavy mass beneath it, the three cords knotted on top, the bundle's ends round and closed; the tall brass electrical machine with the big glass disc stands at the head of the table at frame left with its copper coils and its thick wires running down to the table's edge and under the sheet; the young man of twenty with the dark brown hair tied back and the pale thin face with the hollow cheeks, in his white shirt with the sleeves rolled and the dark blue coat off, is the one standing at frame right at the foot of the table with both his hands resting flat on the sheeting near the bundle's lower end and his face turned along the length of the shape toward the machine, his lips pressed thin; the shelves of glass jars stand along the wall behind; the dormer window is black; there is exactly one person in the room, the young man, and the bound bundle on the table is the only other thing",
+   "motion": "the young man's hands on the sheet are the one thing that moves, and the bound bundle holds utterly still: at the start both his hands rest flat on the sheeting near the bundle's lower end; over the first three seconds his hands slide slowly a hand's width up the sheet toward the shins and press down, smoothing it, and his face turns slowly from the machine down to the sheet under his hands, his lips staying pressed thin; in the last two seconds his hands hold pressed on the sheet and his face stays turned down; his feet do not shift; the bound bundle keeps its smooth tight shape and does not rise or sink; the brass machine with its glass disc, its copper coils and its wires keeps its place at the head of the table; the hanging lamp keeps its steady dull yellow light; the shelves of jars, the rafters and the black dormer window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그것이 그를 다시 찾아온다면 무엇을 요구할까?",
-   "visual": "a huge shadow stretching across a snowy mountain slope toward a small distant figure below",
-   "motion": "the shadow lengthens across the snow, wind scours the ridge, the figure turns"
+   "cast": [
+    "victor",
+    "apparatus",
+    "covered_shape",
+    "garret"
+   ],
+   "refs": [],
+   "beat": "폭풍우 치던 밤, 빅터가 마지막 놋 손잡이를 힘껏 당겨 내린다",
+   "visual": "the night of the storm in the garret, the dormer window at frame right a plain pale glare with heavy rain streaking down its glass: the tall brass electrical machine with the big glass disc is the one thing at frame left with its copper coils and its wires, and the wooden board of brass levers stands beside it; the young man of twenty with the dark brown hair coming loose from its ribbon and the pale thin face with the hollow cheeks, in his white shirt with the sleeves rolled, is the one standing at frame centre with both his hands gripping the last brass lever, the longest on the board, pulled down almost to the bottom of its slot, his whole weight leaned on it and his face turned over his shoulder toward the table with his eyes wide; the long bundle wrapped in grey sheeting and bound with three cords lies on the long table behind him running to the right edge of the frame, the wires from the machine running in under its sheeting; the hanging lamp swings a little on its rafter; there is exactly one person in the room",
+   "motion": "the young man's arms on the lever are the one thing that moves, and the shape under the sheet holds still: at the start both his hands grip the last brass lever pulled almost to the bottom of its slot with his weight leaned on it; over the first three seconds his arms press the lever slowly the last finger's width down to the bottom of the slot and hold it there, his shoulders bunching and his face staying turned over his shoulder to the table with his eyes wide, the big glass disc of the machine beginning to turn slowly; in the last two seconds his hands hold the lever down and the disc keeps turning slowly; his feet do not shift; the bound bundle on the table keeps its smooth shape and does not rise or sink; the pale glare of the window stays even behind the streaking rain, the streaks running steadily down the glass; the hanging lamp's small swing stays small; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "눈벌판에 발자국 두 줄이 이어진다.",
-   "visual": "two lines of footprints crossing an empty snowfield toward a pale horizon, wind-scoured drifts",
-   "motion": "wind lifts snow across the tracks, the far horizon whitens, drifts shift",
-   "anchor": false
+   "cast": [
+    "covered_shape",
+    "garret",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "천 아래로 삐져나온 손가락이 꿈틀거린다",
+   "visual": "the night of the storm in the garret, close on the near end of the long wooden table under the dull yellow light of the hanging lamp: the edge of the plain grey sheet is the one thing filling the upper part of the frame, and from under its edge at frame centre a single huge hand hangs over the table's edge, the hand of a giant, its skin a dull yellowish grey stretched tight over the long bones, the black nails long and square, the wrist under the sheet's edge as thick as a man's forearm, the fingers hanging loose and still; the rough grain of the table's edge runs along the bottom of the frame with a thick wire lying along it; the pale glare of the window shows at the far right with the rain streaking down the glass; the rest of the shape under the sheet runs away to the left out of the frame; there is no face in the picture and no other person; the hand is the only part of the shape that shows",
+   "motion": "the huge hand is the one thing that moves, and the sheet holds still: at the start the fingers hang loose and still over the table's edge; over the first three seconds the long fingers curl slowly inward one after another, beginning with the smallest, the black nails drawing in toward the palm and the tendons standing out under the tight yellowish grey skin, the wrist under the sheet's edge not lifting; in the last two seconds the fingers hold half curled and a slow tremor runs through them; the edge of the grey sheet above the hand does not lift or stir; the thick wire along the table's edge keeps its place; the pale glare of the window with its streaking rain stays even; the dull yellow light of the lamp stays steady; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "creature_back",
+    "apparatus",
+    "garret",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "천을 밀치고 실험대 위에서 천천히 일어나 앉는 거대한 형체",
+   "visual": "the night of the storm in the garret, seen from the foot of the long wooden table: the huge figure eight feet tall is the one thing sitting up on the table at frame centre with its back to the camera and its face wholly hidden, the long lank black hair hanging to its shoulders, the yellowish grey skin stretched tight over the very broad shoulders and the long back, the plain grey sheet fallen round its waist and lying over its legs on the table, one huge hand flat on the table at each side of it with the black nails spread; the tall brass electrical machine with the big glass disc stands beyond it at the head of the table at frame left with its wires now hanging slack to the floor; the hanging lamp gives its dull yellow light from above; the dormer window at frame right is a pale glare streaked with rain; the shelves of glass jars stand along the wall in shadow; there is exactly one figure in the room and its back is to the camera, and no face is seen",
+   "motion": "the huge figure on the table is the one thing that moves, and the room holds still: at the start it sits up on the table with its back to the camera and its hands flat at its sides; over the first three seconds its long back straightens slowly and its head lifts, the lank black hair sliding a little over the broad shoulders, and its head turns very slowly a little to the left, stopping well before any part of its face can be seen, the huge hands staying flat on the table with the black nails spread; in the last two seconds it holds with its head turned a little and its back straight; the sheet round its waist keeps its folds; the brass machine with its slack wires keeps its place; the hanging lamp's dull yellow light stays steady; the pale glare of the window with its streaking rain stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "victor",
+    "garret",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "그 형체를 보자마자 빅터는 뒤도 돌아보지 않고 다락방을 뛰쳐나간다",
+   "visual": "the night of the storm on the narrow wooden stair leading down from the garret, seen from the top of the stair looking down: the young man of twenty with the dark brown hair fallen loose from its ribbon and the pale thin face, in his white shirt with the sleeves rolled, is the one going down the stair at frame centre seen entirely from behind and above, only the back of his head with its loose dark hair, the back of his white shirt and the heels of his shoes showing, his face turned fully away toward the landing below and hidden, three steps down already, one hand flung out against the wall and the other gripping the wooden rail, his shirt pulled sideways at the shoulder; the stair drops steeply between two bare plaster walls to a small landing below where a door stands ajar with a thin grey light in its gap; the dull yellow light of the garret lamp comes from behind the camera down the top steps; the bare treads of the stair are worn pale in the middle; there is exactly one person on the stair and his back is to the camera",
+   "motion": "the young man on the stair is the one who moves, and the stair holds still: at the start he is three steps down with his back to the camera, one hand against the wall and the other on the rail; over the whole five seconds he goes down the stair step by step away from the camera with his hand sliding along the wall and the other along the rail, his figure growing smaller toward the landing below, his loose hair swinging at his shoulders and his face never turning back; the door ajar on the landing with its thin grey light does not move; the two bare plaster walls and the worn treads hold completely still; the dull yellow light from the garret behind the camera stays steady on the top steps; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "victor",
+    "courtyard",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "비 내리는 새벽 마당에서 빅터가 밤새 떨고 있다",
+   "visual": "grey dawn in the paved courtyard of the tall lodging house with the rain still coming down: the young man of twenty with the dark brown hair hanging loose and wet and the pale thin face with the hollow cheeks, in his white shirt soaked through and clinging to his shoulders, is the one sitting at frame centre on the wooden bench against the wall with his back bent and both his arms wrapped round himself, his knees drawn up and his bare feet on the wet paving stones, his face turned down and half hidden by his wet hair; the iron pump stands at frame left with rainwater running from its spout; rainwater stands between the paving stones and the rain makes small rings in it; the stone arch to the street shows at frame right with the grey light of the dawn in it; the tall wall of the house rises behind the bench with one small window high up, dark; there is exactly one person in the courtyard",
+   "motion": "the young man on the bench is the one who moves, and the courtyard holds still: at the start he sits bent with his arms wrapped round himself and his face turned down; over the whole five seconds a slow shiver runs through his shoulders and his arms tighten round himself, his head sinking a little lower and lifting a little again, his wet hair swinging slightly before his face, his bare feet not shifting on the wet stones; the rain keeps coming down steadily and the small rings in the standing water keep forming; the water from the pump's spout runs steadily; the stone arch with the grey dawn light in it, the tall wall of the house and the dark small window high up hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "henry",
+    "victor",
+    "coach",
+    "courtyard"
+   ],
+   "refs": [],
+   "beat": "고향 친구 헨리가 마차에서 내려 빅터를 부른다",
+   "visual": "flat grey morning light in the paved courtyard of the lodging house, the rain stopped and the paving stones wet: the dark travelling coach with the two brown horses is the one thing standing under the stone arch at frame left with its door open and its step let down; the young man of twenty with the light brown curly hair and the fresh open plain face, in the dull yellow-brown travelling coat with the wide collar, is the one standing at frame centre a pace from the coach step with both his arms held wide open and his face lifted in a broad smile toward the bench, his mouth open in a call; the young man of twenty with the dark brown hair hanging loose and wet and the pale thin face, in the soaked white shirt, is the one rising at frame right from the wooden bench against the wall with one hand on the bench and the other lifted toward the visitor, his face turned to him with his lips parted; the iron pump stands between them; there are exactly two people in the courtyard and the one by the coach is the one with his arms open",
+   "motion": "the visitor's open arms and the rising man are the two things that move, and the coach holds still: at the start the visitor's arms are held wide open and the other young man is half risen from the bench with one hand on it; over the first three seconds the visitor takes one single short step forward and his open arms come a little forward, his broad smile not changing, while the other young man rises slowly the rest of the way to his feet with his hand lifting from the bench, his lifted hand reaching a little further toward the visitor; in the last two seconds both hold, the one with his arms open and the other on his feet with his hand out; the two brown horses stand without a step and the open coach door and the let-down step do not move; the iron pump, the wet paving stones with the standing water and the stone arch hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "victor_sick",
+    "henry",
+    "bedroom",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "열병으로 쓰러진 빅터를 헨리가 여러 달 곁에서 돌본다",
+   "visual": "soft grey light through the drawn curtain of the small plain bedroom: the young man of twenty with the dark brown hair hanging loose and the pale thin face with the hollow cheeks, in the plain white nightshirt, is the one lying in the narrow bed at frame centre under the dull yellow blanket with his head on the pillow turned a little toward the chair and his eyes half closed, one thin hand lying on top of the blanket; the young man of twenty with the light brown curly hair and the fresh open plain face, in his white shirt with the dull yellow-brown coat off, is the one sitting on the wooden chair at frame right close by the bed leaning forward with a cup held in both hands, his face bent to the sick man's with his lips parted; the small table beside the chair holds the jug; the curtain hangs drawn at the window at frame left with the grey light coming softly through it; the plain walls are bare; there are exactly two people in the room and the one in the bed is the one who is ill",
+   "motion": "the visitor's cup hands are the one thing that moves, and the man in the bed holds nearly still: at the start the cup is held in both hands before the visitor's chest with his face bent to the sick man; over the first three seconds the cup is brought slowly forward and down toward the sick man's lips, the visitor's shoulders leaning further over the bed, and the sick man's half-closed eyes open a little wider and his head turns a little more on the pillow toward the cup; in the last two seconds the cup holds close to the sick man's lips and both hold; the thin hand on the blanket does not move and the blanket keeps its folds; the visitor's feet do not shift under the chair; the jug on the small table keeps its place; the drawn curtain with the soft grey light through it and the bare walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "victor",
+    "apparatus",
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빅터가 다시 오른 다락의 실험대는 텅 비어 있다",
+   "visual": "thin grey daylight from the dormer window of the garret room at the top of the tall house: the long wooden table down the middle of the room is the one thing filling the middle of the frame, and it is bare from end to end, only the plain grey sheet lying crumpled in a heap on the floor beside it and the thick wires hanging slack from the tall brass electrical machine at its head at frame left, the big glass disc still, dust lying on the table's top; the young man of twenty with the dark brown hair tied back again with the black ribbon and the pale thin face with the hollow cheeks, in the dark blue coat, is the one standing at frame right in the open doorway of the room with one hand on the door frame and the other hanging at his side, his face turned to the bare table with his eyes wide and his lips parted; the shelves of glass jars stand along the wall; the lamp hangs dark from its rafter; the dormer window shows the flat grey sky; there is exactly one person in the room and the table is empty",
+   "motion": "the young man in the doorway is the one who moves, and the empty table holds still: at the start he stands in the doorway with one hand on the door frame and his eyes wide on the bare table; over the first three seconds he takes one single slow step into the room, his hand sliding from the door frame and lifting a little before him, his face staying turned to the bare table and his lips parting wider; in the last two seconds he holds one step inside the room with his hand lifted and does not move; the bare table keeps its dust, the crumpled sheet on the floor keeps its heap and the slack wires from the brass machine hang still; the dark lamp does not swing; the shelves of jars, the rafters and the flat grey sky in the dormer window hold completely still; the thin grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "garret",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 다락의 열린 창으로 바람이 든다",
+   "visual": "thin grey daylight in the garret room: the one dormer window is the one thing at frame centre, standing wide open on its hinge with the flat grey sky in it and the wet slates of the roof outside showing below the sill; across the pale floorboards from the one long wooden table to the window runs a trail of huge muddy footprints, each footprint the long narrow shape of a human sole with a rounded heel and toe marks, far bigger than any ordinary footprint, spaced a long stride apart, the last footprint lying on the sill itself at the open window; the one long wooden table shows bare at the bottom left of the frame with its dust, the only table in the room; the sloping rafters come down close over the window; a few glass jars stand on the shelf at frame right; the plain grey sheet lies crumpled on the floor at the far left; the still room holds only the one table, the sheet, the jars and the footprints, and the window stands open to the grey sky",
+   "motion": "the open window on its hinge is the one thing that moves, and the room holds still: at the start the window stands wide open with the flat grey sky in it; over the first three seconds a slow draught pushes the window a hand's width further open and lets it drift back the same distance, the hinge turning slowly and the grey light on the sill shifting a little with it; in the last two seconds the window holds where it is; the huge muddy footprints on the floorboards and the sill keep their exact shapes and do not fade; the bare table with its dust, the crumpled sheet on the floor, the rafters and the glass jars on the shelf hold completely still; the flat grey sky beyond the window stays even; no figure appears at the window or in the room; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "피조물이 가족을 앗아 가고 북극까지 쫓고 쫓기는 마지막",
- "voice": "ko-KR-BongJinNeural"
+ ]
 }

@@ -1,63 +1,207 @@
 {
- "logline": "어느 아침 몸이 달라진 채 깨어난 외판원이, 닫힌 방문 하나를 사이에 두고 가족과 멀어져 간다.",
- "destination": "거실로 통하는 방문 — 그가 마지막으로 넘어서게 되는 자리",
- "protagonist": "가족을 먹여 살리던 스물다섯 살 외판원",
- "setting": "1910년대 프라하의 낡은 아파트, 좁은 방과 긴 복도",
- "anchor": "a cramped 1910s Prague bedroom with heavy dark furniture, a narrow bed and one tall shuttered window",
- "palette": "muted olive and ash grey, weak grey daylight, deep furniture shadow",
+ "logline": "어느 아침 벌레의 몸으로 깨어난 외판원이, 닫힌 방문 하나를 사이에 두고 가족과 멀어져 간다",
+ "destination": "소설 변신에서 만날 수 있습니다",
+ "protagonist": "gregor_bug",
+ "setting": "1912년 프라하의 낡은 아파트, 좁은 방과 거실 사이의 흰 문",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/kafka/assets",
+ "anchor": "a man-sized dark-brown beetle in a narrow 1912 bedroom with a brass bed and a white door",
+ "palette": "dark brown, off-white, muted green-grey, ash grey, dull yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "외판원이 아침 햇살에 눈을 뜬다.",
-   "visual": "morning light falling across a rumpled bed in a dim cramped bedroom, blanket pushed aside",
-   "motion": "light creeps across the blanket, dust turns in the beam, the sheet slides",
-   "anchor": false
+   "cast": [
+    "gregor_bug",
+    "gregor_room",
+    "grey_morning_bg"
+   ],
+   "refs": [],
+   "beat": "낯선 몸으로 눈을 뜬 그레고르",
+   "visual": "the narrow bedroom in weak grey morning light: the man-sized beetle lies on its back in the middle of the brass bed filling the center of the frame, its glossy dark-brown domed back pressed into the mattress and its pale segmented underside turned up to the ceiling, many thin jointed legs raised and slightly bent in the air, the off-white quilt slipped down to the foot of the bed and half on the floor; the small head with its two short feelers is turned toward the tall window at frame left with its misted panes; the heavy dark wardrobe stands at the right and the faded green-grey patterned wallpaper closes the room in; the floorboards are bare",
+   "motion": "the beetle's thin legs wave slowly and helplessly in the air, bending and straightening in one continuous drifting rhythm while the heavy body stays pinned on its back and the quilt hangs motionless off the bed; the window, the wardrobe and the wallpaper hold still; camera fixed"
   },
   {
    "n": 2,
-   "beat": "그는 제 몸을 일으키지 못하고 버둥거린다.",
-   "visual": "an overturned blanket heaving on a bed, bedframe rattling, slippers knocked over on the floor",
-   "motion": "the blanket heaves and drops, the bedframe shudders, a slipper tips over",
-   "anchor": false
+   "cast": [
+    "gregor_bug",
+    "gregor_room"
+   ],
+   "refs": [],
+   "beat": "딱딱한 등과 가느다란 다리들",
+   "visual": "a close view across the bed at mattress level: the beetle's domed back fills the left half of the frame, its glossy dark-brown plates curving in stiff overlapping bands with a faint sheen from the window light, and along its edge a row of the thin jointed dark legs lie against the crumpled off-white quilt, their fine joints and small hooked tips sharply drawn; the pale segmented underside shows at the lower edge where the body meets the sheet; in the right half of the frame the brass rail of the bedstead and the muted green-grey wallpaper fall out of focus; grey daylight comes from the left",
+   "motion": "one thin leg near the camera slowly draws itself in toward the body and stretches out again along the quilt, its small joints flexing in a single smooth movement, while the domed back and the other legs stay perfectly still; the quilt, the brass rail and the wallpaper hold; camera fixed"
   },
   {
    "n": 3,
-   "beat": "문밖에서 가족들이 그의 이름을 부른다.",
-   "visual": "three shadowed figures standing in a corridor outside a closed bedroom door, hands raised to knock",
-   "motion": "a hand raps the panel, shadows shift under the door, the handle turns and stops"
+   "cast": [
+    "gregor_bug",
+    "gregor_room",
+    "grey_morning_bg"
+   ],
+   "refs": [],
+   "beat": "몸을 일으키려 버둥대는 그레고르",
+   "visual": "the bedroom from the foot of the bed: the man-sized beetle is half turned on its side at the bed's edge, its domed dark-brown back tilted toward the camera and its thin legs braced against the mattress and the brass rail, the small head pushed forward with its jaws parted; the quilt is dragged into a heap beneath it and one corner trails onto the bare floorboards; on the small writing desk at frame right lies an open flat case of cloth samples in dull colours and a folded dark coat hangs over the chair back; grey light from the tall window at the left lies across the floor",
+   "motion": "the beetle rocks slowly on the edge of the bed, the domed back tipping a little further toward the floor with each slow heave and the braced legs sliding on the mattress, and then settling back without falling; the desk, the chair, the coat and the window hold still; camera fixed"
   },
   {
    "n": 4,
-   "beat": "회사에서 온 지배인이 문을 두드린다.",
-   "visual": "a stout man in a bowler hat and overcoat waiting stiffly in a narrow hallway, hat brim low",
-   "motion": "he shifts his weight, his hat brim dips, hallway lamp flickers"
+   "cast": [
+    "mother",
+    "living_room"
+   ],
+   "refs": [],
+   "beat": "문밖에서 아들을 부르는 어머니",
+   "visual": "the living room side of the closed white bedroom door: the frail grey-haired mother stands close to the door at the center of the frame in her long dark dress and grey shawl, her head bent toward the wood and her right hand raised with the knuckles resting against the door panel, her left hand holding the shawl closed at her chest; the brass door handle is at the height of her waist; behind her the heavy round dining table under its fringed cloth, the high-backed chairs and the tall sideboard stand in dim grey light from a curtained window at the right; the muted green-grey wallpaper runs behind everything",
+   "motion": "the mother's raised hand taps the door panel twice, slowly and softly, and stays resting there while her head leans a little closer to the wood and the shawl slips half an inch from her shoulder; the table, the chairs and the sideboard hold still; camera fixed"
   },
   {
    "n": 5,
-   "beat": "문이 열리자 사람들이 뒤로 물러선다.",
-   "visual": "a bedroom door swung open onto darkness, figures backing away down the corridor, chairs knocked aside",
-   "motion": "the door swings wide, figures stumble backward, a chair topples"
+   "cast": [
+    "chief_clerk",
+    "father",
+    "mother",
+    "living_room"
+   ],
+   "refs": [],
+   "beat": "문을 두드리는 회사 지배인",
+   "visual": "the living room before the closed white bedroom door: the chief clerk is the one nearest the door at frame left, stiff in his black frock coat and tall black hat, the head of his slim black cane lifted to rap on the panel, his pale face turned to the door in profile; the stout father is the one standing behind him at the center in his tight dark blue uniform with brass buttons, cap in hand, and the frail mother is the one at frame right by the round table with both hands pressed together at her chest; grey daylight from the curtained window at the right catches the clerk's white collar and the brass buttons; the wallpaper and the sideboard close the background",
+   "motion": "the clerk raps the cane head against the door in two slow deliberate knocks and then holds it pressed against the panel, his shoulders stiffening with the second knock; the father and the mother stay where they stand, motionless; the table, the sideboard and the window hold; camera fixed"
   },
   {
    "n": 6,
-   "beat": "그는 방에 갇힌 채 문틈으로 거실을 내다본다.",
-   "visual": "a narrow band of lamplight through a barely open bedroom door, dark shape watching from inside",
-   "motion": "the band of light narrows, the shape shifts in the dark, dust turns"
+   "cast": [
+    "gregor_bug",
+    "chief_clerk",
+    "mother",
+    "father",
+    "living_room"
+   ],
+   "refs": [],
+   "beat": "열린 문과 물러서는 사람들",
+   "visual": "the white bedroom door stands open at frame left and the man-sized beetle is the one in the doorway, its small head and two forelegs out over the threshold and its domed dark-brown back filling the door frame behind, the brass key still in the lock beside its jaws; the chief clerk is the one backing away at the far right with his cane clutched across his chest and his tall hat tilted; the mother is the one sinking at the center against the edge of the round table with one hand flung out; the father is the one standing behind her with his fist clenched at his mouth; grey daylight from the right window falls across the carpet between the beetle and the people",
+   "motion": "the beetle's small head lowers slowly toward the threshold and its two forelegs reach a little further out onto the carpet in one continuous creeping movement, while the clerk, the mother and the father hold their frozen positions; the door, the table and the window hold still; camera fixed"
   },
   {
    "n": 7,
-   "beat": "그를 본 가족은 어떤 얼굴을 하게 될까?",
-   "visual": "a violin lowered mid-note, three faces turned toward an open doorway, sitting room lamp bright",
-   "motion": "the bow stops, heads turn together, the lamp flame steadies"
+   "cast": [
+    "father",
+    "gregor_bug",
+    "living_room"
+   ],
+   "refs": [],
+   "beat": "지팡이로 아들을 방으로 몰아넣는 아버지",
+   "visual": "the stout father is the one standing at the center of the living room in his dark blue uniform, feet planted wide, his dark walking stick raised high in his right hand and his left arm thrust out toward the bedroom door; the man-sized beetle is the one wedged half through the open white doorway at frame left, its domed back scraping the door frame and its thin legs scrabbling on the threshold, its head turned back over its shoulder toward the raised stick; the round table with its fringed cloth stands at the right and a chair lies overturned on the carpet; grey light from the window at the right",
+   "motion": "the father's raised stick sweeps slowly down and forward toward the doorway and stops just short of the beetle's back, his whole body leaning into the gesture, while the beetle stays wedged in the door frame; the table, the overturned chair and the window hold still; camera fixed"
   },
   {
    "n": 8,
-   "beat": "빈 방에 창문이 열려 있다.",
-   "visual": "an empty bedroom with the window standing wide open, curtain lifting, bed stripped bare",
-   "motion": "the curtain billows inward, light spreads across the floor, dust turns",
-   "anchor": false
+   "cast": [
+    "grete",
+    "gregor_bug",
+    "gregor_room"
+   ],
+   "refs": [],
+   "beat": "문틈으로 먹이를 밀어 넣는 그레테",
+   "visual": "inside the bedroom: the white door at frame right stands open a hand's width and the slim girl with the dark plait is the one kneeling in the gap, only her head, one shoulder and her two hands inside the room, pushing a shallow bowl of wilted grey-green vegetables and a rind of cheese across the bare floorboards; the man-sized beetle is the one lying flat under the low dark sofa at frame left, only its domed back and the row of its thin legs showing in the shadow beneath the sofa's edge, its small head turned toward the bowl; grey daylight from the tall window behind the sofa lies across the floor between them",
+   "motion": "the girl's two hands slide the bowl slowly across the floorboards toward the sofa and then draw back into the gap of the door, her head lowering as she withdraws; the beetle under the sofa does not move; the door, the window and the sofa hold still; camera fixed"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "gregor_bug",
+    "gregor_room",
+    "grey_morning_bg"
+   ],
+   "refs": [],
+   "beat": "벽과 천장을 기어 다니는 그레고르",
+   "visual": "the bedroom seen from low near the floor looking up: the man-sized beetle clings upside down to the ceiling at the upper center of the frame, its thin jointed legs spread wide and hooked into the plaster, its domed dark-brown back hanging toward the camera and its small head pointing toward the tall window; below it the brass bed, the low dark sofa and the writing desk stand in their places on the bare floorboards, and the faded green-grey wallpaper runs up the walls to the plaster cornice; weak grey daylight from the window at the left throws the beetle's long shadow across the ceiling",
+   "motion": "the beetle creeps slowly forward across the ceiling toward the window, one pair of legs after another unhooking and rehooking in the plaster in a steady continuous crawl, its shadow sliding with it; the bed, the sofa, the desk and the window hold still; camera fixed"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "grete",
+    "mother",
+    "gregor_bug",
+    "picture",
+    "gregor_room"
+   ],
+   "refs": [],
+   "beat": "가구를 들어내는 가족과 액자에 매달린 그레고르",
+   "visual": "the bedroom door stands wide at frame right and the slim girl with the dark plait and the frail grey-haired mother are the two carrying the small writing desk out through it, the girl at the front end with her back to the camera and the mother at the rear end facing into the room, both bent under the weight; the man-sized beetle is the one pressed flat against the wall at frame left, its thin legs splayed over the gilt-framed picture of the lady in furs, its domed back covering most of the frame, its head turned toward the two women; the brass bed and the sofa remain; grey light from the window at the left",
+   "motion": "the two women carry the desk slowly out through the doorway, their bodies leaning as the desk legs clear the door frame, while the beetle stays pressed motionless over the picture on the wall; the bed, the sofa and the window hold still; camera fixed"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "father",
+    "gregor_bug",
+    "apple",
+    "living_room"
+   ],
+   "refs": [],
+   "beat": "아버지가 던진 사과",
+   "visual": "the living room: the stout father is the one standing at frame right in his dark blue uniform with the brass buttons, his right arm drawn back with a small dull-red apple in his hand and his left hand holding two more against his chest, his face set hard; the man-sized beetle is the one on the dark carpet at frame left near the open white bedroom door, its domed back toward the father and one small dull-red apple already lodged deep between two plates of its back, two more apples rolling on the carpet beside it; the round table with its fringed cloth stands between them and the fruit bowl on it is tipped over; evening grey light from the right",
+   "motion": "the father's drawn-back arm swings slowly forward through the throw and stays extended toward the beetle with the hand open and empty, his shoulders following the movement; the beetle on the carpet stays flattened with the apple fixed in its back; the table, the tipped bowl and the door hold still; camera fixed"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "grete",
+    "mother",
+    "father",
+    "violin",
+    "living_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "거실의 바이올린 소리",
+   "visual": "the living room in the evening under the glass-shaded ceiling light: the slim girl with the dark plait is the one standing at the center before the wooden music stand with the dark-brown violin at her shoulder and the bow drawn across the strings, her eyes on the open sheets; the mother is the one seated at the left in a high-backed chair with her hands folded in her lap, and the stout father is the one seated at the right in his uniform with his head sunk toward his chest; behind them the white bedroom door stands open on a strip of darkness; the round table is pushed against the sideboard and the window behind the curtains is dark blue",
+   "motion": "the girl's bow travels slowly across the strings in one long unbroken stroke from the frog to the tip, her elbow lifting with it and her plait swaying a little at her back; the seated mother and father do not move; the door, the table and the window hold still; camera fixed"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "gregor_bug",
+    "grete",
+    "violin",
+    "living_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "소리에 이끌려 거실로 나온 그레고르",
+   "visual": "the living room seen low across the dark carpet: the man-sized beetle is the one creeping out through the open white bedroom door at frame left, its domed dark-brown back dulled with grey dust and fluff, the small darkened apple still lodged between its plates, its small head lifted toward the music; at the right in the middle distance the slim girl with the dark plait stands with her back three-quarters to the camera, the violin at her shoulder and the bow raised, playing on unaware, the wooden music stand before her; the ceiling light throws a warm circle on the carpet between them and the rest of the room falls into dim shadow",
+   "motion": "the beetle creeps slowly forward out of the doorway onto the carpet toward the music, its legs moving in a steady continuous crawl and its lifted head drawing a little higher, while the girl keeps her back turned and her bow drawn steadily across the strings; the door, the music stand and the light hold still; camera drifting very slowly forward"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "grete",
+    "mother",
+    "father",
+    "gregor_bug",
+    "living_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "바이올린이 멎은 순간",
+   "visual": "the living room: the slim girl with the dark plait is the one standing at the center with the violin lowered to her side and the bow hanging from her hand, her face turned down toward the floor at frame left; the mother is the one half risen from her chair at the left with her shawl clutched at her throat, and the stout father is the one standing at the right with one hand gripping the back of his chair; the man-sized beetle is the one on the carpet at the lower left, its domed dusty back toward the camera and its small head raised toward the girl, the open white bedroom door dark behind it; the ceiling light burns above them",
+   "motion": "the girl's lowered bow slowly slips from her fingers and hangs from her hand by its tip, swinging once, while her face stays turned toward the beetle; the mother, the father and the beetle stay frozen in their places; the door, the chairs and the light hold still; camera fixed"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "gregor_room",
+    "picture",
+    "grey_morning_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 방",
+   "visual": "the narrow bedroom at grey dawn, empty of every person and every creature: the brass bed stands stripped to its bare mattress at the center, the low dark sofa against the wall at the left, the small gilt-framed picture of the lady in furs hanging alone on the faded green-grey wallpaper above it; the white door at the right stands open a hand's width onto darkness; grey fluff and dust lie in the corners of the bare floorboards and a thin grey light from the tall window at the left lies across the empty floor",
+   "motion": "the thin grey light from the window slowly brightens along the floorboards and creeps up the wall until it reaches the gilt frame of the picture, while the bed, the sofa, the door and the dust hold perfectly still; camera drifting very slowly toward the open door"
   }
  ],
- "withheld": "그가 방에서 홀로 맞는 마지막과, 그 뒤 가족이 나들이를 떠나는 대목",
- "voice": "ko-KR-GookMinNeural"
+ "withheld": "그레고르의 죽음, 파출부가 치우는 대목, 가족의 교외 나들이"
 }

@@ -1,0 +1,9 @@
+[포맷] 각색형
+[서지] 눈의 여왕 / 한스 크리스티안 안데르센 / 덴마크 / 1844
+[줄거리와 배경]
+악마의 거울 조각이 눈과 심장에 박힌 카이가 눈의 여왕에게 끌려가고,
+게르다가 강·마법 정원·궁전·도적의 숲·라플란드를 거쳐 얼음 궁전의
+언 카이를 찾아내어 눈물로 얼음 심장을 녹인다.
+[줄거리]
+줄거리와 배역은 works/handwritten/nunui_yeowang/treatment.json 에 열다섯 박자로 적어 두었다.
+원문은 works/sources/nunui_yeowang_snowqueen_en.txt (구텐베르크 #1597), 근거는 source_notes.md.

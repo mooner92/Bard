@@ -1,0 +1,178 @@
+{
+ "logline": "삼백 년 된 낡은 집의 외로운 노인과 맞은편 소년, 그리고 주석 병정",
+ "destination": "동화 낡은 집에서 만날 수 있습니다",
+ "protagonist": "boy",
+ "setting": "안데르센의 옛 도시 거리 — 낡은 집의 튀어나온 창과 돼지가죽 벽의 방, 맞은편 새 집의 창",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/neulgeun_jip/assets",
+ "anchor": "a small boy of about seven with rosy cheeks in a sailor-collar jacket",
+ "palette": "dark brown, tarnished gold, warm yellow, dusty pink, cool grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "old_house"
+   ],
+   "refs": [],
+   "beat": "거리의 삼백 년 된 낡은 집",
+   "visual": "a narrow street of neat new houses with big smooth windows, and in the middle of them the very old timber house: its upper storey jutting far out over the street, the carved beam over the door thick with tulips and hop-vines and old verses, grotesque carved faces above every window, the leaden spout with a dragon's head under the eaves, and the broad stone steps with iron railings topped by brass balls; late afternoon light on the old wood",
+   "motion": "sunlight slides slowly across the carved faces and the dragon-head spout while a trickle of water from a morning shower drips from the spout's belly; sparrows hop on the brass balls of the railing, and the camera drifts up the jutting old front from the steps to the carved beam"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "boy",
+    "boy_window"
+   ],
+   "refs": [],
+   "beat": "맞은편 창가의 소년은 낡은 집을 제일 좋아한다",
+   "visual": "the bright room across the street: the small boy kneels on a chair at the window with his rosy cheeks close to the glass, gazing across at the old house; in the crumbling plaster of its wall opposite, the shapes of old gables, soldiers with halberds and a dragon spout show among the cracks, and the boy's finger traces them on the pane",
+   "motion": "the boy's finger traces the cracks in the old wall through the glass, his eyes moving from a soldier shape to a dragon shape, his breath misting the pane; sunlight warms the old house's face across the street, and the camera holds over his shoulder on the wall of shapes"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "old_house"
+   ],
+   "refs": [],
+   "beat": "놋쇠 단추 옷의 노인 — 창 너머 고개 인사",
+   "visual": "the old house's jutting upper window at evening, seen from the street: warm lamplight fills the small leaded panes, and behind the glass shows the dim silhouette of a single old man with a curled wig, one hand raised in a grave greeting; the carved faces and the dragon-head spout frame the lit window, the rest of the old front dark, the pink evening sky above",
+   "motion": "behind the lit panes the silhouette's wig dips in a slow grave nod and the raised hand lifts a little higher, the lamplight warm around it; a sparrow settles on the carved beam below the window, and the camera holds on the one lit window in the dark old front"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "boy",
+    "old_house"
+   ],
+   "refs": [],
+   "beat": "소년이 주석 병정을 보낸다",
+   "visual": "the doorway of the new house: the small boy stands on the step holding out a small parcel wrapped in brown paper and tied with string to an old errand man in a worn brown coat and cap, who bends to take it with a pleased nod; the old house's steps and brass railings show across the street behind them",
+   "motion": "the boy's small hands lift the paper parcel higher and the errand man's gnarled hand closes around it with a pleased nod, the string swinging; the errand man turns toward the old house's steps, and the camera holds on the parcel passing between the two"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "boy",
+    "old_house"
+   ],
+   "refs": [],
+   "beat": "초대 — 문의 나팔수 조각이 분다",
+   "visual": "seen from behind the small boy: the back of his frayed cap and dark sailor collar fill the bottom of the frame as he looks up from the top step at the old house's opened door — on its two panels, carved in wooden relief among carved tulips, two wooden trumpeters lift their carved trumpets with round puffed wooden cheeks; the brass balls of the iron railings shine polished bright at the frame's edges, the dark passage beyond the door",
+   "motion": "the carved trumpeters' wooden cheeks seem to swell and their carved trumpets tilt upward on the door panels while the back of the boy's cap tips further up in wonder, the brass balls flashing in the sun; the door swings wider on the dark passage, and the camera holds over the boy's shoulder on the carved door"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "boy",
+    "balcony"
+   ],
+   "refs": [],
+   "beat": "갑옷 기사 초상의 복도와 얼굴 화분의 발코니",
+   "visual": "the passage and balcony of the old house: the small boy walks past a row of portraits of knights in armour and ladies in silk gowns, the painted armour and gowns stirring in their frames — and out onto the crumbling balcony where grass and leaves grow from the cracks and the old flower pots carved with faces and ass's ears stand in a row, one overrun with green pinks; the courtyard walls beyond are thick with green",
+   "motion": "the painted knights' armour rattles faintly in the frames and the silk gowns rustle as the boy passes, and out on the balcony the carved pot-faces turn a little toward him, the green shoots nodding; leaves stir in the cracks, and the camera follows the boy from the passage to the overgrown balcony"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "boy",
+    "room"
+   ],
+   "refs": [],
+   "beat": "돼지가죽 벽의 방 — 삐걱대는 높은 의자들",
+   "visual": "the old man's room: the small boy stands in the doorway before tall carved high-backed chairs with arms on both sides, the walls hung with dark stamped leather patterned in gold flowers, the great pendulum clock ticking; the chairs stand angled toward him with their high backs, one creaking, and the projecting bay window lets in warm light across the old floorboards",
+   "motion": "the tall chairs creak and lean a little toward the boy in the doorway, their carved arms open, while the gold flowers on the leather walls catch the swinging light of the pendulum; the boy steps in slowly, and the camera holds on the creaking chairs"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "old_man",
+    "boy",
+    "soldier",
+    "room"
+   ],
+   "refs": [],
+   "beat": "오십 년 전 죽은 젊은 부인의 초상",
+   "visual": "the room by the bay window: the old man sits in a high-backed chair with the tiny pewter soldier figurine standing on top of the chest of drawers beside him, and the small boy stands before him looking up at the portrait on the wall — a young lady in a stiff old-fashioned gown with powder in her hair and mild eyes, and under the portrait a bouquet of withered flowers in a glazed frame; the pendulum clock ticks, the old man's hand resting on the boy's shoulder",
+   "motion": "the old man's hand rests on the boy's shoulder as both look up at the portrait, the young lady's mild painted eyes holding still while the pendulum swings; the withered bouquet in its glass frame takes the light, and the camera drifts slowly up from the two to the portrait"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "old_man",
+    "boy",
+    "room"
+   ],
+   "refs": [],
+   "beat": "그림책과 잼과 사과",
+   "visual": "the room's table by the bay window: the old man sets down a tray of preserves in glass jars, red apples and walnuts before the small boy, who sits in a tall carved chair with a big picture book open on his knees showing long processions of soldiers and citizens with banners; the portrait hangs on the wall behind, the tiny pewter soldier figurine standing on top of the chest of drawers at the frame's edge",
+   "motion": "the old man's hands set the jars and apples on the table one by one while the boy turns a page of the big picture book, his eyes wide at the painted procession; the pendulum swings on the wall, and the camera holds on the table of treats and the open book"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "soldier",
+    "room"
+   ],
+   "refs": [],
+   "beat": "서랍 위 주석 병정 — 너무 외롭다",
+   "visual": "close on the top of the chest of drawers: a brass key, a folded pair of spectacles and an unlit candlestick stand on the polished wood, and beside them the tiny pewter toy soldier figurine, the height of the key, leans a little forward with a tiny tear on its painted cheek, its painted red coat and tall black hat and tiny musket; behind, out of focus, the dim room's dark stamped-leather walls and the great clock's swinging pendulum",
+   "motion": "the tiny figurine leans further forward beside the brass key, the tiny tear sliding down its painted cheek, its musket tilting; the pendulum swings slowly out of focus behind, and the camera closes on the small tearful toy"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "old_man",
+    "boy",
+    "room"
+   ],
+   "refs": [],
+   "beat": "낡은 피아노 — 그녀의 노래",
+   "visual": "the room: the old man sits at an old square piano with landscapes painted inside its raised lid, his fingers on the yellowed keys and his wigged head lifted toward the portrait of the young lady on the wall, his eyes shining; the small boy stands beside the piano listening, the tiny pewter soldier figurine on top of the drawers behind, warm light from the bay window",
+   "motion": "the old man's fingers press the yellowed keys and his wigged head nods to the tune, his shining eyes on the portrait, while the boy sways slightly beside the piano; the painted landscapes inside the lid catch the light, and the camera holds on the old man's face turned to the portrait"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "soldier",
+    "room"
+   ],
+   "refs": [],
+   "beat": "병정이 뛰어내려 마루 틈으로 사라진다",
+   "visual": "close on the floorboards beside the chest of drawers: the tiny pewter toy soldier figurine, the height of a key, tumbles through the air from the open drawer's edge toward a wide dark crack between two old floorboards, its tiny musket flying loose; the drawer hangs open above, the crack yawns dark below, the boards worn and dusty",
+   "motion": "the tiny figurine turns over twice in the air below the drawer's edge and slips into the dark crack between the floorboards, its tiny musket following; dust puffs from the crack, and the camera holds on the dark gap in the floor"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "boy",
+    "boy_window"
+   ],
+   "refs": [],
+   "beat": "겨울 — 노인이 세상을 떠난다",
+   "visual": "winter at the boy's window: the small boy breathes on the frozen pane to melt a small peep-hole and looks through it across the street, where snow lies heaped over the old house's carved work and steps — and below its door a black hearse with two black horses waits in the evening dusk, a plain coffin being carried out by two men in dark coats; the boy's hand rises to his lips",
+   "motion": "the boy's breath widens the peep-hole in the frost and his eyes follow the coffin as the two men slide it into the black hearse, the black horses stamping in the snow; his small hand lifts to his lips and out toward the glass, and the camera holds over his shoulder on the hearse in the dusk"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "soldier"
+   ],
+   "refs": [],
+   "beat": "마루 밑의 주석 병정",
+   "visual": "under the old floorboards, seen close: the tiny pewter toy soldier figurine lies on its back in the dust between two joists that loom huge on either side, its painted red coat grey with dust, its tiny musket beside it; a thin line of light comes down through the crack above, cobwebs and curled wood shavings around it, dust motes the size of its head drifting",
+   "motion": "the thin line of light from the crack above moves slowly across the tiny figurine's dusty red coat as the day passes overhead, dust motes drifting through it; a spider crosses the huge joist, and the camera closes on the small toy lying in the dark"
+  },
+  {
+   "n": 15,
+   "cast": [],
+   "refs": [],
+   "beat": "마무리 — 고물상의 초상 스틸",
+   "visual": "closing still: the dim broker's shop crowded with old pictures leaning against the walls and hanging in rows — and among them the portrait of the young lady with powdered hair and mild eyes, hung high in a dusty corner with a gap of bare wall beneath her; grey light from a small window, dust on the frames",
+   "motion": "grey light from the small window moves slowly over the rows of old pictures while dust settles on the frames, the young lady's mild painted eyes holding still in her dusty corner; the camera closes with great patience on the forgotten portrait"
+  }
+ ],
+ "withheld": "봄에 집이 헐리고, 어른이 된 소년이 아내와 정원에서 주석 병정을 찾아내는 결말"
+}

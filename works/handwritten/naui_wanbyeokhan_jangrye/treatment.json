@@ -1,0 +1,171 @@
+{
+ "logline": "병원과 장례식장 사이의 작은 매점에서 손님들의 남겨진 마음을 받아 안는 여자 — 삶과 죽음의 경계에서 피어나는 희망",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "woman",
+ "setting": "오늘의 종합병원 — 병동 복도, 장례식장 로비, 그 사이의 작은 매점",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/naui_wanbyeokhan_jangrye/assets",
+ "anchor": "a Korean woman of thirty-five with hair tied back and a calm face, in a plain shop apron over a cardigan",
+ "palette": "off-white, ash grey, dull yellow, dark brown, muted green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "ward"
+   ],
+   "refs": [],
+   "beat": "한 병원에서 시작하는 이야기",
+   "visual": "the hospital corridor at night with the window at the far end showing the dark city, a bench along the wall, a drip stand by a door; no people",
+   "motion": "the light at the far window shifts as a car passes below and the drip stand's tube sways slightly; the camera holds on the corridor"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "shop"
+   ],
+   "refs": [],
+   "beat": "장례식장과 병동 사이의 작은 매점",
+   "visual": "the small hospital shop lit at night, its counter with the kettle and stacked paper cups, shelves of tissues and coffee, the small table with two stools, the corridor dark outside its window; no people",
+   "motion": "steam rises from the kettle on the counter and the shop light holds against the dark corridor; the camera holds on the lit shop"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "woman",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "매점을 지키는 여자",
+   "visual": "the woman behind the counter pouring hot water from the kettle into a paper cup, her other hand steadying the cup, her calm face lowered; exactly one woman",
+   "motion": "the hot water pours slowly into the cup and steam rises past the woman's lowered face; the camera holds on the woman at the counter"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "shop"
+   ],
+   "refs": [],
+   "beat": "누군가를 잃었거나 잃어 가는 손님들",
+   "visual": "a man in a black suit sitting on one of the stools at the small table with a paper cup of coffee held in both hands, his eyes red and his tie loosened; exactly one man",
+   "motion": "the man's hands turn the paper cup slowly and his red eyes stay on the steam; the camera holds on the man at the table"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "shop"
+   ],
+   "refs": [],
+   "beat": "커피와 휴지와 잠깐의 숨",
+   "visual": "close on the counter: a paper cup of coffee, a small pack of tissues, and a coin tray, the kettle behind them, the shop light warm on the counter; no people",
+   "motion": "steam drifts from the coffee across the pack of tissues and the light holds on the coin tray; the camera holds close on the counter"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "shop"
+   ],
+   "refs": [],
+   "beat": "미처 끝내지 못한 이야기들",
+   "visual": "two women in black seated at the small table with paper cups, one talking with her hands moving over the table and the other listening with her head bowed; exactly two women",
+   "motion": "the talking woman's hands move slowly over the table and the listening woman's bowed head nods once; the camera holds on the two at the table"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "woman",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "남겨진 마음이 놓이는 탁자",
+   "visual": "the woman wiping the small table with a cloth after the customers have gone, one paper cup left behind on the table, the two stools empty; exactly one woman",
+   "motion": "the woman's cloth moves slowly across the table and she pauses beside the left-behind cup; the camera holds on the woman and the cup"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "hall"
+   ],
+   "refs": [],
+   "beat": "서늘한 공간에서 따뜻하게 건져 올리는",
+   "visual": "the lobby of the funeral hall with stands of white chrysanthemums along the corridor, soft lamps lit, a few people in black far away at the end; no one near",
+   "motion": "the soft lamps glow steady over the chrysanthemum stands and the far figures move slowly out of view; the camera holds on the lobby"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "woman",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "삶과 죽음의 경계에서 피어나는 희망",
+   "visual": "the woman carrying a tray of paper cups down the funeral hall corridor past the chrysanthemum stands, her apron on, her eyes ahead; exactly one woman",
+   "motion": "the woman's steps carry the tray steadily down the corridor and the chrysanthemum petals stir as she passes; the camera holds on the woman with the tray"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "shop"
+   ],
+   "refs": [],
+   "beat": "국화 한 송이",
+   "visual": "close on a single white chrysanthemum standing in a glass of water on the shop counter beside the stack of paper cups, the shop light on the petals; no people",
+   "motion": "the shop light shifts slowly over the white petals and the water in the glass holds still; the camera holds close on the chrysanthemum"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "woman",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "두려움이 아닌 배웅으로",
+   "visual": "the woman standing at the shop window looking out at the funeral hall lobby with her hands folded on the sill, her face calm; exactly one woman",
+   "motion": "the woman's folded hands rest on the sill and her calm eyes follow someone passing in the lobby; the camera holds on the woman at the window"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "woman",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "배웅을 어떻게 준비할지",
+   "visual": "an old woman in black reaching across the counter to hold the woman's hand in both of hers, the paper cup between them, the woman's face gentle; exactly two women",
+   "motion": "the old woman's hands tighten around the woman's hand and the woman's gentle face leans a little closer; the camera holds on the two hands on the counter"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "ward"
+   ],
+   "refs": [],
+   "beat": "달리 보이는 하루",
+   "visual": "the hospital corridor at dawn with the window at the end bright, the bench empty, the drip stand gone, pale light on the green walls; no people",
+   "motion": "the dawn light brightens slowly down the corridor from the window and the bench stays empty; the camera holds on the corridor at dawn"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "woman",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "여러분의 완벽한 장례식은",
+   "visual": "the woman behind the counter holding out a paper cup of coffee toward the camera with a small smile, the chrysanthemum in its glass beside her; exactly one woman",
+   "motion": "the held-out cup steadies in the woman's hand and her small smile holds, steam rising; the camera holds on the woman and the cup"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shop"
+   ],
+   "refs": [],
+   "beat": "마무리 — 아침의 매점 탁자 스틸",
+   "visual": "closing still: the small table with two stools in the shop in morning light, one paper cup on the table, the white chrysanthemum in its glass on the counter behind",
+   "motion": "morning light creeps slowly across the table toward the paper cup and the chrysanthemum holds still; the camera closes with great patience on the table"
+  }
+ ],
+ "withheld": ""
+}

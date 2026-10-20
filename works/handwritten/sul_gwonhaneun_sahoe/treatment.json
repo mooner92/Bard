@@ -1,0 +1,188 @@
+{
+ "logline": "새로 한 점, 바늘에 찔린 아내와 술 냄새를 풍기며 돌아오는 남편",
+ "destination": "소설 술 권하는 사회에서 만날 수 있습니다",
+ "protagonist": "wife",
+ "setting": "1920년대 경성의 기와집 — 전등불 아래 밤의 안방, 마루와 중문, 밤의 대문 밖 골목",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/sul_gwonhaneun_sahoe/assets",
+ "anchor": "a young Korean wife in a plain white jeogori and a long dark blue skirt with hair in a low bun",
+ "palette": "dark brown, off-white, dark blue, pale yellow, dull grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "밤, 바늘에 찔린 손톱 밑",
+   "visual": "close on the wife sitting on the oiled paper floor sewing under the electric bulb: her left thumb pressed to her lips with her face pinched, the needle held still in her other hand, the sewing basket and a length of white cloth in her lap; the wall clock behind her; exactly one woman",
+   "motion": "the wife's thumb stays pressed to her lips and her pinched brows draw tighter, the needle lowering in her other hand; the clock's pendulum swings behind her, and the camera holds close on the thumb at her lips"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "새로 한 점, 빈 방",
+   "visual": "the wife alone in the bare room, sitting on the oiled paper floor under the bulb with her thumb wrapped in a scrap of cloth, looking around the room with lost eyes, the pendulum clock on the wall pointing to one, the low desk stacked with books; exactly one woman",
+   "motion": "the wife's lost eyes travel across the bare room and stop on the clock face, her wrapped thumb held against her chest; the pendulum swings, and the camera holds on the woman alone under the bulb"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "칠팔 년의 유학, 홀로 견딘 겨울",
+   "visual": "a winter night years earlier: the wife alone at the paper window of the room with one hand on the frozen pane, her breath fogging, tears on her cheeks, the bare oiled paper floor behind her; exactly one woman",
+   "motion": "the wife's breath fogs and fades on the pane and a tear slides down her cheek, her hand pressing the frozen paper; the camera holds on her back and the window"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "husband",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "돌아온 남편, 밤새 읽고 쓰다",
+   "visual": "night: the husband in his shirt and waistcoat sits at the low desk writing under the bulb with books piled around him, his drawn face bent to the page, and the wife sets down a small tray with a bowl of broth beside him, her eyes on his face; exactly two people",
+   "motion": "the husband's pen scratches on without his head lifting while the wife's hands leave the tray and hover, her eyes on his drawn face; the bulb hums, and the camera holds on the desk and the two"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "husband",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "새벽, 책상에 엎드려 우는 남편",
+   "visual": "grey dawn: the husband slumped over the low desk with his head in both hands and his shoulders shaking, and the wife on her knees behind him with one hand laid on his back, her eyes wide and her lips parted; exactly two people",
+   "motion": "the husband's shoulders shake under the wife's hand and her wide-eyed face bends closer to his ear; grey light grows on the paper door, and the camera holds on the slumped man and the hand on his back"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "husband",
+    "wife",
+    "veranda"
+   ],
+   "refs": [],
+   "beat": "밤마다 술 냄새를 풍기며",
+   "visual": "late night: the husband climbs unsteadily onto the veranda in his rumpled suit with his tie loose and his face slack with drink, one hand on the post, and the wife holding the door open with her sleeve raised to her nose; exactly two people",
+   "motion": "the husband's hand slides on the post as he heaves himself up and the wife's sleeve presses tighter to her nose, her eyes on him; the camera holds on the two at the veranda"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "wife",
+    "alley"
+   ],
+   "refs": [],
+   "beat": "문 열어라 — 비어 있는 골목",
+   "visual": "the wife at the open main gate in the night with one hand on the heavy wooden bar, ill-fitting shoes on her feet, looking out at the bare still alley, blue-black darkness over the pale road; exactly one woman",
+   "motion": "the wife leans out through the gate and looks both ways down the bare still alley, her hand tight on the bar, the night wind lifting a strand of her hair; the camera holds on the woman in the gateway"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "이불 밑의 빈 요",
+   "visual": "low angle at floor level: the wife kneeling on the oiled paper floor of the room lifting the quilt with both hands, the white floor bedding spread flat on the floor beneath it, undisturbed, her mouth open in dismay under the bulb; exactly one woman",
+   "motion": "the quilt rises in the wife's hands and hangs there over the flat white bedding, her mouth opening wider; the camera holds on the lifted quilt and the bare bedding"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "husband",
+    "maid",
+    "wife",
+    "veranda"
+   ],
+   "refs": [],
+   "beat": "새로 두 점, 마루 끝에 쓰러진 남편",
+   "visual": "the husband lying sideways on the veranda edge with one leg hanging down to the step and one arm under his head, his shoes half off, the old maidservant bending over him holding out a brass bowl of water, and the wife standing in the doorway rubbing her eyes; exactly three people",
+   "motion": "the maidservant's bowl tilts toward the husband's face as his arm flops and he drags himself up on one elbow, the wife's hand dropping from her eyes; the camera holds on the three on the veranda"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wife",
+    "husband",
+    "room"
+   ],
+   "refs": [],
+   "beat": "누가 술을 이처럼 권하였노 — 옷을 벗기는 아내",
+   "visual": "the husband sliding down the wall of the room to the floor with his legs stretched out and his jacket rumpled, and the wife kneeling beside him with both hands on his jacket collar and sleeve pulling, her face cross; exactly two people",
+   "motion": "the wife's hands pull at the jacket and the husband's back slides lower down the wall, his legs pushing the quilt away; the camera holds on the tugging hands and the slumped man"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "husband",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "마누라가 좀 알아내겠소 — 쓸쓸한 웃음",
+   "visual": "close on the husband leaning against the wall with his head tipped back laughing with his mouth open and his eyes bleak, the wife beside him with a small puzzled smile; exactly two people",
+   "motion": "the husband's laugh shakes his head against the wall and dies away, his bleak eyes staying open, while the wife's small smile holds; the camera holds close on the two faces"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "husband",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "이 조선 사회가 술을 권한다오 — 손가락을 꼽으며",
+   "visual": "the husband holding up one hand and folding down his fingers one by one as he talks, his drawn face intent and his mouth moving, the wife kneeling facing him with her head tilted and her brows drawn in confusion; exactly two people",
+   "motion": "the husband's fingers fold down one after another and his mouth keeps moving, the wife's head tilting further and her brows drawing tighter; the camera holds on the counting hand and the two faces"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "husband",
+    "wife",
+    "room"
+   ],
+   "refs": [],
+   "beat": "술 안 먹으면 흉장이 막혀요? — 가슴을 쥐어뜯는 남편",
+   "visual": "the husband clutching the front of his shirt with both hands, his face twisted with his teeth bared, and the wife with her face lifted toward him and her mouth open in protest, her eyes bright; exactly two people",
+   "motion": "the husband's hands wrench at his shirt front and his twisted face turns away while the wife's protesting mouth stays open; the camera holds on the two"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "wife",
+    "veranda"
+   ],
+   "refs": [],
+   "beat": "새벽 마루 끝에 홀로 남은 아내",
+   "visual": "grey dawn: the wife collapsed on the veranda edge with one arm stretched toward the inner gate, her hair loosened, the gate standing open onto the dark courtyard, her face slack with despair; exactly one woman",
+   "motion": "the wife's stretched arm sinks slowly to the boards and her loosened hair stirs in the dawn wind, the open gate dark beyond; the camera holds on the woman on the veranda edge"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "room"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽의 빈 방 스틸",
+   "visual": "closing still, low angle at floor level: the room at dawn, the electric bulb still burning, the sewing basket with its spools and a white cloth with a needle stuck in it, the flat white floor bedding spread on the oiled paper floor with the quilt thrown back, the wall clock's pendulum, the low desk stacked with books",
+   "motion": "the pendulum swings under the burning bulb while grey dawn light creeps across the flat white bedding and the sewing basket; the camera closes with great patience on the needle in the cloth"
+  }
+ ],
+ "withheld": "그 몹쓸 사회가 왜 술을 권하는고 하는 마지막 중얼거림"
+}

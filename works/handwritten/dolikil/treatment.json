@@ -1,0 +1,177 @@
+{
+ "logline": "싱크홀이 산을 삼킨 봉쇄 도시에 암살 명령을 받고 잠입한 신입 수사관이 그곳에 숨어 사는 초능력자들을 발견한다",
+ "destination": "소설 돌이킬 수 있는에서 만날 수 있습니다",
+ "protagonist": "seori_gear",
+ "setting": "대형 싱크홀이 산 하나를 삼킨 뒤 봉쇄된 한국의 유령도시와 그 바깥의 밤거리",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/dolikil/assets",
+ "anchor": "a lean Korean woman in her late twenties, of full adult height, with a grown-up angular face, sharp dark eyes, a firm jaw and black hair tied back in a low ponytail",
+ "palette": "slate grey, dusty ochre, steel blue, pale gold, deep teal",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "여준과 서리의 관계, 누가 누구 편인지, 세 집단의 균형이 깨진 뒤의 사건과 결말",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "대형 싱크홀이 산 하나를 삼킨 뒤 봉쇄된 도시",
+   "visual": "dusk over a sealed ghost city seen from a distant hill road: grey apartment towers and office blocks with dark empty windows stand in silent rows, and far off in the middle of the city lies a vast round black sinkhole wider than a whole district, its far rim lost in haze, with only low flat haze and sky beyond it; in the foreground a high wire fence topped with barbed wire runs across the frame, weeds tangled at its foot; the towers nearest the pit lean very slightly; every window is dark and empty and every street lamp is dark and broken; a flock of crows wheels slowly above the rooftops against a sky of dull ochre and steel blue; dust hangs in the air over the streets; the whole city is frozen, enormous and dead quiet, a place the map has closed; unlit rusted lamp posts stand bent along the empty ring road below the hill, and a long-stopped steel construction tower crane leans over an unfinished block near the edge of the city, its hook hanging still",
+   "motion": "a flock of crows circles slowly above the dead towers, and that circling is the one movement in the shot: at the start the crows wheel in a loose ring above the rooftops; over the whole five seconds they glide around in a slow wide circle against the ochre and steel blue sky, their dark wings tilting, drifting a little lower over the towers and rising again; the towers, the dark windows, the distant black sinkhole and the high wire fence in the foreground stay completely still; the weeds at the foot of the fence stay still; the dust haze over the streets holds unchanged; the dusk light holds steady; the leaning steel tower crane and its hook stay perfectly still over the unfinished block; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from the hill road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "fence"
+   ],
+   "refs": [],
+   "beat": "4만여 명의 시민을 잃은 그곳, 이제 유령도시",
+   "visual": "the sealed checkpoint at the edge of the ghost city in grey morning light: a padlocked steel gate stands shut between heavy concrete barriers, and a high wire fence topped with barbed wire stretches away on both sides; an empty guard booth with a cracked window sits beside the gate, its door hanging open; strips of faded plain yellow tape flutter from the fence wire; weeds and small saplings push up through the cracked asphalt of the road leading to the gate; beyond the fence the first grey towers rise in the haze, their windows dark; dry leaves have drifted against the barriers in a long brown bank; the scene is silent and long abandoned, years of weather settled on a door nobody opens; a rusted shopping cart lies tipped on its side in the dry leaves against the barrier, and a pair of crows sits on the roof of the guard booth",
+   "motion": "the strips of faded yellow tape flutter on the fence wire in a slow wind, and that fluttering is the one movement in the shot: at the start the tape strips hang loose from the wire; over the whole five seconds a slow cold wind lifts them so they ripple and twist gently along the fence and sink back, again and again, while a few dry leaves stir along the foot of the concrete barriers; the padlocked steel gate, the empty guard booth, the high fence and the barbed wire stay completely still; the weeds in the asphalt and the far grey towers hold unchanged; the grey morning light stays steady; the tipped shopping cart stays where it lies, and the two crows on the booth roof sit unmoving; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot of the gate from the approach road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "seori_suit",
+    "night_street"
+   ],
+   "refs": [],
+   "beat": "그 도시 밖의 밤거리, 촉망받는 신입 수사관 윤서리",
+   "visual": "night on a quiet city street far from the sealed city: shuttered shop fronts with blank metal shutters line the pavement, a row of streetlights throws pools of white light on the wet asphalt, and a dark unmarked sedan stands at the kerb, seen from the side; leaning against the car door at frame centre stands the lean Korean woman in her late twenties detective with sharp dark eyes, a firm jaw and black hair tied back in a low ponytail, in a dark navy suit jacket over a plain grey T-shirt, a paper coffee cup in one hand; her face is alert and confident, eyes fixed on a building across the street; a thin wisp of steam rises from the cup; the street is empty and wet, the city humming far away; she looks young, sharp and very good at her job; a vending machine glows faintly at the corner with its front turned away, a row of plastic bins stands along the kerb, and a thin cat crosses the far pool of light",
+   "motion": "steam curls from the paper cup in the detective's hand while she watches, and that curling steam is the one movement in the shot: at the start a thin wisp rises from the cup; over the whole five seconds the steam keeps curling up slowly in the cold night air and thinning away under the streetlight, while her eyes stay fixed on the building across the street and narrow very slightly; her body stays leaning against the car door facing the camera; the dark sedan, the shuttered shop fronts, the streetlights and the wet asphalt stay completely still; the pools of white light hold steady; the far vending machine glows steadily and the row of plastic bins along the kerb stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from across the pavement, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "seori_suit",
+    "car_interior"
+   ],
+   "refs": [],
+   "beat": "부패 경찰을 도운 윤서리, 위험한 조직을 건드리다",
+   "visual": "late night inside a dark unmarked sedan parked on a dim street: the lean Korean woman in her late twenties detective with sharp dark eyes and black hair tied back in a low ponytail sits in the driver's seat at frame left in her dark navy suit jacket, turned slightly toward the passenger seat; on the worn grey passenger seat lies a fat plain brown envelope, its flap tucked in; her right hand hovers above it without touching, her jaw tight and her eyes troubled, caught between ambition and unease; the dashboard glows faintly green; cold white streetlight falls through the windshield across her face and the envelope; rain-beaded glass blurs the street outside; the car is silent and close; it is the moment before a deal she cannot take back; a clip-on dashboard fan sits still beside the steering wheel, a cold canned coffee rests in the cup holder, and her badge wallet lies closed on the dashboard",
+   "motion": "the detective's hand hesitates above the envelope, and that hesitating hand is the one movement in the shot: at the start her hand hovers a little above the brown envelope; over the whole five seconds her fingers curl slowly closer, almost touching the paper, then hang trembling a finger's width above it, while her eyes drift from the envelope to the windshield and back, her jaw tightening; her body stays seated in the driver's seat; the envelope lies still on the passenger seat; the green dashboard glow and the streetlight across the windshield hold steady; the beaded rain on the glass stays where it is; the dashboard fan, the canned coffee and the closed badge wallet stay still in the green glow; the camera holds a medium shot from the back seat at her shoulder height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "seori_suit",
+    "safe_room"
+   ],
+   "refs": [],
+   "beat": "윤서리에게 떨어진 비공식 명령, 어느 암살 작전",
+   "visual": "a bare concrete room lit by a single hanging bulb: on a scratched metal table at frame centre lie a short dagger in a dark leather sheath and a plain folded sheet of blank paper; behind the table stands the lean Korean woman in her late twenties detective with sharp dark eyes and black hair tied back in a low ponytail, in her dark navy suit jacket, both hands flat on the table edge, looking down at the dagger with her jaw set and her face pale and cold; the hanging bulb throws a hard circle of light on the table and leaves the grey bare concrete walls in shadow; a small barred window shows black night; the bulb's wire sways very slightly; the room is airless and silent; this is an order that exists on no paper; a battered metal chair stands pushed back from the table, a thin film of dust lies across the table top around the dagger, and a moth taps at the barred window",
+   "motion": "the hanging bulb sways slowly on its wire above the table, and that swaying light is the one movement in the shot: at the start the bulb hangs nearly still; over the whole five seconds it swings gently back and forth on its wire so the hard circle of light slides slowly across the table, over the sheathed dagger and the folded paper and back, the woman's set face brightening and dimming with it; her hands stay flat on the table edge and her eyes stay on the dagger; the dagger, the folded paper, the metal table and the barred window stay completely still; the grey walls hold unchanged; the pushed-back chair stays where it stands and the moth keeps tapping softly at the barred window; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the table at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "seori_gear",
+    "fence"
+   ],
+   "refs": [],
+   "beat": "윤서리의 작전구역 — 싱크홀로 폐쇄된 바로 그 유령도시",
+   "visual": "grey dawn at the sealed fence of the ghost city: the lean Korean woman in her late twenties with sharp dark eyes and black hair tied back in a low ponytail, now in a black zip-up field jacket, dark cargo trousers, black gloves and boots, crouches at frame centre beside a gap cut in the high wire fence, one gloved hand holding back the cut wire, her body half through the opening; her face is turned toward the city beyond, alert and grim, a small flashlight clipped at her chest switched off; beyond the fence the empty road runs between weeds toward grey towers with dark windows, mist lying low between them; the barbed wire above glints faintly; the dawn sky is pale steel blue; she is entering a place no one is allowed to enter; her small black backpack hangs from one shoulder, a coil of the cut wire curls on the asphalt by her boots, and a few dry leaves cling to the bottom of the fence",
+   "motion": "the woman eases through the gap in the fence, and that slow crossing is the one movement in the shot: at the start she crouches half through the opening, holding back the cut wire; over the whole five seconds she shifts her weight slowly forward through the gap, her shoulders and back passing through, the cut wire bending back around her gloved hand, her eyes fixed on the grey towers ahead, staying at the centre of the frame; the high fence, the barbed wire, the concrete barriers and the far towers stay completely still; the low mist between the towers drifts very slowly; the pale dawn light holds steady; the coil of cut wire on the asphalt and the dry leaves at the fence bottom stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from beside the fence, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "seori_gear",
+    "ghost_street",
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "아무도 없어야 할 그 유령도시에서 윤서리가 발견한 수백 명의 사람",
+   "visual": "night in the ghost city: the lean Korean woman in her late twenties in her black field jacket crouches at frame left behind the rusted body of an abandoned bus on a cracked boulevard, seen from behind and a little to the side, her ponytail and one shoulder visible as she looks up; ahead, at frame right, one tall grey apartment tower rises out of the dark city, and dozens of its windows glow warm yellow, laundry hanging from balconies, thin smoke curling from a stovepipe poked through a window; all the other towers around it stand dark; dust-covered cars sit in the weeds of the road; the warm windows are small and many, a whole hidden town of light in the dead city; the night sky is deep steel blue; a child's plastic tricycle sits by the entrance of the lit tower, a thin line of potted vegetables stands along one lit balcony, and the rusted bus beside her has lost all its tyres",
+   "motion": "the warm lit windows of the tower flicker softly, and that flickering is the one movement in the shot: at the start the dozens of windows glow steady yellow; over the whole five seconds the lights in them waver gently, one dimming and brightening, another flickering, the thin smoke from the stovepipe curling slowly upward into the dark, while the laundry on the balconies stirs a little; the crouching woman stays still behind the rusted bus, her face turned up toward the tower; the bus, the dust-covered cars, the dark towers around it and the cracked road stay completely still; the deep night holds steady; the plastic tricycle by the entrance and the rusted bus stay perfectly still in the dark; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from behind her shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "seori_gear",
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "수백 명이 지닌 더 놀라운 비밀, 바로 초능력",
+   "visual": "dawn on a wide cracked plaza in the middle of the ghost city: above the broken paving at frame centre, several chunks of shattered concrete, a bent iron lamp post, an old bicycle and a scatter of pebbles float motionless in midair at different heights, free and unattached, held up by nothing at all; long pale dawn light slants across the plaza and throws their shadows on the ground below; dark grey towers ring the plaza; at frame left the lean Korean woman in her late twenties in her black field jacket peers out from behind a thick square concrete pillar, only half her face and one gloved hand visible, her eyes wide with disbelief; dust motes hang in the light; the plaza is utterly silent; the floating objects are the strangest thing she has ever seen; the shadows of the floating pieces lie scattered in a loose pattern on the paving, a dry fountain basin full of dead leaves sits at the edge of the plaza, and a cracked concrete bench faces the empty square",
+   "motion": "the hovering objects above the plaza drift slowly in the air, and that drifting is the one movement in the shot: at the start the chunks of concrete, the bicycle and the pebbles float still in midair, unattached; over the whole five seconds they all rise and sink very slowly a few hand-widths, turning a little as they float, their shadows on the paving sliding gently with them, never touching the ground; the woman behind the pillar stays still, her wide eyes fixed on them; the pillar, the cracked paving and the dark towers stay completely still; the dust motes in the light drift faintly; the pale dawn light holds steady; the dry fountain basin and the cracked bench at the edge of the plaza stay completely still; the camera holds a wide shot of the plaza from behind the pillar line, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "seori_gear",
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "초능력이 돌덩이를 허공에 띄우는 광경",
+   "visual": "a close view at dawn behind the thick concrete pillar on the plaza: the lean Korean woman in her late twenties with sharp dark eyes and black hair tied back in a low ponytail, in her black field jacket, presses her shoulder against the pillar at frame right, her face in three-quarter view, her lips parted mid-whisper, her eyes wide and fixed upward; in the soft foreground at frame left a single fist-sized chunk of broken concrete floats motionless in the air, free and unattached, slightly out of focus, dust trickling from its broken edge; behind her the plaza and the dark towers fade into pale morning haze; the dawn light touches her cheekbone; her gloved fingers grip the pillar's edge; the moment is hushed and electric, a trained detective seeing the impossible; a patch of pale grey concrete dust covers the shoulder of her jacket where she pressed against the pillar, and behind her a toppled metal bin lies on its side in the weeds",
+   "motion": "the stone chunk in the foreground floats slowly upward, and the woman's eyes follow it, and that rising is the one movement in the shot: at the start the chunk floats unattached at her eye level; over the whole five seconds it drifts slowly upward and turns a little in the air, a thin trickle of dust sifting from its broken edge, while her wide eyes rise with it and her lips move on a whisper; her body stays pressed against the pillar facing the same way; her gloved fingers stay gripping the edge of the pillar; the plaza, the towers and the haze behind her stay completely still; the soft dawn light holds steady; the toppled bin in the weeds behind her stays where it lies, and the grey dust on her shoulder holds; the camera holds a close shot beside the pillar at her eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "silhouettes",
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "초능력을 가진 이들, 패를 나눠 서로 싸우다",
+   "visual": "dusk on the far side of the cracked plaza: two loose groups of small distant dark silhouettes in long coats stand far apart facing each other across the open paving, seen side-on against an amber glow, their faces lost in shadow; between the two groups, in the empty middle of the plaza, a slow ring of broken concrete chunks, bricks and dust turns in the air at waist height, held up by no hand; the dark grey towers rise behind both groups; dust swirls low across the ground; the sky is amber fading to steel blue; the silhouettes stand perfectly still, coats stirring; the standoff is silent and dangerous, two camps of the same strange power; a toppled concrete planter lies at the edge of the plaza with a dead tree in it, broken glass glints in the dust between the two groups, and the towers behind them stand black against the glow",
+   "motion": "the ring of floating rubble turns slowly in the air between the two groups, and that turning ring is the one movement in the shot: at the start the chunks of concrete and bricks float free in a loose circle at waist height; over the whole five seconds the whole ring revolves slowly around its empty centre, the pieces bobbing gently as they circle, a low haze of dust swirling along the paving beneath them; the two groups of silhouettes stay standing still on either side, their long coats stirring faintly; the dark towers and the cracked paving stay completely still; the amber dusk light holds steady; the toppled planter and the broken glass in the dust between the groups stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the plaza from the side, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "suvs",
+    "fence"
+   ],
+   "refs": [],
+   "beat": "서로 싸우는 그들 중 한쪽 뒤에 버틴 국가 비밀 조직",
+   "visual": "night outside the sealed fence of the ghost city: on the access road beyond the concrete barriers stands a row of black SUVs, all alike, with tinted windows and bright headlights, parked nose to the fence with their engines idling quietly and no smoke rising from them; a tall portable floodlight on a stand beside them throws a hard white beam over the wire and into the dark city; behind the SUVs the road runs back into darkness; the padlocked steel gate and the empty guard booth stand in the glare; through the fence the dark shapes of the towers rise beyond; the cars are seen from the side and behind so no plates show; the scene is cold, official and silent, power that answers to no name; a coil of cable runs from the floodlight stand to a small humming generator, insects swarm in the beams, and the tinted windows of the SUVs reflect the white glare",
+   "motion": "the hard white floodlight beam sweeps slowly across the fence and the dark city, and that sweeping beam is the one movement in the shot: at the start the beam points at the padlocked gate; over the whole five seconds it swings slowly to the right along the wire fence and out over the dark towers beyond, lighting the barbed wire and the edges of the buildings as it passes, while the insects swarm in the white beams; the black SUVs themselves, the concrete barriers, the gate and the guard booth stay completely still; the floodlight stand stays fixed; the night sky holds steady; the humming generator and its cable stay still while the insects keep swarming in the beams; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from behind the row of SUVs, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "seori_gear",
+    "ghost_street"
+   ],
+   "refs": [],
+   "beat": "누구 편인지 모를 윤서리, 두 패와 비밀 조직 사이를 오가다",
+   "visual": "grey dawn on the abandoned boulevard of the ghost city: the lean Korean woman in her late twenties with sharp dark eyes and black hair tied back in a low ponytail walks alone down the middle of the cracked asphalt toward the camera at frame centre, in her black field jacket with her hands in its pockets, her face calm, closed and impossible to read; far behind her on the left one tower's windows still glow warm yellow; far on the right, beyond the end of the street, the white glare of headlights shows at the fence; above the street ahead of her a few pebbles float motionless in the air, free and unattached; dust-covered cars and a rusted bus sit in the weeds on both sides; mist lies low along the road; she walks between all of them belonging to none; a flock of pigeons sits along a bent street lamp above the road, a faded umbrella lies open on its side in the weeds, and her boots leave faint prints in the dust behind her",
+   "motion": "the woman walks slowly toward the camera down the middle of the boulevard, and her walking is the one movement in the shot: at the start she is a little way down the street; over the whole five seconds she walks steadily closer, staying at the centre of the frame, her hands in her jacket pockets and her calm unreadable face toward the camera, her boots stirring faint puffs of dust from the asphalt; the hovering pebbles above the street stay suspended where they are; the dust-covered cars, the rusted bus, the lit tower far behind and the distant headlights stay completely still; the low mist along the road drifts very slowly; the grey dawn light holds steady; the pigeons on the bent street lamp stay perched and the faded umbrella in the weeds stays still; the camera holds a medium wide shot down the street, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "윤서리가 오갈수록 조금씩 흔들리는 세 집단의 균형",
+   "visual": "dusk in the middle of the cracked plaza of the ghost city: at frame centre a long slab of broken concrete lies balanced across the top of a single snapped pillar, tipped very slightly to one side; around it small pebbles and grit float trembling in the air, free and unattached, and a thin trickle of dust sifts from the lower end of the slab onto the paving; long amber light slants across the plaza and throws the slab's long shadow over the cracks; dark grey towers stand around the plaza, their windows black; a single crow perches on the far end of the slab; the scene is tense and fragile, a balance that is starting to tilt; a scatter of broken bricks lies around the foot of the pillar, a dry fountain basin sits empty at the far edge of the plaza, and a few weeds tremble in the cracks under the slab",
+   "motion": "the balanced slab tilts very slowly on its pillar, and that slow tilting is the one movement in the shot: at the start the slab rests almost level on the snapped pillar; over the whole five seconds it leans slowly a little further to one side and steadies again, the trickle of dust from its lower end thickening and thinning, the small hovering pebbles around it trembling, while the crow on its far end shifts its feet; the snapped pillar stays rooted and still; the dark towers and the cracked paving stay completely still; the slab's long shadow across the plaza shifts only slightly; the amber dusk light holds steady; the broken bricks around the pillar and the empty fountain basin stay completely still; the camera holds a medium wide shot of the slab from the plaza floor, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "seori_gear",
+    "cafe"
+   ],
+   "refs": [],
+   "beat": "사랑이라는 말 없이도 가장 로맨틱하다는 윤서리의 이야기",
+   "visual": "night inside an abandoned café in the ghost city: dusty tables and chairs stand in the dark, a dead coffee machine sits on the counter, and a big window looks out over the dark towers to the one distant tower whose windows glow warm yellow; at a window table at frame centre sits the lean Korean woman in her late twenties with black hair tied back in a low ponytail, in her black field jacket, alone, her chin resting on one hand, gazing out at the warm lit windows far away with a softer, unguarded look on her face for the first time; on the dusty table in front of her lies a short dagger fully closed inside its dark leather sheath, only its plain wooden handle showing and the blade completely hidden, set aside; pale moonlight through the window lights her face and the table; the café is silent; the moment is quiet and strangely tender; a stack of chairs leans against the far wall under a sheet of dust, a single dried flower stands in a glass bottle on the next table, and her small flashlight lies switched off beside the sheathed dagger",
+   "motion": "the woman gazes out at the distant warm windows, and her slow softening look is the one movement in the shot: at the start she sits with her chin on her hand, looking out; over the whole five seconds her eyes stay on the far lit tower while her face softens slowly, her lips parting a little and the hard line of her jaw easing, her free hand drifting toward the sheathed dagger on the table and resting beside it without picking it up; her body stays seated at the table facing the window; the dusty chairs, the dead coffee machine and the counter stay completely still; the distant lit windows glow steadily; the pale moonlight holds unchanged; the stacked chairs, the dried flower in its bottle and the switched-off flashlight stay completely still; the camera holds a medium shot across the café, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "ghost_city"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽의 유령도시, 꺼지지 않은 창 하나",
+   "visual": "a quiet closing still of the sealed ghost city at first light, seen from the distant hill road: the grey apartment towers and office blocks stand in silent rows with their dark windows, and far off the vast round black sinkhole lies in the middle of the city, mist pooling in it; in one tall tower near the frame centre a single window still glows warm yellow; the first pale gold light touches the tops of the towers; a flock of birds rises from a rooftop; the high wire fence runs across the foreground, dew on its wire; the sky is washed from steel blue to pale gold; the city is still dead and still alive; the long-stopped steel construction tower crane leans over its unfinished block near the city's edge, a thin band of mist runs along the empty ring road, and the bent lamp posts below the hill catch the first light",
+   "motion": "the first pale gold light spreads slowly down the towers, and that spreading dawn is the one movement in the shot: at the start the light touches only the tallest rooftops; over the whole five seconds it slides slowly down the grey faces of the towers, warming them floor by floor, while the mist in the distant sinkhole drifts very slowly and the flock of birds circles once above the rooftops; the single lit window keeps its steady warm glow; the towers, the dark windows, the high wire fence and the dewdrops on its wire stay completely still; the leaning steel tower crane over the unfinished block stays still and the mist along the ring road drifts faintly; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from the hill road, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

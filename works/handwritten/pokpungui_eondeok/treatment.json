@@ -1,61 +1,204 @@
 {
- "logline": "언덕 위 외딴집에 하룻밤 묵은 나그네가, 창밖에서 나는 소리에 그 집의 오래된 일을 듣게 된다.",
- "destination": "이층 방의 창문 — 밤마다 무언가 두드리는 자리",
- "protagonist": "폭설에 갇혀 낯선 집에 묵게 된 도시 신사",
- "setting": "18세기 말 잉글랜드 요크셔 황무지, 언덕 위 돌집",
- "anchor": "a lean gentleman in a dark travelling coat and high collar, damp dark hair",
- "palette": "storm-grey moor, peat brown, cold candle amber, black window glass",
+ "logline": "눈보라 속 나그네가 언덕 위 돌집에 묵다가 창을 긁는 손과 어둠에 대고 캐서린을 부르는 주인을 보고, 하녀 넬리에게서 옛 주인이 데려온 아이 히스클리프와 캐서린이 황야를 뛰던 어린 시절, 마구간으로 내쫓긴 일, 저택의 개에 물린 밤, 숙녀가 되어 돌아온 캐서린, 문 뒤에서 들은 말과 폭풍 속의 실종, 에드거와의 결혼, 그리고 신사가 되어 돌아온 히스클리프의 이야기를 듣는다",
+ "destination": "소설 폭풍의 언덕에서 만날 수 있습니다",
+ "protagonist": "heathcliff",
+ "setting": "1770~1800년 무렵 요크셔의 황야 — 언덕 위 돌집 워더링 하이츠의 벽장 침대와 부엌과 마구간, 여름의 황야, 이웃 저택 스러시크로스 그레인지의 창과 문, 폭풍 속의 대문, 황야의 작은 교회",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/pokpungui_eondeok/assets",
+ "anchor": "a tall dark black-browed man and a wild dark-curled girl of the Yorkshire moors, an old grey stone farmhouse on a bare hill with thorn trees bent all one way",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "두 집안을 대를 이어 무너뜨리고 나란히 묻히는 마지막",
  "beats": [
   {
    "n": 1,
-   "beat": "눈보라 속 나그네가 낯선 집 문을 두드린다.",
-   "visual": "a traveller in a soaked coat hammering at a heavy stone-framed door in driving snow",
-   "motion": "snow drives sideways, his fist strikes the wood, the door shudders"
+   "cast": [
+    "lockwood",
+    "heights",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "눈보라 속 나그네가 언덕 위 낡은 돌집의 문을 두드린다",
+   "visual": "black night with white powder of winter driving sideways across the bare hill: the old farmhouse of grey stone is the one thing filling the middle of the frame with its narrow deep-set windows dark and its carved stone lintel over the door, the few stunted thorn trees beside it leaning all one way in the wind; the young gentleman of thirty in the heavy dark brown greatcoat with the fur collar and the tall black hat, with white powder thick on his shoulders and his hat brim, is the one standing at frame centre before the door with his back half to the camera and one gloved fist raised against the oak, his pale town face turned up to the dark windows and his mouth open in a shout, the wind pulling at his coat; the white powder lies drifted against the door's foot and the wall; the dark moor runs away behind the house into the black; there is exactly one person at the door and the house is dark",
+   "motion": "the gentleman's raised fist and the driving powder are the two things that move, and the house holds still: at the start his gloved fist is raised against the oak with his mouth open; over the whole five seconds the fist beats slowly three times against the door, the whole arm swinging, his face staying turned up to the dark windows, while the white powder drives sideways across the frame in the wind and his coat flaps at the hem; the narrow windows of the house stay dark and no light comes on; the stunted thorn trees stay bent all one way; the drifts against the door's foot and the wall keep their shapes; the carved stone lintel over the door and the grey stone of the walls take the driving powder without changing; the black moor behind the house stays black; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그는 낡은 벽장 침대에서 하룻밤을 청한다.",
-   "visual": "a traveller lying in a narrow wooden box bed in a cold upstairs room, single candle beside him",
-   "motion": "the candle flame bends, his breath fogs, the bed panel creaks"
+   "cast": [
+    "lockwood",
+    "box_bed",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "나그네가 좁은 벽장 침대에서 하룻밤 묵기로 한다",
+   "visual": "the dull yellow light of one candle in the small room with the old oak closet bed against the wall: the panelled oak of the closet bed is the one thing filling the frame from left to right with one of its sliding doors pushed open, and inside the recess the young gentleman of thirty with the pale plain town face, in his shirt sleeves with the heavy greatcoat laid over him for a cover, is the one lying on his side on the narrow bed with his head on his folded arm and his eyes open, turned to the small deep window at the back of the recess, its panes black with the night; the ledge under the window holds a few old books with their spines turned away and the candle in its holder; the sliding door's edge shows at frame left; the rest of the room beyond the closet is dark; there is exactly one person in the picture and he is the one lying in the closet bed; his tall black hat is off, lying on the ledge beside the books, and his head is bare with his hair flattened, his greatcoat unbuttoned and loose over him as a blanket; his eyes are wide open and his brows lifted, his face uneasy",
+   "motion": "the candle flame is the one thing that moves, and the man in the bed holds nearly still: at the start the flame burns steady on the ledge under the window; over the whole five seconds the flame leans slowly toward the black window as a draught comes through the panes and straightens again, twice, the light on the panelled oak and on the man's face brightening and dimming with it; the man's open eyes stay on the black window and close slowly halfway, his head not lifting from his folded arm and the greatcoat over him not shifting; the old books on the ledge keep their turned spines; the open sliding door and the dark room beyond hold completely still; the small deep window's black panes do not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "한밤중 창유리를 두드리는 소리에 깬다.",
-   "visual": "a traveller sitting bolt upright in a box bed, staring at a black window streaked with snow",
-   "motion": "snow rattles the pane, he jerks upright, the candle gutters low"
+   "cast": [
+    "lockwood",
+    "box_bed",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "한밤중 창유리를 긁는 가느다란 손에 나그네가 소스라친다",
+   "visual": "deep night in the recess of the old oak closet bed, the candle out, lit only by a faint grey glow through the small deep window: the small window's panes are the ones filling the middle of the frame, black with the night, and pressed flat against the far side of the glass at frame centre, outside in the dark and seen through the panes, a small thin white hand is the one thing showing, a child's hand with its palm and five spread fingers squashed pale against the glass from outside, only the hand and a little of the thin wrist, the glass between the hand and the room, the dark beyond the pane solid black round the hand; the young gentleman of thirty with the pale town face, in his shirt sleeves, is the one at the near right edge of the frame half sitting up in the bed with his back against the panelled oak and one arm thrown up before his face, his eyes wide over his arm and his mouth open; the few old books on the ledge under the window show dark; the panelled oak of the recess closes in on both sides; there is exactly one person inside the bed and the hand on the glass is outside; the young gentleman's own two hands are both drawn up before his face inside the room, so the hand on the glass is a third hand, a child's, on the other side of the window",
+   "motion": "the small hand on the glass is the one thing that moves, and the man in the bed holds still: at the start the fingers are spread flat on the pane with the nails against the glass; over the first three seconds the fingers draw slowly down the pane together, the nails scraping a slow line down the glass, and the hand presses flat again lower on the pane; in the last two seconds the hand holds pressed to the glass and does not withdraw; nothing of the owner appears in the dark beyond the pane; the man keeps his arm thrown up before his face and his wide eyes over it, his back pressed to the oak and nothing in him moving; the old books on the ledge and the panelled oak hold completely still; the faint grey glow through the window stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "창밖에서 가느다란 손이 유리를 긁는다.",
-   "visual": "a thin pale hand pressed against the outside of a dark window pane, frost spreading around it",
-   "motion": "the hand drags down the glass, frost blooms outward, the frame rattles"
+   "cast": [
+    "heathcliff",
+    "box_bed",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "주인 히스클리프가 창유리를 열고 어둠에 대고 캐서린을 부른다",
+   "visual": "deep night in the recess of the old oak closet bed, lit by a candle held low out of the frame: the small deep window is the one thing standing wrenched open at frame centre with the night's white powder driving in through it onto the ledge, and the tall dark man of forty with the black hair and the thick black brows and the dark weathered severe face, in the dark brown coat with the black neckcloth pulled loose, is the one leaning far out through the open window from the waist with both his hands gripping the window's frame, his head thrust out into the black night and turned so that his face shows in profile, his mouth open wide in a cry and his eyes wet; the white powder settles on his black hair and his shoulders; the few old books on the ledge are pushed aside and one lies open face down; the panelled oak of the recess closes in on both sides; there is exactly one person in the picture and he is the one leaning out of the window into the dark",
+   "motion": "the man leaning out of the window is the one who moves, and the recess holds still: at the start he leans out from the waist with his hands gripping the frame and his mouth open in a cry; over the first three seconds his head turns slowly from one side of the black night to the other, the cry going on with his mouth open and his wet eyes searching, and his body leans a hand's width further out over the sill, the white powder settling thicker on his hair; in the last two seconds he holds leaned out with his face turned to the dark; his hands keep their grip on the frame; the white powder keeps driving in through the open window onto the ledge; the pushed-aside books and the one lying face down keep their places; the panelled oak holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "집주인이 창을 열고 어둠에 대고 부른다.",
-   "visual": "a dark-haired man throwing a window wide onto black moorland night, snow blasting into the room",
-   "motion": "the window bangs open, snow blows into the room, his coat whips back"
+   "cast": [
+    "nelly",
+    "lockwood",
+    "kitchen",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "하녀 넬리가 나그네에게 오래전 이야기를 들려준다",
+   "visual": "grey winter daylight from the deep window of the big farmhouse kitchen with the huge stone fireplace: the housekeeper of forty in the grey gown with the white apron and cap, with the plain sensible round face, is the one sitting at frame left on the wooden settle before the fire with her knitting held still in her lap and her face turned to the young man, her mouth open in the telling and her eyes on the middle distance; the young gentleman of thirty with the pale town face, in the dark brown greatcoat with the fur collar open, is the one sitting at frame right in a wooden chair across the hearth with one elbow on his knee and his chin on his hand, his face turned to her and listening; the fire glows in the huge stone fireplace between them; the dresser with the pewter dishes stands at the back; the stone floor is bare; there are exactly two people in the kitchen and the woman on the settle is the one speaking",
+   "motion": "the housekeeper's knitting hands are the one thing that moves, and the young man holds still: at the start the knitting lies still in her lap with her mouth open in the telling; over the whole five seconds her hands take up the knitting and the needles move slowly through three stitches and stop, her eyes staying on the middle distance and her mouth moving on with the story; the young man keeps his chin on his hand and his listening face turned to her, nothing in him moving; the fire in the huge fireplace keeps its even glow; the dresser with its pewter dishes, the deep window and the bare stone floor hold completely still; the grey daylight stays even; the woman's white cap and apron keep their folds; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그가 어둠에 대고 누군가의 이름을 부른다.",
-   "visual": "a dark-haired man leaning far out of an open window into black moorland night, snow blasting past",
-   "motion": "snow drives past him, his coat whips, his shoulders heave with each shout"
+   "cast": [
+    "earnshaw",
+    "heathcliff_boy",
+    "kitchen",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "옛 주인이 데려온 검은 머리 아이, 히스클리프",
+   "visual": "the dull yellow glow of the fire in the huge stone fireplace of the farmhouse kitchen at night: the old farmer of sixty with the white hair and the weathered kind face, in the heavy dark brown greatcoat with mud to the knees, is the one standing at frame centre just inside the low door with the greatcoat held open in both hands, and out of its folds the dark thin boy of twelve with the tangled black hair and the black eyes and the sullen plain face, in the ragged dark brown jacket with bare feet, is the one standing pressed against the old man's legs with his black eyes turned up at the room and his thin arms wrapped round himself; the wooden settle stands before the fire at frame right with a woman's shawl over its back; the dresser with the pewter dishes stands at the back; the stone floor is bare; there are exactly two people in the kitchen and the boy is the one who has just come in",
+   "motion": "the old man's open greatcoat and the boy's eyes are the two things that move, and the kitchen holds still: at the start the greatcoat is held open in both hands with the boy pressed against his legs; over the first three seconds the old man's hands let the greatcoat's folds down slowly round the boy and one hand comes to rest on the boy's tangled black hair, and the boy's black eyes travel slowly round the room from the fire to the dresser and back to the fire; in the last two seconds the hand holds on the boy's hair and his eyes hold on the fire; neither person's feet shift on the stone floor; the fire in the huge fireplace keeps its even glow; the settle with the shawl over its back and the dresser with its pewter dishes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그가 돌아온다면 이 집은 어떻게 될까?",
-   "visual": "a stone farmhouse on a bare ridge at dusk, one lit window, a figure standing at the gate below",
-   "motion": "the figure steps toward the gate, the window light steadies, clouds close overhead"
+   "cast": [
+    "cathy_girl",
+    "heathcliff_boy",
+    "moor",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "주인의 딸 캐서린과 그 아이는 날마다 황야를 뛰어다닌다",
+   "visual": "wide pale summer light over the open moor with the dull brown heather and the bright green bracken: the wild girl of twelve with the dark brown curls flying loose and the bright fierce face, in the dull green stuff dress with bare feet, is the one running at frame left along a sheep track through the heather toward frame right with both her arms flung out wide and her face turned back over her shoulder, laughing; the dark thin boy of twelve with the tangled black hair, in the ragged dark brown jacket with bare feet, is the one running a pace behind her at frame centre with his black eyes on her and his sullen face broken open in a grin, one hand reaching after her flying hand; the grey rocks stand up from the heather at frame right; the beck runs between stones at the bottom of the frame; the wide pale sky lies over the moor; there are exactly two children on the moor and both are running the same way",
+   "motion": "the two children are the ones that move, and the moor holds still: at the start the girl runs with her arms flung out and the boy a pace behind with his hand reaching; over the whole five seconds both run slowly on along the sheep track toward frame right by no more than three strides, her loose curls streaming and her arms staying flung wide, his reaching hand coming nearer to hers and not quite taking it, her laughing face staying turned back over her shoulder to him; the heather and the bracken bend a little under their feet and stand again; the grey rocks, the beck between its stones and the wide pale sky hold completely still; the sheep track through the heather keeps its pale line under their bare feet; the beck's water moves only in its own small ripples; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "언덕 위 돌집 창에 불이 하나 남는다.",
-   "visual": "one lit window in a stone farmhouse on a bare ridge at night, moorland black around it",
-   "motion": "the window light steadies, heather bends in the wind, clouds race",
-   "anchor": false
+   "cast": [
+    "hindley",
+    "heathcliff_young",
+    "stable",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "주인이 죽자 아들 힌들리는 히스클리프를 마구간으로 내쫓는다",
+   "visual": "grey daylight through the open door of the stable with the straw on the floor: the hard-faced young man of twenty-two with the light brown hair and the thin lips, in the dark coat and the riding boots, is the one standing at frame left in the stable doorway with one arm thrust out straight pointing at the straw and the other hand on his hip, his thin mouth open and his chin lifted; the tall dark youth of seventeen with the tangled black hair and the thick black brows, in the dirty dark brown jacket with mud on his boots, is the one standing at frame right in the straw beside the wooden manger with both his fists clenched at his sides and his sullen face turned to the pointing man, his black brows drawn down and his jaw set; the lantern hangs dark on its nail; the horse's dark flank shows in the stall at the back; the straw is heaped in the corner for a bed with a torn blanket on it; there are exactly two people in the stable and the one in the doorway is the one pointing",
+   "motion": "the youth's clenched fists are the one thing that moves, and the man in the doorway holds still: at the start both fists are clenched at his sides with his jaw set; over the first three seconds the fists clench slowly tighter until the knuckles stand out and his arms draw back a little, his black brows drawing lower and his set jaw working once, his feet not shifting in the straw; in the last two seconds the fists hold clenched and his sullen face stays turned to the doorway; the man in the doorway keeps his arm thrust out pointing at the straw and his chin lifted, nothing in him moving; the dark lantern on its nail, the wooden manger and the horse's dark flank in the stall hold completely still; the torn blanket on the heaped straw does not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "cathy_girl",
+    "heathcliff_boy",
+    "grange_window",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "이웃 저택 창을 엿보다 개에 물린 캐서린이 그 집에 남는다",
+   "visual": "black night outside the fine house with the tall drawing-room window lit dull yellow behind its white curtains: the wild girl of twelve with the dark brown curls and the bright fierce face, in the dull green stuff dress torn at the hem, is the one lying at frame centre on the gravel walk below the window with her hands pushing at the ground and her face turned to the lit window, one bare foot drawn up, and a big bulldog with a heavy jowled head is the one thing holding the torn hem of her dress in its jaws at frame right, its forelegs planted and its eyes on her; the dark thin boy of twelve with the tangled black hair, in the ragged jacket, is the one at frame left crouched by the flower bed with a stone gripped in his raised hand and his black eyes on the dog, his teeth bared; the lit window above throws its dull yellow light over the flower bed and the walk; the dark bulk of the house rises behind; there are exactly two children and one dog in the picture and the dog is the one holding the dress; the dark thin boy is the one crouched below the sill outside with the wild girl, and between the girl and the boy stands nothing but the dog on the gravel; there are exactly two children and one dog outside the window, the boy and the girl on the same side of the dog",
+   "motion": "the boy's raised hand and the dog are the two things that move, and the girl holds nearly still: at the start the stone is gripped in the boy's raised hand and the dog holds the dress's hem in its jaws; over the first three seconds the boy's raised arm draws slowly back further for the throw and stops, his bared teeth showing, and the dog's heavy head shakes slowly once from side to side with the torn hem in its jaws, its planted forelegs not shifting; in the last two seconds the arm holds drawn back and the dog holds the hem; the girl keeps her hands pushing at the gravel and her face turned to the lit window, only her drawn-up foot shifting a little; the lit window with its white curtains keeps its steady dull yellow light; the flower bed and the dark bulk of the house hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "cathy",
+    "heathcliff_young",
+    "kitchen",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "숙녀가 되어 돌아온 캐서린 앞에 진흙투성이 히스클리프가 선다",
+   "visual": "grey daylight from the deep window of the big farmhouse kitchen: the young woman of seventeen with the dark brown curls pinned up under a small feathered hat and the bright fierce lovely face, in the fine off-white silk dress with kid bare hands, is the one standing at frame right on the stone floor with her bare hands held a little out from her sides and her face turned to the youth with a laugh caught on her lips and her eyebrows lifted; the tall dark youth of seventeen with the tangled black hair and the thick black brows, in the dirty dark brown jacket with mud thick on his boots and on his hands, is the one standing at frame left half behind the wooden settle with his muddy hands hidden behind his back and his sullen face turned down and away from her, his black brows drawn; the huge stone fireplace glows between them; the dresser with the pewter dishes stands at the back; a small travelling trunk stands by the low door; there are exactly two people in the kitchen and the one in silk is the one laughing; the kitchen behind them is the old stone kitchen of 1770, its far wall plain whitewash with the wooden dresser and pewter dishes and nothing else against it, and the young woman's two hands are bare, pale and ungloved, her fine dress clean and unmarked from hem to collar",
+   "motion": "the young woman's gloved hands and the youth's face are the two things that move, and the kitchen holds still: at the start her gloved hands are held a little out from her sides and his face is turned down and away; over the first three seconds one gloved hand reaches slowly out toward him with the fingers open and stops a pace short, her caught laugh widening, and his face turns slowly a little further away from her toward the wall, his hidden hands not coming out from behind his back; in the last two seconds her hand holds out and his face stays turned to the wall; neither person's feet shift on the stone floor; the fire keeps its even glow; the dresser with its pewter dishes, the settle and the small trunk by the door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "cathy",
+    "nelly",
+    "heathcliff_young",
+    "kitchen",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "결혼은 못 한다는 캐서린의 말을 히스클리프가 문 뒤에서 듣는다",
+   "visual": "grey daylight in the big farmhouse kitchen, seen from the low door: the young woman of seventeen with the dark brown curls pinned up and the bright fierce lovely face, in the plain off-white dress, is the one sitting at frame right on the wooden settle before the fire with her back half to the door and her face turned to the housekeeper, one hand pressed to her breast and her lips parted in speech; the housekeeper of forty in the grey gown with the white apron and cap is the one standing at frame centre by the fire with a dish in her hands held still and her plain sensible face turned to the young woman with her brows drawn; at the near left edge of the frame, close and large, the tall dark youth of seventeen with the tangled black hair is the one standing just outside the low door with his back against the wall beside it and his sullen face turned in profile toward the room, his black eyes fixed and his jaw set, unseen by the two inside; the huge stone fireplace glows; the dresser stands at the back; there are exactly three people in the picture and the one by the door is the one not seen by the others",
+   "motion": "the young woman's pressed hand is the one thing that moves, and the youth by the door holds still: at the start her hand is pressed to her breast with her lips parted in speech; over the first three seconds the hand lifts from her breast and turns palm up toward the housekeeper, as a woman does explaining a hard thing, her lips moving and her face not turning toward the door; in the last two seconds the hand holds palm up; her feet do not shift; the housekeeper keeps the dish held still in her hands and her drawn brows turned to the young woman; the youth outside the door keeps his back to the wall and his fixed black eyes on the room, not one part of him moving; the fire keeps its even glow; the settle and the dresser hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "cathy",
+    "gate",
+    "storm_moor",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "그는 폭풍 속으로 사라지고 캐서린은 밤새 찾다 열병에 걸린다",
+   "visual": "black night in the driving rain at the stone gateposts of the moor farmhouse: the young woman of seventeen with the dark brown curls plastered wet to her face and the bright fierce face gone white, in the plain off-white dress soaked through and clinging, is the one standing at frame centre between the gateposts with both her hands gripping the top bar of the wooden gate and her body leaned out over it toward the dark track, her mouth open in a call and her eyes wide on the black moor; the dark track runs away beyond the gate into the driving rain and is empty; the stunted thorn trees on the moor beyond bend all one way in the wind; a pale glare of lightning shows behind the ragged sky at the top of the frame; the rain runs off the gateposts; there is exactly one person at the gate and the track beyond is empty",
+   "motion": "the rain and the young woman's wet hair are the two things that move, and the gate holds still: at the start she leans out over the gate with her mouth open in a call; over the whole five seconds the rain drives sideways across the frame in sheets and her wet curls are pulled across her face by the wind and cling there, her hands keeping their grip on the gate's top bar and her body leaned out, her mouth opening again in the call; the pale glare of lightning behind the ragged sky brightens slowly and dims; the dark track beyond the gate stays empty and nobody comes along it; the stunted thorn trees stay bent all one way; the stone gateposts hold completely still with the rain running off them; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "cathy",
+    "edgar",
+    "church",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "캐서린은 이웃 저택의 에드거와 결혼하고 세 해가 흐른다",
+   "visual": "soft grey daylight before the low porch of the small grey stone church on the moor: the young woman of seventeen with the dark brown curls pinned up under a small white bonnet and the bright fierce lovely face gone quiet, in the fine off-white silk dress with a white shawl, is the one standing at frame centre on the church step with one gloved hand resting on the arm of the young man beside her and her face turned to the moor at frame left, not to him; the fair slender young man of twenty-two with the light hair and the gentle pale face, in the fine dark blue coat with the white cravat, is the one standing at frame right beside her with her hand on his arm and his gentle face turned to her with a small smile; the few gravestones stand in the grass with their carved faces turned away; the church wall runs behind; the wide grey moor sky lies over the low porch; there are exactly two people on the step and the woman is the one looking away",
+   "motion": "the young woman's turned face is the one thing that moves, and the young man holds still: at the start her face is turned to the moor with her hand on his arm; over the first three seconds her head turns slowly from the moor toward him and stops halfway, her eyes lowering to the step, and turns slowly back to the moor; in the last two seconds her face holds turned to the moor; her gloved hand stays on his arm and her feet do not shift on the step; the young man keeps his small smile turned to her, nothing in him moving; the gravestones with their turned faces, the church wall and the low porch hold completely still; the soft grey light stays even; the small white bonnet and the white shawl do not stir in the still air; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "heathcliff_gent",
+    "grange_door",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "저택 문 앞에 신사가 되어 돌아온 히스클리프가 무엇을 가져올지 알 수 없다",
+   "visual": "evening at the front door of the fine house with the lamps lit either side of the pillared porch: the tall dark man of twenty-one with the black hair cut and combed back and the thick black brows and the stern handsome face, in the fine dark blue coat with the white cravat and the tall polished boots, is the one standing at frame centre on the stone steps of the porch with his tall hat held in one hand at his side and his other hand raised to the door's brass knocker, his stern face turned to the door with his black eyes narrowed and his mouth set; the two lamps either side of the door throw their dull yellow light on his combed hair and his polished boots; the tall windows of the house are lit at frame left and frame right; the dark moor lies beyond the porch at the bottom of the frame; there is exactly one person on the steps and he is the one with his hand on the knocker",
+   "motion": "the man's hand on the knocker is the one thing that moves, and the porch holds still: at the start his hand is raised to the brass knocker with his face turned to the door; over the first three seconds the hand lifts the knocker slowly and lets it down once, and lifts it again and holds it raised, his narrowed eyes not leaving the door and the tall hat not shifting in his other hand; in the last two seconds the knocker holds raised in his hand; his polished boots do not shift on the step; the door does not open; the two lamps keep their steady dull yellow light; the lit tall windows and the dark moor beyond the porch hold completely still; the brass knocker takes the lamplight in one steady gleam between his liftings; the stone steps under his boots stay as they are; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "heights",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "바람 속의 낡은 돌집과 한쪽으로 기운 나무들",
+   "visual": "grey stormy daylight over the bare hill with the old farmhouse of grey stone standing alone at frame centre, its narrow deep-set windows dark and its carved stone lintel over the closed door: the few stunted thorn trees beside the house are the ones bending all one way in the wind with their branches streaming to the right; the dark moor runs away behind the house under the black storm sky with a band of pale light along the far horizon; the gate in the low wall before the house stands open and swinging; a torn strip of plain white cloth, no bigger than a pillowcase, is snagged by one corner on a thorn of the nearest tree and streams out flat in the wind; the grass on the hill lies flat; the streaming strip of white cloth on the thorn is the one pale thing in the picture; the hillside, the house, the wall and the gate hold nothing but grass, stone, the bent thorn trees and that one small rag of cloth, the whole picture a landscape of house and hill with cloth on a thorn",
+   "motion": "the wind is the one thing that moves, and the house holds still: at the start the thorn trees bend to the right with the rag of cloth streaming from the nearest; over the whole five seconds the trees bend slowly further in a gust and ease back, their branches streaming, the caught rag of cloth lifting and whipping and settling on the thorn, the open gate swinging slowly a hand's width and back on its hinge; the flat grass on the hill ripples in the gust; the grey stone house with its dark windows and its closed door holds completely still; the band of pale light along the far horizon stays as it is; no figure appears at the house or on the moor; the narrow windows stay dark from first to last and nothing shows behind their glass; the closed door does not open; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "두 집안을 대를 이어 무너뜨리고 언덕에 나란히 묻히는 마지막",
- "voice": "ko-KR-BongJinNeural"
+ ]
 }

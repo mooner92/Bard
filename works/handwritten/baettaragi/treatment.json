@@ -1,61 +1,199 @@
 {
- "logline": "아우와 아내를 함께 아끼던 뱃사람이, 어느 날 닫힌 방문 앞에 선다.",
- "destination": "닫힌 안방 문 — 그가 열게 되는 자리",
- "protagonist": "영유 바닷가에서 배를 부리는 서른 살 사내",
+ "logline": "아우와 아내를 함께 아끼던 뱃사람이, 어느 날 닫힌 방문 앞에 서고 궤짝 밑에서 튀어나온 쥐 한 마리에 평생을 건다",
+ "destination": "소설 배따라기에서 만날 수 있습니다",
+ "protagonist": "brother",
  "setting": "20세기 초 평안도 바닷가 어촌, 배와 초가와 장터",
- "anchor": "a weathered fisherman in a coarse hemp jacket and headband, thick shoulders, sun-darkened face",
- "palette": "sea grey-green, salt-bleached wood, low amber lamplight, cold sky",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/baettaragi/assets",
+ "anchor": "a lean bearded Korean fisherman in a grey headband and rolled hemp clothes, bare feet",
+ "palette": "ash grey, dark blue, off-white, dark brown, dull red",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "뱃사람이 아우와 함께 그물을 걷어 올린다.",
-   "visual": "two men hauling a dripping net over the side of a wooden boat, open grey sea around them",
-   "motion": "the net rises streaming water, the boat rocks, gulls cut across"
+   "cast": [
+    "brother",
+    "younger",
+    "boat",
+    "sea_bg"
+   ],
+   "refs": [],
+   "beat": "배를 타는 형과 아우",
+   "visual": "the broad wooden fishing boat on the grey sea: the lean bearded fisherman with the hard narrow eyes is the one standing at the left gunwale hauling a wet hemp net over the side with both sinewy arms, water streaming from the mesh onto the planks; the broad-faced young fisherman is the one at the right gunwale beside him hauling the same net with his big easy hands, his soft open face turned toward the sea; both wear grey headbands and rolled hemp clothes with bare feet on the wet planks; the patched grey canvas hangs slack on the single mast above them and the low swells and soft horizon fill the background under the pale overcast sky",
+   "motion": "the two fishermen hauling the wet hemp net over the left gunwale are the only things that move in this shot: at the start the net is half over the side with water streaming from the mesh onto the planks; over the first two seconds the lean bearded fisherman with the hard narrow eyes and the broad-faced young fisherman haul the net slowly up hand over hand in one shared continuous pull, their sinewy arms working in the same rhythm, water pouring from the mesh, the boat tilting a little toward them and righting; in the last two seconds the net comes over the gunwale in a heap and their hands rest on it, their chests heaving; the furled canvas, the mast, the tiller and the coiled rope do not shift; the grey sea heaves slowly under the boat in long low swells; the soft horizon and the grey sky hold completely still; no new figures or boats appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "아내가 아우에게 웃으며 밥상을 내온다.",
-   "visual": "a woman setting a low meal table before a younger man in a thatched room, older man in the doorway",
-   "motion": "steam lifts off the bowls, she laughs, the doorway figure goes still"
+   "cast": [
+    "brother",
+    "younger",
+    "shore"
+   ],
+   "refs": [],
+   "beat": "성미 급한 형과 순한 아우",
+   "visual": "the shingle beach before the drying nets: the lean bearded fisherman is the one standing at frame left with his jaw set hard and his forefinger jabbed toward the young man's chest, his headband crooked and his other hand a fist at his side; the broad-faced young fisherman is the one seated on an upturned boat at frame right with a hemp net across his knees and a wooden needle in his hand, his soft face lifted to the older man with a slow shy smile; the nets hang on their poles behind them, gulls stand on the shingle and the low thatched houses rise above the tide line under the grey sky",
+   "motion": "the lean bearded fisherman standing on the shingle is the one who moves, and only his arm and jaw: at the start his forefinger is jabbed toward the young man's chest and his set jaw is thrust forward under the crooked headband; over the first two seconds the jabbing finger pushes slowly closer to the young man's chest and stops a hand's width from it, his set jaw thrusting further and his other hand tightening into a fist at his side, the crooked headband slipping a little; in the last two seconds the finger holds there trembling and his jaw stays thrust; the broad-faced young fisherman seated on the upturned boat keeps his shy smile and the mending needle still in his fingers, his eyes lowered, no flinch; the drying nets on their poles, the gulls on the shingle, the low thatched houses and the grey sea hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그는 두 사람의 웃음소리에 노를 멈춘다.",
-   "visual": "a fisherman motionless at the oars of a moored boat, head turned toward a lit house on the shore",
-   "motion": "the oar drips, water laps the hull, his head stays turned"
+   "cast": [
+    "wife",
+    "younger",
+    "brother",
+    "house_yard"
+   ],
+   "refs": [],
+   "beat": "아우에게도 스스럼없이 웃는 형의 아내",
+   "visual": "the small earthen yard of the thatched house in afternoon light: the pretty young woman with the round bright face and the dull red ribbon in her bun is the one at the center setting a low wooden table of bowls down before the raised wooden porch, her head thrown back in an open laugh with her dimpled cheeks lifted; the broad-faced young fisherman is the one seated on the porch edge at frame right laughing with her, his big hands on his knees; the lean bearded fisherman is the one standing in the brushwood gate at frame left with his arms folded and his narrow eyes on the two of them, his mouth a flat line; earthen jars along the low stone wall; the man seated on the porch beside the laughing young woman is the clean-shaven broad-faced young fisherman with the grey headband, and the man standing in the brushwood gate with his arms folded and his jaw set hard, unsmiling, is the lean fisherman with the short black beard; only the older brother in the gate has a beard, the young man on the porch has none",
+   "motion": "the pretty young woman with the round bright face and the dull red ribbon in her bun is the one who moves: at the start her head is thrown back in an open laugh with the low wooden table of bowls in her hands above the yard; over the first two seconds her laughing head comes slowly forward and her hands settle the table into place on the earth before the raised porch, the bowls trembling once on the table, her laugh softening into a wide dimpled smile; in the last two seconds she straightens with her hands on her hips and the smile stays; the broad-faced young fisherman seated on the porch keeps laughing with his shoulders shaking but does not rise or turn; the lean bearded fisherman standing in the gate stays completely motionless with his arms folded and his narrow eyes on her; the earthen jars, the mud wall, the thatched roof and the afternoon light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "장터에서 그는 아내에게 줄 거울을 산다.",
-   "visual": "a fisherman holding a small round hand mirror at a crowded market stall, coins in his other palm",
-   "motion": "the mirror catches light and flashes, the crowd jostles, his thumb rubs the rim"
+   "cast": [
+    "brother",
+    "wife",
+    "house_room"
+   ],
+   "refs": [],
+   "beat": "그 웃음이 못마땅한 형",
+   "visual": "the low inner room in dim light: the lean bearded fisherman is the one at frame right on one knee with his left hand closed hard around the young woman's wrist and his right hand raised open at shoulder height, his narrow eyes fierce and his teeth bared through the short black beard; the young woman is the one at frame left kneeling with her face turned sharply away toward the paper window, the dull red ribbon loose in her bun and her free hand pressed flat on the oiled paper floor; the folded quilt and the grey plaster wall behind them; grey light from the small paper window; the young woman's face is turned hard away toward the wall with her eyes squeezed closed and her mouth pressed tight in a thin line, her brows drawn together, her free hand pressed flat on the quilt",
+   "motion": "the lean bearded fisherman on one knee in the dim inner room is the one who moves, and only his raised hand and face: at the start his left hand is closed hard around the young woman's wrist and his right hand is raised open at shoulder height with his teeth bared through the short black beard; over the first two seconds the raised open hand closes slowly into a fist and lowers to his side while his grip on her wrist does not loosen, his bared teeth pressing together and his narrow eyes staying fierce; in the last two seconds the fist rests against his thigh and his chest rises and sinks hard; the young woman keeps her face turned hard away toward the wall with her free hand pressed flat on the quilt, her loose hair not stirring; the folded quilt, the grey plaster wall, the paper window and the dim light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "집에 돌아오니 안방 문이 닫혀 있다.",
-   "visual": "a fisherman standing in a courtyard facing a closed paper door with lamplight behind it",
-   "motion": "lamplight flickers behind the paper, his hand rises, wind stirs the yard"
+   "cast": [
+    "brother",
+    "mirror",
+    "market"
+   ],
+   "refs": [],
+   "beat": "장에서 아내에게 줄 거울을 사는 형",
+   "visual": "the lane of the coastal market: the lean bearded fisherman is the one crouched at the center before a straw mat spread with small goods, the small round hand mirror with its dark lacquered back held up in his right hand and tilted so that its glass catches the grey light, his narrow eyes softened and his mouth open a little; an old peddler in hemp clothes squats behind the mat at frame right with his hands on his knees; dried fish hang from the thatched eave above and another mat of earthenware lies at the left; the bearded man's other hand digs in his rope belt for coins",
+   "motion": "the small round hand mirror in the lean bearded fisherman's right hand is the only thing that moves in this market lane: at the start the mirror is held up and tilted so that its glass holds the grey light; over the first two seconds his hand turns the mirror slowly so that the glass flashes once with the grey light and settles, his softened narrow eyes following his own reflection in it and the corners of his mouth easing; in the last two seconds the mirror holds still in his hand and his eyes stay on it; the peddler seated behind the straw mat of small goods stays completely still with his hands on his knees; the straw mat, the eave, the dried fish hanging on their string and the earthenware bowls hold completely still; the lane behind stays empty of movement; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "문을 열자 두 사람이 옷매무새를 고친다.",
-   "visual": "a woman and a younger man straightening their clothes inside a small room, a man frozen in the doorway",
-   "motion": "their hands move quickly to their collars, the door swings wide, lamp gutters"
+   "cast": [
+    "brother",
+    "mirror",
+    "house_yard"
+   ],
+   "refs": [],
+   "beat": "닫힌 안방 문과 부스럭 소리",
+   "visual": "the small earthen yard before the raised wooden porch: the lean bearded fisherman is the one standing at the center at the foot of the porch with the small round mirror held against his chest in both hands, his head tilted and his ear turned toward the closed sliding paper door of the inner room above him, his narrow eyes gone still; the paper door is shut and dim, the earthen jars stand along the low stone wall at the right and the brushwood gate is behind him at the left; late grey afternoon light",
+   "motion": "the lean bearded fisherman standing at the foot of the raised porch is the only one who moves, and barely: at the start the small round mirror is held against his chest in both hands and his head is tilted with his ear toward the closed sliding paper door of the inner room; over the first two seconds his tilted head leans slowly a little closer toward the closed paper door and his hands press the mirror harder against his chest, his whole body going rigid, his bare feet not shifting on the earth; in the last two seconds he holds completely still in that lean with only his chest moving; the closed paper door does not slide; the raised porch, the earthen jars, the brushwood gate, the mud wall and the thatched roof hold completely still; no new figures appear; camera drifting very slowly forward toward the door, no zoom"
   },
   {
    "n": 7,
-   "beat": "그가 본 것은 정말 그가 생각한 것일까?",
-   "visual": "a fisherman standing alone on a night shore looking back at a small lit house, boat dark beside him",
-   "motion": "waves push at the hull, his fists open and close, the house light dims"
+   "cast": [
+    "brother",
+    "younger",
+    "wife",
+    "chest",
+    "house_room"
+   ],
+   "refs": [],
+   "beat": "문을 열자 옷매무새를 고치는 아우와 아내",
+   "visual": "the sliding paper door of the inner room stands flung wide at frame left and the lean bearded fisherman is the one filling the doorway with his shoulders, the small round mirror in his hanging hand; inside the room the young woman is the one at the center on her knees with her hair fallen loose from its bun and both hands pulling her white jeogori straight at the collar, her round face turned to the door with wide eyes; the broad-faced young fisherman is the one at frame right crouched beside the low dark wooden chest pulled away from the wall, one hand still on its lid and his headband gone, his soft face startled; the folded quilt shoved into a corner; the small round mirror hangs in the right hand of the bearded man in the doorway, held low against his thigh with the glass turned inward; the young woman's two hands are both at her own collar; the young man beside the chest is clean-shaven with a soft open face and his hands rest on the chest lid; only the man in the doorway has a beard",
+   "motion": "the young woman on her knees inside the room and the young man's hand are what move: at the start her hands are at her collar pulling it straight and the broad-faced young fisherman's hand rests on the lid of the low dark chest; over the first two seconds her hands finish pulling her collar straight and sink slowly to her lap while her wide eyes stay on the doorway and her loose hair hangs still, and the young man's hand slides slowly off the chest lid to his knee, his face lowering; in the last two seconds both stay still with their eyes on the door; the lean bearded fisherman filling the doorway with the small round mirror in his hanging hand does not move at all, his shoulders squared, his face in shadow; the chest with its iron corners, the quilt, the grey walls and the flung-wide paper door hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "빈 배 한 척이 달빛 바다에 떠 있다.",
-   "visual": "an empty wooden boat drifting on a moonlit sea, oars shipped, shoreline dark and far away",
-   "motion": "the boat rocks on the swell, moonlight breaks on the water, a rope trails",
-   "anchor": false
+   "cast": [
+    "brother",
+    "mirror",
+    "house_room"
+   ],
+   "refs": [],
+   "beat": "형의 귀에 들리지 않는 말",
+   "visual": "a close view in the doorway of the inner room: the lean bearded fisherman's face fills the frame from the shoulders up, his narrow eyes wide and fixed, his teeth clenched through the short black beard and the grey headband dark with sweat, and below his chin his right fist is closed so hard around the handle of the small round mirror that the glass has cracked into a pale star; behind him the grey plaster wall of the room falls out of focus; dim light from the paper window at the side",
+   "motion": "only the lean bearded fisherman's fist and eyes move in this close view: at the start his right fist is closed hard around the handle of the small round mirror below his chin and the glass is already cracked; over the first two seconds the fist tightens slowly further so that the knuckles whiten and the cracked glass gives one more small splintering shift with a line running across it, while above the fist his clenched face stays rigid with his teeth showing through the short black beard and only his narrow eyes narrow further; in the last two seconds the fist holds and a bead of sweat runs from under the dark headband down his temple; his shoulders and the headband do not shift; the grey wall behind holds its blur; no new figures or objects appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "brother",
+    "wife",
+    "younger",
+    "house_yard"
+   ],
+   "refs": [],
+   "beat": "아내를 내쫓고 아우까지 내몬 형",
+   "visual": "the brushwood gate of the thatched house: the young woman is the one stumbling out through the gate at frame left with her black hair loose down her back, one straw sandal gone and her hands over her face; the broad-faced young fisherman is the one being pushed after her at the center with his back to the camera and the back of his head held straight ahead, one arm half raised; the lean bearded fisherman is the one standing inside the gate at frame right with both arms thrust out in the shove, his face twisted and his mouth open; the earthen jars and the low stone wall behind, the grey sky above the thatch",
+   "motion": "the three figures at the brushwood gate move only as the shove carries them: at the start the lean bearded fisherman's arms are thrust out against the young man's back and the young woman ahead is stumbling through the gate with her hands over her face; over the first two seconds the thrust-out arms push slowly forward and stay extended while the broad-faced young fisherman stumbles one step further out through the gate with his hands spread to keep his balance, and the young woman ahead of him takes one more unsteady step into the lane with her loose black hair swinging and her hands still over her face; in the last two seconds the bearded man's arms hold out straight and the two outside the gate stop; the earthen jars, the mud wall, the thatched roof and the lane hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "rat",
+    "chest",
+    "house_room"
+   ],
+   "refs": [],
+   "beat": "궤짝 밑에서 튀어나온 쥐",
+   "visual": "the empty inner room in dim light: the low dark wooden chest with its iron corners and brass clasp stands at the center pulled a little from the grey plaster wall, and the small grey rat is the one just emerged from the dark gap beneath it at the lower left, its long bare tail still under the chest and its bright black eyes catching the grey window light; the oiled paper floor, the shoved quilt in the corner and the open paper door at frame right with the empty yard beyond; nothing else in the room",
+   "motion": "the small grey rat is the only living thing in this empty room and the only thing that moves: at the start it has just emerged from the dark gap beneath the low dark wooden chest with its long bare tail still under the chest; over the first two seconds it creeps slowly forward out across the oiled paper floor with its tail dragging out behind it, its nose lifting, its whiskers twitching and its small ears turning; in the last two seconds it stops in the dim light a hand's length from the chest and sits up a little on its haunches sniffing; the chest with its iron corners and brass clasp, the folded quilt, the grey plaster wall and the open paper door hold perfectly still; no figures and no other animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "brother",
+    "shore",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "뛰쳐나가 아내를 찾아 헤매는 형",
+   "visual": "the shingle beach at dusk: the lean bearded fisherman is the one running along the water's edge at the center with both hands cupped around his mouth and his body pitched forward, his hemp jacket open and his bare feet throwing up wet shingle, his headband gone and his cropped hair blown; the drying nets on their poles stand dark at the left, an upturned boat lies at the right and the low thatched houses above the tide line are dim; the sea is grey and the sky over it dull red fading to blue overhead",
+   "motion": "the lean bearded fisherman running along the water's edge is the only one who moves: at the start he is mid-stride at the center with both hands cupped around his mouth and his body pitched forward; over the first two seconds he runs slowly along the water's edge toward the right of the frame with his cupped hands at his mouth and his mouth open in a shout, his bare feet throwing up wet shingle at each stride, his open hemp jacket flying behind him and his cropped hair blown back; in the last two seconds he comes to a stop well inside the frame and stands still; the drying nets on their poles, the upturned boat, the low thatched houses and the dull red dusk sky hold completely still; the grey water laps slowly at the shingle; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "brother",
+    "house_yard",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤이 되어도 돌아오지 않는 아내",
+   "visual": "the thatched house at night: the lean bearded fisherman is the one seated on the edge of the raised wooden porch at the center with his elbows on his knees and his bearded chin in his hands, his narrow eyes fixed on the open brushwood gate at frame left and the dark lane beyond it; the sliding paper door behind him stands open on a black room; the earthen jars along the low stone wall catch a thin pale light from the thin moon, and the dark blue sky with its few stars shows above the thatch; the yard is empty",
+   "motion": "the lean bearded fisherman seated on the edge of the raised porch is the only one who moves, and barely: at the start his elbows are on his knees and his bearded chin rests in his hands with his narrow eyes fixed on the open brushwood gate; over the whole shot his eyes stay fixed on the open gate while his chin sinks slowly lower into his hands and his shoulders sink a degree, his breath lifting his back once; nothing comes through the gate and the dark lane beyond it stays empty; the closed sliding paper door behind him, the earthen jars, the mud wall, the thatched roof and the dark night sky with its few stars hold completely still; no new figures or animals appear; camera drifting very slowly forward toward the porch, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "younger",
+    "shore",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "마을을 떠나는 아우",
+   "visual": "the trodden sand path along the shingle beach at dusk seen from behind: the broad-faced young fisherman is the one walking away from the camera at the center with a cloth bundle on his back and the back of his head held straight ahead under the grey headband, his bare feet leaving prints in the wet sand; the drying nets and the upturned boats stand at the left, the low thatched houses fall behind at the right, and the path runs on along the shore toward a dark headland; the grey sea and the dull red dusk sky",
+   "motion": "the broad-faced young fisherman walking away along the sand path is the only one who moves: at the start he is mid-stride at the center with the cloth bundle on his back and the back of his head held straight ahead under the grey headband; over the first three seconds he walks slowly away from the camera along the trodden path toward the dark headland, the bundle swaying a little on his back with each step, his bare feet leaving prints in the wet sand that fill slowly with water behind him, his head never turning; the drying nets, the upturned boats, the low thatched houses above the tide line and the dull red dusk sky hold completely still; the grey water laps slowly at the shingle; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "brother",
+    "boat",
+    "sea_bg"
+   ],
+   "refs": [],
+   "beat": "배를 타고 노래하는 형",
+   "visual": "the broad wooden fishing boat alone on the grey sea: the lean bearded fisherman is the one standing at the stern at frame right with one hand on the long steering oar and his other hand pressed flat on his chest, his bearded chin lifted and his mouth open wide in song, his narrow eyes on the far soft horizon; the patched grey canvas is full on the single mast and the wet net lies heaped amidships; the low swells run past the hull and the pale overcast sky and the soft horizon fill the rest of the frame; no other boat and no land in sight",
+   "motion": "the lean bearded fisherman standing at the stern and the boat under him are what move: at the start his one hand rests on the long steering oar and his other hand is pressed flat on his chest with his bearded chin lifted and his mouth open wide in song; over the first two seconds his lifted chin rises a degree higher with the song and his hand presses harder on his chest, while the boat rides slowly up one long grey swell under the full canvas, the canvas bellying and the mast leaning; in the last two seconds the boat settles down the far side of the swell and his hand on the oar steadies it, his mouth still open in song; the soft grey horizon and the grey sky hold completely still; no new figures, boats or birds appear; camera drifting very slowly backward away from the boat, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shore",
+    "sea_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 바닷가",
+   "visual": "the shingle beach of the fishing village, empty of every person: hemp nets hang drying on their wooden poles at the left, an upturned boat lies on the shingle at the right, and the low thatched houses stand above the tide line with their doors closed; the grey sea runs out to the soft horizon under the pale overcast sky and a few gulls stand on the wet shingle at the water's edge; the trodden sand path is empty",
+   "motion": "nothing living moves on this empty beach; only the wind and the water: at the start the hemp nets hang still on their wooden poles at the left and the upturned boat lies on the shingle at the right; over the whole shot a slow wind moves along the beach so that the hanging nets sway together once on their poles and settle, and the grey sea runs slowly up the shingle in a low wave and draws back leaving the stones dark and wet; the upturned boat, the low thatched houses with their closed doors, the tide line and the soft grey horizon hold completely still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward toward the water, no zoom"
   }
  ],
- "withheld": "그가 아내와 아우를 내쫓은 뒤 아내가 돌아오지 못하게 되는 결말",
- "voice": "ko-KR-HyunsuMultilingualNeural"
+ "withheld": "바다에 몸을 던진 아내의 시체, 형이 평생 배를 타며 아우를 찾아다니는 결말"
 }

@@ -1,0 +1,181 @@
+{
+ "logline": "죽음이 사라진 가상세계 롤라와 유빙이 떠내려오는 서해 끝 재활원 — 인간에게 남는 마지막 욕망",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "gyeongju",
+ "setting": "먼 미래의 가상세계 롤라와 현재 서해 끝 눈 덮인 곶의 노숙인 재활원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/yeongwonhan_cheonguk/assets",
+ "anchor": "a lean Korean man in his mid-thirties with short messy black hair, in a plain dark navy security guard parka",
+ "palette": "pale blue, cool grey, off-white, pale gold, deep blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "두 세계가 이어지는 방식, 티켓과 살인의 진실, 경주가 끝내 향하는 곳",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "haesang",
+    "lola"
+   ],
+   "refs": [],
+   "beat": "빛나는 가상 세계 롤라 — 한 남자의 집에 초대된 설계자 해상",
+   "visual": "inside the vast glass-roofed arcade of the virtual world: the Korean woman in her thirties in her long charcoal wool coat walks alone along a floating walkway toward the camera, her jaw-length black hair stirring, her sharp dark eyes fixed ahead on something past the camera; around and above her the endless galleries rise in tiers, lined with blank glowing doorways and windows made of pure soft light, each one a different pale colour, some doorways opening onto small bright scenes too far away to make out; walkways float across the luminous air at different heights, a few tiny distant figures of light moving along them; far overhead the glass roof dissolves into a pale shining haze; the air itself glows faintly; the light is soft, cool and everywhere at once, the whole place dazzling, silent and weightless",
+   "motion": "the woman walks along the floating walkway toward the camera, and her walking is the one movement in the shot: at the start she is some distance down the walkway; over the whole five seconds she walks steadily closer with long even strides, her charcoal coat swinging at her knees, her jaw-length hair lifting a little at each step, her sharp eyes staying fixed ahead past the camera and her composed face unchanged; the blank glowing doorways and windows in the galleries around her shimmer faintly in their pale colours, the light breathing softly brighter and dimmer; the tiny distant figures of light on the far walkways stay where they are; the floating walkways, the tiers of galleries and the shining haze of the glass roof stay completely still; the camera holds its place on the walkway as she approaches, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "haesang"
+   ],
+   "refs": [],
+   "beat": "남의 기억을 빌려 일인칭 가상 극장을 짓는 설계자",
+   "visual": "a bare dark room in the virtual world: the Korean woman in her thirties in her black turtleneck stands at frame centre facing the camera, her long charcoal coat thrown over a chair behind her, both slim hands raised at chest height with fingers spread, shaping the air; in front of her, floating at the height of her face, hang several thin rectangular panels of soft light, each glowing with a blurred warm scene of remembered places, a sunlit window, a kitchen table, a winter road, all soft and wordless; threads of pale light run from her fingertips to the panels; her sharp dark eyes are narrowed in concentration, lips slightly parted; the dark walls of the room fall away into blackness around the pool of light; the glow of the panels lights her face from below in shifting warm and cool tones",
+   "motion": "the woman draws her spread hands slowly apart and the floating panels of light spread with them, and that drawing apart is the one movement in the shot: at the start her hands are raised close together with the panels clustered in front of her face; over the whole five seconds she moves her hands steadily outward to either side, and the thin glowing panels glide apart and settle in a wide arc around her, the blurred remembered scenes on them brightening as they separate, the pale threads of light from her fingertips stretching and holding, her narrowed eyes following the panels and her face staying intent; the chair with her coat behind her and the dark walls of the room stay completely still; the shifting glow on her face follows the panels; the camera holds a medium shot at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "haesang",
+    "dark_street"
+   ],
+   "refs": [],
+   "beat": "자기 기억으로 극장을 지어 달라는 그 남자의 기이한 의뢰",
+   "visual": "night on a dark unfamiliar street in the virtual city: the Korean woman in her thirties in her long charcoal wool coat stands at frame right before the front door of an old low house, seen from behind at an angle, the back of her jaw-length black hair and one shoulder to camera, her hand lifted toward the door; the door has just opened a hand's width inward, and warm yellow light spills from the gap across the wet dark paving stones and up her coat; the rest of the house is dark, its shuttered windows closed; one tall street lamp further down the street throws a cold white pool on the wet stones; the other low houses along the street are dark and shuttered; the night sky above is black and starless; the whole street is empty, quiet and strange, the open door the only warmth in it; a thin mist hangs low over the far end of the street, and a single dark window above the door reflects the lamp",
+   "motion": "the door of the house swings slowly further open and its warm light widens across the woman and the wet street, and that opening door is the one movement in the shot: at the start the door stands open a hand's width with a narrow band of warm light on the paving; over the whole five seconds it swings slowly inward, the band of warm yellow light spreading wider across the wet stones and climbing up the woman's charcoal coat, while she stands still before it seen from behind, the back of her head to camera and held straight toward the doorway the whole time, her lifted hand lowering slowly to her side; the dark shuttered windows, the tall street lamp and its cold white pool and the other dark houses stay completely still; the black sky holds unchanged; the camera holds a medium shot from behind her shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "lola"
+   ],
+   "refs": [],
+   "beat": "롤라 — 먼 미래, 죽음마저 사라진 가상의 세계",
+   "visual": "a vast wide view of the virtual world from high inside the glass-roofed arcade, empty of any near figure: the endless galleries descend in tier after tier into a luminous depth, every level lined with blank glowing doorways and windows of pure soft light in pale gold, pale blue and off-white, thousands of them receding to a shining vanishing point; floating walkways cross the space at every height, and along them move countless tiny figures made of light, too small to have faces; far below, a broad plaza of light glows softly; above, the glass roof dissolves into a pale radiant haze with no sun; soft motes of light drift in the air; the whole world is immense, bright, orderly and deathless, and utterly silent; far off, a few of the glowing doorways open onto bright miniature rooms and gardens too small to make out",
+   "motion": "the countless tiny figures of light move slowly along the floating walkways, and their slow flowing is the one movement in the shot: at the start the tiny figures stand scattered along the walkways at every height; over the whole five seconds they drift steadily along the walkways in long unhurried streams, some to the left and some to the right, crossing each other on different levels, while the soft motes of light in the air float slowly upward toward the radiant haze; the tiers of galleries, the blank glowing doorways and windows, the walkways themselves and the glowing plaza far below stay completely still; the pale radiant haze of the roof holds unchanged; the faint distant rooms and gardens in the far doorways stay unchanged; the camera holds the wide high view, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "cape",
+    "ice_sea",
+    "snow_bg"
+   ],
+   "refs": [],
+   "beat": "또 하나의 세계 — 유빙이 떠내려오는 서해 끝의 곶",
+   "visual": "a remote snow-covered cape at the far end of the west coast in winter, seen from the shore below: in the foreground the dark sea is crowded with drifting ice floes, grey-white slabs of every size jostling on black water; the shoreline is white with snow; up on the cape, at frame centre, stands a low grey two-storey facility behind a sagging wire fence, a few of its windows lit a weak yellow; behind it rises a snowy hill with bare black trees; heavy snow slants down from a low dark grey sky, blurring the far edge of the cape; a single path of footprints climbs from the shore toward the fence; the scene is bitterly cold and bleak, the lit windows the only warmth at the end of the world; a broken wooden jetty juts into the ice at frame left, half buried in snow",
+   "motion": "the drifting ice floes jostle and slide slowly across the dark water, and that drifting ice is the one movement in the shot: at the start the floes lie crowded on the black sea in the foreground; over the whole five seconds they slide slowly from right to left along the shore, grinding gently against each other, the black water showing and closing in the gaps between them, while heavy snow keeps slanting down through the whole frame; the low grey facility on the cape with its weak yellow windows, the sagging wire fence, the snowy hill with its bare trees and the path of footprints stay completely still; the low dark sky holds unchanged; the broken wooden jetty at frame left stays still in the ice, snow resting along its planks; the camera holds the wide shot from the shore, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "gyeongju",
+    "cape",
+    "snow_bg"
+   ],
+   "refs": [],
+   "beat": "서해 끝 노숙인 재활원 삼애원에 온 보안요원 경주",
+   "visual": "the gate of the homeless rehabilitation facility on the snowy cape in the grey morning: the lean Korean man in his mid-thirties in his plain dark navy security guard parka with the fur-trimmed hood down stands at frame centre just inside the open wire-mesh gate, facing the camera, a small duffel bag at his feet in the snow, his tired cynical face turned up toward the low grey two-storey building behind the camera, jaw set; snow collects on his shoulders and in his short messy black hair; behind him the sagging wire fence runs along the edge of the cape, and beyond it the dark sea crowded with drifting ice floes stretches to a grey horizon; heavy snow comes down from the low dark sky; his breath shows as white vapour; flat cold light, the scene raw and desolate; a plain wooden sign-post stands blank beside the gate, its face turned away and crusted with snow",
+   "motion": "the man lifts the duffel bag from the snow and settles it on his shoulder, and that lifting is the one movement in the shot: at the start the bag rests in the snow at his feet; over the whole five seconds he bends, grips the strap, straightens and swings the bag up onto his right shoulder, snow sliding from its top, his tired face staying turned up toward the building behind the camera and his breath showing white in the cold air, then he stands still with the strap in his fist; heavy snow keeps coming down steadily through the frame; the open wire-mesh gate, the sagging fence, the dark sea with its drifting ice and the grey horizon stay completely still; the blank sign-post by the gate stays still under its crust of snow; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "gyeongju",
+    "common_room"
+   ],
+   "refs": [],
+   "beat": "아버지를 잃고 일을 잃고 동생마저 잃은 경주",
+   "visual": "night in a small bare staff room of the facility: the lean Korean man in his mid-thirties sits alone on the edge of a narrow metal bed at frame centre, facing the camera, his dark navy parka hanging open over grey work clothes, elbows on his knees, his strong hands hanging loose between them; his tired cynical face is turned toward a small frosted window at frame left, where the faint shapes of drifting ice show on the black sea beyond; a single bare bulb hangs above him, its cold light carving deep shadows under his eyes; a thermos and a folded towel sit on a chair beside the bed; the grey linoleum floor is worn; frost creeps in feathery lines across the window glass; the room is cold and quiet, a man with nothing left sitting at the end of the world; a small electric heater glows faintly orange on the floor by his boots",
+   "motion": "the man rubs his hands slowly together between his knees against the cold, and that rubbing is the one movement in the shot: at the start his hands hang loose between his knees; over the whole five seconds he brings them together and rubs the palms slowly back and forth, then presses them flat together and holds them against his mouth, his breath showing faintly, his eyes staying on the frosted window and his face heavy and unchanged; the single bare bulb above him hangs still; the thermos and the folded towel on the chair, the metal bed frame and the worn linoleum stay completely still; the frost on the window and the faint shapes of ice on the black sea beyond hold unchanged; the small heater by his boots keeps its faint orange glow; the camera holds a medium shot at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "residents",
+    "common_room"
+   ],
+   "refs": [],
+   "beat": "그런 삼애원에 도는 죽지 않는 천국에 대한 소문",
+   "visual": "night in the shabby common room of the homeless rehabilitation facility: a group of weathered middle-aged and elderly Korean men in worn padded jackets and knit caps huddle close together on low stools around the round iron stove at frame centre, faces turned in toward each other, their heads nearly touching, lit orange-gold from below by the glow through the stove's small window; one man in the middle leans in with his mouth close to another's ear, a hand cupped beside it; the others listen with wide eyes; behind them rows of metal bunk beds recede into shadow, blankets heaped on them; the frosted windows are black with night; steam curls from a kettle on the stove; the rest of the room is dark and cold, the circle of stove light a small secret world; a pair of wet boots stands drying by the stove, and a clothesline of grey socks sags between two bunks",
+   "motion": "the man in the middle whispers into his neighbour's ear and the circle of listeners leans closer, and that closing in is the one movement in the shot: at the start the men sit huddled around the stove; over the whole five seconds the whispering man's lips move close to the other's cupped ear, and the listeners around him lean slowly further in toward the two of them, their knit caps drawing together, their wide eyes glinting in the stove glow, until the circle is tight; the steam from the kettle curls slowly upward; the round iron stove, its glowing window, the rows of bunk beds and the black frosted windows stay completely still; the orange stove light holds steady on their faces; the drying boots and the sagging line of socks stay still; the camera holds a medium shot at the height of their stools, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "residents",
+    "common_room"
+   ],
+   "refs": [],
+   "beat": "소문 속 누군가의 속삭임 — 롤라행 티켓",
+   "visual": "a close shot at the round iron stove in the common room at night: two weathered middle-aged Korean men in worn padded jackets and knit caps sit shoulder to shoulder on low stools, one leaning to the other's ear, their unshaven faces lit orange-gold from below by the glow through the stove's small window; the listening man's eyes are wide and unfocused, staring into the stove light, his rough hands clasped tight between his knees; the whispering man's hand is cupped at the other's ear, his eyes sliding sideways toward the dark room, checking who might hear; behind them the metal bunk beds are dark shapes; a kettle on the stove lets out a thin curl of steam; the edges of the frame sink into darkness, the whole scene hushed and conspiratorial; a battered tin cup of tea steams in the listening man's lap",
+   "motion": "the whispering man speaks into the other's ear while glancing sideways into the dark, and his whispering is the one movement in the shot: at the start he leans with his cupped hand at the other's ear; over the whole five seconds his lips move on a few quick words, his eyes sliding slowly from the listener's face toward the dark room at frame left and back again, while the listening man's wide eyes stay fixed on the stove light and his clasped hands tighten slowly between his knees; the thin curl of steam from the kettle rises steadily; the stove and its glowing window, the dark bunk beds behind them and the dark edges of the room stay completely still; the orange light on their faces holds steady; the camera holds the close shot at their seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "cape",
+    "snow_bg"
+   ],
+   "refs": [],
+   "beat": "티켓을 노린 살인이 이어진다는 흉흉한 소문",
+   "visual": "night on the snowy hill behind the facility on the cape, empty of people: a line of deep footprints runs up the snow from the foreground at frame right, climbing between bare black trees into darkness at the top of the slope; a single flashlight lies abandoned and still lit in the snow halfway up the trail, its beam pointing uphill across the snow and lighting a pale cone among the trunks; far below at frame left the few weak yellow windows of the grey facility glow behind the wire fence; beyond it the dark sea shows faint grey patches of drifting ice; snow drifts slowly down from a black sky; the snow is blue-white in the darkness; the scene is silent and ominous, the trail of footprints leading somewhere unseen; a broken branch lies across the trail just above the flashlight, snow heaped on it",
+   "motion": "snow drifts slowly down over the hill and into the flashlight's beam, and that drifting snow is the one movement in the shot: at the start the flashlight lies lit in the snow halfway up the trail; over the whole five seconds the snowflakes sink steadily through the darkness, glittering brightly as they pass through the pale cone of the beam and settling softly into the line of footprints, slowly blurring their edges; the flashlight itself, its beam, the bare black trees, the weak yellow windows of the facility below and the wire fence stay completely still; the faint grey ice on the dark sea beyond holds unchanged; the black sky holds unchanged; the broken branch across the trail stays exactly where it lies; the camera holds a wide shot up the slope from the foot of the trail, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "gyeongju",
+    "cape",
+    "snow_bg"
+   ],
+   "refs": [],
+   "beat": "동생의 죽음이 그 소문과 이어졌을지 의심하는 경주",
+   "visual": "night patrol in the snowy yard of the facility: the lean Korean man in his mid-thirties in his dark navy security guard parka with the fur-trimmed hood up stands at frame centre by the sagging wire fence, facing the camera in three-quarter view, holding a flashlight in his right hand pointed down at the snow, his tired cynical face turned toward the dark snowy hill behind the building at frame left, eyes narrowed, jaw set hard; snow gathers on his hood and shoulders; behind him the low grey building shows a few weak yellow windows; beyond the fence the dark sea with its pale drifting ice fades into the night; the flashlight beam lights a small bright oval of trampled snow at his feet; snow drifts down from the black sky; cold blue night light, the scene tense and brooding; his long shadow stretches across the snow toward the hill",
+   "motion": "the man slowly raises his flashlight beam from the snow at his feet toward the dark hill, and that raising is the one movement in the shot: at the start the beam lights the trampled snow at his feet; over the whole five seconds his arm lifts steadily and the beam climbs across the yard, over the fence posts and up toward the snowy hill at frame left, the bright oval stretching and thinning as it rises, while his narrowed eyes stay fixed on the hill and his face stays hard, snow drifting steadily through the beam; his feet stay planted in the snow; the grey building with its weak yellow windows, the sagging fence and the dark sea with its pale ice stay completely still; his long shadow on the snow stays in place; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "cape",
+    "ice_sea",
+    "snow_bg"
+   ],
+   "refs": [],
+   "beat": "그 소문 아래, 눈보라와 유빙 사이에서 부딪치는 욕망",
+   "visual": "a blizzard over the cape at dusk, seen from the frozen shore: the low grey two-storey facility stands on the headland at frame centre half lost in driving snow, all of its windows lit now in weak yellow squares, and in several of them the dark silhouettes of men stand looking out, each at his own window, turned toward the sea; the sagging wire fence runs along the edge of the cape; below, the dark sea is choked with drifting ice floes, some tipped on edge and piled against the shore; the wind drives the snow almost sideways across the whole frame; the sky is a heavy dark slate; the light is fading to deep blue; the scene is harsh and crowded with watching figures, every window a separate want; a single floodlight on the corner of the building throws a hazy cone into the blizzard",
+   "motion": "the blizzard drives the snow sideways across the cape, and that driving snow is the one movement in the shot: at the start the snow streams from right to left across the frame; over the whole five seconds the wind gusts harder, the snow thickening into racing white streaks that veil the facility and part again, so the lit windows and the dark silhouettes in them fade and reappear, while the silhouettes themselves stand perfectly still at their windows facing the sea; the grey building, the sagging fence, the piled drifting ice on the shore and the heavy dark sky stay completely still; the deep blue fading light holds steady; the hazy cone of the floodlight on the corner holds steady in the storm, its lamp fixed; the camera holds the wide shot from the frozen shore, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "fox",
+    "desert"
+   ],
+   "refs": [],
+   "beat": "작가가 인간의 마지막 욕망에 붙인 이름 — 야성",
+   "visual": "night in the Bahariya desert of Egypt: a small sand-coloured fennec fox sits alert on a low ridge of pale sand in the foreground at frame centre, facing the camera, its very large ears raised and turned forward, its bright dark eyes wide open and shining, reflecting the starlight; behind it tall white chalk rock formations rise out of the sand in pale eroded shapes, glowing faintly in the starlight; the pale sand stretches away in soft ripples to a far low horizon; above, a deep starry sky spreads across the whole top of the frame, dense with stars; there is no other living thing in sight; cold silver light lies over everything, the fox small, fierce and utterly awake in the vast empty desert; a few dry desert shrubs stand dark against the pale sand, and far off a second small ridge of sand glows faintly",
+   "motion": "the fennec fox turns its large ears slowly toward a sound and its eyes follow, and that turning is the one movement in the shot: at the start it sits still on the ridge with its ears raised and turned forward; over the whole five seconds its very large ears swivel slowly toward the left of the frame, its head turning after them a little, its bright dark eyes shifting toward the sound and staying wide and alert, the fine fur at the edges of its ears glinting in the starlight; its body stays seated and still on the sand; a faint thread of sand slides down the ridge beside its paws; the white chalk rock formations, the rippled sand and the deep starry sky stay completely still; the dark desert shrubs and the far ridge stay still; the camera holds a low close shot at the fox's eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "haesang",
+    "lola"
+   ],
+   "refs": [],
+   "beat": "모든 욕망이 이뤄지는 천국에서도 인간에게 남는 욕망은",
+   "visual": "high on a floating walkway inside the vast glass-roofed arcade of the virtual world: the Korean woman in her thirties in her long charcoal wool coat stands alone at the railing at frame centre, seen in three-quarter view from behind, her jaw-length black hair lifted slightly, her face turned up and away toward the endless tiers of blank glowing doorways and windows of pure soft light that rise around her; one slim hand rests on the railing; far below and all around, countless tiny figures of light drift along other walkways; above her the glass roof dissolves into a pale radiant haze; soft motes of light float past her; the light is cool and immense; she is small against the shining, orderly, endless world, the only still and solid figure in it; a narrow bridge of light arches between two far galleries below her",
+   "motion": "the woman slowly lifts her face higher toward the radiant haze above, and that lifting is the one movement in the shot: at the start she stands at the railing with her face turned up and away; over the whole five seconds her head tilts slowly further back, her gaze climbing tier by tier up the glowing galleries toward the pale haze of the roof, her hand tightening a little on the railing, the back of her head and her jaw-length hair toward camera the whole time, while soft motes of light drift slowly upward past her; the endless tiers of blank glowing doorways and windows, the floating walkways and the far tiny figures of light stay completely still; the radiant haze holds unchanged; the narrow bridge of light below her holds its shape; the camera holds a medium shot from behind her shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "ice_sea"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽 빛 아래 떠내려오는 유빙",
+   "visual": "a quiet closing still of the winter sea at first light, empty of people: drifting ice floes crowd the dark water from the foreground to the far horizon, slabs of grey-white ice of every size, some thin and flat, some heaped and ridged, with channels of black water winding between them; the snowy shoreline curves along the bottom edge of the frame; at the horizon a thin band of pale gold dawn light breaks under the low grey sky and lays a faint glittering path across the ice toward the camera; the snow has stopped and the air is clear and still; a few flecks of snow rest on the nearest floe; the whole sea is silent, cold and vast, the first light touching the ice; far out, a single dark rock breaks through the ice, a thin line of snow along its top",
+   "motion": "the ice floes drift very slowly across the dark water in the dawn, and that slow drift is the one movement in the shot: at the start the floes lie crowded and nearly still on the black channels; over the whole five seconds they slide very slowly from right to left, grinding softly against each other, the channels of black water between them narrowing and opening, while the faint glittering path of pale gold dawn light on the ice brightens a little; the snowy shoreline at the bottom of the frame, the flecks of snow on the nearest floe and the low grey sky stay completely still; the thin band of dawn at the horizon holds steady; the single dark rock far out in the ice stays still, its thin line of snow unchanged; the camera holds the wide still shot from the shore, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

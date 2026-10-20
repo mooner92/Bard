@@ -1,62 +1,203 @@
 {
- "logline": "매주 수백 명을 불러 모으는 남자가, 정작 밤마다 혼자 잔디밭 끝에 서 있다.",
- "destination": "만 건너편의 초록 불빛 — 그가 밤마다 손을 뻗는 자리",
- "protagonist": "이름을 바꾸고 대저택을 산 삼십 대 남자",
- "setting": "1922년 여름 롱아일랜드의 대저택과 만 건너 부두",
- "anchor": "a trim man in a pale summer suit and slicked dark hair standing on a wide lawn, 1920s Long Island mansion",
- "palette": "night indigo, single green point of light, champagne gold, hazy summer heat",
+ "logline": "1922년 여름 닉이 대저택 옆 작은 집으로 이사해, 밤마다 만 건너 초록 불빛을 향해 팔을 뻗는 저택의 주인 개츠비와 친구가 되고, 데이지와의 재회를 주선하며 벽시계와 셔츠 더미를 지켜보고, 무더운 호텔 방의 대치와 창 밖의 밤샘을 지나 개츠비가 수영장으로 내려가는 아침에 이른다",
+ "destination": "소설 위대한 개츠비에서 만날 수 있습니다",
+ "protagonist": "gatsby",
+ "setting": "1922년 여름 롱아일랜드 웨스트 에그 — 만가의 대저택과 잔디밭, 옆의 작은 집, 밤의 정원 파티, 만 건너의 초록 불빛, 맨해튼의 호텔 방, 아침의 수영장",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/widaehan_gaecheubi/assets",
+ "anchor": "a handsome fair-haired man in a white flannel suit on a great lawn at night reaching toward a single green light across dark water",
+ "palette": "dark blue, dull yellow, off-white, ash grey, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "그에게 씌워진 죄와 물가에서 맞은 최후, 텅 빈 장례식",
  "beats": [
   {
    "n": 1,
-   "beat": "밤마다 한 남자가 잔디밭 끝에 홀로 선다.",
-   "visual": "a man in a pale suit standing alone at the edge of a vast dark lawn facing black water",
-   "motion": "his coat tail lifts in the breeze, water glints, crickets shake the grass"
+   "cast": [
+    "nick",
+    "cottage",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "1922년 여름, 닉이 대저택 옆의 작은 집으로 이사한다",
+   "visual": "hazy summer daylight on the shore of the bay: the small weather-beaten wooden cottage with its small square of lawn is the one thing at frame centre, squeezed small and plain between the water at frame right and, at frame left, the corner of the huge white mansion with its tower rising far above the cottage's roof, its marble steps and its great lawn running down to the water; the young man of thirty with the neat brown hair and the plain pleasant face, in the light grey summer suit with the bow tie, is the one standing at frame centre on the cottage's small lawn with a leather suitcase set down at his feet and his face turned up toward the tower of the mansion, one hand shading his eyes; the hazy sky lies over the water of the bay; a few gulls stand on the shore; there is exactly one person in the picture and the mansion is the huge thing beside the small cottage",
+   "motion": "the young man's shading hand is the one thing that moves, and the shore holds still: at the start his hand shades his eyes with his face turned up to the tower; over the first three seconds his head turns slowly along the mansion's front from the tower down the marble steps to the great lawn and back to the tower, the shading hand moving with it; in the last two seconds his face holds turned up to the tower; his feet do not shift and the suitcase stays at them; the gulls on the shore stand without moving; the small cottage, the huge white mansion and the hazy water of the bay hold completely still; the summer light stays even; the leather suitcase keeps its place at his feet and its brass clasps take the hazy light without a gleam changing; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그는 만 건너 작은 초록 불빛으로 손을 뻗는다.",
-   "visual": "a man reaching one arm toward a tiny green light far across dark water, dock silhouetted beyond",
-   "motion": "his arm extends and holds, the green light pulses once, waves shift below"
+   "cast": [
+    "gatsby",
+    "lawn_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤마다 저택의 주인이 잔디밭 끝에 홀로 서 있다",
+   "visual": "dark blue summer night with stars over the great lawn running down to the dark water of the bay: the handsome man of thirty-two with the smooth fair hair, in the white flannel suit pale in the starlight, is the one standing at frame centre at the very edge of the lawn where it meets the water seen wholly from behind, the back of his white flannel jacket and the back of his smooth fair head toward the camera, his face turned away and hidden entirely, both his hands in his trouser pockets, his white figure small and alone against the dark water; the far shore lies across the bay as a low black line at the top of the frame, and at the end of a dock on that shore one single small green light shows, the only point of colour in the dark; the lawn runs pale grey from the bottom of the frame to his feet; the water lies flat and black between him and the far shore; there is exactly one person on the lawn and his back is to the camera; his head is turned squarely away from the camera so that only the back of his fair head and the nape of his neck show above his collar, with neither cheek nor jaw nor any part of his profile visible",
+   "motion": "the green light across the bay is the one thing that moves, and the man holds still: at the start the small green light shows steady at the end of the far dock; over the whole five seconds the green light dims very slowly almost to nothing and brightens again, twice, as the haze over the water thickens and thins; the man at the lawn's edge keeps his back to the camera and his hands in his pockets, nothing in him moving; the flat black water and the low black line of the far shore hold completely still; the pale grey lawn and the stars stay as they are; the man's white suit stays pale and unmoving against the black water, his shoulders not lifting and his head not turning; the grass at his feet does not stir in any wind; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "주말이면 그 집에 수백 명이 몰려든다.",
-   "visual": "a huge lit mansion terrace packed with dancing guests, a band on the steps, cars along the drive",
-   "motion": "dancers spin across the terrace, lanterns swing, headlights sweep the drive"
+   "cast": [
+    "gatsby",
+    "lawn_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "잔디밭 끝의 그가 만 건너 초록 불빛을 향해 팔을 뻗는다",
+   "visual": "dark blue summer night over the great lawn and the dark water of the bay, seen from the side: the handsome man of thirty-two with the smooth fair hair and the tanned face, in the white flannel suit, is the one standing at frame left at the edge of the lawn in profile with one arm stretched out straight before him toward the water and the far shore at frame right, his open hand reaching, his face turned the same way with his lips parted and his eyes on the far shore; across the flat black water the low black line of the far shore runs at frame right with the single small green light at the end of the dock, small and steady, in line with his reaching hand; the pale grey lawn runs under his feet; the stars stand thick in the dark blue sky; there is exactly one person on the lawn and his arm is the one thing reaching toward the green light",
+   "motion": "the man's reaching arm is the one thing that moves, and the far shore holds still: at the start his arm is stretched out straight toward the green light with his open hand reaching; over the first three seconds his open hand trembles and reaches a little further, his body leaning after it a hand's width toward the water and his fingers spreading wider, his lips parting further; in the last two seconds the arm holds stretched and his face stays turned to the far shore; his feet do not shift on the lawn; the single small green light stays steady at the end of the far dock; the flat black water, the low black line of the far shore and the stars hold completely still; the pale grey lawn under his feet does not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "정작 그는 사람들 틈에 섞이지 않는다.",
-   "visual": "a man in a pale suit standing apart on a marble stair above a crowded party, glass untouched",
-   "motion": "the crowd surges below him, his glass stays level, light flickers over his face"
+   "cast": [
+    "party",
+    "mansion",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "주말이면 그 저택에 수백 명이 몰려와 밤새 춤을 춘다",
+   "visual": "summer night in the gardens of the huge white mansion with the coloured paper lanterns strung through the trees in dull yellow, dull green and off-white: the backs of hundreds of guests in evening clothes fill the lower half of the frame, dancing in couples on the lawn with their arms raised and their heads thrown back, the women's short dresses shining and the men's black coats dark, all seen from behind; the band stands on its platform at frame left with the brass of the instruments catching the lantern light; the long buffet tables stand at frame right heaped with dishes; the white mansion rises behind with every window lit dull yellow and its tower against the dark blue sky; the marble steps are crowded with more guests; not one face in the crowd is turned to the camera",
+   "motion": "the dancing crowd is the one thing that moves, and the mansion holds still: at the start the couples stand with their arms raised and their heads thrown back; over the whole five seconds the couples sway slowly together from side to side in time, the raised arms moving together and the short shining dresses swinging, the whole crowd turning slowly a little to the left, no face turning toward the camera; the band on its platform sways with the music and the brass keeps catching the light; the coloured lanterns in the trees sway slightly; the lit windows of the mansion, its tower and the crowded marble steps hold completely still; the heaped dishes on the buffet tables keep their places and no glass is lifted from them; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "오후의 응접실에서 그가 시계를 넘어뜨린다.",
-   "visual": "a mantel clock tipping at the edge of a shelf, a man's hands snatching at it, tea table beyond",
-   "motion": "the clock topples and is caught, his hands fumble, rain streaks the window"
+   "cast": [
+    "gatsby",
+    "steps",
+    "party",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그 춤에 좀처럼 섞이지 않는 저택의 주인 개츠비",
+   "visual": "summer night on the wide marble steps of the mansion with the lit doorway above: the handsome man of thirty-two with the smooth fair hair and the tanned face, in the white flannel suit with the dull yellow tie, is the one standing alone at frame centre at the top of the marble steps with one hand resting on the stone balustrade and the other in his pocket, his face turned down over the garden with a small still smile and his eyes on nothing in particular; below him at the bottom of the frame the backs of the dancing guests in evening clothes fill the garden with their arms raised, small under the coloured lanterns strung through the trees, all facing away from him; the lit doorway behind him throws its dull yellow light down the steps; the stone balustrade runs down both sides of the steps; there is exactly one face turned to the camera and it is the man's at the top of the steps, and he is the only one not dancing",
+   "motion": "the dancing crowd below is the one thing that moves, and the man on the steps holds still: at the start the guests' raised arms sway under the lanterns; over the whole five seconds the crowd below sways slowly from side to side in time with the raised arms moving together, no face among them turning round; the man at the top of the steps keeps his hand on the balustrade and his other hand in his pocket, his small still smile and his eyes on nothing not changing, not one part of him moving with the music; the lit doorway keeps its steady light on the steps; the coloured lanterns in the trees sway slightly; the stone balustrade holds completely still; the dull yellow tie and the white suit take the doorway's light without changing; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그녀가 그의 셔츠 더미에 얼굴을 묻는다.",
-   "visual": "a woman bending over a heap of soft coloured shirts on a bed, a man watching from the wardrobe",
-   "motion": "shirts tumble down in waves, she sinks into them, curtains billow"
+   "cast": [
+    "nick",
+    "gatsby",
+    "yellow_car",
+    "mansion",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "닉은 노란 차를 모는 개츠비와 친구가 된다",
+   "visual": "hazy summer daylight on the gravel drive before the marble steps of the mansion: the long open motor car painted cream and dull yellow with its dull green leather seats and its huge round headlamps is the one thing standing at frame centre on the gravel with its folded hood down; the handsome man of thirty-two with the smooth fair hair and the tanned face, in the white flannel suit and the dull yellow tie, is the one standing at frame left beside the car's door with one hand on its top edge and the other held out open toward the young man in an easy welcoming gesture, his ready smile wide; the young man of thirty with the neat brown hair, in the light grey summer suit with the bow tie, is the one standing at frame right by the car's long bonnet with one hand raised to touch its cream paint and his plain pleasant face turned to the other man, smiling; the marble steps rise behind the car with the white mansion above; the gravel is pale; there are exactly two men on the drive and the car is between them",
+   "motion": "the handsome man's held-out hand is the one thing that moves, and the car holds still: at the start the hand is held out open toward the young man with his smile wide; over the first three seconds the open hand turns slowly to gesture toward the car's open door and back toward the young man, as a man does inviting another in, his smile not changing and his other hand keeping its place on the door's top edge; in the last two seconds the hand holds out open; his feet do not shift on the gravel; the young man keeps his hand on the bonnet and his smiling face turned to the other, nothing in him moving; the cream and dull yellow car with its folded hood and its huge headlamps holds completely still; the marble steps and the white mansion hold completely still; the hazy light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 초록 불빛은 그에게 무엇을 약속했을까?",
-   "visual": "a small green dock light burning across empty black water at dawn, lawn deserted in the foreground",
-   "motion": "the green light dims as dawn spreads, mist crosses the water, grass stills",
-   "anchor": false
+   "cast": [
+    "gatsby",
+    "nick",
+    "lawn_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "개츠비가 만 건너에 사는 데이지를 사랑했다고 털어놓는다",
+   "visual": "dark blue summer night over the great lawn at the edge of the dark water: the handsome man of thirty-two with the smooth fair hair, in the white flannel suit, is the one standing at frame left at the lawn's edge in profile with one arm lifted and his open hand pointing across the water toward the far shore, his face turned to the young man beside him with his lips parted in speech; the young man of thirty with the neat brown hair, in the light grey summer suit, is the one standing at frame centre beside him with both his hands pushed deep into his trouser pockets and both his arms hanging straight at his sides, his face turned across the water toward the far shore, following the pointing hand; across the flat black water the low black line of the far shore runs at frame right with the single small green light at the end of the dock; the pale grey lawn runs under their feet; the stars stand thick; there are exactly two men on the lawn and one of them is pointing at the green light; the only raised arm in the picture is the fair-haired man's pointing arm, the brown-haired young man's two arms both hang straight down with his hands buried in his pockets",
+   "motion": "the pointing hand and the young man's face are the two things that move, and the far shore holds still: at the start the open hand points across the water and the young man's face is turned toward the far shore; over the first three seconds the pointing hand lowers slowly to the height of the man's chest and his face turns further to the young man with his lips moving in speech, and the young man's face turns slowly from the far shore to the speaker; in the last two seconds both hold facing each other; neither man's feet shift on the lawn; the single small green light stays steady at the end of the far dock; the flat black water, the low black line of the far shore and the stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "새벽 물 위로 초록 불빛이 꺼져 간다.",
-   "visual": "a small green dock light dimming across grey water at dawn, the far lawn empty",
-   "motion": "the green light fades as dawn spreads, mist crosses the water, grass stills",
-   "anchor": false
+   "cast": [
+    "daisy",
+    "nick",
+    "nick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "흰 드레스의 데이지가 닉의 집에서 개츠비와 다시 만나기로 한다",
+   "visual": "holding a small white umbrella closed and furled, its point down, in one hand at her side; the young man of thirty with the neat brown hair, in the light grey summer suit, is the one standing at frame right by the mantelpiece with the old clock on it, one hand on the mantel and his face turned to her with a nervous smile, glancing toward the window; the vases of flowers crowd the table, the mantel and the windowsill; water runs down the outside of the window glass at frame left; there are exactly two people in the room and the flowers are the things that fill it; water streaks only the far side of the window glass, and the room inside is dry from wall to wall with dry floorboards, dry furniture and dry flowers, the air of the room clear",
+   "motion": "the young woman's umbrella is the one thing that moves, and the young man holds nearly still: at the start the small white umbrella is held out in her hand with her face laughing; over the first three seconds the umbrella is shaken slowly twice so that beads of wet fly from it and it is lowered, closing, to her side, her laughing face not changing and her other hand leaving the hat's brim; in the last two seconds the closed umbrella holds at her side; her feet do not shift; the young man keeps his hand on the mantel and his nervous smile turned to her, only his eyes going once to the window and back; the vases of flowers keep their places; the old clock on the mantel does not move; the wet keeps running down the window glass; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "gatsby",
+    "daisy",
+    "nick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "비 오는 오후 닉의 집에서 개츠비가 벽시계를 넘어뜨린다",
+   "visual": "grey rainy daylight in the small living room crowded with vases of white and dull yellow flowers: the handsome man of thirty-two with the smooth fair hair and the tanned face gone pale, in the white flannel suit, is the one standing at frame right stiffly against the mantelpiece with the old clock tilted far over in both his hands, caught at the mantel's edge in the act of tipping, his head bent to it and his eyes wide; the young woman of twenty-three with the bobbed dark blonde hair, in the white chiffon dress, is the one sitting at frame left on the edge of a chair with both her hands pressed together in her lap and her bright face turned up to him, her lips parted; the vases of flowers crowd the table between them; the rain runs down the window glass at the back; the clock is the one thing tilted; there are exactly two people in the room and the man at the mantel is the one holding the clock",
+   "motion": "the tilted clock in the man's hands is the one thing that moves, and the young woman holds still: at the start the old clock is tilted far over in both his hands at the mantel's edge; over the first three seconds his hands ease the clock slowly back upright by degrees onto the mantel and hold it there with the fingers spread on its sides, his bent head lifting a little and his wide eyes going from the clock to the young woman; in the last two seconds the clock holds upright under his spread hands; his feet do not shift; the young woman keeps her hands pressed together in her lap and her face turned up to him, her lips parted; the vases of flowers keep their places; the rain keeps running down the window glass; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "daisy",
+    "gatsby",
+    "dressing_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "데이지가 개츠비가 쌓아 둔 셔츠 더미에 얼굴을 묻는다",
+   "visual": "hazy summer daylight from the high windows of the great dressing room with the tall built-in cupboards standing open: the wide bed at frame centre is heaped with shirts in soft folded piles of off-white, dull yellow, pale blue and dull green, their folds spilling over one another; the young woman of twenty-three with the bobbed dark blonde hair, in the white chiffon dress, is the one bent over the bed at frame centre with her face buried in the heap of shirts and both her hands gripping the soft folds, her bobbed hair fallen forward and her shoulders shaking; the handsome man of thirty-two with the smooth fair hair, in the white flannel suit with the coat off and his silver-grey shirt sleeves, is the one standing at frame right by the open cupboards with one more folded shirt of dull yellow held in his two hands, his face turned to her gone still and grave, his mouth closed and his brows drawn a little together; the open cupboards behind him are stacked with more folded shirts; there are exactly two people in the room and the heap of shirts is the thing between them",
+   "motion": "the young woman's shoulders and the shirt in the man's hands are the two things that move, and the room holds still: at the start her face is buried in the shirts with her shoulders shaking and the folded dull yellow shirt is held in his two hands; over the first three seconds her shoulders shake slowly and her hands grip the soft folds tighter, drawing them up round her face, while his hands lower the folded shirt slowly onto the edge of the heap and rest there; in the last two seconds her shoulders hold still and his hands hold on the shirt; neither person's feet shift; the piles of shirts on the bed keep their soft folds; the open cupboards with their stacked shirts and the high windows hold completely still; the hazy light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "tom",
+    "gatsby",
+    "daisy",
+    "hotel_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "무더운 날 호텔 방에서 남편 톰이 개츠비의 옛일을 들춘다",
+   "visual": "the hot white afternoon light through the tall open windows of the large stifling hotel parlour: the big powerful man of thirty with the cropped straw-coloured hair and the hard mouth, in the dark blue blazer over the white flannels, is the one standing at frame left with one thick forefinger pointed straight at the man across the room and his other fist on his hip, his hard face flushed with heat and his mouth open; the handsome man of thirty-two with the smooth fair hair, in the white flannel suit, is the one standing at frame right by the marble-topped table with both his hands held a little out from his sides, palms open, his tanned face set and his eyes on the pointing man; the young woman of twenty-three with the bobbed dark blonde hair, in the white chiffon dress, is the one sitting at frame centre in a wicker chair between them with her face turned down to her hands twisting in her lap; the electric fan turns on the table; the tall windows stand open on the white glare; there are exactly three people in the room and the big man is the one pointing",
+   "motion": "the pointing finger and the young woman's hands are the two things that move, and the man by the table holds still: at the start the thick forefinger points straight at the man across the room and the young woman's hands twist in her lap; over the first three seconds the pointing finger jabs slowly forward once and holds, the big man's flushed face thrust after it and his mouth working, while the young woman's hands twist tighter and her head bows lower; in the last two seconds the finger holds pointing and her hands hold clasped; the man by the marble-topped table keeps his hands held out with the palms open and his set face turned to the pointing man, nothing in him moving; the electric fan on the table keeps turning; the wicker chairs and the tall open windows with the white glare hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "gatsby",
+    "buchanan_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그날 밤 개츠비가 데이지의 집 밖에서 불 켜진 창을 지킨다",
+   "visual": "dark blue summer night on the drive before the big brick house: the one lit window on the second floor is the one thing bright in the dark front of the house at the top of the frame, its dull yellow light steady behind a drawn curtain that hangs flat and still; the handsome man of thirty-two with the smooth fair hair, in the white flannel suit pale against the dark shrubs, is the one standing at frame centre on the dark lawn below the window with his face lifted to the lit window and both his hands hanging at his sides, his figure alone and still; the dark shrubs stand round him; the drive runs pale from the bottom of the frame to the house's dark door; the stars stand thick in the dark blue sky; there is exactly one person outside the house and the lit window above him is empty",
+   "motion": "the lit window is the one thing that moves, and the man below holds still: at the start the window's dull yellow light lies steady behind the drawn curtain; over the whole five seconds the light behind the curtain dims very slowly, as a lamp inside is turned down, and holds dim without going out, no figure passing behind the curtain; the man on the lawn keeps his face lifted to the window and his hands at his sides, nothing in him moving; the dark shrubs, the pale drive and the house's dark door hold completely still; the stars stay as they are; the dark door of the house stays closed and no light comes on in any other window; the pale drive stays empty from the bottom of the frame to the door and nothing moves on it; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "gatsby",
+    "pool",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이튿날 아침 개츠비가 여름 내내 쓰지 않은 수영장으로 내려간다",
+   "visual": "clear early morning light on the long marble swimming pool with a few dead leaves drifting on its still water: the handsome man of thirty-two with the smooth fair hair, in a white bathrobe over white bathing clothes, is the one walking away from the camera along the marble edge of the pool at frame centre, seen from behind with his face hidden, a rubber mattress carried under one arm, his bare feet on the pale marble; the still water of the pool lies at frame right with the dead leaves on it, the first leaves of the turning season; the lawn and the trees stand beyond the pool's far end under the clear sky with the first dull yellow in their leaves; the marble edge runs pale from the bottom of the frame ahead of him; there is exactly one person at the pool and his back is to the camera",
+   "motion": "the man walking away and the leaves on the water are the two things that move, and the pool holds still: at the start his back is at frame centre on the marble edge with the mattress under his arm; over the whole five seconds he walks slowly on along the pool's edge away from the camera with quiet steps, his white figure growing a little smaller toward the far end and his face never turning back, while the few dead leaves on the still water drift very slowly a hand's width and turn; the still water keeps its flat morning shine; the lawn and the trees beyond the pool's far end hold completely still; the clear light stays even; the rubber mattress under his arm keeps its place and the white bathrobe swings only at its hem with his steps; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "lawn_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "여름이 끝날 무렵, 그 초록 불빛은 그에게 무엇을 약속한 걸까",
+   "visual": "dark blue late-summer night over the great lawn running down to the dark water of the bay, : the single small green light at the end of the dock on the far shore is the one thing bright across the flat black water at the top of the frame, small and steady, the low black line of the far shore running either side of it; the pale grey lawn runs empty from the bottom of the frame to the water's edge, and at the edge, where a man stood, the grass is pressed flat in two small marks; a few dead leaves lie on the lawn; the stars stand thick in the dark blue sky; the water is flat and black; the green light is the one point of colour in the picture; the lawn, the dock and the shore hold no figure at all, only grass, boards, water and the single green light, the dock's planks bare from end to end",
+   "motion": "the green light across the bay is the one thing that moves, and the lawn holds still: at the start the small green light shows steady at the end of the far dock; over the whole five seconds the green light dims very slowly almost to nothing as the haze over the water thickens, and brightens slowly again, once; the empty pale grey lawn with its two pressed marks at the water's edge and its few dead leaves holds completely still; the flat black water and the low black line of the far shore do not change; the stars stay in their places; no figure appears on the lawn; the two pressed marks in the grass keep their exact shapes and no foot comes to fill them; the few dead leaves on the lawn do not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "mansion",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "불 꺼진 저택의 빈 정원에 등불만 남는다",
+   "visual": "dark blue summer night in the gardens of the huge white mansion, : the coloured paper lanterns strung through the trees in dull yellow, dull green and off-white are the ones still lit, swaying a little on their strings over an empty lawn; the long buffet tables stand bare at frame right with their white cloths and a few empty glasses; the band's platform at frame left stands empty with one chair on it; the white mansion rises behind with every window dark and its tower black against the starred sky, the marble steps empty; a single white paper cup lies on the lawn; the lit lanterns and the dark windows are the two things that tell the night is over; the gardens hold only the lanterns, the empty chairs, the bare tables and the litter on the grass, the lawn empty from the tables to the water's edge with not a single guest, dancer or servant anywhere, the mansion's windows all dark; the coloured paper lanterns hang from strings between the trees over the lawn, the long white-clothed tables stand bare with a few empty glasses, the band's platform holds one empty chair, and the whole lawn between the tables and the water is bare grass under the lanterns",
+   "motion": "the paper lanterns are the one thing that moves, and the mansion holds still: at the start the coloured lanterns hang lit on their strings over the empty lawn; over the whole five seconds the lanterns sway slowly together on their strings in a light wind and one lantern of dull yellow at frame centre dims slowly and goes dark while the others stay lit; the bare buffet tables with their empty glasses and the empty band platform with its one chair keep their places; the white paper cup on the lawn does not stir; the dark windows of the mansion, its black tower and the empty marble steps hold completely still; the stars stay in their places; no figure appears in the gardens; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "누명과 수영장에서 맞는 최후, 텅 빈 장례식",
- "voice": "ko-KR-HyunsuMultilingualNeural"
+ ]
 }

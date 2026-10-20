@@ -1,62 +1,208 @@
 {
-  "logline": "빈손으로 돌아오던 가난한 구두장이가 길가에서 벌거벗은 사람을 보고, 외투를 벗어 덮어 준다.",
-  "destination": "구두장이의 집 문턱 — 낯선 이가 세 번째로 웃게 되는 자리",
-  "protagonist": "외투 한 벌을 나눠 입는 가난한 시골 구두장이",
-  "setting": "19세기 러시아의 눈 덮인 시골 마을과 낮은 흙집 작업방",
-  "anchor": "a stooped bearded cobbler in a patched sheepskin coat and felt boots",
-  "palette": "snow blue-white, ember orange from a small stove, weathered timber brown",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "구두장이가 빈손으로 눈길을 걸어 돌아온다.",
-      "visual": "a stooped cobbler walking an empty snow road at dusk, low cottages far behind him",
-      "motion": "snow crunches under his boots, breath clouds, wind lifts loose snow",
-      "anchor": false
-    },
-    {
-      "n": 2,
-      "beat": "교회 담 뒤에서 벌거벗은 남자를 발견한다.",
-      "visual": "a bare-shouldered figure huddled against a stone chapel wall in snow, cobbler halted before him",
-      "motion": "the huddled figure shivers, the cobbler stops mid-step, snow drifts past"
-    },
-    {
-      "n": 3,
-      "beat": "그는 제 외투를 벗어 그에게 덮어 준다.",
-      "visual": "a cobbler draping a heavy sheepskin coat over a seated stranger's shoulders in deep snow",
-      "motion": "the coat settles over the shoulders, snow slides off it, both breaths steam"
-    },
-    {
-      "n": 4,
-      "beat": "문 앞에서 아내가 언성을 높인다.",
-      "visual": "a woman standing in a lit cottage doorway with arms folded, two men waiting in the snow outside",
-      "motion": "lamplight spills past her, her arm gestures sharply, snow blows across the sill"
-    },
-    {
-      "n": 5,
-      "beat": "낯선 남자가 처음으로 살며시 웃는다.",
-      "visual": "a quiet stranger seated by a small iron stove, faint smile forming, firelight on his face",
-      "motion": "firelight jumps across his face, his mouth curves, steam rises from a cup"
-    },
-    {
-      "n": 6,
-      "beat": "그는 하루 만에 구두 짓는 법을 익힌다.",
-      "visual": "a stranger stitching a boot at a low workbench with practiced hands, cobbler watching astonished",
-      "motion": "the awl pushes through leather, thread pulls tight, the cobbler leans closer"
-    },
-    {
-      "n": 7,
-      "beat": "그가 세 번째로 웃을 때 무엇을 알게 될까?",
-      "visual": "a stranger looking up from a workbench toward a woman holding two small children in a doorway",
-      "motion": "his head lifts, the children shift in her arms, lamplight steadies"
-    },
-    {
-      "n": 8,
-      "beat": "눈 덮인 마을에 창불 하나가 켜져 있다.",
-      "visual": "one lit cottage window in a snowbound village at night, snow deep on the low roofs",
-      "motion": "snow falls steadily, the window glow warms, smoke rises from the chimney",
-      "anchor": false
-    }
-  ],
-  "withheld": "낯선 이의 정체와 그가 배워야 했던 세 가지 진리",
-  "voice": "ko-KR-SoonBokNeural"
+ "logline": "빈손으로 돌아오던 가난한 구두장이가 교회 담 뒤 벌거벗은 사람에게 외투를 덮어 주고, 그 낯선 이가 세 번 웃는 동안 사람이 무엇으로 사는지를 본다",
+ "destination": "소설 사람은 무엇으로 사는가에서 만날 수 있습니다",
+ "protagonist": "semyon",
+ "setting": "1880년대 러시아의 눈 덮인 시골 마을과 통나무집의 구두 작업대",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/tolstoy/assets",
+ "anchor": "a stooped bearded Russian cobbler in a patched sheepskin coat and felt boots",
+ "palette": "off-white, ash grey, dark brown, dull orange, dark blue",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "semyon",
+    "village_road",
+    "winter_dusk_bg"
+   ],
+   "refs": [],
+   "beat": "빈손으로 눈길을 돌아오는 세묜",
+   "visual": "the snowy country road at dusk: the stooped cobbler trudges toward the camera along the trodden track at the center of the frame, his patched brown sheepskin coat pulled tight, his hands drawn up inside the sleeves against his chest, the shapeless dark fur cap low over his brows, grey felt boots sinking a little into the snow at each step; the low snowbanks on either side, the bare white birch trunks along the right edge of the road and the far grey log houses under a fading grey-blue sky with a band of dull orange at the horizon; his breath hangs pale in the cold and his face is tired and set",
+   "motion": "the cobbler plods steadily forward along the track toward the camera, each felt boot lifting and sinking into the snow in a slow even rhythm while his shoulders sway with the walk and his breath drifts and fades in the cold; the birches, the snowbanks and the far houses hold still; camera fixed"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "mikhail",
+    "church_wall",
+    "village_road",
+    "winter_dusk_bg"
+   ],
+   "refs": [],
+   "beat": "교회 담 뒤에 웅크린 벌거벗은 사람",
+   "visual": "the low whitewashed stone wall of the village church runs across the frame with the dark rounded wooden dome above it, snow drifted against its foot; the naked young man is the one sitting hunched against the wall at the center, seen from his left side, his knees drawn tight to his chest and his long arms wrapped around them, his fair hair fallen over his bowed face, his bare shoulders and back pale against the white stone; the trodden road passes in the foreground and the birch trunks stand at the left edge; the dusk sky is grey-blue with the last dull orange at the horizon; the cobbler is not in this frame",
+   "motion": "the young man's bowed head lifts very slowly from his knees and turns toward the road, his pale face coming into the dusk light while his arms stay wrapped around his knees and his body stays hunched against the wall; the wall, the dome and the birches hold still; camera drifting slowly forward"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "semyon",
+    "mikhail",
+    "church_wall",
+    "village_road",
+    "winter_dusk_bg"
+   ],
+   "refs": [],
+   "beat": "외투를 벗어 덮어 주는 세묜",
+   "visual": "before the whitewashed church wall: the stooped cobbler is the one kneeling on one knee in the snow at frame left in his rough linen shirt and leather apron with his sheepskin coat held open wide in both hands, and the naked young man is the one sitting against the wall at frame right with his knees drawn up, his pale shoulders bare as the coat comes down over them from behind, his fair head turned up toward the cobbler; the cobbler's fur cap has slipped back and his beard is close to the young man's face; snow drifted at the wall foot, the dark dome above, the dusk sky deepening to blue",
+   "motion": "the cobbler lowers the open sheepskin coat slowly over the young man's shoulders and draws its two sides together across his chest in one continuous gentle movement, his own shoulders bending closer as he does; the young man stays still with his face turned up; the wall, the dome and the snow hold; camera fixed"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "matryona",
+    "semyon",
+    "mikhail",
+    "izba_yard",
+    "winter_dusk_bg"
+   ],
+   "refs": [],
+   "beat": "낯선 청년을 데려온 남편과 성난 아내",
+   "visual": "the door of the low log house stands open and the sturdy peasant wife in her white headscarf and grey apron is the one standing in the doorway at frame right with both fists planted on her hips and her chin thrust forward; the stooped cobbler is the one standing on the trodden snow before the step at the center in only his linen shirt and leather apron, his hands spread open at his sides; the young man is the one standing a pace behind him at frame left wrapped in the brown sheepskin coat with his bare feet in the cobbler's grey felt boots, his fair head bowed; snow lies on the plank roof and the wattle fence and the dusk sky is dark blue above",
+   "motion": "the wife's chin thrusts a little further forward and her right fist leaves her hip to jab once toward the young man and stays pointing, her whole body leaning into the doorway; the cobbler and the young man stand without moving; the house, the fence and the snow hold still; camera fixed"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "matryona",
+    "semyon",
+    "mikhail",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "빈손으로 사람까지 데려왔냐고 소리치는 아내",
+   "visual": "inside the low log room: the sturdy wife is the one standing at the plank table at frame right, her right arm flung straight out toward the door with the finger pointing and her mouth wide open, the white headscarf knotted tight under her chin; the cobbler is the one standing just inside the plank door at frame left with his fur cap in both hands against his chest, head lowered; the young man is the one standing behind him in the doorway in the sheepskin coat and felt boots with his face calm and pale; the huge whitewashed stove fills the back corner and the cobbler's bench sits under the small deep-set window; the room is lit by grey window light",
+   "motion": "the wife's outflung arm stays rigid while her open mouth closes and opens again in one more long shout, her shoulders rising with the breath; the cobbler and the young man hold their places without moving; the stove, the table and the bench hold still; camera fixed"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "mikhail",
+    "matryona",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "저녁상을 받고 처음 웃는 청년",
+   "visual": "at the plank table in the log room: the young man is the one seated on the bench at frame left in the brown sheepskin coat, his long pale hands resting on the table edge, his fair head lifted and a faint smile just beginning on his calm face; the sturdy wife is the one standing at frame right setting down a wooden bowl and a round dark loaf on the table before him, her face softened, the white headscarf and grey apron catching the last grey light from the small window; the huge whitewashed stove stands behind them and dried herbs hang from the dark beams",
+   "motion": "the wife's hands set the wooden bowl down and slide it slowly across the table toward the young man, and as it reaches him his faint smile widens by a degree and his eyes lift to her face; the stove, the beams and the loaf hold still; camera fixed"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "mikhail",
+    "semyon",
+    "boots",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "하루 만에 구두 짓기를 익힌 미하일",
+   "visual": "the cobbler's low bench under the small deep-set window: the young man is the one seated on the bench at the center in a rough linen shirt and a leather apron, his fair head bent over a black leather boot held between his knees, his long fingers drawing a waxed thread tight through the sole with an awl in his other hand; the stooped cobbler is the one standing close behind his right shoulder with his hands on his hips and his bearded face bent to watch; wooden lasts, scraps of leather and a second finished tall black boot stand on the bench; pale winter daylight from the window falls on the young man's hands",
+   "motion": "the young man's hand draws the waxed thread slowly up and out from the sole in one long steady pull until his arm is fully extended, the awl in his other hand holding the leather steady; the cobbler behind him stays bent and still; the bench, the lasts and the window hold; camera fixed"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "villagers",
+    "semyon",
+    "boots",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "솜씨 소문에 몰려온 마을 사람들",
+   "visual": "the low plank door of the log room stands open and three bearded peasant men in brown sheepskin coats and fur caps are the ones crowded in the doorway at frame right, snow on their shoulders, each holding out a pair of worn black leather boots; the stooped cobbler is the one at frame left by his bench in his linen shirt and leather apron, taking the nearest pair in both hands with a small pleased nod; a row of newly stitched tall black boots stands along the wall beneath the small window; the huge whitewashed stove fills the back corner and grey daylight comes through the door",
+   "motion": "the cobbler takes the pair of boots slowly from the nearest man's hands and turns them in the light from the door in one unhurried movement, his head tilting to look at the soles; the three men in the doorway stay where they stand; the stove, the bench and the row of boots hold still; camera fixed"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "gentleman",
+    "semyon",
+    "mikhail",
+    "boots",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "튼튼한 장화를 주문하는 부자 신사",
+   "visual": "the log room: the huge fat gentleman is the one seated on the bench at the center in his heavy black overcoat with the wide dark fur collar and tall fur hat, one enormous foot thrust out onto the stooped cobbler's knee; the cobbler is the one kneeling at frame left in his leather apron measuring the foot with a strip of paper between his hands; the young man is the one standing behind the gentleman's shoulder at frame right in his linen shirt and leather apron, his pale face perfectly still and his grey eyes fixed on a point above and behind the gentleman's head; a roll of thick black leather lies on the plank table; grey daylight from the small window",
+   "motion": "the cobbler's hands draw the paper strip slowly along the length of the gentleman's foot from heel to toe and hold it there, his bearded head bending to look; the gentleman sits heavy and unmoving and the young man behind him does not blink or shift; the table, the leather and the window hold still; camera fixed"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "mikhail",
+    "slippers",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "장화 대신 슬리퍼를 짓는 미하일",
+   "visual": "a close view over the cobbler's bench: the young man's long pale hands fill the lower half of the frame, the left hand pressing a piece of thick black leather flat on the bench and the right hand guiding a curved cobbler's knife along it, cutting out the low rounded shape of a slipper sole; beside his hands a finished flat slipper of pale leather without a heel lies on the wood next to wooden lasts and an awl; above the hands his fair head is bent and his calm face is lit from the small deep-set window at the left; the dark log wall behind",
+   "motion": "the knife travels slowly along the curve of the leather in one continuous cut, the young man's right hand guiding it and the cut edge lifting a little as the blade passes, while his left hand keeps the leather pressed flat; the finished slipper, the lasts and the window hold still; camera fixed"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "servant",
+    "semyon",
+    "slippers",
+    "izba_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "신사가 죽었다는 밤의 전갈",
+   "visual": "the plank door of the log room stands open on the dark blue night and the lanky servant boy in the oversized dark coat and flat fur cap is the one standing on the threshold at frame right with snow on his shoulders, his thin face grave, one hand still on the door edge; the stooped cobbler is the one standing inside at frame left in his linen shirt and leather apron holding the pair of pale low slippers out toward the boy in both hands; the huge whitewashed stove glows faintly dull orange at its open mouth in the back corner and the small window is black; cold air is visible as pale breath at the doorway",
+   "motion": "the cobbler's hands carry the pair of slippers slowly out toward the boy at the door until his arms are fully extended and the boy's hand leaves the door edge to receive them; the stove, the table and the dark window hold still; camera fixed"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "mikhail",
+    "semyon",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "두 번째로 웃는 미하일",
+   "visual": "the log room by the cobbler's bench: the young man is the one seated at the center facing the camera in his linen shirt and leather apron, his hands resting quietly on his knees, his fair head slightly raised and a calm faint smile on his pale face with his grey eyes looking past the camera; the stooped cobbler is the one standing at frame right beside the huge whitewashed stove with his fur cap pushed back and his bearded face turned toward the young man in puzzlement, one hand scratching in his beard; pale morning light from the small window at the left lies across the young man's face and hands",
+   "motion": "the cobbler's hand slowly stops scratching in his beard and comes to rest at his chest while his head tilts a degree further toward the young man; the young man's faint smile stays exactly as it is and he does not move; the bench, the stove and the window hold still; camera fixed"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "twins_mother",
+    "twin_girls",
+    "semyon",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "육 년 뒤 쌍둥이 딸을 데리고 온 여인",
+   "visual": "the plank door of the log room stands open on bright winter daylight and the plump peasant woman in the dark red-brown coat and grey shawl is the one standing on the threshold at the center; the two little girls in dark blue dresses and white headscarves stand one on each side of her, the girl on her left hand leaning on a small wooden crutch with her left leg turned inward and the girl on her right hand holding the mother's hand, both looking into the room with round shy faces; the stooped cobbler is the one at frame left rising from his bench with an awl still in his hand; snow light fills the doorway and the room is dim around it",
+   "motion": "the woman steps slowly over the threshold into the room and the two girls step with her, the girl with the crutch swinging it forward and setting it down on the plank floor in one careful movement; the cobbler stays half risen from his bench; the door, the stove and the bench hold still; camera fixed"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "mikhail",
+    "twin_girls",
+    "matryona",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "세 번째로 웃는 미하일",
+   "visual": "the log room: the young man is the one standing at the center facing the two little girls, his long hands folded before him, his fair head bent toward them and his pale face lit by a wide gentle smile with his grey eyes bright; the two girls in dark blue dresses stand side by side at frame left looking up at him, the one with the crutch nearest the camera; at the far right beside the whitewashed stove the sturdy wife in her white headscarf and grey apron is the one standing alone with her hands clasped at her waist and her smooth round chin lifted, watching the young man's face; bright winter daylight from the open door falls on the young man from the left",
+   "motion": "the young man slowly sinks to one knee before the two girls so that his smiling face comes level with theirs, his folded hands opening as he lowers himself; the girls stay motionless and the wife at the stove stays standing with her hands clasped, watching him; the stove, the door and the bench hold still; camera fixed"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "boots",
+    "izba_room"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 작업대의 작은 장화",
+   "visual": "the cobbler's low wooden bench under the small deep-set window, empty of every person: a small pair of black leather boots, child-sized and newly stitched, stands side by side at the center of the bench beside the wooden lasts, an awl and a coil of waxed thread; a scrap of pale leather lies at the edge; morning light from the window falls straight down onto the little boots and the dark log wall behind is in shadow; the huge whitewashed stove shows at the right edge of the frame",
+   "motion": "the morning light from the window slowly strengthens on the bench so that the polished toes of the small boots take on a soft sheen and the shadow of the lasts shortens a little across the wood; the boots, the tools and the wall hold perfectly still; camera drifting very slowly forward"
+  }
+ ],
+ "withheld": "미하일이 날개 잃은 천사라는 것, 세 가지 진리, 날개를 되찾아 떠나는 결말"
 }

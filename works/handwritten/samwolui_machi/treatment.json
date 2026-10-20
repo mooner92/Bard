@@ -1,0 +1,177 @@
+{
+ "logline": "예순 살 배우가 60층 계단을 오르자 43층에 마흔세 살의 자신이 살고 있었다 — 층마다 과거의 내가 사는 아파트",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "machi",
+ "setting": "현대 서울 — 재건축된 고급 아파트의 60층 집과 끝없는 비상계단, 옥상, 노란 진료실",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/samwolui_machi/assets",
+ "anchor": "a glamorous Korean former film star who looks barely fifty, with a sleek glossy black bob, in a floor-length dark brown mink coat",
+ "palette": "pale gold, soft grey, off-white, muted teal, deep brown",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "아들이 사라진 진실과 과거의 비극, 가상현실에 들어온 때, 유령과 소녀의 정체",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "machi_home",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "예순 번째 생일 아침, 체중계가 깜빡인 숫자",
+   "visual": "early morning in a large penthouse bathroom beside the bedroom, cool white light through a tall frosted window: the glamorous Korean former film star who looks barely fifty in her loose ivory silk robe stands barefoot on a slim glass bathroom scale at frame centre, seen from the side, looking down at it, her sleek silver-streaked black bob falling forward, her proud striking face frozen in disbelief, one hand gripping the edge of a marble counter; the small display on the scale glows a faint blue, tilted away so its figures cannot be read; the marble floor is pale and polished; a folded white towel and a row of glass bottles stand on the counter; a plain pale tiled wall rises above the counter; the light is clean and unforgiving, the first strange moment of a strange day; a small potted orchid stands on the counter, and a silk slipper lies kicked off on the marble",
+   "motion": "the woman leans slowly forward over the scale, staring at its display, and that leaning is the one movement in the shot: at the start she stands upright on the glass scale looking down; over the whole five seconds she bends slowly forward from the waist, her grip tightening on the marble counter, her silver-streaked bob swinging forward around her face, her disbelieving eyes fixed on the faint blue display, which flickers once and goes dark beneath her feet; her bare feet stay planted on the scale; the folded towel, the row of glass bottles, the tiled wall and the frosted window stay completely still; the cool white morning light holds steady; the potted orchid and the kicked-off slipper stay still; the camera holds a medium shot from the side at her waist height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "machi",
+    "living"
+   ],
+   "refs": [],
+   "beat": "평생 몸무게를 지켜 온 성공한 배우 — 국민 엄마 이마치",
+   "visual": "the vast luxury penthouse living room on the sixtieth floor at dusk: the glamorous Korean former film star who looks barely fifty stands alone at frame centre on the polished white marble floor, facing the camera, in her floor-length dark brown mink coat over a black silk dress, her sleek silver-streaked black bob perfect, her proud striking face composed in the practised, gracious half smile of a famous actress, chin raised; the room around her is almost empty, a single low pale sofa far off to one side, and behind her the floor-to-ceiling windows show the whole city glittering far below under a violet sky; a tall vase of white lilies stands on the marble; her reflection lies faint and long on the polished floor; the light is golden and cold at once, glamour and emptiness in one frame; a tall white orchid in a plain pot stands against the wall, and a pair of slippers waits by the sofa",
+   "motion": "the woman's gracious smile slowly fades, and that fading smile is the one movement in the shot: at the start she faces the camera with her chin raised and her practised half smile; over the whole five seconds she keeps facing the camera the entire time while her eyes drift slightly aside toward the windows and the corners of her smile soften and fall, her face growing quietly tired; her whole body, her shoulders and the long coat stay facing the camera without turning, her feet planted on the marble; the single low sofa, the vase of white lilies, her faint reflection on the floor and the city lights beyond the glass stay completely still; the violet dusk holds unchanged; the orchid by the wall and the waiting slippers stay still; the camera holds a medium shot at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "living"
+   ],
+   "refs": [],
+   "beat": "혼자 사는 60층 집에서 들려오는 낯선 목소리",
+   "visual": "night in the vast penthouse living room on the sixtieth floor, empty of people: the polished white marble floor stretches away under the faint blue glow of the city through the floor-to-ceiling windows; at the far end of the room a tall white door to a hallway stands a hand's width ajar, a thin blade of warm light showing in the gap; the single low pale sofa sits alone in the middle of the floor; a tall vase of white lilies stands dark beside it; the long reflections of the windows lie across the marble; the room is silent, cold and far too large; a folded cream cashmere throw lies on the sofa arm, and a faint smear of city light trembles in the window glass",
+   "motion": "the tall white door at the far end of the room swings slowly a little wider on its own, and that opening door is the one movement in the shot: at the start the door stands a hand's width ajar with a thin blade of warm light in the gap; over the whole five seconds it drifts slowly open a little further, the blade of warm light widening across the marble floor toward the camera, and then it stops, holding still with its gap wider than before; the low sofa, the vase of lilies, the reflections of the windows on the marble and the faint blue city glow stay completely still; the folded cream throw on the sofa arm stays still and the trembling smear of city light in the window glass holds its place; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the room from the opposite corner, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "machi_home",
+    "ghost",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "밤이면 침대맡에 선 젖은 옷의 유령",
+   "visual": "deep night in the large dim penthouse bedroom: the glamorous Korean former film star who looks barely fifty in her loose ivory silk robe lies half raised in the wide low bed at frame left, propped on one elbow, the pale linen pulled to her chest, her proud striking face rigid with terror, eyes wide, staring toward the foot of the bed; at the foot of the bed at frame right stands the tall thin shadowy figure in long dripping wet dark clothes that trail across the marble floor, its long narrow face hidden in darkness, water pooling beneath it; the sheer curtains at the tall window behind glow faintly grey with the city light and stir in a draught; the room is otherwise dark; a glass of water on the bedside table catches a dull gleam; the scene is cold, silent and horrifying; a pair of silk slippers lies neatly beside the bed, one of them touched by the edge of the dark water",
+   "motion": "water drips slowly from the trailing wet clothes of the shadowy figure and the dark pool beneath it spreads across the marble, and that spreading pool is the one movement in the shot: at the start a small dark pool lies under the figure at the foot of the bed; over the whole five seconds water trickles steadily from the hem of its trailing clothes and the pool widens slowly across the polished marble toward the bed, while the figure itself stands perfectly still with its face hidden in darkness and the woman stays frozen, propped on her elbow with her wide eyes fixed on it, her chest rising and sinking fast; the sheer curtains stir faintly; the bed, the glass of water and the window stay completely still; the silk slippers beside the bed stay still as the dark water reaches them; the camera holds a medium wide shot of the bedroom, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "boys_room"
+   ],
+   "refs": [],
+   "beat": "그래도 떠날 수 없는 집 — 실종된 아들을 기다리는 방",
+   "visual": "a small preserved boy's bedroom inside the penthouse, empty of people, in soft afternoon light: a narrow bed with a faded blue cover is made up neatly, a small pillow squared at its head; on a low shelf stand tall stacks of colourful plastic toy bricks built long ago and never taken apart, beside a worn baseball and a child's leather glove; a small wooden desk holds a pencil case and a closed exercise book with a plain cover; a pair of small sneakers sits side by side under the bed; a thin curtain at the window lets in a pale gold light that lies across the floor; dust hangs in the light; everything is clean and kept exactly as it was decades ago, a room waiting for a child who never came home; a small framed drawing of a house in crayon hangs crooked above the desk, its colours faded",
+   "motion": "the thin curtain at the window stirs gently in a draught and the pale gold light on the floor sways with it, and that stirring is the one movement in the shot: at the start the curtain hangs still with the light lying across the floor; over the whole five seconds the curtain swells slowly inward and sinks back, the pale gold light on the floorboards and across the faded blue bed cover swaying and settling, the dust in the air drifting slowly through it; the made bed, the squared pillow, the built toy bricks, the baseball and glove, the desk and the small sneakers under the bed stay completely still; the faded crayon drawing above the desk stays crooked and still in the swaying light; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot of the room from the doorway, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "machi"
+   ],
+   "refs": [],
+   "beat": "노화라는 진단에 진료실로 쳐들어간 이마치",
+   "visual": "a plain old-fashioned doctor's consulting room: the glamorous Korean former film star who looks barely fifty in her floor-length dark brown mink coat over a black silk dress stands at frame centre just inside a door she has flung open, facing the camera, one gloved hand still on the door handle, her proud striking face flushed with fury, chin up, eyes blazing, her sleek silver-streaked bob swinging from her entrance, her mouth open mid-word; behind her the bright open doorway shows only a plain pale corridor wall and a strip of grey floor; in the foreground at frame right the edge of an old wooden desk holds a small bottle of pills, a stethoscope and a closed file; a plain wall with a small window lets in flat daylight; the room is ordinary, and she fills it entirely; a coat stand in the corner holds a single white doctor's coat, and a small clock with plain tick marks hangs on the wall",
+   "motion": "the woman speaks sharply with her chin raised, and her speaking is the one movement in the shot: at the start she stands just inside the flung-open door with her hand on the handle; over the whole five seconds her lips move on a sharp protest, her chin lifting higher, her blazing eyes fixed on someone behind the desk just past the camera, her free hand rising to point, the fur collar of her mink coat trembling with her breath; her other hand stays on the door handle; the bright corridor wall in the doorway behind her stays plain and still; the pill bottle, the stethoscope, the closed file and the plain wall stay completely still; the flat daylight holds steady; the white coat on the coat stand and the small wall clock stay still; the camera holds a medium shot from behind the desk at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "machi",
+    "clinic"
+   ],
+   "refs": [],
+   "beat": "노란 진료실에서 권유받은 기억으로 만든 가상현실 치료",
+   "visual": "a bright designer clinic room painted a warm yellow: the glamorous Korean former film star who looks barely fifty in her floor-length dark brown mink coat sits upright on a curved white chair at frame left in three-quarter view, gloved hands folded on her knee, her proud striking face wary and intrigued, looking down at a low round white table at frame centre where a sleek white virtual reality headset lies waiting, its visor dark and glossy; a round window behind her shows a pale sky; the curved white furniture and the smooth yellow walls give the room the air of a design gallery; a small potted fern sits on a side table; a second curved chair across the table stands empty; soft even light fills the room, calm, clean and faintly unreal; a tall glass of water stands untouched by the headset, and a folded yellow blanket lies over the arm of the empty chair",
+   "motion": "the woman reaches slowly toward the white headset on the table, and that reaching is the one movement in the shot: at the start her gloved hands rest folded on her knee; over the whole five seconds she unfolds one hand and reaches out slowly across the table, her fingertips stopping just short of the glossy dark visor of the headset, hovering there, her wary eyes fixed on it and her proud face unchanged; her body stays upright on the curved white chair; the headset itself, the round white table, the empty chair opposite, the potted fern and the round window stay completely still; the soft even light holds steady; the untouched glass of water and the folded yellow blanket stay still beside the empty chair; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the table, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "machi",
+    "stairwell"
+   ],
+   "refs": [],
+   "beat": "엘리베이터가 모두 멈춘 날, 계단을 오르는 이마치",
+   "visual": "inside the tall concrete emergency stairwell of the luxury high-rise: the glamorous Korean former film star who looks barely fifty in her floor-length dark brown mink coat climbs the grey concrete steps toward the camera at frame centre, one gloved hand on the metal handrail, her proud striking face flushed and set, eyes lowered to her own feet on the next step, a strand of her sleek silver-streaked bob fallen across her brow; the steps turn up and up behind her around the narrow central gap; a small green exit light glows on the landing wall; her high heels dangle from her other hand, and she climbs in stockinged feet; the concrete walls are bare and grey; the light is flat fluorescent white; the stairwell feels endless, a long climb with no top in sight; a small fire extinguisher hangs on the landing wall behind her, and her handbag hangs heavy from her elbow",
+   "motion": "the woman climbs one step and then the next toward the camera, and her climbing is the one movement in the shot: at the start she stands with one foot on the step below; over the whole five seconds she climbs steadily up two steps, the long mink coat swaying around her ankles, her gloved hand sliding up the metal handrail, the dangling high heels swinging from her other hand, her eyes staying lowered to her own feet the whole time; the grey steps behind her, the narrow central gap, the green exit light and the concrete walls stay completely still; the flat fluorescent light holds steady; the fire extinguisher on the landing wall stays still and her handbag sways a little at her elbow with each step; the camera holds a medium shot from a few steps above her, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "stairwell"
+   ],
+   "refs": [],
+   "beat": "60층을 향해 발끝만 보며 오르는 끝없는 계단",
+   "visual": "looking straight up the central gap of the tall concrete emergency stairwell, empty of people: the grey concrete steps and metal handrails spiral upward floor after floor, square turn after square turn, narrowing into the distance toward a tiny pale square of light at the very top, so far above that it seems unreachable; small green exit lights glow on each landing, receding upward in a line of green dots; the fluorescent tubes on each landing make rings of white light that shrink toward the top; the concrete is grey and bare; the view is dizzying, geometric and endless, the sixtieth floor somewhere up in that pale point of light; a thin grey metal conduit pipe runs straight along the wall of each landing, and a single dropped glove lies on a far step",
+   "motion": "the fluorescent lights on the landings flicker faintly one after another up the stairwell, and that flickering is the one movement in the shot: at the start every landing light glows steadily; over the whole five seconds a faint flicker travels up the stairwell from the nearest landing to the farthest, each ring of white light dimming for an instant and steadying again in turn, the green exit lights staying steady; the spiralling concrete steps, the metal handrails and the tiny pale square of light at the very top stay completely still; the cable along the landing walls and the dropped glove on the far step stay still, small and grey in the rings of light; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds the straight upward view through the central gap, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "machi",
+    "schoolgirl",
+    "stairwell"
+   ],
+   "refs": [],
+   "beat": "30층쯤, 어깨를 치고 뛰어 내려가는 교복의 긴 머리 소녀",
+   "visual": "a landing about halfway up the concrete emergency stairwell: the glamorous Korean former film star who looks barely fifty in her floor-length dark brown mink coat stands pressed against the handrail at frame right, turned in three-quarter view, her proud striking face startled, looking down after someone, one hand on her shoulder where she was just bumped; at frame left, already a few steps below on the flight going down, the Korean schoolgirl of about sixteen with long straight black hair in a navy uniform blazer and pleated skirt runs away down the stairs, seen from behind, her long hair flying out behind her, the back of her head to camera; a small green exit light glows on the landing wall; the grey concrete and metal rails frame them; flat fluorescent light; the moment is quick and uncanny; a small fire extinguisher hangs on the landing wall, and the girl's school bag bounces on her back",
+   "motion": "the schoolgirl runs away down the stairs and the woman leans over the rail to watch her go, and the girl's running is the one movement in the shot: at the start the girl is a few steps below the landing; over the whole five seconds she runs steadily down the flight toward the turn, her long black hair streaming behind her and her pleated skirt swinging, the back of her head to camera the whole time, staying in view on the lower steps, while the woman leans slowly over the handrail with her startled eyes following her, her hand still on her shoulder; the concrete steps, the handrails and the green exit light stay completely still; the fire extinguisher on the landing wall stays still, and the school bag bounces on the girl's back as she runs; the camera holds a medium shot from the landing, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "machi",
+    "machi43",
+    "rooftop"
+   ],
+   "refs": [],
+   "beat": "옥상에서 만난 43층의 이웃 — 마흔세 살의 이마치 자신",
+   "visual": "dusk on the rooftop of the luxury high-rise, the whole city spread far below: at frame left stands the glamorous Korean former film star who looks barely fifty in her floor-length dark brown mink coat, in profile facing right, her sleek silver-streaked black bob stirring in the wind, her proud striking face stunned; at frame right, a few steps apart across the pale deck, stands the elegant Korean woman of forty-three in a fitted charcoal trench coat belted at the waist, in profile facing left toward her, her long wavy black hair lifting in the wind, her proud striking face calm and faintly amused, a cigarette between her fingers; the low glass parapet runs behind them; the sky is streaked violet and gold; the city lights are coming on below; the two women face each other across the empty deck; a potted olive tree stands in a large planter by the parapet, bending in the wind",
+   "motion": "the wind lifts the two women's hair and coats as they face each other, and that wind is the one movement in the shot: at the start they stand still in profile across the deck; over the whole five seconds a steady wind crosses the rooftop from right to left, lifting the long wavy black hair of the younger woman and the silver-streaked bob of the older one, tugging at the hem of the trench coat and the long mink coat, a thin thread of smoke streaming from the cigarette, while both women stand perfectly still facing each other, their faces unchanged; the glass parapet, the pale deck and the city far below stay completely still; the violet and gold sky holds unchanged; the potted olive tree by the parapet bends and settles in the same wind; the camera holds a medium wide shot across the rooftop, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "stairwell"
+   ],
+   "refs": [],
+   "beat": "층마다 그 나이의 이마치가 그 시절 집에 사는 아파트",
+   "visual": "a long high-rise corridor seen from one end, empty of people: a row of tall front doors lines the corridor on both sides, receding far into the distance, each door standing a little ajar, and through each gap spills a different light from a different time, a warm yellow bulb glow, the cold blue of an old television, a soft pink lamp, the grey light of a rainy afternoon, the flicker of a single candle; on the floor in front of each door lies a different small object left out, a child's shoe, a folded umbrella, a pair of high heels, a baseball; the corridor itself is plain and modern, pale walls and grey carpet, lit dimly; the receding row of mismatched lights makes the building feel full of other lives, each one a different year; a single ceiling light halfway down the corridor hums faintly, and a small rubber ball rests against one door frame",
+   "motion": "the lights spilling from the doors along the corridor flicker and change softly one after another, and that changing light is the one movement in the shot: at the start each door spills its own steady light; over the whole five seconds, one after another down the corridor, the lights waver and shift, the warm yellow glow pulsing, the cold television blue flickering, the candle light swaying, the rainy grey light dimming and brightening, while the doors themselves stay exactly ajar; the small objects in front of the doors, the pale walls and the grey carpet stay completely still; the humming ceiling light halfway down the corridor and the small rubber ball against the door frame stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds the long view down the corridor, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "machi_home",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "여러 나이의 자신이 찾아오는 꿈에서 온 이야기",
+   "visual": "night in the large dim penthouse bedroom: the glamorous Korean former film star who looks barely fifty in her loose ivory silk robe lies asleep on her side in the wide low bed at frame centre, facing the camera, her sleek silver-streaked black bob against the pale linen pillow, her proud striking face softened in sleep, one hand under her cheek; around the bed, on the walls and the ceiling, fall several soft overlapping shadows of women standing at different heights, the shadow of a small girl, a tall young woman, a woman with a pram, thrown softly across the pale plaster by the grey glow; the sheer curtains at the tall window glow faintly grey with the city light; a glass of water sits on the bedside table; the room is hushed and dreamlike; a book lies face down on the bedside table beside the glass, and a pair of reading glasses rests folded on it",
+   "motion": "the soft shadows on the bedroom walls drift and overlap slowly around the sleeping woman, and that drifting of shadows is the one movement in the shot: at the start the shadows stand still on the walls and ceiling; over the whole five seconds they move slowly across the walls, the small girl's shadow passing the tall young woman's and the woman with the pram gliding toward the window, overlapping and parting, while the woman sleeps perfectly still on her side, her hand under her cheek and her breathing slow; the bed, the pale linen, the glass of water and the faintly glowing curtains stay completely still; the face-down book and the folded reading glasses on the bedside table stay still in the grey glow; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot of the bed, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "machi",
+    "rooftop"
+   ],
+   "refs": [],
+   "beat": "과거를 모두 되찾는 것이 정말 행복한 결말일까",
+   "visual": "dawn on the rooftop of the luxury high-rise: the glamorous Korean former film star who looks barely fifty in her floor-length dark brown mink coat sits upright and composed on a low white stone bench in the middle of the wide rooftop deck at frame centre, the glass parapet far away in the background beyond a broad stretch of pale empty deck, seen in three-quarter view from behind, looking out over the vast city spread far below as the first pale light breaks at the horizon; her sleek silver-streaked black bob is lifted slightly by the wind; her gloved hands resting calmly in her lap; the city below is still grey and dotted with lights going out one by one; the sky is washed from deep blue at the top to pale gold at the horizon; far off, a thin line of water glints beyond the city's edge; the deck is empty around her; the light is soft, cool and new, the question hanging in the dawn air; a potted olive tree stands in a large planter at the corner of the deck, and a few gulls hang far out over the city",
+   "motion": "the first pale gold light spreads slowly across the city and up the woman's coat, and that spreading dawn light is the one movement in the shot: at the start the light touches only the far horizon; over the whole five seconds it widens slowly across the rooftops below and reaches the rooftop deck, climbing up the back of her long mink coat and catching the edge of her silver-streaked hair, while she sits still on the bench with the back of her head to camera and her gaze held out over the city the whole time, only her hair lifting faintly in the wind; the glass parapet, the empty deck and the city buildings stay completely still; the potted olive tree at the corner of the deck stays still and the far gulls hang in the air; the camera holds a medium shot from behind her shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "living"
+   ],
+   "refs": [],
+   "beat": "마무리 — 대리석 바닥 위 의자에 걸린 밍크코트",
+   "visual": "a quiet closing still in the vast penthouse living room in soft morning light, empty of people: a single elegant chair stands on the polished white marble floor at frame centre, and over its back hangs the floor-length dark brown mink coat, its hem pooling on the marble; on the seat of the chair lies a single neatly folded ivory silk scarf; beside the chair on the floor stands the slim glass bathroom scale, its display dark; behind them the floor-to-ceiling windows show the city in pale morning haze; the long reflections of the windows lie across the marble; a tall vase of white lilies stands off to one side; the room is silent and bright, the things of a life set down in the light; a single white lily petal lies fallen on the bare marble beside the scale",
+   "motion": "the pale morning light through the windows brightens slowly across the marble and over the mink coat, and that brightening is the one movement in the shot: at the start the light lies soft and cool on the floor; over the whole five seconds it grows slowly warmer and brighter, the long window reflections on the marble sharpening, the fur of the coat taking a soft sheen and the glass scale beside the chair gleaming faintly; the chair, the mink coat and its pooled hem, the folded silk scarf, the scale with its dark display and the vase of lilies stay completely still; the city haze beyond the windows holds unchanged; the single fallen lily petal on the marble stays still in the warming light; the bare marble floor around the chair stays clear and empty; the camera holds the still shot of the chair on the marble, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

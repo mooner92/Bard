@@ -1,60 +1,191 @@
 {
-  "logline": "도망친 소녀가 공장 기숙사 창문 앞에서 자신의 마지막 숨을 붙잡고 있다.",
-  "destination": "인천 방직공장 기숙사 창문 — 병든 몸이 더 이상 버티지 못하는 문턱",
-  "protagonist": "어머니를 잃고 주인의 집에 들어간 순진한 소녀",
-  "setting": "1934년 황해도 장연과 인천의 일본계 방직공장",
-  "anchor": "Thin, pale young Korean woman with dark hair, wearing a worn gray factory uniform.",
-  "palette": "Cold blue-gray shadows, dim industrial lighting, stark contrast, desaturated tones.",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "안개 낀 못가에 어린 소녀가 홀로 서 있다.",
-      "visual": "a young girl standing alone at the edge of a misty village pond, low thatched roofs behind",
-      "motion": "mist drifts across the water, her skirt stirs, ripples spread from the reeds"
-    },
-    {
-      "n": 2,
-      "beat": "지주의 집 마루에서 소녀가 고개를 숙이고 있다.",
-      "visual": "a girl standing on a wooden veranda of a tiled-roof house, head bowed, master's shadow near",
-      "motion": "her head sinks toward the floor, the shadow leans in, a door panel rattles"
-    },
-    {
-      "n": 3,
-      "beat": "소녀가 짐을 싸서 마당 문을 나선다.",
-      "visual": "Girl carrying a small bundle walking away from a large traditional house gate.",
-      "motion": "Figure moving away from the gate, toward the road."
-    },
-    {
-      "n": 4,
-      "beat": "기차 창문 밖으로 흐르는 황량한 논밭을 바라본다.",
-      "visual": "View from a moving train window, blurred fields and trees rushing past quickly.",
-      "motion": "Landscape sliding horizontally to the left, past the glass."
-    },
-    {
-      "n": 5,
-      "beat": "공장 기숙사 침대에서 기침을 참으며 몸을 웅크린다.",
-      "visual": "Girl curled up in a narrow bunk bed, clutching chest, breathing heavily.",
-      "motion": "Body hunching inward, shoulders rising and falling sharply."
-    },
-    {
-      "n": 6,
-      "beat": "창문 밖으로 쏟아지는 흐린 하늘을 멍하니 바라본다.",
-      "visual": "Girl staring out a dirty factory window at a gray, overcast sky, reflection faint.",
-      "motion": "Gaze fixed outward, head tilting slightly up."
-    },
-    {
-      "n": 7,
-      "beat": "그녀가 창틀을 잡은 채 더 이상 버틸 수 있을까?",
-      "visual": "Hand gripping the wooden window frame tightly, knuckles white, posture rigid.",
-      "motion": "Fingers tightening on the frame, holding still."
-    },
-    {
-      "n": 8,
-      "beat": "기숙사 복도에 텅 빈 침상 하나만 남아 있다.",
-      "visual": "an empty iron cot in a dim dormitory corridor, folded blanket, one high window",
-      "motion": "dust turns in the window beam, the blanket edge lifts, the corridor stays still",
-      "anchor": false
-    }
-  ],
-  "withheld": "선비는 폐병으로 사망하고, 첫째는 이미 싸늘하게 식어 시커먼 뭉치처럼 변해버린 시신을 보며 인간문제임을 깨닫는다."
+ "logline": "어머니를 잃고 지주 집 몸종이 된 소녀가 짓밟히고 도망쳐 인천 방직공장 여공이 되고, 그를 마음에 둔 소작농은 부두 막노동꾼이 되어 같은 도시에서 버틴다",
+ "destination": "소설 인간문제에서 만날 수 있습니다",
+ "protagonist": "seonbi",
+ "setting": "1930년대 황해도 용연 마을과 인천, 지주의 기와집·가을 논·방직공장·기숙사·부두",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/ingan_munje/assets",
+ "anchor": "a slight Korean girl of eighteen with a single long black braid, an off-white cotton jeogori and dark grey skirt, a thin pale oval face with wide quiet eyes",
+ "palette": "ash grey, dark blue, off-white, dark brown, dull yellow",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "seonbi",
+    "pond",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "눈물이 고여 생겼다는 원소 못",
+   "visual": "the still dark pond below the village in grey overcast autumn light: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one standing on the low stone bank at frame left with her straw sandals at the water's edge, a thin wrist holding the end of her braid, her thin pale face turned down toward the dark water; dull yellow reeds ring the far side of the pond and two old willows lean over the water at frame right, their thin branches nearly touching the surface; her small reflection lies on the still water; bare fields of dull yellow stubble and low ash grey hills rise behind the reeds under the grey sky; the water shows only dark brown depth and the pale reflection",
+   "motion": "the slight girl with the long black braid standing on the low stone bank of the pond is the only living thing that moves, and barely: at the start she stands with her straw sandals at the water's edge, a thin wrist holding the end of her braid, her thin pale face turned down to the dark water; over the whole shot only the end of her braid moves slowly in her fingers and her chest lifts with one slow breath, her feet and her lowered face not moving; a few ripples spread slowly from the dull yellow reeds across the dark water and pass through her pale reflection; the two old willows leaning over the water at frame right sway very slightly; the bare fields of dull yellow stubble, the low ash grey hills and the grey overcast sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "seonbi",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "어머니마저 잃은 선비",
+   "visual": "a bare earth yard before a small thatched hut in grey autumn light: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one kneeling on the ground at frame center with her forehead lowered nearly to her knees and both thin hands pressed flat on the earth, her braid fallen over one shoulder; a straw mat lies rolled against the hut's mud wall at frame right and a single dark brown earthen bowl sits on the step; the low doorway of the hut is dark and empty; bare fields of dull yellow stubble stretch behind the hut to the ash grey hills under the grey overcast sky; no other figure anywhere",
+   "motion": "the slight girl with the long black braid kneeling on the bare earth before the thatched hut is the only one who moves: at the start her forehead is lowered nearly to her knees with both thin hands pressed flat on the earth and her braid fallen over one shoulder; over the whole shot her shoulders shake slowly as she stays bent to the earth, her hands pressing harder into the ground with the fingers curling, and a loose strand of her hair stirs in a slight wind; her knees and her lowered head do not lift; the rolled straw mat against the mud wall, the dark brown bowl on the step, the dark empty doorway of the hut, the dull yellow stubble fields and the grey sky hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "seonbi",
+    "bundle",
+    "deokho",
+    "landlord_house"
+   ],
+   "refs": [],
+   "beat": "덕호의 집에 몸종으로 들어가는 선비",
+   "visual": "the paved stone courtyard of the big tile-roofed house in flat grey light: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one standing at frame left just inside the tall wooden gate with its ash grey tiled roof, the small faded cloth bundle held against her chest with both thin hands, her thin pale face lowered and her eyes on the stones; the heavy landlord in the fine white silk durumagi, dark blue trousers and black gat hat of stiff fine mesh is the one standing on the edge of the wide raised wooden hall at frame right, one thick hand resting on his belly, his broad fleshy face and narrow eyes turned down at her; dark brown floorboards of the hall shine behind him, paper sliding doors stand closed along the hall and a row of earthen jars lines the wall",
+   "motion": "the slight girl with the long braid just inside the tall wooden gate is the one who moves, and the landlord only with his fingers and eyes: at the start she stands on the paved stones with the small faded cloth bundle held against her chest in both thin hands and her thin pale face lowered; over the first two seconds she takes one small step forward on the stones with the bundle held tight and her head staying lowered, her dark grey skirt hem swinging once; in the last two seconds she stands still with her eyes on the stones; the heavy landlord in the white silk durumagi and black hat on the edge of the wide wooden hall keeps his body still, only his narrow eyes following her and his thick edged fingers tapping slowly on his belly; the dark brown floorboards of the hall, the closed paper doors, the row of earthen jars and the gate with its ash grey tiled roof hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "deokho",
+    "seonbi",
+    "landlord_house"
+   ],
+   "refs": [],
+   "beat": "공부시켜 주겠다며 달래는 덕호",
+   "visual": "the wide raised wooden hall of the big house in dim afternoon light: the heavy landlord in the white silk durumagi and black gat hat of stiff fine mesh is the one sitting cross-legged on the dark brown floorboards at frame right, leaning toward the girl with his small tight mouth curved in a smile and one thick edged hand raised open toward her; the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one kneeling at frame left with a wooden tray of tea bowls set before her knees, her thin hands folded in her lap and her wide quiet eyes lifted to his face; the paper sliding doors behind them glow pale, a low lacquered table and a brass ashtray sit between them",
+   "motion": "the heavy landlord sitting cross-legged on the dark brown floorboards is the one who moves, and the girl only with her eyes: at the start he leans toward her with his small tight mouth curved in a smile and one thick edged hand raised open toward her; over the first two seconds he leans a little closer with the open hand held out further and his smile widening so that his fleshy cheeks lift, the skirt of his white silk durumagi sliding on the boards; in the last two seconds he holds leaning with the hand out; the slight girl kneeling with the wooden tray of tea bowls before her knees keeps her thin hands folded in her lap and only her wide quiet eyes rise to his face; the pale light on the paper sliding doors stays even; the low lacquered table, the brass ashtray and the tray hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "seonbi",
+    "landlord_house"
+   ],
+   "refs": [],
+   "beat": "짓밟힌 선비",
+   "visual": "a small dark inner room of the big house at night: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one crouched in the far corner at frame left with her arms wrapped tight around her knees and her face turned to the wall, the braid hanging loose down her back, her straw sandals lying apart on the floor; a paper sliding door at frame right glows faintly from a brass oil dish with a bare flame beyond it, and the broad heavy shadow of a man in a stiff fine mesh hat lies across the paper from the outside; the dark brown floorboards and a folded grey quilt fill the rest of the room; no one else inside the room",
+   "motion": "the slight girl crouched in the far corner of the dark room and the shadow on the paper door are what move: at the start she is crouched with her arms wrapped tight around her knees and her face turned to the wall, her braid loose down her back, and the broad shadow of a man in a hat lies across the faintly glowing paper door; over the first two seconds her shoulders draw in tighter and her head presses against the wall, her thin fingers gripping her sleeves, while the shadow on the paper door shifts slowly to one side and then goes still; in the last two seconds she holds curled and the shadow holds; the oil dish glow beyond the door flickers faintly; the dark brown floorboards, the folded grey quilt and her straw sandals lying apart on the floor hold completely still; no one enters the room; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "gannan",
+    "landlord_house",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "첩으로 들어갔다가 쫓겨난 간난이",
+   "visual": "outside the tall wooden gate of the big house in a thin autumn rain: the young woman with black hair in a low bun in the faded off-white jeogori and dark blue skirt is the one walking away from the gate along the muddy lane at frame center, seen from behind and to the side, a small cloth bundle on her back and her straw sandals sunk in the mud, her sharp thin face turned once over her shoulder toward the gate with her hard bright eyes narrowed; the gate with its ash grey tiled roof stands closed at frame right, the tile-roofed house rising behind the wall; bare fields of dull yellow stubble and ash grey hills lie ahead of her under the grey overcast sky, rain streaking the air",
+   "motion": "the young woman with the low bun in the faded off-white jeogori and dark blue skirt walking away along the muddy lane is the only one who moves, and the rain: at the start she is mid-step a few paces from the tall wooden gate with the small cloth bundle on her back and her straw sandals in the mud; over the first three seconds she walks steadily away along the lane, her head turning slowly back over her shoulder toward the closed gate with her hard bright eyes narrowed and then forward again, her skirt hem dragging in the mud; the thin rain streaks down in steady lines and drips from the ash grey tiled roof of the gate; the closed gate, the tile-roofed house behind the wall, the dull yellow stubble fields ahead and the ash grey hills under the overcast sky hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "cheotjjae",
+    "constable",
+    "paddy",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "볏섬을 되찾으려다 끌려가는 첫째",
+   "visual": "the earthen dike between harvested paddies under a grey sky: the lean tenant farmer with cropped black hair in the patched off-white hemp shirt and knee-rolled trousers is the one being led along the dike at frame center with his big calloused hands bound before him with a rope, his long sun-browned face turned back over his shoulder toward the stacked sacks with his heavy jaw set; the police constable in the black uniform with brass buttons, the peaked cap and the sabre is the one walking a pace behind at frame right holding the rope in a white-gloved hand; tied straw sacks of rice are the heap stacked on the dike at frame left, one sack split with dull yellow grain spilling; the dull yellow stubble of the paddies and the low ash grey hills lie beyond",
+   "motion": "the lean tenant farmer being led along the dike and the constable behind him are what move, and the spilling grain: at the start the farmer's big calloused hands are bound before him with a rope and his sun-browned face is turned back over his shoulder toward the stacked straw sacks; over the first three seconds the farmer is pulled forward along the dike three steps, his head turning back toward the sacks and then forward as the rope tightens, his patched off-white hemp shirt pulling at the shoulders, while the police constable in the black uniform with the peaked cap and sabre walks at a steady pace a pace behind holding the rope in a white-gloved hand; in the last two seconds the rope goes slack and both men come to a stop well inside the frame; dull yellow grain trickles slowly from the split sack on the dike; the heap of tied straw sacks, the dull yellow stubble of the paddies and the low ash grey hills under the grey sky hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "seonbi",
+    "bundle",
+    "landlord_house"
+   ],
+   "refs": [],
+   "beat": "밤에 덕호의 집을 빠져나오는 선비",
+   "visual": "the tall wooden gate of the big house at night under a thin moon: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one slipping through the narrow opening of the gate at frame center, her body turned sideways, the small faded cloth bundle clutched to her chest with both thin hands, her thin pale face turned back toward the dark courtyard with her wide eyes; the gate's ash grey tiled roof is a dark shape above her, the tile roofs of the house are dark against the deep blue night sky behind, one paper window in the house glowing faintly; the lane outside is pale dust at frame left leading away toward bare fields",
+   "motion": "the slight girl with the long black braid slipping through the narrow opening of the tall wooden gate at night is the only one who moves: at the start her body is turned sideways in the gate opening with the small faded cloth bundle clutched to her chest in both thin hands and her thin pale face turned back toward the dark courtyard; over the whole shot she eases through the gate opening one slow step at a time with the bundle held tight, her head turned back toward the house until she is clear of the gate, her dark grey skirt brushing the gatepost; the faint dull yellow glow in the one paper window of the house stays steady; the ash grey tiled roof of the gate, the dark tile roofs against the deep blue night sky and the pale dusty lane leading toward the fields hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "seonbi",
+    "bundle",
+    "train",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "기차 창밖으로 흘러가는 가을 논밭",
+   "visual": "the inside of the old wooden railway carriage in grey daylight: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one sitting on the slatted wooden bench at frame left beside the wide brass-framed window, the small faded cloth bundle held in her lap with both thin hands, her thin pale face turned to the glass and her wide quiet eyes on the land outside; through the window bare fields of dull yellow stubble, a thatched roof and low ash grey hills pass under the grey overcast sky; the dark brown panelling and the empty bench across from her fill the rest of the frame; no lettering anywhere",
+   "motion": "only the fields outside the window move in this railway carriage: at the start bare fields of dull yellow stubble, a thatched roof and low ash grey hills stand in the wide brass-framed window; over the whole shot the fields, the roof and the hills slide steadily past the window from right to left under the grey overcast sky, the nearer stubble passing faster than the far hills, while the carriage sways very slightly; the slight girl with the long black braid sitting on the slatted wooden bench beside the window stays motionless with both thin hands on the small faded cloth bundle in her lap and her wide quiet eyes on the fields outside, her thin pale face not turning; the dark brown panelling, the empty bench across from her and the brass window frame hold completely still; no lettering appears; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "seonbi",
+    "gannan",
+    "mill"
+   ],
+   "refs": [],
+   "beat": "인천 방직공장에서 간난이와 다시 만난 선비",
+   "visual": "the long brick textile mill hall in dusty light from the high windows: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one standing in the aisle between two rows of black iron spinning machines at frame left, her thin hands lifted halfway and her thin pale face opened in surprise; the young woman with black hair in a low bun in the faded off-white jeogori and dark blue skirt is the one stepping toward her from frame right with her sharp thin face lit by a quick hard smile and one hand reaching for the girl's sleeve; white cotton threads run in dense lines across the machines on both sides, overhead belts cross under the roof, lint lies on the floor; no lettering anywhere",
+   "motion": "the young woman with the low bun reaching for the girl's sleeve is what moves in the mill aisle, and the machines: at the start her hand is stretched toward the slight girl's sleeve with her sharp thin face lit by a quick hard smile and the girl's thin hands lifted halfway in surprise; over the first two seconds the young woman's hand closes on the girl's off-white sleeve and the two lean slowly toward each other until their foreheads nearly touch, the girl's lifted hands closing on the young woman's arms; in the last two seconds they hold close; the white cotton threads strung across the black iron spinning machines on both sides quiver and the overhead belts under the roof turn steadily; the brick walls, the high dusty windows and the lint on the floor hold completely still; no lettering appears; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "seonbi",
+    "dorm"
+   ],
+   "refs": [],
+   "beat": "기숙사에 갇힌 여공의 밤",
+   "visual": "the cramped factory dormitory room at night by the dim oil oil dish: the slight girl with the long black braid in the off-white jeogori is the one sitting up on a thin straw mat at frame center with a thin grey blanket fallen to her waist, one thin hand pressed hard over her mouth and the other gripping the blanket, her thin pale face bent forward and her eyes shut; rows of other thin mats with sleeping shapes under grey blankets lie along the plank floor at frame left and right; the single barred window at the back shows deep blue night, the oil oil dish on its shelf throws a small dull yellow circle on the wall",
+   "motion": "the slight girl sitting up on the thin straw mat in the dormitory is the only one who moves, and the oil dish flame: at the start she sits with one thin hand pressed hard over her mouth and the other gripping the thin grey blanket at her waist, her thin pale face bent forward and her eyes closed; over the whole shot her shoulders jerk slowly under her hand as she holds the cough in, her body folding forward a little more each time and the loose end of her braid sliding off her shoulder; the dim oil oil dish flame on the shelf wavers and the small dull yellow circle of light trembles on the wall; the rows of sleeping shapes under grey blankets on the plank floor, the single barred window showing deep blue night and the shelf hold completely still; no one else wakes; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "cheotjjae",
+    "pier"
+   ],
+   "refs": [],
+   "beat": "인천 부두의 막노동꾼이 된 첫째",
+   "visual": "the wooden harbour pier in flat grey light: the lean tenant farmer with cropped black hair in the patched off-white hemp shirt and rolled trousers is the one walking along the planks at frame center bent under a tied straw sack on his back, his big calloused hands gripping the rope, his long sun-browned face streaming with sweat and his heavy jaw clenched; stacks of tied straw sacks rise at frame left, the black riveted hull of the steamship fills frame right with a gangplank sloping up to it; grey harbour water shows between the planks and a grey sky lies over the harbour; no lettering anywhere",
+   "motion": "the lean tenant farmer trudging along the wooden pier under the tied straw sack is the only one who moves, and the water: at the start he is mid-step at the center bent under the sack with his big calloused hands gripping the rope and sweat on his long sun-browned face; over the first three seconds he trudges slowly along the planks under the sack, his knees bending at each step and his straw sandals setting down heavily, the sack rocking a little on his back and his heavy jaw clenched; the grey harbour water laps slowly against the piles below the planks; the stacks of tied straw sacks at frame left, the black riveted hull of the steamship with its gangplank at frame right and the grey sky hold completely still; no lettering appears; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "gannan",
+    "dorm"
+   ],
+   "refs": [],
+   "beat": "밤마다 여공들을 몰래 모으는 간난이",
+   "visual": "the cramped dormitory room at night with the oil oil dish turned low: the young woman with black hair in a low bun in the faded off-white jeogori and dark blue skirt is the one kneeling at frame center on a straw mat with her sharp thin face lit from below by the dull yellow oil dish, one finger raised to her lips and her hard bright eyes moving over the others; five young women in off-white jeogori are the ones crouched in a tight half-circle around her at frame left and right with their heads close together and blankets pulled around their shoulders; the single barred window at the back shows deep blue night; the plank floor and the thin mats fill the foreground",
+   "motion": "the young woman with the low bun kneeling at the center of the dormitory and the young women around her are what move: at the start her finger is raised to her lips with her sharp thin face lit from below by the dull yellow oil dish and the five young women crouched in a half-circle around her with blankets around their shoulders; over the first two seconds she leans in and her raised finger lowers slowly from her lips as she begins to speak, her hard bright eyes moving over the others, while the five bend their heads slowly closer to her until the circle tightens; in the last two seconds all hold close with their heads together; the low oil oil dish flame on the shelf stays steady; the single barred window showing deep blue night, the plank floor and the thin straw mats hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "seonbi",
+    "dorm"
+   ],
+   "refs": [],
+   "beat": "창틀을 붙든 선비의 손",
+   "visual": "the single barred window of the dormitory at first grey light: the slight girl with the long black braid in the off-white jeogori and dark grey skirt is the one standing at frame center with both thin hands gripping the wooden sill between the iron bars, her thin pale face close to the glass and her wide quiet eyes on the grey sky, a thin grey blanket hanging from her shoulders; beyond the bars the brick wall of the mill and a tall chimney stand against the overcast sky; the plank floor and the rows of empty straw mats lie behind her in the dim room, the oil oil dish on its shelf gone out",
+   "motion": "the slight girl with the long black braid standing at the barred dormitory window is the only one who moves, and barely: at the start both thin hands grip the wooden sill between the iron bars with her thin pale face close to the glass and a thin grey blanket hanging from her shoulders; over the whole shot her fingers tighten slowly on the sill until the knuckles whiten, her forehead comes to rest against the iron bars, and the blanket slips a little from one shoulder; her feet and her wide quiet eyes on the grey sky do not move; the grey first light brightens very slowly on her face; the brick wall of the mill and the tall chimney beyond the bars, the rows of empty straw mats behind her and the burnt-out oil oil dish on its shelf hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "pond",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 고요한 원소 못",
+   "visual": "the still dark pond below the village at grey dusk: the water is the flat dark surface filling the lower half of the frame, edged with dull yellow reeds, the two old willows leaning over it at frame right with thin bare branches; the low stone bank at frame left is empty; bare fields of dull yellow stubble and low ash grey hills lie beyond under the darkening overcast sky; no figures anywhere",
+   "motion": "nothing living moves at this dark pond at dusk; only the water, the willows and the light: at the start the flat dark surface of the pond fills the lower half of the frame edged with dull yellow reeds, the two old willows leaning over it at frame right and the low stone bank empty at frame left; over the whole shot a slow ripple spreads across the dark water from the reeds and fades into the bank, the bare willow branches sway very slightly in the dusk wind, and the light dims slowly over the stubble fields and the low ash grey hills; the stone bank, the reeds and the darkening overcast sky hold perfectly still; no figures, no animals and no new objects appear at any point; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "공장 여자의 죽음과 그 시신 앞에서 사내가 깨닫는 것"
 }

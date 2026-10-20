@@ -1,61 +1,202 @@
 {
- "logline": "한 번 내린 판단이 옳았다고 믿는 젊은 여자가, 그 판단을 뒤집을 자리로 걸어 들어간다.",
- "destination": "낯선 대저택의 정문 — 다시는 볼 일 없다고 여겼던 사람의 집",
- "protagonist": "말이 빠르고 눈이 밝은 시골 지주의 둘째 딸",
- "setting": "19세기 초 영국 시골, 무도회장과 정원과 대저택",
- "anchor": "a slim young woman in a high-waisted pale muslin gown, dark curls pinned up, Regency English countryside",
- "palette": "candlelit warm amber indoors, cool green daylight outdoors, soft chalky tones",
+ "logline": "이웃에 온 부자 청년의 소식에 들뜬 베넷가에서 둘째 엘리자베스가 무도회에서 낯선 신사 다아시에게 등을 돌림당하고, 진흙길을 걸어 앓는 언니에게 가고, 콜린스의 청혼을 거절하고 위컴의 말을 믿다가, 비 오는 날 다아시의 청혼에 문을 닫은 뒤 편지로 진실을 알고, 여름에 펨벌리에서 초상화를 보다가 정원에서 그를 마주친다",
+ "destination": "소설 오만과 편견에서 만날 수 있습니다",
+ "protagonist": "elizabeth",
+ "setting": "1810년 무렵 영국 시골 — 베넷가의 응접실, 시골 무도회장, 비 오는 들판과 병실, 시골길, 목사관의 작은 응접실, 여름의 대저택 펨벌리와 그 초상화 방·정원",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/omangwa_pyeongyeon/assets",
+ "anchor": "a bright dark-curled young woman of 1810 in an off-white muslin gown and a tall proud dark-haired man in a dark blue tailcoat, in English country rooms and gardens",
+ "palette": "dull green, off-white, dull yellow, ash grey, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "둘이 오해를 풀고 맺어지는 결말과, 그 사이 막내가 일으키는 소동",
  "beats": [
   {
    "n": 1,
-   "beat": "시골 무도회장 벽 쪽에 젊은 여자가 홀로 선다.",
-   "visual": "a young woman standing at the edge of a crowded country assembly room, dancers blurred behind her",
-   "motion": "couples sweep past in the background, her fan opens, candle flames bend"
+   "cast": [
+    "sisters",
+    "elizabeth",
+    "longbourn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이웃에 부자 청년이 왔다는 소식을 들은 베넷가의 다섯 자매",
+   "visual": "soft grey daylight through the window of the country parlour with the garden of dull green shrubs beyond: the stout mother of fifty in the dull yellow gown and the white cap with ribbons is the one standing at frame left with a folded sheet of paper waved high in one hand, its written side turned away from the camera, her round face flushed with pleasure and her mouth open; the four young women in the off-white muslin gowns are the ones crowded round her at frame left and frame centre with their faces lifted to the waved paper, two of them with their hands clasped; the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white gown with the short dull green jacket, is the one sitting apart at frame right on the sofa with a book open on her knee and her face turned to the group with one eyebrow raised and a small dry smile; the small round work table with its sewing basket of thread and needles stands before the window; the small coal fire inside the iron grate set into the chimney breast under the plain mantelpiece glows; there are exactly six women in the room and the one on the sofa is the one sitting apart; the room is of 1810 with no machine of any kind in it, only the sewing basket, the sofa, the chairs and the grate in the chimney wall, and the floorboards are bare and clean",
+   "motion": "the mother's waved paper is the one thing that moves, and the young woman on the sofa holds still: at the start the folded paper is waved high with her mouth open; over the first three seconds the paper is brought down slowly and pressed to her breast in both hands, her flushed face lifting to the ceiling, the four young women round her leaning in a little closer with their clasped hands; in the last two seconds the paper holds pressed to her breast and the group holds leaned in; the young woman on the sofa keeps her book open on her knee and her raised eyebrow and dry smile turned to them, nothing in her moving; the work table with its sewing, the small fire and the dull green shrubs beyond the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "낯선 신사가 그녀를 흘깃 보고 그대로 지나친다.",
-   "visual": "a tall man in a dark tailcoat turning away from a young woman, his shoulder passing close to hers",
-   "motion": "he turns on his heel, her chin lifts, the crowd shifts between them"
+   "cast": [
+    "elizabeth",
+    "assembly",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "무도회 날, 둘째 엘리자베스가 벽가에 부채를 들고 서 있다",
+   "visual": "the dull yellow light of the candles in the wall sconces of the long country assembly room: the young woman of twenty with the dark brown curls pinned up and the bright intelligent face, in the off-white muslin gown, is the one standing alone at frame right against the wall beside a row of empty chairs with a closed fan held in both hands before her waist, her face turned toward the dancers with a small amused smile and her dark eyes bright; the couples in evening clothes of 1810 are the ones dancing in two facing lines at frame left and frame centre, seen from the side, their hands joined and raised, their faces turned to their partners; the small band of fiddlers plays on a low platform at the far end; the candle flames in the sconces stand steady; the polished floor gives back the candlelight; there is exactly one face turned to the camera and it is the young woman's by the wall, and she is the one not dancing",
+   "motion": "the dancers are the ones that move, and the young woman by the wall holds still: at the start the two lines of couples stand with their hands joined and raised; over the whole five seconds the lines of dancers step slowly toward each other and back once in time, the joined hands rising and lowering together and the women's gowns swaying, no face among them turning to the camera; the fiddlers' bows move slowly on their strings; the young woman by the wall keeps the closed fan in both hands before her waist and her amused smile turned to the dancers, only her dark eyes following one couple across; the candle flames in the sconces stay steady; the row of empty chairs and the polished floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그녀는 들은 말을 곱씹으며 정원 길을 걷는다.",
-   "visual": "a young woman walking a gravel garden path alone, hedgerows tall on both sides, morning mist low",
-   "motion": "gravel crunches under her step, mist drifts across the hedge, her skirt sways"
+   "cast": [
+    "darcy",
+    "elizabeth",
+    "assembly",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "무도회의 낯선 신사 다아시가 그녀를 보고 등을 돌린다",
+   "visual": "the dull yellow candlelight of the long assembly room, seen close along the wall: the tall proud man of twenty-eight with the dark hair and the handsome severe face, in the dark blue tailcoat with the white cravat, is the one standing at frame centre with his back half turned to the young woman and his face turned away over his shoulder toward the dancers, his chin lifted and his mouth set in a line, one hand behind his back; the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown, is the one standing at frame right by the row of chairs with the closed fan gripped in one hand and her face turned to his turned back, her eyebrows lifted and her lips pressed together; the dancers move dimly in the candlelight at the far left; the candles in the wall sconces burn steady above them; there are exactly two people close in the picture and the man's back is half to the woman",
+   "motion": "the man's turning back is the one thing that moves, and the young woman holds still: at the start his back is half turned to her with his face over his shoulder toward the dancers; over the first three seconds he turns slowly the rest of the way until his whole back is to her, his lifted chin not lowering and his hand staying behind his back, and takes one single slow step away toward the dancers; in the last two seconds he holds with his back to her; the young woman keeps the fan gripped in her hand and her lifted eyebrows turned to his back, her lips pressed, nothing else in her moving; the dancers at the far left move dimly and slowly; the candle flames stay steady; the row of chairs holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "비 오는 응접실에서 그 신사가 갑자기 말을 꺼낸다.",
-   "visual": "a man standing rigid in a small parlour facing a seated young woman, rain running down tall windows",
-   "motion": "rain streams down the glass, his hand clenches, she rises from the chair"
+   "cast": [
+    "jane",
+    "sickroom",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "언니 제인이 신사의 친구 집에 갔다가 비를 맞고 앓아눕는다",
+   "visual": "grey rainy daylight through the window with the rain streaming down its glass in the fine bedroom: the young woman of twenty-two with the fair hair loose on the pillow and the gentle lovely face flushed, is the one lying in the curtained bed at frame centre under an off-white coverlet with her eyes half closed and one hand lying outside the cover, the dull yellow shawl folded on the bed's foot; a damp riding habit of dark brown hangs over a chair at frame left with its hem dark with mud, dripping onto the boards; the small table beside the bed holds the cup; the bed curtains hang half drawn; the rain runs steadily down the window at frame right; there is exactly one person in the room and she is the one lying ill; the floorboards and the chair seat are clean and dry, plain bare wood without any mark",
+   "motion": "the rain on the window is the one thing that moves, and the young woman in the bed holds nearly still: at the start the rain runs down the window glass in steady streaks; over the whole five seconds the streaks of rain run on down the glass, a gust throwing a fresh sheet of rain across it that runs down after the others, the grey light through the window dimming a little and brightening; the young woman's half-closed eyes close slowly the rest of the way and her hand outside the cover turns a little on the coverlet; the damp riding habit on the chair keeps dripping onto the boards, one drip at a time; the cup on the small table, the folded shawl and the half-drawn bed curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "그녀는 대답 대신 문을 닫아 버린다.",
-   "visual": "a young woman closing a heavy panelled door from inside, her back against it, empty hall beyond",
-   "motion": "the door swings shut, her shoulders drop, a curtain lifts in the draught"
+   "cast": [
+    "elizabeth",
+    "fields",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "엘리자베스가 진흙길을 걸어 앓는 언니에게 간다",
+   "visual": "soft grey daylight over the wet green fields with the fine stone house far off among the trees: the young woman of twenty with the dark brown curls coming loose and the bright intelligent face flushed with walking, in the off-white muslin gown with its hem six inches deep in mud and the short dull green jacket, is the one climbing over the wooden stile at frame centre with one foot on its top step and both hands on its post, her skirts gathered up in one fist, her face lifted toward the far house with a determined set to her mouth; the muddy path runs from the bottom of the frame to the stile and on across the wet field beyond toward the house; the wet grass shines; a few sheep stand far off at frame left; the grey sky is low; there is exactly one person in the fields and she is the one on the stile",
+   "motion": "the young woman on the stile is the one who moves, and the fields hold still: at the start she has one foot on the stile's top step with her hands on its post; over the first three seconds she brings her other foot slowly up onto the top step and stands a moment on the stile with her skirts gathered in her fist and her face lifted to the far house, her loose curls stirring; in the last two seconds she holds on top of the stile with her hands on the post; the muddy hem of her gown swings a little and settles; the muddy path, the wet shining grass and the far stone house among its trees hold completely still; the sheep far off do not move; the low grey sky stays even; the wooden stile keeps its place under her hands; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "이튿날 아침 문틈으로 무언가가 밀려 들어온다.",
-   "visual": "a folded paper pushed under a door onto a wooden floor, a woman's slippered feet approaching",
-   "motion": "the paper slides across the boards, her feet stop, dust motes turn in the light"
+   "cast": [
+    "collins",
+    "elizabeth",
+    "longbourn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "사촌 콜린스가 엘리자베스에게 청혼했지만 거절당한다",
+   "visual": "soft grey daylight in the country parlour with the small coal fire inside the iron grate set into the chimney breast under the plain mantelpiece: the tall heavy young clergyman of twenty-five in the black coat with the stiff white collar, with the solemn plain face and the long upper lip, is the one down on one knee at frame left on the rug with one hand pressed flat to his chest and the other held out open toward the young woman, his solemn face lifted and his mouth open in a long speech; the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown, is the one standing at frame right with her back against the work table and both her hands raised before her with the palms out, her head drawn back and her mouth open in a refusal, her eyebrows high; the sofa stands empty at the back; the garden of dull green shrubs shows through the window; the small fire glows; there are exactly two people in the room and the man on his knee is the one speaking; the only fire in the room burns inside the iron grate in the chimney wall behind the mantelpiece, and the rug and floorboards before it are bare",
+   "motion": "the kneeling man's held-out hand and the young woman's raised palms are the two things that move, and the room holds still: at the start his hand is held out open toward her and her palms are raised before her; over the first three seconds his held-out hand reaches slowly a little further toward her with the fingers spreading and his solemn face lifting higher, his mouth working on, while her raised palms push slowly a little further out toward him and her head draws back further; in the last two seconds both hold, his hand out and her palms out; neither person's feet shift; the hand on his chest stays pressed flat; the empty sofa, the work table with its sewing, the small fire and the shrubs beyond the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 집 주인과 마주친다면 그녀는 무슨 말을 할까?",
-   "visual": "a young woman halted on a wide lawn, a man's figure appearing at the far corner of the great house",
-   "motion": "she stops mid-step, his figure emerges, long grass bends in the wind"
+   "cast": [
+    "wickham",
+    "elizabeth",
+    "lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "엘리자베스가 만난 위컴이 다아시가 유산을 가로챘다고 말한다",
+   "visual": "soft morning light in the country lane between the high green hedges with the wooden gate at frame right: the handsome young officer of twenty-five with the brown hair and the easy smile, in the dull rust-brown militia coat with the white facings, is the one standing at frame left leaning one shoulder against the gate post with his arms folded and his head tilted toward the young woman, his easy smile turned rueful and his eyes lowered in a look of injury; the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown with the short dull green jacket, is the one standing at frame right on the lane with her hands clasped before her and her face turned to him with her brows drawn together in sympathy and her lips parted; the high green hedges run away behind them down the lane; the morning light lies on the lane's dust; there are exactly two people in the lane and the man in the red coat is the one leaning on the gate post",
+   "motion": "the officer's tilted head and the young woman's brows are the two things that move, and the lane holds still: at the start his head is tilted toward her with his eyes lowered and her brows are drawn together; over the first three seconds his lowered eyes lift slowly to her face and his rueful smile fades to a straight line as he speaks, his folded arms not unfolding, while her drawn brows lift slowly and her lips part further; in the last two seconds both hold; neither person's feet shift on the lane; the wooden gate and its post, the high green hedges and the dust of the lane hold completely still; the morning light stays even; the dull rust-brown coat with its white facings keeps its colour against the green hedge and the officer's shoulder stays on the gate post; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "저택 앞 잔디에 오후 빛이 길게 눕는다.",
-   "visual": "long afternoon light lying across the empty lawn before a great country house, lake still",
-   "motion": "grass bends in a slow gust, water ripples once, shadows lengthen",
-   "anchor": false
+   "cast": [
+    "darcy",
+    "elizabeth",
+    "hunsford",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "비 쏟아지던 날, 다아시가 응접실에서 불쑥 청혼을 꺼낸다",
+   "visual": "grey rainy light through the window streaming with rain in the small neat parlour, one candle lit on the round table: the tall proud man of twenty-eight with the dark hair and the handsome severe face, in the dark blue tailcoat with the white cravat, is the one standing stiffly at frame left with one hand gripping the back of the chair and the other pressed to his chest, his severe face turned to the young woman with his lips parted and his eyes fixed on her, his shoulders rigid; the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown, is the one sitting at frame right on the edge of a chair by the round table with a letter's plain back showing in her lap and both her hands gone still on it, her face turned up to him with her lips parted and her eyebrows high; the door with the brass knob is closed at the back; the rain streams down the window; the candle flame stands steady; there are exactly two people in the room and the man is the one standing rigid",
+   "motion": "the standing man's pressed hand is the one thing that moves, and the young woman holds still: at the start his hand is pressed to his chest with his lips parted and his eyes fixed on her; over the first three seconds the hand leaves his chest and opens slowly toward her, palm up, as a man does making a hard offer, his rigid shoulders not easing and his lips moving in speech; in the last two seconds the open hand holds toward her; his feet do not shift and his other hand keeps its grip on the chair; the young woman keeps her hands gone still on the letter in her lap and her lifted face turned to him, only her lips closing slowly; the rain keeps streaming down the window; the candle flame stays steady; the closed door and the round table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "elizabeth",
+    "hunsford",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그 청혼에 그녀는 대답 대신 문을 닫고, 방에는 빗소리만 남는다",
+   "visual": "grey rainy light in the small neat parlour with the window streaming with rain: the door with the brass knob is the one thing at frame centre, closed, and the young woman of twenty with the dark brown curls and the bright intelligent face gone pale, in the off-white muslin gown, is the one standing at frame centre with her back against the closed door and both her hands pressed flat to its panels behind her, her head tipped back against the wood and her eyes closed, her breath held; the candle on the round table at frame left burns steady; the chair he stood by is empty and pushed askew at frame right; the letter lies on the floor by the chair with its plain back up; the rain streams down the window at the far right; there is exactly one person in the room and the door behind her is closed",
+   "motion": "the young woman's breath and the rain are the two things that move, and the room holds still: at the start she stands against the closed door with her eyes closed and her breath held; over the whole five seconds her chest lifts slowly with one long breath let go and her head tips a little further back against the wood, her pressed hands sliding a hand's width down the panels behind her, her eyes staying closed; the rain streams on down the window glass in steady streaks; the candle flame stays steady; the empty askew chair and the letter on the floor with its plain back up keep their places; the closed door does not open; the window's grey light stays even on the boards and on her pale face; the brass knob of the door behind her does not turn; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "elizabeth",
+    "hunsford",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이튿날 아침 다아시의 편지가 문틈으로 밀려 들어온다",
+   "visual": "soft morning light in the small neat parlour, the rain gone and the window clear: the door with the brass knob is the one thing at frame left, closed, and along the bottom edge of the door a thick folded letter of cream paper is the one thing lying half pushed under it into the room, its plain back up and a dark wax seal showing on its fold, the door already swung shut again behind it; the young woman of twenty with the dark brown curls loose about her shoulders and the bright intelligent face, in the off-white muslin gown, is the one standing at frame right by the round table with the candle burnt out on it, her body turned to the door and one hand pressed to the table's edge, her eyes on the folded letter and her lips parted; the chair stands straight again; the clear window at the back shows the wet green garden; there is exactly one person in the room and the letter under the door is the one thing new",
+   "motion": "the folded letter under the door is the one thing that moves, and the young woman holds still: at the start the letter lies half pushed under the door with its wax seal showing; over the first three seconds the letter slides slowly the rest of the way under the door into the room by a hand's width and lies still, pushed from the other side by no one that can be seen; in the last two seconds the letter lies still on the boards; the young woman keeps her hand pressed to the table's edge and her eyes on the letter, only her lips parting further; the burnt-out candle, the straightened chair and the clear window with the wet green garden hold completely still; the closed door does not open; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "elizabeth",
+    "lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "편지를 읽으며 걷던 그녀는 위컴의 말이 거짓임을 안다",
+   "visual": "soft morning light in the country lane between the high green hedges: the young woman of twenty with the dark brown curls and the bright intelligent face gone still, in the off-white muslin gown with the short dull green jacket, is the one standing at frame centre in the middle of the lane with the thick letter of cream paper held open in both hands close before her face, its written side turned toward herself and away from the camera so that only its plain back and the broken wax seal show, her eyes bent to it and her lips pressed together, her brows drawn; the wooden gate stands closed in the hedge at frame right; the lane runs away behind her between the hedges; the morning light lies on the dust; there is exactly one person in the lane, and the letter shows only its plain cream back to the camera",
+   "motion": "the young woman's head is the one thing that moves, and the lane holds still: at the start her eyes are bent to the open letter with her brows drawn; over the first three seconds her head lifts slowly from the letter and turns to look down the empty lane behind her and comes slowly back to the page, the letter's plain back staying toward the camera and her hands not lowering it; in the last two seconds her eyes hold on the page and her brows stay drawn; her feet do not shift in the dust; the closed wooden gate and the high green hedges hold completely still; the morning light stays even; her loose curls do not stir and the short dull green jacket keeps its folds; the broken wax seal on the letter's back keeps its place and nobody comes down the lane; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "elizabeth",
+    "gardiners",
+    "pemberley",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "여름이 오자 그녀가 외숙 부부와 대저택 펨벌리를 찾는다",
+   "visual": "clear summer light over the lake with the great stone house standing across it at the foot of the wooded hills, its windows catching the sun: the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown with a straw bonnet, is the one standing at frame centre on the near shore of the lake seen wholly from behind, the back of her short dull green jacket and the back of her bonnet toward the camera, her face turned away and hidden entirely, her hands clasped behind her, looking across the water at the house; the kindly couple of fifty in the plain dark brown travelling clothes are the ones standing at frame left a pace behind her, also with their backs to the camera, the woman's bonnet and the man's round shoulders side by side; the lawn slopes down from the house to the far shore of the lake; the water lies still and bright between; the wooded hills rise behind the house under the clear sky; there are exactly three people on the shore and all have their backs to the camera",
+   "motion": "the light on the water is the one thing that moves, and the three people hold still: at the start the still water lies bright between the near shore and the house; over the whole five seconds a slow breath of wind moves across the lake from left to right, ruffling the bright water in a band that passes slowly over it and leaves it still again, the reflection of the great house breaking into pieces in the band and joining again after it; the three people on the shore keep their backs to the camera and do not move, the young woman's clasped hands staying behind her; the great stone house with its sunlit windows, the sloping lawn and the wooded hills hold completely still; the clear light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "elizabeth",
+    "housekeeper",
+    "gallery",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "저택의 초상화 방에서 그녀가 다아시의 얼굴을 오래 바라본다",
+   "visual": "clear summer light through the tall windows of the long picture gallery with the portraits in gilt frames along the wall: one portrait at frame centre is the one thing that the young woman stands before, a painted half-length of the tall proud man with the dark hair and the handsome severe face in the dark blue tailcoat, but the painted face wearing a slight warm smile, the gilt frame bright in the window light; the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown, is the one standing at frame right close before the portrait with her back half to the camera and her face lifted to the painted face, her lips a little parted and her hands hanging still at her sides; the elderly housekeeper in the grey gown with the white cap and the ring of keys is the one standing at frame left a few paces off with her hands folded and her kind lined face turned to the young woman; the polished floor gives back the window light; there are exactly two living people in the gallery and one painted face, and the painted face is the one in the gilt frame",
+   "motion": "the young woman's lifted face is the one thing that moves, and the portrait holds still: at the start her face is lifted to the painted face with her lips a little parted; over the first three seconds her head tilts slowly a little to one side and back as she looks, her lips closing and parting again, one hand lifting a little from her side and settling; in the last two seconds her face holds lifted to the portrait; her feet do not shift on the polished floor; the painted face in the gilt frame keeps its slight warm smile and does not change; the housekeeper keeps her hands folded and her kind face turned to the young woman, nothing in her moving; the other portraits along the wall and the tall windows hold completely still; the clear light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "elizabeth",
+    "darcy",
+    "pemberley_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "정원 저편에서 걸어오는 사람은 그녀에게 어떤 얼굴을 보일지 알 수 없다",
+   "visual": "clear summer light on the lawn by the water below the great stone house: the young woman of twenty with the dark brown curls and the bright intelligent face, in the off-white muslin gown with the straw bonnet, is the one standing at frame right on the gravel walk turned half round with one hand at her throat and her lips parted, her eyes on the figure far down the walk; the tall man of twenty-eight with the dark hair, in a dark blue riding coat with the cravat loosened and his hat in his hand, is the one far off at frame left on the gravel walk coming toward her, his figure small and his face too far to read, one hand lifted a little as though in greeting; the tall trees stand along the walk between them with the stone bridge beyond at the far left; the water lies bright at the bottom of the frame; the great stone house rises at the top; there are exactly two people on the walk and the far man's face cannot be read",
+   "motion": "the far man on the walk is the one who moves, and the young woman holds still: at the start he is far off at frame left with one hand lifted a little; over the whole five seconds he walks slowly toward her along the gravel walk with steady steps, his small figure growing only a little larger and his face staying too far to read, the lifted hand lowering slowly to his side and his hat swinging a little in the other hand; the young woman keeps her hand at her throat and her parted lips and her eyes on him, nothing in her moving; the tall trees along the walk, the stone bridge, the bright water and the great stone house hold completely still; the clear light stays even; the straw bonnet on her head does not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "pemberley_garden",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 자갈길 위에 벗어 둔 밀짚 모자 하나",
+   "visual": "clear summer light on the lawn by the water below the great stone house, : the gravel walk runs from the bottom of the frame between the tall trees toward the stone bridge at the far left, empty; on the gravel at frame centre lies a woman's straw bonnet with its ribbons trailing, set down and left; a thick folded letter of cream paper with a broken wax seal lies on the grass beside the walk; the water lies bright at the bottom of the frame; the great stone house rises at the top with its windows catching the sun; the tall trees stand along the walk; the bonnet on the gravel and the letter on the grass are the two things left behind",
+   "motion": "the bonnet's ribbons are the one thing that moves, and the garden holds still: at the start the ribbons trail from the bonnet on the gravel; over the whole five seconds a light wind lifts the trailing ribbons slowly and lets them settle and lifts them again, the bonnet itself not moving on the gravel; the folded letter on the grass keeps its place and does not open; the empty gravel walk, the tall trees, the stone bridge and the bright water hold completely still; the great stone house with its sunlit windows does not change; no figure appears on the walk; the sunlight on the gravel stays even and no shadow of any figure comes across the walk; the water at the bottom of the frame keeps its bright still surface without a ripple; the ribbons settle each time exactly where they lay; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "두 사람이 오해를 풀고 맺어지는 결말과 그 사이 동생이 일으키는 소동",
- "voice": "ko-KR-SeoHyeonNeural"
+ ]
 }

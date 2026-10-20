@@ -1,109 +1,200 @@
 {
-  "logline": "빵 한 조각으로 십구 년을 살고 나온 남자가, 하룻밤 재워 준 집의 은그릇을 훔친다.",
-  "destination": "주교의 식탁 — 그가 다시 붙들려 오는 자리",
-  "protagonist": "짧게 깎은 머리에 누런 죄수 옷을 걸친 마흔 살 사내",
-  "setting": "1810년대 프랑스 시골 마을과 주교의 검소한 집",
-  "anchor": "a hard-faced man of forty, cropped hair, coarse yellow prison coat, heavy boots",
-  "palette": "cold stone grey, warm amber, road dust ochre, deep night blue",
-  "voice": "ko-KR-BongJinNeural",
-  "personas": {
-    "valjean": {
-      "label": "장발장",
-      "desc": "a hard-faced French man of forty, cropped grey-flecked hair, coarse yellow coat, worn boots, canvas sack",
-      "avoid": ""
-    },
-    "bishop": {
-      "label": "주교",
-      "desc": "a slight white-haired French priest in his seventies, simple black cassock, small pectoral cross, calm face",
-      "avoid": "화려한 주교관·금란 예복은 이 인물의 것이 아니다"
-    },
-    "gendarmes": {
-      "label": "헌병들",
-      "desc": "two French gendarmes in dark blue coats with white cross-belts, black bicorne hats, sabres at the hip",
-      "avoid": ""
-    },
-    "bishop_house": {
-      "label": "주교의 집",
-      "desc": "a plain whitewashed room, bare table, two wooden chairs, low ceiling beams"
-    }
+ "logline": "빵 한 조각으로 십구 년을 살고 나온 장발장이 노란 통행증 때문에 여관마다 쫓겨나다 늙은 주교의 집에서 저녁과 침대를 얻고, 밤중에 은수저를 훔쳐 달아났다가 헌병에게 붙들려 돌아오지만, 주교는 그것을 준 것이라 말하고 은촛대 둘까지 손에 쥐여 준다",
+ "destination": "소설 장발장에서 만날 수 있습니다",
+ "protagonist": "valjean",
+ "setting": "1815년 프랑스 남부의 겨울 — 감옥 문 밖 흙길, 마을 여관 앞, 주교의 낮은 집과 식당·골방·뒤뜰",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/jangbaljang/assets",
+ "anchor": "a gaunt grey-bearded man of forty-six in a torn yellow-brown smock with a knapsack and a knotted stick",
+ "palette": "ash grey, dark brown, off-white, dull yellow, dark green",
+ "voice": "",
+ "personas": {},
+ "withheld": "은촛대를 안고 떠난 이가 이름을 바꾸고 시장이 되는 것과, 그를 끝까지 뒤쫓는 형사",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "valjean",
+    "road_snow",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빵 한 조각을 훔친 죄로 장발장이 십구 년을 감옥에서 산다",
+   "visual": "flat grey winter light before a high prison gate of black iron bars set in a wall of grey stone: the gaunt broad-shouldered man of forty-six with the cropped grey hair and the short rough grey beard, in the torn yellow-brown linen smock and the heavy hobnailed shoes, is the one standing just outside the gate at frame centre with the canvas knapsack on one shoulder and the thick knotted stick in his fist, his hard weathered face turned back over his shoulder at the bars; the gate stands half open behind him and the dark yard beyond it is empty; the wall runs off to both edges of the frame with its stones stained dark by rain; the wide dirt road runs away from his feet toward the bare poplars and the milestone; thin patches of old snow lie along the ditch and the mud of the road is frozen in ridges; the wide low grey sky presses down over the wall; he is the only person in the picture",
+   "motion": "the man at the gate is the only one who moves, and the gate holds still: at the start his face is turned back over his shoulder at the bars; over the first three seconds his head comes slowly round from the gate to the road ahead, his shoulders turning after it and the knapsack strap pulling across his chest, his fist tightening on the knotted stick until the knuckles stand out, his hobnailed shoes staying planted in the frozen mud; in the last two seconds he holds facing down the road with his back square to the bars; the half-open gate does not swing, the dark yard behind it stays empty, and the rain-stained wall keeps its exact place; the bare poplars, the milestone and the patches of old snow along the ditch hold completely still; the low grey sky does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "valjean"
-      ],
-      "beat": "사내가 감옥 문을 나서 흙길에 선다.",
-      "visual": "a hard-faced man in a yellow coat stepping out of a studded prison door onto a dusty road",
-      "motion": "the door swings shut behind him, he walks forward down the road, dust lifts at his boots"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "valjean"
-      ],
-      "beat": "여관 문이 그의 눈앞에서 닫힌다.",
-      "visual": "an inn door shut in the face of a man in a yellow coat, shutters closing above him",
-      "motion": "the door slams toward him, a shutter bangs closed overhead, he steps back"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "bishop",
-        "valjean",
-        "bishop_house"
-      ],
-      "beat": "주교가 그를 식탁 앞에 앉힌다.",
-      "visual": "a white-haired priest seating a rough man at a bare table in a plain whitewashed room",
-      "motion": "the priest draws the chair out toward him, soup steams on the table, the lamp flame dips"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "valjean",
-        "bishop_house"
-      ],
-      "beat": "사내가 밤중에 은그릇을 자루에 담는다.",
-      "visual": "a man in a yellow coat sweeping silver plates into a canvas sack in a dark room",
-      "motion": "the plates slide into the sack, his shadow swings across the wall, a shutter creaks"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "gendarmes",
-        "valjean"
-      ],
-      "beat": "헌병들이 그를 붙들어 끌고 온다.",
-      "visual": "two gendarmes marching a bound man in a yellow coat up a village lane at dawn",
-      "motion": "they push him forward up the lane, his sack swings from a gendarme's fist, dust rises"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "bishop",
-        "valjean",
-        "gendarmes"
-      ],
-      "beat": "주교가 은촛대를 들어 그에게 내민다.",
-      "visual": "a white-haired priest holding out two tall silver candlesticks to a rough man in a yellow coat held between two gendarmes",
-      "motion": "the candlesticks come forward toward the man, the gendarmes' hands fall open, dust turns"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "valjean"
-      ],
-      "beat": "사내가 두 손으로 촛대를 받아 든다.",
-      "visual": "a rough man in a yellow coat cupping two silver candlesticks in both hands, doorway light behind",
-      "motion": "his hands close around them, his head lowers, morning light widens behind him"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 식탁에 아침 빛만 든다.",
-      "visual": "a bare wooden table in an empty whitewashed room, two chairs pushed back, morning light",
-      "motion": "morning light creeps across the table, dust turns in the beam, a shutter stirs"
-    }
-  ],
-  "withheld": "장발장이 이름을 바꾸고 시장이 되는 것과, 그를 끝까지 쫓는 자베르와의 결말"
+  {
+   "n": 2,
+   "cast": [
+    "valjean",
+    "road_snow",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "감옥 문을 나선 장발장이 노란 통행증을 들고 흙길에 선다",
+   "visual": "flat grey light on the wide dirt road below the stone town gate: the gaunt man of forty-six with the cropped grey hair and the rough grey beard, in the torn yellow-brown smock, is the one standing in the middle of the road at frame centre with a folded sheet of coarse yellow paper held open in both his hands at the height of his chest, his hard weathered face bent down to it; the canvas knapsack hangs from one shoulder and the knotted stick leans against his hip; the frozen ruts of the road run away behind him between the bare poplars to the town gate, small and grey in the distance; a cart with one horse stands far off by the milestone with its driver's back turned; thin old snow lies in the ditch and along the roots of the trees; the wide low grey sky; he is the only person near the camera",
+   "motion": "the yellow paper in the man's hands is the one thing that moves, and the road holds still: at the start it is held open in both hands at the height of his chest with his face bent to it; over the first three seconds his two hands turn the paper slowly over so that its blank back comes up, and then turn it slowly face up again, his thumbs pressing the creases flat and his bent face following the paper as it turns; in the last two seconds the paper holds open and face up in his hands; his shoulders and his feet do not move and the knotted stick stays leaning against his hip; the far cart and its driver keep their exact place by the milestone; the bare poplars, the frozen ruts, the town gate and the old snow in the ditch hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "valjean",
+    "inn_door",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "노란 통행증을 보고 문을 닫아건 마을의 여관들",
+   "visual": "the last grey light of dusk before the low stone front of the village inn: the heavy wooden door with its iron studs is the one thing at frame centre, closed hard in its frame with the iron ring of its handle hanging still; the gaunt man of forty-six in the torn yellow-brown smock is the one standing a pace from that door at frame left with his back half to the camera and the yellow paper hanging from one hand, his other hand still raised toward the wood where it knocked, the knapsack on his shoulder and the knotted stick under his arm; the lit window of small panes beside the door glows dull yellow and a figure inside is turning away from it; the wooden bench under the window is empty and wet; the packed earth in front of the inn is dark with the day's rain and marked with many feet; he is the only person outside",
+   "motion": "the man's raised hand is the one thing that moves, and the door holds still: at the start it is raised toward the studded wood where it knocked; over the first three seconds the hand comes slowly down from the door, the fingers uncurling as it sinks, until it hangs at his side beside the yellow paper, his shoulders dropping a little with it and his head bending forward toward the closed wood; in the last two seconds he holds there with both hands down and his head bent; the heavy door stays closed in its frame with its iron ring hanging still; the figure inside the lit window keeps its turned-away place and the dull yellow light in the small panes does not change; the wet bench, the marked earth and the stone front of the inn hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "valjean",
+    "bishop_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤이 되자 장발장이 불빛이 새는 어느 집 문을 두드린다",
+   "visual": "night on the doorstep of a low plain house: the house door stands open at frame right and the dull yellow light of the room inside pours out across the step and onto the dark ground; the gaunt man of forty-six with the cropped grey hair and the rough grey beard, in the torn yellow-brown smock, is the one standing on the step at frame centre with the knapsack on his shoulder, the knotted stick in one hand and his other hand still raised with the knuckles toward the open door, his hard weathered face lit from the doorway and his mouth a little open; through the open door behind him there is only the dull yellow glow of the room, warm and even, with no furniture to be made out in it; the ground outside the step is bare frozen earth with nothing standing on it; frost lies white on the ground at the edge of the light and a thin moon hangs over the roof; he is the only person on the step",
+   "motion": "the man on the step is the one who moves, and the doorway holds its light: at the start his hand is raised with the knuckles toward the open door and his mouth is a little open; over the first three seconds the raised hand comes slowly down and his whole body leans a little forward from the waist toward the light, his head bending so that more of his face comes into the dull yellow glow, the knapsack strap sliding a finger's width on his shoulder; in the last two seconds he holds leaning toward the door with his hand down; the light from the doorway keeps the same reach across the step and the dark ground; the even glow inside the door does not change; the frost on the ground and the thin moon over the roof hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "bishop",
+    "valjean",
+    "bishop_house"
+   ],
+   "refs": [],
+   "beat": "그 집의 늙은 주교가 장발장을 식탁에 앉힌다",
+   "visual": "the dull yellow light of the low fire and two candles in the plain dining room: the small old man of seventy-five with the thin white hair, in the plain black cassock and the purple skullcap, is the one standing at frame right with one hand on the back of a rush chair he has drawn out from the long wooden table, his other hand open toward the seat, his kind plain face turned up to the visitor; the gaunt man of forty-six in the torn yellow-brown smock is the one at frame left halted a pace from that chair with the knapsack still on his shoulder and both his hands closed on the knotted stick in front of him, his hard weathered face fixed on the offered seat; the coarse white cloth on the table, a loaf and a jug on it, the whitewashed wall behind with its small crucifix, the low fire in the wide hearth at frame right; the two of them are the only people in the room",
+   "motion": "the old man's open hand is the one thing that moves, and the visitor holds still: at the start it is held open toward the seat of the drawn-out chair; over the first three seconds the hand travels slowly a little further out and down toward the seat, the fingers spreading wider, and then comes to rest on the chair's rush seat with the palm flat, his kind face staying turned up to the visitor and his other hand keeping its hold on the chair back; in the last two seconds the hand stays flat on the seat; the visitor keeps both hands closed on the stick and his feet where they are, his face fixed on the chair; the candle flames stand steady on the table and the low fire keeps its glow; the loaf, the jug, the coarse cloth and the small crucifix on the wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "valjean_indoor",
+    "bishop",
+    "silver",
+    "bishop_house"
+   ],
+   "refs": [],
+   "beat": "식탁에 은수저가 놓이고 은촛대 둘에 불이 켜진다",
+   "visual": "warm light from two tall silver candlesticks standing lit at either end of the long wooden table: the coarse white cloth between them is laid with six silver spoons and six silver forks of plain old pattern in two rows, a silver ladle across a dish of soup, a loaf and a jug; the gaunt man of forty-six in the torn yellow-brown smock is the one sitting on the rush chair at frame left with both his big hands flat on the cloth on either side of a bowl, his hard weathered face down at the silver in front of him and his mouth closed; the small old man in the black cassock is the one sitting at the table's end at frame right with a spoon raised in his thin hand, his kind face turned to the visitor; the low fire glows in the hearth behind them and the whitewashed wall gives back the candlelight; the two of them are the only people at the table; both men sit with nothing on their backs and nothing leaning beside them, and there is exactly one old man in the room",
+   "motion": "the visitor's eyes are the one thing that moves, and the table holds still: at the start his face is down at the silver in front of him with his hands flat on the cloth; over the first three seconds his eyes travel slowly along the row of spoons from his own bowl to the tall candlestick at the far end of the table and back, his head turning a little with them and his hands staying flat, the fingers pressing a little harder into the cloth as the eyes come back; in the last two seconds his eyes hold on the silver by his bowl; the old man keeps the spoon raised in his thin hand with his face turned to the visitor, not moving; the two candle flames stand steady on their silver stems; the spoons, the forks, the ladle, the loaf and the jug keep their places on the coarse cloth; the low fire in the hearth keeps its glow; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "bishop",
+    "valjean",
+    "alcove"
+   ],
+   "refs": [],
+   "beat": "주교가 장발장에게 깨끗한 침대까지 내준다",
+   "visual": "candlelight in the small whitewashed alcove off the dining room: the narrow bed under its white coverlet stands against the wall at frame right with the coverlet turned down at one corner and a clean pillow set square; the small old man of seventy-five in the black cassock and the purple skullcap is the one standing at the foot of the bed at frame centre with the candle in its plain iron holder held up in one hand and his other hand open toward the pillow, his kind face turned to the doorway; the gaunt man of forty-six in the torn yellow-brown smock is the one standing in the alcove's doorway at frame left with the coarse curtain pushed back against his shoulder, the knapsack at his feet and the knotted stick in his hand, his hard weathered face fixed on the white bed; the wooden chair stands beside the bed with nothing on it; the two of them are the only people in the alcove",
+   "motion": "the candle in the old man's hand is the one thing that moves, and the two men hold their places: at the start it is held up in its iron holder at the height of his shoulder with its light on the pillow; over the first three seconds his hand carries the candle slowly across and down toward the bed so that the pool of its light travels over the turned-down coverlet and settles on the white pillow, the shadow of the bed's foot sliding across the whitewashed wall as it goes; in the last two seconds the candle holds low over the bed with its light on the pillow; the visitor keeps his place in the doorway with the curtain against his shoulder and his face on the bed, not moving; the wooden chair, the knapsack on the floor and the white coverlet hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "valjean",
+    "silver",
+    "bishop_house",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "한밤중에 은수저를 자루에 담는 장발장의 손",
+   "visual": "the thin light of the moon through the small window of the dark dining room: a low wooden cupboard stands open at frame centre with its two doors swung back, and the gaunt man of forty-six in the torn yellow-brown smock is the one crouched in front of it with the open mouth of a canvas sack held in his left hand and his right hand inside the cupboard closed round a bundle of silver spoons and forks, his hard weathered face turned toward the closed door of the alcove at frame right and his eyes wide; the two tall silver candlesticks stand unlit on the mantel above the dead hearth at frame left with the moonlight along their stems; the long table with its coarse cloth stands bare behind him; his hobnailed shoes are off and lie beside the knapsack on the floor; he is the only person in the room",
+   "motion": "the man's right hand is the one thing that moves, and the dark room holds still: at the start it is inside the open cupboard closed round the bundle of silver; over the first three seconds the hand draws the silver slowly out of the cupboard and across into the open mouth of the sack, the spoons and forks turning a little in his grip and catching the moonlight as they pass, and the sack sagging lower in his left hand as their weight goes into it; in the last two seconds his right hand stays inside the sack with the silver; his face keeps turned toward the alcove door with his eyes wide, not moving; the two tall candlesticks on the mantel keep their moonlit place and the dead hearth stays dark; the bare table, the open cupboard doors and the shoes by the knapsack hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "valjean",
+    "garden_wall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "장발장이 그 자루를 메고 밤중에 담을 넘어 달아난다",
+   "visual": "the thin moon over the low garden wall of rough stone: the gaunt man of forty-six in the torn yellow-brown smock is the one astride the top of the wall at frame centre with one leg already over on the far side, both hands gripping the rough stones of the coping and the heavy canvas sack slung across his back by its neck, his hard weathered face turned down toward the lane beyond; the bare fruit trees of the garden stand black behind him with frost white on the grass below them and the dark shape of the low house beyond the trees with one small window faintly lit; the wooden gate of the garden stands closed at frame left; the lane on the far side of the wall is dark and empty; the knapsack and the knotted stick are gone from him; he is the only person in the picture",
+   "motion": "the man on the wall is the one who moves, and the garden holds still: at the start he is astride the coping with one leg over and both hands gripping the stones; over the first three seconds his weight shifts slowly across toward the far side, the leg still in the garden lifting slowly up over the coping to join the other, his hands walking a stone's width along the top of the wall and the heavy sack sliding round on his back as he turns; in the last two seconds he holds crouched on the far side of the coping with both legs over and his hands still on the stones; the bare fruit trees, the frost on the grass, the closed wooden gate and the faintly lit window of the house hold completely still; the thin moon does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "gendarmes",
+    "valjean_indoor",
+    "bishop",
+    "bishop_house",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아침에 헌병 셋이 장발장을 붙들어 주교 앞에 세운다",
+   "visual": "cold morning light in the open doorway of the plain house, seen from close behind the men on the step: the small old man of seventy-five with the thin white hair, in the plain black cassock buttoned to his chin and the purple skullcap on his white hair, is the one standing inside the doorway at frame centre facing the camera with both his thin hands raised open before his chest and his kind plain face lifted, his whole face plainly seen; before him on the step with his back to the camera the gaunt man of forty-six in the torn yellow-brown smock is the one standing with his cropped grey head bowed so that only the back of his head and his shoulders show, his hands hanging empty at his sides; at the far left edge and the far right edge of the frame the backs of two gendarmes in dark blue coats with white cross belts and tall black hats stand close and large, cut off by the frame, and from the left gendarme's gloved hand the canvas sack hangs by its neck with the silver showing at its mouth; only the dull green shadow of the room shows behind the old man, and the thawing frost lies wet on the step; the old man in the doorway is the only one whose face is turned to the camera, and the tall black hats are on the gendarmes only",
+   "motion": "the old man's raised hands are the one thing that moves, and the three backs hold still: at the start both thin hands are raised open before his chest; over the first three seconds the two hands come slowly forward and apart toward the bowed man with the palms turned up, his shoulders leaning after them and his kind face lifting a little higher, until the hands are held out level at the height of his own waist; in the last two seconds the hands hold out open toward the bowed man; the three black hats and the three blue backs on the step keep their places with the sack hanging from the gloved hand; the bowed grey head between them does not lift; the coarse cloth on the table behind and the wet frost on the step hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "bishop",
+    "valjean_indoor",
+    "silver",
+    "bishop_house"
+   ],
+   "refs": [],
+   "beat": "주교가 그 은수저는 내가 준 것이라고 말한다",
+   "visual": "cold morning light in the plain dining room: the small old man of seventy-five in the plain black cassock and the purple skullcap is the one standing at frame centre with the canvas sack open in his two thin hands and a silver spoon lifted out of it between finger and thumb, held up so that the morning light runs down its handle, his kind plain face turned toward the door with his mouth a little open in speech; the gaunt man of forty-six in the torn yellow-brown smock is the one standing at frame right with his hands empty at his sides and his head lifted now, his hard weathered face fixed on the old man with his lips parted; at the very left edge of the frame only the dark blue shoulder, the white cross belt and the tall black hat brim of one gendarme show, the rest of him and his fellows out of the picture in the doorway; the long table, the coarse cloth and the two tall silver candlesticks on the mantel behind; exactly two faces in the picture",
+   "motion": "the silver spoon in the old man's fingers is the one thing that moves, and the people hold their places: at the start it is lifted out of the sack between his finger and thumb with the light down its handle; over the first three seconds his hand turns the spoon slowly in the light so that its bowl comes round to face the doorway and then the gaunt man, the light sliding along the handle as it turns, his kind face following it and his mouth staying a little open; in the last two seconds the spoon holds turned toward the gaunt man; the gaunt man keeps his head lifted and his lips parted, not moving; the one blue shoulder and hat brim at the frame's edge do not shift; the open sack in the old man's other hand, the table and the two candlesticks on the mantel hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "bishop",
+    "valjean_indoor",
+    "silver",
+    "bishop_house"
+   ],
+   "refs": [],
+   "beat": "주교가 은촛대 둘까지 장발장의 손에 쥐여 준다",
+   "visual": "cold morning light in the plain dining room: the small old man of seventy-five in the black cassock is the one standing at frame right with the two tall silver candlesticks lifted from the mantel, one in each thin hand, held out by their stems toward the visitor with their wide round feet turned down and their unlit sockets up, his kind face turned up to the taller man; the gaunt man of forty-six in the torn yellow-brown smock is the one standing at frame left with both his big hands half raised and open in front of his chest, not yet touching the silver, his hard weathered face down at the candlesticks with his brows drawn together; the open doorway behind them at the left is empty now and the morning light comes in across the floor; the canvas sack lies on the long table with the spoons and forks spilled out of it onto the coarse cloth; the dead hearth and the small crucifix on the whitewashed wall; the two of them are the only people in the room",
+   "motion": "the two candlesticks in the old man's hands are the one thing that moves, and the visitor holds still: at the start they are held out by their stems toward the visitor a forearm's length from his open hands; over the first three seconds the old man's two hands carry them slowly the rest of the way forward until the cold silver of the stems rests against the visitor's open palms, the wide round feet swinging a little as they come and then hanging still, his thin arms straightening as he gives; in the last two seconds the candlesticks hold pressed into the visitor's palms with the old man's hands still on them; the visitor's open hands and his bent face do not move; the spilled silver on the table, the empty doorway and the morning light across the floor hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "valjean_indoor",
+    "silver",
+    "bishop_house"
+   ],
+   "refs": [],
+   "beat": "촛대를 두 손에 든 장발장이 아무 말도 하지 못한다",
+   "visual": "cold morning light in the plain dining room on the gaunt man of forty-six in the torn yellow-brown smock: he is the one standing at frame centre with a small silver candlestick held up before his chest in each big hand, each candlestick no longer than his forearm from its round foot to its unlit socket, the two round feet resting in his fists and the two sockets rising just level with his rough grey beard, his hard weathered face between them with his mouth open and no sound in it and his eyes wet; the light from the open doorway at frame left lies on one side of his face and down the two short silver stems; behind him the whitewashed wall, the small crucifix high on it and the edge of the long table with the six silver spoons lying in a row on the coarse white cloth, the floorboards under his feet bare; the old man's black sleeve and thin hand show at the very edge of the frame at the right, withdrawn; he is the only person whose face is in the picture, and the two candlesticks are small enough to hold in his fists",
+   "motion": "the man's face between the two small candlesticks is the one thing that moves, and the silver holds still: at the start his mouth is open with no sound in it and his eyes are wet; over the first three seconds his mouth closes slowly and his jaw sets under the rough beard, his brows lifting a little and his wet eyes coming down from the doorway light to the candlestick in his right hand, his chin lowering toward his chest; in the last two seconds he holds with his mouth closed and his eyes down on the silver; the two small candlesticks stay held up before his chest in his fists with their sockets level with his beard, their size not changing; the light from the doorway keeps the same slant across his face; the old man's withdrawn sleeve at the frame edge, the crucifix and the row of spoons on the table hold completely still; the bare floorboards stay bare; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "valjean",
+    "road_snow",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "은촛대 둘을 안고 길을 나선 장발장은 어디로 갔을까",
+   "visual": "flat grey winter light on the wide dirt road out of the stone town gate: the gaunt man of forty-six in the torn yellow-brown smock is the one walking away down the road at frame centre seen from behind, the knapsack on his shoulder and the knotted stick in one hand, and in the crook of his other arm the two small silver candlesticks, unlit and without any flame, held close against his chest with their round feet showing beside his elbow; the frozen ruts of the road run away in front of him between the rows of bare poplars toward a pale horizon, and a plain wooden fence post stands at the verge at frame right; thin old snow lies in the ditch and the low grey sky comes down to the tops of the trees; the town gate is behind the camera and out of the frame; he is the only person on the road",
+   "motion": "the man walking away is the one who moves, and the road holds still: at the start he is a few paces down the road with his back to the camera and the candlesticks in the crook of his arm; over the first three seconds he walks slowly on away down the road at an even pace, the knapsack riding steady on his shoulder, the knotted stick swinging a little forward and planting at each stride, the two round silver feet beside his elbow catching the grey light as he goes, his figure growing only slightly smaller in the frame; in the last two seconds he keeps walking on at the same pace and stays well inside the frame; the frozen ruts, the rows of bare poplars, the milestone at the verge and the old snow in the ditch hold completely still; the low grey sky does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "bishop_house",
+    "silver"
+   ],
+   "refs": [],
+   "beat": "빈 식탁에 아침 빛만 든다",
+   "visual": "cold morning light across the plain dining room with nobody in it: the long wooden table stands at frame centre with its coarse white cloth pulled a little crooked, the six silver spoons and six silver forks laid back in two neat rows on it and the silver ladle across a bare dish; the dead hearth at frame right is a plain stone opening in the whitewashed wall with no shelf above it at all, the wall above the hearth bare whitewash up to the small crucifix, and there is nothing standing on the table but the silver; the rush chair at the near end of the table stands pushed back from it; the door to the garden at frame left stands open and the morning light comes through it in one long bar across the floorboards and up the table leg; the small crucifix on the whitewashed wall; the coarse curtain of the alcove hangs straight; the room is quiet and empty of people",
+   "motion": "the bar of morning light across the floor is the one thing that moves, and the room holds still: at the start it lies across the floorboards from the open door and up the near table leg; over the first three seconds it creeps slowly along the boards toward the hearth, its far edge travelling the width of one board and its light climbing a little higher on the table leg as it goes; in the last two seconds it holds there with its edge on the next board; the crooked cloth, the two rows of silver, the ladle across the dish and the pushed-back chair keep their places; the two round marks in the dust on the bare mantel do not change; the open door, the crucifix on the wall and the straight curtain of the alcove hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

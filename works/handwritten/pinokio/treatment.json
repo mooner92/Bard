@@ -1,109 +1,210 @@
 {
- "logline": "가난한 목수가 깎은 나무 인형이 어느 날 저 혼자 움직이기 시작한다.",
- "destination": "학교로 가는 길 — 인형이 처음으로 스스로 고르는 갈림길",
- "protagonist": "뾰족한 코에 뾰족 모자를 쓴 나무 인형 소년",
- "setting": "19세기 이탈리아의 작은 마을과 목수의 방",
- "anchor": "a carved wooden puppet boy with a pointed nose, jointed limbs and a paper cone hat",
- "palette": "warm pine gold, workshop brown, cool street grey, soft amber",
- "voice": "ko-KR-SunHiNeural",
- "personas": {
-  "puppet": {
-   "label": "나무 인형",
-   "desc": "a carved wooden puppet boy, visible joints at knees and elbows, a long pointed nose, paper cone hat, short trousers",
-   "avoid": "살아 있는 사람 아이가 아니다 — 나뭇결과 이음매가 보인다"
-  },
-  "carpenter": {
-   "label": "목수 할아버지",
-   "desc": "a small round-shouldered Italian man in his sixties, white moustache, leather apron over a patched shirt, spectacles",
-   "avoid": ""
-  },
-  "cat_fox": {
-   "label": "길에서 만난 둘",
-   "desc": "a lanky fox in a torn frock coat and a scruffy cat in a battered hat, both walking upright",
-   "avoid": ""
-  },
-  "workshop": {
-   "label": "목수의 방",
-   "desc": "a cramped carpenter's room, wood shavings on the floor, hand tools on pegs, a small stove"
-  }
- },
+ "logline": "목수 제페토가 통나무를 깎아 만든 나무 인형 피노키오가 저 혼자 일어나 달아나고, 귀뚜라미의 충고에 망치를 들고, 외투를 판 값으로 받은 책 대신 인형극장에 홀려 금화를 받아 여우와 고양이에게 속아 들판에 묻고, 요정 앞에서 거짓말로 코가 길어져 딱따구리에게 쪼이고, 장난감 나라에서 놀다 당나귀 귀가 돋은 채 바닷가에 선다",
+ "destination": "소설 피노키오에서 만날 수 있습니다",
+ "protagonist": "pinocchio",
+ "setting": "19세기 이탈리아의 작은 마을, 가난한 목수의 작업실, 좁은 골목, 인형극장 천막, 밤의 들판, 요정의 흰 방, 장난감 나라의 광장, 저녁 바닷가",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/pinokio/assets",
+ "anchor": "a carved wooden puppet boy with jointed wooden limbs, a round wooden head with a long pointed nose, painted black eyes, a paper cone hat and a short jacket of flowered paper",
+ "palette": "pine yellow, off-white, ash grey, dull red, dark blue",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
-    "carpenter",
-    "workshop"
+    "geppetto",
+    "log",
+    "workshop",
+    "day_bg"
    ],
-   "beat": "목수가 통나무를 깎아 인형을 만든다.",
-   "visual": "an old carpenter carving a puppet from a log at a cluttered workbench, shavings falling",
-   "motion": "his chisel bites into the wood, shavings curl off and drop, the stove glow flickers"
+   "refs": [],
+   "beat": "목수 제페토가 통나무를 깎아 나무 인형을 만든다",
+   "visual": "soft daylight inside the poor carpenter's workshop: the bald old man of sixty with the tufts of white hair over his ears, the white moustache, the brown waistcoat over the white shirt with rolled sleeves and the leather apron is the one sitting on the chair at the wooden workbench at frame centre, the rough pine log the length of an arm clamped in the iron vice before him, a carving knife in his right hand and his left hand steadying the log, the top of the log already cut into the rough shape of a round head with a pointed nose, his kind lined face bent close to it; curled pale pine shavings on the plank floor around the chair, tools hung on the wall behind, the small window at frame right letting in the soft light, the narrow bed in the corner; the workshop is bare of any other person",
+   "motion": "the bald old man in the leather apron at the workbench is the only one who moves, and only his hands: at the start his right hand holds the carving knife against the rough nose of the log and his left hand steadies the log; over the first three seconds the knife shaves slowly down the length of the nose in one long stroke, a curl of pale pine lifting from the blade and dropping toward the floor, his bent face following the stroke; in the last two seconds the knife rests at the end of the nose and his hands hold; his body stays on the chair; the shavings on the floor, the tools on the wall, the window and the bed hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "puppet",
-    "workshop"
+    "pinocchio",
+    "geppetto",
+    "workshop",
+    "day_bg"
    ],
-   "beat": "인형이 작업대 위에서 혼자 일어선다.",
-   "visual": "a wooden puppet standing up by itself on a workbench among tools and shavings",
-   "motion": "the puppet pushes itself upright on the bench, shavings scatter, a tool rocks over"
+   "refs": [],
+   "beat": "그 인형 피노키오가 작업대 위에서 벌떡 일어선다",
+   "visual": "soft daylight inside the poor carpenter's workshop: the carved wooden puppet boy with the jointed wooden limbs, the round wooden head with the long pointed nose, the paper cone hat and the short jacket of flowered paper is the one standing upright on top of the wooden workbench at frame centre on his wooden feet, both jointed arms held out stiffly from his sides for balance, his painted black eyes wide and his painted red mouth open; the bald old man of sixty with the white moustache and the leather apron is the one sitting on the chair at frame right below the bench with his carving knife dropped in his lap, both hands raised open beside his face and his mouth open; only the puppet stands on the bench and is made of wood, only the old man has a moustache and sits; curled pale pine shavings on the floor, the tools on the wall, the small window",
+   "motion": "the carved wooden puppet boy standing on the workbench is the one who moves, and the old man on the chair holds his raised hands: at the start the puppet's jointed arms are held out stiffly for balance; over the first two seconds the puppet's stiff arms wave slowly up and down once and his wooden knees bend and straighten, his body wobbling a little on the bench, the paper cone hat tipping and settling; in the last two seconds he holds upright with the arms out; his wooden feet stay planted on the bench; the old man keeps both hands raised beside his face and his mouth open, his body not rising from the chair; the shavings, the tools, the window and the bed hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "puppet",
-    "carpenter"
+    "pinocchio",
+    "geppetto",
+    "street",
+    "day_bg"
    ],
-   "beat": "인형이 문밖으로 달아나고 목수가 뒤쫓는다.",
-   "visual": "a wooden puppet bolting through a doorway into a street, an old carpenter behind it",
-   "motion": "the puppet runs out through the door away from him, his apron flaps, dust lifts"
+   "refs": [],
+   "beat": "문밖으로 달아나는 피노키오와 허둥지둥 뒤쫓는 제페토",
+   "visual": "soft daylight in the narrow street of the small Italian hill village, seen from the side: the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one running on the cobblestones at frame left with his body turned to the left along the street, one wooden leg stretched forward in a long stiff stride and both jointed arms swung back, his long pointed nose leading; the bald old man of sixty with the white moustache and the leather apron is the one running behind him at frame right with his body turned the same way, one arm reaching forward toward the puppet and his wooden clogs lifting from the stones, his kind lined face open in a shout; only the puppet is made of wood and wears a paper hat, only the old man has a moustache; the plastered walls of ochre and ash grey, the arched doorways, the stone fountain behind them",
+   "motion": "the carved wooden puppet boy and the bald old man are the ones who move, both from right to left along the street: at the start the puppet is in a long stiff stride with his arms swung back and the old man is a pace behind with his arm reaching; over the first three seconds the puppet takes three quick stiff strides to the left, his jointed limbs clacking, and the old man takes two laboured steps after him with his arm still reaching, his clogs lifting; in the last two seconds both slow and stop well inside the frame with the pace between them the same; the plastered walls, the arched doorways, the stone fountain and the cobblestones hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
-    "puppet",
-    "carpenter"
+    "pinocchio",
+    "mallet",
+    "workshop",
+    "night_bg"
    ],
-   "beat": "목수가 제 외투를 팔아 책 한 권을 쥐여 준다.",
-   "visual": "an old man in shirtsleeves pressing a book into a wooden puppet's hands on a cold street",
-   "motion": "the book passes into the puppet's hands, the man's breath clouds, wind pulls his shirt"
+   "refs": [],
+   "beat": "귀뚜라미가 타이르자 피노키오가 망치를 집어 든다",
+   "visual": "night inside the poor carpenter's workshop: the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one standing on the plank floor at frame right with the wooden mallet with the thick round head already raised in his right jointed hand above his shoulder and held completely motionless, his painted black eyes turned to the wall, his painted red mouth pulled down; the small dark brown cricket with the long thin antennae is the one clinging to the plastered wall at frame left at the height of the puppet's head, its antennae pointed toward the puppet; a candle flame on the workbench throwing dull yellow light; the tools on the wall, the shavings on the floor, the narrow bed in the corner; the cricket is the only insect in the room, and there is one cricket",
+   "motion": "the small dark brown cricket on the wall is the one that moves, and the puppet holds the mallet raised: at the start the cricket clings to the wall with its antennae pointed toward the puppet; over the first three seconds the cricket's long antennae wave slowly up and down and its head turns a little toward the puppet, its folded wings lifting and settling once; in the last two seconds the antennae hold; the wooden puppet keeps the mallet raised above his shoulder and completely motionless for the whole shot, his wooden feet planted, his painted eyes on the cricket; the candle flame flickers faintly; the tools, the shavings and the bed hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
-    "puppet",
-    "cat_fox"
+    "geppetto",
+    "pinocchio",
+    "book",
+    "workshop",
+    "day_bg"
    ],
-   "beat": "길에서 여우와 고양이가 앞을 막아선다.",
-   "visual": "an upright fox in a frock coat and a cat in a battered hat blocking a puppet on a lane",
-   "motion": "the two step into the puppet's path toward it, the fox's tail sweeps, dust rises"
+   "refs": [],
+   "beat": "제페토가 외투를 팔아 피노키오에게 책 한 권을 사 준다",
+   "visual": "soft daylight inside the poor carpenter's workshop: the bald old man of sixty with the white moustache is the one standing at frame right in only his white shirt with the rolled sleeves and the leather apron, his shoulders hunched and his arms wrapped around himself against the cold, his kind lined face smiling down; the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one standing at frame left holding the small book bound in plain grey cloth with the bare cover in both jointed hands against his chest, his painted black eyes turned up to the old man; only the old man has a moustache and an apron, only the puppet is made of wood; the workbench with the iron vice behind them, the tools on the wall, the small window, the narrow bed",
+   "motion": "the bald old man in the white shirt and the leather apron is the one who moves, and the puppet holds the book: at the start his arms are wrapped around himself and his face is smiling down; over the first two seconds his right hand lifts slowly from his arm and rests on the top of the puppet's paper cone hat, his shoulders staying hunched; in the last two seconds the hand holds on the hat; his clogs stay planted; the wooden puppet keeps the grey book against his chest in both hands and his painted eyes turned up; the workbench, the tools, the window and the bed hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "puppet",
-    "cat_fox"
+    "pinocchio",
+    "book",
+    "theatre",
+    "day_bg"
    ],
-   "beat": "인형이 책을 내주고 반짝이는 것을 받는다.",
-   "visual": "a wooden puppet handing over a book and taking coins from a fox's paw on a lane",
-   "motion": "the book leaves its hands, coins drop into its palm, the cat leans in closer"
+   "refs": [],
+   "beat": "학교 가는 길에 북소리에 이끌려 인형극장 앞에 선 피노키오",
+   "visual": "soft daylight in the small cobblestone square before the puppet theatre tent of red and white striped canvas: the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one standing on the cobblestones at frame left with the small grey cloth-bound book hanging from one jointed hand at his side, his body turned toward the tent and his long pointed nose lifted toward it, his painted black eyes wide; the drum on its wooden stand stands at the tent's entrance at frame right with a drumstick resting on its skin, the small wooden stage behind the open flap of the striped canvas; the square is bare of any other person",
+   "motion": "the carved wooden puppet boy on the cobblestones is the only one who moves: at the start the grey book hangs from his hand at his side and his nose is lifted toward the tent; over the first three seconds he takes two slow stiff steps toward the tent from left to right, his jointed knees clacking, the book swinging a little from his hand, his painted eyes staying on the drum; in the last two seconds he comes to a stop well inside the frame short of the drum; the drum, the drumstick, the striped canvas and the small stage hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "puppet"
+    "fire_eater",
+    "pinocchio",
+    "theatre",
+    "night_bg"
    ],
-   "beat": "인형의 코가 조금씩 길어진다.",
-   "visual": "a wooden puppet alone on a road, its pointed nose noticeably longer, hands half raised",
-   "motion": "the nose grows outward a little further, its hands lift toward its face, dust drifts"
+   "refs": [],
+   "beat": "인형극 주인이 피노키오에게 금화 다섯 닢을 준다",
+   "visual": "night inside the puppet theatre tent before the small wooden stage: the huge man with the long black beard reaching to his belt, the red cloak over the dark jacket and the wide black hat is the one standing at frame right bent forward from his great height, his right hand held out open with the five small gold coins each as wide as a fingertip lying in his open hand; the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one standing at frame left with both jointed hands held up open under the huge hand, his painted black eyes fixed on the coins; only the huge man has a beard and a cloak, only the puppet is made of wood; the red and white striped canvas behind, the small wooden stage, a lantern's dull yellow light; all five coins are in the man's open hand and the stage boards at the puppet's feet are bare wood",
+   "motion": "the huge bearded man in the red cloak is the one who moves, and the puppet holds his hands up: at the start his open right hand holds the five gold coins above the puppet's hands; over the first two seconds his hand tilts slowly and the five coins slide one after another from his open hand into the puppet's open wooden hands with small clinks; in the last two seconds his hand draws back a little and the coins lie in the puppet's hands; his boots stay planted; the puppet keeps both hands up and his painted eyes on the coins, his wooden feet not shifting; the striped canvas, the stage and the dull yellow lantern light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 길바닥에 책 한 권이 떨어져 있다.",
-   "visual": "a dropped book lying open on an empty dirt road at dusk, pages stirring, hedgerow beyond",
-   "motion": "the pages lift and turn in the wind, dust blows across the road, light fades"
+   "cast": [
+    "pinocchio",
+    "fox",
+    "cat",
+    "street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "돌아오는 길에 피노키오가 여우와 고양이를 만난다",
+   "visual": "soft daylight in the narrow street of the small Italian hill village: the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one standing on the cobblestones at frame left with one jointed hand pressed against the pocket of his paper jacket, his painted black eyes turned to the animals; the lean red fox with the white chest and the bushy tail is the one standing on all fours at frame centre-right with its head raised toward the puppet and its mouth open, and the grey tabby cat with the pale green eyes is the one sitting on all fours beside the fox at frame right; only the puppet stands upright, the fox and the cat are plain animals on four legs; the plastered walls of ochre and ash grey, an arched doorway, the stone fountain behind",
+   "motion": "the lean red fox is the one that moves, and the puppet and the cat hold still: at the start the fox's head is raised toward the puppet with its mouth open; over the first three seconds the fox takes one slow step closer to the puppet on its four legs and its head bobs slowly twice as its mouth opens and closes, its bushy tail sweeping once across the cobblestones; in the last two seconds the fox holds with its head raised; the puppet keeps his hand pressed to his pocket and his painted eyes on the fox, his wooden feet not shifting; the grey cat stays sitting, only its ears turning; the walls, the doorway and the fountain hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "pinocchio",
+    "field",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "둘의 꼬임에 넘어가 들판에 금화를 묻은 피노키오",
+   "visual": "night in the bare dark field beside the low stone wall: the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one kneeling on the turned earth at frame centre with both jointed hands pressed flat on a small mound of fresh earth, the five small gold coins showing half buried in the top of the mound between his hands, his painted black eyes turned down to them; the single bare-branched tree at frame right, the low stone wall behind, the dark blue night sky with a few small pale stars; the field is bare of any other figure",
+   "motion": "the carved wooden puppet boy kneeling at the mound is the only one who moves, and only his hands: at the start both jointed hands are pressed flat on the mound with the coins half showing; over the first three seconds his hands scrape loose earth slowly over the coins from both sides until the gold is covered, then pat the mound flat twice; in the last two seconds the hands rest on the flattened mound; his wooden knees stay on the earth, the paper cone hat still; the bare tree, the stone wall and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "fairy",
+    "pinocchio",
+    "fairy_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "요정 앞에서 피노키오가 거짓말을 하자 코가 쑥 길어진다",
+   "visual": "soft daylight inside the small white room: the young woman with the long turquoise-blue hair falling to her waist and the pale blue gown is the one sitting on the plain chair at frame right with her hands folded in her lap, her pale serene face turned to the puppet; the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one standing before her at frame left with his painted red mouth open in speech, and his long pointed nose is now grown to the length of his forearm, reaching out across the space toward her; only the woman has long turquoise hair and sits, only the puppet is made of wood; the bed under the white canopy behind, the window with the pale blue shutters, the wooden chest",
+   "motion": "the carved wooden puppet boy standing before the chair is the one who moves, and only his nose and mouth, while the woman holds still: at the start his painted mouth is open in speech and his nose reaches out the length of his forearm; over the first three seconds the pointed wooden nose grows slowly longer, extending steadily a hand's width further toward the woman as his mouth moves; in the last two seconds the nose holds at its new length and his mouth closes; his jointed arms hang still, his wooden feet stay planted; the young woman keeps her hands folded and her serene face turned to him; the canopy bed, the shuttered window and the chest hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "woodpeckers",
+    "pinocchio",
+    "fairy_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "길어진 코를 딱따구리들이 쪼아 줄인다",
+   "visual": "soft daylight inside the small white room, close: the carved wooden puppet boy with the round wooden head, the paper cone hat and the painted black eyes is the one standing at frame left with his long pointed wooden nose stretched right across the frame to the far right edge, as long as his whole body, his painted mouth pulled down; the flock of small woodpeckers with the red caps and the black-and-white barred wings are the ones clinging to the long nose itself, three standing on its upper side and three hanging under it, their claws gripping the wood of the nose, their beaks hammering it with pale chips flying; the window with the pale blue shutters behind, the white canopy of the bed at the edge of the frame; every woodpecker in the room is on the long wooden nose itself, its claws in the wood of the nose",
+   "motion": "the six small woodpeckers along the nose are what move, and the puppet holds still: at the start the woodpeckers' beaks are pressed to the wood of the nose; over the whole shot the woodpeckers hammer their beaks steadily at the nose in quick small taps, pale chips flying from the wood, the far end of the nose slowly shortening a finger's width at a time toward the puppet's face; the puppet keeps his painted mouth pulled down and his painted eyes crossed toward the nose, his feet planted, the paper hat still; the shuttered window and the canopy hold completely still; no bird flies off; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "pinocchio",
+    "boys",
+    "toyland",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "학교 대신 장난감 나라에서 놀기만 한 피노키오",
+   "visual": "soft daylight in the village square full of spinning tops, rolling hoops and kites on strings: the carved wooden puppet boy with the jointed wooden limbs, the paper cone hat and the short jacket of flowered paper is the one running at frame centre with a rolling hoop and a stick in his jointed hands, his body turned to the right, his painted mouth open in a laugh; the crowd of boys of ten in flat caps and short jackets are the ones running and shouting around him at frame left and right with tops and hoops; only the puppet is made of wood and wears a paper hat; coloured flags on lines between the plastered houses above, kites on strings in the pale sky",
+   "motion": "the carved wooden puppet boy with the hoop is the one who moves, and the boys around him only sway: at the start he is running with the hoop rolling beside him and the stick in his hand; over the first three seconds he takes three stiff strides to the right driving the hoop with the stick, the hoop rolling ahead a little and wobbling, his paper hat bobbing; in the last two seconds he slows and stops well inside the frame with the hoop caught against the stick; the boys around him keep their places with their tops and hoops, swaying a little, none running; the coloured flags stir slightly; the kites and the plastered houses hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "pinocchio",
+    "donkey_ears",
+    "fairy_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어느 아침 피노키오의 머리에 당나귀 귀가 돋아 있다",
+   "visual": "soft daylight inside the small white room, close on the puppet: the carved wooden puppet boy with the round wooden head, the long pointed nose, the painted black eyes and the painted red mouth is the one sitting up in the bed under the white canopy at frame centre with the paper cone hat fallen beside him on the quilt, and on top of his round wooden head are the two long grey donkey ears with the pink insides standing up on either side, both his jointed wooden hands raised and gripping the ears; his painted eyes wide and his painted mouth open; the window with the pale blue shutters at frame right, the wooden chest at the foot of the bed",
+   "motion": "the carved wooden puppet boy sitting up in the bed is the only one who moves: at the start both jointed hands grip the two long grey donkey ears on his head; over the first two seconds his hands tug the ears slowly upward and the ears stretch a little and spring back, his round head tilting from side to side, his painted mouth opening wider; in the last two seconds his hands hold gripping the ears and his head holds tilted; his body stays in the bed; the paper hat lies still on the quilt; the canopy, the shuttered window and the chest hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "pinocchio",
+    "donkey_ears",
+    "beach",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "당나귀 귀를 단 나무 인형은 정말 사람 아이가 될 수 있을까 (질문)",
+   "visual": "dusk on the sandy beach: the carved wooden puppet boy with the jointed wooden limbs, the short jacket of flowered paper and the two long grey donkey ears standing up from his round wooden head is the one standing alone at the water's edge at frame centre with his back three-quarters to the camera, the back of his head and the ears toward the camera and his head held straight ahead toward the dark blue sea, his jointed arms hanging, the paper cone hat gone; small waves run up the sand to his wooden feet; the wooden rowing boat pulled up on the sand at frame left, the dark blue sea to the horizon under the dusk sky of dull violet grey with the faint dull yellow band; the beach is bare of any other figure",
+   "motion": "the sea is what moves, and the puppet holds still with his back to the camera: at the start small waves run up the sand toward his wooden feet; over the first three seconds one small wave slides slowly up the sand and washes around his wooden feet with a thin edge of foam and slides back, the long donkey ears stirring slightly in the wind; in the last two seconds the water draws back and the foam thins; his arms hang still, his head stays straight ahead toward the sea, no turn; the rowing boat, the horizon and the dusk sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "log",
+    "workshop",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "대팻밥만 남은 목수의 작업실 (마무리)",
+   "visual": "night inside the poor carpenter's workshop: the wooden workbench with the iron vice stands at frame centre with curled pale pine shavings scattered over its top and heaped on the plank floor beneath it, a carving knife lying on the bench, a short leftover piece of the rough pine log with bark on one side lying beside the vice, the tools hung on the wall behind, the small window showing the dark blue night sky with a few small pale stars, the narrow bed in the corner with its quilt flat; the workshop is bare of any person",
+   "motion": "a single curl of pine shaving is what moves, and the rest of the workshop holds completely still: at the start the curled pale pine shavings lie scattered over the top of the workbench and heaped on the plank floor beneath it; over the first three seconds a faint draught rolls one curled shaving slowly across the bench top from left to right, turning it over once, until it tips over the edge of the bench and drifts slowly down through the air onto the heap on the floor; in the last two seconds it settles among the others and the draught dies; the carving knife on the bench, the leftover piece of rough pine log with its bark, the iron vice, the tools hung on the wall, the small dark window with its few pale stars and the flat quilt on the narrow bed do not stir; nothing enters the workshop; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "인형이 진짜 아이가 되는 과정과, 고래 뱃속에서 목수를 다시 만나는 결말"
+ "withheld": "고래 뱃속에서 목수를 다시 만나 진짜 아이가 되는 결말"
 }

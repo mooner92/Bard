@@ -1,0 +1,175 @@
+{
+ "logline": "청파동 골목 모퉁이의 작은 편의점과 밤 계산대의 낯선 사내 — 이웃들의 속내가 풀리는 밤",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "clerk",
+ "setting": "서울 청파동의 오래된 골목과 그 모퉁이의 작은 편의점, 밤",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/bulpyeonhan_pyeonuijeom/assets",
+ "anchor": "a very large quiet Korean man of forty with heavy shoulders and a short beard, in a striped store vest over a plain shirt",
+ "palette": "off-white, dark blue, dull yellow, ash grey, dark brown",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "alley",
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "동네 이야기 두 번째 — 골목의 편의점",
+   "visual": "the small convenience store glowing at the corner of the dark alley at night, its glass front lighting the wet pavement, the plastic table and chairs outside, the streetlamp above; no people",
+   "motion": "the glow of the glass front holds steady on the wet pavement and the streetlamp hums, a leaf skidding past the table; the camera holds on the corner store"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "alley",
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "청파동 골목 모퉁이",
+   "visual": "the alley in daylight: old two-storey houses and low brick walls, stone steps, a parked scooter, the small store at the corner with its glass front and shelves visible; no people",
+   "motion": "sunlight moves slowly down the brick walls of the alley and a curtain in an upstairs window stirs; the camera holds on the alley and the corner store"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "alley"
+   ],
+   "refs": [],
+   "beat": "힘겨운 시대를 견디는 이웃들",
+   "visual": "a woman pulling a shopping trolley up the stone steps of the alley and an old man sitting on a low wall with a cane, both in worn everyday clothes, the houses close around them; exactly two people",
+   "motion": "the trolley wheels climb one step at a time and the old man's cane taps the wall, the alley holding still; the camera holds on the two neighbours"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "밤늦게 들르는 작은 편의점",
+   "visual": "night: a young woman in a coat pushing open the glass door of the store, the light spilling out around her onto the pavement, the shelves bright inside; exactly one woman",
+   "motion": "the glass door swings slowly open and the light spreads further across the pavement around the woman; the camera holds on the door"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "owner",
+    "clerk",
+    "store_in"
+   ],
+   "refs": [],
+   "beat": "여사님과 밤 계산대의 낯선 사내",
+   "visual": "inside the store, the owner holding out a striped store vest across the counter to the clerk, who stands with his big hands at his sides looking down at the vest; exactly two people",
+   "motion": "the owner's hands push the vest a little further across the counter and the clerk's big hands lift slowly to take it; the camera holds on the counter"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "clerk",
+    "store_in"
+   ],
+   "refs": [],
+   "beat": "말이 느리고 덩치가 큰 사내",
+   "visual": "the clerk seen from behind stocking a shelf with drink cans one at a time, his broad back filling the narrow aisle, the store vest tight on his shoulders; exactly one man",
+   "motion": "the clerk's hand sets one can and then the next on the shelf, his broad back shifting slowly in the aisle; the camera holds on the back and the shelf"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "clerk",
+    "store_in"
+   ],
+   "refs": [],
+   "beat": "사내 곁에서 풀리는 손님들의 속내",
+   "visual": "the clerk behind the counter listening with his head slightly tilted while an office worker with a loosened tie leans on the counter talking, a cup of instant noodles steaming between them; exactly two people",
+   "motion": "steam rises from the cup between them as the office worker's hand moves while he talks and the clerk's tilted head holds still; the camera holds on the two at the counter"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "서로 다른 형편과 나이와 사정",
+   "visual": "night outside the store: a man in a suit sitting alone at the plastic table with a can and a cup of noodles, his briefcase on the other chair, the glass front glowing behind him; exactly one man",
+   "motion": "the man's chopsticks lift slowly from the cup and the glow behind him holds, a moth circling the light; the camera holds on the man at the table"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "owner",
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "조금 불편하고 조금 따뜻한",
+   "visual": "the owner sitting at the plastic table outside with a middle-aged woman customer, two paper cups of coffee between them, the owner's hand resting on the customer's arm; exactly two women",
+   "motion": "the owner's hand pats the customer's arm gently and steam drifts from the two paper cups; the camera holds on the two women"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "clerk",
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "계층을 넘어 말을 거는 일",
+   "visual": "the clerk holding the glass door open with one big hand for an old man with a cane stepping out with a small plastic bag, the clerk's head bowed a little; exactly two men",
+   "motion": "the old man's cane steps slowly over the threshold and the clerk's hand holds the door wide; the camera holds on the doorway"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "store_in"
+   ],
+   "refs": [],
+   "beat": "유머와 온기 — 커피 두 잔",
+   "visual": "close on the store counter: two paper cups of instant coffee side by side with steam rising, a small spoon resting on a paper napkin, the kettle behind; no people",
+   "motion": "steam rises and curls from the two cups and the light on the counter shifts slightly; the camera holds close on the two cups"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "두 권으로 이어진 이야기",
+   "visual": "close on the store's glass front from outside at night, fogged with condensation, a hand inside wiping a clear patch through which the bright shelves show; exactly one hand",
+   "motion": "the hand wipes the patch wider and the bright shelves show clearer through the fogged glass; the camera holds close on the glass"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "alley",
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "밤에도 꺼지지 않는 골목의 불",
+   "visual": "wide view of the dark alley at night with every house window dark and only the store at the corner glowing, the streetlamp and the store light on the wet pavement; no people",
+   "motion": "the store's glow holds steady as the streetlamp flickers once, rain beginning to speckle the pavement; the camera holds on the dark alley"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "clerk",
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "여러분의 동네에도 있나요",
+   "visual": "the clerk standing inside the store looking out through the glass front straight at the camera with a faint smile, his big hands folded in front of the vest; exactly one man",
+   "motion": "the clerk's faint smile widens slightly and his folded hands stay still, the shelves bright behind him; the camera holds on the man behind the glass"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "store_out"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽 편의점 앞 스틸",
+   "visual": "closing still: the plastic table and two chairs outside the store at dawn, an empty paper cup on the table, the glass front still glowing faintly against the grey light",
+   "motion": "the camera stays low and still, level with the plastic table, the empty paper cup and the two chairs filling the frame; the grey dawn light brightens evenly on the pavement and nothing else in the scene changes"
+  }
+ ],
+ "withheld": ""
+}

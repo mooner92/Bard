@@ -1,0 +1,187 @@
+{
+ "logline": "음악회 층층대 밑에서 뒤로 눈을 가린 손과 내가 누구예요 — 추남 학수가 하룻밤 입은 사랑의 은총",
+ "destination": "소설 까막잡기에서 만날 수 있습니다",
+ "protagonist": "haksu",
+ "setting": "1920년대 봄밤의 서울 — 하숙방, 종로 청년회관 음악회, 캄캄한 층층대, 초승달 뜬 종로 거리, 사동 부인 상회",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/kkamakjapgi/assets",
+ "anchor": "a Korean student of twenty-two in a black student uniform with a stand-up collar, a sun-darkened rough face with a very wide mouth, a flat nose and high jutting cheekbones, cropped black hair",
+ "palette": "ash grey, dark brown, off-white, black, dull yellow",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "sangchun",
+    "haksu",
+    "room"
+   ],
+   "refs": [],
+   "beat": "저녁상 앞의 미남 상춘과 추남 학수 — 음악회 꼬드김",
+   "visual": "two young men sitting on the floor of the rented room after supper, the low table pushed aside: the handsome Sangchun leaning forward eagerly with one hand raised as he talks, the plain Haksu sitting with his arms folded and his brow furrowed; exactly two men",
+   "motion": "Sangchun's raised hand gestures wider as he talks and Haksu's folded arms tighten, the bulb swaying slightly above; the camera holds on the two men"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "haksu",
+    "sangchun",
+    "room"
+   ],
+   "refs": [],
+   "beat": "여학생 구경도 딱 싫다 — 찡그린 학수",
+   "visual": "close on Haksu turning his face away with a deep scowl, his wide mouth pressed shut, while Sangchun paces behind him with a dreamy smile and his hands clasped behind his back; exactly two men",
+   "motion": "Haksu's scowl deepens and his face turns further away while Sangchun's pacing carries him past behind; the camera holds on the scowling face"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "haksu",
+    "sangchun",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "봄밤 달빛 — 끌려가는 소처럼 따라나선 학수",
+   "visual": "Haksu trudging with hunched shoulders and a downcast face across the moonlit courtyard toward the gate, Sangchun ahead of him at the open gate beckoning with a wide smile; exactly two men",
+   "motion": "Haksu's hunched steps drag across the courtyard and Sangchun's beckoning hand waves at the gate, moonlight steady on the wall; the camera holds on the two men"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "hall"
+   ],
+   "refs": [],
+   "beat": "청년회관 음악회 — 트레머리 여학생의 꽃밭",
+   "visual": "the packed concert hall seen from the back: the women's section filled with dark loose buns and white jeogori collars, the men's benches on the other side, the small orchestra playing on the lit stage",
+   "motion": "bows move on the stage and heads in the women's section turn slightly toward the music, the lamps glowing steady; the camera holds on the packed hall"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "haksu",
+    "sangchun",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "여자석에 등 돌린 학수 — 진땀, 변소",
+   "visual": "Haksu on the front bench hunched with his shoulders turned away from the women's section, sweat on his brow and his scowl fixed, one hand pressed to his stomach, while Sangchun beside him gazes across the aisle with a rapt smile; exactly two men in front",
+   "motion": "sweat beads on Haksu's brow as his hand presses tighter to his stomach, Sangchun's rapt gaze holding across the aisle; the camera holds on the two on the bench"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "haksu",
+    "stairs"
+   ],
+   "refs": [],
+   "beat": "악단 옆 문 — 캄캄한 층층대를 더듬어 내려감",
+   "visual": "Haksu alone feeling his way down the dark stairwell with one hand flat on the bare wall and the other stretched ahead, his eyes wide in the gloom, a faint light from the door above; exactly one man",
+   "motion": "Haksu's hand slides along the wall and his stretched fingers grope ahead as he steps down, the light from above staying faint; the camera holds on the man on the stairs"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "girl",
+    "haksu",
+    "stairs"
+   ],
+   "refs": [],
+   "beat": "싸늘한 손이 눈을 가림 — 내가 누구예요?",
+   "visual": "at the foot of the stairwell seen in profile, the young woman standing close behind Haksu on tiptoe with both her hands covering his eyes, her round face smiling beside his ear, Haksu standing rigid with his mouth open and his arms stiff at his sides; exactly two people, the woman behind the man",
+   "motion": "the woman's hands press over Haksu's eyes and her smiling face tips closer to his ear, his open mouth and stiff arms holding; the camera holds on the two at the foot of the stairs"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "girl",
+    "haksu",
+    "stairs"
+   ],
+   "refs": [],
+   "beat": "보얀 얼굴 — 에그머니! 달아남",
+   "visual": "the young woman running away down the dim corridor with her skirt gathered in one hand and her other hand over her mouth, Haksu left standing at the foot of the stairs with his hand raised to his own cheek and his eyes wide; exactly two people",
+   "motion": "the woman's running figure grows smaller down the corridor and Haksu's raised hand touches his cheek, his wide eyes fixed after her; the camera holds on the man left behind"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "haksu",
+    "stairs"
+   ],
+   "refs": [],
+   "beat": "애인으로 여긴 까막잡기 — 번쩍이는 얼굴",
+   "visual": "Haksu alone at the foot of the stairs, a wide smile spreading over his rough face, both hands pressed to his own eyes, the faint light from above on his face; exactly one man",
+   "motion": "Haksu's hands slide down from his eyes and his wide smile broadens, the light from above holding on his face; the camera holds on the smiling face"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "haksu",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "여학생 구두코를 밟고 — 애교 넘치는 사과",
+   "visual": "Haksu back in the bright hall bowing with a beaming grin to a seated young woman in a white jeogori whose shoe he has stepped on, the woman ducking her head and covering her laugh with one hand, her friend beside her leaning to whisper; exactly one man and two women",
+   "motion": "Haksu's beaming bow dips again and the seated woman's shoulders shake with laughter behind her hand, her friend leaning closer; the camera holds on the bowing man"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "haksu",
+    "hall"
+   ],
+   "refs": [],
+   "beat": "여자석을 훑으며 그이를 찾음",
+   "visual": "Haksu seated at the end of the bench with his body twisted toward the women's section, his eyes searching along the rows of young women one after another, his brow knotted and his mouth half open; exactly one man in front",
+   "motion": "Haksu's searching eyes travel along the rows and his knotted brow lifts and settles, the women's heads staying turned to the stage; the camera holds on the searching face"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "sangchun",
+    "haksu",
+    "street"
+   ],
+   "refs": [],
+   "beat": "청년회관 문 앞 — 나오지 않는 그이",
+   "visual": "the two young men standing under the lit double doors of the hall at night while the last of the crowd disperses past them, a young woman walking straight past Sangchun without a glance, Haksu peering into each passing face; exactly two men in front",
+   "motion": "the crowd thins past the doorway and the young woman walks straight on past Sangchun, Haksu's head turning after each passing face; the camera holds on the two at the doors"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "haksu",
+    "sangchun",
+    "street"
+   ],
+   "refs": [],
+   "beat": "초승달 아래 — 상춘의 눈을 감긴 학수",
+   "visual": "on the empty night street under the crescent moon, Haksu standing behind Sangchun with both hands clapped over Sangchun's eyes and a huge grin, Sangchun's mouth open in surprise and his hands lifted; exactly two men, one behind the other",
+   "motion": "Haksu's hands press over Sangchun's eyes and his grin widens, Sangchun's lifted hands waving in surprise, the poplars stirring; the camera holds on the two men"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "sangchun",
+    "haksu",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "부인 상회 거울 앞으로 — 어떻게 끝났을까",
+   "visual": "inside the small ladies' goods shop at night, Sangchun with a sly smile pulling the grinning Haksu by the sleeve toward the tall mirror of the dressing table, the mirror turned at an angle so it shows only the bulb and the shelves; exactly two men",
+   "motion": "Sangchun's tug on the sleeve draws Haksu a step nearer the mirror and Haksu's grin holds, the bulb glowing in the angled glass; the camera holds on the two men and the mirror"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "street"
+   ],
+   "refs": [],
+   "beat": "마무리 — 밤 종로의 닫힌 회관 문과 초승달 스틸",
+   "visual": "closing still: the empty Jongno street at night, the double doors of the brick hall dark and closed, a single electric lamp on a wooden telegraph pole, poplars along the road, the thin crescent moon low in the sky",
+   "motion": "the crescent moon hangs steady and the lamp glows on the pole, poplar leaves stirring; the camera closes with great patience on the dark doors and the moon"
+  }
+ ],
+ "withheld": "거울 속 아귀 같은 상판이 제 얼굴임을 알고 그믐밤같이 캄캄해진 눈앞"
+}

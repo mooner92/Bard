@@ -1,101 +1,209 @@
 {
-  "logline": "형에게 쫓겨난 아우가 다친 제비를 고쳐 주고, 그 제비가 박씨 하나를 물어다 준다.",
-  "destination": "초가 지붕 위에 열린 커다란 박 — 톱질 끝에 무엇이 나올지",
-  "protagonist": "누더기 무명옷에 상투를 튼 마흔 살 가난한 사내",
-  "setting": "조선 시대의 가난한 초가와 형의 기와집",
-  "anchor": "a poor Korean man of forty, topknot, patched undyed hemp jacket and trousers, bare feet",
-  "palette": "straw gold, hanji cream, blue-black, autumn ochre",
-  "voice": "ko-KR-InJoonNeural",
-  "personas": {
-    "rich_brother": {
-      "label": "놀부",
-      "desc": "a fat scowling Korean man in his forties, oiled topknot, glossy dark silk vest over a fine jacket, thick belt, black leather shoes",
-      "avoid": "갓 쓴 양반이 아니다 — 부농이다"
-    },
-    "poor_family": {
-      "label": "흥부네 아이들",
-      "desc": "a cluster of thin Korean children in ragged hemp clothes, bare feet, tangled hair",
-      "avoid": ""
-    },
-    "heungbu_man": {
-      "label": "흥부",
-      "desc": "a thin Korean man of forty, worn topknot, patched undyed hemp jacket and rolled trousers, bare feet",
-      "avoid": "갓·비단은 형의 것"
-    }
+ "logline": "형 놀부에게 쫓겨나 다 쓰러져 가는 초가에서 굶던 흥부가 형수의 주걱에 뺨을 맞고 돌아와, 구렁이에게 쫓겨 둥지에서 떨어진 새끼 제비의 다리를 감아 주고, 이듬해 봄 돌아온 제비가 떨어뜨린 박씨를 심어 지붕 가득 열린 박을 온 식구가 톱으로 켠다",
+ "destination": "소설 흥부전에서 만날 수 있습니다",
+ "protagonist": "heungbu",
+ "setting": "조선 시대, 놀부의 기와집 대문과 부엌 마당, 흥부의 다 쓰러져 가는 초가와 마당, 처마 밑 제비 둥지, 박이 열린 지붕",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/heungbujeon/assets",
+ "anchor": "a thin Korean man of forty with black hair in a topknot tied with a strip of cloth, a patched undyed off-white hemp jacket and trousers, bare feet, a gaunt kind face with a sparse black beard",
+ "palette": "straw yellow, off-white, dark blue, dull brown, ash grey",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "nolbu",
+    "heungbu",
+    "nolbu_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "심술궂은 형 놀부가 흥부네 식구를 대문 밖으로 내쫓는다",
+   "visual": "soft daylight before the tall tiled-roof gate of the rich house: the stout Korean man of forty-five with the black gat hat, the fine white silk durumagi and the thick black moustache and beard is the one standing on the top stone step in the open gateway at frame right, his right arm stretched out with the forefinger pointing away down the road, his fleshy face thrust forward with the mouth open; the thin Korean man of forty with the topknot tied with a strip of cloth, the patched off-white hemp jacket and the bare feet is the one standing on the packed earth below the steps at frame left, bent forward at the waist with both hands pressed together in front of his chest, a small bundle of dull brown cloth on his back, his gaunt face turned up with a sparse black beard; only the stout man wears a hat and silk and stands on the step, only the thin man is barefoot and bows, two separate grown men, only the stout man has a moustache; the heavy dark wooden doors open behind the stout man, the long whitewashed wall stretching away, the pale sky",
+   "motion": "the stout Korean man of forty-five in the white silk durumagi standing on the top step is the one who moves, and the thin man below holds his bow: at the start his right arm is stretched out with the forefinger pointing down the road and his mouth is open; over the first two seconds the pointing arm jabs slowly once further out and his upper body leans forward over the step, his fleshy face reddening, the gat hat tipping a little; in the last two seconds the arm holds stretched and his body holds leaning; his black leather shoes stay planted on the step; the thin man in the patched hemp jacket keeps his hands pressed together and his back bent, his bare feet not shifting, the bundle steady on his back; the heavy doors, the stone steps, the whitewashed wall and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "rich_brother",
-        "heungbu_man"
-      ],
-      "beat": "형이 대문 앞에서 아우를 내쫓는다.",
-      "visual": "a fat man in fine silk barring a tiled-roof gate against a thin ragged man on the road outside",
-      "motion": "the gate is shoved closed toward the road, the thin man staggers back, dust lifts"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "heungbu_man",
-        "poor_family"
-      ],
-      "beat": "아우가 다 쓰러져 가는 초가에 짐을 푼다.",
-      "visual": "a ragged man and thin children before a collapsing thatched hut in a bare field",
-      "motion": "straw slides off the roof, the children crowd toward him, wind flattens the grass"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "heungbu_man"
-      ],
-      "beat": "아우가 처마에서 떨어진 제비를 두 손에 받는다.",
-      "visual": "a ragged man cupping a small injured swallow in both hands beneath a thatched eave",
-      "motion": "the swallow flutters in his palms, straw dust drifts down, his sleeves shake"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "heungbu_man"
-      ],
-      "beat": "아우가 제비 다리를 헝겊으로 감아 준다.",
-      "visual": "a man winding a strip of cloth around a swallow's leg, seated on a worn wooden step",
-      "motion": "the cloth wraps around the tiny leg, the bird's wings twitch, light shifts"
-    },
-    {
-      "n": 5,
-      "cast": [],
-      "beat": "이듬해 봄 제비가 씨앗 하나를 떨어뜨린다.",
-      "visual": "a swallow in flight releasing a single seed above a thatched roof, spring sky",
-      "motion": "the seed drops down toward the roof, the swallow banks away, clouds slide"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "heungbu_man",
-        "poor_family"
-      ],
-      "beat": "지붕 위에 커다란 박이 여럿 열린다.",
-      "visual": "enormous pale gourds swelling across a thatched roof, a ragged family staring up",
-      "motion": "the gourds sway on their vines, the family tips their heads back, leaves rustle"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "heungbu_man",
-        "poor_family"
-      ],
-      "beat": "온 식구가 톱을 잡고 박을 켜기 시작한다.",
-      "visual": "a ragged family drawing a long two-handled saw across a giant gourd in a yard",
-      "motion": "the saw drags back and forth across the gourd, dust falls, the family leans in"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "마당에 톱과 반쯤 켠 박만 남는다.",
-      "visual": "an abandoned two-handled saw resting in a half-cut giant gourd, empty yard at dusk",
-      "motion": "the saw settles into the cut, gourd dust drifts, evening light fades on the yard"
-    }
-  ],
-  "withheld": "박에서 쏟아진 보물과, 이를 흉내 낸 형이 맞는 결말"
+  {
+   "n": 2,
+   "cast": [
+    "heungbu",
+    "heungbu_wife",
+    "children",
+    "hut",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "흥부네가 다 쓰러져 가는 초가에 짐을 푼다",
+   "visual": "soft daylight in the small bare yard of the collapsing thatched hut: the thin Korean man of forty with the topknot and the patched off-white hemp jacket is the one kneeling on the bare earth at frame centre untying the cord of a small bundle of dull brown cloth on the ground, his gaunt bearded face bent to it; the thin Korean woman of thirty-five in the patched grey jeogori and the long patched dark brown skirt is the one standing at frame right with a chipped earthen bowl held in both hands, looking up at the sagging straw roof; the five thin children in patched off-white cotton are the ones crouched and standing in a cluster at frame left beside the brushwood fence, small faces turned to the hut; only the man kneels, only the woman holds a bowl; the sagging straw roof and the cracked mud walls of the hut behind them with the low door hanging loose, the pale sky above",
+   "motion": "the thin Korean man of forty in the patched hemp jacket kneeling at the bundle is the one who moves, and the woman and the children hold still: at the start his hands are on the knotted cord of the bundle; over the first two seconds his fingers work the knot slowly loose and the dull brown cloth spreads open on the earth, showing a folded grey quilt and two wooden bowls inside, his bearded face staying bent over it; in the last two seconds his hands rest on the open cloth; the woman keeps the earthen bowl in both hands and her face turned up to the roof, her feet not shifting; the five children keep their cluster by the fence, their faces toward the hut, not moving; the sagging roof, the cracked walls, the loose door and the brushwood fence hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "heungbu_wife",
+    "children",
+    "hut_inside"
+   ],
+   "refs": [],
+   "beat": "초가의 빈 솥 바닥을 긁는 아내와 배고파 우는 아이들",
+   "visual": "inside the poor thatched hut in dim grey light: the thin Korean woman of thirty-five in the patched grey jeogori and the long patched dark brown skirt is the one crouching at the low clay stove at frame right, both thin hands gripping a wooden spoon and scraping it around the bottom of the black iron pot, her worn face bent over the pot; the five thin children in patched off-white cotton are the ones sitting in a row on the straw mat at frame left with their small mouths open in crying, two of them with their fists at their eyes, the smallest lying across the lap of the largest; only the woman crouches at the stove, only the woman holds a spoon; the chipped earthen bowl on the mat between them, the cracked mud walls, the small paper window at the top of the frame letting in dim grey light",
+   "motion": "the thin Korean woman of thirty-five in the patched grey jeogori crouching at the stove is the one who moves, and the children only cry: at the start the wooden spoon is at the bottom of the black iron pot; over the first three seconds her hands scrape the spoon slowly around and around the bottom of the pot in a steady circle, her bent face lowering closer over the rim, her shoulders working; in the last two seconds the spoon slows and rests against the side of the pot; the five children keep their mouths open in crying, their fists at their eyes, their small bodies rocking very slightly on the mat, no one standing; the earthen bowl, the cracked walls and the dim grey window hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "nolbu_wife",
+    "heungbu",
+    "nolbu_kitchen",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "쌀을 얻으러 간 흥부가 형수의 주걱에 뺨을 맞는다",
+   "visual": "soft daylight in the kitchen yard of the rich house: the plump Korean woman of forty in the bright green silk jeogori and the long crimson silk skirt with the high braided coil is the one standing on the raised wooden veranda at frame right, the one flat wooden rice paddle with grains of white rice stuck to its blade already raised in her right hand above her shoulder and held completely motionless, her left hand pressed to her hip, her round face with the small pursed mouth turned down at the man; the thin Korean man of forty with the topknot, the patched off-white hemp jacket and the bare feet is the one standing on the packed earth below the veranda at frame left, his body turned to her, his left cheek turned toward her with the eyes closed and a smear of white rice stuck to the cheek, both hands held open at his sides; only the woman wears silk and stands on the veranda, only the woman holds a paddle; the row of large earthen jars along the whitewashed wall behind, the clay stove with the iron pot at the far left, the pale sky",
+   "motion": "the thin Korean man of forty in the patched hemp jacket standing below the veranda is the one who moves, and the woman holds the paddle raised: at the start his left cheek is turned toward her with the eyes closed and the rice smear on the cheek; over the first two seconds his right hand lifts slowly to his cheek and his fingers pick the grains of white rice off the smear one by one and carry them to his mouth, his eyes opening and turning up to her; in the last two seconds his hand holds at his mouth; his bare feet stay planted on the earth; the plump woman keeps the rice paddle raised above her shoulder and completely motionless for the whole shot, her feet planted on the veranda, her pursed mouth not moving; the earthen jars, the clay stove and the whitewashed wall hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "snake",
+    "swallow",
+    "eaves",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "봄이 오자 흥부 집 처마 밑 제비 둥지를 구렁이가 노린다",
+   "visual": "a soft spring day at the eaves of the thatched hut, close: the mud swallow's nest is tucked under the straw of the eaves against the wooden beam at frame centre, three small swallow chicks with open yellow beaks showing over its rim; the long dark grey snake with the pale belly is the one stretched along the wooden beam from frame left toward the nest, its narrow head raised a hand's width from the rim of the nest, its tongue out; the small swallow with the glossy blue-black back, the white belly and the rust-red throat is the one clinging to the straw of the eaves at frame right above the nest with its wings half spread; the mud wall of the hut below, pale blossom on a far tree at the edge of the frame under the soft spring sky",
+   "motion": "the long dark grey snake on the beam is the one that moves, and the swallow above the nest holds its half-spread wings: at the start the snake's raised head is a hand's width from the rim of the nest with its tongue out; over the first three seconds the snake's body slides slowly forward along the beam so that its raised head moves closer to the rim, the coils behind it drawing up, the tongue flicking; in the last two seconds the head holds just short of the rim; the three chicks keep their yellow beaks open, not moving; the swallow at frame right keeps its wings half spread and its claws in the straw, its head toward the snake; the straw eaves, the mud wall and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "heungbu",
+    "swallow",
+    "hut",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "둥지에서 떨어진 새끼 제비를 두 손에 받아 든 흥부",
+   "visual": "a soft spring day in the bare yard of the thatched hut: the thin Korean man of forty with the topknot tied with a strip of cloth, the patched off-white hemp jacket and the bare feet is the one kneeling on the bare earth at frame centre below the eaves, both thin hands cupped together in front of his chest, and in his cupped hands lies a small swallow chick with a glossy blue-black back, a white belly and one thin leg bent at a wrong angle, its beak open; his gaunt bearded face is bent close over his hands; the sagging straw roof and the mud wall with the swallow's nest under the eaves at the top of the frame, the low loose door at frame right, the brushwood fence and pale blossom on a far tree at the left under the soft spring sky; the yard is bare of any other person",
+   "motion": "the thin Korean man of forty in the patched hemp jacket kneeling in the yard is the one who moves, and the chick only trembles: at the start his cupped hands hold the chick in front of his chest and his face is bent close over them; over the first two seconds his cupped hands lift slowly up toward his face until the chick is a hand's width from his beard, his head tilting to look at the bent leg; in the last two seconds the hands hold raised; the chick's open beak trembles and its good leg stirs; his knees stay on the earth; the straw roof, the nest under the eaves, the loose door, the fence and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "heungbu",
+    "swallow",
+    "hut_inside"
+   ],
+   "refs": [],
+   "beat": "흥부가 제비의 부러진 다리를 헝겊으로 감아 준다",
+   "visual": "inside the poor thatched hut in soft light from the small paper window, close: the thin Korean man of forty with the topknot and the patched off-white hemp jacket is the one sitting cross-legged on the straw mat at frame centre, the small swallow chick with the glossy blue-black back and the white belly lying on its side in his open left hand at the centre of the frame, his right hand winding a narrow strip of off-white cloth around the chick's thin bent leg, his gaunt bearded face bent close with the lips pressed together; the chipped earthen bowl on the mat at frame right holding a few grains of coarse grain, the black iron pot on the clay stove behind, the cracked mud walls; the hut is bare of any other person",
+   "motion": "the thin Korean man of forty sitting on the straw mat is the one who moves, and only his right hand: at the start his right hand holds the strip of off-white cloth at the chick's bent leg; over the first three seconds his fingers wind the narrow cloth slowly around and around the thin leg, the loose end passing under and over, his bent face staying close; in the last two seconds the fingers press the end of the cloth flat and hold; the chick lies still in his open left hand with its beak closed; his crossed legs stay still; the earthen bowl, the iron pot, the clay stove and the cracked walls hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "heungbu",
+    "heungbu_wife",
+    "children",
+    "hut",
+    "autumn_bg"
+   ],
+   "refs": [],
+   "beat": "가을이 되자 다 나은 제비가 강남으로 날아간다",
+   "visual": "a high pale autumn day in the bare yard of the thatched hut: the thin Korean man of forty with the topknot and the patched off-white hemp jacket is the one standing at frame centre-left with his right arm raised high and the open hand waving toward the sky, his gaunt bearded face lifted; the thin Korean woman of thirty-five in the patched grey jeogori and the long patched dark brown skirt is the one standing beside him at frame centre-right with one hand shading her eyes, her face lifted; the five thin children in patched off-white cotton are the ones clustered in front of them at the bottom of the frame with their small faces lifted and their arms raised; only the man has a beard, only the woman shades her eyes; high above them in the pale autumn sky at the top of the frame a line of five small swallows flying away toward the line of dull yellow hills, each with a glossy blue-black back and a tail split into two thin points; the sagging straw roof of the hut at the far right",
+   "motion": "the line of five small swallows high in the autumn sky is what moves, and the family below only holds its raised arms: at the start the five swallows fly in a loose line at the top of the frame; over the whole shot the five swallows fly slowly and steadily across the top of the frame from right to left toward the dull yellow hills, growing a little smaller, their split tails trailing; the thin man keeps his right arm raised and his open hand still, his lifted face following the birds; the thin woman keeps her hand shading her eyes; the five children keep their arms raised and their faces lifted, their feet not shifting; the straw roof and the line of hills hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "swallow",
+    "gourd_seed",
+    "heungbu",
+    "hut",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "이듬해 봄 돌아온 제비가 떨어뜨린 박씨 하나",
+   "visual": "a soft spring day in the bare yard of the thatched hut, close and low: the small swallow with the glossy blue-black back, the white belly and the rust-red throat is the one hovering in the air at the upper centre of the frame with its wings spread wide and its tail split into two thin points, its beak open and pointed down; directly below its beak, at the centre of the frame, the single flat pale gourd seed the size of a fingernail hangs in the air in mid-fall; below the seed the two cupped hands of the thin Korean man of forty in the patched off-white hemp jacket are held up open at the bottom of the frame with his gaunt bearded face just showing behind them looking up; the sagging straw roof and the mud wall of the hut out of focus behind, pale blossom on a far tree at the edge under the soft spring sky",
+   "motion": "the single pale gourd seed is what moves, and the swallow hovers in place: at the start the seed hangs in the air just below the swallow's open beak; over the first three seconds the seed drifts slowly straight downward through the air, turning slowly over once, toward the two cupped hands below; in the last two seconds the seed settles into the cupped hands and the hands close slowly a little around it; the small swallow keeps hovering at the upper centre with its wings spread and beating in a steady blur, its beak open, its place in the frame not changing; the bearded face behind the hands keeps looking up; the straw roof, the mud wall and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "heungbu",
+    "hut",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "흥부가 그 박씨를 울타리 밑에 정성껏 심는다",
+   "visual": "a soft spring day beside the brushwood fence of the thatched hut: the thin Korean man of forty with the topknot tied with a strip of cloth, the patched off-white hemp jacket and the bare feet is the one kneeling on the bare earth at frame centre at the foot of the brushwood fence, his right forefinger pressed into a small hole scooped in the dark earth, his left hand holding a little mound of loose earth beside it, his gaunt bearded face bent close to the hole; the brushwood fence rises behind him across the frame with the sagging straw roof of the hut beyond it at frame right, pale blossom on a far tree at the left under the soft spring sky; the yard is bare of any other person",
+   "motion": "the thin Korean man of forty in the patched hemp jacket kneeling at the fence is the one who moves, and only his hands: at the start his right forefinger is pressed into the small hole in the earth and his left hand holds the mound of loose earth; over the first three seconds his right hand withdraws slowly and his left hand tips the loose earth slowly over the hole, then both open hands press the earth down flat and hold, his bent face staying close; in the last two seconds the open hands hold pressed on the earth; his knees stay still; the brushwood fence, the straw roof, the far blossom and the spring sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "gourds",
+    "hut_roof",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "박씨의 넝쿨이 지붕을 타고 올라 커다란 박을 주렁주렁 매단다",
+   "visual": "soft daylight on the sagging straw roof of the thatched hut seen from the bare yard: thick green vines climb over the whole roof from the brushwood fence at the left, and the huge round pale green gourds each as big as a water jar are the ones hanging from the vines across the roof, five of them, two resting on the ridge of the roof, two hanging over the eaves and one lying on the straw slope, their skins smooth and pale green with faint darker streaks; the cracked mud walls and the loose low door below the eaves, the brushwood fence in the foreground, the pale sky above the ridge; the yard is bare of any person",
+   "motion": "the vine leaves on the roof are what move, and the gourds hang still: at the start the thick green vines lie over the straw roof with the five huge gourds hanging from them; over the first three seconds a faint breeze turns the broad vine leaves slowly over one after another across the roof from left to right, showing their paler undersides, the tendrils lifting a little; in the last two seconds the leaves settle back and the breeze dies; the five huge pale green gourds do not sway, resting where they hang; the straw roof, the mud walls, the loose door and the brushwood fence hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "heungbu",
+    "heungbu_wife",
+    "saw",
+    "gourds",
+    "hut",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "온 식구가 톱을 잡고 켜기 시작한 커다란 첫 박",
+   "visual": "soft daylight in the bare yard of the thatched hut: one huge round pale green gourd as big as a water jar is the one lying on the bare earth at frame centre, the long two-man saw with its wide toothed blade already set into the top of the gourd and held completely motionless; the thin Korean man of forty with the topknot and the patched off-white hemp jacket is the one kneeling at frame left gripping the saw's left wooden handle with both hands, his gaunt bearded face set; the thin Korean woman of thirty-five in the patched grey jeogori and the long patched dark brown skirt is the one kneeling at frame right gripping the saw's right handle with both hands, her worn face set; only the man has a beard, only the woman wears a skirt, two separate people with the gourd between them; the sagging straw roof with the green vines and the other pale green gourds hanging from it behind them, the brushwood fence, the pale sky",
+   "motion": "the thin man in the patched hemp jacket and the thin woman in the patched grey jeogori kneeling at the two handles are the ones who move, and the saw between them: at the start the saw blade is set into the top of the gourd with both of them gripping their handles; over the first three seconds the man draws the saw slowly toward himself and the woman lets it come, then the woman draws it slowly back toward herself, the toothed blade sliding a hand's width each way in the top of the gourd, both bearded and worn faces set on the cut; in the last two seconds the blade slows and holds mid-cut; their knees stay on the earth; the gourd does not roll; the straw roof, the vines, the other gourds and the brushwood fence hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "heungbu",
+    "gourds",
+    "hut",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "슬근슬근 톱질에 박이 갈라지기 시작한다",
+   "visual": "soft daylight in the bare yard of the thatched hut, close on the gourd: the huge round pale green gourd as big as a water jar fills the lower middle of the frame lying on the bare earth, the wide toothed blade of a long saw sunk halfway through its top from front to back, a narrow dark split opening along the cut with pale flesh showing at its edges; the thin Korean man of forty with the topknot and the patched off-white hemp jacket is the one kneeling at frame left with both hands gripping the saw's left wooden handle, his gaunt bearded face bent close to the cut with the mouth open in song; the far end of the blade is buried in the gourd's flesh; he is the only person in the yard; the brushwood fence and the mud wall of the hut out of focus behind, the pale sky",
+   "motion": "the thin Korean man of forty in the patched hemp jacket gripping the saw handle is the only one who moves, and the saw with him: at the start the toothed blade is sunk halfway through the top of the gourd with the narrow dark split along the cut; over the first three seconds he draws the saw slowly toward himself and lets it go slowly back, the blade sliding in the cut, pale shavings of gourd flesh lifting from the split, the dark split widening slowly a finger's width, his open mouth moving in the song; in the last two seconds the blade holds mid-cut and the split holds widened; his knees stay on the earth; the gourd does not roll; the fence, the mud wall and the pale sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "gourds",
+    "hut",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "박이 갈라진 틈으로 빛이 새는데 그 속에는 무엇이 (질문)",
+   "visual": "soft daylight in the bare yard of the thatched hut, very close on the gourd: the huge round pale green gourd fills the frame lying on the bare earth, the cut across its top now a wide dark split running from frame left to frame right, and out of the split comes a strong pale golden light that lies across the pale green skin on both sides of the cut and throws a soft glow up onto the mud wall of the hut behind; the pale flesh of the gourd shows along both edges of the split, a few pale shavings lying on the earth at the bottom of the frame; the saw is out of the frame; the yard is bare of any person",
+   "motion": "the pale golden light in the split is what moves, and the gourd holds still: at the start the strong pale golden light lies across the pale green skin on both sides of the wide split; over the first three seconds the two halves of the gourd ease slowly apart a finger's width and the golden light from the split grows slowly stronger and wider, its glow spreading further up the mud wall behind and the pale shavings on the earth catching it; in the last two seconds the halves hold apart and the light holds bright; the gourd does not roll; the mud wall and the earth hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "gourds",
+    "hut_roof",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "박이 매달린 초가의 저녁 (마무리)",
+   "visual": "dusk over the thatched hut seen from the bare yard: the sagging straw roof with thick green vines climbing over it and the huge round pale green gourds hanging from the vines, four of them, dark against the dusk sky of dull violet grey with a faint dull yellow band at the horizon, the cracked mud walls and the loose low door below the eaves dim in the fading light, the brushwood fence in the foreground; the yard and the roof are bare of any person",
+   "motion": "the vine leaves on the roof are what move, and only a little: at the start the vines and the four hanging gourds lie dark against the dusk sky; over the first three seconds a faint evening breeze turns a few of the broad vine leaves slowly over on the roof and the tendrils lift and settle, the hanging gourds swaying very slightly on their stems and then hanging still; in the last two seconds the leaves settle and the breeze dies; the dull yellow band at the horizon fades very slightly; the straw roof, the mud walls, the loose door and the brushwood fence hold completely still; nothing enters the yard; no new figures or objects appear; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "박에서 쏟아진 보물과 놀부가 켠 박에서 나온 것들"
 }

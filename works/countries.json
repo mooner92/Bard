@@ -1,0 +1,629 @@
+{
+ "_note": [
+  "세계 문학 전집·국가별 지도의 배정표. backend/main.py 의 _works() 가 읽어 country·country_code·country_num 을 작품에 싣는다.",
+  "categories.json 의 region(권역)보다 한 단계 아래 — '기타 유럽'을 덴마크·독일·러시아·체코·이탈리아로 가른다.",
+  "code 는 ISO 3166-1 alpha-3, num 은 world-atlas(TopoJSON) 의 숫자 id(ISO 3166-1 numeric).",
+  "작품이 태어난 나라를 적는다: 안데르센=덴마크, 그림=독일, 카프카=체코(프라하), 천일야화=이라크(바그다드).",
+  "새 작품을 만들면 여기에도 한 줄 적는다 — 빠지면 지도에 안 뜬다."
+ ],
+ "unsu_joteun_nal": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "gamja": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "nalgae": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "redimeideu_insaeng": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "taepyeongcheonha": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "chisuk": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "geumsuhoeuirok": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "manmubang": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "ingan_munje": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "talchulgi": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "sangroksu": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "hyeolui_nu": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "dongbaekkkot": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "bombom": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "memilkkot_pil_muryeop": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "beongeori_samryongi": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "baettaragi": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "sangol_nageune": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "bsagamgwa_reobeureteo": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "chunhyangjeon": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "simcheongjeon": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "heungbujeon": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "chuwolsaek": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "honggildongjeon": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "mobydick": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "tom_soyeoui_moheom": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "heokeulberi_pinui_moheom": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "ojeuui_mabeopsa": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "widaehan_gaecheubi": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "juhong_geulja": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "geomeun_goyangi": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "bomulseom": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "geolribeo_yeohaenggi": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "robinseun_keurusoe": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "isanghan_naraui_aelriseu": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "taimmeosin": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "tumyeongingan": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "peurangkensyutain": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "deurakyulra": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "jikil_baksawa_haideu": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "baseukeobil_gamunui_gae": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "juhongsaek_yeongu": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "dorieon_geureiui_chosang": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "omangwa_pyeongyeon": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "pokpungui_eondeok": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "keuriseumaseu_kaereol": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "olribeo_teuwiseuteu": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "du_dosi_iyagi": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "dongmulnongjang": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "samchongsa": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "montekeuriseuto_baekjak": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "haejeo_2manri": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "80ilganui_segye_ilju": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "jigu_sok_yeohaeng": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "noteureudam_de_pari": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "operaui_yuryeong": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "joewa_beol": {
+  "country": "러시아",
+  "code": "RUS",
+  "num": "643"
+ },
+ "tolstoy": {
+  "country": "러시아",
+  "code": "RUS",
+  "num": "643"
+ },
+ "kafka": {
+  "country": "체코",
+  "code": "CZE",
+  "num": "203"
+ },
+ "sogongnyeo": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "15sonyeon_pyoryugi": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "jangbaljang": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "jeonggeulbuk": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "pinokio": {
+  "country": "이탈리아",
+  "code": "ITA",
+  "num": "380"
+ },
+ "wangjawa_geoji": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "byeoljubujeon": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "robinhudeu": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "kongjwipatjwi": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "aladin": {
+  "country": "이라크",
+  "code": "IRQ",
+  "num": "368"
+ },
+ "majimak_ipsae": {
+  "country": "미국",
+  "code": "USA",
+  "num": "840"
+ },
+ "sindeubadeu": {
+  "country": "이라크",
+  "code": "IRQ",
+  "num": "368"
+ },
+ "jaekgwa_kongnamu": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "gyeonu_jingnyeo": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "piteopaen": {
+  "country": "영국",
+  "code": "GBR",
+  "num": "826"
+ },
+ "minyeowa_yasu": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "eodum_sogui_bit": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "baekseolgongju": {
+  "country": "독일",
+  "code": "DEU",
+  "num": "276"
+ },
+ "ineogongju": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "henjelgwa_geuretel": {
+  "country": "독일",
+  "code": "DEU",
+  "num": "276"
+ },
+ "sindellera": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "beuremen_eumakdae": {
+  "country": "독일",
+  "code": "DEU",
+  "num": "276"
+ },
+ "haewa_dal": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "ppalgan_moja": {
+  "country": "독일",
+  "code": "DEU",
+  "num": "276"
+ },
+ "miun_ori": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "geumdokki": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "seonnyeo_namukkun": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "horangi_gotgam": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "eomjigongju": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "gyujungchiru": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "janghwa_goyangi": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "babo_ondal": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "beolgeobeoseun_imgeumnim": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "seodong_seonhwa": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "gongju_wandukong": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "seongnyangpari_sonyeo": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "dwaejichigi_wangja": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "jeonnamu": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "nunui_yeowang": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "ttwimttwigi_seonsu": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "neulgeun_jip": {
+  "country": "덴마크",
+  "code": "DNK",
+  "num": "208"
+ },
+ "mannyeon_syeocheu": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "geum_ttaneun_kongbat": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "bincheo": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "san_hyoseok": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "halmeoni_jugeum": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "ttaengbyeot": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "sul_gwonhaneun_sahoe": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "bulgeun_san": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "gohyang": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "non_iyagi": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "miseuteo_bang": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "piano": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "isanghan_saemmul": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "horangi_hyeongnim": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "kkamakjapgi": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "nun_eoduun_posu": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "mokgeori": {
+  "country": "프랑스",
+  "code": "FRA",
+  "num": "250"
+ },
+ "honghakui_jari": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "chaesikjuuija": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "bulpyeonhan_pyeonuijeom": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "mosun": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "annyeongira_geuraeteo": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ },
+ "goeteneun_modeun_geoteul": {
+  "country": "일본",
+  "code": "JPN",
+  "num": "392"
+ },
+ "naui_wanbyeokhan_jangrye": {
+  "country": "한국",
+  "code": "KOR",
+  "num": "410"
+ }
+}

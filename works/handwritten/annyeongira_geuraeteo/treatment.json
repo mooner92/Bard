@@ -1,0 +1,174 @@
+{
+ "logline": "저녁 식탁과 아파트 복도에서 저마다의 안녕을 말하는 사람들",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "woman",
+ "setting": "오늘의 서울 아파트 — 저녁의 식탁과 창, 복도와 이웃의 문",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/annyeongira_geuraeteo/assets",
+ "anchor": "a Korean woman of forty with short black hair and a calm face, in a plain dark sweater and trousers",
+ "palette": "off-white, ash grey, dull yellow, dark blue, dark brown",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "저녁의 창, 도시의 불빛",
+   "visual": "the balcony window of the apartment at evening with the city lights spread below, the dining table in the foreground set with dishes and glasses, the room lamp lit; no people",
+   "motion": "the city lights below brighten one by one as the evening deepens and the lamp holds steady on the table; the camera holds on the window"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "식탁 위 일곱 개의 잔, 홈 파티",
+   "visual": "the dining table set for a home party: seven glasses in a row, plates of fruit and bread, a folded cloth, chairs pushed in; no people",
+   "motion": "the lamp light glints along the seven glasses one after another as the room settles; the camera holds on the set table"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "woman",
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "과일 접시를 놓는 여자의 손",
+   "visual": "the woman setting a plate of sliced fruit down on the party table, her other hand smoothing the cloth, the glasses in a row before her; exactly one woman",
+   "motion": "the woman's hand smooths the cloth flat and she straightens one glass in the row; the camera holds on the woman at the table"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "neighbour",
+    "corridor"
+   ],
+   "refs": [],
+   "beat": "복도 끝 문 앞의 이웃, 종이봉투",
+   "visual": "the neighbour standing at a door in the long corridor with a paper bag in one hand and the other hand raised to knock, the fluorescent light flat on the row of doors; exactly one man",
+   "motion": "the neighbour's raised hand hesitates at the door and lowers slowly, the paper bag swinging a little; the camera holds on the man at the door"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "woman",
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "열린 문의 작은 손짓, 안녕이라",
+   "visual": "close on the woman's hand raised in a small wave at the open apartment door, her face half turned away in the doorway light; exactly one woman",
+   "motion": "the raised hand holds its small wave and then lowers slowly, the doorway light steady; the camera holds close on the hand"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "woman",
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "만날 때도 헤어질 때도 쓰는 말",
+   "visual": "the woman standing at the balcony window at night with her arms folded, looking down at the city lights, the party table behind her half cleared; exactly one woman",
+   "motion": "the woman's folded arms tighten and the city lights below flicker, the room still behind her; the camera holds on the woman at the window"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "파티가 끝난 식탁, 잔 셋과 포도주",
+   "visual": "the dining table after the party: dishes half cleared, three glasses left with a little wine, one chair turned outward, the lamp still lit; no people",
+   "motion": "the lamp light shifts slowly across the cleared dishes and the turned chair holds still; the camera holds on the table after the party"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "woman",
+    "neighbour",
+    "corridor"
+   ],
+   "refs": [],
+   "beat": "복도에서 스치는 이웃",
+   "visual": "the woman and the neighbour passing each other in the corridor, the neighbour nodding with his paper bag and the woman looking at the floor with her hands in her pockets; exactly two people",
+   "motion": "the neighbour's nod holds as the two pass and the woman's eyes stay on the floor; the camera holds on the corridor"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "woman",
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "문을 잡아 주는 여자와 코트의 어른",
+   "visual": "the woman holding the apartment door open for an older woman in a coat who is stepping out with a bag, the two not looking at each other; exactly two women",
+   "motion": "the older woman's step carries her over the threshold and the door in the woman's hand stays open a moment longer; the camera holds on the doorway"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "woman",
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "혼자 남은 식탁, 엎어 둔 전화기",
+   "visual": "the woman seated alone at the cleared dining table with her phone face down on the cloth and her hands folded beside it, the lamp low; exactly one woman",
+   "motion": "the woman's folded hands loosen and one finger rests on the edge of the face-down phone; the camera holds on the woman at the table"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "woman"
+   ],
+   "refs": [],
+   "beat": "등불 아래 여자의 조용한 얼굴",
+   "visual": "close on the woman's calm face in the lamp light, her lips pressed together and her eyes lowered; exactly one woman",
+   "motion": "the woman's lowered eyes lift slowly toward the window and her pressed lips soften; the camera holds close on the face"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "새벽 창밖의 잿빛 도시, 치워진 식탁",
+   "visual": "the balcony window at dawn, the city below grey and quiet, the party table behind cleared to a bare cloth; no people",
+   "motion": "the grey dawn light spreads slowly over the city below and into the room; the camera holds on the window at dawn"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "corridor"
+   ],
+   "refs": [],
+   "beat": "새벽 복도 끝 엘리베이터 문",
+   "visual": "the long corridor empty under the fluorescent light, the lift doors at the end just closing on an empty lift; no people",
+   "motion": "the lift doors slide closed at the end of the corridor and the fluorescent light hums; the camera holds on the empty corridor"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "woman",
+    "corridor"
+   ],
+   "refs": [],
+   "beat": "문 앞에서 복도를 보는 여자 — 누구에게 먼저 안녕",
+   "visual": "the woman standing at her open door looking down the corridor toward the camera with one hand half raised, the paper bag left on the floor by the door; exactly one woman",
+   "motion": "the woman's half-raised hand holds and her eyes stay on the camera, the corridor light steady; the camera holds on the woman at the door"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "apartment"
+   ],
+   "refs": [],
+   "beat": "씻어 엎어 둔 일곱 개의 잔",
+   "visual": "closing still: seven glasses washed and set upside down on a cloth by the kitchen window, morning light through them onto the counter",
+   "motion": "the morning light through the seven glasses moves slowly along the counter as the sun climbs; the camera closes with great patience on the glasses"
+  }
+ ],
+ "withheld": ""
+}

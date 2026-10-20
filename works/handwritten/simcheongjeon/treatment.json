@@ -1,100 +1,202 @@
 {
-  "logline": "눈먼 아버지의 눈을 뜨게 하려고, 딸이 뱃사람들에게 제 몸을 판다.",
-  "destination": "인당수 — 뱃길이 갈라진다는 거친 바다",
-  "protagonist": "댕기머리에 무명 치마저고리를 입은 열다섯 소녀",
-  "setting": "조선 시대, 가난한 초가와 포구와 바다",
-  "anchor": "a Korean girl of fifteen, one long braid, plain undyed hemp jeogori and skirt",
-  "palette": "ink-wash grey, hanji cream, pale rose, lantern amber, cold pale wash",
-  "voice": "ko-KR-JiMinNeural",
-  "personas": {
-    "blind_father": {
-      "label": "심봉사",
-      "desc": "a thin Korean man in his fifties, pale unfocused eyes turned slightly upward, sparse grey beard, patched hemp coat, bamboo cane",
-      "avoid": "안대·천으로 눈을 가리지 않는다. 'blind' 같은 개념어를 묘사에 쓰면 모델이 안대를 그린다"
-    },
-    "sailors": {
-      "label": "뱃사람들",
-      "desc": "Korean sailors in short hemp jackets and rolled trousers, white head cloths, bare feet, ropes coiled",
-      "avoid": "서양식 선원복이 아니다"
-    },
-    "simcheong_girl": {
-      "label": "심청",
-      "desc": "a Korean girl of fifteen, one long black braid with a plain cord, undyed hemp jeogori and skirt, bare feet",
-      "avoid": "화려한 비단·노리개는 아직 아니다"
-    }
+ "logline": "눈먼 아버지를 젖동냥부터 삯바느질까지로 먹여 살리던 열다섯 심청이, 개울에 빠진 아버지를 건진 스님의 공양미 삼백 석 말에 인당수 제물로 몸을 팔아 마지막 밥상을 차리고 배에 올라 거친 물결에 몸을 던지고, 뭍에 남은 아버지는 빈 오두막에서 허공을 더듬는데, 바다에 커다란 연꽃이 떠오른다",
+ "destination": "소설 심청전에서 만날 수 있습니다",
+ "protagonist": "simcheong",
+ "setting": "조선 시대, 도화동의 가난한 초가와 마을 길, 개울, 포구와 배, 인당수 거친 바다와 물속",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/simcheongjeon/assets",
+ "anchor": "a Korean girl of fifteen with black hair in a long single braid tied with a dull red ribbon, a plain undyed off-white hemp jeogori and skirt, a thin pale face with dark eyes",
+ "palette": "ash grey, off-white, dark blue, dull brown, dull red",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "simbongsa",
+    "village_woman",
+    "village_lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "눈먼 심 봉사가 갓난 청이를 안고 젖동냥을 다닌다",
+   "visual": "thin grey daylight in the dirt lane between the thatched huts: the thin Korean man of fifty with the sparse grey beard, the worn off-white hemp jeogori, the ragged grey vest and the faded black headband is the one standing at frame left with both eyes closed in his lined face, a swaddled infant wrapped in a grey cloth held against his chest in the crook of his left arm, his knotted wooden staff in his right hand, his head tilted up and to the right as he listens; the stout Korean village woman of thirty in the patched grey jeogori and the long dark brown skirt is the one standing at frame right in the opening of the brushwood gate, both arms held out toward the infant, her round plain face bent toward it; only the man has a beard and a staff, only the woman wears a dark brown skirt; the mud walls and ash grey thatch of the huts on either side, the bare-branched tree above the gate, the off-white sky",
+   "motion": "the stout village woman of thirty in the patched grey jeogori at the gate is the one who moves, and the man with the infant holds still: at the start both her arms are held out toward the swaddled infant; over the first two seconds she steps one slow step forward out of the gate and her hands close gently around the grey bundle, taking a little of its weight, her round face bending closer to it; in the last two seconds her hands hold the bundle together with his arm and her face holds bent; the thin man keeps his eyes closed and his head tilted up, his left arm still under the infant, his staff planted, no step; the brushwood gate, the mud walls, the thatch and the bare-branched tree hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "blind_father",
-        "simcheong_girl"
-      ],
-      "beat": "소녀가 눈먼 아버지의 손을 잡아 이끈다.",
-      "visual": "a girl leading a stooped old man by the hand along a village path past a thatched hut",
-      "motion": "they walk forward along the path, his cane taps ahead, her sleeve tugs his hand"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "blind_father"
-      ],
-      "beat": "아버지가 개울에 빠져 허우적거린다.",
-      "visual": "a stooped old man floundering waist-deep in a cold village stream, cane drifting away",
-      "motion": "he flails in the water toward the bank, the cane drifts off, reeds whip"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "sailors",
-        "simcheong_girl"
-      ],
-      "beat": "뱃사람들이 포구에서 소녀와 마주 선다.",
-      "visual": "weathered sailors facing a young girl on a stone quay, a heavy junk moored behind them",
-      "motion": "the sailors step toward her, ropes swing off the quay, the hull rocks"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "simcheong_girl"
-      ],
-      "beat": "소녀가 아버지의 밥상을 마지막으로 차린다.",
-      "visual": "a girl setting a small rice table beside a sleeping old man in a dim thatched room",
-      "motion": "she sets the bowl down on the table, steam rises, the lamp flame dips"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "sailors",
-        "simcheong_girl"
-      ],
-      "beat": "소녀가 배에 올라 뭍을 돌아본다.",
-      "visual": "a girl at a junk's rail looking back at a receding shore, sailors hauling ropes",
-      "motion": "the ship pulls away from the shore, the sail fills, her braid whips back"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "simcheong_girl"
-      ],
-      "beat": "거친 바다 위에서 소녀가 두 손을 모은다.",
-      "visual": "a girl standing at a ship's rail with hands clasped above heaving black waves",
-      "motion": "waves heave up against the hull, spray bursts over the rail, her skirt snaps"
-    },
-    {
-      "n": 7,
-      "cast": [],
-      "beat": "바다 한가운데 커다란 연꽃 한 송이가 떠오른다.",
-      "visual": "an enormous pink lotus blossom rising on open sea, closed petals, mist on the water",
-      "motion": "the lotus rises up through the surface, water sheets off the petals, mist parts"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 갑판에 밧줄과 물자국만 남는다.",
-      "visual": "an empty wooden ship deck at dawn, coiled ropes, wet planks, grey open sea beyond",
-      "motion": "water runs across the planks, the ropes shift, the sail slackens overhead"
-    }
-  ],
-  "withheld": "연꽃에서 나온 심청이 왕비가 되고, 잔치에서 아버지가 눈을 뜨는 결말"
+  {
+   "n": 2,
+   "cast": [
+    "simcheong",
+    "simbongsa",
+    "village_lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "열다섯이 된 심청이 아버지의 손을 잡고 길을 이끈다",
+   "visual": "thin grey daylight in the dirt lane between the thatched huts: the Korean girl of fifteen with the long single braid tied with the dull red ribbon, the off-white hemp jeogori and the long off-white hemp skirt is the one walking at frame left a half step ahead, seen from the side with her body turned to the left along the lane, her right hand reaching back to hold the man's left hand, her thin pale face turned back toward him; the thin Korean man of fifty with the sparse grey beard, the ragged grey vest and the faded black headband is the one walking at frame right behind her with both eyes closed in his lined face, his left hand in hers and his knotted wooden staff tapping the ground ahead in his right hand, his head tilted; only the man has a beard and a staff, only the girl has a braid, two separate people joined by their hands; the mud walls and ash grey thatch of the huts behind, the brushwood gate at the far right, the bare-branched tree, the off-white sky",
+   "motion": "the Korean girl of fifteen in the off-white hemp jeogori and the thin man with the grey beard are the ones who move, joined by their hands: at the start she is a half step ahead with her right hand holding his left and his staff touching the ground; over the first three seconds the two take two slow steps together along the lane from right to left, her straw sandals setting down first and his following, the knotted staff lifting and tapping the ground once ahead of him, her face staying turned back toward him; in the last two seconds they come to a stop well inside the frame with their hands still joined and the staff planted; his eyes stay closed, her braid settles against her back; the mud walls, the thatch, the brushwood gate and the bare-branched tree hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "simcheong",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "삯바느질과 동냥으로 아버지를 먹여 살린 심청의 손",
+   "visual": "inside the poor thatched hut, close on the girl: the Korean girl of fifteen with the long single braid tied with the dull red ribbon and the off-white hemp jeogori is the one sitting cross-legged on the straw mat at frame centre with a torn grey cotton garment spread across her lap, her thin hands at the centre of the frame holding a needle and a length of thread pulled taut above a seam, her thin pale face bent over the work with the small mouth pressed closed; the small low wooden table beside her at frame right with a chipped earthen bowl of coarse grain on it, the chipped earthen jar against the mud wall, the low wooden door standing open at frame left with thin grey daylight falling across the mat; the hut is bare of any other person",
+   "motion": "the Korean girl of fifteen in the off-white hemp jeogori sitting on the straw mat is the only one who moves, and only her hands: at the start her thin hands hold the needle and the taut thread above the seam; over the first three seconds her right hand draws the thread slowly up and away until the arm is stretched to its length, the thread running through the seam, then lowers the needle slowly back to the cloth; in the last two seconds the needle holds pressed to the cloth and her hands hold; her bent face stays over the work, her crossed legs still under the spread garment; the low table, the earthen bowl, the earthen jar, the open door and the thin grey daylight hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "simbongsa",
+    "stream",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "심청을 마중 나가던 심 봉사가 개울에 빠진다",
+   "visual": "thin grey daylight at the shallow rocky stream: the thin Korean man of fifty with the sparse grey beard, the worn off-white hemp jeogori, the ragged grey vest and the faded black headband is the one lying on his side in the cold grey water at frame centre among the wet grey stones, the water up to his chest, both arms flung out with the hands grasping at the stones, his knotted wooden staff floating away from him at frame right, his eyes closed in his lined face and his mouth open in a shout, his wet jeogori clinging; the plank footbridge crosses the stream above him at the top of the frame with one plank tilted, reeds along the bank at frame left, the off-white sky; the stream and the bank are bare of any other person",
+   "motion": "the thin man of fifty with the grey beard lying in the stream is the one who moves, and the water with him: at the start both his arms are flung out with the hands grasping at the wet stones and his mouth is open; over the first three seconds his right hand slides slowly off a wet stone and his arms thrash slowly through the grey water, splashes rising and settling around him, his body rolling a little further onto its back, the knotted staff drifting slowly further away toward frame right; in the last two seconds his hands find the stones again and hold, his body settling, the splashes dying; his eyes stay closed, his mouth stays open; the cold grey water keeps flowing in slow ripples around him; the plank footbridge, the reeds and the bank hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "monk",
+    "simbongsa",
+    "stream",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "봉사를 건진 스님이 공양미 삼백 석이면 눈을 뜬다고 한다",
+   "visual": "thin grey daylight on the bank of the shallow rocky stream: the Korean monk of forty in the grey cotton robe with the brown sash across the chest and the shaved head is the one kneeling on one knee on the wet grey stones at frame right, both hands pressed together in front of his chest with the string of dark wooden beads around his wrist, his plain calm face turned to the man; the thin Korean man of fifty with the sparse grey beard, the ragged grey vest and the faded black headband is the one sitting on the bank at frame left with his wet hemp jeogori clinging and water dripping from his beard, both eyes closed in his lined face, his hands gripping his own knees, his head turned toward the monk's voice; only the monk has a shaved head and a sash, only the old man has a beard and a headband, two separate people; the cold grey stream behind them, the plank footbridge, the reeds, the off-white sky",
+   "motion": "the Korean monk of forty in the grey robe kneeling on the stones is the one who moves, and the wet man on the bank only listens: at the start the monk's hands are pressed together in front of his chest; over the first two seconds he opens his hands slowly and lowers them, holding them out open toward the old man with the wooden beads swinging once at his wrist, his lips moving as he speaks; in the last two seconds his open hands hold out and his lips go still; his knee stays on the stones; the old man keeps his eyes closed and his hands gripping his knees, his head turned toward the voice, water dripping slowly from his beard; the stream, the footbridge and the reeds hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "simcheong",
+    "boatmen",
+    "harbour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그 쌀값에 인당수 제물로 몸을 팔기로 한 심청",
+   "visual": "thin grey daylight on the sandy shore of the small fishing harbour: the Korean girl of fifteen with the long single braid tied with the dull red ribbon, the off-white hemp jeogori and the long off-white hemp skirt is the one standing alone on the sand at frame left with her back straight and her hands folded in front of her skirt, her thin pale face lifted toward the men with the small mouth pressed closed; the four Korean boatmen in the rough dark blue jackets with the grey head cloths are the ones standing in a loose group on the sand at frame right facing her, the nearest with his arms folded, the others with their hands at their sides, sunburnt plain faces; only the girl has a braid and wears off-white, the men all wear dark blue; the short wooden jetty and the wide-bellied wooden sailing ship with the furled square sail moored behind the men, coiled ropes on the sand, the grey water and the off-white sky",
+   "motion": "the Korean girl of fifteen in the off-white hemp jeogori standing on the sand is the only one who moves, and the four boatmen hold still: at the start her hands are folded in front of her skirt and her face is lifted toward the men; over the first two seconds she bows slowly from the waist toward the men until her braid slides forward over her shoulder, her folded hands staying in front of her skirt; in the last two seconds she holds the bow; her straw sandals stay planted in the sand; the four boatmen keep their places, the nearest with his arms folded, their heads not turning; the jetty, the moored ship with its furled sail, the coiled ropes, the grey water and the sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "simcheong",
+    "simbongsa",
+    "hut",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "뱃사람들이 오는 날 아침, 심청이 아버지의 마지막 밥상을 차린다",
+   "visual": "thin grey dawn light inside the poor thatched hut: the Korean girl of fifteen with the long single braid tied with the dull red ribbon and the off-white hemp jeogori is the one kneeling on the straw mat at frame left, both thin hands setting a chipped earthen bowl of white rice down on the small low wooden table, her thin pale face bent over the table with the small mouth pressed closed; the thin Korean man of fifty with the sparse grey beard, the ragged grey vest and the faded black headband is the one sitting cross-legged on the mat at frame right on the far side of the table with both eyes closed in his lined face, his hands resting on his knees, his head tilted toward the sound of the bowl; only the girl has a braid, only the man has a beard, two separate people with the table between them; a bowl of clear soup and a small dish of greens already on the table, the chipped earthen jar against the mud wall, the low wooden door open to the grey dawn",
+   "motion": "the Korean girl of fifteen in the off-white hemp jeogori kneeling at the table is the one who moves, and the man across the table only listens: at the start both her hands hold the bowl of white rice just above the table top; over the first two seconds she sets the bowl down slowly on the table in front of him and her hands draw back and come to rest folded in her lap, her bent face lifting slowly to look at him; in the last two seconds her hands hold in her lap and her eyes hold on his face; the man keeps his eyes closed and his hands on his knees, his head tilted toward the table, his body still; the soup bowl, the dish of greens, the earthen jar and the grey dawn light in the doorway hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "simbongsa",
+    "simcheong",
+    "hut",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "사정을 안 아버지가 심청을 붙들고 울부짖는다",
+   "visual": "thin grey dawn light inside the poor thatched hut: the thin Korean man of fifty with the sparse grey beard, the ragged grey vest and the faded black headband is the one kneeling upright on the straw mat at frame right with both arms wrapped tight around the girl's waist and his lined face pressed against her side, his eyes closed and his mouth open wide in a cry, his knotted wooden staff lying on the mat behind him; the Korean girl of fifteen with the long single braid tied with the dull red ribbon and the off-white hemp jeogori is the one standing on the mat at frame left held in his arms, her body turned toward the open low door, one thin hand resting on the top of his headband, her thin pale face turned down to him with her eyes closed and her small mouth trembling; only the man has a beard and kneels, only the girl has a braid and stands; the small low table with the bowls pushed aside, the chipped earthen jar, the low wooden door open to the grey dawn",
+   "motion": "the thin man of fifty with the grey beard kneeling on the mat is the one who moves, and the girl holds still in his arms: at the start his arms are wrapped tight around her waist with his face pressed to her side and his mouth open in the cry; over the first two seconds his arms tighten slowly further and his face presses harder against her side, his shoulders shaking slowly with the sobs, his open mouth staying open; in the last two seconds the shaking eases and he holds pressed against her; his knees stay on the mat; the girl keeps her hand resting on his headband and her face turned down to him with her eyes closed, her feet not shifting; the staff on the mat, the low table, the earthen jar and the grey dawn light in the doorway hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "simcheong",
+    "ship_deck",
+    "harbour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "배에 올라 멀어지는 뭍을 돌아보는 심청",
+   "visual": "thin grey daylight on the deck of the wide wooden sailing ship: the Korean girl of fifteen with the long single braid tied with the dull red ribbon, the off-white hemp jeogori and the long off-white hemp skirt is the one standing at the low wooden rail at frame centre with her back three-quarters to the camera, the back of her head and her braid toward the camera, both thin hands gripping the rail, her head turned so that her thin pale face shows in profile looking back over her left shoulder toward the shore; beyond the rail the sandy shore and the short wooden jetty of the harbour are already a little way off across a strip of grey water, the thatched huts small on the shore; the thick mast with the furled square sail rises at frame right, coiled ropes on the deck planks at her feet; the deck around her is bare of any other person",
+   "motion": "the Korean girl of fifteen in the off-white hemp jeogori at the rail is the only one who moves: at the start both her hands grip the rail and her face in profile looks back over her left shoulder toward the shore; over the first two seconds her head turns slowly further back over her shoulder so that more of her face shows toward the shore and her hands tighten on the rail, the dull red ribbon on her braid lifting a little in the wind; in the last two seconds her head holds turned and the hands hold; her feet stay planted on the planks; the strip of grey water below the rail moves in slow low swells; the shore, the jetty, the small huts, the mast, the furled sail and the coiled ropes hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "simcheong",
+    "boatmen",
+    "ship_deck",
+    "sea_storm",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "인당수 거친 물결 위에서 두 손을 모으는 심청",
+   "visual": "the dark overcast sky of ash grey and dull violet over the open grey-green sea: the Korean girl of fifteen with the long single braid tied with the dull red ribbon, the off-white hemp jeogori and the long off-white hemp skirt is the one standing at the raised bow of the wide wooden sailing ship at frame centre facing the camera, both thin hands pressed together in front of her chest, her thin pale face lifted with her eyes closed and her braid and skirt blown sideways by the wind; the four Korean boatmen in the dark blue jackets with the grey head cloths are the ones kneeling on the deck behind her at frame left and right with their heads bowed, one with both hands on the large drum on its stand; only the girl wears off-white and stands, the kneeling men all wear dark blue; high rolling waves with white spray rise beyond the rail on both sides, the thick mast with the furled sail behind, the deck planks wet",
+   "motion": "the wind and the sea are what move, and the girl at the bow holds her pressed hands: at the start her braid and her off-white skirt are blown sideways and the high waves rise beyond the rail; over the whole shot the waves roll slowly past on both sides of the bow with white spray lifting and settling, the deck tilting slowly up and down with them, her braid and skirt streaming sideways in the steady wind, the furled sail's loose edges fluttering; the Korean girl of fifteen keeps her hands pressed together in front of her chest, her face lifted and her eyes closed, her feet planted on the wet planks; the four boatmen keep their heads bowed and their knees on the deck, the hands on the drum not moving; the mast holds; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "simcheong",
+    "ship_deck",
+    "sea_storm",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "치마를 뒤집어쓰고 물결 속으로 몸을 던지는 심청",
+   "visual": "the dark overcast sky over the open grey-green sea, close on the raised bow of the wide wooden sailing ship: the Korean girl of fifteen in the off-white hemp jeogori is the one at the low wooden rail at frame centre with the long off-white hemp skirt pulled up and over her head so that it covers her face and hair entirely, only her thin hands showing gripping the edge of the cloth at her brow, her body already tipped forward over the rail past the point of balance with her straw sandals lifting from the wet planks; the high rolling waves with white spray rise close below the bow at the bottom of the frame, the thick mast with the furled sail behind at frame right; the bow around her is bare of any other person",
+   "motion": "the Korean girl of fifteen with the off-white skirt pulled over her head is the only one who moves, and the sea below her: at the start her body is tipped forward over the rail past the point of balance with her sandals lifting from the planks; over the first three seconds her body keeps tipping slowly further forward and downward over the rail, her feet leaving the planks entirely and her covered head lowering toward the waves, the skirt cloth streaming back from her hands; in the last two seconds her body hangs far out over the rail with her head lowest, still inside the frame; the high waves roll slowly below the bow with white spray lifting; the rail, the mast and the furled sail hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "simcheong",
+    "underwater"
+   ],
+   "refs": [],
+   "beat": "깊고 어두운 물속으로 가라앉는 심청의 흰 치마",
+   "visual": "deep dark blue water shot through with pale beams of light from above: the Korean girl of fifteen with the long single braid and the off-white hemp jeogori is the one sinking slowly at frame centre with her body upright and her arms spread a little from her sides, her long off-white hemp skirt billowed up around her waist and chest by the water, her braid floating up above her head with the dull red ribbon at its end, her thin pale face turned up toward the light with her eyes closed and her lips closed; streams of small silver bubbles rise past her toward the surface, the faint pale green glow far below at the bottom of the frame; the water around her is bare of any other creature",
+   "motion": "the Korean girl of fifteen sinking in the dark blue water is the only one who moves, and the water around her: at the start her arms are spread a little from her sides and her skirt is billowed up around her chest; over the first three seconds she sinks slowly and steadily downward through the water, her billowed skirt drifting up higher and her braid trailing up above her head, streams of small silver bubbles rising past her face; in the last two seconds she keeps sinking slowly, still well inside the frame, her face turned up and her eyes closed; the pale beams of light from above waver slowly; the faint pale green glow far below holds steady; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "simbongsa",
+    "hut",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "심청을 잃은 심 봉사가 빈 오두막에서 허공을 더듬는다",
+   "visual": "thin grey daylight inside the poor thatched hut: the thin Korean man of fifty with the sparse grey beard, the worn off-white hemp jeogori, the ragged grey vest and the faded black headband is the one standing alone on the straw mat at frame centre with both eyes closed in his lined face, both arms stretched out in front of him at chest height with the fingers spread and feeling the air, his knotted wooden staff leaning against the mud wall behind him, his head tilted as he listens; the small low wooden table at frame right with a single chipped earthen bowl on it, the chipped earthen jar against the wall, the low wooden door open at frame left with thin grey daylight lying across the mat; the hut is bare of any other person",
+   "motion": "the thin man of fifty with the grey beard standing on the mat is the only one who moves: at the start both arms are stretched out in front of him with the fingers spread feeling the air; over the first three seconds he takes one slow step forward on the mat toward the open door and his spread hands sweep slowly outward to either side and back together, feeling the air, his head turning slowly from left to right as he listens; in the last two seconds he stops well inside the frame with his hands held out and his head turned toward the door; his eyes stay closed; the staff against the wall, the low table, the single bowl, the earthen jar and the grey daylight in the doorway hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "lotus",
+    "sea_calm",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "심청이 사라진 바다에 떠오른 커다란 연꽃 속에는 (질문)",
+   "visual": "thin grey dawn over the wide calm sea: the single enormous pale pink lotus blossom as wide as a man is tall is the one floating directly on the pale silver water at frame centre with its petals closed, its lowest petals resting on the surface and the water lapping at them, its reflection pale beneath it; the wide calm sea stretches away to the thin band of pale pink light at the horizon, a faint dull yellow band above it in the dawn sky; the water around the blossom is bare and smooth",
+   "motion": "the closed lotus blossom on the calm sea is the only thing that moves, and the water around it: at the start the enormous pale pink blossom floats with its petals closed and the water lapping at its lowest petals; over the first three seconds the blossom rises slowly a hand's width higher out of the water, the outermost petals loosening slowly a finger's width apart while the rest stay closed, small ripple rings spreading outward from its base across the silver water; in the last two seconds the blossom holds risen with the outer petals loosened and the ripples fade; the pale pink band at the horizon and the dawn sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "sea_calm",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "고요한 새벽 바다 (마무리)",
+   "visual": "thin grey dawn over the wide calm sea: the pale silver water fills the lower two thirds of the frame in slow low swells, the thin band of pale pink light lying along the horizon and the faint dull yellow band above it in the grey dawn sky; a single grey seabird's feather floats on the water at the lower left of the frame; the sea and the sky are bare of any ship, blossom or person",
+   "motion": "the calm sea is the only thing that moves: at the start the pale silver water lies in slow low swells with the single grey feather floating at the lower left of the frame; over the first three seconds the low swells roll slowly from left to right across the frame, each swell lifting the feather gently and setting it down again, the feather drifting a little toward the centre of the frame and turning slowly once on the water; in the last two seconds the swells ease and the feather settles nearly still on the smooth surface; the thin band of pale pink light along the horizon brightens very slightly and the faint dull yellow band above it stays as it is; the grey dawn sky holds completely still; nothing rises from the water, the surface stays bare apart from the feather; no new figures or objects appear; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "왕비가 된 딸과 잔치에서 뜨이는 아버지의 눈"
 }

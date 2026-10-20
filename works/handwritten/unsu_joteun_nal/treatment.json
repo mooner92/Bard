@@ -1,61 +1,205 @@
 {
- "logline": "비 오는 날 손님이 끊이지 않는 인력거꾼이, 벌수록 집으로 가는 걸음을 미룬다.",
- "destination": "집 문 앞 — 하루 종일 미뤄온 귀가",
- "protagonist": "동소문 안 셋방에 사는 인력거꾼",
- "setting": "1920년대 경성의 비 내리는 거리와 셋방",
- "anchor": "a wiry rickshaw puller in soaked hemp clothes and a headband, bare calves",
- "palette": "rain grey, gaslight ochre, wet cobble sheen, cold blue dusk",
+ "logline": "비 오는 날 손님이 끊이지 않는 인력거꾼이, 벌수록 집으로 가는 걸음을 미룬다",
+ "destination": "소설 운수 좋은 날에서 만날 수 있습니다",
+ "protagonist": "kim",
+ "setting": "1920년대 경성의 비 내리는 거리와 동소문 안 셋방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/unsu_joteun_nal/assets",
+ "anchor": "a wiry rickshaw puller in soaked hemp clothes and a grey headband, bare calves and straw sandals",
+ "palette": "ash grey, off-white, dark brown, dark blue, dull yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "침상에 누웠던 인력거꾼이 일어나 신을 조인다.",
-   "visual": "a wiry man rising from a floor mat in a dim room, tightening straw sandals at the doorsill",
-   "motion": "he pushes off the floor, straps pull tight, rain drums on the roof"
+   "cast": [
+    "kim",
+    "wife",
+    "rented_room"
+   ],
+   "refs": [],
+   "beat": "열흘 넘게 돈 구경을 못 한 김첨지",
+   "visual": "the tiny rented room in dim grey morning light: the wiry rickshaw puller is the one crouched on one knee at frame right near the paper door in his off-white hemp jacket and rolled trousers, bent over his foot tying the cord of a straw sandal with both hands, the grey cloth headband knotted at his brow; the thin sick woman is the one lying on the floor at frame left under the patched grey quilt with only her pale face and loose black hair showing on the wooden pillow, a small cloth-wrapped infant asleep against her side; the small iron brazier stands cold between them and the grey plaster walls are bare; grey light comes through the lattice paper door behind the man, its paper stained dull yellow with age",
+   "motion": "the man's hands draw the sandal cord tight and wind it once more around his ankle in one slow continuous pull, his shoulders hunching lower over the foot; the woman under the quilt and the infant stay still; the brazier, the walls and the paper door hold; camera fixed"
   },
   {
    "n": 2,
-   "beat": "그는 인력거를 끌고 인파 속으로 들어선다.",
-   "visual": "a man pulling a two-wheeled rickshaw into a crowded rainy street, umbrellas pressing around him",
-   "motion": "the wheels roll into the crowd, umbrellas jostle, rain sheets across the road"
+   "cast": [
+    "wife",
+    "kim",
+    "rented_room"
+   ],
+   "refs": [],
+   "beat": "옷자락을 잡는 아내",
+   "visual": "a close view low over the floor of the tiny room: the sick woman's thin pale hand reaches out from under the edge of the patched grey quilt at frame left and grips the hem of the rickshaw puller's off-white hemp jacket, her fingers bunched in the cloth, her sunken face lifted a little from the wooden pillow with the loose black hair falling across it; the man is the one half risen at frame right, his rolled trousers and bare calf and one straw sandal showing, his body turned toward the paper door and his head turned back down toward her; the worn oiled-paper floor and the cold brazier in the foreground; dim grey light",
+   "motion": "the woman's gripping hand slowly tightens in the hem of the jacket and draws it a little toward her, her lifted head straining up from the pillow by a finger's width; the man stays half risen and does not pull away; the quilt, the brazier and the door hold still; camera fixed"
   },
   {
    "n": 3,
-   "beat": "손님이 끊이지 않아 그는 헐떡이며 달린다.",
-   "visual": "a rickshaw puller running hard through rain, a seated passenger behind, wet road stretching ahead",
-   "motion": "his legs pump fast, water sprays from the wheels, his shoulders heave"
+   "cast": [
+    "wife",
+    "kim",
+    "rented_room"
+   ],
+   "refs": [],
+   "beat": "설렁탕이 먹고 싶다는 아내",
+   "visual": "the tiny room: the sick woman is the one lying at frame left with her pale sunken face turned up toward the camera on the wooden pillow, her cracked lips parted in speech and her dark eyes half open, the patched grey quilt drawn to her chin and the small cloth-wrapped infant asleep against her shoulder; the rickshaw puller is the one standing at the paper door at frame right with his back to the room and his hand on the door frame, his head bowed and turned slightly toward her; the grey plaster wall behind her and the worn floor between them; thin grey light from the door lies across the quilt",
+   "motion": "the woman's parted lips move slowly through a few words and close again while her half-open eyes stay on the man's back; the man at the door lowers his head a little further and holds still; the quilt, the infant and the walls hold; camera drifting very slowly toward the woman's face"
   },
   {
    "n": 4,
-   "beat": "노을 무렵 그는 주머니를 자꾸 만져 본다.",
-   "visual": "a man halted between the shafts of a rickshaw, one hand pressed flat against his waist pouch",
-   "motion": "his hand presses and releases, the shafts tilt, evening light reddens the puddles"
+   "cast": [
+    "kim",
+    "rickshaw",
+    "seoul_street",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "빗속으로 인력거를 끌고 나서는 김첨지",
+   "visual": "the rainy 1920s street seen from across the wet paving: the rickshaw puller is the one at the center gripping the two long wooden shafts of the empty black rickshaw, leaning forward into the pull with his soaked hemp jacket clinging to his back and his bare calves and straw sandals splashing on the grey stones, the grey headband dark with rain; the folding hood of the rickshaw is up and beaded with water; behind him the low tile-roofed houses with closed plain wooden shutters and bare plaster walls, a pair of tram rails shining in the wet, two passers-by under oiled-paper umbrellas at the far left; fine slanting rain falls across everything from a flat ash-grey sky",
+   "motion": "the man leans into the shafts and the rickshaw rolls forward behind him across the wet stones in one steady continuous pull, its thin wheels throwing a low spray and his sandals lifting and coming down in rhythm; the passers-by under their umbrellas stay where they are; the houses, the rails and the rain hold still while the rain keeps slanting steadily; camera fixed"
   },
   {
    "n": 5,
-   "beat": "술집 문 앞에서 친구와 부딪혀 안으로 들어간다.",
-   "visual": "two men in wet clothes pushing through a low tavern doorway, steam and lamplight spilling out",
-   "motion": "the door cloth swings aside, steam rolls out, both men duck through"
+   "cast": [
+    "lady_passenger",
+    "kim",
+    "rickshaw",
+    "seoul_street",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "학교 앞에서 오르는 첫 손님",
+   "visual": "before the long stone wall of a school compound in the rain: the lady in the long dark blue skirt and white jeogori is the one stepping up into the seat of the black rickshaw at the center, her oiled-paper umbrella tilted over her head and one hand gathering her skirt; the rickshaw puller is the one standing at the front between the shafts at frame left holding them level, his soaked headband and hemp jacket dark with rain, his face turned back toward her; the wet grey paving, a telegraph pole and the bare stone wall behind, the tile roofs beyond; the lady is the only passenger in this frame",
+   "motion": "the lady lowers herself slowly into the rickshaw seat, the umbrella dipping and steadying over her as she settles and her hand releasing the gathered skirt; the man between the shafts stays braced and still; the wall, the pole and the rain hold; camera fixed"
   },
   {
    "n": 6,
-   "beat": "설렁탕 그릇을 들고 그는 어두운 계단을 오른다.",
-   "visual": "a man carrying a covered soup bowl with both hands up a narrow dark stair, one bare bulb above",
-   "motion": "he climbs upward one step at a time, the bowl tilts with each rise, the bulb sways overhead"
+   "cast": [
+    "student_passenger",
+    "kim",
+    "rickshaw",
+    "seoul_street",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "정거장의 학생까지 잇달아 오른 손님",
+   "visual": "the rainy street beside the shining tram rails: the rickshaw puller is the one running at the center gripping the shafts, his body pitched forward and his bare legs mid-stride on the wet stones; the single student in the black buttoned school uniform and flat cap is the one seated alone under the raised hood of the rickshaw with a cloth bundle on his knees, his face pale and dry beneath the hood; the seat beside him is empty and he is the only passenger in this frame; the low tile-roofed houses with plain shutters slide past at the left, a telegraph pole at the right, rain slanting across the whole street from the flat grey sky",
+   "motion": "the man runs forward along the rails with the rickshaw rolling close behind him, his sandals striking the wet stones in a fast even rhythm and spray flying from the wheel rims while the student sits motionless under the hood; the houses and the pole hold still; the rain keeps slanting steadily; camera fixed"
   },
   {
    "n": 7,
-   "beat": "그가 들고 있던 그릇은 어떻게 될까?",
-   "visual": "a covered soup bowl tilting in a man's hands at a dark doorway, faint light on the floor mat",
-   "motion": "the bowl tips forward, lid slides, his knees begin to give"
+   "cast": [
+    "kim",
+    "rickshaw",
+    "seoul_street",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "무거워지는 허리춤의 돈주머니",
+   "visual": "a close low view beside the running rickshaw puller: his right hand fills the center of the frame pressed against the small cloth money pouch tied at his waist over the soaked hemp trousers, the fingers spread over its bulging shape; below, his bare calf and straw sandal are caught mid-stride on the wet grey paving with water splashing up from the sole; at the left edge the black rim of the rickshaw wheel and the end of a shaft in his other hand; the wet stones and a strip of tram rail fill the ground and rain streaks the air; the man's face is out of frame above",
+   "motion": "the hand presses the pouch and slides slowly once along its shape from top to bottom, feeling its weight, while the bare foot beneath completes its stride and comes down sending up low spray; the wheel rim at the left keeps turning; the stones and the rain hold their steady state; camera fixed"
   },
   {
    "n": 8,
-   "beat": "빗속 골목에 인력거 한 대가 서 있다.",
-   "visual": "an empty two-wheeled rickshaw standing in a rainy alley under a gaslight, shafts down",
-   "motion": "rain streaks past the lamp, a wheel turns once, puddles ripple",
-   "anchor": false
+   "cast": [
+    "kim",
+    "rickshaw",
+    "seoul_street",
+    "dusk_rain_bg"
+   ],
+   "refs": [],
+   "beat": "자꾸 집 쪽으로 돌아가는 고개",
+   "visual": "the street corner at dusk in the rain: the rickshaw puller is the one standing still between the lowered shafts of the empty rickshaw at the center, his soaked hemp jacket steaming faintly, his head turned far back over his right shoulder toward the dark end of the street behind him, his mouth set and his brows drawn; the folding hood drips; the wet paving holds a dull yellow gleam from a lit paper window in a house front at the right and the sky above the tile roofs is a cold dark blue-grey; a single passer-by under an umbrella walks away at the far left; the shutters and walls are bare wood",
+   "motion": "the man's turned head slowly comes back around to face forward and his hands lift the shafts to waist height in one continuous movement, his shoulders settling into the pull; the passer-by keeps walking away; the rickshaw hood, the house front and the rain hold; camera fixed"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "kim",
+    "chisam",
+    "tavern",
+    "dusk_rain_bg"
+   ],
+   "refs": [],
+   "beat": "친구 치삼과 선술집으로",
+   "visual": "the open doorway of the standing tavern at dusk: the stout friend in the dark grey durumagi overcoat and battered felt hat is the one at frame right with his arm thrown around the rickshaw puller's shoulders, his round flushed face split by a grin and his free hand gesturing into the lit doorway; the rickshaw puller is the one at frame left, soaked hemp jacket and headband dripping, his gaunt face turned toward the friend with a reluctant half smile; the doorway behind them glows dim yellow with the long counter, the brass kettles and the earthen jars inside; rain falls on the wet stones of the street around their sandals",
+   "motion": "the friend's arm around the puller's shoulders draws him slowly a step toward the lit doorway, both men's bodies leaning that way together and the puller's reluctant smile widening a little; the doorway, the counter inside and the rain hold their state; camera fixed"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "kim",
+    "chisam",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "잔을 비울수록 웃다가 우는 김첨지",
+   "visual": "inside the tavern at the long wooden counter: the rickshaw puller is the one at the center leaning both elbows on the counter with a wooden bowl of milky rice wine raised in his right hand, his gaunt face twisted between a laugh and a sob, wet eyes shining and his headband pushed up his brow; the stout friend is the one beside him at frame right with his felt hat pushed back, one hand on the puller's shoulder and his own bowl on the counter; brass kettles, a steaming pot and the shelves of dark earthen jars behind the counter, a glass-shaded hanging light throwing dim yellow light on the two faces; two labourers in hemp clothes stand further along the counter at the left with their backs half turned",
+   "motion": "the puller tips the wooden bowl slowly up to his mouth and drains it in one long swallow, his throat working and his eyes closing, and lowers it to the counter; the friend's hand stays on his shoulder without moving; the kettles, the jars and the light hold still; camera fixed"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "kim",
+    "chisam",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "취해 외치는 김첨지",
+   "visual": "inside the tavern: the rickshaw puller is the one standing at the center with his right arm thrown up high holding the empty wooden bowl, his mouth wide open in a shout and his wet eyes screwed shut, the soaked hemp jacket hanging open at his chest; the stout friend is the one seated on a stool at frame right looking up at him with his grin gone and his hands open on his knees; along the counter at the left two labourers in hemp clothes have turned their faces toward the shouting man; the brass kettles, the earthen jars and the hanging light behind; dim yellow light on every face",
+   "motion": "the puller's raised arm slowly sinks until the empty bowl rests against his chest and his open mouth closes, his head dropping forward as the shout runs out; the friend and the two labourers stay still watching him; the counter, the jars and the light hold; camera fixed"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "kim",
+    "seolleongtang",
+    "alley",
+    "dusk_rain_bg"
+   ],
+   "refs": [],
+   "beat": "설렁탕을 사 들고 어두운 골목을",
+   "visual": "the narrow dark alley at night in the rain: the rickshaw puller is the one walking up the slick ground toward the camera at the center between the mud-plastered walls under the sagging tile eaves, the cloth-wrapped brass bowl of soup held in both hands against his chest, his gaunt face lowered over it, the wet headband and hemp jacket clinging to him; far ahead behind him a single paper window glows dim yellow; rain falls in fine lines through the dark and the puddles at his straw sandals hold the faint glow; the walls are bare mud",
+   "motion": "the man walks slowly up the alley toward the camera, each careful step placed on the slick ground and the wrapped bowl held level against his chest, rain running from his headband down his face; the walls, the eaves and the far window hold still; the rain keeps falling; camera fixed"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "kim",
+    "seolleongtang",
+    "house_yard",
+    "night_bg_dark"
+   ],
+   "refs": [],
+   "beat": "고요한 집",
+   "visual": "the cramped muddy yard of the shabby house at night: the rickshaw puller is the one standing on the stone step before the closed sliding paper door at the center, the cloth-wrapped brass bowl in his left hand against his chest and his right hand raised flat against the wooden frame of the door, his head bent close to the paper as though listening; the paper door is dark with only the faintest grey; rain pools in the mud of the yard around the broken earthen jar at the left and drips from the sagging tile roof edge above him; the low wall of mud and broken tile closes the frame at the right",
+   "motion": "the man's raised hand slides slowly along the door frame toward the edge of the paper door and stops there, his bent head pressing a little closer to the paper; the door stays closed and dark; the yard, the jar and the dripping roof edge hold; camera drifting very slowly forward"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "kim",
+    "seolleongtang",
+    "rented_room"
+   ],
+   "refs": [],
+   "beat": "문을 밀며 설렁탕을 내미는 손",
+   "visual": "seen from inside the tiny dark room: the sliding paper door at frame right is being pushed open a hand's width and the rickshaw puller is the one in the gap, his gaunt wet face and one shoulder inside, his right arm reaching into the room holding out the cloth-wrapped brass bowl at arm's length, his eyes wide; the room before him is nearly black, only the pale mound of the patched grey quilt on the floor at frame left and the dark shape of the cold brazier showing in the thin light from the door; the grey plaster walls fall into shadow; the infant and the woman's face are hidden under the quilt's edge",
+   "motion": "the door slides slowly further open and the outstretched arm with the wrapped bowl reaches a little deeper into the dark room, the man's wide eyes fixed on the mound of the quilt; the quilt, the brazier and the walls hold perfectly still; camera fixed"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "rickshaw",
+    "house_yard",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빗속에 선 빈 인력거",
+   "visual": "the cramped yard of the shabby house at night, empty of every person: the black rickshaw stands alone at the center with its shafts resting on the mud and its folding hood raised and beaded with rain, the padded seat empty and wet; behind it the closed sliding paper door on its stone step shows the faintest grey, the broken earthen jar at the left holds rain, and water drips in a steady line from the sagging tile roof edge; the low wall of mud and broken tile at the right; rain falls in fine grey lines through the dark",
+   "motion": "rain runs slowly down the curve of the rickshaw hood and drips from its edge into the puddle beneath in a steady unbroken thread while the drip from the roof edge keeps its own slow rhythm; the rickshaw, the door, the jar and the wall hold perfectly still; camera drifting very slowly backward"
   }
  ],
- "withheld": "방 안에서 기다리던 사람이 이미 숨을 거두었다는 것",
- "voice": "ko-KR-HyunsuMultilingualNeural"
+ "withheld": "아내의 죽음, 빈 젖을 빠는 아기, 설렁탕을 사다 놓았는데 왜 먹지를 못하냐는 마지막 대사"
 }

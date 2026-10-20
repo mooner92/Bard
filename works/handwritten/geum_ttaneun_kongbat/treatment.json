@@ -1,0 +1,189 @@
+{
+ "logline": "다 익은 콩밭을 파헤쳐 금줄을 찾는 영식이와, 금줄을 잡았다고 외치는 수재",
+ "destination": "소설 금 따는 콩밭에서 만날 수 있습니다",
+ "protagonist": "yeongsik",
+ "setting": "1930년대 강원 산골 — 산 밑 비탈의 콩밭, 다섯 길 구덩이, 초가의 봉당",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/geum_ttaneun_kongbat/assets",
+ "anchor": "a broad-shouldered Korean farmer of about thirty in a sweat-stained white jeogori and a dirty white headband",
+ "palette": "dark brown, faded white, dark green, sunburnt brown, deep violet",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "yeongsik",
+    "field"
+   ],
+   "refs": [],
+   "beat": "콩밭에서 김을 매는 농사꾼 영식",
+   "visual": "the hillside bean field in late summer below the dark wooded mountain: Yeongsik crouches in a row of tall ripe bean plants with a short-handled hoe, weeding, sweat on his sunburnt face under the dirty headband, the pods hanging heavy on the plants; zelkova and jujube trees at the field's edge, rice paddies yellowing far below",
+   "motion": "Yeongsik's hoe chops steadily along the row while he shuffles forward on his haunches, sweat dripping from his heavy jaw, the heavy bean pods swaying; a breeze crosses the field from the mountain, and the camera holds low along the bean row"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "sujae",
+    "yeongsik",
+    "field"
+   ],
+   "refs": [],
+   "beat": "수재가 와서 콩밭에 금이 묻혔다 한다",
+   "visual": "the edge of the bean field: Sujae in his grimy grey jacket and battered hat squats on the field's edge grinning and flushed with drink, one arm sweeping from the mountain down toward the field as he talks; Yeongsik stands among the bean plants with his hoe hanging from one hand, listening with a doubtful frown, the dark mountain rising behind them",
+   "motion": "Sujae's sweeping arm points from the mountain down to the field and back, his flushed grin widening as he talks, while Yeongsik's frown deepens and his hoe hangs still; the bean plants stir in the breeze, and the camera holds on the two men at the field's edge"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "sujae",
+    "yeongsik",
+    "wife",
+    "house"
+   ],
+   "refs": [],
+   "beat": "세 번째엔 막걸리를 들고 와 술상을 차린다",
+   "visual": "the farmhouse veranda at supper by the oil lamp, exactly three people around the low meal table and the yard empty behind them: on the left Sujae in his grimy grey jacket and battered hat sits cross-legged pouring milky rice wine from a bottle; in the middle Yeongsik in his white jeogori and headband sits cross-legged holding out a bowl in his big hand; on the right the wife kneels with the baby asleep in the cloth wrap on her back and a pot of thin gruel before her, her eyes on the bottle; the lamp's light on the three faces, the thatched eave above",
+   "motion": "Sujae tips the bottle and the milky wine rises in the bowl in Yeongsik's hand, his talk running on with a grin, while Yeongsik's doubtful face loosens bowl by bowl; on the right the wife's eyes follow the bottle and the baby sleeps on her back, the lamp flame nodding, and the camera holds on the three faces around the low table"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "wife",
+    "yeongsik",
+    "house"
+   ],
+   "refs": [],
+   "beat": "술상 밑에서 아내가 남편 옆구리를 찌른다",
+   "visual": "seen from the level of the low meal table on the veranda: in the foreground the wife's small hand slides beneath the table's edge and jabs the husband's side with a knuckle, the husband seated cross-legged beside her; above the table's edge Yeongsik's big sunburnt face turns toward her with a startled blink, the baby's sleeping face showing over the wife's shoulder in its cloth wrap; the oil lamp's light on the two faces, the thatched eave above",
+   "motion": "the wife's hidden knuckle jabs twice under the table's edge and Yeongsik's startled blink turns into a slow nod, the baby sleeping on over her shoulder; the lamp flame sways, and the camera holds on the hidden hand and the nodding face"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "yeongsik",
+    "sujae",
+    "field"
+   ],
+   "refs": [],
+   "beat": "동이 트자 콩밭에 삽을 꽂고 파헤친다",
+   "visual": "dawn on the bean field: on the left Sujae in his battered hat and grimy grey jacket paces the rows muttering with his fingers spread, pointing at the mountain-side corner of the field; on the right Yeongsik in his white headband drives a spade into the earth at that corner among the tall bean plants, the first clods flying; mist on the dark mountain, ripe pods brushing their legs",
+   "motion": "on the right Yeongsik's spade bites and heaves clod after clod out of the bean row while on the left Sujae paces and points with spread fingers, muttering at the ground; mist lifts off the mountain, and the camera holds on the spade tearing into the field"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "yeongsik",
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "삽 끝에 으스러지는 콩 포기",
+   "visual": "close on the spade's edge in the bean row: ripe bean plants crushed and folded under flying clods of reddish-brown earth, their heavy pods half buried, and Yeongsik's big hands pausing on the spade handle as he bends to brush the earth off one bean leaf with his thumb; behind him a fresh raw pit and a heap of spoil",
+   "motion": "clods of earth fly from the spade over the bean plants and the pods vanish under reddish-brown soil, then Yeongsik's hands pause and his thumb brushes the earth from a single bean leaf; the fresh pit gapes behind him, and the camera holds close on the buried plants"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "steward",
+    "yeongsik",
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "마름의 지팡이 — 구덩이를 도로 묻으라",
+   "visual": "the pitted bean field: the stout steward in his grey overcoat and black horsehair hat stands with his face twisted in a shout, his long walking stick jabbed into the side of the spoil-basket frame on Yeongsik's back, Yeongsik standing at the pit's mouth under the loaded basket with a sweat-soaked headband and a flushed face; three raw pits and heaps of reddish-brown spoil around them, crushed bean plants everywhere",
+   "motion": "the steward's stick jabs the spoil-basket again and again as his twisted face shouts, spit flying, while Yeongsik stands hunched under the basket with his eyes down; the heaps of reddish-brown spoil and crushed bean plants lie around them, and the camera holds on the jabbing stick"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "yeongsik",
+    "pit"
+   ],
+   "refs": [],
+   "beat": "다섯 길 구덩이 속의 곡괭이",
+   "visual": "inside the narrow pit five fathoms deep: Yeongsik on his knees in the wet reddish-brown clay swings a long-handled miner's pick with a pointed iron head into the wall with both arms, the carbide lamp's weak blue flame hung on the wall beside him lighting his soaked headband and straining shoulders, water seeping around his knees, clods showering from the low ceiling onto his neck; the wooden ladder rises behind him into the dark",
+   "motion": "the long pick swings and its pointed head bites into the clay wall again and again, clods raining from the ceiling onto Yeongsik's neck as he grunts, the carbide flame guttering blue on the wall; water spreads around his knees, and the camera holds low in the pit on the swinging pick"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "yeongsik",
+    "sujae",
+    "pit"
+   ],
+   "refs": [],
+   "beat": "줄이 안 나오자 흙덩이로 수재를 친다",
+   "visual": "the pit floor: Yeongsik, rising with a fistful of clay in his raised hand, brings it down toward Sujae's head, and Sujae, squatting with a pipe, ducks with his hat flying, both faces smeared with clay in the blue carbide light; the pickaxe lies between them, the ladder behind",
+   "motion": "the clay in Yeongsik's fist comes down and Sujae ducks with his hat flying and his pipe clattering, then scrambles up with clay in his hair, the carbide flame swinging shadows over the wet walls; the camera holds close on the two clay-smeared faces"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "yeongsik",
+    "wife",
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "밤중의 산제",
+   "visual": "the pitted bean field at night under the dark mountain: a straw mat spread in the middle of the field with a steaming rice-cake steamer on it, and Yeongsik bowing deeply before it with his hands pressed together, his big body bent to the earth; the wife stands a few steps back at the field's edge with the baby on her back, one hand held to her cheek; heaps of spoil dark against the field, stars over the mountain",
+   "motion": "Yeongsik bows to the earth twice before the steaming steamer with his hands pressed together, his lips moving in prayer, while the wife stands back with her hand to her cheek; the steam drifts up toward the stars, and the camera holds on the bowing man in the ruined field"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "yeongsik",
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "열흘이 지나도 산신은 무소식",
+   "visual": "the pitted bean field in early autumn: Yeongsik sits slumped on a heap of reddish-brown spoil at the pit's mouth, gaunt and clay-caked, shoulders sagging, staring at the dark mountain; the crushed bean plants around the pits, the rice paddies yellowing far below with distant farmers reaping, the ladder's top sticking out of the pit beside him",
+   "motion": "Yeongsik's sagging shoulders rise and sink with slow breaths as he stares at the mountain, a clod crumbling under his hand on the spoil heap; far below the distant farmers bend and rise in the yellow paddies, and the camera holds on the slumped man at the pit"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "wife",
+    "yeongsik",
+    "sujae",
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "점심 온 아내에게 휘두른 주먹",
+   "visual": "the field's edge: the wife stands with a lunch gourd set on the ground and the baby on her back, her face sharp with reproach — and before her Yeongsik, bareheaded but for his white headband, in his torn white jeogori with a scratch on his cheek, on his feet with a raised fist and a twisted face; far behind them at the pit's mouth Sujae in his battered hat turns his clay-smeared face away, heaps of reddish-brown spoil between",
+   "motion": "Yeongsik's raised fist swings and the wife flinches back with the baby crying on her back, her sharp face turning away, while far behind Sujae edges toward the pit's ladder; the lunch gourd tips on the ground, and the camera shakes on the swinging fist"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "sujae",
+    "yeongsik",
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "수재가 흙 한 줌을 쥐고 금줄을 잡았다며 뛰어나온다",
+   "visual": "the pit's mouth: Sujae comes scrambling up out of the pit with his eyes wide and a fistful of reddish clay held high, shouting, clay streaking his face, while Yeongsik lunges toward him with both hands out and his mouth open; heaps of spoil and crushed bean plants around them, the autumn sun bright on the reddish clay in the raised fist",
+   "motion": "Sujae scrambles up out of the pit with the fistful of reddish clay held high and shouting, and Yeongsik lunges and seizes the clay in both hands, crumbling it and staring, his eyes filling; the wife runs up behind, and the camera closes on the reddish clay in the trembling hands"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "yeongsik"
+   ],
+   "refs": [],
+   "beat": "불그죽죽한 흙 한 줌",
+   "visual": "extreme close-up: a fistful of rusty brown clay crumbling between Yeongsik's thick fingers, the fingers themselves caked with the same dry brown clay, tiny pale flecks catching the bright autumn sun, his wet eyes blurred beyond; the edge of Sujae's grin at the frame's corner",
+   "motion": "the rusty brown clay crumbles slowly between the thick clay-caked fingers and the tiny flecks glint in the sun as the fingers turn it over and over, the wet eyes blurred beyond; the grin at the corner holds, and the camera closes on the crumbling clay"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "field_dug"
+   ],
+   "refs": [],
+   "beat": "마무리 — 저녁 콩밭 스틸",
+   "visual": "closing still: the ruined bean field at dusk under the dark mountain, the heaps of reddish-brown spoil and the open pits, ripe bean pods lying loose on the reddish-brown earth among the crushed plants, the ladder sticking out of the largest pit; the rice paddies below going violet in the dusk",
+   "motion": "dusk deepens over the ruined field while the last light slides off the heaps of spoil and a bean pod rolls a little on the earth; the farmers' song drifts faintly from the paddies below, and the camera closes with great patience on the pods lying in the reddish-brown soil"
+  }
+ ],
+ "withheld": "금줄은 거짓말이고 수재가 그날 밤 달아나리라 마음먹는 결말"
+}

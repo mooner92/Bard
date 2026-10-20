@@ -42,7 +42,7 @@
   "mood": "동양·현실"
  },
  "talchulgi": {
-  "blurb": "고향을 버리고 간도로 떠난 한 가족",
+  "blurb": "만삭의 아내가 아궁이에 감춘 귤껍질",
   "mood": "동양·현실"
  },
  "sangroksu": {
@@ -384,5 +384,205 @@
  "gongju_wandukong": {
   "blurb": "요 스무 장 아래 완두콩 한 알의 시험",
   "mood": "서양·서정"
+ },
+ "seongnyangpari_sonyeo": {
+  "blurb": "성냥 한 개비마다 나타난 난로와 거위와 할머니",
+  "mood": "서양·서정"
+ },
+ "dwaejichigi_wangja": {
+  "blurb": "방울 냄비 값은 공주의 입맞춤 열 번",
+  "mood": "서양·서정"
+ },
+ "jeonnamu": {
+  "blurb": "어서 크고만 싶던 전나무의 크리스마스 하룻밤",
+  "mood": "서양·환상"
+ },
+ "nunui_yeowang": {
+  "blurb": "거울 조각이 박힌 소년을 찾아 세상 끝까지",
+  "mood": "서양·모험"
+ },
+ "ttwimttwigi_seonsu": {
+  "blurb": "공주의 무릎으로 뛰어오른 개구리의 한 뜀",
+  "mood": "서양·환상"
+ },
+ "neulgeun_jip": {
+  "blurb": "외로운 노인에게 보낸 주석 병정 하나",
+  "mood": "서양·서정"
+ },
+ "mannyeon_syeocheu": {
+  "blurb": "셔츠 없이 맨몸으로 이십 리를 걸어온 창남이의 겨울",
+  "mood": "동양·현실"
+ },
+ "geum_ttaneun_kongbat": {
+  "blurb": "다 익은 콩밭을 파헤쳐 금줄을 찾는 사내",
+  "mood": "동양·현실"
+ },
+ "bincheo": {
+  "blurb": "마지막 저고리를 잡히는 밤, 무명작가의 셋방",
+  "mood": "동양·현실"
+ },
+ "san_hyoseok": {
+  "blurb": "머슴살이 칠 년 끝에 빈 지게만 지고 가을 산에 든 사내",
+  "mood": "동양·서정"
+ },
+ "halmeoni_jugeum": {
+  "blurb": "문지방에 놓였다 치이길 거듭하는 지팡이와 신",
+  "mood": "동양·현실"
+ },
+ "ttaengbyeot": {
+  "blurb": "중복 땡볕에 아내를 지게에 지고 오른 병원 길",
+  "mood": "동양·현실"
+ },
+ "sul_gwonhaneun_sahoe": {
+  "blurb": "새로 한 점, 바늘에 찔린 아내와 술 냄새의 남편",
+  "mood": "동양·현실"
+ },
+ "bulgeun_san": {
+  "blurb": "산 없는 만주 벌판, 미움받던 삵이 마지막에 보고 싶어 한 것",
+  "mood": "동양·현실"
+ },
+ "gohyang": {
+  "blurb": "기차에서 만난 세 나라 옷의 사내, 통 없어진 고향",
+  "mood": "동양·현실"
+ },
+ "non_iyagi": {
+  "blurb": "일인이 쫓겨 가면 팔아먹은 논이 도로 내 것이라던 장담",
+  "mood": "동양·현실"
+ },
+ "miseuteo_bang": {
+  "blurb": "더티 원 한마디로 미군 통역이 된 신기료장수의 노대",
+  "mood": "동양·현실"
+ },
+ "piano": {
+  "blurb": "칠 줄도 모르는 피아노 한 채가 마루에 여왕처럼",
+  "mood": "동양·현실"
+ },
+ "isanghan_saemmul": {
+  "blurb": "파랑새를 따라간 샘물 한 모금에 스물다섯 살로",
+  "mood": "동양·서정"
+ },
+ "horangi_hyeongnim": {
+  "blurb": "굶주린 호랑이에게 형님 하고 절한 나무꾼, 달마다 오는 돼지",
+  "mood": "동양·서정"
+ },
+ "kkamakjapgi": {
+  "blurb": "층층대 밑에서 뒤로 눈을 가린 손, 내가 누구예요?",
+  "mood": "동양·서정"
+ },
+ "nun_eoduun_posu": {
+  "blurb": "눈 어두운 포수가 못인 줄 알고 더듬은 벽, 들창 밖의 사슴",
+  "mood": "동양·서정"
+ },
+ "mokgeori": {
+  "blurb": "하룻밤 무도회를 위해 빌린 다이아몬드 목걸이, 그리고 십 년",
+  "mood": "서양·긴장"
+ },
+ "honghakui_jari": {
+  "blurb": "내가 죽였다는 첫 고백, 외다리로 선 홍학의 자리",
+  "mood": "동양·현실"
+ },
+ "chaesikjuuija": {
+  "blurb": "어느 날 고기를 버린 아내, 식탁의 조용한 전쟁",
+  "mood": "동양·현실"
+ },
+ "bulpyeonhan_pyeonuijeom": {
+  "blurb": "골목 모퉁이의 편의점, 밤 계산대의 낯선 사내",
+  "mood": "동양·현실"
+ },
+ "mosun": {
+  "blurb": "같은 얼굴로 정반대의 삶을 산 쌍둥이, 그리고 두 갈래 길",
+  "mood": "동양·서정"
+ },
+ "annyeongira_geuraeteo": {
+  "blurb": "만날 때도 헤어질 때도 쓰는 말, 안녕",
+  "mood": "동양·서정"
+ },
+ "goeteneun_modeun_geoteul": {
+  "blurb": "어느 책에서도 찾을 수 없는 괴테의 문장 하나",
+  "mood": "동양·현실"
+ },
+ "naui_wanbyeokhan_jangrye": {
+  "blurb": "병원과 장례식장 사이의 작은 매점, 커피와 휴지와 잠깐의 숨",
+  "mood": "동양·서정"
+ },
+ "ppangchung": {
+  "blurb": "소금빵과 꼭 닮은 애벌레로 인생 역전을 꿈꾼 귀농 청년",
+  "mood": "동양·현실"
+ },
+ "honmono": {
+  "blurb": "신령이 떠난 30년 차 박수무당과 앞집의 스무 살 신애기",
+  "mood": "동양·현실"
+ },
+ "isanghyeonsang": {
+  "blurb": "사적지에서 사람이 사라진다, 규칙을 어기면 순직",
+  "mood": "동양·현실"
+ },
+ "yeongwonhan_cheonguk": {
+  "blurb": "죽지 않는 천국행 티켓과 유빙 떠도는 서해 끝 재활원",
+  "mood": "동양·현실"
+ },
+ "hyungdam": {
+  "blurb": "자정까지 두 사람에게 들려주지 않으면 악귀가 온다",
+  "mood": "동양·현실"
+ },
+ "amhaeng": {
+  "blurb": "혼례 첫날밤 모든 걸 잃고 되살아난 열아홉 살 암행어사",
+  "mood": "동양·현실"
+ },
+ "inbiin": {
+  "blurb": "죄가 새겨진 책상과 100달러짜리 인생, 귀신 없는 기담 아홉 편",
+  "mood": "동양·현실"
+ },
+ "the_coworker": {
+  "blurb": "8시 45분의 동료가 사라졌다, 의심은 옆자리의 그녀에게",
+  "mood": "서양·긴장"
+ },
+ "samwolui_machi": {
+  "blurb": "층마다 과거의 내가 사는 아파트, 예순 살 배우의 60층 계단",
+  "mood": "동양·현실"
+ },
+ "noksaek_jeolbyeok": {
+  "blurb": "모든 얼굴이 뭉개져 보인다, 단 한 사람만 빼고",
+  "mood": "동양·현실"
+ },
+ "teo": {
+  "blurb": "카페 벽의 연필 초상화 92점을 주인에게 돌려주는 노신사",
+  "mood": "서양·현실"
+ },
+ "project_hailmary": {
+  "blurb": "기억을 잃고 깨어난 우주선, 투명한 벽 너머의 다섯 다리 친구",
+  "mood": "서양·환상"
+ },
+ "taeyang_olive": {
+  "blurb": "믿는 수녀와 의심하는 과학 유튜버, 사라진 사람을 쫓는 국경 너머의 질주",
+  "mood": "동양·현실"
+ },
+ "cheon_gaeui_parang": {
+  "blurb": "스스로 낙마한 로봇 기수와 안락사를 앞둔 경주마의 2035년",
+  "mood": "SF·따뜻"
+ },
+ "nunmul_sae": {
+  "blurb": "심장을 떼지 않은 나가 소년과 그를 구하러 가는 도깨비·레콘·인간",
+  "mood": "동양·환상"
+ },
+ "dolikil": {
+  "blurb": "싱크홀이 삼킨 봉쇄 도시, 그곳에 숨어 사는 초능력자들",
+  "mood": "동양·현실"
+ },
+ "isanghan_jido": {
+  "blurb": "할머니가 쥐고 떠난 고지도, 일곱 요괴와 등을 돌린 석탑",
+  "mood": "일본·미스터리"
+ },
+ "agami": {
+  "blurb": "죽음의 문턱에서 아가미를 얻은 소년, 깊고 푸른 호수의 비밀",
+  "mood": "동양·현실"
+ },
+ "namiya": {
+  "blurb": "빈 잡화점에 숨은 좀도둑에게 과거에서 온 고민 편지",
+  "mood": "일본·따뜻"
+ },
+ "gorae": {
+  "blurb": "고래를 본 산골 소녀 금복과 벽돌을 굽는 딸 춘희의 대서사",
+  "mood": "동양·현실"
  }
 }

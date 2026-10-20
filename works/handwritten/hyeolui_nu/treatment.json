@@ -1,60 +1,199 @@
 {
-  "logline": "부모를 잃고 타국에 팔려간 소녀가, 익숙해진 일상의 문 앞에서 돌아갈 길을 잃고 서 있다.",
-  "destination": "부인의 집 현관문 — 떠나야 하는지, 남을지 결정되는 순간",
-  "protagonist": "일본에서 학교를 다니는 일곱 살 소녀",
-  "setting": "1900년대 초, 일본인 군의관의 가정과 평양의 혼란",
-  "anchor": "Seven-year-old girl in a white kimono, dark hair, standing still",
-  "palette": "Cold blue shadows, dim indoor lighting, muted earth tones, soft focus",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "소녀가 신발 끈을 조이며 현관 앞에 선다.",
-      "visual": "Close up of small hands tying shoes on a wooden floor mat.",
-      "motion": "Hands tightening laces slowly inward"
-    },
-    {
-      "n": 2,
-      "beat": "뒤에서 여성의 목소리가 차갑게 그를 부른다.",
-      "visual": "Silhouette of a woman blocking the doorway from the dim hallway.",
-      "motion": "Shadow lengthening towards the child"
-    },
-    {
-      "n": 3,
-      "beat": "소녀가 고개를 들지 못한 채 발을 멈춘다.",
-      "visual": "Child's profile in profile, eyes downcast, holding a small bag.",
-      "motion": "Head lowering slightly further down"
-    },
-    {
-      "n": 4,
-      "beat": "창밖으로 낯선 도시의 스모그가 흘러들어온다.",
-      "visual": "Grey smoke drifting through the open window pane behind the girl.",
-      "motion": "Smoke drifting left to right across the frame"
-    },
-    {
-      "n": 5,
-      "beat": "소녀가 주머니에서 낡은 사진을 꺼낸다.",
-      "visual": "Fingers holding a faded photograph against the white kimono sleeve.",
-      "motion": "Hand bringing object up to eye level"
-    },
-    {
-      "n": 6,
-      "beat": "사진 속 평양의 모습이 흐려져 보이기 시작한다.",
-      "visual": "Blurred faces in the photo becoming indistinct as the hand trembles.",
-      "motion": "Hand shaking slightly forward and back"
-    },
-    {
-      "n": 7,
-      "beat": "그녀는 문을 열고 나가야 할까?",
-      "visual": "Girl standing frozen at the threshold, one foot hovering over the step.",
-      "motion": "Foot lifting slightly off the ground"
-    },
-    {
-      "n": 8,
-      "beat": "현관 바닥에 신발 한 짝이 비어 있다.",
-      "visual": "A single small shoe lying abandoned on the cold wooden floor.",
-      "motion": "Camera static, shoe remains still",
-      "anchor": false
-    }
-  ],
-  "withheld": "소녀가 실제로 집을 나서는지, 혹은 일본인 군의관 이노우에가 전사했다는 소식을 듣고 어떻게 반응하는지."
+ "logline": "청일전쟁의 밤 평양 모란봉에서 부모를 잃고 총알에 다친 일곱 살 옥련이 일본 군의관의 손에 구해져 바다 건너 자라다, 군의관이 죽자 그 부인에게 구박받아 집을 나오고, 기차에서 만난 청년과 함께 미국까지 가는 동안 흩어진 어머니와 아버지는 각자 강과 바다로 간다",
+ "destination": "소설 혈의 누에서 만날 수 있습니다",
+ "protagonist": "okryeon",
+ "setting": "1894년 청일전쟁의 평양 모란봉과 대동강, 일본 오사카의 군의관 집, 밤 기차역, 미국의 벽돌 학교",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/hyeolui_nu/assets",
+ "anchor": "a small Korean girl of seven with black hair in two short braids, a plain off-white cotton jeogori and a long dull red cotton skirt, a round pale face with wide dark eyes",
+ "palette": "dark blue, ash grey, off-white, dark brown, dull red",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "okryeon",
+    "battlefield",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "모란봉 기슭 밤 전장에서 어머니를 잃은 일곱 살 옥련",
+   "visual": "night at the foot of the wooded hill: the small girl of seven in the off-white jeogori and long dull red skirt is the one standing alone at frame centre on the trampled grass slope, her two short braids hanging loose over her shoulders, both thin arms hanging at her sides, her round pale face turned to the left with her mouth open in a call, her straw sandals sunk in the wet dark mud; behind her the slope rises into low ash grey smoke drifting along the ground, a broken two-wheeled wooden cart lying on its side at frame right with one wheel up, dropped cloth bundles and an overturned brass bowl in the mud beside it; far up the slope a few dark shapes of tiled roofs under the deep blue night sky with a few small pale stars, a faint dull red glow on the smoke along the left horizon; the foreground grass is flattened and wet, the whole slope empty of any other person",
+   "motion": "the small girl of seven in the off-white jeogori and long dull red skirt is the only one who moves: at the start she stands with both thin arms hanging at her sides and her round face turned to the left, her mouth open in a call; over the first two seconds she turns her head slowly from the left toward the right, her loose braids swinging a little across her shoulders, her mouth staying open in the call, and her right hand lifts a little away from her side with the fingers spread; in the last two seconds her head holds turned to the right and the lifted hand stays where it is; her feet in the straw sandals stay planted in the mud, no step, her shoulders level; the low ash grey smoke drifts very slowly along the slope from right to left; the broken cart, the dropped bundles, the overturned bowl, the tiled roofs up the slope, the pale stars and the dull red glow on the horizon hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "okryeon",
+    "battlefield",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "총알에 다리를 스친 옥련이 풀밭에 쓰러진다",
+   "visual": "night on the trampled grass slope, seen from low and close: the small girl of seven in the off-white jeogori and long dull red skirt is the one lying on her left side on the flattened wet grass at frame centre, her body curled, her two short braids spread on the mud, her right leg stretched out toward frame right with the dull red skirt pulled up to the calf and a dark wet stain spreading on the cloth at the calf, her right hand pressed over the stain, her left arm folded under her cheek, her round pale face turned toward the camera with the eyes half closed and the lips parted; low ash grey smoke drifts across the slope behind her, the broken two-wheeled cart on its side a little way up the slope at frame left, dropped cloth bundles in the mud; the deep blue night sky with a few small pale stars fills the top of the frame; the grass around her is flattened and empty",
+   "motion": "the small girl of seven in the off-white jeogori and long dull red skirt lying on her left side is the only one who moves, and only a little: at the start her right hand is pressed flat over the dark stain on the skirt at her calf and her eyes are half closed; over the first two seconds her fingers press slowly tighter into the cloth, her chest rising and sinking with slow shallow breaths, and her head turns very slightly on her folded left arm so that her half-closed eyes lift toward the camera; in the last two seconds the hand holds pressed and the head holds, her breathing continuing slow and shallow; her stretched right leg stays where it lies, her braids lie still on the mud; the low ash grey smoke drifts very slowly across the slope behind her from right to left; the broken cart, the dropped bundles, the flattened grass and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "inoue",
+    "okryeon",
+    "battlefield",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "쓰러진 아이를 안아 올리는 일본 군의관 이노우에",
+   "visual": "night on the trampled grass slope: the lean Japanese man of forty in the dark army tunic with the brass buttons, the dark peaked cap and the white armband with the red cross is the one kneeling on his right knee at frame centre, both arms under the small girl of seven, lifting her from the wet grass, her body limp across his forearms, her head with the two short braids fallen back against his left shoulder, her long dull red skirt hanging over his arm and her muddy straw sandals dangling; his short black moustache and narrow eyes are turned down to her face; a square glass-sided lantern with a small yellow flame stands on the mud at frame left throwing dull yellow light up onto them; low ash grey smoke drifts along the slope behind, the broken cart on its side further up at frame right, the deep blue night sky above",
+   "motion": "the lean Japanese man of forty in the dark army tunic, the dark peaked cap and the white armband is the only one who moves, and the small girl of seven stays limp in his arms: at the start he kneels on his right knee with both arms under her and her head against his left shoulder; over the first three seconds he rises slowly from the knee, straightening his back and his legs, lifting her with him so that her dull red skirt and her dangling straw sandals swing a little and then hang still, his narrow eyes staying on her face; in the last two seconds he stands upright and holds her against his chest, his boots planted in the mud, his shoulders level; her braids lie on his shoulder, her arms hang, her eyes stay closed, she does not stir; the small yellow flame in the glass-sided lantern on the mud flickers faintly; the low ash grey smoke drifts very slowly along the slope behind them; the broken cart, the wet grass and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "inoue",
+    "okryeon",
+    "battlefield",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "다리를 싸매 주는 군의관에게 어머니를 묻는 옥련",
+   "visual": "night at the edge of the trampled slope, close and low: the small girl of seven in the off-white jeogori and long dull red skirt is the one sitting on a folded ash grey army blanket on the ground at frame left, her back against a dropped cloth bundle, her right leg stretched out toward frame right with the white cloth being wound around her right calf just above the straw sandal, her two hands folded together in her lap, her two short braids over her shoulders, her round pale face turned up with the lips parted; the lean Japanese man of forty in the dark army tunic, the dark peaked cap and the white armband with the red cross is the one kneeling on both knees at frame right beside her leg, his two hands winding a long strip of white cloth around her calf, his open satchel on the ground beside him; the square glass-sided lantern with its small yellow flame stands between them on the mud lighting his hands and her face; low ash grey smoke and the deep blue night sky behind",
+   "motion": "the lean Japanese man of forty in the dark army tunic and the dark peaked cap kneeling at frame right is the one whose hands move, and the small girl of seven only speaks: at the start his two hands hold the strip of white cloth halfway around her calf; over the first three seconds his hands wind the white cloth slowly around and around the calf, the loose end passing from one hand to the other, his narrow eyes on the wrapping; in the last two seconds the hands hold the cloth in place and press it flat; the girl sitting on the folded ash grey blanket keeps her right leg stretched still, her lips move as she speaks and her wide dark eyes stay on his face, her braids and her hands in her lap not moving, her back staying against the bundle; the small yellow flame in the glass-sided lantern flickers faintly; the open satchel, the ash grey smoke behind and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "mother",
+    "river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "남편과 딸을 잃은 옥련 어머니가 대동강 물속으로 걸어 들어간다",
+   "visual": "night at the Daedong river: the thin Korean woman of thirty in the white cotton jeogori and long ash grey skirt is the one standing in the black river water at frame centre with the surface of the water at her waist, the whole lower half of her body and her skirt hidden under the dark water, her back three-quarters to the camera, the back of her head with the low bun toward the camera and her head held straight ahead toward the wide dark water, her two arms hanging down into the water, only the top of the wet ash grey skirt showing at the waterline; behind her at frame left the low stone wall of rough grey blocks of the bank and the sandy strip at the water's edge with her white rubber slippers with pointed upturned toes left side by side on the sand; the flat wooden boat moored to its wooden post at the far right, reeds along the waterline; the still black water reflects a faint pale band of the deep blue night sky with a few small pale stars; the whole bank and the water empty of any other person",
+   "motion": "the thin Korean woman of thirty in the white jeogori and long ash grey skirt standing waist-deep in the black river water is the only one who moves: at the start she stands with the back of her head to the camera, her head held straight ahead toward the dark water and her arms hanging into the water; over the first three seconds she takes one slow step forward away from the camera, then a second, the black water rising slowly from her waist to her ribs, rings of ripples spreading outward from her body across the still surface, the wet ash grey skirt floating and settling around her; in the last two seconds she comes to a stop well inside the frame with the water at her ribs, her head still straight ahead, the ripple rings widening and fading; the back of her head stays toward the camera, no turn; the white rubber slippers on the sand, the stone wall, the moored flat boat, the reeds and the pale stars hold completely still; no new figures or objects appear; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "boatman",
+    "mother",
+    "river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "지나가던 뱃사공이 물속의 어머니를 끌어낸다",
+   "visual": "night on the Daedong river, close on the flat wooden boat: the stocky Korean man of forty in the rolled-up off-white jacket and the dark grey cloth headband is the one kneeling on the boat's planks at frame right, leaning far over the boat's low side, his two big rough hands gripping the forearms of the thin Korean woman of thirty in the white jeogori, who is the one in the black water up to her chest beside the boat at frame left, her wet black hair loosened from the bun and stuck to her narrow pale face, her wet white jeogori clinging to her shoulders, her two arms raised out of the water to his grip, her eyes half closed; only he wears a headband, only she has long hair; a long wooden pole lies along the boat's planks behind him; the stone wall of the bank and the reeds dim behind them, the still black water reflecting the faint pale band of the deep blue night sky",
+   "motion": "the stocky Korean man of forty in the rolled-up off-white jacket and the dark grey headband kneeling in the boat is the one who moves, and the thin woman in the white jeogori is only lifted: at the start his big rough hands grip her forearms with her chest at the water line; over the first three seconds he leans slowly back from the boat's side, pulling her up so that her wet shoulders and then her wet white jeogori rise slowly out of the black water, water streaming down her sleeves and her loosened hair, the boat tilting a little toward her and small ripples spreading from its side; in the last two seconds he holds her raised against the boat's side with her arms in his grip, the streaming water thinning to a trickle; her half-closed eyes stay half closed, her head hangs, her legs stay in the water; the long wooden pole on the planks, the stone wall of the bank, the reeds and the pale stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "father",
+    "ship_deck",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "가족을 찾지 못한 아버지 김관일이 배에 올라 바다를 건넌다",
+   "visual": "a pale overcast day on the wooden deck of the large black iron steamship: the Korean man of thirty-five with the short black beard, the black gat hat with the wide flat brim and the dark brown durumagi overcoat is the one standing on the ship's own deck at frame left, the deck planks running under his feet up to the solid dark wooden bulwark of plain planks waist-high, his left hand resting on top of the bulwark and his right arm hanging at his side, his body turned to the rail and his bearded face turned back over his right shoulder toward the wharf behind him; the thick black funnel with the white band rises from the same deck at frame right directly behind him with thin grey steam drifting from its top, coiled rope on the deck planks at his feet, iron stanchions along the bulwark; beyond the bulwark the wharf with its low tiled roofs is already a little way off across a strip of grey water, and beyond that the flat grey sea meets the pale overcast sky with a faint dull yellow band low at the horizon; the deck around him is bare of any other person",
+   "motion": "the Korean man of thirty-five with the short black beard, the black gat hat and the dark brown durumagi standing at the bulwark is the only one who moves: at the start his bearded face is turned back over his right shoulder toward the wharf and his left hand rests on top of the bulwark; over the first two seconds he turns his head slowly forward again to face the grey sea ahead, the wide flat brim of the gat hat turning with it, his left hand tightening a little on the bulwark; in the last two seconds his face holds toward the sea and the hand holds its grip; his feet stay planted on the deck planks, his right arm hangs still, his shoulders level; thin grey steam drifts slowly upward from the black funnel and the strip of grey water below the bulwark moves in slow low swells; the wharf with its tiled roofs, the coiled rope, the iron stanchions and the pale overcast sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "okryeon_jp",
+    "wife",
+    "jp_house",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "오사카 군의관 집에서 학교에 다니는 옥련",
+   "visual": "a pale overcast morning in front of the Japanese wooden house with the dark tiled roof and the sliding paper doors: the Korean girl of eleven with the short straight black bob, the plain indigo kimono with the narrow dull yellow sash and the wooden sandals is the one standing on the stepping stones of the raked grey gravel garden at frame centre, a square cloth-wrapped bundle held against her chest with both arms, her round pale face turned toward the low wooden gate with the tiled cap at frame left; the Japanese woman of thirty-five in the dark grey kimono with the wide dull yellow obi and the high rounded bun is the one standing in the open doorway of the house at frame right, one step up on the wooden sill, her long thin hands folded in front of her obi, her narrow face with the thin lips turned toward the girl; only the woman has her hair in a high bun, only the girl carries a bundle; the clipped dark green shrub beside the gate, the stone basin, and the pale overcast sky above the tiled roof",
+   "motion": "the Korean girl of eleven with the short black bob and the plain indigo kimono on the stepping stones is the only one who moves, and the Japanese woman in the dark grey kimono stays in the doorway: at the start the girl stands on a stepping stone with the cloth-wrapped bundle held against her chest and her face turned toward the low wooden gate; over the first three seconds she takes two slow small steps along the stepping stones toward the gate, her wooden sandals lifting and setting down, the indigo kimono swaying a little at the hem, the bundle held steady against her chest; in the last two seconds she comes to a stop well inside the frame two stones short of the gate, her face still toward the gate; the woman in the doorway keeps her long thin hands folded in front of her obi, her feet on the sill not moving, her head not turning, her thin lips closed; the low wooden gate, the raked gravel, the clipped dark green shrub, the stone basin, the tiled roof and the pale overcast sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "wife",
+    "okryeon_jp",
+    "jp_room"
+   ],
+   "refs": [],
+   "beat": "군의관 이노우에의 전사 소식이 부인에게 전해진다",
+   "visual": "inside the Japanese tatami room in soft grey daylight through the paper doors: the Japanese woman of thirty-five in the dark grey kimono with the wide dull yellow obi and the high rounded bun is the one kneeling on the pale straw mats at the low dark wooden table at frame centre, her body bent forward, her head bowed low so that the high bun is toward the camera and her narrow face is hidden, her two long thin hands pressed flat on the mat in front of her knees; a single folded sheet of plain white paper lies on the low table beside her hands; the Korean girl of eleven with the short black bob and the plain indigo kimono is the one kneeling on the mat at the open sliding paper door at the far left edge of the room, small in the doorway, her round pale face turned toward the bowed woman, her hands on her knees; only the woman has her hair in a high bun; the folded grey quilt in the corner at frame right, the plain pale walls, the sliding paper doors glowing grey",
+   "motion": "the Japanese woman of thirty-five in the dark grey kimono kneeling at the low table is the one who moves, and the Korean girl in the indigo kimono at the doorway stays still: at the start the woman's body is bent forward with her head bowed and her two long thin hands pressed flat on the mat; over the first three seconds her shoulders sink slowly lower and her bowed head lowers further toward the mat until her high rounded bun almost touches her hands, the dark grey kimono creasing over her back, the dull yellow obi lifting a little; in the last two seconds she holds bowed low and does not rise; the folded white paper on the low table stays where it lies; the girl at the open sliding door keeps her hands on her knees, her round face toward the woman, her body not leaning, her feet under her not shifting; the folded grey quilt, the low table, the pale walls and the grey glow of the paper doors hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wife",
+    "okryeon_jp",
+    "jp_room"
+   ],
+   "refs": [],
+   "beat": "새 남편을 얻으려는 부인이 옥련을 구박한다",
+   "visual": "inside the Japanese tatami room in soft grey daylight: the Korean girl of eleven with the short black bob and the plain indigo kimono with the narrow dull yellow sash is the one on her hands and knees on the pale straw mats at frame left, a wet grey cloth flat under her right hand, her round pale face turned down to the mat, her short bob hanging forward; the Japanese woman of thirty-five in the dark grey kimono with the wide dull yellow obi and the high rounded bun is the one standing over her at frame right, her body turned to the girl, her right arm stretched out and down with the long thin forefinger pointing at the mat beside the girl's hands, her left hand at her obi, her narrow face with the thin lips open in a scold; only the woman stands, only the woman has her hair in a high bun; a wooden bucket of water stands on the mat beside the girl, the low dark wooden table pushed against the pale wall behind, the sliding paper doors glowing grey on the right, the folded grey quilt in the corner",
+   "motion": "the Japanese woman of thirty-five in the dark grey kimono standing at frame right is the one who moves, and the Korean girl on her hands and knees only wipes: at the start the woman's right arm is stretched out and down with the forefinger pointing at the mat and her thin lips are open; over the first two seconds her pointing arm lowers slowly further toward the mat and her upper body leans down over the girl, the dark grey kimono sleeve sliding back from her thin wrist, her lips moving in the scold; in the last two seconds her arm holds low and her body holds leaning; the girl's right hand moves the wet grey cloth slowly back and forth across the mat in short strokes, her head staying down, her short bob hanging forward, her knees not shifting; the wooden bucket, the low table against the wall, the folded grey quilt and the grey glow of the paper doors hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "okryeon_jp",
+    "station",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤중에 집을 나온 옥련이 기차역을 헤맨다",
+   "visual": "night on the outdoor railway platform under the wooden roof on iron posts: the Korean girl of eleven with the short straight black bob and the plain indigo kimono with the narrow dull yellow sash is the one standing alone at frame centre on the wet grey paving, the square cloth-wrapped bundle held against her chest with both arms, her wooden sandals side by side, her round pale face turned to the right along the platform; the dark green passenger car with its square windows stands along the platform edge at frame right, its windows dark, its iron steps at the end; glass-shaded gas lights on the iron posts throw small dull yellow pools on the wet paving, a wooden bench against a post at frame left, a thin drift of steam low along the platform; beyond the roof the deep blue night sky with a few small pale stars; the whole platform is empty of any other person",
+   "motion": "the Korean girl of eleven with the short black bob and the plain indigo kimono standing on the wet paving is the only one who moves: at the start she stands with the cloth-wrapped bundle held against her chest and her face turned to the right along the platform; over the first three seconds she takes two slow small steps from left to right along the platform, parallel to the dark green passenger car, her wooden sandals lifting and setting down on the wet paving, the indigo kimono swaying a little at the hem, the bundle held steady; in the last two seconds she comes to a stop well inside the frame beside the car's dark windows, her face still turned to the right; the thin drift of steam moves very slowly along the paving; the dull yellow pools of gas light, the dark green car, the iron steps, the wooden bench, the iron posts and the pale stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "guwanseo",
+    "okryeon_jp",
+    "train_car"
+   ],
+   "refs": [],
+   "beat": "기차에서 만난 청년 구완서가 옥련에게 함께 미국으로 가자고 말한다",
+   "visual": "inside the 1890s railway carriage in dim yellow light: the Korean young man of twenty in the dark Western suit with the stiff white collar and the narrow black tie, his short black hair parted at the side, is the one sitting on the worn dark leather bench at frame right, leaning forward with his elbows on his knees and his long fingers laced, his smooth beardless face turned to the left toward the girl; the Korean girl of eleven with the short black bob and the plain indigo kimono with the narrow dull yellow sash is the one sitting on the facing bench at frame left, upright, the square cloth-wrapped bundle on her lap under both hands, her round pale face turned up to him; only he wears a suit, only she has a bundle, two separate people on facing benches; the square window between them shows dark night, the dark wood panelling and the brass luggage rack above, the narrow aisle at the bottom of the frame",
+   "motion": "the Korean young man of twenty in the dark Western suit sitting on the right-hand bench is the one who moves, and the Korean girl in the indigo kimono on the left-hand bench only listens: at the start he leans forward with his elbows on his knees, his long fingers laced and his smooth face turned to her; over the first two seconds he leans a little further forward toward her, his laced fingers parting so that his right hand opens toward her with the fingers spread upward, his lips moving as he speaks; in the last two seconds his open hand holds out toward her and his lips go still; the girl keeps both hands on the bundle on her lap, her round face turned up to him, her body upright and not leaning, her wooden sandals still on the floor; the carriage sways very slightly with the motion of the train, the dark night in the square window unchanging; the dark wood panelling, the brass luggage rack and the dim yellow light hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "okryeon_grown",
+    "guwanseo",
+    "brick_building",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "구완서와 함께 바다를 건너 미국 학교에 들어간 옥련",
+   "visual": "a pale overcast day in front of the tall red brick building with the white-framed sash windows: the slender Korean young woman of seventeen with the black hair pinned up in a low knot, the plain dark blue Western dress with the high collar and long narrow sleeves and the black laced boots is the one standing on the broad grey stone stair at frame left, three steps up, a rolled sheet of pale paper tied with a narrow dull red ribbon held in both hands in front of her waist, her pale oval face turned to the camera with the lips closed; the Korean young man of twenty in the dark Western suit is the one standing on the paved path at the foot of the stair at frame right, his smooth beardless face turned up toward her, his hands at his sides; only she holds a rolled paper, only he stands on the path, two separate people; the iron railing of the stair between them, bare-branched trees along the path, dry leaves on the paving, the pale overcast sky above the brick",
+   "motion": "the slender Korean young woman of seventeen in the dark blue Western dress standing on the stone stair is the one who moves, and the young man in the dark suit on the path only turns his head: at the start she holds the rolled pale paper with the dull red ribbon in both hands in front of her waist; over the first two seconds she lifts the rolled paper slowly with both hands up to her chest and holds it there against the dark blue dress, her chin lifting a little, her lips staying closed; in the last two seconds the rolled paper holds at her chest and her face holds toward the camera; her boots stay planted on the step, no step down; the young man on the path turns his head slowly a little further up toward her and then holds, his hands staying at his sides, his feet not shifting; a few dry leaves on the paving stir very slightly; the iron railing, the red brick, the white-framed windows, the bare-branched trees and the pale overcast sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "okryeon_grown",
+    "study_room"
+   ],
+   "refs": [],
+   "beat": "창가에 선 옥련이 흩어진 식구를 생각한다 (질문)",
+   "visual": "inside the plain Western room in pale grey daylight: the slender Korean young woman of seventeen with the black hair pinned up in a low knot and the plain dark blue Western dress with the high collar is the one standing at the tall sash window at frame right, her body three-quarters turned to the window, her right hand resting on the white-painted window frame, her left hand at her side, her pale oval face turned toward the pale light beyond the glass and seen in profile, her lips closed; the white lace curtain tied back to the left of the window; the wooden writing desk with the closed dark book and the pen holder at frame left, the straight wooden chair pushed in under it, the pale plastered walls; beyond the glass only pale grey light and the faint dark line of a bare branch; the room is empty of any other person",
+   "motion": "the slender Korean young woman of seventeen in the dark blue Western dress standing at the tall sash window is the only one who moves: at the start her right hand rests on the white-painted window frame and her face in profile is turned to the pale light; over the first two seconds she lifts her right hand slowly from the frame and lays the fingertips against the glass, her head tilting very slightly forward toward the window, her lips staying closed; in the last two seconds the fingertips hold against the glass and the head holds; her left hand stays at her side, her boots stay planted on the floor, her shoulders level; the edge of the white lace curtain stirs very slightly; the writing desk, the closed dark book, the pen holder, the straight chair, the pale plastered walls and the pale grey light beyond the glass hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "mother",
+    "river_day",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "대동강 기슭에 홀로 앉아 강을 바라보는 옥련 어머니 (마무리)",
+   "visual": "a pale overcast day at the Daedong river: the thin Korean woman of thirty in the white cotton jeogori and long ash grey skirt is the one sitting on the low stone wall of rough grey blocks at frame left, her hands folded on her knees, her black hair in the low bun, her narrow pale face with the smooth round chin turned to the right toward the flat grey water, seen in three-quarter profile, her white rubber slippers with pointed upturned toes side by side on the sandy strip below the wall; the wide flat grey river fills the middle of the frame, the flat wooden boat moored to its wooden post at frame right, reeds along the waterline, the low dull green hills of the far shore under the pale overcast sky with the faint dull yellow band at the horizon; the bank and the water are empty of any other person",
+   "motion": "the thin Korean woman of thirty in the white jeogori and long ash grey skirt sitting on the stone wall is the only one who moves, and only a little: at the start her hands are folded on her knees and her face is turned to the right toward the flat grey water; over the first two seconds her head turns slowly a little further to the right, following the water downstream, a loose strand of black hair at her temple lifting in a faint breeze, her folded hands staying on her knees; in the last two seconds her head holds turned and the strand settles; her feet stay still on the sand, her back stays straight; the flat grey water moves in slow low ripples and the reeds along the waterline sway very slightly; the moored flat boat, the wooden post, the stone wall, the dull green hills of the far shore and the pale overcast sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  }
+ ],
+ "withheld": "아버지와의 재회, 약혼, 어머니에게 닿는 편지"
 }

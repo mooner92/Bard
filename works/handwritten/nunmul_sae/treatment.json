@@ -1,0 +1,172 @@
+{
+ "logline": "네 종족이 사는 세계 — 심장을 떼지 않은 나가 소년이 북쪽으로 달아나고, 도깨비·레콘·인간의 구출대가 그를 구하러 남쪽으로 떠난다",
+ "destination": "소설 눈물을 마시는 새에서 만날 수 있습니다",
+ "protagonist": "ryun",
+ "setting": "이영도가 창조한 세계 — 남부 키보렌 숲의 나가 도시 하텐그라쥬와 심장탑, 북부의 하인샤 대사원과 고원의 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/nunmul_sae/assets",
+ "anchor": "a slender scaled young man, his whole skin covered in fine deep green scales with a hairless head and large dark lidless eyes, in a pale bark-cloth robe",
+ "palette": "moss green, ink black, bone white, ember gold, slate blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "륜의 친구에게 닥친 일과 범인, 뒤따르는 이의 얼굴, 심장을 지닌 나가가 필요한 까닭, 케이건의 과거, 옥좌의 주인",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "hatengrazu",
+    "north_road"
+   ],
+   "refs": [],
+   "beat": "네 종족이 어울려 살던 세계에 일어난 갑작스러운 사건",
+   "visual": "a sweeping view of an invented fantasy land at dawn, with no figures anywhere: in the lower half of the frame a vast southern forest of colossal dark trees rolls away under drifting mist, and from its heart a single smooth pale tower rises far above the canopy; in the upper half a long pale road runs north across open plains and low hills toward a line of snow-covered mountains, where the curved grey roofs of a great old temple sit among pines; a pale sun lifts over the eastern hills and lays long gold light across the mist; flocks of small dark birds wheel above the forest; the scale is enormous and quiet, a whole world waiting for something to break; a wide band of pale grassland lies between the forest and the plains; a lone hawk glides on the wind high above the plains, and a long low ridge of grey hills runs between the forest and the snow mountains",
+   "motion": "the morning mist drifts slowly over the colossal southern forest, and that drifting mist is the one movement in the shot: at the start pale mist lies in soft banks among the treetops around the pale tower; over the whole five seconds it rolls gently northward over the canopy, thinning and gathering again, the tops of the giant trees appearing and fading in turn, while the small dark birds circle slowly above; the pale tower, the long road, the plains, the snow mountains and the temple roofs stay completely still; the long gold dawn light holds steady; the hawk high above the plains glides in place and the ridge of grey hills stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds an extreme wide view of the whole country from high above the plains, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "ryun",
+    "hatengrazu"
+   ],
+   "refs": [],
+   "beat": "비늘 덮인 몸, 니름으로 말하고 심장을 떼어 내는 종족 나가",
+   "visual": "humid green twilight on a wooden balcony grown out of a colossal mossy trunk in the hidden tree city of the southern forest: the slender scaled young man stands at frame centre facing the camera, his fine deep green scales glistening faintly in the damp air, his hairless rounded head tilted, his large dark lidless eyes calm and unreadable, his narrow lipless mouth closed, one scaled hand resting on the carved wooden railing; behind him other balconies and round doorways are grown into neighbouring giant trunks, hung with vines and soft glowing moss; warm beads of moisture hang on the leaves; the air is thick, still and green; he looks calm, strange and thoughtful; a small pale moth rests on the railing beside his hand; a coil of hanging vine sways near the round doorway behind him, and soft glowing moss clings in thick cushions along the railing posts",
+   "motion": "the slender scaled young man breathes slowly in the warm humid air and his scales shimmer faintly, and that faint shimmer is the one movement in the shot: at the start he stands still with his hand on the railing; over the whole five seconds the fine deep green scales along his neck and shoulders catch the green twilight and glimmer softly as he breathes, his large dark eyes drifting slightly toward the hanging vines while his body keeps facing the camera; the carved railing, the grown balconies, the round doorways and the glowing moss stay completely still; the beads of moisture on the leaves hold in place; the coil of vine near the doorway sways very faintly and the glowing moss on the railing posts keeps its soft light; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "hatengrazu"
+   ],
+   "refs": [],
+   "beat": "나가의 도시 하텐그라쥬, 하늘을 찌르는 심장탑",
+   "visual": "the hidden tree city deep in the vast southern forest at dusk, seen from a high balcony, with no figures anywhere: colossal mossy trees rise on every side with dwellings, stairways and round lit doorways grown into their trunks, linked by curving wooden walkways among hanging vines; at the centre of the frame a single smooth pale tower soars straight up from the forest floor, dozens of times taller than the greatest trees, its seamless surface faintly gleaming, its top lost in a high band of mist; warm amber light glows from many small round windows in the trunks; mist curls among the roots far below; the city feels ancient, humid and strangely silent, the tower watching over everything; a few fireflies drift between the walkways; a long curving wooden stair spirals around one of the nearest trunks, its steps worn smooth and slick with damp moss",
+   "motion": "the high band of mist drifts slowly around the top of the pale tower, and that drifting mist is the one movement in the shot: at the start a soft band of mist hides the very top of the tower; over the whole five seconds it slides slowly sideways across the tower's height, the gleaming pale surface showing and veiling again behind it, while a few fireflies drift gently between the walkways; the colossal trees, the grown dwellings, the curving walkways, the hanging vines and the round lit windows stay completely still; the mist among the roots far below holds its place; the spiral stair around the nearest trunk stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the city and the tower from a high balcony, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "ryun",
+    "hatengrazu"
+   ],
+   "refs": [],
+   "beat": "심장 적출식을 앞둔 나가 소년 륜 페이",
+   "visual": "night on a high balcony in the hidden tree city of the southern forest: the slender scaled young man stands at frame left in three-quarter view, gripping the carved wooden railing with one scaled hand, his other hand pressed flat over the centre of his own chest, feeling the beat beneath his deep green scales; his large dark lidless eyes are fixed on the single smooth pale tower that soars over the city at frame right, dozens of times taller than the colossal trees, and his face holds dread and revulsion; his hand on the railing trembles slightly; amber light glows from round windows in the giant trunks below; humid mist hangs in the air; the moment is tense and private, a young life on the edge of a great rite; a carved wooden lantern hangs unlit on a hook beside him; a small carved wooden bowl of water stands on the balcony floor at his feet, its surface perfectly still and holding the glow of the tower",
+   "motion": "the scaled young man's hand on the railing tightens and trembles, and that trembling grip is the one movement in the shot: at the start he grips the carved railing with one hand and holds the other over his chest; over the whole five seconds his fingers tighten slowly on the wood and tremble faintly while his eyes stay fixed on the distant pale tower, his chest rising and falling a little faster under his pressed hand, his body staying turned toward the tower; the pale tower, the colossal trees, the round lit windows below and the unlit lantern on its hook stay completely still; the humid mist hangs in place; the carved bowl of water on the balcony floor stays still with the glow of the tower resting on its surface; the camera holds a medium shot from beside him on the balcony, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "ryun",
+    "hatengrazu"
+   ],
+   "refs": [],
+   "beat": "심장을 지닌 채 하텐그라쥬를 떠나 북쪽으로",
+   "visual": "deep night on the forest floor at the edge of the hidden tree city: the slender scaled young man moves quickly toward the camera at frame centre between enormous mossy roots taller than he is, his pale bark-cloth robe dark with damp, one scaled hand pressed to his chest, his large dark lidless eyes wide and set straight ahead; behind him far off through the trunks the single smooth pale tower glows faintly above the canopy; a narrow path of trampled ferns runs ahead of him toward the dark north; pale luminous fungi glow on the roots and mark the way; the air is thick and wet; the scene is urgent and secret, a flight begun in the dark; a few beads of water fall from the high leaves through the fungus light; a cluster of broad pale leaves arches over the path ahead, and tangled hanging roots trail down from the branches high above",
+   "motion": "the scaled young man hurries forward through the giant roots toward the camera, and that hurrying walk is the one movement in the shot: at the start he is a little way back between the roots; over the whole five seconds he moves steadily forward along the fern path, his robe brushing the ferns aside, his hand staying pressed to his chest and his eyes set straight ahead, staying in view in the middle of the frame the whole time; the enormous roots, the glowing fungi, the distant pale tower and the dark trunks stay completely still; a few beads of water keep drifting down through the fungus light; the broad pale leaves arching over the path and the hanging roots stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot low among the roots, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "ryun",
+    "hatengrazu"
+   ],
+   "refs": [],
+   "beat": "누명을 쓴 도망자가 된 륜, 그 뒤를 쫓는 추적자",
+   "visual": "a misty grey dawn deep in the southern forest: the slender scaled young man stands pressed flat against the trunk of a colossal mossy tree at frame right in three-quarter view, perfectly still, his scaled back to the bark, his large dark lidless eyes turned back over his shoulder toward the misty forest he has come through, his face tense and listening; his bark-cloth robe is torn at the hem and smudged green with moss; before him at frame left the forest falls away into grey mist between giant trunks, the trampled fern path disappearing into it; hanging vines sway faintly; dew beads on every leaf; the scene is hushed and full of dread, a hunted youth holding his breath; a single pale feather lies on the moss at his feet; a few pale luminous fungi glow faintly at the base of the trunk, and a low bank of ferns curls around the roots beside him",
+   "motion": "the grey mist drifts slowly between the giant trunks of the forest, and that drifting mist is the one movement in the shot: at the start the mist hangs thick over the fern path; over the whole five seconds it curls and thins slowly between the trunks, the dark shapes of the trees appearing and fading behind it, while the scaled young man stays pressed perfectly still against the bark with his eyes turned toward the path; the colossal tree, the hanging vines, the trampled ferns and the pale feather on the moss stay completely still; the dew on the leaves holds in place; the luminous fungi at the base of the trunk keep their faint glow and the ferns by the roots stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from beside the trunk, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "temple"
+   ],
+   "refs": [],
+   "beat": "같은 무렵, 북쪽의 세 존재에게 닿은 하인샤 대사원의 전갈",
+   "visual": "a still winter morning at the great old Korean Buddhist temple in the snowy northern mountains, with no figures anywhere: in the foreground at frame centre a low dark wooden table stands on the temple's wooden veranda, and on it lie three folded letters of thick pale paper, each sealed shut with a round dark wax seal, set side by side on a lacquered tray beside a small bronze incense burner trailing a thin line of smoke; beyond the veranda the wide stone courtyard is dusted with fresh snow, stone lanterns standing in a row, tall pines heavy with white; the curved grey tiled roofs of the halls rise against a pale winter sky; the scene is calm, solemn and expectant, three summons about to be sent; a bronze temple bell hangs under the eaves; a pair of straw sandals rests on the stone step below the veranda, and a long wooden mallet for the bell leans against a pillar",
+   "motion": "a thin line of incense smoke rises slowly from the small bronze burner beside the sealed letters, and that rising smoke is the one movement in the shot: at the start the thin grey line climbs straight up from the burner; over the whole five seconds it rises and curls gently in the cold air, drifting a little toward the open courtyard and thinning as it goes; the three sealed letters on the lacquered tray, the low table, the stone lanterns, the snowy pines and the bronze bell under the eaves stay completely still; the pale winter light holds steady; the straw sandals on the stone step and the bell mallet leaning on the pillar stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the veranda table with the courtyard behind, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "bihyeong"
+   ],
+   "refs": [],
+   "beat": "불을 다루지만 피는 두려워하는 도깨비, 비형",
+   "visual": "evening in a warm wood-panelled room of a northern castle: the bearded dokkaebi sits cross-legged on a floor cushion at frame centre facing the camera, his broad bearded face lit by a small bright flame that dances on the open palm of his big hand, his bright round black eyes delighted, his wide grin showing; the little flame burns in the air above his palm and casts warm gold light over his padded hemp jacket and his small black horsehair cap; around him on the floor lie a wooden yut-nori board with four smooth wooden sticks and a folded quilt; a paper window behind him glows blue with evening; the mood is playful, warm and a little mischievous; a clay cup of tea steams on a low tray beside him; a small iron brazier glows in the corner of the room, and a pair of worn straw sandals sits neatly by the sliding door",
+   "motion": "the small flame dances on the dokkaebi's open palm, and that dancing flame is the one movement in the shot: at the start a little bright flame burns steadily above his palm; over the whole five seconds it flickers, stretches up and curls in small playful twists, its warm light wavering across his grinning face and jacket, while his eyes follow it with delight and his hand and body stay still; the yut-nori board and its wooden sticks, the folded quilt, the paper window and the tray stay completely still; a thin wisp of steam keeps rising from the clay cup; the iron brazier in the corner keeps its steady glow and the straw sandals by the sliding door stay still beside the dark doorway; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "tinahan",
+    "riverbank"
+   ],
+   "refs": [],
+   "beat": "닭을 닮은 거구의 레콘, 물을 두려워하는 티나한",
+   "visual": "a grey afternoon on the bank of a wide cold northern river: the towering lekon stands at frame centre in three-quarter view on the stony bank, an enormous iron club resting on one shoulder, his deep glossy brown feathers ruffled by the wind, his heavy hooked beak lowered, his round fierce eye fixed warily on the dark water lapping at the stones a few steps from his great clawed feet; he leans back a little from the water, every feather tense; the river runs broad and grey to the far bank where dark pines stand under a low sky; smooth wet stones line the shore; the scene is grand and comic at once, a mighty warrior keeping his distance from a river; a small wooden boat lies pulled up on the stones far down the bank; a scatter of pale gravel shines along the waterline, and a few tufts of dry reeds bend in the wind at the edge of the stones",
+   "motion": "the dark river water laps slowly at the stones in front of the lekon, and that lapping water is the one movement in the shot: at the start small grey waves wash against the stones a few steps from his feet; over the whole five seconds they slide up the bank and draw back again in a slow rhythm while the wind stirs the tips of his deep glossy brown feathers, his round eye staying fixed warily on the water and his great body leaning back without moving his feet; the iron club on his shoulder, the smooth stones, the far pines and the small boat down the bank stay completely still; the low grey sky holds unchanged; the pale gravel along the waterline stays still and the dry reeds at the edge of the stones bend only a little in the wind; the camera holds a medium wide shot along the bank, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "kaygon",
+    "north_road"
+   ],
+   "refs": [],
+   "beat": "정체를 알 수 없는 인간, 케이건 드라카",
+   "visual": "dusk on the cold road through the bare northern highlands: the tall lean human man sits alone beside a small campfire at frame centre facing the camera, his long travel-stained dark cloak drawn around him, the hilt of his long sword rising behind his shoulder, his gaunt weathered face utterly without expression, his dark tired eyes looking into the fire; the small flames throw warm light up under his face and leave the rest of him in shadow; behind him the frozen pale grass and scattered dark pines fade into a deep blue dusk, distant snow peaks pale on the horizon; a battered iron pot sits at the edge of the fire; the scene is quiet and unreadable, a man whose past no one knows; a single dark crow perches on a grey stone nearby; a rolled bedroll lies on the frozen grass beside him, and a worn leather pack leans against a grey stone at his back",
+   "motion": "the small campfire flickers in front of the man, and those flickering flames are the one movement in the shot: at the start the flames burn low and steady; over the whole five seconds they rise and waver softly, sending a few sparks drifting up into the dusk and moving warm light across his still face and cloak, while he sits perfectly motionless with his dark eyes on the fire; the iron pot, the frozen grass, the dark pines, the snow peaks and the crow on the stone stay completely still; the deep blue dusk holds unchanged; the rolled bedroll on the frozen grass and the leather pack leaning on the stone stay still in the dusk beside him; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at his seated eye level across the fire, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "bihyeong",
+    "tinahan",
+    "kaygon"
+   ],
+   "refs": [],
+   "beat": "케이건과 비형, 티나한 — 남쪽의 나가를 구하러 떠나는 구출대",
+   "visual": "a clear cold morning on the road through the bare northern highlands: three travellers walk away from the camera down the long unpaved track of packed earth toward the south at frame centre, seen from behind; at the left the bearded dokkaebi in his old-fashioned quilted hemp jacket tied with a cloth sash and his small black horsehair cap walks briskly, his head turned to chatter at the others; in the middle the towering lekon strides with his enormous iron club on his shoulder, his deep glossy brown feathers lifting in the wind, twice the height of the others; at the right the tall lean human in his long dark cloak walks steadily with his long sword across his back; the earthen track runs on across frozen grass toward distant forested lowlands under a pale sky; the scene is a little absurd and full of promise, an unlikely company setting out; a hawk glides high in the sky above the road; the long shadows of the three travellers stretch ahead of them on the road",
+   "motion": "the three travellers walk steadily away down the pale road, and that walking is the one movement in the shot: at the start they are a few steps from the camera; over the whole five seconds they walk on together at an even pace, the dokkaebi walking briskly, the lekon striding with long slow steps and the human walking evenly, all three staying in view in the middle of the frame with their backs to the camera the whole time; the frozen grass, the distant lowlands and the scattered pines stay completely still; the hawk glides in place high above; the long shadows of the travellers move only with their steps; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot from behind them on the road, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [],
+   "refs": [],
+   "beat": "나가와 도깨비, 레콘과 인간이 사는 세계가 묻는 왕",
+   "visual": "night in a clearing at the edge of a great dark forest, seen from far back among the trees, lit by one small campfire: four travellers of four different peoples sit in a loose circle around the fire, small in the frame and seen only as dark silhouettes rimmed with orange firelight, no faces visible; at the left a slender bald figure in a long pale robe sits upright with his legs folded under the robe; beside him a stocky bearded figure in a small black horsehair cap holds his palms out to the flames; across the fire a towering bird-shaped warrior with a rooster's crest and a heavy hooked beak sits upright with an enormous iron club across his knees, twice the height of the others; at the right a tall lean man in a long dark cloak sits a little apart, the hilt of a long sword rising behind his shoulder; dark trunks frame the clearing and tiny pinpoint stars dust the dark sky above; the moment is quiet and strange, four natures under one sky; a kettle hangs on a stick over the fire; a pile of gathered sticks lies ready at the edge of the clearing, and sparks rise in slow drifts into the dark above the fire",
+   "motion": "the campfire burns at the centre of the circle and its flames sway softly, and those swaying flames are the one movement in the shot: at the start the flames burn steadily between the four silhouettes; over the whole five seconds they lift and lean gently in a faint breeze, sending warm light and soft shadow moving over the four dark seated figures, the robe, the cap, the crest and the cloak, while all four stay seated and still in their places and no one else appears; the dark forest trunks, the tiny stars and the kettle on its stick stay completely still; the pile of sticks at the edge of the clearing stays still and the drifting sparks rise slowly into the dark; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the clearing from far back among the trees, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "north_road"
+   ],
+   "refs": [],
+   "beat": "눈물을 마시는 새 — 백성의 눈물을 대신 마시는 왕",
+   "visual": "a quiet grey dawn among the scattered pines of the northern highlands, with no figures anywhere: a close view of a single bare branch at frame centre where a small dark bird with a slender curved beak perches, bending its head down to drink from a single clear bead of water that hangs from the tip of a pine needle; the bead holds a tiny bright point of dawn light; behind the branch the frozen pale grass and distant snow peaks are soft and out of focus under a pale sky; frost silvers the needles around the bead; the image is small, still and solemn, a creature drinking what others let fall; a second clear bead gathers slowly on a needle beside the first; a fine crust of frost edges the bark of the branch, and a few pale pine needles have fallen onto the snow below",
+   "motion": "the small dark bird dips its slender beak slowly toward the clear bead of water, and that dipping beak is the one movement in the shot: at the start the bird perches with its head raised beside the hanging bead; over the whole five seconds it lowers its head gently, touches the tip of its beak to the bead and sips, its throat moving softly, while its feet stay gripped on the branch; the frosted needles, the bare branch and the distant snow peaks stay completely still; the second bead on the needle beside it holds in place; the frost on the bark of the branch and the fallen needles on the snow below stay still under the bird as it drinks; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close shot of the bird on the branch, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "hatengrazu"
+   ],
+   "refs": [],
+   "beat": "당신이라면 남의 눈물을 대신 마시는 왕이 될 수 있을까",
+   "visual": "night over the hidden tree city in the vast southern forest, seen from far off across the dark canopy, with no figures anywhere: the single smooth pale tower rises at frame centre high above the colossal trees, its seamless surface faintly gleaming under a dark sky dusted with tiny pinpoint stars; a broad round silver moon sits low at frame right; the dark canopy below is pricked with a few tiny amber lights from the city; mist lies in long pale banks over the treetops; far above, one small dark bird flies across the starry sky past the tower; the scene is vast, quiet and questioning, the whole world asleep under one tower; a long low ridge of the forest canopy fades into the distance under the stars, and a thin bank of pale mist drifts low across the canopy",
+   "motion": "the small dark bird flies slowly across the starry sky past the pale tower, and that flight is the one movement in the shot: at the start the bird is a small dark shape at the left of the sky; over the whole five seconds it glides steadily on outstretched wings across the stars toward the tower, its wings beating slowly now and then, staying small and high in the frame; the pale tower, the colossal canopy, the tiny amber lights and the broad moon stay completely still; the mist over the treetops holds its place; the far ridge of the canopy and the low bank of mist stay still as the bird passes; every other thing in the frame holds perfectly still from the first moment to the last; the tiny amber windows of the city keep their faint steady glow; the camera holds an extreme wide shot of the tower and the night sky, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "north_road"
+   ],
+   "refs": [],
+   "beat": "마무리 — 남쪽으로 이어진 북부의 길",
+   "visual": "a quiet closing still of the cold road through the bare northern highlands at sunrise, with no figures anywhere: the long unpaved track of packed earth and frozen ruts runs away from the camera at frame centre across the frozen grass, curving down toward the far misty lowlands where the dark edge of the great southern forest begins; the first sun lifts over the eastern hills and lays long gold light across the frost; scattered dark pines stand along the road and distant snow peaks glow pale pink-gold behind; the sky is clear and pale; the scene is calm, wide and full of a long journey ahead; a few small birds rest on a grey stone beside the road; a thin line of smoke rises from a far hillside hut, and a lone pine stands black against the brightening sky at the top of the rise",
+   "motion": "the long gold light of sunrise spreads slowly across the frozen grass beside the road, and that spreading light is the one movement in the shot: at the start the light touches only the far hills; over the whole five seconds it slides gently across the frost toward the camera, the frozen grass glittering as the light reaches it and the long shadows of the pines stretching across the road; the road itself, the pines, the snow peaks, the misty lowlands and the dark forest edge stay completely still; the small birds on the stone stay still; the thin line of smoke from the far hut rises straight and slow and the lone pine on the rise stays still against the sky; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot down the road at standing eye level, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

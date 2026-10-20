@@ -1,108 +1,203 @@
 {
- "logline": "낡은 등잔 하나를 손에 넣은 저잣거리 소년이, 그 안에 든 것을 깨운다.",
- "destination": "사막 아래 보물 동굴 — 한 번 들어가면 문이 닫히는 곳",
- "protagonist": "헝클어진 검은 머리에 낡은 조끼를 걸친 열다섯 소년",
- "setting": "옛 아라비아의 저잣거리와 사막 아래 동굴",
- "anchor": "a fifteen-year-old Arab boy with tousled black hair, a worn open vest and baggy trousers",
- "palette": "desert ochre, turquoise tile, brass gold, deep indigo shadow, warm amber",
- "voice": "ko-KR-InJoonNeural",
- "personas": {
-  "aladdin": {
-   "label": "소년",
-   "desc": "a fifteen-year-old Arab boy, tousled black hair, dark eyes, a worn open vest, baggy trousers, bare feet",
-   "avoid": "터번은 쓰지 않는다"
-  },
-  "sorcerer": {
-   "label": "낯선 사내",
-   "desc": "a tall gaunt man in a long black robe and dark turban, hooked nose, heavy silver rings",
-   "avoid": ""
-  },
-  "bazaar": {
-   "label": "저잣거리",
-   "desc": "a crowded Arabian market lane, striped awnings, brass wares stacked, dust in slanting light"
-  },
-  "cave": {
-   "label": "보물 동굴",
-   "desc": "a vast underground cavern of heaped coins and vessels, stone steps, shafts of pale light"
-  }
- },
+ "logline": "저잣거리를 달리던 소년 알라딘이 검은 옷의 사내를 따라 사막의 갈라진 바위 아래 보물 동굴에 들어가 낡은 놋쇠 등잔을 집어 들고, 바위가 닫혀 갇힌 어둠 속에서 등잔을 문지르자 연기 속의 거인이 나타나 금 쟁반과 흰 궁전을 주는데, 새 등잔과 바꿔 준다며 온 그 사내가 등잔을 얻어 궁전째 공주를 멀리 옮겨 버린다",
+ "destination": "소설 알라딘과 요술 램프에서 만날 수 있습니다",
+ "protagonist": "aladdin",
+ "setting": "옛 아라비아의 저잣거리, 사막의 갈라진 바위와 그 아래 보물 동굴, 가난한 집, 궁전 앞 거리, 하룻밤에 선 흰 궁전",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/aladin/assets",
+ "anchor": "an Arab boy of fifteen with tousled black hair, a worn open dull red vest over a bare chest, baggy off-white trousers, bare feet, a quick bright face",
+ "palette": "sand yellow, off-white, dark blue, dull red, brass",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
     "aladdin",
-    "bazaar"
+    "market",
+    "day_bg"
    ],
-   "beat": "소년이 저잣거리를 헤집고 달린다.",
-   "visual": "a barefoot boy running between striped market awnings, brass wares stacked around him",
-   "motion": "he runs forward down the lane, an awning snaps, dust streams behind him"
+   "refs": [],
+   "beat": "저잣거리를 맨발로 달리던 소년 알라딘",
+   "visual": "hard bright daylight in the crowded street of the old Arab quarter: the Arab boy of fifteen with the tousled black hair, the worn open dull red vest over his bare chest and the baggy off-white trousers is the one running barefoot along the street at frame centre seen from the side with his body turned to the right, one leg stretched in a stride and one arm swung back, his quick bright face laughing; striped awnings over stalls of dates and spices on both sides, baskets on the ground, plastered walls of sand yellow with arched doorways, two robed townspeople standing back against a wall at the far left; the hard bright sky above the awnings",
+   "motion": "the Arab boy of fifteen in the dull red vest running along the street is the only one who moves: at the start he is in a stride with one arm swung back; over the first three seconds he takes three quick barefoot strides to the right along the street, his vest flapping, dust lifting at his heels, his laughing face turned ahead; in the last two seconds he slows and stops well inside the frame; the two townspeople against the wall keep still; the striped awnings, the stalls, the baskets and the plastered walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "aladdin",
     "sorcerer",
-    "bazaar"
+    "aladdin",
+    "market",
+    "day_bg"
    ],
-   "beat": "검은 옷의 사내가 소년을 불러 세운다.",
-   "visual": "a gaunt man in a black robe halting a barefoot boy in a market lane, hand raised",
-   "motion": "his hand lifts toward the boy, the boy stops short, dust drifts between them"
+   "refs": [],
+   "beat": "검은 옷의 사내가 알라딘을 불러 세운다",
+   "visual": "hard bright daylight in the street of the old Arab quarter: the tall lean man of fifty in the long black robe with the black turban and the pointed grey beard is the one standing at frame right with one long thin hand resting on the boy's shoulder, his hooded dark eyes turned down to the boy and his thin hard mouth in a smile; the Arab boy of fifteen with the tousled black hair, the worn open dull red vest and the baggy off-white trousers is the one standing at frame left with his bare feet planted and his quick bright face turned up to the man, one hand on his hip; only the man wears black and a turban and has a beard, only the boy is barefoot; the striped awnings and the sand yellow plastered walls behind, an arched doorway",
+   "motion": "the tall man in the black robe with the black turban is the one who moves, and the boy in the dull red vest holds still: at the start his long thin hand rests on the boy's shoulder and his thin hard mouth is in a smile; over the first two seconds he bends slowly lower toward the boy from the waist, his hand pressing a little more firmly on the shoulder, his hooded eyes narrowing and his lips moving as he speaks, the black robe folding at his waist; in the last two seconds he holds bent with his bearded face close to the boy's; his feet stay planted on the street; the boy keeps his bright face turned up and his hand on his hip, his bare feet not shifting, his shoulders not drawing back; the striped awnings, the stalls of dates and spices, the sand yellow plastered walls and the arched doorway hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
+    "sorcerer",
     "aladdin",
-    "sorcerer"
+    "desert",
+    "day_bg"
    ],
-   "beat": "둘이 사막의 갈라진 바위 앞에 선다.",
-   "visual": "a man in black and a barefoot boy before a split boulder in open desert, sand blowing",
-   "motion": "sand streams past the boulder, the man's robe snaps, the crack widens"
+   "refs": [],
+   "beat": "사내를 따라 이른 사막 한복판의 갈라진 바위 앞",
+   "visual": "hard bright daylight in the sandy desert: the great cracked rock stands alone among the dunes at frame centre-right with the dark split running down its face; the tall lean man of fifty in the long black robe with the black turban and the pointed grey beard is the one standing at frame right before the rock with both arms raised toward the split, his back half turned to the camera; the Arab boy of fifteen with the tousled black hair, the worn open dull red vest and the bare feet is the one standing a few paces behind him at frame left, his bright face turned to the rock and his shoulders hunched; only the man wears black and a turban; the dunes rolling away under the hard bright sky, the sand yellow everywhere",
+   "motion": "the tall man in the black robe is the one who moves, and the boy holds still: at the start both his arms are raised toward the split in the rock; over the first three seconds his raised arms sweep slowly outward and up and his turbaned head tips back, the wide black sleeves sliding down his forearms, while a thin curl of dust lifts from the sand at the foot of the rock; in the last two seconds the arms hold spread and the dust settles; the boy keeps his shoulders hunched and his face turned to the rock, his bare feet not shifting; the cracked rock and the dunes hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
     "aladdin",
-    "cave"
+    "cave_steps"
    ],
-   "beat": "소년이 동굴 계단을 내려선다.",
-   "visual": "a barefoot boy descending worn stone steps into a cavern heaped with coins and vessels",
-   "motion": "he steps down the stairs into the cavern, coins slide, pale light shifts"
+   "refs": [],
+   "beat": "알라딘이 홀로 돌계단을 내려가 보물 동굴에 들어선다",
+   "visual": "the rough stone stairway descending into the cave: the Arab boy of fifteen with the tousled black hair, the worn open dull red vest and the bare feet is the one halfway down the stairway at frame centre seen from above and behind, the back of his head toward the camera and his head held straight ahead down the steps, one hand on the rough rock wall, his other arm out for balance; the steps below him lit from beneath by a golden glow that rises from the cave, the rock walls close on either side, darkness at the top of the frame; the stairway is bare of any other person",
+   "motion": "the Arab boy of fifteen on the stairway is the only one who moves: at the start he stands halfway down with one hand on the rock wall and his back to the camera; over the first three seconds he takes two slow barefoot steps down the stairway, his hand sliding along the wall, the golden glow from below growing a little brighter on his legs, the back of his head staying toward the camera with no turn; in the last two seconds he stops on a lower step, still well inside the frame; the rock walls and the glow hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
     "aladdin",
-    "cave"
+    "vessel",
+    "treasure_cave"
    ],
-   "beat": "소년이 낡은 등잔 하나를 집어 든다.",
-   "visual": "a boy lifting a small tarnished brass lamp from among heaped treasure in a cavern",
-   "motion": "the lamp lifts out of the pile, coins slide down after it, dust turns in the light"
+   "refs": [],
+   "beat": "보물 사이에서 알라딘이 낡은 놋쇠 등잔 하나를 집어 든다",
+   "visual": "inside the cave heaped with gold coins, tall jars and bolts of coloured silk, the whole cave glowing golden: the Arab boy of fifteen with the tousled black hair, the worn open dull red vest and the bare feet is the one crouching on a heap of gold coins at frame centre, the old brass oil vessel the size of a hand with the curved spout, the round handle and the small hinged lid held up in his right hand before his face, its brass dull and dented, his quick bright face tilted at it; heaps of coins rising on either side, a tall jar at frame left, bolts of coloured silk at the right, the golden glow on everything",
+   "motion": "the Arab boy of fifteen crouching on the coins is the only one who moves: at the start the brass vessel is held up in his right hand before his face; over the first two seconds he turns the vessel slowly over in his fingers, the dull brass catching the golden glow on its curved spout, his head tilting the other way; in the last two seconds the vessel holds turned and his head holds tilted; his bare feet stay set on the coins; a few coins under his feet shift and settle; the jars, the silks and the golden glow hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "cave"
+    "sorcerer",
+    "aladdin",
+    "desert",
+    "day_bg"
    ],
-   "beat": "동굴 입구의 바위가 닫힌다.",
-   "visual": "a great split boulder grinding shut over stone steps, only a seam of light left",
-   "motion": "the boulder grinds closed over the steps, dust bursts outward, the light narrows"
+   "refs": [],
+   "beat": "등잔을 내놓으라는 사내의 고함과 함께 닫힌 입구의 바위",
+   "visual": "hard bright daylight at the great cracked rock in the desert, close: the split in the rock's face is now only a hand's width wide at frame centre, and through the narrow gap the Arab boy of fifteen with the tousled black hair and the dull red vest is the one visible inside in the dark, his bright face pressed to the gap and his hand clutching the old brass oil vessel with the curved spout against his chest; the tall lean man of fifty in the long black robe with the black turban and the pointed grey beard is the one standing outside at frame right with his long thin hand thrust into the gap toward the vessel, his face twisted in a shout; only the man wears black and a turban; the dunes and the hard bright sky behind him; the brass vessel is held tight against the boy's own chest in both his hands and the man's reaching hand is a full forearm's length short of it, the vessel touching only the boy",
+   "motion": "the split in the rock is what moves, and the two hold their places: at the start the gap is a hand's width wide with the man's hand thrust into it; over the first three seconds the two faces of the rock grind slowly together, the gap narrowing finger by finger, dust sifting down from the top, the man's hand drawing back just before the stone closes, the boy's face inside sinking into shadow; in the last two seconds the gap is a dark line and the dust settles; the boy inside keeps the vessel clutched to his chest; the man outside keeps his twisted face at the rock; the dunes and the sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "aladdin"
+    "aladdin",
+    "vessel",
+    "dark_cave"
    ],
-   "beat": "소년이 소매로 등잔을 문지른다.",
-   "visual": "a boy in the dark rubbing a tarnished brass lamp with his sleeve, faint glow on his face",
-   "motion": "his sleeve rubs across the lamp, a glow spreads over his face, smoke curls from the spout"
+   "refs": [],
+   "beat": "캄캄한 동굴에서 알라딘이 소매로 등잔을 문지른다",
+   "visual": "inside the cave in near darkness: the Arab boy of fifteen with the tousled black hair and the worn open dull red vest is the one sitting on the rough rock floor at frame centre with his knees drawn up, the old brass oil vessel with the curved spout held in his left hand and the cuff of his right sleeve pressed against its dented side, his bright face bent close to it with his lips parted; faint glints on heaped coins at the edges of the frame, the rough rock wall behind him barely lit by a faint glow from the vessel's brass; the cave is bare of any other figure",
+   "motion": "the Arab boy of fifteen sitting on the rock floor is the only one who moves, and only his hand: at the start his sleeve cuff is pressed against the side of the vessel; over the first three seconds his right hand rubs the sleeve slowly back and forth across the dented brass, the faint glow on the vessel growing slowly a little brighter and warmer with each pass, his bent face lit from below; in the last two seconds the rubbing slows and the glow holds; his knees stay drawn up, his left hand holds the vessel steady; the glints on the coins and the rock wall hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 동굴 바닥에 금화만 흩어져 있다.",
-   "visual": "scattered gold coins on a dark cavern floor, a thin shaft of light, dust in the air",
-   "motion": "dust turns in the shaft of light, a coin rocks and settles, the light narrows"
+   "cast": [
+    "genie",
+    "aladdin",
+    "vessel",
+    "dark_cave"
+   ],
+   "refs": [],
+   "beat": "등잔의 연기 속에서 커다란 거인이 솟아오른다",
+   "visual": "inside the cave, the darkness lit blue: the huge figure of dense blue smoke in the shape of a bare-chested man with the folded thick arms, the shaved head and the black beard is the one rising from the curved spout of the old brass oil vessel at frame right, his lower body trailing away into a plume of smoke that pours from the spout, his head bent under the cave roof at the top of the frame, his smoky face turned down; the Arab boy of fifteen with the tousled black hair and the dull red vest is the one sprawled backward on the rock floor at frame left, the vessel dropped beside his foot, both hands flat on the rock behind him and his bright face turned up with the mouth wide open; only the huge figure is made of smoke; the rough rock walls and the heaped coins lit blue",
+   "motion": "the huge figure of blue smoke is what moves, and the boy holds still where he sprawls: at the start the figure has risen from the spout with his head bent under the roof; over the first three seconds the plume of smoke keeps pouring slowly from the spout and swelling into his trailing lower body, his folded arms unfolding slowly and spreading wide, his smoky beard drifting, his bent head turning slowly down toward the boy; in the last two seconds the arms hold spread and the smoke keeps drifting; the boy keeps his hands flat on the rock and his mouth open, not rising; the rock walls and the coins hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "aladdin",
+    "mother",
+    "coins",
+    "house",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "거인의 힘으로 어머니 앞에 금 쟁반을 놓은 알라딘",
+   "visual": "soft daylight inside the poor room with the low wooden table: the Arab boy of fifteen with the tousled black hair and the worn open dull red vest is the one kneeling at frame right with both hands lowering a round brass tray heaped with small gold coins onto the low table, his bright face turned to his mother with a wide grin; the thin Arab woman of forty in the plain grey dress and the white headscarf is the one kneeling at frame left on the far side of the table with both hands pressed to her cheeks, her lined kind face open in astonishment; only the boy wears a vest, only the woman wears a headscarf, two separate people with the table between them; the hanging curtain, the small square window letting in light, the woven mat",
+   "motion": "the Arab boy of fifteen in the dull red vest is the one who moves, and his mother holds her hands to her cheeks: at the start both his hands hold the tray of gold coins just above the table; over the first two seconds he sets the tray down slowly on the table with a soft clink and draws his hands back to his knees, his grin widening; in the last two seconds his hands rest on his knees; the woman keeps her hands pressed to her cheeks and her face open, her knees not shifting; the coins on the tray settle; the curtain, the window and the mat hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "princess",
+    "aladdin",
+    "palace_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "공주의 행렬에 마음을 빼앗긴 알라딘",
+   "visual": "hard bright daylight in the wide street before the great palace gate: the young Arab princess of seventeen in the gown of pale blue silk with the thin white veil over her black hair is the one seated in an open litter carried on two long poles by four carrier men in white robes at frame right, her serene face turned to the side; the Arab boy of fifteen with the tousled black hair and the worn open dull red vest is the one standing among the crowd of townspeople at frame left with his bright face turned to her and one hand pressed flat to his chest; only the princess wears pale blue silk and a veil; the white walls and the round dome of the palace gate behind, the crowd of townspeople in robes along the sides",
+   "motion": "the litter of the princess is what moves, and the boy holds his hand to his chest: at the start the litter is carried at frame right with the princess seated in it; over the first three seconds the four carrier men take two slow steps forward from right to left along the street, the litter swaying gently and the princess's veil stirring; in the last two seconds they stop well inside the frame; the boy keeps his hand pressed to his chest and his face turned to her, his feet not shifting; the crowd of townspeople keep their places; the palace gate and its dome hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "genie",
+    "white_palace",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "거인이 하룻밤에 공주를 위한 흰 궁전을 세운다",
+   "visual": "night on the bare hill under the dark blue sky with small white stars: the great white palace with the round domes and the slender towers is the one standing new on the hill at frame centre, its white walls pale in the starlight, its windows dark; the huge figure of dense blue smoke in the shape of a bare-chested man with the folded thick arms, the shaved head and the black beard is the one looming above the palace at the top of the frame with his trailing lower body of smoke wrapped around the tallest tower, his smoky face turned down at the domes; the sandy hill bare around the walls; the hill is bare of any person",
+   "motion": "the huge figure of blue smoke is what moves, and the palace stands still: at the start the figure looms above the palace with his smoke wrapped around the tallest tower; over the first three seconds his folded arms unfold slowly and spread wide over the domes, the plume of smoke that is his lower body drifting slowly away from the tower and thinning, his smoky beard streaming; in the last two seconds the arms hold spread and the smoke keeps thinning; the white walls, the domes, the towers and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "sorcerer",
+    "princess",
+    "vessel",
+    "palace_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "낡은 등잔을 새것과 바꿔 준다며 온 장사꾼, 그 사내",
+   "visual": "soft daylight inside the room of the white palace with the tall arched windows and the walls of patterned blue tiles: the tall lean man of fifty with the pointed grey beard and the hooded dark eyes is the one standing at frame right in a plain brown robe with a basket on his arm heaped with bright new brass oil vessels with curved spouts, his hand held out open; the young Arab princess of seventeen in the gown of pale blue silk with the thin white veil is the one standing at frame left holding out toward him the old brass oil vessel with the curved spout, the round handle and the small hinged lid, dull and dented, her serene face unsuspecting; only the man has a beard and a basket, only the princess wears pale blue silk; the low couch with cushions behind, the arched windows",
+   "motion": "the young princess in the pale blue silk gown is the one who moves, and the bearded man in the brown robe holds his hand out: at the start she holds the old dented brass vessel out toward him in both hands; over the first two seconds she places the old vessel slowly into his open hand and her hands draw back to her sides, her thin white veil stirring with the movement, her serene face unchanged; in the last two seconds his fingers close slowly around the old vessel and hold it against his chest; his basket of bright new brass vessels stays on his other arm, none of them shifting, his feet planted on the patterned tiles; the low couch with its cushions, the walls of blue tiles and the tall arched windows hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "sorcerer",
+    "white_palace",
+    "desert",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "등잔을 넘겨받은 사내가 궁전째 공주를 멀리 옮긴다",
+   "visual": "dusk over the sandy desert: the great white palace with the round domes and the slender towers is the one hanging in the air at the top of the frame above the dunes, lifted whole off the ground with a shadow of dust beneath it, its domes pale against the dusk sky of dull violet grey; the tall lean man of fifty in the long black robe with the black turban and the pointed grey beard is the one standing on a dune at the lower left with the old dented brass oil vessel raised high in one hand and his other arm pointing away toward the far horizon; the dunes rolling to the faint dull yellow band at the horizon; the desert is bare of any other person",
+   "motion": "the great white palace in the air is what moves, and the man on the dune holds the vessel raised: at the start the palace hangs above the dunes with dust beneath it; over the first three seconds the whole palace drifts slowly upward and away toward the far horizon, growing a little smaller, the dust beneath it thinning and settling on the dunes; in the last two seconds it keeps drifting, still inside the frame; the man keeps the vessel raised and his arm pointing, his robe stirring in the wind; the dunes and the dusk sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "aladdin",
+    "bare_hill",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "등잔도 궁전도 잃은 알라딘은 되찾을 수 있을까 (질문)",
+   "visual": "dusk on the bare hill of sand: the Arab boy of fifteen with the tousled black hair, the worn open dull red vest and the bare feet is the one standing alone at frame centre on the square of flattened ground where the palace stood, his back three-quarters to the camera, the back of his head toward the camera and his head held straight ahead toward the horizon, both arms hanging with the hands open, footprints in the sand around him; the dusk sky of dull violet grey with the faint dull yellow band at the horizon over the bare dunes; the hill is bare of any other person",
+   "motion": "the Arab boy of fifteen standing on the flattened ground is the only one who moves, and only a little: at the start his arms hang with the hands open and the back of his head is toward the camera; over the first two seconds his open hands close slowly into fists at his sides and his shoulders rise, his head staying straight ahead with no turn; in the last two seconds the fists hold and the shoulders hold raised; his bare feet stay planted in the sand; a thin drift of sand slides slowly across the flattened ground in the wind; the dunes and the dusk sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "desert",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "사막의 갈라진 바위 (마무리)",
+   "visual": "night in the sandy desert under the dark blue sky with small white stars: the great cracked rock stands alone among the dunes at frame centre with the dark split running down its face, the sand pale in the starlight, the dunes rolling away to the horizon; the desert is bare of any person",
+   "motion": "the sand is the only thing that moves, and the rock and the sky hold completely still: at the start the pale sand lies still around the foot of the great cracked rock under the starlight; over the first three seconds a thin veil of sand slides slowly across the dunes from left to right in the night wind, curling around the base of the rock and lifting a little against the dark split in its face, a few grains streaming off the crest of the nearest dune; in the last two seconds the veil of sand settles and the wind dies; the cracked rock does not shift, the dark split stays closed, the dunes keep their shapes and the small white stars hold completely still; nothing comes out of the rock; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "등잔에서 나온 것의 정체와, 소년이 낯선 사내에게서 벗어나는 결말"
+ "withheld": "되찾기의 결말과 사내의 최후"
 }

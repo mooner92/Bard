@@ -1,0 +1,213 @@
+{
+ "logline": "과부댁에 거두어져 답답하던 헉이 아버지에게 숲속 통나무집에 갇혔다가 죽은 척 꾸미고 달아나, 섬에서 만난 짐과 뗏목을 타고 미시시피를 내려가며 안개와 증기선과 사기꾼 둘을 겪고, 짐을 넘기는 편지를 써 놓고는 그것을 찢는다",
+ "destination": "소설 허클베리 핀의 모험에서 만날 수 있습니다",
+ "protagonist": "huck",
+ "setting": "1840년대 미시시피 강 — 작은 마을 집, 숲속 통나무집, 섬의 모래밭, 뗏목, 안개 낀 강, 강가 마을, 강이 갈라지는 어귀",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/heokeulberi_pinui_moheom/assets",
+ "anchor": "a boy of thirteen with tousled sandy hair under a battered straw hat, a man's cast-off shirt too big, trousers rolled to the calf, bare feet, a freckled sunburnt face",
+ "palette": "dull yellow, dark brown, off-white, ash grey, dull green",
+ "voice": "",
+ "personas": {},
+ "withheld": "짐의 사연과 강 아래에서 두 사람을 기다리는 것",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "widow",
+    "huck",
+    "parlour"
+   ],
+   "refs": [],
+   "beat": "과부댁에 거두어진 헉이 답답한 저녁상 앞에 앉는다",
+   "visual": "lamplight in the tidy parlour of the small town house: the stout elderly woman in the plain black dress with the white cap and the round spectacles is the one sitting upright at the table at frame right with her hands folded before her plate, her firm face turned to the boy; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one sitting at the other side of the table at frame left in a stiff clean jacket buttoned to the throat, his shoulders hunched and his freckled face turned down to his untouched plate, one bare foot hooked round the chair leg; the lamp of glass and brass between them, the clock on the mantel, the rag rug; exactly two people",
+   "motion": "the boy at the table is the only one who moves, and the woman holds still: at the start his face is turned down to his plate and his shoulders are hunched; over the first three seconds he tugs slowly at the buttoned collar of the stiff jacket with one finger, twice, his shoulders working, his eyes going to the dark window and back down to the plate; in the last two seconds he holds with his finger inside the collar and his face down; the woman keeps her hands folded before her plate and her face turned to him, her spectacles catching the lamplight; the lamp, the clock, the plates and the rug hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "pap",
+    "huck",
+    "cabin"
+   ],
+   "refs": [],
+   "beat": "술 취한 아버지가 헉을 숲속 통나무집에 가둔다",
+   "visual": "the low light of a small fire in the rough log cabin: the gaunt man of fifty with the long matted hair and the straggling beard is the one standing at frame right with his back against the barred plank door, one arm flung out across it and his hard face turned on the boy; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one sitting on the straw pallet on the floor at frame left with his knees drawn up and his arms round them, his freckled face lifted to the man without fear; the small window high in the log wall, the low fire in the hearth; exactly two people",
+   "motion": "the gaunt man is the only one who moves, and the boy on the pallet holds still: at the start his arm is flung across the barred door and his face is turned on the boy; over the first three seconds his flung arm sinks slowly to his side and he takes two unsteady steps along the wall toward the fire, his shoulder brushing the logs, his head swaying a little, his beard moving as he mutters; in the last two seconds he stops with one hand against the log wall and his back half to the boy; the boy keeps his arms round his knees and his face lifted; the low fire flickers gently; the barred door, the straw pallet and the small window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "huck",
+    "raft",
+    "river_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "헉이 죽은 척 꾸미고 한밤중에 뗏목의 밧줄을 푼다",
+   "visual": "moonlight on the black water of the wide river at night: the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one crouched at the front of the raft of lashed logs at frame centre, both hands on a wet rope looped round a willow root at the bank, his straw hat pushed back and his freckled face turned along the dark water downstream; the low sailcloth shelter at the far end of the raft, the long steering oar at the back; the far bank a low dark line of trees, moonlight in a broken path on the water; he is the only person in the frame",
+   "motion": "the boy on the raft is the only one who moves: at the start both his hands are on the rope round the willow root; over the first three seconds he draws the wet rope slowly off the root coil by coil and gathers it in against his chest, the raft easing out from the bank a hand's width and then a little more, his face staying turned downstream; in the last two seconds he holds the gathered rope against his chest, crouched, as the raft drifts; the water moves past in slow smooth swells and the moonlight path shifts a little on it; the sailcloth shelter, the steering oar and the far line of trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "jim",
+    "huck",
+    "island_shore",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "섬의 모닥불 앞에서 헉이 낯익은 얼굴을 만난다",
+   "visual": "firelight on the sandy shore of the wooded island at night: the grown Black man of forty with the broad kind face and the short grey-flecked hair, in the coarse blue shirt with the sleeves rolled, is the one sitting up on a driftwood log behind the small campfire at frame right with his back straight and both hands open on his knees, his broad kind face turned to the boy with his eyes wide and his mouth open; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him, is the one standing at frame left a pace from the fire with his straw hat in one hand and his other hand half raised toward the man, his freckled face open in surprise; the two of them face each other across the small fire with their faces at the same height; driftwood along the sand at the fire's edge, the wide river black beyond them; exactly two people on the shore",
+   "motion": "the man on the driftwood log is the only one who moves, and the boy holds still: at the start both his hands are open on his knees and his face is turned to the boy; over the first three seconds his broad face opens slowly into a wide smile and one open hand comes up off his knee toward the boy with the palm turned up, his shoulders leaning a little forward over the fire as it rises; in the last two seconds the open hand holds out toward the boy at the height of the fire and his smile stays; the boy keeps his straw hat in one hand and his other hand half raised, not moving at all; the small campfire burns steadily between them with its light holding the same reach on the sand; the driftwood along the sand, the dark trees behind and the black river beyond them hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "huck",
+    "jim",
+    "raft",
+    "river_night",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "둘은 뗏목 위에서 물고기를 구워 먹으며 강을 내려간다",
+   "visual": "pale dawn light on the wide river: the raft of lashed logs is the one drifting at frame centre with its low sailcloth shelter and its long steering oar; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one sitting cross-legged on the logs at frame left holding a small fish on a green stick over a tin pan of embers; the grown Black man of forty with the broad kind face in the coarse blue shirt with the sleeves rolled is the one sitting on the logs across from him at frame right with his straw hat pushed back and his hands on his knees, his broad face turned to the fish; the brown water running past on both sides, the far bank a low green line, mist low on the water; exactly two people on the raft",
+   "motion": "the boy with the stick is the one who moves, and the man holds still: at the start the fish on the green stick is held over the tin pan of embers; over the first three seconds he turns the stick slowly over so the other side of the fish faces the embers, then holds it lower toward the heat, his other hand shading it, his face bent close; in the last two seconds he lifts the stick a little and holds it steady; the man keeps his hands on his knees and his face turned to the fish; the raft drifts on the smooth brown water with the far bank going slowly past; the shelter and the steering oar hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "huck",
+    "jim",
+    "raft",
+    "fog_river"
+   ],
+   "refs": [],
+   "beat": "짙은 안개 속에서 둘은 서로를 잃는다",
+   "visual": "thick white fog on the river at night: the raft of lashed logs is the one at frame right with the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him standing on it, only his shape and his straw hat clear and everything a few paces beyond him lost in white; his hands are cupped at his mouth and his face is turned out into the fog; far off at frame left, small and grey in the fog, the shape of a man in a canoe with a paddle raised, so faint that only his outline shows; the pale still water between them; exactly two people, one clear and one faint",
+   "motion": "the boy on the raft is the only one who moves, and the faint shape holds still: at the start his hands are cupped at his mouth and his face is turned into the fog; over the first three seconds he turns slowly on the raft from left to right with his hands still cupped, calling out into the white, his straw hat tipping, and then turns his head back to the left; in the last two seconds he holds facing the faint shape with his hands at his mouth; the fog drifts very slowly across the frame and thickens a little, the faint shape dimming further; the pale water and the raft hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "steamboat",
+    "huck",
+    "jim",
+    "raft",
+    "river_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "거대한 증기선이 뗏목을 덮치듯 스쳐 간다",
+   "visual": "night on the wide river: the great paddle steamer of the 1840s is the one bearing down at frame right, its tall twin chimneys and its tiers of white decks lit with small lights towering over the water, its paddle wheel churning white at the side; the raft of lashed logs is the one small at frame left below it with the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him and the grown Black man of forty with the broad kind face in the coarse blue shirt with the sleeves rolled both flat on the logs, arms over their heads; black water broken white between them, the far bank lost in the dark; exactly two people on the raft",
+   "motion": "the steamer is what moves, and the two on the raft hold still: over the first three seconds the great steamer comes on slowly across the frame from right toward the raft, its bow throwing a long white wave that runs out ahead of it, its paddle wheel turning and churning, its small deck lights swaying with it; in the last two seconds it holds its course close beside the raft; the raft tips and rises on the white water beneath it without turning over; the two figures keep their arms over their heads and their bodies flat; the dark far bank holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "huck",
+    "jim",
+    "raft",
+    "town_shore",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "마을 불빛을 피해 갈대 뒤에 뗏목을 숨긴다",
+   "visual": "night at the muddy shore of the small river town: the raft of lashed logs is the one pushed in among the tall reeds at frame left with the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him standing knee deep in the water beside it, both hands on the logs, and the grown Black man of forty with the broad kind face in the coarse blue shirt with the sleeves rolled crouched low on the raft under the sailcloth shelter; beyond the reeds at frame right the scattered lit windows of the town above the bank and the wooden landing; the black water, the reeds tall enough to hide the shelter; exactly two people",
+   "motion": "the boy in the water is the only one who moves, and the crouched man holds still: at the start both his hands are on the logs; over the first three seconds he pushes the raft slowly further in among the reeds, the reeds bending and closing over the sailcloth shelter behind it, his shoulders working and the water rippling out from his knees; in the last two seconds he holds still against the logs with the reeds closed over the raft, his face turned toward the town; the crouched man keeps his head low under the shelter; the lit windows of the town hold steady; the landing and the bank hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "duke",
+    "king",
+    "huck",
+    "raft",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "강가에서 올라탄 두 사기꾼이 뗏목의 주인 행세를 한다",
+   "visual": "grey dawn light on the raft drifting on the wide river: the thin man of forty in the shabby frock coat and the tall crumpled hat is the one standing at frame centre with one arm thrown wide in a grand gesture, his sly face lifted; the bald old man of seventy in the long shabby coat, his bare crown showing and white side whiskers down his cheeks, is the one standing close beside him at frame right with one hand pressed flat to his own chest and his eyes turned up; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him, is the one sitting on the logs at frame left with his arms round his drawn-up knees and his freckled face turned up at the two men; the long steering oar lies along the logs behind them and the canvas lean-to stands at the raft's far end; the wide river runs out flat to the wooded far bank under the pale dawn sky; exactly three people on the raft, two grown men standing and one boy sitting, and nobody else anywhere on the water",
+   "motion": "the thin man in the frock coat is the only one who moves, and the old man and the boy hold still: at the start his arm is thrown wide and his sly face is lifted; over the first three seconds that wide arm sweeps slowly down and round in front of him until the open hand comes to rest over his own heart, his shoulders turning with it and his chin coming down a little, his tall crumpled hat staying on his head; in the last two seconds the hand holds over his heart; the bald old man keeps his hand flat on his own chest and his eyes turned up, not moving; the boy keeps his arms round his knees and his face turned up at them; the long steering oar, the canvas lean-to and the lashed logs of the raft hold completely still; the wide river keeps a slow even ripple round the raft and the far wooded bank does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "men_boat",
+    "huck",
+    "raft",
+    "fog_river"
+   ],
+   "refs": [],
+   "beat": "뗏목을 뒤지러 온 사내들 앞에서 헉이 거짓말을 한다",
+   "visual": "grey light on the misty river: the two men in the rowing boat in shirtsleeves and wide hats are the ones at frame right, one at the oars and one half standing with a hand on the gunwale, both faces turned to the raft; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one standing at the front of the raft at frame left with one hand raised flat to stop them and his other arm pointing back toward the sailcloth shelter, his freckled face set and earnest; the shelter closed behind him, the pale misty water between the boat and the raft; exactly three people",
+   "motion": "the boy on the raft is the only one who moves, and the two men in the boat hold still: at the start one hand is raised flat and the other arm points back at the shelter; over the first three seconds his pointing arm swings slowly from the shelter round toward his own chest and then out toward the men, his raised hand turning over palm up, his mouth moving as he speaks; in the last two seconds he holds with both hands out toward the men; the man at the oars keeps his oars up out of the water and the half-standing man keeps his hand on the gunwale; the boat rocks very slightly on the water; the shelter and the mist hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "huck",
+    "raft",
+    "river_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "헉이 짐을 넘기는 편지를 써 놓고 들여다본다",
+   "visual": "lantern light on the raft at night: the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one sitting cross-legged on the logs at frame centre under the sailcloth shelter with a scrap of paper held in both hands before him, a stub of pencil between his fingers, his freckled face bent over it; a tin lantern with a candle inside stands on the logs beside him throwing a small warm light; the black water and the dark far bank beyond the raft; he is the only person in the frame",
+   "motion": "the boy is the only one who moves: at the start the scrap of paper is held in both hands and his face is bent over it; over the first three seconds his hands lower the paper slowly to his knee and his head turns to look out over the dark water, then turns back down to the paper, his thumb bending one corner of it back and forth; in the last two seconds he holds the paper at his knee with his face turned down to it; the candle in the tin lantern sways gently; the sailcloth shelter, the logs and the dark water hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "huck",
+    "raft",
+    "river_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "헉이 그 편지를 두 손으로 찢는다",
+   "visual": "lantern light on the raft at night, close on the boy's hands: the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one sitting cross-legged on the logs at frame centre with the scrap of paper held up before his chest in both hands, already torn once down the middle, the two halves held apart between his fingers, his freckled face lifted with his jaw set; the tin lantern beside him, the black water beyond; he is the only person in the frame",
+   "motion": "the boy is the only one who moves: at the start the two halves of the paper are held apart between his fingers before his chest; over the first three seconds he brings the two halves together and tears them across again slowly, the paper parting between his hands, and then folds those pieces together and tears them once more, the pieces growing smaller in his fingers with each tear, his jaw staying set and his eyes down on them the whole time; in the last two seconds he holds the small pieces cupped in one palm with his other hand closed over them; the candle in the tin lantern beside him sways gently and its light moves a little on his face; the logs of the raft, the sailcloth shelter behind him and the black water beyond hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "huck",
+    "jim",
+    "raft",
+    "river_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "두 사람이 뗏목 위에 나란히 누워 별을 센다",
+   "visual": "moonlight on the raft drifting on the wide river at night: the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him and the grown Black man of forty with the broad kind face in the coarse blue shirt with the sleeves rolled are the ones lying side by side on their backs on the logs at frame centre, their hands behind their heads, both faces turned up to the sky, the boy's straw hat on the logs beside him; the low sailcloth shelter behind them, the long steering oar at the back; the black water with a broken path of moonlight, the far bank a low dark line; exactly two people on the raft",
+   "motion": "the two on the raft move very little: over the first three seconds the boy lifts one hand from behind his head and points slowly up at the sky, moving his finger from one place to another as he counts, and the man turns his head slowly on the logs to follow the finger; in the last two seconds the boy's hand stays up and the man's face stays turned that way; the raft rocks very gently on the swells and the moonlight path shifts a little on the water; the sailcloth shelter, the steering oar and the far line of trees hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "huck",
+    "jim",
+    "raft",
+    "river_fork",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "강이 갈라지는 어귀에서 둘은 물길을 고른다",
+   "visual": "pale dawn light where the river divides round a wooded point into two channels, mist low on the water: the raft of lashed logs is the one drifting at frame centre toward the point; the boy of thirteen with the tousled sandy hair under the battered straw hat, in the cast-off off-white shirt far too big for him is the one standing at the front of the raft with one hand shading his eyes and his freckled face turned to the left channel; the grown Black man of forty with the broad kind face in the coarse blue shirt with the sleeves rolled is the one at the long steering oar behind him with both hands on it, his broad face turned to the boy; the wooded point dividing the water ahead, the two channels running away into the mist; exactly two people on the raft",
+   "motion": "the boy at the front is the one who moves, and the man at the oar holds his stance: at the start his hand shades his eyes and his face is turned to the left channel; over the first three seconds he turns slowly from the left channel to the right and back again, his shading hand staying up, his other hand rising to point at one of them; in the last two seconds he holds with his arm out toward the channel he is pointing at; the man at the oar keeps both hands on it and his face turned to the boy; the raft drifts slowly toward the point; the mist drifts very slowly on the water; the wooded point holds completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "island_shore",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "모래톱에 모닥불 재만 남는다",
+   "visual": "pale dawn light on the sandy shore of the island: the grey ash and a few charred sticks of a burnt-out campfire lie in a ring on the sand at frame centre, a length of driftwood beside them, two sets of bare footprints leading away from the ring down the sand toward the water; the wide brown river beyond, mist low over it, the far bank a faint line; the shore lies quiet",
+   "motion": "nothing but the mist and the water moves: over the whole five seconds the low mist drifts very slowly across the water from left to right, thinning enough to show a little more of the far bank and then closing over it again, and the edge of the river creeps up the wet sand a hand's width and slides back in one slow swell and then another; the grey ash and the charred sticks lying in their ring, the length of driftwood beside them and the two sets of bare footprints leading away down the sand hold completely still, no wind stirring the ash; the light on the sand does not change over the five seconds; the shore stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+ "logline": "하룻밤 무도회를 위해 빌린 다이아몬드 목걸이를 잃고 십 년을 갚은 마틸드가 샹젤리제에서 들은 한마디",
+ "destination": "소설 목걸이에서 만날 수 있습니다",
+ "protagonist": "mathilde",
+ "setting": "1880년대 파리 — 초라한 셋집, 장관 관저 무도회, 새벽 거리, 팔레 루아얄 보석상, 다락방, 샹젤리제",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/mokgeori/assets",
+ "anchor": "a Frenchwoman of twenty-five with dark hair pinned up, a fine oval face and dark eyes",
+ "palette": "off-white, dark blue, dull yellow, ash grey, dark brown",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "mathilde",
+    "flat"
+   ],
+   "refs": [],
+   "beat": "초라한 집의 마틸드 — 사치의 꿈",
+   "visual": "Mathilde in a plain dark wool dress with a white collar sitting at the worn table of the flat with her chin on her hand, her eyes turned away to the window and the grey roofs, a chipped cup before her; exactly one woman",
+   "motion": "Mathilde's gaze drifts slowly from the window back to the chipped cup and her chin settles heavier on her hand; the camera holds on the woman at the table"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "loisel",
+    "mathilde",
+    "flat"
+   ],
+   "refs": [],
+   "beat": "무도회 초대장 — 던지고 우는 마틸드",
+   "visual": "Loisel standing by the table holding out a large printed envelope with a hopeful smile, Mathilde in her plain dark dress turning away from it with her face in her hands; exactly two people",
+   "motion": "Loisel's held-out envelope lowers a little as Mathilde's shoulders shake behind her hands; the camera holds on the two at the table"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "loisel",
+    "flat"
+   ],
+   "refs": [],
+   "beat": "사백 프랑의 드레스 — 그래도 보석이 없다",
+   "visual": "a Frenchwoman of twenty-five with dark hair pinned up standing before the small wall mirror of the flat in a new evening gown of dark blue silk with bare shoulders, her hand at her bare throat and her mouth turned down, Loisel behind her holding the gown's wrapping paper; exactly two people",
+   "motion": "the woman's hand presses at her bare throat and her turned-down mouth holds while Loisel folds the wrapping paper behind her; the camera holds on the mirror and the gown"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "mathilde",
+    "forestier",
+    "salon"
+   ],
+   "refs": [],
+   "beat": "포레스티에 부인의 보석함 — 다이아몬드 목걸이",
+   "visual": "Mathilde in her plain dark dress lifting a diamond necklace from an open black satin case with both hands, her eyes wide and lips parted, Forestier seated in the velvet armchair beside her smiling kindly; exactly two women",
+   "motion": "the necklace lifts higher in Mathilde's trembling hands and its stones catch the light, Forestier's kind smile holding; the camera holds on the necklace between the two women"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "ballroom"
+   ],
+   "refs": [],
+   "beat": "무도회 — 가장 아름다운 여인",
+   "visual": "a Frenchwoman of twenty-five with dark hair pinned up in a dark blue silk gown with bare shoulders and a diamond necklace at her throat, dancing in the middle of the ballroom with her head tilted back and a radiant smile, gentlemen in tailcoats turning to look at her; exactly one woman in the centre",
+   "motion": "the woman turns slowly in the dance with her gown swinging and her radiant smile holding, the chandeliers glittering above; the camera holds on the dancer in the centre"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "loisel",
+    "street"
+   ],
+   "refs": [],
+   "beat": "새벽 네 시 — 초라한 외투와 낡은 마차",
+   "visual": "before dawn in the winter street, a Frenchwoman of twenty-five with dark hair pinned up hurrying toward the old cab with a shabby everyday coat pulled over her dark blue gown and her head down, Loisel a step behind holding the cab door; exactly two people",
+   "motion": "the woman's hurried steps carry her toward the cab door as the shabby coat slips on her shoulder, Loisel's hand holding the door; the camera holds on the cab and the two"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "loisel",
+    "flat"
+   ],
+   "refs": [],
+   "beat": "거울 앞 — 목걸이가 없다",
+   "visual": "a Frenchwoman of twenty-five with dark hair pinned up in a dark blue gown standing before the small wall mirror of the flat with both hands at her bare throat, her mouth open and her eyes wide, Loisel behind her gone pale with his coat half off; exactly two people",
+   "motion": "the woman's hands clutch at her bare throat and Loisel's coat slides off his shoulder behind her; the camera holds on the mirror and the bare throat"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "loisel",
+    "street"
+   ],
+   "refs": [],
+   "beat": "밤새 거리를 뒤지는 남편",
+   "visual": "Loisel alone in the grey dawn street bent over the wet cobbles searching with one hand, his frock coat wet and his hat pushed back, the gas lamps still lit; exactly one man",
+   "motion": "Loisel's searching hand sweeps across the wet cobbles as he moves along the gutter, the gas lamps burning steady; the camera holds on the bent man"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "loisel",
+    "mathilde",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "팔레 루아얄 상점 — 똑같은 목걸이",
+   "visual": "Loisel and Mathilde in her plain dark dress standing at the glass counter of the jeweller's shop, the shopkeeper lifting a diamond necklace from a velvet tray, the couple leaning in with tight faces; exactly three people",
+   "motion": "the shopkeeper's hands raise the necklace above the velvet tray and the couple's tight faces lean closer; the camera holds on the necklace over the counter"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "loisel",
+    "shop"
+   ],
+   "refs": [],
+   "beat": "유산과 빚 — 삼만 육천 프랑",
+   "visual": "Loisel at the counter of the shop signing a paper with a steel pen, a thick stack of banknotes beside the paper, his free hand pressed flat on the counter, his face drawn; exactly one man in front",
+   "motion": "Loisel's pen moves across the paper and his flat hand presses harder on the counter, the stack of banknotes holding; the camera holds on the signing hand"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "mathilde",
+    "forestier",
+    "salon"
+   ],
+   "refs": [],
+   "beat": "열어 보지도 않은 상자 — 남은 것은 빚",
+   "visual": "Forestier taking a closed black satin case from Mathilde with a light careless smile and setting it aside on the marble-topped table without opening it, Mathilde in her plain dark dress watching the case with her eyes fixed on it and her lips pressed together; exactly two women",
+   "motion": "Forestier's hand sets the closed case aside on the marble table and Mathilde's fixed eyes follow it; the camera holds on the closed case between them"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "garret"
+   ],
+   "refs": [],
+   "beat": "십 년 — 하녀를 내보내고 물 긷고 빨래",
+   "visual": "a Frenchwoman of thirty-five with rough chapped hands and dark hair loosely tied, in a coarse skirt and apron, kneeling on the bare floor of the garret wringing a wet sheet over the bucket, laundry hanging on the line above; exactly one woman",
+   "motion": "the woman's rough chapped hands wring the wet sheet over the bucket and water runs down into it, the laundry above swaying slightly; the camera holds on the kneeling woman"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "forestier",
+    "avenue"
+   ],
+   "refs": [],
+   "beat": "십 년 뒤 샹젤리제 — 다시 만난 두 여인",
+   "visual": "on the wide avenue, a Frenchwoman of thirty-five with rough chapped hands and dark hair loosely tied in a plain worn dress stopping before her old friend, who is still young and elegant with a small child by the hand, the friend's face puzzled; exactly two women and one child",
+   "motion": "the worn woman's hands lift toward Forestier as she speaks and Forestier's puzzled face tilts, the child's hand held; the camera holds on the two women"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "forestier",
+    "avenue"
+   ],
+   "refs": [],
+   "beat": "사연을 들은 부인은 — 뭐라 했을까",
+   "visual": "close on Forestier on the avenue taking the rough chapped hands of a dark-haired woman of thirty-five in her own gloved hands, Forestier's face stricken and still, the two women seated a hand's breadth apart, the worn woman's face turned to her waiting; exactly two women",
+   "motion": "Forestier's gloved hands press the rough chapped hands once and stay there, her stricken eyes fixed on the worn face across from her and filling with tears; a few leaves drift past behind the two seated women; the camera holds still at a respectful distance"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "flat"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 보석 상자 스틸",
+   "visual": "closing still: an open black satin jewel case lying empty on the worn table of the flat, the small wall mirror beside it, pale morning light from the window on the cloth",
+   "motion": "morning light creeps across the tablecloth toward the empty case and the mirror holds its still reflection; the camera closes with great patience on the empty satin case"
+  }
+ ],
+ "withheld": "부인이 두 손을 잡으며 한 말 — 내 것은 오백 프랑짜리 가짜였다는 한마디"
+}

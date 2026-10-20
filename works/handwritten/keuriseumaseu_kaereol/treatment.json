@@ -1,62 +1,198 @@
 {
- "logline": "돈 말고는 아무것도 세지 않던 늙은 상인에게, 하룻밤 사이 세 번의 방문이 찾아온다.",
- "destination": "세 번째 손님이 가리키는 자리",
- "protagonist": "런던 환전소를 홀로 지키는 마른 노인",
- "setting": "19세기 런던의 눈 내리는 크리스마스 전야, 사무실과 빈 저택",
- "anchor": "a gaunt elderly man in a long black coat and nightcap, thin white side whiskers, Victorian London",
- "palette": "candle and hearth amber against deep blue snow night, heavy shadow, cold window glass",
+ "logline": "크리스마스 이브의 구두쇠 스크루지가 서기의 석탄과 조카의 인사를 마다하고 텅 빈 집으로 돌아와, 죽은 동업자 말리의 유령이 예고한 세 손님 — 과거·현재·미래의 유령 — 에게 빈 교실의 어린 자신, 크래칫 집의 꼬마 팀, 빈 의자와 목발, 눈 덮인 묘지의 비석을 차례로 보고 무릎 꿇는다",
+ "destination": "소설 크리스마스 캐럴에서 만날 수 있습니다",
+ "protagonist": "scrooge",
+ "setting": "1840년대 런던의 크리스마스 이브 — 환전소, 눈 내리는 거리, 스크루지의 집과 침실, 옛 교실, 크래칫의 집, 눈 덮인 묘지",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/keuriseumaseu_kaereol/assets",
+ "anchor": "a gaunt old man of seventy with thin white side whiskers and a sharp nose, a hard narrow face",
+ "palette": "dark blue, off-white, dull yellow, dark brown, ash grey",
+ "voice": "",
+ "personas": {},
+ "withheld": "비석에 새겨진 이름이 누구 것인지와 이튿날 아침 그가 사람이 달라지는 결말",
  "beats": [
   {
    "n": 1,
-   "beat": "늙은 상인이 촛불을 끄고 돈궤를 잠근다.",
-   "visual": "an elderly man locking an iron cash box by a single guttering candle in a cold office",
-   "motion": "the candle gutters out, the lid clicks shut, breath fogs the air"
+   "cast": [
+    "scrooge",
+    "counting_house"
+   ],
+   "refs": [],
+   "beat": "크리스마스 이브, 구두쇠 스크루지가 촛불 하나로 장부를 넘긴다",
+   "visual": "the light of a single candle in the narrow dim counting house: the gaunt old man of seventy with the thin white side whiskers and the sharp nose in the long black coat is the one sitting hunched on the high stool at the high desk at frame centre with a thick ledger open before him, a quill in his right hand and his left forefinger running down a column, his hard narrow face bent close to the page; the single candle in its holder on the desk beside the ledger, the frosted small window dark behind, the tiny grate with its one lump of coal at frame left; he is the only person in the room",
+   "motion": "the old man at the desk is the only one who moves: at the start his forefinger is on the column and the quill is in his other hand; over the first three seconds his forefinger runs slowly down the column to the foot of the page, his lips moving as he counts, and the quill comes down to scratch a figure at the bottom; in the last two seconds he holds with the quill on the page and his face bent close; the candle flame sways gently; the ledger, the desk, the stool, the window and the grate hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "사환이 석탄을 더 넣으려다 손을 거둔다.",
-   "visual": "a thin clerk reaching toward a tiny coal scuttle then withdrawing his hand, elderly man watching",
-   "motion": "his hand pulls back, the ember dims, the old man's head turns"
+   "cast": [
+    "cratchit",
+    "scrooge",
+    "counting_house"
+   ],
+   "refs": [],
+   "beat": "스크루지의 서기 크래칫이 석탄을 더 넣으려다 손을 거둔다",
+   "visual": "candlelight in the narrow dim counting house: the thin clerk in the threadbare brown coat with the long white scarf and the fingerless gloves is the one crouched at the tiny grate at frame left with a small shovel of coal held out over the grate, his patient face turned back over his shoulder; the gaunt old man of seventy with the thin white side whiskers and the sharp nose in the long black coat is the one sitting at the high desk at frame right with his head turned from the ledger toward the clerk, his hard narrow face fixed on the shovel under drawn brows; the ledger and the single candle on the desk; exactly two men",
+   "motion": "the clerk at the grate is the only one who moves, and the old man at the desk holds still: at the start the shovel of coal is held out over the grate; over the first three seconds the shovel draws slowly back from the grate without tipping, the clerk's face turning back to the grate and down, his shoulders sinking, and he sets the shovel slowly down on the hearth with the coal still on it; in the last two seconds he holds crouched with his gloved hands on his knees; the old man keeps his face fixed on the clerk under drawn brows, his quill still; the candle flame sways gently; the desk, the ledger and the window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그는 빈 집에 돌아와 문고리를 잡는다.",
-   "visual": "an elderly man gripping a heavy brass door knocker on a dark townhouse door, snow falling",
-   "motion": "snow falls thickly, his grip tightens, the knocker shifts under his hand"
+   "cast": [
+    "nephew",
+    "scrooge",
+    "counting_house"
+   ],
+   "refs": [],
+   "beat": "인사 온 조카에게 스크루지가 코웃음을 친다",
+   "visual": "candlelight in the narrow dim counting house: the cheerful young man in the dull red scarf and the brown overcoat with snow on his shoulders is the one standing in the doorway at frame left with his hat in one hand and his other hand held out open toward the old man, his smiling face bright; the gaunt old man of seventy with the thin white side whiskers and the sharp nose in the long black coat is the one sitting at the high desk at frame right turned toward the door with his lips pressed into a sneer and one bony hand flicking outward in dismissal, his hard narrow face cold; the ledger and the candle on the desk; exactly two men",
+   "motion": "the old man at the desk is the only one who moves, and the young man in the doorway holds still: at the start his bony hand is flicking outward; over the first two seconds the hand flicks outward twice more in short dismissive jerks, his sneering mouth opening and closing as he speaks, his head turning away from the door back to the ledger; in the last two seconds he holds with his face on the ledger and his hand at rest on the desk; the young man keeps his hat in one hand and his other hand held out, his smile fixed; the candle flame sways gently; the desk, the ledger and the doorway hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "문고리가 낯선 얼굴로 변해 그를 마주 본다.",
-   "visual": "a brass door knocker shaped like a human face glowing faintly, an elderly man recoiling from it",
-   "motion": "the metal face brightens, he jerks backward, snowflakes swirl past"
+   "cast": [
+    "scrooge",
+    "street",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "눈 내리는 거리를 지나 스크루지가 텅 빈 집으로 돌아온다",
+   "visual": "snowy evening in the London street with the lit windows of the houses: the gaunt old man of seventy with the thin white side whiskers and the sharp nose in the long black coat and a black top hat is the one walking along the snowy cobbles at frame centre with his shoulders hunched and his hands clasped behind his back, his hard narrow face bent down, snow on the brim of his hat; people in coats and scarves passing at the edges of the frame with their faces turned to the warm lit windows; snow falling thin through the gaslight; he is the only person walking with his face bent down; the fronts of the houses are plain brick and painted wood with no lettering of any kind anywhere in the frame",
+   "motion": "the old man and the snow are what move, and the people at the edges hold still: at the start the old man is mid stride with his hands behind his back; over the first three seconds he walks three slow steps along the cobbles toward the camera with his shoulders hunched and his face bent, growing a little larger in the frame, the snow settling on his hat and shoulders; in the last two seconds he stops on the cobbles well inside the frame; the thin snow keeps drifting down through the gaslight the whole time; the people at the edges keep their faces to the shop windows; the house fronts and the street lamp hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "어둠 속에서 사슬 끄는 소리가 다가온다.",
-   "visual": "heavy chains dragging along a dark townhouse corridor, candle guttering on a side table",
-   "motion": "chains drag and rattle closer, the candle gutters, shadows swing",
-   "anchor": false
+   "cast": [
+    "scrooge",
+    "front_door",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "집 문고리가 죽은 동업자 말리의 얼굴로 변해 스크루지를 본다",
+   "visual": "snowy night at the black front door of the gloomy house, the camera very close on the door so that it fills most of the frame: the big round brass knocker at frame centre has taken the shape of a man's face — a long grey drawn face of an old man with a pigtail, heavy brows, wide staring eyes and an open mouth, the brass of the ring hanging below his chin like a collar, the whole face the size of a real man's face; the gaunt old man of seventy with the thin white side whiskers in the long black coat and the black top hat is the one at frame right seen from the shoulders up, his bony hand stopped in the air a hand's width from the brass face, his own face gone slack with his eyes wide and his mouth open; the black panelled door, the snow on the step below and the dark fanlight above; the two faces are the only faces in the frame, one of brass and one of flesh",
+   "motion": "the old man is the only one who moves, and the face in the knocker holds its stare: at the start his hand is stopped a hand's width from the knocker and his mouth is open; over the first two seconds his hand draws slowly back to his own chest and his whole body leans slowly back away from the door, his eyes staying wide on the face in the brass; in the last two seconds he holds leaning back with his hand pressed to his chest; the grey face in the knocker keeps its staring eyes and open mouth without moving; the black door, the snowy step and the fanlight hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "형상이 침대 곁에서 지난날을 펼쳐 보인다.",
-   "visual": "a translucent chained figure beside a curtained bed, a faint scene glowing in the air before it",
-   "motion": "the faint scene brightens and wavers, bed curtains billow, chains shift"
+   "cast": [
+    "marley",
+    "scrooge_night",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "밤에 사슬을 끌며 나타난 말리의 유령이 세 손님을 예고한다",
+   "visual": "the light of one candle in the gloomy bedroom: the tall grey faintly see-through figure of a man in the old-fashioned coat and pigtail, wrapped from shoulders to knees in heavy iron chains hung with cash boxes, is the one standing at the foot of the four-poster bed at frame right with one grey hand raised and three fingers held up; the gaunt old man of seventy with the thin white side whiskers in the white nightshirt, the nightcap and the grey dressing gown is the one sitting bolt upright in the bed at frame left with the dark curtains drawn back, both bony hands gripping the bedclothes to his chin, his hard narrow face white with his eyes wide; the dying fire in the small grate, the candle on the table; exactly two figures, one grey ghost and one old man in the bed",
+   "motion": "the grey ghost is the only one who moves, and the old man in the bed holds still: at the start the grey hand is raised with three fingers held up; over the first three seconds the chains slide slowly over the floorboards with a heavy drag as the ghost takes one slow step toward the bed, the cash boxes swinging on the chains, the three raised fingers staying up and the grey mouth opening as it speaks; in the last two seconds the ghost holds with the fingers up and the chains still; the old man keeps the bedclothes gripped to his chin and his eyes wide; the candle flame sways and the dying fire glows; the bed, the curtains and the door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "세 번째 손님이 가리키는 곳엔 무엇이 있을까?",
-   "visual": "a hooded silhouette raising one arm toward an iron churchyard gate at night, elderly man frozen behind",
-   "motion": "the hooded arm lifts, fog rolls across the gate, the old man's coat flaps"
+   "cast": [
+    "ghost_past",
+    "scrooge_night",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "첫 손님, 과거의 유령이 스크루지를 옛날로 데려간다",
+   "visual": "a white glow in the gloomy bedroom: the small figure in the white tunic with the bright white light glowing from the top of its head is the one standing beside the four-poster bed at frame left with one hand held out toward the old man, its calm ageless face lit from above by its own light; the gaunt old man of seventy with the thin white side whiskers in the white nightshirt, the nightcap and the grey dressing gown is the one sitting on the edge of the bed at frame right with one bony hand lifted to shade his eyes from the light and the other hand clutching the bedpost, his hard narrow face screwed up; the dark curtains of the bed, the dying fire in the grate; exactly two figures, one small glowing figure and one old man",
+   "motion": "the small glowing figure is the only one who moves, and the old man holds still: at the start its hand is held out toward the old man; over the first three seconds the held-out hand turns slowly palm up and draws back toward its own chest in a slow beckoning, the white light on its head brightening a little and dimming again, its calm face not changing; in the last two seconds the hand holds at its chest and the light holds steady; the old man keeps his hand shading his eyes and his other hand on the bedpost, his face screwed up; the curtains, the bed and the grate hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "눈 내리는 창가에 촛불 하나가 켜진다.",
-   "visual": "a single candle burning in a frosted window as snow falls outside a dark townhouse",
-   "motion": "the candle steadies and brightens, snow drifts past the pane, frost creeps",
-   "anchor": false
+   "cast": [
+    "young_scrooge",
+    "scrooge_night",
+    "ghost_past",
+    "schoolroom",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 교실에 홀로 남은 어린 스크루지가 거기 있다",
+   "visual": "grey winter light through the tall small-paned window of the bare cold schoolroom: a thin boy of ten with brown hair in an old-fashioned jacket is the one sitting alone on a bench at a long plank desk by the window at frame right with a book open before him, his chin on his hand and his small face turned to the window; the gaunt old man of seventy with the thin white side whiskers in the white nightshirt and the grey dressing gown is the one standing in the doorway at frame left with his bony hand pressed to his own mouth and his hard narrow face crumpled, his feet in slippers on the board floor; the small figure in the white tunic with the bright white light glowing from the top of its head is the one beside him with its hand pointing at the boy; rows of bare plank desks of dark wood between them, all of wood with no metal anywhere; exactly one boy, one old man and one small glowing figure",
+   "motion": "the old man in the doorway is the only one who moves, and the boy at the desk and the small figure hold still: at the start his hand is pressed to his mouth; over the first three seconds the hand slides slowly from his mouth up over his eyes, his shoulders shaking once, his head bowing; in the last two seconds he holds with his hand over his eyes and his head bowed; the boy keeps his chin on his hand and his face to the window, his book open; the small figure keeps its hand pointing at the boy and its light steady; the rows of desks and the tall window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "ghost_present",
+    "scrooge_night",
+    "bedroom"
+   ],
+   "refs": [],
+   "beat": "둘째 손님, 현재의 유령은 초록 옷의 거인이다",
+   "visual": "warm firelight blazing in the gloomy bedroom, the small grate now roaring: the huge jolly giant in the dull green robe trimmed with white fur with the holly wreath on his brown curls is the one sitting on the floor at frame right with his back against the four-poster bed, his broad bare chest and his knees higher than the old man's head, a horn of plenty spilling apples and nuts on the boards beside him, his laughing face turned to the old man; the gaunt old man of seventy with the thin white side whiskers in the white nightshirt, the nightcap and the grey dressing gown is the one standing at frame left with his head tipped far back to look up at the giant's face, one bony hand gripping his dressing gown closed at his throat; the bed curtains drawn back; exactly two figures, one giant seated and one old man standing",
+   "motion": "the giant is the only one who moves, and the old man holds still: at the start the giant's laughing face is turned to the old man; over the first three seconds the giant throws his head back with a slow silent laugh, his broad chest shaking, one huge hand lifting slowly to sweep the air toward the old man in a wide beckoning arc; in the last two seconds the hand holds out toward the old man and his head comes down again with the laugh still on his face; the old man keeps his head tipped back and his hand gripping his gown at his throat; the fire blazes; the horn of plenty, the bed and the curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "cratchit_family",
+    "tiny_tim",
+    "cratchit",
+    "cratchit_home"
+   ],
+   "refs": [],
+   "beat": "거인이 보여 준 크래칫의 집에는 작은 거위와 절뚝이는 꼬마 팀이 있다",
+   "visual": "warm firelight in the small poor kitchen: the thin clerk in the threadbare brown coat with the long white scarf is the one standing at the head of the small table at frame right with a knife raised over the small roast goose on its dish, his patient face bright; the small pale boy with the wooden crutch under one arm and the iron brace on his leg is the one sitting on the stool nearest the clerk at frame centre with his thin bright face turned up to the goose; the thin mother in the patched grey dress and the four children in mended clothes are the ones crowded round the rest of the table with their faces on the goose; the pudding on the mantel with holly, the coal fire; exactly seven people round the table",
+   "motion": "the clerk at the head of the table is the only one who moves, and the family holds still: at the start the knife is raised over the goose; over the first three seconds the knife comes slowly down and slices once into the goose, the clerk's other hand steadying the dish, his bright face turning to the small boy beside him with a smile; in the last two seconds he holds with the knife in the goose and his face on the boy; the small boy keeps his face turned up and his crutch under his arm; the mother and the four children keep their faces on the goose; the coal fire glows; the pudding, the holly and the table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "ghost_future",
+    "scrooge_night",
+    "street",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "셋째 손님은 검은 두건 아래 얼굴 없는 유령이다",
+   "visual": "snowy night in the London street, the lit windows of the houses dark now: the tall figure hidden entirely in the black hooded robe that trails on the snow is the one standing at frame right with one thin hand showing from the sleeve, pointing along the street into the dark, the deep hood filled with flat black shadow all the way in; the gaunt old man of seventy with the thin white side whiskers in the white nightshirt, the nightcap and the grey dressing gown is the one standing on the snow at frame left with both bony hands clasped together before his chest and his hard narrow face turned up to the black hood, his knees a little bent; snow falling thin; exactly two figures, one hooded and one old man",
+   "motion": "the hooded figure is the only one who moves, and the old man holds still: at the start the thin hand points along the street; over the first three seconds the pointing hand turns slowly and swings round until it points at the old man himself, the black robe stirring a little at the hem, the deep hood not turning; in the last two seconds the hand holds pointing at the old man; the old man keeps his hands clasped before his chest and his face turned up to the hood, his knees bent; the thin snow drifts down; the dark house fronts and the cobbles hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "cratchit",
+    "cratchit_home"
+   ],
+   "refs": [],
+   "beat": "유령이 보여 준 크래칫의 집에는 빈 의자와 목발만 남아 있다",
+   "visual": "dim firelight in the small poor kitchen, the fire low: the small table at frame centre with a single stool drawn a little back from it and no one on it, a small wooden crutch leaning against the wall beside the stool at frame right; the thin clerk in the threadbare brown coat with the long white scarf is the one sitting on the far side of the table at frame left with his elbows on the table and his face buried in both his hands, his shoulders bowed; the holly on the mantel dry, the low coal fire; he is the only person in the room, and the stool by the crutch has no one on it",
+   "motion": "the clerk at the table is the only one who moves: at the start his face is buried in both hands and his shoulders are bowed; over the first three seconds his shoulders rise and sink slowly once and one hand comes down from his face to rest flat on the table, his face still turned down and hidden by the other hand; in the last two seconds he holds with one hand on the table and his face hidden; the low fire glows faintly; the stool with no one on it, the crutch against the wall, the dry holly and the table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "ghost_future",
+    "scrooge_night",
+    "churchyard",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "유령이 눈 덮인 묘지의 비석 하나를 가리킨다",
+   "visual": "snowy night in the overgrown churchyard among the leaning headstones: the tall figure hidden in the black hooded robe is the one standing at frame right with the thin hand showing from the sleeve pointing down at one leaning headstone half buried in snow at frame centre, its smooth grey face turned away from the camera; the gaunt old man of seventy with the thin white side whiskers in the white nightshirt, the nightcap and the grey dressing gown is the one standing at frame left in the snow with both bony hands pressed together and his hard narrow face turned down toward the headstone, his mouth open; the iron railing and the bare tree behind, snow on the headstones; exactly two figures, one hooded and one old man; every headstone in the churchyard is plain grey stone, smooth and blank, with no face, no figure and no lettering carved on any of them; the inside of the hood is flat black shadow the whole way in, with no face, no skull and no eyes anywhere in it",
+   "motion": "the old man is the one who moves, and the hooded figure holds its pointing: at the start his hands are pressed together and his mouth is open; over the first three seconds he takes two slow unsteady steps through the snow toward the headstone, his pressed hands rising to his chin, his face bending lower toward the stone; in the last two seconds he stops a stride from the stone with his hands at his chin; the hooded figure keeps its thin hand pointing down at the stone, its robe still; the carved side of the headstone stays turned away; the railing, the bare tree and the snow hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "scrooge_night",
+    "ghost_future",
+    "churchyard",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "무릎 꿇고 소매를 붙든 스크루지가 비석의 이름을 본다",
+   "visual": "snowy night in the churchyard, close: the gaunt old man of seventy with the thin white side whiskers in the white nightshirt, the nightcap and the grey dressing gown is the one on his knees in the snow at frame left with both bony hands gripping the black sleeve of the hooded figure, his hard narrow face turned up to the black hood with his mouth open and his eyes streaming; the tall figure in the black hooded robe is the one standing over him at frame right with the thin hand still pointing past him at the leaning headstone at the far left edge of the frame, its smooth grey face turned away from the camera; snow on the old man's nightcap and shoulders; exactly two figures, one kneeling old man and one hooded figure; every headstone in the churchyard is plain grey stone, smooth and blank, with no face, no figure and no lettering carved on any of them; the inside of the hood is flat black shadow the whole way in, with no face, no skull and no eyes anywhere in it",
+   "motion": "the old man on his knees is the only one who moves, and the hooded figure holds still: at the start both his hands grip the black sleeve and his face is turned up; over the first three seconds his hands pull slowly down on the sleeve as his body bows lower, his forehead coming down nearly to the snow and lifting again, his mouth working as he pleads; in the last two seconds he holds with his hands on the sleeve and his face turned up again; the hooded figure keeps its hand pointing at the headstone and its robe still; the snow keeps drifting down; the headstone and the snow hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "front_door",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "눈 내리는 창가에 촛불 하나가 켜진다",
+   "visual": "snowy night at the gloomy London house seen from the street: the black front door with the big round brass knocker at frame centre, the knocker plain brass now, snow on the step, and in the dark window beside the door at frame right a single candle burning in its holder behind the glass, its small warm light on the snow of the sill; snow falling thin; the street lies quiet",
+   "motion": "nothing but the snow and the flame moves: over the whole five seconds the thin snow drifts down across the frame from the top and settles on the step and on the sill of the window, thickening a little on the top of the brass knocker, and the single candle flame behind the glass sways gently to one side and steadies again, its warm light on the snow of the sill brightening a little and holding; the black door, the plain brass knocker, the dark fanlight above and the window frame hold completely still; the street stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "그가 무덤에서 자기 이름을 확인하고 사람이 달라지는 결말",
- "voice": "ko-KR-SoonBokNeural"
+ ]
 }

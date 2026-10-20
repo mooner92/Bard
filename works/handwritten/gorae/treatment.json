@@ -1,0 +1,178 @@
+{
+ "logline": "산골 소녀 금복이 바닷가에서 고래를 보고 평대의 사업가가 되고, 말이 없는 딸 춘희는 폐허가 된 벽돌공장에서 벽돌을 굽는다 — 세 여인의 대서사",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "geumbok",
+ "setting": "1950~60년대 한국 — 산골 마을과 바닷가 부두, 소도시 평대, 벽돌공장",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/gorae/assets",
+ "anchor": "a bold Korean woman with sharp black eyes and glossy black hair, in an old rural Korea of thatched roofs, wooden piers and brick kilns",
+ "palette": "ochre, umber, sea blue, smoke grey, straw yellow",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "노파가 품은 한과 복수, 춘희가 갇힌 까닭, 금복과 춘희의 마지막",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "harbour",
+    "pyeongdae",
+    "brickworks"
+   ],
+   "refs": [],
+   "beat": "노파·금복·춘희, 세 여인의 파란만장한 대서사",
+   "visual": "a sweeping storybook panorama of an old Korean countryside at golden late afternoon, with no figures anywhere: at the far left steep blue hills fold behind one another with a tiny thatched village tucked into a valley; a long unpaved cart road of packed earth with two wheel ruts winds down from the hills across rice paddies to the right, past a small country town of low shopfronts and wooden telegraph poles; at the far right the road reaches a busy old fishing harbour of wooden piers and small boats on a wide grey-blue sea, where far offshore a tall white spout of water rises from the back of a great whale; in the middle distance near the town a tall square brick chimney trails a thin line of smoke above a long low kiln; the whole land lies open in one great view of a long life; flocks of small birds cross the sky; a single paper kite on a long string flies high above the town, and a row of tall poplars marks the road where it leaves the mountains",
+   "motion": "the thin line of smoke rises slowly from the tall brick chimney near the town, and that rising smoke is the one movement in the shot: at the start a thin grey line climbs from the chimney top; over the whole five seconds it drifts upward and leans gently with the wind across the golden sky, thinning as it goes, while far out at sea the white spout above the whale's back slowly settles and fades into mist; the blue hills, the thatched village, the winding road, the rice paddies, the town and the harbour boats stay completely still; the small birds glide in the sky; the paper kite high above the town stays in place on its string and the row of poplars stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds an extreme wide view of the whole countryside, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "geumbok_girl",
+    "mountain_village"
+   ],
+   "refs": [],
+   "beat": "첫 주인공 — 가난한 산골에서 태어난 소녀 금복",
+   "visual": "a steep mountain valley in old rural Korea on a bright autumn morning: the poor mountain-village girl stands at frame centre facing the camera on a narrow dirt path above a cluster of small thatched-roof houses, her sunburnt round face lifted, her bright bold black eyes fixed on the far end of the valley where a narrow footpath of bare earth winds out between the hills, her long braid over one shoulder, a small cloth bundle clutched against her chest; behind her the thatched roofs, a stone wall and a single persimmon tree heavy with orange fruit sit below steep wooded slopes turning amber; the morning light is clear and sharp; her expression is hungry and fearless, a girl restless to see the world beyond the hills; a pair of magpies sits on the stone wall; a small heap of chestnuts lies in a basket on the stone wall, and a thin curl of smoke rises from one thatched roof below",
+   "motion": "the girl's long braid and the hem of her faded jacket stir in the mountain wind, and that stirring is the one movement in the shot: at the start she stands still on the path clutching her bundle; over the whole five seconds a steady breeze flows down the valley, lifting the end of her braid and the edge of her patched jacket and swaying the leaves of the persimmon tree, while her bold eyes stay fixed on the far end of the valley and her feet stay planted on the path; the thatched roofs, the stone wall and the wooded slopes stay completely still; the magpies on the wall stay still; the basket of chestnuts on the stone wall stays still and the thin curl of smoke from the roof rises straight; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "geumbok_girl",
+    "harbour"
+   ],
+   "refs": [],
+   "beat": "산골을 떠나 낯선 바닷가 부두에 닿은 금복",
+   "visual": "a busy grey morning at the old Korean fishing harbour: the poor mountain-village girl stands at frame centre at the near end of a long wooden pier, seen in three-quarter view, her small cloth bundle in one hand and her worn straw sandals dusty from the long road, her sunburnt face turned to the open sea with wide astonished eyes; around her small wooden fishing boats bob at their moorings, nets hang drying on tall poles and wooden fish crates are stacked along the pier; low tin-roofed sheds line the shore behind her; gulls wheel above the masts; the wide grey-blue sea stretches to the horizon; the salt air is loud with gulls and creaking wood; she has never seen anything so large; a coil of thick rope lies on the pier planks at her feet; a battered tin bucket sits at the edge of the pier, and a row of wooden barrels stands against the nearest shed wall",
+   "motion": "the small wooden fishing boats rock gently at their moorings along the pier, and that rocking is the one movement in the shot: at the start the boats sit low on the grey-blue water; over the whole five seconds they lift and settle slowly on the swell, their masts swaying a little against the sky and the moored ropes tightening and slackening, while the girl stands still at the end of the pier with her bundle and her astonished eyes on the sea; the drying nets, the stacked crates, the tin-roofed sheds and the coil of rope stay completely still; a few gulls glide in place above the masts; the tin bucket at the edge of the pier and the wooden barrels by the shed stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot along the pier, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "geumbok_girl",
+    "harbour"
+   ],
+   "refs": [],
+   "beat": "바닷가에서 만난, 물을 뿜는 커다란 푸른 고래",
+   "visual": "a wild bright afternoon on the rocky shore beyond the fishing harbour: the poor mountain-village girl stands at frame left on a broad flat rock above the surf, seen in three-quarter view from behind, her braid blowing, one hand raised to shade her eyes; out in the shining grey-blue sea at frame right, close enough to fill half the frame, the vast dark back of a great blue whale breaks the surface and a towering white spout of water bursts high into the air from its blowhole, the spray glittering in the sun; foam swirls around the whale's back; gulls scatter around the spray; the far harbour and its little boats sit small on the horizon; the moment is huge and wondrous, a mountain girl meeting the sea's greatest creature; wet seaweed drapes the rocks at her feet; a lone fishing boat with a patched sail lies far out near the horizon, and a long line of white surf breaks along the rocks below her",
+   "motion": "the tall white spout of water rises above the whale's back and drifts on the wind, and that rising spray is the one movement in the shot: at the start the spout climbs high above the dark back; over the whole five seconds the spray climbs higher and slowly spreads into a glittering mist that drifts toward the shore, the whale's broad back rolling very slowly forward in the water, while the girl stands still on the rock with her hand shading her eyes; the rocks, the seaweed, the far harbour and its small boats stay completely still; the scattered gulls glide in place; the far fishing boat with its patched sail stays still near the horizon; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from behind the girl on the rocks, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "geumbok_girl",
+    "harbour"
+   ],
+   "refs": [],
+   "beat": "고래에게서 죽음을 이기는 생명을 본 금복",
+   "visual": "a close view on the rocky shore in the late afternoon: the poor mountain-village girl stands at frame centre facing the camera, the sea behind her, her sunburnt round face lit with awe and fierce joy, her bold black eyes shining bright, lips parted, her braid and her patched jacket damp with sea mist; behind her over her shoulder, far out on the shining water, the great tail fluke of the whale lifts high and dark above the waves, framed against a golden sky; a fine mist of spray hangs glittering in the air around her; the light is golden and warm; it is the moment a whole life finds its picture; a single white gull feather clings to her damp sleeve; a strand of loose hair blows across her cheek in the sea wind, and the wet black rocks behind her shine in the low sun",
+   "motion": "the fine glittering mist of sea spray drifts slowly through the golden air around the girl, and that drifting mist is the one movement in the shot: at the start a haze of tiny glittering beads of spray hangs around her; over the whole five seconds it drifts gently across the frame on the sea wind, catching the light, while far behind her the whale's lifted tail fluke sinks slowly down into the waves, and her shining eyes stay fixed on the camera without moving; her face, her braid, her jacket and the gull feather on her sleeve stay still; the golden sky holds unchanged; the loose strand of hair across her cheek stirs only a little and the wet rocks behind her stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close medium shot at her face height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "geumbok",
+    "pyeongdae"
+   ],
+   "refs": [],
+   "beat": "맨몸으로 시작해 평대의 이름난 사업가가 된 금복",
+   "visual": "a sunny morning on the unpaved dusty main street of packed earth in the small Korean country town of the nineteen-sixties: the bold self-made businesswoman stands at frame centre facing the camera in the middle of the street in her smart fitted ivory coat, her glossy permed black hair shining, her striking confident face lifted with a proud satisfied smile, one gloved hand resting on her hip; behind her a row of low two-storey shopfronts with plain blank boards over their doors, wooden telegraph poles and a parked ox cart line the street; townsfolk in the distance pause to look her way; the rice paddies and low hills shine beyond the town; the light is bright and busy, the town that she has taken in hand; a small black bicycle leans against a telegraph pole; a small wooden handcart piled with sacks waits at the edge of the street, and striped cloth awnings shade two of the shop doors",
+   "motion": "the bold businesswoman's proud smile widens slowly, and that widening smile is the one movement in the shot: at the start she stands with her hand on her hip and a satisfied half smile; over the whole five seconds her smile broadens and her sharp eyes drift along the street of shopfronts with open pride while her body keeps facing the camera, the hem of her ivory coat stirring a little in the morning breeze; the shopfronts, the telegraph poles, the ox cart, the bicycle and the distant townsfolk stay completely still; the bright morning light holds steady; the handcart piled with sacks and the striped awnings over the shop doors stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "brickworks"
+   ],
+   "refs": [],
+   "beat": "평대의 벽돌공장에서 끝없이 구워져 나오는 벽돌",
+   "visual": "a hazy summer afternoon at the country brick factory, with no figures anywhere: a long low brick kiln stretches across the frame with a row of arched firing mouths glowing deep orange from the fires inside; a tall square chimney rises from its middle, pouring a slow column of grey smoke into the pale sky; in the foreground on the bare earth yard endless neat rows of freshly moulded bricks stand drying in the sun, dull red-brown and stacked in open lattices; open wooden sheds roofed with tin shelter more stacks; heat shimmers above the kiln; the scene is hot, patient and enormous, a place that makes the town; wheelbarrows rest beside the drying rows; a long wooden ladder lies flat on the ground along the side of the kiln, and a heap of split firewood is stacked high beside the nearest firing mouth",
+   "motion": "the slow column of grey smoke pours from the tall chimney and drifts across the sky, and that smoke is the one movement in the shot: at the start the smoke rises straight from the chimney top; over the whole five seconds it billows slowly upward and leans with the wind, while the heat shimmer above the long kiln wavers and the glow inside the arched firing mouths pulses softly; the rows of drying bricks, the stacked lattices, the tin-roofed sheds and the wheelbarrows stay completely still; the hazy sky holds unchanged; the wooden ladder lying on the ground by the kiln and the heap of split firewood beside the firing mouth stay completely still in the heat; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the kiln and the drying yard, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "chunhee_child",
+    "brickworks"
+   ],
+   "refs": [],
+   "beat": "금복의 딸, 말이 없는 아이 춘희",
+   "visual": "evening at the country brick factory: the very large, sturdy, quiet girl sits alone on a low stack of dull red-brown bricks at frame centre facing the camera, her big hands resting on her knees, her calm wide-set dark eyes gazing steadily at the glowing arched mouth of the long kiln at frame right, the orange firelight warm on her round face; she sits perfectly still and silent, wholly absorbed; behind her rows of drying bricks stretch away across the yard into the blue dusk, and the tall chimney rises dark against the evening sky; a stray dog lies curled near her feet; the scene is quiet and tender, a child who speaks with her eyes; a few fireflies drift above the drying rows; a small tin cup of water stands on the bricks beside her, and a pair of worn work gloves lies folded on the stack",
+   "motion": "the orange firelight from the kiln mouth flickers across the girl's face, and that flickering light is the one movement in the shot: at the start the warm glow lies steady on her cheek; over the whole five seconds it wavers and pulses softly as the fire breathes inside the kiln, moving warm light and shadow over her round face and big hands, while she sits perfectly still on the stack of bricks with her calm eyes on the fire; the rows of drying bricks, the dark chimney and the curled dog stay completely still; a few fireflies drift slowly above the rows; the tin cup of water and the folded work gloves on the bricks beside her stay still in the firelight; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "chunhee",
+    "ruined_works"
+   ],
+   "refs": [],
+   "beat": "세월이 흘러, 폐허가 된 벽돌공장으로 홀로 돌아온 춘희",
+   "visual": "a grey windy afternoon at the abandoned country brick factory: the very large, strong, silent young woman walks slowly toward the camera at frame centre along an overgrown path through tall swaying weeds, a small cloth bundle in one big hand, her calm smooth round young face taking in the ruin with steady wide-set eyes; behind her the long cold kiln is cracked and dark, its arched mouths empty, and the tall chimney stands broken off halfway up against a heavy grey sky; the open sheds sag with holes in their tin roofs; broken bricks lie scattered in the weeds; crows sit on the broken chimney; the scene is desolate and quietly enduring, a homecoming to nothing; a rusted wheelbarrow lies on its side among the weeds; a rusted iron gate hangs open at the edge of the yard",
+   "motion": "the woman walks slowly forward along the overgrown path through the weeds, and that slow walk is the one movement in the shot: at the start she is a little way back on the path; over the whole five seconds she takes a few heavy steady steps toward the camera, the tall weeds swaying around her legs in the wind, the cloth bundle hanging from her hand, her steady eyes moving over the ruin while her body keeps facing the camera; the cracked kiln, the broken chimney, the sagging sheds, the rusted wheelbarrow and the crows on the chimney stay completely still; the heavy grey sky holds unchanged; the rusted gate standing open at the yard's edge stays still, and the scattered broken bricks in the weeds stay exactly where they lie; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot along the path at her eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "chunhee",
+    "ruined_works"
+   ],
+   "refs": [],
+   "beat": "그곳에서 묵묵히 벽돌을 굽기 시작하는 춘희",
+   "visual": "a still early morning in a cleared corner of the abandoned brick factory: the very large, strong, silent young woman kneels at frame centre facing the camera beside a wooden brick mould on a plank, pressing wet clay firmly into the mould with both big hands, her sleeves rolled up and her forearms grey with clay, her calm round face bent over the work with total patience; in front of her a short neat row of new bricks, freshly turned out of the mould, stands drying on the plank; behind her a heap of dug clay, a bucket of water and the cracked mouth of the old kiln, cleared of weeds; pale morning light falls across the yard; the scene is humble, silent and steady, a life rebuilt one brick at a time; a single wildflower grows from a crack in the old wall beside her; a coil of straw for packing the kiln lies beside the clay heap, and a small wooden spade lies flat on the ground by the cleared kiln wall",
+   "motion": "the woman presses the wet clay down into the wooden mould with both hands, and that pressing is the one movement in the shot: at the start her big hands rest on the heaped clay in the mould; over the whole five seconds she pushes it down slowly and firmly into the corners, then smooths the top flat with the side of her palm, her face calm and bent over the work while her kneeling body stays in place; the row of drying bricks, the heap of clay, the bucket of water, the cracked kiln mouth and the wildflower in the wall stay completely still; the pale morning light holds steady; the coil of straw beside the clay heap and the spade lying on the ground by the kiln wall stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at her kneeling eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "chunhee",
+    "ruined_works"
+   ],
+   "refs": [],
+   "beat": "훗날 세상에 알려진, 붉은 벽돌을 빚은 여자 벽돌공",
+   "visual": "sunset at the brick factory yard, long after: the very large, strong, silent young woman stands at frame centre seen from behind, her broad shoulders and roughly cut hair dark against the sky, looking out over row upon row of finished bricks that fill the whole yard before her, stacked in tall neat piles and long walls that glow dull red-gold in the low sun; the old kiln behind the rows now breathes a soft orange glow from one arched mouth, and thin smoke rises from the broken chimney; the sky burns amber and violet; the rows of bricks run away toward the low hills; the scene is grand and silent, the quiet work of years made visible; her big clay-grey hands hang loose at her sides; a few faint pinpoints of early starlight show in the violet sky above the hills, and long shadows of the brick piles stretch across the yard toward her",
+   "motion": "the low sunset light slides slowly across the rows of finished bricks, and that moving light is the one movement in the shot: at the start the warm light lies on the nearest piles of bricks; over the whole five seconds it spreads gently along the long walls of bricks toward the hills, each row glowing red-gold in turn, while a thin line of smoke rises slowly from the broken chimney; the woman stands perfectly still with her back to the camera and her hands at her sides; the stacked bricks, the old kiln and the low hills stay completely still; the faint early starlight above the hills stays still and the long shadows of the brick piles lie motionless across the yard; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot from behind her across the yard, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "harbour",
+    "pyeongdae",
+    "brickworks"
+   ],
+   "refs": [],
+   "beat": "부두와 평대, 벽돌 굽는 공장을 넘나드는 이야기꾼의 입담",
+   "visual": "a deep blue dusk over the old Korean countryside, a storybook panorama with no figures anywhere: in the foreground at frame left the wooden piers of the fishing harbour stand dark against the sea, a few lantern-lit boats moored along them; in the middle the little country town glows with warm lit windows along its main street and its wooden telegraph poles; at frame right on the edge of the town the long brick kiln glows orange from its arched mouths beneath the tall square chimney; a pale unpaved cart road links all three across the dim paddies; far out on the darkening sea a pale whale spout rises once against the last light; the scene is busy, warm and full of tales; a thin crescent moon sits over the hills; a thin line of smoke rises from a low thatched cottage on the plain, and a small ferry lantern glows at the end of the longest pier",
+   "motion": "the warm lights of the town and the glow of the kiln flicker softly in the blue dusk, and that soft flickering is the one movement in the shot: at the start the windows of the town and the kiln mouths glow steadily; over the whole five seconds their warm light wavers gently, the kiln glow pulsing and a few town windows brightening, while far out on the sea the pale whale spout slowly settles and fades; the harbour piers, the moored boats, the telegraph poles, the road, the chimney and the crescent moon stay completely still; the thin line of smoke from the thatched cottage rises straight and slow and the ferry lantern at the end of the pier keeps its glow; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds an extreme wide view of the whole countryside at dusk, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "harbour"
+   ],
+   "refs": [],
+   "beat": "이야기꾼의 첫 장편, 2023년 인터내셔널 부커상 최종 후보",
+   "visual": "a vast clear dawn over the open sea beyond the old harbour, with no figures anywhere: at frame centre a great blue whale breaches from the calm water, its enormous dark body arching half out of the sea, its long pale throat grooves catching the first sunlight, cascades of white water pouring from its flanks; behind it the sun lifts over the horizon and lays a wide path of gold across the sea; far off at frame left the dark piers and little boats of the harbour sit small on the shore; gulls wheel around the whale; the moment is enormous and triumphant, the sea's greatest creature in all its power; a long line of white foam curls in the whale's wake; a small flock of terns skims low over the water near the whale, and a band of thin pale haze lies along the horizon",
+   "motion": "the great whale rises slowly out of the sea in its breach, and that rising is the one movement in the shot: at the start its head and shoulders are just lifting from the water; over the whole five seconds its vast body arches slowly higher out of the sea, sheets of white water streaming down its flanks and catching the gold dawn light, staying in the middle of the frame the whole time; the far harbour, the little boats, the horizon and the rising sun stay completely still; the gulls glide in place around the whale; the terns skimming near the whale hold their places low over the water and the pale haze on the horizon stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the whale and the dawn sea, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "harbour"
+   ],
+   "refs": [],
+   "beat": "고래처럼 거대한 이야기꾼의 세계, 끝까지 따라가 볼까",
+   "visual": "golden sunset on the open sea beyond the old harbour, with no figures anywhere: at frame centre the great tail fluke of a diving whale lifts high and dark above the shining water, water streaming in glittering sheets from its trailing edge, outlined against a huge low sun; the sea all around burns amber and gold; far off the harbour piers and moored boats stand as small dark shapes along the shore; a few gulls drift above the waves; the scene is vast and inviting, a whole world sliding down into the deep to be followed; a ring of white foam spreads where the whale is diving; a long band of thin haze glows rose and gold across the sky, and the low sun lays a wide burning path across the water",
+   "motion": "the whale's great tail fluke sinks slowly down into the shining sea, and that sinking tail is the one movement in the shot: at the start the fluke stands high and dark above the water; over the whole five seconds it lowers slowly and smoothly into the waves, streams of glittering water running from its edge, until only its tips remain above the surface inside a spreading ring of foam; the low sun, the amber sea, the far harbour piers and the moored boats stay completely still; the gulls drift in place above the waves; the band of glowing haze across the sky stays still and the burning path of sunlight on the water holds its place; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the sea at the waterline, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "ruined_works"
+   ],
+   "refs": [],
+   "beat": "마무리 — 벽돌공장 굴뚝 위로 밝아 오는 새벽",
+   "visual": "a quiet closing still of the abandoned country brick factory at dawn, with no figures anywhere: the tall broken chimney rises at frame centre against a pale gold sky, a thin line of morning mist around its base; below it the old kiln's arched mouths stand dark and the tall weeds of the yard are silver with dew; in the foreground a single short row of handmade bricks stands drying on a plank beside a wooden mould and a bucket; wildflowers bloom among the scattered broken bricks; birds wheel around the chimney top; the scene is calm, worn and full of quiet endurance, the morning after a long tale; a faint glow of embers lingers in one kiln mouth; a thin curl of morning smoke rises from a low thatched cottage beyond the weeds, and dew beads shine along the edge of the wooden plank",
+   "motion": "the morning mist drifts slowly around the base of the broken chimney, and that drifting mist is the one movement in the shot: at the start a thin band of mist lies along the foot of the kiln; over the whole five seconds it curls and drifts gently across the yard, thinning in the first sunlight, while the faint embers in one kiln mouth glow softly; the broken chimney, the dark kiln mouths, the dewy weeds, the row of drying bricks, the wooden mould and the bucket stay completely still; the birds wheel in place around the chimney top; the curl of morning smoke beyond the weeds rises straight and slow and the dew on the edge of the plank stays in place; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the chimney and the yard, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

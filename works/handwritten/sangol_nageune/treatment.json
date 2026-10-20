@@ -1,60 +1,206 @@
 {
-  "logline": "홀어미가 낯선 여인을 아들의 아내로 맞이했으나, 새벽에 남긴 물건 하나를 보며 사건의 본질을 의심하게 된다.",
-  "destination": "베개 밑에 남은 은비녀 — 도둑질을 넘어선 사연의 증거",
-  "protagonist": "홀어미",
-  "setting": "1930년대 산골의 술집 안방과 마당",
-  "anchor": "A middle-aged Korean woman with a weary face, wearing a simple dark hanbok, in a rustic wooden",
-  "palette": "Cold blue moonlight, dim yellow oil lamp glow, high contrast shadows, muted earth tones.",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "홀어미가 마당에 떨어진 나그네의 부채를 주워 안으로 들어간다.",
-      "visual": "An elderly woman picks up a dropped folding fan from the dirt courtyard and steps into the dark doorway.",
-      "motion": "Hand reaches down, fan moves up toward the camera."
-    },
-    {
-      "n": 2,
-      "beat": "술집 안주인 자리에서 홀어미가 나그네에게 술잔을 채워준다.",
-      "visual": "The woman pours rice wine into a small bowl held by a young stranger at the low wooden table.",
-      "motion": "Sake bottle tilts, liquid flows down into the bowl."
-    },
-    {
-      "n": 3,
-      "beat": "홀어미가 아들 덕돌과 나그네를 마주 보게 하며 고개를 끄덕인다.",
-      "visual": "The woman gestures for her son to look at the stranger, nudging the two together in the dim light.",
-      "motion": "Head nods affirmatively, eyes shift from left to right."
-    },
-    {
-      "n": 4,
-      "beat": "새벽, 홀어미가 소리를 듣고 안방 문을 열며 안으로 들어선다.",
-      "visual": "The woman bursts open the heavy wooden door of the bedroom, holding a lantern, her face tense.",
-      "motion": "Door swings inward, woman moves forward into the room."
-    },
-    {
-      "n": 5,
-      "beat": "홀어미가 이불만 남은 빈 자리를 확인한다.",
-      "visual": "an older woman at a doorway staring at an empty sleeping mat, blanket thrown aside, lamp low",
-      "motion": "the blanket edge settles, her hand grips the doorframe, the lamp flame dips"
-    },
-    {
-      "n": 6,
-      "beat": "홀어미가 베개 아래에서 은비녀 하나를 꺼내 손에 쥔다.",
-      "visual": "The woman's hand digs into the pillow and pulls out a single silver hairpin, gripping it tightly.",
-      "motion": "Hand moves under pillow, silver object rises into the light."
-    },
-    {
-      "n": 7,
-      "beat": "홀어미가 비녀를 보며, 그 여인이 정말 도둑이었을까를 묻는다.",
-      "visual": "Close up on the woman's eyes staring at the silver pin, her expression shifting from anger to confusion.",
-      "motion": "Eyes narrow, gaze fixed on the object in hand."
-    },
-    {
-      "n": 8,
-      "beat": "안방 마루 한가운데에 은비녀 하나만 놓여 있다.",
-      "visual": "A single silver hairpin lies on the polished wooden floor of the empty room, illuminated by faint moonlight.",
-      "motion": "Static shot, dust particles drift in the air.",
-      "anchor": false
-    }
-  ],
-  "withheld": "나그네는 원래 남편이 있었고, 옷을 가져다주기 위해 도둑질을 했으나 자신의 비녀는 훔치지 않았다."
+ "logline": "홀어미가 낯선 여인을 아들의 아내로 맞았으나, 어느 밤 옷과 함께 사라진 그 여인이 은비녀 하나만 두고 간 까닭을 묻는다",
+ "destination": "소설 산골 나그네에서 만날 수 있습니다",
+ "protagonist": "widow",
+ "setting": "1930년대 산골 개울가 주막의 술청과 안방, 물레방앗간 가는 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/sangol_nageune/assets",
+ "anchor": "a sturdy Korean tavern keeper of fifty in a white jeogori, dark grey skirt and coarse apron, greying hair in a bun",
+ "palette": "pale blue, off-white, dark brown, ash grey, dull yellow",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "widow",
+    "deokdol",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아들의 혼처를 못 구해 애타는 홀어미",
+   "visual": "the small earthen yard of the mountain tavern in soft daylight: the sturdy tavern keeper with the lined face and the wooden pin in her greying bun is the one standing at the brushwood gate at frame left with one rough hand shading her shrewd eyes as she looks down the road, her coarse apron over the dark grey skirt; the big simple young man in the grey headband is the one at frame right beside the persimmon tree splitting firewood with an axe raised over his shoulder, his round sunburnt face slack and his hemp sleeves rolled; the stone well between them, the straw mat on the ground and the thatched eaves of the tavern above; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "the big simple young man splitting wood in the tavern yard is the one who moves, and the woman at the gate only holds: at the start his axe is raised over the log on the chopping block with his round face set; over the first two seconds the raised axe comes slowly down onto the log and stays buried in the split wood, the two halves leaning apart and a few chips lifting from the block, his round face not changing under the grey headband; in the last two seconds his hands rest on the axe handle and his shoulders settle; the sturdy tavern keeper with the wooden pin in her greying bun stands at the brushwood gate with one rough hand shading her shrewd eyes and keeps her eyes on the empty road, her feet not shifting; the stone well, the tree, the thatched eaves and the soft daylight hold completely still; no new figures or animals appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "wanderer",
+    "tavern",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "주막 문간에 들어선 낯선 나그네",
+   "visual": "the raised wooden floor of the mountain tavern at grey-blue evening seen from inside: the young woman with the pale oval face is the one standing in the brushwood gate at the center of the frame with her small cloth bundle held in both hands against her worn white jeogori, her faded dark blue skirt dusty at the hem, her tired dark eyes lowered and her lips chapped; the dull yellow glow from the paper doors at the left falls across the earthen yard to her straw sandals; the dark earthen earthen jars of liquor stand along the mud wall at the right and the stream can be seen dim beyond the gate",
+   "motion": "the young woman with the pale oval face standing in the brushwood gate is the only one who moves: at the start she stands in the gate with her small cloth bundle held in both hands against her chest and her eyes lowered; over the first two seconds she takes one slow step in through the gate onto the earth of the yard and stops again with the bundle held tight against her chest, her lowered eyes lifting by a degree toward the glowing paper doors and her worn white jeogori not stirring; in the last two seconds she stands still just inside the gate; the earthen jars along the mud wall, the raised wooden floor, the glowing doors and the grey-blue evening yard hold completely still; no new figures or animals appear; camera drifting very slowly forward toward her, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "wanderer",
+    "guests",
+    "tavern",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "술손님들이 눈을 떼지 못하는 나그네",
+   "visual": "the raised wooden floor of the tavern at evening: the young woman with the pale oval face is the one kneeling at the center pouring milky rice liquor from an earthen jug into a wooden bowl on a low table, her worn white jeogori and faded skirt gathered and her eyes lowered on the pouring; the three peasant men in hemp jackets and headbands are the ones seated around the low table at the left and right with their flushed faces all turned toward her and their own bowls forgotten in their hands; the dark earthen jars of liquor along the mud wall behind and the paper doors glowing dull yellow",
+   "motion": "the young woman kneeling on the raised wooden floor is the only one who moves, and only her pouring hands: at the start the earthen jug is tilted in her hands above the wooden bowl on the low table; over the first two seconds the jug tips slowly further and the milky rice liquor streams into the bowl until it brims, a little running over the rim onto the table, her lowered eyes never lifting from the bowl and her worn white jeogori sleeves drawn back; in the last two seconds the jug rights in her hands and she sets it down beside the bowl; the three men seated around the table keep their turned faces fixed on her and their own bowls hang still in their hands; the earthen jars along the wall, the mud wall and the open doors hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "widow",
+    "wanderer",
+    "tavern",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "나그네를 딸처럼 거두는 홀어미",
+   "visual": "beside the earthen earthen jars of liquor along the mud wall of the tavern in soft daylight: the sturdy tavern keeper with the lined face is the one standing behind the young woman at frame left with both rough hands tying the strings of a coarse apron around the young woman's waist, her shrewd eyes softened; the young woman with the pale oval face is the one standing at the center with her arms lifted a little from her sides to let the apron be tied, her tired eyes lowered and a small uncertain curve at her chapped lips; the raised wooden floor and the low tables behind, the paper doors open on the yard; the tavern keeper tying the apron is a woman of about fifty, the sturdy widow with a lined face, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt; both people in the picture are women",
+   "motion": "the sturdy tavern keeper's rough hands at the young woman's back are what move, and then the young woman's arms: at the start the older woman's hands hold the two strings of the coarse apron at the young woman's back with the young woman's arms lifted out to her sides; over the first two seconds the hands draw the apron strings slowly into a knot at the small of the young woman's back and pat it twice, the older woman's lined face bent to the work, while the young woman's lifted arms lower slowly to her sides; in the last two seconds the knot holds and both women stand still; the earthen jars of liquor along the mud wall, the low tables and the open doors hold completely still in the soft daylight; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "widow",
+    "wanderer",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "우리 덕돌이 어떠냐 — 넌지시 묻는 홀어미",
+   "visual": "a close view on the tavern floor: the sturdy tavern keeper's lined weathered face fills the left half of the frame leaning in close with one rough hand cupped beside her mouth, her shrewd small eyes bright and her lips parted in a whisper, the wooden pin in her greying bun; the young woman's pale oval face fills the right half in profile with her ear turned toward the whisper, her tired dark eyes lowered and her chapped lips pressed together; the dark earthen jars of liquor blur behind them in the dim light; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "only the sturdy tavern keeper's cupped hand and lips move in this close view: at the start her lined weathered face leans close with one rough hand cupped beside her mouth, her shrewd small eyes bright and her lips parted in a whisper; over the first two seconds the cupped hand presses closer to her mouth and her whispering lips move on through the words, her bright eyes creasing at the corners and the wooden pin in her greying bun catching the light; in the last two seconds her lips close and the hand stays cupped; the young woman's lowered eyes at the right edge of the frame stay lowered and her pressed lips do not open, her pale cheek not moving; the earthen jars behind hold their blur; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "wanderer",
+    "widow",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "침묵을 승낙으로 듣는 홀어미",
+   "visual": "the small earthen yard in soft daylight: the young woman with the pale oval face is the one seated on the edge of the raised wooden floor at frame left with her head bowed so low that only the black bun and the top of her brow show, her thin hands folded tight in her lap over the coarse apron; the sturdy tavern keeper is the one standing before her on the earthen yard at frame right with her hands on her hips and her lined face nodding, her shrewd eyes satisfied; the stone well, the persimmon tree and the brushwood gate behind them; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "the sturdy tavern keeper standing in the yard is the one who moves, and only her head and hands: at the start her head is nodding with her rough hands on her hips and her lined face bright; over the first two seconds her nodding head slows and stops and her hands leave her hips to clap together once and stay clasped before her chest, her lined face creasing into a wide smile; in the last two seconds she stands with her hands clasped and the smile fixed; the young woman seated on the edge of the raised wooden floor keeps her head bowed so low that only her black bun and brow show, her folded thin hands tightening in her lap; the stone well, the tree, the brushwood gate and the soft daylight hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "deokdol",
+    "wanderer",
+    "widow",
+    "yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "마당에서 올린 조촐한 혼례",
+   "visual": "the small earthen yard of the tavern under a mild sky: a low wooden table with two small brass cups and a bowl of fruit stands on the straw mat at the center, and the big simple young man in a clean off-white hemp jacket and grey headband is the one standing at frame left of the table with his round sunburnt face split by a slow open grin and his thick hands at his sides; the young woman with the pale oval face is the one standing at frame right of the table in a clean white jeogori with her eyes lowered and her hands folded; the sturdy tavern keeper is the one standing behind the table at the center with her lined face beaming; the well, the persimmon tree and the thatched eaves around them; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "the big simple young man in the clean off-white hemp jacket and grey headband standing at the wedding table is the one who moves most: at the start his round face wears a grin and his thick hands hang at his sides; over the first two seconds his grin widens slowly until his eyes crease and his thick hands lift a little from his sides with the fingers spreading, his shoulders rising with a breath; in the last two seconds his hands hold lifted and the grin holds; the young woman standing across the low table keeps her eyes lowered and her hands folded at her waist, her worn jeogori not stirring; the sturdy tavern keeper beside them tips her beaming face slowly up toward the mild sky and holds; the low wooden table with its two small brass cups and bowl of fruit, the straw mat and the tree hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "deokdol",
+    "silk_clothes",
+    "wanderer",
+    "inner_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "새 각시에게 지어 입힌 비단옷",
+   "visual": "the inner room of the tavern at evening: the big simple young man in the grey headband is the one kneeling at frame left holding out the folded set of new pale blue silk clothes tied with a white cord in both thick hands, his round face shy and his small eyes on the young woman; the young woman with the pale oval face is the one kneeling at frame right with her hands half raised toward the silk and her tired eyes for once lifted and wide on it, her chapped lips parted; the grey plaster walls, the wooden peg row on the wall behind them and the small paper window glowing dull yellow",
+   "motion": "the big simple young man's thick hands carrying the folded silk clothes are what move: at the start the folded set of new pale blue silk clothes tied with a white cord is held out in both his hands with his round face shy, and the young woman's hands are half raised toward it; over the first two seconds his hands carry the folded silk slowly across the space between them into her half-raised hands and let go, drawing back to his knees, his shy smile widening; in the last two seconds her fingers close slowly on the pale blue silk and her wide eyes stay on it, her face not lifting to him; the mud walls, the row of wooden pegs and the paper window in the evening light hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "widow",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "다급한 부름에 잠을 깬 홀어미",
+   "visual": "the inner room at night: the sturdy tavern keeper is the one sitting bolt upright on her quilt on the oiled paper floor at the center with the greying hair loose from its pin down her back, her lined face turned sharply toward the paper door at frame right and one rough hand pressed behind her ear, her small eyes wide in the dark; a thin blue light from the small paper window at the left outlines her white jeogori; the wooden peg row and the grey plaster wall behind her, the folded quilt of her son's bed empty beside her; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "the sturdy tavern keeper sitting bolt upright on her quilt is the only one who moves: at the start she sits upright with her greying hair loose down her back and one hand behind her ear, her lined face turned sharply toward the paper door; over the first two seconds her upright body leans slowly toward the door and the hand behind her ear presses closer, her wide eyes narrowing to listen and the loose hair sliding on her shoulder; in the last two seconds she holds leaning and still with her breath held; the paper door does not slide; the small paper window, the row of wooden pegs and the empty quilt beside hers hold completely still in the dark; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "deokdol",
+    "widow",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "옷을 벗긴 채 남은 덕돌",
+   "visual": "the inner room at night lit by thin moonlight through the paper door: the big simple young man is the one sitting on the oiled paper floor at the center in only a white cotton undershirt and loose white under-trousers, his headband gone and his cropped hair tousled, his round sunburnt face slack with his mouth hanging open and his thick hands turned up empty on his knees; the sturdy tavern keeper is the one standing in the open paper door at frame right with her loose greying hair and her hand on the door frame, her lined face stricken; the wooden peg row on the wall behind the young man stands bare and the folded quilt lies kicked aside; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "the big simple young man sitting on the moonlit floor in only his white undershirt and under-trousers is the one who moves, and only his mouth and hands: at the start his mouth hangs open and his empty hands rest on his knees with his cropped head bare; over the first two seconds his open mouth closes slowly and opens again without a word and his empty hands turn over on his knees palm up, his shoulders sagging; in the last two seconds he sits with his hands open and his mouth open; the sturdy tavern keeper in the doorway stays frozen with her hand on the door frame and her loose hair down her back; the bare wooden pegs on the wall, the kicked-aside quilt and the thin moonlight on the oiled paper floor hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "deokdol",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "비단옷도 함께 사라진 밤",
+   "visual": "a close view in the moonlit inner room: the wooden peg row on the grey plaster wall fills the upper half of the frame with every peg bare, and the big simple young man's thick hand reaches up into the center of the frame from below and rests flat against the wall beneath the empty pegs, the white cotton sleeve of his undershirt at the wrist; below the hand the top of his tousled cropped head is bowed against the wall; thin blue moonlight from the paper door lies across the plaster; the young man's round face is slack with grief, his mouth pulled down at the corners, his brows drawn together and his eyes wet, his head bowed against his raised arm; he wears only the white cotton undershirt and loose white under-trousers of the night before",
+   "motion": "only the big simple young man's thick hand and bowed head move in this close view of the bare peg row: at the start his hand rests flat against the grey plaster wall beneath the empty wooden pegs; over the first two seconds the flat hand slides slowly down the plaster beneath the bare pegs until it rests on the floor, the fingers dragging, and his bowed head at the lower edge of the frame sinks lower against the wall; in the last two seconds the hand lies still on the floor and his head rests against the plaster; the row of bare wooden pegs, the grey plaster wall and the thin blue moonlight hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "widow",
+    "hairpin",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "베개 밑에 남은 은비녀",
+   "visual": "the inner room at night: the sturdy tavern keeper is the one on her knees at the center bent over the wooden pillow at the head of the kicked-aside quilt, one rough hand lifting the wooden pillow up on its edge and her lined face bent close to the floor beneath it, her loose greying hair falling forward; on the oiled paper floor where the pillow lay, the plain silver hairpin gleams small and thin in the moonlight from the paper door; the grey plaster wall and the bare peg row behind her; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "the sturdy tavern keeper on her knees at the head of the kicked-aside quilt is the only one who moves: at the start one rough hand lifts the wooden pillow up on its edge and her lined face is bent close to the floor beneath it; over the first two seconds the hand lifts the wooden pillow slowly higher on its edge and her other hand reaches down and closes around the small silver hairpin lying on the oiled paper floor, her bent face coming closer to it and her loose greying hair sliding forward; in the last two seconds the pillow rests on its edge and the closed hand lifts the hairpin a little into the moonlight; the grey plaster wall, the bare pegs and the quilt hold completely still; no new figures appear; camera drifting very slowly forward toward her hands, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "widow",
+    "hairpin",
+    "inner_room",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "은비녀만은 두고 간 까닭",
+   "visual": "a close view in the moonlit room: the sturdy tavern keeper's open hand fills the lower center of the frame with the plain silver hairpin lying across it, small and thin, the rounded head catching the thin blue light; above the hand her lined weathered face is bent close with her shrewd small eyes narrowed in puzzlement and her lips pressed, the loose greying hair hanging at her cheeks; the grey plaster wall behind falls into shadow; the tavern keeper is a woman of about fifty, the sturdy widow with a lined face, a smooth bare upper lip, her greying hair in a low bun held by a wooden pin, wearing a white cotton jeogori and a dark grey skirt",
+   "motion": "only the sturdy tavern keeper's thumb and eyes move in this close view: at the start her open rough hand holds the plain silver hairpin lying across the palm with its rounded head in the thin blue light and her lined face bent above it; over the first two seconds her thumb rolls the silver hairpin slowly once across her palm and stops, the thin light sliding along the pin, her narrowed puzzled eyes fixed on it and her brows drawing together; in the last two seconds the pin lies still and her eyes hold on it; the loose greying hair at her cheeks does not stir; the grey plaster wall behind holds its shadow; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "wanderer",
+    "silk_clothes",
+    "stream_path",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "새벽 물레방앗간으로 달려가는 나그네",
+   "visual": "the footpath along the rocky stream at cold grey dawn: the young woman with the pale oval face is the one running away from the camera along the path at the center with the folded pale blue silk clothes clutched against her chest in both arms, her faded dark blue skirt gathered in one hand and her black bun coming loose without its pin, the back of her head held straight ahead; the alders along the bank stand dark in the mist and further down the stream at the upper right the old watermill shed of dark timber with its still wooden wheel waits with its door ajar; a thin pale light on the water",
+   "motion": "the young woman with the pale oval face running away along the stream path is the only one who moves: at the start she is mid-stride at the center with the folded pale blue silk clothes clutched against her chest in both arms and her loose black hair swinging; over the first three seconds she runs on along the path away from the camera toward the dark watermill with the silk clothes held tight and her loose hair swinging behind her, her faded skirt whipping at her ankles and her head held straight ahead, never turning; the alders along the bank, the rocky stream, the watermill shed ahead and the cold grey dawn sky hold completely still; the stream water slides slowly over the rocks; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "stream_path",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽의 물레방앗간",
+   "visual": "the old watermill shed of dark timber beside the rocky stream at cold grey dawn, empty of every person: its still wooden wheel stands in the water with mist drifting through its paddles and its plank door hangs ajar on darkness, the alders along the bank are dark shapes in the mist and the shallow stream slides over pale stones in the foreground; the footpath runs empty along the bank to the door; a thin pale light grows on the water",
+   "motion": "nothing living moves at this old watermill at dawn; only the mist, the water and the light: at the start the still wooden wheel stands in the stream with mist drifting through its paddles and the plank door of the dark timber shed hangs ajar on darkness; over the whole shot the mist drifts slowly through the still paddles of the wheel and along the bank, the stream water slides over the rocks below the wheel, and the thin pale light on the water strengthens by a degree as the dawn comes up; the wheel itself does not turn; the shed, the ajar door, the alders along the bank and the grey sky hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward toward the door, no zoom"
+  }
+ ],
+ "withheld": "물레방앗간에 숨겨 둔 병든 남편, 그에게 옷을 입혀 함께 떠나는 결말"
 }

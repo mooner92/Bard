@@ -1,0 +1,183 @@
+{
+ "logline": "한 해의 마지막 밤, 성냥을 그을 때마다 난로·거위·트리·할머니를 본 맨발의 소녀",
+ "destination": "동화 성냥팔이 소녀에서 만날 수 있습니다",
+ "protagonist": "match_girl",
+ "setting": "안데르센의 겨울 도시 — 눈 오는 거리, 두 집 사이 모퉁이, 성냥 불빛 속 환영",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/seongnyangpari_sonyeo/assets",
+ "anchor": "a small thin girl of about seven, bareheaded, long fair curls, a ragged old apron over a thin grey dress, bare feet in the snow",
+ "palette": "snow blue-grey, window amber, matchstick gold, frost white, worn brown",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "refs": [],
+   "beat": "한 해의 마지막 밤, 눈 오는 거리의 맨발 소녀",
+   "visual": "the last evening of the year in the snowy street: the small girl walks alone down the middle of the cobbles between the tall old houses, bareheaded, the ragged apron heavy with little bundles of wooden matchsticks and one bundle clutched in her fist, her bare feet leaving small prints in the fresh snow; candle-lit windows climb the house fronts on both sides, thick flakes drift through the glow of the iron street lamp, and the snow between the houses lies smooth and white with only her small line of footprints crossing it",
+   "motion": "snow drifts steadily down through the lamp glow while she walks on toward the camera, her small bare feet pressing print after print into the white, the apron swinging heavy with matchsticks, candle windows flickering along the house fronts, and the camera holds low on the snowy cobbles as she comes"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "refs": [],
+   "beat": "마차를 피하다 잃은 큰 신발 한 짝",
+   "visual": "the wide street a moment after two carriages rushed past: their wheel tracks cut deep through the snow in long curved ruts, the last carriage's dark rear and swinging lantern shrinking away up the street; in the snow between the ruts lies one very large worn slipper on its side, and the small girl stands at the edge of the cobbles on her bare feet looking back at the single slipper, snow settling on her fair curls and on her small pale toes",
+   "motion": "the carriage lantern dwindles up the street through the falling snow while the girl takes one hesitant step toward the lone slipper and stops, curling her cold toes in the snow; flakes settle into the wheel ruts, and the camera stays on the big slipper and the small bare feet"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "refs": [],
+   "beat": "촛불 켜진 창 앞에서 팔리지 않는 성냥",
+   "visual": "a tall house front with a lit window at the small girl's eye level: inside, candle flames cluster on a dressed table and a roast goose steams on a dish among plates, warm amber pouring out through the glass onto the snow; the small girl stands outside on the pavement in the blue cold with her face turned up to the window, both hands holding out a bundle of wooden matchsticks toward the quiet street, snow gathering on her hair and shoulders, the snowy pavement stretching bare on both sides of her",
+   "motion": "the candle flames inside the window sway with the room's warmth while the girl's held-out bundle of matchsticks trembles in her cold fingers, her breath showing white; snow gathers on her shoulders as the street stays quiet, and the camera slowly pulls back from the warm window to the small girl outside"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "match_girl",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "두 집 사이 모퉁이에 웅크린 소녀",
+   "visual": "the sheltered corner where the two house walls meet: the small girl sits on the snowy cobbles with her back to the dark damp stone, knees drawn up, her bare feet pulled in tight under the ragged apron and her arms wrapped around her shins; snow drifts in at the corner's edge and settles on her hair, the candle windows of the street glow far off and small beyond her, and the bundle of wooden matchsticks lies in her lap",
+   "motion": "she hugs her knees tighter and tucks her bare feet deeper under the apron, shivering in small shudders, her breath showing white; snowflakes drift into the corner and settle on her shoulders, the far windows flickering, and the camera closes slowly on the huddled girl against the dark wall"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "match_girl",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "언 손을 녹이려 벽에 그은 성냥 한 개비",
+   "visual": "close on the corner wall: the small girl's cold stiff fingers hold one wooden matchstick against the dark stone and drag it down — a small bright flame springs up at its head, gold and steady, lighting her face from below and her cupped other hand held over the warmth; snow settles on her hair beyond the flame's circle, the wet stone glistens in the small light, and the rest of the bundle lies in her lap",
+   "motion": "the tiny flame steadies and grows at the matchstick head while she cups her other hand over it, her cold fingers spreading toward the warmth, her face lifting into the gold light from below; the wet stone glistens, snow drifting past beyond the small circle of light, and the camera holds close on the flame and the two small hands"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "match_girl",
+    "stove",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "첫 환영 — 놋쇠 발 달린 큰 난로",
+   "visual": "the first vision in the matchstick light: before the small girl, standing on the snowy cobbles of the corner, the big black iron stove with polished brass feet and a brass knob, its small door open on a bed of orange fire, gold light spilling across the snow to her bare feet; she sits against the dark wall with the lit matchstick in her raised hand, her face and hands turned toward the stove's heat, snow drifting at the edge of the light",
+   "motion": "the fire behind the stove door pulses brighter and its warmth lifts her hands open toward it, her bare feet sliding out from under the apron toward the brass feet; gold light spreads over the snow, the flame at her matchstick tip burning small and steady, and the camera holds on the stove and the girl reaching toward it"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "match_girl",
+    "goose",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "둘째 환영 — 칼과 포크 꽂힌 거위 구이가 걸어온다",
+   "visual": "the second vision: the corner wall lit gold where the second matchstick burns, and set upon the snow before the girl a table laid with a white cloth and porcelain — the golden-brown roast goose with a carving knife and fork upright in its breast has hopped down from its dish and waddles across the white cloth toward her on its short legs; the small girl leans forward from the wall with the lit matchstick raised, eyes wide, her other hand reaching, snow drifting outside the circle of light",
+   "motion": "the roast goose waddles step by step across the white cloth toward the girl, the knife and fork rocking in its breast, steam trailing behind it; her reaching hand opens wider and her eyes go wider still, the matchstick flame trembling, and the camera tracks with the goose toward the small girl"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "match_girl",
+    "tree",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "셋째 환영 — 촛불 수천 개의 크리스마스 트리",
+   "visual": "the third vision: above and around the small girl in the corner rises the huge Christmas tree, hundreds of small candles burning on its green branches and bright coloured pictures hanging among them on strings, its glow washing the dark stone walls green and gold; she kneels up on the snow with her arms stretched high toward the lowest candles, the third matchstick alight in her raised fist, snow drifting beyond the tree's light",
+   "motion": "the hundreds of candle flames sway together on the branches while the girl stretches her arms higher toward them, rising on her knees, the coloured pictures turning slowly on their strings; her matchstick flame burns small at her fist, and the camera tilts up the glowing tree from her reaching hands to its high candles"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "match_girl",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "촛불들이 별이 되고, 별 하나가 꼬리를 그으며 진다",
+   "visual": "the corner at night with the vision gone up: the small girl sits back against the dark wall with a burnt matchstick in her fingers, her face turned up — overhead the night sky between the roofs is thick with bright stars, and one star slides down the sky trailing a long line of gold light; snow drifts thin past the house walls, the far windows glow small, and the girl's upturned face catches the faint starlight",
+   "motion": "one bright star slides slowly down the sky drawing a long line of gold light behind it while the girl's upturned face follows it, her lips parting; snow drifts thin between the roofs, the stars holding steady above, and the camera drifts up from her face to the trailing star"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "match_girl",
+    "grandmother",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "넷째 환영 — 빛 속의 할머니",
+   "visual": "the fourth vision: the old grandmother stands tall in the matchstick light before the corner, radiant in her long pale gown and white shawl, silver hair shining, her mild lined face bent down toward the small girl with a look of love; the girl sits against the dark wall with the fourth matchstick alight in her raised hand, her face lifted in wonder, the gold light between them spilling over the snow",
+   "motion": "the grandmother's gentle face bends nearer in the gold light and her hands open slowly toward the child, her shawl stirring; the girl's raised matchstick flame trembles and her free hand lifts toward the grandmother, and the camera holds on the two faces across the small light"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "match_girl",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "할머니를 붙잡으려 다발을 통째로 긋는다",
+   "visual": "close on the wall as the whole bundle goes at once: the small girl's two hands drag the entire bundle of wooden matchsticks down the dark stone and a broad blaze of flame roars up from all the heads together, white-gold and dazzling, throwing her face into full bright light and her huge shadow across the snow; sparks stream upward past the wall, the snow at her feet flares white, and her eyes are fixed above the blaze on the light",
+   "motion": "the blaze of the whole bundle flares wider and brighter, sparks streaming upward past the wall, her face lifting into the white-gold light with her eyes fixed above it; her shadow leaps and steadies on the snow, and the camera pushes in through the sparks on her lit face"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "grandmother",
+    "match_girl"
+   ],
+   "refs": [],
+   "beat": "할머니가 소녀를 안고 높이 날아오른다",
+   "visual": "the flight, high in the night sky with only falling snow around them: the old grandmother rises upward through the flakes with the small girl carried in her two arms, the child's arms around the grandmother's neck and her bare feet dangling in the air, both wrapped in a great warm gold light; the grandmother's pale gown and white shawl stream downward, the child's fair curls rest against her shoulder, and far, far below the roofs of the town are tiny dark shapes with pinprick amber windows",
+   "motion": "the grandmother and the child rise steadily up through the falling snow inside their gold light, the shawl and gown streaming below them, the child's bare feet swinging gently in the air and her face pressed to the grandmother's shoulder; the tiny roofs dwindle far beneath, the stars brighten, and the camera rises with them into the wide night"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "match_girl",
+    "corner"
+   ],
+   "refs": [],
+   "beat": "새해 아침, 미소 띤 채 얼어붙은 소녀",
+   "visual": "the corner at the grey hour of dawn: the small girl sits leaning against the dark wall with her eyes closed and a faint smile on her lips, cheeks flushed pink, snow lying on her hair and shoulders and over her drawn-up knees, her two hands resting open and still in her lap; the spent matchsticks lie black and cold on the snow beside her bare feet, one whole bundle used up; pale dawn light comes down between the house walls, and the first thin snow of the new year settles on the stillness",
+   "motion": "the pale dawn light strengthens by slow degrees down the wall, fresh flakes settling on her hair and on the cold black matchsticks beside her feet, her closed face and faint smile holding still, her open hands still in her lap; the camera drifts slowly back from the small girl in the corner as the street lightens"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "match_girl",
+    "street"
+   ],
+   "refs": [],
+   "beat": "사람들은 소녀가 무엇을 보았는지 몰랐다",
+   "visual": "new year's morning in the street: two townspeople in dark winter coats and hats stand to the left of the corner and one to the right, all bent toward the small girl who sits still against the wall with her eyes closed and a faint smile, snow on her hair, the spent matchsticks lying black and cold on the snow around her bare feet; snow lies fresh on the cobbles, the tall houses stand pale in the daylight, and the townspeople's faces are sober and puzzled",
+   "motion": "the townspeople lean closer and one lifts a hand toward the cold black matchsticks, their breath showing white in the morning cold, while the girl's closed face keeps its faint smile; fresh snow settles on the cobbles between them, and the camera holds at a distance on the small group at the corner"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "corner"
+   ],
+   "refs": [],
+   "beat": "마무리 — 벽의 그을음과 타버린 다발 스틸",
+   "visual": "closing still at the corner in full morning: the dark stone wall marked with small black scorch streaks where the matchsticks were struck, the spent bundle lying black and cold in the snow at its foot with a few scattered stubs, fresh flakes settling over them, pale gold morning light coming down the wall; far up the street the tall houses stand quiet in the new year's daylight, and the small corner keeps its cold matchsticks and its silence",
+   "motion": "fresh snow settles slowly over the cold black matchsticks at the foot of the wall while the morning light warms by degrees down the scorched stone; the flakes soften the black stubs to grey, the quiet street holding still beyond, and the camera closes with great patience on the small spent bundle in the snow"
+  }
+ ],
+ "withheld": "소녀가 본 아름다운 것들을 아무도 몰랐다는 마지막 한 줄"
+}

@@ -1,102 +1,209 @@
 {
-  "logline": "고래를 잡으러 배에 오른 젊은 선원이, 선장이 마스트에 박은 금화 하나에서 이 항해의 진짜 목적을 본다.",
-  "destination": "마스트에 박힌 금화 — 흰 고래를 먼저 본 자에게 주어지는 것",
-  "protagonist": "처음 포경선에 오른 젊은 선원",
-  "setting": "19세기 중반 낸터킷 항구와 태평양 한복판의 포경선",
-  "anchor": "a young sailor in a rough wool coat and knit cap, wind-burned face",
-  "palette": "deep indigo sea, bone white, oil-lamp amber, cold sky grey",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "낸터킷 항구의 새벽, 젊은 선원이 부두에 선다.",
-      "visual": "a young sailor standing on a stone quay at dawn, tall masts crowded behind him, breath steaming",
-      "motion": "mist drifts off the water, ropes sway on the masts, gulls cut across"
-    },
-    {
-      "n": 2,
-      "beat": "밧줄과 기름통이 쌓인 부두를 지나간다.",
-      "visual": "coiled tarred rope and stacked oil casks along a wet quay, a sailor threading between them",
-      "motion": "he squeezes past the casks, a rope coil shifts, water drips from the stack"
-    },
-    {
-      "n": 3,
-      "beat": "낡은 포경선 갑판 위로 올라선다.",
-      "visual": "a young sailor stepping off a gangplank onto a scarred wooden deck, harpoons racked along the rail",
-      "motion": "the gangplank flexes under him, harpoon shafts rattle, the deck tilts"
-    },
-    {
-      "n": 4,
-      "beat": "선장이 못과 망치를 들고 나온다.",
-      "visual": "a tall grim captain crossing the deck with a hammer and a long nail, crew turning to watch",
-      "motion": "his coat snaps in the wind, the hammer swings at his side, heads turn"
-    },
-    {
-      "n": 5,
-      "beat": "금화 한 닢이 마스트에 박힌다.",
-      "visual": "a gold coin held against a mast as a hammer strikes it, splinters flying from the wood",
-      "motion": "the hammer strikes twice, splinters fly, the coin bites into the grain",
-      "anchor": false
-    },
-    {
-      "n": 6,
-      "beat": "선장이 선원들 앞에서 무언가를 선언한다.",
-      "visual": "a captain with one arm raised addressing a ring of sailors on deck, mast towering behind",
-      "motion": "his arm cuts the air, the ring of men presses inward, sails snap above"
-    },
-    {
-      "n": 7,
-      "beat": "선원들의 고개가 일제히 젖혀진다.",
-      "visual": "a ring of weathered faces tilted upward toward a coin nailed high on a mast, sails beyond",
-      "motion": "heads tilt back together, the coin glints as the ship rolls, ropes creak"
-    },
-    {
-      "n": 8,
-      "beat": "돛이 부풀며 배가 뭍을 떠난다.",
-      "visual": "canvas sails filling as a whaling ship pulls away from a low grey coastline, wake spreading",
-      "motion": "sails fill and snap taut, the wake widens, the coast shrinks behind",
-      "anchor": false
-    },
-    {
-      "n": 9,
-      "beat": "배는 몇 달이고 남쪽 바다를 지난다.",
-      "visual": "a whaling ship alone on vast open ocean under a huge sky, no land in any direction",
-      "motion": "the hull rides a long swell, spray bursts at the bow, clouds slide past",
-      "anchor": false
-    },
-    {
-      "n": 10,
-      "beat": "수평선에서 흰 물기둥이 솟구친다.",
-      "visual": "a tall white spout rising from dark sea at the horizon, a lookout pointing from the masthead",
-      "motion": "the spout climbs and drifts sideways, the lookout's arm shoots out, waves chop"
-    },
-    {
-      "n": 11,
-      "beat": "보트 세 척이 바다로 떨어진다.",
-      "visual": "three whaleboats dropping on ropes down a ship's side into heavy sea, oars swung out",
-      "motion": "boats drop jerkily on the falls, water surges up, oars swing outward",
-      "anchor": false
-    },
-    {
-      "n": 12,
-      "beat": "노가 멈추고 앞의 물살이 갈라진다.",
-      "visual": "oars held still above the water as a wide swell parts ahead of three small boats",
-      "motion": "oars lift and hold, the water parts in a long line, spray drifts",
-      "anchor": false
-    },
-    {
-      "n": 13,
-      "beat": "창백한 등을 마주한 그들에게 무엇이 남을까?",
-      "visual": "a sperm whale's blunt square white head and scarred back rising ahead of a small boat, men frozen at the oars",
-      "motion": "the blunt head pushes upward through the water toward the boat, the boat pitches back, spray hangs"
-    },
-    {
-      "n": 14,
-      "beat": "텅 빈 갑판에 금화만 남아 반짝인다.",
-      "visual": "an empty ship deck at dusk, a single gold coin still nailed to the bare mast, long shadows",
-      "motion": "the coin turns slightly as the ship rolls, light fades, rigging creaks",
-      "anchor": false
-    }
-  ],
-  "withheld": "배가 부서지고 단 한 사람만 살아남는 마지막",
-  "voice": "ko-KR-BongJinNeural"
+ "logline": "뭍을 떠나 포경선에 오른 젊은 선원이, 돛대에 박힌 금화 한 닢에서 이 항해의 진짜 목적을 본다",
+ "destination": "소설 모비딕에서 만날 수 있습니다",
+ "protagonist": "ishmael",
+ "setting": "1840년대 뉴베드퍼드·낸터킷 항구와 남쪽 대양 위의 포경선 피쿼드호",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/mobydick/assets",
+ "anchor": "a lean young sailor in a dark blue pea coat and black knitted cap, a canvas seabag on his shoulder",
+ "palette": "dark blue, off-white, ash grey, dark brown, dull yellow",
+ "voice": "",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "ishmael",
+    "wharf",
+    "winter_dusk_bg"
+   ],
+   "refs": [],
+   "beat": "겨울 부두에 닿은 이슈메일",
+   "visual": "the winter wharf at dusk seen from its landward end: the young man in the black knitted cap walks toward the right foreground between two rows of stacked oil casks, his canvas seabag on his left shoulder, his right hand holding the dark blue wool overcoat collar closed at his throat, boots dark with wet on the planks; behind him the tall bare masts of moored tall ships rise into thin mist, their yards black lines against the flat grey sky; coils of rope lie against an iron bollard at frame left and a single gull stands on a cask lid; every cask and plank is bare weathered wood; his face is turned slightly toward the water, calm, mouth closed, the black cap pulled low over his brow",
+   "motion": "the young man in the black knitted cap walks steadily along the wet planks toward the right foreground, each step lifting a little grey spray, his seabag swaying gently against his back with the rhythm of the walk and the coat hem stirring in the wind off the water; the masts, the casks and the standing gull hold still; camera fixed"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "ishmael",
+    "wharf",
+    "winter_dusk_bg"
+   ],
+   "refs": [],
+   "beat": "고래잡이 배를 바라보는 이슈메일",
+   "visual": "the young man in the black knitted cap stands at the very edge of the wharf in three-quarter back view, his face turned to the left so that his profile shows, his seabag set down beside his boots and both hands in the pockets of the dark blue wool overcoat; before him across a strip of dark water lie two moored tall ships, their black hulls low, off-white narrow off-white boats hung on davits along their sides, furled grey canvas on the yards; mist softens the farther masts; at his feet the wet plank edge, an iron ring and a puddle holding the pale sky; the light is the last flat grey of dusk and every hull and cask is bare weathered wood",
+   "motion": "a slow wind moves across the scene from the water so that the young man in the black knitted cap's coat hem and the loose end of his grey scarf lift and settle again in one slow rhythm while his body stays planted and his gaze stays on the ships; the mist drifts thinly across the far masts; everything else holds still; camera drifting very slowly forward"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "ishmael",
+    "queequeg",
+    "harpoon",
+    "spouter_inn"
+   ],
+   "refs": [],
+   "beat": "여관 방의 퀴퀘그와 문간의 이슈메일",
+   "visual": "the low dark inn bedroom at night: the clean-shaven tattooed harpooneer with the deep brown Polynesian face marked by dark-blue tattooed squares on both cheeks and the shaved scalp bare except for his single tall topknot, his jaw smooth and beardless and his skin a deep even brown is the one seated on the edge of the wide bed at frame left, his open dark jacket showing his tattooed chest, the long harpoon standing upright between his knees with both his hands wrapped around its wooden shaft and its barbed iron head pointing up at the beams, his head turned toward the door; the young man in the black knitted cap with his own pale face plain and unmarked is the one standing just inside the doorway at frame right, still in his dark blue wool overcoat and cap, his seabag dropped at his boots, one hand still on the door edge, his eyes wide; between them the patchwork quilt of dark blue and off-white squares, the small greenish window black with night, the tarred beams low overhead; the room is lit only by a dim grey glow from the window side and both faces are half in shadow",
+   "motion": "the harpooneer slowly turns his head away from the young man in the black knitted cap and back toward his harpoon and runs his thumb down the iron shank in one long unhurried stroke, his tattooed shoulders easing as he does it; the young man in the black knitted cap in the doorway stays frozen with his hand on the door; the quilt, the window and the beams hold still; camera fixed"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "queequeg",
+    "ishmael",
+    "spouter_inn"
+   ],
+   "refs": [],
+   "beat": "하룻밤 사이 친구가 된 두 사람",
+   "visual": "grey morning in the inn bedroom: the two men sit side by side on the edge of the bed facing the camera, the clean-shaven tattooed harpooneer with the deep brown Polynesian face marked by dark-blue tattooed squares on both cheeks and the shaved scalp bare except for his single tall topknot on the left with his heavy tattooed arm laid across the young man in the black knitted cap's shoulders, the young man in the black knitted cap on the right in his shirt sleeves and grey trousers with his coat off and the black knitted cap still on his head, a small easy smile on his face; the harpooneer holds his little carved dark-wood figure in his free hand and shows it to the young man in the black knitted cap; pale light from the greenish window at frame left falls across the patchwork quilt and both faces; the harpoon leans against the wall behind them and the dark blue dark blue wool overcoat hangs on a wooden peg by the door; the plaster walls are bare",
+   "motion": "the harpooneer slowly lifts the small carved figure a little higher between them and tilts it so that the window light crosses its face, and the young man in the black knitted cap's head turns to follow it, his smile widening by a degree; the arm across the young man in the black knitted cap's shoulders stays where it is; the quilt, the window, the harpoon and the coat hold still; camera fixed"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "ishmael",
+    "queequeg",
+    "harpoon",
+    "pequod_ship",
+    "wharf"
+   ],
+   "refs": [],
+   "beat": "낸터킷에서 피쿼드호에 오르는 두 친구",
+   "visual": "a bright cold harbor morning: the two friends climb a narrow wooden gangplank up the side of the old old three-masted ship, the clean-shaven tattooed harpooneer with the deep brown Polynesian face marked by dark-blue tattooed squares on both cheeks and the shaved scalp bare except for his single tall topknot ahead and higher on the plank with his harpoon over his shoulder and a rolled canvas bag under his arm, the young man in the black knitted cap with his own pale face plain and unmarked two steps below him in dark blue wool overcoat and cap with his seabag on his shoulder and one hand on the plank's rope rail; above them the black bulwark lined with upright off-white pointed ivory teeth and the tall tarred masts; below them the wet wharf planks and a stack of casks; the far side of the harbor is a low grey line of shingle roofs; the hull beside the plank is bare weathered planking streaked pale with salt",
+   "motion": "the two men climb the gangplank in step, the harpooneer's harpoon shaft tipping gently with each stride and the young man in the black knitted cap's seabag swinging behind him as the plank flexes slightly under their weight; the ship, the teeth along the rail, the masts and the casks hold still; camera fixed"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "ahab",
+    "sailor",
+    "pequod_deck",
+    "open_sea",
+    "morning_bg"
+   ],
+   "refs": [],
+   "beat": "바다로 나간 뒤 갑판에 나타난 에이해브",
+   "visual": "the quarter-deck in the morning, far from any land: the old man in the wide flat-brimmed black hat stands alone at the center of the frame beside the thick dark mainmast, seen from the hips up, tall and gaunt in his long black coat and wide flat-brimmed black hat, both hands clasped behind his back, his pale scar running down the near side of his face, the dark wooden bulwark cutting across the frame at the height of his hips so that his legs stay hidden below it; at the left edge two young crewmen in striped shirts stand with their backs against the bulwark, their faces turned up toward him, one holding a coil of rope; beyond the rail the open swells and a clean horizon under a pale blue sky; the pointed ivory teeth along the rail catch the light and the deck planks are pale from scrubbing",
+   "motion": "the old man slowly turns his head from the horizon on the right toward the two crewmen on the left, the brim of his hat shading his eyes as his gaze passes across the deck, and his clasped hands tighten behind his back; the crewmen stay motionless against the rail; the swells roll slowly beyond the rail while the ship and the masts hold still; camera fixed"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "sailor",
+    "pequod_deck"
+   ],
+   "refs": [],
+   "beat": "고래 뼈를 깎아 만드는 의족",
+   "visual": "a close view over a rough wooden workbench set on the ship's deck in morning light: a straight tapered post of polished white bone the length of a man's shin lies clamped in a wooden vise at the center of the frame, smooth and pale with one end rounded to a blunt tip, and a crewman's two sun-browned hands in rolled striped sleeves draw a two-handled drawknife along its length, curls of white bone shaving lying on the bench and the planks; a small wooden mallet and a rasp lie beside the vise; behind the bench the dark mainmast rises and the solid wooden bulwark with its row of pointed ivory teeth runs across the background; the crewman's face is out of frame above",
+   "motion": "the two hands draw the drawknife slowly along the bone post from the clamped end toward the blunt tip in one long even stroke, a thin curl of white shaving lifting ahead of the blade and settling on the bench; the vise, the mallet, the rasp and the mast hold still; camera fixed"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "ahab",
+    "doubloon",
+    "sailor",
+    "pequod_deck"
+   ],
+   "refs": [],
+   "beat": "돛대에 금화를 박는 선장",
+   "visual": "the old man stands at the mainmast in profile facing left, a short iron hammer raised in his right hand and his left palm pressing the three-finger-wide gold coin flat against the dark wood of the mast at the height of his own eyes, a single iron nail already set through the coin's edge; his hat brim is low, the scar shows on the cheek turned to the camera, and the frame cuts him at the waist so that only his upper body and the coin show; three crewmen in striped shirts stand in a loose half ring at the right of the frame a few paces off, their faces lifted toward the coin, one with a coil of rope over his shoulder, all barefoot on the pale deck; the sky beyond the rail is bright and clear and the mast is bare dark wood",
+   "motion": "the old man brings the hammer down onto the nail head in one slow heavy stroke and holds it pressed there, his shoulders dropping with the blow while the coin stays flat under his left palm; the three crewmen do not move; the deck, the mast and the rail hold still; camera fixed"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "ahab",
+    "doubloon",
+    "sailor",
+    "pequod_deck"
+   ],
+   "refs": [],
+   "beat": "금화를 치며 외치는 선장",
+   "visual": "the old man seen from slightly below, standing square to the camera beside the mainmast, his right arm raised high with the hand open toward the sky and his left forefinger pressed on the gold coin nailed to the mast at his eye level, his mouth wide open in a shout, the pale scar cutting down his face, iron-grey hair blown back from under the black hat; in the lower foreground the backs and shoulders of four crewmen in striped shirts looking up at him with their tarred hats in their hands; the mast rises out of the top of the frame; hard bright light on the coin and on his raised hand",
+   "motion": "the old man's raised right hand slowly closes into a fist over his head while his chest lifts with the shout and his left forefinger stays pressed on the coin; the crewmen below hold their upturned faces still; the mast, the deck and the rail do not move; camera drifting slowly upward"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "pequod_ship",
+    "open_sea",
+    "morning_bg"
+   ],
+   "refs": [],
+   "beat": "남쪽 바다로 내려가는 피쿼드호",
+   "visual": "the old old three-masted ship seen from outside at a distance of a few boat lengths, moving away toward the upper left of the frame under full grey canvas on all three masts, her black hull heeling gently, the row of upright pointed ivory teeth a pale line along her rail, off-white narrow off-white boats hung on the davits along her side; the ocean fills the lower two thirds of the frame in long dark blue swells streaked with pale foam and the horizon is a clean line under a bright pale sky; small figures of crewmen stand at her rail and one sits astride the topmast crosstrees; the hull is bare weathered planking",
+   "motion": "the ship rides up one long swell and slides down its far side, her bow lifting and settling in one slow continuous motion as pale foam peels away along her hull and the canvas holds its full curve; the horizon and the sky stay level and still; camera fixed"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "sailor",
+    "whaleboat",
+    "pequod_deck",
+    "open_sea",
+    "morning_bg"
+   ],
+   "refs": [],
+   "beat": "보트가 내려지고 물기둥을 가리키는 선원",
+   "visual": "at the ship's side seen along the rail: the young crewman in the striped shirt stands up on the bulwark at frame right gripping a tarred mast shroud with his left hand, his right arm thrust straight out toward the far right of the frame, his mouth open, the tarred hat pushed back on his head; below and to the left of him the off-white narrow off-white boat hangs from its two wooden davits half lowered toward the water, the ropes taut, its six oars laid inside and harpoons upright in the bow crotch, two crewmen already crouched in it; beyond, the open swells running to a clean horizon; bright morning light from the left",
+   "motion": "the narrow off-white boat descends slowly on its two davit ropes toward the water, the ropes paying out hand over hand and the boat tilting a little as its stern touches the swell first; the pointing crewman holds his arm rigidly out the whole time; the ship, the shrouds and the horizon hold still; camera fixed"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "queequeg",
+    "whaleboat",
+    "harpoon",
+    "sperm_whale",
+    "open_sea"
+   ],
+   "refs": [],
+   "beat": "첫 고래의 등에 박힌 퀴퀘그의 작살",
+   "visual": "low on the water: the narrow off-white boat crosses the frame from the left with five crewmen in striped shirts and flat tarred straw hats bent at the oars along its length, their faces plain and unmarked and their arms bare of any marking, and the clean-shaven tattooed harpooneer with the deep brown Polynesian face marked by dark-blue tattooed squares on both cheeks and the shaved scalp bare except for his single tall topknot is the one standing braced in the bow at the right end of the boat, his open dark jacket blown back from his tattooed chest, both arms extended forward and down having just thrust the harpoon; the harpoon's straight dark wooden shaft stands fixed upright in the dark slate-grey back of the great sperm whale that fills the right third of the frame, its blunt squared head half raised out of the water and one small eye showing; white water rises around the whale's flank; the horizon is a clean line and the sky pale and bright",
+   "motion": "the whale's huge back rolls slowly forward and down into the water carrying the fixed harpoon shaft with it, spray lifting along its flank, while the harpooneer stays braced in the bow with his arms still extended; the oarsmen hold their oars still in the water; the horizon and the sky hold; camera fixed"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "try_works",
+    "queequeg",
+    "sailor",
+    "pequod_deck",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤 갑판의 가마와 붉게 비친 얼굴들",
+   "visual": "night on the main deck: the squat dark-brick try-works stands at the center of the frame, its two big black iron pots steaming at the top and the iron door at its base open on a bed of orange embers that throws a warm orange light upward; the clean-shaven tattooed harpooneer with the deep brown Polynesian face marked by dark-blue tattooed squares on both cheeks and the shaved scalp bare except for his single tall topknot stands at the left of the furnace holding a long iron ladle over one pot, his tattooed face and chest lit orange from below; two young crewmen in striped shirts with plain unmarked faces stand at the right feeding a slab of pale blubber into the other pot with a long two-pronged fork, their faces lit the same orange; beyond the furnace the masts rise black into the deep-blue moonless sky with small pale stars and the rest of the deck falls away into darkness",
+   "motion": "the harpooneer slowly lifts the long ladle out of the pot and tips it so that a thick stream of pale oil pours steadily back down into the pot while steam rises and drifts upward past the masts; the two crewmen stay bent over the other pot without moving; the furnace, the masts and the sky hold still; camera fixed"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "sailor",
+    "pequod_ship",
+    "white_whale",
+    "open_sea",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "망대의 외침 — 물살을 가르는 하얀 등",
+   "visual": "high on the mainmast at dawn: the young crewman stands upright inside the iron hoops of the masthead at the upper left of the frame with his body facing the camera and turned a little to the right, his left hand gripping the hoop rim at the height of his hip and his right arm stretched straight out to the right at shoulder height with the forefinger pointing at the whale, his elbows unbent and both shoulders level, the flat tarred straw hat on his head and his mouth open in a shout, the striped shirt blown flat against him; far below and to the right lie the dark deck and the pale line of pointed ivory teeth along the bulwark; beyond the bow, small with distance on the grey-blue swells, the pale off-white humped back of the enormous whale lifts through the water with a tall forward-angled plume of spray, two bent harpoon irons showing on its back; the dawn sky is a cold grey-blue with a thin band of pale light along the horizon",
+   "motion": "the great pale back rises slowly out of the swell, its spray plume climbing and drifting away downwind in one long continuous movement, while the crewman's right arm stays stretched out level pointing at it and his left hand keeps its grip on the hoop rim; the ship's deck, the mast and the horizon hold still; camera fixed"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "doubloon",
+    "pequod_deck",
+    "dawn_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빈 갑판의 금화",
+   "visual": "the quarter-deck at dawn, empty of every person: the dark mainmast rises through the center of the frame and at eye level on its near face the single three-finger-wide gold coin gleams under its iron nail; below it the round auger hole in the pale plank stands empty; a coil of rope lies at the mast foot, the pointed ivory teeth run along the rail, and beyond the rail the grey-blue swells and a thin band of pale light along the horizon; cold clear light from the low east catches only the face of the coin; the planks are bare scrubbed wood",
+   "motion": "the pale band of dawn light along the horizon slowly widens and brightens, and its glow creeps across the deck planks toward the mast until it reaches the gold coin and makes it gleam; the mast, the coin, the rope and the rail hold still; camera drifting very slowly forward toward the coin"
+  }
+ ],
+ "withheld": "사흘의 추격, 피쿼드호의 침몰, 에이해브의 죽음, 관 뚜껑 부표로 살아남는 이슈메일"
 }

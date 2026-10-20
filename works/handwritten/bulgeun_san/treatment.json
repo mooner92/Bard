@@ -1,0 +1,179 @@
+{
+ "logline": "산 하나 없는 만주 벌판의 조선인 마을, 미움받던 사내 삵이 마지막에 보고 싶어 한 것",
+ "destination": "소설 붉은 산에서 만날 수 있습니다",
+ "protagonist": "ikho",
+ "setting": "1930년대 초 겨울 만주 — 벌판의 조선 소작인 마을, 농가 방, 동구 밖 밭고랑",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/bulgeun_san/assets",
+ "anchor": "a small wiry Korean man in a ragged padded grey jacket and trousers",
+ "palette": "ash grey, off-white, dun brown, dark blue, pale yellow",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "산 없는 만주 벌판의 조선인 마을",
+   "visual": "wide view of the tenant village from the frozen track: twenty low thatched houses huddled on the flat plain, thin smoke from a few chimneys, bare fields and patches of snow stretching flat to the horizon on every side under a grey sky",
+   "motion": "thin chimney smoke leans in the wind over the thatched roofs and a dusting of snow drifts across the bare fields; the camera holds on the small village on the flat plain"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "doctor",
+    "village"
+   ],
+   "refs": [],
+   "beat": "겨울 초입, 노새를 타고 들른 의사",
+   "visual": "the doctor riding a grey mule into the village lane with his leather bag strapped behind the saddle, his fur collar turned up, a Mongolian attendant in a sheepskin coat walking ahead leading the mule by the rein, doors opening along the lane; exactly two people",
+   "motion": "the mule's hooves crunch on the frozen lane and the attendant tugs the rein, the doctor's fur collar ruffling in the wind; the camera holds on the rider entering the village"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "ikho",
+    "village"
+   ],
+   "refs": [],
+   "beat": "삵이라 불리는 사내 정익호",
+   "visual": "Ikho standing alone in the village lane with both hands pushed deep into his ragged jacket, his narrow pointed face with hollow cheeks turned sideways toward the camera, small narrowed darting eyes, his upper lip lifted in a sneer off his prominent front teeth, the doors along the lane closed; exactly one man",
+   "motion": "Ikho's narrowed eyes slide sideways and his upper lip lifts further off his front teeth in the sneer, his hands staying deep in his jacket; the camera holds on the small man in the closed lane"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "ikho",
+    "house"
+   ],
+   "refs": [],
+   "beat": "투전과 싸움과 칼부림",
+   "visual": "Ikho squatting on the straw mat of the farmhouse room slapping down a long narrow paper strip of Korean tujeon cards, a scatter of brass coins and more thin paper card strips on the mat, his teeth bared in a grin, his hands empty of any weapon; exactly one man",
+   "motion": "the paper strip slaps down under Ikho's hand and the brass coins jump on the mat; the camera holds on the hand and the card strips"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "ikho",
+    "house"
+   ],
+   "refs": [],
+   "beat": "남의 집에서 자고 조반까지",
+   "visual": "low angle at floor level: Ikho sprawled asleep at midday on the straw mat spread on the ondol floor of the farmhouse room, a borrowed quilt over him lying flat on the floor, one arm flung out and his mouth open, a small low table set with a bowl of rice and soup waiting on the floor beside his head, daylight on the paper window, the floor stretching across the lower frame; exactly one man",
+   "motion": "Ikho's chest rises and sinks under the quilt and his flung-out hand twitches, steam curling off the bowl of soup beside his head; the camera holds on the sleeping man"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "내쫓기로 했지만 앞장설 이가 없다",
+   "visual": "a huddle of five tenant farmers in white cotton jackets and felt caps in the frozen lane at dusk, heads bent together, each one glancing sideways at the man beside him, hands hidden in sleeves, nobody stepping forward; exactly five men",
+   "motion": "the five farmers' heads stay bent together and their eyes slide from one neighbour to the next, breath fogging, feet shuffling in place; the camera holds on the huddle in the lane"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "ikho",
+    "village"
+   ],
+   "refs": [],
+   "beat": "투전판에서 맞고 와도 하루면 천연히",
+   "visual": "Ikho limping back along the frozen lane at dusk with his jacket torn open at the shoulder, one eye swollen shut and his lip split, wiping his mouth with the back of his hand, his front teeth still bared; exactly one man",
+   "motion": "Ikho's limp drags one foot through the frozen ruts and the back of his hand wipes across his split lip, his one open eye glaring ahead; the camera holds on the limping man"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "나귀 등에 결박되어 돌아온 송 첨지",
+   "visual": "an old farmer with a thin white beard lying limp and tied face-down across the back of a donkey, his arms and white sleeves hanging down, the donkey led into the village lane by one young farmer in a padded jacket with his head bowed, women at the doorways with their hands over their mouths; exactly one man walking and one man lying across the donkey",
+   "motion": "the donkey plods forward and the old man's hanging arms swing with each step, the young farmer's head bowed, the women's hands pressing tighter to their mouths; the camera holds on the donkey and its load"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "원수를 갚자 — 그러나 앞장서는 이는 없다",
+   "visual": "young tenant farmers in the lane at night with pine torches, fists raised and mouths open shouting, yet every man standing rooted in his place glancing at the man beside him, an old woman weeping on a doorstep; the torches lighting the mud walls",
+   "motion": "the torches flare and the raised fists shake, but the men's feet stay planted and their eyes keep sliding to their neighbours, the old woman's shoulders heaving; the camera holds on the rooted crowd"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "ikho",
+    "plain"
+   ],
+   "refs": [],
+   "beat": "송 첨지가 죽은 줄 아나 — 길에서 만난 삵",
+   "visual": "close on Ikho, a Korean man of thirty-five with black cropped hair, a stubbled jaw and hollow cheeks, standing among the frozen furrows of the bare plain at dusk facing the camera with his hands in his ragged padded jacket, his narrowed eyes lifted slightly toward the viewer and his mouth closed tight, patches of snow and a flat grey horizon behind him; exactly one grown Korean man",
+   "motion": "Ikho's narrowed eyes hold on the viewer and his closed mouth tightens, the wind stirring his black cropped hair, the snowy furrows and the flat grey horizon behind him unchanged; the camera holds close on the stubbled Korean face"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "ikho",
+    "doctor",
+    "plain"
+   ],
+   "refs": [],
+   "beat": "떨어지는 얼굴, 비창한 빛",
+   "visual": "close on the stubbled narrow face of Ikho, a grown man of thirty-five, as it falls, his narrowed eyes gone dull and wet, his mouth working without sound, the doctor's fur collar and spectacles at the edge of the frame; exactly two grown men",
+   "motion": "Ikho's face sinks lower and his working mouth stills, a wet light gathering in his dulled eyes; the camera holds close on the fallen face"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "ikho",
+    "doctor",
+    "plain"
+   ],
+   "refs": [],
+   "beat": "이튿날 아침, 동구 밖 밭고랑의 삵",
+   "visual": "early morning: Ikho lying twisted on his back across a frozen furrow at the edge of the fields, his body bent backward at the waist, his jacket torn, and the doctor kneeling over him tearing open his leather bag, farmers running up along the track behind; exactly the doctor and Ikho in the foreground",
+   "motion": "the doctor's hands dig into the bag and press on Ikho's chest, Ikho's twisted body jerking with a spasm, the farmers' feet pounding closer; the camera holds on the two on the furrow"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "ikho",
+    "doctor",
+    "plain"
+   ],
+   "refs": [],
+   "beat": "지주 집에 갔었습니다 — 식어 가는 손",
+   "visual": "low angle at ground level: Ikho, a grown man with a stubbled jaw, lying on his back on the frozen furrow with his face against the ground, eyes open and fixed on the doctor, his cracked lips moving, the doctor kneeling beside him with both hands gripping Ikho's hand, the doctor's eyes closed tight behind his spectacles; exactly two grown men",
+   "motion": "Ikho's cracked lips shape slow words and his fixed eyes do not blink, the doctor's hands tightening around his hand and the doctor's closed eyes trembling; the camera holds close on the two faces and the gripped hand"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "doctor",
+    "ikho",
+    "plain"
+   ],
+   "refs": [],
+   "beat": "붉은 산과 흰 옷 — 의사가 돌아본 벌판",
+   "visual": "the doctor kneeling on the frozen furrow with his head turned to look out over the flat grey plain stretching bare to the horizon under a low winter sun, and Ikho, a grown man with a stubbled jaw, lying on his back on the furrow beside him with one trembling hand raised toward the horizon; exactly two grown men",
+   "motion": "Ikho's raised hand trembles and sinks to the furrow while the doctor's turned head searches the bare grey plain, the low sun flat on the frozen ground; the camera holds on the kneeling doctor and the lying man"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "plain"
+   ],
+   "refs": [],
+   "beat": "마무리 — 겨울 벌판 스틸",
+   "visual": "closing still: the frozen Manchurian plain at dawn, bare furrows and patches of snow stretching to the flat horizon, a low pale sun on the horizon, a brown leather medical bag standing open on the furrow, the frozen track running away into the distance",
+   "motion": "a thin wind drifts loose snow across the frozen furrows and the pale sun hangs on the flat horizon, the open bag standing still on the furrow; the camera closes with great patience on the empty track running to the horizon"
+  }
+ ],
+ "withheld": "동해물과 백두산이 애국가를 불러 달라는 소원과 뒤에 선 사람들의 코러스"
+}

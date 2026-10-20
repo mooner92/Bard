@@ -1,0 +1,9 @@
+[포맷] 각색형
+[서지] 뜀뛰기 선수들 / 한스 크리스티안 안데르센 / 덴마크 / 1845
+[줄거리와 배경]
+벼룩·메뚜기·개구리가 공주를 걸고 높이뛰기를 겨룬다 — 벼룩은 너무 높아
+안 보이고, 메뚜기는 왕의 얼굴로 뛰어들고, 말 없던 개구리가 공주의 무릎으로
+뛰어올라 "내 딸보다 높은 것은 없다"는 왕의 판정으로 공주를 얻는다.
+[줄거리]
+줄거리와 배역은 works/handwritten/ttwimttwigi_seonsu/treatment.json 에 열세 박자로 적어 두었다.
+원문은 works/sources/ttwimttwigi_leapfrog_en.txt (구텐베르크 #1597), 근거는 source_notes.md.

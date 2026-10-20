@@ -1,0 +1,187 @@
+{
+ "logline": "어서 크고만 싶던 전나무가 크리스마스에 꾸며지고 다락에 버려진 뒤 지나간 행복을 깨닫는다",
+ "destination": "동화 전나무에서 만날 수 있습니다",
+ "protagonist": "fir",
+ "setting": "안데르센의 북유럽 — 숲의 빈터, 크리스마스 응접실, 어두운 다락, 봄 마당",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/jeonnamu/assets",
+ "anchor": "a young fir tree with dense dark-green tiers of needles and a pointed top shoot",
+ "palette": "forest green, white, warm gold, dusty brown, spring green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "fir",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "숲속의 작은 전나무, 어서 크고 싶다",
+   "visual": "a sunny clearing in the forest: the young fir tree stands small among the tall pines and firs, its neat dark-green tiers of needles bright in a shaft of sunlight, mossy ground with wild strawberries at its foot; its top shoot strains upward toward the high crowns of the big trees around it, and the sky shows blue between their distant tops",
+   "motion": "sunlight shifts across the young fir's needles as a breeze passes, its top shoot swaying upward while the tall crowns around it sway more slowly above; a bird crosses the blue gap between the high tops, and the camera tilts slowly up from the small tree to the tall ones"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "fir",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "토끼도 아이들도 전나무를 기쁘게 하지 못한다",
+   "visual": "winter in the forest clearing: snow glitters on the ground and a brown hare leaps clean over the small fir tree with its long ears laid flat; two cottage children in wool caps and mittens stand in the snow to the left pointing at the little tree with delighted smiles, and the fir stands stiff and dark under a cap of snow, its top shoot pointing straight up",
+   "motion": "the hare sails over the little fir in a long leap and bounds away through the snow, the children clapping their mittens and pointing; snow slides from the fir's top shoot as it stands stiff, and the camera follows the hare's leap over the small tree"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "fir",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "가을마다 나무꾼이 큰 나무를 베어 수레에 싣는다",
+   "visual": "autumn in the forest: two woodcutters in leather aprons swing long axes at the base of a tall pine while a third loads bare trunks onto a wooden cart drawn by two heavy horses, lopped branches heaped on the ground; the young fir stands to the right at the edge of the clearing, trembling in every tier, the birches around it gone yellow",
+   "motion": "the axes swing in turn into the pine's base with chips flying, the horses stamping at the cart, and the young fir's tiers shiver in a gust as the loaded cart begins to roll away down the track; yellow leaves drift, and the camera holds on the shivering small tree watching the cart go"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "fir",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "황새가 전한 돛대 이야기",
+   "visual": "spring in the clearing: a tall white stork with black wingtips and thin scarlet legs stands on one leg before the young fir tree, its long scarlet beak turned down toward the tree, head cocked; the fir's new pale-green shoots stand up on every tier, two swallows cross the blue sky above the pines, and the moss at the tree's foot is bright with new growth",
+   "motion": "the stork nods its long beak slowly toward the fir and shifts its weight from one leg to the other, the fir's new shoots trembling in the warm air; the swallows wheel across the blue above, and the camera holds on the stork's nodding head and the small tree"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "fir",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "참새가 전한 크리스마스 촛불 이야기",
+   "visual": "a snowy December afternoon in the forest: three brown sparrows perch in a row on the young fir's upper tier chirping at it with open beaks, and between the far trunks a horse-drawn cart carries away small fir trees with all their branches; the young fir stands full and dark, taller now than the trees on the cart, snow on its tiers",
+   "motion": "the sparrows chirp with open beaks and hop along the fir's tier, the cart of small trees creaking away between the far trunks; the young fir's tiers quiver, snow sifting down from them, and the camera holds on the chirping sparrows and the quivering tree"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "fir",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "크리스마스에 도끼가 전나무를 벤다",
+   "visual": "Christmas felling in the snow: a woodcutter in a leather apron swings an axe deep into the base of the young fir tree, chips of pale wood flying, the tree tilting with a shudder through all its tiers and snow shaking from its needles; the tall firs stand dark around the clearing and the cart waits with its horses at the track's edge",
+   "motion": "the axe bites again into the pale wound at the fir's base and the whole tree leans further with a slow shudder, snow cascading from its tiers as it tilts toward the ground; the horses stamp at the waiting cart, and the camera holds low at the base as the tree comes down"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "fir",
+    "star",
+    "drawing_room"
+   ],
+   "refs": [],
+   "beat": "응접실에 세워져 금빛 사과와 촛불로 꾸며진다",
+   "visual": "the splendid drawing room: the young fir stands upright at the center on the gaily coloured carpet with green cloth wrapped around its base, while two young ladies in silk dresses and a servant in rich livery hang gilded apples, walnuts, little coloured-paper nets of sweets and small blue and white candles among its tiers; the portraits watch from the walls, the white porcelain stove and the two Chinese vases stand behind, and the servant lifts the gold tinsel star toward the top shoot",
+   "motion": "the ladies' hands hang gilded apples and paper nets on tier after tier while the servant reaches up and settles the gold tinsel star on the top shoot, the little candles standing unlit among the needles; the tiers sway under the weight, and the camera circles the tree as it fills with ornaments"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "fir",
+    "star",
+    "drawing_room"
+   ],
+   "refs": [],
+   "beat": "촛불이 켜지고 아이들이 춤추며 선물을 뜯는다",
+   "visual": "Christmas evening in the drawing room: every small candle on the fir burns bright, the gilded apples and paper nets glittering and the gold tinsel star shining at the top — and a troop of children in party clothes dance in a ring around the tree with linked arms, the older ones pulling presents from the branches; the grown-ups stand smiling by the porcelain stove, and the fir stands stiff and dazzled under its lights",
+   "motion": "the children's ring whirls around the tree with presents pulled from the branches waving in their hands, the candle flames swaying on every tier and the tinsel star flashing above; the grown-ups clap by the stove, and the camera circles with the dancing ring around the lit tree"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "fir",
+    "star",
+    "drawing_room"
+   ],
+   "refs": [],
+   "beat": "나무 아래 이야기꾼 — 계단에서 구르고도 공주와 결혼한 이",
+   "visual": "the drawing room after the presents: a short plump man in a brown coat sits on a low stool under the fir's lower tiers with his hands raised mid-story, a circle of children cross-legged on the carpet before him with open mouths; the candles on the tree have burned down to stubs, the gold tinsel star still shines at the top, and the fir's needles hang still above the listening circle",
+   "motion": "the plump man's raised hands tumble downward to show a tumble down stairs and then lift in a grand flourish, the children rocking with laughter on the carpet; the candle stubs gutter on the tiers, the tinsel star glinting, and the camera holds on the storyteller under the tree"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "fir",
+    "star",
+    "loft"
+   ],
+   "refs": [],
+   "beat": "이튿날 어두운 다락에 버려진다",
+   "visual": "the dark loft under the rafters: a servant in livery and a housemaid in a white cap drag the fir tree by its trunk into the dark corner between the big old trunks, its dry needles scraping the boards, the gold tinsel star still fixed at its top and a few paper nets dangling; the small grey skylight lets in a thin light, cobwebs hang from the beams, and the tree comes to rest leaning against the wall",
+   "motion": "the servant and the housemaid heave the tree the last stretch into the corner and let its trunk settle against the wall, needles scattering on the boards; their footsteps go down the stairs, the thin skylight light dims, and the camera holds on the leaning tree with its tinsel star in the dark"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "mice",
+    "fir",
+    "star",
+    "loft"
+   ],
+   "refs": [],
+   "beat": "생쥐들이 찾아와 숲 이야기를 듣는다",
+   "visual": "the loft at night: two small grey mice sit up on their haunches on the boards before the leaning fir tree, whiskers and pink ears turned up toward it, four more mice sitting in a row on the lid of the nearest trunk behind them; the fir's dry tiers lean over the little audience with the gold tinsel star glinting faintly at the top in the skylight's grey glow, and cobwebs hang still",
+   "motion": "the two mice sit up higher with their whiskers twitching toward the tree, the four on the trunk lid leaning forward with tails curling; the fir's dry needles stir faintly, the tinsel star glinting, and the camera closes slowly on the listening mice"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "fir_dry",
+    "star",
+    "courtyard"
+   ],
+   "refs": [],
+   "beat": "봄 마당, 누렇게 마른 전나무",
+   "visual": "the spring courtyard in full sun: the fir tree lies on its side in the corner among the weeds and nettles, its needles withered yellow-brown and shedding, the gold tinsel star still fixed to its top and glittering in the sunshine; beyond it roses hang fresh over the stone balustrade, the linden trees stand in blossom, and two swallows cross the bright sky",
+   "motion": "the withered needles loosen one by one and drift down from the tree lying in the weeds while the tinsel star flashes in the sun, the roses nodding on the balustrade and the swallows wheeling above; the camera pulls slowly back from the dry tree to the flowering garden"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "fir_dry",
+    "star",
+    "courtyard"
+   ],
+   "refs": [],
+   "beat": "아이가 꼭대기의 금빛 별을 떼어 간다",
+   "visual": "the courtyard corner: a small boy in a sailor suit kneels on the withered fir tree's branches holding the gold tinsel star up in both raised hands, torn free with its wire dangling, the fir's top shoot bare below his hands, cracked yellow needles snapping under his knees; two other children stand behind him laughing with their hands on their hips, the flowering garden bright beyond the balustrade",
+   "motion": "the boy lifts the torn tinsel star higher in both hands so that it glitters, his knees pressing the brittle branches and needles cracking; the children behind laugh and reach up for the star, and the camera holds on the star lifted from the dry tree"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "fir_dry",
+    "courtyard"
+   ],
+   "refs": [],
+   "beat": "행복했던 때를 몰랐던 전나무",
+   "visual": "the courtyard corner in late afternoon: the withered fir tree lies alone among the weeds and nettles with its bare top shoot pointing at the sky, most needles gone from its brittle tiers, warm sunlight on the cracked branches; the flowering garden glows beyond the balustrade and the linden blossom hangs still",
+   "motion": "warm light moves slowly over the brittle branches as a breeze stirs the last few needles loose, the bare top shoot trembling; the linden blossom sways beyond the balustrade, and the camera drifts slowly along the dry tree toward its bare tip"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "forest"
+   ],
+   "refs": [],
+   "beat": "마무리 — 숲의 그루터기 스틸",
+   "visual": "closing still: the forest clearing in spring, a low pale stump at its center ringed by new moss and small white wild-strawberry flowers, the tall pines and firs standing around it in sunlight, a brown hare sitting quietly beside the stump with its ears up",
+   "motion": "sunlight shifts across the pale stump and the moss around it while the hare's ears turn, a breeze moving the tall crowns above; a strawberry flower nods by the stump, and the camera closes with great patience on the small pale stump in the clearing"
+  }
+ ],
+ "withheld": "정원사 소년이 전나무를 장작으로 쪼개 태우고 막내가 금빛 별을 가슴에 다는 결말"
+}

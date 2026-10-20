@@ -1,107 +1,213 @@
 {
- "logline": "창밖에서 그림자를 잃어버린 소년이 나타나, 아이들을 데리고 밤하늘로 날아오른다.",
- "destination": "두 번째 별 너머의 섬 — 어른이 없는 곳",
- "protagonist": "나뭇잎을 엮어 입은 열두 살 남짓의 소년",
- "setting": "1900년대 런던의 아이 방과 밤하늘",
- "anchor": "a boy of about twelve in a tunic of stitched leaves, tousled reddish hair, bare feet",
- "palette": "night indigo, nursery cream, warm amber, star silver, deep window blue",
- "voice": "ko-KR-InJoonNeural",
- "personas": {
-  "pan": {
-   "label": "소년",
-   "desc": "a boy of about twelve in a tunic of stitched leaves, tousled reddish hair, bare feet, a small belt pouch",
-   "avoid": ""
-  },
-  "wendy": {
-   "label": "맏이 소녀",
-   "desc": "a girl of about thirteen in a long white nightgown, dark hair in a loose braid, bare feet",
-   "avoid": ""
-  },
-  "nursery": {
-   "label": "아이 방",
-   "desc": "a Victorian nursery with three small beds, a tall sash window, a nightlight burning low"
-  },
-  "rooftops": {
-   "label": "런던 지붕 위",
-   "desc": "chimney pots and slate rooftops under a starry night sky, a river bend far below"
-  }
- },
+ "logline": "한밤중 런던의 아이 방에 창문으로 들어온 피터 팬이 제 그림자를 붙잡으려 애쓰고, 잠에서 깬 웬디가 바늘로 그림자를 꿰매 주자 손을 잡고 함께 날아올라 별 너머 네버랜드 섬으로 가는데, 땅속 집의 아이들과 인어의 초호를 지나 쇠갈고리 손의 후크 선장에게 붙잡힌 웬디를 구하려 피터가 해적선에서 후크와 칼을 맞대고 후크를 뱃전까지 몰아붙인다",
+ "destination": "소설 피터 팬에서 만날 수 있습니다",
+ "protagonist": "peter",
+ "setting": "1900년대 런던의 아이 방과 밤하늘의 지붕들, 네버랜드 섬의 땅속 집·인어 초호·해적선 갑판",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/piteopaen/assets",
+ "anchor": "a boy of about twelve in a short tunic of stitched green leaves, tousled reddish-brown hair, bare feet, a bright grinning face",
+ "palette": "dark blue, off-white, dull green, silver, dull red",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
-    "nursery"
+    "wendy",
+    "brothers",
+    "nursery",
+    "night_bg"
    ],
-   "beat": "밤중에 아이 방 창문이 저절로 열린다.",
-   "visual": "a tall sash window swinging open by itself in a dark Victorian nursery, curtains blowing in",
-   "motion": "the window swings inward, curtains billow into the room, the nightlight gutters"
+   "refs": [],
+   "beat": "한밤중 런던의 아이 방에서 잠든 웬디와 동생들",
+   "visual": "night inside the Victorian nursery: the girl of twelve in the long white nightgown with the long brown hair loose is the one asleep in the nearest of the three small beds at frame left under a white quilt, her head on the pillow turned toward the window and her eyes closed; the two smaller boys in white nightshirts are the ones asleep in the two beds beyond her at frame centre and right, the one with the round spectacles on the chest beside him, both under white quilts with tousled hair on the pillows; the tall sash window with the white curtains drawn back at frame right showing the dark blue sky full of small white stars, the small candle in its glass on the chest of drawers giving a dull yellow glow, the wooden rocking horse in the corner, the patterned rug; the nursery is bare of any other person",
+   "motion": "the candle flame in its glass is what moves, and the three sleepers only breathe: at the start the small flame burns steady in the glass on the chest of drawers; over the first three seconds the flame leans slowly to one side as a faint draught comes from the window and the shadows of the bed posts sway a little across the wall, then the flame straightens; in the last two seconds it burns steady again; the girl and the two boys keep their eyes closed, their quilts rising and sinking slowly with sleeping breaths, their heads not turning; the white curtains stir very slightly; the window, the rocking horse and the rug hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "pan",
-    "nursery"
+    "peter",
+    "spark",
+    "nursery",
+    "night_bg"
    ],
-   "beat": "소년이 마루에서 제 그림자를 붙잡으려 한다.",
-   "visual": "a leaf-clad boy grabbing at a shadow sliding across a nursery floor, beds behind him",
-   "motion": "the shadow slips away across the boards, he lunges after it, dust lifts"
+   "refs": [],
+   "beat": "창문이 저절로 열리고 나뭇잎 옷의 소년 피터 팬이 들어온다",
+   "visual": "night inside the Victorian nursery at the tall sash window: the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair and the bare feet is the one crouched on the sill of the wide open window at frame centre-right, one hand on the window frame and the other on the sill, his bright grinning face turned into the room; beside his shoulder the tiny point of golden light no bigger than a fingertip hangs in the air with its faint glow; the white curtains blown inward on either side of him, the dark blue sky full of small white stars behind him; the nearest small bed with its white quilt and a sleeping shape under it at the left edge of the frame, the wooden rocking horse in the corner, the small candle in its glass glowing dull yellow",
+   "motion": "the boy in the tunic of green leaves crouched on the sill is the one who moves, and the point of golden light with him: at the start he crouches with one hand on the frame and his grinning face turned into the room; over the first three seconds he swings his bare legs slowly over the sill and sets his feet down on the floorboards inside, rising to a crouch on the floor, the leaves of his tunic stirring, while the tiny golden light drifts slowly in through the window beside his shoulder; in the last two seconds he holds crouched on the floor just inside the window and the light hovers above him; the blown curtains sway slowly; the sleeping shape in the bed does not stir; the rocking horse, the candle glow and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "wendy",
-    "pan"
+    "peter",
+    "shadow",
+    "nursery",
+    "night_bg"
    ],
-   "beat": "소녀가 바늘로 그림자를 꿰매 준다.",
-   "visual": "a girl in a nightgown stitching a shadow to a seated boy's bare heel by lamplight",
-   "motion": "the needle draws through, the shadow settles at his heel, lamplight sways"
+   "refs": [],
+   "beat": "마루 위로 달아나는 제 그림자를 붙잡으려는 피터",
+   "visual": "night inside the Victorian nursery, low on the floorboards: the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one on his hands and knees on the patterned rug at frame right, one arm stretched out flat along the floorboards toward the left with the fingers spread, his grinning face turned down and tight with effort; the flat black shadow in the shape of a boy is the one lying loose on the floorboards at frame left a hand's width beyond his fingertips, one of its dark arms curled up off the floor; the small candle in its glass on the chest of drawers glowing dull yellow at the top of the frame, the legs of a small bed at the edge, the open window's curtains beyond",
+   "motion": "the flat black shadow on the floorboards is what moves, and the boy stretches after it: at the start the shadow lies a hand's width beyond his spread fingertips with one dark arm curled up; over the first three seconds the shadow slides slowly across the floorboards further toward the left, its curled arm waving, while the boy's outstretched hand slides after it and his body creeps forward one knee's length on the rug, his tunic leaves stirring; in the last two seconds the shadow holds a hand's width beyond his fingers again and he holds stretched; the candle glow, the bed legs and the curtains hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
-    "pan",
-    "wendy"
+    "wendy",
+    "peter",
+    "needle",
+    "nursery",
+    "night_bg"
    ],
-   "beat": "소년이 소녀의 손을 잡고 바닥에서 뜬다.",
-   "visual": "a leaf-clad boy and a girl in a nightgown rising a foot above a nursery floor, hands joined",
-   "motion": "they lift upward off the floor, her nightgown hem drifts, the curtains rise with them"
+   "refs": [],
+   "beat": "잠에서 깬 웬디가 바늘로 그림자를 피터의 발에 꿰매 준다",
+   "visual": "night inside the Victorian nursery on the patterned rug: the girl of twelve in the long white nightgown with the long brown hair loose is the one kneeling on the rug at frame left bent over the boy's foot, the small steel sewing needle with the length of white thread held up in her right hand a finger's width above his heel, her gentle round face bent close; the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one sitting on the floorboards at frame right with his right leg stretched out toward her, the flat black shadow gathered under his heel, his grinning face turned toward her hands; only the girl wears a nightgown and kneels, only the boy wears leaves; the small candle in its glass glowing dull yellow on the chest of drawers, the open window with the stars behind",
+   "motion": "the girl in the white nightgown kneeling over the foot is the one who moves, and only her hand: at the start the needle is held a finger's width above his heel; over the first three seconds her hand draws the needle slowly down through the edge of the black shadow and the skin of his heel and up again, the white thread pulling taut in a slow loop, her bent face following the stitch; in the last two seconds the needle holds above the heel with the thread drawn tight; the boy keeps his leg stretched out and his grinning face turned toward her hands, his hands on the floor behind him; the candle glow, the window and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
-    "pan",
+    "peter",
     "wendy",
-    "rooftops"
+    "nursery",
+    "night_bg"
    ],
-   "beat": "둘이 지붕 위로 날아오른다.",
-   "visual": "two children flying above slate rooftops and chimney pots under a starry sky",
-   "motion": "they climb upward over the roofs, smoke streams past them, stars wheel overhead"
+   "refs": [],
+   "beat": "피터가 웬디의 손을 잡자 둘의 발이 바닥에서 떠오른다",
+   "visual": "night inside the Victorian nursery: the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one standing at frame right holding the girl's right hand in his left, his bare feet already a hand's width above the patterned rug, his grinning face turned to her; the girl of twelve in the long white nightgown with the long brown hair loose is the one standing at frame left with her hand in his, her bare toes just leaving the rug, her gentle face turned to him with her mouth open and her free hand spread for balance; only the boy wears leaves, only the girl wears a nightgown, two separate children joined by their hands; the small beds with white quilts behind, the open window with the stars, the candle glowing dull yellow; both children are floating in the air with their bare feet a full forearm's length above the rug, the pattern of the rug plainly visible beneath their toes, their toes pointing down at it, nothing under their feet but air",
+   "motion": "the boy in the tunic of green leaves and the girl in the white nightgown are the ones who move, rising together: at the start his feet are a hand's width above the rug and her toes are just leaving it; over the first three seconds the two rise slowly and steadily straight upward, hand in hand, until both pairs of bare feet hang a forearm's length above the rug, her nightgown hem swaying, his tunic leaves stirring, her free hand spread; in the last two seconds they hang there rising no further, still well inside the frame; the beds, the window, the stars and the candle glow hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "pan"
+    "peter",
+    "wendy",
+    "brothers",
+    "rooftops",
+    "night_bg"
    ],
-   "beat": "소년이 별 하나를 손으로 가리킨다.",
-   "visual": "a leaf-clad boy hanging in the night sky pointing toward one bright star, city lights below",
-   "motion": "his arm swings up toward the star, his tunic flutters, cloud streams past below"
+   "refs": [],
+   "beat": "런던의 지붕 위로 날아오르는 아이들과 피터",
+   "visual": "the slate rooftops and chimney pots of London at night: the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one flying at frame centre-right above the rooftops with his body stretched out level and one arm reaching forward, his bare feet trailing; the girl of twelve in the long white nightgown with the long brown hair streaming back is the one flying a little behind and below him at frame centre-left with her arms spread; the two smaller boys in white nightshirts are the ones flying behind her at the lower left, smaller, one with the round spectacles; only the boy in front wears leaves; the tall clock tower with its lit round face and the dark river with its arched bridges far below, the dark blue sky full of small white stars",
+   "motion": "the four flying children are what move, drifting together across the sky: at the start they fly in a loose line above the rooftops with the boy in leaves in front; over the whole shot the four drift slowly forward and upward together toward the upper right of the frame, the girl's nightgown and hair streaming, the leaves of the boy's tunic fluttering, the two smaller boys bobbing a little behind, none of them leaving the frame; the lit face of the clock tower, the river, the bridges, the rooftops and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "rooftops"
+    "peter",
+    "wendy",
+    "island",
+    "day_bg"
    ],
-   "beat": "열린 창에서 커튼만 바깥으로 나부낀다.",
-   "visual": "an open nursery window seen from outside, curtains streaming out into the night, room empty",
-   "motion": "the curtains stream outward into the dark, the nightlight fades, frost creeps in"
+   "refs": [],
+   "beat": "별 너머로 날아간 아이들 앞에 네버랜드 섬이 나타난다",
+   "visual": "high above the wooded island in pale daylight: the boy of about twelve in the short tunic of stitched green leaves and the girl of twelve in the long white nightgown are the ones hanging in the air at the top of the frame seen from behind, side by side with their backs to the camera and their heads held straight ahead looking down, his arm pointing down at the island, her hair streaming; far below them the island with its pale blue lagoon, its sandy cove, its black rocks and the ship at anchor in the bay, small white clouds drifting between them and the island; only the boy wears leaves; the pale sky above",
+   "motion": "the small white clouds are what move, and the two children hold their places in the air with their backs to the camera: at the start the small white clouds drift below the children over the wooded island; over the whole shot the small white clouds drift slowly from left to right across the island far below, thinning as they go so that more of the pale blue lagoon, the sandy cove and the ship at anchor in the bay show through between them, the boy's pointing arm holding steady toward the island and the girl's long hair streaming back in the high air, their bodies hanging level and not rising or sinking; the wooded island, the black rocks, the ship at anchor and the pale sky hold completely still; the two children do not turn their heads toward the camera; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 아이 방 마루에 바늘 하나가 놓여 있다.",
-   "visual": "a single needle and a length of thread on an empty nursery floor, three beds unmade",
-   "motion": "the thread stirs in the draught, dust turns in the moonlight, a bed sheet lifts"
+   "cast": [
+    "lost_boys",
+    "peter",
+    "underground",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "섬의 땅속 집에서 피터를 기다리던 잃어버린 아이들",
+   "visual": "inside the underground home beneath the thick tree roots: the five boys of eight to ten in the ragged clothing of fur and stitched leaves with tangled hair are the ones crowded at the foot of the rope ladder at frame centre-left, faces turned up, two of them with arms raised; the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one halfway down the rope ladder at frame right, one bare foot on a rung and one hand on the rope, his grinning face turned down to them; only the boy on the ladder has reddish hair and a dagger at his hip; the hammocks slung from the roots, the circle of stones with the small fire, the mushroom stools",
+   "motion": "the boy of about twelve on the rope ladder is the one who moves, and the five boys below hold their raised arms: at the start he is halfway down with one foot on a rung; over the first three seconds he climbs slowly down two more rungs, hand under hand, the ladder swaying a little, his tunic leaves stirring, his grinning face staying turned down to them; in the last two seconds he stops on the lowest rung, still inside the frame; the five boys keep their faces turned up and their arms raised, their feet not shifting; the small fire flickers; the hammocks, the roots and the mushroom stools hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "hook",
+    "crocodile",
+    "pirate_ship",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "섬의 바다에 뜬 쇠갈고리 손 후크 선장의 해적선",
+   "visual": "pale daylight on the deck of the pirate ship: the tall pirate captain with the long black curls, the crimson coat with the gold braid, the wide black hat with the white feather and the thin black moustache is the one standing at the wooden rail at frame right seen from the waist up, his left hand on the rail and his right arm raised so that the curved iron claw fixed into the cuff of his right sleeve stands against the sky, the claw growing straight out of the sleeve, and he has exactly one hand, the left one on the rail, his face turned down over the rail; below the rail in the dark water at the lower left the huge green crocodile with the long scaled body is the one floating with its open jaws full of teeth turned up toward him; the thick mast with its rigging behind the captain, coiled rope on the deck; the deck is bare of any other person",
+   "motion": "the huge green crocodile in the water is the one that moves, and the captain holds his raised claw: at the start the crocodile floats with its open jaws turned up toward the rail; over the first three seconds the crocodile glides slowly closer along the side of the ship, its long tail sweeping once through the dark water, its open jaws rising a little higher and closing slowly and opening again; in the last two seconds it holds beside the hull with the jaws open; the captain keeps his claw raised against the sky and his face turned down, his left hand on the rail; the mast, the rigging and the coiled rope hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "wendy",
+    "peter",
+    "mermaids",
+    "lagoon",
+    "sunset_bg"
+   ],
+   "refs": [],
+   "beat": "인어들의 초호에서 웬디가 피터와 함께 노을을 본다",
+   "visual": "the lagoon of pale turquoise water at sunset: the girl of twelve in the long white nightgown with the long brown hair loose is the one sitting on a black rock at frame left with her bare feet in the water, her gentle face turned toward the sunset; the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one sitting on the same rock beside her at frame centre with his knees drawn up, his grinning face turned the same way; only the girl wears a nightgown, only the boy wears leaves; the three mermaids with the long flowing hair and the shining green fish tails are the ones sitting on a farther black rock at frame right, their tails trailing in the water; the sunset sky of pink and orange with a few dark clouds, the turquoise water still",
+   "motion": "the three mermaids on the farther rock are the ones that move, and the two children hold their gaze at the sunset: at the start the mermaids sit with their shining tails trailing in the water; over the first three seconds the mermaids' tails lift slowly out of the water and slap down again with a small splash, their long hair swinging as they turn their heads toward the children; in the last two seconds the tails trail still and the heads hold turned; the girl keeps her feet in the water and her face to the sunset; the boy keeps his knees drawn up and his face the same way; the turquoise water ripples softly; the sunset sky holds completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "hook",
+    "wendy",
+    "pirates",
+    "pirate_ship",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "후크가 아이들을 붙잡아 웬디를 돛대에 묶는다",
+   "visual": "night on the deck of the pirate ship: the girl of twelve in the long white nightgown with the long brown hair loose is the one standing bound to the thick mast at frame centre with rough rope wound around her waist and arms, her gentle face lifted and her chin set; the tall pirate captain with the long black curls, the crimson coat with the gold braid and the wide black hat with the white feather is the one standing at frame right seen from the waist up, the curved iron claw in place of his right hand raised beside his moustached face as he leans toward her; the band of rough pirates in the striped shirts and red headscarves are the ones crowded at frame left with their cutlasses at their belts, plain bearded faces; only the girl is bound, only the captain wears crimson; the rigging above, a lantern's dull yellow light, the dark blue sky with small white stars",
+   "motion": "the tall pirate captain in the crimson coat is the one who moves, and the bound girl and the pirates hold still: at the start his claw is raised beside his face as he leans toward her; over the first two seconds he leans slowly closer and the raised claw lowers slowly until its curved point rests a finger's width from her cheek, his moustache lifting in a sneer; in the last two seconds the claw holds there; the girl keeps her chin set and her face lifted, the rope not loosening; the pirates keep their crowd with their hands on their belts, not stepping; the rigging, the lantern light and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "peter",
+    "hook",
+    "cutlass",
+    "pirate_ship",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "해적선 갑판에 내려서서 후크와 칼을 맞댄 피터",
+   "visual": "night on the deck of the pirate ship: the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one standing at frame left with his bare feet planted wide on the planks, the short dagger from his belt of bark already raised in his right hand in front of him and held completely motionless, its blade crossed against the curved cutlass with the brass guard; the tall pirate captain with the long black curls, the crimson coat with the gold braid and the wide black hat with the white feather is the one standing at frame right seen from the waist up with the cutlass held out in his left hand, its blade crossed against the dagger, the curved iron claw in place of his right hand raised behind him, his moustached face bared in a snarl; only the boy wears leaves and is small, only the captain wears crimson; the thick mast and rigging behind, coiled rope, the dark blue sky with small white stars",
+   "motion": "the two crossed blades are what move, and the two fighters hold their stances: at the start the dagger and the cutlass are crossed between them; over the first three seconds the crossed blades press slowly against each other and slide a hand's width along each other with a grinding scrape, the boy's raised arm trembling with the strain and the captain's cutlass arm pressing down, both faces set; in the last two seconds the blades hold crossed; the boy's bare feet stay planted, the captain's claw stays raised behind him, neither steps; the mast, the rigging, the rope and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "hook",
+    "peter",
+    "pirate_ship",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "칼끝에 몰린 후크가 뱃전까지 밀려난다",
+   "visual": "night on the deck of the pirate ship at the wooden rail: the tall pirate captain with the long black curls, the crimson coat with the gold braid and the wide black hat with the white feather is the one standing with his back pressed against the rail at frame right seen from the waist up, leaning backward over it, the curved iron claw in place of his right hand gripping the rail behind him, his left hand open and bare, his moustached face wide-eyed; the boy of about twelve in the short tunic of stitched green leaves with the tousled reddish-brown hair is the one standing at frame left with the short dagger raised in his right hand pointed at the captain's chest and held completely motionless, his grinning face lifted; only the captain wears crimson and leans over the rail, only the boy wears leaves; the plank run out over the side beyond the rail, the dark water below, the dark blue sky with small white stars",
+   "motion": "the tall pirate captain against the rail is the one who moves, and the boy holds his dagger pointed: at the start the captain leans backward over the rail with his claw gripping it; over the first two seconds he leans slowly further backward over the rail, his hat tipping back and the white feather dipping, his open left hand rising open beside his face, his boots sliding a little on the planks; in the last two seconds he holds leaning far back; the boy keeps the dagger pointed and motionless, his feet planted, his grinning face lifted; the plank, the dark water and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "hook",
+    "crocodile",
+    "pirate_ship",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "뱃전 아래 물속에서 입을 벌린 악어를 후크는 피할 수 있을까 (질문)",
+   "visual": "night at the side of the pirate ship, seen from the dark water: the huge green crocodile with the long scaled body is the one floating in the dark water at the lower half of the frame with its open jaws full of teeth turned straight up toward the rail; above it at the top of the frame the tall pirate captain in the crimson coat with the gold braid and the wide black hat with the white feather is the one hanging half over the wooden rail with his back to the water, the curved iron claw in place of his right hand gripping the rail and his long black curls hanging down, his moustached face turned down over his shoulder toward the jaws; the ship's dark hull between them, the dark blue sky with small white stars above the rail",
+   "motion": "the huge green crocodile in the water is the one that moves, and the captain hangs over the rail: at the start the crocodile floats with its open jaws turned up toward the rail; over the first three seconds the crocodile rises slowly higher in the water, its jaws opening wider and its front feet lifting against the hull, its tail sweeping once behind it; in the last two seconds it holds high against the hull with the jaws wide; the captain keeps his claw gripping the rail and his face turned down over his shoulder, his curls hanging, not falling; the hull and the stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "nursery",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "열린 창에 커튼만 나부끼는 아이 방 (마무리)",
+   "visual": "night inside the Victorian nursery: the tall sash window stands wide open at frame centre with the white curtains blown inward and lifting on either side, the dark blue sky full of small white stars beyond it; the three small beds with their white quilts thrown back and flat at the left, the wooden rocking horse in the corner, the small candle in its glass on the chest of drawers glowing dull yellow, the patterned rug; the beds and the room are bare of any person",
+   "motion": "the white curtains are what move, and the room holds still: at the start the curtains are blown inward and lifting on either side of the wide open sash window; over the whole shot the curtains billow slowly inward and sink and billow again in a steady night breeze, their hems brushing the patterned rug and lifting again, the small candle flame in its glass leaning and straightening with each breath of air so that the shadows of the bed posts sway slowly across the wall; in the last two seconds the breeze eases and the curtains sink; the three flat white quilts on the small beds, the wooden rocking horse, the chest of drawers and the small white stars beyond the window hold completely still; nothing comes in through the window; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "그 섬에서 기다리는 것과, 아이들이 돌아오게 되는 사연"
+ "withheld": "아이들의 귀가와 그 뒤 창가의 약속"
 }

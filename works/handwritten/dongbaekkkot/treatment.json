@@ -1,61 +1,209 @@
 {
- "logline": "이웃집 소녀가 내민 것을 받지 않은 소년이, 그 뒤로 매일 같은 자리에서 그녀와 마주친다.",
- "destination": "산비탈의 노란 동백꽃 덤불 — 두 아이가 끝내 함께 굴러떨어지는 자리",
- "protagonist": "소작농의 아들인 열일곱 살 소년",
- "setting": "1930년대 강원도 산골, 울타리와 감자밭과 산비탈",
- "anchor": "a lean teenage boy in patched cotton jacket and straw sandals, sunburnt face, Korean mountain hamlet",
- "palette": "late spring sun, yellow blossom, wet earth brown, hazy blue ridgeline",
+ "logline": "감자 세 알을 받지 않은 소년이 이웃집 소녀의 닭싸움에 시달리다, 노란 꽃 덤불 앞에서 그 소녀의 손을 어깨에 받는다",
+ "destination": "소설 동백꽃에서 만날 수 있습니다",
+ "protagonist": "boy",
+ "setting": "1930년대 강원도 산골, 울타리와 초가 마당과 노란 꽃 핀 산비탈",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/dongbaekkkot/assets",
+ "anchor": "a lean sunburnt Korean farm boy in a patched cotton jacket and grey headband, straw sandals",
+ "palette": "pale yellow, dark brown, off-white, dark blue, ash grey",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "소년이 울타리 옆에서 닭에게 모이를 뿌린다.",
-   "visual": "a teenage boy scattering grain to hens beside a low brushwood fence, mountain slope behind",
-   "motion": "grain scatters in an arc, hens dart forward, dust puffs up"
+   "cast": [
+    "boy",
+    "jeomsun",
+    "fence",
+    "hillside",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "나무하고 내려오다 울타리 옆에서 만난 점순이",
+   "visual": "the spring hillside path coming down from the pine woods: the farm boy is the one walking down the path at frame right with a wooden A-frame carrier of brushwood on his back, his sunburnt face lowered under the grey headband and his big hands hooked in the carrier straps; the girl with the long braid is the one standing beside the waist-high brushwood fence at frame left in her white jeogori and dark blue skirt, her hands behind her back and her sharp round face turned up toward him with a teasing tilt of the chin; terraced fields of dark earth and a thatched roof lie beyond the fence and the hazy blue ridges rise behind under a pale spring sky",
+   "motion": "the boy walks steadily down the path toward the fence with the brushwood swaying on his back, his head lifting slowly as he notices the girl, while she stays planted by the fence with her hands behind her back; the fields, the roof and the ridges hold still; camera fixed"
   },
   {
    "n": 2,
-   "beat": "이웃 소녀가 감자 세 알을 불쑥 내민다.",
-   "visual": "a girl thrusting three potatoes forward in cupped hands toward a teenage boy at a fence",
-   "motion": "her hands push forward, the potatoes wobble, his shoulders stiffen"
+   "cast": [
+    "jeomsun",
+    "potatoes",
+    "boy",
+    "fence",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "느 집엔 이거 없지? — 감자 세 알",
+   "visual": "a close view at the brushwood fence: the girl with the long braid is the one at frame left leaning over the woven twigs with her two cupped hands thrust forward holding three small steaming boiled potatoes with split pale skins, her round face close to them with a wide teasing grin and her eyes on the boy; the farm boy is the one at frame right in his patched jacket with the brushwood carrier still on his back, his sunburnt face turned half away and his thick brows drawn down, one big hand gripping the carrier strap; the pale spring sky and a hazy ridge behind the fence",
+   "motion": "the girl pushes her cupped hands with the three potatoes slowly further across the fence toward the boy's chest, her grin widening and her braid swinging forward over her shoulder, while the boy holds his half-turned pose without moving; the fence and the sky hold still; camera fixed"
   },
   {
    "n": 3,
-   "beat": "소년은 고개를 돌리고 그것을 받지 않는다.",
-   "visual": "a teenage boy turning his face away with hands behind his back, a girl standing still in front",
-   "motion": "his head turns aside, her arms lower, wind lifts the fence grass"
+   "cast": [
+    "boy",
+    "jeomsun",
+    "potatoes",
+    "fence",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "고개를 홱 돌리고 감자를 받지 않는 소년",
+   "visual": "at the brushwood fence: the farm boy is the one filling the right half of the frame with his head turned sharply away to the right so that only the back of his cropped hair, his headband and the line of his jaw show, his arms folded hard across his patched jacket and the brushwood carrier on his back; the girl's two cupped hands holding the three potatoes stay thrust out from frame left over the fence, and behind them her round face is the one turned toward him with the grin gone flat and her eyes narrowed; the terraced fields and the hazy blue ridge under the spring sky",
+   "motion": "the boy's folded arms tighten and his turned head jerks a small degree further away, while the girl's hands with the potatoes slowly draw back across the fence toward her chest and her narrowed eyes stay on him; the fence and the ridge hold still; camera fixed"
   },
   {
    "n": 4,
-   "beat": "이튿날 소녀의 닭이 그의 닭을 쪼아 댄다.",
-   "visual": "two roosters clashing in a dirt yard, feathers in the air, a teenage boy running toward them",
-   "motion": "feathers burst upward, the roosters lunge, the boy sprints in"
+   "cast": [
+    "rooster_jeomsun",
+    "rooster_boy",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "소년네 닭을 쪼아 대는 점순이네 수탉",
+   "visual": "the trodden earth yard of the thatched cottage: the big glossy black rooster with the tall crimson comb is the one in the center of the frame rearing up on its thick yellow legs with its wings half spread and its neck stretched down, its beak driven at the head of the small scrawny brown rooster, which is the one crouched low beneath it against the brushwood fence with its pale comb bloodied and its thin neck bare of feathers; loose brown feathers lie on the ground around them; two hens scurry away at the left edge, the stone mortar stands at the right and the bare persimmon tree rises at the corner under the pale spring sky",
+   "motion": "the black rooster's stretched neck drives down again and again at the crouched brown rooster in one continuous hammering rhythm, its half-spread wings beating the air and dust lifting around its yellow legs, while the brown rooster stays pressed low against the fence; the mortar, the tree and the fleeing hens at the edge hold their places; camera fixed"
   },
   {
    "n": 5,
-   "beat": "소년은 제 닭을 안고 뒤로 물러선다.",
-   "visual": "a teenage boy clutching a battered rooster against his chest, backing toward a fence, girl watching",
-   "motion": "the rooster flaps against his chest, he steps backward, her chin lifts"
+   "cast": [
+    "boy",
+    "rooster_boy",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "피투성이 닭을 안고 분을 삭이는 소년",
+   "visual": "the cottage yard: the farm boy is the one crouched on his heels at the center in his patched jacket with the small scrawny brown rooster held against his chest in both big hands, the bird's bloodied pale comb and bare thin neck drooping over his forearm, his sunburnt face bent close to it with his thick brows knotted and his jaw set hard; brown feathers lie on the trodden earth around his straw sandals, the brushwood fence and the stone mortar stand behind him and the low mud wall closes the frame; warm afternoon light from the left",
+   "motion": "the boy's thumb strokes slowly down the brown rooster's bare neck once and stays there while his knotted brows draw tighter and his jaw sets harder; the rooster lies still against his chest; the fence, the mortar and the wall hold; camera drifting very slowly forward"
   },
   {
    "n": 6,
-   "beat": "소녀는 날마다 그 자리에서 그를 기다린다.",
-   "visual": "a girl sitting on a stone at a hillside path in evening light, an empty trail winding below",
-   "motion": "her heel taps the stone, grass sways, long shadows stretch"
+   "cast": [
+    "boy",
+    "rooster_boy",
+    "gochujang",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "닭에게 고추장을 먹이는 소년",
+   "visual": "the cottage yard by the stone mortar: the farm boy is the one kneeling at the center with the small brown rooster pinned under his left arm against his patched jacket, its beak held open by his left thumb and forefinger, while his right hand lifts a wooden spoon heaped with thick dark red chili paste from the small chipped earthenware bowl on the ground toward the bird's open beak; his sunburnt face is set with grim purpose under the grey headband; the brushwood fence and two curious hens behind, the bare persimmon tree at the corner, warm afternoon light",
+   "motion": "the boy's right hand carries the spoon of chili paste slowly up to the rooster's open beak and tips it in, the bird's pinned body jerking once under his arm and then going still; the bowl on the ground, the fence and the hens hold; camera fixed"
   },
   {
    "n": 7,
-   "beat": "그 덤불 속에서 두 아이는 어떻게 될까?",
-   "visual": "a teenage boy and a girl standing very close at the edge of a yellow blossom thicket, slope falling away",
-   "motion": "the thicket sways around them, her hand rises, petals scatter between"
+   "cast": [
+    "rooster_jeomsun",
+    "rooster_boy",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "오히려 더 세게 얻어맞고 쓰러진 닭",
+   "visual": "the cottage yard: the small scrawny brown rooster is the one lying on its side on the trodden earth at the lower center with its thin legs stretched out and its bloodied pale comb in the dust, a smear of dark red paste still at its beak; the big glossy black rooster with the tall crimson comb is the one standing over it at frame right with its chest thrust out, its long curved tail feathers raised and one thick yellow leg lifted; loose brown feathers scattered across the earth, the brushwood fence behind, the stone mortar at the left and the pale spring sky above the low mud wall",
+   "motion": "the black rooster's lifted yellow leg comes slowly down onto the earth beside the fallen bird and its thrust-out chest swells as it draws itself up taller, the tail feathers rising a little higher, while the brown rooster lies without moving; the fence, the mortar and the wall hold still; camera fixed"
   },
   {
    "n": 8,
-   "beat": "노란 꽃 덤불만 산길에 남아 흔들린다.",
-   "visual": "a hillside path swallowed by yellow blossom thickets with no one on it, late spring light",
-   "motion": "the whole thicket sways in one slow wave, petals drop, the path stays empty",
-   "anchor": false
+   "cast": [
+    "jeomsun",
+    "fence",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "싸움을 지켜보며 웃기만 하는 점순이",
+   "visual": "the brushwood fence seen from the yard side: the girl with the long braid is the one leaning on the woven twigs at the center with her folded arms on the top of the fence and her chin resting on her arms, her round face lit by a wide amused smile with her eyes crinkled, the red cord of her braid hanging forward over the fence; behind her the terraced fields, a thatched roof and the hazy blue ridges under the pale spring sky; the fence twigs are grey and the afternoon light warms her cheek",
+   "motion": "the girl's shoulders shake slowly with silent laughter so that her chin lifts a little off her arms and settles again, her amused smile widening and her braid swinging gently against the fence; the fields, the roof and the ridges hold still; camera fixed"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "jeomsun",
+    "boy",
+    "fence",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "이 바보 녀석아! — 소년을 놀리는 점순이",
+   "visual": "the footpath along the brushwood fence: the girl with the long braid is the one standing at frame left with both hands cupped around her mouth and her body leaning forward over the fence, her sharp eyes bright and her braid swung over one shoulder; the farm boy is the one walking away from her along the path at frame right with the back of his cropped head and his grey headband to the camera and his head held straight ahead, his shoulders hunched and his big hands balled at his sides; the terraced fields and the hazy ridge under the pale spring sky",
+   "motion": "the girl leans further over the fence with her cupped hands at her mouth while the boy keeps walking away along the path with his head held straight ahead and his hunched shoulders lifting a little higher; the fence, the fields and the ridge hold still; camera fixed"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "boy",
+    "hillside",
+    "yard",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "산에서 내려오다 또 닭싸움을 본 소년",
+   "visual": "the hillside path above the cottage: the farm boy is the one stopped on the path at the upper left with the wooden A-frame carrier of brushwood on his back, his body frozen mid-step and his sunburnt face turned down toward the yard below, his thick brows drawn together; below him at the lower right the trodden earth yard of the thatched cottage inside its brushwood fence, where a small flurry of loose feathers and dust rises at the center of the yard; the terraced fields of dark earth between, the bare persimmon tree at the yard corner, and the hazy blue ridges behind under the pale spring sky",
+   "motion": "the boy's frozen step slowly completes onto the path and his body leans forward toward the yard, the brushwood carrier tipping a little on his back and his hands leaving the straps, while the flurry of feathers and dust in the yard below keeps rising and settling; the fields, the tree and the ridges hold still; camera fixed"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "boy",
+    "stick",
+    "rooster_jeomsun",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "작대기로 큰 수탉을 때려눕히는 소년",
+   "visual": "the cottage yard: the farm boy is the one at the center with the stout wooden staff gripped in both big hands and swung down low, his body twisted with the blow and his sunburnt face fierce under the grey headband, the brushwood carrier thrown down on the earth behind him; the big glossy black rooster with the tall crimson comb is the one sprawled on the trodden earth at the lower right with its long tail feathers crumpled and its wings flung open, black feathers scattered around it; the brushwood fence and the stone mortar behind, the low mud wall and the bare persimmon tree at the corner",
+   "motion": "the boy's swung staff comes slowly to rest against the earth beside the sprawled rooster and his twisted body straightens a degree, his chest heaving, while the black rooster lies still with its wings flung open; the fence, the mortar and the wall hold; camera fixed"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "boy",
+    "rooster_jeomsun",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "그제야 겁이 나 울음이 터진 소년",
+   "visual": "the cottage yard: the farm boy is the one standing at the center with his big hands hanging empty at his sides, the stout wooden staff dropped on the earth at his feet, his sunburnt face crumpling with his mouth pulled down and wet streaks on both cheeks under the grey headband; the big black rooster is the one lying motionless on the trodden earth at the lower left with its crimson comb in the dust and its wings open, black feathers scattered; the brushwood fence, the stone mortar and the low mud wall behind, warm afternoon light from the left",
+   "motion": "the boy's crumpled face slowly tips down toward the fallen rooster and his shoulders begin to shake, the wet streaks running down his cheeks, while his empty hands stay hanging at his sides; the rooster, the staff, the fence and the wall hold still; camera drifting very slowly forward"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "jeomsun",
+    "boy",
+    "flower_bush",
+    "hillside"
+   ],
+   "refs": [],
+   "beat": "이르지 않겠다며 어깨를 잡는 점순이",
+   "visual": "before the wide bush of pale yellow blossoms on the hillside: the girl with the long braid is the one at frame left with her right hand gripping the farm boy's near shoulder over his patched jacket, her round face close to his and turned up to him with a soft half smile and her eyes steady; the farm boy is the one at frame right with his wet sunburnt face turned toward her, his mouth still pulled down and his big hands open at his sides; the yellow blossoms crowd thickly along the bare dark twigs behind them taller than their heads and fallen petals lie on the soft ground at their straw sandals; warm afternoon light",
+   "motion": "the girl's gripping hand slowly tightens on the boy's shoulder and draws him a small step toward her, her half smile deepening, while the boy's wet face stays turned to her and his hands stay open; the blossoms behind them sway very slightly and the ground and the hillside hold still; camera fixed"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "jeomsun",
+    "boy",
+    "flower_bush",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "노란 꽃 냄새 속의 두 아이",
+   "visual": "a close view before the yellow blossoms: the girl's small hand rests on the farm boy's shoulder at the center of the frame, her round face at frame left with the red-corded braid over her shoulder and her eyes half closed, and the boy's wet sunburnt face at frame right under the grey headband with his eyes wide and his mouth slightly open; pale yellow blossoms on bare dark twigs fill the whole background around and above the two heads and a few loose petals hang in the air between them; the pale spring sky shows through the twigs at the top; warm soft light on both faces",
+   "motion": "the two faces slowly lean a little closer together as the loose petals drift down between them and settle, the girl's half-closed eyes closing and the boy's wide eyes staying open; the blossoms behind and the sky above hold still; camera drifting very slowly forward"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "flower_bush",
+    "hillside",
+    "spring_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 노란 꽃 덤불",
+   "visual": "the wide bush of pale yellow blossoms on the spring hillside, empty of every person: its bare dark twigs thick with small yellow blossoms fill the center of the frame taller than a person, fallen petals lying soft on the ground beneath it, the terraced fields of dark earth and the pine woods behind, and the hazy blue ridges under the pale spring sky; warm afternoon light comes from the left and a few loose petals hang in the air",
+   "motion": "a slow breath of wind moves through the bush so that the blossom-laden twigs sway together in one long gentle motion and a handful of pale yellow petals drift down and settle on the ground, while the fields, the woods and the ridges hold still; camera drifting very slowly backward"
   }
  ],
- "withheld": "두 아이가 함께 넘어지며 마음이 맞닿는 마지막 대목",
- "voice": "ko-KR-SoonBokNeural"
+ "withheld": "두 아이가 함께 꽃 속으로 쓰러지는 마지막, 점순이 어머니가 부르는 소리"
 }

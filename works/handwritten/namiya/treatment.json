@@ -1,0 +1,170 @@
+{
+ "logline": "30여 년 비어 있던 잡화점에 숨어든 삼인조에게 과거에서 고민 상담 편지가 도착한다 — 하룻밤의 답장",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "trio",
+ "setting": "2012년 일본 소도시 외곽 — 30여 년 비어 있던 목조 잡화점의 하룻밤, 그리고 1970년대의 같은 가게",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/namiya/assets",
+ "anchor": "three young Japanese men in cheap dark hooded jackets, clean faded jeans and worn sneakers",
+ "palette": "warm sepia, deep blue, cream, faded ochre, soft grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "시공을 건너는 규칙과 삼인조의 과거, 보육원과의 인연, 마지막 백지의 사연",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "trio"
+   ],
+   "refs": [],
+   "beat": "몇 시간 전 강도짓을 한 삼인조, 폐가로 숨어들다",
+   "visual": "deep night on the edge of a quiet Japanese town: three young Japanese men in cheap dark hooded jackets and worn sneakers hurry across a dark empty lot of dry grass toward the camera at an angle, one tall and broad, one thin and sharp-eyed in front, one broad-shouldered grown man with a wide jaw and light stubble of twenty at the back hugging a lumpy cloth bag to his chest; their tired faces glance back over their shoulders into the dark; ahead of them at frame right, beyond a broken wooden fence, rises the dark shape of an old two-storey wooden house with a rusted shutter; a single far street lamp throws a weak yellow pool on the road behind them; the sky is deep blue and starless; the mood is tense and shabby, small criminals looking for somewhere to hide; a stray cat watches from the fence post, and a bent bicycle lies in the grass; frost glints faintly on the dry grass",
+   "motion": "the three young men hurry across the dark lot toward the old house, and that hurrying is the one movement in the shot: at the start they are in the middle of the lot with their faces turned back over their shoulders; over the whole five seconds they keep moving steadily forward through the dry grass at a quick crouching walk, the stubbled one hugging the cloth bag tighter, their hooded jackets swinging and their breath showing faintly in the cold air, the grass brushing their legs; the old two-storey house, the broken wooden fence, the far street lamp and the deep blue sky stay completely still; the stray cat on the fence post stays still with its eyes following them; the bent bicycle in the grass stays still; the camera holds a medium wide shot across the lot, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "shop_front"
+   ],
+   "refs": [],
+   "beat": "30여 년째 비어 있던 그 폐가, 나미야 잡화점",
+   "visual": "night on a quiet back street of a Japanese town: the old two-storey wooden general store stands at frame centre under a single dim street lamp, its weathered wooden walls grey and warped, a rusted metal shutter pulled down across the whole shop front, the narrow mail slot in the shutter a dark line at waist height; the windows of the upper floor are dark and dusty, one pane cracked; ivy creeps up one corner of the wall; low wooden houses with dark windows line the street on both sides; the road is empty and damp; the light is cold and thin, the whole shop forgotten for thirty years and still somehow waiting; a small plain wooden bench sits beside the shutter, and a potted plant long since dried stands by the step; a faded paper lantern hangs unlit from the eave, and a few dry leaves have gathered against the bottom of the shutter",
+   "motion": "the dim street lamp above the old shop flickers faintly, and that flickering light is the one movement in the shot: at the start the lamp throws a steady weak glow over the rusted shutter; over the whole five seconds the light trembles and dims for a moment and steadies again, the shadows of the ivy and the eaves shivering faintly on the weathered wall and the narrow mail slot sinking into shadow and showing again, while the old wooden store, its rusted shutter and its dark dusty upper windows stay completely still; the low wooden houses along the street, the damp empty road and the small wooden bench stay completely still; the dried potted plant by the step stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot from across the street, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "trio",
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "어둠 속 잡화점에 숨어 아침을 기다리는 삼인조",
+   "visual": "inside the old abandoned general store at night: the three young Japanese men in cheap dark hooded jackets sit on the dusty wooden floor at frame centre with their backs against the low counter, lit only by one small flashlight standing upright on the floor between them; the tall broad one sits hunched with his arms around his knees, the thin sharp-eyed one leans his head back against the counter with his eyes open and watchful, and the broad-shouldered stubbled one hugs the lumpy cloth bag in his lap; dusty wooden shelves with a few faded plain notebooks and empty glass jars rise behind them into shadow; the sliding paper door to the tatami back room stands half open and dark; the mood is tired and uneasy, three people waiting for the night to end; a cobweb hangs from the shelf corner, and an old round floor cushion lies flattened nearby",
+   "motion": "the small flashlight on the floor flickers as its battery weakens, and that flickering beam is the one movement in the shot: at the start the flashlight throws a steady white circle up onto the ceiling; over the whole five seconds the light dims and brightens unevenly, the shadows of the three young men stretching and shrinking up the dusty shelves behind them, while the three sit still against the counter, the thin one's eyes moving slowly toward the dark back room and the others staying hunched; the dusty shelves, the faded notebooks and empty glass jars, the low counter and the half-open paper door stay completely still; the cobweb at the shelf corner and the flattened cushion stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at floor level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "한밤중, 셔터 우편함으로 들어온 편지 한 통",
+   "visual": "a close view from inside the dark abandoned general store looking at the back of the rusted metal shutter: at waist height the narrow mail slot shows as a thin line of faint street-lamp light, and through it a single plain white envelope is sliding inward, half through the slot, its blank face catching the light; below it on the dusty wooden floor lies a scatter of old dry leaves blown in long ago; the beam of a flashlight from the side lights the envelope and the rusted ribs of the shutter; dust floats in the beam; the rest of the shop is dark; the moment is quiet and uncanny, a letter arriving at a house no one lives in; a cobweb stretches across one corner of the shutter frame, and an old wooden umbrella stand stands empty beside it; a thin line of moonlight lies across the floorboards from a gap under the shutter",
+   "motion": "the plain white envelope slides slowly inward through the narrow mail slot, and that sliding envelope is the one movement in the shot: at the start the envelope is half through the slot; over the whole five seconds it slips steadily inward, edging through the thin line of light until it hangs at the very edge of the slot, tipping gently downward toward the dusty floor, the flashlight beam following it and the floating dust drifting slowly through the light; the rusted metal shutter, the dry leaves on the floor and the empty umbrella stand stay completely still; the cobweb in the corner of the shutter frame stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close shot of the shutter and the slot, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "편지를 집어 든 청년 — 누가 이걸 보낸 거야",
+   "visual": "inside the dark abandoned general store by the rusted shutter, a close medium shot of one person: the thin sharp-eyed young Japanese man in his early twenties with scruffy short black hair, in a cheap dark hooded jacket, stands alone at frame centre facing the camera in three-quarter view, holding up the plain white envelope in one hand at shoulder height, his tired grown-up face caught in surprise, mouth open mid-word, eyes wide; a small flashlight lies on the dusty counter beside him, throwing hard white light up across his face, the envelope and the ribbed back of the rusted shutter behind him; dusty wooden shelves and empty glass jars glimmer in the dark at the edges of the frame; the mood is startled and a little comic; dust motes drift in the beam, and dry leaves lie on the floorboards at the bottom of the frame",
+   "motion": "the young man holds the envelope up toward the light and turns it slowly in his fingers, and that turning envelope is the one movement in the shot: at the start he holds the envelope up with its blank face toward the camera; over the whole five seconds he turns it slowly around in the flashlight beam, peering at its blank back and front, his surprised mouth working on his question, his eyebrows climbing, while his body keeps facing the camera; the flashlight on the counter stays steady; the rusted shutter, the dusty shelves, the empty glass jars and the dry leaves on the floor stay completely still; the dust motes drift slowly in the beam; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium close shot by the shutter, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "trio",
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "가게 주인 앞으로 온 고민 상담 편지",
+   "visual": "the low wooden counter of the abandoned general store at night, lit by a small flashlight laid on its side: the three young Japanese men in dark hooded jackets lean over the counter at frame centre, the thin sharp-eyed one in the middle holding up an unfolded sheet of thin letter paper with its back toward the camera, its pale back blank and glowing in the light, the tall broad one and the broad-shouldered stubbled one leaning in from either side to read the front; their tired faces are lit from below, puzzled, their eyebrows rising; the opened plain envelope lies flat on the counter beside the flashlight; dusty shelves of faded plain notebooks and empty jars stand behind the counter in shadow; the mood is hushed and curious, a mystery arriving in the dark; a small old brass bell sits on the counter corner, and a dried-up ink pot stands beside it",
+   "motion": "the three young men lean slowly closer over the letter, and that leaning in is the one movement in the shot: at the start they bend over the counter with the sheet held up between them; over the whole five seconds the tall one and the stubbled one lean slowly nearer to the page from either side, their puzzled eyes moving across the front of the paper, while the thin one in the middle holds the sheet perfectly still with its blank back to camera, and the flashlight beam on the counter stays steady; the opened envelope on the counter, the dusty shelves, the faded notebooks and the empty jars stay completely still; the small brass bell and the dried ink pot stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the counter, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "trio",
+    "shop_back"
+   ],
+   "refs": [],
+   "beat": "얼떨결에 쓴 답장을 뒤편 우유 상자에",
+   "visual": "the narrow alley behind the old wooden general store at night, under a single dim lamp: the broad-shouldered grown man with a wide jaw and light stubble in the dark hooded jacket stands at the back wall at frame centre, seen from behind at an angle, lifting the small hinged lid of the weathered wooden milk box fixed beside the back door with one hand and sliding a folded plain envelope into it with the other; behind him at frame left the tall broad young man holds up a flashlight, its beam on the milk box, and the thin sharp-eyed one leans against the wall with his arms folded, watching the alley; the back wall is grey and weathered, a drainpipe running down it; the mood is awkward and secretive, a reply sent into the dark; a stack of old empty crates leans against the wall, and a thin cat sits on top of them; a single moth flutters around the dim alley lamp",
+   "motion": "the small young man slides the folded envelope slowly down into the milk box, and that sliding is the one movement in the shot: at the start he holds the hinged lid open with the envelope just at its mouth; over the whole five seconds he lowers the envelope slowly into the box until only its edge shows and then eases the wooden lid down over it, his shoulders hunched, while the tall one holds the flashlight beam steady on the box and the thin one stays leaning against the wall with folded arms; the weathered back wall, the drainpipe, the back door and the dim lamp stay completely still; the stack of empty crates stays still and the thin cat on top of them watches without moving; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot in the alley, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "답장은 사라지고, 또 다른 편지가 셔터 틈으로",
+   "visual": "inside the dark abandoned general store, seen low across the dusty floor toward the back of the rusted shutter: a second plain envelope, slightly yellowed, lies on the dusty floorboards just below the narrow mail slot at frame centre, lit by the beam of a flashlight from the side; behind it the thin line of the mail slot glows faintly with street-lamp light; a few old dry leaves lie around the envelope; dust floats slowly in the beam; the rest of the shop is black; the mood is uncanny and expectant, the letters refusing to stop; an old wooden umbrella stand stands empty by the shutter, and a cobweb glints in the corner; a few strands of old cobweb hang from the shutter ribs",
+   "motion": "the flashlight beam trembles slightly over the second envelope on the floor, and that trembling beam is the one movement in the shot: at the start the circle of light rests on the yellowed envelope below the slot; over the whole five seconds it wavers a little, the light sliding up the rusted ribs of the shutter to the glowing slot and back down to the envelope, the floating dust swirling slowly through it, while the envelope itself lies perfectly still on the dusty floorboards; the rusted shutter, the dry leaves, the empty umbrella stand and the dark shop stay completely still; the cobweb in the corner glints and stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a low shot across the floor, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "알고 보니 수십 년 전 과거에서 날아온 편지",
+   "visual": "a close view on the low wooden counter of the abandoned general store in the deep blue light before dawn: several plain envelopes lie spread in a loose row across the dusty wood at frame centre, each one a little more yellowed and soft with age than the last, their edges curling, their faces blank; one is old-fashioned thin paper the colour of weak tea, folded in the style of decades ago; a small flashlight lies switched off beside them; through the dusty front window behind the counter the back street shows faintly in deep blue, its low wooden houses still dark; the dust on the counter shows a clean line where the letters were slid across it; the mood is quiet and strange, time folding over itself in one small shop; an old fountain pen lies uncapped beside the envelopes, and a single pressed flower lies on the counter edge",
+   "motion": "the deep blue light from the front window slowly grows paler over the row of envelopes, and that brightening light is the one movement in the shot: at the start the counter lies in deep blue gloom with the envelopes barely showing; over the whole five seconds the light through the dusty window grows slowly paler and softer, the yellowed envelopes and the tea-coloured old paper emerging one after another from the dark along the counter and the clean line in the dust showing clearly, while the envelopes, the switched-off flashlight and the uncapped fountain pen lie perfectly still; the dusty window, the dark houses beyond it and the counter itself stay completely still; the pressed flower on the counter edge stays still; the camera holds a close shot along the counter, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "시한부 연인의 곁을 지킬지, 꿈을 좇을지 묻는 편지",
+   "visual": "a quiet small room at night decades ago, seen in soft lamplight, with no human figure anywhere: by a window at frame centre stands a simple wooden desk, and on it lies a single folded letter beside a small pot of white flowers and a pair of worn athletic shoes with their laces tied together; a sports bag sits packed and zipped on the floor by the desk, ready to go; beyond the window glass the night is wet and dark, rain running down the outside of the pane; a single desk lamp throws a warm small cone over the letter and the flowers; a small framed painting of white flowers leans against the wall; the mood is tender and torn, a choice that cannot wait; a folded soft cardigan hangs on the back of the chair, and a teacup sits gone cold by the lamp; a folded towel lies over the sports bag, and a pair of white wristbands rests on the desk",
+   "motion": "the rain runs slowly down the outside of the dark window behind the desk, and that running rain is the one movement in the shot: at the start the rain streaks the dark glass in thin lines; over the whole five seconds the raindrops trickle steadily down the outer face of the pane, gathering and sliding, their faint shadows wavering over the desk top and the folded letter, while the folded letter, the small pot of white flowers and the tied athletic shoes stay perfectly still in the warm cone of the lamp; the packed sports bag on the floor, the wooden desk and the small framed painting stay completely still; the cardigan on the chair and the cold teacup stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the desk by the window, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "몇 년째 꿈을 좇는 음악가의 물음",
+   "visual": "a narrow wooden staircase outside a small rented room late at night, decades ago, lit by one bare bulb, with no human figure anywhere: on the worn top step at frame centre sits an old acoustic guitar case with its lid open and the scuffed guitar resting inside it, and on the step below lies a small silver harmonica gleaming in the light beside a folded letter; a crumpled brown paper bag lies on the step; the stair rail is worn smooth; the door to the room stands closed above; the wall beside the stairs is cracked plaster; the mood is weary and hopeful at once, a dream held onto for too many years; a can of cold coffee stands on the step, and a moth circles the bare bulb; a pair of worn canvas shoes sits neatly by the closed door above",
+   "motion": "the small moth circles slowly around the bare bulb above the staircase, and that circling moth is the one movement in the shot: at the start the moth flutters near the bulb; over the whole five seconds it circles slowly around the light, its tiny shadow sliding across the open guitar case, the gleaming harmonica and the crumpled paper bag on the steps and away again, while the guitar in its case, the harmonica, the folded letter and the paper bag stay perfectly still on the worn steps; the stair rail, the closed door above and the cracked plaster wall stay completely still; the can of cold coffee on the step stays still; the bare bulb holds its steady light; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot up the staircase, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "namiya",
+    "shop_70s"
+   ],
+   "refs": [],
+   "beat": "40여 년 전, 나미야 할아버지의 고민 상담",
+   "visual": "a bright summer afternoon in the 1970s inside the cheerful little general store: the kindly old Japanese shopkeeper with short white hair, round wire glasses and a dark cloth apron stands behind the low wooden counter at frame centre, facing the camera, laughing warmly with his eyes crinkled, holding up a small folded slip of paper between two fingers; on the counter in front of him sits a small wooden box with a slot in its lid; three small children in summer shorts and caps stand at the counter with their backs to camera, one of them on tiptoe pushing another folded slip into the box; wooden shelves of plain notebooks, pencils standing in jars and glass jars of wrapped sweets fill the walls; sunlight pours through the open shop front; the mood is warm and playful; a wind chime hangs at the doorway, and a bicycle stands outside in the sun",
+   "motion": "the old shopkeeper laughs and turns the little folded slip slowly in his fingers, and that turning slip is the one movement in the shot: at the start he holds the folded paper up between two fingers with his eyes crinkled; over the whole five seconds he turns it slowly round between his fingers, his shoulders shaking gently with his warm laugh, while the three children at the counter stay with their backs to camera, the one on tiptoe holding the other slip at the slot of the wooden box; the shelves of plain notebooks, the pencils in jars and the glass jars of sweets stay completely still; the wind chime at the doorway sways faintly and the bicycle outside stays still in the sun; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the counter, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "trio",
+    "shop_inside"
+   ],
+   "refs": [],
+   "beat": "투덜대던 삼인조, 남의 고민을 진심으로 걱정하다",
+   "visual": "the low wooden counter of the abandoned general store late at night, lit by a single stubby candle in a saucer: the three young Japanese men in dark hooded jackets sit close together on old wooden stools at frame centre, the thin sharp-eyed one in the middle holding a pencil above a blank sheet of paper on the counter, his chin on his other fist, frowning in thought; the tall broad one rests his elbows on the counter and stares into the candle flame with a serious face, and the broad-shouldered stubbled one leans in with his eyebrows drawn up in worry; a small stack of plain envelopes sits by the candle; dusty shelves behind them hold faded plain notebooks and empty jars; the mood is quiet and earnest, three rough young men caring for strangers; candle smoke curls thinly upward, and a crumpled ball of paper lies on the counter",
+   "motion": "the candle flame sways gently as the three young men sit thinking, and that swaying flame is the one movement in the shot: at the start the small flame burns upright in its saucer; over the whole five seconds it leans and flickers softly in a faint draught, the warm light shifting over the three serious faces and the thin smoke curling upward, while the thin one holds his pencil still above the blank sheet, the tall one keeps staring into the flame and the stubbled one stays leaning in; the stack of plain envelopes, the crumpled ball of paper, the low counter and the dusty shelves behind them stay completely still; the small flame's reflection glimmers faintly in the empty glass jars on the shelves; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the counter, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "shop_front"
+   ],
+   "refs": [],
+   "beat": "당신이라면 어떤 고민을 보낼까",
+   "visual": "the first pale light of dawn on the quiet back street: the old two-storey wooden general store stands at frame centre, its rusted metal shutter still pulled down, the narrow mail slot a dark line at waist height, the weathered wooden walls warming slowly to soft gold; the low wooden houses along the street begin to show in the grey-blue morning; the street lamp beside the shop has gone out; the sky above the roofs is washed pale blue with a faint band of warm light at the horizon; a few sparrows hop on the damp road in front of the shop; the light is soft and new; the mood is gentle and open, a door that still takes letters; the small plain wooden bench sits beside the shutter, and a single folded envelope rests on the bench in the morning light; an old bicycle leans against the low house next door",
+   "motion": "the soft gold dawn light spreads slowly across the front of the old shop, and that spreading light is the one movement in the shot: at the start the shop front lies in grey-blue shadow; over the whole five seconds the warm light creeps slowly down the weathered wooden walls from the upper windows to the rusted shutter and the narrow mail slot, the old wood turning gold as it passes, while the sparrows hop lightly on the damp road; the old store, its rusted shutter, the low houses along the street and the darkened street lamp stay completely still; the small wooden bench and the folded envelope resting on it stay still; the pale sky holds its colour; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot from across the street, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shop_70s"
+   ],
+   "refs": [],
+   "beat": "마무리 — 빛이 드는 옛 잡화점의 계산대",
+   "visual": "a quiet closing still inside the cheerful little general store in soft morning light, with no human figure anywhere: the low wooden counter runs across the frame, and on it sits the small wooden box with a slot in its lid, a single folded slip of paper resting on top of it; beside the box stands a glass jar of wrapped sweets glowing in the light; behind the counter the wooden shelves hold rows of plain notebooks and pencils standing in jars; morning sunlight slants in through the open shop front and lies in long warm bars across the counter and the worn floorboards; dust motes float slowly in the light; the mood is warm and peaceful, a place that always answers; a wind chime hangs at the doorway, and a small potted morning glory climbs the door frame; a small brass bell sits at the corner of the counter, catching the light",
+   "motion": "the dust motes drift slowly through the long bars of morning sunlight over the counter, and that drifting dust is the one movement in the shot: at the start the bright motes hang in the slanting light; over the whole five seconds they float slowly upward and sideways through the warm bars, glittering as they pass the glass jar of sweets and the wooden box, while the counter, the wooden box with its folded slip, the glass jar and the shelves of plain notebooks and pencils stay completely still; the worn floorboards and the open shop front stay still; the wind chime at the doorway sways very faintly and the potted morning glory stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium still shot across the counter, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

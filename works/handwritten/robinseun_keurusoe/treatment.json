@@ -1,61 +1,202 @@
 {
- "logline": "난파로 무인도에 홀로 남겨진 남자가, 아무것도 없는 곳에서 살림을 하나씩 세운다.",
- "destination": "섬의 모래밭 — 그가 혼자가 아님을 알게 되는 자리",
- "protagonist": "덥수룩한 수염에 염소 가죽 옷을 걸친 중년 남자",
- "setting": "17세기 대서양의 무인도, 해변과 동굴과 밀림",
- "anchor": "a bearded middle-aged man in rough goatskin clothes and a tall goatskin cap",
- "palette": "bleached sand, turquoise shallows, deep jungle green, driftwood grey",
- "voice": "ko-KR-BongJinNeural",
+ "logline": "폭풍에 배를 잃고 무인도에 홀로 닿은 크루소가 난파선에서 짐을 나르고 울타리와 천막을 세워 날을 세며 보리와 염소로 살아가다가, 모래밭의 맨발 자국 하나를 본 뒤 쫓기던 한 사람을 구해 함께 살고, 어느 아침 수평선에 낯선 돛배가 선다",
+ "destination": "소설 로빈슨 크루소에서 만날 수 있습니다",
+ "protagonist": "crusoe_late",
+ "setting": "1650년대 대서양의 무인도 — 난파선과 암초, 모래 해변, 바위 밑 울타리 집, 숲의 빈터",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/robinseun_keurusoe/assets",
+ "anchor": "a bearded man in a goatskin jerkin alone on an uninhabited island by the open sea",
+ "palette": "ash grey, dark green, off-white, pale sand, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "돛배가 데려온 사람들의 정체와, 크루소가 스물여덟 해 만에 그 배를 타고 돌아가는 마지막",
  "beats": [
   {
    "n": 1,
-   "beat": "남자가 부서진 배의 널판을 붙잡고 파도에 밀린다.",
-   "visual": "a man clinging to a broken ship plank as surf drives him toward a wide empty beach",
-   "motion": "the wave carries him forward onto the sand, foam boils past, the plank pitches"
+   "cast": [
+    "wreck",
+    "storm_bg"
+   ],
+   "refs": [],
+   "beat": "브라질로 가던 배가 폭풍에 부서진다",
+   "visual": "the last grey daylight in a storm at sea: the wooden merchant ship is the one lying over hard on her side at frame centre on a low black reef, her three masts down across her deck in a tangle of rigging, her hull split open along the side turned to the camera so that the dark inside of her shows between the broken planks; grey-green water heaped with foam runs over her low rail and back off it; rain comes down in straight grey lines across the whole frame; spray stands white in the air over the reef at frame left; a few loose barrels and broken timbers lie in the water round her stern; the low flat storm sky the colour of wet slate fills the top of the frame; there is nobody on her deck and nobody in the water",
+   "motion": "the water running over the ship's low rail is the one thing that moves, and the wreck holds still: at the start a heaped grey-green swell stands up along her exposed side; over the first three seconds the swell climbs slowly up her planking and comes over the low rail in a wide slow sheet that spreads along the sloping deck between the fallen masts, then drains slowly back off the rail in long white threads down her side; in the last two seconds a second swell stands up along the same side at the same slow rate; the hull keeps its exact place on the black reef with her fallen masts and tangled rigging not shifting at all; the split planking stays open; the rain keeps coming down in straight lines at a steady rate; the loose barrels and broken timbers round her stern keep their places; the storm sky does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "남자가 난파선에서 궤짝을 뗏목에 옮겨 싣는다.",
-   "visual": "a man loading crates from a wrecked ship's deck onto a makeshift raft in shallow water",
-   "motion": "a crate swings down onto the raft, ropes strain, the hull groans and settles"
+   "cast": [
+    "crusoe_early",
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "물에 떠밀려 온 크루소만 낯선 섬에 닿는다",
+   "visual": "flat grey light on a wide bare beach: the man of twenty-seven with the dark hair down to his collar and the short dark beard in the torn white sailor's shirt is the one lying face down along the pale wet sand at frame centre, his chest and his cheek flat against the sand and his face turned side-on to it, both arms stretched out above his head with the palms open on the sand, his legs trailing out behind him with his bare feet still in the shallow water at the frame's edge; his whole body lies flat on the sand with his back uppermost; a thin sheet of foam lies round his legs; broken ship's timbers and a split cask lie along the tide line at frame left; the open sea runs out flat and grey to the horizon behind him with nothing on it; the dense dark green jungle stands along the top of the beach at frame right; the wide low grey sky fills the top of the frame; he is the only person on the beach",
+   "motion": "the man lying on the sand is the one who moves, and the beach holds still: at the start he lies with both arms flung wide on the wet sand and his head back, his eyes closed; over the first three seconds the fingers of both hands draw slowly closed on the wet sand, gathering it into two fists, and his head turns slowly sideways so that his bearded face comes round toward the camera, his chest rising once under the torn shirt; in the last two seconds his fists stay closed on the sand with his face turned and his eyes open; his legs stay where they are with his bare feet in the shallow water; the thin sheet of foam round his legs slides slowly back down the sand at its own steady rate; the broken timbers and the split cask along the tide line do not move; the flat grey sea, the dark green jungle and the wide grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "남자가 절벽 아래 울타리를 둘러 세운다.",
-   "visual": "a man driving sharpened stakes into sand below a limestone cliff, tent and cave mouth behind",
-   "motion": "the stake is hammered down into the sand, sand sprays out, the tent canvas snaps"
+   "cast": [
+    "crusoe_early",
+    "raft",
+    "wreck",
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "부서진 배에서 뗏목으로 총과 연장을 실어 나른다",
+   "visual": "hard noon light on shallow green water between the reef and the beach: the man of twenty-seven in the torn white sailor's shirt is the one standing on the flat raft of ship's timbers at frame centre with a long pole held down into the water in both hands and his weight on the pole, his bare feet set wide on the wet timbers; the raft is loaded with two small chests, a canvas roll, a long musket laid across the chests and three round casks lashed at the back; the wrecked merchant ship lies over on the black reef behind him at frame left with her masts down; the pale sand of the beach shows ahead of him at frame right with a chest and a coil of rope already standing on the dry sand; the open sea runs out beyond the reef; the wide low grey sky above; he is the only person on the water",
+   "motion": "the raft under the man is the one thing that moves, and the wreck behind holds still: at the start the pole is down in the water at the raft's side with his weight coming onto it; over the first three seconds the raft slides slowly forward toward the beach at frame right, its wet timbers riding low with a slow ripple running out from its leading edge, the man's hands walking down the pole as it leans slowly back, his bare feet staying set wide on the timbers and the loaded chests riding steady; in the last two seconds the raft keeps sliding forward at the same slow rate with the pole leaning back behind him; the musket and the lashed casks do not shift; the wrecked ship on the reef keeps her exact place; the chest and the coil of rope on the dry sand, the dark green jungle and the grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "남자가 염소 떼를 울타리 안으로 몬다.",
-   "visual": "a goatskin-clad man herding wild goats through a gap in a stake fence, sea beyond",
-   "motion": "the goats push forward through the gap, dust lifts, his staff swings behind them"
+   "cast": [
+    "crusoe_early",
+    "stockade",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 말뚝을 박아 울타리와 천막을 세운다",
+   "visual": "afternoon light at the foot of a grey rock face: the man of twenty-seven with the short dark beard in the torn white sailor's shirt is the one standing at the half circle of tall pointed stakes at frame centre, a heavy wooden mallet raised in both hands above his shoulder and a fresh stake held upright in the gap in front of him by his knee; the stakes already driven stand shoulder high in a long curve from frame left to frame right against the rock face; the patched canvas tent shows inside the half circle behind the stakes with a fire ring of stones in front of it; a short ladder leans on the inside of the wall; loose earth is heaped round the feet of the new stakes; the dense dark green jungle stands beyond the stockade; he is the only person inside the wall",
+   "motion": "the raised mallet is the one thing that moves, and the stockade holds still: at the start the mallet is up above his shoulder in both hands with the fresh stake standing upright by his knee; over the first three seconds the mallet comes slowly down through its arc toward the head of the stake, his shoulders turning down with it and his knee bending as his weight goes forward, and then rises slowly back up above his shoulder along the same arc; in the last two seconds the mallet is on its way down again at the same slow rate; the fresh stake keeps its upright place in the gap without shifting; the driven stakes, the patched canvas tent, the fire ring of stones and the short ladder hold completely still; the heaped loose earth does not stir; the grey rock face and the dark green jungle behind hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "남자가 통나무를 파내 배를 만든다.",
-   "visual": "a bearded man hollowing a felled tree trunk with an adze at the jungle edge",
-   "motion": "the adze bites down into the trunk, chips fly outward, palm fronds toss overhead"
+   "cast": [
+    "crusoe_early",
+    "calendar_post",
+    "stockade",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 기둥에 칼자국을 새겨 날을 센다",
+   "visual": "low morning light inside the half circle of stakes: the man of twenty-seven with the short dark beard in the torn white sailor's shirt is the one standing at the squared wooden post at frame centre with a short knife held in his right hand and its point set against the face of the post at the height of his chest, his left hand flat on the post beside it, his long plain face bent close to the work; long rows of knife cuts run down the face of the post below his hands; the tall pointed stakes stand behind him in their curve with the patched canvas tent inside; the fire ring of stones is at frame left with grey ash in it; the grey rock face stands beyond the tent; the wide low grey sky above the stakes; he is the only person inside the wall",
+   "motion": "the knife at the post is the one thing that moves, and the man holds his stance: at the start its point is set against the face of the post at the height of his chest; over the first three seconds the point draws slowly down the wood in one straight cut, a thin curl of pale shaving lifting away from the blade and turning over as the cut goes down, his right wrist following it down and his left hand staying flat on the post; in the last two seconds the point holds at the foot of the new cut with the pale curl still hanging from the wood; the long rows of older cuts below stay exactly as they are; his bent face and his shoulders do not shift; the tall stakes, the patched tent, the fire ring with its grey ash and the grey rock face hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "남자가 모래밭에서 발자국 하나를 발견한다.",
-   "visual": "a lone bare human footprint pressed into wet sand, a bearded man halted above it",
-   "motion": "he stops short above the print, his shadow falls across it, foam slides up the sand"
+   "cast": [
+    "crusoe_late",
+    "goats",
+    "stockade",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "섬에서 거둔 보리와 기른 염소로 크루소가 먹고산다",
+   "visual": "full daylight on the flat ground outside the stakes: the man with the long dark beard down his chest in the tall goatskin cap and the goatskin jerkin is the one crouched on one knee at frame centre with a flat basket of cut barley ears held on his forward knee and a handful of the ears out in his open hand; three small brown goats with short curved horns are the ones standing close in front of him at frame right, the nearest with its head down to his open hand; a low patch of standing barley shows behind them at frame left with a rough fence of brushwood round it; the half circle of tall pointed stakes stands behind him with the patched canvas tent showing over them; the dense dark green jungle beyond; the wide low grey sky above; he is the only person here",
+   "motion": "the nearest goat is the one that moves, and the man holds still: at the start its head is down close to the open hand of barley ears; over the first three seconds it works slowly at the ears in his palm, its jaw going round and round in a steady grinding way and its head pushing a little further into his open hand, its front hoof sliding half a step forward in the dirt; in the last two seconds it keeps working at the ears with its head in his hand; the man stays crouched on one knee with the flat basket steady on his forward knee and his open hand held out, his bearded face down toward the goat without moving; the other two goats keep their places behind it; the standing barley and its brushwood fence, the tall stakes, the patched tent and the dark green jungle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "남자가 절벽 위에서 먼바다의 연기를 본다.",
-   "visual": "a bearded man on a cliff edge staring at a thread of smoke rising from a far shore",
-   "motion": "smoke climbs from the far shore, wind drives his cap brim back, grass flattens"
+   "cast": [
+    "crusoe_late",
+    "canoe",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 통나무를 파서 배 한 척을 만든다",
+   "visual": "hard afternoon light in a clearing under the jungle: the man with the long dark beard in the goatskin jerkin is the one standing astride the long dugout canoe at frame centre with a short adze raised in both hands above his shoulder, his bare feet set on either side of the hollowed trunk; the canoe lies on two log rollers with its inside raw and pale and full of adze marks, its outside still the round bark-stripped trunk; pale chips lie thick on the ground all round it; a felled trunk and a stack of split wood stand at frame left; the dense dark green jungle closes round the clearing on every side; a low grey sky shows over the trees; he is the only person in the clearing",
+   "motion": "the raised adze is the one thing that moves, and the canoe holds still: at the start it is up above his shoulder in both hands with the blade turned down toward the hollow of the trunk; over the first three seconds it comes slowly down through its arc into the hollow, his shoulders turning down with it and a long pale curl of wood lifting slowly away from the blade along the grain, and then rises back up above his shoulder along the same arc; in the last two seconds the adze is on its way down again at the same slow rate; the canoe keeps its exact place on the two log rollers and does not shift; the thick pale chips on the ground stay where they lie; the felled trunk and the stack of split wood at frame left, the dark green jungle and the grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "텅 빈 모래밭에 발자국과 파도만 남는다.",
-   "anchor": false,
-   "visual": "an empty stretch of wet beach with a single footprint, surf running up the sand at dusk",
-   "motion": "surf runs up over the sand toward the print, foam recedes, light fades on the water"
+   "cast": [
+    "crusoe_late",
+    "parrot",
+    "stockade"
+   ],
+   "refs": [],
+   "beat": "앵무새 폴에게 제 이름을 가르치는 크루소",
+   "visual": "warm evening light inside the half circle of stakes: the man with the long dark beard in the goatskin jerkin is the one sitting on a low wooden stool at frame centre with his forearm held out level in front of him and his other hand raised with one finger up; the grey parrot with the dull red tail is the one gripping his held-out forearm with both feet, its head turned side-on to his raised finger and its beak a little open; the patched canvas tent stands open behind him at frame left with a rolled sleeping mat inside; the fire ring of stones is at frame right with a small fire of driftwood in it and a pot on two stones; the tall pointed stakes stand behind in their curve; the grey rock face beyond; he is the only person inside the wall",
+   "motion": "the parrot on his forearm is the one that moves, and the man holds still: at the start it grips his held-out forearm with both feet and its head is turned side-on to his raised finger; over the first three seconds it works slowly along his forearm toward his raised hand, one foot lifting and gripping ahead of the other in a slow sideways walk, its head turning a little further round toward his finger and its beak opening and closing as it comes; in the last two seconds it holds its new place on his forearm with its head close to his raised finger; the man keeps his forearm level and his one finger up without moving, his bearded face toward the bird; the patched tent, the rolled mat, the small driftwood fire, the pot on its stones and the tall stakes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "crusoe_late",
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 모래밭에서 본 맨발 자국 하나",
+   "visual": "hard flat light on the wide bare beach: the man with the long dark beard in the goatskin jerkin and the tall goatskin cap is the one standing halted at frame centre on the pale sand, his body bent forward from the waist and both hands down on his knees, his bearded face down at the sand in front of his own feet; one single bare human footprint is pressed deep into the smooth wet sand a stride in front of him, its toes and heel clear, the sand round it unmarked in every direction; his own prints run back from his heels toward frame right; the open sea runs out flat to the horizon at frame left with a low swell along the sand; the dense dark green jungle stands along the top of the beach; the wide low grey sky above; he is the only person on the beach",
+   "motion": "the man bent over the print is the one who moves, and the sand holds still: at the start he is bent forward from the waist with both hands down on his knees and his face down at the single print; over the first three seconds he leans slowly further down toward it, his elbows bending and his hands sliding a little way down his shins, his bearded face going closer to the sand until it is a forearm's length above the print; in the last two seconds he holds there bent low over it without touching it; the single footprint keeps its exact shape in the smooth wet sand and the sand round it stays unmarked; his own prints running back toward frame right do not change; the low swell slides slowly up the sand at frame left and back at its own steady rate; the dark green jungle and the grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "crusoe_late",
+    "shore",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 멀리 해변의 모닥불과 사람들을 본다",
+   "visual": "deep night on a high shoulder of ground above the beach: the man with the long dark beard in the goatskin jerkin is the one lying flat on his front behind a low bank of grass at frame right, propped on his elbows with a long brass spyglass held up to one eye in both hands, his bearded face behind it; far below him and away at frame left a driftwood fire burns small and yellow on the pale sand with five dark standing figures round it, their shapes thrown long on the sand; two dugout canoes lie drawn up on the sand beyond the fire; the black sea runs out behind them under a black starless sky; the dense dark green jungle stands dark along the top of the beach between him and the fire; he is the only person on the high ground",
+   "motion": "the small far fire on the sand is the one thing that moves, and the watching man holds still: at the start it burns low and yellow between the five dark standing figures; over the first three seconds its flame works slowly upward, leaning a little toward frame left and standing straight again, the pool of yellow light on the sand round it widening and narrowing slowly with the flame; in the last two seconds the flame keeps working at the same slow rate; the five dark figures round it keep their exact places and do not turn; the two dugout canoes drawn up beyond them do not move; the man keeps flat on his elbows behind the low bank with the spyglass up to his eye, not shifting; the low bank of grass, the dark jungle, the black sea and the starless sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "crusoe_late",
+    "friday",
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 쫓기던 한 사람을 구해 준다",
+   "visual": "grey early light on the wide bare beach: the man with the long dark beard in the goatskin jerkin and the tall goatskin cap is the one standing at frame right with his long musket held straight down at his side in one hand, its muzzle pointing down into the sand away from everybody, his other hand held out open and level toward the young man; the grown young man of twenty with the short black hair in the plain cloth wrap is the one standing at frame centre just risen to his feet with his weight still coming forward and one hand reaching out to meet that open hand, his open face turned to the bearded man; the two of them stand facing each other on the wet sand with their faces at the same height and their two open hands a hand's width apart; his running prints come across the sand from frame left; the dense dark green jungle stands along the top of the beach; the flat grey sea runs out to the horizon; the two of them are the only people on the sand",
+   "motion": "the two open hands between the men are the one thing that moves, and the men keep their places: at the start they are held out toward each other a hand's width apart; over the first three seconds both hands come slowly the last of the way together until the palms meet and the fingers close round each other, the two arms straightening a little as they join; in the last two seconds the joined hands hold there between them; the bearded man keeps the musket straight down at his side with its muzzle in the sand and his face toward the young man, not shifting his feet; the young man keeps his weight forward and his face turned up to him; the running prints across the sand stay as they are; the dark green jungle along the top of the beach and the flat grey sea hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "crusoe_late",
+    "friday",
+    "stockade",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "크루소가 그를 프라이데이라 부르고 말을 가르친다",
+   "visual": "morning light inside the half circle of stakes: the man with the long dark beard in the goatskin jerkin is the one sitting cross-legged on the packed earth at frame right with one hand held out flat and low over the ground and his other hand up at his own mouth; the grown young man of twenty with the short black hair, now in a plain goatskin coat to his knee, is the one sitting cross-legged on the packed earth facing him at frame left with both hands on his own knees and his open face up, his lips parted; the two of them sit on the same ground facing each other with their faces at the same height; between them on the earth lies a flat wooden board with a row of small things set out along it, a shell, a knife, a wooden cup and a stone; the patched canvas tent stands behind them with the fire ring of stones at frame left; the tall pointed stakes curve round behind; the two of them are the only people inside the wall",
+   "motion": "the bearded man's raised hand is the one thing that moves, and the young man holds still: at the start it is up at his own mouth with his fingers loosely together; over the first three seconds the hand comes slowly down and out from his mouth toward the board on the ground between them, opening as it goes until the palm is turned up and the fingers are spread above the row of small things, then holds there open above the board; in the last two seconds the open hand stays above the board without touching it; the young man keeps sitting cross-legged with both hands on his knees, his face up and his lips parted, not moving; the shell, the knife, the wooden cup and the stone on the board keep their places; the patched tent, the fire ring, the tall stakes and the grey rock face hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "crusoe_late",
+    "friday",
+    "canoe",
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "두 사람이 함께 배를 고치고 짐을 싣는다",
+   "visual": "hard afternoon light on the dry sand above the tide line: the man with the long dark beard in the goatskin jerkin and the young man in the plain goatskin coat are the ones working at the long dugout canoe at frame centre, the bearded man crouched at its bow with a coil of cord in one hand and its end wound twice round a split in the planking, the younger man standing at its stern with a wooden mallet held low in one hand and a fresh patch of board held against the hull with the other; the canoe lies on two log rollers with its raw pale inside turned up toward the camera; a folded sail, two casks and a basket stand on the sand beside it; the open sea runs out flat to the horizon at frame left; the dense dark green jungle stands along the top of the beach; the two of them are the only people on the sand",
+   "motion": "the bearded man's hand with the cord is the one thing that moves, and the younger man holds still: at the start the end of the cord is wound twice round the split in the planking with the coil in his other hand; over the first three seconds his hand draws the cord slowly round the split a third time and a fourth, the coil in his other hand turning slowly smaller as the line goes round and the bound turns lying close and even against the wood; in the last two seconds his hand holds the last turn in place against the planking; the younger man keeps the mallet low in one hand and the fresh patch of board held flat against the hull without moving; the canoe keeps its place on the two log rollers; the folded sail, the two casks and the basket on the sand do not shift; the flat sea and the dark green jungle hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "crusoe_late",
+    "friday",
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "어느 아침 수평선에 낯선 돛배가 나타난다",
+   "visual": "cold grey morning light on the wide bare beach: the man with the long dark beard in the goatskin jerkin and the tall goatskin cap is the one standing at frame right on the pale sand with the long brass spyglass up to one eye in both hands, his bearded face behind it and his elbows in at his sides; the young man in the plain goatskin coat is the one standing close at his shoulder at frame centre with one arm out straight and one finger pointing away over the water, his open face out along his own arm; far out at the horizon at frame left a small two-masted sailing ship stands on the flat grey water with her canvas set; a low swell slides up the pale sand in front of the two men; the dense dark green jungle stands along the top of the beach behind them; the wide low grey sky fills the top of the frame; the two of them are the only people on the sand",
+   "motion": "the low swell in front of the two men is the one thing that moves, and the men hold still: at the start it is a long low line of water short of their feet; over the first three seconds it slides slowly up the pale sand toward them, thinning as it comes until its edge lies a stride short of the bearded man's feet, and then draws slowly back down the sand leaving a dark wet band across it; in the last two seconds a second low swell comes on behind it at the same slow rate; the bearded man keeps the spyglass up to his eye with his elbows in, not shifting; the young man keeps his arm out straight and his finger pointing over the water; the small far ship keeps her exact place and size at the horizon with her canvas set; the dark green jungle and the wide grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "shore",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 해변에 발자국과 밀려나는 물만 남는다",
+   "visual": "cold grey light on the wide bare beach: the pale sand runs out empty across the whole frame with two lines of bare footprints going away across it toward frame left and down into the shallow water at the tide line; the open sea runs out flat to the horizon with thin mist lying low over the water; broken ship's timbers and a split cask lie along the tide line at frame right; the dense dark green jungle stands along the top of the beach behind; a low swell slides up the sand across the near prints; the wide low grey sky fills the top of the frame; the beach is quiet and empty of people",
+   "motion": "the thin mist over the water is the one thing that moves, and the beach holds still: at the start it lies in a low band over the water out toward the horizon; over the first three seconds it drifts slowly along the water from frame right toward frame left, thinning at its upper edge as it goes so that a little more of the flat horizon line shows through it; in the last two seconds it holds there with the horizon showing faintly through its thinned edge; the two lines of bare footprints across the pale sand stay exactly as they are; the low swell on the sand keeps sliding slowly up across the near prints and back at its own steady rate; the broken timbers and the split cask along the tide line do not move; the dark green jungle and the wide grey sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "발자국의 주인과, 남자가 섬을 떠나게 되는 마지막"
+ ]
 }

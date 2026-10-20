@@ -1,61 +1,201 @@
 {
- "logline": "계약을 마치러 산 위 성에 든 젊은 변호사가, 자신이 손님이 아님을 하나씩 알아 간다.",
- "destination": "성의 잠긴 대문 — 그가 손님인지 아닌지 확인하게 되는 자리",
- "protagonist": "런던에서 파견된 스물다섯 살 변리사",
- "setting": "19세기 말 트란실바니아 카르파티아 산중의 고성",
- "anchor": "a young clerk in a dark travelling suit and high collar, neat side-parted hair, vast Carpathian stone castle",
- "palette": "candle amber against black stone, cold moon silver, deep blood red accent, dust haze",
+ "logline": "런던의 젊은 변리사 하커가 카르파티아의 성으로 가서 검은 옷의 백작에게 맞아들여지고, 거울에 비치지 않는 백작과 잠긴 문, 성벽을 기어 내려가는 백작, 흙 궤짝 속에 눈을 뜨고 누운 백작을 보고, 궤짝들이 수레에 실려 떠나는 사이 성벽을 타고 달아난다",
+ "destination": "소설 드라큘라에서 만날 수 있습니다",
+ "protagonist": "harker",
+ "setting": "1890년대 카르파티아 산속의 옛 성 — 밤의 산길, 성의 마당과 큰 문, 돌로 된 큰 방과 침실, 잠긴 문의 복도, 성벽 바깥, 예배당 지하; 런던의 작은 응접실",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/deurakyulra/assets",
+ "anchor": "a young English solicitor in a brown tweed suit and a tall gaunt old count in black in a castle of black stone",
+ "palette": "ash grey, dark blue, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "배가 닿은 항구에서 벌어진 일과, 뒤쫓음의 끝",
  "beats": [
   {
    "n": 1,
-   "beat": "젊은 변호사가 마차에서 내려 산길을 오른다.",
-   "visual": "a young clerk stepping down from a coach onto a mountain road at dusk, dark pine ridges above",
-   "motion": "the coach lurches away, wolves' shapes shift in the treeline, his coat flares"
+   "cast": [
+    "harker",
+    "caleche",
+    "mountain_road",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤의 산길을 오르는 마차 안에 젊은 변리사 하커가 있다",
+   "visual": "black night on the rough dirt road winding up between the tall dark pines, the thin white moon above: the black closed carriage drawn by the four coal-black horses is the one thing climbing the road at frame centre, seen from the side, its four wheels on the pale dirt and its raised driver's box at the front; at the carriage window the young man of twenty-five with the short neat dark brown hair and the clean-shaven earnest plain face, in the dark brown tweed travelling suit, is the one face showing, pale in the dull yellow light of the small carriage lamp, his eyes turned up toward the black shape of the road ahead; on the box the driver is a tall shape in a long black coat and a wide black hat with his back to the young man and his face hidden; the four black horses lean into the climb with their heads low; the dark pines stand close on both sides of the road and the bare rock shows ash grey at the roadside; there is exactly one face in the picture and it is the young man's at the window",
+   "motion": "the carriage on the road is the one thing that moves, and the pines hold still: at the start it is at frame centre with the four black horses leaning into the climb; over the whole five seconds the horses' legs move slowly through their walk and the carriage rolls slowly up the road toward frame left, its wheels turning on the pale dirt, the whole carriage moving no more than its own length across the frame; the young man's pale face stays at the window with his eyes turned up the road, his face keeping its place in the window as the carriage moves; the driver on the box keeps his back to the window and his wide black hat does not turn; the small carriage lamp keeps its steady dull yellow light; the dark pines on both sides of the road and the bare ash grey rock hold completely still; the thin white moon stays in its place; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "거대한 성문이 아무도 없이 저절로 열린다.",
-   "visual": "an enormous iron-studded castle door swinging inward on its own, a small figure waiting outside",
-   "motion": "the huge door swings inward, dust pours from the hinge, his lamp gutters"
+   "cast": [
+    "harker",
+    "castle_gate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "마차가 멈춘 성의 마당에서 거대한 성문이 저절로 열린다",
+   "visual": "black night in the courtyard of the old castle under the thin white moon: the huge studded oak door under its stone arch is the one thing filling the middle of the frame, and it stands half open, swung a quarter of the way inward on its black iron hinges, with only darkness showing in the gap behind it and nobody at all in the doorway; the young man of twenty-five with the short neat dark brown hair, in the dark brown tweed travelling suit, is the one standing at frame centre below the worn stone steps with his back to the camera and his face hidden, his head tipped up at the opening door, both his hands empty at his sides; the high walls of black stone rise on both sides of the arch to the top of the frame; dry leaves lie in the corners of the steps; the pale moonlight lies in a thin band across the flagstones of the courtyard; there is exactly one person in the courtyard and nobody stands in the doorway",
+   "motion": "the huge oak door is the one thing that moves, and the young man holds still: at the start the door stands a quarter open with darkness in the gap; over the first three seconds the door swings slowly further inward on its black iron hinges until it stands half open, the gap of darkness widening, nobody appearing in it, the studs on the door catching no light; in the last two seconds the door holds half open and does not move again; the young man below the steps keeps his back to the camera and his head tipped up at the door, his hands empty at his sides and his feet not shifting on the flagstones; the high black walls, the stone arch and the dry leaves in the corners hold completely still; the band of pale moonlight on the flagstones keeps its place; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "백작이 촛불을 들고 그를 맞아들인다.",
-   "visual": "a tall thin nobleman in black holding a candelabrum in a vast stone hall, young clerk in the doorway",
-   "motion": "candle flames lean toward the door, the tall figure bows, shadows climb the walls"
+   "cast": [
+    "count",
+    "harker",
+    "castle_gate",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "검은 옷의 백작이 은등을 높이 들어 하커를 성 안으로 맞아들인다",
+   "visual": "black night at the great door of the castle, the dull yellow light of a silver lamp: the tall gaunt old man with the long white hair swept back and the heavy long white moustache, dressed head to foot in black with the long black cloak, is the one standing inside the open doorway at frame centre with a plain silver lamp held up high in one thin hand so that its light lies on his pale face and his pointed ears, his other hand held out open and low toward the visitor, his thin mouth set in a small fixed smile; the young man of twenty-five with the short neat dark brown hair, in the dark brown tweed travelling suit, is the one standing at frame right on the worn stone steps below the doorway with his hat in his hand and his earnest plain face lifted to the old man, one foot on the top step; the huge studded oak door stands wide behind the old man with the darkness of the hall beyond; the black stone walls rise on both sides; the dry leaves in the corner of the steps are still; there are exactly two people in the picture",
+   "motion": "the old man's outstretched hand is the one thing that moves, and the young man holds still: at the start the hand is held out open and low toward the visitor with the lamp held up high in the other; over the first three seconds the open hand turns slowly and draws back toward the dark hall behind him in a slow beckoning sweep, the long black cloak shifting a little at his shoulder, his small fixed smile not changing and the lamp staying high and steady; in the last two seconds the hand holds back toward the hall and the smile stays; his feet in the doorway do not shift; the young man on the steps keeps his hat in his hand and his face lifted, one foot on the top step, nothing in him moving; the silver lamp keeps its steady dull yellow light; the huge oak door, the black stone walls and the dry leaves hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "이튿날 아침 거울에 백작이 비치지 않는다.",
-   "visual": "a small shaving mirror showing only a young clerk's reflection, a tall figure standing right behind him",
-   "motion": "the razor stops mid-stroke, the mirror trembles, a hand enters the frame"
+   "cast": [
+    "count",
+    "harker",
+    "great_hall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "백작이 밤새 난롯가에서 런던의 저택 이야기를 묻는다",
+   "visual": "the dull yellow glow of the wide stone fireplace in the great stone hall at night: the tall gaunt old man with the long white hair and the heavy white moustache, in his black clothes, is the one sitting forward in the heavy carved oak chair at frame left with his long thin hands clasped on his knee and the sharp nails showing, his pale face turned to the young man and his thin mouth open in speech; the young man of twenty-five with the short neat dark brown hair, in the dark brown tweed suit, is the one sitting in the carved chair at frame right with his hands on the arms of the chair and his earnest plain face turned to the old man, his eyelids heavy; the long oak table stands behind them with a plain plate and a cup at one end only; the dim tapestries hang on the black stone wall behind; the silver lamp hangs on its chain from the beams above them, its flame small; there are exactly two people in the hall and the old man is the one speaking",
+   "motion": "the old man's clasped hands are the one thing that moves, and the young man holds still: at the start the long thin hands are clasped on his knee with the sharp nails showing; over the first three seconds the hands come apart and one rises slowly, palm up, to the height of his chest as he speaks, the long fingers opening, his pale face leaning a little further toward the young man and his thin mouth moving; in the last two seconds the hand holds open at chest height and his face stays leaned forward; his feet do not shift; the young man in the other chair keeps his hands on the chair arms and his heavy-lidded face turned to the old man, nothing in him moving; the glow of the fireplace stays even without flicker and the small flame of the hanging lamp stays steady; the long table with its one plate and cup, the tapestries and the black stone walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "그는 성의 모든 문이 잠겨 있음을 알아챈다.",
-   "visual": "a young clerk pulling at heavy locked doors along a torchlit stone corridor, keyholes dark",
-   "motion": "each handle jerks and holds, torches gutter in sequence, dust drifts down"
+   "cast": [
+    "harker",
+    "count",
+    "harker_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이튿날 아침 면도 거울에 백작의 모습이 비치지 않는다",
+   "visual": "grey morning light through the deep stone window of the castle bedroom: the young man of twenty-five with the short neat dark brown hair, in his white shirt with the sleeves rolled and the stiff collar off, is the one standing at frame right before the small table under the window with the small square shaving mirror held up in his left hand at the height of his face and his right hand lifted to his lathered jaw, his eyes turned sideways to the mirror and wide; the mirror's glass, seen plainly, shows only the grey stone wall of the room and the edge of the window and no one else at all; the tall gaunt old man with the long white hair and the heavy white moustache, in his black clothes, is the one standing close at the young man's left shoulder at frame centre, so close that his black sleeve touches the young man's white one, his pale face bent toward the young man's neck and his thin mouth set; the basin stands on the small table; the heavy dark curtains hang either side of the window; there are exactly two people in the room and only one of them shows in the mirror's glass, which shows no one",
+   "motion": "the young man's eyes and the mirror in his hand are the two things that move, and the old man holds still: at the start the mirror is held up at the height of his face with his eyes turned sideways to it; over the first three seconds his hand tilts the small mirror slowly a little to the left and back, the glass keeping the grey stone wall and the window edge in it and showing no one, his wide eyes going from the glass to the black sleeve at his shoulder and back to the glass, his lathered jaw held still; in the last two seconds the mirror holds level and his eyes stay on the glass; the old man at his shoulder keeps his pale face bent toward the young man's neck and does not move at all, his black sleeve touching the white one; the basin, the heavy curtains and the oak bed hold completely still; the grey morning light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "창밖 성벽을 무언가가 거꾸로 기어 내려간다.",
-   "visual": "a tall figure crawling head-first down a sheer castle wall in moonlight, cloak spread like wings",
-   "motion": "the figure crawls downward, the cloak ripples, moonlight slides over the stone"
+   "cast": [
+    "harker",
+    "corridor",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "성의 문은 모두 잠겨 있고 하커는 갇힌 몸이다",
+   "visual": "thin grey light from the one narrow slit window in the long stone passage of the castle: the young man of twenty-five with the short neat dark brown hair, in the dark brown tweed suit with the coat open, is the one standing at frame centre before a heavy oak door bound in black iron with both his hands gripping the big iron ring on the door and his shoulders set, his weight leaned back from the door, his earnest plain face turned down to the ring with his lips pressed together; the door stands closed fast in its stone frame and does not give; along the passage behind him at frame left more heavy oak doors bound in black iron stand closed one after another to the dark end of the passage, each with its iron ring hanging still; the ash grey flagstones run away under them; the narrow slit window at the far end lets in its thin band of grey light; there is exactly one person in the passage",
+   "motion": "the young man's arms and shoulders are the one thing that moves, and the door holds fast: at the start both hands grip the iron ring with his weight leaned back; over the first three seconds his arms pull slowly, his shoulders drawing back further and his heels pressing into the flagstones, the ring turning a finger's width in his hands and the door not moving at all in its stone frame; in the last two seconds his arms ease slowly and his shoulders come forward again with his hands still on the ring and his face still turned down; his feet keep their places; the door stays closed fast; the row of iron-bound doors along the passage with their hanging rings, the ash grey flagstones and the thin band of grey light from the slit window hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그 궤짝들이 런던으로 실려 간다면 어떻게 될까?",
-   "visual": "long crates being hoisted onto a cargo ship at a foggy quay, a young clerk watching from a high window",
-   "motion": "a crate swings on the crane rope, fog rolls across the quay, gulls scatter"
+   "cast": [
+    "count",
+    "castle_wall",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "창밖 성벽을 백작이 거꾸로 매달린 채 기어 내려간다",
+   "visual": "black night outside the high window of the castle, the thin white moon lighting the sheer black stone of the outer wall, seen from the window looking straight down the wall: the tall gaunt old man in his black clothes with the long black cloak is the one thing on the wall at frame centre, clinging to it like a lizard with his body flat against the black stone: the soles of his two black boots are the highest part of him, just below the stone sill at the top of the frame, and his long white hair is the lowest part of him, hanging loose off the back of his head straight down toward the pines far below, his face pressed to the stone and hidden, his two long thin hands spread on the stones below his head with the sharp nails hooked into the joints, the long black cloak fallen back over his boots and legs so that its hem lies up near the sill and its collar down near his hanging hair; below him the black wall drops far down out of the bottom of the frame toward the dark pines of the valley; the stones of the wall show ash grey in the moonlight with black joints between them; the stone sill of the window shows along the top edge of the frame; there is exactly one figure on the wall and his face is turned to the stone",
+   "motion": "the figure on the wall is the one thing that moves, and the wall holds still: at the start he clings flat to the stone at frame centre with his boots highest just below the sill and his white hair hanging lowest toward the pines; over the whole five seconds he moves slowly down the wall by no more than the length of one hand, one thin hand at a time reaching lower and hooking into a joint, then one foot, the black cloak shifting and settling around him on the stone as he goes, his hanging white hair staying the lowest part of him and his face staying pressed to the wall; the stones of the wall, the black joints and the far dark pines of the valley below hold completely still; the thin white moonlight on the stone stays even; the stone sill along the top edge of the frame keeps its place; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "안개 낀 부두에 궤짝 그림자가 길게 눕는다.",
-   "visual": "long crate shadows stretching across an empty foggy quay at dawn, mooring ropes slack",
-   "motion": "fog rolls across the stone, a rope sways, the shadows lengthen",
-   "anchor": false
+   "cast": [
+    "harker",
+    "count_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "하커가 창문을 타고 백작의 방에 들어가 낡은 금화 더미를 본다",
+   "visual": "dusty grey daylight in the bare room of the castle: the heavy oak table is the one thing at frame centre, heaped with old gold coins of many sizes, dull and dark with age, with old gold chains lying among them and a bunch of big old iron keys on top of the heap, and dust thick on the table around the gold; the young man of twenty-five with the short neat dark brown hair, in the dark brown tweed suit with a tear at one knee and dust on his sleeves, is the one standing at frame right close to the table with one hand resting on its edge and the other lifted a little from his side, his earnest plain face bent to the heap of gold with his eyes wide and his lips parted; the deep stone window behind him at the far right stands open with the grey sky in it; the dust on the floor is marked with one line of footprints from the window to the table; cobwebs hang in the corner of the ceiling; there is exactly one person in the room",
+   "motion": "the young man's lifted hand is the one thing that moves, and the room holds still: at the start the hand is lifted a little from his side with the other resting on the table's edge; over the first three seconds the lifted hand reaches slowly forward over the heap of gold and the fingers stir the dull coins a little so that two or three of them slide over the others and lie still again, the old iron keys on top not moving, his wide eyes following his own hand; in the last two seconds the hand holds still above the heap with the fingers spread; his feet do not shift and the hand on the table's edge keeps its place; the gold chains keep their tangled lines and the dust on the table stays thick; the open stone window with the grey sky, the one line of footprints on the floor and the cobwebs in the corner hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "count",
+    "harker",
+    "chapel_vault",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "예배당 아래 흙 궤짝 하나에 백작이 눈을 뜬 채 누워 있다",
+   "visual": "dim grey light from a broken opening high in the wall of the vault under the ruined chapel: the big plain wooden box filled with fresh dark brown earth is the one thing at frame centre, its lid off and leaning against its side, and lying on the earth inside it, seen from above at an angle, the tall gaunt old man with the long white hair and the heavy white moustache, in his black clothes, is the one lying flat on his back with his eyes wide open and fixed on the vault's ceiling and his long thin hands folded on his chest with the sharp nails showing, his pale face still and his thin mouth closed; rows of more big plain wooden boxes stand on the flagstones behind and beside it toward the dark end of the vault, their lids on; the young man of twenty-five with the short neat dark brown hair, in the dusty dark brown tweed suit, is the one at the far left edge of the frame seen from behind, standing half turned toward the open box with one hand against a broken stone tomb; dust and cobwebs hang in the grey light; the old man in the box is the one whose face is seen",
+   "motion": "the young man at the edge of the frame is the one who moves, and the old man in the box holds utterly still: at the start the young man stands half turned toward the open box with one hand against the broken tomb; over the first three seconds he leans slowly a little further toward the box, the hand on the tomb sliding a short way along its stone edge and his head bending forward, his back still to the camera; in the last two seconds he holds leaned forward and does not move; the old man lying in the box keeps his wide open eyes fixed on the ceiling and his folded hands on his chest, his chest not rising or sinking, his white hair and black clothes lying exactly as they are on the dark brown earth; the leaning lid, the rows of closed boxes, the broken stone tombs, the dust and the cobwebs hold completely still; the dim grey light from the broken opening stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "szgany",
+    "wagons",
+    "castle_gate",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "집시들이 흙 궤짝들을 마당의 수레에 싣기 시작한다",
+   "visual": "flat grey daylight in the courtyard of the old castle: the two long open wooden farm wagons with the high slatted sides are the ones standing at frame centre and frame right on the flagstones with their shaggy brown horses standing patient in the shafts, and on the nearer wagon three big plain wooden boxes lie already in a row; four sturdy travelling men with dark moustaches and wide-brimmed black hats, in dull yellow embroidered waistcoats over off-white shirts, are the ones carrying a fourth big plain wooden box between them at frame left, two at each end with their hands under its edges, walking with it toward the nearer wagon, seen from the side with their faces turned down to the box; the huge studded oak door under its stone arch stands open behind them with the darkness of the hall in it; the high walls of black stone rise on both sides of the arch; dry leaves lie in the corners of the worn stone steps; there are exactly four men in the courtyard and they are all carrying the one box",
+   "motion": "the four men with the box are the ones who move, and the wagons and horses hold still: at the start the four men have the box lifted between them at frame left; over the whole five seconds they walk slowly with it toward the nearer wagon with short heavy steps, the box staying level between them and moving no more than its own length across the flagstones, their faces staying turned down to it and their wide black hats not turning toward the camera; the three boxes already on the nearer wagon keep their row; the shaggy brown horses in the shafts stand patient with their heads low and do not step; the open oak door with the darkness in it, the black stone walls, the stone arch and the dry leaves on the steps hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "count",
+    "harker",
+    "wolves",
+    "castle_gate"
+   ],
+   "refs": [],
+   "beat": "백작이 하커에게 문을 열어 주자 문밖에는 늑대 떼가 있다",
+   "visual": "black night at the great door of the castle seen from inside the hall, the dull yellow light of the silver lamp on the wall: the huge studded oak door is the one thing at frame centre, pulled wide open inward, and in the open doorway on the flagstones of the courtyard the pack of lean grey wolves is the one thing filling the opening, six wolves pressed close together with their heads low and their rough ash grey fur bristling, the nearest with one forepaw on the threshold; the tall gaunt old man with the long white hair and the heavy white moustache, in his black clothes, is the one standing at frame left with one thin hand still on the edge of the open door and the other raised, palm out, toward the wolves, his pale face turned to the young man with the small fixed smile; the young man of twenty-five with the short neat dark brown hair, in the dusty dark brown tweed suit, is the one standing at frame right with his back pressed hard to the black stone wall and both hands spread flat against it at shoulder height, his earnest plain face turned to the wolves with his eyes wide open and his mouth open in fright, his brows drawn up, no smile on his face",
+   "motion": "the wolves in the doorway are the ones that move, and the two men hold still: at the start the six wolves are pressed close together with their heads low and the nearest forepaw on the threshold; over the first three seconds the nearest wolf lowers its head further and its open jaws come slowly a hand's width forward over the threshold and draw back again, the pale eyes of the pack fixed on the young man, their bristling fur shifting as they press against one another, none of them coming further in; in the last two seconds the pack holds with their heads low and their jaws open; the old man keeps his hand on the door's edge and his other hand raised palm out toward the wolves, his fixed smile turned to the young man and nothing in him moving; the young man keeps his back and both hands pressed flat to the stone wall; the silver lamp on the wall keeps its steady dull yellow light; the huge oak door does not swing; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "mina",
+    "mina_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "런던의 약혼녀 미나에게 하커의 편지가 더 오지 않는다",
+   "visual": "soft grey daylight through the tall window under its plain white curtain in the small London parlour with the dull yellow wall: the young woman of twenty-two with the dark brown hair pinned up and the gentle plain oval face, in the plain dark blue high-necked dress with the white collar, is the one sitting at frame centre in the plain chair beside the small writing desk with her body turned to the window and both her hands folded in her lap over a single folded sheet of cream paper, its written side turned in against her dress and hidden, her face lifted to the grey light of the window with her lips closed and her eyes still; the small writing desk at frame left holds a plain inkstand and a bare blotter with nothing else on it; the white curtain hangs straight; the dull yellow wall behind her is bare; the flat grey sky shows through the window's upper panes; there is exactly one person in the room and there is nothing on the desk to read",
+   "motion": "the young woman's folded hands are the one thing that moves, and the room holds still: at the start both hands are folded in her lap over the single folded sheet with its written side hidden; over the first three seconds her hands turn the folded sheet slowly over once and back, the written side never coming toward the camera, and her fingers close over it again, her face staying lifted to the grey window and her lips staying closed; in the last two seconds the hands hold folded over the sheet; her body stays turned to the window and her feet do not shift; the plain inkstand and the bare blotter on the desk keep their places; the white curtain does not stir; the dull yellow wall and the flat grey sky in the upper panes hold completely still; the soft grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "harker",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "하커가 성벽의 돌을 붙들고 천천히 기어 내려간다",
+   "visual": "cold grey daylight on the sheer black stone of the castle's outer wall, seen from a high window looking down: the young man of twenty-five with the short neat dark brown hair, in the dusty dark brown tweed suit with the coat off and his white shirt sleeves rolled, is the one thing on the wall at frame centre below the window, seen from above and behind, his body flat against the black stone with his face to the wall and hidden, his fingers hooked into the joints between the stones and one foot on a jutting stone, his other foot feeling for the next; the sheer black wall drops far below him straight down to the tops of the dark pines, filling the frame from side to side with nothing else built on it, and the stones show ash grey in the flat light with black joints between them; the stone sill of the window shows along the top edge of the frame with his dark brown coat lying across it; there is exactly one figure on the wall",
+   "motion": "the young man on the wall is the one thing that moves, and the wall holds still: at the start he is flat against the stone below the window with his fingers in the joints and one foot on the jutting stone; over the whole five seconds his free foot feels slowly down the wall and finds a lower stone, and one hand at a time reaches lower and hooks into the next joint, his body moving down the wall by no more than the length of one hand, his face staying turned to the stone and hidden, his white shirt tightening across his back with each reach; the stones of the wall, the black joints and the far dark pines of the valley below hold completely still; the dark brown coat lying across the stone sill along the top edge of the frame keeps its place; the cold grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "wagons",
+    "szgany",
+    "mountain_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "궤짝을 실은 수레들이 산길을 내려간다",
+   "visual": "flat grey daylight on the rough dirt road winding down between the tall dark pines: the two long open wooden farm wagons with the high slatted sides are the ones going slowly away from the camera down the road at frame centre, seen from behind, each drawn by its pair of shaggy brown horses, each wagon loaded with big plain wooden boxes standing in a row above its slatted sides; on the box seat of each wagon a sturdy travelling man in a wide-brimmed black hat and a dull yellow embroidered waistcoat sits with his back to the camera and the reins in his hands, his face hidden; the road bends away to the left ahead of them between the pines and drops out of sight; the bare ash grey rock shows at the roadside; the flat grey sky lies over the tops of the pines; there are exactly two men in the picture and both have their backs to the camera",
+   "motion": "the two wagons on the road are the ones that move, and the pines hold still: at the start the nearer wagon is at frame centre with its horses leaning down the slope; over the whole five seconds the horses' legs move slowly through their walk and both wagons roll slowly away from the camera down the road, growing a little smaller, their wheels turning on the pale dirt and the rows of boxes swaying very slightly with the road, each wagon moving no more than its own length; the two men on the box seats keep their backs to the camera and their wide black hats do not turn; the dark pines on both sides of the road, the bare ash grey rock and the bend of the road ahead hold completely still; the flat grey sky stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "chapel_vault",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "궤짝들이 사라진 텅 빈 지하 예배당에 자국만 남는다",
+   "visual": "dim grey light from the broken opening high in the wall of the vault under the ruined chapel, with nobody in it: the flagstones of the floor fill the lower half of the frame and on them, where the rows of big wooden boxes stood, there are only rows of pale clean rectangles in the thick dust, each the size of a box, with the dust lying grey and undisturbed between them; the broken stone tombs stand along the walls at frame left and frame right with their lids cracked; cobwebs hang from the low arched ceiling of black stone; a few crumbs of fresh dark brown earth lie in one of the clean rectangles nearest the camera; the steps up to the chapel show at the far end of the vault in the grey light; the vault is empty of people and of boxes, and the only thing left is the pattern of clean rectangles in the dust",
+   "motion": "the grey light from the broken opening is the one thing that moves, and the vault holds still: at the start it lies even across the flagstones and the pale rectangles in the dust; over the first three seconds a slow shadow passes across the opening high in the wall from frame left to frame right, the light on the flagstones dimming a little and brightening again as it goes, the edges of the clean rectangles softening and sharpening with it; in the last two seconds the light holds even once more; the rows of clean rectangles keep their exact places and the grey dust between them stays undisturbed; the crumbs of earth in the nearest rectangle do not move; the broken tombs with their cracked lids, the cobwebs and the steps at the far end hold completely still; no figure appears in the vault; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "런던 상륙 이후 벌어지는 일과 추격 끝의 마지막",
- "voice": "ko-KR-GookMinNeural"
+ ]
 }

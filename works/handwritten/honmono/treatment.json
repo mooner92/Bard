@@ -1,0 +1,181 @@
+{
+ "logline": "신령이 떠난 30년 차 박수무당과 앞집에 이사 온 스무 살 신애기 — 진짜와 가짜의 경계를 묻는 일곱 편",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "munsu",
+ "setting": "현대 서울의 오래된 골목 — 마주 보는 두 무당집과 촛불 켠 신당",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/honmono/assets",
+ "anchor": "a gaunt Korean man in his fifties with grey-streaked hair combed back, in a loose plain white cotton hanbok",
+ "palette": "indigo, off-white, dull gold, ash grey, pale green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "마지막에 벌이는 대담한 일, 모형 작두의 쓰임",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "munsu",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "삼십 년 모신 신령이 말없이 떠난 신당",
+   "visual": "dawn in the shaman's shrine room of an old Seoul house: the gaunt Korean man kneels alone on a thin floor cushion before the raised altar table at frame centre, seen in three-quarter view from the left, back straight, both long thin hands resting flat on his knees, head bowed low; he wears his loose plain white cotton hanbok; on the altar under its white cloth the brass candlesticks hold candles burnt down to stubs, a thin thread of smoke rising from one that has just gone out; bowls of rice and fruit sit untouched; the painted cloth scrolls of folk deities on the wall behind hang flat and still in the grey light; paper flowers in soft colours stand in brass vases at both ends of the altar; pale blue dawn light seeps through a papered lattice window at frame right, the whole room hushed, cold and emptied of something",
+   "motion": "the kneeling man lifts his bowed head slowly toward the painted scrolls, and that slow lifting is the one movement in the shot: at the start he kneels motionless with his head bowed low over his knees; over the whole five seconds his head rises little by little, his chin coming up and his deep-set tired eyes travelling up the white altar cloth, past the candle stubs, to the painted cloth scrolls on the wall, where they stay, searching; his long thin hands stay flat on his knees and his back stays straight the whole time; the thin thread of smoke from the extinguished candle climbs and thins into the grey air; the rice bowls, the fruit, the paper flowers and the scrolls themselves hold completely still; the pale dawn light at the papered window brightens very slightly; the camera holds a medium shot from the left side of the room, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "munsu_gut",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "신령을 잃은 서른 해 차 박수무당 문수",
+   "visual": "the shrine room by candlelight: the gaunt Korean man stands before the altar at frame centre facing the camera in his full shaman's ritual robe of deep indigo silk with very wide sleeves over white hanbok, the wide-brimmed black horsehair gat hat tied under his chin; his right hand is raised shoulder-high holding a cluster of small brass ritual bells on a short wooden handle, his left hand holds a closed folding fan against his chest; his long lined face is tilted a little to one side, eyes narrowed, listening hard for an answer that has stopped coming; behind him the altar glows with lit brass candlesticks, bowls of rice and fruit and paper flowers, the painted cloth scrolls of folk deities dim above; warm candlelight catches the silk sheen of his indigo sleeves and the brass bells, the corners of the room sunk in shadow",
+   "motion": "the man shakes the cluster of brass bells in his raised right hand and listens, and that shaking is the one movement in the shot: at the start he holds the bells raised and still at shoulder height; over the whole five seconds his wrist turns quickly back and forth so the small brass bells shiver and flash in the candlelight, the wide indigo silk sleeve trembling around his forearm, while his head stays tilted to one side and his narrowed eyes wait, and toward the end the shaking slows and his hand holds still again, the bells hanging silent, his face unchanged; his left hand keeps the closed fan pressed against his chest; the black gat hat stays level on his head; the candle flames on the altar behind him waver slightly; the rice bowls, the fruit, the paper flowers and the painted scrolls hold completely still; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "munsu",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "텅 빈 신당에서 할멈을 부르는 문수",
+   "visual": "night in the shrine room: the gaunt Korean man in his loose plain white cotton hanbok stands close to the wall at frame left in profile, facing one painted cloth scroll that shows a white-haired grandmother deity in a white hanbok holding a folding fan, painted in faded mineral colours with a plain dark border; his right palm is raised open toward the painted scroll, fingers slightly spread, not quite touching it; his mouth is half open on a word, his deep-set eyes fixed on the painted face; the altar at frame right holds a single lit candle, its small flame the only light, throwing his long shadow across the wall and over the edge of the scroll; the other painted scrolls fade into darkness; a bowl of rice and a plate of fruit sit on the white altar cloth; the papered lattice window behind is black, the room otherwise empty",
+   "motion": "the man calls toward the painted scroll with his raised palm, and his calling is the one movement in the shot: at the start he stands in profile with his palm raised toward the scroll and his mouth half open; over the whole five seconds his lips move on a few words, his chin lifting a little as he speaks, his raised palm edging a finger's width closer to the painted grandmother and stopping just short of the cloth, his shoulders rising and sinking with one long breath; the painted grandmother on the scroll stays exactly as painted, perfectly still, only the candlelight trembling across the faded colours; his long shadow wavers on the wall with the single small flame; the altar, the rice bowl, the fruit and the black window hold completely still; the camera holds a medium shot from his side, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "장수할멈이라 불리는 할머니 신",
+   "visual": "a close view of the shrine altar in the evening, empty of people: at the centre of the wall above the altar hangs the painted cloth scroll of the white-haired grandmother deity in a white hanbok holding a folding fan, painted in faded mineral colours of indigo, ochre and pale green with a plain dark border, her painted face calm and old; on the white altar cloth below, two brass candlesticks flank the scroll, their candles burnt low, the flames small and leaning; between them sit a brass bowl of rice heaped high, a plate of pears and persimmons, a small cup of clear water and a folded brass bell cluster laid on a white cloth; paper flowers in soft colours stand in brass vases at both ends; warm low candlelight lights the lower half of the painting and leaves the top in shadow; the rest of the room falls away into darkness",
+   "motion": "the two candle flames shrink and lean lower as the candles burn down, and that slow dimming is the one movement in the shot: at the start the flames stand small and upright beside the painted scroll; over the whole five seconds they lean slowly toward the right as a faint draught moves through the room, shrinking and flickering lower, their warm light sliding down the painted scroll so that the painted grandmother's face sinks gradually from candlelight into shadow while her painted hands and fan stay lit; a thin curl of smoke rises from the left wick and bends right; the painted scroll itself hangs completely still and the painted figure never moves; the rice bowl, the fruit, the cup of water, the brass bells and the paper flowers hold completely still; the camera holds a close shot of the altar and scroll, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "sinaegi",
+    "alley"
+   ],
+   "refs": [],
+   "beat": "할멈의 기척이 끊길 무렵, 앞집으로 이사 오는 사람",
+   "visual": "a bright morning in the narrow old residential alley in Seoul: across the alley from the shaman's grey iron gate at frame left, the gate of the small old house at frame right stands wide open, and a small plain white moving truck is parked just beyond it with its back doors open and a few taped cardboard boxes stacked inside; the Korean young woman of about twenty walks from the truck toward the open gate carrying a large cardboard box in both arms, her long straight black hair loose over the oversized pale yellow knit cardigan, wide blue jeans and white sneakers, her round bright face turned toward the house; a thin string of small brass bells shows on one wrist under the box; low brick walls line both sides of the alley, potted plants along their tops, tangled wires crossing the strip of blue sky overhead; clear morning sunlight lies in a bright band across the alley",
+   "motion": "the young woman carries the box from the truck toward the open gate, and her walking is the one movement in the shot: at the start she stands just beside the open back of the truck with the box in her arms; over the whole five seconds she walks steadily across the alley toward the open gate at frame right, her long black hair swinging a little over the pale yellow cardigan with each step, the small brass bells on her wrist glinting while her arms shift under the box's weight, her round face turned toward the house the whole time; the white truck with its open doors and stacked boxes, the grey iron gate at frame left, the brick walls, the potted plants and the tangled wires overhead stay completely still; the band of morning sunlight across the alley holds steady; the camera holds a medium wide shot down the alley, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "sinaegi",
+    "alley"
+   ],
+   "refs": [],
+   "beat": "앞집의 새 주인 — 스무 살 젊은 무당 신애기",
+   "visual": "late afternoon in the narrow alley: the Korean young woman of about twenty stands on a short aluminium step ladder beside her grey iron gate at frame centre, facing the camera and slightly turned, reaching up with both hands to tie long white cloth streamers to the top of a tall new bamboo pole fixed beside her gate, the pale bamboo still green at its joints; her long straight black hair is tied back loosely, the oversized pale yellow knit cardigan pushed up at the sleeves, a thin string of small brass bells on one wrist; her round bright face is calm and concentrated, lips pressed together; the long white streamers already tied hang down past the gate; the low brick wall of her small old house runs behind her, a stack of flattened moving boxes leaning by the gate; warm late sunlight comes down the alley from the left and lights the white cloth and the bamboo pole golden",
+   "motion": "the young woman ties the white streamers to the top of the bamboo pole, and her tying is the one movement in the shot: at the start both her hands are raised at the top of the pole holding the ends of the white cloth; over the whole five seconds her fingers loop the cloth around the pole and pull the knot tight, her elbows lifting and settling, the small brass bells on her wrist glinting while her hands work, while the long white streamers below her stir and ripple sideways in a light breeze coming down the alley and settle back; her feet stay planted on the step ladder and her calm face stays turned up toward the knot; the grey iron gate, the brick wall, the stack of flattened boxes and the bamboo pole itself stay completely still; the warm late sunlight holds steady; the camera holds a medium shot at the height of the gate, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "sinaegi",
+    "munsu",
+    "alley"
+   ],
+   "refs": [],
+   "beat": "신애기가 문수에게 태연히 건넨 한마디",
+   "visual": "the narrow alley at midday: in the near foreground at frame left the gaunt Korean man in his loose plain white cotton hanbok stands at his own grey iron gate seen from behind, the back of his grey-streaked head and his thin shoulders to camera, his long thin hand resting on the gate; across the alley at frame right, a few steps away in the middle distance, the Korean young woman of about twenty stands at her open gate facing the camera and facing him, her long straight black hair loose over the oversized pale yellow knit cardigan, arms loosely folded, her round bright face calm and steady, her mouth open mid-word with the faintest easy smile; the tall bamboo pole with its long white streamers rises beside her gate; the low brick walls and the strip of sky with tangled wires frame the two of them; flat bright midday light, short shadows at their feet",
+   "motion": "the young woman speaks across the alley and the man's shoulders stiffen, and her speaking is the one movement in the shot: at the start she stands with arms loosely folded and her mouth just opening; over the whole five seconds her lips move on a short sentence, her chin tipping up slightly, the faint easy smile staying on her round face and her calm eyes never leaving him, while in the foreground the man's thin shoulders slowly draw up and stiffen under the white hanbok and his thin hand tightens on the top of his gate, the back of his head staying turned to camera and held straight toward her the whole time; the white streamers on her bamboo pole hang almost still; the brick walls, the gates and the wires overhead stay completely still; the camera holds a medium wide shot from behind his shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "munsu",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "그 한마디에 흔들리는 문수의 서른 해 믿음",
+   "visual": "late night in the shrine room: the gaunt Korean man in his loose plain white cotton hanbok sits alone on the floor at frame centre with his back against the edge of the altar table, knees drawn up, facing the camera; the cluster of small brass ritual bells lies in his lap in both long thin hands, and his hands are trembling so that the bells shiver; his long lined face is pale and hollow in the low light, deep-set eyes staring at the floor in front of him, mouth pressed tight; above and behind him the altar holds two lit candles and the bowls of rice and fruit, the painted cloth scrolls of folk deities dim on the wall; the papered lattice window at frame right is black with night; the candlelight from behind outlines his thin shoulders and grey-streaked hair and leaves his face half in shadow",
+   "motion": "the man's hands tremble around the brass bells in his lap, and that trembling is the one movement in the shot: at the start he sits still against the altar with the bells held in both hands; over the whole five seconds the tremor in his long thin hands grows so that the small brass bells shiver and glint faintly, and he tightens his grip to stop them, his knuckles whitening, until the bells quiet again and his hands hold still, his eyes staying fixed on the floor and his face staying set the whole time; his shoulders rise and sink with one uneven breath; behind him the two candle flames stand almost still; the rice bowls, the fruit, the painted scrolls on the wall and the black window hold completely still; the camera holds a medium shot at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "munsu_gut",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "방울과 부채는 그대로인데 떠나 버린 신",
+   "visual": "the shrine room by candlelight: the gaunt Korean man stands before the altar at frame centre facing the camera in his shaman's ritual robe of deep indigo silk with very wide sleeves over white hanbok and the wide-brimmed black horsehair gat hat tied under his chin; he holds a large folding ritual fan in both hands at chest height, just beginning to open it, its paper leaves painted with soft pale flowers and plain washes of colour; the cluster of small brass bells hangs from his right wrist on a loop of cord; his long lined face looks down at the fan with a stiff, searching expression; behind him the altar glows with lit brass candlesticks, bowls of rice and fruit and paper flowers under the painted cloth scrolls; the candlelight gleams along the indigo silk and the brass bells and lights the fan's paper leaves warmly from behind",
+   "motion": "the man opens the folding fan slowly in both hands, and that opening is the one movement in the shot: at the start the fan is closed except for its first two leaves; over the whole five seconds he spreads it leaf by leaf until it stands fully open in a wide half circle before his chest, the painted paper leaves unfolding one after another and the candlelight glowing through them, while his searching eyes follow the opening leaves and his face stays stiff and still; the brass bells hanging from his wrist sway slightly as his hands move; the wide indigo sleeves settle around his forearms; the gat hat stays level; the candle flames, the rice bowls, the fruit, the paper flowers and the painted scrolls behind him hold completely still; the camera holds a medium shot at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "munsu",
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "혼모노, 진짜를 뜻하는 제목이 문수에게 묻다",
+   "visual": "a close shot in the shrine room at night: the gaunt Korean man in his loose plain white cotton hanbok holds up a round brass shaman's mirror in both long thin hands at chest height, its polished face turned toward him and angled slightly toward the camera, so that the upper half of his own long lined face shows reflected in the warm brass, slightly blurred; his real face above the mirror is seen in three-quarter view at frame right, deep-set tired eyes staring hard into the reflection, mouth tight; the back of the mirror has a plain raised rim and a short cord knotted through its handle loop; behind him the altar candles glow softly out of focus, points of warm light, and the painted scrolls of folk deities are only dark shapes; the brass mirror holds the candlelight in a bright crescent along its rim, the rest of the frame deep in shadow",
+   "motion": "the man tilts the brass mirror slowly in his hands, and that tilting is the one movement in the shot: at the start he holds the round mirror still at chest height with his reflection in its polished face; over the whole five seconds he tips it slowly a little toward himself, and the bright crescent of candlelight slides across the brass from the rim toward the centre while his blurred reflection shifts and brightens in the metal, his deep-set eyes staying locked on the reflection and his tight mouth unchanged; his long thin fingers hold the rim steadily the whole time; the out-of-focus candle flames behind him stay small and steady points of light; the dark shapes of the painted scrolls hold completely still; the camera holds the close shot on his face and the mirror, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "shrine"
+   ],
+   "refs": [],
+   "beat": "진짜와 가짜의 경계를 묻는 일곱 편의 이야기",
+   "visual": "the edge of the shrine altar at night, empty of people: seven small white candles stand in a straight row on the white altar cloth, each in its own small brass holder, all seven lit, their flames small and upright, evenly spaced across the frame from left to right; behind them the altar rises with the brass candlesticks, a bowl of rice and a plate of fruit, soft and out of focus; the painted cloth scrolls of folk deities hang dim on the wall at the top of the frame, only their plain dark borders touched by the light; a folded fan and the cluster of small brass ritual bells lie on the cloth at the front edge of the altar; the seven small flames throw seven soft overlapping pools of warm light across the white cloth, and the rest of the room is deep indigo darkness",
+   "motion": "the seven candle flames sway together in a slow draught, and that swaying is the one movement in the shot: at the start the seven small flames stand upright in their row; over the whole five seconds a faint draught moves along the altar from left to right, and the flames lean one after another in the same direction, the fourth flame in the middle of the row guttering low and nearly going out before it rises again, the seven pools of warm light on the white cloth shifting and overlapping as the flames lean and straighten; the candles themselves, their brass holders, the folded fan and the brass bells at the front of the altar stay completely still; the rice bowl, the fruit and the dim painted scrolls behind hold unchanged; the camera holds a low close shot along the row of candles, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "fan",
+    "cinema"
+   ],
+   "refs": [],
+   "beat": "과거가 들춰진 영화감독을 따르는 팬의 이야기",
+   "visual": "a small dark independent cinema late at night: the Korean man of about thirty with rimless glasses sits alone in the middle of a middle row of worn dark cushioned seats, every other seat in the sloping rows around him empty, facing the camera from below the glowing screen; he wears a dark grey crew-neck sweater, his hands clasped tightly in his lap, his pale serious face lit from the front by the pale flickering light of the screen, the light glinting on the lenses of his glasses; his expression is rapt and uneasy at once, brows drawn together, lips parted; a thin beam of projector light crosses the dark air above his head toward the screen behind the camera; the rows of empty seats rise into darkness behind him, a small green exit lamp glowing faintly at the far top corner",
+   "motion": "the pale light of the screen flickers over the man's face and he leans slowly forward in his seat, and that leaning is the one movement in the shot: at the start he sits back in the worn seat with his hands clasped in his lap; over the whole five seconds he leans forward little by little toward the screen, his clasped hands tightening, his brows drawing further together, while the pale screen light brightens and dims across his face and flashes on the lenses of his glasses; the thin beam of projector light above him holds its line through the dark air, dust drifting slowly inside it; the rows of empty seats around and behind him and the faint exit lamp in the far corner stay completely still; the camera holds a medium shot from the front of the cinema at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "dewey",
+    "plaza"
+   ],
+   "refs": [],
+   "beat": "서울의 거리 집회에 휘말린 재미교포 청년의 이야기",
+   "visual": "a hot summer afternoon in a wide stone-paved city plaza in Seoul: the lanky Korean-American young man of about twenty-five stands in the middle of a dense crowd of elderly Korean people at frame centre, facing the camera, a head taller than most of those around him, in his loose grey hoodie, cargo shorts and plain navy baseball cap; his open friendly face is halfway between a polite smile and confusion, eyebrows raised, eyes turned to one side at the people pressing around him; the elderly people around him wear sun hats, light vests and short-sleeved shirts, some fanning themselves with folding hand fans, many turned toward something off to the right of the frame; one elderly woman beside him pats his arm kindly; plain grey office buildings stand behind the plaza under a hazy white sky; hard bright sunlight, short sharp shadows on the paving",
+   "motion": "the crowd shifts and sways around the young man while he turns his head slowly, and his turning head is the one movement in the shot: at the start he stands still in the middle of the crowd with his eyes turned to one side; over the whole five seconds his head turns slowly from the left side of the crowd to the right, his polite half smile fading into puzzlement, his eyebrows staying raised, while the elderly people around him sway gently toward the right of the frame in a slow shared lean, hand fans flicking back and forth, and the elderly woman beside him keeps her hand on his arm; his feet stay planted on the paving; the grey office buildings and the hazy sky behind stay completely still; the camera holds a medium shot at his chest height inside the crowd, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "munsu_gut",
+    "sinaegi",
+    "alley",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "신이 떠난 무당과 신이 온 무당 — 누가 진짜인가",
+   "visual": "night in the narrow alley, a wide shot straight down its length: at frame left the gaunt Korean man stands at his own grey iron gate in his shaman's ritual robe of deep indigo silk with very wide sleeves and the wide-brimmed black horsehair gat hat, in profile facing right across the alley; at frame right, well apart from him across the width of the alley, the Korean young woman of about twenty stands at her own gate in profile facing left toward him, her long straight black hair loose over the oversized pale yellow knit cardigan, the small brass bells on her wrist; the tall bamboo pole with long white cloth streamers rises beside her gate; warm candlelight glows from the open doorways of both houses behind them; the empty alley between them is paved and bare, low brick walls on both sides, tangled wires overhead against a deep indigo night sky over the rooftops",
+   "motion": "the long white streamers on the bamboo pole ripple in the night breeze while the two figures stand facing each other, and the rippling streamers are the one movement in the shot: at the start the streamers hang loosely beside her gate; over the whole five seconds a slow breeze comes down the alley and lifts the long white cloth streamers so they ripple and curl out sideways across the dark air and sink back, while the man in the indigo robe and the young woman in the pale yellow cardigan stand perfectly still at their gates in profile, facing each other across the empty alley, neither one moving; the warm candlelight in the two doorways flickers faintly; the gates, the brick walls, the wires and the indigo night sky stay completely still; the camera holds the wide shot down the alley, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "alley",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 불 켜진 두 대문 사이의 빈 골목",
+   "visual": "a quiet closing still of the narrow old alley at night, empty of people: the two small old houses face each other across the paved alley behind their low brick walls and grey iron gates, both gates closed; warm candlelight glows through the papered lattice windows of both houses, one on each side of the frame; the tall bamboo pole with its long white cloth streamers stands beside the right-hand gate, the streamers hanging still; a single small brass bell on a dark brown cord hangs from the latch of the left-hand gate; a few potted plants sit along the tops of the brick walls; tangled wires cross a deep indigo night sky over the rooftops; the paving between the gates is bare and softly lit from both windows, the whole alley calm, dark and waiting",
+   "motion": "the small brass bell on the latch of the left-hand gate sways gently on its cord, and that swaying is the one movement in the shot: at the start the bell hangs still from the latch; over the whole five seconds a faint breeze stirs it so that it swings a little back and forth on its short cord, taking a glint of warm window light at the end of each swing, and slowly comes to rest again, hanging straight down from the latch with its cord still; the long white streamers on the bamboo pole beside the right-hand gate stir only faintly and settle; the warm candlelight in both papered windows holds steady; the two closed gates, the brick walls, the potted plants, the tangled wires and the deep indigo night sky stay completely still; the camera holds the wide shot down the alley, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

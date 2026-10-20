@@ -1,113 +1,207 @@
 {
-  "logline": "숲으로 달아난 활잡이가, 지나는 부자들의 짐을 가난한 마을로 돌린다.",
-  "destination": "셔우드 숲 한복판 — 관군도 함부로 들어오지 못하는 곳",
-  "protagonist": "초록 두건을 쓴 서른 살 활잡이",
-  "setting": "12세기 잉글랜드의 셔우드 숲과 노팅엄 장터",
-  "anchor": "a lean archer of thirty in a green hood and leather jerkin, longbow across his back",
-  "palette": "forest green, oak brown, autumn ochre, warm amber, cold pale grey",
-  "voice": "ko-KR-InJoonNeural",
-  "personas": {
-    "robin": {
-      "label": "활잡이",
-      "desc": "a lean English archer of thirty, short beard, green hood and leather jerkin, longbow, quiver at his hip",
-      "avoid": "쇠갑옷은 입지 않는다"
-    },
-    "sheriff_men": {
-      "label": "관군",
-      "desc": "English soldiers in mail coats and flat helmets, red surcoats, spears and kite shields",
-      "avoid": ""
-    },
-    "villagers": {
-      "label": "마을 사람들",
-      "desc": "English peasants in undyed wool tunics and hoods, worn boots, weathered faces",
-      "avoid": ""
-    },
-    "forest": {
-      "label": "셔우드 숲",
-      "desc": "a dense oak forest, huge mossy trunks, ferns underfoot, low green light"
-    },
-    "market": {
-      "label": "노팅엄 장터",
-      "desc": "a crowded medieval market square, timber stalls, canvas awnings, castle wall behind"
-    }
+ "logline": "왕의 사슴을 쏜 죄로 셔우드 숲에 숨은 로빈 후드가 통나무 다리의 키다리 존과 수사 터크를 동무로 얻어 초록 옷의 무리를 이끌고 부자의 짐수레를 세워 가난한 마을에 나눠 주며, 셰리프의 황금 화살 대회에 변장하고 나가 화살을 쪼개고 정체가 드러나 무리의 화살 속으로 빠져나오고, 동무 윌을 구한 뒤 숲에 든 얼굴 가린 검은 기사를 마주한다",
+ "destination": "소설 로빈 후드에서 만날 수 있습니다",
+ "protagonist": "robin",
+ "setting": "12세기 잉글랜드 — 셔우드 숲의 참나무·개울, 노팅엄 성과 장터, 가난한 마을, 성문 밖 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/robinhudeu/assets",
+ "anchor": "a lean man of thirty in a hooded tunic of dull green with a leather jerkin, a longbow in his hand, a short brown beard, a keen plain face",
+ "palette": "dull green, dark brown, off-white, ash grey, dull yellow",
+ "voice": "",
+ "personas": {},
+ "withheld": "돌아온 사자왕 리처드의 사면과 로빈의 복권",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "robin",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "왕의 사슴을 쏜 죄로 쫓기던 로빈 후드가 셔우드 숲에 숨는다",
+   "visual": "soft daylight under the great oaks of the forest: the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one crouched on one knee behind the wide trunk of an oak at frame left with his back to the bark, the longbow held upright in his left hand and an arrow nocked on the string with his right, his keen face turned to look round the trunk toward the path at frame right; ferns at his feet, the trodden earth path running away between the trunks; he is the only person in the forest",
+   "motion": "the man behind the oak is the only one who moves: at the start he is crouched on one knee with the arrow nocked and his face turned round the trunk; over the first three seconds he leans slowly a little further round the trunk, his eyes narrowing on the path, and draws the bowstring slowly back a hand's width with the arrow still nocked, his shoulders tightening; in the last two seconds he holds the draw and holds his look round the trunk; the ferns stir very slightly; the oaks and the path hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
-  "beats": [
-    {
-      "n": 1,
-      "cast": [
-        "robin",
-        "forest"
-      ],
-      "beat": "활잡이가 숲으로 몸을 숨긴다.",
-      "visual": "a green-hooded archer slipping between huge mossy oak trunks into deep forest",
-      "motion": "he moves forward into the trees away from the road, ferns close behind him"
-    },
-    {
-      "n": 2,
-      "cast": [
-        "robin",
-        "market"
-      ],
-      "beat": "활잡이가 장터 과녁에 화살을 먹인다.",
-      "visual": "a green-hooded archer drawing a longbow toward a straw target in a crowded market square",
-      "motion": "the bowstring draws back to his cheek, the crowd leans in, awnings flap overhead"
-    },
-    {
-      "n": 3,
-      "cast": [
-        "sheriff_men",
-        "market"
-      ],
-      "beat": "관군이 장터 사이로 밀고 들어온다.",
-      "visual": "mailed soldiers in red surcoats pushing through market stalls, spears above the crowd",
-      "motion": "they push forward through the stalls, a stall topples, produce rolls across the stones"
-    },
-    {
-      "n": 4,
-      "cast": [
-        "robin",
-        "forest"
-      ],
-      "beat": "활잡이가 나뭇가지 사이로 달아난다.",
-      "visual": "a green-hooded archer running between oak trunks, branches whipping past him",
-      "motion": "he runs deeper into the forest away from the camera, branches whip back, leaves burst"
-    },
-    {
-      "n": 5,
-      "cast": [
-        "robin",
-        "forest"
-      ],
-      "beat": "활잡이가 굵은 가지 위에 웅크린다.",
-      "visual": "a green-hooded archer crouched on a thick oak branch above a forest track, bow ready",
-      "motion": "he settles low on the branch, leaves shift around him, light dapples the track"
-    },
-    {
-      "n": 6,
-      "cast": [
-        "sheriff_men",
-        "forest"
-      ],
-      "beat": "짐수레가 숲길로 들어선다.",
-      "visual": "a laden cart with mounted escorts entering a narrow forest track between oaks",
-      "motion": "the cart rolls forward down the track, harness jingles, ferns bend at the wheels"
-    },
-    {
-      "n": 7,
-      "cast": [
-        "villagers"
-      ],
-      "beat": "마을 사람들이 자루를 받아 든다.",
-      "visual": "peasants in wool tunics taking heavy sacks at a forest edge at dawn, breath steaming",
-      "motion": "the sacks pass forward into their arms, breath clouds rise, dew shakes off the grass"
-    },
-    {
-      "n": 8,
-      "cast": [],
-      "beat": "빈 숲길에 바퀴 자국만 남는다.",
-      "visual": "an empty forest track with deep cart ruts filling with morning mist, oaks above",
-      "motion": "mist settles into the ruts, oak leaves turn overhead, light spreads down the track"
-    }
-  ],
-  "withheld": "활잡이의 본디 이름과 신분, 그리고 왕이 돌아와 내리는 결정"
+  {
+   "n": 2,
+   "cast": [
+    "robin",
+    "little_john",
+    "log_bridge",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "통나무 다리에서 로빈이 키다리 존과 몽둥이를 겨루다 개울에 빠진다",
+   "visual": "soft daylight at the narrow log across the clear brook: the giant of a man with the bushy brown beard in the dull green tunic with the long oak quarterstaff is the one standing planted on the log at frame right with his quarterstaff swung level in both hands at the height of the other man's chest, his broad face set; the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one toppling sideways off the log at frame left with his arms flung wide and his own staff flying from his hands, his body already tilted halfway toward the water and his keen face open in surprise, his longbow lying on the ferny bank behind; the clear shallow water and the ferny banks; exactly two men, one on the log and one falling from it",
+   "motion": "the toppling man is the one who moves, and the giant on the log holds his stance: at the start the man is tilted halfway toward the water with his arms wide; over the first two seconds he tips the rest of the way over and goes down into the brook with a spray of white water rising round him, his staff splashing in beside him; in the last two seconds he sits up in the shallow water waist deep with the water streaming from his hood and his beard, his arms still out; the giant keeps his staff swung level and his feet planted on the log, his broad face set; the ferny banks and the longbow on the bank hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "robin",
+    "little_john",
+    "log_bridge",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "물에서 나온 로빈이 존을 동무로 삼는다",
+   "visual": "soft daylight on the ferny bank of the brook: the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard, his tunic and hood dark with water and dripping, is the one standing on the bank at frame left with his right hand gripping the giant's forearm in a clasp, his keen face thrown back in laughter with his mouth wide open; the giant of a man with the bushy brown beard in the dull green tunic with the long oak quarterstaff is the one standing at frame right with his quarterstaff planted in the ground beside him and his right forearm gripped in the clasp, his broad bearded face split in a grin; the log across the brook behind them, the clear water; exactly two men clasping forearms",
+   "motion": "both men move a little: at the start their forearms are clasped and the wet man's head is thrown back; over the first three seconds the wet man's other hand comes up to slap the giant's shoulder twice, water flying from his sleeve, and the giant's free hand comes up to grip the wet man's shoulder in return, both their heads shaking with laughter; in the last two seconds they hold the clasp with their hands on each other's shoulders; the quarterstaff stays planted; the log, the brook and the ferns hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "tuck",
+    "robin",
+    "log_bridge",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "뚱보 수사 터크가 로빈을 업고 개울을 건너다 물에 던진다",
+   "visual": "soft daylight in the middle of the clear shallow brook: the fat monk in the coarse brown robe with the rope belt and the shaved crown is the one standing knee deep in the water at frame right with his robe hitched up, both arms just flung open and his red cheerful face turned up in a shout of laughter; the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one in the air beside him at frame left, tipped head first toward the water with his arms spread and his hood flying, his longbow held clear above his head in one hand; white water below him, the ferny banks on both sides; exactly two men, one standing in the brook and one falling toward it",
+   "motion": "the falling man is the one who moves, and the monk holds his pose: at the start the man is tipped head first in the air with his bow held clear; over the first two seconds he goes down into the brook with a spray of white water rising round him, the bow staying held up out of the water in his raised hand; in the last two seconds he sits up in the water waist deep with the bow still held high and dry, water streaming from his hood; the monk keeps his arms flung open and his laughing face turned up, his robe hitched in his other hand; the banks and the ferns hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "merry_men",
+    "robin",
+    "great_oak",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "큰 참나무 아래 초록 옷의 무리가 로빈을 두목으로 모인다",
+   "visual": "soft daylight in the forest glade before the huge ancient oak: the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one standing on a root of the great oak at frame centre a little above the others with his longbow raised in one fist over his head, his keen face turned to the men; the band of ten men in the hooded tunics of dull green with the longbows over their shoulders are the ones standing in a half ring before him at frame left and right with their faces turned up to him, several with a fist raised; the hollow trunk and the spreading boughs behind; exactly eleven men, one on the root and ten before him",
+   "motion": "the man on the root is the only one who moves, and the ten hold still: at the start his longbow is raised in one fist over his head; over the first three seconds he sweeps the raised bow slowly down and across in front of him from right to left, pointing it out over the heads of the men toward the forest, his other hand coming to his chest; in the last two seconds he holds the bow pointed out over the men; the ten men keep their faces turned up and their fists raised; the great oak, its roots and its boughs hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "sheriff",
+    "soldiers",
+    "castle_hall"
+   ],
+   "refs": [],
+   "beat": "노팅엄의 셰리프가 병사들에게 숲의 무리를 잡아 오라 한다",
+   "visual": "light from tall windows in the stone hall of the castle: the thin man of fifty in the rich red velvet gown with the gold chain and the black velvet cap is the one standing before the high carved chair on the dais at frame right with one thin arm thrust out pointing toward the door, his sour narrow face twisted; the six men-at-arms in the steel caps and leather jerkins with the long spears are the ones standing in a row on the flagstones below the dais at frame left with their spears upright, their faces turned to him; the banners on the walls, the long table; exactly seven men, one on the dais and six in the row",
+   "motion": "the thin man on the dais is the only one who moves, and the six hold their row: at the start his arm is thrust out pointing toward the door; over the first two seconds his pointing arm jabs twice toward the door, his gold chain swinging on his chest, his narrow face jutting forward as he speaks, his other hand slapping the arm of the high chair; in the last two seconds he holds with the arm out and his hand on the chair; the six men-at-arms keep their spears upright and their faces turned to him; the banners and the long table hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "robin",
+    "merry_men",
+    "abbot",
+    "forest",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "로빈의 무리가 숲길에서 부자 수도원장의 짐수레를 세운다",
+   "visual": "soft daylight on the trodden path between the great oaks: a covered wooden cart drawn by one mule stands stopped on the path at frame centre with the fat abbot in the white robe with the gold cross on his chest sitting up in it, his plain round face pale and both his hands raised; the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one standing in the path in front of the mule at frame left with his longbow drawn and an arrow pointed at the cart; four of the band of men in the hooded tunics of dull green are the ones standing among the ferns at the edges of the path with their bows drawn; the great oaks and ferns; exactly one abbot in the cart, one man before the mule and four men at the path edges",
+   "motion": "the abbot in the cart is the only one who moves, and the men with the drawn bows hold still: at the start both his hands are raised and his round face is pale; over the first three seconds his raised hands come slowly down to his chest and fumble at the gold cross, his head turning slowly from the man before the mule to the men at the path edges and back, his mouth working; in the last two seconds his hands hold clasped over the cross; the drawn bows do not move; the mule stands with its head low; the cart, the oaks and the ferns hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "robin",
+    "villagers",
+    "village",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "짐수레의 금화가 굶주린 마을 사람들의 손으로 돌아간다",
+   "visual": "dusk light in the muddy lane of the poor village of thatched huts: the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one standing at frame right with an open leather sack held against his hip in one arm and his other hand held out with a small heap of gold coins in it toward the villagers; the group of six thin villagers in the patched brown and grey clothes are the ones crowded before him at frame left and centre with their hands cupped out toward him, their worn faces lifted; the thatched huts along the lane behind, the dull violet dusk above; exactly seven people, one man with the sack and six villagers",
+   "motion": "the man with the sack is the only one who moves, and the villagers hold their cupped hands out: at the start the heap of coins is in his held-out hand; over the first three seconds his hand tips slowly and the coins pour into the nearest cupped hands, and then his hand goes back into the open sack and comes out with another heap held out toward the next pair of cupped hands; in the last two seconds he holds the second heap out; the six villagers keep their hands cupped and their faces lifted; the huts, the lane and the dusk sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "sheriff",
+    "market",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "셰리프가 황금 화살을 내걸고 활쏘기 대회를 열어 로빈을 꾄다",
+   "visual": "bright daylight in the crowded market square: the thin man of fifty in the rich red velvet gown with the gold chain and the black velvet cap is the one standing on the raised wooden stand hung with red cloth at frame right with a single gold arrow held up high in one hand so that it catches the light, his sour narrow face turned out over the square with a thin smile; the stalls under their awnings and the backs of the townsfolk filling the square below him at the far end at frame left; he is the only person on the stand",
+   "motion": "the thin man on the stand is the only one who moves, and the townsfolk below hold still: at the start the gold arrow is held up high in one hand; over the first three seconds he turns slowly from left to right on the stand so that the arrow sweeps over the whole square, his other hand spreading wide, his thin smile widening; in the last two seconds he holds turned to the right with the arrow high; the townsfolk keep their backs and shoulders where they are; the stalls, the awnings, the target and the red cloth hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "robin_disguised",
+    "market",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "낡은 외투로 변장한 로빈의 화살이 상대의 화살을 쪼갠다",
+   "visual": "bright daylight in the market square, close on the round target of plain coiled straw on its wooden stand at frame right: the whole face of the target is bare pale straw of one colour, wound in a flat spiral, with nothing painted on it; two arrows stand together in the very middle of the straw, the second driven into the shaft of the first and splitting it down its length so that the first arrow's white feathers hang in two halves; the lean man of thirty in the ragged patched grey cloak with the wide-brimmed hat pulled low over his short brown beard is the one standing at frame left with his longbow just lowered in his left hand and his right hand still open beside his cheek from the release, his keen face under the hat brim turned to the target; the striped awnings of the stalls and the backs of the townsfolk behind; he is the only person holding a bow",
+   "motion": "the man with the bow is the only one who moves, and the townsfolk hold still: at the start his right hand is open beside his cheek and the bow is lowered; over the first two seconds his right hand comes slowly down to his side and his head turns slowly from the target toward the raised stand out of the frame at the right, the hat brim staying low over his eyes; in the last two seconds he holds with his head turned and the bow at his side; the two arrows stay fixed in the split target; the stalls, the awnings and the townsfolk hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "sheriff",
+    "robin_disguised",
+    "soldiers",
+    "market",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "황금 화살을 건네던 셰리프가 정체를 알아챈다",
+   "visual": "bright daylight before the raised stand hung with red cloth: the thin man of fifty in the rich red velvet gown with the gold chain and the black velvet cap is the one standing on the stand at frame right bent forward with the gold arrow held out in one hand and his other arm just flung up pointing at the man below, his sour narrow face twisted with his mouth wide open; the lean man in the ragged patched grey cloak with the wide-brimmed hat and the longbow is the one standing below the stand at frame left with the hat knocked back on his head and his keen bearded face bare, one hand already on the arrow held out to him; two of the men-at-arms in the steel caps with the long spears are the ones standing at the foot of the stand behind him with their heads turning; exactly one man on the stand, one man in the cloak and two men-at-arms",
+   "motion": "the thin man on the stand is the one who moves, and the man in the cloak and the men-at-arms hold still: at the start the gold arrow is held out in one hand and the other arm is flung up pointing; over the first two seconds his pointing arm jabs down at the man below twice and his hand with the gold arrow snatches it back against his chest, his mouth opening wider as he shouts, his cap slipping; in the last two seconds he holds with the arrow against his chest and his arm pointing; the man in the cloak keeps his hand held out where the arrow was and his bare face lifted; the two men-at-arms keep their heads half turned; the red cloth, the stand and the stalls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "robin_disguised",
+    "little_john",
+    "soldiers",
+    "market",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "로빈이 존과 무리의 화살 비 속으로 장터를 빠져나간다",
+   "visual": "bright daylight in the market square: the lean man in the ragged patched grey cloak with the longbow is the one running between the stalls toward frame left with the cloak flying behind him and the hat gone, his keen face turned ahead; the giant of a man with the bushy brown beard in the dull green tunic with the long oak quarterstaff is the one standing planted at frame centre with his quarterstaff swung level across the way behind the running man, his broad face set toward the men-at-arms; three of the men-at-arms in the steel caps with the spears are the ones stopped short before the staff at frame right with their spears lowered; arrows standing in the ground and in the stall posts around them; exactly one running man, one giant with a staff and three men-at-arms",
+   "motion": "the running man is the one who moves, and the giant and the men-at-arms hold their places: at the start the running man is mid stride with his cloak flying; over the first three seconds he runs three long strides between the stalls toward the left edge of the frame, the cloak streaming, the bow gripped in his fist, growing a little larger; in the last two seconds he reaches the edge of the stalls and stays just inside the frame; the giant keeps his staff swung level and his feet planted; the three men-at-arms keep their spears lowered and their feet stopped; the arrows in the ground and the stalls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "will",
+    "merry_men",
+    "town_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "밧줄에 묶여 끌려가던 동무 윌을 숲의 화살이 구해 낸다",
+   "visual": "pale daylight on the dirt road outside the stone town wall: the young man of twenty in the dull green tunic is the one standing beside the wooden cart at frame centre with the rope round his wrists just cut through and hanging loose, his pale face with wide eyes turned toward the men on the road; four of the band of men in the hooded tunics of dull green are the ones running down the road toward him at frame left with their bows raised, one arrow still quivering in the side of the cart beside the young man's hands; the townsfolk crowded along the wall at frame right with their mouths open; exactly one young man at the cart, four running men and the townsfolk along the wall",
+   "motion": "the four running men and the young man are the ones who move, and the townsfolk hold still: at the start the four are mid stride with their bows raised and the cut rope hangs from the young man's wrists; over the first three seconds the four run three strides closer down the road, the nearest lowering his bow and reaching out an arm, and the young man shakes the cut rope off his wrists and takes two stumbling steps toward them; in the last two seconds the nearest man's arm closes round the young man's shoulders and both hold there; the townsfolk keep their mouths open along the wall; the cart with the arrow in its side, the wall and the road hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "knight",
+    "robin",
+    "forest",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "얼굴을 가린 검은 갑옷의 기사가 로빈의 숲에 들어온다",
+   "visual": "dusk light under the great oaks of the forest: the tall knight in the black plate armour with the visor down and the black cloak is the one sitting on the black horse on the trodden path at frame right, reins in one gauntleted hand, the closed visor turned toward the man on the path; the lean man of thirty in the hooded tunic of dull green with the leather jerkin and the longbow, with the short brown beard is the one standing in the middle of the path at frame left with his longbow held across his body in both hands, unstrung, his keen face lifted to the closed visor with his brows drawn together; ferns and the dark trunks, the dull violet dusk between the boughs; exactly two men, one mounted knight and one on foot",
+   "motion": "the knight and the horse are the ones who move, and the man on the path holds still: at the start the horse stands with the knight's visor turned to the man; over the first three seconds the horse takes two slow steps forward along the path toward the man, its head tossing once, and the knight's gauntleted hand rises slowly from the reins to the edge of the closed visor and rests there without lifting it; in the last two seconds the horse stops a few strides from the man and the hand stays at the visor; the man keeps his bow across his body and his face lifted, his feet planted; the oaks, the ferns and the dusk hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "great_oak",
+    "dusk_bg"
+   ],
+   "refs": [],
+   "beat": "큰 참나무 아래 빈 숲만 남는다",
+   "visual": "dusk light in the forest glade: the huge ancient oak stands at frame centre with its hollow trunk dark and its spreading boughs reaching across the top of the frame, a single arrow standing upright in the earth among the roots at its foot, ferns round the glade, the dull violet dusk showing between the boughs; the glade lies quiet",
+   "motion": "nothing but the leaves moves: over the whole five seconds the leaves along the spreading boughs stir very slightly in a light evening wind, lifting and settling in slow waves that pass from the left of the frame to the right and back again, and the ferns round the glade sway a little with them, each frond bending and straightening in turn; the hollow trunk, the roots, the single arrow standing in the earth at the foot of the oak and the dull violet dusk between the boughs hold completely still; the light does not change over the five seconds; the glade stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

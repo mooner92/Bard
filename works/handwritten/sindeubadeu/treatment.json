@@ -1,106 +1,205 @@
 {
- "logline": "바그다드의 뱃사람이 재물을 좇아 바다로 나가고, 딛고 선 섬이 움직이기 시작한다.",
- "destination": "지도에 없는 섬 — 딛는 순간 움직이기 시작하는 땅",
- "protagonist": "붉은 허리띠를 두른 서른 살의 바그다드 뱃사람",
- "setting": "옛 아라비아의 항구와 낯선 바다",
- "anchor": "a sturdy Arab sailor of thirty with a short black beard, striped robe and red sash",
- "palette": "sea turquoise, sail white, desert ochre, brass gold, deep indigo shadow",
- "voice": "ko-KR-InJoonNeural",
- "personas": {
-  "sinbad": {
-   "label": "뱃사람",
-   "desc": "a sturdy Arab sailor of thirty, short black beard, striped robe, red sash, bare feet",
-   "avoid": ""
-  },
-  "crew": {
-   "label": "선원들",
-   "desc": "Arab sailors in loose tunics and head cloths, sun-darkened faces, ropes in hand",
-   "avoid": ""
-  },
-  "harbour": {
-   "label": "바그다드 항구",
-   "desc": "a crowded Arabian quay, wooden dhows, stacked bales and jars, striped awnings"
-  },
-  "island": {
-   "label": "섬",
-   "desc": "a low bare island of dark ridged ground, open sea all around"
-  }
- },
+ "logline": "바그다드의 뱃사람 신드바드가 다시 바다로 나가 지도에 없는 검은 섬에 내렸다가 섬이 기울어 나무통에 매달려 표류하고, 낯선 모래밭 너머 들판의 집채만 한 알에 내려앉은 거대한 새 로크의 발에 터번으로 몸을 묶어 하늘로 실려 가 반짝이는 돌과 큰 뱀의 골짜기에 떨어지고, 상인들이 던진 고깃덩이에 몸을 묶어 독수리에게 채여 오른다",
+ "destination": "소설 신드바드의 모험에서 만날 수 있습니다",
+ "protagonist": "sindbad",
+ "setting": "옛 아라비아의 항구, 먼바다, 낮고 검은 섬, 낯선 모래밭과 들판, 하늘, 반짝이는 돌의 골짜기",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/sindeubadeu/assets",
+ "anchor": "a sturdy Arab man of thirty with a short black beard, a white turban, a striped robe of dull red and off-white and a red sash, a weathered face",
+ "palette": "turquoise, off-white, sand yellow, dark brown, dull red",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
-    "sinbad",
-    "harbour"
+    "sindbad",
+    "crew",
+    "harbour",
+    "day_bg"
    ],
-   "beat": "뱃사람이 항구에서 짐을 배에 싣는다.",
-   "visual": "a bearded sailor loading bales onto a wooden dhow at a crowded Arabian quay",
-   "motion": "a bale swings up onto the deck, ropes strain, awnings flap along the quay"
+   "refs": [],
+   "beat": "뱃사람 신드바드가 다시 배에 짐을 싣고 바다로 나선다",
+   "visual": "hard bright daylight on the stone quay of the busy Arab harbour: the sturdy Arab man of thirty with the short black beard, the white turban, the striped robe of dull red and off-white and the red sash is the one standing on the sand yellow quay at frame centre with a bale on his shoulder, his weathered face turned to the ship; the six Arab seamen in the loose off-white shirts and the dark head cloths are the ones carrying jars and bales up a plank onto the wooden ship at frame right, its tall lateen sail furled on its long yard; only the man in the striped robe wears a turban and a red sash; the turquoise water below the quay, bales and jars stacked at frame left",
+   "motion": "the sturdy Arab man in the striped robe is the one who moves, and the seamen on the plank hold their loads: at the start the bale rests on his shoulder and his face is turned to the ship; over the first three seconds he takes two slow steps toward the plank from left to right, the bale shifting on his shoulder, his sandals scuffing the quay; in the last two seconds he stops well inside the frame at the foot of the plank; the six seamen keep their jars and bales lifted on the plank, their feet not shifting; the furled sail, the quay, the stacked bales and the turquoise water hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "sinbad",
-    "crew"
+    "sindbad",
+    "sea",
+    "day_bg"
    ],
-   "beat": "배가 먼바다로 나아간다.",
-   "visual": "a wooden dhow under full sail on open turquoise sea, sailors at the ropes",
-   "motion": "the dhow drives forward across the swell, the sail bellies out, spray bursts"
+   "refs": [],
+   "beat": "돛을 부풀린 배가 먼바다 물결을 헤치고 나아간다",
+   "visual": "the open turquoise sea with long rolling waves under the hard bright sky: the wooden ship is the one cutting through the waves at frame centre with its single tall lateen sail bellied full and pale against the sky, white foam at its bow; the sturdy Arab man of thirty with the short black beard, the white turban and the striped robe of dull red and off-white is the one standing at the bow with one hand on the rail and his weathered face turned ahead, small against the sail; the waves rolling past on both sides, the horizon a hard line; the sea is bare of any other ship",
+   "motion": "the ship and the sea are what move, and the man at the bow holds still: at the start the ship cuts through the waves with its sail bellied; over the whole shot the ship drives slowly forward and a little to the right through the rolling waves, the bow rising and dipping, foam breaking and streaming along the hull, the full sail straining; the man keeps his hand on the rail and his face ahead, his robe stirring; the hard line of the horizon holds completely still; the wooden ship stays whole and upright, its long yard and its rigging keeping their lines against the sky, the waves keeping their long slow rhythm without breaking white except at the bow; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
+    "sindbad",
     "crew",
-    "island"
+    "island",
+    "day_bg"
    ],
-   "beat": "선원들이 낮은 섬에 내려선다.",
-   "visual": "sailors stepping onto a low bare island of dark ridged ground, their dhow anchored beyond",
-   "motion": "they walk forward onto the ridged ground, water sheets off it, gulls scatter"
+   "refs": [],
+   "beat": "지도에 없는 낮고 검은 섬에 내려선 신드바드와 선원들",
+   "visual": "hard bright daylight on the low dark island of smooth black rock rising a little above the turquoise waves: the sturdy Arab man of thirty with the short black beard, the white turban and the striped robe of dull red and off-white is the one standing on the black rock at frame centre-left with one sandal set on a smooth hump of the rock and his weathered face turned down at it; the six Arab seamen in the loose off-white shirts and the dark head cloths are the ones stepping down from a small boat onto the rock at frame right, one still in the boat; only the man in the striped robe wears a turban; a few scrubby plants on the black rock, the wooden ship at anchor far behind at the top of the frame, the turquoise water lapping the rock",
+   "motion": "the sturdy Arab man in the striped robe is the one who moves, and the seamen hold their places at the boat: at the start his sandal rests on the smooth hump of black rock and his face is turned down; over the first two seconds he crouches slowly and lays his broad hand flat on the black rock, his turbaned head tilting as he feels it; in the last two seconds he holds crouched with his hand on the rock; the seamen keep their places, one in the boat and the others on the rock, not stepping; the scrubby plants, the anchored ship and the lapping water hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
     "crew",
-    "island"
+    "sindbad",
+    "island",
+    "day_bg"
    ],
-   "beat": "선원들이 섬 위에 불을 피운다.",
-   "visual": "sailors crouched around a small cook fire on dark ridged ground, sea all around",
-   "motion": "the fire catches and smoke lifts, the ground shudders, the men look down"
+   "refs": [],
+   "beat": "허기진 선원들이 섬 위에 불을 피우고 둘러앉는다",
+   "visual": "hard bright daylight on the low dark island of black rock: a small fire of driftwood burns at frame centre on the black rock with a thin thread of grey smoke rising; the six Arab seamen in the loose off-white shirts and the dark head cloths are the ones sitting in a loose circle around the fire with their hands held out to it, plain bearded faces lit dull yellow; the sturdy Arab man of thirty with the short black beard, the white turban and the striped robe of dull red and off-white is the one standing a little apart at frame right with his arms folded, his weathered face turned to the sea; only the man in the striped robe stands and wears a turban; the turquoise waves lapping the rock's edge, the ship at anchor far behind",
+   "motion": "the small fire is what moves, and the men hold their places: at the start the driftwood fire burns with a thin thread of smoke; over the whole shot the flames flicker and lean in the sea wind and the thread of grey smoke bends and drifts toward the right, the dull yellow light wavering on the seamen's faces; the six seamen keep their hands held out to the fire, not rising; the man in the striped robe keeps his arms folded and his face to the sea; the black rock, the lapping waves and the anchored ship hold completely still; the black rock stays level and does not tilt, the water at its edge lapping only a little, the dark head cloths and off-white shirts of the seated men stirring only at their loose edges; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
-    "island"
+    "crew",
+    "sindbad",
+    "island",
+    "day_bg"
    ],
-   "beat": "섬이 천천히 기울기 시작한다.",
-   "visual": "a low dark island tilting under a scattered cook fire, water rushing up over the ridges",
-   "motion": "the ground heaves upward, water pours across it, the fire scatters and hisses"
+   "refs": [],
+   "beat": "발밑의 땅이 기울며 선원들이 외친다",
+   "visual": "hard bright daylight on the low dark island of black rock, the whole rock tilted so that its left edge lifts out of the turquoise water and its right edge sinks: the six Arab seamen in the loose off-white shirts and the dark head cloths are the ones sliding and sprawling down the tilted black rock toward the water at frame right, arms flung out, mouths open, the scattered driftwood of the fire sliding with them; the sturdy Arab man of thirty with the short black beard, the white turban and the striped robe of dull red and off-white is the one at frame left clinging with both hands to a scrubby plant at the high edge, his sandals braced, his weathered face turned back over his shoulder at the men; only the man in the striped robe wears a turban; water washing over the sinking edge, the ship at anchor tilting far behind",
+   "motion": "the tilted black rock and the men on it are what move: at the start the rock is tilted with the seamen sliding toward the sinking edge; over the first three seconds the rock tilts slowly further, its high edge rising and the sinking edge dipping under the turquoise water, the six seamen sliding slowly further down toward the water with their arms flung out, the driftwood tumbling slowly after them, spray lifting; in the last two seconds the tilt holds and the water washes higher; the man in the striped robe keeps both hands on the scrubby plant and his sandals braced, his face turned back at the men; the anchored ship far behind holds still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "sinbad"
+    "sindbad",
+    "sea",
+    "day_bg"
    ],
-   "beat": "뱃사람이 나무통을 붙들고 물에 뜬다.",
-   "visual": "a bearded sailor clinging to a wooden cask in open sea, his dhow small and far off",
-   "motion": "the swell lifts him and the cask, the distant sail shrinks, foam slides past"
+   "refs": [],
+   "beat": "나무통 하나를 붙든 채 물결 위에 뜬 신드바드",
+   "visual": "hard bright daylight seen from high above, looking straight down at the open turquoise sea: the water fills the whole frame from edge to edge with long rolling waves and white foam streaks; the wooden barrel bound with two iron hoops is the one floating on its side in the middle of the frame, half sunk, seen from above; the sturdy Arab man of thirty with the short black beard and the white turban is the one in the water beside it seen from above, only the top of his turban, his shoulders and his two arms above the surface, both arms wrapped over the floating barrel, the striped robe of dull red and off-white spread dark under the water around him; deep turquoise water in every corner of the frame; he is the only person in the sea",
+   "motion": "the sea is what moves, and the man and the barrel move only with it: over the whole five seconds the long rolling waves pass slowly under the barrel and the man from the top of the frame to the bottom, lifting them and letting them down twice, the foam streaks drifting with the swell, the barrel rolling a little on its side, water washing over its staves and over his arms; his arms stay wrapped over the barrel and the top of his turban stays above the water; the deep turquoise water fills every corner of the frame the whole time; the light does not change; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "sinbad"
+    "sindbad",
+    "beach",
+    "day_bg"
    ],
-   "beat": "뱃사람이 낯선 모래밭에 밀려 올라온다.",
-   "visual": "a soaked sailor washed up on a pale unknown beach, palms and cliffs behind him",
-   "motion": "surf pushes him up the sand, water runs off his robe, palm tops toss"
+   "refs": [],
+   "beat": "며칠 뒤 신드바드가 낯선 모래밭에 밀려 올라온다",
+   "visual": "hard bright daylight on the wide sandy beach: the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white, wet and dark, is the one lying face down on the sand at the water's edge at frame centre with his arms spread and his face turned to the side, his black hair matted, a small wave washing around his legs; the wooden barrel lies on the sand a pace away at frame right; the tall slender date trees at the edge of the beach at the top of the frame, the turquoise water; the beach is bare of any other person",
+   "motion": "the sturdy Arab man in the striped robe lying on the sand is the only one who moves, and the water with him: at the start he lies face down with his arms spread and a wave washing around his legs; over the first three seconds he pushes slowly up on his forearms, lifting his head and shoulders from the sand, wet sand falling from his beard, his eyes opening toward the date trees, while the wave slides back and another washes up around his legs; in the last two seconds he holds propped on his forearms; his legs stay on the sand; the barrel, the date trees and the hard sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 바다에 나무통 하나가 떠 있다.",
-   "visual": "an empty wooden cask drifting on wide calm sea at dusk, no land in sight",
-   "motion": "the cask rocks on the swell, light fades on the water, ripples spread"
+   "cast": [
+    "sindbad",
+    "plain",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "모래밭 너머 들판에 집채만 한 흰 알이 놓여 있다",
+   "visual": "hard bright daylight on the wide bare plain of sand and pale rock: the huge smooth white egg is the one standing on the bare ground at frame centre-right, its smooth shell pale against the hard blue sky; the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white, his turban wound back on his head, is the one standing at frame left small beside the egg with one hand raised to shade his eyes and his weathered face tilted up at it, his other hand pressed flat against the shell; the plain running away bare to the horizon; the plain is bare of any other figure; the egg towers over the man: its top is three times higher than the top of his turban and its width is four times the span of the man's outstretched arms, the man standing at its base reaching no higher than its lowest third, so that the egg fills most of the frame from the sand to near the top; there is one egg on the plain, this huge one",
+   "motion": "the sturdy Arab man beside the egg is the only one who moves: at the start his hand is pressed flat against the white shell and his face is tilted up; over the first three seconds he walks slowly two steps along the curve of the egg from left to right with his hand sliding along the shell, his head tilting further back to follow its height; in the last two seconds he stops well inside the frame with his hand still on the shell; the huge egg, the bare plain and the hard sky hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "roc",
+    "plain",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그 알에 하늘을 덮으며 내려앉는 집채만 한 새 로크",
+   "visual": "hard bright daylight on the wide bare plain: the gigantic bird with the dark brown feathers, the hooked yellow beak and the yellow talons each as long as a man is the one descending onto the huge smooth white egg at frame centre, its wings spread wide across the whole top of the frame and shadowing the ground, its talons reaching down to the egg, its head lowered; the huge white egg towering beneath it, the bare plain of sand and pale rock, a broad dark shadow of the wings lying across the ground; the plain is bare of any person; the egg is as tall as the great bird is long from beak to tail, and the plain around it is bare sand and pale rock; the egg's shadow on the sand is a soft grey and the sand around it is pale yellow",
+   "motion": "the gigantic bird is what moves, and the egg holds still: at the start its wings are spread across the top of the frame with its talons reaching down to the egg; over the first three seconds the bird settles slowly onto the egg, its wings beating once in a slow heavy sweep that lifts sand from the plain, its talons closing gently around the shell, its head lowering to the egg; in the last two seconds the wings fold slowly half in and the sand settles; the egg does not move; the bare plain and the hard sky hold completely still; the huge white egg keeps its smooth pale shell unbroken and does not roll or tilt under the bird's weight, the dark shadow of the wings lying still across the sand once the wings fold; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "sindbad",
+    "roc",
+    "plain",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "신드바드가 터번을 풀어 몸을 로크의 발에 묶는다",
+   "visual": "hard bright daylight on the wide bare plain, close at the ground: one yellow talon of the gigantic bird, as long as a man and curving into a great hook, stands planted on the sand at frame right, the dark brown feathered leg rising out of the top of the frame; the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white is the one crouched beside the talon at frame left with his white turban unwound into a long strip of cloth, both hands winding the cloth around the talon and his own waist, his weathered face set; the bare sand and pale rock of the plain around them",
+   "motion": "the sturdy Arab man crouched by the talon is the only one who moves, and the talon holds planted: at the start both his hands hold the long strip of white cloth half wound around the talon; over the first three seconds his hands wind the cloth slowly twice more around the talon and around his own waist, drawing it tight with a jerk of his shoulders; in the last two seconds he holds with the knot in both hands; the great talon stays planted in the sand, the feathered leg above it not shifting; the plain holds completely still; the sand around the talon stays undisturbed except where his sandals shift, the white cloth staying taut between the talon and his waist, his beard and robe stirring only a little in the light wind; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "roc",
+    "sindbad",
+    "sky"
+   ],
+   "refs": [],
+   "beat": "날아오른 로크가 신드바드를 바다 위 높이 실어 간다",
+   "visual": "high in the air above the turquoise sea: the gigantic bird with the dark brown feathers and the hooked yellow beak is the one flying across the top of the frame with its wings spread wide, its yellow talons hanging beneath it; the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white is the one hanging from one talon by the strip of white cloth bound around his waist, his arms and legs dangling, his weathered face turned down at the sea; thin white clouds below them, the turquoise sea far beneath, the coast a pale line at the edge of the frame",
+   "motion": "the gigantic bird and the man hanging beneath it are what move, drifting together across the sky: at the start the bird flies across the top of the frame with the man hanging from its talon; over the whole shot the bird glides slowly from right to left across the frame with two slow heavy wingbeats, the man swinging gently beneath the talon on the white cloth, his robe fluttering, the thin clouds sliding slowly past below; neither leaves the frame; the turquoise sea and the pale coast hold completely still; the bird's hooked yellow beak stays pointed ahead and its head does not turn, the strip of white cloth staying taut between the talon and the man's waist, the coast's pale line staying at the edge of the frame; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "sindbad",
+    "snakes",
+    "valley",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "로크가 내려놓은 곳은 반짝이는 돌과 큰 뱀들이 깔린 골짜기",
+   "visual": "hard bright daylight on the floor of the deep valley between the sheer grey rock walls: the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white is the one standing at frame centre-left on the valley floor scattered with clear glittering stones, the strip of white cloth trailing from his waist, his weathered face turned down at the ground with his mouth open; the several huge dark grey snakes as thick as a man's leg are the ones coiled among the stones at frame right and along the foot of the wall, their heads lifted; only the man stands upright; the rim of cliff far above at the top of the frame against the hard sky, glints of light on the stones",
+   "motion": "the huge dark grey snakes are what move, and the man holds his place: at the start the snakes are coiled among the glittering stones with their heads lifted; over the first three seconds the nearest snake uncoils slowly a little and its lifted head sways slowly from side to side, its tongue flicking, the coils of the others shifting slowly over the stones; in the last two seconds the heads hold lifted; the man keeps his feet planted among the stones and his face turned down, his mouth open, the cloth trailing still; the rock walls, the rim of cliff and the hard sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "merchants",
+    "sindbad",
+    "meat",
+    "valley",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "상인들이 골짜기로 던진 고깃덩이에 신드바드가 몸을 묶는다",
+   "visual": "hard bright daylight in the deep valley: the three Arab merchants in the turbans and the long dark robes are the ones standing small at the rim of the cliff far above at the top of the frame, one with his arm still out from a throw; on the valley floor at frame centre the great piece of raw red meat as wide as a man's chest lies among the glittering stones, and the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white is the one lying on his back on the meat with the strip of white cloth wound around his waist and the meat, his hands pulling the knot tight, his weathered face turned up at the rim; only the man on the floor wears a striped robe; the sheer grey rock walls, the glittering stones",
+   "motion": "the sturdy Arab man on the meat is the one who moves, and the merchants at the rim hold still: at the start his hands hold the knot of the white cloth over his chest; over the first two seconds his hands pull the cloth slowly tighter around himself and the meat and then press flat over the knot, his head settling back on the meat and his eyes fixed on the rim above; in the last two seconds he holds still with his hands on the knot; the three merchants at the rim keep their places, the thrown arm lowering slowly; the rock walls and the glittering stones hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "eagle",
+    "sindbad",
+    "meat",
+    "valley",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "고깃덩이를 채 간 독수리에 매달린 신드바드는 살아 돌아갈까 (질문)",
+   "visual": "hard bright daylight in the deep valley, seen from below: the brown eagle with the wide wings with the hooked yellow beak and the spread wings is the one rising up the sheer grey rock wall at frame centre with its talons gripping the great piece of raw red meat, and the sturdy Arab man of thirty with the short black beard and the striped robe of dull red and off-white is the one bound to the meat by the strip of white cloth, hanging beneath it with his arms clasped around it and his weathered face turned up at the eagle; the rim of the cliff above against the hard sky, the glittering stones far below at the bottom of the frame",
+   "motion": "the eagle with the meat and the man are what move, rising together: at the start the eagle's wings are spread with its talons gripping the meat and the man hanging beneath; over the whole shot the eagle beats its wings slowly and rises steadily up the rock wall toward the rim, the meat and the man swinging gently beneath it, his robe fluttering and the cloth strip trailing; neither leaves the frame; the sheer rock walls, the rim of cliff and the glittering stones below hold completely still; the man's arms keep their clasp around the raw meat and the white cloth stays bound, the eagle's beak stays pointed up at the rim, the rock walls on either side keeping their sheer grey faces; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "barrel",
+    "sea",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 바다에 뜬 나무통 하나 (마무리)",
+   "visual": "the open turquoise sea with long rolling waves under the hard bright sky: the wooden barrel bound with two iron hoops is the one floating alone at the lower centre of the frame, tilted on a wave, turquoise water on all sides to the hard line of the horizon; the sea is bare of any ship or person",
+   "motion": "the sea and the barrel are what move: at the start the barrel floats tilted on a wave; over the whole shot the long rolling waves lift the barrel slowly and let it down, the barrel turning slowly on the water and drifting a little toward the left, foam breaking softly on the crests and fading; the hard line of the horizon and the bright sky hold completely still; the barrel stays inside the frame; the barrel does not sink or roll over, the water around it staying clear turquoise, the foam on the crests appearing and fading in the same slow rhythm; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "그 섬의 정체와, 뱃사람이 마지막 항해에서 얻게 되는 것"
+ "withheld": "섬의 정체와 일곱 항해 끝에 얻는 것"
 }

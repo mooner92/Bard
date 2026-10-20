@@ -1,0 +1,181 @@
+{
+ "logline": "사적지에서 사람이 사라진다 — 탐사 지침서·보고서·녹취록으로 짠 한국형 아카이브 미스터리",
+ "destination": "소설 한국사 이상현상 연구원에서 만날 수 있습니다",
+ "protagonist": "recruit",
+ "setting": "근미래 서울 — 지하 기록 보관실과 안개 낀 조선 궁궐, 고분, 사적지",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/isanghyeonsang/assets",
+ "anchor": "a Korean woman of about twenty-five with a short straight black bob, in a plain dark navy suit jacket",
+ "palette": "ash grey, pale ochre, slate blue, off-white, faded green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "이상 개체들의 정체와 배후, 연구원이 맞는 마지막 위기",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "mother",
+    "daughter",
+    "palace_ruin",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "한복을 입고 창덕궁 문을 넘자 폐허로 변한 궁궐",
+   "visual": "the moment after stepping through a wide wooden palace gate: the Korean mother and her grown daughter in their rented hanbok stand side by side just inside the gate at frame centre, seen from behind at an angle, the mother on the left and the daughter on the right, both frozen mid-step and looking out over the courtyard, their shoulders drawn in; the palace courtyard in front of them has fallen into ruin, its tiled roofs sagging and broken, the painted eaves peeling and faded, weeds pushing up between the flagstones; thick grey fog rolls across the far side of the courtyard, swallowing the halls; the sky above is dark though it is the middle of the afternoon; the courtyard beyond them is empty of the crowds that should be there; cold flat grey light, the pale pink and pale mint of their hanbok the only soft colour in the scene",
+   "motion": "the fog rolls slowly across the ruined courtyard toward the mother and daughter, and that rolling fog is the one movement in the shot: at the start the fog lies along the far side of the courtyard; over the whole five seconds it creeps steadily forward across the broken flagstones toward the two women, curling around the weeds and the bases of the sagging halls, thickening and darkening the air, while the mother and daughter stand frozen side by side seen from behind, the daughter's hand slowly finding her mother's sleeve and closing on it, the backs of their heads to camera and held straight toward the courtyard the whole time; the ruined roofs, the peeling eaves and the gate behind them stay completely still; the dark afternoon sky holds unchanged; the camera holds a medium wide shot from just behind them, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "mother",
+    "daughter",
+    "palace_ruin",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "대낮인데 안개가 끼고 사라진 사람들",
+   "visual": "the ruined palace courtyard in the fog, a wider view: the Korean mother and her grown daughter in their rented pale pink and pale mint hanbok stand alone close together in the middle of the empty courtyard, small in the frame, facing the camera now, turning to look all around them, the mother's hand pressed to her chest and the daughter's mouth open, calling out; thick grey fog walls them in on every side, so only the nearest broken roof edges and a few weed-grown flagstones show; a single embroidered cloth shoe lies abandoned on the flagstones a little way from them; the dark sky presses low overhead though it is still the afternoon; there is nobody else anywhere in the courtyard, only the two of them and the fog; dim grey light without shadows, the whole scene hushed and airless; the far halls are only faint grey shapes in the mist",
+   "motion": "the two women turn slowly on the spot looking for the vanished crowds, and their turning is the one movement in the shot: at the start they stand close together facing the camera; over the whole five seconds they turn slowly in place, the mother to the left and the daughter to the right, their eyes searching the fog, the daughter's lips moving on a call that goes unanswered, their long silk skirts swaying around their ankles with the turn, while the grey fog around them drifts slowly in a wide circle, thickening at the edges of the courtyard; the abandoned cloth shoe on the flagstones, the broken roof edges and the weeds stay completely still; the dark low sky holds unchanged; their breath shows faintly in the cold air; the camera holds a wide shot of the courtyard from the height of a person, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "palace_ruin",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "사적지에서 흔적 없이 사라지는 사람들",
+   "visual": "the same ruined palace courtyard, now completely empty of people: at frame centre on the worn stone steps of a sagging hall lie a few small things left behind by visitors who are gone, a single embroidered cloth shoe on its side, a folded plain paper map of the palace grounds, and a small cloth handbag with its strap trailing down one step; the hall behind the steps has broken lattice doors hanging open onto darkness, its tiled roof sagging, its painted eaves faded almost to grey; thick grey fog drifts across the courtyard from the left, blurring the gate in the far background; weeds stand up between the flagstones; the dark afternoon sky is low and heavy; flat cold grey light lies over everything, the scene silent and abandoned, the little lost things small and bright against the grey stone",
+   "motion": "the grey fog drifts slowly across the empty courtyard and over the abandoned things on the steps, and that drifting fog is the one movement in the shot: at the start the fog hangs at the left edge of the frame; over the whole five seconds it moves steadily to the right across the courtyard and up over the worn stone steps, veiling and unveiling the cloth shoe, the folded map and the small handbag in slow thin layers, and curling into the dark doorway of the hall behind; the abandoned shoe, the map, the handbag with its trailing strap, the broken lattice doors and the sagging roof stay completely still; the weeds between the flagstones barely stir; the dark afternoon sky holds unchanged, a loose weed stem trembling where the fog passes; the camera holds a medium shot of the steps from the courtyard, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "recruit",
+    "archive"
+   ],
+   "refs": [],
+   "beat": "사라진 사람들을 쫓는 비밀 기관, 한국사 이상현상 연구원",
+   "visual": "an underground archive office deep below the city at night: tall grey steel shelves packed with closed plain document boxes run back into the dark on both sides of the frame; down the middle stands a long wooden table under a row of green-shaded desk lamps, each throwing a warm pool of light; the Korean woman of about twenty-five in her plain dark navy suit jacket walks slowly down the aisle between the shelves toward the camera, her short straight black bob framing her serious pale face, one hand trailing along the edge of the long table; the bare concrete walls and low ceiling close in overhead, pipes running along it; closed grey binders lie in neat stacks on the table; the only light is the green lamps, the room windowless, quiet and secret; a faint hum of ventilation hangs in the still air and a thin film of dust lies along the top shelves",
+   "motion": "the young woman walks slowly down the aisle between the shelves toward the camera, and her walking is the one movement in the shot: at the start she is at the far end of the long table; over the whole five seconds she walks steadily closer between the grey steel shelves, passing from one warm pool of green-shaded lamplight into the next, her fingertips trailing along the edge of the table, her serious pale face turned toward the camera and lit more brightly with each lamp she passes; the closed document boxes on the shelves, the stacks of grey binders on the table, the pipes along the ceiling and the lamps themselves stay completely still; the pools of warm light hold steady on the table; the camera holds its place at the near end of the aisle as she approaches, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "archive"
+   ],
+   "refs": [],
+   "beat": "탐사 지침서·사건 보고서·녹취록으로 된 기록",
+   "visual": "a close view of one end of the long wooden archive table under a green-shaded desk lamp, empty of people: laid out in the warm pool of light are a thick closed grey binder with a plain cover, a stack of loose sheets turned face down, a small silver digital voice recorder with a tiny glowing light, a cassette tape in a clear case with its blank side up, and a single closed manila folder; a pair of reading glasses rests folded on the folder; beyond the lamp's pool the table runs away into darkness toward the grey steel shelves of closed document boxes; the bare concrete wall behind is lit faintly green by the lamp shade; the whole arrangement is neat, still and secret, the objects clean and ordinary under the warm light; a thin cord runs from the recorder to a small pair of headphones coiled beside it, and the lamplight shines softly on the binder's worn edges",
+   "motion": "the tiny light on the small silver voice recorder blinks slowly while it plays, and that blinking is the one movement in the shot: at the start the recorder lies still on the table with its tiny light glowing steadily; over the whole five seconds the light pulses slowly on and off, a faint tremble passing through the loose face-down sheets beside it each time from its small speaker, while the warm pool of lamplight stays steady on the table; the closed grey binder, the cassette in its clear case, the manila folder and the folded reading glasses stay completely still; the green-shaded lamp stays exactly where it is; the grey shelves and boxes in the darkness beyond hold unchanged; the headphone cord beside the recorder lies still; the camera holds the close shot of the table end, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "recruit",
+    "archive"
+   ],
+   "refs": [],
+   "beat": "기록의 첫 장 — 귀하의 입사를 환영합니다",
+   "visual": "at the long wooden archive table under a green-shaded desk lamp: the Korean woman of about twenty-five in her plain dark navy suit jacket sits alone at frame centre facing the camera, both hands resting on a thick closed grey binder in front of her, just about to open its plain cover; her serious pale face is lit from below by the warm lamplight, eyes lowered to the binder, lips pressed together; behind her the tall grey steel shelves of closed document boxes rise into darkness; a small silver voice recorder and a cup of water sit at her elbow; the bare concrete wall and the low ceiling pipes show faintly at the edges of the frame; the rest of the long table stretches away empty into the dark; the scene is quiet and tense, the first night of a new job; a pen lies uncapped beside the binder, and a thin line of lamplight lies across her folded hands",
+   "motion": "the young woman slowly lifts and opens the cover of the binder, and that opening is the one movement in the shot: at the start both her hands rest flat on the closed grey binder; over the whole five seconds she lifts the plain cover with her right hand and folds it slowly back and away from her until it lies open flat on the table, the first pages facing her and away from the camera, her eyes following the opening cover and then settling on the first page, her shoulders drawing in a little; the small silver voice recorder, the cup of water and the green-shaded lamp beside her stay completely still; the warm lamplight holds steady on her face; the grey shelves and boxes behind her hold unchanged; the camera holds a medium shot across the table at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "recruit",
+    "archive"
+   ],
+   "refs": [],
+   "beat": "지침서 녹취 속 목소리의 경고 — 그것들을 주시하지 마십시오",
+   "visual": "a close shot at the archive table: the Korean woman of about twenty-five in her plain dark navy suit jacket sits leaning forward over the small silver voice recorder that lies on the table in front of her, listening, her head bent close to it and her short straight black bob falling forward around her serious pale face; her eyes are wide and fixed on the recorder's tiny glowing light, her right hand hovering just above it; the open grey binder lies beside it with its pages facing away from the camera; a green-shaded desk lamp at frame left throws a warm cone of light over her and the recorder; behind her the grey steel shelves of closed document boxes fade into darkness; the room is utterly still around her, the kind of silence where a voice on a tape fills everything; a strand of her hair hangs close to the recorder",
+   "motion": "the young woman leans closer to the voice recorder as she listens, and that slow leaning is the one movement in the shot: at the start she sits bent forward with her hand hovering above the recorder; over the whole five seconds she leans in closer and closer, her head tilting to bring her ear toward the small speaker, her wide eyes staying fixed on the tiny glowing light, her hovering hand drawing back slowly to rest against her chest, her breath held, while the tiny light on the recorder pulses steadily; the open binder, the green-shaded lamp and the warm cone of light stay completely still; the grey shelves and boxes behind her hold unchanged in the dark; the strand of her hair near the recorder trembles with her held breath; the camera holds the close shot at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "recruit_hanbok"
+   ],
+   "refs": [],
+   "beat": "지침서에 따라 한복으로 갈아입고 현대의 물건을 내려놓는 탐사원",
+   "visual": "a bare concrete changing room lit by a single hanging bulb: the Korean woman of about twenty-five stands at frame centre facing the camera, already dressed in the plain palace servant's hanbok of an undyed cotton jacket and a long grey-blue skirt, her short black hair pinned back; with both hands she is placing her last modern things into a shallow steel tray on a metal table in front of her, a wristwatch, a folded pair of glasses and a set of keys, beside a smartphone lying face down with its dark back up; her navy suit jacket hangs folded over the back of a chair; a row of grey metal lockers stands behind her; her serious pale face is calm and set, eyes lowered to the tray; the cold light from the bulb throws a hard round shadow on the floor, the room plain and silent; a folded plain headcloth waits on the table beside the tray",
+   "motion": "the young woman lays her wristwatch down in the steel tray, and that careful laying down is the one movement in the shot: at the start she holds the watch in her fingers just above the tray; over the whole five seconds she lowers it slowly and sets it down beside the face-down smartphone, straightens the strap flat with one fingertip, then draws both hands back and folds them in front of her long grey-blue skirt, her eyes staying lowered to the tray and her face calm; the keys, the glasses and the phone in the tray stay completely still; the navy jacket on the chair, the grey lockers behind her and the single hanging bulb hold completely still; the hard round shadow on the floor holds unchanged; the camera holds a medium shot across the metal table at her chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "recruit_hanbok",
+    "corridor",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "한복 차림의 탐사원이 들켜선 안 되는 것 — 21세기에서 왔다는 사실",
+   "visual": "inside the long covered wooden corridor of a Joseon palace in the fog: the Korean woman of about twenty-five in the plain palace servant's hanbok of an undyed cotton jacket and a long grey-blue skirt walks slowly toward the camera down the stone-paved corridor, her short black hair pinned back, her head bowed and her eyes lowered to the floor a few steps ahead of her, both hands folded in front of her in the manner of a palace servant; the dark lacquered pillars recede in a long row behind her, paper lattice screens along one side glowing faintly grey; thick grey fog fills the far end of the corridor and seeps between the pillars; the dark sky beyond the eaves is heavy; the corridor is silent and empty except for her, the dim grey light cold on her face; faint shapes of palace roofs loom in the fog above the corridor eaves",
+   "motion": "the young woman walks slowly down the corridor toward the camera with her eyes lowered, and her walking is the one movement in the shot: at the start she is a few pillars away; over the whole five seconds she walks steadily closer with small quiet steps, her long grey-blue skirt swaying just above the stone floor, her head staying bowed and her eyes staying lowered to the floor ahead the whole time, her folded hands held still in front of her, while the grey fog at the far end of the corridor drifts slowly in behind her between the pillars; the dark lacquered pillars, the paper lattice screens and the stone floor stay completely still; the heavy sky beyond the eaves holds unchanged; the faint roof shapes in the fog above the eaves hold still; the camera holds its place in the corridor as she approaches, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "palace_site"
+   ],
+   "refs": [],
+   "beat": "탐사원이 향하는 곳 — 광해군 때 짓다 멈춘 궁궐 원영궁의 터",
+   "visual": "dusk over an overgrown empty palace site hidden in the middle of the city, empty of people: rows of old square stone pillar bases stand in straight lines across the ground, half buried in tall pale weeds and wild grass, marking where great halls were begun and left unfinished; a few rough foundation stones lie tumbled at the edges; a low weathered wooden fence runs around the whole site, its gate chained shut; beyond the fence stand plain grey walls, and above them a dim violet dusk sky with one early star; the weeds lean in a light wind; the light is fading and grey-violet, long soft shadows stretching from each stone base across the grass; the place is quiet, abandoned and watched, a secret kept in plain sight; a crow sits motionless on the chained gate, and the grey walls beyond show a few small dark windows",
+   "motion": "the tall weeds across the empty palace site sway in a slow evening wind, and that swaying is the one movement in the shot: at the start the weeds stand almost still between the rows of stone bases; over the whole five seconds a slow wind passes across the site from left to right and the tall pale weeds and wild grass bend and ripple in a long wave that travels over the whole ground, brushing against the square stone pillar bases and rising again behind the wave; the stone bases themselves, the tumbled foundation stones, the chained wooden fence and the grey walls beyond stay completely still; the dim violet dusk sky and its single early star hold unchanged; the long soft shadows of the stones lie steady; the camera holds a wide shot over the site from just outside the fence, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "recruit_hanbok",
+    "figures",
+    "corridor",
+    "fog_bg"
+   ],
+   "refs": [],
+   "beat": "원영궁의 존재들 — 사람 모습이지만 얼굴이 뒤섞인",
+   "visual": "deep inside the fog-filled palace corridor: in the near foreground at frame left the Korean woman of about twenty-five in the plain palace servant's hanbok stands pressed against a dark lacquered pillar, head bowed low, her eyes fixed hard on the stone floor at her feet, both hands clenched in front of her long grey-blue skirt; far down the corridor in the middle distance, half dissolved in thick grey fog, stand the tall pale human figures in faded grey Joseon court robes in a silent row, their heads bowed, their faces lost in deep shadow so that every face is hidden; the paper lattice screens along the corridor glow faintly; the dark pillars recede between her and the figures; dim cold grey light, the fog thick and still, the whole corridor holding its breath; her knuckles are pale against the grey-blue skirt",
+   "motion": "the grey fog drifts slowly between the young woman and the distant figures, and that drifting fog is the one movement in the shot: at the start the row of tall pale figures stands faintly visible far down the corridor; over the whole five seconds the fog thickens and thins in slow layers across the corridor, veiling the figures and letting their bowed shapes show again, while the figures themselves stand perfectly still in their row with their faces lost in shadow, and in the foreground the young woman stays pressed against the pillar with her head bowed low and her eyes fixed on the floor the whole time, only her shoulders rising and sinking with one held breath; the pillars, the paper screens and the stone floor stay completely still; the camera holds the shot from behind her shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "tomb"
+   ],
+   "refs": [],
+   "beat": "원영궁 말고도 — 고분과 고려의 절, 옛 종가의 이상현상",
+   "visual": "inside an ancient Korean stone burial chamber, empty of people: a low stone-lined passage at frame right opens into the square chamber, and a small oil lantern set on the floor of the passage throws a warm flickering light across the plastered walls; the walls are covered in faded painted murals of robed figures in procession and animals among stylised low hills, their colours worn to soft ochre, grey-blue and dull green; a low stone platform stands in the centre of the chamber; fine dust hangs in the lantern light; the corners of the chamber sink into darkness; the ceiling of fitted stone slabs presses low overhead; the whole chamber is silent and very old, the painted figures on the walls turned toward the lantern; a small clay bowl and a scatter of old bronze coins lie in the dust at the foot of the stone platform",
+   "motion": "the small oil lantern flickers in the passage and its light wavers over the painted walls, and that flickering is the one movement in the shot: at the start the lantern burns steadily on the floor of the passage; over the whole five seconds its small flame gutters and leans in a faint draught from the passage, so that the warm light swells and shrinks across the plastered walls and the faded painted figures in procession sink into shadow and brighten again, and the fine dust in the air drifts slowly through the light; the painted murals themselves, the low stone platform, the stone slabs of the ceiling and the passage walls stay completely still; the dark corners of the chamber hold unchanged; the camera holds a medium wide shot from the corner of the chamber, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "stones"
+   ],
+   "refs": [],
+   "beat": "작가가 말하는 이상현상 뒤의 기록되지 못한 삶",
+   "visual": "a hillside field at dusk, empty of people: dozens of small weathered uncarved standing stones lean at odd angles in tall dry grass across the slope, each one different, each one bare and unmarked, rough grey stone spotted with pale lichen; they spread from the foreground, where one leaning stone stands large at frame left, up the slope into a thin evening mist; the dry grass is pale gold-grey and moves a little in the wind; beyond the top of the slope a line of bare trees stands dark against a dim dusk sky of grey fading to faint violet; the light is low and soft, long shadows stretching from each stone down the slope; the field is silent and mournful, a place where many were laid to rest with their names lost; the nearest stone shows deep cracks and green moss at its base",
+   "motion": "the tall dry grass sways in a slow wind among the uncarved stones, and that swaying is the one movement in the shot: at the start the grass stands almost still around the stones; over the whole five seconds a slow evening wind passes down the slope and the pale dry grass bends and ripples in long soft waves between the leaning stones, brushing against their rough sides, while the thin mist at the top of the slope drifts slowly to the right; the uncarved stones themselves stay completely still at their odd angles; the line of bare trees on the ridge and the dim dusk sky hold unchanged; the long soft shadows of the stones lie steady; the cracks and moss on the nearest stone stay unchanged in the soft light; the camera holds a wide shot up the slope from beside the large leaning stone, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "recruit",
+    "archive"
+   ],
+   "refs": [],
+   "beat": "기록되지 못한 삶을 읽는 당신 — 규칙을 끝까지 지킬 수 있을까",
+   "visual": "late night at the long wooden archive table: the Korean woman of about twenty-five in her plain dark navy suit jacket sits alone at frame centre facing the camera, the thick grey binder lying open in front of her with its pages facing away from the camera, one hand flat on the open pages; she has just looked up from the binder straight toward the camera, her serious pale face lit from one side by the warm light of a green-shaded desk lamp, her eyes steady and grave; the small silver voice recorder lies beside the binder with its tiny light dark; behind her the tall grey steel shelves of closed document boxes rise into deep darkness; the rest of the long table and its other lamps are dark; the room is very quiet, the question hanging in the air between her and whoever is watching; a cup of water sits untouched at her elbow",
+   "motion": "the young woman slowly raises her eyes from the open binder to the camera, and that raising of her eyes is the one movement in the shot: at the start her head is bowed over the open pages; over the whole five seconds she lifts her head little by little, her eyes rising from the pages to look straight into the camera and holding there, grave and steady, her hand staying flat on the open binder, her short black bob swinging back from her face as she lifts it; the green-shaded lamp and its warm light on her face stay completely still; the small voice recorder, the dark lamps along the table and the grey shelves behind her hold unchanged; the untouched cup of water at her elbow stays still; the camera holds a medium close shot across the table at her seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "archive"
+   ],
+   "refs": [],
+   "beat": "마무리 — 스탠드 아래 닫힌 회색 바인더",
+   "visual": "a quiet closing still at the end of the long wooden archive table, empty of people: under the single lit green-shaded desk lamp lies the thick grey binder, closed now, its plain cover squared neatly on the table; on top of it rests a neatly folded plain palace servant's hanbok, an undyed cotton jacket laid over a grey-blue skirt, and beside it the small silver voice recorder with its tiny light dark; a straight chair has been pushed in under the table; beyond the warm pool of lamplight the table runs away into darkness toward the tall grey steel shelves of closed document boxes; the bare concrete wall behind is faintly green in the lamp's glow; the room is silent, the work of the night set aside; a pair of reading glasses lies folded beside the recorder, and a thin film of dust shows on the lamp's green shade",
+   "motion": "the green-shaded desk lamp flickers once and holds, and that single flicker is the one movement in the shot: at the start the lamp burns steadily over the closed binder and the folded hanbok; for the first four seconds everything in the room stays still, the warm pool of light lying steady on the table; then in the last second the lamp dims briefly and brightens again, the pool of light on the closed binder and the folded hanbok wavering once and settling, while the tiny light on the voice recorder beside them blinks on and off a single time; the closed binder, the folded hanbok, the pushed-in chair, the shelves of document boxes in the darkness and the concrete wall stay completely still; the folded reading glasses stay where they lie; the camera holds the quiet close shot of the table end, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

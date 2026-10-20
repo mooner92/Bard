@@ -1,61 +1,203 @@
 {
-  "logline": "결혼식 날 아무 이유도 모른 채 끌려간 젊은 항해사가, 바다 위 감옥에서 벽을 긁는 소리를 듣는다.",
-  "destination": "바다 위 감옥의 성벽 — 그가 밖으로 나가게 되는 자리",
-  "protagonist": "스무 살에 선장 자리를 앞둔 젊은 항해사",
-  "setting": "1815년 마르세유 항구와 이프 섬의 바위 감옥",
-  "anchor": "a young sailor with sun-darkened face in a coarse linen shirt and neckerchief, Mediterranean harbour town",
-  "palette": "harbour blue and white, warm orange, wet black rock, thin cold light",
-  "beats": [
-    {
-      "n": 1,
-      "beat": "젊은 항해사가 배를 이끌고 항구로 들어온다.",
-      "visual": "a young sailor at the rail of a tall merchant ship gliding into a sunlit stone harbour",
-      "motion": "the hull slides past the mole, sails fall slack, gulls wheel overhead"
-    },
-    {
-      "n": 2,
-      "beat": "약혼 잔치 자리에서 그가 병사들에게 불려 나간다.",
-      "visual": "a young sailor turning from a long feast table as uniformed men appear in the doorway behind",
-      "motion": "chairs scrape back, the men step in, a glass tips over on the cloth"
-    },
-    {
-      "n": 3,
-      "beat": "그는 바다 위 바위섬 독방에 갇힌다.",
-      "visual": "a young sailor alone in a low stone cell with one barred slit high above, sea light on wet walls",
-      "motion": "water drips down the wall, his head lifts to the slit, the sea booms outside"
-    },
-    {
-      "n": 4,
-      "beat": "어느 밤 벽 너머에서 긁는 소리가 들려온다.",
-      "visual": "a young sailor pressing his ear to a damp stone wall, loose grit falling near the floor",
-      "motion": "grit trickles from the seam, his ear presses harder, the torch flame stills"
-    },
-    {
-      "n": 5,
-      "beat": "늙은 신부가 그에게 글과 검술을 가르친다.",
-      "visual": "an old bearded prisoner drawing on a cell floor with chalk stub, a young sailor kneeling opposite",
-      "motion": "the chalk scratches across stone, the young man leans in, dust clouds the light"
-    },
-    {
-      "n": 6,
-      "beat": "신부는 어느 섬에 묻힌 것을 그에게 알려 준다.",
-      "visual": "an old prisoner gripping a young sailor's forearm in a dim cell, both faces lit from one high slit",
-      "motion": "his grip tightens then loosens, the light shifts, dust hangs still"
-    },
-    {
-      "n": 7,
-      "beat": "그가 살아 돌아온다면 누구를 먼저 찾을까?",
-      "visual": "a soaked figure hauling himself onto a moonlit rock below a fortress, harbour lights far off",
-      "motion": "his arms drag him up the rock, water streams off, distant lights flicker"
-    },
-    {
-      "n": 8,
-      "beat": "파도가 바위섬 아래에서 부서진다.",
-      "visual": "waves breaking against black rocks below a distant island fortress at dawn, no one in sight",
-      "motion": "waves burst white on the rock, spray drifts, gulls cross the light",
-      "anchor": false
-    }
-  ],
-  "withheld": "보물을 찾아 백작으로 돌아와 갚아 나가는 마지막",
-  "voice": "ko-KR-BongJinNeural"
+ "logline": "1815년 마르세유의 젊은 항해사 당테스가 약혼 잔치에서 붙들려 검사 앞에 서고, 재판 없이 바위섬 성채의 독방에 갇혀 여러 해를 보내다 벽을 뚫고 나타난 늙은 신부에게 학문과 검술과 보물의 자리를 배우고, 신부가 죽자 시신 대신 자루에 들어가 바다에 던져진 뒤 자루를 찢고 헤엄쳐 나온다",
+ "destination": "소설 몬테크리스토 백작에서 만날 수 있습니다",
+ "protagonist": "dantes",
+ "setting": "1815년 마르세유 — 옛 항구, 항구 위 테라스의 잔치 자리, 검사의 사무실, 밤바다와 이프 성채, 성채의 독방과 성벽, 밤의 바다",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/montekeuriseuto_baekjak/assets",
+ "anchor": "a young sailor of 1815 in a dark blue jacket and dull yellow neckerchief, later a gaunt bearded prisoner in ash grey rags, in a dungeon cell of a fortress island",
+ "palette": "dark blue, ash grey, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "돌아와 하나씩 갚아 나가는 뒷날의 복수",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "dantes",
+    "ship",
+    "harbour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "젊은 항해사 당테스가 배를 이끌고 마르세유 항구에 들어온다",
+   "visual": "bright clear daylight over the old harbour of Marseille: the three-masted merchant ship with its off-white sails half furled and its dark brown hull is the one thing coming slowly in through the harbour mouth at frame centre, seen from the quay, its long bowsprit toward the camera and its wake white behind it on the calm blue-grey water; the young sailor of nineteen with the short black hair and the handsome open sun-browned face, in the dark blue sailor's jacket over the off-white shirt and the dull yellow neckerchief, is the one standing at the bow of the ship at frame centre with one hand on the rigging and the other raised toward the quay, his face lifted with a wide smile; the tall masts of the moored boats stand along the quays of pale stone at frame left and frame right; the white houses climb the hill behind the harbour under the pale sky; there is exactly one face turned to the camera and it is the young sailor's at the bow",
+   "motion": "the ship on the water is the one thing that moves, and the quays hold still: at the start the ship is at frame centre in the harbour mouth with its bowsprit toward the camera; over the whole five seconds the ship comes slowly in toward the quay, growing a little larger, its half-furled sails shifting slightly and its white wake spreading behind it on the calm water, the young sailor at the bow keeping one hand on the rigging and his other hand raised, his wide smile not changing; the tall masts along the quays do not sway and the moored boats keep their places at the pale stone; the white houses on the hill and the pale sky hold completely still; the calm blue-grey water beyond the ship keeps its flat shine; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "dantes",
+    "mercedes",
+    "feast",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "항구 곁 약혼 잔치에서 당테스가 메르세데스와 나란히 앉는다",
+   "visual": "warm clear daylight through the vine leaves of the arbour on the stone terrace above the harbour: the long table under its off-white cloth runs across the frame with dishes and jugs on it and guests in Sunday clothes of dark blue and off-white sitting along its far side, their faces turned toward the middle; at the middle of the far side the young sailor of nineteen with the short black hair and the sun-browned face, in the dark blue jacket and the dull yellow neckerchief, is the one sitting with one arm round the shoulders of the young woman beside him and a cup raised in his other hand, his face turned to her with a wide smile; the young woman of eighteen with the long black hair under the off-white kerchief and the gentle dark-eyed face, in the off-white blouse and the dark blue bodice, is the one sitting close against his side with both her hands round a cup on the cloth and her face lifted to his; the vine leaves hang thick overhead with the light coming green through them; the blue-grey harbour and the masts show small beyond the terrace wall at frame right; the two in the middle are the only ones facing each other",
+   "motion": "the young sailor's raised cup and the young woman's face are the two things that move, and the guests hold still: at the start the cup is raised in his hand and her face is lifted to his; over the first three seconds the cup comes slowly down to the cloth before him and his face bends a little closer to hers, and her face lifts a little higher with a slow smile spreading, her hands staying round her own cup; in the last two seconds both hold with their faces close; the guests along the far side of the table keep their faces turned toward the middle and do not move; the dishes and jugs keep their places on the off-white cloth; the vine leaves overhead do not stir; the blue-grey harbour and the masts beyond the terrace wall hold completely still; the warm light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "gendarmes",
+    "dantes",
+    "mercedes",
+    "feast"
+   ],
+   "refs": [],
+   "beat": "잔치 자리에서 병사들이 당테스를 불러낸다",
+   "visual": "warm clear daylight under the vine arbour on the stone terrace: the two gendarmes, exactly two, in the dark blue coats with the white cross belts and the tall black hats are the ones standing side by side at the near left of the frame seen from behind, their broad dark blue backs and the backs of their tall black hats toward the camera, one with a hand raised toward the young sailor; the young sailor of nineteen, a tall grown man as tall as the gendarmes, with the short black hair and the sun-browned face, in the plain dark blue sailor's jacket with no braid or badge and the dull yellow neckerchief, bareheaded, is the one standing up straight on his feet at frame centre facing the two backs beside the bench with one hand still flat on the off-white cloth and his face turned to the gendarmes, his mouth open in alarm and his brows drawn up, his face gone pale; the young woman of eighteen with the long black hair under the off-white kerchief, in the off-white blouse and the dark blue bodice, is the one still sitting at frame right beside his empty place with both her hands gripping his sleeve and her face turned up to him, her dark eyes wide and her mouth open in fright; the vine leaves hang thick overhead; there are exactly two gendarmes and the young sailor is the one standing between them and the young woman",
+   "motion": "the young sailor's hand on the cloth is the one thing that moves, and the gendarmes hold still: at the start his hand is flat on the off-white cloth with his face turned to the gendarmes; over the first three seconds the hand lifts slowly from the cloth and comes to rest on the young woman's hands gripping his sleeve, his face staying turned to the gendarmes and his lips staying parted, his shoulders squaring a little; in the last two seconds his hand holds over hers and he does not move; his feet do not shift beside the bench; the gendarmes keep the hand raised and their faces set; the young woman keeps her grip on his sleeve and her wide eyes on his face; the guests along the table stay still with their faces turned; the dishes and jugs on the cloth and the vine leaves overhead hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "villefort",
+    "dantes",
+    "office",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "검사가 당테스의 편지를 읽더니 말없이 난롯불에 넣는다",
+   "visual": "cool daylight through the tall windows with the dark blue curtains in the prosecutor's office: the young prosecutor of twenty-seven with the sleek dark hair and the dark side-whiskers, in the black coat over the high white cravat, is the one standing at frame left before the fireplace with his back half to the camera and a folded sheet of paper held out in one hand over the coal fire, its edge just touching the glowing coals and the paper beginning to brown and curl at that corner, his pale cold face turned down to it with his thin lips pressed together; the young sailor of nineteen with the short black hair and the sun-browned face, in the dark blue jacket and the dull yellow neckerchief, is the one standing at frame right before the big desk heaped with papers with both his hands hanging open at his sides and his face turned to the fireplace, his brows drawn together and his lips parted; on the wall hangs a gilt picture frame turned round, showing only the plain brown wooden back of its canvas and its stretcher bars, its picture hidden against the wall; the tall windows show the pale sky; there are exactly two people in the room",
+   "motion": "the sheet of paper over the fire is the one thing that moves, and the two men hold still: at the start the sheet is held out over the coals with one corner browning and curling; over the first three seconds the browning spreads slowly across the sheet from that corner and the paper curls further in on itself, a small steady flame taking along its edge and a thin thread of smoke rising, the prosecutor's hand holding it out steady and his face turned down to it; in the last two seconds the sheet holds curling in his fingers with the small flame along its edge; his feet do not shift; the young sailor keeps his hands open at his sides and his drawn brows turned to the fireplace, nothing in him moving; the coal fire keeps its even glow; the desk heaped with papers, the turned portrait and the dark blue curtains hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "boat",
+    "dantes",
+    "fortress",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그날 밤 작은 배가 당테스를 바위섬의 성채로 실어 간다",
+   "visual": "black night on the sea under the white moon: the small open rowing boat with the four oarsmen in dark coats is the one thing on the black water at frame centre going away from the camera, seen from behind, its four oars lifted dripping from the water; the young sailor of nineteen with the short black hair, in the dark blue jacket, is the one sitting in the stern of the boat with his back to the camera and his hands held together behind him, his head turned up toward the rock ahead; ahead of the boat the fortress island rises black from the sea at the top of the frame, a bare rock with high ash grey walls and round towers under the moon, one small window lit dull yellow high in the wall; the white moon path lies on the black water between the boat and the rock; the low swells run long and slow; there are exactly five people in the boat and all have their backs to the camera",
+   "motion": "the boat and the oars are the ones that move, and the fortress holds still: at the start the four oars are lifted dripping from the water with the boat at frame centre; over the whole five seconds the oars dip slowly together, pull and lift once, and the boat glides slowly away from the camera toward the rock, growing a little smaller on the moon path, the young sailor in the stern keeping his back to the camera and his head turned up toward the walls; the fortress island with its high walls and round towers and its one small lit window holds completely still; the white moon stays in its place and the moon path keeps its shine, broken only by the boat's low ripples; the long slow swells keep their rhythm; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "dantes_prisoner",
+    "cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "재판도 없이 성채의 독방에 갇혀 여러 해를 보낸 당테스",
+   "visual": "thin grey light from the small barred window high in the ash grey stone wall of the dungeon cell: the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt and trousers, is the one sitting at frame centre on the edge of the stone bed with his bare feet on the stone floor and his forearms on his knees, his hollow dark eyes turned to the wall at frame right; on that wall rows and rows of short scratched lines run from the height of his head down to the straw, hundreds of them, scratched into the stone in even groups; the thin band of light from the high window lies across the scratched wall and over his shoulder; a wooden bowl and a jug stand on the floor by the bed; the far wall at frame left is bare and dark; there is exactly one person in the cell and the scratched lines are the one pattern on the wall",
+   "motion": "the man's hand is the one thing that moves, and the cell holds still: at the start his forearms rest on his knees with his eyes on the scratched wall; over the first three seconds one hand lifts slowly from his knee and reaches out to the wall beside him, and one finger draws slowly down the stone beside the last row of scratched lines, adding nothing yet, his eyes following the finger; in the last two seconds the finger holds against the stone and his eyes stay on it; his bare feet do not shift and the other forearm stays on his knee; the rows of scratched lines keep their exact pattern; the thin band of light from the high window keeps its place across the wall; the wooden bowl and the jug on the floor and the bare far wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "dantes_prisoner",
+    "cell",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "어느 밤 독방의 두꺼운 벽 너머에서 긁는 소리가 들려온다",
+   "visual": "deep night in the dungeon cell with only a thin grey moonlight from the small barred window high in the wall: the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt, is the one kneeling at frame centre on the stone floor close against the wall at frame right with the side of his head pressed flat to the stone and one open hand spread on the wall beside his face, his eyes wide open and turned toward the camera, his lips parted; the rows of short scratched lines run across the stone above his spread hand; the straw of the stone bed shows at frame left in shadow; the thin band of moonlight lies down the wall and across the floor; a small heap of stone dust lies on the floor at the foot of the wall by his knee; the rest of the cell is dark; there is exactly one person in the cell",
+   "motion": "the man's spread hand is the one thing that moves, and the cell holds still: at the start the open hand is spread on the wall beside his face with his head pressed to the stone; over the first three seconds the fingers of the spread hand press slowly harder against the stone and slide a hand's width downward toward the small heap of dust, his head staying pressed to the wall and his wide eyes not moving, his breath held; in the last two seconds the hand holds low on the wall and his head stays pressed to the stone; his knees do not shift on the floor; the rows of scratched lines above his hand stay as they are; the thin band of moonlight keeps its place down the wall and across the floor; the straw in the shadow and the small heap of stone dust hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "faria",
+    "dantes_prisoner",
+    "cell",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "벽을 뚫고 나타난 이는 이웃 독방의 늙은 신부 파리아다",
+   "visual": "deep night in the dungeon cell with a thin grey moonlight from the small barred window: low in the wall at frame right a rough hole the width of a man's shoulders is the one thing opened in the ash grey stone with a heap of rubble and stone dust spread on the floor before it, and through the hole the old priest of sixty-five with the long white hair and the white beard and the gaunt kind lined face is the one coming, his head and one shoulder and one thin arm already out of the hole into the cell, his bright eyes lifted to the young man and his mouth open in speech, the rest of his ragged ash grey gown still in the dark of the hole; the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt, is the one crouched at frame left on the stone floor with both his hands flat on the stone before him and his hollow dark eyes wide on the old man's face, his mouth open; the thin band of moonlight lies across the rubble; there are exactly two people in the picture and the old man is the one in the hole",
+   "motion": "the old priest in the hole is the one who moves, and the young man holds still: at the start his head and one shoulder and one thin arm are out of the hole with his eyes on the young man; over the first three seconds the thin arm reaches slowly forward and his open hand comes to rest on the rubble before the hole, and his head and shoulder come a little further into the cell, the white hair and beard catching the thin moonlight, his mouth moving in speech; in the last two seconds he holds with his hand on the rubble and his eyes on the young man; the young man stays crouched with his hands flat on the stone and his mouth open, nothing in him moving; the heap of rubble and dust keeps its spread; the thin band of moonlight keeps its place; the scratched wall and the straw of the bed hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "faria",
+    "dantes_prisoner",
+    "cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "신부가 당테스에게 글과 학문과 검술을 가르친다",
+   "visual": "thin grey daylight from the small barred window high in the wall of the dungeon cell: the old priest of sixty-five with the long white hair and the white beard, in the ragged ash grey gown, is the one sitting at frame left on the stone bed with a thin stick held out in one hand and its end pointing at a simple geometry figure scratched into the stone floor between them, three plain circles of different sizes in a row with one straight line drawn under them, his bright eyes on the young man and his mouth open in speech; the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt, is the one sitting cross-legged at frame right on the stone floor facing the priest with a second thin stick held upright in his hand and his hollow dark eyes bent to the scratched circles on the floor, his lips moving; the figure on the floor between them is only the three plain circles and the one straight line scratched in the stone, a geometry lesson; the rough hole low in the wall shows at the far right with its rubble; the thin band of light lies across the floor; there are exactly two people in the cell",
+   "motion": "the priest's pointing stick is the one thing that moves, and the young man holds nearly still: at the start the end of the stick points at the largest of the three scratched circles on the floor; over the first three seconds the stick moves slowly along the straight line to the smallest circle and taps it twice, the priest's mouth moving in speech and his eyes on the young man, while the young man's lips move after his and his eyes follow the stick's end; in the last two seconds the stick holds on the triangle and both hold; the young man's own stick stays upright in his hand and his crossed legs do not shift; the scratched circles on the floor stays exactly as it is with nothing added; the thin band of light keeps its place; the rough hole with its rubble and the stone bed hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "faria",
+    "dantes_prisoner",
+    "cell",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "신부가 몬테크리스토 섬에 묻힌 보물의 자리를 일러 준다",
+   "visual": "the dull yellow light of a stub of candle standing on the stone floor of the dungeon cell at night: the old priest of sixty-five with the long white hair and the white beard, in the ragged ash grey gown, is the one sitting at frame left on the edge of the stone bed leaning far forward with a small scrap of browned paper held up in both his thin hands, its marked side turned toward the young man and away from the camera so that only its plain brown back shows, his bright eyes on the young man's face and his mouth open in speech; the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt, is the one kneeling at frame right on the floor close before the priest with his hands on his knees and his hollow dark eyes fixed on the scrap of paper, his lips parted; the candle stub stands on the floor between them with its small steady flame; the rough hole low in the wall shows dark at the far right; the scratched wall rises behind them into shadow; there are exactly two people in the cell and the paper shows only its blank back",
+   "motion": "the priest's hands with the scrap of paper are the one thing that moves, and the young man holds still: at the start the scrap is held up in both his thin hands with its blank back to the camera; over the first three seconds his hands bring the scrap slowly closer to the young man's face, still turned away from the camera, and one thin finger lifts from the paper's edge and points at one place on its hidden side, his mouth moving in speech; in the last two seconds the scrap holds close before the young man and the finger stays pointing; his feet do not shift; the young man keeps his hands on his knees and his eyes on the paper, only his lips closing slowly; the candle stub on the floor keeps its small steady flame; the rough hole, the scratched wall and the shadowed straw hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "faria",
+    "dantes_prisoner",
+    "cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "그러던 어느 날 늙은 신부가 독방에서 숨을 거둔다",
+   "visual": "thin grey daylight from the small barred window high in the wall of the dungeon cell: the old priest of sixty-five with the long white hair and the white beard, in the ragged ash grey gown, is the one lying flat on his back on the stone bed at frame centre with his eyes closed and his thin hands folded on his chest, his gaunt face still and peaceful, his bare feet together; the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt, is the one kneeling at frame right on the stone floor beside the bed with his forehead resting on the edge of the bed beside the old man's folded hands and both his own hands gripping the stone edge, his face hidden; the thin band of light lies across the old man's white hair and beard; the rough hole low in the wall shows at frame left with its rubble; the scratched wall rises behind; the wooden bowl and the jug stand untouched on the floor; there are exactly two people in the cell and the old man's eyes are closed",
+   "motion": "the kneeling man's shoulders are the one thing that moves, and the old man on the bed holds utterly still: at the start the young man's forehead rests on the edge of the bed with his hands gripping the stone; over the whole five seconds his shoulders lift slowly and sink with one long breath and lift again, his hands tightening on the stone edge, his face staying hidden against the bed; the old man lies exactly as he is with his eyes closed and his hands folded on his chest, his chest not rising or sinking, his white hair and beard lying still in the thin band of light; the rough hole with its rubble, the scratched wall, the bowl and the jug hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "dantes_prisoner",
+    "cell",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "당테스가 신부의 시신 대신 스스로 자루에 들어간다",
+   "visual": "deep night in the dungeon cell with the dull yellow light of the candle stub on the floor: a long sack of coarse ash grey cloth lies open along the stone bed at frame centre with its mouth toward the camera, and the gaunt man of thirty with the long tangled black hair and the black beard, in the ragged ash grey prison shirt, is the one sitting on the bed with his legs already inside the sack up to his waist and the coarse cloth gathered in both his hands at his chest, his hollow dark eyes turned to the rough hole low in the wall at frame left with its rubble, his lips pressed together; a big iron needle with a length of thick thread lies on the stone beside him; the straw of the bed is pushed aside; the scratched wall rises behind him into the dark; the candle stub on the floor gives its small steady light; there is exactly one person in the cell and he is the one half inside the sack",
+   "motion": "the man's hands on the sack are the one thing that moves, and the cell holds still: at the start the coarse cloth is gathered in both his hands at his chest with his legs inside the sack; over the first three seconds his hands draw the mouth of the sack slowly up over his chest to his shoulders, the coarse cloth folding, and his eyes turn slowly from the rough hole in the wall down to the iron needle beside him; in the last two seconds the sack holds at his shoulders in his hands and his eyes stay on the needle; his legs inside the sack do not shift; the iron needle with its thread keeps its place on the stone; the candle stub keeps its small steady flame; the rough hole with its rubble, the pushed-aside straw and the scratched wall hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "guards",
+    "rampart",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤이 되자 간수들이 그 자루를 성벽 위로 메고 올라간다",
+   "visual": "black night on the top of the fortress rampart under the white moon: the two prison guards in the dark brown coats and the black caps are the ones at frame centre, seen from behind, carrying a long heavy sack of coarse ash grey cloth between them by its two ends, walking slowly away from the camera toward the stone parapet, the sack sagging between them; the stone parapet runs across the frame ahead of them with the cannon under its cloth at frame left; beyond the parapet the black sea lies far below with the white moon path on it; the flagstones of the rampart run from the bottom of the frame to the parapet, pale in the moonlight; the round tower rises at the far right; there are exactly two men on the rampart and both have their backs to the camera, and the sack is the one thing between them",
+   "motion": "the two guards with the sack are the ones that move, and the rampart holds still: at the start they are at frame centre with the sack sagging between them; over the whole five seconds they walk slowly away from the camera toward the parapet with short heavy steps, the sack swaying a little between them with each step, their backs staying turned and their figures moving no more than two paces; the cannon under its cloth keeps its place with the cloth not stirring; the stone parapet ahead of them and the round tower at the far right hold completely still; the pale flagstones under their boots stay as they are; the black sea far below keeps its long slow swells and the white moon path keeps its shine; the moon stays in its place; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "dantes_prisoner",
+    "sea_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "바다에 던져진 자루를 찢고 헤엄쳐 나온 당테스는 누구를 먼저 찾을까",
+   "visual": "black night on the open sea with long low swells and the white moon path across the water: the gaunt man of thirty with the long tangled black hair plastered wet to his head and the black beard streaming water, in the torn ash grey prison shirt, is the one thing rising above the black water at frame centre from the chest up, the flat black surface of the deep sea cutting straight across his chest so that only his head, shoulders, chest and arms show and everything below the surface is hidden in the opaque black water, one arm flung out across the water and the other hand still gripping the torn edge of the coarse sack that floats open and empty beside him, his mouth open wide for breath and his hollow dark eyes turned up to the sky; the white moon path lies across the swells behind him; the black shape of the fortress rock shows small in the distance at the top of the frame with its one small lit window; the black water fills the lower half of the frame with the moonlight on its swells; there is exactly one person in the water and the torn sack floats beside him",
+   "motion": "the swimmer and the swells are the two things that move, and the fortress holds still: at the start he is above the water from the chest up with one arm flung out and his mouth open for breath; over the whole five seconds the long low swells lift him slowly and let him sink again, his flung-out arm sweeping once slowly through the water and his head turning from the sky toward the distant rock, his other hand keeping its grip on the torn sack that rides the swell beside him; the white moon path shifts and splits on the moving water and joins again; the torn sack keeps floating open beside him and does not sink; the black shape of the fortress rock with its one lit window stays small and still at the top of the frame; the moon stays in its place; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "cell",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 독방에 뚫린 벽 구멍과 긁힌 줄만 남는다",
+   "visual": "thin grey dawn light from the small barred window high in the wall of the dungeon cell: the stone bed at frame centre is bare, its straw pushed aside and the coarse sack gone, and on the ash grey wall above it the rows and rows of short scratched lines run from the height of a man's head down to the bed, hundreds of them in even groups; the rough hole low in the wall at frame left stands dark with its heap of rubble and stone dust before it; the stub of candle stands burnt out on the stone floor beside a big iron needle with a length of thick thread; the wooden bowl and the jug stand by the bed; the thin band of dawn light lies across the scratched lines and the bare bed; the scratched lines and the dark hole are the two things that show in the cell where someone was",
+   "motion": "the thin band of dawn light is the one thing that moves, and the cell holds still: at the start it lies across the scratched lines and the bare bed; over the whole five seconds the band of light brightens very slowly and creeps a finger's width down the scratched wall toward the bed, the shadows of the scratched lines sharpening a little as it goes; the bare bed with its pushed-aside straw, the dark hole with its rubble, the burnt-out candle stub and the iron needle with its thread keep their exact places; the wooden bowl and the jug do not move; the small barred window high in the wall keeps its square of grey dawn and nothing crosses it; the straw does not stir; no figure appears at the hole or on the bed; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
 }

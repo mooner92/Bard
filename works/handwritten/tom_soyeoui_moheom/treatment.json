@@ -1,0 +1,206 @@
+{
+ "logline": "미시시피 강가 마을의 개구쟁이 톰 소여가 벌로 맡은 울타리 칠을 동네 아이들에게 떠넘기고, 베키에게 마음을 보이고 한밤중 무덤가에서 인전 조를 보고, 허크와 섬으로 달아났다가 제 장례식에 나타나고, 소풍날 동굴에서 길을 잃고 인전 조를 피해 바위 틈의 낡은 궤짝을 찾아낸다",
+ "destination": "소설 톰 소여의 모험에서 만날 수 있습니다",
+ "protagonist": "tom",
+ "setting": "1840년대 미시시피 강가의 작은 마을 — 울타리와 마당, 학교, 교회, 밤의 무덤가, 강과 섬, 석회 동굴",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/tom_soyeoui_moheom/assets",
+ "anchor": "a boy of twelve with tousled sandy hair and a freckled face, a straw hat, a patched off-white shirt with one brace, trousers rolled to the calf",
+ "palette": "off-white, dull green, dark brown, dull yellow, ash grey",
+ "voice": "",
+ "personas": {},
+ "withheld": "궤짝 안에 든 것과 인전 조의 최후",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "polly",
+    "tom",
+    "fence",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "폴리 이모가 벌로 톰에게 울타리를 칠하라 한다",
+   "visual": "hard bright summer light at the long board fence beside the dirt road: the stout woman of sixty in the grey dress with the white apron and the round spectacles is the one standing at frame right with one arm thrust out pointing along the fence and her other hand on her hip, her kind face set stern; the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one standing at frame left with the wide brush hanging from one hand and the wooden pail bound with two iron hoops at his bare feet, his shoulders sagging and his freckled face turned down; the rough planks run away behind them, a little whitewash already on the near end; exactly two people; the fence planks are bare weathered grey wood along their whole length except the first few boards at the near end, which are painted white",
+   "motion": "the stout woman is the only one who moves, and the boy holds still: at the start her arm is thrust out pointing along the fence; over the first two seconds the pointing arm sweeps slowly from the near end of the fence to the far end and back, her spectacles catching the light, her mouth moving as she speaks; in the last two seconds she holds with the arm out toward the far end and her other hand on her hip; the boy keeps the brush hanging from his hand and his face turned down, his bare feet not shifting; the wooden pail stays at his feet; the planks of the fence, the whitewash on the near end and the dirt road hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "tom",
+    "boys",
+    "fence",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "지나가던 아이들이 울타리 앞으로 모여든다",
+   "visual": "hard bright summer light at the board fence: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one standing at frame centre with the brush held up before his own face, turning it slowly between his fingers, his grip careful and light, his freckled face gone thoughtful and pleased; the three boys of ten to twelve in the patched shirts and straw hats are the ones stopped on the dirt road at frame left with their heads together, one with a half-eaten apple in his hand, all three watching the brush; the long fence and the wooden pail bound with two iron hoops of whitewash beside him; exactly four boys; the fence planks are bare weathered grey wood along their whole length except the first few boards at the near end, which are painted white",
+   "motion": "the boy with the brush is the only one who moves, and the three on the road hold still: at the start the brush is held up before his face; over the first three seconds he turns the brush slowly over in his fingers and lays one careful stroke on the planks, then steps back a pace with his head tilted to look at the stroke, his other hand on his hip; in the last two seconds he holds looking at the fence with the brush at his shoulder; the three boys keep their heads together and their eyes on him, the apple staying in the hand; the fence, the wooden pail and the road hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "boys",
+    "tom",
+    "fence",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "아이들이 붓을 들고 울타리를 칠하고 톰은 사과를 베어 문다",
+   "visual": "hard bright summer light at the board fence: the three boys in the patched shirts are the ones strung along the fence at frame right with brushes in their hands, all three painting the planks white, their straw hats pushed back; the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one lying back on the grass in the shade at frame left with his hands behind his head and one knee crossed over the other, an apple held in one hand, his straw hat tipped over his eyes; a heap of small treasures on the grass beside him — a brass knob, a glass marble, a kite; exactly four boys",
+   "motion": "the three boys at the fence are the ones who move, and the boy on the grass holds still: over the first three seconds each of the three strokes his brush up and down the planks in turn, the whitewash spreading a little further along the fence with each stroke, their elbows working; in the last two seconds all three keep painting more slowly; the boy on the grass keeps his hands behind his head and the apple in his hand, only his jaw moving once as he bites; his straw hat stays tipped over his eyes; the heap of small treasures, the grass and the fence hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "tom",
+    "becky",
+    "school",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "학교에서 톰이 베키에게 마음을 보인다",
+   "visual": "warm light through the tall windows of the one-room schoolhouse: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one sitting at a plank desk at frame left holding up toward the girl across the aisle a small school slate of dark grey stone set in a plain wooden frame, its face almost black, a small house drawn on that black face in thin white chalk lines, his freckled face bright; the girl of eleven with the fair hair in two plaits and the white summer dress with the blue sash is the one sitting at the next desk at frame right with both hands folded on her desk and her plaits over her shoulders, her round face turned to the slate with a small smile; rows of plank desks behind them, the plain wooden platform at the front; exactly two children in the frame; every desk and bench in the room is built of plain wood alone with square wooden legs, with no metal anywhere in the furniture",
+   "motion": "the boy with the slate is the only one who moves, and the girl holds still: at the start the slate is held up toward her; over the first three seconds he turns the slate a little further toward her and taps the chalked house twice with one finger, his other hand pushing the slate an inch nearer across the aisle, his face staying bright; in the last two seconds he holds the slate out with his finger on it; the girl keeps her hands folded and her small smile, her plaits not swinging; the rows of desks, the windows and the platform hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "tom",
+    "huck",
+    "graveyard",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "한밤중 톰과 허크가 무덤가로 숨어든다",
+   "visual": "half moonlight in the rough village graveyard: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt and the boy of thirteen in the cast-off coat far too big for him with the battered brimless hat are the ones crouched together behind a leaning wooden grave marker at frame left, only their heads and shoulders showing above it, both faces turned toward the far side of the graveyard, the dead cat they carried lying at their feet in the weeds; the tall weeds, the leaning markers and the three old elms black against the night sky; exactly two boys",
+   "motion": "the two boys are the ones who move, and only a little: at the start both are crouched with their heads just above the marker; over the first three seconds the boy in the straw hat sinks slowly lower until only his eyes are above the wood, his hand gripping the top of the marker, and the boy in the big coat leans slowly closer to him until their shoulders touch, his battered hat tipping; in the last two seconds both hold there, not breathing; the tall weeds stir very slightly; the leaning markers, the elms and the moonlit ground hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "injun_joe",
+    "tom",
+    "huck",
+    "graveyard",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그날 밤 무덤가에서 두 소년은 인전 조를 본다",
+   "visual": "deep night in the rough village graveyard under a half moon, seen from close behind two crouching boys: the backs of their heads and shoulders fill the two lower corners of the frame in dark shadow, one head in a straw hat and one in a battered brimless hat, their hands gripping the top edge of a leaning wooden grave marker right in front of them; beyond that marker the moonlit graveyard opens out, and the lean man of forty with the long black hair tied back at the neck, in the loose homespun shirt and the worn leather waistcoat, is the one standing well away from them in the middle of the frame beside a patch of turned earth with a spade driven into the ground beside him, his hard face turned up toward the moon and his hands empty; tall weeds, leaning wooden markers and three old elms stand black against the deep blue night sky with its small stars; exactly three people in the graveyard, the two crouching boys nearest the camera and the man far beyond them",
+   "motion": "the lean man is the only one who moves, and the two boys hold still: at the start his face is turned up toward the moon; over the first three seconds his head comes slowly down and turns to look all round the graveyard, passing over the marker where the boys hide without stopping, and his hand takes hold of the spade handle; in the last two seconds he holds with his hand on the spade and his face toward the far trees; the two heads behind the marker do not move at all; the weeds stir very slightly; the markers, the turned earth and the elms hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "tom",
+    "huck",
+    "island_camp",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "톰과 허크는 뗏목을 타고 섬으로 달아난다",
+   "visual": "night on the sandy shore of the island: the small fire is the one burning at frame centre with the sailcloth shelter between two trees behind it; the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one sitting cross-legged at frame left with a stick in the fire and his straw hat off beside him; the boy of thirteen in the cast-off coat far too big for him with the battered brimless hat is the one lying on his side at frame right propped on one elbow with his big coat spread over him for a blanket; the raft of logs pulled up on the sand at the water's edge behind them, the wide river and the far bank under the stars; exactly two boys",
+   "motion": "the boy with the stick is the one who moves, and the boy lying holds still: at the start the stick is in the fire; over the first three seconds he stirs the fire slowly twice with the stick, sparks rising and drifting up past the trees, then lifts the stick out and points it across the water toward the far bank, his face turning with it; in the last two seconds he holds the stick pointing over the water; the boy on his elbow keeps his place with the coat over him; the fire burns with gentle flickering; the shelter, the raft, the river and the stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "villagers",
+    "tom",
+    "huck",
+    "church"
+   ],
+   "refs": [],
+   "beat": "마을이 장례를 치르는 교회에 두 소년이 나타난다",
+   "visual": "pale light through the tall clear windows of the plain white church: the crowd of villagers in the Sunday clothes of the 1840s are the ones filling the wooden pews at frame centre and right, every face turned back toward the door at frame left, mouths open; the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt and the boy of thirteen in the cast-off coat far too big for him with the battered brimless hat are the ones standing just inside the door at frame left, sunburnt and barefoot with their clothes torn, the straw hat in the boy's hand; the low pulpit of plain wood at the front, the plain white walls; exactly two boys at the door and the crowd in the pews",
+   "motion": "the crowd is what moves, and the two boys at the door hold still: over the first three seconds the villagers nearest the door rise slowly from the pews one after another, the movement passing back through the church row by row in a slow spreading ripple, bonnets and tall hats turning, hands going to mouths; in the last two seconds the risen villagers hold standing with their faces toward the door; the two boys keep their place just inside the door, the hat in his hand; the pews, the pulpit, the windows and the white walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "tom",
+    "becky",
+    "school",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "베키가 찢은 책 때문에 톰이 대신 매를 맞는다",
+   "visual": "warm light in the one-room schoolhouse: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one standing alone on the plain wooden platform at the front at frame centre with his back straight and his chin up, a torn page of a book held out in his own hand, his freckled face set; the girl of eleven with the fair hair in two plaits and the white summer dress with the blue sash is the one sitting at a desk in the front row at frame left with both hands pressed to her mouth and her round face white; the other children at their desks behind her with their heads turned to the platform; the tall windows and the worn floorboards; exactly one boy on the platform and the children at the desks; every desk and bench in the room is built of plain wood alone with square wooden legs, with no metal anywhere in the furniture",
+   "motion": "the boy on the platform is the only one who moves, and the children hold still: at the start the torn page is held out in his hand and his chin is up; over the first three seconds he lifts the page a little higher and turns it slowly so its torn edge shows, his other hand going behind his back, his chin staying up; in the last two seconds he holds the page out with his eyes front; the girl in the front row keeps both hands to her mouth; the other children keep their heads turned; the desks, the windows and the floorboards hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "tom",
+    "becky",
+    "cave_mouth",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "소풍날 톰과 베키가 동굴 입구로 들어선다",
+   "visual": "bright summer light at the mouth of the limestone cave in the wooded hillside: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one stepping into the dark opening between the rocks at frame centre with a lit candle held up in one hand and his other hand reaching back for the girl; the girl of eleven with the fair hair in two plaits and the white summer dress with the blue sash is the one just behind him at frame right with her hand in his and her white dress bright against the rock, her round face turned up at the opening; bushes and summer leaves round the mouth of the cave, the bright hillside behind them; exactly two children",
+   "motion": "the boy with the candle is the one who moves, and the girl follows only a little: at the start the candle is held up and his other hand is reaching back; over the first three seconds he takes two slow steps deeper into the opening so that the dark takes his shoulders, the candle flame bending with the movement, and the girl is drawn a step forward after him with their hands still joined; in the last two seconds both hold there, half in the dark; the candle flame sways and steadies; the bushes, the rocks and the bright hillside hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "tom",
+    "becky",
+    "cave_deep"
+   ],
+   "refs": [],
+   "beat": "촛불 하나로 두 아이는 동굴 속에서 길을 잃는다",
+   "visual": "the light of one candle deep inside the limestone cave: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one standing at frame centre holding the candle up at arm's length, its small light falling on the wet stone walls and the hanging stone spikes above, his freckled face strained; the girl of eleven with the fair hair in two plaits and the white summer dress with the blue sash is the one pressed against his side at frame right with both hands round his arm and her face turned into his shoulder; three narrow passages open into the dark behind them, all alike; the stone floor uneven underfoot",
+   "motion": "the boy with the candle is the only one who moves, and the girl holds still against him: at the start the candle is held up at arm's length; over the first three seconds he turns slowly on the spot with the candle, its light sweeping across the mouths of the three passages one after another, the shadows of the stone spikes swinging across the walls, his face turning with it; in the last two seconds he holds the candle toward the middle passage; the girl keeps both hands round his arm and her face at his shoulder; the candle flame sways; the wet walls, the stone spikes and the passages hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "injun_joe",
+    "tom",
+    "cave_deep"
+   ],
+   "refs": [],
+   "beat": "동굴 속에서 톰은 촛불을 든 인전 조를 본다",
+   "visual": "the light of one candle deep in the cave, seen from close behind the boy: the boy of twelve with the tousled sandy hair in the straw hat and the patched off-white shirt fills the near left of the frame from behind, his back and one shoulder large and dark against the wet stone wall he is pressed to, his own candle held down low behind his hip so that its light is hidden under his hand, the side of his freckled face just showing as he looks past the rock; away beyond him down the passage, small in the middle distance at frame right, the lean man of forty with the long black hair tied back at the neck, in the loose homespun shirt and the worn leather waistcoat, is the one walking on with a candle of his own held low at his side, his back half turned and his hard face lit from below, going away from the boy; the wet walls and the hanging stone spikes run between them; exactly one man and one boy in the cave",
+   "motion": "the lean man is the one who moves, and the boy against the wall holds still: at the start his candle is held low and his back is half turned; over the first three seconds he takes two slow steps further away down the passage, his candle swinging a little at his side, its light going with him and leaving more of the wall in the dark, his head turning once to the side and back; in the last two seconds he stops with his back to the boy; the boy keeps flat against the wall with his candle hidden behind his hip and his eyes wide; his own small light does not grow; the walls and the stone spikes hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "tom",
+    "becky",
+    "cave_chamber"
+   ],
+   "refs": [],
+   "beat": "톰이 바위 틈에서 낡은 궤짝 모서리를 찾아낸다",
+   "visual": "the light of one candle in a wide chamber deep in the cave: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one kneeling at the cleft of rock at frame right with the candle set on a stone beside him, both hands pulling away a slab of broken rock, the corner of an old wooden chest bound with iron showing in the cleft behind it; the girl of eleven with the fair hair in two plaits and the white summer dress with the blue sash is the one standing a step behind him at frame left with both hands at her mouth, her white dress grey with cave dust, her round face lit from below; stone rubble on the floor round them",
+   "motion": "the kneeling boy is the only one who moves, and the girl holds still: at the start both his hands are on the slab of rock; over the first three seconds he pulls the slab slowly aside and lets it down on the rubble, showing more of the chest's corner and its iron band, then reaches one hand slowly toward the wood; in the last two seconds his fingers rest on the corner of the chest; the girl keeps both hands at her mouth; the candle on the stone burns with gentle flickering; the cleft, the rubble and the chamber walls hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "tom",
+    "becky",
+    "cave_mouth",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "저 궤짝 안에는 무엇이 들어 있을까",
+   "visual": "bright summer light at the mouth of the cave seen from inside, the opening a blaze of light at frame centre: the boy of twelve with the tousled sandy hair and the freckled face in the straw hat and the patched off-white shirt is the one stepping out into the light at frame centre, seen from behind and dark against it, the old wooden chest bound with iron carried in both his arms against his chest; the girl of eleven with the fair hair in two plaits and the white summer dress with the blue sash is the one following at frame right with one hand on his shoulder, her white dress catching the light; the wet stone walls of the cave dark on both sides of the frame; exactly two children",
+   "motion": "the two children are the ones who move: at the start the boy is mid step with the chest in his arms and the girl's hand is on his shoulder; over the first three seconds both walk slowly forward toward the light, their figures growing a little darker against the blaze, the chest steady in his arms, her hand staying on his shoulder; in the last two seconds both hold still at the edge of the light, well inside the frame; the light in the opening does not change; the wet stone walls on both sides hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "fence",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "칠이 끝난 흰 울타리만 남는다",
+   "visual": "hard bright summer light on the long board fence beside the dirt road: the whole fence is whitewashed a clean white from the near end to the far end at frame centre, the planks running away along the road, the wooden pail bound with two iron hoops standing upturned on the grass with the wide brush laid across it, the plum tree throwing a little shade at frame left; the dirt road runs on past the fence; the road lies quiet",
+   "motion": "nothing but the leaves and the dust moves: over the whole five seconds the leaves of the plum tree at frame left stir very slightly in a warm wind, lifting and settling in slow waves, and their shade shifts a little across the grass beneath them; a thin drift of dust lifts from the dirt road beyond the fence, carries a short way along it and settles again, and then a second thinner drift follows it; the whitewashed planks from the near end to the far end, the upturned bucket standing on the grass, the wide brush laid across it and the long line of the road hold completely still; the light on the white planks does not change over the five seconds; the road stays quiet; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

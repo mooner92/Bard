@@ -1,0 +1,23 @@
+# 최근 장르소설 10권 (2026-09-30 사용자 지시: 빵충 같은 재밌고 호평 많은 최근 베스트셀러, 호평 우선 혼합)
+# key	제목	저자	KEI	상태
+ppangchung	빵충 사육 준수 사항	김혜영	CB 2215	완료
+honmono	혼모노	성해나	CB 2080	완료
+isanghyeonsang	한국사 이상현상 연구원	최인서	미소장	완료
+noksaek_jeolbyeok	녹색 절벽의 신자들	조예은	미소장	완료
+yeongwonhan_cheonguk	영원한 천국	정유정	CB 1997	완료
+hyungdam	흉담	전건우	미소장	완료
+amhaeng	암행	정명섭	CB 2119	완료
+inbiin	인비인	성해나	미소장	완료
+the_coworker	더 코워커	프리다 맥파든	CB 2078	완료
+samwolui_machi	3월의 마치	정한아	CB 2085	완료
+# 2차 10권 (2026-10-06 사용자 지시: 베스트셀러 중 스토리 호평 + 영상으로 만들기 좋은 소재)
+project_hailmary	프로젝트 헤일메리	앤디 위어	CB 1938	완료
+cheon_gaeui_parang	천 개의 파랑	천선란	CB 1703	완료
+isanghan_jido	이상한 지도	우케쓰	미소장	완료
+namiya	나미야 잡화점의 기적	히가시노 게이고	CB 0173	완료
+teo	테오	앨런 레비	미소장	완료
+nunmul_sae	눈물을 마시는 새	이영도	미소장	완료
+gorae	고래	천명관	CB 0452	완료
+taeyang_olive	태양 아래 올리브	김초엽	미소장	완료
+dolikil	돌이킬 수 있는	문목하	미소장	큐
+agami	아가미	구병모	미소장	큐

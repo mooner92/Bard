@@ -1,59 +1,202 @@
 {
- "logline": "거대한 바다에서 작은 섬으로 떨어진 선원이, 그곳의 거인들에게 둘러싸이며 자신의 처지를 직시해야 한다.",
- "destination": "릴리퍼트의 성문 앞 — 작아진 자의 운명을 결정짓는 순간",
- "protagonist": "바다에 떠다니다 작은 섬에 발을 내디딘 선원",
- "setting": "18세기, 릴리퍼트 왕국의 광장과 성문 앞",
- "anchor": "Disheveled sailor in tattered blue coat, pale face",
- "palette": "Bright midday sun, high contrast, saturated greens and blues, sharp shadows.",
+ "logline": "폭풍에 배를 잃고 낯선 해변에 닿은 걸리버가 엄지만 한 사람들에게 묶여 그들의 도성으로 옮겨지고, 황제의 손님이 되어 몸을 재이고 시계를 보여 주고 이웃 나라의 배 쉰 척을 끌어오며, 달걀 다툼과 밤의 횃불을 지나 해변에 떠내려온 제 크기의 배를 본다",
+ "destination": "소설 걸리버 여행기에서 만날 수 있습니다",
+ "protagonist": "gulliver",
+ "setting": "1700년 무렵 남쪽 바다의 낯선 섬 릴리퍼트 — 넓은 해변, 풀밭의 곧은 길과 작은 도성, 도성 밖 낡은 돌집, 작은 궁전 앞 잔디, 얕은 바다",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/geolribeo_yeohaenggi/assets",
+ "anchor": "a sturdy man of 1700 in a long dark brown coat among people no taller than his thumb, on a pale beach and a green meadow with a tiny white city",
+ "palette": "dull green, ash grey, off-white, dull yellow, dark blue",
+ "voice": "",
+ "personas": {},
+ "withheld": "그 배로 떠난 뒤의 다른 나라들과, 걸리버가 집에 돌아가는 마지막",
  "beats": [
   {
    "n": 1,
-   "beat": "선원이 모래사장 위에 엎드린 채 천천히 몸을 일으킨다.",
-   "visual": "Low angle shot of a man pushing himself up from the sand, looking disoriented.",
-   "motion": "Man rising slowly from the sand toward the horizon."
+   "cast": [
+    "gulliver",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "폭풍에 배를 잃은 걸리버가 헤엄쳐 낯선 해변에 닿는다",
+   "visual": "flat grey light at the water's edge of the wide pale beach: the sturdy man of thirty-five with the dark brown hair come loose from its ribbon and the plain broad face, in the long dark brown coat soaked black with water, is the one crawling out of the shallow grey water onto the wet sand at frame centre on his hands and knees, seen from the side, his head hanging and water running from his hair and his wide cuffs, one boot still in the foam; a broken plank and a length of rope lie on the sand beside him; the grey sea lies flat behind him to the horizon under the grey sky with no ship on it; the low dull green dunes rise at the top of the frame; the wet sand shines; there is exactly one person on the beach and he is the one crawling out of the water",
+   "motion": "the man crawling is the one thing that moves, and the beach holds still: at the start he is on his hands and knees at the water's edge with his head hanging; over the whole five seconds he drags himself slowly one knee-length further up the wet sand, one hand reaching forward and pressing into the sand and then the other, water running from his hair and his soaked coat, his head lifting a little and sinking again, his boot coming out of the foam; the broken plank and the rope beside him do not move; the flat grey sea behind him keeps its low even wash at the sand's edge; the dull green dunes and the grey sky hold completely still; the wet sand keeps its shine and the low foam at its edge keeps its thin white line; his soaked coat drags and leaves a dark smear behind him on the sand; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "그의 발끝을 향해 수많은 손이 줄지어 다가온다.",
-   "visual": "Extreme close-up of tiny hands reaching out and touching the man's massive boot toe.",
-   "motion": "Tiny hands moving forward toward the stationary boot."
+   "cast": [
+    "gulliver",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "지쳐 잠든 걸리버가 이튿날 아침에야 눈을 뜬다",
+   "visual": "pale morning light on the wide beach, seen close from the sand at the level of the man's face: the sturdy man of thirty-five with the dark brown hair spread loose on the sand and the plain broad face turned to the sky, in the long dark brown coat dried stiff with salt, is the one lying flat on his back at frame centre with his face filling the lower middle of the frame and his body running away from the camera toward the dunes so that his boots are small in the distance; his eyes are just opening and his lips are parted; the pale sand runs away on both sides; the low dull green dunes lie at the top of the frame under the grey sky; a few gulls stand on the sand far off; there is exactly one person on the beach and his face is the nearest thing to the camera",
+   "motion": "the man's opening eyes are the one thing that moves, and the beach holds still: at the start his eyes are just opening with his lips parted; over the first three seconds his eyes open the rest of the way and turn slowly from the sky toward the camera and back to the sky, his brows drawing together and his lips closing, his head not lifting from the sand; in the last two seconds his open eyes stay on the sky; his body running away toward the dunes does not shift and his boots stay small in the distance; the gulls far off do not move; the pale sand, the dull green dunes and the grey sky hold completely still; the morning light stays even; the salt-stiffened coat lies flat and still over his chest and his hands stay open on the sand at either side of him; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "그는 발을 움직이자마자 다수의 작은 인파가 넘어진다.",
-   "visual": "Wide shot of the man shifting his foot, causing a wave of tiny figures to fall backward.",
-   "motion": "Tiny figures falling backward away from the moving foot."
+   "cast": [
+    "gulliver",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "걸리버의 온몸을 땅에 맨 수천 가닥의 가는 실",
+   "visual": "pale morning light on the beach, seen from directly above the man's chest: the sturdy man of thirty-five with the dark brown hair spread on the sand, in the long dark brown coat, is the one lying flat on his back at frame centre with his arms out on the sand, and thousands of fine off-white threads are the ones stretched taut across him from side to side, over his chest, his arms and his legs, each thread fixed at both ends to tiny wooden pegs no bigger than matchsticks driven into the sand in long rows on either side of him, the threads so many that they lie over his coat in a fine net; his plain broad face is turned up with his eyes wide and his mouth open, a few threads even crossing his loose hair; the pale sand runs to the edges of the frame; there is exactly one person on the beach and the threads over him are the one pattern",
+   "motion": "the man's chest is the one thing that moves, and the threads hold him: at the start he lies flat with his arms out and the threads taut over him; over the first three seconds his chest lifts slowly with a deep breath and the threads over it tighten and press into the cloth of his coat, and one arm strains slowly upward a finger's width against its threads and sinks back, the tiny pegs in the sand not shifting; in the last two seconds he lies still with his eyes wide and the threads taut; the rows of tiny pegs keep their places; the pale sand holds completely still; the morning light stays even; the fine net of threads over his legs and his other arm keeps its taut lines and no thread parts or loosens; his spread hair on the sand does not stir; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "그가 무릎을 꿇자 소나무만한 작은 군중이 그의 무릎에 올라탄다.",
-   "visual": "Medium shot of the man kneeling, with tiny soldiers climbing up his knee like a tree.",
-   "motion": "Tiny figures climbing upward onto the man's knee."
+   "cast": [
+    "lilliputians",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "걸리버의 가슴 위로 엄지만 한 사람들이 사다리를 놓고 오른다",
+   "visual": "pale morning light, seen from a tiny person's height on the lying man's chest: the dark brown woollen cloth of his coat fills the whole lower two thirds of the frame as a wide slope of cloth, with a single brass button as big as a cartwheel beside the tiny people at frame left; six tiny people no taller than that button is wide, in short coats of dull yellow and dark blue with small round flat caps, are the ones standing in a row on the cloth with their tiny backs to the camera looking up; a tiny wooden ladder leans up the slope of the coat toward the top of the frame, where the man's huge chin and the white cloth of his neckcloth enter from the top edge, the chin alone taller than the whole ladder; a seventh tiny figure is the one climbing the ladder; taut off-white threads cross the cloth on either side of the tiny people; the pale sand shows at the far left beyond the curve of the coat; nothing of the man shows but his coat, his neckcloth and his chin, and no whole figure of a large man appears anywhere",
+   "motion": "the tiny people on the coat are the ones that move, and the coat holds still: at the start six tiny figures stand in a row with their backs to the camera and a seventh climbs the ladder; over the whole five seconds the climbing figure goes slowly up two rungs of the tiny ladder toward the neckcloth and the six in the row shift slowly a step closer together, their tiny arms lifting toward the chin above, none of them turning to show a face; the huge chin at the top edge does not move and the neckcloth keeps its folds; the slope of dark brown cloth rises only slightly under the tiny feet with the man's breath; the brass button keeps its place beside the tiny people; the threads across the cloth stay taut; the pale sand at the far left holds completely still; the morning light stays even; no whole figure of a large man appears; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "그가 팔을 뻗어 작은 군중을 감싸 안으려 한다.",
-   "visual": "Close-up of the man extending his arm, trying to cradle a group of tiny people.",
-   "motion": "Arm extending forward and downward to embrace the tiny group."
+   "cast": [
+    "lilliputians",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "작은 사람들이 수레로 빵과 술을 걸리버의 손에 날라 온다",
+   "visual": "pale daylight on the beach, seen close from the sand beside the man's open hand: the sturdy man's huge right hand lies open on the sand at frame centre with the palm up, each finger as long as a tiny man is tall, and on the palm lie three tiny loaves of bread no bigger than peas and a tiny wooden barrel the size of a thimble; a line of tiny people no taller than his thumb, in dull yellow and dark blue coats with small round caps, are the ones pushing two tiny wooden carts no longer than his finger across the sand toward the hand, seen from behind with their tiny backs to the camera, the carts loaded with more tiny loaves; the wide dark brown sleeve of his coat runs from the hand out of the frame at the right; beyond the hand the pale sand runs away to the dunes; there is exactly one huge hand in the picture and the tiny people are the size of its fingers; no whole figure of a large man appears anywhere in the picture, only the one huge part of him named above",
+   "motion": "the tiny carts are the ones that move, and the huge hand holds still: at the start the two tiny carts are being pushed across the sand toward the hand; over the whole five seconds the tiny people push the carts slowly forward by the length of one cart until the first cart's wheels touch the edge of the palm, the tiny loaves on the carts swaying, none of the tiny figures turning to show a face; the huge open hand lies still on the sand with its fingers not moving and the three loaves and the thimble-sized barrel keeping their places on the palm; the dark brown sleeve does not shift; the pale sand and the far dunes hold completely still; the daylight stays even; the pale sand between the carts and the hand keeps its faint tiny wheel marks; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "그의 손바닥 위에 작은 깃발과 무기들이 정렬되어 놓인다.",
-   "visual": "Top-down view of the man's open palm, filled with neatly arranged tiny flags and spears.",
-   "motion": "Tiny objects being placed and aligned on the open palm."
+   "cast": [
+    "gulliver",
+    "lilliputians",
+    "meadow",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "걸리버가 큰 수레에 실려 작은 사람들의 도성으로 옮겨진다",
+   "visual": "flat grey daylight over the wide meadow, seen from behind and above: a great flat wooden wagon on many small wheels is the one thing rolling away from the camera along the straight dirt road at frame centre, and the sturdy man of thirty-five in the long dark brown coat is the one lying flat on his back on the wagon tied down with many cords, seen from behind his head so that only his dark brown hair and his shoulders and the length of his body show; before the wagon a dark mass of hundreds of tiny horses no bigger than mice, each with a tiny rider in dull yellow or dark blue, are the ones drawing it, filling the road ahead in a long dense band; the tiny hedges the height of a finger divide the tiny fields on both sides of the road; the tiny city of white stone no taller than a man's knee lies at the far end of the road at the top of the frame; the wagon and the man on it are larger than the city they roll toward",
+   "motion": "the wagon and the mass of tiny horses are the ones that move, and the meadow holds still: at the start the wagon rolls on the road with the dense band of tiny horses before it; over the whole five seconds the band of tiny horses moves slowly forward along the road and the great wagon rolls slowly after it by no more than its own length, the man on it not stirring under his cords, the many small wheels turning; the tiny hedges and the tiny fields on both sides hold completely still; the tiny white city at the far end of the road stays where it is; the grey sky stays even; the cords tying the man to the wagon keep their taut lines and his dark brown hair and his boots keep their places at the two ends of the wagon; the straight dirt road keeps its pale line to the city; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "그가 성문을 향해 걸어갈 수 있을까?",
-   "visual": "Low angle tracking shot of the man's feet walking toward a massive stone gate.",
-   "motion": "Man's feet moving forward toward the distant stone gate."
+   "cast": [
+    "gulliver",
+    "lilliputians",
+    "temple",
+    "meadow",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "도성 밖 낡은 돌집에 걸리버가 사슬로 매인다",
+   "visual": "flat grey daylight in the field outside the tiny city, seen from behind the man: the sturdy man of thirty-five in the long dark brown coat is the one sitting on the grass at frame centre with his back to the camera and his face hidden, his broad back and his tied dark brown hair filling the middle of the frame, and beside him at frame right stands the old stone building the height of his chest with its wide arched doorway, a heavy chain running from an iron ring in its wall down to an iron band round his left ankle, his left leg stretched out on the grass toward the building so that the chain lies along the ground; in the arched doorway of the building a dozen tiny people no taller than his thumb are the ones standing in a cluster looking up at him, the doorway itself no higher than his sitting shoulder; beyond his shoulders the tiny city of white stone no taller than his knee spreads across the meadow at the top of the frame with tiny towers and tiny walls; the grass is short and dull green; there is exactly one person in the field and his back is to the camera, and the building beside him reaches only to his chest",
+   "motion": "the man's shoulders are the one thing that moves, and the field holds still: at the start he sits with his back to the camera and the chain running from the building to his ankle; over the first three seconds his shoulders lift with a slow breath and his head turns slowly a little toward the tiny city beyond, not far enough to show his face, and turns back; in the last two seconds he holds still with his back to the camera; the chain lies still along the grass to his ankle and the dozen tiny people in the doorway keep their cluster, only two tiny arms lifting to point; the stone building with its arched doorway and the tiny white city with its tiny towers hold completely still; the grey sky stays even; the short dull green grass round him does not stir and the iron ring in the building's wall keeps its place; the tiny walls of the city keep their thin white lines; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "성문 앞 잔디에 선원의 신발 한 짝이 놓여 있다.",
-   "visual": "Static shot of a single large boot lying on the grass near the base of the gate.",
-   "motion": "Stillness of the boot on the grass near the gate."
+   "cast": [
+    "emperor",
+    "palace_lawn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "쥐만 한 말을 타고 온 황제가 걸리버에게 말한다",
+   "visual": "flat grey daylight on the lawn before the tiny white palace, seen close from the grass: the sturdy man's huge left hand lies flat on the grass at frame centre with the palm up, and the tiny man no taller than a thumb in the dark blue coat worked with dull yellow thread and the small circlet of dull gold, on his tiny grey horse the size of a mouse, is the one riding onto the palm from the grass, the tiny horse's forehooves already on the man's fingers; beyond the hand the man's plain broad face is bent down close toward the palm, large and out of focus at the top of the frame, his eyes on the tiny rider; the tiny white palace no taller than a man's waist stands at frame left with its tiny gates; the short dull green grass runs to the edges of the frame; there is exactly one tiny rider and one huge hand, and the rider is the size of a finger; no whole figure of a large man appears anywhere in the picture, only the one huge part of him named above",
+   "motion": "the tiny rider is the one who moves, and the huge hand holds still: at the start the tiny horse's forehooves are on the man's fingers; over the first three seconds the tiny horse steps slowly up onto the palm with all four hooves and stops, and the tiny rider lifts one tiny arm toward the huge face above; in the last two seconds the tiny horse stands on the palm and the tiny arm holds raised; the huge open hand lies still on the grass with its fingers not moving; the man's bent face at the top of the frame stays large and still with his eyes on the rider; the tiny white palace with its tiny gates and the short grass hold completely still; the grey light stays even; the dark blue coat and the dull gold circlet of the tiny rider keep their colours in the grey light and the tiny grey horse's tail hangs still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "lilliputians",
+    "palace_lawn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "황제의 재봉사들이 사다리를 놓고 걸리버의 다리를 잰다",
+   "visual": "flat grey daylight on the lawn, seen close from the grass beside the man's boot: the sturdy man's tall brown boot and the dark breeches above it rise at frame centre from the grass to the top of the frame, huge and near, the leather of the boot filling the middle of the frame; two tiny wooden ladders no longer than a hand lean against the boot, and four tiny people no taller than a thumb in dull yellow and dark blue coats are the ones on the ladders and the grass with a tiny cord stretched between them along the boot's height, seen from behind with their tiny backs to the camera; a tiny table with a tiny sheet of paper stands on the grass at the boot's foot; the tiny white palace shows small at the far left beyond the grass; there is one huge boot in the picture and the tiny people on their ladders reach only to its ankle; no whole figure of a large man appears anywhere in the picture, only the one huge part of him named above",
+   "motion": "the tiny people on the ladders are the ones that move, and the boot holds still: at the start the tiny cord is stretched between them along the boot; over the whole five seconds the two tiny figures on the ladders climb slowly one rung each and draw the tiny cord up the leather with them, the figures on the grass paying it out, none of them turning to show a face; the huge boot and the breeches above it do not move; the tiny table with its tiny sheet keeps its place at the boot's foot; the tiny white palace far off and the short grass hold completely still; the grey light stays even; the two tiny ladders stay leaned against the leather without sliding and the tiny cord keeps its taut line; the dark breeches above the boot keep their folds; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "lilliputians",
+    "watch",
+    "palace_lawn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "걸리버의 주머니에서 나온 시계를 넷이 함께 들어 올린다",
+   "visual": "flat grey daylight on the lawn, seen close from the grass: the round silver pocket watch is the one thing lying open on the short grass at frame centre, as big as a cartwheel beside the tiny people, its plain face with two hands turned up and its silver chain trailing across the grass; four tiny people no taller than a thumb in dull yellow and dark blue coats are the ones bent under its rim with their tiny shoulders against the silver, seen from behind and from the side, straining to lift it, its edge already a finger's width off the grass; a fifth tiny figure stands back with both tiny hands over its ears; the short dull green grass runs to the edges of the frame with the tiny white palace far off at the top; there is no large person in the picture and the watch is the one huge thing",
+   "motion": "the tiny people under the watch are the ones that move, and the watch barely stirs: at the start four tiny figures strain with their shoulders under the rim and its edge a finger's width off the grass; over the whole five seconds the rim rises slowly another finger's width and sinks back as the tiny figures heave, their tiny legs bending and straightening, the silver chain sliding a little on the grass, the fifth figure keeping its hands over its ears; the watch's two hands on its face do not move; the short grass and the tiny white palace far off hold completely still; the grey light stays even; the four tiny figures keep their backs to the camera and none of them steps out from under the rim; the trailing silver chain keeps its place except where it slides; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "gulliver",
+    "fleet",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "걸리버가 이웃 나라의 배 쉰 척을 밧줄로 묶어 끌어온다",
+   "visual": "flat grey daylight over the shallow grey water off the beach, seen from behind the man: the sturdy man of thirty-five in the long dark brown coat with the skirts tied up at his waist is the one wading away from the camera through the water at frame centre, seen from behind with his face hidden, the water to his thighs, a thick bundle of cords over his shoulder pulled taut behind him; behind him on the water at the bottom of the frame the fifty tiny wooden warships with their off-white sails, each no longer than his foot, are the ones drawn after him in a crowded mass, tied together by the cords, their tiny sails leaning; the pale beach lies ahead of him at the top of the frame with the low dull green dunes; the grey sea is flat; there is exactly one person in the water and the tiny ships behind him are no longer than his foot",
+   "motion": "the man wading and the tiny ships are the ones that move, and the beach holds still: at the start he wades away with the bundle of cords taut over his shoulder and the tiny ships crowded behind him; over the whole five seconds he takes two slow heavy steps forward through the water toward the beach, the water parting round his thighs, and the mass of tiny ships glides slowly after him by the length of one ship, their tiny sails leaning and their tiny hulls knocking together; his face never turns back; the pale beach and the dull green dunes ahead hold completely still; the flat grey sea keeps its low even swell; the bundle of cords over his shoulder stays taut and the tied-up skirts of his coat keep their bunched folds at his waist; the grey water beyond the ships lies flat; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "lilliputians",
+    "egg",
+    "palace_lawn",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "달걀 앞에서 작은 사람 둘이 다툰다",
+   "visual": "flat grey daylight on the lawn, seen close at the level of the tiny table: the single boiled hen's egg standing upright in its tiny silver cup on the tiny table is the one thing at frame centre, the egg as big as the table it stands on; two tiny people no taller than a thumb, one in a dull yellow coat and one in a dark blue coat with small round caps, are the ones standing on either side of the table with their tiny fists raised at each other over the egg, seen from the side so that only the edges of their tiny faces show; at the top right of the frame the sturdy man's huge forefinger comes down from above toward the egg, as thick as the tiny table is wide, the dark brown cuff of his coat behind it; the short dull green grass runs to the edges of the frame; there is one huge finger in the picture and the two tiny people are smaller than the egg; no whole figure of a large man appears anywhere in the picture, only the one huge part of him named above",
+   "motion": "the two tiny people and the huge finger are the ones that move, and the egg holds still: at the start the two tiny figures stand with their fists raised over the egg and the huge finger comes down from above; over the first three seconds the two tiny fists shake at each other and the tiny figures each take one tiny step closer to the table, and the huge finger lowers slowly until its tip is a finger's width above the egg and stops; in the last two seconds the finger holds above the egg and the two tiny figures hold with their fists raised; the egg stands still in its tiny cup on the tiny table; the short grass holds completely still; the grey light stays even; the tiny silver cup keeps its place under the egg and the tiny table does not tip; the dark brown cuff behind the finger keeps its fold; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "gulliver",
+    "lilliputians",
+    "temple",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "밤에 횃불을 들고 모여 잠든 걸리버를 가리키는 작은 사람들",
+   "visual": "black night with stars over the field outside the tiny city, seen from behind a crowd of tiny people: the tiny backs of a crowd of people no taller than a thumb, in dull yellow and dark blue coats with small round caps, fill the bottom of the frame, dozens of them, each holding up a tiny torch no longer than a match with a small dull yellow flame, all facing away from the camera; beyond them the sturdy man of thirty-five in the long dark brown coat is the one lying asleep on his side on the grass at frame centre, huge beyond the tiny crowd, his eyes closed, his broad back toward them and his tied dark brown hair on the grass, both his hands lying empty and still on the grass with nothing held in them, the old stone building the height of his chest beside him with the chain on the grass; several tiny arms point up at the sleeping man; the tiny torches throw their small light on the near side of his coat; not one tiny face is turned to the camera and the sleeping man's face is hidden",
+   "motion": "the tiny torches are the ones that move, and the sleeping man holds still: at the start the dozens of tiny torches are held up with their small flames and several tiny arms point at the sleeping man; over the whole five seconds the small flames sway together and the tiny crowd presses slowly a step closer toward the sleeping man, more tiny arms lifting to point, none of the tiny figures turning round; the sleeping man's broad back rises and sinks only with slow breath, his eyes staying closed and his empty hands not lifting from the grass and his hair lies still on the grass; the chain and the stone building beside him hold completely still; the stars stay in their places; the dozens of tiny round caps keep their places in the crowd and no torch goes out; the old stone building's arched doorway stays black; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "gulliver",
+    "boat",
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "해변에 떠내려온 걸리버 크기의 배는 누구의 것인지 알 수 없다",
+   "visual": "flat grey daylight on the wide pale beach at the water's edge: the plain wooden rowing boat of ordinary size with its two oars is the one thing lying on the wet sand at frame centre at the water's edge, keel down, water running from its planks; the sturdy man of thirty-five in the long dark brown coat is the one standing at frame right a few paces from the boat with his back half to the camera and one hand raised to shade his eyes, his face turned to the boat and out to the flat grey sea beyond; the boat reaches to his waist, an ordinary boat to an ordinary man; the pale sand runs to the edges of the frame with the low dull green dunes at the top; the grey sea lies flat under the grey sky; there is exactly one person on the beach and the boat is the one thing his own size",
+   "motion": "the man's raised hand is the one thing that moves, and the boat holds still: at the start his hand shades his eyes with his face turned to the boat; over the first three seconds his head turns slowly from the boat out to the flat grey sea and back to the boat, the shading hand moving with it, his other hand lifting a little from his side; in the last two seconds his face holds turned to the boat; his boots do not shift on the wet sand; the boat lies still on the sand with the water running from its planks and the two oars keeping their places; the pale sand, the dull green dunes and the flat grey sea hold completely still; the grey light stays even; the two oars lie in the boat without shifting and the water running from the planks keeps its thin lines; the man's coat hangs still at his sides; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "beach",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "빈 해변에 남은 큰 발자국과 작은 발자국들",
+   "visual": "flat grey daylight on the wide pale beach with nobody on it: a single huge bootprint the length of a man's arm is the one thing pressed deep in the wet sand at frame centre, its heel toward the sea, and all round it hundreds of tiny footprints no bigger than grains of rice run in lines and clusters across the sand and away toward the dunes at the top of the frame; a tiny wooden ladder no longer than a hand lies dropped on the sand beside the huge print; the grey sea washes flat at the bottom of the frame; the low dull green dunes lie at the top under the grey sky; the beach is empty of people and the huge print and the tiny prints are the only marks in the sand",
+   "motion": "the sea's edge is the one thing that moves, and the sand holds still: at the start the low wash of the grey sea lies at the bottom of the frame below the huge bootprint; over the whole five seconds a thin sheet of water slides slowly up the wet sand toward the heel of the huge print and draws back, twice, not reaching it; the huge bootprint and the hundreds of tiny footprints keep their exact shapes and none of them fills with water; the tiny ladder on the sand does not move; the dull green dunes and the grey sky hold completely still; no figure appears on the beach; the heel of the huge print keeps its deep shadow and the lines of tiny prints keep their direction toward the dunes; the low wash of the sea keeps its thin white edge; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   }
- ],
- "withheld": "선원이 릴리퍼트 사람들에게 사로잡혀 묶인 채로 감금되고, 이후 정치적 갈등에 휘말리며 결국 탈출해야 하는 운명"
+ ]
 }

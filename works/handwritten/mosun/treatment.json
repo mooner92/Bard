@@ -1,0 +1,178 @@
+{
+ "logline": "스물다섯 살에 자기 인생을 탐구하기로 한 그녀 앞의 같은 얼굴·정반대의 삶, 두 남자와 두 갈래 길",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "woman",
+ "setting": "1990년대 봄의 서울 — 오래된 동네의 작은 집과 꽃잎 날리는 거리, 두 갈래 길",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/mosun/assets",
+ "anchor": "a Korean woman of twenty-five with shoulder-length black hair, in a light blouse and jeans",
+ "palette": "off-white, dull pink, ash grey, dark brown, dark green",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "woman",
+    "street"
+   ],
+   "refs": [],
+   "beat": "1998년 봄 — 꽃잎 날리는 거리",
+   "visual": "the woman walking along the spring street under the cherry trees with a paperback under her arm, petals drifting down onto the pavement, the bus stop ahead; exactly one woman",
+   "motion": "petals drift down past the woman as she walks and the bus stop comes a little nearer; the camera holds on the woman under the trees"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "cafe"
+   ],
+   "refs": [],
+   "beat": "한 달 만에 1위 — 봄의 서점 창",
+   "visual": "a café window on the spring street with a stack of books and a cup on the sill inside, petals stuck to the outside of the glass, the reflection of cherry branches; no people",
+   "motion": "petals slide slowly down the outside of the glass and the reflection of the branches sways; the camera holds on the window"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "woman",
+    "kitchen"
+   ],
+   "refs": [],
+   "beat": "스물다섯 살, 인생을 탐구하기로",
+   "visual": "the woman sitting at the low table of the kitchen with an open notebook and a pen, looking up from the page toward the window with her chin lifted; exactly one woman",
+   "motion": "the woman's pen taps the notebook once and her lifted chin turns slowly toward the window light; the camera holds on the woman at the table"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "mother",
+    "woman",
+    "kitchen"
+   ],
+   "refs": [],
+   "beat": "첫 교재 — 어머니",
+   "visual": "the mother at the kitchen sink with her back turned, her worn apron strings tied, the woman watching her from the low table with her hands around a cup; exactly two women",
+   "motion": "the mother's shoulders move as she scrubs at the sink and the woman's hands turn the cup slowly; the camera holds on the mother's back"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "aunt",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "같은 얼굴 — 쌍둥이 이모",
+   "visual": "the aunt standing at the open tin gate of the yard in her tailored jacket and pearl necklace, her hair set neatly, one gloved hand on the gate; exactly one woman",
+   "motion": "the aunt's gloved hand rests on the gate and her eyes travel slowly over the narrow yard; the camera holds on the woman at the gate"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "mother",
+    "aunt",
+    "kitchen"
+   ],
+   "refs": [],
+   "beat": "정반대의 삶",
+   "visual": "the mother and the aunt seated side by side at the low table, one in a worn apron with rough hands, the other in a tailored jacket with a pearl necklace, a teapot between them; exactly two women",
+   "motion": "the two same faces turn slightly toward each other and the teapot's steam rises between them; the camera holds on the two sisters"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "woman",
+    "cafe"
+   ],
+   "refs": [],
+   "beat": "두 남자, 두 갈래 길",
+   "visual": "the woman seated alone at a café table by the window with a cup, two empty chairs across from her, the spring street outside; exactly one woman",
+   "motion": "the woman's eyes move from one empty chair to the other and her fingers turn the cup; the camera holds on the table with the two empty chairs"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "fork"
+   ],
+   "refs": [],
+   "beat": "안정과 설렘, 계산과 마음",
+   "visual": "the fork where two streets part in the spring neighbourhood, one street leading up between tidy houses and the other down toward a market lane, petals on both; no people",
+   "motion": "petals blow along both streets from the fork and a bicycle bell sounds somewhere down the market lane; the camera holds on the fork"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "woman",
+    "yard"
+   ],
+   "refs": [],
+   "beat": "답을 서두르지 않는 소설",
+   "visual": "the woman sitting on the step at the door of the house at dusk with her chin on her hand, the narrow yard and the tap in front of her; exactly one woman",
+   "motion": "the dusk light fades slowly on the yard and the woman's chin settles heavier on her hand; the camera holds on the woman on the step"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "kitchen"
+   ],
+   "refs": [],
+   "beat": "관계와 삶을 냉정하게 해석하는 문장",
+   "visual": "close on the low table: the open notebook with lines of handwriting blurred, a pen laid across it, a cup of barley tea beside; no people, no readable letters",
+   "motion": "the steam from the barley tea drifts across the notebook and the pen holds still; the camera holds close on the notebook"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "mother",
+    "aunt"
+   ],
+   "refs": [],
+   "beat": "모순을 사람의 얼굴로",
+   "visual": "close on the two sisters' faces side by side, one lined and tired with strands of hair loose, the other made up with set hair, both looking straight ahead; exactly two women",
+   "motion": "the tired face's eyes lower slowly while the made-up face's eyes stay fixed ahead; the camera holds close on the two faces"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "woman",
+    "bridge"
+   ],
+   "refs": [],
+   "beat": "스물몇 해가 지나도 다시 읽히는",
+   "visual": "the woman standing on a bridge over the river at evening with the city lights coming on behind her, her hands on the railing; exactly one woman",
+   "motion": "the city lights come on one by one behind the woman and her hands rest on the railing; the camera holds on the woman on the bridge"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "woman",
+    "bus"
+   ],
+   "refs": [],
+   "beat": "저마다 자기 인생의 모순을",
+   "visual": "the woman reading a paperback on a night bus, her face lit by the page, the city lights sliding past the window behind her; exactly one woman",
+   "motion": "the city lights slide past the window behind the woman and her eyes move along the page; the camera holds on the woman reading"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "woman",
+    "fork"
+   ],
+   "refs": [],
+   "beat": "두 갈래 길 중 어느 쪽을",
+   "visual": "the woman standing at the fork of the two streets in spring with her paperback under her arm, her face turned to one street and her feet toward the other, petals drifting; exactly one woman",
+   "motion": "the woman's face turns slowly from one street to the other while her feet stay where they are, petals drifting past; the camera holds on the woman at the fork"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "kitchen"
+   ],
+   "refs": [],
+   "beat": "마무리 — 공책과 보리차 스틸",
+   "visual": "closing still: the low kitchen table with the notebook closed and the pen laid on top, a cup of barley tea half drunk, the window light of early morning on the wood",
+   "motion": "morning light creeps slowly across the tabletop toward the closed notebook and the tea holds still in the cup; the camera closes with great patience on the notebook"
+  }
+ ],
+ "withheld": ""
+}

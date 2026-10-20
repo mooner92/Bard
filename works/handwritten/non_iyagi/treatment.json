@@ -1,0 +1,180 @@
+{
+ "logline": "일인들이 쫓겨 가면 팔아먹은 논이 도로 내 것이 된다고 서른다섯 해를 장담한 노인",
+ "destination": "소설 논 이야기에서 만날 수 있습니다",
+ "protagonist": "han",
+ "setting": "1945년 팔월의 전라도 농촌 — 마을 길과 논, 오십 년 전 동헌의 밤, 용말 갈림길의 주막, 논둑",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/non_iyagi/assets",
+ "anchor": "an old Korean farmer with a bushy white beard in a coarse white summer jacket and trousers",
+ "palette": "dark green, off-white, dun brown, pale yellow, ash grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "han",
+    "song",
+    "village"
+   ],
+   "refs": [],
+   "beat": "일인들이 쫓겨 간다 — 우쭐한 한생원",
+   "visual": "old Han standing in the village lane gripping Song's sleeve with one hand, his bushy white beard bristling and his mouth open in a gap-toothed laugh, Song with his thin white beard and felt hat listening with a dry face; thatched houses and the zelkova behind; exactly two old men",
+   "motion": "Han's hand shakes Song's sleeve and his gap-toothed laugh widens, his beard bobbing, Song's dry face unmoved; the camera holds on the two old men in the lane"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "village"
+   ],
+   "refs": [],
+   "beat": "팔월 십오일, 만세에 나가지 않은 노인",
+   "visual": "three black-haired young men in white cotton jackets in the village lane, one holding up a white flag with a red and blue circle on a bamboo pole and the other two with their fists raised and mouths open, a jug of wine and a cooked chicken on a low table beside them, the thatched houses and the zelkova behind; exactly three young men",
+   "motion": "the flag with the red and blue circle lifts on its pole and the young men's fists pump, the zelkova leaves stirring; the camera holds on the three young men in the lane"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "father",
+    "yamen"
+   ],
+   "refs": [],
+   "beat": "오십 년 전, 동학 혐의로 갇힌 아버지",
+   "visual": "night: the old father with a topknot and thin grey beard kneeling bound with rope in the stone-flagged yard before the tiled gate with red pillars, his head bowed, a paper lantern swinging above him; exactly one old man",
+   "motion": "the paper lantern swings and the bound old man's bowed head sinks lower, the rope taut across his chest; the camera holds on the kneeling figure in the lantern light"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "young_han",
+    "yamen"
+   ],
+   "refs": [],
+   "beat": "열서 마지기 논문서를 사또께 바치다",
+   "visual": "night at the gate of the magistrate's residence: young Han, bareheaded with his topknot, kneeling on the stones and holding up a folded paper land deed in both hands toward a stern clerk with a long grey beard in a black horsehair hat and a grey robe standing in the doorway, a paper lantern above; exactly two men",
+   "motion": "young Han's raised hands tremble under the folded deed and the clerk's hand reaches down and takes it, the lantern flame steadying; the camera holds on the deed passing between the hands"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "young_han",
+    "village"
+   ],
+   "refs": [],
+   "beat": "그깐 놈의 나라, 시원히 잘 망했지",
+   "visual": "young Han squatting alone in the village lane with a bamboo pipe in his hand, spitting to one side with a sour twist of the mouth, while a woman in white weeps at a doorway behind him with her apron to her face; exactly one man and one woman",
+   "motion": "young Han draws on his pipe and spits again, the sour twist of his mouth holding, the woman's apron pressing to her face behind; the camera holds on the squatting man"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "young_han",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "술과 노름 빚, 남은 일곱 마지기",
+   "visual": "young Han slumped alone on the tavern porch with an empty earthenware bowl and a scatter of long narrow paper strips of tujeon cards on the boards, his straw hat pushed back, a small cloth purse turned inside out beside him; exactly one man",
+   "motion": "young Han's hand pushes the empty earthenware bowl away and turns the limp purse over once more, his head sinking; the camera holds on the slumped man on the porch"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "young_han",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "갑절 값에 논을 산다는 일인 길천의 소문",
+   "visual": "young Han sitting on the tavern porch beside the tavern woman in a white apron, both looking down the road, the leafy willow above them, the woman holding up two fingers and then four as she talks; exactly two people",
+   "motion": "the tavern woman's fingers go up two and then four and young Han's eyes widen on them, the willow leaves stirring above; the camera holds on the two on the porch"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "kilcheon",
+    "road"
+   ],
+   "refs": [],
+   "beat": "말 탄 길천, 육혈포, 끌려가는 빚쟁이",
+   "visual": "Kilcheon in his black suit and bowler hat riding a bay horse along the paddy road with the revolver holster at his belt, and behind him a Korean assistant in a white jacket leading a bound young farmer by a rope, the farmer's clothes torn; exactly three people and one horse",
+   "motion": "the horse's hooves throw dust and the bound farmer stumbles at the end of the rope, Kilcheon's hand resting on the holster; the camera holds on the rider and the led man"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "철로가 땅을 울린다 — 윤첨지의 소문",
+   "visual": "an old farmer in a felt hat with a grey beard standing on the tavern porch under the leafy willow, both hands shaking in the air to show the ground trembling, his mouth open wide in talk, the earthen wine jar beside him; exactly one old man",
+   "motion": "the old farmer's hands shake harder in the air and his open mouth keeps moving, the willow leaves stirring above him; the camera holds on the old man on the porch"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "young_han",
+    "paddy"
+   ],
+   "refs": [],
+   "beat": "일곱 마지기를 팔고 남은 아흔 냥",
+   "visual": "young Han standing on the dike at the edge of the green paddy with four fresh wooden stakes at its corners, a small cloth purse hanging limp from his hand, his straw hat in the other hand and his face slack; exactly one man",
+   "motion": "the limp purse sways from young Han's hand and his slack face turns slowly from the stakes to the rows of rice; the camera holds on the man on the dike"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "young_han",
+    "village"
+   ],
+   "refs": [],
+   "beat": "일인들이 쫓겨 가면 도로 내 것 — 웃음거리가 된 장담",
+   "visual": "young Han, a grown man of thirty with a topknot and a thin moustache, in the lane with his chin up and one hand flat on his chest talking big, three grown villagers around him laughing with their heads thrown back and their hands slapping their knees; exactly four grown men",
+   "motion": "young Han's chin lifts higher as he talks and the three villagers' laughter rocks them back, hands slapping knees; the camera holds on the boaster and the laughing men"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "han",
+    "road"
+   ],
+   "refs": [],
+   "beat": "서른다섯 해 뒤, 보따리만 들고 떠나는 일인들",
+   "visual": "a Japanese man in a Western suit and a bowler hat and a Japanese woman in a kimono walking away down the paddy road each carrying one cloth bundle, their backs to the camera, and old Han with his bushy white beard standing at the roadside in front watching them go with his gap-toothed grin, his cane planted; exactly one old Korean man in front",
+   "motion": "the family's bundles sway as they shrink down the road and old Han's grin widens, his cane thumping once on the dirt; the camera holds on the old man watching the road"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "han",
+    "song",
+    "tavern"
+   ],
+   "refs": [],
+   "beat": "외상 소주, 서른다섯 해 만에 논을 보러",
+   "visual": "the tavern porch: old Han swaying on his feet with his cane raised and his gap-toothed mouth wide, small cups of clear liquor on the straw mat, Song slumped against the porch post with his felt hat over his eyes, the middle-aged tavern woman wringing her hands in the doorway; exactly three people",
+   "motion": "old Han sways and his raised cane wobbles as he steps off the porch, Song's hat slipping lower, the tavern woman's hands wringing; the camera holds on the swaying old man"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "han",
+    "gujang",
+    "village"
+   ],
+   "refs": [],
+   "beat": "나라가 일인 땅을 판다 — 구장 앞의 주먹",
+   "visual": "old Han with both fists clenched at his sides shouting up at the village headman, his white beard shaking, the headman standing with the ledger under his arm and a flat official face, the zelkova tree behind them; exactly two men",
+   "motion": "old Han's clenched fists shake and his beard jerks with the shouting while the headman's flat face does not change, the ledger held tight under his arm; the camera holds on the two men"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "paddy"
+   ],
+   "refs": [],
+   "beat": "마무리 — 네 귀퉁이 말뚝 박힌 논 스틸",
+   "visual": "closing still: the green rice paddy at dusk with a plain straight wooden stake driven upright at each of its four corners, water shining between the rows of rice, a bamboo cane lying on the low dike, the distant hills going dark",
+   "motion": "a light wind runs across the rows of rice and the water between them glints, the cane lying still on the dike; the camera closes with great patience on the stakes at the corners of the paddy"
+  }
+ ],
+ "withheld": "독립이 됐다고 했을 제 태극기 앞에서 목청 높이지 않기 잘했다는 노인의 대꾸"
+}

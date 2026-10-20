@@ -1,0 +1,183 @@
+{
+ "logline": "기억을 잃고 깨어난 과학 교사가 홀로 남은 편도 우주선에서 지구를 구할 임무를 떠올리고, 투명한 벽 너머 낯선 존재를 만난다",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "grace",
+ "setting": "근미래 — 태양이 식어 가는 지구와 먼 별 곁의 편도 우주선 헤일메리호, 두 우주선을 잇는 터널",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/project_hailmary/assets",
+ "anchor": "a lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and stubble, in a plain pale grey jumpsuit",
+ "palette": "deep navy, soft grey, pale gold, muted teal, warm ivory",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "동료들에게 일어난 일, 그가 임무를 맡게 된 진실, 낯선 존재의 사정, 임무의 결말",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "grace",
+    "ship_interior"
+   ],
+   "refs": [],
+   "beat": "긴 잠에서 깨어난 남자 — 이름조차 기억나지 않는다",
+   "visual": "inside the cramped sleep bay of a small spacecraft under soft white panel light: the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble lies half raised on a narrow padded medical bed at frame centre, in a plain pale grey long-sleeved jumpsuit, propped on one elbow, blinking, his face dazed and puzzled, eyes squinting up at the light; two slender white robotic arms with soft rounded joints fold back from the bed toward the curved ceiling; a thin clear tube runs from a small smooth panel beside the bed to a soft white cuff on his forearm; the curved pale grey walls are smooth and plain, lined with rounded handrails; a round porthole in the wall at frame right shows a scatter of small stars on black; a squeezable drinking pouch with a straw rests on a small tray beside the bed; the light is clean and soft, the room hushed and clinical, a strange first waking; a folded deep navy blanket lies at the foot of the bed, and a small warm ivory handrail light glows beside the porthole",
+   "motion": "the man slowly pushes himself higher on his elbow and blinks at the light, and that slow rising is the one movement in the shot: at the start he lies half raised on the bed, eyes squinting; over the whole five seconds he lifts his shoulders a little higher, his free hand coming up to shade his eyes from the panel light, his brow knitting in confusion as his eyes drift slowly across the ceiling, his chest rising with one long breath; the folded robotic arms stay still against the ceiling; the thin tube and the soft cuff on his forearm stay in place; the porthole stars, the handrails and the smooth walls stay completely still; the soft white light holds steady; the folded deep navy blanket and the small warm ivory handrail light stay still; the camera holds a medium shot beside the bed at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "grace",
+    "ship_interior",
+    "space_bg"
+   ],
+   "refs": [],
+   "beat": "둥근 창밖의 낯선 별 — 여기는 우주 한가운데",
+   "visual": "the cramped interior of the small spacecraft: the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble in his pale grey jumpsuit stands at a large round porthole at frame left, seen in three-quarter view from behind, one hand flat on the curved wall beside the window, his head tilted, looking out; beyond the thick glass hangs deep black space thick with small stars, and in the middle of it glows one large perfectly round pale gold sun, a softly glowing disc far bigger and brighter than any other light, its soft light spilling across the porthole rim, his cheek and his shoulder; the curved pale grey walls around the window are smooth and plain, a rounded handrail running beneath it; behind him the soft white panel lights are dimmed; the scene is vast and silent, one small person facing an unfamiliar sun; a small squeezable drinking pouch is clipped to the handrail beside him, and the porthole rim is worn smooth",
+   "motion": "the man's breath mists faintly on the porthole glass and clears again, and that misting breath is the one movement in the shot: at the start the thick glass is clear in front of his face; over the whole five seconds a small soft patch of mist blooms on the glass as he breathes out, lingers on the glass in the pale gold light, and slowly fades back to clear, while his eyes stay fixed on the large star and his hand stays flat on the curved wall; the large round pale gold sun and the field of small stars beyond the glass stay completely still; the rounded handrail and the dimmed panel lights stay still; the clipped drinking pouch and the worn porthole rim stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from behind his shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "grace_class",
+    "kids",
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "떠오른 기억 — 아이들에게 과학을 가르치던 교사",
+   "visual": "a remembered sunny morning in a bright American middle-school science classroom: the lanky man with a friendly open face and a lean jaw, short sandy-brown hair and light stubble, in a rumpled light blue button shirt with the sleeves rolled up, stands at the front of the room at frame centre holding up a grey speckled rock between two fingers, grinning, his eyes bright with enthusiasm; in the foreground the backs of a row of middle-school children at their desks, heads tilted up toward him, one child's hand half raised; behind him runs a long wooden shelf of rock samples, glass jars of sand and potted plants against a plain pale green wall; a small hanging model of the planets dangles from the ceiling on fine threads; wide windows at frame right pour warm sunlight across the desks; the room is cheerful, messy and full of curiosity; a small globe sits on the teacher's desk beside a mug of pencils, and a jar of sand catches the sun",
+   "motion": "the teacher slowly turns the speckled rock in the sunlight between his fingers, and that turning rock is the one movement in the shot: at the start he holds it up still, grinning; over the whole five seconds he rotates it slowly so that the tiny crystals in it glint one after another in the window light, his grin widening and his eyes moving across the row of children, while the half-raised hand of the child in front lifts a little higher; the other children's heads stay tilted toward him; the shelf of rock samples, the jars of sand, the potted plants and the hanging planet model stay completely still; the warm sunlight on the desks holds steady; the small globe and the mug of pencils on the teacher's desk stay still; the camera holds a medium wide shot from the back of the room over the children's heads, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "space_bg"
+   ],
+   "refs": [],
+   "beat": "태양의 빛을 먹어 치우는 미지의 생명체",
+   "visual": "deep black space near the Sun, seen from far out: the Sun fills the left third of the frame, a huge pale gold disc with a softly glowing rim, and from its edge a thin faint arc of countless tiny black specks curves away across the darkness toward a small pale cream planet at frame right, the arc catching a dim warm haze along its whole length; the specks thin out as the arc bends away from the Sun, each one a minute dark grain; the field of small stars behind is sharp and still; a second small planet, pale blue and white, hangs tiny and far off near the bottom of the frame; the picture is enormous, silent and quietly ominous, something living stealing the light of the Sun; a faint pale halo surrounds the Sun's rim, and one stray dark speck drifts apart from the arc",
+   "motion": "the tiny black specks drift slowly along the faint arc away from the Sun, and that drifting stream is the one movement in the shot: at the start the arc of specks curves softly from the Sun's edge; over the whole five seconds the countless grains flow steadily along it toward the small pale planet, the dim haze along the arc shimmering faintly as they pass, while the huge pale gold disc of the Sun glows on unchanged; the small pale cream planet and the tiny pale blue planet stay completely still; the field of small stars holds still and sharp; the faint pale halo around the Sun holds steady and the stray dark speck drifts slowly with the others; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a very wide shot of the Sun and the arc, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "lab"
+   ],
+   "refs": [],
+   "beat": "아스트로파지 — 그것 때문에 태양이 식어 간다",
+   "visual": "a close view in a small spacecraft laboratory under a bright white microscope lamp: at frame centre stands a small sealed glass sample jar on a steel counter, and in its bottom lies a thin layer of fine black dust, utterly dark, each grain a tiny dull speck; the lamp's beam falls straight down into the jar so that the clear glass gleams while the black dust swallows the light; beside the jar sits a white microscope with its eyepiece angled toward the camera, a pair of thin steel tweezers and a small round glass dish; behind them a plain cabinet door and a round porthole show a scatter of small stars on black; the steel counter reflects the lamp in a long soft streak; the image is quiet, precise and unsettling, a jar of something alive; a small round glass dish beside the jar holds a single smear of the same black dust",
+   "motion": "the fine black dust in the sealed jar stirs and shifts by itself in the lamplight, and that slow stirring is the one movement in the shot: at the start the thin layer of dust lies flat on the bottom of the jar; over the whole five seconds the grains creep and swirl slowly into a faint drifting ring, rising a little from the glass floor and settling again, always swallowing the light shining down on them; the glass jar itself, the white microscope, the tweezers and the round glass dish stay completely still; the plain cabinet door and the porthole stars stay still; the bright lamp beam holds steady; the small glass dish and its smear of black dust stay still beside the jar; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close shot of the jar on the counter, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "field"
+   ],
+   "refs": [],
+   "beat": "이대로라면 몇십 년 안에 얼어붙을 지구",
+   "visual": "a vast flat wheat field in the American Midwest under a pale, weak midday sun: the ripe stalks stretch to the horizon in every direction, pale gold and stiff, each head of grain rimmed with fine white frost even at noon; the low sun hangs small and dim in a washed-out sky of soft grey-blue, giving almost no warmth; far off at frame right stands a weathered grey barn and beside it a lone metal windpump with still blades; thin frost glitters along a wooden fence running through the foreground; the air is clear and cold, a faint pale mist lying low between the rows; the whole scene is beautiful and wrong, summer grain wearing winter frost under a fading sun; a few crows perch along the frosted fence far off, and a dirt road runs straight toward the barn",
+   "motion": "a faint cold wind passes over the frosted wheat, and that wind is the one movement in the shot: at the start the stalks stand stiff and still; over the whole five seconds a slow breath of wind moves across the field from left to right, bending the frosted heads of grain in a long soft wave and letting them rise again, the fine frost on them glittering in the weak light, while the low mist between the rows drifts a little with it; the weathered grey barn and the lone windpump stay completely still; the wooden fence in the foreground stays still, its frost glinting; the small dim sun in the grey-blue sky holds unchanged; the crows on the far fence stay perched and the straight dirt road holds still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot over the field, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "hailmary",
+    "space_bg"
+   ],
+   "refs": [],
+   "beat": "인류가 던진 마지막 역전의 패스, 헤일메리호",
+   "visual": "deep black space thick with small stars: at frame centre, seen from the side, drifts a long slender white spacecraft with a smooth plain hull, a cluster of rounded white modules at its front, a long thin spine running back, and at its rear a wide engine bell glowing with a soft pale gold light; the hull is clean and unmarked, its curves catching the faint light of a tiny far round pale gold sun at frame right; small round portholes along the front modules glow warm ivory; the ship is the only made thing in an endless field of stars, small against the dark yet full of purpose; the light is cool and clean, the scene grand and silent, one last throw toward the stars; a faint trail of pale haze streams from the engine bell, and the small portholes glow warm ivory",
+   "motion": "the engine bell at the rear of the white spacecraft glows steadily brighter and dimmer, and that pulsing engine glow is the one movement in the shot: at the start the wide engine bell glows a soft pale gold; over the whole five seconds the glow swells slowly brighter, lighting the end of the long spine, and eases back again in a long steady rhythm, while the whole ship drifts very slowly from right to left across the stars; the rounded front modules and their warm ivory portholes stay steady; the tiny far round pale gold sun and the field of small stars stay completely still; the faint trail of pale haze from the engine stretches and fades softly with the glow; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide side shot of the spacecraft, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "grace",
+    "ship_interior",
+    "space_bg"
+   ],
+   "refs": [],
+   "beat": "홀로 남은, 돌아갈 수 없는 편도 여행자",
+   "visual": "the cramped interior of the small spacecraft in dim night lighting: the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble in his pale grey jumpsuit sits on the edge of the narrow padded bed at frame centre, elbows on his knees, hands loosely clasped, his shoulders slumped, his face quiet and serious, eyes lowered to the floor; a single small reading light above the bed throws a warm ivory pool over him while the rest of the room sinks into soft navy dimness; the round porthole in the curved wall behind him shows deep black space and a scatter of small stars; the folded white robotic arms rest against the ceiling; a squeezable drinking pouch sits on the small tray beside him; the scene is still and heavy, one man taking in the size of the dark around him; a pair of soft grey slippers sits on the floor beside the bed, and the drinking pouch rests on its side",
+   "motion": "the man draws one long slow breath and his eyes drift up toward the porthole, and that slow lifting of his eyes is the one movement in the shot: at the start he sits with his eyes lowered to the floor; over the whole five seconds his shoulders rise and settle with the long breath, his clasped hands tighten and loosen, and his eyes drift slowly up to the stars in the porthole, the corner of his mouth tugging into a small rueful half smile; his body keeps facing the camera and he stays seated on the bed; the folded robotic arms, the drinking pouch and the small tray stay completely still; the porthole stars hold still; the warm pool of reading light holds steady; the grey slippers and the drinking pouch on its side stay still; the camera holds a medium shot at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "grace",
+    "lab"
+   ],
+   "refs": [],
+   "beat": "농담을 중얼거리며 버티는 우주 실험실의 하루",
+   "visual": "the small spacecraft laboratory under bright white light: the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble in his pale grey jumpsuit leans over a steel counter at frame centre, one eye pressed to the eyepiece of a white microscope, one hand on its focus knob, his mouth crooked in a lopsided grin mid-mutter, an eyebrow raised; along the counter stand sealed glass jars holding thin layers of fine black dust, a small white centrifuge, a pair of steel tweezers and a squeezable food pouch half eaten; plain pale grey cabinets line the curved wall above, and a round porthole at frame right shows small stars on black; the light is crisp and practical, the clutter of real work spread around him; the scene is busy, stubborn and quietly funny, a lone scientist refusing to give up; a small round glass dish of black dust sits under the microscope lamp, and a stub of pencil lies by the pouch",
+   "motion": "the man slowly turns the focus knob of the microscope while his grin widens, and that slow turning is the one movement in the shot: at the start he leans with one eye to the eyepiece, grinning; over the whole five seconds his fingers turn the knob in small careful steps, his raised eyebrow climbing higher and his lopsided grin spreading wider, his shoulders giving one small silent chuckle; the sealed jars of black dust, the white centrifuge, the tweezers and the half-eaten food pouch stay completely still on the counter; the pale grey cabinets and the porthole stars stay still; the crisp white light holds steady; the small glass dish of black dust and the pencil stub stay still beside the pouch; the camera holds a medium shot across the counter at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "ship_interior"
+   ],
+   "refs": [],
+   "beat": "그러던 어느 날, 계기판에 잡힌 정체불명의 신호",
+   "visual": "a close view of the spacecraft's control console in the dim cockpit: at frame centre a round dark glass scope is set into a smooth pale grey panel, the panel completely plain, its surface broken only by a few round unlabelled buttons; inside the scope, near its edge, glows one small bright pale gold dot of light; the man's hand hovers just above the panel at frame left, fingers spread, frozen mid-reach; the soft blue-grey glow of the scope lights his fingertips; behind the console a narrow window shows deep black space and small stars; a padded seat edge shows at the bottom of the frame; the cockpit is dark and hushed, the single dot of light suddenly enormous in meaning; a small padded headrest shows at the top of the seat, and the window frame is worn smooth",
+   "motion": "the small bright dot in the round scope pulses and creeps slowly toward its centre, and that creeping dot is the one movement in the shot: at the start the dot glows near the edge of the dark glass; over the whole five seconds it moves slowly inward across the scope, pulsing brighter and dimmer with a steady beat, its soft glow lighting the hovering fingertips a little more with each pulse, while the hand above the panel stays frozen mid-reach; the plain grey panel and its round buttons stay completely still; the narrow window of stars behind the console holds still; the padded seat edge stays still; the padded headrest and the worn window frame stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a close shot of the console, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "alien_ship",
+    "space_bg"
+   ],
+   "refs": [],
+   "beat": "창밖에 다가온 돌처럼 울퉁불퉁한 낯선 우주선",
+   "visual": "seen through the large round porthole of the cockpit, its thick pale grey rim framing the view: a short distance away in deep black space floats a large irregular alien spacecraft, free and unattached, its hull lumpy and uneven, made of rough grey-brown stone-like material, with odd rounded bulges and long ridges and no windows at all; behind it glows the large round pale gold sun, outlining the strange ship with a thin bright rim of light; small stars scatter the dark around it; the lower edge of the porthole glass holds a faint soft blue-grey glow from the cockpit lights; the scene is vast, silent and astonishing, something built by no human hand floating within reach; a tiny far planet glints pale cream beyond the alien ship, and the porthole rim has a soft rubber seal",
+   "motion": "the alien spacecraft turns very slowly in space beyond the porthole, and that slow turning is the one movement in the shot: at the start the lumpy stone-like ship floats side-on against the round pale gold sun; over the whole five seconds it rotates gently, its rough bulges and long ridges sliding into the starlight one after another and the thin bright rim of light shifting along its edge; the large round pale gold sun behind it and the scattered small stars stay completely still; the thick pale grey porthole rim stays fixed in the foreground; the faint blue-grey glow along the glass holds steady; the tiny far planet beyond the alien ship stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds the framed view through the porthole, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "grace",
+    "rocky",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "투명한 벽 너머, 남자가 처음 건넨 인사",
+   "visual": "inside a short narrow tunnel joining two spacecraft: a thick clear wall divides the tunnel down the middle at frame centre; on the left side, in plain pale light, the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble in his pale grey jumpsuit leans close to the clear wall, one palm pressed flat against it, his eyes wide, his mouth open mid-word, half terrified and half delighted; on the right side, behind the clear wall in a dim warm haze, crouches the rock creature low on the floor and seen from slightly above, a broad flat five-sided boulder of rough grey-brown stone with its wide top facing up toward the camera, resting on five thin jointed stone legs spread evenly around it, each leg ending in a small three-fingered hand, one small three-fingered hand raised and resting flat on the clear wall opposite his palm; the walls of the right half are uneven and hazy, the walls of the left half smooth and pale; a thin seam of light runs where the two halves meet; the moment is breathless and tender, two strangers meeting at a pane of glass; a rounded handrail runs along the pale wall on his side, and the haze on the far side glows faintly ivory",
+   "motion": "the man's fingers tap gently on the clear wall and the creature's raised hand taps back, and that tapping is the one movement in the shot: at the start their hands rest flat on either side of the clear wall; over the whole five seconds his fingertips tap the wall softly three times and the creature's small three-fingered hand answers with three slow taps of its own, its five legs shifting a little beneath its rough body, while his wide eyes stay fixed on it and his body keeps facing the wall; the thick clear wall stays still between them; the dim warm haze on the right side and the plain pale light on the left hold steady; the tunnel walls stay still; the rounded handrail on his side and the faint ivory glow of the haze stay still; the camera holds a medium side shot along the clear wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "rocky",
+    "grace",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "벽 너머 다섯 다리의 존재가 음악 같은 소리로 답한다",
+   "visual": "a closer view across the thick clear wall in the narrow tunnel: a thick clear glass wall runs straight down the middle of the frame from ceiling to floor, its edge catching one bright vertical line of light; at frame right, in the dim warm haze, stands the rock creature low on the floor and seen from slightly above, a broad flat five-sided boulder of rough grey-brown stone with its wide top facing up toward the camera, resting on five thin jointed stone legs spread evenly around it, each leg ending in a small three-fingered hand, its body tilted toward the wall, the small round vent on top of its rough body open; faint soft rings ripple outward through the haze from the vent, the visible shape of sound; at frame left, in the plain pale light, the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble in his pale grey jumpsuit kneels close to the wall in three-quarter view, his head tilted, one hand cupped behind his ear, his face rapt and astonished; the thick clear wall catches thin streaks of light between them; the hazy uneven walls on the right glow a dim warm ivory, the smooth walls on the left a soft grey; the scene is strange and wondrous, a first conversation made of music; a thin seam of light runs along the floor where the two halves meet",
+   "motion": "soft rings of sound ripple out through the haze from the creature's vent, and that rippling is the one movement in the shot: at the start the haze on the right side hangs still; over the whole five seconds faint round ripples swell from the open vent on top of the creature's body one after another in a musical rhythm, spreading through the warm haze and fading against the clear wall, while its five legs tap a light pattern on the floor; the man stays kneeling with his hand cupped behind his ear, his eyes widening a little as he listens; the thick clear wall stays still between them; the hazy walls and the smooth pale walls stay still; the thin seam of light along the floor stays steady; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot across the wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "grace",
+    "rocky",
+    "tunnel"
+   ],
+   "refs": [],
+   "beat": "말도 몸도 다른 둘, 인류의 마지막 희망은 어디에 닿을까",
+   "visual": "a wider view of the narrow tunnel between the two spacecraft in soft calm light: a thick clear glass wall runs straight down the middle of the frame from ceiling to floor, its edge catching one bright vertical line of light; the lanky American man with a friendly open face and a lean jaw, short sandy-brown hair and a few days of stubble in his pale grey jumpsuit sits cross-legged on the floor of the left half at frame left, his back against the pale wall, a squeezable drinking pouch in one hand, his face relaxed and smiling; across the thick clear wall at frame right, the rock creature low on the floor and seen from slightly above, a broad flat five-sided boulder of rough grey-brown stone with its wide top facing up toward the camera, resting on five thin jointed stone legs spread evenly around it, each leg ending in a small three-fingered hand has folded its five legs beneath its rough body and rests low on the floor of the hazy right half, its body turned toward him; a small round porthole set high in the tunnel wall shows the large round pale gold sun; the light on his side is soft grey and ivory, the haze on its side a dim warm glow; the scene is quiet and companionable, two very different beings keeping each other company; a second drinking pouch lies beside the man on the floor, and the seam of light glows along the clear wall",
+   "motion": "the light from the high porthole slides slowly across the tunnel floor between them, and that sliding light is the one movement in the shot: at the start a soft band of pale gold sunlight lies across the floor of the left half; over the whole five seconds it creeps slowly across the floor toward the clear wall, crossing the man's folded legs and passing through the clear wall into the haze to touch the creature's rough body, while the man lifts the drinking pouch a little toward the creature in a small toast; the creature stays folded low on its legs; the thick clear wall and the high porthole stay still; the haze and the pale walls hold steady; the second drinking pouch on the floor and the seam of light along the wall stay still; the camera holds a wide shot along the tunnel, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "hailmary",
+    "alien_ship",
+    "space_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 별빛 속 두 우주선",
+   "visual": "a quiet closing still in deep black space: at frame left drifts the long slender white spacecraft with its smooth plain hull, rounded front modules and wide engine bell, and at frame right floats the large irregular alien spacecraft with its lumpy grey-brown stone-like hull; the two ships float close side by side, their hulls joined at the middle by one short narrow pale grey tube; behind them glows the large round pale gold sun, washing both hulls with soft light; small stars scatter the black all around; the white ship's small round portholes glow warm ivory; the scene is calm, vast and hopeful, two ships from two worlds holding together in the light of that strange sun; a faint trail of pale haze streams from the white ship's engine bell into the dark",
+   "motion": "the large round pale gold sun behind the two ships glows softly brighter and dimmer, and that breathing starlight is the one movement in the shot: at the start the star washes both hulls with a steady soft light; over the whole five seconds its glow swells gently and eases back, the soft light sliding along the white hull and over the rough bulges of the alien ship, while the two joined spacecraft drift together very slowly to the left; the short tunnel between them stays still and straight; the warm ivory portholes of the white ship stay steady; the field of small stars holds completely still; the faint trail of pale haze from the white ship stretches softly into the dark; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of both ships, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

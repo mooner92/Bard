@@ -1,0 +1,173 @@
+{
+ "logline": "내가 죽였다는 첫 고백으로 열리는 정해연의 스릴러 — 밤의 학교와 안개 낀 호수, 외다리로 선 홍학",
+ "destination": "KEI 도서관에서 만날 수 있습니다",
+ "protagonist": "teacher",
+ "setting": "밤의 고등학교와 새벽의 호수 — 현대 한국의 조용한 소도시",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/honghakui_jari/assets",
+ "anchor": "a Korean man of thirty with short black hair and tired eyes, in a plain white shirt and dark trousers",
+ "palette": "ash grey, dark blue, off-white, dull pink, dark brown",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "gate"
+   ],
+   "refs": [],
+   "beat": "밤의 학교 정문 — 스릴러의 문",
+   "visual": "the school gate at night under a single streetlamp, the dark school building beyond with one lit window, an empty road in front; no people",
+   "motion": "the streetlamp flickers slightly and a moth circles it, the lit window holding steady; the camera holds on the gate"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "building"
+   ],
+   "refs": [],
+   "beat": "프롤로그와 스물한 개의 챕터 — 불 켜진 창 하나",
+   "visual": "the dark school building seen from the playground at night, rows of black windows and one lit window on the second floor, the flagpole bare; no people",
+   "motion": "the one lit window glows steady while the streetlamp at the gate flickers below; the camera holds on the building"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "챕터마다 뒤집히는 전개 — 어둠 속 교실",
+   "visual": "a dark classroom with rows of empty desks, moonlight from the tall windows striping the floor, a chair pushed back at the front desk; no people",
+   "motion": "the moonlight stripes lie still across the desks and a curtain at the tall window stirs slightly; the camera holds on the empty classroom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "teacher",
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "내가 죽였다 — 고개 숙인 한 사람",
+   "visual": "the teacher seated at the front desk of the dark classroom with his head bowed and his hands clasped on the desk, moonlight on the back of his neck; exactly one man",
+   "motion": "the teacher's clasped hands tighten and his bowed head sinks a little lower, moonlight holding on his neck; the camera holds on the seated man"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "lake"
+   ],
+   "refs": [],
+   "beat": "밤의 학교 너머 — 안개 낀 호수",
+   "visual": "the reservoir at first light with thin mist lying on the water, reeds along the bank, the dirt road curving away; no people",
+   "motion": "mist drifts slowly across the water and the reeds stir, the road lying still; the camera holds on the misty lake"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "corridor"
+   ],
+   "refs": [],
+   "beat": "불 꺼진 복도 — 발소리 하나",
+   "visual": "the long empty school corridor at night seen from one end, lockers along one wall, a single ceiling light halfway down, and only one very small figure of a man in a white shirt far away at the other end walking away; the foreground completely empty, nobody near the camera; exactly one person, far away and small",
+   "motion": "the small far figure walks further down the corridor under the single light and the lockers hold still, nothing entering the foreground; the camera holds on the long empty corridor"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "teacher",
+    "corridor"
+   ],
+   "refs": [],
+   "beat": "교사의 지친 얼굴",
+   "visual": "close on the teacher's tired face under the corridor light, his eyes half closed and his jaw tight, the lockers blurred behind; exactly one man",
+   "motion": "the teacher's half-closed eyes lift slowly toward the camera and his jaw stays tight; the camera holds close on the tired face"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "teacher",
+    "staffroom"
+   ],
+   "refs": [],
+   "beat": "감춘 것과 드러낸 것 — 반은 빛, 반은 그늘",
+   "visual": "the teacher standing at the window of the staff room at night, half of his face in the light of a desk lamp and half in shadow, his hand resting on the glass; exactly one man",
+   "motion": "the lamp light holds on one side of the teacher's face as his hand slides slowly down the glass; the camera holds on the divided face"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "flamingo",
+    "lake"
+   ],
+   "refs": [],
+   "beat": "이야기 위의 홍학 — 외다리로 선 새",
+   "visual": "the flamingo standing on one leg in the misty shallows of the reservoir at dawn, its reflection on the still water, reeds behind; exactly one bird",
+   "motion": "the flamingo's neck turns slowly and its reflection wavers on the still water, the mist drifting; the camera holds on the bird"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "flamingo",
+    "lake"
+   ],
+   "refs": [],
+   "beat": "한 발로 오래 버티는 새",
+   "visual": "close on the flamingo's single standing leg in the shallow water and its reflection, ripples spreading from the leg, the raised leg folded against its body; exactly one bird",
+   "motion": "ripples spread slowly from the standing leg and the folded leg stays tucked, the reflection trembling; the camera holds close on the leg and the water"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "teacher",
+    "lake"
+   ],
+   "refs": [],
+   "beat": "그 자리를 누가 대신 서 줄까 — 호숫가의 사람",
+   "visual": "the teacher standing alone at the edge of the reservoir at dawn with his hands in his pockets, looking out over the misty water, the reeds at his knees; exactly one man",
+   "motion": "the teacher's shoulders rise with a slow breath and the mist drifts past him over the water; the camera holds on the man at the water's edge"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "lake"
+   ],
+   "refs": [],
+   "beat": "안개처럼 감싸는 책",
+   "visual": "thick mist over the reservoir at dawn, only the tips of the reeds and a faint line of the far bank showing, the dirt road fading into the white; no people",
+   "motion": "the mist thickens and thins slowly over the water and the reed tips sway; the camera holds on the white lake"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "teacher",
+    "lake"
+   ],
+   "refs": [],
+   "beat": "안개가 걷히면 — 한 사람의 선택",
+   "visual": "the teacher walking away along the dirt road by the reservoir as the mist lifts, his back to the camera, a line of his footprints in the damp earth behind him; exactly one man",
+   "motion": "the teacher's back grows smaller along the road as the mist lifts off the water, his footprints holding in the earth; the camera holds on the road"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "teacher",
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "첫 고백을 믿으시겠어요",
+   "visual": "close on the teacher's face turned straight to the camera in the dark classroom, his mouth closed and his eyes steady, moonlight on one cheek, the blackboard behind him wiped completely clean and blank; exactly one man, no writing anywhere",
+   "motion": "the teacher's steady eyes hold on the camera and his closed mouth tightens at one corner; the camera holds close on the face"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "classroom"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽 교실 스틸",
+   "visual": "closing still: the empty classroom at dawn, grey light through the tall windows on the rows of desks, one chair at the front pulled back, chalk dust on the ledge of the blackboard",
+   "motion": "the grey dawn light brightens slowly across the desks and the chalk dust on the ledge holds still; the camera closes with great patience on the pulled-back chair"
+  }
+ ],
+ "withheld": ""
+}

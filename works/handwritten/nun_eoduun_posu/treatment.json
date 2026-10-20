@@ -1,0 +1,198 @@
+{
+ "logline": "덫에 걸린 사슴을 살리려다 눈 어두운 포수에게 잡혀간 올빼미와 자라, 그리고 들창 밖의 사슴",
+ "destination": "동화 눈 어두운 포수에서 만날 수 있습니다",
+ "protagonist": "deer",
+ "setting": "숲 옆 연못과 큰 절, 눈 어두운 포수의 초가 — 밤과 새벽",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/nun_eoduun_posu/assets",
+ "anchor": "a slender spotted deer with tall branching antlers, large dark eyes, a white patch on the chest",
+ "palette": "deep green, off-white, dun brown, ash grey, dark blue",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "deer",
+    "turtle",
+    "owl",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "숲·연못·절 — 사슴·자라·올빼미 세 친구",
+   "visual": "at the edge of the pond in the forest: the deer standing on the bank, the turtle on a flat stone at the water's edge, the owl perched on a low branch above them, the three turned toward one another, the temple roof beyond the water; exactly three animals",
+   "motion": "the deer's ears turn toward the owl and the turtle's long neck stretches up, ripples spreading on the pond; the camera holds on the three friends"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "hunter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "눈 어두운 포수 — 사슴 발자국과 덫",
+   "visual": "the old hunter crouching on the dirt path with his narrowed eyes close to a line of deer hoofprints, one hand tying a rope loop to a wooden stake, a bundle of leaves and grain set beside the loop; exactly one man",
+   "motion": "the hunter's fingers pull the rope knot tight on the stake and his narrowed eyes lean closer to the hoofprints; the camera holds on the crouching hunter"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "deer",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "먹이를 집어먹으려다 — 덫에 걸린 사슴",
+   "visual": "the deer on the path with a rope loop pulled tight around one foreleg, the rope stretched to the wooden stake, the deer's head thrown up and its mouth open, the bundle of grain trampled beside it; exactly one animal",
+   "motion": "the deer strains back against the rope and the stake leans, its open mouth and thrown-up head holding; the camera holds on the snared deer"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "turtle",
+    "deer",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "밤중 — 살려 달라는 소리에 온 자라",
+   "visual": "night on the path: the turtle at the foot of the snared deer with its neck stretched up toward the rope, the deer's foreleg still held in the loop, its head lowered toward the turtle, moonlight through the trees; exactly two animals",
+   "motion": "the turtle's neck sways from side to side under the rope and the deer's lowered head tilts, moonlight steady on the path; the camera holds on the two animals"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "owl",
+    "turtle",
+    "deer",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "올빼미의 꾀 — 자네는 덫줄을 끊게",
+   "visual": "night: the owl landing on the ground beside the turtle with its broad wings still half spread, its yellow eyes on the turtle, the snared deer standing behind them with its rope stretched to the stake; exactly three animals",
+   "motion": "the owl's half-spread wings fold slowly and its yellow eyes stay on the turtle, the deer's rope holding taut behind; the camera holds on the owl and the turtle"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "turtle",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "죽을 힘을 다해 — 덫줄을 물어뜯는 자라",
+   "visual": "close on the turtle at night with the thick rope clamped in its beaked mouth, the rope frayed where it bites, the deer's foreleg and the loop at the edge of the frame; exactly one turtle in front",
+   "motion": "the turtle's jaws work on the rope and the frayed strands part one by one, the loop holding; the camera holds close on the biting turtle"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "owl",
+    "hunter",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "등불 든 포수의 얼굴을 친 날개",
+   "visual": "night at the front door of the hut: the hunter leaning out of the doorway holding a paper lantern, the owl flying straight at his face with its wings spread wide and its talons drawn up, the hunter's narrowed eyes screwed closed; exactly one man and one owl",
+   "motion": "the owl's spread wings beat at the hunter's face and the lantern swings in his hand, his screwed-up face turning away; the camera holds on the door"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "hunter",
+    "owl",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "뒷문에서 또 — 쓰러진 포수",
+   "visual": "night at the back door of the hut: the hunter sprawled on the ground outside the door with one hand over his eyes and tears on his cheeks, the owl rising away above him with its wings spread; exactly one man and one owl",
+   "motion": "the owl rises higher on its spread wings and the hunter's hand rubs at his streaming eyes, his other hand groping on the ground; the camera holds on the fallen hunter"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "hunter",
+    "owl",
+    "turtle",
+    "deer",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "날이 밝다 — 몽둥이 든 포수",
+   "visual": "grey dawn on the path: the hunter coming up the path with a wooden club raised, the owl on the ground with its eyes squeezed closed, the turtle still at the rope, the deer straining against the last strand of the loop; exactly one man and three animals",
+   "motion": "the hunter's raised club comes nearer step by step and the deer strains harder against the last strand, the owl's closed eyes holding; the camera holds on the path"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "deer",
+    "hunter",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "마지막 몸부림 — 끊어진 덫줄",
+   "visual": "the deer bounding away through the trees with the broken rope trailing from its foreleg, the hunter stopped on the path behind it with his club lowered and his mouth open; exactly one animal and one man",
+   "motion": "the deer's bounds carry it deeper among the trees with the rope trailing, the hunter's lowered club sagging further; the camera holds on the fleeing deer"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "hunter",
+    "owl",
+    "turtle",
+    "forest"
+   ],
+   "refs": [],
+   "beat": "사슴 대신 — 잡혀가는 올빼미와 자라",
+   "visual": "the hunter walking down the path toward his hut with the owl clamped under one arm and the turtle held up by its shell in the other hand, the owl's eyes closed and the turtle's legs paddling; exactly one man and two animals",
+   "motion": "the turtle's legs paddle in the air and the owl's eyes stay closed under the hunter's arm as he walks; the camera holds on the hunter and his catch"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "deer",
+    "hunter",
+    "owl",
+    "turtle",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "들창 밖의 사슴 — 새끼줄에 감긴 두 동무",
+   "visual": "the deer's head at the small barred window of the hut looking in from outside, inside the hunter holding up the owl and the turtle bound together with straw rope, his back half turned to the window; exactly one man and three animals",
+   "motion": "the deer's ears flick at the window and the bound owl and turtle sway in the hunter's raised hand as he turns toward the wall; the camera holds on the window and the room"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "hunter",
+    "owl",
+    "turtle",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "걸어 놓을 못을 찾아 — 벽을 더듬는 포수",
+   "visual": "inside the hut, the hunter with his narrowed eyes close to the bare plaster wall, one hand sliding flat across the wall feeling for a nail, the other hand holding the bound owl and turtle by the straw rope; exactly one man and two animals",
+   "motion": "the hunter's flat hand slides across the plaster and his narrowed eyes follow it, the bound owl and turtle swaying from the rope; the camera holds on the groping hand"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "deer",
+    "hunter",
+    "hut"
+   ],
+   "refs": [],
+   "beat": "사슴은 두 동무를 어떻게 구했을까",
+   "visual": "outside the hut at the barred window: the deer with its tall antlers close to the window bars and its dark eyes on the hunter's back inside, the hunter still facing the wall with his hand on the plaster; exactly one animal and one man",
+   "motion": "the deer's antlers edge nearer the window bars and its dark eyes stay on the hunter's back, his hand still on the plaster; the camera holds on the deer at the window"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "forest"
+   ],
+   "refs": [],
+   "beat": "마무리 — 새벽 숲과 연못, 절 지붕 스틸",
+   "visual": "closing still: the pond at dawn with reeds along the bank, the dirt path between the trees, the tiled temple roof beyond the water, mist over the pond",
+   "motion": "mist drifts slowly over the pond and the reeds stir along the bank, the temple roof holding still beyond; the camera closes with great patience on the pond and the roof"
+  }
+ ],
+ "withheld": "뿔을 못인 줄 알고 올빼미와 자라를 뿔에 걸어 준 포수, 그대로 뛰어 숲으로 간 사슴"
+}

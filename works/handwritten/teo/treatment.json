@@ -1,0 +1,182 @@
+{
+ "logline": "남부의 작은 도시 골든에 온 노신사가 카페 벽의 연필 초상화 92점을 한 점씩 사서 그림 속 주인에게 돌려준다 — 친절이 번져 가는 1년",
+ "destination": "소설 테오에서 만날 수 있습니다",
+ "protagonist": "theo",
+ "setting": "현대 미국 남부의 강가 소도시 골든 — 연필 초상화가 걸린 카페, 프롬나드와 분수대, 서쪽을 향한 강가 벤치, 주민들의 현관",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/teo/assets",
+ "anchor": "a very old Portuguese-born gentleman with neat short white hair and a short white beard, in a soft grey tweed jacket",
+ "palette": "warm gold, cream, sage green, soft river blue, pencil grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "withheld": "테오의 정체와 지난 삶, 화가의 정체, 주민들의 아픈 과거, 마지막 이별",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "theo",
+    "golden"
+   ],
+   "refs": [],
+   "beat": "봄이 피어날 무렵, 골든에 들어선 노신사",
+   "visual": "early spring morning in a quiet old town in the American South on a broad slow river: the very old gentleman walks toward the camera along the long tree-lined riverside promenade at frame centre, small and upright, carrying a small battered leather suitcase in one hand, his kind deeply lined face lifted to the morning, warm dark eyes taking in the town; dogwood trees along the promenade are bursting into white blossom, and a few petals drift across the paving stones; low brick storefronts line the far side of the street; the broad river at frame left lies smooth and silver under a pale sky; the light is soft and new, the first morning of a long visit; a pair of sparrows hops on the paving near his feet; a small iron lamp post stands near the bench by the water",
+   "motion": "the old gentleman walks slowly toward the camera along the promenade, and that unhurried walk is the one movement in the shot: at the start he is a little way down the path between the blossoming trees; over the whole five seconds he takes a few slow steady steps forward, the small leather suitcase swinging gently at his side, his eyes drifting from the river to the storefronts with quiet interest while his body keeps facing the camera, a few white petals drifting down across the path around him; the blossoming trees, the brick storefronts, the iron lamps and the smooth silver river stay completely still; the soft spring light holds steady; the iron lamp post near the bench stays still; the camera holds a medium wide shot down the promenade at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "theo",
+    "golden"
+   ],
+   "refs": [],
+   "beat": "포르투갈에서 태어나 그림을 공부한 이방인, 테오",
+   "visual": "a quiet morning on the riverside promenade of the old Southern town: the very old gentleman sits alone at frame centre on a wooden bench under a blossoming dogwood tree, facing the camera, his small leather suitcase standing beside his feet, a small sketchbook with a plain cloth cover open on his knee and a pencil resting in his fingers; his kind deeply lined face is calm and curious, warm dark eyes studying the town across the water with an artist's attention; behind him the broad slow river shines and a low iron railing runs along the bank; a few white petals have settled on the shoulders of his tweed jacket; the light is clear and gentle; a newcomer already at ease in the town; the open sketchbook page holds only a few faint pencil lines of a distant rooftop; his leather suitcase has a worn brass clasp and a soft scuffed handle",
+   "motion": "the old gentleman draws a few slow lines in the sketchbook on his knee, and that drawing hand is the one movement in the shot: at the start the pencil rests on the open page; over the whole five seconds his fingers move the pencil in small careful strokes across the page while his eyes drift up to the far bank and back down to the paper, his face calm and absorbed, his shoulders and body staying still on the bench; the blossoming tree above him, the suitcase by his feet, the iron railing and the shining river stay completely still; a single petal drifts slowly down past his shoulder; the worn brass clasp of the suitcase holds a still glint of light; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot at his seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "chalice"
+   ],
+   "refs": [],
+   "beat": "카페 벽을 가득 메운 92점의 연필 초상화",
+   "visual": "inside the small warm coffee shop in the old Southern town in the quiet mid-morning, with no figures anywhere: one long cream wall fills the frame from left to right, covered from floor to ceiling with small plain wooden frames hung close together in neat rows, each frame holding a delicate grey pencil portrait of a different face, young and old, smiling and solemn, dozens upon dozens of faces looking out into the room; soft morning light falls through the tall front windows at frame right and lies in long bright panels across the wall and the wooden floor; a long wooden counter with a copper espresso machine and a row of white cups stands at the edge of the frame; mismatched wooden chairs wait at small tables; the room is calm, warm and quietly crowded with faces; a small glass jar of wildflowers stands on the nearest table; a folded cloth lies beside the espresso machine on the counter",
+   "motion": "the panels of morning sunlight slide slowly across the wall of portraits, and that moving sunlight is the one movement in the shot: at the start the bright panels lie across the left side of the wall; over the whole five seconds they creep gently to the right, lighting one pencil face after another and letting each sink back into soft shade, the fine grey lines of the drawings brightening and dimming in turn; the frames themselves, the drawn faces, the wooden counter, the espresso machine, the white cups and the empty chairs stay completely still; faint motes of dust drift slowly in the light near the windows; the folded cloth on the counter stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot of the portrait wall from the middle of the room, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "theo",
+    "chalice"
+   ],
+   "refs": [],
+   "beat": "골든 사람들의 얼굴, 믿기 힘들 만큼 낮은 값",
+   "visual": "inside the warm coffee shop in the old Southern town: the very old gentleman stands close before the long cream wall of small framed pencil portraits at frame centre, seen in three-quarter view from behind and to one side, a white coffee cup forgotten in one hand, leaning slightly toward a single frame at his eye level with rapt attention; the pencil portrait in that frame shows the gentle face of a woman with soft hair pinned up, drawn in fine grey lines; around it dozens of other small framed faces fill the wall in neat rows; warm light from the tall front windows falls across his shoulder and the wall; a wooden table beside him holds a saucer and a folded napkin; the moment is quiet and full of wonder, an old artist admiring careful pencil work; his other hand rests lightly behind his back; a soft cushion rests on the chair beside the table",
+   "motion": "the old gentleman leans a little closer to the framed portrait in front of him, and that slow lean is the one movement in the shot: at the start he stands with the coffee cup in one hand, studying the drawing; over the whole five seconds he bends gently toward the frame, his eyes moving slowly over the fine pencil lines of the drawn face, and the coffee cup in his hand tilts very slightly as he forgets it, while the rest of his body stays planted in the same place; the wall of framed faces, the wooden table with its saucer and the light from the windows stay completely still; the drawn faces in the frames never move; the cushion on the chair beside the table stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot from behind his shoulder, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "theo",
+    "chalice",
+    "parcel"
+   ],
+   "refs": [],
+   "beat": "남몰래 한 점씩 사들이는 초상화",
+   "visual": "late morning at the long wooden counter of the warm coffee shop in the old Southern town: the very old gentleman stands at frame centre facing the camera across the counter, carefully folding plain brown paper around a small framed pencil portrait laid flat on the wood, his kind deeply lined face bent over the work with gentle concentration, his long fingers pressing the paper corners neatly; behind him the long cream wall of small framed faces is visible, with one empty pale rectangle where a frame has just been taken down; a copper espresso machine and a row of white cups sit at the end of the counter; warm light from the front windows falls across his hands and the paper; the scene is quiet and secret, a small good deed beginning; a roll of brown paper and a pair of scissors lie beside the parcel; a small brass bell hangs silent above the shop door in the background",
+   "motion": "the old gentleman folds the last corner of brown paper over the framed portrait, and that careful folding is the one movement in the shot: at the start he holds one loose corner of the paper above the frame; over the whole five seconds his fingers fold it down slowly and press along the edge to make a neat crease, then smooth the whole wrapped parcel flat with both palms, his face bent over the work with quiet care; the wall of framed faces behind him with its one pale empty rectangle, the espresso machine, the white cups, the roll of paper and the scissors stay completely still; the warm window light holds steady across the counter; the brass bell above the door hangs silent and still; the camera holds a medium shot across the counter at his chest height, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "theo",
+    "ellen",
+    "porch",
+    "parcel"
+   ],
+   "refs": [],
+   "beat": "그림 속 얼굴의 주인을 찾아가 건네는 선물",
+   "visual": "a bright afternoon on the front porch of a small white wooden house on a shady street in the old Southern town: the elderly Southern woman with soft silver hair in a low bun stands at the open screen door at frame right in her faded blue flowered house dress, facing the very old gentleman, holding the small brown-paper parcel he has just handed her with both hands, her gentle round face surprised and uncertain; the very old gentleman stands on the top porch step at frame left in three-quarter view, his hands folded courteously in front of him, his kind deeply lined face warm and patient; potted ferns hang from the eaves above them and two empty rocking chairs wait on the painted floorboards; dappled light falls through the oak trees onto the porch; the moment is shy and tender, an unexpected gift arriving; a clay pot of white geraniums stands by the porch step",
+   "motion": "the elderly woman turns the brown-paper parcel over slowly in her hands, and that turning of the parcel is the one movement in the shot: at the start she holds it flat in both hands, looking from it to the gentleman; over the whole five seconds she turns it carefully over and back again, feeling its weight, her uncertain eyes drifting down to the paper and up to his face, while the gentleman stays still on the step with his hands folded and a patient smile; the hanging ferns, the empty rocking chairs, the screen door and the painted floorboards stay completely still; the dappled light on the porch shifts very faintly; the pot of white geraniums by the step stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the porch from the front path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "theo",
+    "ellen",
+    "porch",
+    "parcel"
+   ],
+   "refs": [],
+   "beat": "낯선 노인의 선물에 갸웃하는 사람들",
+   "visual": "the same porch of the small white wooden house in the old Southern town, a few moments later: the elderly Southern woman with soft silver hair in a low bun sits in one of the rocking chairs at frame centre, the brown paper folded back on her lap, looking down at the small framed pencil portrait now uncovered in her hands, her gentle round face caught between wariness and wonder, one hand raised to her cheek; the drawing in the frame shows her own face in fine grey pencil, younger and softer, smiling a little; the very old gentleman sits a little apart in the other rocking chair at frame left in three-quarter view, his hands resting on his knees, watching her quietly with kind patience; potted ferns hang from the eaves; dappled afternoon light moves on the floorboards; the moment is hushed and uncertain; a ball of pale yarn and knitting needles rest in a basket beside her chair",
+   "motion": "the elderly woman's hand slowly lowers from her cheek to touch the glass of the portrait, and that lowering hand is the one movement in the shot: at the start her hand rests against her cheek as she looks at the drawing; over the whole five seconds it comes down slowly and her fingertips rest lightly on the glass over the drawn face, her eyes softening and her lips parting a little, while her body stays seated in the rocking chair; the gentleman stays still in the other chair with his hands on his knees; the hanging ferns, the screen door, the folded brown paper on her lap and the painted floorboards stay completely still; the basket of yarn and needles beside her chair stays still; the camera holds a medium shot of the two rocking chairs from the porch steps, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "theo",
+    "ellen",
+    "porch"
+   ],
+   "refs": [],
+   "beat": "가만히 눈을 맞추고 이야기를 듣는 테오",
+   "visual": "late afternoon on the porch of the small white wooden house in the old Southern town: the very old gentleman sits leaning forward in a rocking chair at frame left in three-quarter view, his elbows on his knees and his hands loosely clasped, his kind deeply lined face turned fully toward the elderly woman, warm dark eyes resting on hers with complete attention; the elderly Southern woman with soft silver hair in a low bun sits in the other rocking chair at frame right, facing him, talking softly, the small framed pencil portrait held against her chest with both hands, her gentle round face open and moved; between them a small wicker table holds two glasses of iced tea beading in the heat; golden light slants low across the porch through the oaks; the moment is still and deep, one person truly heard by another; a folded paper fan lies on the wicker table beside the glasses",
+   "motion": "the elderly woman speaks softly while the gentleman listens, and her quiet speaking is the one movement in the shot: at the start she sits holding the portrait to her chest; over the whole five seconds her lips move gently as she talks and her eyes drift down and back up to his face, one hand lifting a little from the frame and settling again, while the gentleman stays leaning forward with his clasped hands and steady attentive gaze, nodding once very slightly; the wicker table, the two beaded glasses of iced tea, the hanging ferns and the screen door stay completely still; the slanting golden light holds steady; the folded paper fan on the wicker table stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of both chairs from the end of the porch, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "theo",
+    "golden"
+   ],
+   "refs": [],
+   "beat": "프롬나드와 페더 분수대, 그리고 강가의 벤치",
+   "visual": "a warm summer morning in the heart of the old Southern town: the very old gentleman walks slowly across a small brick square at frame centre in three-quarter view, his hands clasped behind his back, past an old round stone fountain where water falls in a soft feathered spray from a fluted bowl into a wide basin; beyond the fountain the long tree-lined riverside promenade runs away under full green leaves, iron lamps standing along it, and far down the bank a single wooden bench faces the water; pigeons rest on the rim of the basin; low brick storefronts with striped awnings frame the square; the light is warm and green-gold, the town settled into his days; a little folded paper boat floats in the fountain basin; his kind deeply lined face is content; a small dog dozes in the shade under one of the awnings",
+   "motion": "water pours from the fluted bowl of the stone fountain in a soft feathered spray, and that pouring water is the one movement in the shot: at the start the spray pours steadily into the wide basin; over the whole five seconds it keeps tumbling and sparkling in the morning light, small ripples spreading across the basin and rocking the little paper boat gently, while the gentleman stands still beside the fountain with his hands clasped behind his back and his eyes resting on the water; the pigeons on the rim, the brick storefronts, the striped awnings, the iron lamps and the trees along the promenade stay completely still; the small dog dozing under the awning stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot across the brick square, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "theo",
+    "golden"
+   ],
+   "refs": [],
+   "beat": "해 지기 15분 전부터 첫 별까지, 서쪽을 보는 습관",
+   "visual": "evening on the riverbank of the old Southern town: the very old gentleman sits alone on a single wooden bench at frame centre, seen in three-quarter view from behind and to the side, facing west across the broad slow river toward the setting sun, his hands resting empty on his knees; the round sun sits low just above the far tree line, laying a long path of gold across the water toward him; the sky above fades from amber at the horizon to soft violet overhead, and a single tiny pale point of starlight has just appeared high in the violet; tall grasses along the bank catch the last light; the town lies quiet behind him; the scene is peaceful, solitary and faithful, a habit kept for half a lifetime; a heron stands motionless in the shallows far down the bank; a lone wooden rowing boat rests pulled up on the far bank",
+   "motion": "the sun sinks slowly toward the far tree line and the gold path on the water narrows, and that setting sun is the one movement in the shot: at the start the round sun sits just above the trees; over the whole five seconds it lowers gently until its lower edge touches the tree line, the long gold path across the river fading and narrowing, the amber at the horizon deepening, while the gentleman sits perfectly still on the bench with his hands on his knees and his gaze held west the whole time; the tall grasses, the bench, the heron in the shallows and the single pale star stay completely still; the rowing boat on the far bank stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot from behind and beside the bench, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "theo",
+    "chalice"
+   ],
+   "refs": [],
+   "beat": "한 사람의 친절이 또 다른 친절로 번져 가는 골든",
+   "visual": "a lively autumn afternoon inside the warm coffee shop in the old Southern town: the very old gentleman sits at a small wooden table at frame centre facing the camera, a white coffee cup in front of him, smiling warmly with his kind deeply lined face; on the long cream wall behind him many of the small frames are now gone, leaving rows of pale empty rectangles among the remaining pencil portraits; at the next table a young man in a work jacket and a young woman with a braid lean toward each other over cups, laughing; a white-haired man sips tea by the window; amber autumn leaves blow past the tall front windows outside; the room feels fuller and warmer than before, the town slowly drawn into one current; a plate of small cinnamon rolls sits on the counter; a row of small potted herbs lines the window sill",
+   "motion": "the old gentleman lifts his white coffee cup and sips slowly, and that lifting of the cup is the one movement in the shot: at the start the cup rests on the table between his hands; over the whole five seconds he raises it gently to his lips, takes a slow sip and lowers it back to the saucer, his warm eyes drifting toward the laughing pair at the next table and back while his body keeps facing the camera; the pair at the next table, the tea drinker by the window, the wall with its pale empty rectangles and its remaining portraits and the plate of cinnamon rolls stay completely still; outside the windows a few amber leaves drift past; the row of potted herbs on the window sill stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of his table at seated eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "theo_winter",
+    "golden"
+   ],
+   "refs": [],
+   "beat": "봄에서 이듬해 봄까지, 테오가 골든에 머문 꼭 1년",
+   "visual": "a still winter dusk on the riverside promenade of the old Southern town: the very old gentleman in his long charcoal wool overcoat and soft cream scarf walks slowly toward the camera at frame centre between bare trees, his gloved hands in his coat pockets, his kind deeply lined face calm in the cold, cheeks only faintly flushed; a light dusting of snow lies on the paving stones and along the iron railings; the iron lamps along the promenade have just come on, each one making a small warm circle of light in the blue dusk; the broad river at frame left is dark and still with a thin skin of mist; the brick storefronts across the street glow with lit windows; the scene is quiet and tender, the year turning toward its end; a few snowflakes drift slowly through the lamplight; a lit window above a storefront shows a small wreath of evergreen boughs",
+   "motion": "a few snowflakes drift slowly down through the warm circles of lamplight, and that drifting snow is the one movement in the shot: at the start a scattering of flakes hangs in the light; over the whole five seconds they float gently downward through the lamplight and settle on the paving and on the shoulders of the gentleman's overcoat, while he stays standing still on the path with his gloved hands in his pockets and his calm gaze resting ahead; the bare trees, the iron lamps and railings, the lit storefronts and the dark misty river stay completely still; the blue dusk holds unchanged; the small evergreen wreath in the lit window stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot down the promenade at his eye level, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "chalice"
+   ],
+   "refs": [],
+   "beat": "작가가 고향 카페에서 본 92점의 초상화",
+   "visual": "the warm coffee shop in the old Southern town in the quiet early evening, with no figures anywhere: in the foreground at frame left a worn acoustic guitar in an open black case rests against a wooden chair beside a small table, a half-finished cup of coffee and a closed notebook with a plain cover on the table; beyond it the long cream wall covered with small plain wooden frames of pencil portraits glows under a row of warm hanging bulbs, dozens of drawn faces in neat rows; the tall front windows show a deep blue evening street outside; the long wooden counter is wiped clean and the white cups are stacked; the light is amber and intimate, the place where a story first began to form; a pencil lies across the closed notebook; a soft folded wool blanket hangs over the back of the chair",
+   "motion": "the warm hanging bulbs above the portrait wall glow and steady, and that soft glow is the one movement in the shot: at the start the bulbs burn evenly over the wall of framed faces; over the whole five seconds their warm light swells very gently and settles again, the amber shine moving softly across the glass of the frames and the curve of the guitar's wooden body, while a thin wisp of steam rises from the half-finished cup of coffee; the guitar in its open case, the chair, the closed notebook and its pencil, the stacked cups and the wiped counter stay completely still; the deep blue street beyond the windows holds unchanged; the folded wool blanket on the chair back stays still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium wide shot across the table toward the wall, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "golden"
+   ],
+   "refs": [],
+   "beat": "누군가 당신의 얼굴을 가만히 바라봐 준 적이 있나요",
+   "visual": "golden late afternoon on the riverbank of the old Southern town, with no figures anywhere: a single wooden bench faces west over the broad slow river at frame centre, and on its seat lies an open sketchbook with a plain cloth cover, its fresh white page blank and bright in the low sun, a sharpened pencil resting across it beside a small paper cup of coffee; the river beyond shines amber and still, the far tree line soft and dark; tall grasses along the bank lean in the warm air; behind the bench the tree-lined promenade runs away toward the brick town; the light is warm, quiet and open, a blank page waiting for a face to be truly seen; a pair of dragonflies hovers low over the grasses, and a small sparrow perches on the far end of the bench",
+   "motion": "the warm low sunlight slides slowly across the open blank page of the sketchbook on the bench, and that moving light is the one movement in the shot: at the start a band of golden light lies across one edge of the page; over the whole five seconds it widens slowly across the white paper as the sun sinks, warming the page and the pencil resting on it, while the tall grasses along the bank sway gently in the warm air; the bench, the sketchbook, the pencil and the paper cup stay completely still; the shining river and the far tree line stay calm; the dragonflies hover in place over the grasses and the sparrow sits still on the bench end; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a medium shot of the bench from just behind the path, camera fixed, no tracking, no zoom"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "golden"
+   ],
+   "refs": [],
+   "beat": "마무리 — 봄이 다시 피어난 골든의 강가",
+   "visual": "a quiet closing still of a fresh spring morning on the riverside promenade of the old Southern town, with no figures anywhere: the long tree-lined path runs away from the camera at frame centre under dogwood trees in full white blossom, petals scattered across the paving stones; the single wooden bench sits at the edge of the path facing the broad slow river, which shines silver under a soft pale sky; the old round stone fountain stands at the far end of the promenade; low brick storefronts glow in the early sun across the street; a light breeze lifts the blossoms; the scene is calm, renewed and full of quiet hope, the town changed in small ways; a pair of sparrows rests on the back of the bench, and fresh green grass and small wild daisies grow along the edge of the path",
+   "motion": "white dogwood petals drift slowly down across the promenade in a light breeze, and that drifting of petals is the one movement in the shot: at the start a few petals hang in the air beneath the blossoming trees; over the whole five seconds they float gently down and settle on the paving stones and the wooden bench, the blossoms on the branches stirring softly; the bench, the stone fountain, the brick storefronts, the iron lamps and the silver river stay completely still; the pair of sparrows on the back of the bench stays still; the soft spring light holds steady; the small wild daisies along the path edge stay still; every other thing in the frame holds perfectly still from the first moment to the last; the camera holds a wide shot down the promenade at standing eye level, camera fixed, no tracking, no zoom"
+  }
+ ]
+}

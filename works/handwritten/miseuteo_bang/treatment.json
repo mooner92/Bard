@@ -1,0 +1,187 @@
+{
+ "logline": "신기료장수 코삐뚤이 삼복이 더티 원 한마디로 미군 통역 미스터 방이 되어 저택에서 거들먹거리기까지",
+ "destination": "소설 미스터 방에서 만날 수 있습니다",
+ "protagonist": "misterbang",
+ "setting": "1945년 가을의 서울 — 종로 거리와 넝마전, 탑골공원 사리탑, 단풍 든 은행 중역 사택과 노대",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/miseuteo_bang/assets",
+ "anchor": "a stocky Korean man with bulging eyes and a nose bent to the left in a baggy second-hand Western suit",
+ "palette": "dun brown, off-white, dull green, dark red, ash grey",
+ "voice": "ko-KR-JiMinNeural",
+ "personas": {},
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "sambok",
+    "street"
+   ],
+   "refs": [],
+   "beat": "해방의 날, 종로 응달의 신기료장수",
+   "visual": "Sambok squatting in the shade by the park wall with his wooden cobbler's box open beside him, hammering a hobnail into the sole of a shoe held on his knee, crowds streaming past behind him with arms raised; exactly one man in front",
+   "motion": "Sambok's hammer taps the hobnail home and he blows on the sole, the crowd behind him flowing past with raised arms; the camera holds on the cobbler in the shade"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "sambok",
+    "street"
+   ],
+   "refs": [],
+   "beat": "독립이 배부른가 — 줄어든 손님",
+   "visual": "close on Sambok's scowling face with his bulging eyes and bent nose, one hand cupped behind his ear against the noise, the open lid of his cobbler's box at the bottom of the frame, the crowd of white-clad people with raised arms soft and distant behind him; exactly one man",
+   "motion": "Sambok's scowl deepens and his cupped hand presses harder to his ear, the distant arms waving behind him; the camera holds close on the scowling cobbler"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "sambok",
+    "soldier",
+    "street"
+   ],
+   "refs": [],
+   "beat": "말이 안 통하는 미국 병정 — 무릎을 탁",
+   "visual": "the American lieutenant at a street stall holding up a brass bowl and spreading his hands helplessly at an old stall-keeper, while Sambok at his cobbler's box a few steps away slaps his own knee with his mouth open; exactly three people",
+   "motion": "the lieutenant's spread hands rise and sink in confusion at the stall and Sambok's palm comes down on his knee, his bulging eyes lighting up; the camera holds on the soldier and the cobbler"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "sambok",
+    "street"
+   ],
+   "refs": [],
+   "beat": "연장을 맡기고 꾼 돈으로 산 헌 양복",
+   "visual": "Sambok at a rag-dealer's stall heaped with old clothes holding up a baggy grey Western suit against himself, a battered felt hat already on his head, a few crumpled notes in his other fist; exactly one man in front",
+   "motion": "Sambok turns with the suit held against his chest, the felt hat tipping on his head and the notes crushed in his fist; the camera holds on the man at the rag stall"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "misterbang",
+    "soldier",
+    "street"
+   ],
+   "refs": [],
+   "beat": "더티 원 — 담뱃대 앞의 한마디",
+   "visual": "Mister Bang in his baggy suit standing at the lieutenant's elbow before an old pipe-seller's mat of long bamboo pipes, leaning in with one finger raised and his mouth shaped in a word, the lieutenant holding a pipe and turning his head toward him; exactly three people",
+   "motion": "Mister Bang's raised finger stays up as his lips shape the word and the lieutenant's head turns fully toward him, the pipe forgotten in his hand; the camera holds on the two at the pipe mat"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "soldier",
+    "misterbang",
+    "street"
+   ],
+   "refs": [],
+   "beat": "오 캔 유 스피크 — 으스러지게 흔드는 손",
+   "visual": "the big lieutenant gripping Mister Bang's hand in both of his and pumping it, his kindly face beaming, Mister Bang's bulging eyes wide and his felt hat knocked askew; exactly two people",
+   "motion": "the lieutenant's pumping hands shake Mister Bang's whole arm and the felt hat slides further askew, the bent nose wrinkling; the camera holds on the handshake"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "misterbang",
+    "soldier",
+    "street"
+   ],
+   "refs": [],
+   "beat": "S소위의 통역, 미스터 방",
+   "visual": "Mister Bang walking down the street half a step ahead of the lieutenant with his chest out and a cigarette in his mouth, one arm sweeping wide to point out the shops, the lieutenant strolling with his hands behind his back; exactly two people",
+   "motion": "Mister Bang's arm sweeps across the shopfronts and his chest lifts as he talks around the cigarette, the lieutenant nodding along behind; the camera holds on the two walking"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "misterbang",
+    "soldier",
+    "park"
+   ],
+   "refs": [],
+   "beat": "사리탑이 투사우전드 이얼스 — 엉터리 통역",
+   "visual": "Mister Bang and the lieutenant standing before the tall carved stone pagoda in the park, Mister Bang holding up two fingers with a solemn face, the lieutenant gazing up at the pagoda with his cap pushed back; exactly two people",
+   "motion": "Mister Bang's two fingers stay raised with his solemn face while the lieutenant's gaze climbs the pagoda, bare branches stirring above; the camera holds on the pagoda and the two men"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "misterbang",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "은행 중역의 사택으로",
+   "visual": "Mister Bang standing in the mansion garden among red maples and autumn flowers with his thumbs hooked in his suit lapels, gazing up at the balcony over the entrance, a maid in a white apron carrying a bundle in through the door behind him; exactly two people",
+   "motion": "Mister Bang rocks on his heels with his thumbs in his lapels, his gaze sliding along the balcony while the maid's bundle passes through the door; the camera holds on the new master in his garden"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "misterbang",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "과자 상자 밑의 봉투",
+   "visual": "the upstairs tatami room: Mister Bang seated cross-legged at the low table lifting a box of Western pastries to reveal a fat envelope underneath, a visitor in a suit bowing low across the table; exactly two people",
+   "motion": "the pastry box rises in Mister Bang's hands and the fat envelope slides into view, the visitor's bow dipping lower; the camera holds on the envelope on the table"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "misterbang",
+    "wife",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "겨우 만 원이냐 — 다다미에 던진 소절수",
+   "visual": "Mister Bang on his feet in the tatami room flinging a slip of paper down onto the mats with his bulging eyes furious, the heavy wife with her permanent wave and flowered dress standing at the top of the stairs with her hands on her hips; exactly two people",
+   "motion": "the slip of paper flutters down to the mats from Mister Bang's flung hand and the wife's hands settle harder on her hips; the camera holds on the paper on the tatami and the two"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "baek",
+    "misterbang",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "빼앗긴 재산을 찾아 달라는 백주사",
+   "visual": "the tatami room at dusk: Baek kneeling across the low table from Mister Bang with both hands clasped and thrust forward pleading, his wispy moustache trembling, Mister Bang leaning back with a small cup in his hand and a broad grin; exactly two people",
+   "motion": "Baek's clasped hands push further across the table and his moustache trembles while Mister Bang's grin widens over the cup; the camera holds on the pleading man and the grinning host"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "misterbang",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "엠피 천 명 — 양칫물을 뱉으러 노대로",
+   "visual": "Mister Bang striding out onto the balcony over the entrance with his cheeks puffed full of water from a bowl held in one hand, his suit jacket flapping, red maples below the rail; exactly one man",
+   "motion": "Mister Bang's puffed cheeks bulge as he reaches the rail and leans out over it, the bowl tipping in his hand; the camera holds on the man at the balcony rail"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "misterbang",
+    "soldier",
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "헬로 — 노대 아래의 얼굴",
+   "visual": "seen from below the balcony: above, at the balcony rail, only Mister Bang in his grey second-hand suit and felt hat leaning over with his cheeks puffed full; below, at the front entrance directly beneath him, only the lieutenant in his olive uniform and peaked cap stepping back with his kindly face lifted in a wide smile and one hand raised in greeting; exactly two people, one man above the rail and one soldier below",
+   "motion": "the lieutenant's raised hand waves and his smiling face tilts higher toward the rail where the puffed cheeks of the man in the felt hat hover; the camera holds on the face below and the face above"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "mansion"
+   ],
+   "refs": [],
+   "beat": "마무리 — 노대 아래 현관 계단 스틸",
+   "visual": "closing still: the front entrance of the mansion seen from the garden path, the balcony rail above it, a felt hat lying upside down on the stone step, red maple leaves scattered on the steps, the carp pond glinting at the edge of the frame",
+   "motion": "a few red maple leaves drift down past the balcony rail and settle on the step beside the upturned hat; the camera closes with great patience on the hat on the step"
+  }
+ ],
+ "withheld": "헬로 하며 올려다본 장교의 얼굴에 쏟아진 것과 유 데블 어퍼컷"
+}

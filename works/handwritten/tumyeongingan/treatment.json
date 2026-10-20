@@ -1,0 +1,199 @@
+{
+ "logline": "겨울날 붕대와 파란 안경으로 얼굴을 가린 남자가 시골 여관에 들어 밤에만 마을을 돌다가, 숙박비를 묻자 붕대를 풀어 얼굴이 없음을 드러내고 달아나며, 부랑자 마블에게 공책을 나르게 하고, 다친 몸으로 옛 동창 켐프의 집에 숨어 실험을 고백하지만 켐프가 경찰에 편지를 쓰자 문을 열고 들이닥친다",
+ "destination": "소설 투명인간에서 만날 수 있습니다",
+ "protagonist": "kemp",
+ "setting": "1890년대 영국 남부의 시골 마을 — 여관의 응접실과 손님방과 마당과 계단, 밤의 골목, 마을 길, 언덕 위 한길, 켐프 박사의 서재, 기억 속 런던의 하숙방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/tumyeongingan/assets",
+ "anchor": "a tall man whose head is wrapped in white bandages under a black hat with round blue spectacles, in a village inn of the 1890s, and later an empty dressing gown sitting up by itself in a study",
+ "palette": "ash grey, dark blue, off-white, dull yellow, dark brown",
+ "voice": "",
+ "personas": {},
+ "withheld": "쫓기던 그가 맞은 최후와, 그 뒤 다시 드러난 몸",
+ "beats": [
+  {
+   "n": 1,
+   "cast": [
+    "stranger",
+    "mrs_hall",
+    "inn_parlour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "겨울날 붕대로 얼굴을 감싸고 파란 안경을 낀 남자가 여관에 든다",
+   "visual": "the dull yellow light of the coal fire in the big brick fireplace of the village inn's parlour, the small windows white with winter: the tall man in the long dark brown overcoat buttoned to the chin and the wide-brimmed black hat pulled low is the one standing at frame centre just inside the door with white powder of winter on his shoulders, his whole head wrapped round in white bandages with the big round blue-lensed spectacles over them and the dark muffler up to the spectacles, so that not one inch of skin shows, his thick brown gloves hanging at his sides; the stout landlady of fifty with the grey hair under the white cap and the round plain face, in the dark blue dress with the white apron, is the one standing at frame right by the bar with a tray held against her apron and her face turned to the stranger, her mouth a little open, her hands bare, plump and pink; the wooden settle stands before the fire; the dark beams cross the low ceiling; there are exactly two people in the parlour and the stranger's face is entirely covered; inside the room every surface is dry, the dark beams, the brick of the fireplace and the plain door bare wood and brick with the warm firelight on them, and the winter shows only as white frost on the outside of the window panes",
+   "motion": "the landlady's tray is the one thing that moves, and the stranger holds still: at the start the tray is held against her apron with her mouth a little open; over the first three seconds the tray lowers slowly to the top of the bar beside her and her hands come to rest on its edge, her face not leaving the bandaged head and her mouth closing slowly; in the last two seconds the tray holds on the bar and she does not move; the stranger stands exactly as he is inside the door with his gloved hands at his sides, the blue spectacles turned to the landlady and nothing of him moving, the white powder on his shoulders not yet melting; the coal fire keeps its even glow; the settle, the bar with its bottles and the white windows hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 2,
+   "cast": [
+    "stranger",
+    "mrs_hall",
+    "guest_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "홀 부인은 난롯가에서도 외투를 벗지 않는 손님이 이상하다",
+   "visual": "grey winter light through the lace curtain of the guest room upstairs: the tall man in the long dark brown overcoat still buttoned to the chin and the wide-brimmed black hat still on, his head wrapped in the white bandages with the blue-lensed spectacles, is the one sitting at frame left in the armchair still wearing his wide-brimmed black hat and his long dark brown overcoat buttoned to the chin, his bandaged head and blue spectacles under the hat brim, close before the small iron grate set into the chimney wall with his gloved hands on the chair's arms and the blue spectacles turned to the door, the grey daylight from the window on his coat; the stout landlady of fifty with the grey hair under the white cap, in the dark blue dress with the white apron, is the one standing at frame right in the open doorway with a tray of covered dishes held in both hands and her round plain face turned to the seated man, her brows drawn together, her hands bare, plump and pink; the bed stands at the back; the round table at frame centre is bare; the lace curtain hangs still; there are exactly two people in the room and the seated man's coat and hat are on; there is exactly one bandaged man in the room and he is the one sitting in the armchair, the landlady the only other person; the small iron grate set into the chimney wall under the plain mantelpiece beside the armchair is cold and holds only grey ash, the floorboards bare and dry from wall to wall; there are exactly two people in the room, the seated bandaged man in his hat and coat and the standing landlady in the doorway with her tray, and the space between them holds only the round table and the bed",
+   "motion": "the landlady in the doorway is the one who moves, and the seated man holds still: at the start she stands in the doorway with the tray held in both hands and her brows drawn; over the first three seconds she takes one single slow step into the room and stops, her head tilting a little as she looks at the buttoned coat and the hat before the grate, the covered dishes on the tray not shifting; in the last two seconds she holds one step inside with the tray; the seated man keeps his gloved hands on the chair's arms and the blue spectacles turned to her, not one part of him moving; the small grate keeps its even glow; the bed, the bare round table and the lace curtain hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 3,
+   "cast": [
+    "stranger",
+    "inn_yard",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "손님 앞으로 약품 병이 가득한 상자들이 도착한다",
+   "visual": "flat grey winter light in the yard of the village inn: the farm cart with its shafts down is the one thing standing at frame centre with its tailboard let down, and on the cobbles before it stand four wooden crates with their lids off, each packed with straw and rows of glass bottles of many shapes with their stoppers sealed, one crate with its side stencilled with a plain skull shape; the tall man in the long dark brown overcoat and the wide-brimmed black hat, his head wrapped in the white bandages with the blue-lensed spectacles, is the one crouched at frame right beside the nearest crate with one gloved hand lifting a tall bottle from the straw and holding it up to the grey light, the blue spectacles turned to it; the stone trough stands at frame left with still dark water in it; the inn's back door stands open behind on the dark passage inside; the white drifts lie along the yard wall; there is exactly one person in the yard and the crates are the things he bends over",
+   "motion": "the stranger's gloved hand is the one thing that moves, and the yard holds still: at the start the tall bottle is held up to the grey light in his gloved hand; over the first three seconds the hand turns the bottle slowly once so that the light passes through its liquid, and lowers it carefully back into the straw of the crate, his other gloved hand steadying the crate's edge; in the last two seconds the hand holds on the bottle in the straw; his crouched body does not shift; the other bottles in the crates keep their rows and the stencilled skull shape does not change; the cart with its let-down tailboard, the stone trough and the open back door hold completely still; the flat grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 4,
+   "cast": [
+    "stranger",
+    "lane_night",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "손님은 낮에는 방에 틀어박히고 밤에만 몰래 마을을 돈다",
+   "visual": "black winter night in the village lane with white drifts along the hedges and one cottage window lit dull yellow at frame right: the tall man in the long dark brown overcoat and the wide-brimmed black hat, his head wrapped in the white bandages showing pale under the hat brim, is the one thing walking away from the camera down the middle of the lane at frame centre, seen from behind with the bandaged back of his head above the muffler, his gloved hands in his pockets and his shoulders hunched, his whole figure from hat to boots standing clear against the pale drifts; the lane runs away between the dark hedges to a bend; the lit window throws a small square of dull yellow light across the lane before him; the black sky is starless; there is exactly one person in the lane and his back is to the camera",
+   "motion": "the man walking away is the one thing that moves, and the lane holds still: at the start his back is at frame centre with his hands in his pockets; over the whole five seconds he walks slowly away from the camera down the lane with quiet steps, his hunched figure growing a little smaller toward the bend and passing through the square of dull yellow light from the window and out of it again, his bandaged head never turning back; the lit cottage window keeps its steady light and its square on the lane; the white drifts along the hedges and the dark hedges themselves hold completely still; the black sky stays empty and starless; nothing steps out of the dark hedges on either side and no second figure appears on the lane behind him; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 5,
+   "cast": [
+    "doctor",
+    "stranger",
+    "guest_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "마을 의사가 손님의 빈 소매에서 나온 손에 코를 꼬집힌다",
+   "visual": "grey winter light through the lace curtain of the guest room upstairs: the tall man in the long dark brown overcoat, his head wrapped in the white bandages with the blue-lensed spectacles, is the one standing at frame right with his right arm held out straight toward the visitor, and the sleeve of the overcoat is plainly empty, its cuff hanging open with nothing inside it and the shape of the coat flat from the shoulder down; the small round man of fifty with the grey side-whiskers and the bald top of his head, in the black coat with the high collar, is the one standing at frame left with his head jerked back and his small spectacles knocked crooked, one hand flying up to his own nose where the skin is pinched pale, his mouth open and his eyes wide; the round table crowded with glass bottles and the small brass burner stands between them; the armchair by the low coal fire burning inside the small iron grate set into the chimney wall under the plain mantelpiece, the armchair standing empty beside it with its seat bare; the bed shows at the far right; there are exactly two people in the room and the held-out sleeve is empty; the only fire in the room is the coal fire inside the iron grate in the chimney wall, and the armchair's seat and the floorboards are bare",
+   "motion": "the doctor is the one who moves, and the stranger holds still: at the start the doctor's head is jerked back with one hand flying up to his nose; over the first three seconds his hand reaches his nose and clutches it, his spectacles sliding further crooked and his other hand groping behind him for the door, his body drawing back a step with his wide eyes on the empty sleeve; in the last two seconds he holds against the door with his hand on his nose; the stranger keeps his arm held out straight with the empty sleeve hanging open, the blue spectacles turned to the doctor and nothing of him moving; the bottles on the round table and the brass burner keep their places; the small fire keeps its even glow; the lace curtain, the armchair and the bed hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 6,
+   "cast": [
+    "stranger",
+    "mrs_hall",
+    "stairs",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "숙박비를 묻자 손님은 붕대를 풀고, 그 안에는 얼굴이 없다",
+   "visual": "grey daylight on the narrow stair of the inn with the dull yellow wallpaper, seen from the foot of the stair looking up: the tall man in the long dark brown overcoat is the one standing at frame centre on the landing at the top with his wide-brimmed black hat in one gloved hand at his side and his other gloved hand holding up a long loose end of white bandage, the bandages unwound from his head and hanging in loops from his fingers, the blue-lensed spectacles standing on empty air in the air above his collar and the collar of the overcoat standing open on empty air, a plain empty gap between the collar and the spectacles where a head should be; the stout landlady of fifty with the grey hair under the white cap, in the dark blue dress with the white apron, is the one at the near bottom of the frame seen from behind, halfway up the stair with one hand on the banister, the back of her white cap large in the frame, her hands bare, plump and pink; the wooden banister runs up the right side; there are exactly two people on the stair and the one at the top shows only his buttoned collar and his round blue spectacles with plain empty air between them; between the brim of his black hat and the buttoned collar of his coat there is only plain empty air with the pale yellow wallpaper of the stair showing straight through where a face would be, the round blue spectacles hanging in that empty air by themselves, the unwound bandage dangling loose from his gloved hand",
+   "motion": "the loose bandage and the landlady are the two things that move, and the empty collar holds still: at the start the long end of bandage hangs in loops from the gloved hand at the top of the stair; over the first three seconds the gloved hand lets the loops of bandage down slowly so that they hang to the landing floor and sway, and the landlady on the stair takes one slow step backward down the stair with her hand sliding along the banister, the back of her white cap sinking a little in the frame; in the last two seconds the bandage hangs still and she holds one step lower; the blue spectacles stay exactly where they are in the air above the open collar with nothing between them, the hat in the other gloved hand not moving; the dull yellow wallpaper and the banister hold completely still; no face appears in the gap; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 7,
+   "cast": [
+    "constable",
+    "villagers",
+    "inn_parlour",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "놀란 마을 사람들이 달아나고 순경의 손에는 빈 옷만 남는다",
+   "visual": "the dull yellow light of the coal fire in the village inn's parlour: the village constable of thirty in the dark blue uniform coat with the silver buttons and the tall helmet is the one standing at frame centre with both his hands gripping a long dark brown overcoat that hangs empty from his fists, its sleeves dangling and its collar open on empty air, a pair of thick brown gloves lying on the floor at his boots and a white bandage trailing across the boards, his plain square face turned down to the empty coat with his mouth open; the backs of four villagers in cloth caps and shawls crowd the open door at frame left, jammed in the doorway with their arms up, going out; the wooden settle lies overturned before the big brick fireplace; a chair lies on its side at frame right; the dark beams cross the low ceiling; there is exactly one face turned to the camera and it is the constable's, and the coat in his hands is empty",
+   "motion": "the empty coat in the constable's hands is the one thing that moves, and he holds still: at the start the coat hangs empty from his fists with its sleeves dangling; over the first three seconds the coat sways slowly and one dangling sleeve lifts by itself a hand's width and settles, the open collar gaping wider, his fists keeping their grip and his mouth staying open; in the last two seconds the coat hangs still in his hands; his boots do not shift beside the gloves; the villagers' backs in the doorway stay jammed together with their arms up and none of them turns round; the overturned settle, the chair on its side and the trailing bandage keep their places; the coal fire keeps its even glow; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 8,
+   "cast": [
+    "marvel",
+    "downs_road",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "사내는 마을을 빠져나가 부랑자 마블을 위협해 조수로 삼는다",
+   "visual": "flat grey winter light on the narrow unpaved chalk track of pale packed earth and loose flints over the bare rolling downs, grass down its middle, its surface plain and unmarked with the thorn hedge at frame right: the short fat tramp of fifty with the battered black top hat and the shabby brown coat, with the round ruddy face and the grey stubble, is the one sitting at frame centre on the grass bank at the road's edge with his back pressed hard against the hedge, both his hands raised open beside his face and his eyes rolled to the empty road before him, his mouth open; on the road before him there is nothing to be seen, but his battered top hat is tipped forward over his brow as though pressed down by something, and the front of his shabby coat is pulled taut at the collar as though gripped; the milestone stands at frame left with its face turned away; the pale chalk track runs away over the downs under the grey sky; there is exactly one person in the picture and the road before him is empty",
+   "motion": "the tramp's hat and collar are the two things that move, and the road holds still: at the start the hat is tipped forward over his brow and the collar pulled taut with his hands raised beside his face; over the first three seconds the hat presses slowly further down over his eyes and lifts again a little, and the taut collar tugs once toward the road and eases, his raised hands trembling and his mouth working, nothing visible touching him; in the last two seconds the hat holds low and the collar holds taut; his back stays pressed against the hedge and his boots do not shift; the road before him stays empty; the milestone with its turned face, the thorn hedge and the bare downs hold completely still; the grey light stays even; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "marvel",
+    "village_street",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "마블은 보이지 않는 목소리를 따라 공책 꾸러미를 나른다",
+   "visual": "flat grey winter light in the village street with the low grey stone cottages and the white drifts along the walls: the short fat tramp of fifty with the battered black top hat and the shabby brown coat is the one walking at frame centre along the middle of the street toward frame left, seen from the side, with a bundle of three thick notebooks tied with string clutched against his chest in both arms and his round ruddy face turned up and to the right toward the empty air beside him, his mouth open as though answering, his eyes rolling; the inn with its painted picture board of a coach and horses stands at frame right; a cottage door at frame left stands ajar on the dark inside; the street ahead of him is empty; the white drifts lie along the cottage walls; there is exactly one person in the street and he is talking to the empty air at his side",
+   "motion": "the tramp walking is the one who moves, and the street holds still: at the start he is at frame centre with the bundle of notebooks clutched to his chest and his face turned up to the empty air; over the whole five seconds he walks slowly on toward frame left with short unwilling steps, his figure moving no more than two paces, the bundle hugged tighter and his face staying turned to the empty air beside him with his mouth working, once flinching his shoulder as though nudged; the inn's painted sign, the grey stone cottages, the ajar cottage door and the white drifts hold completely still; the flat grey light stays even; nobody comes out of the ajar cottage door and the empty street ahead of him stays empty; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "kemp",
+    "kemp_study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "다친 사내가 옛 동창 켐프 박사의 집에 숨어든다",
+   "visual": "the dull yellow light of the lamp on the big desk in the study at night: the tall fair-haired man of thirty-five with the lean clean-shaven face, in the dark grey suit, is the one standing at frame right beside the leather chair with both his hands half raised before him and his face turned to the chair, his brows lifted high and his lips parted; the leather chair at frame centre is the one thing that shows what he sees: its seat cushion is pressed deep down as though under a heavy man, a long white bandage wound round nothing hangs in the air above the chair's arm at the height of a forearm, and a dark smear of something wet marks the leather where an unseen hand rests; a dark grey dressing gown lies over the chair's back; the coal fire glows at the back; the shelves of books rise behind; the door with the brass handle is closed at frame left; there is exactly one person to be seen in the room and the chair is pressed down by something unseen",
+   "motion": "the pressed cushion and the hanging bandage are the two things that move, and the man holds still: at the start the cushion is pressed deep and the bandage hangs in the air above the chair's arm; over the first three seconds the bandage in the air lifts slowly a hand's width and lowers, as an unseen arm moves, and the pressed cushion eases a little and sinks again as a weight shifts on it, the dark smear on the leather not changing; in the last two seconds the bandage holds in the air and the cushion holds pressed; the fair-haired man keeps his hands half raised and his lifted brows turned to the chair, nothing in him moving; the dressing gown over the chair's back keeps its folds; the lamp keeps its steady light and the coal fire its glow; the shelves of books and the closed door hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "kemp",
+    "kemp_study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그리핀이라는 사내가 제 몸에 실험을 했다고 켐프에게 고백한다",
+   "visual": "the dull yellow light of the lamp on the big desk in the study at night: the tall fair-haired man of thirty-five with the lean clean-shaven face, in the dark grey suit, is the one sitting at frame right on the edge of the desk with his arms folded and his face turned to the armchair by the fire, his brows drawn together; the armchair at frame left is the one thing wearing the dark grey dressing gown, the gown sitting up in the chair with its sleeves resting on the chair's arms and its collar standing open round an empty space, the gown's front filled out as though by a chest, the cuffs of the sleeves ending on empty air, a white bandage wound round the empty air above one cuff; on the small table by the chair stands a plate with half a loaf and a glass of milk half drunk; the coal fire glows inside the iron grate set into the chimney breast under the marble mantelpiece beside the chair; the shelves of books rise behind; there is exactly one person to be seen in the room and the dressing gown in the chair sits up by itself; above the gown's open collar the plain brown leather of the chair's back shows straight through the empty air where a head would be, that air clear and empty from the collar up to the chair's top, and at the ends of both sleeves the chair's arms show through the empty air with the bandage hanging in it by itself; the only person in the room is the fair-haired man on the desk's edge",
+   "motion": "the dressing gown in the chair is the one thing that moves, and the man on the desk holds still: at the start the gown sits up in the chair with its sleeves on the chair's arms; over the first three seconds one sleeve of the gown lifts slowly from the chair's arm and its empty cuff moves through the air toward the man on the desk, as an unseen hand points, and lowers again, the gown's front shifting a little as an unseen chest breathes; in the last two seconds the sleeve rests on the chair's arm and the gown holds; the fair-haired man keeps his arms folded and his drawn brows turned to the chair, nothing in him moving; the plate with the half loaf and the glass of milk keep their places; the lamp keeps its steady light and the coal fire its glow; the shelves of books hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "ghost_cat",
+    "old_lodging",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "먼저 실험한 고양이는 눈 두 개만 남기고 사라진다",
+   "visual": "the dull yellow light of a small gas ring in the dingy London lodging room, told as the sick man's memory: the bare table at frame left holds the apparatus of glass tubes and coils of wire with a faint pale glow in one tube; on the bare boards at frame centre at the height of a chair seat two green cat's eyes are the one thing hanging in the air, plain and bright, by themselves in the empty air, only the two eyes and a faint shine on the boards beneath them where something unseen sits; a saucer of milk stands on the boards before the eyes with its milk stirring a little; the torn shade hangs crooked at the window at frame right; the peeling wallpaper is stained; the two eyes are the only sign of the cat in the room; the two green eyes float in the empty air above the bare wooden seat of the chair, level with the top of its back, with the peeling wallpaper showing plainly between them and all round them, and the chair's seat is bare wood with the empty air above it; the eyes are the only thing of the cat in the room",
+   "motion": "the two green eyes are the one thing that moves, and the room holds still: at the start the eyes hang in the air at the height of a chair seat above the saucer; over the first three seconds the two eyes move slowly together a hand's width to the left and lower toward the saucer, the milk in the saucer stirring as an unseen tongue touches it, and then the eyes lift again to their first height; in the last two seconds the eyes hold in the air and blink once slowly, both together; the faint pale glow in the glass tube of the apparatus stays steady; the gas ring keeps its small even flame; the torn shade, the peeling wallpaper and the bare boards hold completely still; no person appears; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "kemp",
+    "kemp_study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "그러나 켐프는 몰래 경찰에 편지를 쓴다",
+   "visual": "the dull yellow light of the lamp on the big desk in the study at night, seen close: the tall fair-haired man of thirty-five with the lean clean-shaven face, in the dark grey suit with the coat off and the shirt sleeves rolled, is the one sitting at frame centre at the desk bent over a single sheet of paper with a pen in his hand, the paper's written side turned away from the camera and toward himself so that only its plain back shows over his forearm, his other hand cupped round the sheet's edge as a man does who hides what he writes, his eyes on the paper and his lips pressed together; an envelope lies ready on the desk beside the sheet with its blank side up; the papers on the desk are pushed aside in a heap; the door with the brass handle is closed at frame right; the coal fire glows at the far left; there is exactly one person in the room and the writing cannot be seen",
+   "motion": "the writing hand is the one thing that moves, and the room holds still: at the start the pen is on the paper with his other hand cupped round its edge; over the whole five seconds the pen moves slowly across the hidden paper in short strokes and returns to the left and moves again, his cupped hand not moving and the paper's back staying toward the camera, his eyes on the paper and his lips pressed; his feet do not shift under the desk; the envelope with its blank side up and the heap of pushed-aside papers keep their places; the lamp keeps its steady light on the paper's plain back and on his rolled sleeves; the shelves of books behind him hold completely still; the closed door with its brass handle and the coal fire hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "kemp",
+    "kemp_study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "배신자라 외치며 문을 연 보이지 않는 사내가 켐프를 어떻게 할지 알 수 없다",
+   "visual": "the dull yellow light of the lamp in the study at night: the door with the brass handle is the one thing at frame left swung wide open on the dark hall beyond, its brass handle turned down and held there by nothing that can be seen, the dark grey dressing gown hanging upright in the open doorway a hand's breadth above the floor exactly like a gown on an invisible coat-hanger, hollow and empty inside, its two sleeves lifted forward and its collar open on the dark hall behind, the white bandage floating in the air above one lifted cuff; the tall fair-haired man of thirty-five with the lean clean-shaven face, in his plain dark grey suit jacket and trousers with his own two hands bare and both his shirt cuffs plain white, is the one backed against the big desk at frame right with both his hands gripping the desk's edge behind him and his face turned to the open door, his eyes wide and his mouth open; the lamp on the desk beside him gives its light on his face; the shelves of books rise behind; the coal fire glows at the back; there is exactly one person to be seen in the room and the dressing gown in the doorway stands up by itself; the dressing gown in the doorway is worn by nothing: above its open collar the dark hall shows straight through the empty air where a head would be, and at the ends of its lifted sleeves the dark hall shows through the empty air with the bandage hanging in it by itself; the fair-haired man at the desk is the only person in the room, his own two hands bare on the desk's edge and his suit sleeves plain grey cloth; these are two separate things far apart: the empty hollow gown floating in the doorway at the left, and the suited man by the desk at the right, with a wide gap of bare floorboards and the lamp's light between them; the man wears nothing over his suit",
+   "motion": "the standing dressing gown is the one thing that moves, and the man at the desk holds still: at the start the gown stands in the open doorway with its sleeves lifted; over the first three seconds the gown comes one slow step into the room, its hem swinging over the threshold and its lifted sleeves reaching a little further toward the desk, the bandage above the cuff swaying, the door behind it not moving; in the last two seconds the gown holds one step inside with its sleeves reaching; the fair-haired man keeps his hands gripping the desk's edge behind him and his wide eyes on the gown, nothing in him moving; the lamp keeps its steady light on his face; the open door with its turned-down handle, the shelves of books and the coal fire hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "kemp_study",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빈 서재 바닥에 떨어진 붕대와 열린 문",
+   "visual": "the dull yellow light of the lamp on the big desk in the study at night: the door with the brass handle stands wide open at frame left on the dark hall; on the floor between the door and the desk lies the dark grey dressing gown in a heap with one sleeve flung out, and a long white bandage trails from the heap across the boards toward the desk; the leather chair stands pushed back on its side at frame centre; the papers from the desk lie spread across the floor at frame right; the lamp on the desk burns steady; the coal fire glows low at the back; the shelves of books rise behind; the heap of the gown and the trailing bandage are the two things on the floor",
+   "motion": "the trailing bandage is the one thing that moves, and the room holds still: at the start the white bandage trails from the heap of the gown across the boards toward the desk; over the first three seconds the far end of the bandage lifts slowly a finger's width from the boards and slides a hand's width toward the open door, as though drawn by something that is not there, and lies still again; in the last two seconds the bandage holds where it stopped; the heap of the dressing gown with its flung-out sleeve does not stir; the chair on its side and the spread papers keep their places; the lamp keeps its steady light and the coal fire its low glow; the open door on the dark hall and the shelves of books hold completely still; no figure appears in the doorway; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
+  }
+ ]
+}

@@ -1,105 +1,202 @@
 {
- "logline": "하늘의 베 짜는 처녀와 소 치는 총각이 서로에게 빠져 제 일을 놓아 버린다.",
- "destination": "은하수 — 두 사람 사이를 가르는 강",
- "protagonist": "긴 머리를 늘어뜨린 하늘의 젊은 여인",
- "setting": "옛이야기 속 하늘 나라, 베틀과 은하수",
- "anchor": "a young woman of the sky with long dark hair, flowing pale silk robes",
- "palette": "night indigo, star silver, pale rose, warm amber, cloud grey",
- "voice": "ko-KR-JiMinNeural",
- "personas": {
-  "weaver": {
-   "label": "직녀",
-   "desc": "a young woman with long dark hair, flowing pale silk robes with wide sleeves, bare feet",
-   "avoid": ""
-  },
-  "herder": {
-   "label": "견우",
-   "desc": "a young man with hair in a topknot, plain hemp jacket and trousers, a rope over his shoulder",
-   "avoid": ""
-  },
-  "loom": {
-   "label": "하늘의 베틀",
-   "desc": "a wooden loom threaded with shimmering cloth, spools and shuttle, star-lit floor"
-  },
-  "magpies": {
-   "label": "까치 떼",
-   "desc": "a dense flock of black and white magpies, wings spread, packed wing to wing"
-  }
- },
+ "logline": "하늘 나라에서 베를 짜던 직녀와 소를 몰던 견우가 창가와 언덕 사이에서 눈이 마주쳐 옥황상제의 허락으로 부부가 되지만, 서로에게 빠져 베틀과 소를 잊자 노한 옥황상제가 둘 사이로 은하수를 갈라놓고, 두 사람이 밤낮으로 울어 땅에 큰비가 쏟아지자 까마귀와 까치 떼가 은하수 위로 날아올라 몸을 잇기 시작한다",
+ "destination": "설화 견우직녀에서 만날 수 있습니다",
+ "protagonist": "jingnyeo",
+ "setting": "옛이야기 속 하늘 나라의 베틀 정자, 별빛 구름 언덕, 옥황상제의 궁전, 은하수의 두 기슭, 비에 잠긴 땅의 마을",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/gyeonu_jingnyeo/assets",
+ "anchor": "a young woman of the sky with long black hair loose to her waist, flowing pale silk robes of white and pale pink, a serene pale face with dark eyes",
+ "palette": "dark blue, silver, off-white, pale pink, dull yellow",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
    "cast": [
-    "weaver",
-    "loom"
+    "jingnyeo",
+    "loom",
+    "sky_room",
+    "night_bg"
    ],
-   "beat": "직녀가 베틀 앞에서 북을 던진다.",
-   "visual": "a young woman at a wooden loom throwing a shuttle through shimmering cloth, stars beyond",
-   "motion": "the shuttle flies across the warp, threads tighten, starlight shifts on the cloth"
+   "refs": [],
+   "beat": "하늘 나라에서 날마다 베틀 앞에 앉아 고운 베를 짜는 직녀",
+   "visual": "inside the pavilion of the sky with the white pillars and the floor of pale cloud: the young woman of the sky with the long black hair loose to her waist and the flowing pale silk robes of white and pale pink is the one sitting on a low stool at the wooden loom at frame centre, her body turned to the loom, her right hand holding the wooden shuttle wound with dull yellow thread just above the half-woven length of pale cloth, her left hand on the beam, her serene pale face bent to the cloth; the wide open window at frame right looks out on the dark blue sky full of small white stars, silver star light lying across the cloud floor and the pale cloth; the pavilion is bare of any other person",
+   "motion": "the young woman of the sky in the pale silk robes sitting at the loom is the only one who moves, and only her hands: at the start her right hand holds the shuttle above the half-woven cloth; over the first three seconds her right hand passes the shuttle slowly through the threads from right to left and her left hand pulls the beam slowly toward her once, the dull yellow thread drawing tight, her bent face following the shuttle; in the last two seconds the shuttle rests at the left edge of the cloth and her hands hold; her long black hair lies still down her back, her feet stay under the stool; the white pillars, the cloud floor, the open window and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
    "cast": [
-    "herder"
+    "gyeonu",
+    "oxen",
+    "star_hill",
+    "night_bg"
    ],
-   "beat": "견우가 소를 몰고 그 앞을 지난다.",
-   "visual": "a young man in hemp clothes leading an ox past a lit doorway on a starlit slope",
-   "motion": "he walks forward across the slope, the ox's head swings, dust glitters underfoot"
+   "refs": [],
+   "beat": "별빛 언덕 너머에서 소를 모는 견우",
+   "visual": "the rolling hill of pale cloud grass under the dark blue sky full of small white stars: the young man of the sky with the black hair in the topknot, the plain dark blue cotton jacket and the trousers rolled to the knee is the one walking barefoot on the cloud grass at frame centre-left seen from the side with his body turned to the right along the slope, a long thin switch of willow in his right hand held out toward the oxen, his sunburnt open face turned to them; the herd of six brown oxen with the short curved horns are the ones ambling ahead of him up the slope at frame right, their heads low; only the man walks upright and holds a switch; drifts of silver star light on the grass, the low wooden fence along the bottom of the frame, the small white stars thick across the sky",
+   "motion": "the young man of the sky in the dark blue jacket and the six brown oxen are what move: at the start he is walking with the switch held out and the oxen ambling ahead up the slope; over the first three seconds he takes two slow barefoot steps along the slope from left to right and the oxen take two slow steps ahead of him, their heads swaying low, their tails swinging once, the switch in his hand dipping and lifting; in the last two seconds he and the oxen come to a stop well inside the frame; the drifts of silver star light on the grass shimmer very slightly; the low wooden fence and the small white stars hold completely still; no new figures or objects appear; the framing does not change at all; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
    "cast": [
-    "weaver",
-    "herder"
+    "jingnyeo",
+    "gyeonu",
+    "sky_room",
+    "night_bg"
    ],
-   "beat": "둘이 마주 서서 서로를 바라본다.",
-   "visual": "a woman in silk and a man in hemp facing each other on a starlit slope, loom lit behind",
-   "motion": "they turn toward each other, her sleeves lift, the ox's rope slackens and falls"
+   "refs": [],
+   "beat": "베틀 창가와 언덕 사이에서 마주친 두 사람의 눈길",
+   "visual": "inside the pavilion of the sky at the wide open window: the young woman of the sky with the long black hair loose to her waist and the flowing pale silk robes of white and pale pink is the one standing at the window at frame left with both hands resting on the white sill, her serene pale face turned out through the window; outside the window on the cloud grass just beyond the sill at frame right the young man of the sky with the black hair in the topknot and the plain dark blue cotton jacket is the one standing still with a long thin willow switch hanging in his hand, his sunburnt open face turned up to her, a pace of cloud grass between them; only the woman has long loose hair and silk, only the man has a topknot and a switch, two separate people with the window sill between them; the dark blue sky full of small white stars behind him, silver star light on the sill",
+   "motion": "the young man of the sky in the dark blue jacket outside the window is the one who moves, and the woman at the sill holds still: at the start the willow switch hangs in his hand and his face is turned up to her; over the first two seconds the switch slips slowly from his fingers and drifts down to the cloud grass while his face lifts a little higher toward her and his lips part; in the last two seconds his hands hang open at his sides and his face holds lifted; his bare feet stay planted; the young woman keeps both hands on the sill and her face turned to him, her long hair not stirring; the white pillars, the small white stars and the silver light on the sill hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
    "cast": [
-    "loom"
+    "jingnyeo",
+    "gyeonu",
+    "throne_hall",
+    "night_bg"
    ],
-   "beat": "베틀에 실이 엉킨 채 멈춰 있다.",
-   "visual": "an abandoned loom with tangled threads and a dropped shuttle, cloth half woven",
-   "motion": "loose threads sway across the warp, the shuttle rocks and stops, dust settles"
+   "refs": [],
+   "beat": "옥황상제가 직녀와 견우를 부부로 맺어 준다",
+   "visual": "inside the hall of the sky with the tall white pillars and the floor of pale cloud, before the high throne of white cloud on its dais: the young woman of the sky with the long black hair loose to her waist and the flowing pale silk robes of white and pale pink is the one kneeling on the cloud floor at frame left with her head bowed and her hands folded; the young man of the sky with the black hair in the topknot and the plain dark blue cotton jacket is the one kneeling on the cloud floor at frame right beside her with his head bowed and his hands pressed together, a hand's width between them; a red silk cord lies on the cloud floor in front of them joining two small cups; only the woman has long loose hair and silk, only the man has a topknot and a dark jacket, two separate people side by side; the high throne of white cloud rises above them on the dais at the top of the frame, the dark blue sky with small white stars beyond the pillars",
+   "motion": "the two kneeling figures are the ones who move, and only their heads: at the start both heads are bowed toward the cloud floor; over the first two seconds the young woman's head and the young man's head turn slowly toward each other until their eyes meet, her long hair sliding a little over her shoulder, his pressed hands staying together; in the last two seconds their heads hold turned toward each other; their knees stay on the cloud floor, their bodies not rising; the red silk cord and the two small cups lie still; the throne of white cloud, the white pillars and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
    "cast": [
-    "weaver",
-    "herder"
+    "jingnyeo",
+    "gyeonu",
+    "star_hill",
+    "night_bg"
    ],
-   "beat": "둘 사이로 은하수가 갈라진다.",
-   "visual": "a broad river of stars opening between a woman in silk and a man in hemp, both pulled apart",
-   "motion": "the star river widens between them, their hands stretch across it, light streams"
+   "refs": [],
+   "beat": "둘은 서로에게 빠져 베틀도 소도 잊어버린다",
+   "visual": "the rolling hill of pale cloud grass under the dark blue sky full of small white stars: the young woman of the sky with the long black hair loose to her waist and the flowing pale silk robes of white and pale pink is the one sitting on the cloud grass at frame left with her legs folded under her robes, her serene pale face turned to the man; the young man of the sky with the black hair in the topknot and the plain dark blue cotton jacket is the one lying on his side on the cloud grass at frame right propped on one elbow, his sunburnt open face turned to her; a small heap of pale cloud flowers on the grass between them; only the woman has long loose hair and silk, only the man has a topknot and lies propped; drifts of silver star light on the grass, the low wooden fence far behind, the small white stars thick across the sky; the hill is bare of any loom or ox",
+   "motion": "the young woman of the sky in the pale silk robes sitting on the grass is the one who moves, and the man propped on his elbow holds still: at the start her hands rest in her lap and her face is turned to him; over the first two seconds her right hand lifts slowly from her lap, picks one pale cloud flower from the heap and holds it out toward him, her head tilting; in the last two seconds the flower holds out in her hand; her folded legs stay still under the robes; the young man keeps his weight on his elbow and his face turned to her, his free hand still on the grass; the silver star light shimmers very slightly; the fence and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
    "cast": [
-    "weaver"
+    "loom",
+    "oxen",
+    "sky_room",
+    "star_hill",
+    "night_bg"
    ],
-   "beat": "직녀가 강가에서 건너편을 바라본다.",
-   "visual": "a woman in pale silk at the edge of a river of stars, a far figure on the other bank",
-   "motion": "star current flows past her feet, her sleeves drift, the far bank shimmers"
+   "refs": [],
+   "beat": "실이 엉킨 채 멈춰 선 베틀과 하늘 밭을 짓밟는 소 떼",
+   "visual": "the pavilion of the sky seen from outside at the corner where its cloud floor meets the hill: the wooden loom stands at frame left inside the pavilion between the white pillars with the half-woven length of pale cloth sagging on it and the dull yellow thread hanging loose in a tangled snarl from the wooden shuttle, which lies on the cloud floor; outside at frame right the herd of six brown oxen with the short curved horns are the ones wandering across the cloud grass of the hill with their heads down, the grass trampled and torn behind them and the low wooden fence broken flat in one place; the dark blue sky full of small white stars above; the pavilion and the hill are bare of any person",
+   "motion": "the six brown oxen on the hill are what move, and the loom holds still: at the start the oxen wander with their heads down across the trampled cloud grass; over the first three seconds the oxen amble slowly a step or two each in different directions, their heads swaying low, one of them stepping slowly over the broken fence, their tails swinging; in the last two seconds they slow and stand; the tangled dull yellow thread hangs still from the loom and the shuttle lies still on the cloud floor; the white pillars, the sagging cloth and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
    "cast": [
-    "magpies"
+    "emperor",
+    "throne_hall",
+    "night_bg"
    ],
-   "beat": "까치들이 강 위로 모여 몸을 잇는다.",
-   "visual": "a dense flock of magpies packing wing to wing across a river of stars, forming a span",
-   "motion": "the birds crowd inward across the gap, wings lock together, starlight breaks on them"
+   "refs": [],
+   "beat": "노한 하늘의 옥황상제가 둘을 갈라놓으라 명한다",
+   "visual": "inside the hall of the sky with the tall white pillars: the old man of the sky with the long white beard, the tall black hat with the gold trim and the deep red silk robe with the wide sleeves is the one seated on the high throne of white cloud on the dais at frame centre, his right arm thrust out with the forefinger pointing down and away toward the left edge of the frame, his bearded face thrust forward with the brows drawn down and the mouth open, his left hand gripping the arm of the throne; the wide red sleeve hangs from his pointing arm; the floor of pale cloud below the dais, the dark blue sky with small white stars beyond the pillars; the hall is bare of any other person",
+   "motion": "the old man of the sky on the throne is the only one who moves: at the start his right arm is thrust out with the forefinger pointing and his mouth is open; over the first two seconds his upper body leans slowly further forward off the back of the throne and the pointing arm jabs slowly once more toward the left, the wide red sleeve swinging, his long white beard swaying; in the last two seconds he holds leaning with the arm out; his left hand keeps its grip on the throne, his feet stay on the dais; the white pillars, the cloud floor and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 8,
-   "cast": [],
-   "beat": "빈 강 위에 깃털 하나가 떠 있다.",
-   "visual": "a single black and white feather drifting above a wide river of stars, both banks empty",
-   "motion": "the feather turns in the star current, light drifts past, the banks fade"
+   "cast": [
+    "jingnyeo",
+    "gyeonu",
+    "star_river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "명이 떨어지자 두 사람 사이로 은하수가 갈라져 흐른다",
+   "visual": "the wide river of stars flowing across the dark blue sky between two banks of pale cloud, seen from above the banks: the young woman of the sky with the long black hair loose to her waist and the flowing pale silk robes of white and pale pink is the one standing on the left bank of pale cloud at frame left with both arms reaching out over the river toward the far bank, her long hair and her trailing sleeves streaming back; the young man of the sky with the black hair in the topknot and the plain dark blue cotton jacket is the one standing on the right bank at frame right with both arms reaching out toward her, his bare feet at the edge of the cloud; only the woman has long loose hair and silk, only the man has a topknot; the broad band of countless small white stars flows between them down the middle of the frame, wider than either bank; the dark blue sky above",
+   "motion": "the river of stars between the two banks is what moves, and the two figures hold their reaching arms: at the start the broad band of small white stars lies between the banks; over the whole shot the countless small stars of the river drift slowly downstream toward the bottom of the frame and the band widens very slowly, pushing the two banks of pale cloud a little further apart; the young woman keeps both arms reaching out with her hair and sleeves streaming back, her feet at the edge of the cloud; the young man keeps both arms reaching out, his bare feet at his edge; neither steps into the river; the dark blue sky holds completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "jingnyeo",
+    "star_river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "은하수 강가에 서서 건너편의 아득한 그림자를 바라보는 직녀",
+   "visual": "the left bank of pale cloud at the edge of the wide river of stars: the young woman of the sky with the long black hair loose to her waist and the flowing pale silk robes of white and pale pink is the one standing at the very edge of the cloud bank at frame left, seen from behind and a little to the side, the back of her head and her long hair toward the camera and her head held straight ahead across the river, her hands folded in front of her robes; the broad band of countless small white stars flows away from her across the middle of the frame, and on the far bank of pale cloud at the top right, small and dim, a single dark upright figure stands; the dark blue sky full of stars above",
+   "motion": "the young woman of the sky in the pale silk robes standing at the edge of the bank is the one who moves, and only a little: at the start her hands are folded in front of her robes and her head is held straight ahead across the river; over the first two seconds her folded hands lift slowly and press together against her chest, her long hair stirring in a faint wind, the back of her head staying toward the camera with no turn; in the last two seconds the hands hold pressed to her chest; her feet stay at the edge of the cloud; the countless small stars of the river drift slowly downstream; the small dark figure on the far bank does not move; the dark blue sky holds completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "gyeonu",
+    "ox",
+    "star_river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "건너편의 견우도 소 곁에 선 채 강물만 바라본다",
+   "visual": "the right bank of pale cloud at the edge of the wide river of stars: the young man of the sky with the black hair in the topknot and the plain dark blue cotton jacket is the one standing at the very edge of the cloud bank at frame right with his bare feet at the edge, one hand resting on the neck of the brown ox with the short curved horns and the wooden yoke that is the one standing beside him at frame far right with its head lowered, his sunburnt open face turned across the river; the broad band of countless small white stars flows across the middle of the frame, and on the far bank of pale cloud at the top left, small and dim, a single pale upright figure stands; the dark blue sky full of stars above",
+   "motion": "the young man of the sky in the dark blue jacket at the edge of the bank is the one who moves, and the ox beside him only breathes: at the start his hand rests on the ox's neck and his face is turned across the river; over the first two seconds his hand slides slowly from the ox's neck and hangs at his side while his shoulders sink and his head bows slowly a little, his face staying toward the river; in the last two seconds the head holds bowed; his bare feet stay at the edge of the cloud; the brown ox keeps its head lowered, its sides rising and sinking with slow breaths; the countless small stars of the river drift slowly downstream; the small pale figure on the far bank does not move; the dark blue sky holds completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "earth_village",
+    "rain_bg"
+   ],
+   "refs": [],
+   "beat": "직녀와 견우가 밤낮으로 울자 땅에는 큰비가 쏟아진다",
+   "visual": "the small village of thatched huts in the valley under heavy rain: ash grey sheets of rain slant across the whole frame from the low ash grey sky, the thatched roofs dark and streaming, the swollen brown stream at the bottom of the frame spread over its banks and lapping at the lowest hut's mud wall, bent trees along the slope with their branches dragged down by the rain, a wooden bucket floating in the brown water; the village is bare of any person",
+   "motion": "the rain and the water are what move, and the village holds still: at the start ash grey sheets of rain slant across the whole frame from the low ash grey sky and the swollen brown stream laps at the mud wall of the lowest hut; over the whole shot the rain keeps falling in steady slanting sheets, water streaming off the dark thatched roofs in ropes and splashing into the puddles, the brown stream rising slowly and creeping a hand's width further up the mud wall, the floating wooden bucket turning slowly on the water and drifting toward the frame's edge, the bent branches of the trees on the slope swaying under the weight of the rain; in the last two seconds the rain keeps falling as before; the thatched huts, the mud walls, the slope and the low ash grey sky hold completely still; no person comes out of the huts; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "birds",
+    "star_hill",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "물에 잠긴 땅을 보다 못해 모여든 까마귀와 까치 떼",
+   "visual": "the rolling hill of pale cloud grass under the dark blue sky full of small white stars: the great flock of black magpies with the white bellies and long tails and black crows are the ones crowded along the top rail of the low wooden fence and on the cloud grass around it at the middle of the frame, dozens of them pressed close, their heads all turned the same way toward the left edge of the frame, a few with their beaks open; drifts of silver star light on the grass, the small white stars thick across the sky; the hill is bare of any person",
+   "motion": "the flock of magpies and crows on the fence and the grass is what moves, and only a little: at the start the birds are crowded along the rail with their heads turned to the left; over the first three seconds the birds shift slowly on their feet, a few hopping a step closer to the rail, heads bobbing and turning toward one another and back to the left, feathers ruffling and settling; in the last two seconds they still and hold with their heads toward the left; no bird flies; the fence, the drifts of silver light and the small white stars hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "birds",
+    "star_river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "까치 떼가 은하수 위로 날아올라 서로의 몸을 잇기 시작한다",
+   "visual": "the wide river of stars flowing across the dark blue sky between the two banks of pale cloud: the great flock of black magpies with the white bellies and long tails and black crows are the ones flying up from the left bank at frame left in a dense stream, wings spread, the leading birds already hanging in the air over the near edge of the river of stars with their wings touching wing to wing and their bodies pressed side by side into the beginning of a narrow dark arch, the birds behind still rising from the bank; the broad band of countless small white stars flows below them across the middle of the frame, the far bank of pale cloud at the top right; the dark blue sky full of stars above",
+   "motion": "the flock of magpies and crows is what moves: at the start the leading birds hang wing to wing over the near edge of the river and the birds behind are rising from the bank; over the whole shot the birds keep rising slowly from the left bank in a dense stream and pressing in beside the leading birds so that the narrow dark arch of joined bodies grows slowly a little further out over the river of stars, wings beating steadily in place; the countless small stars of the river drift slowly downstream beneath them; the two banks of pale cloud and the dark blue sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "birds",
+    "star_river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "강 위에 빼곡히 몸을 잇는 까치들은 무엇을 만들려는가 (질문)",
+   "visual": "the wide river of stars flowing across the dark blue sky, seen from a little below: the great flock of black magpies with the white bellies and long tails and black crows are the ones pressed together wing to wing and body to body into a long narrow dark arch that reaches from the left bank of pale cloud at frame left out over the middle of the river of stars, the arch unfinished, its far end hanging in the air short of the right bank with a few birds still flying up to join it; the broad band of countless small white stars flows below the arch; the two banks of pale cloud, the dark blue sky full of stars above",
+   "motion": "the flock of birds is what moves, and only at the unfinished end of the arch: at the start the arch of joined bodies reaches out over the middle of the river with a few birds flying up to its far end; over the first three seconds the few flying birds settle slowly into place at the end of the arch wing to wing, and the arch's end extends slowly a little further toward the right bank, the wings along the whole arch beating steadily in place; in the last two seconds the newly joined birds hold and the end of the arch holds short of the far bank; the countless small stars of the river drift slowly downstream beneath; the two banks of pale cloud and the dark blue sky hold completely still; no new figures or objects appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "star_river",
+    "night_bg"
+   ],
+   "refs": [],
+   "beat": "빈 강 위에 떠 있는 깃털 하나 (마무리)",
+   "visual": "the wide river of stars flowing across the dark blue sky between the two banks of pale cloud: the broad band of countless small white stars fills the middle of the frame, and a single black feather with a white tip is the one drifting on the river of stars at the lower centre of the frame, turning slowly; the two banks of pale cloud at the left and right edges, the dark blue sky full of small white stars above; the banks are bare of any person or bird",
+   "motion": "the river of stars and the feather are what move: at the start the single black feather drifts on the river of stars at the lower centre of the frame; over the first three seconds the countless small stars of the river drift slowly downstream toward the bottom of the frame and the feather drifts with them, turning slowly once and dipping a little; in the last two seconds the feather settles and keeps drifting slowly, still inside the frame; the two banks of pale cloud and the dark blue sky hold completely still; nothing comes to rest on the banks; no new figures or objects appear; camera fixed, no zoom, no drift"
   }
  ],
- "withheld": "두 사람이 한 해에 하루 만나게 되는 사연과, 그날 내리는 비의 뜻"
+ "withheld": "일 년에 한 번 칠석에 만나는 사연과 그날 비의 뜻"
 }

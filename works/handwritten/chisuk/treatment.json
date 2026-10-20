@@ -1,59 +1,206 @@
 {
- "logline": "수난을 겪은 지식인 조카의 시선으로, 그의 '어리석음'이 실은 생존을 위한 기회주의였음을 드러내는 순간.",
- "destination": "고모부의 손 — 조카의 판단이 뒤집히는 그 손의 움직임",
- "protagonist": "일본 상점 점원인 조카",
- "setting": "1938년 일제강점기, 일본인 상점과 조카의 집",
- "anchor": "Young Korean clerk in a short dark jacket",
- "palette": "Cold blue shadows, harsh single light source, dust motes in air, muted earth tones.",
+ "logline": "일본인 상점 점원인 조카가 감옥에서 폐병을 얻어 돌아온 고모부를 어리석다 비웃는 동안, 그 병상의 눈은 조카를 물끄러미 본다",
+ "destination": "소설 치숙에서 만날 수 있습니다",
+ "protagonist": "nephew",
+ "setting": "1938년 경성, 일본인 잡화점과 고모부가 앓아누운 셋방",
+ "prompt_style": "detail",
+ "assets_dir": "works/handwritten/chisuk/assets",
+ "anchor": "a smug Korean youth of nineteen with slicked side-parted hair in a dark blue clerk's jacket and grey apron",
+ "palette": "ash grey, dark blue, off-white, dark brown, dull orange",
+ "voice": "",
+ "personas": {},
  "beats": [
   {
    "n": 1,
-   "beat": "조카가 계산대를 치우며 고모부를 향해 코웃음친다.",
-   "visual": "Close up of hands wiping a wooden counter, then panning up to a smirking young face.",
-   "motion": "Hands wiping left to right, face tilting up."
+   "cast": [
+    "nephew",
+    "shop",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "일본인 상점의 똑똑한 조카",
+   "visual": "inside the Japanese dry-goods trading house in flat grey daylight: the youth with the slicked side-parted hair is the one standing at the center before the wooden shelves in his dark blue clerk's jacket and grey apron, his chin lifted and a smug half smile on his round face, both hands squaring a bolt of plain grey cloth on the shelf so that its edge lines up with the others; bolts of plain cloth in dull colours and tins with plain labels fill the shelves behind him, the wooden counter with the abacus stands at frame right and the sliding glass doors at the left show the pale street; every tin and sign is bare",
+   "motion": "the youth with the slicked side-parted hair in the dark blue clerk's jacket and grey apron standing before the wooden shelves is the only one who moves: at the start his hands are on a bolt of cloth pushing it into line with the others on the shelf; over the first two seconds his hands push the bolt slowly into line and pat it twice, and he steps back one pace with his chin lifting by a degree higher and his smug half smile widening; in the last two seconds he stands with his hands folded behind his back admiring the shelf; the wooden shelves of folded cloth, the long counter, the sliding glass doors and the flat grey daylight hold completely still; no customers, no new figures and no animals appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 2,
-   "beat": "5년 만에 나온 고모부가 낡은 옷으로 상점 문턱을 넘는다.",
-   "visual": "A frail man in tattered clothes stepping over a shop threshold, dust rising from his feet.",
-   "motion": "Man stepping forward, dust rising."
+   "cast": [
+    "nephew",
+    "lane",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "고모부를 제일 어리석은 사람이라 여기는 조카",
+   "visual": "the Seoul lane before the two-storey Japanese-style wooden house front with sliding doors: the youth in the dark blue clerk's jacket is the one walking toward the camera at the center with a paper-wrapped parcel under one arm, his slicked hair neat, his round face twisted in a sneer with one corner of his mouth pulled up and his eyes half closed as though at a private joke; the low tile-roofed houses run along the left, the tram wires cross above and the stone drain runs beside his rubber-soled shoes; flat pale daylight",
+   "motion": "the youth in the dark blue clerk's jacket walking toward the camera along the Seoul lane is the only one who moves: at the start he is mid-stride at the center with a paper-wrapped parcel under one arm and his slicked hair neat; over the first three seconds he walks steadily forward along the lane toward the camera with the parcel under his arm, his sneer deepening and his head giving one small dismissive shake, his rubber-soled shoes setting down on the packed earth; the low tiled houses, the two-storey Japanese-style wooden house front with its sliding doors, the overhead wires and the flat sky hold completely still; in the last two seconds the walking figure comes to a stop well inside the frame and stands still; no new figures, carts or animals appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 3,
-   "beat": "조카는 고모부의 멍한 표정을 보며 혀를 차며 고개를 돌린다.",
-   "visual": "Profile of the clerk rolling his eyes, turning his back to the entrance.",
-   "motion": "Head turning away, body shifting back."
+   "cast": [
+    "uncle",
+    "book",
+    "sick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "감옥에서 오 년, 폐병까지 얻어 돌아온 고모부",
+   "visual": "the small shabby room in flat grey light: the gaunt unshaven man is the one lying on his side under the thin quilt on the oiled paper floor at the center, his cropped greying head on the wooden pillow and a folded cloth pressed to his mouth in one thin-wristed hand, his large tired eyes half closed and his hollow cheeks drawn; the worn dark blue cloth-bound book lies closed on the floor beside the pillow and two more worn books sit on the low desk at frame right; the small brass brazier stands cold at the left and the grey plaster walls are bare; grey light from the paper window; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the gaunt unshaven man lying on his side under the thin quilt is the only one who moves: at the start his cropped greying head rests on the wooden pillow with a folded cloth pressed to his mouth in one thin hand; over the first two seconds his thin shoulders shake slowly under the quilt with a long suppressed cough into the folded cloth, his half-closed eyes squeezing closed and opening again, the quilt edge slipping a little from his shoulder; in the last two seconds the shaking eases and he lies still with the cloth at his mouth and his eyes half open; the worn dark blue cloth-bound book beside the pillow, the low desk, the small brazier and the paper window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 4,
-   "beat": "고모부가 일본인 상인의 손에 이끌려 무언가를 받아들고 고개를 숙인다.",
-   "visual": "A Japanese man extending a hand, the frail man bowing deeply to receive an unseen item.",
-   "motion": "Hand extending forward, head bowing down."
+   "cast": [
+    "aunt",
+    "medicine",
+    "uncle",
+    "sick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "삯바느질로 고모부를 먹이고 약을 짓는 고모",
+   "visual": "a close view inside the small shabby room: the thin woman with the patient lined face in the off-white jeogori and dark grey skirt fills the right half of the frame seated on a low stool with a length of white cloth across her lap, a needle drawn up in her thimbled hand and her lowered eyes on the seam; the pale paper window fills the whole upper background behind her head with soft grey light coming through it; at the lower left the gaunt man's cropped greying head rests on the wooden pillow with the thin quilt drawn up to his chin and his tired eyes half open; in the foreground at the lower center a small brown earthen medicine bowl steams on the oiled paper floor beside a wooden spoon; the bare grey plaster of the window wall shows only in a narrow strip beside the window frame",
+   "motion": "the thin woman seated by the paper window is the one who moves, and only her sewing hand: at the start the needle is drawn up in her thimbled hand above the length of white cloth across her lap; over the first two seconds the thimbled hand draws the needle slowly up and out to the full length of the thread and dips it again to the cloth, her lowered eyes never lifting from the seam and her shoulders not shifting; in the last two seconds the needle draws up again; the steam from the small medicine bowl in the foreground rises in a thin unbroken thread; the gaunt man's head on the wooden pillow and his half-open eyes hold completely still; the grey light in the paper window does not change; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 5,
-   "beat": "조카는 그 모습을 보며 비웃음을 참지 못하고 소리를 내뱉는다.",
-   "visual": "The clerk's mouth opening in a sneer, eyes wide with contempt, body leaning forward.",
-   "motion": "Body leaning forward, mouth opening."
+   "cast": [
+    "nephew",
+    "uncle",
+    "sick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "병상 곁에서 대놓고 훈수를 두는 조카",
+   "visual": "the small room: the youth in the dark blue clerk's jacket is the one seated cross-legged on the oiled paper floor at frame right with one knee drawn up and his elbow on it, his forefinger raised and wagging and his round face lifted with the smug half smile; the gaunt unshaven man is the one propped on one elbow under the thin quilt at frame left with his greying head raised and his large tired eyes on the youth, the folded cloth in his other hand; the low desk with the worn books behind them, the cold brazier and the paper window with its grey light; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the youth in the dark blue clerk's jacket seated cross-legged on the floor is the one who moves, and only his hand and chin: at the start his forefinger is raised beside his round smug face with his elbow on his drawn-up knee; over the first two seconds the raised forefinger wags slowly three times toward the man on the quilt and stays pointed, his chin lifting a degree with each wag and his slicked hair not shifting; in the last two seconds the finger holds pointed and his smug half smile holds; the gaunt man on the quilt keeps his raised head still on the wooden pillow and his tired eyes do not leave the youth; the low desk, the small brazier and the paper window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 6,
-   "beat": "고모부가 조카에게 조용히 다가와 그의 손등을 톡 치며 미소 짓는다.",
-   "visual": "The frail man approaching silently, tapping the clerk's hand, a subtle smile forming.",
-   "motion": "Man moving closer, finger tapping hand."
+   "cast": [
+    "nephew",
+    "sick_room"
+   ],
+   "refs": [],
+   "beat": "저처럼 사셔야죠, 아저씨 — 조카의 말",
+   "visual": "a close view in the small room: the youth's round smug face fills the frame from the collar of the dark blue clerk's jacket up, his slicked side-parted hair gleaming, his quick eyes narrowed with self-satisfaction and his mouth open in mid-speech with the corners lifted, his raised forefinger held up beside his cheek; the grey plaster wall and the corner of the paper window fall out of focus behind him; flat grey light on one side of his face; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "only the youth's face and raised forefinger move in this close view: at the start his round smug face fills the frame with his mouth open in mid-speech and his forefinger raised beside his cheek; over the first two seconds the raised forefinger taps slowly against the air beside his cheek in time with the words his mouth shapes, his narrowed quick eyes crinkling further with satisfaction and his slicked side-parted hair gleaming without shifting; in the last two seconds his mouth closes in the half smile and the finger holds up; the collar of the dark blue clerk's jacket does not move; the wall and the paper window behind hold their blur; no new figures appear; camera fixed, no zoom, no drift"
   },
   {
    "n": 7,
-   "beat": "조카의 비웃음이 굳으며, 그의 눈이 고모부의 손에 고정된다.",
-   "visual": "Close up of the clerk's frozen expression, eyes locked on the older man's hand.",
-   "motion": "Eyes narrowing, face freezing."
+   "cast": [
+    "nephew",
+    "kimono_woman",
+    "shop",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "일본 여자와 결혼하는 게 꿈인 조카",
+   "visual": "the sliding glass doors of the Japanese dry-goods trading house seen from inside: the youth in the dark blue clerk's jacket and grey apron is the one crouched at frame left just inside the open door polishing his rubber-soled shoe with a rag, his round face turned up and to the right with his mouth slightly open and his eyes following; the young Japanese woman in the pale grey kimono with the dark blue obi is the one passing along the pale street outside the door at frame right with her paper parasol tilted and her wooden sandals lifting, her face turned away; the shelves of bolts and plain tins at the left edge; flat daylight",
+   "motion": "the young woman in the kimono passing the open door and the crouched youth's turned face are what move: at the start she is just entering the doorway view at the right with her parasol tilted and the youth crouched inside at the left with a rag on his rubber-soled shoe; over the first two seconds she walks slowly past the open sliding glass door from right to left with her parasol tilting and her sandals setting down on the street, the sleeves of her kimono swaying, while the crouched youth's turned face follows her the whole way and his polishing hand stops on his shoe; in the last two seconds she passes out of the doorway at the left and the youth's face stays turned after her; the wooden shelves, the glass door frame and the street beyond hold completely still; no other figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
   },
   {
    "n": 8,
-   "beat": "상점 바닥에 떨어진 작은 종이 조각이 바람에 날려 사라진다.",
-   "visual": "A small piece of paper lying on the wooden floor, blown away by a draft.",
-   "motion": "Paper sliding across floor, disappearing."
+   "cast": [
+    "uncle",
+    "sick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "이불 속에서 조카를 물끄러미 바라보는 고모부",
+   "visual": "a close view in the small room: the gaunt man's unshaven hollow-cheeked face fills the frame lying on its side on the wooden pillow with the edge of the thin quilt drawn up to his chin, his cropped greying hair against the wood and his large tired kind eyes wide open and steady, fixed on a point past the camera, his mouth closed and calm; the grey plaster wall and the corner of the low desk with a worn book fall out of focus behind him; the grey window light lies across one side of his face; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "almost nothing moves in this close view of the gaunt man's face on the wooden pillow: at the start his unshaven hollow-cheeked face lies on its side with the quilt edge drawn up to his chin and his large tired eyes fixed past the camera; over the whole shot his steady eyes stay fixed past the camera and blink once, very slowly, near the middle of the shot, and his calm mouth does not move; his cropped greying hair against the wood, the quilt edge, the wooden pillow and the grey plaster wall hold completely still and the grey light on his cheek does not change; no new figures appear; camera drifting very slowly forward toward his eyes, no zoom"
+  },
+  {
+   "n": 9,
+   "cast": [
+    "nephew",
+    "uncle",
+    "sick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "무식한 사람의 멍한 눈이라 여기는 조카",
+   "visual": "the small room: the youth in the dark blue clerk's jacket is the one standing at frame right with his back half turned to the quilt and one hand flicked out behind him in a dismissive wave, his round face turned away toward the paper window with the smug half smile and his other hand on his hip; the gaunt man is the one lying under the thin quilt at frame left with his greying head on the wooden pillow and his large tired eyes on the youth's back, the folded cloth in his hand; the low desk with the worn books between them and the cold brazier at the wall; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the youth in the dark blue clerk's jacket standing with his back half turned to the quilt is the one who moves: at the start one hand is flicked out behind him in a dismissive wave and his round face is turned toward the paper window; over the first two seconds the flicked hand waves slowly once more behind him and lowers to his side as he turns his shoulder further away toward the window, the hem of his jacket swinging once; in the last two seconds he stands with his back to the quilt and his hands in his pockets; the gaunt man on the quilt keeps his tired eyes on the youth's back without moving, the cloth still at his mouth; the low desk, the stacked books, the small brazier and the paper window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 10,
+   "cast": [
+    "nephew",
+    "book",
+    "sick_room",
+    "day_bg"
+   ],
+   "refs": [],
+   "beat": "고모부가 읽던 책을 뒤적이다 도로 덮는 조카",
+   "visual": "a close view over the low desk in the small room: the youth's two hands fill the lower center of the frame holding the worn dark blue cloth-bound book open, the pages turned away from the camera so that only their pale edges show, one thumb flicking the corner of a page; above the hands his round face is bent close with his brows drawn down in a frown and his mouth pulled sideways in distaste, the slicked hair falling forward; the grey plaster wall and the corner of the paper window behind; flat grey light on the page edges; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "only the youth's two hands and the book move in this close view over the low desk: at the start the worn dark blue cloth-bound book is held open with its pages turned away from the camera and one thumb flicking the pale page edges; over the first two seconds the thumb lets the flicked pages ripple slowly closed and his hands close the book and push it away across the desk in one continuous movement, a little dust lifting from the cover; in the last two seconds the book rests closed at the far edge of the desk and his hands lie flat on the wood; his frown above the hands stays on his face; the grey plaster wall and the paper window hold completely still; no lettering shows on the book; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 11,
+   "cast": [
+    "uncle",
+    "nephew",
+    "sick_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "너는 무엇을 위해 사느냐 — 고모부의 물음",
+   "visual": "the small room in dull orange evening light from the paper window: the gaunt unshaven man is the one propped up on one elbow under the thin quilt at frame left with his greying head raised and his large tired eyes fixed on the youth, his lips just parted in a quiet question and his other thin hand resting on the quilt; the youth in the dark blue clerk's jacket is the one at frame right half turned toward the paper door with his hand on the frame, his round face turned back over his shoulder toward the man with his brows lifted; the low desk with the worn books between them and the closed book on the floor; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the gaunt unshaven man propped on one elbow under the quilt is the one who moves, and only his lips: at the start his greying head is raised with his large tired eyes fixed on the youth and his lips just parted; over the first two seconds his parted lips move slowly through the quiet question and close again, his raised head holding steady on his elbow and his eyes not leaving the youth; in the last two seconds he holds propped and still; the youth in the dark blue clerk's jacket at the door keeps his face turned back over his shoulder and only his hand on the door frame tightens; the low desk, the stacked books and the dull orange glow of the paper window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 12,
+   "cast": [
+    "nephew",
+    "uncle",
+    "sick_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "코웃음을 치며 돈이라 대답하는 조카",
+   "visual": "the small room in evening light: the youth in the dark blue clerk's jacket is the one standing at frame right with his head thrown back in a snorting laugh, his round face creased and his hand slapping flat against his own thigh, the slicked hair shaking loose; the gaunt man is the one propped on his elbow under the quilt at frame left with his tired eyes steady on the laughing youth and his face unchanged; the low desk, the worn books and the paper window glowing dull orange behind them; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the youth in the dark blue clerk's jacket standing in the evening light is the one who moves: at the start his head is thrown back in a snorting laugh with his round face creased and his hand slapping flat against his own thigh; over the first two seconds the thrown-back head comes slowly forward as the laugh runs out and the slapping hand rises to wipe his eye, his creased face settling back into the smug half smile and his slicked hair falling back into place; in the last two seconds he stands with his hand at his eye and the half smile fixed; the gaunt man propped on his elbow under the quilt stays still and steady with his eyes on the youth; the low desk, the stacked books and the dull orange paper window hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 13,
+   "cast": [
+    "uncle",
+    "aunt",
+    "sick_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "천장으로 눈을 돌린 채 기침만 하는 고모부",
+   "visual": "the small room in fading evening light: the gaunt unshaven man is the one lying flat on his back under the thin quilt at the center with his greying head on the wooden pillow and his large tired eyes turned straight up to the grey plaster ceiling, the folded cloth pressed to his mouth by one thin hand; the thin woman with the patient lined face is the one kneeling at frame right with her thimbled hand resting on his shoulder over the quilt and her lowered eyes on his face; the low desk with the worn books and the cold brazier at the wall, the paper window glowing a last dull orange; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the gaunt man lying flat on his back under the thin quilt is the one who moves, and the woman only with her hand: at the start his greying head is on the wooden pillow with his large tired eyes turned straight up to the grey ceiling and the folded cloth near his mouth; over the first two seconds his chest rises under the quilt with a long slow cough into the folded cloth and sinks again, his upturned eyes staying on the ceiling and not closing; in the last two seconds his chest settles and his eyes hold on the ceiling; the thin woman kneeling beside him presses her hand on his shoulder a little closer and stays, her lined face lowered; the low desk, the small brazier and the fading paper window hold completely still; no new figures appear; camera fixed, no zoom, no drift"
+  },
+  {
+   "n": 14,
+   "cast": [
+    "nephew",
+    "uncle",
+    "sick_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "돌아서는 조카의 등 뒤에서",
+   "visual": "the small room seen low from the quilt: the youth in the dark blue clerk's jacket is the one walking away toward the open paper door at frame right with the back of his slicked head held straight ahead and his hands in his trouser pockets, his shoulders squared and his rubber-soled shoes on the oiled paper floor; in the lower left foreground the gaunt man's thin hand rests on the edge of the thin quilt with the folded cloth beneath it and the corner of the wooden pillow shows, his face out of frame above; the worn dark blue book lies on the floor between the hand and the door; dull orange evening light fills the doorway; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "the youth in the dark blue clerk's jacket walking out through the open paper door is the one who moves, and the thin hand on the quilt edge in the foreground: at the start the youth is mid-step toward the door at the right with the back of his slicked head held straight ahead and his hands in his trouser pockets; over the first two seconds he walks slowly out through the open paper door with his head held straight ahead until his squared shoulders pass the door frame; in the last two seconds only the empty doorway shows; in the foreground the thin hand on the quilt edge closes slowly on the cloth beneath it and holds; the worn book, the wooden pillow and the doorway hold completely still; no new figures appear; the framing does not change at all and the figure stays fully inside the frame the whole time; camera locked off, no tracking, no zoom, no drift"
+  },
+  {
+   "n": 15,
+   "cast": [
+    "book",
+    "medicine",
+    "sick_room",
+    "evening_bg"
+   ],
+   "refs": [],
+   "beat": "마무리 — 병상 곁의 책과 약사발",
+   "visual": "the small shabby room in the last dull orange evening light, empty of every person: the thin quilt lies spread on the oiled paper floor at the center with the wooden pillow at its head, the worn dark blue cloth-bound book lies closed on the floor beside the pillow and the small brown earthenware bowl of dark medicine sits on the cold brass brazier with its wooden spoon beside it; the low desk with the other worn books stands against the grey plaster wall and the paper window at the right glows a fading orange; the paper door stands open on a darkening lane; the walls are bare cracked grey plaster with only the low desk, the books and the brazier against them",
+   "motion": "nothing living moves in this empty room in the last evening light; only the light and the shadow: at the start the dull orange glow lies on the paper window and the shadow of the low desk lies short across the spread quilt; over the whole shot the orange glow on the paper window fades slowly toward grey and the shadow of the desk lengthens across the quilt toward the wooden pillow; the closed dark blue cloth-bound book on the floor beside the quilt, the small medicine bowl, the wooden pillow, the low desk and the open paper door hold perfectly still; no figures, no animals and no new objects appear at any point; camera drifting very slowly forward toward the book, no zoom"
   }
  ],
- "withheld": "고모부가 받은 것이 생존을 위한 굴복의 대가임을, 그리고 조카가 자신의 기회주의적 생존 방식을 비웃고 있었다는 사실을 깨달은 것."
+ "withheld": "병상의 눈에 비친 조카의 어리석음, 화자 스스로 폭로하는 무지"
 }
