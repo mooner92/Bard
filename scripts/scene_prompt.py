@@ -172,7 +172,7 @@ def motion_from_treatment(tre: dict, index: int) -> str:
         return ""
     m = (beats[index - 1].get("motion") or "").strip()
     # 상세 작법(300자 안팎)이 잘리지 않게 여유를 둔다
-    return "" if HANGUL.search(m) else m[:450]
+    return "" if HANGUL.search(m) else m[:1200]   # 09-11: 800~1000자 규격 — 450 에서 잘리면 정지·카메라 절이 날아간다
 
 
 def to_scene(sentence: str, context: str = "") -> str:

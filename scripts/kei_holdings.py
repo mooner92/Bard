@@ -42,7 +42,7 @@ def first_author(s: str) -> str:
 
 
 def _search(cid: int, query: str, max_n: int = 30) -> list:
-    q = urllib.parse.quote(f"k|a|{query}")
+    q = urllib.parse.quote(f"1|k|a|{query}")   # 09-10 실측: 접두 "1|" 가 없으면 모두 noRecord
     url = f"{HOST}/pyxis-api/1/collections/{cid}/search?all={q}&max={max_n}&offset=0"
     req = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": UA})
     with urllib.request.urlopen(req, timeout=20) as r:
@@ -78,7 +78,10 @@ def _match(it: dict, title: str, author: str) -> bool:
     if toks:
         hay = _norm(it["author"]) + _norm(it["title"])
         if not any(_norm(t) in hay for t in toks):
-            return False
+            # 서지 저자가 원어(Weir, Andy)뿐이면 한글 저자로는 못 맞춘다 —
+            # 표제가 질의와 정확히 같으면(부제 제외) 저자 불일치를 눈감는다.
+            head = re.split(r"\s*[:=/]\s*", it["title"])[0]
+            return _norm(head) == _norm(title)
     return True
 
 

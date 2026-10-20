@@ -4,7 +4,7 @@
 부정어 'no fire' 가 다락방에 불을 피웠고, 팔레트의 'giant gourds' 가 반전을
 첫 컷에 노출했고, 훅이 전제를 말해 여덟 컷이 한 칸씩 밀렸다.
 """
-import json, pathlib, re
+import json, pathlib, re, sys
 
 NEG = re.compile(r'\b(no|without|not|never)\b', re.I)
 # 팔레트·화풍에 와서는 안 되는 사물(빛·색이 아닌 것)
@@ -44,9 +44,31 @@ ONESHOT = re.compile(r'\b(drops?|slams?|strikes?|shuts?|lands?|bursts?|snaps?|'
 
 # 직유는 그려진다 — like a minister 가 관리를 세웠고 calligrapher's brush 가
 # 인두를 붓으로 바꿨다(실측: 규중칠우 여섯 컷). 물리 묘사만 허용한다.
-SIMILE = re.compile(r"\blike (?:a|an|the)\b|\bas if\b", re.I)
+SIMILE = re.compile(r"\blike (?:a|an|the)\b|\bas if\b|\bas (?:one|a) (?:solid |single )?(?:wall|mass|block|sheet|curtain|carpet|blanket|tower|cliff)\b|\bstands? as a\b", re.I)   # 'as one solid wall' 이 돌담을 세웠다(80일간 S5)
 
 EPISODIC = re.compile(r'\b(firelight|bonfire|campfire|torchlight|torch|fire)\b', re.I)
+
+# 구조·지형 비유도 그려진다 — 'bedding tower' 가 창밖에 돌 망루를 세웠고
+# 'striped cliff' 가 침실 안에 절벽을 들였고 'cloud upon cloud' 가 요 아래
+# 구름을 깔았다(실측: 공주와 완두콩 6·7·8). 그 낱말이 자산 파일에 실물로
+# 적혀 있을 때만(라푼젤의 탑) 통과시킨다.
+METAPHOR = re.compile(r'\b(tower|towers|cliff|cliffs|mountain|mountains|cloud|clouds|'
+                      r'sea|ocean|river|forest|waterfall|island|cave)\b', re.I)
+
+# 맨살에 붙인 색은 옷이 된다 — 'bare feet red with cold' 가 빨간 양말을, 'reddened
+# fingers' 가 빨간 장갑을 신기고 끼웠다(실측: 성냥팔이 소녀 2·3·4·5). 추위는
+# pale·cold·stiff 로 적는다.
+BODY_COLOUR = re.compile(r'\b(red|reddened|blue|purple|pink)\s+'
+                         r'(feet|foot|toes|fingers|hands?|legs?|arms?)\b', re.I)
+
+LIGHT_THING = re.compile(r'\b(candle|candles|flame|flames|fire|lamp|lamps|lantern|'
+                         r'torch|sun|moon|stars?)\b', re.I)
+
+# 팔레트의 색 이름이 사물이면 그 사물이 온다 — 'rose pink' 가 여섯 컷 구석마다
+# 장미 덤불을 심었다(실측: 공주와 완두콩). 색은 색 이름으로만 적는다.
+COLOUR_THING = re.compile(r'\b(rose|roses|cherry|peach|lemon|lime|olive|'
+                          r'apricot|lavender|coral|salmon|chestnut|honey|'
+                          r'snow|ice|frost)\b', re.I)   # 'snow white' 가 응접실 카펫에 눈을 깔았다(전나무 S8)
 
 def _words(s): return set(re.findall(r"[가-힣]{2,}", s))
 def _stem(w): return re.sub(r"(이|가|은|는|을|를|의|에|도|만|와|과|로|에서|으로|에게|까지|부터)$", "", w)
@@ -107,17 +129,50 @@ def check(work: str) -> list:
 
     # 배역만 고치고 박자를 놓치면 소용이 없다 — 심봉사의 안대는 배역 묘사를 고친
     # 뒤에도 돌아왔다. visual 에 'a blind old man' 이 그대로 남아 있었기 때문이다.
+    assets_text = " ".join(p.read_text(encoding="utf-8")
+                           for p in (d/"assets").glob("*.md")) if (d/"assets").is_dir() else ""
+    # 무대(setting)·앵커에 적힌 바다·숲은 그 이야기의 실물이다 — 보물섬의 sea.
+    literal = {w.lower() for w in METAPHOR.findall(
+        assets_text + " " + str(T.get("setting", "")) + " " + str(T.get("anchor", "")))}
+    ct = COLOUR_THING.search(T.get("palette", ""))
+    if ct:
+        bad.append(f"팔레트에 사물 색 이름: {ct.group()}")
+    # 광원 이름도 팔레트에 두면 초점이 빈 컷마다 그 광원을 세운다 — 'candle amber' 가
+    # 유리장 속 완두콩 옆에 촛불을, 'matchstick-flame gold' 가 다 탄 다발 위에 불꽃을
+    # 세웠다(실측: 공주와 완두콩 S13, 성냥팔이 소녀 S15). 팔레트엔 색 이름만 남긴다.
+    lt = LIGHT_THING.search(T.get("palette", ""))
+    if lt:
+        bad.append(f"팔레트에 광원 이름: {lt.group()}")
     for b in beats:
         for key in ("visual", "motion"):
             sm = SIMILE.search(b.get(key, ""))
             if sm:
                 bad.append(f"S{b['n']} {key} 에 직유: {sm.group()}")
+            for mw in METAPHOR.findall(b.get(key, "")):
+                if mw.lower() not in literal:
+                    bad.append(f"S{b['n']} {key} 에 자산에 없는 구조·지형 낱말: {mw}")
+            bc = BODY_COLOUR.search(b.get(key, ""))
+            if bc:
+                bad.append(f"S{b['n']} {key} 에 맨살 색 형용(옷이 된다): {bc.group()}")
             m = STATE.search(b.get(key, ""))
             if m:
                 bad.append(f"S{b['n']} {key} 에 개념어: {m.group()}")
             r = RELATIVE.search(b.get(key, ""))
             if r:
                 bad.append(f"S{b['n']} {key} 에 관계 표현: {r.group()}")
+    for bc in BODY_COLOUR.finditer(assets_text):
+        bad.append(f"자산에 맨살 색 형용(옷이 된다): {bc.group()}")
+
+    # 카드의 한 줄 미끼·권역/갈래·계절은 자동 생성이 아니라 사람이 적는 파일이다.
+    # 작품 네 편이 요약 없이 발행됐다(실측: 성냥팔이~눈의 여왕) — 큐에 올리기 전에 잡는다.
+    for fname, label, keys in (("blurbs.json", "한줄요약(works/blurbs.json)", ("blurb", "mood")),
+                               ("categories.json", "권역·갈래(works/categories.json)", ("region", "genre"))):
+        try:
+            entry = json.loads(pathlib.Path("works", fname).read_text(encoding="utf-8")).get(work)
+        except Exception:
+            entry = None
+        if not isinstance(entry, dict) or not all(entry.get(k) for k in keys):
+            bad.append(f"{label} 항목 없음")
 
     n = d/"narration_night.json"
     if n.exists():
@@ -143,6 +198,26 @@ def check(work: str) -> list:
             near = _keys(N[i - 1]) | _keys(N[i - 2])
             if not (_keys(N[i]) & near) - JOIN:
                 bad.append(f"S{i+1} 이 앞 두 문장과 이어지지 않는다")
+
+        # 말투. "~지요" 만 열네 번 이어지면 낭독이 한 가락으로 굳는다(사용자 지적 09-08).
+        # 자동 대본기와 같은 잣대 — 같은 계열 연속 2회 초과 금지, 한 계열이 절반 초과 금지.
+        # 마지막 문장(마무리 문구)은 뺀다. 대사(따옴표 안)와 [역할·감정] 꼬리표는 어미 판정에서 지운다.
+        try:
+            sys.path.insert(0, str(pathlib.Path(__file__).parent))
+            from write_script import ending_class
+            body = [re.sub(r'\[[^\]]*\]|[“"「][^”"」]*[”"」]', "", x).strip() for x in N[:-1]]
+            cls = [ending_class(x) for x in body if x]
+            run = 1
+            for a, b in zip(cls, cls[1:]):
+                run = run + 1 if a == b else 1
+                if run > 2:
+                    bad.append(f"같은 말투가 셋 이상 이어진다({b})"); break
+            if cls:
+                top = max(set(cls), key=cls.count)
+                if cls.count(top) * 2 > len(cls):
+                    bad.append(f"말투가 {top} 로 쏠렸다({cls.count(top)}/{len(cls)})")
+        except Exception:
+            pass
     return bad
 
 

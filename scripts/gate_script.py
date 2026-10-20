@@ -76,13 +76,20 @@ def gate(nar: dict, ending: str, maxlen: int, spoil: set = frozenset()) -> list:
     for i, m in leak_issues(sents):
         bad.append(f"S{i+1} {m.split('—')[0].strip()}")
 
-    over = [(i + 1, len(s)) for i, s in enumerate(sents) if len(s) > maxlen + 5]
+    # 대사 문장: [역할·감정] "대사" 는 지문과 따로 잰다(지문 ≤ maxlen+5, 대사 ≤ 16자).
+    LINE = re.compile(r'\s*\[([^\]\[]*)\]\s*[“"「]([^”"」]+)[”"」]\s*$')
+    def _nar(s):
+        m = LINE.search(s); return s[:m.start()].strip() if m else s
+    over = [(i + 1, len(_nar(s))) for i, s in enumerate(sents) if len(_nar(s)) > maxlen + 5]
+    over += [(i + 1, len(m.group(2))) for i, s in enumerate(sents)
+             for m in [LINE.search(s)] if m and len(m.group(2).strip()) > 16]
     if over:
         bad.append("길이 초과 " + ", ".join(f"S{i}({n}자)" for i, n in over))
 
     lo, hi = ((HAND_MIN, HAND_MAX) if nar.get("author") == "hand"
               else (BUDGET_MIN, BUDGET_MAX))
-    total = sum(len(s) for s in sents)
+    # 분량 = 지문 + 대사 말(꼬리표·따옴표 제외). 대사도 낭독 시간을 쓰므로 함께 센다.
+    total = sum(len(_nar(s)) + (len(LINE.search(s).group(2).strip()) if LINE.search(s) else 0) for s in sents)
     if not lo - 15 <= total <= hi + 15:
         bad.append(f"전체 {total}자 (예산 {lo}~{hi})")
 

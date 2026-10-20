@@ -38,7 +38,8 @@ dequeue() {
   # 더 이상 일치하지 않아 아무것도 지워지지 않는다 — 그 작품이 완성·발행을
   # 끝없이 되풀이한다(실측: 심청전이 화풍을 고친 뒤 발행하고도 큐에 남았다).
   local key=${1%%$'\t'*}
-  awk -F'\t' -v k="$key" '$1 != k' "$Q" >"$Q.t" || true
+  # 같은 작품을 두 줄 넣으면(재수리 예약) 한 번에 다 지워지던 것을 첫 줄만 지우게 한다(실측: 완두콩 재수리 줄 소실).
+  awk -F'\t' -v k="$key" '!d && $1 == k {d=1; next} {print}' "$Q" >"$Q.t" || true
   mv "$Q.t" "$Q"
 }
 say() { echo "[$(date +%H:%M:%S)] $*" | tee -a "$LOG"; }
@@ -153,7 +154,10 @@ while grace_ok; do
   # 그대로 재조립해 결함째 재발행했다). 둘 중 무엇이든 키프레임보다 새로우면 굽는다.
   hand_tre="works/handwritten/$work/treatment.json"
   if [ -n "$newest_kf" ] && { [ "output/$work/narration_night.json" -nt "$newest_kf" ]        || { [ -f "$hand_tre" ] && [ "$hand_tre" -nt "$newest_kf" ]; }; }; then
-    say "  원고가 그림보다 새것 — 옛 산출물을 버리고 다시 만든다"
+    say "  원고가 그림보다 새것 — 옛 산출물을 prev/ 에 보관하고 다시 만든다"
+    # 지우지 않고 output/<work>/prev/<도장>/ 로 옮긴다 — 관리자에서 이전 판과 비교할 수
+    # 있어야 한다(사용자 지적 09-11 "이전버전을 삭제하지말고 남겨두어야 전에거랑 비교가 되지").
+    venv/bin/python scripts/archive_prev.py --current "$work" >>"$LOG" 2>&1 || true
     rm -f "output/${work}_kf"/*.png "output/${work}_i2v"/*.mp4 \
           output/tts/"${work}"_night_s*.wav "output/$work/final_night.mp4"
   fi
@@ -346,6 +350,7 @@ d = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
 d[sys.argv[1]] = {'image': sys.argv[2], 'motion': ''}
 f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
 " "$i" "${style}${desc}" 2>/dev/null
+    venv/bin/python scripts/comfy_wait.py >>"$LOG" 2>&1     # ComfyUI 를 나눠 쓴다 — 남의 작업이 있으면 기다린다
     venv/bin/python scripts/gen_keyframe.py --seed $((200+i)) $REFS \
       --prefix "${work}_kf/night_s${i}" --prompt "${style}${desc}" --negative "$NEG" >>"$LOG" 2>&1 \
       || say "  ③ s${i} 키프레임 실패"
@@ -389,6 +394,7 @@ d = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
 d.setdefault(sys.argv[1], {})['motion'] = sys.argv[2]
 f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
 " "$i" "$mot" 2>/dev/null
+    venv/bin/python scripts/comfy_wait.py >>"$LOG" 2>&1
     venv/bin/python scripts/gen_i2v.py --image "night_${work}_${i}.png" \
       --prefix "${work}_i2v/night_s${i}" --length "$fr" --seed 42 \
       --prompt "$mot" \
@@ -399,6 +405,10 @@ f.write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding='utf-8')
   say "  ④ 클립 $N개"
 
   # ── ⑤ 조립 (음량 -14 LUFS 로 정규화) ──
+
+  # 재조립 전 옛 완성본을 prev/ 로 옮긴다 — 같은 경로에 덮어쓰면 발행 하드링크의 옛 판까지 새 내용이 된다.
+
+  [ -s "output/$work/final_night.mp4" ] && venv/bin/python scripts/archive_prev.py --final-only "$work" >>"$LOG" 2>&1
   ASM=/tmp/night_asm_$work; rm -rf "$ASM"; mkdir -p "$ASM"
   for i in $(seq 1 "$N"); do
     d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "output/tts/${work}_night_s${i}.wav")
