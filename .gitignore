@@ -25,3 +25,13 @@ admin/.next/
 admin/next-env.d.ts
 admin/tsconfig.tsbuildinfo
 admin/public/fonts/
+
+# /data/bard 로 가는 심볼릭 링크 — 위의 'output/'·'deliverables/' 는 디렉터리에만 걸려 링크는 못 거른다
+/output
+/deliverables
+
+# Qwen TTS 전용 가상환경(5.8GB)
+venv-tts/
+
+# 큐 수동 백업
+works/queue.txt.bak.*
