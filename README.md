@@ -34,7 +34,7 @@ GPU는 **Quadro RTX 6000 24GB ×2 (Turing, sm_75)** — 이 하드웨어의 제�
 | fp16 텐서코어 실측 | **약 90 TFLOPS** (이론 피크의 ~70%) | 워밍업 후 8192² matmul 30회 |
 | ComfyUI | **:8188** · systemd `comfyui.service` | `curl -s localhost:8188/queue` |
 | Ollama | **:11434** · `qwen3.6:27b` (Q4_K_M 17GB) | `ollama list \| grep qwen` |
-| 관리자 API | **:8010** (FastAPI, `0.0.0.0` 바인딩) | `curl -s localhost:8010/api/health` |
+| 관리자 API | **:8010** (FastAPI, `127.0.0.1` 바인딩 — Next 가 프록시) | `curl -s localhost:8010/api/health` |
 | 관리자 UI | **:3001** (Next.js 15, Node 20) | `curl -s -o /dev/null -w '%{http_code}' localhost:3001` |
 | 키프레임 1장 | **약 5분** (Qwen-Image Q4, 720×1280, 20스텝, CFG 2.5) | `logs/kf_*.log` 의 `완료 NNNs` |
 | 참조 편집 1장 | **약 15분** (Qwen-Image-Edit-2509) | `logs/s6edit*.log` |

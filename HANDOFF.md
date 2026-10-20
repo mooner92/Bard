@@ -1,5 +1,8 @@
 # HANDOFF — 세션 인수인계 (2026-08-14, v1 기준)
 
+> **최신 인수인계는 [docs/HANDOFF_2026-09-07.md](docs/HANDOFF_2026-09-07.md)** — 재부팅 복구 순서·큐·이어갈 작업. 아래는 2026-08-14 v1 시점 기록.
+
+
 다른 Claude Code 세션(또는 사람)이 이 프로젝트를 이어받기 위한 상태 요약.
 **합격 기준은 [docs/SPEC.md](docs/SPEC.md)**, 기술 절차는 [docs/PIPELINE.md](docs/PIPELINE.md),
 개요는 [README.md](README.md).
